@@ -1,0 +1,469 @@
+color = { 123  183  123 }
+graphical_culture = Generic
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	ENG_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={
+
+#	air_cav_brigade ={}
+#	armor_brigade = {}
+#	cavalry_brigade ={}		
+#	heavy_mechanized_brigade = {}
+	infantry_brigade = {
+		"1st Division" "2nd Division" "3rd Division" "4th Division" "5th Division" "6th Division"
+	}
+#	light_mechanized_brigade = {}	
+#	marine_brigade = {}
+	militia_brigade ={ }
+#	motorized_brigade ={}	
+#	bergsjaeger_brigade ={}	
+
+} 
+ministers = {
+1242000 = {
+		name = "Bechara El Khoury"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_El_Khoury_Bechara
+		head_of_state = reformer_type
+		start_date = 1946.1.1
+		death_date = 1952.9.18
+	}
+	
+	
+1242001 = {
+		name = "Fuad Chehab"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_Chehab_Fuad
+		head_of_state = autocrat_type
+		start_date = 1952.9.18
+		death_date = 1964.9.22
+	}	
+#1242003
+	
+1242002 = {
+		name = "Camille N. Chamoun"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = LEB_M_Chamoun_Camille_N
+		head_of_state = autocrat_type
+		start_date = 1952.9.18
+		death_date = 1958.9.22
+	}
+		
+1242004 = {
+		name = "Charles Helou"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Helou_Charles
+		head_of_state = autocrat_type
+		start_date = 1964.9.22
+		death_date = 1970.9.22
+	}	
+1242005 = {
+		name = "Suleiman K. Frangieh"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Frangieh_Suleiman_K
+		head_of_state = autocrat_type
+		start_date = 1970.9.22
+		death_date = 1976.9.22
+	}
+1242006 = {
+		name = "Elias Y. Sarkis"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Sarkis_Elias_Y
+		head_of_state = bureaucrat_type
+		start_date = 1976.9.22
+		death_date = 1982.9.22
+	}	
+1242007 = {
+		name = "Amine P. Gemayel"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = LEB_M_Gemayel_Amine_P
+		head_of_state = bureaucrat_type
+		start_date = 1982.9.22
+		death_date = 1988.9.22
+	}	
+1242008 = {
+		name = "Selim A. el-Hoss"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_El-Hoss_Selim_A
+		head_of_state = autocrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1976.12.8
+		death_date = 1990.12.24
+	}
+#1242010
+#1242045
+#1242049
+	
+	
+	
+	
+1242009 = {
+		name = "René Moawad"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Moawad_Rene
+		head_of_state = autocrat_type
+		start_date = 1989.11.5
+		death_date = 1989.11.22
+	}	
+
+
+
+
+	
+1242011 = {
+		name = "Elias Hrawi"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Hrawi_Elias
+		head_of_state = autocrat_type
+		start_date = 1989.11.24
+		death_date = 1998.11.24
+	}	
+	
+	
+1242012 = {
+		name = "Sami al-Solh"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_Solh_Sami
+		head_of_government = reformer_type
+		start_date = 1945.8.23
+		death_date = 1958.9.20
+	}	
+#1242017
+#1242024
+#1242027
+	
+
+1242013 = {
+		name = "Saadi al-Munla"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Munla_Saadi_al
+		head_of_government = bureaucrat_type
+		start_date = 1946.5.22
+		death_date = 1946.12.14
+	}	
+1242014 = {
+		name = "Riad al-Solh"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Solh_Riad
+		head_of_government = reformer_type
+		start_date = 1946.12.14
+		death_date = 1951.2.14
+	}
+1242015 = {
+		name = "Hussein Oweini"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_Oweini_Hussein
+		head_of_government = bureaucrat_type
+		start_date = 1951.2.14
+		death_date = 1965.7.25
+	}	
+#1242033
+	
+1242016 = {
+		name = "Abdallah El-Yafi"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_El-Yafi_Abdallah
+		head_of_government = bureaucrat_type
+		start_date = 1951.4.7
+		death_date = 1969.1.15
+	}
+#1242020
+#1242023
+#1242026
+#1242035
+#1242037
+	
+	
+	
+1242018 = {
+		name = "Nazim Akkari"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Akkari_Nazim
+		head_of_government = bureaucrat_type
+		start_date = 1952.9.10
+		death_date = 1952.9.14
+	}
+
+	
+1242019 = {
+		name = "Saeb Salam"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Salam_Saeb
+		head_of_government = reformer_type
+		start_date = 1952.9.14
+		death_date = 1973.4.25
+	}
+#1242022
+#1242031
+#1242039
+
+
+
+	
+
+	
+	
+	
+	
+	
+1242021 = {
+		name = "Khaled Chehab"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Chehab_Khaled
+		head_of_government = hardliner_type
+		start_date = 1952.9.30
+		death_date = 1953.5.1
+	}	
+
+
+	
+
+
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+1242028 = {
+		name = "Khalil al-Hibri"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Hibri_Khalil
+		head_of_government = bureaucrat_type
+		start_date = 1958.9.20
+		death_date = 1958.9.24
+	}	
+
+
+	
+1242025 = {
+		name = "Rashid A. H. Karami"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_Karami_Rashid_A_H
+		head_of_government = democrat_type
+		start_date = 1955.9.19
+		death_date = 1987.6.1
+	}
+#1242029
+#1242032
+#1242034
+#1242036
+#1242038
+#1242044
+#1242048
+	
+	
+	
+	
+	
+1242030 = {
+		name = "Ahmed Daouk"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Daouk_Ahmed
+		head_of_government = bureaucrat_type
+		start_date = 1960.5.14
+		death_date = 1960.8.1
+	}		
+
+
+
+1242040 = {
+		name = "Amin al-Hafez"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Hafez_Amin
+		head_of_government = bureaucrat_type
+		start_date = 1973.4.25
+		death_date = 1973.6.21
+	}	
+	
+	
+1242041 = {
+		name = "Takieddin el-Solh"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_Solh_Takieddin
+		head_of_government = bureaucrat_type
+		start_date = 1973.6.21
+		death_date = 1980.10.25
+	}	
+#1242042
+#1242046
+
+	
+1242043 = {
+		name = "Rashid el-Solh"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = LEB_M_Solh_Rashid
+		head_of_government = bureaucrat_type
+		start_date = 1974.10.31
+		death_date = 1992.10.31
+	}		
+#1242051	
+
+
+	
+1242047 = {
+		name = "Shafik D. al-Wazzan"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_al_Wazzan_Shafik_D
+		head_of_government = bureaucrat_type
+		start_date = 1980.10.25
+		death_date = 1984.4.30
+	}	
+
+
+1242050 = {
+		name = "Omar A. H. Karami"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_Karami_Omar_A_H
+		head_of_state = bureaucrat_type
+		start_date = 1990.12.24
+		death_date = 1992.5.13
+	}
+	
+1242052 = {
+		name = "Rafic B. E. D. al-Hariri"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = LEB_M_al-Hariri_Rafic_B_E_D
+		head_of_government = administrator_type
+		start_date = 1992.10.31
+		death_date = 1998.12.2
+	}	
+
+	#WATW
+	1242100 = { #P
+		name = "Elias Atallah"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = LEB_M_Atallah_Elias
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1971.1.1
+		death_date = 2300.1.1
+	}	
+	1242101 = { #P
+		name = "George Hawi"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = LEB_M_Hawi_George
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1969.1.1
+		death_date = 2005.6.21
+	}	
+	1242102 = { #P
+		name = "Kamal Jumblatt"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = LEB_M_Jumblatt_Kamal
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1945.1.1
+		death_date = 1977.3.16
+	}
+	1242103 = { #P
+		name = "Abdullah Azimi"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = LEB_M_Azimi_Abdullah
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1967.5.8
+		death_date = 1989.3.1
+	}
+
+}

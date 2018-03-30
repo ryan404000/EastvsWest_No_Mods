@@ -1,0 +1,96 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_bg_peace"
+		texturefile = "gfx\\interface\\peace\\peace_negot_window_naked.dds"
+		
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_bg_peace_entry"
+		texturefile = "gfx\\interface\\peace_negotiation_list.dds"
+		
+		norefcount = yes
+	}
+
+	textSpriteType = {
+		name = "GFX_peace_button_big"
+		texturefile = "gfx\\interface\\diplo_button_peace_big.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_peace_button_small"
+		texturefile = "gfx\\interface\\diplo_button_peace_small.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_peace_button_vsmall"
+		texturefile = "gfx\\interface\\diplo_button_peace_vsmall.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	spriteType = {
+		name = "GFX_peace_type_button"
+		texturefile = "gfx\\interface\\peace_negotiation_offer_btn.dds"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	textSpriteType = {
+		name = "GFX_peace_sort_1"
+		texturefile = "gfx\\interface\\peace\\peace_negot_sort_btn_1.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+	textSpriteType = {
+		name = "GFX_peace_sort_2"
+		texturefile = "gfx\\interface\\peace\\peace_negot_sort_btn_2.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+	textSpriteType = {
+		name = "GFX_peace_sort_white_1"
+		texturefile = "gfx\\interface\\peace\\peace_negot_sort_white.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	textSpriteType = {
+		name = "GFX_peace_sort_white_2"
+		texturefile = "gfx\\interface\\peace\\peace_negot_sort_white2.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	SpriteType = {
+		name = "GFX_peace_plate"
+		texturefile = "gfx\\interface\\peace\\peace_negot_plate.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	textSpriteType = {
+		name = "GFX_peace_demandoffer"
+		texturefile = "gfx\\interface\\peace\\peace_negot_demand_offer.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+
+}

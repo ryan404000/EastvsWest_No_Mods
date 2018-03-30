@@ -1,0 +1,44 @@
+theatre =
+{
+	name = "East Turkestan Theatre"
+	location = 10664
+	regiment = { type = hq_brigade name = "East Turkestan HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Ili National Army"
+		location = 10664
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 10664
+			regiment = { type = infantry_brigade name = "Ghulja Regiment" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "Mongol Regiment" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = militia_brigade name = "Ghulja Reserve Regiment" historical_model = 0 strength = 35 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 10967
+			regiment = { type = infantry_brigade name = "Tungan Regiment" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "Kazakh Cavalry Regiment" historical_model = 0 strength = 35 experience = 5  }
+			regiment = { type = militia_brigade name = "Kensai Regiment" historical_model = 0 strength = 35 experience = 5 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 10968
+			regiment = { type = infantry_brigade name = "Suidan Infantry Regiment" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = militia_brigade name = "Sibo Regiment" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = artillery_brigade name = "Artillery Regiment" historical_model = 0 strength = 20 experience = 5 }
+		}
+	}
+	air = {
+		name = "Ili National Air Force"
+		base = 10664
+		location = 10664
+		wing = { type = multi_role name = "Ili Aviation Brigade" historical_model = 0 strength = 50 builder = CHI }
+	}	
+}

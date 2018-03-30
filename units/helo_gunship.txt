@@ -1,0 +1,61 @@
+helo_gunship = {
+	goods_usage = 
+	{
+		aviation_industry = 0.01
+	}
+	type = air
+	active = no
+	sprite = Cas
+	
+	is_bomber = yes
+
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 11.00
+	build_cost_manpower = 1.30
+	build_time = 180
+
+	#Misc Abilities
+	maximum_speed = 180.00
+	transport_capability = 0.00
+	supply_consumption = 1.50
+	fuel_consumption = 2.30
+	range = 200.00
+	
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 0.00
+
+	#Defensive Abilities
+	surface_defence = 4.00
+	air_defence = 1.00
+
+	#Offensive Abilities
+	soft_attack = 6.00
+	hard_attack = 4.00
+	sea_attack = 2.00
+	air_attack = 1.00
+	strategic_attack = 0.00
+	sub_attack = 1.00
+
+		
+	plains = 	{ attack = -0.10 }
+	desert = 	{ attack = -0.10 }
+	arctic  = 	{ attack = -0.10 }
+#	urban =		{ attack = -0.40 }
+   	marsh = 	{ attack = -0.50 }
+	jungle = 	{ attack = -0.80 }
+	forest = 	{ attack = -0.60 }
+	woods = 	{ attack = -0.30 }
+	mountain = 	{ attack = -0.40 }
+	high_mountain =	{ attack = -0.60 }
+	hills =         { attack = -0.30 }
+	priority = 2
+
+}

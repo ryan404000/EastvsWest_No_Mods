@@ -1,0 +1,55 @@
+nuclear_missile_cruiser = {
+	type = naval
+	sprite = HeavyCruiser
+	active = no
+	capital = yes
+	goods_usage = 
+	{
+		heavy_industry = 0.03
+		naval_yards = 0.04
+	}
+
+	hull = 2.5
+	modelsize = 9
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 15	#30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost= 75.20
+	build_cost_manpower = 1.50
+	build_time = 1100
+
+	#Misc Abilities
+	maximum_speed = 32.00
+	transport_capability = 0.00
+	supply_consumption = 0.40
+	fuel_consumption = 0.58
+	range = 90000.00
+	
+
+	#Detection Abilities
+	surface_detection = 5.00
+	air_detection = 6.00
+	sub_detection = 2.00
+	visibility = 98.00
+	air_radar_range = 160
+	surface_radar_range = 30
+	sonar_range = 4.5
+
+	#Defensive Abilities
+	sea_defence = 4.00
+	air_defence = 5.00
+
+	#Offensive Abilities
+	convoy_attack = 6.00
+	sea_attack = 8.00
+	sub_attack = 1.00
+	air_attack = 2.00
+	shore_bombardment = 2.00	#3
+
+	priority = 6
+}

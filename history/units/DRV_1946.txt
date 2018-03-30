@@ -1,0 +1,60 @@
+theatre =
+{
+	name = "People's Army of Vietnam"
+	location = 12215
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Steel and Iron Army"
+		location = 12215
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "308th Pioneer Div."
+			location = 12215
+			regiment = { type = infantry_brigade name = "102nd Capital Brigade" historical_model = 0 strength = 37 experience = 62 }
+			regiment = { type = infantry_brigade name = "88th Tu Vu Brigade" historical_model = 0 strength = 34 experience = 52 }
+			regiment = { type = infantry_brigade name = "35th Brigade" historical_model = 0 strength = 35 experience = 40 }
+		}
+		division =
+		{
+			name = "312th Victory Div."
+			location = 12149
+			regiment = { type = infantry_brigade name = "11th Brigade" historical_model = 0 strength = 36 experience = 20 }
+			regiment = { type = militia_brigade name = "312th Victory Mil." historical_model = 0 strength = 38 experience = 20 }
+		}
+	}
+	army =
+	{
+		name = "People's Army Volunteers"
+		location = 12148
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "2nd People's Mil."
+			location = 12079
+			regiment = { type = militia_brigade name = "2nd People's Mil." historical_model = 0 strength = 35 experience = 21 }
+		}
+		division =
+		{
+			name = "1st People's Mil."
+			location = 12006
+			regiment = { type = militia_brigade name = "1st People's Mil." historical_model = 0 strength = 36 experience = 22 }
+		}
+		division =
+		{
+			name = "3rd People's Mil."
+			location = 12078
+			regiment = { type = militia_brigade name = "3rd People's Mil." historical_model = 0 strength = 37 experience = 23 }
+		}
+		division =
+		{
+			name = "4th People's Mil."
+			location = 12149
+			regiment = { type = militia_brigade name = "4th People's Mil." historical_model = 0 strength = 34 experience = 25 }
+		}
+	}
+}

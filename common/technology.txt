@@ -1,0 +1,102 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+
+theoretical= {
+	nato_theory
+	warsaw_theory
+	political_theory
+	intel_theory
+	front_theory
+	asymmetric_theory
+	army_theory
+	arsenal_theory
+	surface_theory
+	hqandsub_theory
+	armament_theory
+	vessels_theory
+	systems_theory
+	airstrategy_theory
+	airtactical_theory
+	aircraft_theory
+	aviation_theory
+	science_theory	
+	industry_theory
+	nuclear_theory
+	space_theory	
+#PREVIOUS	
+	infantry_theory
+	militia_theory
+	mobile_theory
+	artillery_theory
+	rocket_science
+	submarine_engineering
+	electornicegineering_theory  
+	aeronautic_engineering
+	automotive_theory 
+	spearhead_theory
+	superior_firepower_theory
+	grand_battleplan_theory
+	human_wave_theory
+	base_strike_doctrine
+	fleet_in_being_doctrine
+	sealane_interdiction_doctrine
+	fighter_focus
+	cas_focus
+	tac_focus
+	nav_focus
+	strategic_air_focus
+	mechanicalengineering_theory
+	chemical_engineering
+	jetengine_theory
+	nuclear_physics
+}
+practical = {
+	infantry_practical
+	militia_practical
+	mobile_practical
+	artillery_practical
+	rocket_practical
+	naval_engineering
+	destroyer_practical 
+	cruiser_practical
+	capitalship_practical
+	carrier_practical
+	submarine_practical
+	electornicegineering_practical
+	armour_practical
+	single_engine_aircraft_practical
+	twin_engine_aircraft_practical
+	four_engine_aircraft_practical
+	land_doctrine_practical
+	naval_doctrine_practical
+	air_doctrine_practical
+	jetengine_practical
+	nuclear_bomb 
+	transport_practical
+	construction_practical
+}
+
+folders = {
+	nato_doctrine1_folder
+	warsaw_doctrine1_folder
+	combined_doctrine1_folder
+	land_doctrine1_folder
+	land_doctrine2_folder
+	naval_doctrine1_folder
+	naval_doctrine2_folder
+	air_doctrine1_folder
+	air_doctrine2_folder	
+	land_tech1_folder
+	land_tech2_folder
+	naval_tech1_folder
+	naval_tech2_folder
+	naval_tech3_folder
+	air_tech1_folder
+	air_tech2_folder
+	general_tech1_folder
+	general_tech2_folder
+	nuclear_tech1_folder
+	space_tech1_folder
+	industrial_tech1_folder
+} 

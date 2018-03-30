@@ -1,0 +1,866 @@
+# ----------------------- SUBS -----------------------------------
+# Model WW2
+submarine.0 = {
+	slotdata = { id = torpedo_complex level = 0 x = 660 y = 685 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 0 x = 90 y = 685 ammo_store = 8}
+}
+submarine.1 = {
+	slotdata = { id = torpedo_complex level = 0 x = 660 y = 685 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 0 x = 90 y = 685 ammo_store = 8}
+}
+# Model 1950
+submarine.1 = {
+	slotdata = { id = torpedo_complex level = 2 x = 660 y = 685 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 2 x = 90 y = 685 ammo_store = 8}
+}
+# Model 1950
+attack_submarine.0 = {
+	slotdata = { id = torpedo_complex level = 2 x = 656 y = 676 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 2 x = 106 y = 676 ammo_store = 8}
+}
+# Model 1955
+attack_submarine.1 = {
+	slotdata = { id = torpedo_complex level = 3 x = 656 y = 669 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 3 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1960
+attack_submarine.2 = {
+	slotdata = { id = torpedo_complex level = 4 x = 656 y = 669 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 4 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1965
+attack_submarine.3 = {
+	slotdata = { id = torpedo_complex level = 5 x = 656 y = 669 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 5 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1970
+attack_submarine.4 = {
+	slotdata = { id = torpedo_complex level = 6 x = 656 y = 669 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 6 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1975
+attack_submarine.5 = {
+	slotdata = { id = torpedo_complex level = 7 x = 656 y = 669 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 7 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1980
+attack_submarine.6 = {
+	slotdata = { id = torpedo_complex level = 8 x = 656 y = 669 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 8 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1985
+attack_submarine.7 = {
+	slotdata = { id = torpedo_complex level = 9 x = 656 y = 669 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 9 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1990
+attack_submarine.8 = {
+	slotdata = { id = torpedo_complex level = 10 x = 656 y = 669 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 10 x = 106 y = 669 ammo_store = 8}	
+}
+# Model 1955
+guided_submarine.0 = {
+	slotdata = { id = torpedo_complex level = 3 x = 667 y = 668 ammo_store = 8}
+	slotdata = { id = torpedo_complex level = 3 x = 87 y = 668 ammo_store = 4}	
+	slotdata = { id = lr_as_complex level = 1 x = 337 y = 647 ammo_store = 1 }
+}
+# Model 1960
+guided_submarine.1 = {
+	slotdata = { id = torpedo_complex level = 4 x = 667 y = 668 ammo_store = 8}
+	slotdata = { id = torpedo_complex level = 4 x = 87 y = 668 ammo_store = 4}	
+	slotdata = { id = lr_as_complex level = 2 x = 337 y = 647 ammo_store = 1 }
+}
+# Model 1965
+guided_submarine.2 = {
+	slotdata = { id = torpedo_complex level = 5 x = 667 y = 668 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 5 x = 87 y = 668 ammo_store = 4}	
+	slotdata = { id = lr_as_complex level = 3 x = 337 y = 647 ammo_store = 2 }
+}
+# Model 1970
+guided_submarine.3 = {
+	slotdata = { id = torpedo_complex level = 6 x = 667 y = 668 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 6 x = 87 y = 668 ammo_store = 4}	
+	slotdata = { id = lr_as_complex level = 4 x = 337 y = 647 ammo_store = 3 }
+}
+# Model 1975
+guided_submarine.4 = {
+	slotdata = { id = torpedo_complex level = 7 x = 667 y = 668 ammo_store = 16}
+	slotdata = { id = torpedo_complex level = 7 x = 87 y = 668 ammo_store = 8}	
+	slotdata = { id = lr_as_complex level = 5 x = 337 y = 647 ammo_store = 4 }
+}
+# Model 1980
+guided_submarine.5 = {
+	slotdata = { id = torpedo_complex level = 8 x = 667 y = 668 ammo_store = 16}
+	slotdata = { id = torpedo_complex level = 8 x = 87 y = 668 ammo_store = 8}	
+	slotdata = { id = lr_as_complex level = 6 x = 337 y = 647 ammo_store = 6 }
+}
+# Model 1985
+guided_submarine.6 = {
+	slotdata = { id = torpedo_complex level = 9 x = 667 y = 668 ammo_store = 20}
+	slotdata = { id = torpedo_complex level = 9 x = 87 y = 668 ammo_store = 8}
+	slotdata = { id = lr_as_complex level = 7 x = 337 y = 647 ammo_store = 6}
+}
+# Model 1990
+guided_submarine.7 = {
+	slotdata = { id = torpedo_complex level = 10 x = 667 y = 668 ammo_store = 20}
+	slotdata = { id = torpedo_complex level = 10 x = 87 y = 668 ammo_store = 8}
+	slotdata = { id = lr_as_complex level = 8 x = 337 y = 647 ammo_store = 6}
+}
+
+# ----------------------- NUCLEAR SUBS -----------------------------------
+# Model 1960
+nuclear_submarine.0 = {
+	slotdata = { id = torpedo_complex level = 4 x = 867 y = 548 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 4 x = 867 y = 548 ammo_store = 8}	
+}
+# Model 1965
+nuclear_submarine.1 = {
+	slotdata = { id = torpedo_complex level = 5 x = 867 y = 548 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 5 x = 867 y = 548 ammo_store = 8}	
+}
+# Model 1970
+nuclear_submarine.2 = {
+	slotdata = { id = torpedo_complex level = 6 x = 867 y = 548 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 6 x = 867 y = 548 ammo_store = 8}	
+}
+# Model 1975
+nuclear_submarine.3 = {
+	slotdata = { id = torpedo_complex level = 7 x = 867 y = 548 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 7 x = 867 y = 548 ammo_store = 8}	
+}
+# Model 1980
+nuclear_submarine.4 = {
+	slotdata = { id = torpedo_complex level = 8 x = 867 y = 548 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 8 x = 867 y = 548 ammo_store = 8}	
+}
+# Model 1985
+nuclear_submarine.5 = {
+	slotdata = { id = torpedo_complex level = 9 x = 867 y = 548 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 9 x = 867 y = 548 ammo_store = 8}	
+}
+# Model 1990
+nuclear_submarine.6 = {
+	slotdata = { id = torpedo_complex level = 10 x = 867 y = 548 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 10 x = 867 y = 548 ammo_store = 8}	
+}
+# Model 1960
+nuclear_guided_submarine.0 = {
+	slotdata = { id = torpedo_complex level = 4 x = 647 y = 668 ammo_store = 8}
+	slotdata = { id = torpedo_complex level = 4 x = 177 y = 668 ammo_store = 4}	
+	slotdata = { id = lr_as_complex level = 2 x = 607 y = 637 ammo_store = 1 }
+}
+# Model 1965
+nuclear_guided_submarine.1 = {
+	slotdata = { id = torpedo_complex level = 5 x = 647 y = 668 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 5 x = 177 y = 668 ammo_store = 4}	
+	slotdata = { id = lr_as_complex level = 3 x = 607 y = 637 ammo_store = 2 }
+}
+# Model 1970
+nuclear_guided_submarine.2 = {
+	slotdata = { id = torpedo_complex level = 6 x = 647 y = 668 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 6 x = 177 y = 668 ammo_store = 4}	
+	slotdata = { id = lr_as_complex level = 4 x = 607 y = 637 ammo_store = 3 }
+}
+# Model 1975
+nuclear_guided_submarine.3 = {
+	slotdata = { id = torpedo_complex level = 7 x = 647 y = 668 ammo_store = 16}
+	slotdata = { id = torpedo_complex level = 7 x = 177 y = 668 ammo_store = 8}	
+	slotdata = { id = lr_as_complex level = 5 x = 607 y = 637 ammo_store = 4 }
+}
+# Model 1980
+nuclear_guided_submarine.4 = {
+	slotdata = { id = torpedo_complex level = 8 x = 647 y = 668 ammo_store = 16}
+	slotdata = { id = torpedo_complex level = 8 x = 177 y = 668 ammo_store = 8}	
+	slotdata = { id = lr_as_complex level = 6 x = 607 y = 637 ammo_store = 6 }
+}
+# Model 1985
+nuclear_guided_submarine.5 = {
+	slotdata = { id = torpedo_complex level = 9 x = 647 y = 668 ammo_store = 20}
+	slotdata = { id = torpedo_complex level = 9 x = 177 y = 668 ammo_store = 8}
+	slotdata = { id = lr_as_complex level = 7 x = 607 y = 637 ammo_store = 6}
+}
+# Model 1990
+nuclear_guided_submarine.6 = {
+	slotdata = { id = torpedo_complex level = 10 x = 647 y = 668 ammo_store = 20}
+	slotdata = { id = torpedo_complex level = 10 x = 177 y = 668 ammo_store = 8}
+	slotdata = { id = lr_as_complex level = 8 x = 607 y = 637 ammo_store = 6}
+}
+# Model 1960
+ballistic_missile_submarine.0 = {
+	slotdata = { id = slbm_complex level = 1 x = 371 y = 639 ammo_store = 4}
+	slotdata = { id = torpedo_complex level = 4 x = 630 y = 665 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 4 x = 130 y = 665 ammo_store = 4}	
+}
+# Model 1965
+ballistic_missile_submarine.1 = {
+	slotdata = { id = slbm_complex level = 2 x = 371 y = 639 ammo_store = 4}
+	slotdata = { id = torpedo_complex level = 5 x = 630 y = 665 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 5 x = 130 y = 665 ammo_store = 4}	
+}
+# Model 1970
+ballistic_missile_submarine.2 = {
+	slotdata = { id = slbm_complex level = 3 x = 371 y = 639 ammo_store = 8}
+	slotdata = { id = torpedo_complex level = 6 x = 630 y = 665 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 6 x = 130 y = 665 ammo_store = 4}	
+}
+# Model 1975
+ballistic_missile_submarine.3 = {
+	slotdata = { id = slbm_complex level = 4 x = 371 y = 639 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 7 x = 630 y = 665 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 7 x = 130 y = 665 ammo_store = 4}	
+}
+# Model 1980
+ballistic_missile_submarine.4 = {
+	slotdata = { id = slbm_complex level = 5 x = 371 y = 639 ammo_store = 12}
+	slotdata = { id = torpedo_complex level = 8 x = 630 y = 665 ammo_store = 18}
+	slotdata = { id = torpedo_complex level = 8 x = 130 y = 665 ammo_store = 8}	
+}
+# Model 1985
+ballistic_missile_submarine.5 = {
+	slotdata = { id = slbm_complex level = 6 x = 371 y = 639 ammo_store = 16}
+	slotdata = { id = torpedo_complex level = 9 x = 630 y = 665 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 9 x = 130 y = 665 ammo_store = 8}	
+}
+# Model 1990
+ballistic_missile_submarine.6 = {
+	slotdata = { id = slbm_complex level = 7 x = 440 y = 655 ammo_store = 16}
+	slotdata = { id = torpedo_complex level = 10 x = 630 y = 665 ammo_store = 24}
+	slotdata = { id = torpedo_complex level = 10 x = 130 y = 665 ammo_store = 8}
+}
+
+# ----------------------- SURFACE SHIPS -----------------------------------
+# Model 1955
+missile_boat.0 = {
+	slotdata = { id = gun_complex level = 3 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 3 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 1 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1960
+missile_boat.1 = {
+	slotdata = { id = gun_complex level = 4 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 4 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 2 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1965
+missile_boat.2 = {
+	slotdata = { id = gun_complex level = 5 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 5 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 3 x = 320 y = 655 ammo_store = 4}
+}
+# Model 1970
+missile_boat.3 = {
+	slotdata = { id = gun_complex level = 6 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 6 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 4 x = 320 y = 655 ammo_store = 4}
+
+}
+# Model 1975
+missile_boat.4 = {
+	slotdata = { id = gun_complex level = 7 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 7 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 5 x = 320 y = 655 ammo_store = 6}
+
+}
+# Model 1980
+missile_boat.5 = {
+	slotdata = { id = gun_complex level = 8 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 8 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 6 x = 320 y = 655 ammo_store = 6}
+
+}
+# Model 1985
+missile_boat.6 = {
+	slotdata = { id = gun_complex level = 9 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 9 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 7 x = 320 y = 655 ammo_store = 8}
+
+	
+}
+# Model 1990
+missile_boat.7 = {
+	slotdata = { id = gun_complex level = 10 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 10 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 8 x = 320 y = 655 ammo_store = 8}
+
+	
+}
+
+# ----------------------- FRIGATES -----------------------------------
+# Model 1955
+missile_frigate.0 = {
+	slotdata = { id = gun_complex level = 3 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 3 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 3 x = 481 y = 675}
+}
+# Model 1960
+missile_frigate.1 = {
+	slotdata = { id = gun_complex level = 4 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 4 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 4 x = 481 y = 675}
+}
+# Model 1965
+missile_frigate.2 = {
+	slotdata = { id = gun_complex level = 5 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 5 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 5 x = 481 y = 675}
+	
+}
+# Model 1970
+missile_frigate.3 = {
+	slotdata = { id = gun_complex level = 6 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 6 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 6 x = 481 y = 675}
+
+}
+# Model 1975
+missile_frigate.4 = {
+	slotdata = { id = gun_complex level = 7 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 7 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 7 x = 481 y = 675}
+	
+
+}
+# Model 1980
+missile_frigate.5 = {
+	slotdata = { id = gun_complex level = 8 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 8 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 8 x = 481 y = 675}
+	
+
+}
+# Model 1985
+missile_frigate.6 = {
+	slotdata = { id = gun_complex level = 9 x = 521 y = 675}
+	slotdata = { id = ciws_complex level = 9 x = 241 y = 658}
+	slotdata = { id = sr_aa_complex level = 9 x = 483 y = 675}
+}
+# Model 1990
+missile_frigate.7 = {
+	slotdata = { id = gun_complex level = 10 x = 521 y = 675}
+	slotdata = { id = ciws_complex level = 10 x = 241 y = 658}
+	slotdata = { id = sr_aa_complex level = 10 x = 483 y = 675}
+}
+
+# ----------------------- DESTROYERS -----------------------------------
+
+destroyer.0 = {
+	slotdata = { id = gun_complex level = 0 x = 150 y = 690}
+	slotdata = { id = gun_complex level = 0 x = 590 y = 678}
+	slotdata = { id = gun_complex level = 0 x = 207 y = 678}
+	slotdata = { id = ciws_complex level = 0 x = 554 y = 666}
+	slotdata = { id = torpedo_complex level = 0 x = 320 y = 678 ammo_store = 10}
+	slotdata = { id = torpedo_complex level = 0 x = 400 y = 675 ammo_store = 10}
+}
+# Model 1950
+destroyer.1 = {
+	slotdata = { id = gun_complex level = 2 x = 160 y = 680}
+	slotdata = { id = gun_complex level = 2 x = 570 y = 668}
+	slotdata = { id = gun_complex level = 2 x = 227 y = 668}
+	slotdata = { id = ciws_complex level = 2 x = 524 y = 656}
+	slotdata = { id = torpedo_complex level = 2 x = 290 y = 678 ammo_store = 10}
+	slotdata = { id = torpedo_complex level = 2 x = 360 y = 665 ammo_store = 10}
+}
+# Model 1960
+missile_destroyer.0 = {
+	slotdata = { id = gun_complex level = 4 x = 598 y = 651}
+	slotdata = { id = ciws_complex level = 4 x = 458 y = 651}
+	slotdata = { id = sr_aa_complex level = 4 x = 261 y = 648}
+	slotdata = { id = torpedo_complex level = 4 x = 411 y = 670 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 2 x = 311 y = 660}
+	slotdata = { id = ship_heli_complex level = 1 x = 196 y = 671}
+	
+}
+# Model 1965
+missile_destroyer.1 = {
+	slotdata = { id = gun_complex level = 5 x = 598 y = 651}
+	slotdata = { id = ciws_complex level = 5 x = 458 y = 651}
+	slotdata = { id = sr_aa_complex level = 5 x = 261 y = 648}
+	slotdata = { id = torpedo_complex level = 5 x = 411 y = 670 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 3 x = 311 y = 660}
+	slotdata = { id = ship_heli_complex level = 1 x = 196 y = 671}
+	
+}
+# Model 1970
+missile_destroyer.2 = {
+	slotdata = { id = gun_complex level = 6 x = 598 y = 651}
+	slotdata = { id = ciws_complex level = 6 x = 458 y = 651}
+	slotdata = { id = sr_aa_complex level = 6 x = 261 y = 648}
+	slotdata = { id = torpedo_complex level = 6 x = 411 y = 670 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 4 x = 311 y = 660}
+	slotdata = { id = ship_heli_complex level = 2 x = 196 y = 671}
+	
+}
+# Model 1975
+missile_destroyer.3 = {
+	slotdata = { id = gun_complex level = 7 x = 598 y = 651}
+	slotdata = { id = ciws_complex level = 7 x = 458 y = 651}
+	slotdata = { id = sr_aa_complex level = 7 x = 261 y = 648}
+	slotdata = { id = mr_aa_complex level = 5 x = 561 y = 648}
+	slotdata = { id = torpedo_complex level = 7 x = 411 y = 670 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 5 x = 311 y = 660}
+	slotdata = { id = ship_heli_complex level = 3 x = 196 y = 671}
+
+}
+# Model 1980
+missile_destroyer.4 = {
+	slotdata = { id = gun_complex level = 8 x = 598 y = 651}
+	slotdata = { id = ciws_complex level = 8 x = 458 y = 651}
+	slotdata = { id = sr_aa_complex level = 8 x = 261 y = 648}
+	slotdata = { id = mr_aa_complex level = 6 x = 561 y = 648}
+	slotdata = { id = torpedo_complex level = 8 x = 411 y = 670 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 6 x = 311 y = 660}
+	slotdata = { id = ship_heli_complex level = 3 x = 196 y = 671}
+
+}
+# Model 1985
+missile_destroyer.5 = {
+	slotdata = { id = gun_complex level = 9 x = 598 y = 651}
+	slotdata = { id = ciws_complex level = 9 x = 458 y = 651}
+	slotdata = { id = sr_aa_complex level = 9 x = 261 y = 648}
+	slotdata = { id = mr_aa_complex level = 7 x = 561 y = 648}
+	slotdata = { id = torpedo_complex level = 9 x = 411 y = 670 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 7 x = 311 y = 660}
+	slotdata = { id = ship_heli_complex level = 4 x = 196 y = 671}
+}
+# Model 1990
+missile_destroyer.6 = {
+	slotdata = { id = gun_complex level = 10 x = 598 y = 651}
+	slotdata = { id = ciws_complex level = 10 x = 458 y = 651}
+	slotdata = { id = sr_aa_complex level = 10 x = 261 y = 648}
+	slotdata = { id = mr_aa_complex level = 8 x = 561 y = 648}
+	slotdata = { id = torpedo_complex level = 10 x = 411 y = 670 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 8 x = 311 y = 660}
+	slotdata = { id = ship_heli_complex level = 5 x = 196 y = 671}
+}
+
+# ----------------------- CRUISERS -----------------------------------
+
+cruiser.0 = {
+	slotdata = { id = gun_complex level = 0 x = 190 y = 678}
+	slotdata = { id = gun_complex level = 0 x = 580 y = 681}
+	slotdata = { id = gun_complex level = 0 x = 513 y = 672}
+	slotdata = { id = gun_complex level = 0 x = 240 y = 672}
+	slotdata = { id = gun_complex level = 1 x = 320 y = 685}
+	slotdata = { id = gun_complex level = 1 x = 380 y = 685}
+	slotdata = { id = gun_complex level = 1 x = 440 y = 685}
+	slotdata = { id = ciws_complex level = 0 x = 300 y = 661}
+	slotdata = { id = ciws_complex level = 0 x = 351 y = 669}
+}
+cruiser.1 = {
+	slotdata = { id = gun_complex level = 0 x = 190 y = 678}
+	slotdata = { id = gun_complex level = 0 x = 580 y = 681}
+	slotdata = { id = gun_complex level = 0 x = 513 y = 672}
+	slotdata = { id = gun_complex level = 1 x = 320 y = 685}
+	slotdata = { id = gun_complex level = 1 x = 380 y = 685}
+	slotdata = { id = gun_complex level = 1 x = 440 y = 685}
+	slotdata = { id = ciws_complex level = 1 x = 300 y = 661}
+	slotdata = { id = ciws_complex level = 1 x = 351 y = 669}	
+}
+cruiser.2 = {
+	slotdata = { id = gun_complex level = 0 x = 190 y = 678}
+	slotdata = { id = gun_complex level = 0 x = 580 y = 681}
+	slotdata = { id = gun_complex level = 2 x = 190 y = 678}
+	slotdata = { id = gun_complex level = 2 x = 580 y = 681}
+	slotdata = { id = ciws_complex level = 2 x = 300 y = 661}
+	slotdata = { id = ciws_complex level = 2 x = 351 y = 669}
+	slotdata = { id = torpedo_complex level = 2 x = 402 y = 668 ammo_store = 6}		
+}
+cruiser.3 = {
+	slotdata = { id = gun_complex level = 0 x = 190 y = 678}
+	slotdata = { id = gun_complex level = 0 x = 580 y = 681}
+	slotdata = { id = gun_complex level = 3 x = 190 y = 678}
+	slotdata = { id = gun_complex level = 3 x = 580 y = 681}
+	slotdata = { id = ciws_complex level = 3 x = 300 y = 661}
+	slotdata = { id = ciws_complex level = 3 x = 351 y = 669}
+	slotdata = { id = torpedo_complex level = 3 x = 402 y = 668 ammo_store = 6}		
+}
+# Model 1955
+missile_cruiser.0 = {
+	slotdata = { id = gun_complex level = 3 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 3 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 1 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 3 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 1 x = 231 y = 666}
+}
+# Model 1960
+missile_cruiser.1 = {
+	slotdata = { id = gun_complex level = 4 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 4 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 2 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 4 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 2 x = 231 y = 666}
+	slotdata = { id = ship_heli_complex level = 1 x = 172 y = 677}
+}
+# Model 1965
+missile_cruiser.2 = {
+	slotdata = { id = gun_complex level = 5 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 5 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 3 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 5 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 3 x = 231 y = 666}
+	slotdata = { id = ship_heli_complex level = 1 x = 172 y = 677}
+}
+# Model 1970
+missile_cruiser.3 = {
+	slotdata = { id = gun_complex level = 6 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 6 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 4 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 6 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 4 x = 231 y = 666}
+	slotdata = { id = ship_heli_complex level = 2 x = 172 y = 677}	
+}
+# Model 1975
+missile_cruiser.4 = {
+	slotdata = { id = gun_complex level = 7 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 7 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 5 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 7 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 5 x = 231 y = 666}
+	slotdata = { id = ship_heli_complex level = 3 x = 172 y = 677}
+}
+# Model 1980
+missile_cruiser.5 = {
+	slotdata = { id = gun_complex level = 8 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 8 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 6 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 8 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 6 x = 231 y = 666}
+	slotdata = { id = ship_heli_complex level = 3 x = 172 y = 677}		
+}
+# Model 1985
+missile_cruiser.6 = {
+	slotdata = { id = gun_complex level = 9 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 9 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 7 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 9 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 7 x = 231 y = 666}
+	slotdata = { id = ship_heli_complex level = 4 x = 172 y = 677}
+}
+# Model 1990
+missile_cruiser.7 = {
+	slotdata = { id = gun_complex level = 10 x = 580 y = 658}
+	slotdata = { id = ciws_complex level = 10 x = 313 y = 653}
+	slotdata = { id = mr_aa_complex level = 8 x = 531 y = 667}
+	slotdata = { id = torpedo_complex level = 10 x = 402 y = 668 ammo_store = 6}
+	slotdata = { id = asroc_complex level = 8 x = 231 y = 666}
+	slotdata = { id = ship_heli_complex level = 5 x = 172 y = 677}
+}
+# Model 1960
+nuclear_missile_cruiser.0 = {
+	slotdata = { id = gun_complex level = 4 x = 610 y = 669}
+	slotdata = { id = ciws_complex level = 4 x = 208 y = 647}
+	slotdata = { id = mr_aa_complex level = 2 x = 557 y = 661}
+	slotdata = { id = asroc_complex level = 2 x = 357 y = 661}
+	slotdata = { id = torpedo_complex level = 4 x = 230 y = 670 ammo_store = 6}
+	slotdata = { id = ship_heli_complex level = 1 x = 111 y = 668}	
+}
+# Model 1965
+nuclear_missile_cruiser.1 = {
+	slotdata = { id = gun_complex level = 5 x = 610 y = 669}
+	slotdata = { id = ciws_complex level = 5 x = 208 y = 647}
+	slotdata = { id = mr_aa_complex level = 3 x = 557 y = 661}
+	slotdata = { id = asroc_complex level = 3 x = 357 y = 661}
+	slotdata = { id = torpedo_complex level = 5 x = 230 y = 670 ammo_store = 6}
+	slotdata = { id = ship_heli_complex level = 1 x = 111 y = 668}
+}
+# Model 1970
+nuclear_missile_cruiser.2 = {
+	slotdata = { id = gun_complex level = 6 x = 610 y = 669}
+	slotdata = { id = ciws_complex level = 6 x = 208 y = 647}
+	slotdata = { id = mr_aa_complex level = 4 x = 557 y = 661}
+	slotdata = { id = asroc_complex level = 4 x = 357 y = 661}
+	slotdata = { id = torpedo_complex level = 6 x = 230 y = 670 ammo_store = 6}
+	slotdata = { id = ship_heli_complex level = 2 x = 111 y = 668}		
+}
+# Model 1975
+nuclear_missile_cruiser.3 = {
+	slotdata = { id = gun_complex level = 7 x = 610 y = 669}
+	slotdata = { id = ciws_complex level = 7 x = 208 y = 647}
+	slotdata = { id = mr_aa_complex level = 5 x = 557 y = 661}
+	slotdata = { id = asroc_complex level = 5 x = 357 y = 661}
+	slotdata = { id = torpedo_complex level = 7 x = 230 y = 670 ammo_store = 6}
+	slotdata = { id = ship_heli_complex level = 2 x = 111 y = 668}	
+}
+# Model 1980
+nuclear_missile_cruiser.4 = {
+	slotdata = { id = gun_complex level = 8 x = 610 y = 669}
+	slotdata = { id = ciws_complex level = 8 x = 208 y = 647}
+	slotdata = { id = mr_aa_complex level = 6 x = 557 y = 661}
+	slotdata = { id = asroc_complex level = 6 x = 357 y = 661}
+	slotdata = { id = torpedo_complex level = 8 x = 230 y = 670 ammo_store = 6}
+	slotdata = { id = ship_heli_complex level = 3 x = 111 y = 668}		
+}
+# Model 1985
+nuclear_missile_cruiser.5 = {
+	slotdata = { id = gun_complex level = 9 x = 610 y = 669}
+	slotdata = { id = ciws_complex level = 9 x = 208 y = 647}
+	slotdata = { id = mr_aa_complex level = 7 x = 557 y = 661}
+	slotdata = { id = asroc_complex level = 7 x = 357 y = 661}
+	slotdata = { id = torpedo_complex level = 9 x = 230 y = 670 ammo_store = 6}
+	slotdata = { id = ship_heli_complex level = 4 x = 111 y = 668}
+}
+# Model 1990
+nuclear_missile_cruiser.6 = {
+	slotdata = { id = gun_complex level = 10 x = 610 y = 669}
+	slotdata = { id = ciws_complex level = 10 x = 208 y = 647}
+	slotdata = { id = mr_aa_complex level = 8 x = 557 y = 661}
+	slotdata = { id = asroc_complex level = 8 x = 357 y = 661}
+	slotdata = { id = torpedo_complex level = 10 x = 230 y = 670 ammo_store = 6}
+	slotdata = { id = ship_heli_complex level = 5 x = 111 y = 668}
+}
+
+# ----------------------- CAPITAL SHIPS -----------------------------------
+# Model 1980
+nuclear_battlecruiser.0 = {
+	slotdata = { id = gun_complex level = 8 x = 200 y = 665}
+	slotdata = { id = ciws_complex level = 8 x = 485 y = 657}
+	slotdata = { id = sr_aa_complex level = 8 x = 240 y = 655}
+	slotdata = { id = mr_aa_complex level = 6 x = 420 y = 655}
+	slotdata = { id = mr_as_complex level = 6 x = 540 y = 661 ammo_store = 8}
+	slotdata = { id = lr_as_complex level = 6 x = 510 y = 661 ammo_store = 8}
+	slotdata = { id = asroc_complex level = 6 x = 610 y = 658}
+	slotdata = { id = ship_heli_complex level = 3 x = 130 y = 665}
+}
+# Model 1985
+nuclear_battlecruiser.1 = {
+	slotdata = { id = gun_complex level = 9 x = 200 y = 665}
+	slotdata = { id = ciws_complex level = 9 x = 485 y = 657}
+	slotdata = { id = sr_aa_complex level = 9 x = 240 y = 655}
+	slotdata = { id = mr_aa_complex level = 7 x = 420 y = 655}
+	slotdata = { id = mr_as_complex level = 7 x = 540 y = 661 ammo_store = 12}
+	slotdata = { id = lr_as_complex level = 7 x = 510 y = 661 ammo_store = 8}
+	slotdata = { id = asroc_complex level = 7 x = 610 y = 658}
+	slotdata = { id = ship_heli_complex level = 4 x = 130 y = 665}	
+}
+# Model 1990
+nuclear_battlecruiser.2 = {
+	slotdata = { id = gun_complex level = 10 x = 200 y = 665}
+	slotdata = { id = ciws_complex level = 10 x = 485 y = 657}
+	slotdata = { id = sr_aa_complex level = 10 x = 240 y = 655}
+	slotdata = { id = mr_aa_complex level = 8 x = 420 y = 655}
+	slotdata = { id = mr_as_complex level = 8 x = 540 y = 661 ammo_store = 12}
+	slotdata = { id = lr_as_complex level = 8 x = 510 y = 661 ammo_store = 12}
+	slotdata = { id = asroc_complex level = 8 x = 610 y = 658}
+	slotdata = { id = ship_heli_complex level = 5 x = 130 y = 665}
+}
+# WW2
+battleship.0 = {
+	slotdata = { id = heavy_gun_complex level = 1 x = 237 y = 683}
+	slotdata = { id = heavy_gun_complex level = 1 x = 490 y = 678}
+	slotdata = { id = heavy_gun_complex level = 1 x = 540 y = 684}
+	slotdata = { id = gun_complex level = 1 x = 359 y = 682}
+	slotdata = { id = gun_complex level = 1 x = 415 y = 683}
+	slotdata = { id = gun_complex level = 1 x = 390 y = 666}
+	slotdata = { id = gun_complex level = 1 x = 323 y = 667}
+	slotdata = { id = ciws_complex level = 0 x = 384 y = 691}
+	slotdata = { id = ciws_complex level = 0 x = 333 y = 692}
+}
+# Modernized Model 1980
+battleship.1 = {
+	slotdata = { id = heavy_gun_complex level = 1 x = 230 y = 684}
+	slotdata = { id = heavy_gun_complex level = 1 x = 490 y = 678}
+	slotdata = { id = heavy_gun_complex level = 1 x = 540 y = 685}
+	slotdata = { id = gun_complex level = 8 x = 330 y = 688}
+	slotdata = { id = gun_complex level = 8 x = 410 y = 687}
+	slotdata = { id = ciws_complex level = 7 x = 293 y = 675}
+	slotdata = { id = ciws_complex level = 7 x = 440 y = 675}
+	slotdata = { id = mr_aa_complex level = 6 x = 420 y = 655}
+	slotdata = { id = mr_as_complex level = 6 x = 354 y = 665 ammo_store = 16}
+	slotdata = { id = ship_heli_complex level = 3 x = 110 y = 685}
+}
+# ----------------------- CARRIERS -----------------------------------
+# Model 1960
+helicopter_carrier.0 = {
+	slotdata = { id = ciws_complex level = 6 x = 78 y = 643}
+	slotdata = { id = sr_aa_complex level = 6 x = 467 y = 670}
+	slotdata = { id = ship_heli_complex level = 1 x = 529 y = 621}
+	slotdata = { id = ship_heli_complex level = 1 x = 419 y = 621}
+	slotdata = { id = ship_heli_complex level = 1 x = 299 y = 621}
+	slotdata = { id = ship_heli_complex level = 1 x = 189 y = 621}
+}
+# Model 1965
+helicopter_carrier.1 = {
+	slotdata = { id = ciws_complex level = 7 x = 78 y = 643}
+	slotdata = { id = sr_aa_complex level = 7 x = 467 y = 670}
+	slotdata = { id = ship_heli_complex level = 1 x = 529 y = 621}
+	slotdata = { id = ship_heli_complex level = 1 x = 419 y = 621}
+	slotdata = { id = ship_heli_complex level = 1 x = 299 y = 621}
+	slotdata = { id = ship_heli_complex level = 1 x = 189 y = 621}
+}
+# Model 1975
+helicopter_carrier.2 = {
+	slotdata = { id = ciws_complex level = 8 x = 78 y = 643}
+	slotdata = { id = sr_aa_complex level = 8 x = 467 y = 670}
+	slotdata = { id = ship_heli_complex level = 3 x = 529 y = 621}
+	slotdata = { id = ship_heli_complex level = 3 x = 419 y = 621}
+	slotdata = { id = ship_heli_complex level = 3 x = 299 y = 621}
+	slotdata = { id = ship_heli_complex level = 3 x = 189 y = 621}		
+}
+# Model 1985
+helicopter_carrier.3 = {
+	slotdata = { id = ciws_complex level = 9 x = 78 y = 643}
+	slotdata = { id = sr_aa_complex level = 9 x = 467 y = 670}
+	slotdata = { id = ship_heli_complex level = 4 x = 529 y = 621}
+	slotdata = { id = ship_heli_complex level = 4 x = 419 y = 621}
+	slotdata = { id = ship_heli_complex level = 4 x = 299 y = 621}
+	slotdata = { id = ship_heli_complex level = 4 x = 189 y = 621}	
+}
+# Model 1990
+helicopter_carrier.4 = {
+	slotdata = { id = ciws_complex level = 10 x = 78 y = 643}
+	slotdata = { id = sr_aa_complex level = 10 x = 467 y = 670}
+	slotdata = { id = ship_heli_complex level = 5 x = 529 y = 621}
+	slotdata = { id = ship_heli_complex level = 5 x = 419 y = 621}
+	slotdata = { id = ship_heli_complex level = 5 x = 299 y = 621}
+	slotdata = { id = ship_heli_complex level = 5 x = 189 y = 621}
+}
+# WW2
+escort_carrier.0 = {
+	slotdata = { id = ciws_complex level = 0 x = 518 y = 663}	
+	slotdata = { id = cag_mltr level = 0 x = 422 y = 708}		
+}
+# Model 1950
+escort_carrier.1 = {
+	slotdata = { id = ciws_complex level = 1 x = 484 y = 685}
+	slotdata = { id = cag_mltr level = 0 x = 490 y = 647}
+}
+
+# Model 1945
+carrier.0 = {
+	slotdata = { id = gun_complex level = 0 x = 180 y = 605}
+	slotdata = { id = gun_complex level = 0 x = 590 y = 688}
+	slotdata = { id = ciws_complex level = 0 x = 178 y = 688}
+	slotdata = { id = ciws_complex level = 0 x = 588 y = 608}
+	slotdata = { id = cag_fighter level = 0 x = 469 y = 644}
+	slotdata = { id = cag_mltr level = 0 x = 186 y = 646}
+	slotdata = { id = cag_attack level = 0 x = 345 y = 686}	
+}
+# Model 1950
+carrier.1 = {
+	slotdata = { id = gun_complex level = 1 x = 180 y = 605}
+	slotdata = { id = gun_complex level = 1 x = 590 y = 688}
+	slotdata = { id = ciws_complex level = 1 x = 178 y = 688}
+	slotdata = { id = ciws_complex level = 1 x = 588 y = 608}
+	slotdata = { id = cag_fighter level = 1 x = 469 y = 644}
+	slotdata = { id = cag_mltr level = 1 x = 186 y = 646}
+	slotdata = { id = cag_attack level = 1 x = 345 y = 686}
+}
+# Model 1955
+carrier.2 = {
+	slotdata = { id = gun_complex level = 3 x = 180 y = 605}
+	slotdata = { id = gun_complex level = 3 x = 590 y = 688}
+	slotdata = { id = ciws_complex level = 3 x = 178 y = 688}
+	slotdata = { id = ciws_complex level = 3 x = 588 y = 608}
+	slotdata = { id = mr_aa_complex level = 1 x = 148 y = 612}
+	slotdata = { id = cag_fighter level = 2 x = 469 y = 644}
+	slotdata = { id = cag_mltr level = 2 x = 186 y = 646}
+	slotdata = { id = cag_attack level = 2 x = 345 y = 686}		
+}
+# Model 1960
+carrier.3 = {
+	slotdata = { id = gun_complex level = 4 x = 180 y = 605}
+	slotdata = { id = gun_complex level = 4 x = 590 y = 688}
+	slotdata = { id = ciws_complex level = 4 x = 178 y = 688}
+	slotdata = { id = ciws_complex level = 4 x = 588 y = 608}
+	slotdata = { id = mr_aa_complex level = 2 x = 148 y = 612}
+	slotdata = { id = cag_fighter level = 3 x = 469 y = 644}
+	slotdata = { id = cag_mltr level = 3 x = 186 y = 646}
+	slotdata = { id = cag_attack level = 3 x = 345 y = 686}
+}
+# Model 1970
+carrier.4 = {
+	slotdata = { id = gun_complex level = 6 x = 180 y = 605}
+	slotdata = { id = gun_complex level = 6 x = 590 y = 688}
+	slotdata = { id = ciws_complex level = 6 x = 178 y = 688}
+	slotdata = { id = ciws_complex level = 6 x = 588 y = 608}
+	slotdata = { id = mr_aa_complex level = 4 x = 148 y = 612}
+	slotdata = { id = cag_fighter level = 4 x = 469 y = 644}
+	slotdata = { id = cag_mltr level = 4 x = 186 y = 646}
+	slotdata = { id = cag_attack level = 4 x = 345 y = 686}
+}
+# Model 1980
+carrier.5 = {
+	slotdata = { id = gun_complex level = 8 x = 180 y = 605}
+	slotdata = { id = gun_complex level = 8 x = 590 y = 688}
+	slotdata = { id = ciws_complex level = 8 x = 178 y = 688}
+	slotdata = { id = ciws_complex level = 8 x = 588 y = 608}
+	slotdata = { id = mr_aa_complex level = 6 x = 148 y = 612}
+	slotdata = { id = cag_fighter level = 5 x = 469 y = 644}
+	slotdata = { id = cag_mltr level = 5 x = 186 y = 646}
+	slotdata = { id = cag_attack level = 5 x = 345 y = 686}
+}
+# Model 1990
+carrier.6 = {
+	slotdata = { id = gun_complex level = 10 x = 180 y = 605}
+	slotdata = { id = gun_complex level = 10 x = 590 y = 688}
+	slotdata = { id = ciws_complex level = 10 x = 178 y = 688}
+	slotdata = { id = ciws_complex level = 10 x = 588 y = 608}
+	slotdata = { id = mr_aa_complex level = 8 x = 148 y = 612}
+	slotdata = { id = cag_fighter level = 6 x = 469 y = 644}
+	slotdata = { id = cag_mltr level = 6 x = 186 y = 646}
+	slotdata = { id = cag_attack level = 6 x = 345 y = 686}
+}
+# Model 1955
+supercarrier.0 = {
+	slotdata = { id = gun_complex level = 3 x = 150 y = 600}
+	slotdata = { id = gun_complex level = 3 x = 550 y = 690}
+	slotdata = { id = ciws_complex level = 3 x = 148 y = 703}
+	slotdata = { id = ciws_complex level = 3 x = 548 y = 603}
+	slotdata = { id = cag_fighter level = 2 x = 482 y = 669}
+	slotdata = { id = cag_fighter level = 2 x = 482 y = 629}
+	slotdata = { id = cag_mltr level = 2 x = 269 y = 595}
+	slotdata = { id = cag_attack level = 2 x = 226 y = 706}
+	slotdata = { id = awacs_complex level = 0 x = 304 y = 707}
+}
+# Model 1960
+supercarrier.1 = {
+	slotdata = { id = ciws_complex level = 3 x = 158 y = 702}
+	slotdata = { id = sr_aa_complex level = 3 x = 191 y = 702}
+	slotdata = { id = mr_aa_complex level = 1 x = 150 y = 606}
+	slotdata = { id = ship_heli_complex level = 1 x = 427 y = 702}
+	slotdata = { id = ship_heli_complex level = 1 x = 457 y = 702}
+	slotdata = { id = cag_fighter level = 3 x = 482 y = 669}
+	slotdata = { id = cag_fighter level = 3 x = 482 y = 629}
+	slotdata = { id = cag_mltr level = 3 x = 269 y = 595}
+	slotdata = { id = cag_attack level = 3 x = 226 y = 706}
+	slotdata = { id = awacs_complex level = 1 x = 304 y = 707}
+}
+# Model 1970
+supercarrier.2 = {
+	slotdata = { id = ciws_complex level = 6 x = 158 y = 702}
+	slotdata = { id = sr_aa_complex level = 6 x = 191 y = 702}
+	slotdata = { id = mr_aa_complex level = 4 x = 150 y = 606}
+	slotdata = { id = ship_heli_complex level = 2 x = 427 y = 702}
+	slotdata = { id = ship_heli_complex level = 2 x = 457 y = 702}
+	slotdata = { id = cag_fighter level = 4 x = 482 y = 669}
+	slotdata = { id = cag_fighter level = 4 x = 482 y = 629}
+	slotdata = { id = cag_mltr level = 4 x = 269 y = 595}
+	slotdata = { id = cag_attack level = 4 x = 226 y = 706}
+	slotdata = { id = awacs_complex level = 2 x = 304 y = 707}	
+}
+# Model 1980
+supercarrier.3 = {
+	slotdata = { id = ciws_complex level = 8 x = 158 y = 702}
+	slotdata = { id = sr_aa_complex level = 8 x = 191 y = 702}
+	slotdata = { id = mr_aa_complex level = 6 x = 150 y = 606}
+	slotdata = { id = ship_heli_complex level = 3 x = 427 y = 702}
+	slotdata = { id = ship_heli_complex level = 3 x = 457 y = 702}
+	slotdata = { id = cag_fighter level = 5 x = 482 y = 669}
+	slotdata = { id = cag_fighter level = 5 x = 482 y = 629}
+	slotdata = { id = cag_mltr level = 5 x = 269 y = 595}
+	slotdata = { id = cag_attack level = 5 x = 226 y = 706}
+	slotdata = { id = awacs_complex level = 3 x = 304 y = 707}
+}
+# Model 1990
+supercarrier.4 = {
+	slotdata = { id = ciws_complex level = 10 x = 158 y = 702}
+	slotdata = { id = sr_aa_complex level = 10 x = 191 y = 702}
+	slotdata = { id = mr_aa_complex level = 8 x = 150 y = 606}
+	slotdata = { id = ship_heli_complex level = 5 x = 427 y = 702}
+	slotdata = { id = ship_heli_complex level = 5 x = 457 y = 702}
+	slotdata = { id = cag_fighter level = 6 x = 482 y = 669}
+	slotdata = { id = cag_fighter level = 6 x = 482 y = 629}
+	slotdata = { id = cag_mltr level = 6 x = 269 y = 595}
+	slotdata = { id = cag_attack level = 6 x = 226 y = 706}
+	slotdata = { id = awacs_complex level = 4 x = 304 y = 707}
+}

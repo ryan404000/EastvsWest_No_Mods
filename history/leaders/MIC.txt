@@ -1,0 +1,1478 @@
+1604500 = {
+	name = "Pileleiite Tane"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1604506 = {
+	name = "Taielu Tane"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1604501 = {
+	name = "Tau Iosefa"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1604504 = {
+	name = "Hopo Siaki"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.3.1 = { rank = 0 }
+	}
+}
+1604502 = {
+	name = "Tamati Tamuamua"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1604503 = {
+	name = "Tamati Hopo"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1604507 = {
+	name = "Tuisamoa Qiomars"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1604505 = {
+	name = "Iosefa Siaki"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.1.1 = { rank = 3 }
+		1954.4.1 = { rank = 4 }
+		1955.4.1 = { rank = 0 }
+	}
+}
+1604509 = {
+	name = "Qiomars Marama"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.1.1 = { rank = 1 }
+		1955.4.1 = { rank = 2 }
+		1956.6.1 = { rank = 0 }
+	}
+}
+1604510 = {
+	name = "Taielu Taine"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1950.1.1 = { rank = 1 }
+		1957.4.1 = { rank = 0 }
+	}
+}
+1604517 = {
+	name = "Sefa Siaki"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1957.4.1 = { rank = 1 }
+		1958.7.1 = { rank = 0 }
+	}
+}
+1604516 = {
+	name = "Iosefa Lelei"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.6.1 = { rank = 1 }
+		1959.2.1 = { rank = 0 }
+	}
+}
+1604518 = {
+	name = "Tuisamoa Lagi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.7.1 = { rank = 1 }
+		1960.8.1 = { rank = 0 }
+	}
+}
+1604520 = {
+	name = "Eloni Tamuamua"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1960.8.1 = { rank = 1 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1604515 = {
+	name = "Pileleiite Siaki"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.4.1 = { rank = 1 }
+		1962.5.1 = { rank = 0 }
+	}
+}
+1604519 = {
+	name = "Tama Lelei"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1959.2.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1604513 = {
+	name = "Lelei Marama"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.10.1 = { rank = 1 }
+		1954.4.1 = { rank = 2 }
+		1955.4.1 = { rank = 3 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1604514 = {
+	name = "Wi Qiomars"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.4.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1604508 = {
+	name = "Siaki Tane"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1949.1.1 = { rank = 2 }
+		1954.4.1 = { rank = 3 }
+		1955.4.1 = { rank = 4 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1604511 = {
+	name = "Sefa Tama"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.3.1 = { rank = 1 }
+		1956.6.1 = { rank = 2 }
+		1964.8.1 = { rank = 3 }
+		1966.8.1 = { rank = 4 }
+		1967.3.1 = { rank = 0 }
+	}
+}
+1604521 = {
+	name = "Fetu Manuia"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1967.3.1 = { rank = 2 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1604512 = {
+	name = "Pileleiite Sefa"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1952.10.1 = { rank = 1 }
+		1964.8.1 = { rank = 2 }
+		1966.8.1 = { rank = 3 }
+		1967.3.1 = { rank = 4 }
+		1969.2.1 = { rank = 0 }
+	}
+}
+1604528 = {
+	name = "Qiomars Rangi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1968.4.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1604530 = {
+	name = "Rangi Taine"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1970.12.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1604531 = {
+	name = "Hopo Iosefa"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1972.8.1 = { rank = 0 }
+	}
+}
+1604527 = {
+	name = "Ioane Lelei"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.3.1 = { rank = 1 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1604524 = {
+	name = "Talafelei Lagi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1964.8.1 = { rank = 1 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1604534 = {
+	name = "Tamuamua Taine"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.6.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1604532 = {
+	name = "Taielu Eloni"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1972.8.1 = { rank = 1 }
+		1976.5.1 = { rank = 0 }
+	}
+}
+1604525 = {
+	name = "Taine Tamati"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1965.1.1 = { rank = 1 }
+		1977.1.1 = { rank = 0 }
+	}
+}
+1604529 = {
+	name = "Lelei Hopo"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.2.1 = { rank = 1 }
+		1978.12.1 = { rank = 0 }
+	}
+}
+1604533 = {
+	name = "Marama Talafelei"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.6.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1604536 = {
+	name = "Rangi Taine"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.5.1 = { rank = 1 }
+		1980.6.1 = { rank = 0 }
+	}
+}
+1604539 = {
+	name = "Kylie Taielu"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1604538 = {
+	name = "Taielu Taielu"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.12.1 = { rank = 1 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1604535 = {
+	name = "Ioane Tama"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1983.7.1 = { rank = 0 }
+	}
+}
+1604540 = {
+	name = "Sione Eloni"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.6.1 = { rank = 1 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1604544 = {
+	name = "Sefa Qiomars"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.12.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1604523 = {
+	name = "Pileleiite Wi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1963.7.1 = { rank = 1 }
+		1968.4.1 = { rank = 2 }
+		1969.2.1 = { rank = 3 }
+		1986.1.1 = { rank = 0 }
+	}
+}
+1604526 = {
+	name = "Tama Lelei"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.8.1 = { rank = 1 }
+		1969.2.1 = { rank = 2 }
+		1986.1.1 = { rank = 3 }
+		1987.4.1 = { rank = 0 }
+	}
+}
+1604542 = {
+	name = "Fetu Wi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1987.4.1 = { rank = 2 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1604541 = {
+	name = "Ioane Tangi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.5.1 = { rank = 1 }
+		1989.3.1 = { rank = 0 }
+	}
+}
+1604545 = {
+	name = "Sefa Tuisamoa"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1604522 = {
+	name = "Eloni Taielu"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.5.1 = { rank = 1 }
+		1966.8.1 = { rank = 2 }
+		1967.3.1 = { rank = 3 }
+		1969.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604537 = {
+	name = "Marama Tamati"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.1.1 = { rank = 1 }
+		1988.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604543 = {
+	name = "Tau Tane"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.7.1 = { rank = 1 }
+		1986.1.1 = { rank = 2 }
+		1987.4.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604546 = {
+	name = "Fetu Tangi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604547 = {
+	name = "Tane Taielu"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1987.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604548 = {
+	name = "Sefa Wi"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604549 = {
+	name = "Tuisamoa Sefa"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1989.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604550 = {
+	name = "Tamuamua Pileleiite"
+	type = land
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604556 = {
+	name = "Eloni Tangi"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1604553 = {
+	name = "Wi Fetu"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.11.1 = { rank = 0 }
+	}
+}
+1604555 = {
+	name = "Lelei Hopo"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1604561 = {
+	name = "Hopo Tangi"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.3.1 = { rank = 1 }
+		1951.7.1 = { rank = 0 }
+	}
+}
+1604562 = {
+	name = "Manuia Siaki"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = superior_tactician
+	history = {
+		1951.7.1 = { rank = 1 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1604554 = {
+	name = "Tamati Eloni"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1604557 = {
+	name = "Lelei Tane"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1604552 = {
+	name = "Tamati Fetuao"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1604560 = {
+	name = "Tane Siaki"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.11.1 = { rank = 1 }
+		1960.4.1 = { rank = 0 }
+	}
+}
+1604563 = {
+	name = "Tane Tamati"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1953.11.1 = { rank = 1 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1604551 = {
+	name = "Taine Iosefa"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.6.1 = { rank = 2 }
+		1954.6.1 = { rank = 3 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1604567 = {
+	name = "Marama Tama"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.4.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1604559 = {
+	name = "Sefa Qiomars"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.6.1 = { rank = 1 }
+		1954.6.1 = { rank = 2 }
+		1967.12.1 = { rank = 3 }
+		1970.8.1 = { rank = 0 }
+	}
+}
+1604564 = {
+	name = "Lelei Fetu"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.6.1 = { rank = 1 }
+		1970.1.1 = { rank = 0 }
+	}
+}
+1604572 = {
+	name = "Tau Sione"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.1.1 = { rank = 1 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1604571 = {
+	name = "Kylie Sefa"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.8.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1604558 = {
+	name = "Sefa Fetuao"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1604575 = {
+	name = "Tane Fetuao"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1975.6.1 = { rank = 1 }
+		1979.4.1 = { rank = 0 }
+	}
+}
+1604565 = {
+	name = "Lagi Marama"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.6.1 = { rank = 1 }
+		1967.12.1 = { rank = 2 }
+		1970.8.1 = { rank = 3 }
+		1975.6.1 = { rank = 4 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1604577 = {
+	name = "Lagi Iosefa"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.9.1 = { rank = 1 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1604568 = {
+	name = "Siaki Lagi"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.1.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1604574 = {
+	name = "Eloni Siaki"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1975.6.1 = { rank = 2 }
+		1979.9.1 = { rank = 3 }
+		1987.10.1 = { rank = 0 }
+	}
+}
+1604570 = {
+	name = "Tau Tangi"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1969.5.1 = { rank = 1 }
+		1988.5.1 = { rank = 0 }
+	}
+}
+1604580 = {
+	name = "Rangi Eloni"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.10.1 = { rank = 1 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1604566 = {
+	name = "Ioane Sione"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.10.1 = { rank = 1 }
+		1970.8.1 = { rank = 2 }
+		1975.6.1 = { rank = 3 }
+		1979.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604569 = {
+	name = "Qiomars Talafelei"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.12.1 = { rank = 1 }
+		1979.9.1 = { rank = 2 }
+		1987.10.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604573 = {
+	name = "Talafelei Marama"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.3.1 = { rank = 1 }
+		1987.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604576 = {
+	name = "Taine Rangi"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604578 = {
+	name = "Taielu Taielu"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1984.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604579 = {
+	name = "Fetu Tangi"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604581 = {
+	name = "Pileleiite Kylie"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604582 = {
+	name = "Sefa Qiomars"
+	type = sea
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604588 = {
+	name = "Tangi Tane"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1604583 = {
+	name = "Talafelei Kylie"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.11.1 = { rank = 0 }
+	}
+}
+1604592 = {
+	name = "Fetu Wi"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.6.1 = { rank = 1 }
+		1951.7.1 = { rank = 0 }
+	}
+}
+1604591 = {
+	name = "Tama Tamati"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1604589 = {
+	name = "Manuia Sione"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1604585 = {
+	name = "Qiomars Taine"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.11.1 = { rank = 2 }
+		1955.6.1 = { rank = 0 }
+	}
+}
+1604597 = {
+	name = "Pileleiite Tuisamoa"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1955.6.1 = { rank = 1 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1604584 = {
+	name = "Fetuao Tane"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 2 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1604590 = {
+	name = "Manuia Taielu"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.11.1 = { rank = 4 }
+		1963.4.1 = { rank = 0 }
+	}
+}
+1604600 = {
+	name = "Pileleiite Tamati"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.4.1 = { rank = 1 }
+		1965.9.1 = { rank = 0 }
+	}
+}
+1604599 = {
+	name = "Siaki Tangi"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.10.1 = { rank = 1 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1604595 = {
+	name = "Qiomars Taine"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.11.1 = { rank = 1 }
+		1963.4.1 = { rank = 2 }
+		1971.9.1 = { rank = 0 }
+	}
+}
+1604601 = {
+	name = "Tama Ioane"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.9.1 = { rank = 1 }
+		1971.9.1 = { rank = 2 }
+		1972.1.1 = { rank = 0 }
+	}
+}
+1604604 = {
+	name = "Fetu Fetu"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1972.1.1 = { rank = 1 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1604602 = {
+	name = "Siaki Siaki"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.3.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1604598 = {
+	name = "Tangi Eloni"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1958.2.1 = { rank = 1 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1604586 = {
+	name = "Manuia Marama"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1604607 = {
+	name = "Tamati Rangi"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.3.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1604608 = {
+	name = "Tamuamua Taine"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.7.1 = { rank = 1 }
+		1982.6.1 = { rank = 0 }
+	}
+}
+1604606 = {
+	name = "Ioane Wi"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1982.9.1 = { rank = 0 }
+	}
+}
+1604596 = {
+	name = "Rangi Tamuamua"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.10.1 = { rank = 1 }
+		1955.6.1 = { rank = 2 }
+		1963.4.1 = { rank = 3 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1604603 = {
+	name = "Iosefa Wi"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.9.1 = { rank = 1 }
+		1972.1.1 = { rank = 2 }
+		1985.10.1 = { rank = 0 }
+	}
+}
+1604587 = {
+	name = "Wi Rangi"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.6.1 = { rank = 2 }
+		1953.11.1 = { rank = 3 }
+		1963.4.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604593 = {
+	name = "Tau Lagi"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.11.1 = { rank = 1 }
+		1963.10.1 = { rank = 2 }
+		1984.5.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604594 = {
+	name = "Qiomars Marama"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604605 = {
+	name = "Wi Tamati"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.6.1 = { rank = 1 }
+		1984.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604609 = {
+	name = "Pileleiite Siaki"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1981.9.1 = { rank = 1 }
+		1985.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604610 = {
+	name = "Ioane Fetu"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604611 = {
+	name = "Tangi Kylie"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604612 = {
+	name = "Ioane Tamati"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1604613 = {
+	name = "Lagi Tama"
+	type = air
+	country = MIC
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

@@ -1,0 +1,313 @@
+objectTypes = {
+	emitterType = {
+		name = target_bombing
+		
+		bombing_smoke1 = 
+		{
+			time = 0.0
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = -2
+				z = 2
+			}
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = -0.3
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "smoke"
+		}
+		
+		bombing_explosion1 = 
+		{
+			time = 0.0
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = -2
+				z = 2
+			}
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = 0.2
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "blast"
+		}
+		
+		bombing_smoke2 = 
+		{
+			time = 0.2
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = 3
+				z = -2
+			}
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = -0.3
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "smoke"
+		}
+		
+		bombing_explosion2 = 
+		{
+			time = 0.2
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = 3
+				z = -2
+			}
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = 0.2
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "blast"
+		}
+		
+		bombing_smoke3 = 
+		{
+			time = 0.4
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = 2
+				z = 3
+			}
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = -0.3
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "smoke"
+		}
+		
+		bombing_explosion3 = 
+		{
+			time = 0.4
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = 2
+				z = 3
+			}
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = 0.2
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "blast"
+		}
+		
+		bombing_smoke4 = 
+		{
+			time = 0.6
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = -2
+				z = -1
+			}
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = -0.3
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "smoke"
+		}
+		
+		bombing_explosion4 = 
+		{
+			time = 0.6
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = -2
+				z = -1
+			}
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = 0.2
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "blast"
+		}
+		
+		bombing_smoke5 = 
+		{
+			time = 0.6
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = 0
+				z = -2
+			}
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = -0.3
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "smoke"
+		}
+		
+		bombing_explosion5 = 
+		{
+			time = 0.6
+			duration = 0.35
+			emitType = half_Sphere
+			emitSpeed = 100
+			emitPitch = 90
+			emitOffset = {
+				x = 0
+				z = -2
+			}
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 5
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = 0.2
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "blast"
+		}
+	}
+	
+	
+	emitterType = {
+		name = target_smoke
+		
+		smoke_spire1 = {
+			time = 0
+			duration = 2
+			emitType = fan
+			emitFanAngle = 30
+			emitPitch = 90
+			emitSpeed = 10
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 8
+			particleFinalSize = 2	
+			particleInitialSpeed = 0.33
+			particleGravity = -0.1
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 2
+			renderTechnique = "smoke"
+		}
+	}
+}

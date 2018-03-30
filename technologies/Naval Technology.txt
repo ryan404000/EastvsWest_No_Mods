@@ -1,0 +1,1413 @@
+# List of all Naval Technology techs
+	#unit_carrier							( 6 levels)
+	#unit_supercarrier						( 5 levels)
+	#unit_helicoptercarrier					( 3 levels)
+	#unit_cruiser							( 2 levels)
+	#unit_missilecruiser					( 6 levels)
+	#unit_nuclearmissilecruiser				( 4 levels)
+	#unit_nuclearbattlecruiser				( 1 level )
+	#unit_destroyer							( 2 levels)
+	#unit_missilefrigate					( 9 levels)
+	#unit_missiledestroyer					(12 levels)
+	#unit_missileboat						( 5 levels)
+	#unit_submarine_teardrop				( 1 level )
+	#unit_submarine_attack					( 7 levels)
+	#unit_nuclearsubmarine_attack			( 6 levels)
+	#unit_submarine_missile					( 3 levels)
+	#unit_nuclearsubmarine_missile			( 7 levels)
+	#unit_ballistic_missile_submarine		( 8 levels)
+
+#
+# Original framework written by Peter Klevvall and Biga
+# Updated by Biga
+#
+#Tech developments to possibly include:
+#	Modular components (req. high industrial sophistication and lessens effective values and cost, but allows upgrades)
+#
+#	UNITS
+#		ballistic_missile_submarine, affected by , activated by tech launcher_submarine_surfacefire
+#		battleship, affected by tech large_ww2_vessels (no real development post-war), activated by tech unit_cruiser
+#		carrier, affected by tech unit_carrier, activated by tech unit_ww2_carriers
+#		cruiser, affected by tech unit_cruiser, activated by tech unit_cruiser
+#		destroyer, affected by tech unit_destroyer, activated by tech unit_small_ww2_vessels
+#		guided_submarine, affected by tech unit_submarine_missile, activated by tech launcher_submarine_surfacefire
+#		helicopter_carrier, affected by tech unit_helicoptercarrier, activated by tech unit_ww2_carriers
+#		missile_boats, affected by tech unit_missileboat, activated by tech navalvessel_missilecomplex_trials
+#		missile_cruiser, affected by tech unit_missilecruiser, activated by tech navalvessel_missilecomplex_trials
+#		missile_destroyer, affected by tech unit_missiledestroyer, activated by tech navalvessel_missilecomplex_trials
+#		missile_frigate, affected by tech unit_missilefrigate, activated by tech navalvessel_missilecomplex_trials
+#		nuclear_battlecruiser, affected by tech unit_nuclearbattlecruiser (warsaw file), activated by tech unit_nuclearbattlecruiser_construction
+#		nuclear_guided_submarine, affected by tech unit_nuclearsubmarine_missile, activated by tech nuclearpropulsion_trials_submarine
+#		nuclear_missile_cruiser, affected by tech unit_nuclearmissilecruiser, activated by tech surfacevessel_nuclearpropulsion_trials
+#		nuclear_submarine, affected by tech unit_nuclearsubmarine_attack, activated by tech nuclearpropulsion_trials_submarine
+#		submarine, affected by tech unit_submarine_attack, activated by tech unit_submarine_ww2
+#		supercarrier, affected by tech unit_supercarrier, activated by tech supercarrier_construction
+
+#		Weapon complex:
+#		asroc_complex, affected by tech xxx, activated by tech xxx
+#		awacs_complex, air tech tree
+#		slbm_complex, affected by tech xxx, activated by tech xxx
+#		cag_fighter, air tech tree
+#		cag_mltr, air tech tree
+#		cag_attack, air tech tree
+#		cag_vtol
+#		ciws_complex, affected by tech xxx, activated by tech xxx
+#		gun_complex, affected by tech xxx, activated by tech xxx
+#		lr_as_complex, affected by tech xxx, activated by tech xxx
+#		mr_aa_complex, affected by tech xxx, activated by tech xxx
+#		mr_as_complex, affected by tech xxx, activated by tech xxx
+#		ship_heli_complex (MARHe), affected by tech xxx, activated by tech xxx
+#		sr_aa_complex, affected by tech xxx, activated by tech xxx
+#		torpedo_complex, affected by tech xxx, activated by tech xxx
+#		ss_lr_as_complex, affected by tech xxx, activated by tech xxx
+#		ss_mr_aa_complex, affected by tech xxx, activated by tech xxx
+#		tlam_complex
+
+
+unit_carrier = {		# Used for WW2 carriers, escort carriers and post-war Light Carriers (such as British Colossus class)
+
+	multilevel = yes
+	level = 7
+	
+	allow_level = {
+		1 = {
+			unit_cruiser = 1
+			radarsystem_airsearch = 1
+			radarsystem_surfacesearch = 1
+			propulsion_steam = 1	
+			OR = {
+				carriergroup_carrierstrikegroup = 1
+				battlegroup_missilebattlegroup = 1	# Example, it should be possible for battlegroups to have minor carriers as well
+			}
+		}
+		2= {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+	}
+	traits = {
+		vessels_theory
+		systems_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = carrier
+			activate_unit = escort_carrier
+		}
+		2 = { carrier = {
+				visibility = 0.6
+				hull = 0.4
+			}
+		}
+	}
+	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Supercarrier Hull
+
+unit_supercarrier = { 
+
+	multilevel = yes
+	level = 6
+   
+	allow_level = { 
+		1 = {
+			unit_carrier = 1 
+			propulsion_steam = 2
+		}
+		2 = {
+			propulsion_nuclear_surface = 1
+			any_owned_province = {
+				has_factory = centrifuges
+			}
+		}
+		3 = {}
+		4 = {}
+		5 = {
+			propulsion_nuclear_surface = 2
+		}
+		6 = {}
+	}
+	traits = {
+		vessels_theory
+		systems_theory
+	}
+	level_effect = {
+		1 = {						
+			activate_unit = supercarrier
+		}
+		2 = {						
+			supercarrier = {
+				visibility = 0.1
+				hull = 0.1
+				range = 90000
+				default_morale = 0.2
+				supply_consumption = 0.5
+				fuel_consumption = -1.0
+			}
+		}
+		3 = {						
+			supercarrier = {
+				visibility = 0.1
+				hull = 0.1
+				default_morale = 0.1
+				supply_consumption = 0.5
+			}
+		}
+		4 = {						
+			supercarrier = {
+				visibility = 0.1
+				hull = 0.1
+				default_morale = 0.1
+				supply_consumption = 0.5
+			}
+		}
+		5 = {						
+			supercarrier = {
+				visibility = 0.1
+				hull = 0.1
+				default_morale = 0.1
+				supply_consumption = 0.5
+			}
+		}
+		6 = {						
+			supercarrier = {
+				visibility = 0.1
+				hull = 0.1
+				default_morale = 0.1
+				supply_consumption = 0.5
+			}
+		}
+
+	}	
+ 	can_upgrade = no
+	change = no  
+	folder = naval_tech1_folder 
+	time = 100 
+	cost = 100 
+} 
+
+# Helicopter Carrier Hull
+
+unit_helicoptercarrier = {
+
+	multilevel = yes
+	level = 3
+	
+	allow_level = {
+		1 = {
+			unit_carrier = 1
+			or = {
+				propulsion_steam = 1
+				propulsion_gas = 1
+			}
+		}
+		#2 = {
+		#	or = {
+		#		propulsion_steam = 2
+		#		propulsion_gas = 2
+		#	}
+		#}
+		#3 = {}
+
+	}
+	traits = {
+		vessels_theory
+		systems_theory
+	}
+	level_effect = {
+		1 = {
+			activate_unit = helicopter_carrier 
+		}
+		#2 = {
+		#	helicopter_carrier = {
+		#		visibility = 0.2
+		#		hull = 0.3
+		#		supply_consumption = 0.5
+		#		fuel_consumption = 0.5
+		#	}
+		#}
+		#3 = {
+		#	helicopter_carrier = {
+		#		hull = 0.1
+		#		supply_consumption = 0.5
+		#		fuel_consumption = 0.5
+		#	}
+		#}
+	}
+ 	can_upgrade = no
+	change = no 	
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Cruiser Hull
+
+unit_cruiser = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {
+			unit_destroyer = 2
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		vessels_theory
+	}
+	level_effect = {
+		1 = {
+			activate_unit = cruiser 
+			activate_unit = battleship
+			activate_unit = heavy_gun_complex
+		}
+		2 = {
+			cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+	}
+	
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Missile Cruiser Hull
+
+unit_missilecruiser = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			unit_cruiser = 1
+			OR = {
+				propulsion_steam = 1
+				propulsion_gas = 1
+			}
+		}
+		2 = {
+			unit_cruiser = 1
+			OR = {
+				propulsion_steam = 1
+				propulsion_gas = 1
+			}
+		}
+		3 = {
+			unit_cruiser = 1
+			OR = {
+				propulsion_steam = 4
+				propulsion_gas = 3
+			}
+		}
+		4 =  {
+			unit_cruiser = 1
+			OR = {
+				propulsion_steam = 4
+				propulsion_gas = 3
+			}
+		}
+		5 = {
+			OR = {
+				propulsion_steam = 4
+				propulsion_gas = 3
+			}
+		}
+		6 = {
+		}
+		7 = {
+		}
+		8 = {
+		}
+		9 = {
+		}
+		10 = {
+		}
+		11 = {
+		}
+	}
+	traits = {
+		vessels_theory
+		systems_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = missile_cruiser
+		}
+		2 = {
+			missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		3 = {
+			missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		4 = {
+			missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 5
+			}
+		}
+		5 = {
+			missile_cruiser = {
+				visibility = -0.1
+				hull = 0.1
+				maximum_speed = 1
+			}
+		}
+		6 = {
+			missile_cruiser = {
+				visibility = -0.1
+				hull = 0.1
+				maximum_speed = 1
+			}
+		}
+		7 = {
+			missile_cruiser = {
+				visibility = -0.1
+				hull = 0.1
+				maximum_speed = 1
+			}
+		}
+		8 = {
+			missile_cruiser = {
+				visibility = -0.1
+				hull = 0.1
+				maximum_speed = 1
+			}
+		}
+		9 = {
+			missile_cruiser = {
+				visibility = -0.1
+				hull = 0.1
+				maximum_speed = 1
+			}
+		}
+		10 = {
+			missile_cruiser = {
+				visibility = -0.1
+				hull = 0.1
+				maximum_speed = 1
+			}
+		}
+		11 = {
+			missile_cruiser = {
+				visibility = -0.1
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Nuclear Missile Cruiser Hull
+
+unit_nuclearmissilecruiser = {
+
+	multilevel = yes
+	level = 9
+
+	allow_level = {
+		1 = {
+			propulsion_nuclear = 1
+			unit_missilecruiser = 1
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+	}
+	traits = {
+		vessels_theory
+		systems_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = nuclear_missile_cruiser
+		}
+		2 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		3 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		4 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		5 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		6 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		7 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		8 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+			}
+		}
+		9 = {
+			nuclear_missile_cruiser = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 5
+			}
+		}
+	}
+
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Nuclear Battlecruiser Hull
+# 
+unit_nuclearbattlecruiser = {
+
+	allow = {
+		unit_missilecruiser = 2
+		propulsion_nuclear_surface = 1
+		launcher_vls = 1
+	}
+	traits = {
+		vessels_theory
+		systems_theory
+		armament_theory
+	}	
+	activate_unit = { nuclear_battlecruiser }
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Destroyer Hull
+
+unit_destroyer = {
+
+	multilevel = yes
+	level = 2
+
+	allow_level = {
+		1 = {
+			escort_responsereadygroup = 1
+		}
+		2 = {}
+	}
+	traits = {
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = destroyer 
+		}
+		2 = {
+			destroyer = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+
+	}
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Missile Frigate Hull
+
+unit_missilefrigate = { #TODO MISSING BONUSES FOR 8 LVLs
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			helicopterplatform = 1
+			escort_swiftpatrolswarm = 1
+			propulsion_steam = 1
+			antisub_missile = 1
+			radarsystem_surfacesearch = 1
+			radarsystem_airsearch = 1
+			navalvessel_missilecomplex_trials = 1
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		armament_theory
+		systems_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = missile_frigate 
+		}
+		2 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		3 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		4 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		5 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		6 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		7 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		8 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		9 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+		10 = {
+			missile_frigate = {
+				visibility = -0.2
+				hull = 0.2
+				maximum_speed = 0.4
+			}
+		}
+	
+	}
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 1
+	cost = 100
+}
+
+
+unit_missiledestroyer = { #TODO MISSING BONUSES FOR 11 LVLs
+
+	multilevel = yes
+	level = 12
+	
+	allow_level = {
+		1 = {
+			antisub_missile = 2
+			radarsystem_surfacesearch = 2
+			radarsystem_airsearch = 2
+			navalvessel_missilecomplex_trials = 1
+			OR = {
+				propulsion_steam = 1
+				propulsion_gas = 1
+			}
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+		11 = {}
+		12 = {}
+	}
+	traits = {
+		armament_theory
+		systems_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = missile_destroyer
+		}
+		2 = {
+			missile_destroyer = {
+				visibility = 0.3
+				hull = 0.2
+			}
+		}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+		11 = {}
+		12 = {}		
+	}
+ 	can_upgrade = no
+	change = no 	
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Missile Boat Hull
+
+unit_missileboat = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			missileboatcoastalfleet = 1
+			propulsion_diesel_surface_40s = 1
+			navalvessel_missilecomplex_trials = 1
+		}
+		2 = {
+			propulsion_diesel_surface_40s = 2
+		}
+		3 = {
+			propulsion_diesel_surface_40s = 1
+		}
+		4 = {
+			propulsion_diesel_surface_40s = 1
+		}
+		5 = {
+			propulsion_diesel_surface_40s = 1
+		}
+		6 = {
+			propulsion_diesel_surface_40s = 1
+		}
+		7 = {
+			propulsion_diesel_surface_40s = 1
+		}
+		8 = {
+			propulsion_diesel_surface_40s = 1
+		}
+		9 = {
+			propulsion_diesel_surface_40s = 1
+		}
+		10 = {
+			propulsion_diesel_surface_40s = 1
+		}
+	}
+	traits = {
+		armament_theory
+		systems_theory
+		surface_theory
+	}		
+	level_effect = {
+		1 = {
+			activate_unit = missile_boat
+		}
+		2 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		3 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		4 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		5 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		6 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		7 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		8 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		9 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+		10 = {
+			missile_boat = {
+				visibility = 0.1
+				hull = 0.1
+				maximum_speed = 4
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+unit_submarine_ww2 = {
+
+	allow = {
+		joint_criticalvulnerability = 1
+		torpedoes = 1
+		propulsion_diesel_submarine = 1
+	}
+	traits = {
+		 hqandsub_theory
+		 armament_theory
+		 systems_theory
+	}
+	activate_unit = { submarine } 	
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+unit_submarine_teardrop = {# NOTE: to be combined with Submarine (turn into a single 2-level tech)
+
+	allow = {	#Some kind of sub-doctrine, predating the development of actual subs. Is this one suitable?
+		unit_submarine_ww2 = 1
+	}
+	traits = {
+		 hqandsub_theory
+	}
+ 	can_upgrade = no
+	change = no 	
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Diesel-electric Attack Submarine Hull
+#
+
+unit_submarine_attack = {
+
+	multilevel = yes
+	level = 11
+
+	allow_level = {
+		1 = {
+			unit_submarine_teardrop = 1
+			propulsion_diesel_submarine = 1
+			launcher_torpedotubes_533_650 = 1
+			OR = {
+				hksubs_strikeoperations = 1
+				#hksubs_autonomousoperations = 1
+			}
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+		11 = {}
+	}
+	traits = {
+		hqandsub_theory
+		vessels_theory
+		armament_theory
+		systems_theory
+	}
+	level_effect = {
+		1 = {
+			activate_unit = attack_submarine 
+		}
+		2 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		3 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		4 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		5 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		6 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		7 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		8 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		9 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		10 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		11 = {
+			attack_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = no 	
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Nuclear Attack Submarine Hull
+
+unit_nuclearsubmarine_attack = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			unit_submarine_attack = 1
+			propulsion_nuclear_submarine = 1
+			launcher_torpedotubes_533_650 = 1
+		}
+		2 = {
+		}
+		3 = {
+			propulsion_nuclear_submarine = 2
+		}
+		4 = {
+		}
+		5 = {
+		}
+		6 = {
+		}
+		7 = {
+		propulsion_nuclear_submarine = 3
+		}
+		8 = {
+		}
+		9 = {
+		propulsion_nuclear_submarine = 4
+		}
+		10 = {
+		}
+	}
+	traits = {
+		vessels_theory
+		armament_theory
+		systems_theory		
+	}
+	level_effect = {
+		1 = {
+			activate_unit = nuclear_submarine
+		}
+		2 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		3 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		4 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		5 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		6 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		7 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		8 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		9 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		10 = {
+			nuclear_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = no 	
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Guided Missile Submarine Hull
+
+unit_submarine_missile = {
+
+	multilevel = yes
+	level = 8
+
+	allow_level = {
+		1 = {
+			unit_submarine_teardrop = 1
+			launcher_submarine_surfacefire = 1
+			propulsion_diesel_submarine = 1
+			OR = {
+				allsubs_autonomousoperations = 1
+				tacticalstrikesubs-surfacesubs_coordinatedoperations = 1
+			}
+		}
+		2 = {
+			propulsion_diesel_submarine = 2
+		}
+		3 = {
+			propulsion_diesel_submarine = 3
+		}
+		4 = {
+			propulsion_diesel_submarine = 3
+		}
+		5 = {
+			propulsion_diesel_submarine = 4
+		}
+		6 = {
+			propulsion_diesel_submarine = 4
+		}
+		7 = {
+			propulsion_diesel_submarine = 5
+		}
+		8 = {
+			propulsion_diesel_submarine = 6
+		}
+	}
+	traits = {
+		hqandsub_theory
+		vessels_theory
+		armament_theory
+		systems_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = guided_submarine
+		}
+		2 = {
+			guided_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		3 = {
+			guided_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		4 = {
+			guided_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		5 = {
+			guided_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		6 = {
+			guided_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		7 = {
+			guided_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+		8 = {
+			guided_submarine = {
+				visibility = 0.5
+				hull = 0.3
+			}
+		}
+	}
+
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+# Nuclear Guided Missile Submarine Hull
+
+unit_nuclearsubmarine_missile = {
+
+	multilevel = yes
+	level  = 8
+	
+	allow_level = {
+		1 = {
+			unit_submarine_missile = 1
+			propulsion_nuclear_submarine = 1
+			launcher_submarine_surfacefire = 1
+			OR = {
+				allsubs_autonomousoperations = 1
+				tacticalstrikesubs-surfacesubs_coordinatedoperations = 1
+			}
+		}
+		2 = {
+		}
+		3 = {
+			propulsion_nuclear_submarine = 2
+		}
+		4 = {
+		}
+		5 = {
+		}
+		6 = {
+			propulsion_nuclear_submarine = 3
+		}
+		7 = {
+		}
+		8 = {
+		}
+		9 = {
+		}
+	}
+	traits = {
+		hqandsub_theory
+		vessels_theory
+		armament_theory
+		systems_theory
+	}	
+	level_effect = {
+		1 = {
+			activate_unit = nuclear_guided_submarine
+		}
+		2 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		3 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		4 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		5 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		6 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		7 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		8 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		9 = {
+			nuclear_guided_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+
+	}
+ 	can_upgrade = no
+	change = no 	
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+
+# Ballistic Submarine Hull
+
+unit_ballistic_missile_submarine = {
+
+	multilevel = yes
+	level  = 10
+
+	allow_level = {
+		1 = {
+			unit_submarine_missile = 1
+			launcher_submarine_submergefire_large = 1
+			OR = {
+				allsubs_autonomousoperations = 1
+				tacticalstrikesubs-surfacesubs_coordinatedoperations = 1
+			}
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		hqandsub_theory
+		vessels_theory
+		armament_theory
+	}
+	level_effect = {
+		1 = {
+			activate_unit = ballistic_missile_submarine
+		}
+		2 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		3 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		4 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		5 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		6 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		7 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		8 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		9 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+		10 = {
+			ballistic_missile_submarine = {
+				visibility = 1
+				hull = 0.5
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = no 
+	folder = naval_tech1_folder
+	time = 100
+	cost = 100
+}
+
+
+
+

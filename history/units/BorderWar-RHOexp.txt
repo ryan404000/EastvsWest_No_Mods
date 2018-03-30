@@ -1,0 +1,17 @@
+#RHO Expeditionary force in Angola
+	army = 
+	{
+		name = "Rhodesian Expeditionary Army"
+		location = 6642
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = RHO
+
+		division = 
+		{   
+			name = "1st Infantry Division"
+			location = 6642
+			expeditionary_owner = RHO
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 33 experience = 5 }
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 1 strength = 30 experience = 6 }
+		}
+	}

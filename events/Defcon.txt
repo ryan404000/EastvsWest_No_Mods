@@ -1,0 +1,144 @@
+#Defcon.txt
+#DEFCON
+
+#Global:
+	#5000 - We move to DEFCON 5
+	#5001 - We move to DEFCON 4
+	#5002 - We move to DEFCON 3
+	#5003 - We move to DEFCON 2
+	#5004 - We move to DEFCON 1 due to nuclear warfare
+	#5005 - We move to DEFCON 1 due to territorial loss
+
+
+## Global ##
+	country_event = {
+
+		id = 5000
+
+		trigger = {
+			defcon = 4
+			faction_member_at_war = no
+			war_on_continent = no
+			war = no
+		}
+		
+		mean_time_to_happen =  {
+			days = 2
+		}
+
+		title = "EVTNAME5000"
+		desc = "EVTDESC5000"
+		picture = "defcon5"
+
+		option = {
+			name = "EVTOPTA5000"
+			set_defcon = 5
+		}
+	}
+
+	country_event = {
+		
+		id = 5001
+		
+		trigger = {
+			OR = {
+				defcon = 3
+				NOT = { defcon = 4 }
+			}
+			war_on_continent = yes
+			faction_member_at_war = no
+			war = no
+		}
+
+		title = "EVTNAME5001"
+		desc = "EVTDESC5001"
+		picture = "defcon4"
+
+		option = {
+			name = "EVTOPTA5001"
+			set_defcon = 4
+		}
+	}
+
+	country_event = {
+		
+		id = 5002
+
+		trigger = {
+			OR = {
+				defcon = 2
+				NOT = { defcon = 3 }
+			}
+			faction_member_at_war = yes
+			war = no
+		}
+
+		title = "EVTNAME5002"
+		desc = "EVTDESC5002"
+		picture = "defcon3"
+
+		option = {
+			name = "EVTOPTA5002"
+			set_defcon = 3
+		}
+	}
+
+	country_event = {
+		
+		id = 5003
+
+		trigger = {
+			NOT = { defcon = 2 }
+			war = yes
+			nuke_launched = no
+		}
+
+		title = "EVTNAME5003"
+		desc = "EVTDESC5003"
+		picture = "defcon2"
+
+		option = {
+			name = "EVTOPTA5003"
+			set_defcon = 2
+		}
+	}
+
+	country_event = {
+		
+		id = 5004
+
+		trigger = {
+			NOT = { defcon = 1 }
+			war = yes
+			nuke_launched = yes	
+		}
+
+		title = "EVTNAME5004"
+		desc = "EVTDESC5004"
+		picture = "defcon1"
+
+		option = {
+			name = "EVTOPTA5004"
+			set_defcon = 1
+		}
+	}
+
+	country_event = {
+		
+		id = 5005
+
+		trigger = {
+			NOT = { defcon = 1 }
+			war = yes
+			lost_national = 10	
+		}
+
+		title = "EVTNAME5005"
+		desc = "EVTDESC5005"
+		picture = "defcon1"
+
+		option = {
+			name = "EVTOPTA5005"
+			set_defcon = 1
+		}
+	}

@@ -1,0 +1,64 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLSKI;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGESE;RUSSIAN;FINNISH;x
+BP_TITLE;BATTLE PLANNER;;;;;;;;;;;;;x
+BP_TITLE_IRO;Battle Planner;;;;;;;;;;;;;x
+BP_TAB_CURRENT;Current;;Aktuelle;;;;;;;;;;;x
+BP_TAB_HISTORICAL;History;;Historische;;;;;;;;;;;x
+BP_TAB_SAVED;Saved;;;;;;;;;;;;;x
+BP_TOOL_COLOR_RED;Red;;Rot;;;;;;;;;;;x
+BP_TOOL_COLOR_GREEN;Green;;Grün;;;;;;;;;;;x
+BP_TOOL_COLOR_BLUE;Blue;;Blau;;;;;;;;;;;x
+BP_TOOL_COLOR_YELLOW;Yellow;;Gelb;;;;;;;;;;;x
+BP_TOOL_ARROW_SLIM;Slim Arrow;;Dünner Pfeil;;;;;;;;;;;x
+BP_TOOL_ARROW_MEDIUM_1;Medium Arrow 1;;Mittelgroßer Pfeil 1;;;;;;;;;;;x
+BP_TOOL_ARROW_MEDIUM_2;Medium Arrow 2;;Mittelgroßer Pfeil 2;;;;;;;;;;;x
+BP_TOOL_ARROW_MEDIUM_3;Medium Arrow 3;;Mittelgroßer Pfeil 3;;;;;;;;;;;x
+BP_TOOL_ARROW_THICK;Thick Arrow;;Dicker Pfeil;;;;;;;;;;;x
+BP_TOOL_BORDER_1;Border type 1;;Grenztyp 1;;;;;;;;;;;x
+BP_TOOL_BORDER_2;Border type 2;;Grenztyp 2;;;;;;;;;;;x
+BP_TOOL_BORDER_3;Border type 3;;Grenztyp 3;;;;;;;;;;;x
+BP_TOOL_BORDER_4;Border type 4;;Grenztyp 4;;;;;;;;;;;x
+BP_TOOL_BORDER_5;Border type 5;;Grenztyp 5;;;;;;;;;;;x
+BP_TOOL_ICON_AIRPLANE;Airplane icon;;Flugzeug-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_TANK;Tank icon;;Tank-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_NUKE;Nuclear icon;;Atomwaffen-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_CARRIER;Carrier icon;;Flugzeugträger-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_BATTLESHIP;Battleship icon;;Kriegsschiff-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_SUB;Submarine icon;;U-Boot-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_LANDING;Landing icon;;Landung-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_INFANTRY;Infantry icon;;Infanterie;;;;;;;;;;;x
+BP_TOOL_ICON_COMBAT;Combat icon;;Kampf-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_BOMB_1;Small bomb icon;;Kleine Bombe-Symbol;;;;;;;;;;;x
+BP_TOOL_ICON_BOMB_2;Large bomb icon;;Große Bombe-Symbol;;;;;;;;;;;x
+BP_SAVE_PLAN_CONFIRM;Save Plan;;Plan speichern;;;;;;;;;;;x
+BP_SAVE_PLAN_CANCEL;Cancel;;Abbrechen;;;;;;;;;;;x
+BP_SAVE_PLAN_PROMPT;Battle Plan already exists!\nDo you want to overwrite?;;Kriegsplan existiert bereits!\nMöchtest du ihn überschreiben?;;;;;;;;;;;x
+BP_DELETE_SAVED_PLAN_PROMPT;Are you sure that you want to delete the saved battle plan?;;Bist du sicher, dass du den gespeicherten Kriegsplan löschen möchtest?;;;;;;;;;;;x
+BP_DELETE_CURRENT_PLAN_PROMPT;Are you sure that you want to delete the current battle plan?;;Bist du sicher, dass du den aktuellen Kriegsplan löschen möchtest?;;;;;;;;;;;x
+BP_SHARED_WITH;Shared with:;;Geteilt mit:;;;;;;;;;;;x
+BP_NEW_PLAN;New Plan;;Neuer Plan;;;;;;;;;;;x
+BP_TOOLTIP_TAB_CURRENT;List of current battle plans.;;Liste der aktuellen Kriegspläne.;;;;;;;;;;;x
+BP_TOOLTIP_TAB_HISTORICAL;List of historical battle plans.\nClick §YImport§! to add the selected one to your current plans.;;Liste der historischen Kriegspläne.\nKlicke auf §Yimportieren§!, um den ausgewählten Plan zu den Aktuellen hinzuzufügen.;;;;;;;;;;;x
+BP_TOOLTIP_TAB_SAVED;List of your saved battle plans.\nClick §YImport§! to add the selected one to your current plans.;;Liste deiner gespeicherten Kriegspläne.\nKlicke auf §Yimportieren§!, um den ausgewählten Plan zu den Aktuellen hinzuzufügen.;;;;;;;;;;;x
+BP_TOOLTIP_NEW_PLAN;Create new plan.;;Neuen Plan entwerfen.;;;;;;;;;;;x
+BP_TOOLTIP_REMOVE_PLAN;Delete currently selected plan.;;Momentan ausgewählten Plan löschen.;;;;;;;;;;;x
+BP_TOOLTIP_SHARE_PLAN;Toggle §Ysharing§! currently selected plan with your §Gally members§!.;;Schalte §YTeilen§! des momentan ausgewählten Plans mit deinen §GAllianz-Mitgliedern§! ein/aus.;;;;;;;;;;;x
+BP_TOOLTIP_SAVE_PLAN;Save currently selected plan to file.;;Momentan ausgewählten Plan in Datei speichern.;;;;;;;;;;;x
+BP_TOOLTIP_RENAME_PLAN;Rename currently selected plan.;;Momentan ausgewählten Plan umbenennen.;;;;;;;;;;;x
+BP_TOOLTIP_IMPORT_PLAN;Add selected plan to your current plans.;;Ausgewählten Plan zu deinen aktuellen Plänen hinzufügen.;;;;;;;;;;;x
+BP_TOOLTIP_TOOL_SELECT;Click on object to select it.;;Auf Objekt klicken, um es auszuwählen.;;;;;;;;;;;x
+BP_TOOLTIP_TOOL_ARROW;Choose arrow type, then draw it on the map with the §YLeft Mouse Btn§!.\nHold §YShift§! + §YLeft Mouse Btn§! to snap your arrow to another one.;;Wähle einen Pfeiltyp aus und zeichne ihn auf die Landkarte mit der §YLinken Maus Taste§!.\nDrücke §YShift§! + die §YLinke Maus Taste§!, um zu einem Anderen zu wechseln.;;;;;;;;;;;x
+BP_TOOLTIP_TOOL_BORDER;Choose border type, then draw it on the map with §YLeft Mouse Btn§!.;;Wähle einen Grenztyp aus und zeichne ihn auf die Landkarte mit der §YLinken Maus Taste§!.;;;;;;;;;;;x
+BP_TOOLTIP_TOOL_ICON;Choose icon type, then draw it on the map with §YLeft Mouse Btn§!.\nHold §YShift§! + §YMouse Wheel§! to rotate an icon.;;Wähle einen Symboltyp aus und zeichne ihn auf die Landkarte mit der §YLinken Maus Taste§!.\nDrücke §YShift§! + §YMausrad§!, um das Symbol zu drehen.;;;;;;;;;;;x
+BP_TOOLTIP_TOOL_COLOR;Choose current color to draw arrows and icons.\nAlso applies the color to any currently selected arrow or icon.;;Wähle die aktuelle Farbe aus, um Pfeile und Symbole zu zeichnen.\nDiese Farbe wird auch für jeden momentan ausgewählten Pfeil oder jedes ausgewählte Symbol verwendet.;;;;;;;;;;;x
+BP_TOOLTIP_TOOL_TEXT;Place a text sign on the map.\nIf nothing selected - creates new text.\nIf an arrow is selected - draws the text on the arrow.\nIf text sign selected - edits the text.\n§YShift§! + §YMouse Wheel§! to rotate the text.\n§YCtrl§! + §YMouse Wheel§! to scale the text.;;Setze ein Textzeichen auf die Landkarte.\nWenn nichts ausgewählt wird –  Ein neuer Text wird erstellt.\nWenn ein Pfeil ausgewählt wird – der Text zeichnet sich auf den Pfeil.\nWenn das Textzeichen ausgewählt wird – der Text wird bearbeitet.\n§YShift§! + §;;;;;;;;;;;x
+BP_TOOLTIP_TOOL_ERASE;Delete selected object.;;Ausgewähltes Objekt löschen.;;;;;;;;;;;x
+BP_TOOLTIP_VISIBILITY;Toggle plan visibility on the map.;;Plansichtbarkeit auf der Landkarte ein-/ausschalten.;;;;;;;;;;;x
+BP_TOOL_ARROW_SLIM_DASHED;Slim Dashed Arrow;;Dünner gestrichelter Pfeil;;;;;;;;;;;x
+BP_TOOL_ARROW_MEDIUM_1_DASHED;Medium Dashed Arrow 1;;Mittlerer gestrichelter Pfeil 1;;;;;;;;;;;x
+BP_TOOL_ARROW_MEDIUM_2_DASHED;Medium Dashed Arrow 2;;Mittlerer gestrichelter Pfeil 2;;;;;;;;;;;x
+BP_TOOL_ARROW_MEDIUM_3_DASHED;Medium Dashed Arrow 3;;Mittlerer gestrichelter Pfeil 3;;;;;;;;;;;x
+BP_TOOL_ARROW_THICK_DASHED;Thick Dashed Arrow;;Dicker gestrichelter Pfeil;;;;;;;;;;;x
+BP_OPEN_TOOLTIP;Open/Close the battle plan editor.;;Öffnen/Schließen des Schlachtplaners.;;;;;;;;;;;x
+BP_TOGGLE_TOOLTIP;Show/Hide the current battle plans.;;Anzeigen/Verbergen des aktuellen Schlachtplanes.;;;;;;;;;;;x
+BP_FAILED_SAVE_FILE;Failed to save the battle plans.;;Speichern der Schlachtpläne fehlgeschlagen.;;;;;;;;;;;x
+BP_ILLEGAL_FILE_NAME;File name contains illegal characters!;;Dateiname enthällt ungültigen Buchstaben!;;;;;;;;;;;x

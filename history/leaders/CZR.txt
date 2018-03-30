@@ -1,0 +1,1548 @@
+1485000 = {
+	name = "Ratimir Novak"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.10.1 = { rank = 0 }
+	}
+}
+1485002 = {
+	name = "Ctirad Koky"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1485005 = {
+	name = "Slávek Samek"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1485003 = {
+	name = "Nyja Marek"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.6.1 = { rank = 0 }
+	}
+}
+1485010 = {
+	name = "Vladan Svaton"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1948.10.1 = { rank = 1 }
+		1952.3.1 = { rank = 0 }
+	}
+}
+1485004 = {
+	name = "Sambor Sicha"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1485009 = {
+	name = "Ratibor Kandrac"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1954.7.1 = { rank = 0 }
+	}
+}
+1485016 = {
+	name = "Neklan Hajek"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.7.1 = { rank = 1 }
+		1955.6.1 = { rank = 0 }
+	}
+}
+1485008 = {
+	name = "Ladislav Malina"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1954.7.1 = { rank = 4 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1485012 = {
+	name = "Lubos Novak"
+	type = land
+	country = CZR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.6.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1485001 = {
+	name = "Branislav Nemec"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1485013 = {
+	name = "Mirogod Nebesky"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.6.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1485020 = {
+	name = "Pribislav Plecity"
+	type = land
+	country = CZR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.2.1 = { rank = 1 }
+		1960.10.1 = { rank = 0 }
+	}
+}
+1485011 = {
+	name = "Milivoj Plecity"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.1.1 = { rank = 1 }
+		1961.2.1 = { rank = 0 }
+	}
+}
+1485023 = {
+	name = "Sava Bares"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1961.2.1 = { rank = 1 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1485024 = {
+	name = "Milan Rosa"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1962.8.1 = { rank = 1 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1485019 = {
+	name = "Boris Kraus"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.10.1 = { rank = 1 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1485014 = {
+	name = "Miroslav Hrdina"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1952.3.1 = { rank = 1 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1485021 = {
+	name = "Vladan Marek"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1959.5.1 = { rank = 1 }
+		1966.1.1 = { rank = 0 }
+	}
+}
+1485017 = {
+	name = "Sviatoslav Vanek"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1955.6.1 = { rank = 1 }
+		1956.12.1 = { rank = 2 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1485015 = {
+	name = "Dobroslaw Soukup"
+	type = land
+	country = CZR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.10.1 = { rank = 1 }
+		1954.7.1 = { rank = 2 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1485007 = {
+	name = "Ctirad Ferenc"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.7.1 = { rank = 3 }
+		1956.12.1 = { rank = 4 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1485027 = {
+	name = "Radoslav Samek"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.12.1 = { rank = 1 }
+		1969.8.1 = { rank = 2 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1485030 = {
+	name = "Velimir Zabransky"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1971.6.1 = { rank = 0 }
+	}
+}
+1485032 = {
+	name = "Vojislav Janos"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1972.6.1 = { rank = 0 }
+	}
+}
+1485028 = {
+	name = "Milosz Spacek"
+	type = land
+	country = CZR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1966.1.1 = { rank = 1 }
+		1973.8.1 = { rank = 0 }
+	}
+}
+1485022 = {
+	name = "Premysl Stary"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.10.1 = { rank = 1 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1485036 = {
+	name = "Ratko Kraus"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.11.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1485035 = {
+	name = "Mirogod Zabransky"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.8.1 = { rank = 1 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1485029 = {
+	name = "Milan Stary"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.2.1 = { rank = 1 }
+		1968.9.1 = { rank = 2 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1485034 = {
+	name = "Vojislav Plecity"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1972.6.1 = { rank = 1 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1485039 = {
+	name = "Ratko Kadlec"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1977.2.1 = { rank = 1 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1485018 = {
+	name = "Bohumil Riedl"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.12.1 = { rank = 1 }
+		1980.8.1 = { rank = 0 }
+	}
+}
+1485006 = {
+	name = "Václav Zabransky"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.12.1 = { rank = 3 }
+		1969.8.1 = { rank = 4 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1485037 = {
+	name = "Nyja Fort"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.12.1 = { rank = 1 }
+		1981.5.1 = { rank = 2 }
+		1982.6.1 = { rank = 0 }
+	}
+}
+1485044 = {
+	name = "Ratibor Novotny"
+	type = land
+	country = CZR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.6.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1485043 = {
+	name = "Bogdan Prochazka"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.5.1 = { rank = 1 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1485033 = {
+	name = "Svantovít Nemec"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.6.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1485046 = {
+	name = "Miloslav Slavik"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.9.1 = { rank = 1 }
+		1986.6.1 = { rank = 0 }
+	}
+}
+1485045 = {
+	name = "Slawoj Havelka"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.3.1 = { rank = 1 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1485031 = {
+	name = "Vladan Slavik"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.8.1 = { rank = 1 }
+		1971.6.1 = { rank = 2 }
+		1988.3.1 = { rank = 0 }
+	}
+}
+1485050 = {
+	name = "Miloslav Bares"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1988.3.1 = { rank = 1 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1485025 = {
+	name = "Boyan Spalek"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.2.1 = { rank = 1 }
+		1977.2.1 = { rank = 2 }
+		1981.5.1 = { rank = 3 }
+		1990.6.1 = { rank = 0 }
+	}
+}
+1485026 = {
+	name = "Sambor Riedl"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1967.2.1 = { rank = 2 }
+		1969.8.1 = { rank = 3 }
+		1981.5.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485038 = {
+	name = "Radim Ferenc"
+	type = land
+	country = CZR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.2.1 = { rank = 1 }
+		1988.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485040 = {
+	name = "Sobieslaw Soukup"
+	type = land
+	country = CZR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1978.1.1 = { rank = 1 }
+		1982.6.1 = { rank = 2 }
+		1990.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485041 = {
+	name = "Ratimir Samek"
+	type = land
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485042 = {
+	name = "Vladislav Nemec"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485047 = {
+	name = "Milivoj Vitasek"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1985.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485048 = {
+	name = "Kaspar Novotny"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.6.1 = { rank = 1 }
+		1990.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485049 = {
+	name = "Vinko Nebesky"
+	type = land
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485051 = {
+	name = "Zawisza Tesarek"
+	type = land
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485052 = {
+	name = "Slawomir Papousek"
+	type = land
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485057 = {
+	name = "Stanimir Chmelar"
+	type = sea
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1485056 = {
+	name = "Zbigniew Silny"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1485061 = {
+	name = "Branislav Urbanek"
+	type = sea
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1948.7.1 = { rank = 1 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1485054 = {
+	name = "Vasek Vesely"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.7.1 = { rank = 0 }
+	}
+}
+1485058 = {
+	name = "Ratimir Stranak"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1485065 = {
+	name = "Sava Havelka"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.9.1 = { rank = 1 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1485053 = {
+	name = "Juraj Kafkova"
+	type = sea
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1485066 = {
+	name = "Vladislav Zabransky"
+	type = sea
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.3.1 = { rank = 1 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1485055 = {
+	name = "Sviatoslav Lukasova"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1485063 = {
+	name = "Kvetoslav Kollar"
+	type = sea
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1949.3.1 = { rank = 1 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1485069 = {
+	name = "Zawisza Vlckova"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1959.9.1 = { rank = 1 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1485068 = {
+	name = "Milomir Samek"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.4.1 = { rank = 1 }
+		1967.11.1 = { rank = 0 }
+	}
+}
+1485062 = {
+	name = "Lubos Urbanek"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1485071 = {
+	name = "Ratibor Bares"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1971.1.1 = { rank = 0 }
+	}
+}
+1485072 = {
+	name = "Miroslav Kafkova"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.11.1 = { rank = 1 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1485059 = {
+	name = "Kvetoslav Cermak"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1485060 = {
+	name = "Przemysl Dlouhy"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1485074 = {
+	name = "Vlastimil Hejtmanek"
+	type = sea
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.1.1 = { rank = 1 }
+		1982.4.1 = { rank = 2 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1485077 = {
+	name = "Bozidar Vitasek"
+	type = sea
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1485064 = {
+	name = "Ctirad Vesely"
+	type = sea
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.7.1 = { rank = 1 }
+		1955.9.1 = { rank = 2 }
+		1980.11.1 = { rank = 3 }
+		1982.4.1 = { rank = 4 }
+		1987.11.1 = { rank = 0 }
+	}
+}
+1485076 = {
+	name = "Stepán Kollar"
+	type = sea
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.11.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1485073 = {
+	name = "Przemysl Tulej"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1987.11.1 = { rank = 2 }
+		1989.11.1 = { rank = 0 }
+	}
+}
+1485067 = {
+	name = "Radoslav Vanecek"
+	type = sea
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1959.1.1 = { rank = 1 }
+		1980.11.1 = { rank = 2 }
+		1982.4.1 = { rank = 3 }
+		1987.11.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485070 = {
+	name = "Juraj Vesely"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485075 = {
+	name = "Radim Rosa"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.10.1 = { rank = 1 }
+		1985.12.1 = { rank = 2 }
+		1987.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485078 = {
+	name = "Bogomil Cerny"
+	type = sea
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485079 = {
+	name = "Ludomir Lukasova"
+	type = sea
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485080 = {
+	name = "Przemysl Hlousek"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485081 = {
+	name = "Lubos Silny"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1989.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485082 = {
+	name = "Bohumil Nemec"
+	type = sea
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485083 = {
+	name = "Przemysl Papousek"
+	type = air
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1485089 = {
+	name = "Milan Prochazka"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1485093 = {
+	name = "Bogdan Leskovjan"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.6.1 = { rank = 1 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1485088 = {
+	name = "Kvetoslav Koky"
+	type = air
+	country = CZR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1485092 = {
+	name = "Radomir Vanek"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.3.1 = { rank = 1 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1485096 = {
+	name = "Bogomil Vlckova"
+	type = air
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.8.1 = { rank = 1 }
+		1958.7.1 = { rank = 0 }
+	}
+}
+1485087 = {
+	name = "Vinko Spalek"
+	type = air
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.6.1 = { rank = 2 }
+		1959.10.1 = { rank = 0 }
+	}
+}
+1485097 = {
+	name = "Rostislav Hejtmanek"
+	type = air
+	country = CZR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1958.7.1 = { rank = 1 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1485090 = {
+	name = "Svantovít Svaton"
+	type = air
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1485095 = {
+	name = "Slawomir Lukasova"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.5.1 = { rank = 1 }
+		1959.10.1 = { rank = 2 }
+		1960.10.1 = { rank = 0 }
+	}
+}
+1485091 = {
+	name = "Dobrogost Herman"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1960.4.1 = { rank = 0 }
+	}
+}
+1485101 = {
+	name = "Miroslav Zadrazil"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1960.10.1 = { rank = 1 }
+		1961.8.1 = { rank = 0 }
+	}
+}
+1485099 = {
+	name = "Slávek Dlouhy"
+	type = air
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1959.4.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1485085 = {
+	name = "Godzimir Spalek"
+	type = air
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1485102 = {
+	name = "Dobromir Vesely"
+	type = air
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.4.1 = { rank = 1 }
+		1963.5.1 = { rank = 0 }
+	}
+}
+1485106 = {
+	name = "Ondrej Spacek"
+	type = air
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.5.1 = { rank = 1 }
+		1966.12.1 = { rank = 0 }
+	}
+}
+1485104 = {
+	name = "Ratimir Vales"
+	type = air
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1968.10.1 = { rank = 0 }
+	}
+}
+1485094 = {
+	name = "Vojtech Zabransky"
+	type = air
+	country = CZR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.4.1 = { rank = 1 }
+		1953.5.1 = { rank = 2 }
+		1959.9.1 = { rank = 3 }
+		1960.4.1 = { rank = 4 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1485109 = {
+	name = "Krasimir Svoboda"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1485100 = {
+	name = "Izaias Bruza"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1959.9.1 = { rank = 1 }
+		1976.5.1 = { rank = 0 }
+	}
+}
+1485110 = {
+	name = "Milivoj Kafkova"
+	type = air
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1485084 = {
+	name = "Vitomir Becvar"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.10.1 = { rank = 2 }
+		1960.10.1 = { rank = 3 }
+		1970.5.1 = { rank = 4 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1485105 = {
+	name = "Vojtech Krystof"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.10.1 = { rank = 1 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1485107 = {
+	name = "Alois Marek"
+	type = air
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.12.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1485113 = {
+	name = "Vladan Marek"
+	type = air
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1980.12.1 = { rank = 1 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1485114 = {
+	name = "Juraj Marek"
+	type = air
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.3.1 = { rank = 1 }
+		1983.10.1 = { rank = 0 }
+	}
+}
+1485111 = {
+	name = "Ludomir Novotny"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.5.1 = { rank = 1 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1485116 = {
+	name = "Miroslav Prochazka"
+	type = air
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1982.12.1 = { rank = 1 }
+		1990.8.1 = { rank = 0 }
+	}
+}
+1485086 = {
+	name = "Vlasta Malina"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.9.1 = { rank = 2 }
+		1970.5.1 = { rank = 3 }
+		1980.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485098 = {
+	name = "Milosz Riedl"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.10.1 = { rank = 1 }
+		1960.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485103 = {
+	name = "Ladislav Linhart"
+	type = air
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485108 = {
+	name = "Ctibor Janos"
+	type = air
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.10.1 = { rank = 1 }
+		1970.5.1 = { rank = 2 }
+		1980.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485112 = {
+	name = "Rostislav Vanek"
+	type = air
+	country = CZR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.10.1 = { rank = 1 }
+		1980.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485115 = {
+	name = "Lubomir Vlckova"
+	type = air
+	country = CZR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485117 = {
+	name = "Bozidar Slavik"
+	type = air
+	country = CZR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1983.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485118 = {
+	name = "Sava Broucek"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1485119 = {
+	name = "Vasek Moravek"
+	type = air
+	country = CZR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

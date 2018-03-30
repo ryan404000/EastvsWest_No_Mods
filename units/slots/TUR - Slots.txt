@@ -1,0 +1,85 @@
+# ----------------------- SUBS -----------------------------------
+# Saldiray-class
+submarine.0 = {
+	slotdata = { id = ciws_complex level = 0 x = 410 y = 635}
+	slotdata = { id = torpedo_complex level = 0 x = 660 y = 685 ammo_store = 20}
+	slotdata = { id = torpedo_complex level = 0 x = 100 y = 675 ammo_store = 2}
+}
+
+# ----------------------- SURFACE SHIPS -----------------------------------
+# Model 1955
+missile_boat.0 = {
+	slotdata = { id = gun_complex level = 3 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 3 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 1 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1960
+missile_boat.1 = {
+	slotdata = { id = gun_complex level = 4 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 4 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 2 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1965
+missile_boat.2 = {
+	slotdata = { id = gun_complex level = 5 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 5 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 3 x = 320 y = 655 ammo_store = 4}
+}
+# Model 1970
+missile_boat.3 = {
+	slotdata = { id = gun_complex level = 6 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 6 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 4 x = 320 y = 655 ammo_store = 4}
+}
+# Dogan-class
+missile_boat.4 = {
+slotdata = { id = gun_complex level = 5 x = 420 y = 655}
+slotdata = { id = ciws_complex level = 5 x = 290 y = 658}
+slotdata = { id = mr_as_complex level = 5 x = 330 y = 655 ammo_store = 8}
+}
+# Model 1980
+missile_boat.5 = {
+	slotdata = { id = gun_complex level = 8 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 8 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 6 x = 320 y = 655 ammo_store = 6}
+}
+# Model 1985
+missile_boat.6 = {
+	slotdata = { id = gun_complex level = 9 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 9 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 7 x = 320 y = 655 ammo_store = 8}
+}
+# Model 1990
+missile_boat.7 = {
+	slotdata = { id = gun_complex level = 10 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 10 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 8 x = 320 y = 655 ammo_store = 8}
+}
+# ----------------------- DESTROYERS -----------------------------------
+
+# Kocatepe-class
+destroyer.0 = {
+slotdata = { id = gun_complex level = 0 x = 160 y = 690}
+slotdata = { id = gun_complex level = 0 x = 200 y = 678}
+slotdata = { id = gun_complex level = 0 x = 550 y = 665}
+slotdata = { id = gun_complex level = 0 x = 590 y = 680}
+slotdata = { id = ciws_complex level = 0 x = 260 y = 675}
+slotdata = { id = ciws_complex level = 0 x = 480 y = 675}
+slotdata = { id = torpedo_complex level = 0 x = 290 y = 685 ammo_store = 6}
+slotdata = { id = torpedo_complex level = 0 x = 410 y = 685 ammo_store = 6}
+}
+
+# ----------------------- CAPITAL SHIPS -----------------------------------
+
+# Yavuz Sultan Selim-class
+battleship.0 = {
+slotdata = { id = heavy_gun_complex level = 0 x = 230 y = 684}
+slotdata = { id = heavy_gun_complex level = 0 x = 490 y = 678}
+slotdata = { id = heavy_gun_complex level = 0 x = 540 y = 685}
+slotdata = { id = heavy_gun_complex level = 0 x = 375 y = 685}
+slotdata = { id = heavy_gun_complex level = 0 x = 330 y = 685}
+slotdata = { id = ciws_complex level = 0 x = 280 y = 685}
+slotdata = { id = ciws_complex level = 0 x = 320 y = 659}
+slotdata = { id = ciws_complex level = 0 x = 405 y = 659}
+slotdata = { id = ciws_complex level = 0 x = 457 y = 685}
+}

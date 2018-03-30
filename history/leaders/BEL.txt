@@ -1,0 +1,1546 @@
+1475007 = {
+	name = "Arend Bertrand"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1475009 = {
+	name = "Jobathan Janssens"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1475012 = {
+	name = "Constantijn Gérard"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.3.1 = { rank = 1 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1475003 = {
+	name = "Gil Willems"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 2 }
+		1951.1.1 = { rank = 0 }
+	}
+}
+1475005 = {
+	name = "Remies Evrard"
+	type = land
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1475010 = {
+	name = "Oscar De Cock"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1953.9.1 = { rank = 0 }
+	}
+}
+1475014 = {
+	name = "Stan Mertens"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1951.1.1 = { rank = 1 }
+		1954.5.1 = { rank = 0 }
+	}
+}
+1475011 = {
+	name = "Wilmar De Vos"
+	type = land
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.4.1 = { rank = 1 }
+		1951.1.1 = { rank = 2 }
+		1953.9.1 = { rank = 3 }
+		1955.4.1 = { rank = 0 }
+	}
+}
+1475013 = {
+	name = "Stéphane Verstraeten"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.6.1 = { rank = 1 }
+		1956.10.1 = { rank = 0 }
+	}
+}
+1475015 = {
+	name = "Nicolas Adam"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1952.9.1 = { rank = 1 }
+		1953.9.1 = { rank = 2 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1475000 = {
+	name = "Ralf Leroy"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.3.1 = { rank = 0 }
+	}
+}
+1475019 = {
+	name = "Cock Petit"
+	type = land
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.10.1 = { rank = 1 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1475016 = {
+	name = "Arnoud Petit"
+	type = land
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.9.1 = { rank = 1 }
+		1955.4.1 = { rank = 2 }
+		1960.7.1 = { rank = 0 }
+	}
+}
+1475002 = {
+	name = "Basten Vermeulen"
+	type = land
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 2 }
+		1949.3.1 = { rank = 3 }
+		1953.9.1 = { rank = 4 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1475008 = {
+	name = "Leis Monami"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.4.1 = { rank = 3 }
+		1961.12.1 = { rank = 4 }
+		1962.3.1 = { rank = 0 }
+	}
+}
+1475004 = {
+	name = "Eric Baert"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1963.3.1 = { rank = 0 }
+	}
+}
+1475024 = {
+	name = "Neal De Ridder"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1964.11.1 = { rank = 0 }
+	}
+}
+1475026 = {
+	name = "Brent Dumont"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.3.1 = { rank = 1 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1475021 = {
+	name = "Clement Janssens"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.3.1 = { rank = 1 }
+		1966.4.1 = { rank = 0 }
+	}
+}
+1475020 = {
+	name = "Karel Desmet"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1961.12.1 = { rank = 2 }
+		1967.5.1 = { rank = 0 }
+	}
+}
+1475001 = {
+	name = "Attilio Simon"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1968.8.1 = { rank = 0 }
+	}
+}
+1475027 = {
+	name = "Tulken Charlier"
+	type = land
+	country = BEL
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.11.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1475022 = {
+	name = "Rijker Claessens"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1962.3.1 = { rank = 2 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1475028 = {
+	name = "Marcellien De Clercq"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.12.1 = { rank = 1 }
+		1967.5.1 = { rank = 2 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1475018 = {
+	name = "Guido Delhaize"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1955.4.1 = { rank = 1 }
+		1957.6.1 = { rank = 2 }
+		1962.3.1 = { rank = 3 }
+		1972.4.1 = { rank = 0 }
+	}
+}
+1475030 = {
+	name = "Borg Jacobs"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.5.1 = { rank = 1 }
+		1972.4.1 = { rank = 2 }
+		1973.1.1 = { rank = 0 }
+	}
+}
+1475017 = {
+	name = "Pieter-Jan Bogaert"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.5.1 = { rank = 1 }
+		1960.7.1 = { rank = 2 }
+		1961.12.1 = { rank = 3 }
+		1962.3.1 = { rank = 4 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1475029 = {
+	name = "Merk Bogaerts"
+	type = land
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.4.1 = { rank = 1 }
+		1975.3.1 = { rank = 0 }
+	}
+}
+1475036 = {
+	name = "Wout De Smet"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1973.1.1 = { rank = 1 }
+		1976.3.1 = { rank = 0 }
+	}
+}
+1475034 = {
+	name = "Zebedeus Lejeune"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.3.1 = { rank = 1 }
+		1973.1.1 = { rank = 2 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1475025 = {
+	name = "John Simon"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.3.1 = { rank = 1 }
+		1970.10.1 = { rank = 2 }
+		1972.4.1 = { rank = 3 }
+		1974.11.1 = { rank = 4 }
+		1978.10.1 = { rank = 0 }
+	}
+}
+1475035 = {
+	name = "Daem Wouters"
+	type = land
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1972.4.1 = { rank = 1 }
+		1977.3.1 = { rank = 2 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1475038 = {
+	name = "Sieckele Lemmens"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.3.1 = { rank = 1 }
+		1980.10.1 = { rank = 0 }
+	}
+}
+1475006 = {
+	name = "Merck Aerts"
+	type = land
+	country = BEL
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1974.11.1 = { rank = 2 }
+		1978.10.1 = { rank = 3 }
+		1981.3.1 = { rank = 0 }
+	}
+}
+1475043 = {
+	name = "Neef Peeters"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.10.1 = { rank = 1 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1475044 = {
+	name = "Mandus Dumont"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1981.3.1 = { rank = 1 }
+		1983.5.1 = { rank = 0 }
+	}
+}
+1475032 = {
+	name = "Eggewaart Aerts"
+	type = land
+	country = BEL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.11.1 = { rank = 1 }
+		1979.11.1 = { rank = 2 }
+		1981.3.1 = { rank = 3 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1475042 = {
+	name = "Krist Bosmans"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.11.1 = { rank = 1 }
+		1985.1.1 = { rank = 0 }
+	}
+}
+1475046 = {
+	name = "Amaat Janssens"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1983.5.1 = { rank = 1 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1475040 = {
+	name = "Eduard François"
+	type = land
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1977.3.1 = { rank = 1 }
+		1987.6.1 = { rank = 0 }
+	}
+}
+1475048 = {
+	name = "Albien Simon"
+	type = land
+	country = BEL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.1.1 = { rank = 1 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1475039 = {
+	name = "Rutte Simon"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1976.3.1 = { rank = 1 }
+		1984.6.1 = { rank = 2 }
+		1989.4.1 = { rank = 0 }
+	}
+}
+1475045 = {
+	name = "Wally Verstraeten"
+	type = land
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1982.4.1 = { rank = 1 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1475023 = {
+	name = "Porter Petit"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1960.7.1 = { rank = 1 }
+		1981.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475031 = {
+	name = "Albrecht Smets"
+	type = land
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.8.1 = { rank = 1 }
+		1971.3.1 = { rank = 2 }
+		1974.11.1 = { rank = 3 }
+		1978.10.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475033 = {
+	name = "Ventura Lambert"
+	type = land
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.10.1 = { rank = 1 }
+		1978.10.1 = { rank = 2 }
+		1984.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475037 = {
+	name = "Ludolf Lauwers"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1974.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475041 = {
+	name = "Lollaert Maes"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1978.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475047 = {
+	name = "Bette Wouters"
+	type = land
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1984.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475049 = {
+	name = "Vic Michel"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475050 = {
+	name = "Roeholt Claessens"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475051 = {
+	name = "Felix Lambert"
+	type = land
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1988.12.1 = { rank = 1 }
+		1989.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475052 = {
+	name = "Constantijn Renard"
+	type = land
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475053 = {
+	name = "Octaaf Mathieu"
+	type = land
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475061 = {
+	name = "Jaan Martens"
+	type = sea
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1475055 = {
+	name = "Arend Delcroix"
+	type = sea
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.8.1 = { rank = 0 }
+	}
+}
+1475062 = {
+	name = "Medard Denis"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1948.4.1 = { rank = 1 }
+		1950.10.1 = { rank = 0 }
+	}
+}
+1475058 = {
+	name = "Niels Thys"
+	type = sea
+	country = BEL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1475063 = {
+	name = "Bastiaan Christiaens"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1948.8.1 = { rank = 1 }
+		1955.12.1 = { rank = 0 }
+	}
+}
+1475056 = {
+	name = "Paul Renard"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1475066 = {
+	name = "Hendrik François"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.12.1 = { rank = 1 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1475068 = {
+	name = "Vaas Lemaire"
+	type = sea
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1966.1.1 = { rank = 0 }
+	}
+}
+1475069 = {
+	name = "Jean-Luc Noël"
+	type = sea
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.1.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1475060 = {
+	name = "Laurens Pieters"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.4.1 = { rank = 4 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1475067 = {
+	name = "Bor Claes"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1960.11.1 = { rank = 1 }
+		1970.7.1 = { rank = 0 }
+	}
+}
+1475059 = {
+	name = "Reynard Simon"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.4.1 = { rank = 3 }
+		1969.6.1 = { rank = 4 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1475070 = {
+	name = "Genesius Lambert"
+	type = sea
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.5.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1475064 = {
+	name = "Richard Vermeersch"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1950.10.1 = { rank = 1 }
+		1969.6.1 = { rank = 2 }
+		1972.9.1 = { rank = 3 }
+		1974.3.1 = { rank = 0 }
+	}
+}
+1475054 = {
+	name = "Bob Van den Broeck"
+	type = sea
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 2 }
+		1969.6.1 = { rank = 3 }
+		1972.9.1 = { rank = 4 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1475057 = {
+	name = "Barabas Vermeersch"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1975.11.1 = { rank = 0 }
+	}
+}
+1475073 = {
+	name = "Cent Simon"
+	type = sea
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1976.7.1 = { rank = 0 }
+	}
+}
+1475078 = {
+	name = "Marnix Goossens"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.7.1 = { rank = 1 }
+		1983.8.1 = { rank = 0 }
+	}
+}
+1475076 = {
+	name = "Daaf De Vos"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1975.9.1 = { rank = 1 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1475079 = {
+	name = "Dominik Francois"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1983.8.1 = { rank = 1 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1475071 = {
+	name = "André Dehasse"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1969.6.1 = { rank = 1 }
+		1975.9.1 = { rank = 2 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1475082 = {
+	name = "Soa Delcroix"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1984.9.1 = { rank = 1 }
+		1990.3.1 = { rank = 0 }
+	}
+}
+1475065 = {
+	name = "Mon Dubois"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475072 = {
+	name = "Polleunis Geerts"
+	type = sea
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.7.1 = { rank = 1 }
+		1974.12.1 = { rank = 2 }
+		1974.12.1 = { rank = 3 }
+		1975.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475074 = {
+	name = "Nino Martin"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.12.1 = { rank = 1 }
+		1974.12.1 = { rank = 2 }
+		1975.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475075 = {
+	name = "Denis Wouters"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475077 = {
+	name = "Pauw Janssens"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475080 = {
+	name = "Baard Goossens"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475081 = {
+	name = "Baptist Dubois"
+	type = sea
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.9.1 = { rank = 1 }
+		1984.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475083 = {
+	name = "Gideon De Smet"
+	type = sea
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475084 = {
+	name = "Herrema Wuyts"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1475092 = {
+	name = "Marten Bogaerts"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1475088 = {
+	name = "Armand Fontaine"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1475089 = {
+	name = "Bonne Segers"
+	type = air
+	country = BEL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.7.1 = { rank = 3 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1475095 = {
+	name = "Broos Lenaerts"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1948.4.1 = { rank = 1 }
+		1955.7.1 = { rank = 0 }
+	}
+}
+1475097 = {
+	name = "Peeter Charlier"
+	type = air
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.7.1 = { rank = 1 }
+		1957.11.1 = { rank = 0 }
+	}
+}
+1475086 = {
+	name = "Huib Cools"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1475094 = {
+	name = "Aernout Wouters"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1959.8.1 = { rank = 0 }
+	}
+}
+1475090 = {
+	name = "Here Vermeersch"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.12.1 = { rank = 3 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1475093 = {
+	name = "Laurentius Van den Broeck"
+	type = air
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1948.7.1 = { rank = 1 }
+		1952.12.1 = { rank = 2 }
+		1961.1.1 = { rank = 3 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1475096 = {
+	name = "Benard Willems"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1952.12.1 = { rank = 1 }
+		1961.1.1 = { rank = 2 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1475101 = {
+	name = "Joshua Francois"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1475102 = {
+	name = "Edmond Jansen"
+	type = air
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.4.1 = { rank = 1 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1475103 = {
+	name = "Achim Martin"
+	type = air
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.4.1 = { rank = 1 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1475087 = {
+	name = "Cent De Backer"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 2 }
+		1967.4.1 = { rank = 3 }
+		1977.11.1 = { rank = 0 }
+	}
+}
+1475091 = {
+	name = "Tuur Segers"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.7.1 = { rank = 4 }
+		1978.4.1 = { rank = 0 }
+	}
+}
+1475098 = {
+	name = "Yannick Claes"
+	type = air
+	country = BEL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1957.11.1 = { rank = 1 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1475099 = {
+	name = "Hendrik Vermeiren"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.2.1 = { rank = 1 }
+		1967.4.1 = { rank = 2 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1475100 = {
+	name = "Evert Vermeulen"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1959.8.1 = { rank = 1 }
+		1977.11.1 = { rank = 2 }
+		1978.4.1 = { rank = 3 }
+		1979.4.1 = { rank = 0 }
+	}
+}
+1475111 = {
+	name = "Sooi Van den Broeck"
+	type = air
+	country = BEL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.4.1 = { rank = 1 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1475105 = {
+	name = "Emile Evrard"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1969.6.1 = { rank = 1 }
+		1978.4.1 = { rank = 2 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1475109 = {
+	name = "Boudewijn De Cock"
+	type = air
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = night_flyer
+	history = {
+		1979.10.1 = { rank = 1 }
+		1985.7.1 = { rank = 2 }
+		1986.2.1 = { rank = 0 }
+	}
+}
+1475112 = {
+	name = "Jochem Wouters"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1984.12.1 = { rank = 1 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1475085 = {
+	name = "Tino Segers"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.4.1 = { rank = 2 }
+		1977.11.1 = { rank = 3 }
+		1978.4.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475104 = {
+	name = "Baard Martin"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = night_flyer
+	history = {
+		1967.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475106 = {
+	name = "Godefrood De Smet"
+	type = air
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475107 = {
+	name = "Benedict Dupont"
+	type = air
+	country = BEL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1977.11.1 = { rank = 1 }
+		1979.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475108 = {
+	name = "Henri Thomas"
+	type = air
+	country = BEL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.4.1 = { rank = 1 }
+		1979.5.1 = { rank = 2 }
+		1979.5.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475110 = {
+	name = "Ed Jacobs"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475113 = {
+	name = "Werther Lambert"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.7.1 = { rank = 1 }
+		1986.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475114 = {
+	name = "Huig Monami"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1475115 = {
+	name = "Fiek Wauters"
+	type = air
+	country = BEL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1987.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

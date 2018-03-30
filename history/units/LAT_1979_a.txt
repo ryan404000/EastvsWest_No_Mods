@@ -1,0 +1,36 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6675
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 6675
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+	}
+}
+military_construction = {
+	country = LAT
+	name = "1st Infantry Division"
+	infantry_brigade =
+	{
+		name = "1st Infantry Brigade"
+		historical_model = 3
+	}
+	infantry_brigade =
+	{
+		name = "2nd Infantry Brigade"
+		historical_model = 3
+	}
+	artillery_brigade =
+	{
+		name = "1st Artillery Regiment"
+		historical_model = 2
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}

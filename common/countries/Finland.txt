@@ -1,0 +1,900 @@
+color = { 205  212  228 }
+graphical_culture = Generic
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	FIN_jaeger_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={
+	supercarrier = {
+		"Ilmarinen" "Väinämöinen" "Joukahainen" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina"
+		"Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma" 
+		}	
+	carrier = {
+		"Ilmarinen" "Väinämöinen" "Joukahainen" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina"
+		"Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma" 
+		}
+	escort_carrier = {
+		"Uusimaa" "Karjala" "Pohjanmaa" "Rauma" "Turku" "Viipuri" "Pietarsaari" "Vaasa" "Oulu" "Aura" 
+		"Kemi" "Tampere" "Suur-Suomi" "Mannerheim" "Ahvenanmaa"
+		}	
+	helicopter_carrier = {
+		"Uusimaa" "Karjala" "Pohjanmaa" "Rauma" "Turku" "Viipuri" "Pietarsaari" "Vaasa" "Oulu" "Aura" 
+		"Kemi" "Tampere" "Suur-Suomi" "Mannerheim" "Ahvenanmaa"
+		}		
+	battleship = {
+		"Ilmarinen" "Väinämöinen" "Joukahainen" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina"
+		"Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma" 
+		}
+	nuclear_battlecruiser = {
+		"Ilmarinen" "Väinämöinen" "Joukahainen" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina"
+		"Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma" 
+	}	
+	nuclear_missile_cruiser = {
+		"Uusimaa" "Karjala" "Pohjanmaa" "Rauma" "Turku" "Viipuri" "Pietarsaari" "Vaasa" "Oulu" "Aura" 
+		"Kemi" "Tampere" "Suur-Suomi" "Mannerheim" "Ahvenanmaa"
+	}	
+	missile_cruiser = {
+		"Uusimaa" "Karjala" "Pohjanmaa" "Rauma" "Turku" "Viipuri" "Pietarsaari" "Vaasa" "Oulu" "Aura" 
+		"Kemi" "Tampere" "Suur-Suomi" "Mannerheim" "Ahvenanmaa"
+	}
+	cruiser = {
+		"Uusimaa" "Karjala" "Pohjanmaa" "Rauma" "Turku" "Viipuri" "Pietarsaari" "Vaasa" "Oulu" "Aura" 
+		"Kemi" "Tampere" "Suur-Suomi" "Mannerheim" "Ahvenanmaa"
+	}
+	missile_destroyer = {
+		"Saimaa" "Suur-Saimaa" "Päijänne" "Inari" "Pielinen" "Oulujärvi" "Pihlajavesi" "Orivesi" "Haukivesi" "Keitele" 
+		"Kallavesi" "Kemijoki" "Iijoki" "Ounasjoki" "Kitinen"		
+	}
+	destroyer = {
+		"1. Rannikkolaivue" "2. Rannikkolaivue" "3. Rannikkolaivue" "4. Rannikkolaivue" "5. Rannikkolaivue" "6. Rannikkolaivue" "7. Rannikkolaivue" "8. Rannikkolaivue" "9. Rannikkolaivue" "10. Rannikkolaivue"
+		"11. Rannikkolaivue" "12. Rannikkolaivue" "13. Rannikkolaivue" "14. Rannikkolaivue" "15. Rannikkolaivue" "16. Rannikkolaivue" "17. Rannikkolaivue" "18. Rannikkolaivue" "19. Rannikkolaivue" "20. Rannikkolaivue"
+		"21. Rannikkolaivue" "22. Rannikkolaivue" "23. Rannikkolaivue" "24. Rannikkolaivue" "25. Rannikkolaivue" "26. Rannikkolaivue" "27. Rannikkolaivue" "28. Rannikkolaivue" "29. Rannikkolaivue" "30. Rannikkolaivue"
+		"31. Rannikkolaivue" "32. Rannikkolaivue" "33. Rannikkolaivue" "34. Rannikkolaivue" "35. Rannikkolaivue" "36. Rannikkolaivue" "37. Rannikkolaivue" "38. Rannikkolaivue" "39. Rannikkolaivue" "40. Rannikkolaivue"
+		"41. Rannikkolaivue" "42. Rannikkolaivue" "43. Rannikkolaivue" "44. Rannikkolaivue" "45. Rannikkolaivue" "46. Rannikkolaivue" "47. Rannikkolaivue" "48. Rannikkolaivue" "49. Rannikkolaivue" "50. Rannikkolaivue"		
+		}
+	missile_frigate = {
+		"Uusimaa" "Hameenmaa" "Matti Kurki" "Klas Horn" "Turunmaa" "Karjala" "Louhi" "Ahven" "Kiiski" "Muikku" 
+		"Sarki" "Kuore" "Lahna" "Rautu" "Vilppula"
+	}	
+	missile_boat = {
+		"1. Ohjusvenelaivue" "2. Ohjusvenelaivue" "3. Ohjusvenelaivue" "4. Ohjusvenelaivue" "5. Ohjusvenelaivue" "6. Ohjusvenelaivue" "7. Ohjusvenelaivue" "8. Ohjusvenelaivue" "9. Ohjusvenelaivue" "10. Ohjusvenelaivue" 
+		"11. Ohjusvenelaivue" "12. Ohjusvenelaivue" "13. Ohjusvenelaivue" "14. Ohjusvenelaivue" "15. Ohjusvenelaivue" "16. Ohjusvenelaivue" "17. Ohjusvenelaivue" "18. Ohjusvenelaivue" "19. Ohjusvenelaivue" "20. Ohjusvenelaivue" 
+		"21. Ohjusvenelaivue" "22. Ohjusvenelaivue" "23. Ohjusvenelaivue" "24. Ohjusvenelaivue" "25. Ohjusvenelaivue" "26. Ohjusvenelaivue" "27. Ohjusvenelaivue" "28. Ohjusvenelaivue" "29. Ohjusvenelaivue" "30. Ohjusvenelaivue" 
+		"31. Ohjusvenelaivue" "32. Ohjusvenelaivue" "33. Ohjusvenelaivue" "34. Ohjusvenelaivue" "35. Ohjusvenelaivue" "36. Ohjusvenelaivue" "37. Ohjusvenelaivue" "38. Ohjusvenelaivue" "39. Ohjusvenelaivue" "40. Ohjusvenelaivue" 
+		"41. Ohjusvenelaivue" "42. Ohjusvenelaivue" "43. Ohjusvenelaivue" "44. Ohjusvenelaivue" "45. Ohjusvenelaivue" "46. Ohjusvenelaivue" "47. Ohjusvenelaivue" "48. Ohjusvenelaivue" "49. Ohjusvenelaivue" "50. Ohjusvenelaivue" 
+	}
+	submarine = {
+		"1. Sukellusvenelaivue" "2. Sukellusvenelaivue" "3. Sukellusvenelaivue" "4. Sukellusvenelaivue" "5. Sukellusvenelaivue" "6. Sukellusvenelaivue" "7. Sukellusvenelaivue" "8. Sukellusvenelaivue" "9. Sukellusvenelaivue" "10. Sukellusvenelaivue"
+		"11. Sukellusvenelaivue" "12. Sukellusvenelaivue" "13. Sukellusvenelaivue" "14. Sukellusvenelaivue" "15. Sukellusvenelaivue" "16. Sukellusvenelaivue" "17. Sukellusvenelaivue" "18. Sukellusvenelaivue" "19. Sukellusvenelaivue" "20. Sukellusvenelaivue"		
+		"21. Sukellusvenelaivue" "22. Sukellusvenelaivue" "23. Sukellusvenelaivue" "24. Sukellusvenelaivue" "25. Sukellusvenelaivue" "26. Sukellusvenelaivue" "27. Sukellusvenelaivue" "28. Sukellusvenelaivue" "29. Sukellusvenelaivue" "30. Sukellusvenelaivue"
+		"31. Sukellusvenelaivue" "32. Sukellusvenelaivue" "33. Sukellusvenelaivue" "34. Sukellusvenelaivue" "35. Sukellusvenelaivue" "36. Sukellusvenelaivue" "37. Sukellusvenelaivue" "38. Sukellusvenelaivue" "39. Sukellusvenelaivue" "40. Sukellusvenelaivue"
+		"41. Sukellusvenelaivue" "42. Sukellusvenelaivue" "43. Sukellusvenelaivue" "44. Sukellusvenelaivue" "45. Sukellusvenelaivue" "46. Sukellusvenelaivue" "47. Sukellusvenelaivue" "48. Sukellusvenelaivue" "49. Sukellusvenelaivue" "50. Sukellusvenelaivue"
+	}
+	attack_submarine = {
+		"Saukko" "Vetehinen" "Vesihiisi" "Iku-Turso" "Vesikko" "Harmaahylje" "Vesi Päästäinen" "Pyöriäinen" "Norppa" "Mursu" 
+		"Pullonokkadelfiinin" "Kääpiö Päästäinen" "Vähiten Päästäinen" "Majava" "Vesimyyrä"			
+	}	
+	nuclear_submarine = {
+		"Saukko" "Vetehinen" "Vesihiisi" "Iku-Turso" "Vesikko" "Harmaahylje" "Vesi Päästäinen" "Pyöriäinen" "Norppa" "Mursu" 
+		"Pullonokkadelfiinin" "Kääpiö Päästäinen" "Vähiten Päästäinen" "Majava" "Vesimyyrä"	
+	}	
+	guided_submarine = {
+		"Uusimaa" "Karjala" "Pohjanmaa" "Rauma" "Turku" "Viipuri" "Pietarsaari" "Vaasa" "Oulu" "Aura" 
+		"Kemi" "Tampere" "Suur-Suomi" "Mannerheim" "Ahvenanmaa"
+	}	
+	nuclear_guided_submarine = {
+		"Uusimaa" "Karjala" "Pohjanmaa" "Rauma" "Turku" "Viipuri" "Pietarsaari" "Vaasa" "Oulu" "Aura" 
+		"Kemi" "Tampere" "Suur-Suomi" "Mannerheim" "Ahvenanmaa"
+	}	
+	ballistic_missile_submarine = {
+		"Ilmarinen" "Väinämöinen" "Joukahainen" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina"
+		"Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma" 
+	}	
+	transport_ship = {
+		"1. Kauppalaivasto" "2. Kauppalaivasto" "3. Kauppalaivasto" "4. Kauppalaivasto" "5. Kauppalaivasto" "6. Kauppalaivasto" "7. Kauppalaivasto" "8. Kauppalaivasto" "9. Kauppalaivasto" "10. Kauppalaivasto"
+		"11. Kauppalaivasto" "12. Kauppalaivasto" "13. Kauppalaivasto" "14. Kauppalaivasto" "15. Kauppalaivasto" "16. Kauppalaivasto" "17. Kauppalaivasto" "18. Kauppalaivasto" "19. Kauppalaivasto" "20. Kauppalaivasto" 
+		"21. Kauppalaivasto" "22. Kauppalaivasto" "23. Kauppalaivasto" "24. Kauppalaivasto" "25. Kauppalaivasto" "26. Kauppalaivasto" "27. Kauppalaivasto" "28. Kauppalaivasto" "29. Kauppalaivasto" "30. Kauppalaivasto"
+		"31. Kauppalaivasto" "32. Kauppalaivasto" "33. Kauppalaivasto" "34. Kauppalaivasto" "35. Kauppalaivasto" "36. Kauppalaivasto" "37. Kauppalaivasto" "38. Kauppalaivasto" "39. Kauppalaivasto" "40. Kauppalaivasto"
+		"41. Kauppalaivasto" "42. Kauppalaivasto" "43. Kauppalaivasto" "44. Kauppalaivasto" "45. Kauppalaivasto" "46. Kauppalaivasto" "47. Kauppalaivasto" "48. Kauppalaivasto" "49. Kauppalaivasto" "50. Kauppalaivasto" 
+		}
+} 
+ministers = {
+#HoS
+	1189000 = {
+		name = "Carl Gustaf Emil Mannerheim"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = FIN_M_C_G_E_Mannerheim
+		head_of_state = traditionalist_type
+		start_date = 1946.1.1
+		death_date = 1946.3.8
+	}
+	1189001 = {
+		name = "Juho Kusti Paasikivi"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = FIN_M_J_K_Paasikivi
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1946.1.1
+		death_date = 1956.3.1
+	}
+	1189002 = {
+		name = "Urho Kekkonen"
+		ideology = social_liberal_idolg
+		loyalty = 0.75
+		picture = FIN_M_U_Kekkonen
+		head_of_state = parental_type
+		start_date = 1956.3.1
+		death_date = 1982.1.27
+	}
+	1189003 = {
+		name = "Mauno Koivisto"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_M_Koivisto
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1968.3.22
+		death_date = 1994.3.1
+	}
+	
+#HoG
+
+	1189004 = {
+		name = "Mauno Pekkala"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = FIN_M_M_Pekkala
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1946.1.1
+		death_date = 1948.7.29
+	}
+	1189005 = {
+		name = "Karl August Fagerholm"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_K_A_Fagerholm
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1946.1.1
+		death_date = 1959.1.13
+	}
+	1189006 = {
+		name = "Sakari Tuomioja"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = FIN_M_S_Tuomioja
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1953.11.17
+		death_date = 1954.5.5
+	}
+	1189007 = {
+		name = "Ralf Törngren"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = FIN_M_R_Torngren
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1945.1.1
+		death_date = 1954.10.20
+	}	
+	1189008 = {
+		name = "Vieno Sukselainen"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = FIN_M_V_Sukselainen
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1957.1.1
+		death_date = 1961.6.14
+	}	
+	1189009 = {
+		name = "Martti Miettunen"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_M_Miettunen
+		head_of_government = democrat_type
+		start_date = 1961.6.14
+		death_date = 1977.5.15
+	}
+	1189010 = {
+		name = "Ahti Karjalainen"
+		ideology = social_liberal_idolg
+		loyalty = 0.75
+		picture = FIN_M_A_Karjalainen
+		head_of_government = controversial_figure
+		start_date = 1962.4.13
+		death_date = 1971.10.29
+	}	
+	1189011 = {
+		name = "Johannes Virolainen"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = FIN_M_J_Virolainen
+		head_of_government = moral_type
+		start_date = 1964.9.12
+		death_date = 1966.5.27
+	}
+	1189012 = {
+		name = "Rafael Paasio"
+		ideology = social_democrat_idolg
+		loyalty = 0.75
+		picture = FIN_M_R_Paasio
+		head_of_government = lethargic_type
+		start_date = 1950.1.1
+		death_date = 1972.9.4
+	}
+	1189013 = {
+		name = "Kalevi Sorsa"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = FIN_M_K_Sorsa
+		head_of_state = parental_type
+		head_of_government = parental_type
+		start_date = 1972.9.4
+		death_date = 1987.4.30
+	}
+	1189014 = {
+		name = "Harri Holkeri"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = FIN_M_H_Holkeri
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1971.1.1
+		death_date = 1993.12.31
+	}
+	1189015 = {
+		name = "Esko Aho"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = FIN_M_E_Aho
+		head_of_government = democrat_type
+		start_date = 1990.1.1
+		death_date = 1995.12.31
+	}
+	1189016 = { #P
+		name = "Wolfgang I von Hessen"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = FIN_M_von_Hessen_Wolfgang
+		head_of_state = controversial_figure
+		start_date = 1946.1.1
+		death_date = 1989.7.12
+	}
+	1189017 = { #P
+		name = "Henrik I von Hessen"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = FIN_M_von_Hessen_Henrik
+		head_of_state = visionary_type
+		start_date = 1989.7.12
+		death_date = 1999.11.18
+	}
+	1189018 = { #P
+		name = "Hertta Kuusinen"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kuusinen_Hertta
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1944.1.1
+		death_date = 1974.3.18
+	}
+	1189019 = { #P
+		name = "Pekka Siitoin"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = FIN_M_Siitoin_Pekka
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1972.1.1
+		death_date = 2003.12.8
+	}
+	1189020 = { #P
+		name = "Veikko Vennamo"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = FIN_M_Vennamo_Veikko
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1959.1.1
+		death_date = 1997.6.12
+	}
+	1189021 = { #P
+		name = "Olavi Honka"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Honka_Olavi
+		head_of_state = traditionalist_type
+		start_date = 1961.1.1
+		death_date = 1988.4.29
+	}
+	1189022 = { #P
+		name = "Otto Willie Kuusinen"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kuusinen_Otto_W
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1945.1.1
+		death_date = 1964.8.16
+	}
+	1189023 = { #P
+		name = "Matti Puolakka"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Puolakka_Matti
+		head_of_state = autocrat_type
+		head_of_government = extremist_type
+		start_date = 1968.1.1
+		death_date = 1992.1.1
+	}
+	#1189046
+	
+	
+	1189024 = { #P
+		name = "Seppo Merinen"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Merinen_Seppo
+		head_of_state = lethargic_type
+		head_of_government = lethargic_type
+		start_date = 1973.1.1
+		death_date = 1979.1.1
+	}
+	1189025 = { #P
+		name = "Almo Aaltonen"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Aaltonen_Almo
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1944.1.1
+		death_date = 1966.1.1
+	}
+	1189026 = { #P
+		name = "Taisto Sinisalo"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Sinisalo_Taisto
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1968.1.1
+		death_date = 1988.1.1
+	}
+	1189027 = { #P
+		name = "Aarne Saarinen"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Saarinen_Aarne
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1966.1.1
+		death_date = 1982.1.1
+	}
+	1189028 = { #P
+		name = "Jouko Kajanaoja"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kajanoja_Jouko
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1982.1.1
+		death_date = 1984.1.1
+	}
+	1189029 = { #P
+		name = "Arvo Aalto"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Aalto_Arvo
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1984.1.1
+		death_date = 1988.1.1
+	}
+	1189030 = { #P
+		name = "Heino Riiukikko"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Riiukikko_Heino
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1981.4.6
+		death_date = 2034.2.7
+	}
+	1189031 = { #P
+		name = "Pentti Linkola"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = FIN_M_Linkola_Pentti
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1971.1.20
+		death_date = 2022.2.2
+	}
+	1189032 = { #P
+		name = "Ilkka Hakalehto"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Hakalehto_Ilkka
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1970.1.1
+		death_date = 2009.1.24
+	}
+	1189033 = { #P
+		name = "Eino Kilpi"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kilpi_Eino
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1956.1.1
+		death_date = 1963.6.7
+	}
+	1189034 = { #P
+		name = "Eero Rydman"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Rydman_Eero
+		head_of_state = liberal_type
+		start_date = 1956.1.1
+		death_date = 1963.6.3
+	}
+	1189035 = { #P
+		name = "Paavo Aitio"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Aitio_Paavo
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1962.1.1
+		death_date = 1977.1.1
+	}
+	1189036 = { #P
+		name = "Emil Skog"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Skog_Emil
+		head_of_state = extremist_type
+		start_date = 1959.1.1
+		death_date = 1964.1.1
+	}
+	1189037 = { #P
+		name = "Matti Virkkunen"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Virkkunen_Matti
+		head_of_state = traditionalist_type
+		start_date = 1968.1.1
+		death_date = 1980.7.11
+	}
+	1189038 = { #P
+		name = "Raino Westerholm"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Westerholm_Raino
+		head_of_state = religious_type
+		start_date = 1973.1.1
+		death_date = 2013.6.28
+	}
+	1189039 = { #P
+		name = "Ahti M. Salonen"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = FIN_M_Salonen_Ahti_M
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1978.1.1
+		death_date = 1980.1.1
+	}
+	1189040 = { #P
+		name = "Eino Haikala"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = FIN_M_Haikala_Eino
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1978.1.1
+		death_date = 1983.1.1
+	}
+	1189041 = { #P
+		name = "Kalevi Kivisto"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kivisto_Kalevi
+		head_of_state = bureaucrat_type
+		start_date = 1979.1.1
+		death_date = 2013.6.28
+	}
+	1189042 = { #P
+		name = "Jan-Magnus Jansson"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Jansson_Jan-Magnus
+		head_of_state = traditionalist_type
+		start_date = 1982.1.1
+		death_date = 2013.6.28
+	}
+	1189043 = { #P
+		name = "Helvi Sipila"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Sipila_Helvi
+		head_of_state = reputable_type
+		start_date = 1982.1.1
+		death_date = 2013.6.28
+	}
+	1189044 = { #P
+		name = "Paavo Vayrynen"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Vayrynen_Paavo
+		head_of_state = ambitious_type
+		start_date = 1980.1.1
+		death_date = 2013.6.28
+	}
+	1189045 = { #P
+		name = "Georg C. Ehrnrooth"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = FIN_M_Ehrnrooth_Georg_C
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1973.1.1
+		death_date = 2013.6.28
+	}
+	
+	
+	1189047 = { #P
+		name = "Phillip, Landgrave of Hesse"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = FIN_M_Landgrave_Hesse_Philpp
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1946.1.1
+		death_date = 1980.10.25
+	}
+	1189048 = { #P
+		name = "Hilja Riipinen"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = FIN_M_Riipinen_Hilja
+		head_of_state = religious_type
+		head_of_government = religious_type
+		start_date = 1946.1.1
+		death_date = 1966.1.18
+	}
+	1189049 = { #P
+		name = "Bruno Salmiala"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = FIN_M_Salmiala_Bruno
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1946.1.1
+		death_date = 1981.9.4
+	}
+	1189050 = { #P
+		name = "Vaino Tanner"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_Tanner_Vaino
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1957.1.1
+		death_date = 1963.1.1
+	}
+	1189051 = { #P
+		name = "Ensio Laine"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Laine_Ensio
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1966.3.21
+		death_date = 1995.3.19
+	}
+	1189052 = { #P
+		name = "Ulf Sundqvist"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_Sundqvist_Ulf
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1970.3.23
+		death_date = 1981.6.30
+	}
+	1189053 = { #P
+		name = "Pekka Tarjanne"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Tarjanne_Pekka
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1968.6.12
+		death_date = 1977.9.20
+	}
+	1189054 = { #P
+		name = "Arne Berner"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Berner_Arne
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1966.4.5
+		death_date = 1977.5.15
+	}
+	1189055 = { #P
+		name = "Olavi Ronkainen"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Ronkainen_Olavi
+		head_of_state = religious_type
+		head_of_government = religious_type
+		start_date = 1972.1.22
+		death_date = 1987.3.20
+	}
+	1189056 = { #P
+		name = "Toimi Kankaanniemi"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kankaanniemi_Toimi
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1987.3.21
+		death_date = 2011.4.19
+	}
+	1189057 = { #P
+		name = "Arvo Salminen"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Salminen_Arvo
+		head_of_government = religious_type
+		start_date = 1946.1.1
+		death_date = 1954.1.1
+	}
+	1189058 = { #P
+		name = "Jussi Saukkonen"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Saukkonen_Jussi
+		head_of_government = traditionalist_type
+		start_date = 1955.1.1
+		death_date = 1966.1.1
+	}
+	1189059 = { #P
+		name = "Juha Rihtniemi"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Rihtniemi_Juha
+		head_of_government = reformer_type
+		start_date = 1965.1.1
+		death_date = 1971.1.12
+	}
+	1189060 = { #P
+		name = "Ilkka Suominen"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Suominen_Ilkka
+		head_of_government = administrator_type
+		start_date = 1979.1.1
+		death_date = 1991.1.1
+	}
+	1189061 = { #P
+		name = "Pertti Salolainen"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = FIN_M_Salolainen_Pertti
+		head_of_government = democrat_type
+		start_date = 1991.1.1
+		death_date = 1994.1.1
+	}
+	1189062 = { #P
+		name = "Onni Hiltunen"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_Hiltunen_Onni
+		head_of_government = controversial_figure
+		start_date = 1944.1.1
+		death_date = 1946.1.1
+	}
+	1189063 = { #P
+		name = "Pertti Paasio"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_Paasio_Pertti
+		head_of_government = administrator_type
+		start_date = 1987.1.1
+		death_date = 1991.1.1
+	}
+	1189064 = { #P
+		name = "Eino Pekkala"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Pekkala_Eino
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1946.1.1
+		death_date = 1948.7.29
+	}
+	1189065 = { #P
+		name = "Mikko Kuoppa"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kuoppa_Mikko
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1979.3.24
+		death_date = 2011.4.19
+	}
+	1189066 = { #P
+		name = "Marja-Liisa Loyttyjarvi"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = FIN_M_Loyttyjarvi_Marja-Liisa
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1979.3.24
+		death_date = 1991.3.21
+	}
+	1189067 = { #P
+		name = "James Laaksonen"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Laaksonen_James
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1964.7.15
+		death_date = 1986.10.31
+	}
+	
+	1189068 = { #P
+		name = "Rainer von Fieandt"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_von_Fieandt_Rainer
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1957.11.29
+		death_date = 1958.4.26
+	}
+	1189069 = { #P
+		name = "Reino Kuuskoski"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Kuuskoski_Reino
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1958.4.26
+		death_date = 1958.8.29
+	}
+	1189070 = { #P
+		name = "Reino Ragnar Lehto"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Lehto_Reino_R
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1963.12.18
+		death_date = 1964.9.12
+	}
+	1189071 = { #P
+		name = "Teuvo Aura"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = FIN_M_Aura_Teuvo
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1970.5.14
+		death_date = 1972.2.23
+	}
+	1189072 = { #P
+		name = "Keijo Liinamaa"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_Liinamaa_Keijo
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1975.6.13
+		death_date = 1975.11.30
+	}
+	1189073 = { #P
+		name = "Matti Ahde"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_Ahde_Matti
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1970.3.16
+		death_date = 2011.4.17
+	}
+	1189074 = { #P
+		name = "Pentti Liedes"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = FIN_M_Liedes_Pentti
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1954.3.29
+		death_date = 1985.8.6
+	}
+	1189075 = { #P
+		name = "Aarre Simonen"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = FIN_M_Simonen_Aarre
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1948.7.29
+		death_date = 1970.5.4
+	}
+}

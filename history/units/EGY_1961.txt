@@ -1,0 +1,100 @@
+theatre =
+{
+	name = "Central Command"
+	location = 14869
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 14869
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 14869
+			regiment = { type = infantry_brigade name = "1st Brigade" historical_model = 1 strength = 35 experience = 4 }
+			regiment = { type = infantry_brigade name = "2nd Brigade" historical_model = 1 strength = 36 experience = 7 }
+			regiment = { type = infantry_brigade name = "10th Brigade" historical_model = 1 strength = 37 experience = 4 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 14869
+			regiment = { type = infantry_brigade name = "3rd Brigade" historical_model = 1 strength = 37 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 1 strength = 21 experience = 4 }
+			regiment = { type = infantry_brigade name = "9th Brigade" historical_model = 2 strength = 37 experience = 4 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 14869
+			regiment = { type = infantry_brigade name = "6th Brigade" historical_model = 1 strength = 37 experience = 4 }
+			regiment = { type = infantry_brigade name = "7th Brigade" historical_model = 0 strength = 36 experience = 2 }
+			regiment = { type = infantry_brigade name = "8th Brigade" historical_model = 0 strength = 36 experience = 2 }
+			regiment = { type = armor_brigade name = "7th Armored Brigade" historical_model = 0 strength = 24 experience = 1 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 14869
+			regiment = { type = infantry_brigade name = "11th Brigade" historical_model = 1 strength = 37 experience = 4 }
+			regiment = { type = infantry_brigade name = "12th Brigade" historical_model = 1 strength = 36 experience = 2 }
+			regiment = { type = infantry_brigade name = "13th Brigade" historical_model = 1 strength = 36 experience = 2 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 7617
+		location = 7617
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 4 strength = 25 builder = SOV }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 7321 # Alexandria (m)
+		location = 7321
+		ship = { type = destroyer name = "Ustul al-Medmer al-1i" historical_model = 1 strength = 60 builder = SOV }	
+		ship = { type = destroyer name = "Ustul al-Medmer al-2i" historical_model = 1 strength = 60 builder = SOV }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 7321 # Alexandria (m)
+		location = 7321
+		ship = { type = attack_submarine name = "S-1" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-2" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-3" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-4" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-5" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-6" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-7" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-8" historical_model = 0 builder = SOV }
+	}	
+	navy = {
+		name = "Suez Ferry Fleet"
+		base = 7516 # Suez
+		location = 7516		
+		ship = { type = transport_ship name = "Ustul al-Hamli al-1i" historical_model = 0 }
+		ship = { type = transport_ship name = "Ustul al-Hamli al-2i" historical_model = 0 }
+	}
+}
+
+division =
+{
+	name = "3rd Division"
+	location = 7321
+	pool = yes
+	regiment = { type = infantry_brigade name = "4th Brigade" historical_model = 0 strength = 36 experience = 2 }
+	regiment = { type = infantry_brigade name = "5th Brigade" historical_model = 0 strength = 36 experience = 2 }
+	regiment = { type = infantry_brigade name = "11th Brigade" historical_model = 0 strength = 37 experience = 4 }
+}
+division =
+{
+	name = "6th Division"
+	location = 14869
+	pool = yes
+	regiment = { type = infantry_brigade name = "14th Brigade" historical_model = 1 strength = 37 experience = 4 }
+	regiment = { type = infantry_brigade name = "15th Brigade" historical_model = 1 strength = 36 experience = 2 }
+	regiment = { type = infantry_brigade name = "16th Brigade" historical_model = 1 strength = 36 experience = 2 }
+	regiment = { type = infantry_brigade name = "17th Brigade" historical_model = 1 strength = 36 experience = 2 }
+}

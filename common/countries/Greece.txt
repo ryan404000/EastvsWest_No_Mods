@@ -1,0 +1,870 @@
+color = { 93  181  227 }
+graphical_culture = Generic
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	ENG_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={
+	supercarrier = {
+		"BEN Vasilefs Georgios" "BEN Vasilissa Olga" "BEN Spetsai" "BEN Hydra" "BEN Psara" "BEN Kilkis" "BEN Limnos" "BEN Salamis" "BEN Vasilefs Constantinos" "BEN Basileos Georgios"
+		"BEN Basilissa Olga" "BEN Athinai" "BEN Thessalia" "BEN Ipiros" "BEN Peloponnisos"
+	}	
+	carrier = {
+		"BEN Georgios Averof" "BEN Akatamahitos" "BEN Epichirissis" "BEN Kalavria" "BEN Amalia" "BEN Hellas" "BEN Navarchos Miaoulis" "BEN Salamis" "BEN Elli" "BEN Antinavarchos Kountouriotis"	
+		"BEN Lambros Katsonis" "BEN Socrates" "BEN Vasilissa Olga" "BEN Hydra" "BEN Spetsai"		
+	}
+	escort_carrier = {
+		"BEN Georgios Averof" "BEN Akatamahitos" "BEN Epichirissis" "BEN Kalavria" "BEN Amalia" "BEN Hellas" "BEN Navarchos Miaoulis" "BEN Salamis" "BEN Elli" "BEN Antinavarchos Kountouriotis"	
+		"BEN Lambros Katsonis" "BEN Socrates" "BEN Vasilissa Olga" "BEN Hydra" "BEN Spetsai"	
+	}	
+	helicopter_carrier = {
+		"BEN Georgios Averof" "BEN Akatamahitos" "BEN Epichirissis" "BEN Kalavria" "BEN Amalia" "BEN Hellas" "BEN Navarchos Miaoulis" "BEN Salamis" "BEN Elli" "BEN Antinavarchos Kountouriotis"	
+		"BEN Lambros Katsonis" "BEN Socrates" "BEN Vasilissa Olga" "BEN Hydra" "BEN Spetsai"	
+	}		
+	battleship = {
+		"BEN Vasilefs Georgios" "BEN Vasilissa Olga" "BEN Spetsai" "BEN Hydra" "BEN Psara" "BEN Kilkis" "BEN Limnos" "BEN Salamis" "BEN Vasilefs Constantinos" "BEN Basileos Georgios"
+		"BEN Basilissa Olga" "BEN Athinai" "BEN Thessalia" "BEN Ipiros" "BEN Peloponnisos"
+		}
+	nuclear_battlecruiser = {
+		"BEN Vasilefs Georgios" "BEN Vasilissa Olga" "BEN Spetsai" "BEN Hydra" "BEN Psara" "BEN Kilkis" "BEN Limnos" "BEN Salamis" "BEN Vasilefs Constantinos" "BEN Basileos Georgios"
+		"BEN Basilissa Olga" "BEN Athinai" "BEN Thessalia" "BEN Ipiros" "BEN Peloponnisos"		
+	}		
+	nuclear_missile_cruiser = {
+		"BEN Georgios Averof" "BEN Akatamahitos" "BEN Epichirissis" "BEN Kalavria" "BEN Amalia" "BEN Hellas" "BEN Navarchos Miaoulis" "BEN Salamis" "BEN Elli" "BEN Antinavarchos Kountouriotis"	
+		"BEN Lambros Katsonis" "BEN Socrates" "BEN Vasilissa Olga" "BEN Hydra" "BEN Spetsai"	
+	}	
+	missile_cruiser = {
+		"BEN Georgios Averof" "BEN Akatamahitos" "BEN Epichirissis" "BEN Kalavria" "BEN Amalia" "BEN Hellas" "BEN Navarchos Miaoulis" "BEN Salamis" "BEN Elli" "BEN Antinavarchos Kountouriotis"	
+		"BEN Lambros Katsonis" "BEN Socrates" "BEN Vasilissa Olga" "BEN Hydra" "BEN Spetsai"	
+	}
+	cruiser = {
+		"BEN Georgios Averof" "BEN Akatamahitos" "BEN Epichirissis" "BEN Kalavria" "BEN Amalia" "BEN Hellas" "BEN Navarchos Miaoulis" "BEN Salamis" "BEN Elli" "BEN Antinavarchos Kountouriotis"	
+		"BEN Lambros Katsonis" "BEN Socrates" "BEN Vasilissa Olga" "BEN Hydra" "BEN Spetsai"	
+	}
+	missile_destroyer = {
+		"BEN Kimon" "BEN Nearchos" "BEN Miltiades" "BEN Themistoklis" "BEN Formion" "BEN Konon" "BEN Kanaris" "BEN Kountouriotis" "BEN Sachtouris" "BEN Tombazis"
+		"BEN Apostolis" "BEN Kriezis" "BEN Themistoklis" "BEN Miaoulis" "BEN Doxa" "BEN Niki" "BEN Vasilefs Georgios" "BEN Vasilissa Olga" "BEN Vasilefs Constantinos" "BEN Vasilissa Sofia"
+		}
+	destroyer = {
+		"1. Torpilli Naftiko" "2. Torpilli Naftiko" "3. Torpilli Naftiko" "4. Torpilli Naftiko" "5. Torpilli Naftiko" "6. Torpilli Naftiko" "7. Torpilli Naftiko" "8. Torpilli Naftiko" "9. Torpilli Naftiko" "10. Torpilli Naftiko" 
+		"11. Torpilli Naftiko" "12. Torpilli Naftiko" "13. Torpilli Naftiko" "14. Torpilli Naftiko" "15. Torpilli Naftiko" "16. Torpilli Naftiko" "17. Torpilli Naftiko" "18. Torpilli Naftiko" "19. Torpilli Naftiko" "20. Torpilli Naftiko" 
+		"21. Torpilli Naftiko" "22. Torpilli Naftiko" "23. Torpilli Naftiko" "24. Torpilli Naftiko" "25. Torpilli Naftiko" "26. Torpilli Naftiko" "27. Torpilli Naftiko" "28. Torpilli Naftiko" "29. Torpilli Naftiko" "30. Torpilli Naftiko" 
+		"31. Torpilli Naftiko" "32. Torpilli Naftiko" "33. Torpilli Naftiko" "34. Torpilli Naftiko" "35. Torpilli Naftiko" "36. Torpilli Naftiko" "37. Torpilli Naftiko" "38. Torpilli Naftiko" "39. Torpilli Naftiko" "40. Torpilli Naftiko" 
+		"41. Torpilli Naftiko" "42. Torpilli Naftiko" "43. Torpilli Naftiko" "44. Torpilli Naftiko" "45. Torpilli Naftiko" "46. Torpilli Naftiko" "47. Torpilli Naftiko" "48. Torpilli Naftiko" "49. Torpilli Naftiko" "50. Torpilli Naftiko" 
+		}
+	missile_frigate = {
+		"BEN Elli" "BEN Limnos" "BEN Aigaion" "BEN Adrias" "BEN Navarino" "BEN Kountouriotis" "BEN Bobuboulina" "BEN Kanaris" "BEN Themistoklis" "BEN Nikiforos Fokas"
+		"BEN Hydra" "BEN Spetsai" "BEN Psara" "BEN Salamis" "BEN Ipiros" "BEN Thraki" "BEN Makedonia" "BEN Panthir" "BEN Aetos" "BEN Ierax" "BEN Aigaion"
+	}	
+	missile_boat = {
+		"1. Skáfos Pyráylon Naftiko" "2. Skáfos Pyráylon Naftiko" "3. Skáfos Pyráylon Naftiko" "4. Skáfos Pyráylon Naftiko" "5. Skáfos Pyráylon Naftiko" "6. Skáfos Pyráylon Naftiko" "7. Skáfos Pyráylon Naftiko" "8. Skáfos Pyráylon Naftiko" "9. Skáfos Pyráylon Naftiko" "10. Skáfos Pyráylon Naftiko" 
+		"11. Skáfos Pyráylon Naftiko" "12. Skáfos Pyráylon Naftiko" "13. Skáfos Pyráylon Naftiko" "14. Skáfos Pyráylon Naftiko" "15. Skáfos Pyráylon Naftiko" "16. Skáfos Pyráylon Naftiko" "17. Skáfos Pyráylon Naftiko" "18. Skáfos Pyráylon Naftiko" "19. Skáfos Pyráylon Naftiko" "20. Skáfos Pyráylon Naftiko"
+		"21. Skáfos Pyráylon Naftiko" "22. Skáfos Pyráylon Naftiko" "23. Skáfos Pyráylon Naftiko" "24. Skáfos Pyráylon Naftiko" "25. Skáfos Pyráylon Naftiko"	
+		"1. Korvéta Naftiko" "2. Korvéta Naftiko" "3. Korvéta Naftiko" "4. Korvéta Naftiko" "5. Korvéta Naftiko" "6. Korvéta Naftiko" "7. Korvéta Naftiko" "8. Korvéta Naftiko" "9. Korvéta Naftiko" "10. Korvéta Naftiko" 
+		"11. Korvéta Naftiko" "12. Korvéta Naftiko" "13. Korvéta Naftiko" "14. Korvéta Naftiko" "15. Korvéta Naftiko" "16. Korvéta Naftiko" "17. Korvéta Naftiko" "18. Korvéta Naftiko" "19. Korvéta Naftiko" "20. Korvéta Naftiko"
+		"21. Korvéta Naftiko" "22. Korvéta Naftiko" "23. Korvéta Naftiko" "24. Korvéta Naftiko" "25. Korvéta Naftiko"
+	}
+	submarine = {
+		"1. Ypobrychio Naftiko" "2. Ypobrychio Naftiko" "3. Ypobrychio Naftiko" "4. Ypobrychio Naftiko" "5. Ypobrychio Naftiko" "6. Ypobrychio Naftiko" "7. Ypobrychio Naftiko" "8. Ypobrychio Naftiko" "9. Ypobrychio Naftiko" "10. Ypobrychio Naftiko" 
+		"11. Ypobrychio Naftiko" "12. Ypobrychio Naftiko" "13. Ypobrychio Naftiko" "14. Ypobrychio Naftiko" "15. Ypobrychio Naftiko" "16. Ypobrychio Naftiko" "17. Ypobrychio Naftiko" "18. Ypobrychio Naftiko" "19. Ypobrychio Naftiko" "20. Ypobrychio Naftiko"
+		"21. Ypobrychio Naftiko" "22. Ypobrychio Naftiko" "23. Ypobrychio Naftiko" "24. Ypobrychio Naftiko" "25. Ypobrychio Naftiko" "26. Ypobrychio Naftiko" "27. Ypobrychio Naftiko" "28. Ypobrychio Naftiko" "29. Ypobrychio Naftiko" "30. Ypobrychio Naftiko"
+		"31. Ypobrychio Naftiko" "32. Ypobrychio Naftiko" "33. Ypobrychio Naftiko" "34. Ypobrychio Naftiko" "35. Ypobrychio Naftiko" "36. Ypobrychio Naftiko" "37. Ypobrychio Naftiko" "38. Ypobrychio Naftiko" "39. Ypobrychio Naftiko" "40. Ypobrychio Naftiko"
+		"41. Ypobrychio Naftiko" "42. Ypobrychio Naftiko" "43. Ypobrychio Naftiko" "44. Ypobrychio Naftiko" "45. Ypobrychio Naftiko" "46. Ypobrychio Naftiko" "47. Ypobrychio Naftiko" "48. Ypobrychio Naftiko" "49. Ypobrychio Naftiko" "50. Ypobrychio Naftiko"
+		}
+	attack_submarine = {
+		"BEN Glafkos" "BEN Nirefs" "BEN Triton" "BEN Protefs" "BEN Amphitriti" "BEN Possidon" "BEN Okeanos" "BEN Pontos" "BEN Papanikolis" "BEN Pipinos"
+		"BEN Matrozos" "BEN Katsonis" "BEN Triaina" "BEN Argonaftis" "BEN Delfin" "BEN Xifias"
+	}	
+	nuclear_submarine = {
+		"BEN Glafkos" "BEN Nirefs" "BEN Triton" "BEN Protefs" "BEN Amphitriti" "BEN Possidon" "BEN Okeanos" "BEN Pontos" "BEN Papanikolis" "BEN Pipinos"
+		"BEN Matrozos" "BEN Katsonis" "BEN Triaina" "BEN Argonaftis" "BEN Delfin" "BEN Xifias"
+	}
+	guided_submarine = {
+		"BEN Glafkos" "BEN Nirefs" "BEN Triton" "BEN Protefs" "BEN Amphitriti" "BEN Possidon" "BEN Okeanos" "BEN Pontos" "BEN Papanikolis" "BEN Pipinos"
+		"BEN Matrozos" "BEN Katsonis" "BEN Triaina" "BEN Argonaftis" "BEN Delfin" "BEN Xifias"
+	}
+	nuclear_guided_submarine = {
+		"BEN Glafkos" "BEN Nirefs" "BEN Triton" "BEN Protefs" "BEN Amphitriti" "BEN Possidon" "BEN Okeanos" "BEN Pontos" "BEN Papanikolis" "BEN Pipinos"
+		"BEN Matrozos" "BEN Katsonis" "BEN Triaina" "BEN Argonaftis" "BEN Delfin" "BEN Xifias"
+	}	
+	ballistic_missile_submarine = {
+		"BEN Glafkos" "BEN Nirefs" "BEN Triton" "BEN Protefs" "BEN Amphitriti" "BEN Possidon" "BEN Okeanos" "BEN Pontos" "BEN Papanikolis" "BEN Pipinos"
+		"BEN Matrozos" "BEN Katsonis" "BEN Triaina" "BEN Argonaftis" "BEN Delfin" "BEN Xifias"
+		}	
+	transport_ship = {
+		"1. Metafero Naftiko" "2. Metafero Naftiko" "3. Metafero Naftiko" "4. Metafero Naftiko" "5. Metafero Naftiko" "6. Metafero Naftiko" "7. Metafero Naftiko" "8. Metafero Naftiko" "9. Metafero Naftiko" "10. Metafero Naftiko" 
+		"11. Metafero Naftiko" "12. Metafero Naftiko" "13. Metafero Naftiko" "14. Metafero Naftiko" "15. Metafero Naftiko" "16. Metafero Naftiko" "17. Metafero Naftiko" "18. Metafero Naftiko" "19. Metafero Naftiko" "20. Metafero Naftiko" 
+		"21. Metafero Naftiko" "22. Metafero Naftiko" "23. Metafero Naftiko" "24. Metafero Naftiko" "25. Metafero Naftiko" "26. Metafero Naftiko" "27. Metafero Naftiko" "28. Metafero Naftiko" "29. Metafero Naftiko" "30. Metafero Naftiko" 
+		"31. Metafero Naftiko" "32. Metafero Naftiko" "33. Metafero Naftiko" "34. Metafero Naftiko" "35. Metafero Naftiko" "36. Metafero Naftiko" "37. Metafero Naftiko" "38. Metafero Naftiko" "39. Metafero Naftiko" "40. Metafero Naftiko" 
+		"41. Metafero Naftiko" "42. Metafero Naftiko" "43. Metafero Naftiko" "44. Metafero Naftiko" "45. Metafero Naftiko" "46. Metafero Naftiko" "47. Metafero Naftiko" "48. Metafero Naftiko" "49. Metafero Naftiko" "50. Metafero Naftiko" 
+		}
+} 
+ministers = {
+	1201000 = {
+		name = "Georgios II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = GRE_M_George_II
+		head_of_state = autocrat_type
+		start_date = 1946.1.1
+		death_date = 1947.4.1
+	}
+	1201001 = {
+		name = "Pavlos"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = GRE_M_Paul
+		head_of_state = autocrat_type
+		start_date = 1947.4.1
+		death_date = 1964.3.6
+	}	
+	1201002 = {
+		name = "Konstantinos II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = GRE_M_Constantine_II
+		head_of_state = autocrat_type
+		start_date = 1964.3.6
+		death_date = 2300.1.1
+	}
+	1201084 = {
+		name = "Pavlos II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.99
+		picture = GRE_M_Pavlos_II
+		head_of_state = autocrat_type
+		start_date = 1985.5.20
+		death_date = 2300.1.1
+	}
+	1201085 = {
+		name = "Nikolaos I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.98
+		picture = GRE_M_Nikolaos_I
+		head_of_state = autocrat_type
+		start_date = 1987.10.1
+		death_date = 2300.1.1
+	}
+	1201086 = {
+		name = "Alexia I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.97
+		picture = GRE_M_Alexia_I
+		head_of_state = autocrat_type
+		start_date = 1983.7.10
+		death_date = 2300.1.1
+	}
+	1201087 = {
+		name = "Sophia I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.96
+		picture = GRE_M_Sophia_I
+		head_of_state = autocrat_type
+		start_date = 1956.11.2
+		death_date = 1962.5.14
+	}
+	1201088 = {
+		name = "Eirene I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.95
+		picture = GRE_M_Eirene_I
+		head_of_state = autocrat_type
+		start_date = 1960.5.11
+		death_date = 2300.1.1
+	}
+	1201089 = {
+		name = "Helene I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.94
+		picture = GRE_M_Helene_I
+		head_of_state = autocrat_type
+		start_date = 1914.5.2
+		death_date = 1982.11.28
+	}
+	1201090 = {
+		name = "Michael I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.93
+		picture = GRE_M_Michael_I
+		head_of_state = courageous_type
+		start_date = 1946.1.1
+		death_date = 2300.1.1
+	}
+
+	
+	
+	1201003 = {
+		name = "Georgios Zoitakis"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = GRE_M_Zoitakis_Georgios
+		head_of_state = autocrat_type
+		start_date = 1967.12.13
+		death_date = 1972.3.21
+	}	
+	#1201073
+	
+	1201004 = {
+		name = "Georgios Papadopoulos"
+		ideology = paternal_auto_idolg
+		loyalty = 0.80
+		picture = GRE_M_Papadopoulos_Georgios
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1967.12.13
+		death_date = 1973.11.25
+	}
+	#1201054
+	
+	
+	1201005 = {
+		name = "Phaedon Gizikis"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = GRE_M_Gizikis_Phaedon
+		head_of_state = hardliner_type
+		start_date = 1973.11.25
+		death_date = 1974.12.18
+	}	
+	#1201006
+	#1201077
+
+	
+	1201007 = {
+		name = "Michail Stasinopoulos"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Stasinopoulos_Michail
+		head_of_state = bureaucrat_type
+		start_date = 1974.12.18
+		death_date = 1975.6.19
+	}	
+	#1201078
+	
+	1201008 = {
+		name = "Konstantinos Tsatsos"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Tsatsos_Konstantinos
+		head_of_state = bureaucrat_type
+		start_date = 1975.6.19
+		death_date = 1980.5.15
+	}
+
+
+	1201009 = {
+		name = "Konstantinos G. Karamanlis"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = GRE_M_Karamanlis_Konstantinos_G
+		head_of_state = administrator_type
+		start_date = 1955.10.4
+		death_date = 1995.3.10
+	}	
+	#1201012
+	#1201034
+	#1201037
+	#1201039
+	#1201044
+	#1201057
+	
+	
+	1201010 = {
+		name = "Ioannis Alevras"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Alevras_Ioannis
+		head_of_state = bureaucrat_type
+		start_date = 1985.3.10
+		death_date = 1985.3.30
+	}	
+	1201011 = {
+		name = "Christos Sartzetakis"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Sartzetakis_Christos
+		head_of_state = democrat_type
+		start_date = 1985.3.30
+		death_date = 1990.5.4
+	}	
+
+	
+	
+	1201013 = {
+		name = "Themistoklis Sofoulis"
+		ideology = social_liberal_idolg
+		loyalty = 0.80
+		picture = GRE_M_Sofoulis_Themistoklis
+		head_of_government = bureaucrat_type
+		start_date = 1945.11.22
+		death_date = 1949.6.24
+	}	
+	#1201021	
+	
+	
+	1201014 = {
+		name = "Panagiotis Poulitsas"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Poulitsas_Panagiotis
+		head_of_government = bureaucrat_type
+		start_date = 1946.4.4
+		death_date = 1946.4.18
+	}	
+	
+	
+	1201015 = {
+		name = "Sofoklis Venizelos"
+		ideology = market_liberal_idolg
+		loyalty = 0.80
+		picture = GRE_M_Venizelos_Sofoklis
+		head_of_government = bureaucrat_type
+		start_date = 1946.4.18
+		death_date = 1956.2.19
+	}
+	#1201027
+	#1201029
+	#1201031
+	#1201035
+	
+	
+	
+	1201016 = {
+		name = "Georgios Papandreou"
+		ideology = social_liberal_idolg
+		loyalty = 0.80
+		picture = GRE_M_Papandreou_Georgios
+		head_of_government = bureaucrat_type
+		start_date = 1946.4.18
+		death_date = 1965.7.15
+	}
+	#1201043
+	#1201046	
+	
+	1201017 = {
+		name = "Dimitrios Partsalidis"
+		ideology = communist_idolg
+		loyalty = 0.80
+		picture = GRE_M_Partsalidis_Dimitrios
+		head_of_state = bureaucrat_type		
+		head_of_government = bureaucrat_type
+		start_date = 1946.4.18
+		death_date = 1954.3.5
+	}	
+	#1201024
+	
+	1201018 = {
+		name = "Konstantinos Tsaldaris"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = GRE_M_Tsaldaris_Konstantinos
+		head_of_government = bureaucrat_type
+		start_date = 1946.4.18
+		death_date = 1952.11.16
+	}	
+	#1201020
+	#1201028	
+	
+	
+	1201019 = {
+		name = "Dimitrios E. Maximos"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Maximos_Dimitrios_E
+		head_of_government = bureaucrat_type
+		start_date = 1947.1.24
+		death_date = 1947.8.29
+	}		
+
+	
+	
+	1201022 = {
+		name = "Markos Vafiadis"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = GRE_M_Vafiadis_Markos
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1947.12.24
+		death_date = 1949.2.7
+	}
+	1201023 = {
+		name = "Nikos Zachariadis"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = GRE_M_Zachariadis_Nikos
+		head_of_state = bureaucrat_type		
+		head_of_government = bureaucrat_type
+		start_date = 1949.2.7
+		death_date = 1949.4.3
+	}
+
+	1201025 = {
+		name = "Alexandros Diomidis"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = GRE_M_Diomidis_Alexandros
+		head_of_government = bureaucrat_type
+		start_date = 1949.6.24
+		death_date = 1950.1.6
+	}	
+	1201026 = {
+		name = "Ioannis Theotokis"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = GRE_M_Theotokis_Ioannis
+		head_of_government = bureaucrat_type
+		start_date = 1950.1.6
+		death_date = 1950.3.23
+	}	
+
+	
+
+
+
+	
+	1201030 = {
+		name = "Nikolaos Plastiras"
+		ideology = market_liberal_idolg
+		loyalty = 0.81
+		picture = GRE_M_Plastiras_Nikolaos
+		head_of_government = reformer_type
+		start_date = 1950.4.15
+		death_date = 1952.11.19
+	}
+	#1201032	
+	
+	
+	1201033 = {
+		name = "Alexander Papagos"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Papagos_Alexander
+		head_of_government = bureaucrat_type
+		start_date = 1952.11.16
+		death_date = 1955.10.4
+	}		
+
+	
+	
+	1201036 = {
+		name = "Konstantinos Georgakopoulos"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Georgakopoulos_Konstantinos_dummy
+		head_of_state = bureaucrat_type
+		start_date = 1958.3.5
+		death_date = 1958.5.17
+	}	
+
+	
+	1201038 = {
+		name = "Konstantinos Dovas"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Dovas_Konstantinos
+		head_of_state = bureaucrat_type
+		start_date = 1961.9.20
+		death_date = 1961.11.4
+	}	
+
+	
+	
+	1201040 = {
+		name = "Ioannis Passalidis"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = GRE_M_Passalidis_Ioannis
+		head_of_state = bureaucrat_type
+		start_date = 1951.7.1
+		death_date = 1967.4.21
+	}	
+	1201041 = {
+		name = "Panagiotis Pipinelis"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Pipinelis_Panagiotis
+		head_of_state = bureaucrat_type
+		start_date = 1963.6.16
+		death_date = 1963.9.28
+	}	
+	1201042 = {
+		name = "Stylianos Mavromichalis"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Mavromichalis_Stylianos
+		head_of_state = bureaucrat_type
+		start_date = 1963.9.28
+		death_date = 1963.11.8
+	}	
+
+	
+	1201045 = {
+		name = "Ioannis Paraskevopoulos"
+		ideology = social_liberal_idolg
+		loyalty = 0.80
+		picture = GRE_M_Paraskevopoulos_Ioannis
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1963.12.31
+		death_date = 1967.4.3
+	}	
+	#1201050	
+	
+		
+	1201047 = {
+		name = "Georgios Athanasiadis-Novas"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = GRE_M_Athanasiadis-Novas_Georgios
+		head_of_government = bureaucrat_type
+		start_date = 1965.7.15
+		death_date = 1965.8.20
+	}	
+	1201048 = {
+		name = "Ilias Tsirimokos"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = GRE_M_Tsirimokos_Ilias
+		head_of_government = bureaucrat_type
+		start_date = 1965.8.20
+		death_date = 1965.9.17
+	}	
+	1201049 = {
+		name = "Stefanos Stefanopoulos"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = GRE_M_Stefanopoulos_Stefanos
+		head_of_government = bureaucrat_type
+		start_date = 1965.9.17
+		death_date = 1966.12.22
+	}	
+		
+	1201051 = {
+		name = "Panagiotis Kanellopoulos"
+		ideology = social_liberal_idolg
+		loyalty = 0.80
+		picture = GRE_M_Kanellopoulos_Panagiotis
+		head_of_government = bureaucrat_type
+		start_date = 1964.2.19
+		death_date = 1967.4.21
+	}	
+	#1201052 
+	
+	1201053 = {
+		name = "Konstantinos Kollias"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = GRE_M_Kollias_Konstantinos
+		head_of_government = hardliner_type
+		start_date = 1967.4.21
+		death_date = 1967.12.13
+	}	
+
+	1201055 = {
+		name = "Spyros Markezinis"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = GRE_M_Markezinis_Spyros
+		head_of_government = democrat_type
+		start_date = 1973.10.8
+		death_date = 1973.11.25
+	}	
+	1201056 = {
+		name = "Adamantios Androutsopoulos"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = GRE_M_Androutsopoulos_Adamantios
+		head_of_government = hardliner_type
+		start_date = 1973.11.25
+		death_date = 1974.7.24
+	}		
+	
+	1201058 = {
+		name = "Georgios Mavros"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = GRE_M_Mavros_Georgios
+		head_of_government = liberal_type
+		start_date = 1974.7.24
+		death_date = 1981.10.18
+	}	
+	1201059 = {
+		name = "Andreas G. Papandreou"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = GRE_M_Papandreou_Andreas_G
+		head_of_government = reformer_type
+		start_date = 1974.7.24
+		death_date = 1986.1.1
+	}	
+	#1201060
+	
+	1201061 = {
+		name = "Georgios Rallis"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Rallis_Georgios
+		head_of_government = bureaucrat_type
+		start_date = 1980.5.10
+		death_date = 1985.6.3
+	}	
+	1201062 = {
+		name = "Charilaos Florakis"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = GRE_M_Florakis_Charilaos
+		head_of_state = bureaucrat_type		
+		head_of_government = bureaucrat_type
+		start_date = 1954.3.5
+		death_date = 1989.6.18
+		base = 1201062
+	}	
+	#1201063
+	1201065 = {
+		name = "Charilaos Florakis"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = GRE_M_Florakis_Charilaos_19740305
+		head_of_state = bureaucrat_type		
+		head_of_government = bureaucrat_type
+		start_date = 1989.6.18
+		death_date = 1993.10.10
+		base = 1201062
+	}	
+	
+	1201064 = {
+		name = "Konstantinos Mitsotakis"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = GRE_M_Mitsotakis_Konstantinos
+		head_of_government = reformer_type
+		start_date = 1985.6.3
+		death_date = 1996.9.22
+	}	
+	#1201069
+	
+		
+	1201066 = {
+		name = "Tzannis Tzannetakis"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Tzannetakis_Tzannis
+		head_of_government = bureaucrat_type
+		start_date = 1989.7.2
+		death_date = 1989.10.12
+	}	
+	1201067 = {
+		name = "Ioannis Grivas"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Grivas_Ioannis
+		head_of_government = bureaucrat_type
+		start_date = 1989.10.12
+		death_date = 1989.11.23
+	}	
+	1201068 = {
+		name = "Xenophon Zolotas"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = GRE_M_Zolotas_Xenophon
+		head_of_government = bureaucrat_type
+		start_date = 1989.11.23
+		death_date = 1990.4.11
+	}	
+		
+	
+	#WATW ------------------------------
+	1201070 = { #P
+		name = "Dimitrios Ioannidis"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = GRE_M_Ioannidis_Dimitrios
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1973.11.25
+		death_date = 2010.8.16
+	}
+	1201071 = { #P
+		name = "Dimitrios Michailidis"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = GRE_M_Michailidis_Dimitrios
+		head_of_government = visionary_type
+		start_date = 1964.1.1
+		death_date = 1991.11.4
+	}
+	
+	1201072 = { #P
+		name = "Theramenes Antiphon"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = GRE_M_Antiphon_Theramenes
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1977.11.8
+		death_date = 1993.5.19
+	}
+
+	1201074 = { #P
+		name = "Manolis Glezos"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = GRE_M_Glezos_Manolis
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1951.9.9
+		death_date = 2300.1.1
+	}
+	1201075 = { #P
+		name = "Yiannis Ritsos"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = GRE_M_Ritsos_Yiannis
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1945.1.1
+		death_date = 1990.11.11
+	}
+	1201076 = { #P
+		name = "Alekos Panagoulis"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = GRE_M_Panagoulis_Alekos
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1974.11.17
+		death_date = 1976.5.1
+	}
+	
+
+
+	
+	1201079 = { #P
+		name = "Konstantinos Plevris"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = GRE_M_Plevris_Konstantinos
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1960.1.1
+		death_date = 1991.12.31
+	}
+	1201080 = { #P
+		name = "Christina Giannopoulos"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = GRE_M_Giannopoulos_Christina
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1946.1.1
+		death_date = 1958.1.1
+	}
+	1201081 = { #P
+		name = "Christos Bistis"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = GRE_M_Bistis_Christos
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1974.1.1
+		death_date = 1992.1.1
+	}
+	1201082 = { #P
+		name = "Isaac Jordanidis"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = GRE_M_Jordanidis_Isaac
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1976.1.1
+		death_date = 1992.1.1
+	}
+	1201083 = { #P
+		name = "Gregoris Lambrakis"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = GRE_M_Lambrakis_Gregoris
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1943.8.1
+		death_date = 1963.5.22
+	}
+	
+	
+	#Last used number is 1201090
+	
+}

@@ -1,0 +1,787 @@
+#------------------ NAVAL GUN COMPLEXES ----------------------
+# 12 inch Bethlehem
+heavy_gun_complex.0 = {
+    modelsize = 98
+}
+heavy_gun_complex.1 = {
+    modelsize = 300
+}
+# 4.7 inch QF Mark IX
+gun_complex.0 = {
+    modelsize = 2
+	conventionalnavalgun = 0
+}
+
+gun_complex.1 = {
+    modelsize = 15
+	conventionalnavalgun = 1
+}
+
+gun_complex.2 = {
+    modelsize = 12
+	conventionalnavalgun = 2
+}
+
+gun_complex.3 = {
+    modelsize = 12
+	conventionalnavalgun = 3
+}
+# 100mm Modéle 1953
+gun_complex.4 = {
+    modelsize = 10
+	conventionalnavalgun = 4
+}
+# 76mm OTO-Melara Compact
+gun_complex.5 = {
+    modelsize = 2
+	conventionalnavalgun = 5
+}
+# 4.5 inch Mark 8 Mod 0
+gun_complex.6 = {
+    modelsize = 6
+	conventionalnavalgun = 6
+}
+# 127mm OTO-Melara Compact
+gun_complex.7 = {
+    modelsize = 8
+	conventionalnavalgun = 7
+}
+
+gun_complex.8 = {
+    modelsize = 6
+	conventionalnavalgun = 8
+}
+
+gun_complex.9 = {
+    modelsize = 6
+	conventionalnavalgun = 9
+}
+
+gun_complex.10 = {
+    modelsize = 5
+	conventionalnavalgun = 10
+}
+
+gun_complex.11 = {
+    modelsize = 5
+	conventionalnavalgun = 11
+}
+
+#------------------ CLOSE-IN WEAPON SYSTEM COMPLEXES ----------------------
+
+# 40mm Mark 2
+ciws_complex.0 = {
+    modelsize = 2
+	closedefense = 0
+}
+
+ciws_complex.1 = {
+    modelsize = 4
+	closedefense = 1
+}
+
+ciws_complex.2 = {
+    modelsize = 3
+	closedefense = 2
+}
+# 40mm Mark M1
+ciws_complex.3 = {
+    modelsize = 1
+	closedefense = 3
+}
+# 40mm Mark 10
+ciws_complex.4 = {
+    modelsize = 2
+	closedefense = 4
+}
+
+ciws_complex.5 = {
+    modelsize = 2
+	closedefense = 5
+}
+# 40mm OTO-Melara Compact Type 564
+ciws_complex.6 = {
+    modelsize = 1
+	closedefense = 6
+}
+# 20mm Phalanx Block 0
+ciws_complex.7 = {
+    modelsize = 1
+	closedefense = 7
+}
+# 25mm Mark 38
+ciws_complex.8 = {
+    modelsize = 1
+	closedefense = 8
+}
+# 20mm Phalanx Block 1A
+ciws_complex.9 = {
+    modelsize = 1
+	closedefense = 9
+}
+# 20mm Phalanx Block 1B
+ciws_complex.10 = {
+    modelsize = 2
+	closedefense = 10
+}
+
+#------------------ ANTI SHIP MISSILE WEAPON COMPLEXES ----------------------
+
+mr_as_complex.0 = {
+    modelsize = 4
+	antishipmissile_shortrange = 0
+	default_ammo = 1
+}
+mr_as_complex.1 = {
+    modelsize = 3
+	antishipmissile_shortrange = 1
+	default_ammo = 1
+}
+
+mr_as_complex.2 = {
+    modelsize = 3
+	antishipmissile_shortrange = 2
+	default_ammo = 2
+}
+
+mr_as_complex.3 = {
+    modelsize = 3
+	antishipmissile_shortrange = 3
+	default_ammo = 2
+}
+
+mr_as_complex.4 = {
+    modelsize = 3
+	antishipmissile_shortrange = 4
+	default_ammo = 4
+}
+# NORD MM.38 Exocet
+mr_as_complex.5 = {
+    modelsize = 1
+	antishipmissile_shortrange = 5
+	default_ammo = 4
+}
+
+mr_as_complex.6 = {
+    modelsize = 2
+	antishipmissile_shortrange = 6
+	default_ammo = 6
+}
+
+mr_as_complex.7 = {
+    modelsize = 2
+	antishipmissile_shortrange = 7
+	default_ammo = 6
+}
+
+mr_as_complex.8 = {
+    modelsize = 2
+	antishipmissile_shortrange = 8
+	default_ammo = 8
+}
+
+mr_as_complex.9 = {
+    modelsize = 2
+	antishipmissile_shortrange = 9
+	default_ammo = 8
+}
+lr_as_complex.0 = {
+    modelsize = 6
+	antishipmissile_longrange = 0
+	launcher_vls = 0
+	default_ammo = 1
+}
+lr_as_complex.1 = {
+    modelsize = 5
+	antishipmissile_longrange = 1
+	launcher_vls = 0
+	default_ammo = 1
+}
+
+lr_as_complex.2 = {
+    modelsize = 5
+	antishipmissile_longrange = 2
+	launcher_vls = 0
+	default_ammo = 2
+}
+
+lr_as_complex.3 = {
+    modelsize = 5
+	antishipmissile_longrange = 3
+	launcher_vls = 0
+	default_ammo = 2
+}
+
+lr_as_complex.4 = {
+    modelsize = 4
+	antishipmissile_longrange = 4
+	launcher_vls = 0
+	default_ammo = 4
+}
+
+lr_as_complex.5 = {
+    modelsize = 4
+	antishipmissile_longrange = 5
+	launcher_vls = 0
+	default_ammo = 4
+}
+
+lr_as_complex.6 = {
+    modelsize = 3
+	antishipmissile_longrange = 6
+	launcher_vls = 1
+	default_ammo = 6
+}
+
+lr_as_complex.7 = {
+    modelsize = 3
+	antishipmissile_longrange = 7
+	launcher_vls = 1
+	default_ammo = 6
+}
+
+lr_as_complex.8 = {
+    modelsize = 2
+	antishipmissile_longrange = 8
+	launcher_vls = 2
+	default_ammo = 8
+}
+
+lr_as_complex.9 = {
+    modelsize = 2
+	antishipmissile_longrange = 9
+	launcher_vls = 2
+	default_ammo = 8
+}
+ss_mr_as_complex.0 = {
+	modelsize = 12
+	antishipmissile_shortrange_supersonic = 0
+	default_ammo = 1
+}
+ss_mr_as_complex.1 = {
+	modelsize = 10
+	antishipmissile_shortrange_supersonic = 1
+	default_ammo = 2
+}
+
+ss_mr_as_complex.2 = {
+	modelsize = 10
+	antishipmissile_shortrange_supersonic = 2
+	default_ammo = 2
+}
+
+ss_mr_as_complex.3 = {
+	modelsize = 8
+	antishipmissile_shortrange_supersonic = 3
+	default_ammo = 4
+}
+
+ss_mr_as_complex.4 = {
+	modelsize = 8
+	antishipmissile_shortrange_supersonic = 4
+	default_ammo = 6
+}
+
+ss_mr_as_complex.5 = {
+	modelsize = 6
+	antishipmissile_shortrange_supersonic = 5
+	default_ammo = 8
+}
+ss_lr_as_complex.0 = {
+	modelsize = 35
+	antishipmissile_longrange_supersonic = 0
+	launcher_vls = 0
+	default_ammo = 1
+}
+ss_lr_as_complex.1 = {
+	modelsize = 30
+	antishipmissile_longrange_supersonic = 1
+	launcher_vls = 0
+	default_ammo = 2
+}
+
+ss_lr_as_complex.2 = {
+	modelsize = 30
+	antishipmissile_longrange_supersonic = 2
+	launcher_vls = 1
+	default_ammo = 2
+}
+
+ss_lr_as_complex.3 = {
+	modelsize = 25
+	antishipmissile_longrange_supersonic = 3
+	launcher_vls = 1
+	default_ammo = 4
+}
+
+ss_lr_as_complex.4 = {
+	modelsize = 25
+	antishipmissile_longrange_supersonic = 4
+	launcher_vls = 2
+	default_ammo = 6
+}
+
+ss_lr_as_complex.5 = {
+	modelsize = 15
+	antishipmissile_longrange_supersonic = 5
+	launcher_vls = 2
+	default_ammo = 8
+}
+
+#------------------ ANTI AIR MISSILE WEAPON COMPLEXES ----------------------
+
+sr_aa_complex.0 = {
+    modelsize = 6
+	antiairmissile_shortrange = 0
+}
+sr_aa_complex.1 = {
+    modelsize = 5
+	antiairmissile_shortrange = 1
+}
+
+sr_aa_complex.2 = {
+    modelsize = 5
+	antiairmissile_shortrange = 2
+}
+
+sr_aa_complex.3 = {
+    modelsize = 4
+	antiairmissile_shortrange = 3
+}
+# GWS.20 Sea Cat
+sr_aa_complex.4 = {
+    modelsize = 2
+	antiairmissile_shortrange = 4
+}
+
+sr_aa_complex.5 = {
+    modelsize = 4
+	antiairmissile_shortrange = 5
+}
+# GWS.22 Sea Cat
+sr_aa_complex.6 = {
+    modelsize = 2
+	antiairmissile_shortrange = 6
+}
+# GWS.24 Sea Cat
+sr_aa_complex.7 = {
+    modelsize = 2
+	antiairmissile_shortrange = 7
+}
+
+sr_aa_complex.8 = {
+    modelsize = 3
+	antiairmissile_shortrange = 8
+}
+
+sr_aa_complex.9 = {
+    modelsize = 3
+	antiairmissile_shortrange = 9
+}
+
+sr_aa_complex.10 = {
+    modelsize = 2
+	antiairmissile_shortrange = 10
+}
+
+sr_aa_complex.11 = {
+    modelsize = 2
+	antiairmissile_shortrange = 11
+}
+mr_aa_complex.0 = {
+    modelsize = 10
+	antiairmissile_mediumrange = 0
+	launcher_vls = 0
+}
+mr_aa_complex.1 = {
+    modelsize = 8
+	antiairmissile_mediumrange = 1
+	launcher_vls = 0
+}
+
+mr_aa_complex.2 = {
+    modelsize = 8
+	antiairmissile_mediumrange = 2
+	launcher_vls = 0
+}
+
+mr_aa_complex.3 = {
+    modelsize = 7
+	antiairmissile_mediumrange = 3
+	launcher_vls = 0
+}
+# GWS.30 Sea Dart Mod 0
+mr_aa_complex.4 = {
+    modelsize = 3
+	antiairmissile_mediumrange = 4
+	launcher_vls = 0
+}
+
+mr_aa_complex.5 = {
+    modelsize = 6
+	antiairmissile_mediumrange = 5
+	launcher_vls = 0
+}
+
+mr_aa_complex.6 = {
+    modelsize = 6
+	antiairmissile_mediumrange = 6
+	launcher_vls = 1
+}
+# GWS.30 Sea Dart Mod 1
+mr_aa_complex.7 = {
+    modelsize = 3
+	antiairmissile_mediumrange = 7
+	launcher_vls = 1
+}
+# GWS.30 Sea Dart Mod 2
+mr_aa_complex.8 = {
+    modelsize = 2
+	antiairmissile_mediumrange = 8
+	launcher_vls = 2
+}
+# GWS.30 Sea Dart Mod 3
+mr_aa_complex.9 = {
+    modelsize = 2
+	antiairmissile_mediumrange = 9
+	launcher_vls = 2
+}
+
+#------------------ OTHER MISSILE WEAPON COMPLEXES ----------------------
+
+slbm_complex.0 = {
+    modelsize = 40
+	slbm_missile = 0
+	default_ammo = 4
+	
+}
+slbm_complex.1 = {
+    modelsize = 50
+	slbm_missile = 1
+	default_ammo = 8
+}
+
+slbm_complex.2 = {
+    modelsize = 50
+	slbm_missile = 2
+	default_ammo = 12
+}
+
+slbm_complex.3 = {
+    modelsize = 75
+	slbm_missile = 3
+	default_ammo = 12
+}
+
+slbm_complex.4 = {
+    modelsize = 100
+	slbm_missile = 4
+	default_ammo = 16
+}
+
+slbm_complex.5 = {
+    modelsize = 150
+	slbm_missile = 5
+	default_ammo = 16
+}
+
+slbm_complex.6 = {
+    modelsize = 200
+	slbm_missile = 6
+	default_ammo = 20
+}
+
+slbm_complex.7 = {
+    modelsize = 250
+	slbm_missile = 7
+	default_ammo = 20
+}
+
+slbm_complex.8 = {
+    modelsize = 300
+	slbm_missile = 8
+	default_ammo = 24
+}
+
+tlam_complex.0 = {
+    modelsize = 3
+	landattackmissile = 0
+	launcher_vls = 0
+	default_ammo = 2
+}
+
+tlam_complex.1 = {
+    modelsize = 2
+	landattackmissile = 1
+	launcher_vls = 0
+	default_ammo = 4
+}
+
+tlam_complex.2 = {
+    modelsize = 2
+	landattackmissile = 2
+	launcher_vls = 1
+	default_ammo = 4
+}
+
+tlam_complex.3 = {
+    modelsize = 1
+	landattackmissile = 3
+	launcher_vls = 2
+	default_ammo = 6
+}
+
+tlam_complex.4 = {
+    modelsize = 1
+	landattackmissile = 4
+	launcher_vls = 2
+	default_ammo = 8
+}
+
+#------------------ TORPEDO / ANTI SUBMARINE WARFARE WEAPON COMPLEXES ----------------------
+
+# 21 inch Mark 28
+torpedo_complex.0 = {
+        modelsize = 3
+		launcher_torpedotubes_533_650 = 0
+		torpedoes_supercavitating = 0
+		default_ammo = 5
+}
+# 21 inch Mark 35
+torpedo_complex.1 = {
+        modelsize = 3
+		launcher_torpedotubes_533_650 = 1
+		torpedoes_supercavitating = 0
+		default_ammo = 5
+}
+# 19 inch Mark 37
+torpedo_complex.2 = {
+        modelsize = 2
+		launcher_torpedotubes_533_650 = 2
+		torpedoes_supercavitating = 0
+		default_ammo = 5
+}
+# 21 inch Mark 39
+torpedo_complex.3 = {
+        modelsize = 2
+		launcher_torpedotubes_533_650 = 3
+		torpedoes_supercavitating = 0
+		default_ammo = 6
+}
+# 12.75 inch Mark 44
+torpedo_complex.4 = {
+        modelsize = 1
+		launcher_torpedotubes_533_650 = 4
+		torpedoes_supercavitating = 0
+		default_ammo = 6
+}
+# 12.75 inch Mark 46 Mod 0
+torpedo_complex.5 = {
+        modelsize = 1
+		launcher_torpedotubes_533_650 = 5
+		torpedoes_supercavitating = 0
+		default_ammo = 6
+}
+# 12.75 inch Mark 46 Mod 2
+torpedo_complex.6 = {
+        modelsize = 1
+		launcher_torpedotubes_533_650 = 6
+		torpedoes_supercavitating = 0
+		default_ammo = 9
+}
+# 21 inch Mark 48
+torpedo_complex.7 = {
+        modelsize = 4
+		launcher_torpedotubes_533_650 = 7
+		torpedoes_supercavitating = 0
+		default_ammo = 9
+}
+# 12.75 inch Mark 50 'Barracuda'
+torpedo_complex.8 = {
+        modelsize = 1
+		launcher_torpedotubes_533_650 = 8
+		torpedoes_supercavitating = 0
+		default_ammo = 9
+}
+# 12.75 inch Mark 46 Mod 5
+torpedo_complex.9 = {
+        modelsize = 1
+		launcher_torpedotubes_533_650 = 9
+		torpedoes_supercavitating = 0
+		default_ammo = 12
+}
+# 21 inch Mark 48 ADCAP
+torpedo_complex.10 = {
+        modelsize = 5
+		launcher_torpedotubes_533_650 = 10
+		torpedoes_supercavitating = 0
+		default_ammo = 12
+}
+# 12.75 inch Mark 54 'MAKO'
+torpedo_complex.11 = {
+        modelsize = 1
+		launcher_torpedotubes_533_650 = 11
+		torpedoes_supercavitating = 0
+		default_ammo = 12
+}
+asroc_complex.0 = {
+        modelsize = 2
+		antisub_missile = 0
+}
+asroc_complex.1 = {
+        modelsize = 2
+		antisub_missile = 1
+}
+
+asroc_complex.2 = {
+        modelsize = 2
+		antisub_missile = 2
+}
+
+asroc_complex.3 = {
+        modelsize = 2
+		antisub_missile = 3
+}
+
+asroc_complex.4 = {
+        modelsize = 2
+		antisub_missile = 4
+}
+
+asroc_complex.5 = {
+        modelsize = 2
+		antisub_missile = 5
+}
+
+asroc_complex.6 = {
+        modelsize = 2
+		antisub_missile = 6
+}
+
+asroc_complex.7 = {
+        modelsize = 2
+		antisub_missile = 7
+}
+
+asroc_complex.8 = {
+        modelsize = 2
+		antisub_missile = 8
+}
+
+asroc_complex.9 = {
+        modelsize = 2
+		antisub_missile = 9
+}
+
+#------------------ HELICOPTER COMPLEXES ----------------------
+
+ship_heli_complex.0 = {
+    modelsize = 2
+	helicopterplatform = 0
+}
+# Aérospatiale SA 316 Alouette III
+ship_heli_complex.1 = {
+    modelsize = 1
+	helicopterplatform = 1
+}
+# Aérospatiale SA 321G Super Frelon
+ship_heli_complex.2 = {
+    modelsize = 6
+	helicopterplatform = 2
+}
+# Eurocopter AS 532 Cougar SC
+ship_heli_complex.3 = {
+    modelsize = 4
+	helicopterplatform = 3
+}
+# Eurocopter AS 565 Panther MB
+ship_heli_complex.4 = {
+    modelsize = 2
+	helicopterplatform = 4
+}
+# Eurocopter AS 565 Panther SB
+ship_heli_complex.5 = {
+    modelsize = 3
+	helicopterplatform = 5
+}
+# Aérospatiale SA 316.4 Alouette III-Canon
+ship_heli_cas.0 = {
+	modelsize = 2
+	airborneops_airassaultplanning = 1
+	helicopter_cas = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 3
+	helicopter_body	= 3
+	aerodynamics = 3
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+# Aérospatiale SA 341H Gazelle
+ship_heli_cas.1 = {
+	modelsize = 2
+	airborneops_airassaultplanning = 1
+	helicopter_cas = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 4
+	helicopter_body	= 3
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+# Eurocopter AS 532 Cougar SC
+ship_heli_cas.2 = {
+	modelsize = 5
+	airborneops_airassaultplanning = 1
+	helicopter_cas = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 6
+	helicopter_body	= 4
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures	= 0
+}
+# Eurocopter AS 565 Panther AB
+ship_heli_cas.3 = {
+	modelsize = 4
+	airborneops_airassaultplanning = 1
+	helicopter_cas = 3
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 5
+	helicopter_body	= 4
+	aerodynamics = 5
+	aircraftavionics = 5
+	aircraftcountermeasures	= 0
+}
+
+awacs_complex.0 = {
+    modelsize = 10
+	aircraft_awacs = 0
+}
+awacs_complex.1 = {
+    modelsize = 14
+	aircraft_awacs = 1
+}
+awacs_complex.2 = {
+    modelsize = 18
+	aircraft_awacs = 2
+}
+awacs_complex.3 = {
+    modelsize = 22
+	aircraft_awacs = 3
+}
+awacs_complex.4 = {
+    modelsize = 26
+	aircraft_awacs = 4
+}
+awacs_complex.5 = {
+    modelsize = 30
+	aircraft_awacs = 5
+}

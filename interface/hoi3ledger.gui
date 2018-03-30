@@ -1,0 +1,972 @@
+guiTypes = {
+
+windowType = {
+		name = "topcolor_statistics"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		orientation="UPPER_LEFT"
+	
+		
+	}
+
+### LEDGER
+
+windowType = {
+		name = "ledger"
+		backGround=""
+		position = { x=-555 y=-340 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+
+
+
+		iconType = {
+			name ="bg_politics_shadow"
+			spriteType = "GFX_bg_shadow"
+			position = { x=14 y=22 }
+		}
+
+
+		iconType = {
+			name ="bg_countryskin"
+			spriteType = "GFX_country_bg"
+			position = { x= 44 y = 54 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		textBoxType = { 
+			name = "headline_statistics"
+			position = { x=45 y=23 }
+			textureFile = ""
+			font = "Jockey_30_glow_green"
+			borderSize = {x = 0 y = 4}
+			text = "headline_statistics"	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+		
+
+		iconType =
+		{
+			name ="bg_statistics"
+			spriteType = "GFX_bg_statistics"
+			position = { x=-22 y=-5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="ledger_overlay"
+			spriteType = "GFX_ledger_columns"
+			position = { x= 51 y = 140 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+
+		#iconType =
+		#{
+		#	name ="ledger_overlay_small"
+		#	spriteType = "GFX_ledger_overlay_small"
+		#	position = { x= 0 y = 184 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+
+
+	windowType = {
+		name = "linechart_options"
+		backGround=""
+		position = { x=61 y=138 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+
+		iconType = {
+			name = "ledger_grid_mil"
+			spriteType = "GFX_bg_grid_mil"
+			position = { x = -10 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		iconType =
+		{
+			name ="ledger_listbox_bg"
+			spriteType = "GFX_bg_stat_listbox"
+			position = { x= 793 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		listboxType = {
+			name ="chart_template_listbox"
+  			position = { x=795 y=22}
+			backGround=""
+			size = { x = 164 y = 400 }
+			Orientation = "UPPER_LEFT"
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_prod"
+			borderSize = {x = 1 y = 1}
+		}
+
+
+
+		listboxType = {
+			name ="chart_country_listbox"
+  			position = { x=790 y=150}
+			backGround=""
+			size = { x = 181 y = 358 }
+			Orientation = "UPPER_LEFT"
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_prod"
+			borderSize = {x = 1 y = 1}
+		}
+
+		guiButtonType = {
+			name = "linechart_prev_page"
+			position = { x = 73 y = 474 }
+			quadTextureSprite ="option_prev"
+			shortcut = "LEFT"
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "linechart_next_page"
+			position = { x = 735 y = 474 }
+			quadTextureSprite = "option_next"
+			shortcut = "RIGHT"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "linechart_mp_button"
+			position = { x = 21 y = 8 }
+			quadTextureSprite ="GFX_chart_mp_button"
+			shortcut = "RIGHT"
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "linechart_eq_button"
+			position = { x = -5 y = 8 }
+			quadTextureSprite ="GFX_chart_eq_button"
+			shortcut = "RIGHT"
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+
+
+		
+### NO GRAPH DATA
+ 	
+	windowType = {
+		name = "no_graph_data"
+		backGround=""
+		position = { x=200 y=160 }	
+		size = { x=640 y=400 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+
+		instantTextBoxType={
+		     position = {x = 220 y = 180 }
+		     name = "no_data_text"
+		     font = "Arial14"
+		     borderSize = {x = 0 y = 0} 
+		     maxWidth = 200
+		     maxHeight = 40
+		     text = "LEDGER_NO_GRAPH_DATA" 
+		     orientation = "UPPER_LEFT"
+		     format = centre
+		    }
+	}
+
+	#### Graph background #############################
+
+	windowType = {
+		name = "graph_background"
+		backGround=""
+		position = { x=200 y=160 }	
+		size = { x=640 y=400 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+		
+		instantTextBoxType={
+		     position = {x = 240 y = 0 }
+		     name = "graph_label"
+		     font = "Jockey_14"
+		     borderSize = {x = 0 y = 0} 
+		     maxWidth = 172
+		     maxHeight = 18
+		     text = "" 
+		     orientation = "UPPER_LEFT"
+		     format = centre
+		    }
+ 
+#		instantTextBoxType={
+#		     position = {x = 30 y = 29 }
+#		     name = "resolution_value"
+#		     font = "Main_16"
+#		     borderSize = {x = 0 y = 0} 
+#		     maxWidth = 172
+#		     maxHeight = 18
+#		     text = "" 
+#		     orientation = "UPPER_LEFT"
+#		     format = centre
+#		    }
+ 
+		guiButtonType = {
+		     name = "prev_graph_button"
+		     position = { x = 239 y = -10 }
+		     quadTextureSprite = "option_prev" 
+		}
+ 
+
+		guiButtonType = {
+		     name = "next_graph_button"
+		     position = { x = 375 y = -10 }
+		     quadTextureSprite = "option_next"
+		} 
+
+		iconType =
+		{
+			name ="graph_vertical_bar"
+			spriteType = "GFX_graph_vertical_bar"
+			position = { x= 0 y = -10 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		iconType =
+		{
+			name ="graph_horizontal_bar"
+			spriteType = "GFX_graph_horizontal_bar"
+			position = { x= 0 y = 390 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		instantTextBoxType = {
+			name ="vertical_1"
+			position = { x = -105 y = -10 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = right
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 100
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="vertical_2"
+			position = { x = -105 y = 90 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = right
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 100
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="vertical_3"
+			position = { x = -105 y = 190 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = right
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 100
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="vertical_4"
+			position = { x = -105 y = 290 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = right
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 100
+			maxHeight = 30
+		}
+
+		
+		instantTextBoxType = {
+			name ="horizontal_1"
+			position = { x = -100 y = 375 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = centre
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 200
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="horizontal_2"
+			position = { x = 60 y = 375 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = centre
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 200
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="horizontal_3"
+			position = { x = 220 y = 375 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = centre
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 200
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="horizontal_4"
+			position = { x = 380 y = 375 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = centre
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 200
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="horizontal_5"
+			position = { x = 540 y = 375 }
+			textureFile = ""
+			font = "Micro"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			format = centre
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 200
+			maxHeight = 30
+		}
+		
+		### GRAPH ENTRY
+
+		windowType = {
+			name = "graph_entry"
+			backGround=""
+			position = { x=0 y=401 }	
+			size = { x=180 y=22 }
+			moveable = 0
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+
+			checkboxType = {
+				name = "checkbox"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_checkbox"	
+				buttonFont = "Main_14"
+			}
+
+			instantTextBoxType = {
+				name ="legend_label"
+				position = { x = 32 y = 10 }
+				textureFile = ""
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 0 }
+				text = ""	
+				format = left
+				Orientation = "UPPER_LEFT"
+
+				maxWidth = 140
+				maxHeight = 30
+			}
+
+		}
+	}
+
+	####################################
+
+
+		instantTextBoxType = {
+			name ="header"
+			position = { x = 360 y = 106 }
+			textureFile = ""
+			font = "Jockey_24"
+			borderSize = {x = 4 y = 4}
+			text = ""	
+			format = centre
+			Orientation = "UPPER_LEFT"
+			maxWidth = 340
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name ="page_number"
+			position = { x = 530 y = 658 }
+			font = "Jockey_18"
+			borderSize = {x = 4 y = 4}
+			format = centre
+			Orientation = "UPPER_LEFT"
+			maxWidth =  30
+			maxHeight = 30
+		}
+
+
+		guiButtonType = {
+				name = "previous_button"
+				position = { x = 493 y = 655 }
+				quadTextureSprite ="option_prev"
+				buttonText = ""
+				buttonFont = "Arial12_bold"
+
+				shortcut = "LEFT"
+				Orientation = "UPPER_LEFT"
+			}
+
+		guiButtonType = {
+				name = "next_button"
+				position = { x = 593 y = 655 }
+				quadTextureSprite ="option_next"
+				buttonText = ""
+				buttonFont = "Arial12_bold"
+				shortcut = "RIGHT"
+				Orientation = "UPPER_LEFT"
+			}
+
+		checkboxType = {
+			name = "checkbox_autosend"
+			position = { x = 2170 y = 578 }
+			quadTextureSprite ="GFX_checkbox"	
+			buttonFont = "Main_14"
+		}
+				
+		instantTextBoxType = {
+			name ="textbox_autosend"
+			position = { x = 2200 y = 585 }
+			textureFile = ""
+			font = "Main_16"
+			borderSize = {x = 1 y = 1}
+			text = ""	
+			format = left
+			Orientation = "UPPER_LEFT"
+
+			maxWidth =  200
+			maxHeight = 30
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			position = { x=1035 y=29 }
+			quadTextureSprite = "GFX_close_btn"
+			buttonFont = "Arial12_bold"
+			shortcut = "ESCAPE"
+		}	
+
+		guiButtonType = {
+		     name = "ledger_overview"
+		     position = { x = 307  y = 70 }
+		     quadTextureSprite ="GFX_slider_trade_checkbox"
+		} 
+				
+		instantTextBoxType = {
+			name ="ledger_overview_label"
+		    position = { x = 300  y = 75 }
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "OVERVIEW"	
+			maxWidth = 90
+			maxHeight = 28	
+			format = centre
+		}	
+
+		guiButtonType = {
+		     name = "ledger_economy"
+		     position = { x = 398 y = 70 }
+		     quadTextureSprite ="GFX_slider_trade_checkbox"
+		} 
+				
+		instantTextBoxType = {
+			name ="ledger_economy_label"
+		    position = { x = 392  y = 75 }
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "ECONOMY"	
+			maxWidth = 90
+			maxHeight = 28	
+			format = centre
+		}	
+
+		guiButtonType = {
+		     name = "ledger_misc"
+		     position = { x = 489 y = 70 }
+		     quadTextureSprite ="GFX_slider_trade_checkbox"
+		} 
+				
+		instantTextBoxType = {
+			name ="ledger_misc_label"
+		    position = { x = 482  y = 75 }
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "MISC"	
+			maxWidth = 90
+			maxHeight = 28	
+			format = centre
+		}	
+		
+		guiButtonType = {
+		     name = "ledger_military"
+		     position = { x = 580 y = 70 }
+		     quadTextureSprite ="GFX_slider_trade_checkbox"
+		}
+				
+		instantTextBoxType = {
+			name ="ledger_military_label"
+		    position = { x = 574  y = 75 }
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "MILITARY"	
+			maxWidth = 90
+			maxHeight = 28	
+			format = centre
+		}	
+		
+		guiButtonType = {
+		     name = "ledger_history"
+		     position = { x = 671 y = 70 }
+		     quadTextureSprite ="GFX_slider_trade_checkbox"
+		}
+				
+		instantTextBoxType = {
+			name ="ledger_history_label"
+		    position = { x = 665  y = 75 }
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "HISTORY"	
+			maxWidth = 90
+			maxHeight = 28	
+			format = centre
+		}	
+	}
+	
+	positionType = {
+		name = "pie_UL"
+		position = { x = 200 y = 30 }
+	}
+
+	
+	positionType = {
+		name = "pie_LR"
+		position = { x = 270 y = 100 }
+	}
+	
+	positionType = {
+		name = "pie_0_offset"
+		position = { x = 350 y = 160 }
+	}
+	
+	positionType = {
+		name = "pie_1_offset"
+		position = { x = -100 y = 160 }
+	}
+	
+	positionType = {
+		name = "pie_2_offset"
+		position = { x = 350 y = -80 }
+	}
+	
+	positionType = {
+		name = "pie_3_offset"
+		position = { x = -100 y = -80	}
+	}
+
+	positionType = {
+		name = "pie_line_offset"
+		position = { x = 151 y = 5 }
+	}
+	
+	positionType = {
+		name = "pie_line_offset_two"
+		position = { x = 155 y = 5 }
+	}
+	
+	positionType = {
+		name = "pie_text_offset"
+		position = { x = 160 y = 0 }
+	}
+	
+	positionType = {
+		name = "pie_header_offset"
+		position = { x = -130 y = -24 }
+	}
+	
+	positionType = {
+		name = "ledger_UL"
+		position = { x = 480 y = 169 }
+	}
+
+	positionType = {
+		name = "ledger_LR"
+		position = { x = 980 y = 460 }
+	}
+
+	positionType = {
+		name = "chart_axis"
+		position = { x = 410 y = -255 }
+	}
+
+	positionType = {
+		name = "chart_axis_size"
+		position = { x = 680 y = 450 }
+	}
+
+	
+	positionType = {
+		name = "ledger_pie_second_line_offset"
+		position = { x = 75 y = 0 }
+	}
+	
+	positionType = {
+		name = "ledger_scrollbar_offset"
+		position = { x = 477 y = 30 }
+	}
+	
+	positionType = {
+		name = "ledger_scrollbar_size"
+		position = { x = 16 y = 445 }
+	}
+	
+	iconType =
+	{
+		name ="ledger_nation_flag"
+		spriteType = "GFX_minishield"
+		position = { x= 200 y = 203 }
+		Orientation = "UPPER_LEFT"
+	}
+
+	iconType =
+	{
+		name ="pop_bar"
+		spriteType = "faction_progress"
+		position = { x= 200 y = 203 }
+		Orientation = "UPPER_LEFT"
+	}
+
+	iconType =
+	{
+		name =""
+		spriteType = "prodqueue_progress"
+		position = { x= 10 y = 3 }
+		Orientation = "UPPER_LEFT"
+	}
+
+	iconType = {
+		name = "nuclear_linechart_big"
+		spriteType = "GFX_ledger_linechart_big"
+		position = { x = 410 y = 205 }
+		Orientation = "UPPER_LEFT"
+	}
+
+
+	instantTextBoxType = {
+			name = "timetext"
+			position = { x = 415 y = -255 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 0 y = 0 }
+			text = ""	
+			format = left
+			Orientation = "UPPER_LEFT"
+			maxWidth = 80
+			maxHeight = 14
+	}
+
+	instantTextBoxType = {
+			name = "linechart_info"
+			position = { x = 220 y = 222 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0 }
+			text = ""	
+			format = left
+			Orientation = "UPPER_LEFT"
+			maxWidth = 250
+			maxHeight = 30
+	}
+
+	iconType = {
+		name = "stat_arrow_down"
+		spriteType = "GFX_stat_arrow_down"
+		position = { x= 0 y = -5 }
+		Orientation = "UPPER_LEFT"
+	}
+
+	iconType = {
+		name = "stat_arrow_left"
+		spriteType = "GFX_stat_arrow_left"
+		position = { x= -6 y = -5 }
+		Orientation = "UPPER_LEFT"
+	}
+	
+	iconType = {
+			name = "stat_circle_bg"
+			spriteType = "GFX_diplo_ideology_circle_bg"
+			position = { x =0 y = 0 }
+		}
+	
+	iconType = {
+		name = "stat_circle"
+		spriteType = "GFX_legend_icon"
+		position = { x= 0 y = 0 }
+		Orientation = "UPPER_LEFT"
+	}
+	
+	iconType = {
+			name = "stat_circle_overlay"
+			spriteType = "GFX_ideology_circle_overlay"
+			position = {x =0  y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+	
+
+	
+	########################## Pie chart###########################################
+	instantTextBoxType = {
+			name = "pie_text"
+			position = { x = -300 y = -100 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0 }
+			text = ""	
+			format = left
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 256
+			maxHeight = 16
+			}
+	instantTextBoxType = {
+			name = "pie_heading"
+			position = { x = -300 y = -100 }
+			textureFile = ""
+			font = "Jockey_16_yellow"
+			borderSize = {x = 0 y = 0 }
+			text = ""	
+			format = centre
+			Orientation = "UPPER_LEFT"
+
+			maxWidth = 250
+			maxHeight = 30
+			}
+
+	windowType = {
+		name = "no_pie_data_window"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=64 y=64 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+		
+		instantTextBoxType = {
+			name = "no_data"
+			position = { x = 0 y = 0 }
+			textureFile = ""
+			font = "Jockey_16_yellow"
+			borderSize = {x = 0 y = 0 }
+			text = "LEDGER_NO_DATA"	
+			format = left
+
+			maxWidth = 140
+			maxHeight = 30
+		}
+	}
+
+	#############################################################################################
+
+	positionType = {
+		name = "ledger_default_title_col"
+		position = { x = 130 y = 0 }
+	}
+	
+	positionType = {
+		name = "ledger_default_normal_col"
+		position = { x = 75 y = 0 }
+	}
+	
+	positionType = {
+		name = "ledger_nat_stat1"
+		position = { x = 75 y = 0 }
+	}
+	
+	#########################################
+
+	
+	instantTextBoxType = {
+		name = "TableHeaderText"
+		position = { x = 0 y = 25 }
+		font = "Jockey_14_dark"
+		borderSize = {x = 1 y = 1}
+		maxWidth = 350
+		maxHeight = 30
+		Orientation = "UPPER_LEFT"	
+		format = centre
+		fixedsize = yes
+	}
+	
+	instantTextBoxType = {
+		name = "TableItemText"
+		position = { x = 0 y = 0 }
+		font = "Arial12_cyan"
+		borderSize = {x = 5 y = 1}
+		maxWidth = 350
+		maxHeight = 12
+		format = left
+		fixedsize = yes
+	}
+
+	windowType = {
+		name = "linechart_country_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=640 y=32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+		
+		iconType = {
+			name = "ideology_circle_bg"
+			spriteType = "GFX_diplo_ideology_circle_bg"
+			position = { x =7 y = 4 }
+		}
+		
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_legend_icon"
+			position = { x =7  y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "party_overlay"
+			spriteType = "GFX_ideology_circle_overlay"
+			position = {x =7  y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType={
+		     name = "country_name"
+		     font = "Jockey_14_dark"
+		position = { x= 45 y = 9 }
+		     borderSize = {x = 0 y = 0} 
+		     maxWidth = 172
+		     maxHeight = 28
+		     text = "" 
+		     orientation = "UPPER_LEFT"
+		     format = left
+  	    	}
+
+		checkboxType = 
+		{
+			name = "country_check"
+			position = { x= 145 y = 6 }
+			quadTextureSprite = "GFX_frontend_checkbutton"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+	}		
+
+	windowType = {
+		name = "linechart_template_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=640 y=24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+
+		checkboxType = {
+		     name = "template_button"
+		     position = { x = 0 y = 0 }
+		     quadTextureSprite = "GFX_ledger_template_button"
+		     buttonText = "Military"
+		     buttonFont = "Arial_14_glow"
+		}
+
+		instantTextBoxType={
+		     position = {x = 15 y = 5 }
+		     name = "button_text"
+		     font = "Arial_11_bold_black"
+		     borderSize = {x = 0 y = 0} 
+		     maxWidth = 172
+		     maxHeight = 28
+		     text = "" 
+		     orientation = "UPPER_LEFT"
+		     format = centre
+  	    	}
+
+
+
+	}		
+
+		
+
+		
+}

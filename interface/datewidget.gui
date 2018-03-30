@@ -1,0 +1,343 @@
+guiTypes = {
+	windowType = {
+		name ="datewidget_air"
+		backGround=""
+		position = { x=0 y =0}	
+		size = { x=200 y =200}
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+		Orientation = "UPPER_LEFT"
+		
+		instantTextBoxType = {
+			name = "date_year"
+			position = { x = 4 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 256
+			maxHeight = 30
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "date_month"
+			position = { x = 50 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 256
+			maxHeight = 30	
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "date_day"
+			position = { x = 54 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 50
+			maxHeight = 30	
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "date_hour"
+			position = { x = 110 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 50
+			maxHeight = 30	
+			format = right
+		}
+		
+		iconType =
+		{
+			name ="time_bg"
+			spriteType = "GFX_time_bg"
+			position = { x= 1 y = 45 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "year_up"
+			position = { x = 13 y = 9 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "year_down"
+			position = { x = 13 y = 65 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "month_up"
+			position = { x = 53 y = 9 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "month_down"
+			position = { x = 53 y = 65 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "day_up"
+			position = { x = 83 y = 9 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "day_down"
+			position = { x = 83 y = 65 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "hour_up"
+			position = { x = 123 y = 9 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "hour_down"
+			position = { x = 123 y = 65 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	windowType = {
+		name ="datewidget_land"
+		backGround=""
+		position = { x=0 y =0}	
+		size = { x=200 y =200}
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+		Orientation = "UPPER_LEFT"
+		
+		instantTextBoxType = {
+			name = "date_year"
+			position = { x = 4 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 256
+			maxHeight = 30
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "date_month"
+			position = { x = 70 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 256
+			maxHeight = 30	
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "date_day"
+			position = { x = 95 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 50
+			maxHeight = 30	
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "date_hour"
+			position = { x = 178 y = 35 }
+			textureFile = ""
+			font = "timefont"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 50
+			maxHeight = 30	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "year_up"
+			position = { x = 15 y = 5 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "year_down"
+			position = { x = 15 y = 69 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "month_up"
+			position = { x = 76 y = 5 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "month_down"
+			position = { x = 76 y = 69 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "day_up"
+			position = { x = 122 y = 5 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "day_down"
+			position = { x = 122 y = 69 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "hour_up"
+			position = { x = 182 y = 5 }
+			quadTextureSprite ="GFX_next_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "hour_down"
+			position = { x = 182 y = 69 }
+			quadTextureSprite ="GFX_prev_model"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Main_14_black"
+
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}

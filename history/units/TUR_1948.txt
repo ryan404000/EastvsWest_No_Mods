@@ -1,0 +1,168 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 7611
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 7611
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "3rd Division"
+			location = 14924
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 0 strength = 22 experience = 4 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 0 strength = 38 experience = 5 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 7215
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+			regiment = { type = anti_air_brigade name = "1st AA Regiment" historical_model = 0 strength = 18 experience = 4 }
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 0 strength = 37 experience = 4 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 7013
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 0 strength = 34 experience = 5 }
+			regiment = { type = artillery_brigade name = "3rd Artillery Regiment" historical_model = 0 strength = 22 experience = 4 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 0 strength = 36 experience = 4 }
+		}
+		division =
+		{
+			name = "9th Division"
+			location = 8457
+			regiment = { type = infantry_brigade name = "24th Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 1 strength = 25 experience = 5 }
+			regiment = { type = bergsjaeger_brigade name = "2nd Mountain Brigade" historical_model = 1 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "25th Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "10th Division"
+			location = 8382
+			regiment = { type = infantry_brigade name = "26th Infantry Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "27th Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+			regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 1 strength = 37 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 1 strength = 25 experience = 5 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 8054
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "7th Division"
+			location = 8307
+			regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 0 strength = 37 experience = 4 }
+			regiment = { type = artillery_brigade name = "5th Artillery Regiment" historical_model = 0 strength = 21 experience = 4 }
+			regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 0 strength = 36 experience = 4 }
+		}
+		division =
+		{
+			name = "8th Division"
+			location = 8381
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 0 strength = 39 experience = 5 }
+			regiment = { type = infantry_brigade name = "22nd Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 0 strength = 24 experience = 5 }
+			regiment = { type = infantry_brigade name = "23rd Infantry Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+	}
+	army =
+	{
+		name = "3rd Army"
+		location = 7514
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "11th Division"
+			location = 7514
+			regiment = { type = infantry_brigade name = "28th Infantry Brigade" historical_model = 0 strength = 40 experience = 4 }
+			regiment = { type = infantry_brigade name = "29th Infantry Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "30th Infantry Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "31st Infantry Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 7611
+		location = 7611
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 0 strength = 100 builder = ENG }
+		wing = { type = fighter name = "2nd Fighter Wing" historical_model = 0 strength = 50 builder = ENG }
+		wing = { type = multi_role name = "3rd Fighter Wing" historical_model = 0 strength = 100 builder = ENG }
+	}
+	navy = {
+		name = "Home Fleet"
+		base = 7509 # Karabuk
+		location = 7509
+		ship = { type = battleship name = "TCG Yavuz Sultan Selim" historical_model = 0 }		
+		ship = { type = destroyer name = "1. Firkateyn Filotillasi" historical_model = 0 strength = 80}
+		ship = { type = destroyer name = "2. Firkateyn Filotillasi" historical_model = 0 strength = 80}
+		ship = { type = transport_ship name = "1. Nakliye Filotillasi" historical_model = 0 }
+	}
+	navy = {
+		name = "Home Submarine Fleet"
+		base = 7509 # Karabuk
+		location = 7509
+		ship = { type = submarine name = "1. Denizalti Filotillasi" historical_model = 0 strength = 60}
+		ship = { type = submarine name = "2. Denizalti Filotillasi" historical_model = 0 strength = 30 builder = ENG}	
+		ship = { type = submarine name = "3. Denizalti Filotillasi" historical_model = 0 strength = 40 builder = USA}			
+	}		
+}
+division =
+{
+	name = "6th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 0 strength = 38 experience = 5 }
+	regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 0 strength = 22 experience = 5 }
+	regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 0 strength = 36 experience = 5 }
+}
+division =
+{
+	name = "1st Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 36 experience = 4 }
+	regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 0 strength = 23 experience = 5 }
+	regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 0 strength = 34 experience = 5 }
+}
+division =
+{
+	name = "2nd Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 0 strength = 35 experience = 4 }
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 37 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+}
+division =
+{
+	name = "12th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "32nd Infantry Brigade" historical_model = 1 strength = 39 experience = 4 }
+	regiment = { type = artillery_brigade name = "3rd Artillery Regiment" historical_model = 1 strength = 25 experience = 4 }
+	regiment = { type = infantry_brigade name = "33rd Infantry Brigade" historical_model = 1 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "34th Infantry Brigade" historical_model = 1 strength = 40 experience = 4 }
+}
+division =
+{
+	name = "13th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "35th Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "36th Infantry Brigade" historical_model = 1 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "37th Infantry Brigade" historical_model = 1 strength = 40 experience = 4 }
+	regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 1 strength = 24 experience = 4 }
+}

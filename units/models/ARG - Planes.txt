@@ -1,0 +1,1140 @@
+fighter.0 = {
+	aircommand_maneuverprinciple = 1
+	aircombatops_offensiveairsuperioritydoctrine = 0
+	pilotfocus_realisticcombatexercises = 0
+	aircombatops_wildweaseloperations = 0
+	aircraft_fighter = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 0
+	engine_afterburner = 0
+	airframewing_speed = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0
+}
+
+fighter.1 = {
+	aircommand_maneuverprinciple = 1
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_fighter = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 1
+	engine_afterburner = 0
+	airframewing_speed = 1
+	aerodynamics = 1
+	aircraftavionics = 1
+	aircraftcountermeasures = 0
+}
+
+fighter.2 = {
+	aircommand_maneuverprinciple = 1
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_fighter = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 2
+	engine_afterburner = 1
+	airframewing_speed = 2
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0
+}
+
+fighter.3 = {
+	aircommand_maneuverprinciple = 1
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_fighter = 3
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 2
+	engine_afterburner = 1
+	airframewing_speed = 2
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0
+}
+
+fighter.4 = {
+	aircommand_maneuverprinciple = 1
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_fighter = 4
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+fighter.5 = {
+	aircommand_maneuverprinciple = 1
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 1
+	aircraft_fighter = 5
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 4
+	engine_afterburner = 1
+	airframewing_speed = 4
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures = 0
+}
+
+fighter.6 = {
+	aircommand_maneuverprinciple = 1
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 1
+	aircraft_fighter = 6
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 5
+	engine_afterburner = 1
+	airframewing_speed = 5
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures = 0
+}
+
+multi_role.0 = {
+	aircombatops_offensiveairsuperioritydoctrine = 0
+	aircommand_offensiveprinciple = 1
+	pilotfocus_realisticcombatexercises = 0	
+	aircombatops_wildweaseloperations = 0	
+	aircraft_multirole = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0	
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 0
+	engine_turbojet_medium = 0
+	engine_afterburner = 0
+	airframewing_speed = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0	
+}
+
+multi_role.1 = {
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	aircommand_offensiveprinciple = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0	
+	aircraft_multirole = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0	
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 0
+	engine_turbojet_medium = 2
+	engine_afterburner = 1
+	airframewing_speed = 2
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+multi_role.2 = {
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	aircommand_offensiveprinciple = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0	
+	aircraft_multirole = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0	
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 0
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 2
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+multi_role.3 = {
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	aircommand_offensiveprinciple = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0	
+	aircraft_multirole = 3
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0	
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 1
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+multi_role.4 = {
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	aircommand_offensiveprinciple = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 0	
+	aircraft_multirole = 4
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0	
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 2
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+multi_role.5 = {
+	aircombatops_offensiveairsuperioritydoctrine = 1
+	aircommand_offensiveprinciple = 1
+	pilotfocus_realisticcombatexercises = 1
+	aircombatops_wildweaseloperations = 1
+	aircraft_multirole = 5
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 5
+	engine_turbojet_medium = 5
+	engine_afterburner = 1
+	airframewing_speed = 5
+	aerodynamics = 4
+	aircraftavionics = 4
+	aircraftcountermeasures = 0
+}
+
+cas.0 = {
+	aircommand_economyofforceprinciple = 1
+	pilotfocus_precisionbombingtraining = 0
+	aircraft_cas = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 0
+	aircraftweapons_heavyrotarycannon = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 0
+	engine_afterburner = 0
+	airframewing_speed = 0	
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0	
+}
+
+cas.1 = {
+	aircommand_economyofforceprinciple = 1
+	pilotfocus_precisionbombingtraining = 1
+	aircraft_cas = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 0
+	aircraftweapons_heavyrotarycannon = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 1
+	engine_afterburner = 0
+	airframewing_speed = 1
+	aerodynamics = 1
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+cas.2 = {
+	aircommand_economyofforceprinciple = 1
+	pilotfocus_precisionbombingtraining = 1
+	aircraft_cas = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 0
+	aircraftweapons_heavyrotarycannon = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 2
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+cas.3 = {
+	aircommand_economyofforceprinciple = 1
+	pilotfocus_precisionbombingtraining = 1
+	aircraft_cas = 3
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 0
+	aircraftweapons_heavyrotarycannon = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 1
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0	
+}
+
+cas.4 = {
+	aircommand_economyofforceprinciple = 1
+	pilotfocus_precisionbombingtraining = 1
+	aircraft_cas = 4
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 1
+	aircraftweapons_heavyrotarycannon = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 4
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 4
+	engine_afterburner = 1
+	airframewing_speed = 4
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures = 0
+}
+
+cas.5 = {
+	aircommand_economyofforceprinciple = 1
+	pilotfocus_precisionbombingtraining = 1
+	aircraft_cas = 5
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 1
+	aircraftweapons_heavyrotarycannon = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 5
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 5
+	engine_afterburner = 1
+	airframewing_speed = 5
+	aerodynamics = 4
+	aircraftavionics = 4
+	aircraftcountermeasures = 0
+}
+
+cas.6 = {
+	aircommand_economyofforceprinciple = 1
+	pilotfocus_precisionbombingtraining = 1
+	aircraft_cas = 6
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 1
+	aircraftweapons_heavyrotarycannon = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 6
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 6
+	engine_afterburner = 1
+	airframewing_speed = 6
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures = 0
+}
+
+cag_fighter.0 = {
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_maneuverprinciple = 1
+	aircraft_carrier_fighter = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 0
+	engine_afterburner = 0
+	airframewing_speed = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0
+}
+
+cag_fighter.1 = {
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_maneuverprinciple = 1
+	aircraft_carrier_fighter = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 1
+	engine_afterburner = 0
+	airframewing_speed = 1
+	aerodynamics = 1
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+cag_fighter.2 = {
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_maneuverprinciple = 1
+	aircraft_carrier_fighter = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 2
+	engine_afterburner = 0
+	airframewing_speed = 2
+	aerodynamics = 1
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+cag_fighter.3 = {
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_maneuverprinciple = 1
+	aircraft_carrier_fighter = 3
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0	
+}
+
+cag_fighter.4 = {
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_maneuverprinciple = 1
+	aircraft_carrier_fighter = 4
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 5
+	engine_afterburner = 1
+	airframewing_speed = 5
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures = 0	
+}
+
+cag_fighter.5 = {
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_maneuverprinciple = 1
+	aircraft_carrier_fighter = 5
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	engine_turbojet_medium = 6
+	engine_afterburner = 1
+	airframewing_speed = 6
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures = 0
+}
+
+cag_mltr.0 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_offensiveprinciple = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_carrier_multirole = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 0
+	engine_turbojet_medium = 0
+	engine_afterburner = 0
+	airframewing_speed = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0
+}
+
+cag_mltr.1 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_offensiveprinciple = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_carrier_multirole = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 0
+	engine_turbojet_medium = 2
+	engine_afterburner = 0
+	airframewing_speed = 2
+	aerodynamics = 1
+	aircraftavionics = 1
+	aircraftcountermeasures = 0
+}
+
+cag_mltr.2 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_offensiveprinciple = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_carrier_multirole = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 0
+	engine_turbojet_medium = 2
+	engine_afterburner = 1
+	airframewing_speed = 2
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0
+}
+
+cag_mltr.3 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_offensiveprinciple = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_carrier_multirole = 3
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 1
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+cag_mltr.4 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_offensiveprinciple = 1
+	aircombatops_wildweaseloperations = 0
+	aircraft_carrier_multirole = 4
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 2
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 3
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+cag_mltr.5 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_offensiveprinciple = 1
+	aircombatops_wildweaseloperations = 1
+	aircraft_carrier_multirole = 5
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 5
+	engine_turbojet_medium = 5
+	engine_afterburner = 1
+	airframewing_speed = 5
+	aerodynamics = 4
+	aircraftavionics = 4
+	aircraftcountermeasures = 0
+}
+
+cag_mltr.6 = {
+	battlegroup_systemcoordination = 0	
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_offensiveprinciple = 1
+	aircombatops_wildweaseloperations = 1
+	aircraft_carrier_multirole = 6
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 6
+	engine_turbojet_medium = 6
+	engine_afterburner = 1
+	airframewing_speed = 6
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures = 0
+}
+
+cag_attack.0 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_economyofforceprinciple = 1
+	aircraft_carrier_attack = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 0
+	engine_afterburner = 0
+	airframewing_speed = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0	
+}
+
+cag_attack.1 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_economyofforceprinciple = 1
+	aircraft_carrier_attack = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 0
+	engine_afterburner = 0
+	airframewing_speed = 1
+	aerodynamics = 1
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+cag_attack.2 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_economyofforceprinciple = 1
+	aircraft_carrier_attack = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 3
+	engine_afterburner = 1
+	airframewing_speed = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0	
+}
+
+cag_attack.3 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_economyofforceprinciple = 1
+	aircraft_carrier_attack = 3
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 2
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 4
+	engine_afterburner = 1
+	airframewing_speed = 4
+	aerodynamics = 3
+	aircraftavionics = 2
+	aircraftcountermeasures = 0	
+}
+
+cag_attack.4 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_economyofforceprinciple = 1
+	aircraft_carrier_attack = 4
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 3
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 4
+	engine_afterburner = 1
+	airframewing_speed = 4
+	aerodynamics = 3
+	aircraftavionics = 3
+	aircraftcountermeasures = 0
+}
+
+cag_attack.5 = {
+	battlegroup_systemcoordination = 0
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0
+	carriergroup_scramble_drill = 0
+	aircommand_economyofforceprinciple = 1
+	aircraft_carrier_attack = 5
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance = 6
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 6
+	engine_afterburner = 1
+	airframewing_speed = 6
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures = 0
+}
+
+cag_vtol.0 = {
+	pilotfocus_precisionbombingtraining = 1
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0 
+	carriergroup_scramble_drill = 0 
+	aircommand_simplicityprinciple = 1
+	aircraft_carrier_vtol = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 1
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 3
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 4
+	engine_afterburner = 1
+	airframewing_speed = 4 
+	aerodynamics = 3
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+
+cag_vtol.1 = {
+	pilotfocus_precisionbombingtraining = 1
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0 
+	carriergroup_scramble_drill = 0 
+	aircommand_simplicityprinciple = 1
+	aircraft_carrier_vtol = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 1
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 4
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 4
+	engine_afterburner = 1
+	airframewing_speed = 4 
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+
+cag_vtol.2 = {
+	pilotfocus_precisionbombingtraining = 1
+	carriergroup_constantairbornesurveillance = 0
+	carriergroup_aircraftpatrolpatterns = 0 
+	carriergroup_scramble_drill = 0 
+	aircommand_simplicityprinciple = 1
+	aircraft_carrier_vtol = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns	= 1
+	aircraftweapons_aamissiles = 0	
+	aircraftweapons_agordinance	= 6
+	aircraftweapons_napalm = 0
+	engine_turbojet_medium = 6
+	engine_afterburner = 1
+	airframewing_speed = 6 
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures	= 0
+}
+
+bomber_maritime.0 = {
+	aircommand_objectiveprinciple = 1
+	aircraft_maritimebomber = 0
+	aircraftweapons_agordinance = 0
+	engine_turbojet_large = 0
+	airframewing_lift = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0
+}
+
+bomber_maritime.1 = {
+	aircommand_objectiveprinciple = 1
+	aircraft_maritimebomber = 1
+	aircraftweapons_agordinance = 0
+	engine_turbojet_large = 3
+	airframewing_lift = 3
+	aerodynamics = 2
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+bomber_maritime.2 = {
+	aircommand_objectiveprinciple = 1
+	aircraft_maritimebomber = 2
+	aircraftweapons_agordinance = 2
+	engine_turbojet_large = 3
+	airframewing_lift = 3
+	aerodynamics = 3
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+bomber_maritime.3 = {
+	aircommand_objectiveprinciple = 1
+	aircraft_maritimebomber = 3
+	aircraftweapons_agordinance = 4
+	engine_turbojet_large = 4
+	airframewing_lift = 4
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures = 0
+}
+
+bomber_antisub.0 = {
+	aircommand_objectiveprinciple = 1
+	airintelops_aswops = 0
+	aircraft_antisubbomber = 0
+	aircraftweapons_agordinance = 0
+	engine_turbojet_large = 0
+	airframewing_lift = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0	
+}
+
+bomber_antisub.1 = {
+	aircommand_objectiveprinciple = 1
+	airintelops_aswops = 0
+	aircraft_antisubbomber = 1
+	aircraftweapons_agordinance = 0
+	engine_turbojet_large = 3
+	airframewing_lift = 3
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+bomber_antisub.2 = {
+	aircommand_objectiveprinciple = 1
+	airintelops_aswops = 1
+	aircraft_antisubbomber = 2
+	aircraftweapons_agordinance = 4
+	engine_turbojet_large = 4
+	airframewing_lift = 4
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures = 0	
+}
+
+bomber_strike.0 = {
+	pilotfocus_lowlevelops = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircombatops_armydirectedbombing = 1
+	aircraft_strikebomber = 0
+	explosives = 1
+	aircraftweapons_agordinance = 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_large = 0
+	airframewing_lift = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0		
+}
+
+bomber_strike.1 = {
+	pilotfocus_lowlevelops = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircombatops_armydirectedbombing = 1
+	aircraft_strikebomber = 1
+	explosives = 1
+	aircraftweapons_agordinance = 0
+	aircraftweapons_napalm = 0
+	engine_turbojet_large = 2
+	airframewing_lift = 2
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+}
+
+bomber_strike.2 = {
+	pilotfocus_lowlevelops = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircombatops_armydirectedbombing = 1
+	aircraft_strikebomber = 2
+	explosives = 2
+	aircraftweapons_agordinance = 2
+	aircraftweapons_napalm = 0
+	engine_turbojet_large = 3
+	airframewing_lift = 3
+	aerodynamics = 3
+	aircraftavionics = 2
+	aircraftcountermeasures = 0
+}
+
+bomber_strike.3 = {
+	pilotfocus_lowlevelops = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircombatops_armydirectedbombing = 1
+	aircraft_strikebomber = 3
+	explosives = 3
+	aircraftweapons_agordinance = 3
+	aircraftweapons_napalm = 0
+	engine_turbojet_large = 4
+	airframewing_lift = 4
+	aerodynamics = 3
+	aircraftavionics = 3
+	aircraftcountermeasures = 0
+}
+
+bomber_strike.4 = {
+	pilotfocus_lowlevelops = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircombatops_armydirectedbombing = 1
+	aircraft_strikebomber = 4
+	explosives = 4
+	aircraftweapons_agordinance = 6
+	aircraftweapons_napalm = 0
+	engine_turbojet_large = 5
+	airframewing_lift = 5
+	aerodynamics = 5
+	aircraftavionics = 5
+	aircraftcountermeasures = 0
+}
+
+bomber_strategic.0 = {
+	aircommand_massprinciple = 1
+	pilotfocus_areabombingtraining = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircraft_strategicbomber = 0
+	explosives = 1
+	aircraftweapons_agordinance = 0
+	engine_turbojet_large = 0
+	airframewing_lift = 0
+	aerodynamics = 0
+	aircraftavionics = 0
+	aircraftcountermeasures = 0	
+	nuclear_freefall_bomb = 0
+}
+
+bomber_strategic.1 = {
+	aircommand_massprinciple = 1
+	pilotfocus_areabombingtraining = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircraft_strategicbomber = 1
+	explosives = 1
+	aircraftweapons_agordinance = 0
+	engine_turbojet_large = 1
+	airframewing_lift = 1
+	aerodynamics = 1
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+	nuclear_freefall_bomb = 0
+}
+
+bomber_strategic.2 = {
+	aircommand_massprinciple = 1
+	pilotfocus_areabombingtraining = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircraft_strategicbomber = 2
+	explosives = 2
+	aircraftweapons_agordinance = 0
+	engine_turbojet_large = 3
+	airframewing_lift = 3
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures = 0	
+	nuclear_freefall_bomb = 0
+}
+
+bomber_strategic.3 = {
+	aircommand_massprinciple = 1
+	pilotfocus_areabombingtraining = 0
+	pilotfocus_smartweapondeliverystriketraining = 0
+	aircraft_strategicbomber = 3
+	explosives = 4
+	aircraftweapons_agordinance = 6
+	engine_turbojet_large = 5
+	airframewing_lift = 5
+	aerodynamics = 5
+	aircraftavionics = 5
+	aircraftcountermeasures = 0	
+	nuclear_freefall_bomb = 0
+}
+
+transport_plane.0 = {
+	aircommand_securityprinciple = 1
+	aircraft_transport = 0	
+}
+
+transport_plane.1 = {
+	aircommand_securityprinciple = 1
+	aircraft_transport = 1
+}
+
+transport_plane.2 = {
+	aircommand_securityprinciple = 1
+	aircraft_transport = 2
+}
+
+transport_plane.3 = {
+	aircommand_securityprinciple = 1	
+	aircraft_transport = 3
+}
+
+recon_plane.0 = {
+	aircommand_surpriseprinciple = 1
+	airintelops_airreconplanningandtraining = 1
+	aircraft_reconnaissance = 0
+}
+
+recon_plane.1 = {
+	aircommand_surpriseprinciple = 1
+	airintelops_airreconplanningandtraining = 1
+	aircraft_reconnaissance = 1
+}
+
+awacs_air_plane.0 = {
+	airintelops_awacsc2doctrine = 1
+	aircraft_awacs = 0	
+}
+
+awacs_air_plane.1 = {
+	airintelops_awacsc2doctrine = 1	
+	aircraft_awacs = 1
+}
+
+awacs_air_plane.2 = {
+	airintelops_awacsc2doctrine = 1
+	aircraft_awacs = 2
+}
+
+helo_gunship.0 = {
+	airborneops_airassaultplanning = 1
+	helicopter_gunship = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_agordinance	= 0
+	helicopter_body	= 1
+	aerodynamics = 2
+	aircraftavionics = 1
+	aircraftcountermeasures	= 0
+}
+
+helo_gunship.1 = {
+	airborneops_airassaultplanning = 1
+	helicopter_gunship = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_agordinance	= 3
+	helicopter_body	= 3
+	aerodynamics = 3
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+
+helo_gunship.2 = {
+	airborneops_airassaultplanning = 1
+	helicopter_gunship = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 0
+	aircraftweapons_agordinance	= 4
+	helicopter_body	= 3
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+
+helo_cas.0 = {
+	airborneops_airassaultplanning = 1
+	helicopter_cas = 0
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 3
+	helicopter_body	= 3
+	aerodynamics = 3
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+
+helo_cas.1 = {
+	airborneops_airassaultplanning = 1
+	helicopter_cas = 1
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 4
+	helicopter_body	= 3
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0
+}
+
+helo_cas.2 = {
+	airborneops_airassaultplanning = 1
+	helicopter_cas = 2
+	aircraftweapons_guns = 1
+	aircraftweapons_multibarrelguns = 1
+	aircraftweapons_aamissiles = 0
+	aircraftweapons_agordinance	= 6
+	helicopter_body	= 4
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures	= 0
+}
+
+helo_maritime.0 = {
+	aircommand_simplicityprinciple = 1
+	helicopter_maritime = 0
+	aircraftweapons_agordinance = 2
+	helicopter_body	= 2
+	aerodynamics = 3
+	aircraftavionics = 2
+	aircraftcountermeasures	= 0	
+}
+
+helo_maritime.1 = {
+	aircommand_simplicityprinciple = 1
+	helicopter_maritime = 1
+	aircraftweapons_agordinance = 5
+	helicopter_body	= 4
+	aerodynamics = 4
+	aircraftavionics = 3
+	aircraftcountermeasures	= 0	
+}
+helo_maritime.2 = {
+	aircommand_simplicityprinciple = 1
+	helicopter_maritime = 2
+	aircraftweapons_agordinance = 6
+	helicopter_body	= 4
+	aerodynamics = 5
+	aircraftavionics = 4
+	aircraftcountermeasures	= 0
+}

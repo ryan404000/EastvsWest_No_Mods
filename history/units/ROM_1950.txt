@@ -1,0 +1,62 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6902
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 6902
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 6902
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 39 experience = 8 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 0 strength = 25 experience = 7 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 0 strength = 39 experience = 7 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 6690
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 0 strength = 24 experience = 4 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 1 strength = 38 experience = 4 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 6691
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 0 strength = 39 experience = 4 }
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 6691
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 0 strength = 39 experience = 4 }
+			regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+			regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 0 strength = 25 experience = 8 }
+		}
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 7214 # Constanta (m)
+		location = 7214
+		ship = { type = destroyer name = "1. Distrugator Flotilă" historical_model = 0 strength = 40}	
+	}	
+}
+division =
+{
+	name = "2nd Division"
+	location = 7214
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 39 experience = 4 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 0 strength = 25 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 0 strength = 39 experience = 4 }
+}

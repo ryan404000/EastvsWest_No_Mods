@@ -1,0 +1,1568 @@
+1542001 = {
+	name = "Ricardo Rosas"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.9.1 = { rank = 0 }
+	}
+}
+1542004 = {
+	name = "Lorenzo Rangel"
+	type = land
+	country = HON
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.10.1 = { rank = 0 }
+	}
+}
+1542002 = {
+	name = "José Montes"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.7.1 = { rank = 0 }
+	}
+}
+1542008 = {
+	name = "Ordono Peres"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.9.1 = { rank = 1 }
+		1951.12.1 = { rank = 0 }
+	}
+}
+1542010 = {
+	name = "Ínigo Gonzales"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.7.1 = { rank = 1 }
+		1952.8.1 = { rank = 0 }
+	}
+}
+1542011 = {
+	name = "César Gonzales"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.12.1 = { rank = 1 }
+		1953.12.1 = { rank = 0 }
+	}
+}
+1542012 = {
+	name = "Domingo Botello"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.8.1 = { rank = 1 }
+		1954.3.1 = { rank = 0 }
+	}
+}
+1542014 = {
+	name = "Fadrique Escalante"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.3.1 = { rank = 1 }
+		1955.12.1 = { rank = 0 }
+	}
+}
+1542009 = {
+	name = "Gustavo Peralta"
+	type = land
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.10.1 = { rank = 1 }
+		1956.7.1 = { rank = 0 }
+	}
+}
+1542007 = {
+	name = "Arturo Ordonez"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1542000 = {
+	name = "Sancho Porras"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.10.1 = { rank = 0 }
+	}
+}
+1542018 = {
+	name = "Antonio Roldan"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1958.10.1 = { rank = 1 }
+		1959.2.1 = { rank = 0 }
+	}
+}
+1542005 = {
+	name = "Fadrique Diaz"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.9.1 = { rank = 3 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1542016 = {
+	name = "Domingo Brito"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.7.1 = { rank = 1 }
+		1961.8.1 = { rank = 0 }
+	}
+}
+1542003 = {
+	name = "Nicolás Diaz"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.5.1 = { rank = 0 }
+	}
+}
+1542019 = {
+	name = "Edmundo Sisneros"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.2.1 = { rank = 1 }
+		1960.5.1 = { rank = 2 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1542021 = {
+	name = "Ernesto Rascon"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.8.1 = { rank = 1 }
+		1964.5.1 = { rank = 0 }
+	}
+}
+1542020 = {
+	name = "Gilberto Raya"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1542022 = {
+	name = "Marcial Covas"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1962.5.1 = { rank = 1 }
+		1963.2.1 = { rank = 2 }
+		1966.6.1 = { rank = 0 }
+	}
+}
+1542006 = {
+	name = "Alejandro Robles"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1957.9.1 = { rank = 4 }
+		1967.10.1 = { rank = 0 }
+	}
+}
+1542027 = {
+	name = "Mateo Posada"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.10.1 = { rank = 1 }
+		1968.10.1 = { rank = 0 }
+	}
+}
+1542026 = {
+	name = "Nicolás Reyna"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.6.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1542028 = {
+	name = "Emanuel Baeza"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.10.1 = { rank = 1 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1542029 = {
+	name = "Agustín Barrientos"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.5.1 = { rank = 1 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1542024 = {
+	name = "Inaki Arenas"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.5.1 = { rank = 1 }
+		1966.6.1 = { rank = 2 }
+		1967.10.1 = { rank = 3 }
+		1972.3.1 = { rank = 0 }
+	}
+}
+1542013 = {
+	name = "Vito Zayas"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.12.1 = { rank = 1 }
+		1967.10.1 = { rank = 2 }
+		1972.3.1 = { rank = 3 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1542017 = {
+	name = "José Iglesias"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.9.1 = { rank = 1 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1542025 = {
+	name = "Ezequiel Vela"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.6.1 = { rank = 1 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1542035 = {
+	name = "Cristóbal Rios"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.10.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1542034 = {
+	name = "Dionisio Osorio"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.11.1 = { rank = 1 }
+		1977.5.1 = { rank = 0 }
+	}
+}
+1542015 = {
+	name = "Cayetano Oquendo"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1955.12.1 = { rank = 1 }
+		1957.9.1 = { rank = 2 }
+		1960.5.1 = { rank = 3 }
+		1967.10.1 = { rank = 4 }
+		1978.12.1 = { rank = 0 }
+	}
+}
+1542038 = {
+	name = "Ariel Ordonez"
+	type = land
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1978.12.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1542031 = {
+	name = "Gabriel Tejada"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.3.1 = { rank = 1 }
+		1980.1.1 = { rank = 0 }
+	}
+}
+1542036 = {
+	name = "Rafael Escamilla"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.8.1 = { rank = 1 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1542037 = {
+	name = "Adán Correa"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1977.5.1 = { rank = 1 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1542023 = {
+	name = "Luciano Munoz"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.2.1 = { rank = 1 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1542039 = {
+	name = "Lope Jurado"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.11.1 = { rank = 1 }
+		1984.10.1 = { rank = 0 }
+	}
+}
+1542030 = {
+	name = "Pablito Escalante"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1972.3.1 = { rank = 2 }
+		1973.12.1 = { rank = 3 }
+		1978.12.1 = { rank = 4 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1542040 = {
+	name = "Manuel Santiago"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.1.1 = { rank = 1 }
+		1986.4.1 = { rank = 0 }
+	}
+}
+1542042 = {
+	name = "Fidel Ocasio"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1985.9.1 = { rank = 2 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1542033 = {
+	name = "Cristóbal Limon"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1973.12.1 = { rank = 1 }
+		1978.12.1 = { rank = 2 }
+		1985.9.1 = { rank = 3 }
+		1988.4.1 = { rank = 0 }
+	}
+}
+1542047 = {
+	name = "Moisés Armijo"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1987.3.1 = { rank = 1 }
+		1989.10.1 = { rank = 0 }
+	}
+}
+1542048 = {
+	name = "José Bermúdez"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.4.1 = { rank = 1 }
+		1990.8.1 = { rank = 0 }
+	}
+}
+1542032 = {
+	name = "Pascual Veliz"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.3.1 = { rank = 1 }
+		1973.12.1 = { rank = 2 }
+		1978.12.1 = { rank = 3 }
+		1985.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542041 = {
+	name = "Manuel Lozada"
+	type = land
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542043 = {
+	name = "Carlos Orosco"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.9.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1988.4.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542044 = {
+	name = "Moisés Pichardo"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542045 = {
+	name = "Jesús Montenegro"
+	type = land
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542046 = {
+	name = "Bernardo Mora"
+	type = land
+	country = HON
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.4.1 = { rank = 1 }
+		1988.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542049 = {
+	name = "Aimar Martinez"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542050 = {
+	name = "Mateo Olivo"
+	type = land
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542051 = {
+	name = "Ósca Duenas"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1542052 = {
+	name = "Vito Vega"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.7.1 = { rank = 0 }
+	}
+}
+1542059 = {
+	name = "Isaac Garrido"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1954.6.1 = { rank = 1 }
+		1956.7.1 = { rank = 0 }
+	}
+}
+1542061 = {
+	name = "Carlos Barrios"
+	type = sea
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.7.1 = { rank = 1 }
+		1957.12.1 = { rank = 0 }
+	}
+}
+1542057 = {
+	name = "Florio Soliz"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1957.3.1 = { rank = 0 }
+	}
+}
+1542056 = {
+	name = "Lucas Banda"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.3.1 = { rank = 3 }
+		1958.3.1 = { rank = 0 }
+	}
+}
+1542055 = {
+	name = "Leonardo Alonzo"
+	type = sea
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1542060 = {
+	name = "Froila Mascarenas"
+	type = sea
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1955.7.1 = { rank = 1 }
+		1958.3.1 = { rank = 2 }
+		1962.6.1 = { rank = 0 }
+	}
+}
+1542053 = {
+	name = "León Mayonga"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.3.1 = { rank = 2 }
+		1958.3.1 = { rank = 3 }
+		1966.12.1 = { rank = 0 }
+	}
+}
+1542064 = {
+	name = "Pablito Montes"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.3.1 = { rank = 1 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1542068 = {
+	name = "Roberto Jaquez"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.11.1 = { rank = 1 }
+		1971.2.1 = { rank = 0 }
+	}
+}
+1542066 = {
+	name = "Floro Briseno"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.6.1 = { rank = 1 }
+		1971.9.1 = { rank = 0 }
+	}
+}
+1542062 = {
+	name = "Jacinto Mejia"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.12.1 = { rank = 1 }
+		1972.1.1 = { rank = 0 }
+	}
+}
+1542069 = {
+	name = "Gustavo Rios"
+	type = sea
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.2.1 = { rank = 1 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1542072 = {
+	name = "Daniel Franco"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1973.12.1 = { rank = 1 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1542067 = {
+	name = "Lorenzo Guerra"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1966.12.1 = { rank = 1 }
+		1975.1.1 = { rank = 0 }
+	}
+}
+1542058 = {
+	name = "Juan Espinosa"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1976.10.1 = { rank = 0 }
+	}
+}
+1542054 = {
+	name = "Eliseo Vergara"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.6.1 = { rank = 2 }
+		1966.12.1 = { rank = 3 }
+		1976.10.1 = { rank = 4 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1542071 = {
+	name = "Floro Riojas"
+	type = sea
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.1.1 = { rank = 1 }
+		1977.3.1 = { rank = 2 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1542075 = {
+	name = "Timoteo Jiminez"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.10.1 = { rank = 1 }
+		1978.1.1 = { rank = 2 }
+		1981.4.1 = { rank = 0 }
+	}
+}
+1542070 = {
+	name = "Hugo Lozada"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1971.9.1 = { rank = 1 }
+		1981.4.1 = { rank = 2 }
+		1983.11.1 = { rank = 0 }
+	}
+}
+1542077 = {
+	name = "Pedro Cintron"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.1.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1542079 = {
+	name = "Ernesto Valle"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1983.11.1 = { rank = 1 }
+		1987.10.1 = { rank = 0 }
+	}
+}
+1542065 = {
+	name = "Marcelo Adame"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.12.1 = { rank = 1 }
+		1988.3.1 = { rank = 0 }
+	}
+}
+1542074 = {
+	name = "Manuel Duenas"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.1.1 = { rank = 1 }
+		1976.10.1 = { rank = 2 }
+		1977.3.1 = { rank = 3 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1542063 = {
+	name = "Eliseo Villalpando"
+	type = sea
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.3.1 = { rank = 1 }
+		1966.12.1 = { rank = 2 }
+		1976.10.1 = { rank = 3 }
+		1977.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542073 = {
+	name = "Ricardo Luevano"
+	type = sea
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1975.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542076 = {
+	name = "Pedro Figueroa"
+	type = sea
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.3.1 = { rank = 1 }
+		1983.11.1 = { rank = 2 }
+		1989.5.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542078 = {
+	name = "Santi Iglesias"
+	type = sea
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1981.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542080 = {
+	name = "Sancho Garcia"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542081 = {
+	name = "León Canales"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1987.10.1 = { rank = 1 }
+		1989.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542082 = {
+	name = "Esteban Iglesias"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542083 = {
+	name = "Carlos Botello"
+	type = sea
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542090 = {
+	name = "Fidel Herrera"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.2.1 = { rank = 0 }
+	}
+}
+1542092 = {
+	name = "Samuel Caban"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1542085 = {
+	name = "Jorge Gastelum"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.11.1 = { rank = 0 }
+	}
+}
+1542089 = {
+	name = "Marcial Ozuna"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.4.1 = { rank = 3 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1542086 = {
+	name = "Emanuel Villalobos"
+	type = air
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.9.1 = { rank = 0 }
+	}
+}
+1542087 = {
+	name = "Fulberto Alvarez"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.2.1 = { rank = 2 }
+		1956.4.1 = { rank = 3 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1542084 = {
+	name = "Isaac Jiminez"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.4.1 = { rank = 2 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1542097 = {
+	name = "Germán Enriquez"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.9.1 = { rank = 1 }
+		1960.2.1 = { rank = 0 }
+	}
+}
+1542091 = {
+	name = "Salvador Lucero"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.4.1 = { rank = 4 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1542100 = {
+	name = "Aimar Moreno"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1960.2.1 = { rank = 1 }
+		1960.3.1 = { rank = 2 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1542098 = {
+	name = "Martín Arreola"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.9.1 = { rank = 1 }
+		1962.12.1 = { rank = 0 }
+	}
+}
+1542088 = {
+	name = "Mario Negrete"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1542103 = {
+	name = "Santiago Benitez"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.12.1 = { rank = 1 }
+		1966.6.1 = { rank = 0 }
+	}
+}
+1542102 = {
+	name = "Salvador Gallardo"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1966.7.1 = { rank = 0 }
+	}
+}
+1542094 = {
+	name = "Fernando Santana"
+	type = air
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.4.1 = { rank = 1 }
+		1961.1.1 = { rank = 2 }
+		1969.2.1 = { rank = 0 }
+	}
+}
+1542104 = {
+	name = "Facundo Lozada"
+	type = air
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1964.8.1 = { rank = 1 }
+		1971.4.1 = { rank = 0 }
+	}
+}
+1542106 = {
+	name = "Isidoro Veliz"
+	type = air
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.7.1 = { rank = 1 }
+		1971.4.1 = { rank = 0 }
+	}
+}
+1542096 = {
+	name = "Matías Contreras"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.4.1 = { rank = 1 }
+		1959.1.1 = { rank = 2 }
+		1960.3.1 = { rank = 3 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1542105 = {
+	name = "Benjamín Caldera"
+	type = air
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.6.1 = { rank = 1 }
+		1969.2.1 = { rank = 2 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1542101 = {
+	name = "Luis Bustos"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1542107 = {
+	name = "Ferrando Hernadez"
+	type = air
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1969.2.1 = { rank = 1 }
+		1978.3.1 = { rank = 0 }
+	}
+}
+1542110 = {
+	name = "Elías Bermúdez"
+	type = air
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.11.1 = { rank = 1 }
+		1981.8.1 = { rank = 0 }
+	}
+}
+1542114 = {
+	name = "Modesto Vanegas"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1981.8.1 = { rank = 1 }
+		1982.9.1 = { rank = 0 }
+	}
+}
+1542111 = {
+	name = "Sancho Miranda"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1542113 = {
+	name = "Isidoro Armendariz"
+	type = air
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.3.1 = { rank = 1 }
+		1983.6.1 = { rank = 0 }
+	}
+}
+1542112 = {
+	name = "Rafael Miranda"
+	type = air
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1974.12.1 = { rank = 1 }
+		1983.7.1 = { rank = 0 }
+	}
+}
+1542115 = {
+	name = "Nicolás Almaraz"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.9.1 = { rank = 1 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1542095 = {
+	name = "Armando Pacheco"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.11.1 = { rank = 1 }
+		1956.4.1 = { rank = 2 }
+		1959.9.1 = { rank = 3 }
+		1960.3.1 = { rank = 4 }
+		1986.6.1 = { rank = 0 }
+	}
+}
+1542093 = {
+	name = "Claudio Bustos"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.2.1 = { rank = 1 }
+		1959.9.1 = { rank = 2 }
+		1974.11.1 = { rank = 3 }
+		1986.6.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542099 = {
+	name = "Rubén Toro"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542108 = {
+	name = "Valentín Posada"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.4.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542109 = {
+	name = "Fadrique Cabrera"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.4.1 = { rank = 1 }
+		1974.11.1 = { rank = 2 }
+		1986.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542116 = {
+	name = "Cornelio Cervantes"
+	type = air
+	country = HON
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1986.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542117 = {
+	name = "Adalberto Vaca"
+	type = air
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542118 = {
+	name = "Adán Aviles"
+	type = air
+	country = HON
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542119 = {
+	name = "Fabián Montero"
+	type = air
+	country = HON
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1985.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1542120 = {
+	name = "Ginés Porras"
+	type = air
+	country = HON
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1986.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

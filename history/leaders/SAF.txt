@@ -1,0 +1,1560 @@
+1478001 = {
+	name = "Gerard Smith"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.10.1 = { rank = 0 }
+	}
+}
+1478002 = {
+	name = "Sander van Houdt"
+	type = land
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1478005 = {
+	name = "Jeroen Gibbons"
+	type = land
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.7.1 = { rank = 0 }
+	}
+}
+1478008 = {
+	name = "Jacob Cooke"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1478003 = {
+	name = "Adelmar Ford"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1478006 = {
+	name = "Chad Lekkerkerker"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.5.1 = { rank = 3 }
+		1953.12.1 = { rank = 0 }
+	}
+}
+1478015 = {
+	name = "Daas van Eck"
+	type = land
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.12.1 = { rank = 1 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1478013 = {
+	name = "Arnout Read"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1955.3.1 = { rank = 0 }
+	}
+}
+1478010 = {
+	name = "Tom van der Kuil"
+	type = land
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.10.1 = { rank = 1 }
+		1956.2.1 = { rank = 0 }
+	}
+}
+1478016 = {
+	name = "Nicolaas Warren"
+	type = land
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.9.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1478000 = {
+	name = "Renaat Anderson"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1478004 = {
+	name = "Martinus van de Krol"
+	type = land
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1478011 = {
+	name = "Shane Rice"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1960.6.1 = { rank = 0 }
+	}
+}
+1478019 = {
+	name = "Bryan Watson"
+	type = land
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.9.1 = { rank = 1 }
+		1961.8.1 = { rank = 0 }
+	}
+}
+1478009 = {
+	name = "Austin Klijnstra"
+	type = land
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1962.4.1 = { rank = 0 }
+	}
+}
+1478017 = {
+	name = "Dustin Rowley"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.3.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1478025 = {
+	name = "Renaat de Paauw"
+	type = land
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.7.1 = { rank = 1 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1478020 = {
+	name = "Raymond Kaagman"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.2.1 = { rank = 1 }
+		1962.4.1 = { rank = 2 }
+		1965.9.1 = { rank = 0 }
+	}
+}
+1478026 = {
+	name = "Jonathan Anderson"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.2.1 = { rank = 1 }
+		1966.2.1 = { rank = 0 }
+	}
+}
+1478024 = {
+	name = "Kenneth Mahmood"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.4.1 = { rank = 1 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1478007 = {
+	name = "Aalbrecht O'Donnell"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1962.4.1 = { rank = 3 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1478022 = {
+	name = "Joachim Portegies"
+	type = land
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1960.6.1 = { rank = 1 }
+		1965.9.1 = { rank = 2 }
+		1968.12.1 = { rank = 3 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1478027 = {
+	name = "Frans Baker"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.9.1 = { rank = 1 }
+		1968.12.1 = { rank = 2 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1478014 = {
+	name = "Evan Daniels"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.2.1 = { rank = 1 }
+		1953.12.1 = { rank = 2 }
+		1969.6.1 = { rank = 3 }
+		1971.4.1 = { rank = 0 }
+	}
+}
+1478029 = {
+	name = "Evert van der Schaft"
+	type = land
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1967.12.1 = { rank = 1 }
+		1972.1.1 = { rank = 0 }
+	}
+}
+1478030 = {
+	name = "Andrew Plug"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.12.1 = { rank = 1 }
+		1971.4.1 = { rank = 2 }
+		1973.5.1 = { rank = 0 }
+	}
+}
+1478021 = {
+	name = "Miguel Schilt"
+	type = land
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.1.1 = { rank = 1 }
+		1974.10.1 = { rank = 0 }
+	}
+}
+1478033 = {
+	name = "Adalmar Khoenkhoen"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.4.1 = { rank = 1 }
+		1975.7.1 = { rank = 0 }
+	}
+}
+1478036 = {
+	name = "Gert Schaart"
+	type = land
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.10.1 = { rank = 1 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1478023 = {
+	name = "Sean Gerretsen"
+	type = land
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.8.1 = { rank = 1 }
+		1969.6.1 = { rank = 2 }
+		1971.4.1 = { rank = 3 }
+		1977.9.1 = { rank = 0 }
+	}
+}
+1478035 = {
+	name = "Alonzo Clark"
+	type = land
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.5.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1478012 = {
+	name = "Sieme den Braber"
+	type = land
+	country = SAF
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1950.7.1 = { rank = 1 }
+		1951.5.1 = { rank = 2 }
+		1953.12.1 = { rank = 3 }
+		1962.4.1 = { rank = 4 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1478034 = {
+	name = "Tom Cross"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.1.1 = { rank = 1 }
+		1973.5.1 = { rank = 2 }
+		1977.9.1 = { rank = 3 }
+		1979.2.1 = { rank = 4 }
+		1980.5.1 = { rank = 0 }
+	}
+}
+1478031 = {
+	name = "Joseph Gielis"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.6.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1478040 = {
+	name = "Nicholas Middleton"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1978.8.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1478042 = {
+	name = "Timothy Nieuwkoop"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1980.5.1 = { rank = 1 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1478018 = {
+	name = "Eduard Dixon"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1956.2.1 = { rank = 1 }
+		1984.7.1 = { rank = 0 }
+	}
+}
+1478038 = {
+	name = "Kees de Vreede"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.12.1 = { rank = 1 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1478046 = {
+	name = "Acco Buizer"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.7.1 = { rank = 1 }
+		1986.8.1 = { rank = 0 }
+	}
+}
+1478037 = {
+	name = "Adrian Çiçek"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.7.1 = { rank = 1 }
+		1979.2.1 = { rank = 2 }
+		1987.10.1 = { rank = 0 }
+	}
+}
+1478043 = {
+	name = "Lucas ten Veen"
+	type = land
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.10.1 = { rank = 1 }
+		1988.6.1 = { rank = 0 }
+	}
+}
+1478047 = {
+	name = "Thomas Kaagman"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.6.1 = { rank = 1 }
+		1989.9.1 = { rank = 0 }
+	}
+}
+1478051 = {
+	name = "Louis Brown"
+	type = land
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.9.1 = { rank = 1 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1478028 = {
+	name = "Adalmar Johnson"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.2.1 = { rank = 1 }
+		1970.4.1 = { rank = 2 }
+		1979.2.1 = { rank = 3 }
+		1980.5.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478032 = {
+	name = "Adam Zwetsloot"
+	type = land
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1977.9.1 = { rank = 2 }
+		1980.5.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478039 = {
+	name = "Adrian Geelen"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478041 = {
+	name = "Sieme Russell"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1979.2.1 = { rank = 1 }
+		1980.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478044 = {
+	name = "Jeroen Cook"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1987.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478045 = {
+	name = "Pol Arnold"
+	type = land
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1983.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478048 = {
+	name = "Mark Ellis"
+	type = land
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478049 = {
+	name = "Aalderik Vermeer"
+	type = land
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1987.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478050 = {
+	name = "Jesse van Groen"
+	type = land
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1988.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478052 = {
+	name = "Carlos Gould"
+	type = land
+	country = SAF
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478058 = {
+	name = "Jeroen Vlemmix"
+	type = sea
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1478056 = {
+	name = "Koenraad Bodelier"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1478053 = {
+	name = "Thomas Turnbull"
+	type = sea
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.6.1 = { rank = 2 }
+		1956.9.1 = { rank = 0 }
+	}
+}
+1478059 = {
+	name = "Patrick Marsh"
+	type = sea
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1478055 = {
+	name = "Bram Schelvis"
+	type = sea
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1478064 = {
+	name = "Alex Read"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.9.1 = { rank = 1 }
+		1959.7.1 = { rank = 0 }
+	}
+}
+1478061 = {
+	name = "Martinus Anderson"
+	type = sea
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.6.1 = { rank = 1 }
+		1960.9.1 = { rank = 0 }
+	}
+}
+1478060 = {
+	name = "Phillip Viergever"
+	type = sea
+	country = SAF
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1478065 = {
+	name = "Travis Parkes"
+	type = sea
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.9.1 = { rank = 1 }
+		1966.10.1 = { rank = 2 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1478062 = {
+	name = "Erik Gijsbers"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1969.8.1 = { rank = 2 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1478066 = {
+	name = "Victor Hope"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.7.1 = { rank = 1 }
+		1971.2.1 = { rank = 0 }
+	}
+}
+1478069 = {
+	name = "Peter Archer"
+	type = sea
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1969.8.1 = { rank = 1 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1478070 = {
+	name = "Abel Johnson"
+	type = sea
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1970.12.1 = { rank = 1 }
+		1978.11.1 = { rank = 0 }
+	}
+}
+1478057 = {
+	name = "Corey Osborne"
+	type = sea
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.9.1 = { rank = 2 }
+		1966.10.1 = { rank = 3 }
+		1979.4.1 = { rank = 0 }
+	}
+}
+1478054 = {
+	name = "Abel Dunn"
+	type = sea
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.9.1 = { rank = 2 }
+		1957.9.1 = { rank = 3 }
+		1966.10.1 = { rank = 4 }
+		1981.7.1 = { rank = 0 }
+	}
+}
+1478063 = {
+	name = "Gustaaf van den Ham"
+	type = sea
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.9.1 = { rank = 1 }
+		1981.7.1 = { rank = 2 }
+		1982.10.1 = { rank = 0 }
+	}
+}
+1478067 = {
+	name = "Sanne van Gaans"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.9.1 = { rank = 1 }
+		1970.12.1 = { rank = 2 }
+		1979.4.1 = { rank = 3 }
+		1981.7.1 = { rank = 4 }
+		1982.8.1 = { rank = 0 }
+	}
+}
+1478077 = {
+	name = "Aart Stiphout"
+	type = sea
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.8.1 = { rank = 1 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1478073 = {
+	name = "Jeroen Ford"
+	type = sea
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.11.1 = { rank = 1 }
+		1982.8.1 = { rank = 2 }
+		1984.2.1 = { rank = 0 }
+	}
+}
+1478072 = {
+	name = "Evert Garretsen"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = superior_tactician
+	history = {
+		1973.9.1 = { rank = 1 }
+		1982.10.1 = { rank = 2 }
+		1982.10.1 = { rank = 3 }
+		1986.3.1 = { rank = 0 }
+	}
+}
+1478076 = {
+	name = "Steven Allan"
+	type = sea
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.10.1 = { rank = 1 }
+		1986.3.1 = { rank = 2 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1478068 = {
+	name = "Nathan Dunn"
+	type = sea
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1966.10.1 = { rank = 1 }
+		1979.4.1 = { rank = 2 }
+		1981.7.1 = { rank = 3 }
+		1982.8.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478071 = {
+	name = "Abraham Karimi"
+	type = sea
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	add_trait = superior_tactician
+	history = {
+		1971.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478074 = {
+	name = "Adrian Brabers"
+	type = sea
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.4.1 = { rank = 1 }
+		1984.2.1 = { rank = 2 }
+		1986.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478075 = {
+	name = "George van de Meerendonk"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478078 = {
+	name = "Aat Lyons"
+	type = sea
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478079 = {
+	name = "Stefan Karimi"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.2.1 = { rank = 1 }
+		1987.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478080 = {
+	name = "Gabriel Snels"
+	type = sea
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478081 = {
+	name = "Adalmar Verbeet"
+	type = sea
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478086 = {
+	name = "Jacob Quinn"
+	type = air
+	country = SAF
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.12.1 = { rank = 0 }
+	}
+}
+1478090 = {
+	name = "Kevin Holleman"
+	type = air
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1478089 = {
+	name = "Peter van de Vendel"
+	type = air
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.12.1 = { rank = 4 }
+		1953.4.1 = { rank = 0 }
+	}
+}
+1478085 = {
+	name = "Joshua Zuidhoek"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1478093 = {
+	name = "Corey Tensen"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.4.1 = { rank = 1 }
+		1954.2.1 = { rank = 0 }
+	}
+}
+1478094 = {
+	name = "Adrian Oliver"
+	type = air
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.1.1 = { rank = 1 }
+		1956.6.1 = { rank = 0 }
+	}
+}
+1478095 = {
+	name = "David Wenting"
+	type = air
+	country = SAF
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.2.1 = { rank = 1 }
+		1961.2.1 = { rank = 0 }
+	}
+}
+1478084 = {
+	name = "Adalmar Zweverink"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.4.1 = { rank = 2 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1478082 = {
+	name = "Joshua Souren"
+	type = air
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1963.7.1 = { rank = 2 }
+		1965.7.1 = { rank = 0 }
+	}
+}
+1478098 = {
+	name = "Harm Whittaker"
+	type = air
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1963.7.1 = { rank = 1 }
+		1965.5.1 = { rank = 0 }
+	}
+}
+1478092 = {
+	name = "Ryan Vlot"
+	type = air
+	country = SAF
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1949.12.1 = { rank = 1 }
+		1966.12.1 = { rank = 0 }
+	}
+}
+1478096 = {
+	name = "James Walton"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1956.6.1 = { rank = 1 }
+		1965.7.1 = { rank = 2 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1478100 = {
+	name = "Johannes Sauer"
+	type = air
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1965.5.1 = { rank = 1 }
+		1967.3.1 = { rank = 0 }
+	}
+}
+1478091 = {
+	name = "Cor Murray"
+	type = air
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.12.1 = { rank = 1 }
+		1949.12.1 = { rank = 2 }
+		1953.4.1 = { rank = 3 }
+		1969.9.1 = { rank = 0 }
+	}
+}
+1478102 = {
+	name = "Jan Armstrong"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.8.1 = { rank = 1 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1478105 = {
+	name = "Edgar Buckley"
+	type = air
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1970.1.1 = { rank = 0 }
+	}
+}
+1478088 = {
+	name = "Francisco Merks"
+	type = air
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.12.1 = { rank = 3 }
+		1953.4.1 = { rank = 4 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1478101 = {
+	name = "Constantijn Wade"
+	type = air
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.12.1 = { rank = 1 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1478083 = {
+	name = "Acco Saunders"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1478104 = {
+	name = "Nicolaas Iqbal"
+	type = air
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1969.9.1 = { rank = 1 }
+		1980.10.1 = { rank = 0 }
+	}
+}
+1478107 = {
+	name = "Vincent Friesen"
+	type = air
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1979.7.1 = { rank = 2 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1478109 = {
+	name = "Ad Rowley"
+	type = air
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1979.7.1 = { rank = 1 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1478111 = {
+	name = "Alonzo Molhoek"
+	type = air
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.12.1 = { rank = 1 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1478110 = {
+	name = "Mark Kant"
+	type = air
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1980.10.1 = { rank = 1 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1478113 = {
+	name = "Herman Leentvaar"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.7.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1478087 = {
+	name = "Adri Parsons"
+	type = air
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1989.7.1 = { rank = 0 }
+	}
+}
+1478114 = {
+	name = "Corey Giles"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1987.9.1 = { rank = 1 }
+		1989.7.1 = { rank = 2 }
+		1990.6.1 = { rank = 0 }
+	}
+}
+1478099 = {
+	name = "Stefan Trines"
+	type = air
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.7.1 = { rank = 1 }
+		1969.9.1 = { rank = 2 }
+		1972.9.1 = { rank = 3 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1478097 = {
+	name = "Maximiliaan Bult"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.2.1 = { rank = 1 }
+		1966.8.1 = { rank = 2 }
+		1969.9.1 = { rank = 3 }
+		1972.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478103 = {
+	name = "Romaan Baxter"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.3.1 = { rank = 1 }
+		1990.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478106 = {
+	name = "Gert Lems"
+	type = air
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	add_trait = night_flyer
+	history = {
+		1970.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478108 = {
+	name = "Lucas Salomé"
+	type = air
+	country = SAF
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.6.1 = { rank = 1 }
+		1980.12.1 = { rank = 2 }
+		1990.7.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478112 = {
+	name = "Trevor Wilkins"
+	type = air
+	country = SAF
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478115 = {
+	name = "Chad North"
+	type = air
+	country = SAF
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1988.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478116 = {
+	name = "Luk Schluter"
+	type = air
+	country = SAF
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1989.7.1 = { rank = 1 }
+		1990.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478117 = {
+	name = "Derek Vat"
+	type = air
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1478118 = {
+	name = "Aalbrecht Barnett"
+	type = air
+	country = SAF
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

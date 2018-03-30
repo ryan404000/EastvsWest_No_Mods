@@ -1,0 +1,176 @@
+# List of all Asymmetric Warfare techs
+	#asymmetric_warfare						( 1 level )
+	#low_intensity_operations				( 1 level )
+	#inkspot_strategy						( 1 level )
+	#flypaper_strategy						( 1 level )
+	#recondo_school							( 1 level )
+	#guerrilla_war_warfare					( 1 level )
+	#bait_tactics							( 1 level )
+	#propaganda_warfare						( 1 level )
+	#two_belt_defense_system				( 1 level )
+	#one_slow_four_quick					( 1 level )
+	
+
+##########################################
+# Fourth Generation Warfare
+##########################################
+## 15 technologies
+## Asymmetric Warfare
+## Harsh Conditions
+## War on Terror
+
+asymmetric_warfare = { 
+    doctrine = yes
+    allow = { 
+		OR = { 
+			psychological_warfare  = 1 
+			armaments_policy = assymetric_warfare_focus_pol
+		} 
+	}
+	traits = {
+		front_theory		
+	}
+	folder = land_doctrine2_folder
+	time = 100
+	cost = 100
+}
+low_intensity_operations = {
+    doctrine = yes
+    allow = {
+        asymmetric_warfare = 1
+		NOT = {
+			guerrilla_war_warfare = 1
+			#No such thing as is_researching
+			#is_researching = guerrilla_war_warfare
+		}
+    }
+	traits = {
+		asymmetric_theory		
+	}	
+	police_brigade = {
+		soft_attack = 0.60
+		supply_consumption = 0.18 
+		default_organisation = 5
+		default_morale = 0.05
+		suppression = 3
+	}
+    folder = land_doctrine2_folder
+	time = 100
+	cost = 100
+}
+inkspot_strategy = { #TODO ADD BONUSES
+    doctrine = yes
+    allow = { low_intensity_operations = 1 }
+	traits = {
+		asymmetric_theory		
+	}    
+	folder = land_doctrine2_folder
+	time = 100
+	cost = 100
+}
+flypaper_strategy = {
+    doctrine = yes
+    allow = { inkspot_strategy = 1 }
+	traits = {
+		asymmetric_theory		
+	}
+	ambush = 2
+    folder = land_doctrine2_folder
+	time = 100
+	cost = 100
+}
+recondo_school = {
+    doctrine = yes
+    allow = { asymmetric_warfare = 1 }
+	traits = {
+		asymmetric_theory		
+	}
+	infantry_brigade = {
+		suppression = 3.00
+	}
+	bergsjaeger_brigade = {
+		suppression = 1.15
+	}
+	marine_brigade = {
+		suppression = 2.35
+	}
+	folder = land_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+guerrilla_war_warfare = {
+    doctrine = yes
+    allow = {
+		NOT = {
+			low_intensity_operations = 1 
+			#No such thing as is_researching
+			#is_researching = guerrilla_war_warfare
+		} 
+        asymmetric_warfare = 1
+    }
+	traits = {
+		asymmetric_theory		
+	}
+	militia_brigade = {
+		maximum_speed = 0.018 #should be max_speed or associated with a terrain
+		toughness = 0.018
+	}
+	partisan_brigade = {
+		maximum_speed = 0.018 #should be max_speed or associated with a terrain
+		toughness = 0.018
+	}	
+    folder = land_doctrine2_folder
+	time = 100
+	cost = 100
+}
+bait_tactics = {
+    doctrine = yes
+    allow = { guerrilla_war_warfare = 1 }
+	traits = {
+		asymmetric_theory		
+	}
+	canalize = 4
+	ambush = 4
+    folder = land_doctrine2_folder
+	time = 100
+	cost = 100
+}
+propaganda_warfare = {
+    doctrine = yes
+    allow = { bait_tactics = 1 }
+	traits = {
+		asymmetric_theory	
+	}
+    folder = land_doctrine2_folder
+	modifier = {
+		supply_throughput = 0.05	
+	}
+# Add morale.
+	time = 100
+	cost = 100
+}
+
+two_belt_defense_system = {
+    doctrine = yes
+    allow = { propaganda_warfare = 1 }
+	traits = {
+		asymmetric_theory		
+	} 
+	folder = land_doctrine2_folder
+	envelop = 4
+	time = 100
+	cost = 100
+}
+
+one_slow_four_quick = {
+    doctrine = yes    
+    allow = { two_belt_defense_system = 1 }
+	traits = {
+		asymmetric_theory		
+	}
+    folder = land_doctrine2_folder
+	assault = 4
+	time = 100
+	cost = 100
+}

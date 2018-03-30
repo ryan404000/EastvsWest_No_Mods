@@ -1,0 +1,522 @@
+guiTypes = {
+
+	windowType = {
+		name ="back_end"
+		position = { x = -274 y = -304 }
+		size = { x=548 y = 608}
+		moveable = 0
+		fullscreen=yes
+		orientation = "CENTER"
+
+		iconType = 
+		{
+			name = "bg_drawing"
+			spriteType = "GFX_bg_endgame_default"
+			position = { x = -686 y = -236 }
+			#orientation = "CENTER"
+		}
+		
+		iconType = 
+		{
+			name = "bg_window"
+			spriteType = "GFX_bg_endgame_menu"
+			position = { x = 0 y = 0 }
+			#orientation = "CENTER"
+		}
+
+		#########################################
+		# Faction information
+		#########################################
+		
+		iconType =
+		{
+			name ="vc_allies_progress"
+			spriteType = "vc_allies_progress"
+			position = { x= 30 y = 28 } 
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="vc_comintern_progress"
+			spriteType = "vc_com_progress"
+			position = { x= 516 y = 28 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="progress_overlay"
+			spriteType = "GFX_vc_bar_overlay"
+			position = { x= 30 y = 28 } # +3
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "vc_allies_progress_text"
+			position = { x = 19 y =31 }
+			font = "Jockey_24_glow_blue"
+			maxWidth = 200
+			maxHeight = 32
+			format = centre			
+		}
+		instantTextBoxType = {
+			name = "vc_allies_text"
+			position = { x = 36 y =71 }
+			font = "Jockey_14_cyan"
+			text = "VC_ALLIES"	
+			maxWidth = 80
+			maxHeight = 32
+			format = left			
+		}
+		instantTextBoxType = {
+			name = "vc_nonaligned_progress_text"
+			position = { x = 179 y =31 }
+			font = "Jockey_24_glow_blue"
+			maxWidth = 200
+			maxHeight = 32
+			format = centre			
+		}
+		instantTextBoxType = {
+			name = "vc_nonaligned_text"
+			position = { x = 198 y =71 }
+			font = "Jockey_14_cyan"
+			text = "VC_NONALIGNED"	
+			maxWidth = 80
+			maxHeight = 32
+			format = left			
+		}
+		instantTextBoxType = {
+			name = "vc_comintern_progress_text"
+			position = { x = 348 y =31 }
+			font = "Jockey_24_glow_blue"
+			maxWidth = 200
+			maxHeight = 32
+			format = centre			
+		}
+		instantTextBoxType = {
+			name = "vc_com_text"
+			position = { x = 362 y =71 }
+			font = "Jockey_14_cyan"
+			text = "VC_COMINTERN"	
+			maxWidth = 80
+			maxHeight = 32
+			format = left			
+		}
+		
+		iconType =
+		{
+			name ="vc_allies_icon"
+			spriteType = "GFX_vc_btn_nato"
+			position = { x= 140 y = 62 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="vc_nonaligned_icon"
+			spriteType = "GFX_vc_btn_unaligned"
+			position = { x= 303 y = 62 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="vc_comintern_icon"
+			spriteType = "GFX_vc_btn_wp"
+			position = { x= 466 y = 62 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		
+		#########################################
+		# Country general information
+		#########################################
+		iconType = {
+			name = "ideology_circle_bg"
+			spriteType = "GFX_diplo_ideology_circle_bg"
+			position = { x = 33 y = 142 }
+		}
+
+		# color icon inserted here
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_diplo_legend_icon"
+			position = { x = 33 y = 142 }
+		}
+
+		iconType = {
+			name = "ideology_circle_overlay"
+			spriteType = "GFX_diplo_ideology_circle_overlay"
+			position = { x = 33 y = 142 }
+		}
+		
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 33 y =153 }
+			font = "Jockey_14_cyan"
+			text = "VC_NONALIGNED"	
+			maxWidth = 166
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "country_gov_type"
+			position = { x = 33 y =172 }
+			font = "Jockey_14_dark"
+			text = "VC_NONALIGNED"	
+			maxWidth = 165
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "country_party"
+			position = { x = 33 y =196 }
+			font = "Jockey_14_dark"
+			text = "VC_NONALIGNED"	
+			maxWidth = 165
+			maxHeight = 15
+			format = right
+		}
+		
+		iconType = {
+			name = "country_shield"
+			spriteType = "GFX_popup_shield"
+			position = { x = 242 y = 143 }
+		}
+
+		#########################################
+		# Country ranking information
+		#########################################
+
+		instantTextBoxType = {
+			name = "overall_points_value"
+			position = { x = 244 y =239 }
+			font = "Jockey_18_yellow"
+			maxWidth = 52
+			maxHeight = 32
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "overall_points_rank"
+			position = { x = 254 y =258 }
+			font = "Arial12"
+			maxWidth = 45
+			maxHeight = 32
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "economy_points_value"
+			position = { x = 80 y =229 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "economy_points_rank"
+			position = { x = 80 y =229 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "army_points_value"
+			position = { x = 80 y =257 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "army_points_rank"
+			position = { x = 80 y =257 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "diplomacy_points_value"
+			position = { x = 80 y =285 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "diplomacy_points_rank"
+			position = { x = 80 y =285 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "pop_value"
+			position = { x = 377 y =135 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "pop_rank"
+			position = { x = 377 y =135 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "provinces_value"
+			position = { x = 377 y =163 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "provinces_rank"
+			position = { x = 377 y =163 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "land_units_value"
+			position = { x = 377 y =191 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "land_units_rank"
+			position = { x = 377 y =191 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "air_units_value"
+			position = { x = 377 y =219 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "air_units_rank"
+			position = { x = 377 y =219 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "naval_units_value"
+			position = { x = 377 y =247 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "naval_units_rank"
+			position = { x = 377 y =247 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "nukes_value"
+			position = { x = 377 y =275 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "nukes_rank"
+			position = { x = 377 y =275 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "folder_value"
+			position = { x = 377 y =303 }
+			font = "Jockey_14_yellow"
+			maxWidth = 125
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "folder_rank"
+			position = { x = 377 y =303 }
+			font = "Arial12"
+			maxWidth = 125
+			maxHeight = 32
+			format = right
+		}
+
+		#########################################
+		# Top countries
+		#########################################
+		iconType = {
+			name = "topshield_1"
+			spriteType = "GFX_popup_shield"
+			position = { x = 31 y = 348 }
+		}
+
+		instantTextBoxType = {
+			name = "topname_1"
+			position = { x = 98 y =360 }
+			font = "Jockey_14_tight_cyan"
+			maxWidth = 80
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "toprating_1"
+			position = { x = 98 y =395 }
+			font = "Jockey_14_yellow"
+			maxWidth = 45
+			maxHeight = 32
+			format = left
+		}
+		
+		iconType = {
+			name = "topshield_2"
+			spriteType = "GFX_popup_shield"
+			position = { x = 193 y = 348 }
+		}
+
+		instantTextBoxType = {
+			name = "topname_2"
+			position = { x = 260 y =360 }
+			font = "Jockey_14_tight_cyan"
+			maxWidth = 80
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "toprating_2"
+			position = { x = 260 y =395 }
+			font = "Jockey_14_yellow"
+			maxWidth = 45
+			maxHeight = 32
+			format = left
+		}
+		
+		iconType = {
+			name = "topshield_3"
+			spriteType = "GFX_popup_shield"
+			position = { x = 357 y = 348 }
+		}
+
+		instantTextBoxType = {
+			name = "topname_3"
+			position = { x = 425 y =360 }
+			font = "Jockey_14_tight_cyan"
+			maxWidth = 80
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "toprating_3"
+			position = { x = 425 y =395 }
+			font = "Jockey_14_yellow"
+			maxWidth = 45
+			maxHeight = 32
+			format = left
+		}		
+		
+		iconType = {
+			name = "topshield_4"
+			spriteType = "GFX_popup_shield"
+			position = { x = 115 y = 427 }
+		}
+
+		instantTextBoxType = {
+			name = "topname_4"
+			position = { x = 183 y =437 }
+			font = "Jockey_14_tight_cyan"
+			maxWidth = 80
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "toprating_4"
+			position = { x = 183 y =472 }
+			font = "Jockey_14_yellow"
+			maxWidth = 45
+			maxHeight = 32
+			format = left
+		}		
+		
+		iconType = {
+			name = "topshield_5"
+			spriteType = "GFX_popup_shield"
+			position = { x = 305 y = 427 }
+		}
+
+		instantTextBoxType = {
+			name = "topname_5"
+			position = { x = 373 y =437 }
+			font = "Jockey_14_tight_cyan"
+			maxWidth = 80
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "toprating_5"
+			position = { x = 373 y =472 }
+			font = "Jockey_14_yellow"
+			maxWidth = 45
+			maxHeight = 32
+			format = left
+		}		
+			
+		guiButtonType = {
+			name = "Exit"
+			position = { x = 141 y = 500 }
+			quadTextureSprite ="GFX_frontend_button_big"
+			buttonText = "EXIT"
+			buttonFont = "Jockey_24_glow_blue"
+		}
+		
+	}
+}

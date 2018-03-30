@@ -1,0 +1,373 @@
+# List of all Land Doctrine techs
+	#mass_firepower							( 1 level )
+	#centralized_command_and_control		( 1 level )
+	#military_deception						( 1 level )
+	#attrition_warfare						( 1 level )
+	#linear_fire_and_movement				( 1 level )
+	#indirect_artillery_fire				( 1 level )
+	#shock_attacks							( 1 level )
+	#infiltration_tactics					( 1 level )
+	#specialist_tactics						( 1 level )
+	
+	#maneuver_warfare						( 1 level )
+	#mechanized_warfare						( 1 level )
+	#human_wave_attack						( 1 level )
+	#swarming_tactics						( 1 level )
+	#hedgehog_defense						( 1 level )
+	#elastic_defense						( 1 level )
+	#psychological_warfare					( 1 level )
+
+	
+### Land Doctrines - 40 tech.
+#########################################################################
+# Second Generation Warfare
+#########################################################################
+## 9 technologies
+## Centralized Command
+## Firepower
+## Linear Movement
+
+mass_firepower = {
+	doctrine = yes
+    allow = { centralized_command_and_control = 1 }
+	traits = {
+		front_theory
+	}	
+    activate_unit = {
+		artillery_brigade 
+		anti_air_brigade 
+	}
+	shock = 1 
+	tactical_withdrawal = 1	
+	folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+centralized_command_and_control = {
+    doctrine = yes
+	allow = { }
+	traits = {}	
+	modifier = {
+		LAND_ORGANISATION = 0.05
+		supply_throughput = 0.01
+	}
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+military_deception = {
+    doctrine = yes
+    allow = { centralized_command_and_control = 1 }
+	traits = {
+		front_theory		
+	}	
+	ambush = 1
+	folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+attrition_warfare = {
+    doctrine = yes
+    allow = { mass_firepower = 1 }
+	traits = {
+		front_theory		
+	}
+	activate_unit = { engineer_brigade }
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+linear_fire_and_movement = {
+    doctrine = yes
+    allow = { centralized_command_and_control = 1 }
+	traits = {
+		front_theory		
+	}
+	activate_unit = { 
+		cavalry_brigade 
+		anti_tank_brigade
+	}
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+} 
+indirect_artillery_fire = {
+    doctrine = yes
+    allow = {
+		OR = { 
+			mass_firepower = 1 
+			radar_general = 1
+		}
+	}
+	traits = {
+		front_theory		
+		intel_theory		
+	}
+	activate_unit = {
+		rocket_artillery_brigade
+		long_range_anti_air_brigade
+	}
+	activate_building = anti_air	
+	activate_building = radar_station	
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+shock_attacks = {
+    doctrine = yes
+    allow = { 
+		OR = {
+			indirect_artillery_fire = 1
+			military_deception = 1	
+			linear_fire_and_movement = 1
+		}
+	}
+	traits = {
+		front_theory		
+	}	
+	shock = 2
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+infiltration_tactics = {
+    doctrine = yes
+    allow = { 
+		shock_attacks = 1 
+	}
+	traits = {
+		front_theory		
+	}	
+	bypass = 1
+	shock = 1
+	ambush = 1
+	anti_air_brigade ={
+		forest = { attrition = -1}
+	}				
+	artillery_brigade = {
+		forest = { attrition = -1}
+	}		
+	anti_tank_brigade = {
+		forest = { attrition = -1}
+	}								
+	cavalry_brigade ={
+		forest = { attrition = -1}
+	}		
+	engineer_brigade ={
+		forest = { attrition = -1}
+	}				
+	hq_brigade = { 
+		forest = { attrition = -1}
+	}				
+	infantry_brigade ={
+		forest = { attrition = -1}
+	}					
+	long_range_anti_air_brigade = { 
+		forest = { attrition = -1}
+	}				
+	militia_brigade ={
+		forest = { attrition = -1}
+	}	
+	motorized_brigade ={
+		forest = { attrition = -1}
+	}		
+	police_brigade ={
+		forest = { attrition = -2}
+	}	
+	rocket_artillery_brigade ={
+		forest = { attrition = -1}
+	}				
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+specialist_tactics = {
+    doctrine = yes
+    allow = { infiltration_tactics = 1 }
+	traits = {
+		front_theory		
+	}
+	activate_unit = { 
+		marine_brigade 
+		bergsjaeger_brigade
+		all_terrain_vehicles
+	}
+	marine_brigade = { 
+		forest = { attrition = -1}
+	}
+	bergsjaeger_brigade ={
+		forest = { attrition = -1}
+	}
+	all_terrain_vehicles = { 
+		forest = { attrition = -1}
+	}
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+###################################################
+# Third Generation Warfare
+###################################################
+## 16 technologies
+## Speed
+## Suprise
+## Initiative
+## Self-discipline
+
+maneuver_warfare = {
+    doctrine = yes
+    allow = { 
+		infiltration_tactics = 1
+		linear_fire_and_movement = 1
+	}
+	traits = {
+		front_theory		
+	}	
+	activate_unit = { 
+		light_mechanized_brigade 
+		armor_brigade
+	}
+	breakthrough = 1	
+	armor_brigade = {
+		forest = { attrition = -2}
+	}
+	light_mechanized_brigade = { 
+		forest = { attrition = -1}
+	}			
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+mechanized_warfare = {
+    doctrine = yes
+    allow = {
+        maneuver_warfare = 1
+    }
+	traits = {
+		front_theory		
+	}
+	activate_unit = { heavy_mechanized_brigade}	
+	breakthrough = 2
+	heavy_mechanized_brigade = { 
+		forest = { attrition = -1}
+	}	
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+
+human_wave_attack = {
+    doctrine = yes
+    allow = { 
+		infiltration_tactics = 1
+		attrition_warfare = 1
+		OR = {
+			ideology = maoist_idolg
+			ideology = communist_idolg
+			ideology = fascistic_idolg 
+			ideology = paternal_auto_idolg
+		}
+	}
+	traits = {
+		front_theory		
+	}	
+	assault = 1
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+swarming_tactics = {
+    doctrine = yes
+    allow = { human_wave_attack = 1 }
+	traits = {
+		front_theory		
+	}
+	encirclement = 1
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+hedgehog_defense = {
+    doctrine = yes
+    allow = { 
+		infiltration_tactics = 1
+		linear_fire_and_movement = 1
+	}
+	traits = {
+		front_theory		
+	}
+	activate_unit = {
+		armored_engineer_brigade
+		tank_destroyer_brigade 
+	}
+	delay = 2
+	armored_engineer_brigade = { 
+		forest = { attrition = -1}
+	}	
+	tank_destroyer_brigade = { 
+		forest = { attrition = -2}
+	}		
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+elastic_defense = {
+    doctrine = yes
+    allow = { 
+		maneuver_warfare = 1 
+		infiltration_tactics = 1
+	}
+	traits = {
+		front_theory		
+	}	
+	activate_unit = { 
+		sp_artillery_brigade
+		sp_anti_air_brigade
+		sp_rct_artillery_brigade
+	}		
+	counterattack = 2 
+	tactical_withdrawal = 2
+	sp_anti_air_brigade ={
+		forest  = { attrition = -1}
+	}	
+	sp_artillery_brigade ={
+		forest = { attrition = -1}
+	}	
+	sp_rct_artillery_brigade ={
+		forest = { attrition = -1}
+	}	
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+# Special units have very low org until techs are researched
+
+psychological_warfare = {
+    doctrine = yes
+    allow = { 
+		OR = { 
+			swarming_tactics = 1
+			mechanized_warfare = 1
+		}
+		OR = { 
+		industry_psychology = 1
+		}	
+	}
+	traits = {
+		front_theory	
+		science_theory		
+	}	
+	shock = 1 
+	ambush = 1 
+	delay = 1
+# Gives a morale bonus to all land units
+    folder = land_doctrine1_folder
+	time = 100
+	cost = 100
+}

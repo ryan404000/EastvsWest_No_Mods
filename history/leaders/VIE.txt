@@ -1,0 +1,3841 @@
+1402021 = {
+	name = "Thinh Van Van"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.11.1 = { rank = 0 }
+	}
+}
+1402028 = {
+	name = "Duong Van Trieu"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1402010 = {
+	name = "Thanh Van Dao"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1402004 = {
+	name = "Ba Van Doan"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.1.1 = { rank = 0 }
+	}
+}
+1402006 = {
+	name = "Duong Van Ho"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1402011 = {
+	name = "Sang Van Vo"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1402040 = {
+	name = "Vien Van Nguyen"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1402002 = {
+	name = "Van Van Luong"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1402055 = {
+	name = "Huynh Van Ly"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1402018 = {
+	name = "Xuan Van Dinh"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1402038 = {
+	name = "Sang Van Chung"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1402034 = {
+	name = "Xuan Van Lac"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1402014 = {
+	name = "Trong Van Luong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.3.1 = { rank = 0 }
+	}
+}
+1402047 = {
+	name = "Húng Van Truong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1402008 = {
+	name = "Cuong Thanh Tran"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1402013 = {
+	name = "Vinh Thanh Lac"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1402026 = {
+	name = "Bao Van Pham"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1402058 = {
+	name = "Ca Van Cao"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1949.12.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1402005 = {
+	name = "Dung Van Vo"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 2 }
+		1952.3.1 = { rank = 0 }
+	}
+}
+1402051 = {
+	name = "Thuán Quan Lac"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1402036 = {
+	name = "Chinh Duc Vuong"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.6.1 = { rank = 0 }
+	}
+}
+1402009 = {
+	name = "Vien Van Luong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1402048 = {
+	name = "Van Van Vuong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.7.1 = { rank = 0 }
+	}
+}
+1402050 = {
+	name = "Cuong Van Ta"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.9.1 = { rank = 0 }
+	}
+}
+1402003 = {
+	name = "Chinh Van Luong"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.12.1 = { rank = 0 }
+	}
+}
+1402025 = {
+	name = "Dinh Van Van"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1402007 = {
+	name = "Hien Van Mai"
+	type = land
+	country = VIE
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.5.1 = { rank = 0 }
+	}
+}
+1402019 = {
+	name = "Húng Van Van"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1402065 = {
+	name = "Ngai Van Lac"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.3.1 = { rank = 1 }
+		1954.2.1 = { rank = 0 }
+	}
+}
+1402043 = {
+	name = "Truc Van Pham"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1402017 = {
+	name = "Hüu Van Vinh"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1402062 = {
+	name = "Xuan Van Phung"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1951.9.1 = { rank = 2 }
+		1955.12.1 = { rank = 0 }
+	}
+}
+1402020 = {
+	name = "Chinh Van Ngo"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1402069 = {
+	name = "Hao Van Doan"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.5.1 = { rank = 1 }
+		1956.9.1 = { rank = 0 }
+	}
+}
+1402037 = {
+	name = "Thinh Van Pham"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.10.1 = { rank = 3 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1402075 = {
+	name = "Tuan Van Ly"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1953.7.1 = { rank = 1 }
+		1956.7.1 = { rank = 0 }
+	}
+}
+1402023 = {
+	name = "Hao Huu Mai"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1402081 = {
+	name = "Hai Van Thach"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.2.1 = { rank = 1 }
+		1956.9.1 = { rank = 0 }
+	}
+}
+1402045 = {
+	name = "Phuc Van Ly"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.7.1 = { rank = 3 }
+		1956.6.1 = { rank = 0 }
+	}
+}
+1402024 = {
+	name = "Thanh Van Dang"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.12.1 = { rank = 2 }
+		1957.7.1 = { rank = 0 }
+	}
+}
+1402039 = {
+	name = "Bao Van Dinh"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.5.1 = { rank = 0 }
+	}
+}
+1402090 = {
+	name = "Quy Van Le"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.9.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1402049 = {
+	name = "Xuan Duc Vuu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1958.7.1 = { rank = 0 }
+	}
+}
+1402071 = {
+	name = "Dinh Van Van"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.3.1 = { rank = 1 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1402041 = {
+	name = "Tu Van Duong"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.9.1 = { rank = 3 }
+		1958.10.1 = { rank = 0 }
+	}
+}
+1402029 = {
+	name = "Hien Van Hoang"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1402057 = {
+	name = "An Van Chu"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1948.3.1 = { rank = 1 }
+		1953.6.1 = { rank = 2 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1402030 = {
+	name = "Van Van Thuy"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.11.1 = { rank = 0 }
+	}
+}
+1402093 = {
+	name = "Hao Van Ta"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.5.1 = { rank = 1 }
+		1959.3.1 = { rank = 0 }
+	}
+}
+1402064 = {
+	name = "Hien Van Ta"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.11.1 = { rank = 1 }
+		1954.8.1 = { rank = 2 }
+		1956.6.1 = { rank = 3 }
+		1959.2.1 = { rank = 0 }
+	}
+}
+1402054 = {
+	name = "Hieu Huu Ton"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1948.6.1 = { rank = 1 }
+		1951.5.1 = { rank = 2 }
+		1958.10.1 = { rank = 3 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1402085 = {
+	name = "Dung Van Ton"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1956.3.1 = { rank = 1 }
+		1958.7.1 = { rank = 2 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1402074 = {
+	name = "Bao Van La"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1953.11.1 = { rank = 1 }
+		1959.2.1 = { rank = 0 }
+	}
+}
+1402035 = {
+	name = "Truc Quan Tran"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1402088 = {
+	name = "Tu Van Ho"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.7.1 = { rank = 1 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1402046 = {
+	name = "Lánh Van Truong"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1402098 = {
+	name = "Duong Van Trinh"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1959.12.1 = { rank = 2 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1402061 = {
+	name = "Hao Van La"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.3.1 = { rank = 1 }
+		1953.9.1 = { rank = 2 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1402100 = {
+	name = "Chien Van Phung"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1959.11.1 = { rank = 1 }
+		1961.9.1 = { rank = 0 }
+	}
+}
+1402078 = {
+	name = "Trai Van Nghiem"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1954.8.1 = { rank = 1 }
+		1959.9.1 = { rank = 2 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1402111 = {
+	name = "Tuan Van Thach"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1961.9.1 = { rank = 1 }
+		1962.5.1 = { rank = 0 }
+	}
+}
+1402044 = {
+	name = "An Dung Van Lieu"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.5.1 = { rank = 3 }
+		1962.12.1 = { rank = 0 }
+	}
+}
+1402108 = {
+	name = "Trang Van Huynh"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.4.1 = { rank = 1 }
+		1963.5.1 = { rank = 0 }
+	}
+}
+1402096 = {
+	name = "Sang Van Thach"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1958.11.1 = { rank = 1 }
+		1963.4.1 = { rank = 0 }
+	}
+}
+1402000 = {
+	name = "Dinh Van Ly"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.1.1 = { rank = 2 }
+		1963.6.1 = { rank = 0 }
+	}
+}
+1402012 = {
+	name = "Quan Van Ho"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.12.1 = { rank = 2 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1402073 = {
+	name = "Cong Cong Mai"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.6.1 = { rank = 1 }
+		1961.12.1 = { rank = 2 }
+		1963.4.1 = { rank = 0 }
+	}
+}
+1402112 = {
+	name = "Xuan Van Kim"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.1.1 = { rank = 1 }
+		1963.9.1 = { rank = 0 }
+	}
+}
+1402086 = {
+	name = "Nhung Van Nghiem"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.9.1 = { rank = 1 }
+		1957.5.1 = { rank = 2 }
+		1959.12.1 = { rank = 3 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1402001 = {
+	name = "Chien Van La"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.5.1 = { rank = 0 }
+	}
+}
+1402027 = {
+	name = "Hai Van Bui"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.10.1 = { rank = 2 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1402076 = {
+	name = "Hao Van Chu"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.9.1 = { rank = 1 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1402103 = {
+	name = "Cuong Van Luu"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1959.12.1 = { rank = 1 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1402095 = {
+	name = "Cong Van Doan"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.7.1 = { rank = 1 }
+		1967.8.1 = { rank = 0 }
+	}
+}
+1402115 = {
+	name = "Duong Van Truong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1963.5.1 = { rank = 1 }
+		1963.6.1 = { rank = 2 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1402101 = {
+	name = "Van Van Doan"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.3.1 = { rank = 1 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1402118 = {
+	name = "Hai Van Hoang"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.12.1 = { rank = 1 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1402106 = {
+	name = "Quy Van Kim"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1960.11.1 = { rank = 1 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1402107 = {
+	name = "Dinh Duc Lam"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1969.4.1 = { rank = 0 }
+	}
+}
+1402072 = {
+	name = "Trung Van Vuong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.10.1 = { rank = 1 }
+		1969.4.1 = { rank = 0 }
+	}
+}
+1402053 = {
+	name = "Truc Van Vu"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1948.11.1 = { rank = 1 }
+		1969.10.1 = { rank = 0 }
+	}
+}
+1402084 = {
+	name = "Lánh Van Duong"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.12.1 = { rank = 1 }
+		1956.6.1 = { rank = 2 }
+		1958.7.1 = { rank = 3 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1402087 = {
+	name = "Trang Van Nghiem"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1963.7.1 = { rank = 2 }
+		1969.3.1 = { rank = 0 }
+	}
+}
+1402092 = {
+	name = "Phong Van Nghiem"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1957.7.1 = { rank = 1 }
+		1961.4.1 = { rank = 2 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1402121 = {
+	name = "Thinh Van Thuy"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1963.7.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1402124 = {
+	name = "Hien Van Do"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1966.8.1 = { rank = 1 }
+		1969.5.1 = { rank = 2 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1402097 = {
+	name = "Trong Van Ly"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.10.1 = { rank = 1 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1402104 = {
+	name = "Phuc Huu Lam"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.1.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1402113 = {
+	name = "Ngai Van Nguyen"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.5.1 = { rank = 1 }
+		1969.5.1 = { rank = 2 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1402079 = {
+	name = "Duc Van Lieu"
+	type = land
+	country = VIE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1954.5.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1402059 = {
+	name = "Lánh Van Phan"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.3.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1402067 = {
+	name = "Phuoc Van Phan"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.4.1 = { rank = 1 }
+		1952.3.1 = { rank = 2 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1402122 = {
+	name = "Van Van Trieu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = trickster
+	history = {
+		1964.5.1 = { rank = 1 }
+		1970.1.1 = { rank = 0 }
+	}
+}
+1402082 = {
+	name = "Hai Van Pham"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.8.1 = { rank = 1 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1402022 = {
+	name = "Trung Van Luong"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1402137 = {
+	name = "Quy Huu Dinh"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.5.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1402094 = {
+	name = "Hieu Thanh La"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.9.1 = { rank = 1 }
+		1971.1.1 = { rank = 0 }
+	}
+}
+1402144 = {
+	name = "Hien Van Dang"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1402077 = {
+	name = "Tuan Duc Thuy"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.12.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1402147 = {
+	name = "Trang Huu Thuy"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.11.1 = { rank = 1 }
+		1971.11.1 = { rank = 0 }
+	}
+}
+1402141 = {
+	name = "Cong Van Trieu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.11.1 = { rank = 1 }
+		1972.3.1 = { rank = 0 }
+	}
+}
+1402131 = {
+	name = "Trong Van Truong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1969.4.1 = { rank = 1 }
+		1972.5.1 = { rank = 0 }
+	}
+}
+1402139 = {
+	name = "Quang Van Ly"
+	type = land
+	country = VIE
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.11.1 = { rank = 1 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1402089 = {
+	name = "Van Van Ta"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.3.1 = { rank = 1 }
+		1972.12.1 = { rank = 0 }
+	}
+}
+1402156 = {
+	name = "Húng Van Ho"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.12.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1402015 = {
+	name = "Phuoc Duc Luu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.1.1 = { rank = 2 }
+		1963.7.1 = { rank = 3 }
+		1974.10.1 = { rank = 0 }
+	}
+}
+1402070 = {
+	name = "Quy Van Dang"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.4.1 = { rank = 1 }
+		1952.10.1 = { rank = 2 }
+		1959.2.1 = { rank = 3 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1402134 = {
+	name = "Huynh Van Mai"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.5.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1402110 = {
+	name = "Duc Van Lam"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1961.1.1 = { rank = 1 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1402099 = {
+	name = "Danh Van Huynh"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1959.9.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1402066 = {
+	name = "Thanh Van Van"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1402116 = {
+	name = "Cong Van Vuong"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1963.4.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1402091 = {
+	name = "Thao Van Le"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.6.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1402052 = {
+	name = "Chien Van Pham"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1975.4.1 = { rank = 0 }
+	}
+}
+1402157 = {
+	name = "Húng Van Thuy"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1973.2.1 = { rank = 1 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1402130 = {
+	name = "Thinh Quan Ly"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1968.7.1 = { rank = 1 }
+		1970.9.1 = { rank = 2 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1402140 = {
+	name = "Bao Van Lieu"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1402063 = {
+	name = "Thuán Van Vu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1976.4.1 = { rank = 0 }
+	}
+}
+1402148 = {
+	name = "Duc Van La"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1976.6.1 = { rank = 0 }
+	}
+}
+1402170 = {
+	name = "Binh Van Lam"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1976.4.1 = { rank = 1 }
+		1977.11.1 = { rank = 0 }
+	}
+}
+1402126 = {
+	name = "Tu Van Mai"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.8.1 = { rank = 1 }
+		1969.3.1 = { rank = 2 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1402133 = {
+	name = "Xuan Van Pham"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1969.10.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1974.8.1 = { rank = 3 }
+		1978.5.1 = { rank = 0 }
+	}
+}
+1402125 = {
+	name = "Quang Van Hoang"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.2.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1402151 = {
+	name = "Quan Van Thach"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1971.5.1 = { rank = 1 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1402143 = {
+	name = "Ba Van Chu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1978.2.1 = { rank = 0 }
+	}
+}
+1402166 = {
+	name = "Cong Van Dao"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1975.4.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1402164 = {
+	name = "Trung Van Chung"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.12.1 = { rank = 1 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1402173 = {
+	name = "Chien Van Han"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = trickster
+	history = {
+		1977.4.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1402042 = {
+	name = "Cuong Van Duong"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1402160 = {
+	name = "An Dung Quan Huynh"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1974.12.1 = { rank = 1 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1402174 = {
+	name = "Trang Van Duong"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1978.5.1 = { rank = 1 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1402168 = {
+	name = "Dinh Van Trinh"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.10.1 = { rank = 1 }
+		1980.4.1 = { rank = 0 }
+	}
+}
+1402138 = {
+	name = "Binh Van Vuong"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = panzer_leader
+	history = {
+		1970.9.1 = { rank = 1 }
+		1981.7.1 = { rank = 0 }
+	}
+}
+1402119 = {
+	name = "An Van Nghiem"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1963.4.1 = { rank = 1 }
+		1970.11.1 = { rank = 2 }
+		1978.5.1 = { rank = 3 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1402155 = {
+	name = "Hüu Cong Ha"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.11.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1402154 = {
+	name = "Ngai Duc La"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.5.1 = { rank = 1 }
+		1975.4.1 = { rank = 2 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1402016 = {
+	name = "Húng Van Do"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.7.1 = { rank = 2 }
+		1969.5.1 = { rank = 3 }
+		1975.4.1 = { rank = 4 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1402175 = {
+	name = "Vinh Van Thach"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.8.1 = { rank = 1 }
+		1982.8.1 = { rank = 0 }
+	}
+}
+1402149 = {
+	name = "Minh Van Ly"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.1.1 = { rank = 1 }
+		1983.12.1 = { rank = 0 }
+	}
+}
+1402178 = {
+	name = "Trung Van Lac"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1983.10.1 = { rank = 0 }
+	}
+}
+1402182 = {
+	name = "Ca Van Thuy"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1979.9.1 = { rank = 1 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1402152 = {
+	name = "Cuong Van Han"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1971.11.1 = { rank = 1 }
+		1984.1.1 = { rank = 0 }
+	}
+}
+1402102 = {
+	name = "Lánh Van Trieu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.2.1 = { rank = 1 }
+		1961.1.1 = { rank = 2 }
+		1974.10.1 = { rank = 3 }
+		1982.2.1 = { rank = 4 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1402188 = {
+	name = "Danh Van Dinh"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = panzer_leader
+	history = {
+		1982.4.1 = { rank = 1 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1402129 = {
+	name = "Van Cong Kim"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.12.1 = { rank = 1 }
+		1975.9.1 = { rank = 2 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1402176 = {
+	name = "Ba Quan Do"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1978.9.1 = { rank = 1 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1402167 = {
+	name = "Phuc Van Hoang"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1975.8.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1402136 = {
+	name = "Chien Van Kim"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.5.1 = { rank = 1 }
+		1986.4.1 = { rank = 0 }
+	}
+}
+1402123 = {
+	name = "Quan Van Luong"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1965.12.1 = { rank = 1 }
+		1986.1.1 = { rank = 0 }
+	}
+}
+1402060 = {
+	name = "Tu Van Phan"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1963.4.1 = { rank = 2 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1402171 = {
+	name = "Hao Van Dao"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.6.1 = { rank = 1 }
+		1978.5.1 = { rank = 2 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1402190 = {
+	name = "Thanh Van Chung"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.8.1 = { rank = 1 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1402179 = {
+	name = "Trong Van Hoang"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1979.12.1 = { rank = 1 }
+		1986.8.1 = { rank = 0 }
+	}
+}
+1402193 = {
+	name = "An Dung Quan Pham"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.8.1 = { rank = 1 }
+		1986.1.1 = { rank = 0 }
+	}
+}
+1402068 = {
+	name = "Van Van Vu"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.10.1 = { rank = 1 }
+		1968.12.1 = { rank = 2 }
+		1986.8.1 = { rank = 0 }
+	}
+}
+1402177 = {
+	name = "Cong Van Dang"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1978.2.1 = { rank = 1 }
+		1981.5.1 = { rank = 2 }
+		1986.7.1 = { rank = 0 }
+	}
+}
+1402135 = {
+	name = "Cong Van Dinh"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.3.1 = { rank = 1 }
+		1987.12.1 = { rank = 0 }
+	}
+}
+1402033 = {
+	name = "Dung Van Doan"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1987.10.1 = { rank = 0 }
+	}
+}
+1402203 = {
+	name = "Phuc Van Duong"
+	type = land
+	country = VIE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1986.12.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1402180 = {
+	name = "Cong Van Lieu"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1979.11.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1402158 = {
+	name = "Lánh Van Chung"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1974.10.1 = { rank = 1 }
+		1975.10.1 = { rank = 2 }
+		1987.6.1 = { rank = 0 }
+	}
+}
+1402183 = {
+	name = "Phuoc Cong Le"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1979.3.1 = { rank = 1 }
+		1988.9.1 = { rank = 0 }
+	}
+}
+1402172 = {
+	name = "Van Van Lac"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1977.11.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1402187 = {
+	name = "Chien Van Luong"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1988.11.1 = { rank = 0 }
+	}
+}
+1402114 = {
+	name = "Xuan Van Lam"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1962.12.1 = { rank = 1 }
+		1984.8.1 = { rank = 2 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1402206 = {
+	name = "Phong Cong Truong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.1.1 = { rank = 1 }
+		1988.11.1 = { rank = 0 }
+	}
+}
+1402181 = {
+	name = "Van Huu La"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1979.9.1 = { rank = 1 }
+		1989.8.1 = { rank = 0 }
+	}
+}
+1402215 = {
+	name = "Quang Van Phan"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.7.1 = { rank = 1 }
+		1989.1.1 = { rank = 0 }
+	}
+}
+1402198 = {
+	name = "Phuoc Van Lac"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1985.8.1 = { rank = 1 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1402213 = {
+	name = "Binh Van Le"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.6.1 = { rank = 1 }
+		1989.11.1 = { rank = 0 }
+	}
+}
+1402146 = {
+	name = "Trung Thanh Han"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1970.10.1 = { rank = 1 }
+		1990.1.1 = { rank = 0 }
+	}
+}
+1402185 = {
+	name = "Minh Van Vu"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.7.1 = { rank = 1 }
+		1990.5.1 = { rank = 0 }
+	}
+}
+1402201 = {
+	name = "Nhung Van Ngo"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.1.1 = { rank = 1 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1402210 = {
+	name = "Tuan Cong Phung"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1987.10.1 = { rank = 1 }
+		1990.6.1 = { rank = 0 }
+	}
+}
+1402056 = {
+	name = "Huynh Van Thuy"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1948.1.1 = { rank = 1 }
+		1977.4.1 = { rank = 2 }
+		1981.5.1 = { rank = 3 }
+		1990.1.1 = { rank = 0 }
+	}
+}
+1402189 = {
+	name = "Duc Van Quynh"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1982.2.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1402205 = {
+	name = "Quan Van Lieu"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1986.8.1 = { rank = 1 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1402031 = {
+	name = "Dinh Van Phung"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402032 = {
+	name = "Vinh Van Trieu"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.2.1 = { rank = 2 }
+		1990.1.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402080 = {
+	name = "Xuan Quan Ta"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.4.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1962.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402083 = {
+	name = "Vien Van Bui"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1955.11.1 = { rank = 1 }
+		1963.12.1 = { rank = 2 }
+		1982.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402105 = {
+	name = "Trang Van Pham"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1959.2.1 = { rank = 1 }
+		1982.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402109 = {
+	name = "Dinh Van Ta"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1965.12.1 = { rank = 2 }
+		1975.4.1 = { rank = 3 }
+		1984.8.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402117 = {
+	name = "Quy Van Pham"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = panzer_leader
+	history = {
+		1963.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402120 = {
+	name = "Huynh Van La"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1963.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402127 = {
+	name = "Xuan Van Luong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1968.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402128 = {
+	name = "Quan Van Luong"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1990.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402132 = {
+	name = "Dung Van Vuong"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.4.1 = { rank = 1 }
+		1990.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402142 = {
+	name = "Thinh Van Nguyen"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402145 = {
+	name = "Thao Van Mai"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1970.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402150 = {
+	name = "Cong Van Le"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1971.5.1 = { rank = 1 }
+		1979.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402153 = {
+	name = "Duc Van Vuong"
+	type = land
+	country = VIE
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.3.1 = { rank = 1 }
+		1974.10.1 = { rank = 2 }
+		1984.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402159 = {
+	name = "An Van Huynh"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402161 = {
+	name = "Thinh Van Phan"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.6.1 = { rank = 1 }
+		1986.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402162 = {
+	name = "Quy Van Vu"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1975.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402163 = {
+	name = "Hieu Van Luong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402165 = {
+	name = "Duc Van Vu"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1982.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402169 = {
+	name = "Hai Huu Do"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1975.12.1 = { rank = 1 }
+		1986.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402184 = {
+	name = "Phuc Van Ngo"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1980.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402186 = {
+	name = "Ca Van Pham"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.5.1 = { rank = 1 }
+		1985.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402191 = {
+	name = "Phuoc Van Thuy"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402192 = {
+	name = "Xuan Van Nghiem"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402194 = {
+	name = "Trang Cong Lac"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1984.1.1 = { rank = 1 }
+		1987.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402195 = {
+	name = "Hao Van Trieu"
+	type = land
+	country = VIE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1984.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402196 = {
+	name = "Duong Van Luong"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1985.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402197 = {
+	name = "Cong Van Doan"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1985.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402199 = {
+	name = "Sang Van Van"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402200 = {
+	name = "Quang Van Ha"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402202 = {
+	name = "Vien Van Vo"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402204 = {
+	name = "Trung Van Ta"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1986.9.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402207 = {
+	name = "Chinh Van Vuong"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1986.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402208 = {
+	name = "Chien Van Vo"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1986.7.1 = { rank = 1 }
+		1988.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402209 = {
+	name = "Hien Van Lieu"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402211 = {
+	name = "Lánh Quan Lam"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402212 = {
+	name = "Cong Van Phung"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402214 = {
+	name = "Ba Thanh Kim"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402216 = {
+	name = "Vinh Van Do"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402217 = {
+	name = "Bao Van Vuong"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402218 = {
+	name = "Trong Van Doan"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1988.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402219 = {
+	name = "Xuan Van Doan"
+	type = land
+	country = VIE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1989.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402220 = {
+	name = "Húng Van Luu"
+	type = land
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402221 = {
+	name = "Chinh Van Dang"
+	type = land
+	country = VIE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402222 = {
+	name = "An Van Trieu"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402223 = {
+	name = "Ba Van Kim"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1990.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402224 = {
+	name = "Tuan Van Bui"
+	type = land
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1990.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402225 = {
+	name = "Duc Van Van"
+	type = land
+	country = VIE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402226 = {
+	name = "Ha Thanh Lieu"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402227 = {
+	name = "Ngai Van Lieu"
+	type = land
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402228 = {
+	name = "Xuan Van Dinh"
+	type = land
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402229 = {
+	name = "Phong Thanh Chung"
+	type = land
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402236 = {
+	name = "Ba Van Huynh"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1402234 = {
+	name = "Quang Thanh Mai"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1402232 = {
+	name = "Huynh Van Thach"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.4.1 = { rank = 0 }
+	}
+}
+1402235 = {
+	name = "Phuc Huu Vuong"
+	type = sea
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.3.1 = { rank = 3 }
+		1958.6.1 = { rank = 0 }
+	}
+}
+1402237 = {
+	name = "Thao Van Ha"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1402233 = {
+	name = "Tuan Van Ly"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1402241 = {
+	name = "Xuan Van Thuy"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1958.6.1 = { rank = 1 }
+		1963.8.1 = { rank = 0 }
+	}
+}
+1402244 = {
+	name = "Tuan Van Thuy"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.8.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1402239 = {
+	name = "Ca Van Ta"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1951.11.1 = { rank = 1 }
+		1958.6.1 = { rank = 2 }
+		1960.5.1 = { rank = 3 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1402231 = {
+	name = "Quy Van Ly"
+	type = sea
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 2 }
+		1958.6.1 = { rank = 3 }
+		1960.5.1 = { rank = 4 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1402242 = {
+	name = "Tu Van La"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1402246 = {
+	name = "Nhung Van Hoang"
+	type = sea
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.12.1 = { rank = 1 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1402249 = {
+	name = "Hao Van Luong"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1967.9.1 = { rank = 1 }
+		1968.11.1 = { rank = 0 }
+	}
+}
+1402248 = {
+	name = "Chinh Van Bui"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.10.1 = { rank = 1 }
+		1970.7.1 = { rank = 0 }
+	}
+}
+1402230 = {
+	name = "Chinh Huu Ly"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.5.1 = { rank = 2 }
+		1965.12.1 = { rank = 3 }
+		1965.12.1 = { rank = 4 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1402251 = {
+	name = "Bao Van Nguyen"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.7.1 = { rank = 1 }
+		1976.11.1 = { rank = 0 }
+	}
+}
+1402250 = {
+	name = "Trai Van Pham"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.11.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1402254 = {
+	name = "Quan Van Ngo"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.8.1 = { rank = 1 }
+		1977.11.1 = { rank = 0 }
+	}
+}
+1402240 = {
+	name = "Chien Van Ly"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1957.4.1 = { rank = 1 }
+		1977.10.1 = { rank = 0 }
+	}
+}
+1402256 = {
+	name = "Tuan Van Van"
+	type = sea
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.10.1 = { rank = 1 }
+		1978.10.1 = { rank = 0 }
+	}
+}
+1402245 = {
+	name = "Minh Van Luong"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1964.8.1 = { rank = 1 }
+		1965.12.1 = { rank = 2 }
+		1974.8.1 = { rank = 3 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1402255 = {
+	name = "An Quan Duong"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.11.1 = { rank = 1 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1402258 = {
+	name = "Xuan Van Luong"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.2.1 = { rank = 1 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1402253 = {
+	name = "Quan Van Lac"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.11.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1402260 = {
+	name = "Duc Van Phan"
+	type = sea
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1402243 = {
+	name = "Trai Van Dao"
+	type = sea
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.10.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1979.2.1 = { rank = 3 }
+		1984.11.1 = { rank = 0 }
+	}
+}
+1402238 = {
+	name = "An Van Han"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1948.3.1 = { rank = 1 }
+		1965.12.1 = { rank = 2 }
+		1965.12.1 = { rank = 3 }
+		1974.8.1 = { rank = 4 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1402247 = {
+	name = "Hieu Van Ton"
+	type = sea
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402252 = {
+	name = "Thao Van Tran"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402257 = {
+	name = "Dung Van Pham"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.10.1 = { rank = 1 }
+		1979.2.1 = { rank = 2 }
+		1984.11.1 = { rank = 3 }
+		1985.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402259 = {
+	name = "Hien Van Tran"
+	type = sea
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402261 = {
+	name = "Hüu Van Thach"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.3.1 = { rank = 1 }
+		1985.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402262 = {
+	name = "Xuan Van Dinh"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.3.1 = { rank = 1 }
+		1984.11.1 = { rank = 2 }
+		1985.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402263 = {
+	name = "Dai Van Cao"
+	type = sea
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402264 = {
+	name = "Ha Van Ho"
+	type = sea
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402269 = {
+	name = "Danh Van Ngo"
+	type = air
+	country = VIE
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.6.1 = { rank = 0 }
+	}
+}
+1402267 = {
+	name = "Vien Van Huynh"
+	type = air
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.12.1 = { rank = 0 }
+	}
+}
+1402274 = {
+	name = "Dinh Van Dinh"
+	type = air
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.6.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1402272 = {
+	name = "Dai Van Ha"
+	type = air
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1402276 = {
+	name = "Dung Van Vo"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1956.6.1 = { rank = 0 }
+	}
+}
+1402265 = {
+	name = "Thuán Van Han"
+	type = air
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.11.1 = { rank = 0 }
+	}
+}
+1402277 = {
+	name = "Vinh Van Quynh"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.1.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1402275 = {
+	name = "Phuc Van Vu"
+	type = air
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.12.1 = { rank = 1 }
+		1960.8.1 = { rank = 0 }
+	}
+}
+1402279 = {
+	name = "Trai Van Ngo"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1957.11.1 = { rank = 1 }
+		1963.8.1 = { rank = 0 }
+	}
+}
+1402270 = {
+	name = "Vinh Van Pham"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.1.1 = { rank = 3 }
+		1968.8.1 = { rank = 0 }
+	}
+}
+1402268 = {
+	name = "Hüu Van Vu"
+	type = air
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1968.6.1 = { rank = 0 }
+	}
+}
+1402280 = {
+	name = "Hüu Van Hoang"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.11.1 = { rank = 1 }
+		1971.10.1 = { rank = 0 }
+	}
+}
+1402271 = {
+	name = "Ca Van Thuy"
+	type = air
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1968.8.1 = { rank = 3 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1402285 = {
+	name = "Bao Van Doan"
+	type = air
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.10.1 = { rank = 1 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1402273 = {
+	name = "Bao Van Thach"
+	type = air
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1402288 = {
+	name = "Quang Duc Lieu"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.7.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1402266 = {
+	name = "Nhung Van Truong"
+	type = air
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 2 }
+		1972.11.1 = { rank = 3 }
+		1979.7.1 = { rank = 4 }
+		1983.10.1 = { rank = 0 }
+	}
+}
+1402284 = {
+	name = "Phuc Van Nguyen"
+	type = air
+	country = VIE
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.6.1 = { rank = 1 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1402281 = {
+	name = "Trung Van Dang"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.8.1 = { rank = 1 }
+		1968.8.1 = { rank = 2 }
+		1983.10.1 = { rank = 3 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1402278 = {
+	name = "An Dung Huu Vu"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402282 = {
+	name = "Quan Van Dao"
+	type = air
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.8.1 = { rank = 1 }
+		1987.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402283 = {
+	name = "Trong Quan Vuong"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1968.8.1 = { rank = 1 }
+		1972.11.1 = { rank = 2 }
+		1979.7.1 = { rank = 3 }
+		1983.10.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402286 = {
+	name = "Huynh Van Van"
+	type = air
+	country = VIE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1972.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402287 = {
+	name = "Sang Van Chung"
+	type = air
+	country = VIE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	history = {
+		1974.6.1 = { rank = 1 }
+		1979.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402289 = {
+	name = "Húng Van Chung"
+	type = air
+	country = VIE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.11.1 = { rank = 1 }
+		1983.10.1 = { rank = 2 }
+		1987.7.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402290 = {
+	name = "Vien Van Pham"
+	type = air
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	add_trait = superior_air_tactician
+	history = {
+		1983.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402291 = {
+	name = "An Van Lieu"
+	type = air
+	country = VIE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1987.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1402292 = {
+	name = "Tu Van Phung"
+	type = air
+	country = VIE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1987.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

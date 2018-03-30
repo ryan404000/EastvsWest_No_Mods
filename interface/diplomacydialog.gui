@@ -1,0 +1,2083 @@
+guiTypes = {
+
+windowType = {
+	name = "negotiations_detailed_item"
+	size = { x = 398 y = 28 }
+	
+	checkboxType = {
+		name = "select_option"
+		quadTextureSprite = "GFX_button_neg_item"
+		position = { x=7 y=-4 }
+		Orientation = "UPPER_LEFT"
+		buttonFont = "Arial12_bold_black"
+	}
+
+	iconType = {
+		name ="resource_icon"
+		spriteType = "GFX_temp_unit_icon"
+		position = { x= 14 y = 0 }
+		Orientation = "UPPER_LEFT"
+	}
+
+	textBoxType = {
+		name = "resource_text"
+		position = { x = 62 y = 6 }
+		font = "Jockey_14_cyan"
+		maxWidth = 170
+		maxHeight = 20	
+		format = left
+		fixedsize = yes
+	}
+	
+	textBoxType = {
+		name = "resource_amount"
+		position = { x = 239 y = 6 }
+		font = "Jockey_14_cyan"
+		maxWidth = 70
+		maxHeight = 20	
+		format = centre
+	}
+	
+	textBoxType = {
+		name = "resource_value"
+		position = { x = 314 y = 6 }
+		font = "Jockey_14_cyan"
+		maxWidth = 70
+		maxHeight = 20	
+		format = centre
+	}
+
+	textBoxType = {
+		name = "small_resource_text"
+		position = { x = 62 y = 7 }
+		font = "Jockey_14_cyan"
+		maxWidth = 90
+		maxHeight = 20	
+		format = left
+		fixedsize = yes
+	}
+	
+	textBoxType = {
+		name = "small_resource_amount"
+		position = { x = 160 y = 7 }
+		font = "Jockey_14_cyan"
+		maxWidth = 50
+		maxHeight = 20	
+		format = centre
+	}
+	
+	textBoxType = {
+		name = "small_resource_value"
+		position = { x = 219 y = 7 }
+		font = "Jockey_14_cyan"
+		maxWidth = 50
+		maxHeight = 20	
+		format = centre
+	}
+
+}
+	
+#windowType = {
+#	name = "their_negotiations_detailed_item"
+#	backGround = ""
+#	position = {x=30 y=0}
+#	size = { x = 84 y = 23 }
+#	moveable = 0
+#	dontRender = ""
+#	horizontalBorder = ""
+#	verticalBorder = ""
+#	fullScreen = no
+	
+#	checkboxType = {
+#		name = "select_their_option"
+#		quadTextureSprite = "GFX_button_neg_item"
+#		position = { x=7 y= 9 }
+#		Orientation = "UPPER_LEFT"
+#		buttonText = ""
+#		buttonFont = "Arial12_bold_black"
+#	}
+
+#	iconType = {
+#		name ="their_resource_icon"
+#		spriteType = "GFX_temp_unit_icon"
+#		position = { x= 4 y = 9 }
+#		Orientation = "UPPER_LEFT"
+#	}
+
+#	textBoxType = {
+#		name = "their_resource_text"
+#		position = { x = 26 y = 11 }
+#		textureFile = ""
+#		font = "Arial12_bold_black"
+#		borderSize = {x = 4 y = 4}
+#		text = ""	
+#		maxWidth = 200
+#		maxHeight = 200	
+#		format = left
+#	}
+	
+#	textBoxType = {
+#		name = "their_resource_amount"
+#		position = { x = 160 y = 11 }
+#		textureFile = ""
+#		font = "Arial12_bold_black"
+#		borderSize = {x = 4 y = 4}
+#		text = "-"	
+#		maxWidth = 200
+#		maxHeight = 200	
+#		format = left
+#	}
+	
+#	textBoxType = {
+#		name = "their_resource_value"
+#		position = { x = 213 y = 11 }
+#		textureFile = ""
+#		font = "Arial12_bold_black"
+#		borderSize = {x = 4 y = 4}
+#		text = "v"	
+#		maxWidth = 200
+#		maxHeight = 200	
+#		format = left
+#	}
+
+#}
+	
+	
+######### Standard dialog for sending diploactions
+eu3dialogtype = {
+		name = "DefaultDiplomacyDialog"
+		backGround="Background"
+		position = { x=-250 y=-160 }
+		size = { x=500 y=320 }
+		orientation="CENTER"
+		fullScreen = no
+		moveable = 1
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="ReaganPopupBackground_2"
+		}
+		
+		textBoxType = {
+			name = "Title"
+			position = { x = -10 y = 12 }
+			font = "Jockey_18_cyan"
+			borderSize = {x = 4 y = 4}
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+
+		textBoxType = {
+			name = "Description"
+			position = { x = 40 y = 70 }
+			font = "Jockey_14"
+			format = centre
+			borderSize = {x = 8 y = 8}
+			maxWidth = 400
+			maxHeight = 200	
+		}
+			
+		iconType =
+		{
+			name ="diplo_popup_chance_bg"
+			spriteType = "GFX_diplo_popup_chance_bg"
+			position = { x= 150 y = 215 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "chance_string"
+			position = { x = 150 y = 223 }
+			font = "Arial12_headline"
+			borderSize = {x = 4 y = 0}
+			maxWidth = 200
+			maxHeight = 18
+			format = centre
+		}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "GFX_popup_shield"
+			position = { x= 8 y = 11 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "GFX_popup_shield"
+			position = { x= 419 y = 11 }
+		}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=247 y =254}
+			quadTextureSprite ="GFX_popup_button_new"
+			buttonText = "AGREE"
+			buttonFont = "Jockey_16_glow_blue"
+			shortcut = "ENTER"
+		}
+
+		
+		
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=83 y =254}
+			quadTextureSprite ="GFX_popup_button_new_red"
+			buttonText = "DECLINE"
+			buttonFont = "Jockey_16_glow_red"
+			shortcut = "ESCAPE"
+		}
+
+
+			
+	}
+	
+	eu3dialogtype = {
+		name = "NegotiationsDialog"
+		backGround="Background"
+		position = { x=-140 y=120 }
+		size = { x=636 y=521 }
+		fullScreen = no
+		moveable = 1
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="NegotiationsBackground"
+		}
+		
+		instantTextBoxType = {
+		    name = "window_title"
+			position = { x= 35 y = 35 }
+			maxWidth = 370
+			maxHeight = 15
+			text = "NEG_TITLE"
+			font = "Jockey_18_cyan"
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}
+		
+		guiButtonType = {
+			name = "close"
+			position = { x= 420 y = 32}
+			quadTextureSprite = "GFX_close_btn_small"	
+			buttonFont = "Arial12_bold_black"
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+		
+		guibuttontype = {
+			name = "offer_button"
+			position = { x= 34 y = 136 }
+			quadTextureSprite ="GFX_neg_button_tab"
+		}
+		
+		instantTextBoxType = {
+		    name = "offer_button_label"
+			position = { x= 38 y = 145 }
+			maxWidth = 80
+			maxHeight = 15
+			text = "PEACETYPE_OFFER_BUTTON"
+			font = "Jockey_16_dark"
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}
+		
+		guibuttontype = {
+			name = "demand_button"
+			position = { x= 339 y = 136 }
+			quadTextureSprite ="GFX_neg_button_tab"
+		}
+		
+		instantTextBoxType = {
+		    name = "demand_button_label"
+			position = { x= 346 y = 145 }
+			maxWidth = 80
+			maxHeight = 15
+			text = "PEACETYPE_DEMAND_BUTTON"
+			font = "Jockey_16_dark"
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}		
+		
+		guibuttontype = {
+			name = "technology_button"
+			position = { x= 33 y = 179 }
+			quadTextureSprite ="GFX_neg_button_gray"
+			buttontext = "NEG_TECH"
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		guibuttontype = {
+			name = "goods_button"
+			position = { x= 234 y = 179 }
+			quadTextureSprite ="GFX_neg_button_gray"
+			buttontext = "NEG_GOODS"
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		guibuttontype = {
+			name = "units_button"
+			position = { x= 33 y = 199 }
+			quadTextureSprite ="GFX_neg_button_gray"
+			buttontext = "NEG_UNITS"
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		guibuttontype = {
+			name = "licences_button"
+			position = { x= 234 y = 199 } 
+			quadTextureSprite ="GFX_neg_button_gray"
+			buttontext = "NEG_LICENCES"
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		guibuttontype = {
+			name = "topick_sortby_name"
+			position = { x= 35 y = 228 }
+			quadTextureSprite ="GFX_neg_button_name_long"
+			buttontext = "NEG_NAME"
+			buttonfont = "Arial12_bold_black"
+		}
+		guibuttontype = {
+			name = "topick_sortby_amount"
+			position = { x= 289 y = 228 }
+			quadTextureSprite ="GFX_neg_button_amount"
+			buttontext = "NEG_AMOUNT"
+			buttonfont = "Arial12_bold_black"
+		}
+		guibuttontype = {
+			name = "topick_sortby_value"
+			position = { x= 365 y = 228 }
+			quadTextureSprite ="GFX_neg_button_amount"
+			buttontext = "NEG_VALUE"
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		listboxType = {
+			name ="items_to_pick"
+			position = { x = 23 y =262 }
+			size = { x=395 y =200}
+			scrollbartype = "scrollbar_vertical_standard"
+		}		
+		
+		#### Ratings
+		
+		
+		instantTextBoxType={
+			position = { x= 480 y = 34 }
+			name = "prestige_label"
+			font = "Arial12_bold_black"
+			maxWidth = 100
+			maxHeight = 16
+			text = "NEG_PRESTIGE"	
+			format = right
+		}
+		
+		instantTextBoxType={
+			position = { x= 585 y = 32 }
+			name = "prestige_rating"
+			font = "Jockey_14_yellow"
+			maxWidth = 75
+			maxHeight = 16
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x= 588 y = 34 }
+			name = "prestige_rank"
+			font = "Arial12"
+			maxWidth = 75
+			maxHeight = 16
+			format = right
+		}
+		
+		instantTextBoxType={
+			position = { x= 480 y = 52 }
+			name = "economy_label"
+			font = "Arial12_bold_black"
+			maxWidth = 100
+			maxHeight = 16
+			text = "NEG_ECONOMY"	
+			format = right
+		}
+		
+		instantTextBoxType={
+			position = { x= 585 y = 50 }
+			name = "economy_rating"
+			font = "Jockey_14_yellow"
+			maxWidth = 75
+			maxHeight = 16
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x= 588 y = 52 }
+			name = "economy_rank"
+			font = "Arial12"
+			maxWidth = 75
+			maxHeight = 16
+			format = right
+		}
+		
+		
+		instantTextBoxType={
+			position = { x= 480 y = 70 }
+			name = "military_label"
+			font = "Arial12_bold_black"
+			maxWidth = 100
+			maxHeight = 16
+			text = "NEG_MILITARY"	
+			format = right
+		}
+		
+		instantTextBoxType={
+			position = { x= 585 y = 68 }
+			name = "military_rating"
+			font = "Jockey_14_yellow"
+			maxWidth = 75
+			maxHeight = 16
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x= 588 y = 70 }
+			name = "military_rank"
+			font = "Arial12"
+			maxWidth = 75
+			maxHeight = 16
+			format = right
+		}
+		
+		
+		instantTextBoxType={
+			position = { x= 480 y = 88 }
+			name = "diplomacy_label"
+			font = "Arial12_bold_black"
+			maxWidth = 100
+			maxHeight = 16
+			text = "NEG_DIPLOMACY"	
+			format = right
+		}
+		
+		instantTextBoxType={
+			position = { x= 585 y = 87 }
+			name = "diplomacy_rating"
+			font = "Jockey_14_yellow"
+			maxWidth = 75
+			maxHeight = 16
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x= 588 y = 88}
+			name = "diplomacy_rank"
+			font = "Arial12"
+			maxWidth = 75
+			maxHeight = 16
+			format = right
+		}
+		
+		
+		#END Ratings
+		
+		
+		
+				
+		guibuttontype = {
+			name = "ours_sortby_name"
+			position = { x= 461 y = 148 }
+			quadTextureSprite ="GFX_neg_button_name_small"
+			buttontext = "NEG_NAME"
+			buttonfont = "Arial12_bold_black"
+		}
+		guibuttontype = {
+			name = "ours_sortby_amount"
+			position = { x= 604 y = 148 }
+			quadTextureSprite ="GFX_neg_button_amount"
+			buttontext = "NEG_AMOUNT"
+			buttonfont = "Arial12_bold_black"
+		}
+		guibuttontype = {
+			name = "ours_sortby_value"
+			position = { x= 680 y = 148 }
+			quadTextureSprite ="GFX_neg_button_amount"
+			buttontext = "NEG_VALUE"
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		listboxType = {
+			name ="our_items_list"
+			position = { x = 450 y =175 }
+			size = { x=283 y = 120}
+			Orientation = "UPPER_LEFT"
+			scrollbartype = "scrollbar_vertical_standard"
+		}	
+				
+		guibuttontype = {
+			name = "their_sortby_name"
+			position = { x= 461 y = 327 }
+			quadTextureSprite ="GFX_neg_button_name_small"
+			buttontext = "NEG_NAME"
+			buttonfont = "Arial12_bold_black"
+		}
+		guibuttontype = {
+			name = "their_sortby_amount"
+			position = { x= 604 y = 327 }
+			quadTextureSprite ="GFX_neg_button_amount"
+			buttontext = "NEG_AMOUNT"
+			buttonfont = "Arial12_bold_black"
+		}
+		guibuttontype = {
+			name = "their_sortby_value"
+			position = { x= 680 y = 327 }
+			quadTextureSprite ="GFX_neg_button_amount"
+			buttontext = "NEG_VALUE"
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		listboxType = {
+			name ="their_items_list"
+			position = { x = 450 y =354 }
+			size = { x=283 y = 120}
+			Orientation = "UPPER_LEFT"
+			scrollbartype = "scrollbar_vertical_standard"
+		}	
+		
+		instantTextBoxType={
+			position = { x= 243 y = 474 }
+			name = "current_val_label"
+			font = "Jockey_14_cyan"
+			maxWidth = 60
+			maxHeight = 16
+			text = "NEG_AMOUNT"	
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "current_val"
+			position = { x = 290 y = 472 }
+			font = "Jockey_18_yellow"
+			text = "CURR_VAL"	
+			format = right
+			maxWidth = 135
+			maxHeight = 32	
+		}
+
+		scrollbarType = {
+			name = "resources_slider"	
+			parent = "standard_horizontal_slider"
+			size = {x =206 y = 16 }
+			position = {x= 238 y = 505}
+			priority = 100			
+			borderSize = {x = 24 y = 24}	
+			maxValue =1
+			minValue =0
+			stepSize =0.01
+			startValue = 0.5
+			horizontal = yes
+		}
+		
+		windowType = {
+			name = "licenses_buttons"
+			position = {x=38 y=460}
+			size = { x = 89 y = 27 }
+		
+			guiButtonType = {
+				name = "serial_plus"
+				position = { x=171 y =8}
+				quadTextureSprite = "option_next"
+				buttonFont = "Arial12"
+			}	
+			
+			guiButtonType = {
+				name = "serial_minus"
+				position = { x=73 y =8}
+				quadTextureSprite ="option_prev"
+				buttonFont = "Arial12"
+			}	
+			
+			instantTextBoxType = {
+				position = { x = -2 y = 18 }
+				name = "serial_label"
+				font = "Jockey_14_cyan"
+				text = "PW_SERIAL"	
+				maxWidth = 40
+				maxHeight = 25
+			}		
+			
+			instantTextBoxType = {
+				position = { x = 94 y = 16 }
+				name = "serial_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 68
+				maxHeight = 20
+				format = centre
+			}				
+		
+			guiButtonType = {
+				name = "paralell_plus"
+				position = { x= 171 y = 40}
+				quadTextureSprite ="option_next"
+				buttonFont = "Arial12"
+			}	
+			
+			guiButtonType = {
+				name = "paralell_minus"
+				position = { x= 73 y = 40}
+				quadTextureSprite ="option_prev"
+				buttonFont = "Arial12"
+			}		
+			
+			instantTextBoxType = {
+				position = { x = -2 y = 50 }
+				name = "paralell_label"
+				font = "Jockey_14_cyan"
+				text = "PW_PARALELL"	
+				maxWidth = 170
+				maxHeight = 25
+			}		
+			
+			instantTextBoxType = {
+				position = { x = 94 y = 48 }
+				name = "paralell_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 68
+				maxHeight = 20
+				format = centre
+			}			
+		}
+		
+		iconType = {
+			name = "photo_actor_head_of_state"
+			spriteType = "GFX_empty_position_minister"
+			position = { x = 685 y = 27 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+				name = "photo_overlay"
+				spriteType = "GFX_tv_photo_overlay"
+				position = { x=687 y=29 }
+			}
+
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_politics_ideology_light"
+			position = { x=669 y=29 }
+		}
+		
+		iconType = {
+			name = "legend_color_overlay"
+			spriteType = "GFX_politics_ideology_light_overlay"
+			position = { x=669 y=29 }
+		}
+
+		instantTextBoxType={
+			position = { x= 460 y = 126 }
+			name = "our_offer_title"
+			font = "Jockey_18_cyan"
+			maxWidth = 200
+			maxHeight = 16
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x= 613 y = 126 }
+			name = "our_total_value"
+			font = "Jockey_18_cyan"
+			maxWidth = 120
+			maxHeight = 16
+			format = right
+		}
+		
+		instantTextBoxType={
+			position = { x= 460 y = 304 }
+			name = "their_offer_title"
+			font = "Jockey_18_cyan"
+			maxWidth = 200
+			maxHeight = 16
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x= 613 y = 304 }
+			name = "their_total_value"
+			font = "Jockey_18_cyan"
+			maxWidth = 120
+			maxHeight = 16
+			format = right
+		}
+		
+		instantTextBoxType={
+			position = { x= 480 y = 497 }
+			name = "deal_balance_text"
+			font = "Jockey_18_cyan"
+			maxWidth = 120
+			maxHeight = 16
+			text = "ESP_TOTAL"	
+			format = left
+		}
+		
+		instantTextBoxType={
+			position = { x= 613 y = 497 }
+			name = "deal_balance_value"
+			font = "Jockey_18_cyan"
+			maxWidth = 120
+			maxHeight = 16
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "even_the_deal"
+			position = { x=461 y =497}
+			quadTextureSprite ="GFX_negotiation_even_deal"
+			buttonFont = "Arial12_bold"
+		}	
+		
+		###############################
+		
+		guiButtonType = {
+			name = "Cancel"
+			position = { x=456 y = 536}
+			quadTextureSprite ="GFX_neg_button_decline"
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_red"
+		}
+		
+		instantTextBoxType={
+			position = { x= 465 y = 547 }
+			name = "cancel_label"
+			font = "Jockey_16_glow_red"
+			text = "CANCEL"
+			maxWidth = 120
+			maxHeight = 16
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "Accept"
+			position = { x=609 y = 536}
+			quadTextureSprite ="GFX_neg_button_accept"
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_blue"
+		}
+
+		instantTextBoxType={
+			position = { x= 618 y = 547 }
+			name = "accept_label"
+			font = "Jockey_16_glow_blue"
+			text = "ACCEPT"
+			maxWidth = 120
+			maxHeight = 16
+			format = centre
+		}
+		
+		guiButtonType = {
+			name = "Demand"
+			position = { x = 140 y = 536 }
+			quadTextureSprite = "GFX_neg_button_offer"
+			buttonText = "PEACETYPE_DEMAND_BUTTON"
+			buttonFont = "Jockey_16_glow_blue"
+		}
+
+				
+		guiButtonType = {
+			name = "Offer"
+			position = { x = 140 y = 536 }
+			quadTextureSprite = "GFX_neg_button_offer"
+			buttonText = "PEACETYPE_OFFER_BUTTON"
+			buttonFont = "Jockey_16_glow_blue"
+		}
+
+	
+		
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "GFX_topbarflag"
+			position = { x= 30 y = 53 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "GFX_topbarflag"
+			position = { x= 335 y = 53 }
+		}
+		
+		textBoxType = {
+			name = "Title"
+			position = { x = 142 y = 66 }
+			font = "Jockey_14_cyan"
+			borderSize = {x = 4 y = 6}
+			text = "CHANCE_OF_SUCCESS"	
+			maxWidth = 178
+			maxHeight = 32
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "chance_value_percent"
+			position = { x = 203 y = 126 }
+			font = "Jockey_18_green"
+			maxWidth = 60
+			maxHeight = 16
+			format = centre 
+		}
+		
+		#instantTextBoxType = {
+		#	name = "deal_label"
+		#	position = { x = 370 y = 70 }
+		#	font = "Arial12_bold_black"
+		#	textureFile = ""
+		#	borderSize = { x = 4 y = 6 }
+		#	text = "DEAL"
+		#	maxWidth = 30
+		#	maxHeight = 16
+		#	format = centre 
+		#}
+		
+	
+		
+		#guiButtonType = {
+		#	name = "ask_minister"
+		#	quadTextureSprite = "GFX_neg_button_grey"
+		#	tooltip = ""
+		#	tooltipText = ""
+		#	delayedTooltipText = ""
+		#	buttonText = "NEG_CONFLICT_END"
+		#	buttonFont = "Arial12_bold_black"
+		#	position = { x = 284 y = 485 }
+		#}
+	}
+	
+######### Dialog for sending trade requests
+	
+	eu3dialogtype = {
+		name = "TradeDiplomacyDialog"
+		backGround="Background"
+		position = { x=660 y=0 }	
+		size = { x=520 y=460 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		#iconType =
+		#{
+		#	name ="banner"
+		#	spriteType = "GFX_diploconfirm_banner"
+		#	position = { x= 3 y = 22 }
+		#	Orientation = "UPPER_LEFT"
+		#	
+		#}
+
+
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="diplo_dialog"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		iconType =
+		{
+			name ="trade_bg"
+			spriteType = "GFX_trade_bg"
+			position = { x= 36 y = 112 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="diplo_popup_banner"
+			spriteType = "GFX_diplo_popup_banner"
+			position = { x= 8 y = 41 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+				name = "Title"
+				position = { x = 0 y = 53 }
+				textureFile = ""
+				font = "Arial_17"
+				borderSize = {x = 4 y = 6}
+				text = ""	
+				maxWidth = 520
+				maxHeight = 32
+
+				format = centre
+			}
+		
+		textBoxType = {
+				name = "Description"
+				position = { x = 110 y = 265 }
+				textureFile = ""
+				font = "Arial12_bold"
+				borderSize = {x = 4 y = 4}
+				text = "desc"	
+				maxWidth = 300
+				maxHeight = 200	
+
+				format = centre
+			}
+			
+		iconType =
+		{
+			name ="diplo_popup_chance_bg"
+			spriteType = "GFX_diplo_popup_chance_bg"
+			position = { x= 160 y = 361 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+
+		textBoxType = {
+				name = "chance_string"
+				position = { x = 100 y = 365 }
+				textureFile = ""
+				font = "Arial12_headline"
+				borderSize = {x = 4 y = 4}
+				text = ""	
+				maxWidth = 320
+				maxHeight = 200	
+
+				format = centre
+			}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "GFX_thinshield"
+			position = { x= 32 y = 52 }
+			rotation = -1.5708
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "GFX_thinshield"
+			position = { x= 420 y = 52 }
+			rotation = -1.5708
+		}
+		
+		iconType =
+		{
+			name ="icon_fuel"
+			spriteType = "GFX_icon_fuel_small"
+			position = { x= 50 y = 135 }
+			Orientation = "UPPER_LEFT"
+			rotation = -1.5708
+		}
+		
+		textBoxType = {
+				name = "value_fuel"
+				position = { x = 325 y = 136 }
+				textureFile = ""
+				font = "Arial14"
+				borderSize = {x = 4 y = 4}
+				text = "TRADE_DAY"	
+				maxWidth = 128
+				maxHeight = 32	
+
+				format = centre
+			}
+			
+		guiButtonType = 
+			{
+				name = "reset_fuel"
+				quadTextureSprite = "GFX_button_reset"
+				position = { x=450 y =138}	
+			}
+		
+		scrollbarType = {
+				name = "fuel_slider"	
+				parent = "standard_horizontal_slider"
+				#slider = "landslider_SliderButton"
+				#track= "landslider_TrackButton"
+				#leftbutton = "landslider_upButton"
+				#rightbutton = "landslider_downButton"
+				size = {x =240 y =16 }
+				position = {x= 90 y =140}
+				borderSize = {x =16 y = 16}	
+				maxValue = 1
+				minValue = 0
+				stepSize = 0.001
+				startValue = 0.5
+				horizontal = yes
+				
+				guiButtonType = {
+					name = "landslider_SliderButton"	
+					quadTextureSprite = "yearslider_slider"
+					position = { x=0 y =0}
+				}
+
+				guiButtonType = {
+					name = "landslider_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+				}	
+
+				guiButtonType = {
+					name = "landslider_upButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =0}
+					buttonText = "SELL"
+					buttonFont = "Arial12_bold_black"					
+				}
+				guiButtonType = {
+					name = "landslider_downButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =120}
+					buttonText = "BUY"
+					buttonFont = "Arial12_bold_black"
+					
+				}
+				
+			}
+			
+			
+			
+		
+		iconType =
+		{
+			name ="icon_supplies"
+			spriteType = "GFX_icon_supplies_small"
+			position = { x= 50 y = 115 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+				name = "value_supplies"
+				position = { x = 325 y = 116 }
+				textureFile = ""
+				font = "Arial14"
+				borderSize = {x = 4 y = 4}
+				text = "TRADE_DAY"	
+				maxWidth = 128
+				maxHeight = 32	
+
+				format = centre
+			}
+		
+		guiButtonType = 
+			{
+				name = "reset_supplies"
+				quadTextureSprite = "GFX_button_reset"
+				position = { x=450 y =118}	
+			}
+		
+		scrollbarType = {
+				name = "supplies_slider"	
+				slider = "landslider_SliderButton"
+				track= "landslider_TrackButton"
+				leftbutton = "landslider_upButton"
+				rightbutton = "landslider_downButton"
+				size = {x =550 y =16 }
+				position = {x= 90 y =120}
+				borderSize = {x =16 y = 16}	
+				maxValue = 1
+				minValue = 0
+				stepSize =0.001
+				startValue = 0.5
+				horizontal = yes
+					
+				guiButtonType = {
+					name = "landslider_SliderButton"	
+					quadTextureSprite = "yearslider_slider"
+					position = { x=0 y =0}
+				}
+
+				guiButtonType = {
+					name = "landslider_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+				}	
+
+				guiButtonType = {
+					name = "landslider_upButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =0}
+					buttonText = "SELL"
+					buttonFont = "Arial12_bold_black"					
+				}
+				guiButtonType = {
+					name = "landslider_downButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =120}
+					buttonText = "BUY"
+					buttonFont = "Arial12_bold_black"
+					
+				}
+		}
+		
+			
+		iconType =
+		{
+			name ="icon_crude_oil"
+			spriteType = "GFX_icon_oil_small"
+			position = { x= 50 y = 175 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+				name = "value_crude_oil"
+				position = { x = 325 y = 176 }
+				textureFile = ""
+				font = "Arial14"
+				borderSize = {x = 4 y = 4}
+				text = "TRADE_DAY"	
+				maxWidth = 128
+				maxHeight = 32	
+
+				format = centre
+			}
+			
+		guiButtonType = 
+			{
+				name = "reset_crude_oil"
+				quadTextureSprite = "GFX_button_reset"
+				position = { x=450 y =178}	
+			}
+				
+		scrollbarType = {
+				name = "crude_slider"	
+				slider = "landslider_SliderButton"
+				track= "landslider_TrackButton"
+				leftbutton = "landslider_upButton"
+				rightbutton = "landslider_downButton"
+				size = {x =240 y =16 }
+				position = {x= 90 y =180}
+				borderSize = {x =16 y = 16}	
+				maxValue = 1
+				minValue = 0
+				stepSize =0.001
+				startValue = 0.5
+				horizontal = yes
+				
+				guiButtonType = {
+					name = "landslider_SliderButton"	
+					quadTextureSprite = "yearslider_slider"
+					position = { x=0 y =0}
+				}
+
+				guiButtonType = {
+					name = "landslider_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+				}	
+
+				guiButtonType = {
+					name = "landslider_upButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =0}
+					buttonText = "SELL"
+					buttonFont = "Arial12_bold_black"					
+				}
+				guiButtonType = {
+					name = "landslider_downButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =120}
+					buttonText = "BUY"
+					buttonFont = "Arial12_bold_black"
+					
+				}
+				
+			}	
+			
+			iconType =
+			{
+				name ="icon_metal"
+				spriteType = "GFX_icon_metal_small"
+				position = { x= 50 y = 195 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = {
+				name = "value_metal"
+				position = { x = 325 y = 196 }
+				textureFile = ""
+				font = "Arial14"
+				borderSize = {x = 4 y = 4}
+				text = "TRADE_DAY"	
+				maxWidth = 128
+				maxHeight = 32	
+
+				format = centre
+			}
+
+			guiButtonType = 
+			{
+				name = "reset_metal"
+				quadTextureSprite = "GFX_button_reset"
+				position = { x=450 y =198}	
+			}
+			
+			scrollbarType = {
+				name = "metal_slider"	
+				slider = "landslider_SliderButton"
+				track= "landslider_TrackButton"
+				leftbutton = "landslider_upButton"
+				rightbutton = "landslider_downButton"
+				size = {x =240 y =16 }
+				position = {x= 90 y =200}
+				borderSize = {x =16 y = 16}	
+				maxValue = 1
+				minValue = 0
+				stepSize =0.001
+				startValue = 0.5
+				horizontal = yes
+				
+				guiButtonType = {
+					name = "landslider_SliderButton"	
+					quadTextureSprite = "yearslider_slider"
+					position = { x=0 y =0}
+				}
+
+				guiButtonType = {
+					name = "landslider_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+				}	
+
+				guiButtonType = {
+					name = "landslider_upButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =0}
+					buttonText = "SELL"
+					buttonFont = "Arial12_bold_black"					
+				}
+				guiButtonType = {
+					name = "landslider_downButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =120}
+					buttonText = "BUY"
+					buttonFont = "Arial12_bold_black"
+					
+				}
+				
+			}	
+			
+			iconType =
+			{
+				name ="icon_energy"
+				spriteType = "GFX_icon_energy_small"
+				position = { x= 50 y = 215 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			guiButtonType = 
+			{
+				name = "reset_energy"
+				quadTextureSprite = "GFX_button_reset"
+				position = { x=450 y =218}	
+			}
+			
+			textBoxType = {
+				name = "value_energy"
+				position = { x = 325 y = 216 }
+				textureFile = ""
+				font = "Arial14"
+				borderSize = {x = 4 y = 4}
+				text = "TRADE_DAY"	
+				maxWidth = 128
+				maxHeight = 32	
+
+				format = centre
+			}
+				
+			scrollbarType = {
+				name = "energy_slider"	
+				slider = "landslider_SliderButton"
+				track= "landslider_TrackButton"
+				leftbutton = "landslider_upButton"
+				rightbutton = "landslider_downButton"
+				size = {x =240 y =16 }
+				position = {x= 90 y =220}
+				borderSize = {x =16 y = 16}	
+				maxValue = 1
+				minValue = 0
+				stepSize =0.001
+				startValue = 0.5
+				horizontal = yes
+				
+				guiButtonType = {
+					name = "landslider_SliderButton"	
+					quadTextureSprite = "yearslider_slider"
+					position = { x=0 y =0}
+				}
+
+				guiButtonType = {
+					name = "landslider_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+				}	
+
+				guiButtonType = {
+					name = "landslider_upButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =0}
+					buttonText = "SELL"
+					buttonFont = "Arial12_bold_black"					
+				}
+				guiButtonType = {
+					name = "landslider_downButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =120}
+					buttonText = "BUY"
+					buttonFont = "Arial12_bold_black"
+					
+				}
+				
+				}
+				
+				iconType =
+				{
+					name ="icon_rare_met"
+					spriteType = "GFX_icon_raremat_small"
+					position = { x= 50 y = 156 }
+					Orientation = "UPPER_LEFT"
+				}
+				
+				textBoxType = {
+				name = "value_rare_met"
+				position = { x = 325 y = 156 }
+				textureFile = ""
+				font = "Arial14"
+				borderSize = {x = 4 y = 4}
+				text = "TRADE_DAY"	
+				maxWidth = 128
+				maxHeight = 32	
+
+				format = centre
+				}
+				
+				guiButtonType = 
+				{
+				name = "reset_rare_met"
+				quadTextureSprite = "GFX_button_reset"
+				position = { x=450 y =158}	
+				}
+				
+				scrollbarType = {
+				name = "rare_met_slider"	
+				slider = "landslider_SliderButton"
+				track= "landslider_TrackButton"
+				leftbutton = "landslider_upButton"
+				rightbutton = "landslider_downButton"
+				size = {x =240 y =16 }
+				position = {x= 90 y =160}
+				borderSize = {x =16 y = 16}	
+				maxValue = 1
+				minValue = 0
+				stepSize =0.001
+				startValue = 0.5
+				horizontal = yes
+				
+				guiButtonType = {
+					name = "landslider_SliderButton"	
+					quadTextureSprite = "yearslider_slider"
+					position = { x=0 y =0}
+				}
+
+				guiButtonType = {
+					name = "landslider_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+				}	
+
+				guiButtonType = {
+					name = "landslider_upButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =0}
+					buttonText = "SELL"
+					buttonFont = "Arial12_bold_black"					
+				}
+				guiButtonType = {
+					name = "landslider_downButton"
+					quadTextureSprite = "GFX_button_buysell"
+					position = { x=0 y =120}
+					buttonText = "BUY"
+					buttonFont = "Arial12_bold_black"
+					
+				}
+				
+				}
+				
+					
+		
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=269 y =400}
+			quadTextureSprite ="GFX_button_212wide"
+			buttonText = "PW_I_DO"
+			buttonFont = "Arial12_bold_black"
+		}
+
+
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=39 y =400}
+			quadTextureSprite ="GFX_button_212wide"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "PW_RUN_AWAY"
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		instantTextBoxType = {
+			name = "debt_desc"
+			position = { x = 140 y = 250 }
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "IS_BOUGHT_WITH_DEBT"	
+			format = centre
+			maxWidth = 240
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	######### Dialog for requesting and withdrawing expeditionary forces
+	
+	eu3dialogtype = {
+		name = "ExpeditionDialog"
+		backGround="Background"
+		position = { x=300 y=0 }	
+		size = { x=520 y=500 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+	
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="diplo_dialog"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		iconType =
+		{
+			name ="bg_exp_force"
+			spriteType = "GFX_bg_exp_force"
+			position = { x= 52 y = 117 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="diplo_popup_banner"
+			spriteType = "GFX_diplo_popup_banner"
+			position = { x= 8 y = 41 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+				name = "Title"
+				position = { x = 0 y = 53 }
+				textureFile = ""
+				font = "Arial_17"
+				borderSize = {x = 4 y = 6}
+				text = ""	
+				maxWidth = 520
+				maxHeight = 32
+
+				format = centre
+			}
+		
+		textBoxType = {
+				name = "Description"
+				position = { x = 21 y = 340 }
+				textureFile = ""
+				font = "Arial12_bold"
+				borderSize = {x = 4 y = 4}
+				text = "desc"	
+				maxWidth = 477
+				maxHeight = 200	
+
+				format = centre
+			}
+			
+		iconType =
+		{
+			name ="diplo_popup_chance_bg"
+			spriteType = "GFX_diplo_popup_chance_bg"
+			position = { x= 160 y = 406 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+				name = "chance_string"
+				position = { x = 250 y = 410 }
+				textureFile = ""
+				font = "Arial12_headline"
+				borderSize = {x = 4 y = 4}
+				text = ""	
+				maxWidth = 320
+				maxHeight = 200	
+
+				format = centre
+			}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "GFX_thinshield"
+			position = { x= 32 y = 52 }
+			rotation = -1.5708
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "GFX_thinshield"
+			position = { x= 420 y = 52 }
+			rotation = -1.5708
+		}
+		
+		listboxType = {
+				name ="unitlist_list"
+				position = { x = 70 y =121 }
+				backGround=""
+				size = { x=370 y =216}
+				Orientation = "UPPER_LEFT"
+				spacing = 2
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 10 y = 0}
+		}	
+		
+		guiButtonType = {
+			name = "ArmyButton"
+			position = { x=95 y =92}
+			quadTextureSprite ="GFX_army_button_small"
+			buttonText = "UNIT_ARMY_NAME"
+			buttonFont = "frangoth_bold"
+		}
+		
+		guiButtonType = {
+			name = "AirButton"
+			position = { x=203 y =92}
+			quadTextureSprite ="GFX_airwing_button_small"
+			buttonText = "UNIT_AIR_NAME"
+			buttonFont = "frangoth_bold"
+		}
+		
+		guiButtonType = {
+			name = "NavyButton"
+			position = { x=311 y =92}
+			quadTextureSprite ="GFX_flotilla_button_small"
+			buttonText = "UNIT_NAVY_NAME"
+			buttonFont = "frangoth_bold"
+		}
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=269 y =440}
+			quadTextureSprite ="GFX_button_212wide"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "PW_I_DO"
+			buttonFont = "Arial12_bold_black"
+		}
+
+
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=39 y =440}
+			quadTextureSprite ="GFX_button_212wide"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "PW_RUN_AWAY"
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		
+	}
+	
+	### EXPEDITION ENTRY 
+	
+	windowType = {
+		name = "expedition_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=500 y= 30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		guiButtonType = {
+			name = "expand"
+			position = { x=10 y =4}
+			quadTextureSprite ="GFX_unit_browse_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ">"
+			buttonFont = "Arial12_black"
+		}	
+		
+		checkboxType = {
+			name = "select_frame"
+			position = { x=30 y = -4 }
+			quadTextureSprite ="GFX_unit_banner2"
+			buttonFont = "Arial12"
+			buttonText = ""
+		}
+				
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= 28 y = -10 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="counter_size"
+			spriteType = "GFX_counter_size"
+			position = { x= 28 y = -8 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 80 y =-1 }
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = {x = 4 y = 0}
+			text = "xx"	
+			maxWidth = 500
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "location"
+			position = { x = 80 y =12 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 4 y = 0}
+			text = "xx"	
+			maxWidth = 500
+			maxHeight = 32
+			Orientation = "UPPER_LEFT"
+		}
+		
+				
+	}	
+	
+	######### Dialog for requesting and offering tech licences
+	
+	eu3dialogtype = {
+		name = "LicenceDialog"
+		backGround="Background"
+		position = { x=300 y=0 }	
+		size = { x=520 y=500 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+	
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="diplo_dialog"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+	
+			
+		iconType =
+		{
+			name ="diplo_popup_banner"
+			spriteType = "GFX_diplo_popup_banner"
+			position = { x= 8 y = 41 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		
+		textBoxType = {
+				name = "Title"
+				position = { x = 0 y = 53 }
+				textureFile = ""
+				font = "Arial_17"
+				borderSize = {x = 4 y = 6}
+				text = ""	
+				maxWidth = 520
+				maxHeight = 32
+
+				format = centre
+			}
+			
+			
+		iconType =
+		{
+			name ="bg_prod_licence"
+			spriteType = "GFX_bg_prod_licence"
+			position = { x= 14 y = 115 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		textBoxType = {
+				name = "Description"
+				position = { x = 293 y = 130 }
+				textureFile = ""
+				font = "Arial12_bold"
+				borderSize = {x = 4 y = 4}
+				text = "desc"	
+				maxWidth = 210
+				maxHeight = 200	
+
+				format = centre
+			}
+			
+		iconType =
+		{
+			name ="diplo_popup_chance_bg"
+			spriteType = "GFX_diplo_popup_chance_bg"
+			position = { x= 298 y = 391 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+				name = "chance_string"
+				position = { x = 240 y = 395 }
+				textureFile = ""
+				font = "Arial12_headline"
+				borderSize = {x = 4 y = 4}
+				text = ""	
+				maxWidth = 320
+				maxHeight = 200	
+
+				format = centre
+			}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "GFX_thinshield"
+			position = { x= 32 y = 52 }
+			rotation = -1.5708
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "GFX_thinshield"
+			position = { x= 420 y = 52 }
+			rotation = -1.5708
+		}
+		
+		iconType =
+		{
+			name ="money_icon"
+			spriteType = "GFX_icon_money_small"
+			position = { x= 300 y = 327 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		scrollbarType = {
+				name = "money_slider"	
+				slider = "landslider_SliderButton"
+				track= "landslider_TrackButton"
+				leftbutton = "landslider_upButton"
+				rightbutton = "landslider_downButton"
+				size = {x =158 y =16 }
+				position = {x= 333 y =332}
+				borderSize = {x =16 y = 16}	
+				maxValue = 1
+				minValue = 0
+				stepSize = 0.001
+				startValue = 0.5
+				horizontal = yes
+				
+				guiButtonType = {
+					name = "landslider_SliderButton"	
+					quadTextureSprite = "yearslider_slider"
+					position = { x=0 y =0}
+				}
+
+				guiButtonType = {
+					name = "landslider_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+				}	
+
+				guiButtonType = {
+					name = "landslider_upButton"
+					quadTextureSprite = "techslider_leftbutton"
+					position = { x=0 y =0}	
+				}
+				guiButtonType = {
+					name = "landslider_downButton"
+					quadTextureSprite = "techslider_rightbutton"
+					position = { x=0 y =120}	
+				}
+				
+				}
+		
+		listboxType = {
+				name ="tech_list"
+				position = { x = -15 y =125 }
+				backGround=""
+				size = { x=290 y =295}
+				Orientation = "UPPER_LEFT"
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 10 y = 0}
+			}	
+			
+			
+			# serial/parallell
+		
+		guiButtonType = {
+			name = "serial_plus"
+			position = { x=452 y =249}
+			quadTextureSprite ="GFX_serial_plus"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+
+		}	
+		
+		guiButtonType = {
+			name = "serial_minus"
+			position = { x=391 y =249}
+			quadTextureSprite ="GFX_serial_minus"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+
+		}	
+		
+		instantTextBoxType = {
+			position = { x = 313 y = 252 }
+			name = "serial_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "PW_SERIAL"	
+			maxWidth = 170
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			position = { x = 344 y = 252 }
+			name = "serial_value"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}				
+	
+		
+		guiButtonType = {
+			name = "paralell_plus"
+			position = { x= 452 y = 277}
+			quadTextureSprite ="GFX_serial_plus"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+
+		}	
+		
+		guiButtonType = {
+			name = "paralell_minus"
+			position = { x= 391 y = 277}
+			quadTextureSprite ="GFX_serial_minus"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+
+		}		
+		
+		instantTextBoxType = {
+			position = { x = 313 y = 279 }
+			name = "paralell_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "PW_PARALELL"	
+			maxWidth = 170
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			position = { x = 344 y = 279 }
+			name = "paralell_value"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}	
+		
+		#buttons
+			
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=269 y =440}
+			quadTextureSprite ="GFX_button_212wide"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "PW_I_DO"
+			buttonFont = "Arial12_bold_black"
+		}
+
+
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=39 y =440}
+			quadTextureSprite ="GFX_button_212wide"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "PW_RUN_AWAY"
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		instantTextBoxType = {
+			name = "debt_desc"
+			position = { x = 300 y = 224 }
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "IS_BOUGHT_WITH_DEBT"	
+			format = centre
+			maxWidth = 200
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+		
+	}
+	
+	### PROD SHARE ENTRY
+	
+	
+	windowType = {
+		name = "prod_share_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=500 y= 21 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		checkboxType = {
+			name = "select_frame"
+			position = { x= 23 y = -10 }
+			quadTextureSprite ="GFX_select_prod_licence"
+			buttonFont = "Arial12"
+			buttonText = ""
+		}
+				
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= 10 y = -22 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 60 y = -4 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 4 y = 0}
+			text = "xx"	
+			maxWidth = 250
+			maxHeight = 32	
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+						
+	}	
+
+	windowType = {
+		name = "smallshield_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=32 y= 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		iconType = {
+			name ="smallshield_icon"
+			spriteType = "GFX_minishield_small"
+			position = { x= 28 y = -10 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	
+	windowType = {
+		name = "agreement_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=32 y= 32 }
+		moveable = 0
+		fullScreen = no	
+
+		iconType = {
+			name ="agreement_icon"
+			spriteType = "GFX_agreement_small"
+			position = { x= 28 y = -6 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	windowType = {
+		name = "organisation_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=32 y= 32 }
+		moveable = 0
+		fullScreen = no	
+
+		iconType = {
+			name ="organisation_icon"
+			spriteType = "GFX_organisation_small"
+			position = { x= 28 y = -10 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	
+	
+}

@@ -1,0 +1,60 @@
+add_core = CZE
+owner = CZE
+controller = CZE
+add_core = CZR
+coal = 9.000
+infra = 7
+1946.1.1.0 = {
+  population_total = {
+   amount = 421771
+   template = 47
+  }
+}
+1946.1.1 = {
+  economy_building = {
+    name = light_industry
+    size = 6
+  }
+}
+1950.1.1 = {
+  economy_building = {
+    name = light_industry
+    size = 7
+  }
+}
+1979.1.1 = {
+  economy_building = {
+    name = light_industry
+    size = 9
+  }
+}
+1948.1.1 = {
+population_total = {
+   amount = 426438
+   template = 47
+}
+}
+1950.1.1 = {
+population_total = {
+   amount = 431165
+   template = 47
+}
+}
+1961.12.30 = {
+population_total = {
+   amount = 483421
+   template = 147
+}
+}
+1979.1.1 = {
+population_total = {
+   amount = 530086
+   template = 247
+}
+}
+1991.1.1 = {
+population_total = {
+   amount = 546271
+   template = 347
+}
+}

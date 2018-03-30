@@ -1,0 +1,336 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLSKI;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGESE;RUSSIAN;FINNISH;x
+### Spy Agent names ###;;;;;;;;;;;;;;x
+russian_male_1;Karl Koecher/AG-001;;;;;;;;;;;;;x
+russian_male_2;Alexander Koral/AG-002;;;;;;;;;;;;;x
+russian_male_3;Oleg Gordievsky/AG-003;;;;;;;;;;;;;x
+russian_male_4;Alexander Feklisov/AG-004;;;;;;;;;;;;;x
+russian_male_5;Viktor Karpov/AG-005;;;;;;;;;;;;;x
+russian_female_1;Anna Spayova/AG-006;;;;;;;;;;;;;x
+russian_female_2;Elena Antonova/AG-007;;;;;;;;;;;;;x
+english_male_1;Jack Soble/007;;;;;;;;;;;;;x
+english_male_2;Anthony Blunt/006;;;;;;;;;;;;;x
+english_male_3;Harry Houghton/003;;;;;;;;;;;;;x
+english_male_4;Gerry Droller/008;;;;;;;;;;;;;x
+english_male_5;Maurice Oldfield/005;;;;;;;;;;;;;x
+english_female_1;Ruth Greenglass/004;;;;;;;;;;;;;x
+english_female_2;Myra Soble/001;;;;;;;;;;;;;x
+german_male_1;Markus Wolf/G001;;;;;;;;;;;;;x
+german_male_2;Erich Mielke/G002;;;;;;;;;;;;;x
+german_male_3;Werner Grossmann/G003;;;;;;;;;;;;;x
+german_male_4;Hans Sommer/G004;;;;;;;;;;;;;x
+german_male_5;Rainer Rupp/G005;;;;;;;;;;;;;x
+german_female_1;Tamara Bunke/G006;;;;;;;;;;;;;x
+german_female_2;Gerda Munsinger/G006;;;;;;;;;;;;;x
+### Spy Card Names and Descriptions;;;;;;;;;;;;;x;
+SPREAD_UNREST_card;Spead Unrest;;;;;;;;;;;;;x
+SPREAD_UNREST_card_desc;This card enables the spy to spread unrest in the target province, causing an increase in dissent, decreasing local support for the target nation’s ruling party, and inciting desertion among military units stationed in the province.;;;;;;;;;;;;;x
+MILITARY_SABOTAGE_card;Military Sabotage;;;;;;;;;;;;;x
+MILITARY_SABOTAGE_card_desc;This card enables military sabotage missions where the spy will destroy military buildings and equipment, and incite troop desertion.;;;;;;;;;;;;;x
+POSITIVE_INFLUENCE_card;Positive Influence.;;;;;;;;;;;;;x
+POSITIVE_INFLUENCE_card_desc;This card allows the spy to conduct missions to increase the target population's to support of the ruling government and bring the target closer in alignment to NATO.;;;;;;;;;;;;;x
+NEGATIVE_INFLUENCE_card;Negative Influence.;;;;;;;;;;;;;x
+NEGATIVE_INFLUENCE_card_desc;This card allows the spy to conduct missions to increase the target population's to support of the ruling government and bring the target closer to neutral in alignment.;;;;;;;;;;;;;x
+SPECIAL_WARSAW_card;Special Warsaw;;;;;;;;;;;;;x
+SPECIAL_WARSAW_card_desc;This card provides missions specific to Warsaw Pact countries.;;;;;;;;;;;;;x
+ACE_OF_SPADES_card;Ace of Spades;;;;;;;;;;;;;x
+DIPLOMACY_card;Diplomacy;;;;;;;;;;;;;x
+DIPLOMACY_card_desc;This card provides covert diplomatic missions.;;;;;;;;;;;;;x
+STRATEGIC_COMMAND_card;Strategic Command;;;;;;;;;;;;;x
+STRATEGIC_COMMAND_card_desc;This card provides strategic/country level operations.;;;;;;;;;;;;;x
+SUPER_ASSASIN_card;Super Assassin;;;;;;;;;;;;;x
+SUPER_ASSASIN_card_desc;This card enables very efficient assassination missions for targeting enemy leaders.;;;;;;;;;;;;;x
+ASSASIN_card;Assassin;;;;;;;;;;;;;x
+ASSASIN_card_desc;This card enables assassination missions targeting for enemy leaders.;;;;;;;;;;;;;x
+REBEL_LEADER_card;Rebel Leader;;;;;;;;;;;;;x
+REBEL_LEADER_card_desc;This card enables missions to support rebel movements.;;;;;;;;;;;;;x
+LICENSE_TO_KILL_card;License to Kill;;;;;;;;;;;;;x
+LICENSE_TO_KILL_card_desc;This card enables missions for targeting foreign spies.;;;;;;;;;;;;;x
+### Labels;;;;;;;;;;;;;x;
+SPYPOINTS;Spy Points;;;;;;;;;;;;;x;;
+SPY_FEMALE;Female;;;;;;;;;;;;;x;;
+SPY_MALE;Male;;;;;;;;;;;;;x;;
+SPY_LABEL_NAME;Name / Last Name;;;;;;;;;;;;;x;;
+SPY_LABEL_DATE;Date of Birth;;;;;;;;;;;;;x;;
+SPY_LABEL_NAT;Nationality;;;;;;;;;;;;;x;;
+SPY_LABEL_SIGN;Signature;;;;;;;;;;;;;x;;
+SPY_LABEL_GENDER;Sex;;;;;;;;;;;;;x;;
+SPY_LABEL_RANK;Rank;;;;;;;;;;;;;x;;
+SPY_LABEL_RUSSIAN_NAME;Familia #Names;;;;;;;;;;;;;x;;
+SPY_LABEL_RUSSIAN_DATE;Lfnf hj:ltybz;;;;;;;;;;;;;x;;
+SPY_LABEL_RUSSIAN_NAT;Yfwbjyfkmyjcnm;;;;;;;;;;;;;x;;
+SPY_LABEL_RUSSIAN_SIGN;Gjlgbcm;;;;;;;;;;;;;x;;
+SPY_LABEL_RUSSIAN_GENDER;Gjl;;;;;;;;;;;;;x;;
+SPY_LABEL_RUSSIAN_RANK;Pdfybt;;;;;;;;;;;;;x;;
+SPYCARD_TITLE;§CSPY CENTER§W;;;;;;;;;;;;;x;;
+SPY_SKILL_CODENAME_1;Revolver;;;;;;;;;;;;;x;;
+SPY_SKILL_CODENAME_2;Pistol;;;;;;;;;;;;;x;;
+SPY_SKILL_CODENAME_3;Carbine;;;;;;;;;;;;;x;;
+SPY_SKILL_CODENAME_4;Rifle;;;;;;;;;;;;;x;;
+SPY_SKILL_CODENAME_5;Shotgun;;;;;;;;;;;;;x;;
+CONFIRM_SPY_ACTION_TITLE;Spy mission;;;;;;;;;;;;;x;;
+CONFIRM_SPY_ACTION_DESC;Are you sure you wish to send §Y$NAME$§W to §G$PROVINCE$§W to execute §Y$MISSION$§W mission ?;;;;;;;;;;;;;x;;
+CONFIRM_SPY_COUNTRY_DESC;Are you sure you wish to send §Y$NAME$§W to §G$COUNTRY$§W to execute §Y$MISSION$§W mission ?;;;;;;;;;;;;;x;;
+CONFIRM_DELETE_SPYCARD_TITLE;Remove spy card;;;;;;;;;;;;;x;;
+CONFIRM_DELETE_SPYCARD_DESC;Are you sure to remove the card '§Y$NAME$§W' ?;;;;;;;;;;;;;x;;
+CONFIRM_SAT_ACTION_TITLE;Satellite activation;;;;;;;;;;;;;x;;
+CONFIRM_SAT_ACTION_DESC;Are you sure you wish to send satellite(s) over §G$PROVINCE$§W to execute §Y$MISSION$§W mission?;;;;;;;;;;;;;x;;
+CONFIRM_GLOBAL_ACTION_DESC;Are you sure you wish to send satellite(s) to execute §Y$MISSION$§W mission?;;;;;;;;;;;;;x;;
+### Mission types;;;;;;;;;;;;;;x
+kill_random_minister_title;Kill random minister;;;;;;;;;;;;;x
+reveal_enemy_spy_in_province_title;Reveal enemy spy;;;;;;;;;;;;;x
+incite_revolt_title;Incite revolt;;;;;;;;;;;;;x
+incite_revolt_result;Revolt risk increased from §Y$OLDVALUE$§W to §Y$NEWVALUE$§W in §Y$PROVINCE$§W.;;;;;;;;;;;;;x
+sabotage_research_title;Sabotage research;;;;;;;;;;;;;x
+#reveal_fog_title;Reveal Fog of War;;;;;;;;;;;;;x
+reveal_fog_result;Our spy revealed Fog of War in §Y$NAME$§W on level §G$LEVEL$§W for §Y$DAYS$§W day(s).;;;;;;;;;;;;;x
+#make_desert_title;Infiltrate Enemy Forces;;;;;;;;;;;;;x
+#sabotage_equipment_title;Sabotage Enemy Forces;;;;;;;;;;;;;x
+steal_blueprint_title;Steal Blueprint;;;;;;;;;;;;;x
+#assassinate_hog_title;Assassinate Head of Government;;;;;;;;;;;;;x
+#assassinate_hos_title;Assassinate Head of State;;;;;;;;;;;;;x
+#sabotage_building_title;Small-scale Sabotage;;;;;;;;;;;;;x
+#sabotage_buildings_title;Large-scale Sabotage;;;;;;;;;;;;;x
+SHOW_NUCLEAR_title;Nuclear Intelligence;;;;;;;;;;;;;x
+SHOW_NUCLEAR_desc;By getting his/her hands on the target's nuclear weapons positioning data, our spy will reveal enemy silo positions on the map.\n;;;;;;;;;;;;;x
+show_nuclear_result;Our spy revealed nuclear installation in §G$COUNTRY$§W.\n;;;;;;;;;;;;;x
+show_nuclear_effect;Shows enemy nuclear installations.\n;;;;;;;;;;;;;x
+kill_random_minister_desc;Kill random minister\n;;;;;;;;;;;;;x
+reveal_enemy_spy_in_province_desc;Reveal enemy spy\n;;;;;;;;;;;;;x
+incite_revolt_desc;Incite Revolt\n;;;;;;;;;;;;;x
+sabotage_research_desc;Sabotage Research\n;;;;;;;;;;;;;x
+#reveal_fog_desc;Reveal Fog of War\n;;;;;;;;;;;;;x
+#make_desert_desc;Infiltrate enemy forces in order to spread dissent amongst them, causing desertion.\n;;;;;;;;;;;;;x
+#sabotage_equipment_desc;Infiltrate enemy forces in order to sabotage equipment.\n;;;;;;;;;;;;;x
+steal_blueprint_desc;Steal Blueprint\n;;;;;;;;;;;;;x
+#sabotage_building_desc;Sabotage a building\n;;;;;;;;;;;;;x
+#sabotage_buildings_desc;Sabotage buildings: Airport, Port, Radar, Anti-aircraft Batteries\n;;;;;;;;;;;;;x
+#assassinate_hog_desc;Assassinate HOG\n;;;;;;;;;;;;;x
+#assassinate_hos_desc;Assassinate HOS\n;;;;;;;;;;;;;x
+sabotage_building_effect;Sabotage $NAME$ in target province.\n;;;;;;;;;;;;;x
+assassinate_hog_effect;Assassinate Head of Government in target country.\n;;;;;;;;;;;;;x
+assassinate_hos_effect;Assassinate Head of State in target country.\n;;;;;;;;;;;;;x
+reveal_fog_effect;Reveal fog in target province on level §G$LEVEL$§W.\n;;;;;;;;;;;;;x
+steal_blueprint_effect;Steal blueprint from target country.\n;;;;;;;;;;;;;x
+#sat_surv_title;Satellite surviellance;;;;;;;;;;;;;x
+sat_surv_desc;A satellite overflight will reveal the fog of the target region.\n;;;;;;;;;;;;;x
+#sat_reveal_title;Global sat view;;;;;;;;;;;;;x
+sat_reveal_desc;Reveals the fog of the target region.\n;;;;;;;;;;;;;x
+sat_reveal_fog_effect;Our satellite will reveal the fog of the target region.\n;;;;;;;;;;;;;x
+sat_reveal_fog_result;Our satellite has revealed the fog of $NAME$ in $COUNTRY$.\n;;;;;;;;;;;;;x
+sat_global_view_effect;A coordinated overflight of numerous dedicated surveillance satellties will reveal the fog of the entire globe.\n;;;;;;;;;;;;;x
+sat_global_view_result;Our satellite has revealed the fog globally.;;;;;;;;;;;;;x
+anti_revolution_title;Anti-revolution propaganda.;;;;;;;;;;;;;x
+anti_revolution_desc;Initiates anti-propaganda activity in order to counter revolution.\n;;;;;;;;;;;;;x
+anti_revolution_effect;Reduces revolt risk.\n;;;;;;;;;;;;;x
+reduce_revolt_risk_effect;Reduces revolt risk.\n;;;;;;;;;;;;;x
+reduce_revolt_risk_result;Revolt risk in §Y$PROVINCE$§W reduced to §Y$LEVEL$§W;;;;;;;;;;;;;x
+WEDOSPYACTION_SETUP;;;;;;;;;;;;;;x
+WEDOSPYACTION_HEADER;Intelligence reports about the mission: ;;;;;;;;;;;;;x
+WEDOSPYACTION_1;$MISSION$;;;;;;;;;;;;;x
+WEDOSPYACTION_2;Our spy accomplished her/his mission in $PROVINCE$:;*;*;;*;;;;;;;;;x
+WEDOSPYACTION_3;$RESULT$;*;*;;*;;;;;;;;;x
+WEDOSPYACTION_4;*;*;*;;*;;;;;;;;;x
+WEDOSPYACTION_5;*;*;*;;*;;;;;;;;;x
+WEDOSPYACTION_6;*;*;*;;*;;;;;;;;;x
+WEDOSPYACTION_LOG;$RESULT$;;;;;;;;;;;;;x
+WEDOSPYACTION_BTN1;OK;OK;OK;;Aceptar;;;;;;;;;x
+WEDOSPYACTION_BTN2;OK;OK;OK;;Aceptar;;;;;;;;;x
+WEDOSPYACTION_BTN3;Goto;;;;;;;;;;;;;x
+WEDOSPYACTION_MAP;*;*;*;;*;;;;;;;;;x
+THEYDOSPYACTION_SETUP;;;;;;;;;;;;;;x
+THEYDOSPYACTION_HEADER;Intelligence reports about enemy mission: ;;;;;;;;;;;;;x
+THEYDOSPYACTION_1;$MISSION$;;;;;;;;;;;;;x
+THEYDOSPYACTION_2;Foreign spy accomplished her/his mission in $PROVINCE$:;*;*;;*;;;;;;;;;x
+THEYDOSPYACTION_3;$RESULT$;*;*;;*;;;;;;;;;x
+THEYDOSPYACTION_4;*;*;*;;*;;;;;;;;;x
+THEYDOSPYACTION_5;*;*;*;;*;;;;;;;;;x
+THEYDOSPYACTION_6;*;*;*;;*;;;;;;;;;x
+THEYDOSPYACTION_LOG;$RESULT$;;;;;;;;;;;;;x
+THEYDOSPYACTION_BTN1;OK;OK;OK;;Aceptar;;;;;;;;;x
+THEYDOSPYACTION_BTN2;OK;OK;OK;;Aceptar;;;;;;;;;x
+THEYDOSPYACTION_BTN3;Goto;;;;Detalles;;;;;;;;;x
+THEYDOSPYACTION_MAP;*;*;*;;*;;;;;;;;;x
+sabotage_building_result;§Y$TYPE$§W suffered §R$DAMAGE$§W damage from §G$MAX$§W in §Y$PROVINCE$§W;;;;;;;;;;;;;x
+sabotage_buildings_result;§Y$TYPE$§W suffered §R$DAMAGE$§W damage from §G$MAX$§W in §Y$PROVINCE$§W;;;;;;;;;;;;;x
+SPY_ON_MISSION;Currently not available, our spy is on §G$MISSION$§W mission in §Y$PROVINCE$§W until §Y$DATE$§W.;;;;;;;;;;;;;x
+SPY_MISSION_FAILED;§Y$MISSION$§W mission performed by §Y$NAME$§W has failed .;;;;;;;;;;;;;x
+assassinate_hos_result;§Y$NAME$§W, the §Y$NATION$§W Head of State was killed;;;;;;;;;;;;;x
+assassinate_hog_result;§Y$NAME$§W, the §Y$NATION$§W Head of Government was killed;;;;;;;;;;;;;x
+assassinate_hos_hog_fail;Assassination failed – target person not found.;;;;;;;;;;;;;x
+sat_label;§CSATELLITE§W;;;;;;;;;;;;;x
+sat_duration_label;Duration;;;;;;;;;;;;;x
+sat_desc_label;Description;;;;;;;;;;;;;x
+make_desert_result;Manpower of §Y$NUM$§W unit(s) successfully sabotaged by our spy in §G$PROV$§W;;;;;;;;;;;;;x
+sabotage_equipment_result;Equipment of §Y$NUM$§W unit(s) succesfully sabotaged by our spy in §G$PROV$§W;;;;;;;;;;;;;x
+intel_spy_name;Spy Name;;;;;;;;;;;;;x
+intel_spy_skill;Skill;;;;;;;;;;;;;x
+spy_mission_tooltip;Our spy is preparing for §Y$MISSION$§W mission starting on §Y$DATE$§W.;;;;;;;;;;;;;x
+enemy_spy_mission_tooltip;Enemy spy count: ;;;;;;;;;;;;;x
+enemy_spy_mission_1_tooltip;Enemy spy detected in province.;;;;;;;;;;;;;x
+enemy_spy_mission_2_tooltip;Enemy spy (§G$NAME$§W) detected in province.;;;;;;;;;;;;;x
+enemy_spy_mission_3_tooltip;Enemy spy (§G$NAME$§W) detected on §Y$MISSION$§W mission.;;;;;;;;;;;;;x
+enemy_spy_mission_4_tooltip;Enemy spy (§G$NAME$§W) on §Y$MISSION$§W mission till §R$DATE$§W.;;;;;;;;;;;;;x
+enemy_spy_mission_5_tooltip;Enemy spy (§G$NAME$§W) on §Y$MISSION$§W mission till §R$DATE$§W sent by §Y$COUNTRY$§W.;;;;;;;;;;;;;x
+spycard_button;Spy Cards;;;;;;;;;;;;;x
+intel_switch_button_1;View Diplomacy Information;;;;;;;;;;;;;x
+intel_switch_button_2;View Relations;;;;;;;;;;;;;x
+spycard_disband;Remove the Spy Card;;;;;;;;;;;;;x
+spycard_skill;Spy Skill: §Y$SKILL$§W;;;;;;;;;;;;;x
+sabotage_anytype;any type of;;;;;;;;;;;;;x
+buy_not_allowed_cost;Not enough spy points to buy.;;;;;;;;;;;;;x
+buy_not_allowed_max;You have accumulated the maximum number of spy cards.;;;;;;;;;;;;;x
+buy_allowed;Randomize another spy card for a cost of §Y$COST$§W spies.;;;;;;;;;;;;;x
+outliner_spy;Name: §Y$NAME$§W\nCallname: §Y$SIGN$§W\nTarget: §Y$TARGET$§W\nMission: §Y$MISSION$§W\nEstimated end date: §Y$DATE$§W\nSender: §Y$SENDER$§W;;;;;;;;;;;;;x
+spy_inactive;Inactive;;;;;;;;;;;;;x
+spyaction_offensive;This mission is §Yoffensive§W.;;;;;;;;;;;;;x
+spyaction_defensive;This mission is §Ydefensive§W.;;;;;;;;;;;;;x
+spyaction_length;Mission time: §Y$TIME$§W day(s).;;;;;;;;;;;;;x
+INTEL_INFORMATION_title;Intelligence information;;;;;;;;;;;;;x
+INTEL_INFORMATION_desc;Intelligence information about foreign spies in our country;;;;;;;;;;;;;x
+intel_information_effect;Intelligence information about foreign spies in our country\n;;;;;;;;;;;;;x
+intel_information_result;A foreign level §Y$LEVEL$§W spy from §G$COUNTRY$§W, identified as §G$NAME$§W, detected in §Y$PROVINCE$§W on §Y$MISSION$§W against us.;;;;;;;;;;;;;x
+detect_spy_effect;Detect a foreign spy\n;;;;;;;;;;;;;x
+kill_foreign_spy_title;Kills an enemy spy;;;;;;;;;;;;;x
+kill_foreign_spy_desc;Kills a foreign spy who was detected earlier by us.;;;;;;;;;;;;;x
+kill_own_spy_title;Removes the current spy;;;;;;;;;;;;;x
+kill_own_spy_desc;Removes the current spy from our spy card list.;;;;;;;;;;;;;x
+kill_spy_effect;Kills a foreign spy who was detected earlier by us.\n;;;;;;;;;;;;;x
+kill_foreign_spy_result;A foreign level §Y$LEVEL$§W spy from §G$COUNTRY$§W, identified as §G$NAME$§W, found and killed in §Y$PROVINCE$§W while conducting §Y$MISSION$§W.;;;;;;;;;;;;;x
+kill_own_spy_result;The spycard §Y$NAME$§W removed from spy card set of §G$COUNTRY$§W.;;;;;;;;;;;;;x
+#expose_spy_title;Exposes an enemy spy;;;;;;;;;;;;;x
+#expose_spy_desc;Exposes a foreign spy who was detected earlier by us.;;;;;;;;;;;;;x
+expose_spy_effect;Exposes a foreign spy who was detected earlier by us.\n;;;;;;;;;;;;;x
+EXPOSE_SPY_result;A foreign level §Y$LEVEL$§W spy from §G$COUNTRY$§W, identified as §G$NAME$§W, found and exposed in §Y$PROVINCE$§W while conducting §Y$MISSION$§W.;;;;;;;;;;;;;x
+#convience_spy_title;Turn enemy spy;;;;;;;;;;;;;x
+CONVENCE_SPY_title;Convinces an enemy spy to turn to our side;;;;;;;;;;;;;x
+CONVINCE_SPY_desc;Convinces a foreign spy to double cross his side and become our double agent.;;;;;;;;;;;;;x
+convience_spy_effect;Conviences a foreign spy to double cross his side and become our double agent.\n;;;;;;;;;;;;;x
+CONVINCE_SPY_result;A foreign level §Y$LEVEL$§W spy from §G$COUNTRY$§W, identified as §G$NAME$§W, found in §Y$PROVINCE$§W conducting §Y$MISSION$§W has been convinced to become our double agent.;;;;;;;;;;;;;x
+SWITCH_CARD_result;A foreign level §Y$LEVEL$§W spy from §G$COUNTRY$§W, identified as §G$NAME$§W, found in §Y$PROVINCE$§W conducting §Y$MISSION$§W has been convinced to become our double agent.;;;;;;;;;;;;;x
+spy_mission_no_target;Our spy did not find a proper target.;;;;;;;;;;;;;x
+super_spy;This is a super-card. It provides the spy with higher skills and better effects.;;;;;;;;;;;;;x
+spy_desc_1;Spy description text;;;;;;;;;;;;;x
+spy_desc_2;Spy description text;;;;;;;;;;;;;x
+spy_desc_3;Spy description text;;;;;;;;;;;;;x
+spy_desc_4;Spy description text;;;;;;;;;;;;;x
+spy_desc_5;Spy description text;;;;;;;;;;;;;x
+spy_desc_6;Spy description text;;;;;;;;;;;;;x
+spy_desc_7;Spy description text;;;;;;;;;;;;;x
+satellite_desc;Satellite description text;;;;;;;;;;;;;x
+spy_action_label;MISSION TYPE:;;;;;;;;;;;;;x
+sat_action_label;MISSION TYPE:;;;;;;;;;;;;;x
+sat_no_satellites;You lack §Y$NUM$§W satellite(s) to execute this mission;;;;;;;;;;;;;x
+spy_intel_tooltip;Name: §Y$NAME$§W\nCodename: §Y$CODE$§W\nCallsign: §Y$CALLSIGN$§W\nBirth date: §Y$BIRTH$§W\nSkill: §Y$SKILL$§W;;;;;;;;;;;;;x
+spy_actions;Possible spy actions:;;;;;;;;;;;;;x
+spy_foreign_list_hidden;Use your informative spy actions to get more information about this spy.;;;;;;;;;;;;;x
+spy_foreign_list_revealed;As this spy is detected/exposed, you can access to this information:;;;;;;;;;;;;;x
+mission_duration;Mission duration:;;;;;;;;;;;;;x
+spy_minimum_spies;Required spy/spies in target country: ;;;;;;;;;;;;;x
+#military_sabotage_title;Military sabotage;;;;;;;;;;;;;x
+#military_sabotage_desc;Reduce military supplies in target\n;;;;;;;;;;;;;x
+reduce_supply_effect;Reduces supply in target country\n;;;;;;;;;;;;;x
+reduce_fuel_effect;Reduces fuel in target country\n;;;;;;;;;;;;;x
+reduce_fuel_result;§G$FUEL$§W fuel destroyed in §G$COUNTRY$§W.;;;;;;;;;;;;;x
+reduce_supply_result;§G$SUPPLY$§W supplies destroyed in §G$COUNTRY$§W.;;;;;;;;;;;;;x
+#threaten_diplomat_title;Threaten diplomat;;;;;;;;;;;;;x
+#threaten_diplomat_desc;Forces target to abstain on next vote.\n;;;;;;;;;;;;;x
+#bribe_diplomat_title;Bribe diplomat;;;;;;;;;;;;;x
+#bribe_diplomat_desc;Change target BIAS towards us.\n;;;;;;;;;;;;;x
+make_desert_effect;Cause desertions among enemy troops in §G$PROV$§W.\n;;;;;;;;;;;;;x
+sabotage_equipment_effect;Sabotage equipment of enemy troops;;;;;;;;;;;;;x
+guerrilla_support_result;§G$UNIT$§W guerrilla unit(s) supported in §G$COUNTRY$§W for §G$DURATION$§W day(s).;;;;;;;;;;;;;x
+guerrilla_support_title;Support Guerrillas;;;;;;;;;;;;;x
+guerrilla_support_desc;Support guerrillas in enemy territory.;;;;;;;;;;;;;x
+guerrilla_support_effect;Support Guerrillas in §G$COUNTRY$§W\n;;;;;;;;;;;;;x
+surveillance_country_effect;Surveillance country: §G$COUNTRY$§W\n;;;;;;;;;;;;;x
+surveillance_country_result;Agent returned useful information about §G$COUNTRY$§W;;;;;;;;;;;;;x
+#surveillance_country_title;Surveillance Country;;;;;;;;;;;;;x
+#surveillance_country_desc;Collects useful information about target country.;;;;;;;;;;;;;x
+#spycard_dissent;Increase dissent;;;;;;;;;;;;;x
+#spycard_dissent_title;Increase dissent;;;;;;;;;;;;;x
+#spycard_dissent;Increase dissent in target country;;;;;;;;;;;;;x
+#spycard_decrease_ruling_party_support;Decrease ruling party support;;;;;;;;;;;;;x
+#spycard_increase_ruling_party_support;Increase ruling party support;;;;;;;;;;;;;x
+#spycard_decrease_ruling_party_support_title;Decrease party support;;;;;;;;;;;;;x
+#spycard_decrease_ruling_party_support_desc;Decrease ruling party support in target country.;;;;;;;;;;;;;x
+support_random_party_result;Supports §Y$IDOLG$§W in country §G$COUNTRY$§W;;;;;;;;;;;;;x
+foil_spy_effect;Foil spy mission in §G$COUNTRY$§W\n;;;;;;;;;;;;;x
+foil_spy_result;A foreign level §Y$LEVEL$§W spy from §G$COUNTRY$§W, identified as §G$NAME$§W, detected and foiled in §Y$PROVINCE$§W on §Y$MISSION$§W against us.;;;;;;;;;;;;;x
+spycard_increase_spy_visibility;Attempt to detect foreign spies in the country.;;;;;;;;;;;;;x
+SAT_SURV_title;Sat surviellance;;;;;;;;;;;;;x
+SAT_SURV_desc;Satellite reveals FOW in one region.\n;;;;;;;;;;;;;x
+SAT_REVEAL_title;Global sat view;;;;;;;;;;;;;x
+SAT_REVEAL_desc;Global satellite view.\n;;;;;;;;;;;;;x
+SPYCARD_DISSENT_title;Increase dissent;;;;;;;;;;;;;x
+SPYCARD_DISSENT_desc;Increase dissent in target country.\n;;;;;;;;;;;;;x
+SPYCARD_DECREASE_RULING_PARTY_SUPPORT_title;Disparage ruling party;;;;;;;;;;;;;x
+SPYCARD_DECREASE_RULING_PARTY_SUPPORT_desc;Decrease ruling party support in target country.\n;;;;;;;;;;;;;x
+MAKE_DESERT_title;Troop desertion;;;;;;;;;;;;;x
+MAKE_DESERT_desc;Infiltrate enemy forces in order to spread dissent amongst them, causing desertion.\n;;;;;;;;;;;;;x
+SABOTAGE_EQUIPMENT_title;Sabotage Equipment;;;;;;;;;;;;;x
+SABOTAGE_EQUIPMENT_desc;Infiltrate enemy forces in order to sabotage equipment.\n;;;;;;;;;;;;;x
+SABOTAGE_BUILDING_title;Sabotage buildings;;;;;;;;;;;;;x
+SABOTAGE_BUILDING_desc;Sabotage a buildings in province.\n;;;;;;;;;;;;;x
+REVEAL_FOG_title;Reveal FOW Region;;;;;;;;;;;;;x
+REVEAL_FOG_desc;Reveals the Fog of War in a region.\n;;;;;;;;;;;;;x
+REVEAL_FOG_NATION_title;Reveal Fog of War;;;;;;;;;;;;;x
+REVEAL_FOG_NATION_desc;Reveals the Fog of War in the entire country.\n;;;;;;;;;;;;;x
+SPYCARD_INCREASE_RULING_PARTY_SUPPORT_title;Ruling party support;;;;;;;;;;;;;x
+SPYCARD_INCREASE_RULING_PARTY_SUPPORT_desc;Increase ruling party support in target country.\n;;;;;;;;;;;;;x
+SPYCARD_FACTION_ALIGNMENT_NATO_title;Align to NATO;;;;;;;;;;;;;x
+SPYCARD_FACTION_ALIGNMENT_NATO_desc;Starts shifting the country towards NATO.\n;;;;;;;;;;;;;x
+SPYCARD_FACTION_ALIGNMENT_WARSAW_title;Align to WARSAW;;;;;;;;;;;;;x
+SPYCARD_FACTION_ALIGNMENT_WARSAW_desc;Starts shifting the country towards the Warsaw Pact.\n;;;;;;;;;;;;;x
+SPYCARD_FACTION_ALIGNMENT_NEUTRAL_title;Align NEUTRAL;;;;;;;;;;;;;x
+SPYCARD_FACTION_ALIGNMENT_NEUTRAL_desc;Tries to make the country more neutral.\n;;;;;;;;;;;;;x
+EXPOSE_SPY_title;Expose Spy;;;;;;;;;;;;;;x
+EXPOSE_SPY_desc;Exposes a foreign spy who was detected earlier by us.\n;;;;;;;;;;;;;
+SPYACTION_COUNTER_ESPIONAGE_title;Counter Espionage;;;;;;;;;;;;;x
+SPYACTION_COUNTER_ESPIONAGE_desc;Increases counter espionage in selected region.\n;;;;;;;;;;;;;x
+SURVEILLANCE_COUNTRY_title;Surveillance Country;;;;;;;;;;;;;x
+SURVEILLANCE_COUNTRY_desc;Collects useful information about target country.\n;;;;;;;;;;;;;x
+SWITCH_CARD_title;Switch Card;;;;;;;;;;;;;x
+SWITCH_CARD_desc;Switches this card for an enemy spy operating in your territory - this is a one time use.\n;;;;;;;;;;;;;x
+DISRUPT_MOBILIZATION_title;Disrupt Mobilization;;;;;;;;;;;;;x
+DISRUPT_MOBILIZATION_desc;Severly hamper the repair and reinforcement of enemy troops in a region.\n;;;;;;;;;;;;;x
+MILITARY_SABOTAGE_title;Destroy Supplies;;;;;;;;;;;;;x
+MILITARY_SABOTAGE_desc;Reduce military supplies in target.\n;;;;;;;;;;;;;x
+ASSASSINATE_HOS_title;Assassinate HOS;;;;;;;;;;;;;x
+ASSASSINATE_HOS_desc;Assassinate Head of State.\n;;;;;;;;;;;;;x
+ASSASSINATE_HOG_title;Assassinate HOG;;;;;;;;;;;;;x
+ASSASSINATE_HOG_desc;Assassinate Head of Government.\n;;;;;;;;;;;;;x
+SPYACTION_INCREASE_REVOLT_RISK_title;Increase Revolt Risk;;;;;;;;;;;;;x
+SPYACTION_INCREASE_REVOLT_RISK_desc;Increase Revolt Risk in selected region.\n;;;;;;;;;;;;;x
+SUPPORT_GUERRILLA_title;Support Guerrilla;;;;;;;;;;;;;x
+SUPPORT_GUERRILLA_desc;Strengtens the rebels in selected provinces and makes then friendly toward you.\n;;;;;;;;;;;;;x
+KILL_SPY_title;Kill Spy;;;;;;;;;;;;;x
+KILL_SPY_desc;Kills a random spy in selected province.\n;;;;;;;;;;;;;x
+CONVINCE_SPY_title;Convince Spy;;;;;;;;;;;;;x
+FALSE_FLAG_OPERATION_title;False Flag;;;;;;;;;;;;;x
+FALSE_FLAG_OPERATION_desc;Target nation gets a prestige hit for its abominable act.\n;;;;;;;;;;;;;x
+THREATEN_DIPLOMAT_title;Threaten Diplomat;;;;;;;;;;;;;x
+THREATEN_DIPLOMAT_desc;Forces them abstain from the next vote.\n;;;;;;;;;;;;;x
+NUCLEAR_SABOTAGE_title;Nuclear Sabotage;;;;;;;;;;;;;x
+NUCLEAR_SABOTAGE_desc;Delays the creation of nuclear materials.\n;;;;;;;;;;;;;x
+SPYACTION_INFILTRATE_COUNTER_ESPIONAGE_title;Infiltrate Counter Espionage;;;;;;;;;;;;;x
+SPYACTION_INFILTRATE_COUNTER_ESPIONAGE_desc;Suppresses spy defense in a region for a limited time.\n;;;;;;;;;;;;;x
+SPYACTION_DISTURB_LOGISTICS_title;Disturb Logistics;;;;;;;;;;;;;x
+SPYACTION_DISTURB_LOGISTICS_desc;Disturbs the flow of supplies, making advance troops more vulnerable.\n;;;;;;;;;;;;;x
+BRIBE_DIPLOMAT_title;Bribe Diplomat;;;;;;;;;;;;;x
+BRIBE_DIPLOMAT_desc;Diminishes the target's bias towards us for a while.\n;;;;;;;;;;;;;x
+FOIL_SPY_title;Foil Spy;;;;;;;;;;;;;x
+FOIL_SPY_desc;Attempts to foil the enemy spy's mission.\n;;;;;;;;;;;;;x
+RANDOM_PARTY_SUPPORT_title;Support Random Party;;;;;;;;;;;;;x
+RANDOM_PARTY_SUPPORT_desc;Tries to make a random party popular in order to weaken the current goverment.\n;;;;;;;;;;;;;x
+DISRUPT_RESEARCH_title;Disrupt Research;;;;;;;;;;;;;x
+DISRUPT_RESEARCH_desc;Slows down research in target country.\n;;;;;;;;;;;;;x
+spy_mission_no_effect;Mission '§Y$MISSION$§W' in §Y$PROV$§W was completed without any result.;;;;;;;;;;;;;x
+support_guerrilla_result;§Y$UNIT$§W guerrilla units(s) supported in §Y$PROV$§W for §Y$DURATION$§W day(s).;;;;;;;;;;;;;x
+MASTER_OF_DECEPTION_card;Master of Deception;;;;;;;;;;;;;x
+MILITARY_DISINFORMATION_title;Military Disinformation;;;;;;;;;;;;;x
+MILITARY_DISINFORMATION_desc;Attempt to deceive the enemy's intelligence by revealing to them only our weakest divisions.\n;;;;;;;;;;;;;x
+MILITARY_DECEPTION_title;Military Deception;;;;;;;;;;;;;x
+MILITARY_DECEPTION_desc;Attempt to show more divisions to the enemy's intelligence than we possess in reality.\n;;;;;;;;;;;;;x
+SPY_SKILL_ADVANCE;Our spy gained new skill: ;;;;;;;;;;;;;x
+SPY_SKILL_GAIN_CHANCE;Spy skill gain chance: ;;;;;;;;;;;;;x
+MODIFIER_SPY_DAILY;Daily spies;;;;;;;;;;;;;x

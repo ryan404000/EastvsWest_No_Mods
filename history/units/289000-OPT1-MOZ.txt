@@ -1,0 +1,48 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 7571
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 7571
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 7571
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 1 strength = 33 experience = 2 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 1 strength = 34 experience = 2 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 7851
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 1 strength = 33 experience = 2 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 1 strength = 34 experience = 2 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 8266
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "3rd Division"
+			location = 8019
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 33 experience = 2 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 1 strength = 34 experience = 2 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 8101
+			regiment = { type = militia_brigade name = "7th Militia Brigade" historical_model = 0 strength = 33 experience = 2 }
+		}
+	}
+}

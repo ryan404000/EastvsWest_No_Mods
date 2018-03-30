@@ -1,0 +1,2017 @@
+1431003 = {
+	name = "Píng Tu"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1431002 = {
+	name = "Li Lung"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1431011 = {
+	name = "Min Ch'in"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1431016 = {
+	name = "Yong Xu"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.8.1 = { rank = 0 }
+	}
+}
+1431019 = {
+	name = "Li Hsüeh"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.7.1 = { rank = 0 }
+	}
+}
+1431008 = {
+	name = "Jing Lung"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1431021 = {
+	name = "Guiying Chuang"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1952.8.1 = { rank = 0 }
+	}
+}
+1431026 = {
+	name = "Li Ni"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.7.1 = { rank = 1 }
+		1953.2.1 = { rank = 0 }
+	}
+}
+1431027 = {
+	name = "Yáng Yin"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1951.9.1 = { rank = 1 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1431005 = {
+	name = "Xiuying Tsou"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1431020 = {
+	name = "Yong Liu"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1952.8.1 = { rank = 4 }
+		1955.6.1 = { rank = 0 }
+	}
+}
+1431030 = {
+	name = "Jié Ho"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.6.1 = { rank = 1 }
+		1955.12.1 = { rank = 0 }
+	}
+}
+1431031 = {
+	name = "Xiuying Ma"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.6.1 = { rank = 1 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1431004 = {
+	name = "Min Hsiao"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.3.1 = { rank = 0 }
+	}
+}
+1431010 = {
+	name = "Fang Tao"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.8.1 = { rank = 2 }
+		1956.6.1 = { rank = 0 }
+	}
+}
+1431033 = {
+	name = "Wei Pai"
+	type = land
+	country = CXB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1955.12.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1431017 = {
+	name = "Xiuying Kung"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.6.1 = { rank = 3 }
+		1957.2.1 = { rank = 0 }
+	}
+}
+1431032 = {
+	name = "Ming Tang"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.6.1 = { rank = 1 }
+		1958.7.1 = { rank = 0 }
+	}
+}
+1431013 = {
+	name = "Jié Qian"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.3.1 = { rank = 0 }
+	}
+}
+1431036 = {
+	name = "Fang Shao"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1956.6.1 = { rank = 1 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1431022 = {
+	name = "Yong Hu"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1431009 = {
+	name = "Li Liang"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.5.1 = { rank = 0 }
+	}
+}
+1431006 = {
+	name = "Ming Chu"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1431035 = {
+	name = "Jun Fu"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.3.1 = { rank = 1 }
+		1962.9.1 = { rank = 0 }
+	}
+}
+1431028 = {
+	name = "Wei Hsiao"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.8.1 = { rank = 1 }
+		1963.1.1 = { rank = 0 }
+	}
+}
+1431023 = {
+	name = "Yan Ho"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1949.7.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1431000 = {
+	name = "Xiuying Kao"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1431015 = {
+	name = "Jun Hsu"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1431029 = {
+	name = "Li Pai"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.2.1 = { rank = 1 }
+		1955.6.1 = { rank = 2 }
+		1965.8.1 = { rank = 0 }
+	}
+}
+1431038 = {
+	name = "Qiáng Chou"
+	type = land
+	country = CXB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1957.2.1 = { rank = 1 }
+		1964.10.1 = { rank = 2 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1431001 = {
+	name = "Na Tang"
+	type = land
+	country = CXB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1431014 = {
+	name = "Fang Wei"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1431024 = {
+	name = "Tao Ding"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.1.1 = { rank = 1 }
+		1952.8.1 = { rank = 2 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1431052 = {
+	name = "Tao Huang"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1966.3.1 = { rank = 1 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1431018 = {
+	name = "Qiáng Chuang"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1969.10.1 = { rank = 0 }
+	}
+}
+1431053 = {
+	name = "Jié Han"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1967.4.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1431037 = {
+	name = "Tao Sun"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.9.1 = { rank = 1 }
+		1971.12.1 = { rank = 0 }
+	}
+}
+1431048 = {
+	name = "Guiying Hou"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1964.10.1 = { rank = 1 }
+		1971.1.1 = { rank = 0 }
+	}
+}
+1431059 = {
+	name = "Jing Jen"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.1.1 = { rank = 1 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1431039 = {
+	name = "Na Kang"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.7.1 = { rank = 1 }
+		1967.12.1 = { rank = 2 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1431041 = {
+	name = "Xiá Ting"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1959.9.1 = { rank = 1 }
+		1966.5.1 = { rank = 2 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1431050 = {
+	name = "Tao Ts'ai"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1965.8.1 = { rank = 1 }
+		1973.11.1 = { rank = 0 }
+	}
+}
+1431025 = {
+	name = "Ming Hou"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1949.8.1 = { rank = 1 }
+		1950.7.1 = { rank = 2 }
+		1952.8.1 = { rank = 3 }
+		1955.6.1 = { rank = 4 }
+		1974.5.1 = { rank = 0 }
+	}
+}
+1431046 = {
+	name = "Qiáng Tao"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.1.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1431055 = {
+	name = "Xiulán Ni"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1969.10.1 = { rank = 2 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1431040 = {
+	name = "Jié Xiang"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.3.1 = { rank = 1 }
+		1965.8.1 = { rank = 2 }
+		1974.5.1 = { rank = 3 }
+		1977.5.1 = { rank = 0 }
+	}
+}
+1431045 = {
+	name = "Lei Wu"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.9.1 = { rank = 1 }
+		1977.7.1 = { rank = 0 }
+	}
+}
+1431054 = {
+	name = "Jié Yin"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.12.1 = { rank = 1 }
+		1974.5.1 = { rank = 2 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1431049 = {
+	name = "Píng Meng"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1978.6.1 = { rank = 0 }
+	}
+}
+1431047 = {
+	name = "Wei Kuo"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.8.1 = { rank = 1 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1431058 = {
+	name = "Jun Ho"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.12.1 = { rank = 1 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1431062 = {
+	name = "Xiá Yeh"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1973.3.1 = { rank = 1 }
+		1976.12.1 = { rank = 2 }
+		1981.2.1 = { rank = 0 }
+	}
+}
+1431060 = {
+	name = "Jié Ts'ui"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1982.11.1 = { rank = 0 }
+	}
+}
+1431065 = {
+	name = "Jing Tuan"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1975.9.1 = { rank = 1 }
+		1977.5.1 = { rank = 2 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1431064 = {
+	name = "Xiuying Yüan"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.5.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1431012 = {
+	name = "Jing Chu"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.2.1 = { rank = 2 }
+		1983.11.1 = { rank = 0 }
+	}
+}
+1431042 = {
+	name = "Fang Ch'eng"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1960.1.1 = { rank = 1 }
+		1973.4.1 = { rank = 2 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1431071 = {
+	name = "Jing Ts'ai"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.10.1 = { rank = 1 }
+		1984.12.1 = { rank = 2 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1431073 = {
+	name = "Píng Tsou"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1981.2.1 = { rank = 1 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1431007 = {
+	name = "Jun Feng"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.6.1 = { rank = 2 }
+		1957.2.1 = { rank = 3 }
+		1974.5.1 = { rank = 4 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1431066 = {
+	name = "Lei Hsü"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1976.12.1 = { rank = 1 }
+		1986.6.1 = { rank = 0 }
+	}
+}
+1431080 = {
+	name = "Yáng Tsui"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.5.1 = { rank = 1 }
+		1987.8.1 = { rank = 0 }
+	}
+}
+1431081 = {
+	name = "Jun Yeh"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1431075 = {
+	name = "Tao Pai"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1989.4.1 = { rank = 0 }
+	}
+}
+1431034 = {
+	name = "Min Tsao"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1955.11.1 = { rank = 1 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1431068 = {
+	name = "Jing He"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.7.1 = { rank = 1 }
+		1985.4.1 = { rank = 2 }
+		1986.9.1 = { rank = 3 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1431043 = {
+	name = "Juan Kao"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1961.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431044 = {
+	name = "Yáng Ni"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431051 = {
+	name = "Min Hou"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1966.5.1 = { rank = 1 }
+		1973.3.1 = { rank = 2 }
+		1977.5.1 = { rank = 3 }
+		1986.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431056 = {
+	name = "Xiá Tsui"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1969.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431057 = {
+	name = "Yan Hsiung"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1970.12.1 = { rank = 1 }
+		1982.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431061 = {
+	name = "Guiying Hsing"
+	type = land
+	country = CXB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1973.4.1 = { rank = 1 }
+		1981.2.1 = { rank = 2 }
+		1990.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431063 = {
+	name = "Jun Huang"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.11.1 = { rank = 1 }
+		1978.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431067 = {
+	name = "Guiying Kao"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431069 = {
+	name = "Min Lin"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.1.1 = { rank = 1 }
+		1983.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431070 = {
+	name = "Xiá Hsia"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431072 = {
+	name = "Píng Tsui"
+	type = land
+	country = CXB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431074 = {
+	name = "Jun Lo"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1982.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431076 = {
+	name = "Wei Chin"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431077 = {
+	name = "Lei Xie"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1983.11.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431078 = {
+	name = "Jié Chien"
+	type = land
+	country = CXB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1984.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431079 = {
+	name = "Yong Hsiao"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431082 = {
+	name = "Min Ting"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431083 = {
+	name = "Wei Tai"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431084 = {
+	name = "Jun Peng"
+	type = land
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.12.1 = { rank = 1 }
+		1990.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431085 = {
+	name = "Lei Shao"
+	type = land
+	country = CXB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1989.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431086 = {
+	name = "Wei Chang"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431087 = {
+	name = "Yan Hsü"
+	type = land
+	country = CXB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431092 = {
+	name = "Ming Yang"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.8.1 = { rank = 0 }
+	}
+}
+1431096 = {
+	name = "Chao Ch'eng"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.8.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1431097 = {
+	name = "Yong Pai"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1954.12.1 = { rank = 0 }
+	}
+}
+1431098 = {
+	name = "Wei Yang"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.12.1 = { rank = 1 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1431090 = {
+	name = "Yan Chin"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.5.1 = { rank = 0 }
+	}
+}
+1431091 = {
+	name = "Min Yeh"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1431100 = {
+	name = "Min She"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1958.5.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1431095 = {
+	name = "Tao Fu"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1973.11.1 = { rank = 0 }
+	}
+}
+1431102 = {
+	name = "Yong Tuan"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1973.11.1 = { rank = 2 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1431088 = {
+	name = "Li Shen"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1431101 = {
+	name = "Min Tu"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1978.10.1 = { rank = 0 }
+	}
+}
+1431106 = {
+	name = "Jun Xiong"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.10.1 = { rank = 1 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1431099 = {
+	name = "Chao Chin"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.8.1 = { rank = 1 }
+		1976.12.1 = { rank = 2 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1431094 = {
+	name = "Jié Chuang"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1973.11.1 = { rank = 4 }
+		1980.10.1 = { rank = 0 }
+	}
+}
+1431107 = {
+	name = "Chao Xie"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1979.1.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1431108 = {
+	name = "Yong Ni"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.10.1 = { rank = 1 }
+		1981.2.1 = { rank = 0 }
+	}
+}
+1431109 = {
+	name = "Qiáng Hsu"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.10.1 = { rank = 1 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1431104 = {
+	name = "Fang Wang"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.12.1 = { rank = 1 }
+		1980.10.1 = { rank = 2 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1431089 = {
+	name = "Li Jen"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1984.2.1 = { rank = 0 }
+	}
+}
+1431112 = {
+	name = "Jié Tu"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1986.2.1 = { rank = 0 }
+	}
+}
+1431105 = {
+	name = "Xiuying Yüan"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.12.1 = { rank = 1 }
+		1983.4.1 = { rank = 2 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1431110 = {
+	name = "Li Su"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.11.1 = { rank = 1 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1431093 = {
+	name = "Yong Chuang"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1973.11.1 = { rank = 3 }
+		1980.10.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431103 = {
+	name = "Xiuying Ch'ang"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.11.1 = { rank = 1 }
+		1979.10.1 = { rank = 2 }
+		1980.10.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431111 = {
+	name = "Qiáng Ch'eng"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1981.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431113 = {
+	name = "Xiuying Lei"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431114 = {
+	name = "Na Tsao"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.2.1 = { rank = 1 }
+		1989.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431115 = {
+	name = "Li Tung"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1986.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431116 = {
+	name = "Chao Chen"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431117 = {
+	name = "Li Hsü"
+	type = sea
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431126 = {
+	name = "Yáng Tseng"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1431125 = {
+	name = "Qiáng Shen"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.7.1 = { rank = 4 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1431119 = {
+	name = "Lei Mai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 2 }
+		1951.12.1 = { rank = 0 }
+	}
+}
+1431123 = {
+	name = "Yan Pai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.7.1 = { rank = 3 }
+		1950.1.1 = { rank = 4 }
+		1952.8.1 = { rank = 0 }
+	}
+}
+1431120 = {
+	name = "Min Ma"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 2 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1431128 = {
+	name = "Jun Shen"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.1.1 = { rank = 1 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1431130 = {
+	name = "Ming Pai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1952.8.1 = { rank = 1 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1431121 = {
+	name = "Qiáng Liu"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1431118 = {
+	name = "Jié Chen"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.12.1 = { rank = 2 }
+		1952.8.1 = { rank = 3 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1431127 = {
+	name = "Juan Ts'ai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1954.8.1 = { rank = 2 }
+		1964.10.1 = { rank = 3 }
+		1966.11.1 = { rank = 0 }
+	}
+}
+1431124 = {
+	name = "Tao Mao"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.1.1 = { rank = 3 }
+		1952.8.1 = { rank = 4 }
+		1966.4.1 = { rank = 0 }
+	}
+}
+1431132 = {
+	name = "Li Feng"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.12.1 = { rank = 1 }
+		1967.6.1 = { rank = 0 }
+	}
+}
+1431133 = {
+	name = "Juan Chuang"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.8.1 = { rank = 1 }
+		1966.11.1 = { rank = 2 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1431129 = {
+	name = "Qiáng Hu"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.12.1 = { rank = 1 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1431138 = {
+	name = "Juan Lai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.6.1 = { rank = 1 }
+		1968.9.1 = { rank = 2 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1431122 = {
+	name = "Li Lei"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.8.1 = { rank = 2 }
+		1966.11.1 = { rank = 3 }
+		1966.11.1 = { rank = 4 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1431142 = {
+	name = "Xiá Pan"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1431139 = {
+	name = "Yan Tsai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1431140 = {
+	name = "Xiuying Niu"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.8.1 = { rank = 1 }
+		1969.8.1 = { rank = 2 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1431144 = {
+	name = "Wei Yüan"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1431145 = {
+	name = "Yan Pai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.8.1 = { rank = 1 }
+		1977.10.1 = { rank = 0 }
+	}
+}
+1431136 = {
+	name = "Lei Kê"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.11.1 = { rank = 1 }
+		1966.11.1 = { rank = 2 }
+		1972.9.1 = { rank = 3 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1431134 = {
+	name = "Jié Ho"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.8.1 = { rank = 1 }
+		1964.10.1 = { rank = 2 }
+		1966.4.1 = { rank = 3 }
+		1972.9.1 = { rank = 4 }
+		1980.2.1 = { rank = 0 }
+	}
+}
+1431143 = {
+	name = "Wei Wan"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1973.3.1 = { rank = 1 }
+		1980.2.1 = { rank = 2 }
+		1983.6.1 = { rank = 0 }
+	}
+}
+1431137 = {
+	name = "Jing Han"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.4.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1980.2.1 = { rank = 3 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1431151 = {
+	name = "Lei Wan"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1984.6.1 = { rank = 1 }
+		1985.3.1 = { rank = 0 }
+	}
+}
+1431148 = {
+	name = "Yong Ho"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1983.6.1 = { rank = 2 }
+		1984.6.1 = { rank = 3 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1431147 = {
+	name = "Tao Luo"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.10.1 = { rank = 1 }
+		1985.10.1 = { rank = 0 }
+	}
+}
+1431131 = {
+	name = "Na Tian"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.8.1 = { rank = 1 }
+		1975.8.1 = { rank = 2 }
+		1977.2.1 = { rank = 3 }
+		1980.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431135 = {
+	name = "Wei T'ang"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431141 = {
+	name = "Xiá Yü"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1985.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431146 = {
+	name = "Min Lai"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.3.1 = { rank = 1 }
+		1977.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431149 = {
+	name = "Na Lei"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	history = {
+		1980.2.1 = { rank = 1 }
+		1984.6.1 = { rank = 2 }
+		1985.4.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431150 = {
+	name = "Xiá Yeh"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431152 = {
+	name = "Qiáng Ch'ien"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	add_trait = superior_air_tactician
+	history = {
+		1985.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431153 = {
+	name = "Wei Hou"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1431154 = {
+	name = "Jun Lin"
+	type = air
+	country = CXB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

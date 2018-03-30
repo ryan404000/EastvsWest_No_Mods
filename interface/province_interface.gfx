@@ -1,0 +1,554 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_close_province"
+		texturefile = "gfx\\interface\\close_province.dds"
+		}
+		
+	#spriteType = {
+	#	name = "GFX_coop_checkbox"
+	#	texturefile = "gfx\\interface\\SemperFi\\coop_checkbox.tga"
+	#	noOfFrames = 2
+	#}
+	
+	spriteType = {
+		name = "GFX_coop_checkbox"
+		texturefile = "gfx\\interface\\SemperFi\\mapmode_listbox.dds"
+	#	noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_coop_bg"
+		texturefile = "gfx\\interface\\SemperFi\\coop_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_draft_militia"
+		texturefile = "gfx\\interface\\militia_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_coop_open"
+		texturefile = "gfx\\interface\\SemperFi\\coop_open.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_prov_building_plupp"
+		texturefile = "gfx\\interface\\province\\prov_building_plupp.dds"
+		noOfFrames = 3
+		norefcount = yes
+	}
+		
+		
+	spriteType = {
+		name = "GFX_prov_daynight"
+		texturefile = "gfx\\interface\\daynight.tga"
+		noOfFrames = 2
+		norefcount = yes
+		}
+
+	spriteType = {
+		name = "GFX_terrainimg_ocean"
+		texturefile = "gfx\\interface\\prov_terrain_ocean.dds"
+		norefcount = yes
+		}
+		
+	spriteType = {
+		name = "GFX_icon_weatherstrip"
+		texturefile = "gfx\\interface\\icon_weatherstrip.dds"
+		noOfFrames = 7
+		norefcount = yes
+		}
+
+	spriteType = {
+		name = "GFX_ground_icon"
+		texturefile = "gfx\\interface\\ground_icon.dds"
+		noOfFrames = 3
+		norefcount = yes
+		}
+		
+	spriteType = {
+		name = "GFX_wind_icon"
+		texturefile = "gfx\\interface\\wind_icon.dds"
+		norefcount = yes
+		}	
+	
+		
+	spriteType = {
+		name = "GFX_terrainimg_mountain"
+		texturefile = "gfx\\interface\\prov_terrain_mountains.dds"
+		norefcount = yes
+		}
+	
+	spriteType = {
+		name = "GFX_terrainimg_forest"
+		texturefile = "gfx\\interface\\prov_terrain_forest.dds"
+		norefcount = yes
+		}
+
+	spriteType = {
+		name = "GFX_terrainimg_woods"
+		texturefile = "gfx\\interface\\prov_terrain_woods.dds"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_terrainimg_marsh"
+		texturefile = "gfx\\interface\\prov_terrain_marsh.dds"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_terrainimg_plains"
+		texturefile = "gfx\\interface\\prov_terrain_plains.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_urban"
+		texturefile = "gfx\\interface\\prov_terrain_urban.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_hills"
+		texturefile = "gfx\\interface\\prov_terrain_hills.dds"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_terrainimg_jungle"
+		texturefile = "gfx\\interface\\prov_terrain_jungle.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_desert"
+		texturefile = "gfx\\interface\\prov_terrain_desert.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_arctic"
+		texturefile = "gfx\\interface\\prov_terrain_arctic.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_terrainimg_high_mountain"
+		texturefile = "gfx\\interface\\prov_terrain_high_mountains.dds"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_provinceview_bg"
+		texturefile = "gfx\\interface\\province\\bg_province.dds"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_provinceview_folder_bg"
+		texturefile = "gfx\\interface\\province\\bg_province_paper.dds"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_prov_overlay"
+		texturefile = "gfx\\interface\\province\\prov_overlay.dds"
+	}
+	
+#	spriteType = {
+#		name = "GFX_prov_overlay2"
+#		texturefile = "gfx\\interface\\prov_overlay2.dds"
+#	}
+	
+	spriteType = {
+		name = "GFX_icon_partisans"
+		texturefile = "gfx\\interface\\icon_partisans.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_prio_star"
+		texturefile = "gfx\\interface\\province_prio_star.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prov_income"
+		texturefile = "gfx\\interface\\province\\icon_prov_income.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prov_pop"
+		texturefile = "gfx\\interface\\province\\icon_prov_pop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prov_RGO"
+		texturefile = "gfx\\interface\\icon_prov_RGO.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prov_revolt_risk"
+		texturefile = "gfx\\interface\\province\\icon_prov_rr.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_provinceview_supply"
+		texturefile = "gfx\\mapitems\\supply_depot.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_industry"
+		texturefile = "gfx\\interface\\prov_build_factory.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_anti_air"
+		texturefile = "gfx\\interface\\prov_build_aa.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_provinceview_air_base"
+		texturefile = "gfx\\interface\\prov_build_airfield.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_coastal_fort"
+		texturefile = "gfx\\interface\\prov_build_coastfort.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_land_fort"
+		texturefile = "gfx\\interface\\prov_build_landfort.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_provinceview_naval_base"
+		texturefile = "gfx\\interface\\prov_build_navalbase.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_provinceview_nuclear_reactor"
+		texturefile = "gfx\\interface\\prov_build_nuclear.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_radar_station"
+		texturefile = "gfx\\interface\\prov_build_radar.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_rocket_test"
+		texturefile = "gfx\\interface\\prov_build_rocket.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_infra"
+		texturefile = "gfx\\interface\\province\\prov_build_infra.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_provinceview_passable"
+		texturefile = "gfx\\interface\\adj_open.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_river"
+		texturefile = "gfx\\interface\\adj_river.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_provinceview_ocean"
+		texturefile = "gfx\\interface\\adj_ocean.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_provinceview_strait"
+		texturefile = "gfx\\interface\\adj_strait.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_provinceview_impassable"
+		texturefile = "gfx\\interface\\adj_impassable.dds"
+		}
+
+	spriteType = {
+		name = "GFX_pop_total_small"
+		texturefile = "gfx\\interface\\province\\icon_pop_small.dds"
+		}
+
+	spriteType = {
+		name = "GFX_province_pop"
+		texturefile = "gfx\\interface\\province\\prov_pop_icon.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_workers_total_small"
+		texturefile = "gfx\\interface\\province\\icon_workers_small.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_province_workers"
+		texturefile = "gfx\\interface\\prov_employee_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_development_index"
+		texturefile = "gfx\\interface\\icon_di_small.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_province_development_index"
+		texturefile = "gfx\\interface\\province\\prov_DI.dds"
+	}
+
+	spriteType = {
+		name = "GFX_dollar_big"
+		texturefile = "gfx\\interface\\province\\icon_dollar_big.dds"
+	}
+
+	spriteType = {
+		name = "GFX_industry_small"
+		texturefile = "gfx\\interface\\province\\icon_industry_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_militia_small"
+		texturefile = "gfx\\interface\\province\\icon_militia_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_red"
+		texturefile = "gfx\\interface\\province\\factory_plupp_red.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_factory_plupp_nofactory"
+		texturefile = "gfx\\interface\\province\\factory_plupp_nofactory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_purple"
+		texturefile = "gfx\\interface\\province\\factory_plupp_purple.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_orange"
+		texturefile = "gfx\\interface\\province\\factory_plupp_orange.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_green"
+		texturefile = "gfx\\interface\\province\\factory_plupp_green.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_gray"
+		texturefile = "gfx\\interface\\province\\factory_plupp_nofactory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_blue"
+		texturefile = "gfx\\interface\\province\\factory_plupp_blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_yellow"
+		texturefile = "gfx\\interface\\province\\factory_plupp_yellow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_cyan"
+		texturefile = "gfx\\interface\\province\\factory_plupp_cyan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_darkblue"
+		texturefile = "gfx\\interface\\province\\factory_plupp_darkblue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_brown"
+		texturefile = "gfx\\interface\\province\\factory_plupp_brown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_magenta"
+		texturefile = "gfx\\interface\\factory_plupp_yellow.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_factory_plupp_suspended"
+		texturefile = "gfx\\interface\\factory_plupp_suspended.dds"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_factory_plupp_constructed"
+		texturefile = "gfx\\interface\\factory_plupp_constructed.dds"
+		allwaystransparent = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_spec_building_bg"
+		texturefile = "gfx\\interface\\province\\province_buildings_bg.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_spec_building_button"
+		texturefile = "gfx\\interface\\province_building_buttons.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		}
+
+	spriteType = {
+		name = "GFX_spec_building_photo"
+		texturefile = "gfx\\interface\\province\\buildings\\empty_spec_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_spaceport_image"
+		texturefile = "gfx\\interface\\province\\buildings\\spaceport_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_military_academy_image"
+		texturefile = "gfx\\interface\\province\\buildings\\military_academy_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_nuclear_silo_image"
+		texturefile = "gfx\\interface\\province\\buildings\\nuclear_silo_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_sdi_site_image"
+		texturefile = "gfx\\interface\\province\\buildings\\sdi_site_building.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_early_warning_site_image"
+		texturefile = "gfx\\interface\\province\\buildings\\early_warning_site_building.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_rocket_test_site_image"
+		texturefile = "gfx\\interface\\province\\buildings\\rocket_test_site_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_nuclear_test_site_image"
+		texturefile = "gfx\\interface\\province\\buildings\\nuclear_test_site_building.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_financial_district_image"
+		texturefile = "gfx\\interface\\province\\buildings\\financial_center_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_intelligence_center_image"
+		texturefile = "gfx\\interface\\province\\buildings\\intelligence_center_building.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_strategical_storage_image"
+		texturefile = "gfx\\interface\\province\\buildings\\strategical_storage_building.dds"
+		}
+	
+	spriteType = {
+		name = "GFX_financial_center_image"
+		texturefile = "gfx\\interface\\province\\buildings\\financial_center_building.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_university_image"
+		texturefile = "gfx\\interface\\province\\buildings\\university_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_national_monument_image"
+		textureFile = "gfx\\interface\\province\\buildings\\national_monument_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_agriculture_research_center_image"
+		textureFile = "gfx\\interface\\province\\buildings\\agriculture_research_center_building.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_air_research_center_image"
+		textureFile = "gfx\\interface\\province\\buildings\\air_research_center_building.dds"
+		}
+		
+	spriteType = {
+		name = "GFX_land_research_center_image"
+		textureFile = "gfx\\interface\\province\\buildings\\land_research_center_building.dds"
+		}
+
+	spriteType = {
+		name = "GFX_naval_research_center_image"
+		textureFile = "gfx\\interface\\province\\buildings\\naval_research_center_building.dds"
+		}
+
+
+	spriteType = {
+		name = "GFX_new_special_building"
+		texturefile = "gfx\\interface\\province\\special_building_plate.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"		
+		}
+
+	spriteType = {
+		name = "GFX_demolish_spec_building"
+		texturefile = "gfx\\interface\\province_building_close.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"		
+		}
+
+	progressbartype = {
+		name = "construction_progress_current"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\specbuilding_progress2.dds"
+		textureFile2 = "gfx\\interface\\specbuilding_progress1.dds"
+		size = { x = 58 y = 12 }
+		effectFile = "gfx\\FX\\progress.fx"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_spec_build_btn_image"
+		texturefile = "gfx\\interface\\province_building_build.dds"
+	}
+
+	spriteType = {
+		name = "GFX_new_building_close_button"
+		texturefile = "gfx\\interface\\province_buildings_close.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_no_resources_icon"
+		texturefile = "gfx\\interface\\resources_none.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_di_arrow"
+		texturefile = "gfx\\interface\\province\\di_arrow.dds"
+		noofFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_paper_clip"
+		texturefile = "gfx\\interface\\province\\paper_clip.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spec_building_close_btn"
+		texturefile = "gfx\\interface\\province\\province_buildings_close.dds"
+		norefcount = yes
+	}
+
+}

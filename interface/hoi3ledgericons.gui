@@ -1,0 +1,277 @@
+guiTypes = {
+
+		iconType = {
+			name = "ledger_sort_str"  #strength
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_str"
+		}
+		
+		
+		iconType = {
+			name = "ledger_sort_org"  #organiztaion
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_org"
+		}			
+
+		iconType = {
+			name = "ledger_sort_cw"  #combat width
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_cw"
+		}		
+
+		iconType = {
+			name = "ledger_sort_sa" #soft attack
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_sa"
+		}	
+		
+		iconType = {
+			name = "ledger_sort_ha"  #hard attack
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_ha"
+		}				
+
+		iconType = {
+			name = "ledger_sort_aa" # airattack
+			position = { x=0 y= 0 }
+			spriteType ="GFX_icon_aa"
+		}
+		
+		iconType = {
+			name = "ledger_sort_def"  #defensivness
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_def"
+		}	
+			
+		iconType = {
+			name = "ledger_sort_tou"  #toughness
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_tou"
+		}
+		iconType = {
+			name = "ledger_sort_ad"  #air defense
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_ad"
+		}		
+
+		iconType = {
+			name = "ledger_sort_sof"  #softness
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_soft"
+		}
+
+		iconType = {
+			name = "ledger_sort_speed"
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_speed"
+		}		
+
+		iconType = {
+			name = "ledger_sort_sup"  #supression
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_sup"
+		}			
+
+		iconType = {
+			name = "ledger_sort_sc"  #supply consumption
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_sc"
+		}	
+
+		iconType = {
+			name = "ledger_sort_fc"  #fuel consumption
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_oc"
+		}		
+		
+		iconType = {
+			name = "ledger_sort_con_a"               
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_con_a"
+		}			
+
+		iconType = {
+			name = "ledger_sort_sea_a"                 
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_sea_a"
+		}		
+
+		iconType = {
+			name = "ledger_sort_sub_a"                 
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_sub_a"
+		}	
+		
+		iconType = {
+			name = "ledger_sort_air_a"                   
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_air_a"
+		}				
+
+		iconType = {
+			name = "ledger_sort_shore"                   
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_shore"
+		}
+		
+		iconType = {
+			name = "ledger_sort_sea_d"                    
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_def"
+		}
+
+		iconType = {
+			name = "sort_strat_a"
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_strat_a"
+			
+		}
+			
+		iconType = {
+			name = "ledger_sort_air_d"                     
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_ad"
+		}
+		
+		iconType = {
+			name = "ledger_sort_sur_det"                  
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_sur_det"
+		}		
+
+		iconType = {
+			name = "ledger_sort_air_det"                     
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_air_det"
+		}		
+		
+		iconType = {
+			name = "ledger_sort_sub_det"               
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_sub_det"
+		}			
+		
+		iconType = {
+			name = "ledger_sort_visibi"                    
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_visibility"
+		}	
+
+		iconType = {
+			name = "ledger_sort_trans"                   
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_trans_cap"
+		}		
+				
+		iconType = {
+			name = "ledger_sort_range"                  
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_range"
+		}	
+
+		iconType = {
+			name = "ledger_sort_distance"            
+			position = { x=0 y =0}
+			spriteType ="GFX_icon_cw"
+		}	
+
+	
+		iconType = {
+			name = "ledger_sort_hull"                             
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_hull"
+		}	
+		
+		iconType = {
+			name = "ledger_sort_pos"                     
+			position = { x=0 y =0 }
+			spriteType ="GFX_icon_pos"
+		}
+		
+		iconType = {
+			name = "air_base_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_air_base"
+			
+		}	
+		iconType = {
+			name = "naval_base_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_naval_base"
+			
+		}	
+		
+		iconType = {
+			name = "industry_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_industry"
+			
+		}		
+
+		iconType = {
+			name = "coastal_fort_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_coastal_fort"
+			
+		}	
+		
+		iconType = {
+			name = "land_fort_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_land_fort"
+			
+		}	
+		
+		iconType = {
+			name = "anti_air_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_anti_air"
+			
+		}	
+		
+		iconType = {
+			name = "infra_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_infra"
+			
+		}	
+		
+		iconType = {
+			name = "radar_station_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_radar_station"
+			
+		}	
+		iconType = {
+			name = "nuclear_reactor_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_nuclear_reactor"
+		}	
+		
+		iconType = {
+			name = "rocket_test_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_provinceview_rocket_test"
+			
+		}
+
+		iconType = {
+			name = "resources_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_resources_icon"
+		}
+
+		iconType = {
+			name = "factory_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_factory_small"
+		}
+
+		iconType = {
+			name = "counter_icon"
+			position = { x=0 y =0}
+			spriteType ="GFX_small_counter_awacs_air_plane"
+		}
+
+	
+}

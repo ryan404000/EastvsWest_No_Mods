@@ -1,0 +1,3218 @@
+guiTypes = {
+
+	windowType = {
+		name = "topcolor_technology"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		orientation="UPPER_LEFT"
+	
+#		iconType = {				#Removed gradient from the gui
+#			name = "topcolor_icon"
+#			spriteType = "GFX_topcolor_technology"
+#			position = { x= 0 y = -1 }
+#			Orientation = "UPPER_LEFT"
+#		}
+	}
+
+
+	windowType = {
+		name = "country_technology"
+		position = { x=-555 y=-340 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		fullScreen = no
+		orientation="CENTER"
+		
+		iconType = {
+			name ="tech_shadow"
+			spriteType = "GFX_tech_shadow"
+			position = { x=-22 y=-4 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="bg_countryskin"
+			spriteType = "GFX_country_bg"
+			position = { x= 44 y = 54 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="bg_technology"
+			spriteType = "GFX_bg_technology"
+			position = { x=-22 y=-4 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "headline"
+			font = "Jockey_30_glow_green"
+			position = { x=45 y=30 }
+			text = "headline_tech"
+			maxHeight = 64
+		}
+
+
+########## End Background of tech folder
+
+		instantTextBoxType = {
+			name = "current_research_header"
+			position = { x = 85 y = 80 }
+			font = "Jockey_24"
+			borderSize = { x = 0 y = 0 }
+			text = "CURRENT_RESEARCH_LABEL"
+			Orientation = "UPPER_LEFT"
+			maxWidth = 200
+			maxHeight = 30
+			format = centre
+		}
+
+		iconType = {
+			name ="bg_tech_folder_icon"
+			spriteType = "GFX_tech_bg_land_doctrine1_folder"
+			position = { x= 313 y = 129 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "close_button"
+			position = { x=1035 y=29 }
+			quadTextureSprite = "GFX_close_btn"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ESCAPE"
+		}	
+		
+		#iconType = {
+		#	name ="tech_research_bg"
+		#	spriteType = "GFX_tech_research_bg"
+		#	position = { x= 51 y = 95 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+
+		
+		iconType = {
+			name ="projects_icon"
+			spriteType = "GFX_folder_icon"
+			position = { x= 63 y = 106 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "projects_label"
+			position = { x = 60 y = 111 }
+			textureFile = ""
+			font = "Jockey_18"
+			borderSize = { x = 0 y = 0 }
+			text = ""
+			Orientation = "UPPER_LEFT"
+			maxWidth = 100
+			maxHeight = 30
+			format = right
+		}
+
+		iconType = {
+			name ="money_icon"
+			spriteType = "GFX_icon_div_money"
+			position = { x= 180 y = 109 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "funds_label"
+			position = { x = 187 y = 111 }
+			textureFile = ""
+			font = "Jockey_18"
+			Orientation = "UPPER_LEFT"
+			borderSize = { x = 0 y = 0 }
+			text = ""
+			maxWidth = 95
+			maxHeight = 30
+			format = right
+		}
+		
+		checkboxType = {
+			name = "current_research_checkbox"
+			position = { x= 56 y = 148 }
+			quadTextureSprite ="GFX_tech_current_goals_tab"
+		}
+		
+		instantTextBoxType = {
+		    name = "current_research_label"
+			position = { x= 58 y = 155 }
+			maxWidth = 75
+			maxHeight = 15
+			text = "CURRENT_RESEARCH_CURRENT"
+			font = "Jockey_16_dark"
+			Orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		checkboxType = {
+			name = "goals_checkbox"
+			position = { x= 147 y = 148 }
+			quadTextureSprite ="GFX_tech_current_goals_tab"
+		}
+		
+		instantTextBoxType = {
+		    name = "goals_label"
+			position = { x= 148 y = 155 }
+			maxWidth = 75
+			maxHeight = 15
+			text = "CURRENT_RESEARCH_GOALS"
+			font = "Jockey_16_dark"
+			Orientation = "UPPER_LEFT"
+			format = center
+		}
+		
+		checkboxType = {
+			name = "ai_options_checkbox"
+			position = { x= 237 y = 147 }
+			quadTextureSprite ="GFX_tech_ai_tab"
+		}
+		
+		instantTextBoxType = {
+		    name = "ai_options_label"
+			position = { x= 239 y = 155 }
+			maxWidth = 45
+			maxHeight = 15
+			text = "CURRENT_RESEARCH_AI"
+			font = "Jockey_16_dark"
+			Orientation = "UPPER_LEFT"
+			format = center
+		}
+		
+		
+		###LISTBOXES###
+		
+		#CURRENT RESEARCH
+		
+		windowType = {
+			name = "current_research_tab"
+			backGround =""
+			position = { x= 44 y = 158 }	
+			size = { x=240 y=668 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			#iconType = {
+			#	name ="tech_research_ext_bg"
+			#	spriteType = "GFX_tech_research_ext_bg"
+			#	position = { x= 6 y = 4 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			
+			#iconType = {
+			#	name ="tech_slider_trace"
+			#	spriteType = "GFX_tech_slider_trace"
+			#	position = { x= 223 y = 39 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+		
+			guiButtonType = {
+				name = "sort_date"
+				position = { x = 11 y = 22 }
+				quadTextureSprite = "GFX_sort_research_button"
+				Orientation = "UPPER_LEFT"
+				buttonText = "DATE_SORT"
+				buttonFont = "Arial12_bold_black"
+			}
+		
+			guiButtonType = {
+				name = "sort_cost"
+				position = { x = 132 y = 22 }
+				quadTextureSprite = "GFX_sort_research_button"
+				Orientation = "UPPER_LEFT"
+				buttonText = "COST_SORT"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+		
+			listboxType = {
+				name = "current_research"
+				position = { x = 2 y = 60 }
+				backGround=""
+				size = { x=232 y = 340 }
+				Orientation = "UPPER_LEFT"
+				spacing = 0
+				scrollbartype = "scrollbar_vertical_prod_2"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+		
+		#GOALS
+		
+		windowType = {
+			name = "goals_tab"
+			backGround =""
+			position = { x= 44 y = 158 }	
+			size = { x=240 y=668 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			#iconType = {
+			#	name ="tech_research_ext_bg"
+			#	spriteType = "GFX_tech_research_ext_bg"
+			#	position = { x= 6 y = 4 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			
+			#iconType = {
+			#	name ="tech_slider_trace"
+			#	spriteType = "GFX_tech_slider_trace"
+			#	position = { x= 223 y = 39 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+
+			guiButtonType = {
+				name = "sort_date"
+				position = { x = 11 y = 22 }
+				quadTextureSprite = "GFX_sort_research_button"
+				Orientation = "UPPER_LEFT"
+				buttonText = "DATE_SORT"
+				buttonFont = "Arial12_bold_black"
+			}
+		
+			guiButtonType = {
+				name = "sort_cost"
+				position = { x = 132 y = 22 }
+				quadTextureSprite = "GFX_sort_research_button"
+				Orientation = "UPPER_LEFT"
+				buttonText = "COST_SORT"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+			listboxType = {
+				name = "current_goals"
+				position = { x = 2 y = 60 }
+				backGround=""
+				size = { x=232 y = 340 }
+				Orientation = "UPPER_LEFT"
+				spacing = 0
+				scrollbartype = "scrollbar_vertical_prod_2"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+
+		#AI OPTIONS
+		
+		windowType = {
+			name = "ai_options_tab"
+			backGround =""
+			position = { x= 44 y = 158 }	
+			size = { x=240 y=668 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			iconType = {
+				name ="tech_ai_options_bg"
+				spriteType = "GFX_ai_options_bg"
+				position = { x= -10 y = 12 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "ai_fund_pct"
+				position = { x= 14 y = 28 }
+				maxWidth = 200
+				maxHeight = 15
+				text = ""
+				font = "Jockey_18"
+				Orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			
+		
+
+			instantTextBoxType = {
+				name = "ai_fund_money"
+				position = { x= 90 y = 28 }
+				maxWidth = 150
+				maxHeight = 15
+				text = ""
+				font = "Jockey_18"
+				Orientation = "UPPER_LEFT"
+				format = right
+			}
+			
+			scrollbarType = {
+				name = "investment_slider"	
+				slider = "ds_SliderButton"
+				track= "ds_TrackButton"
+				leftbutton = "ds_upButton"
+				rightbutton = "ds_downButton"
+			 	rangelimitmaxicon = "ds_slider_max_cap"
+				rangelimitminicon = "ds_slider_min_cap"
+				recommendedicon = "ds_slider_recommended"
+				size = {x = 223 y = 16 }
+				position = {x= 20 y = 59}
+				priority = 100			
+				borderSize = {x =16 y = 16}	
+				maxValue = 100
+				minValue = 0
+				stepSize = 1
+				startValue = 0
+				horizontal = yes
+	
+				guiButtonType = {
+					name = "ds_SliderButton"	
+					quadTextureSprite = "GFX_scroller_horiz_slider"
+					tooltip = ""
+					tooltipText =""	
+					delayedTooltipText = ""
+					position = { x=0 y =0}
+				}
+	
+				guiButtonType = {
+					name = "ds_TrackButton"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""	
+	
+				}	
+	
+				guiButtonType = {
+					parent = "ds_SliderButton"
+					name = "ds_upButton"
+					quadTextureSprite = "GFX_scroller_btn_minus"
+					position = { x=0 y =0}	
+				}
+				
+				guiButtonType = {
+					parent = "ds_SliderButton"
+					name = "ds_downButton"
+					quadTextureSprite = "GFX_scroller_btn_plus"
+					position = { x=0 y =120}	
+				}
+
+				iconType = {
+					name ="ds_slider_min_cap"
+					spriteType = "GFX_slider_min_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_max_cap"
+					spriteType = "GFX_slider_max_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_recommended"
+					spriteType = "GFX_slider_recommended"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+			}
+
+			
+			instantTextBoxType = {
+				name = "change_speed_label"
+				position = { x= 20 y = 90 }
+				maxWidth = 200
+				maxHeight = 15
+				text = "AI_CHANGE_SPEED"
+				font = "Jockey_14_dark"
+				Orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			checkboxType = {
+				name = "change_speed_checkbox"
+				position = { x = 190 y = 81 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = ""
+				buttonFont = "Arial12"
+			}
+			
+			instantTextBoxType = {
+				name = "nongoals_label"
+				position = { x= 20 y = 119 }
+				maxWidth = 200
+				maxHeight = 15
+				text = "AI_NONGOALS"
+				font = "Jockey_14_dark"
+				Orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			
+			checkboxType = {
+				name = "nongoals_checkbox"
+				position = { x = 190 y = 110 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = ""
+				buttonFont = "Arial12"
+			}
+			
+		}
+		
+
+		checkboxType = {
+			name = "automate_checkbox"
+			position = { x = 59 y = 77 }
+			quadTextureSprite ="GFX_tech_ai"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		
+		##### DOCTRINES BUTTONS #####
+
+		guiButtonType = {
+			name = "techtree_nato_doctrine1_folder"
+			position = { x = 321 y = 71 }
+			quadTextureSprite = "GFX_doc_nato"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_nato_doctrine1_folder_text"
+			position = { x = 306 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "NATO_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "techtree_warsaw_doctrine1_folder"
+			position = { x = 395 y = 71 }
+			quadTextureSprite = "GFX_doc_wp"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_warsaw_doctrine1_folder_text"
+			position = { x = 380 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "WP_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "techtree_combined_doctrine1_folder"
+			position = { x = 469 y = 71 }
+			quadTextureSprite = "GFX_doc_neutral_specific"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_combined_doctrine1_folder_text"
+			position = { x = 455 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "COMBINED_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "techtree_land_doctrine1_folder"
+			position = { x = 543 y = 71 }
+			quadTextureSprite = "GFX_doc_front"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_land_doctrine1_folder_text"
+			position = { x = 540 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "FRONTDOC_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "techtree_land_doctrine2_folder"
+			position = { x = 626 y = 71 }
+			quadTextureSprite = "GFX_doc_assy"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_land_doctrine2_folder_text"
+			position = { x = 626 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "ASYMMETRIC_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "techtree_naval_doctrine1_folder"
+			position = { x = 713 y = 71 }
+			quadTextureSprite = "GFX_doc_naval_surface"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_naval_doctrine1_folder_text"
+			position = { x = 708 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "SURFACE_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+			
+		guiButtonType = {
+			name = "techtree_naval_doctrine2_folder"
+			position = { x = 796 y = 71 }
+			quadTextureSprite = "GFX_doc_naval_sub"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_naval_doctrine2_folder_text"
+			position = { x = 790 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "HQSUB_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		
+		guiButtonType = {
+			name = "techtree_air_doctrine1_folder"
+			position = { x = 879 y = 71 }
+			quadTextureSprite = "GFX_doc_air_focus"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_air_doctrine1_folder_text"
+			position = { x = 880 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "AIRFOCUS_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "techtree_air_doctrine2_folder"
+			position = { x = 965 y = 71 }
+			quadTextureSprite = "GFX_doc_air_op"
+		}
+		
+		instantTextBoxType = {
+			name = "techtree_air_doctrine2_folder_text"
+			position = { x = 959 y = 76 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "AIROP_TAB"	
+			maxWidth = 85
+			maxHeight = 32	
+			format = right
+		}
+		
+		
+		
+		#####MAINBUTTONS######
+		
+		
+		guiButtonType = {
+			name = "techtree_general_tech2_folder"
+			position = { x= 320 y = 96 }
+			quadTextureSprite ="GFX_tech_button_science"
+		}
+		
+		guiButtonType = {
+			name = "techtree_industrial_tech1_folder"
+			position = { x = 381 y = 96 }
+			quadTextureSprite ="GFX_tech_button_industrial"
+		}
+		
+		guiButtonType = {
+			name = "techtree_general_tech1_folder"
+			position = { x=442 y = 96 }
+			quadTextureSprite ="GFX_tech_button_secret"
+		}
+		
+		guiButtonType = {
+			name = "techtree_nuclear_tech1_folder"
+			position = { x=503 y = 96 }
+			quadTextureSprite ="GFX_tech_button_nuclear"
+		}
+		
+		guiButtonType = {
+			name = "techtree_space_tech1_folder"
+			position = { x=564 y = 96 }
+			quadTextureSprite ="GFX_tech_button_space"
+		}
+		
+		guiButtonType = {
+			name = "techtree_land_tech1_folder"
+			position = { x=625 y = 96 }
+			quadTextureSprite ="GFX_tech_tab_means"
+		}
+		
+		guiButtonType = {
+			name = "techtree_land_tech2_folder"
+			position = { x=686 y = 96 }
+			quadTextureSprite ="GFX_tech_tab_element"
+		}
+	
+		guiButtonType = {
+			name = "techtree_naval_tech3_folder"
+			position = { x=747 y = 96 }
+			quadTextureSprite ="GFX_tech_button_systems"
+		}
+
+		guiButtonType = {
+			name = "techtree_naval_tech1_folder"
+			position = { x = 808 y = 96 }
+			quadTextureSprite ="GFX_tech_button_vessels"			
+		}
+		
+		guiButtonType = {
+			name = "techtree_naval_tech2_folder"
+			position = { x=869 y = 96 }
+			quadTextureSprite ="GFX_tech_button_arms"
+		}
+		
+		guiButtonType = {
+			name = "techtree_air_tech1_folder"
+			position = { x= 930 y = 96 }
+			quadTextureSprite ="GFX_tech_button_model"
+		}
+		
+		guiButtonType = {
+			name = "techtree_air_tech2_folder"
+			position = { x= 991 y = 96 }
+			quadTextureSprite ="GFX_tech_button_parts"
+		}
+		
+		
+		
+		####TECH TREE#####
+		
+		windowType = {
+			name = "tech_tree"
+			backGround =""
+			position = { x= 0 y = 31 }	
+			size = { x=1120 y=768 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+		}		
+		####TECH CATEGORIES#####
+		
+		
+		
+		####TECH DETAILS#####
+		
+		windowType = {
+			name = "tech_details"
+			backGround =""
+			position = { x= 29 y = 536 }	
+			size = { x=1120 y=253 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			iconType =	{
+				name ="detail_bg"
+				spriteType = "GFX_tech_detail_bg"
+				position = { x = 14 y = 31 }
+			}
+			
+			iconType =	{
+				name ="photo"
+				spriteType = "GFX_no_tech_image"
+				position = { x = 35 y = 42 }
+			}
+			
+			iconType =	{
+				name ="paper_clip_icon"
+				spriteType = "GFX_tech_folder_paper_clip"
+				position = { x = 9 y = 140 }
+				Orientation = "UPPER_LEFT"
+			}
+		
+			iconType = {
+				name ="cost_icon"
+				spriteType = "GFX_tech_icon_cost"
+				position = { x= 687 y = 114 }
+			}
+
+			iconType = {
+				name ="time_icon"
+				spriteType = "GFX_spy_action_duration"
+				position = { x= 810 y = 147 }
+			}
+
+			instantTextBoxType = { 
+				name = "name"
+				position = { x = 325 y = 44 }
+				textureFile = ""
+				font = "Jockey_16_paper"
+				borderSize = {x = 0 y = 0}
+				text = "name"	
+				maxWidth = 320
+				maxHeight = 20
+				format = center
+			}
+			
+			instantTextBoxType = {
+				position = { x = 303 y = 72 }
+				name = "desc"
+				font = "Arial12_black"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 350
+				maxHeight = 180
+				orientation = "UPPER_LEFT"
+				format = center
+			}
+			listboxType = {
+				name = "effects"
+				position = { x = 690 y = 45 }
+				# Important to have; otherwise the tooltip for effects
+				# won't show up in the right place. Yes, really...
+				backGround="gfx_transparency"
+				size = { x=316 y = 64 }
+				Orientation = "UPPER_LEFT"
+			#	horisontal = 0
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard_2"
+				borderSize = {x = 0 y = 0}
+			}				
+
+			OverlappingElementsBoxType = {
+				name = "input_box"
+				position = { x = 662 y = 128}
+				size = { x=300 y= 32 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 7.0
+			}
+			
+			OverlappingElementsBoxType = {
+				name = "initial_box"
+				position = { x = 900 y = 118}
+				size = { x=300 y= 32 }
+				Orientation = "UPPER_LEFT"
+				format = left
+				spacing = 7.0
+			}
+			
+			instantTextBoxType = {
+				position = { x = 810 y = 148 }
+				name = "time"
+				font = "Jockey_14_cyan"
+				borderSize = {x = 4 y = 2}
+				text = ""	
+				maxWidth = 76
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			instantTextBoxType = {
+				position = { x = 715 y = 116 }
+				name = "cost"
+				font = "Jockey_14_cyan"
+				borderSize = {x = 4 y = 2}
+				text = ""	
+				maxWidth = 240
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+			}
+			
+			guiButtonType = {
+				name = "start"
+				position = { x=892 y =108 }
+				quadTextureSprite = "GFX_button_build_division"
+				buttonText = ""
+				buttonFont = "Jockey_24_glow_blue"
+			}
+		
+
+			#guiButtonType = {
+			#	name = "close"
+			#	position = { x=1007 y = 43}
+			#	quadTextureSprite ="GFX_tech_selected_close"
+			#	Orientation = "UPPER_LEFT"
+			#}			
+			
+			
+		}
+	}
+	
+	###TOPRIGHT SLIDERS###
+	
+	positionType = {
+		name = "leadership_slider_start"
+		position = { x = 98 y =110 }
+	}
+	positionType = {
+		name = "leadership_slider_offset"
+		position = { x = 0 y =45 }
+	}	
+	
+	###########
+	windowType = {
+		name = "detail_entry"
+		size = { x=310 y= 16 }
+		moveable = 0
+		fullScreen = no	
+		
+		instantTextBoxType = {
+			name = "text"
+			font = "Arial12"
+			maxWidth = 330
+			maxHeight = 16
+			format = left
+			orientation = "UPPER_LEFT"
+		}
+	}
+
+	windowType = {
+		name = "single_resource_item"
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 60 y = 30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = 0
+		verticalBorder = 0
+		fullScreen = no
+		
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_icon_uranium_small"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 30 y = 10 }
+			name = "amount"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 15
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			allwaystransparent = yes
+		}
+	}
+		
+	
+#################################################################################
+#Current Research
+#################################################################################	
+	windowType = {
+		name = "current_research_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=360 y= 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= 4
+		verticalBorder= 4
+		fullScreen = no	
+
+		# Want green to show by default (to avoid flash) since we add
+		# techs unpaused, so place red one under it
+		guiButtonType =
+		{
+			name ="bg_current_red"
+			quadTextureSprite = "GFX_tech_current_red"
+			position = { x= 7 y = 1 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+		
+		guiButtonType = {
+			name = "red_cancel"
+			position = { x=213 y = 6}
+			quadTextureSprite ="GFX_tech_red_stop_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}			
+		
+		guiButtonType =
+		{
+			name ="bg_current_green"
+			quadTextureSprite = "GFX_tech_current_green"
+			position = { x= 7 y = 1 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+
+		guiButtonType = {
+			name = "green_cancel"
+			position = { x=213 y = 6}
+			quadTextureSprite ="GFX_tech_stop_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+
+		
+		iconType =
+		{
+			name ="progress"
+			spriteType = "tech_progress_current"
+			position = { x= 15 y = 9 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		
+		iconType =
+		{
+			name ="overlay_short"
+			spriteType = "GFX_tech_plate_overlay_short"
+			position = { x=12 y = 6 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			position = { x = 10 y = 5}
+			name = "name"
+			font = "Jockey_14_dark"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 190
+			maxHeight = 16
+			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			allwaystransparent = yes
+			format = left
+		}
+		
+		instantTextBoxType = {
+			position = { x = 3 y = 30 }
+			name = "data"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 90
+			maxHeight = 16
+			orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+			format = center
+		}
+		
+		instantTextBoxTYpe = {
+			position = { x = 171 y = 30 }
+			name = "funding"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 40
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+			text = "money"
+			format = centre
+		}
+		
+		OverlappingElementsBoxType = {
+			name = "input_box"
+			position = { x = 69 y = 12}
+			size = { x=100 y= 32 }
+			Orientation = "UPPER_LEFT"
+			format = left
+			spacing = 0.5
+		#	allwaystransparent = yes
+		}
+		
+		guiButtonType = {
+			name = "speed_indicator"
+			position = { x = 185 y = 6 }
+			quadTextureSprite = "GFX_tech_speed_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		
+	}
+	
+	
+#################################################################################
+# Techcategory entry
+#################################################################################	
+	windowType = {
+		name = "tech_category_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=17 y= 20 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		
+		iconType =
+		{
+			name ="tech_icon"
+			spriteType = "GFX_unit_supplies_icon"
+			position = { x= 18 y = 16}
+			Orientation = "UPPER_LEFT"
+			
+		}			
+		
+	}	
+	
+#################################################################################
+#Current Goals
+#################################################################################	
+	windowType = {
+		name = "current_goal_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=360 y= 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= 4
+		verticalBorder= 4
+		fullScreen = no	
+
+		iconType =
+		{
+			name ="goal_bg_red"
+			spriteType = "GFX_goal_plate_red"
+			position = { x= 7 y = 1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="goal_bg"
+			spriteType = "GFX_goal_plate"
+			position = { x= 7 y = 1 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "red_cancel"
+			position = { x= 213 y = 6 }
+			quadTextureSprite ="GFX_tech_red_stop_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}			
+
+		guiButtonType = {
+			name = "green_cancel"
+			position = { x= 213 y = 6 }
+			quadTextureSprite ="GFX_tech_stop_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}		
+
+		iconType = {
+			name ="folder_icon"
+			spriteType = "GFX_folder_icon_small"
+			position = { x= 13 y = 26 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			position = { x = 12 y = 9 }
+			name = "name"
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 190
+			maxHeight = 16
+			orientation = "UPPER_LEFT"
+			fixedsize = yes
+			allwaystransparent = yes
+			format = left
+		}
+		
+		instantTextBoxType = {
+			position = { x = -15 y = 30 }
+			name = "data"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 82
+			maxHeight = 16
+			orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+			format = right
+		}
+		
+		instantTextBoxType = {
+			position = { x = 50 y = 30 }
+			name = "funding"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 100
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+			text = ""
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "priority_btn"
+			position = { x = 188 y = 12 }
+			quadTextureSprite = "GFX_goal_priority"
+			buttonFont = "Arial12"
+		}
+		
+		OverlappingElementsBoxType = {
+			name = "input_box"
+			position = { x = 60 y = 12}
+			size = { x=100 y= 32 }
+			Orientation = "UPPER_LEFT"
+			format = left
+			spacing = 1.0
+		}
+
+		
+	}
+
+	
+#################################################################################
+# Techcategory skill entry
+#################################################################################	
+	windowType = {
+		name = "tech_category_skill_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=32 y= 31 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		
+		iconType =
+		{
+			name ="tech_cat_icon"
+			spriteType = "GFX_unit_supplies_icon"
+			position = { x= 23 y = 13}
+			Orientation = "UPPER_LEFT"
+			
+		}
+
+		iconType =
+		{
+			name ="tech_skill_indicator"
+			spriteType = "GFX_tech_skill_indicator"
+			position = { x= 46 y = 13}
+			Orientation = "UPPER_LEFT"
+			
+		}		
+
+		instantTextBoxType = {
+			position = { x = 50 y = 17 }
+			name = "skill"
+			font = "Arial12_alpha"
+			borderSize = {x = 4 y = 2}
+			text = ""	
+			maxWidth = 40
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+		}		
+	}	
+
+#################################################################################
+# Tech tree entry
+#################################################################################	
+	windowType = {
+		name = "tech_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=260 y= 30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+				
+		guiButtonType =
+		{
+			name ="bg_oneshot"
+			quadTextureSprite = "GFX_tech_oneshot"
+			position = { x= 2 y = -4}
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =
+		{
+			name ="bg_endless"
+			quadTextureSprite = "GFX_tech_endless"
+			position = { x= 2 y = -4}
+			Orientation = "UPPER_LEFT"
+			
+		}
+		guiButtonType =
+		{
+			name ="bg_cant"
+			quadTextureSprite = "GFX_tech_cant"
+			position = { x= 2 y = -4}
+			Orientation = "UPPER_LEFT"
+			
+		}
+		guiButtonType =
+		{
+			name ="bg_researching"
+			quadTextureSprite = "GFX_tech_researching"
+			position = { x= 2 y = -4}
+			Orientation = "UPPER_LEFT"
+			
+		}
+		guiButtonType =
+		{
+			name ="bg_finnished"
+			quadTextureSprite = "GFX_tech_finnished"
+			position = { x= 2 y = -4}
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType =
+		{
+			name = "bg_goal_selected"
+			quadTextureSprite = "GFX_tech_goal_selected"
+			position = { x= 2 y = -4}
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="progress"
+			spriteType = "tech_progress"
+			position = { x= 10 y = 4 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		
+		iconType =
+		{
+			name "overlay_long"
+			spriteType = "GFX_tech_plate_overlay_long"
+			position = { x= 7 y = 1 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		
+		iconType =
+		{
+			name = "glowing_goal"
+			spriteType = "GFX_goal_glow"
+			position = { x= 0 y = -6 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+
+		
+		OverlappingElementsBoxType = {
+			name = "initial_box"
+			position = { x = 116 y = -5}
+			size = { x=150 y= 32 }
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		instantTextBoxType = {
+			position = { x = 8 y = 2 }
+			name = "name"
+			font = "Arial_11_bold_black"
+			borderSize = {x = 4 y = 2}
+			text = ""	
+			maxWidth = 220
+			maxHeight = 20
+			orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+			format = left
+			fixedsize = yes			
+		}
+		
+		OverlappingElementsBoxType = {
+			name = "input_box"
+			position = { x = -10 y = 4}
+			size = { x=92 y= 32 }
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		instantTextBoxType = {
+			position = { x = 85 y = 23 }
+			name = "cost"
+			font = "Arial12"
+			borderSize = { x = 0 y = 0 }
+			text = "10000"
+			maxWidth = 60
+			maxHeight = 20
+			format = centre
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = no
+		}
+		
+		instantTextBoxType = {
+			position = { x = 163 y = 23 }
+			name = "time"
+			font = "Arial12"
+			borderSize = { x = 0 y = 0 }
+			text = "123"
+			maxWidth = 60
+			maxHeight = 20
+			format = centre
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = no
+		}
+		
+		instantTextBoxType = {
+			position = { x = 167 y = 22 }
+			name = "year"
+			font = "arial_18"
+			borderSize = {x = 4 y = 2}
+			text = "1936"	
+			maxWidth = 60
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+	
+	}
+	
+#################################################################################
+# NATO Doctrines
+#################################################################################
+positionType = {
+		name = "nato_integrated_mil_structure_position"
+		position = { x = 320 y = 110 }
+	}
+
+positionType = {
+		name = "nato_political_pluralism_position"
+		position = { x = 320 y = 160 }
+	}	
+		
+positionType = {
+		name = "nato_joint_nonpoliticalcontrol_position"
+		position = { x = 320 y = 210 }
+	}
+
+positionType = {
+		name = "nuclearmissilecruiser_doctrine_position"
+		position = { x = 820 y = 380 }
+}
+	
+positionType = {
+		name = "supercarrier_doctrine_position"
+		position = { x = 820 y = 430 }
+}
+	
+
+positionType = {
+		name = "naval_combat_system_position"
+		position = { x = 820 y = 480 }
+	}
+	
+	
+positionType = {
+		name = "nato_rational_choice_theory_position"
+		position = { x = 320 y = 330 }
+	}	
+	
+positionType = {
+		name = "nato_efficient_markethypothesis_position"
+		position = { x = 320 y = 380 }
+	}	
+
+positionType = {
+		name = "nato_planned_obsolescence_position"
+		position = { x = 570 y = 380 }
+	}
+
+positionType = {
+		name = "nato_consumerism_position"
+		position = { x = 570 y = 480 }
+	}
+
+positionType = {
+		name = "nato_keynesian_economics_position"
+		position = { x = 320 y = 430 }
+	}	
+	
+positionType = {
+		name = "nato_greatsociety_position"
+		position = { x = 570 y = 430 }
+	}		
+
+positionType = {
+		name = "nato_supplyside_economics_position"
+		position = { x = 320 y = 480 }
+	}		
+	
+positionType = {
+		name = "nato_containment_doctrine_position"
+		position = { x = 820 y = 110 }
+	}	
+	
+positionType = {
+		name = "nato_radio_liberty_position"
+		position = { x = 820 y = 160 }
+	}	
+	
+positionType = {
+		name = "nato_loyalty_program_position"
+		position = { x = 820 y = 210 }
+	}	
+	
+positionType = {
+		name = "nato_peacethroughpartnership_position"
+		position = { x = 570 y = 110 }
+	}	
+
+positionType = {
+		name = "nato_rollback_doctrine_position"
+		position = { x = 570 y = 160 }
+	}	
+
+positionType = {
+		name = "nato_duckandcover_position"
+		position = { x = 570 y = 210 }
+	}	
+	
+	
+
+
+#################################################################################
+# Warsaw Pact Doctrines
+#################################################################################
+
+positionType = {
+		name = "warsaw_historical_materialism_position"
+		position = { x = 410 y = 110 }
+	}
+	
+positionType = {
+		name = "warsaw_dialectical_materialism_position"
+		position = { x = 710 y = 110 }
+	}	
+	
+	
+positionType = {
+		name = "warsaw_marxist-leninist_doctrine_position"
+		position = { x = 320 y = 160 }
+	}		
+
+positionType = {
+		name = "warsaw_permanent_revolution_position"
+		position = { x = 320 y = 210 }
+	}	
+	
+positionType = {
+		name = "warsaw_democratic_centralism_position"
+		position = { x = 320 y = 260 }
+	}		
+	
+	
+	
+positionType = {
+		name = "warsaw_stalinist_doctrine_position"
+		position = { x = 570 y = 160 }
+	}		
+	
+positionType = {
+		name = "warsaw_socialism_in_one_country_position"
+		position = { x = 570 y = 210 }
+	}	
+
+positionType = {
+		name = "warsaw_cult_of_personality_position"
+		position = { x = 570 y = 260 }
+	}	
+	
+	
+	
+positionType = {
+		name = "warsaw_maoist_doctrine_position"
+		position = { x = 820 y = 160 }
+	}		
+
+positionType = {
+		name = "warsaw_new_democratic_revolution_position"
+		position = { x = 820 y = 210 }
+	}	
+
+positionType = {
+		name = "warsaw_cultural_revolution_position"
+		position = { x = 820 y = 260 }
+	}		
+
+
+positionType = {
+		name = "warsaw_thought_reform_position"
+		position = { x = 320 y = 380 }
+	}
+
+positionType = {
+		name = "warsaw_young_pioneer_position"
+		position = { x = 320 y = 480 }
+	}
+
+positionType = {
+		name = "warsaw_political_commissars_position"
+		position = { x = 320 y = 430 }
+	}	
+	
+	
+positionType = {
+		name = "torpedoes_supercavitating_position"
+		position = { x = 570 y = 480 } 
+	}
+	
+positionType = {
+		name = "antishipmissile_shortrange_supersonic_position"
+		position = { x = 570 y = 380 }
+	}
+	
+positionType = {
+		name = "antishipmissile_longrange_supersonic_position"
+		position = { x = 570 y = 430 }
+	}
+
+positionType = {
+		name = "unit_submarine_superlarge_position"
+		position = { x = 820 y = 480 }
+	}
+	
+positionType = {
+		name = "nuclearbattlecruiser_doctrine_position"
+		position = { x = 820 y = 430 }
+	}
+	
+#################################################################################
+# Combined Tech Tree
+#################################################################################	
+
+positionType = {
+		name = "comb_supreme_leader_position"
+		position = { x = 440 y = 110 }
+	}
+
+positionType = {
+		name = "comb_theocratic_doctrine_position"
+		position = { x = 320 y = 160 }
+	}
+	
+positionType = {
+		name = "comb_religious_police_position"
+		position = { x = 320 y = 210 }
+	}
+
+positionType = {
+		name = "comb_holywar_position"
+		position = { x = 320 y = 260 }
+	}
+	
+positionType = {
+		name = "comb_fascist_doctrine_position"
+		position = { x = 570 y = 160 }
+	}	
+
+positionType = {
+		name = "comb_national_identity_position"
+		position = { x = 570 y = 210 }
+	}	
+
+positionType = {
+		name = "comb_thought_reform_position"
+		position = { x = 570 y = 260 }
+	}	
+
+positionType = {
+		name = "comb_youth_movement_position"
+		position = { x = 570 y = 310 }
+	}		
+	
+positionType = {
+		name = "comb_informal_control_position"
+		position = { x = 810 y = 160 }
+	}		
+	
+positionType = {
+		name = "comb_foreign_legion_position"
+		position = { x = 810 y = 210 }
+	}	
+	
+positionType = {
+		name = "comb_colonial_army_position"
+		position = { x = 810 y = 260 }
+	}	
+	
+positionType = {
+		name = "comb_paramilitary_recruitment_position"
+		position = { x = 560 y = 450 }
+	}		
+		
+#################################################################################
+# Land1 Doctrine - Front
+#################################################################################
+
+	positionType = {
+		name = "centralized_command_and_control_position"
+		position = { x = 570 y =110 }
+	}
+	
+	positionType = {
+		name = "mass_firepower_position"
+		position = { x = 320 y = 160 }
+	}
+	positionType = {
+		name = "attrition_warfare_position"
+		position = { x = 320 y = 210 }
+	}	
+	
+	positionType = {
+		name = "military_deception_position"
+		position = { x = 570 y = 160 }
+	}
+	positionType = {
+		name = "shock_attacks_position"
+		position = { x = 570 y =210 }
+	}	
+	positionType = {
+		name = "infiltration_tactics_position"
+		position = { x = 570 y =260 }
+	}	
+	positionType = {
+		name = "specialist_tactics_position"
+		position = { x = 570 y =310 }
+	}	
+
+	positionType = {
+		name = "maneuver_warfare_position"
+		position = { x = 320 y =310 }
+	}	
+	positionType = {
+		name = "mechanized_warfare_position"
+		position = { x = 320 y =360 }
+	}
+		
+	positionType = {
+		name = "hedgehog_defense_position"
+		position = { x = 450 y =410 }
+	}
+	positionType = {
+		name = "elastic_defense_position"
+		position = { x = 690 y =410 }
+	}
+	positionType = {
+		name = "psychological_warfare_position"
+		position = { x = 570 y =460 }
+	}
+	
+	positionType = {
+		name = "linear_fire_and_movement_position"
+		position = { x = 820 y =160 }
+	}
+	positionType = {
+		name = "indirect_artillery_fire_position"
+		position = { x = 820 y =210 }
+	}
+	
+	positionType = {
+		name = "human_wave_attack_position"
+		position = { x = 820 y =310 }
+	}
+	positionType = {
+		name = "swarming_tactics_position"
+		position = { x = 820 y =360 }
+	}
+	
+#################################################################################
+# Land2 Doctrine - Asymmetric
+#################################################################################
+
+
+	positionType = {
+		name = "asymmetric_warfare_position"
+		position = { x = 570 y = 110 }
+	}
+
+	positionType = {
+		name = "low_intensity_operations_position"
+		position = { x = 320 y = 160 }
+	}
+	positionType = {
+		name = "inkspot_strategy_position"
+		position = { x = 320 y = 210 }
+	}
+	positionType = {
+		name = "flypaper_strategy_position"
+		position = { x = 320 y = 260 }
+	}
+	positionType = {
+		name = "recondo_school_position"
+		position = { x = 320 y = 310 }
+	}
+	
+	positionType = {
+		name = "guerrilla_war_warfare_position"
+		position = { x = 820 y = 160 }
+	}
+	positionType = {
+		name = "bait_tactics_position"
+		position = { x = 820 y = 210 }
+	}
+	positionType = {
+		name = "propaganda_warfare_position"
+		position = { x = 820 y = 260 }
+	}
+	positionType = {
+		name = "two_belt_defense_system_position"
+		position = { x = 820 y = 310 }
+	}
+	positionType = {
+		name = "one_slow_four_quick_position"
+		position = { x = 820 y = 360 }
+	}
+	
+#################################################################################
+# Land Tech 1 - Capability
+#################################################################################	
+	
+	positionType = {
+		name = "amphibious_capability_position"
+		position = { x = 820 y =160 }
+	}
+	positionType = {
+		name = "arctic_equipment_position"
+		position = { x = 820 y = 210}
+	}	
+	positionType = {
+		name = "desert_capability_position"
+		position = { x = 820 y =110 }
+	}
+	positionType = {
+		name = "jungle_capability_position"
+		position = { x = 820 y =260 }
+	}
+	positionType = {
+		name = "mountain_capability_position"
+		position = { x = 820 y =310 }
+	}
+	positionType = {
+		name = "night_vision_position"
+		position = { x = 820 y =430 }
+	}
+	positionType = {
+		name = "engineering_equipment_position"
+		position = { x = 820 y =360 }
+	}
+
+	positionType = {
+		name = "battlefield_medicine_position"
+		position = { x = 430 y =480 }
+	}	
+
+	positionType = {
+		name = "light_engine_position"
+		position = { x = 320 y =130 }
+	}
+	positionType = {
+		name = "medium_engine_position"
+		position = { x = 320 y =230 }
+	}
+	positionType = {
+		name = "heavy_engine_position"
+		position = { x = 320 y =330 }
+	}
+
+	positionType = {
+		name = "light_armor_position"
+		position = { x = 560 y =130 }
+	}
+	positionType = {
+		name = "medium_armor_position"
+		position = { x = 560 y =230 }
+	}
+	positionType = {
+		name = "heavy_armor_position"
+		position = { x = 560 y =330 }
+	}
+positionType = {
+		name = "comb_technicals_position"
+		position = { x = 430 y = 180 }
+	}	
+
+positionType = {
+		name = "comb_improved_vehic_armor_position"
+		position = { x = 430 y = 280 }
+	}		
+	positionType = {
+		name = "body_armor_position"
+		position = { x = 820 y =480 }
+	}
+	
+#################################################################################
+# Land Tech 2 - Element
+#################################################################################	
+	
+	positionType = {
+		name = "small_arms_position"
+		position = { x = 320 y = 110 }
+	}
+	positionType = {
+		name = "crew_served_weapons_position"
+		position = { x = 320 y = 160 }
+	}	
+	positionType = {
+		name = "aircraftweapons_guns_position"
+		position = { x = 320 y = 210 }
+	}
+	positionType = {
+		name = "aircraftweapons_multibarrelguns_position"
+		position = { x = 320 y = 260 }
+	}
+	positionType = {
+		name = "aircraftweapons_heavyrotarycannon_position"
+		position = { x = 320 y = 310 }
+	}
+	
+	positionType = {
+		name = "explosives_position"
+		position = { x = 710 y = 130 }
+	}
+	positionType = {
+		name = "anti_tank_position"
+		position = { x = 590 y =180 }
+	}
+	positionType = {
+		name = "battle_tank_position"
+		position = { x = 430 y =380 }
+	}
+		
+	positionType = {
+		name = "light_artillery_position"
+		position = { x = 820 y =180 }
+	}
+	positionType = {
+		name = "medium_artillery_position"
+		position = { x = 820 y =230 }
+	}
+	positionType = {
+		name = "heavy_artillery_position"
+		position = { x = 820 y =280 }
+	}
+	
+	positionType = {
+		name = "rocket_artillery_position"
+		position = { x = 820 y = 330 }
+	}	
+		
+	positionType = {
+		name = "generalmissiledesign_position"
+		position = { x = 590 y = 230 }
+	}			
+
+	positionType = {
+		name = "light_anti_air_position"
+		position = { x = 320 y = 480 }
+	}
+	positionType = {
+		name = "medium_anti_air_position"
+		position = { x = 570 y = 480 }
+	}
+	positionType = {
+		name = "heavy_anti_air_position"
+		position = { x = 820 y = 480 }
+	}
+	
+	positionType = {
+		name = "aircraftweapons_aamissiles_position"
+		position = { x = 590 y = 280 }
+	}
+	positionType = {
+		name = "aircraftweapons_agordinance_position"
+		position = { x = 590 y = 330 }
+	}
+	
+	positionType = {
+		name = "aircraftweapons_napalm_position"
+		position = { x = 590 y = 380 }
+	}
+#################################################################################
+# Naval Doctrines: Surface Vessels Tree
+#################################################################################
+
+positionType = {
+		name = "battlegroup_strikeoperations_position"
+		position = { x = 570 y = 110 }
+	}
+
+positionType = {
+		name = "battlegroup_missilebattlegroup_position"
+		position = { x = 570 y = 160 }
+	}
+	
+positionType = {
+		name = "battlegroup_closeescort_position"
+		position = { x = 320 y = 130 }
+	}
+	
+positionType = {
+		name = "battlegroup_systemcoordination_position"
+		position = { x = 570 y = 430 }
+	}
+	
+positionType = {
+		name = "battlegroup_optimalcoveragepositioning_position"
+		position = { x = 320 y = 180 }
+	}
+	
+positionType = {
+		name = "carriergroup_carrierstrikegroup_position"
+		position = { x = 820 y = 130 }
+	}
+	
+positionType = {
+		name = "carriergroup_constantairbornesurveillance_position"
+		position = { x = 820 y = 180 }
+	}
+	
+positionType = {
+		name = "carriergroup_extendedfleetsupply_position"
+		position = { x = 820 y = 480 }
+	}
+	
+positionType = {
+		name = "carriergroup_aircraftpatrolpatterns_position"
+		position = { x = 820 y = 230 }
+	}
+	
+	positionType = {
+		name = "aircommand_simplicityprinciple_position"
+		position = { x = 820 y = 330 }
+	}
+	
+positionType = {
+		name = "carriergroup_scramble_drill_position"
+		position = { x = 820 y = 280 }
+	}
+	
+positionType = {
+		name = "escort_submarinehunting_position"
+		position = { x = 320 y = 230 }
+	}
+	
+positionType = {
+		name = "escort_swiftpatrolswarm_position"
+		position = { x = 320 y = 280 }
+	}
+	
+positionType = {
+		name = "missileboatcoastalfleet_position"
+		position = { x = 320 y = 480 }
+	}
+	
+positionType = {
+		name = "escort_responsereadygroup_position"
+		position = { x = 320 y = 330 }
+	}
+	
+positionType = {
+		name = "escort_dynamiccombattempotraining_position"
+		position = { x = 320 y = 500 }
+	}
+	
+positionType = {
+		name = "escort-battlegroup_surfaceengagementpositioning_position"
+		position = { x = 570 y = 210 }
+	}
+	
+positionType = {
+		name = "escort-battlegroup_denyenemyfreedomofaction_position"
+		position = { x = 570 y = 260 }
+	}
+	
+positionType = {
+		name = "escort-battlegroup_acceptablerisk_position"
+		position = { x = 570 y = 310 }
+	}
+	
+positionType = {
+		name = "amphibious_amphibiousoperations_position"
+		position = { x = 570 y = 480 }
+	}
+	
+#################################################################################
+# Naval Doctrines: Joint and Submarines Tree
+#################################################################################
+
+positionType = {
+		name = "joint_interserviceoperability_position"
+		position = { x = 320 y = 110 }
+	}
+	
+positionType = {
+		name = "joint_fleetcommandsystem_position"
+		position = { x = 320 y = 160 }
+	}
+	
+positionType = {
+		name = "joint_fleetsupply_position"
+		position = { x = 320 y = 210 }
+	}
+	
+positionType = {
+		name = "joint_selfsustainability_position"
+		position = { x = 320 y = 260 }
+	}
+	
+positionType = {
+		name = "joint_systemcompatibiliity_position"
+		position = { x = 320 y = 310 }
+	}
+	
+positionType = {
+		name = "joint_warliketraining_position"
+		position = { x = 320 y = 360 }
+	}
+	
+positionType = {
+		name = "joint_contingencyplanning_position"
+		position = { x = 320 y = 410 }
+	}
+	
+positionType = {
+		name = "joint_criticalvulnerability_position"
+		position = { x = 700 y = 110 }
+	}
+	
+positionType = {
+		name = "hksubs_strikeoperations_position"
+		position = { x = 820 y = 160 }
+	}
+	
+positionType = {
+		name = "allsubs_autonomousoperations_position"
+		position = { x = 820 y = 210 }
+	}
+	
+positionType = {
+		name = "hksubs_submarineescorting_position"
+		position = { x = 580 y = 410 }
+	}
+	
+positionType = {
+		name = "hksubs_surfacevesselescorting_position"
+		position = { x = 820 y = 410 }
+	}
+	
+positionType = {
+		name = "hksubs_planning_dynamiccombattempotraining_position"
+		position = { x = 700 y = 460 }
+	}
+	
+positionType = {
+		name = "hksubs-surfacesubs_sensoryandweaponscommand_position"
+		position = { x = 700 y = 310 }
+	}
+	
+positionType = {
+		name = "hksubs-surfacesubs_satellitecommequipment_position"
+		position = { x = 700 y = 360 }
+	}
+	
+positionType = {
+		name = "tacticalstrikesubs-surfacesubs_coordinatedoperations_position"
+		position = { x = 580 y = 160 }
+	}
+	
+positionType = {
+		name = "allsubs_silentoperations_position"
+		position = { x = 580 y = 210 }
+	}
+	
+positionType = {
+		name = "tacticalstrikesubs_firstsecondstrikecapable_position"
+		position = { x = 700 y = 260 }
+	}
+		
+#################################################################################
+# Naval Vessels Tech Tree
+#################################################################################
+
+positionType = {
+		name = "unit_carrier_position"
+		position = { x = 820 y = 130 }
+	}
+	
+positionType = {
+		name = "unit_helicoptercarrier_position"
+		position = { x = 820 y = 180 }
+	}
+	
+positionType = {
+		name = "unit_supercarrier_position"
+		position = { x = 820 y = 230 }
+	}
+	
+positionType = {
+		name = "unit_cruiser_position"
+		position = { x = 570 y = 130 }
+	}
+	
+positionType = {
+		name = "unit_missilecruiser_position"
+		position = { x = 570 y = 180 }
+	}
+	
+positionType = {
+		name = "unit_nuclearmissilecruiser_position"
+		position = { x = 570 y = 230 }
+	}
+	
+positionType = {
+		name = "unit_nuclearbattlecruiser_position"
+		position = { x = 570 y = 280 }
+}
+
+	
+positionType = {
+		name = "unit_destroyer_position"
+		position = { x = 320 y = 130 }
+	}
+	
+positionType = {
+		name = "unit_missiledestroyer_position"
+		position = { x = 320 y = 180 }
+	}
+	
+positionType = {
+		name = "unit_missilefrigate_position"
+		position = { x = 320 y = 230 }
+	}
+	
+positionType = {
+		name = "unit_missileboat_position"
+		position = { x = 320 y = 290 }
+	}
+	
+positionType = {
+		name = "unit_submarine_ww2_position"
+		position = { x = 460 y = 380 }
+	}	
+	
+positionType = {
+		name = "unit_submarine_teardrop_position"
+		position = { x = 700 y = 380 }
+	}
+	
+positionType = {
+		name = "unit_submarine_attack_position"
+		position = { x = 460 y = 430 }
+	}
+	
+positionType = {
+		name = "unit_nuclearsubmarine_attack_position"
+		position = { x = 320 y = 480 }
+	}
+	
+positionType = {
+		name = "unit_submarine_missile_position"
+		position = { x = 700 y = 430 }
+	}
+	
+positionType = {
+		name = "unit_nuclearsubmarine_missile_position"
+		position = { x = 570 y = 480 }
+	}
+	
+positionType = {
+		name = "unit_ballistic_missile_submarine_position"
+		position = { x = 820 y = 480 }
+	}
+	
+#################################################################################
+# Naval Components Tech Tree
+#################################################################################
+
+# PROPULSIONS
+	
+positionType = {
+		name = "propulsion_steam_position"
+		position = { x = 440 y = 330 }
+	}
+	
+positionType = {
+		name = "propulsion_gas_position"
+		position = { x = 440 y = 280 }
+	}
+	
+positionType = {
+		name = "propulsion_diesel_surface_40s_position"
+		position = { x = 320 y = 230 }
+	}
+	
+positionType = {
+		name = "propulsion_diesel_submarine_position"
+		position = { x = 560 y = 230 }
+	}
+	
+positionType = {
+		name = "propulsion_nuclear_position"
+		position = { x = 440 y = 380 }
+	}
+	
+positionType = {
+		name = "propulsion_nuclear_surface_position"
+		position = { x = 320 y = 480 }
+	}
+
+positionType = {
+		name = "nuclearpropulsion_trials_surfacevessel_position"
+		position = { x = 320 y = 430 }
+	}
+	
+positionType = {
+		name = "propulsion_nuclear_submarine_position"
+		position = { x = 560 y = 480 }
+	}
+	
+positionType = {
+		name = "nuclearpropulsion_trials_submarine_position"
+		position = { x = 560 y = 430 }
+	}
+
+# SENSORS
+	
+positionType = {
+		name = "radarsystem_airsearch_position"
+		position = { x = 820 y = 110 }
+	}
+	
+positionType = {
+		name = "radarsystem_surfacesearch_position"
+		position = { x = 820 y = 155 }
+	}
+	
+positionType = {
+		name = "radarsystem_3dsearch_position"
+		position = { x = 820 y = 200 }
+}
+	
+positionType = {
+		name = "sonarsystem_position"
+		position = { x = 820 y = 320 }
+}
+	
+positionType = {
+		name = "towed_sonarsystem_position"
+		position = { x = 820 y = 370 }
+}
+	
+positionType = {
+		name = "torpedodefensesystem_position"
+		position = { x = 560 y = 130 }
+}
+	
+positionType = {
+		name = "helicopterplatform_position"
+		position = { x = 320 y = 130 }
+}
+	
+	
+#################################################################################
+# Naval Weapons Tech Tree
+#################################################################################
+	
+	positionType = {
+		name = "conventionalnavalgun_position"
+		position = { x = 320 y = 110 }
+	}
+	
+	positionType = {
+		name = "targetingsystems_position"
+		position = { x = 320 y = 160 }
+	}
+	
+	positionType = {
+		name = "closedefense_position"
+		position = { x = 320 y = 210 }
+	}	
+	
+	positionType = {
+		name = "launcher_vls_position"
+		position = { x = 580 y = 130 }
+	}
+	
+positionType = {
+		name = "launcher_submarine_surfacefire_position"
+		position = { x = 820 y = 130 }
+	}
+	
+positionType = {
+		name = "launcher_submarine_submergefire_large_position"
+		position = { x = 820 y = 180 }
+	}	
+
+positionType = {
+		name = "navalvessel_missilecomplex_trials_position"
+		position = { x = 680 y = 260 }
+	}
+	
+positionType = {
+		name = "antiairmissile_shortrange_position"
+		position = { x = 820 y = 310 }
+	}
+	
+positionType = {
+		name = "antiairmissile_mediumrange_position"
+		position = { x = 820 y = 360 }
+	}
+	
+positionType = {
+		name = "antiairmissile_longrange_position"
+		position = { x = 820 y = 410 }
+	}
+
+positionType = {
+		name = "antishipmissile_shortrange_position"
+		position = { x = 580 y = 310 }
+	}
+	
+positionType = {
+		name = "antishipmissile_longrange_position"
+		position = { x = 580 y = 360 }
+	}
+	
+positionType = {
+		name = "landattackmissile_position"
+		position = { x = 580 y = 410 }
+	}
+	
+positionType = {
+		name = "antisub_missile_position"
+		position = { x = 820 y = 460 }
+	}
+	
+positionType = {
+		name = "antisub_torpedorocket_position"
+		position = { x = 580 y = 460 }
+	}
+	
+positionType = {
+		name = "torpedoes_position"
+		position = { x = 320 y = 330 }
+	}
+	
+positionType = {
+		name = "launcher_torpedotubes_533_650_position"
+		position = { x = 320 y = 380 }
+	}
+	
+positionType = {
+		name = "launcher_torpedotubes_external_position"
+		position = { x = 320 y = 430 }
+	}
+	
+positionType = {
+		name = "launcher_torpedotubes_surface_position"
+		position = { x = 320 y = 480 }
+	}
+
+#################################################################################
+# Air Doctrines1 Tree - Air Focus
+#################################################################################
+	
+	positionType = {
+		name = "aircommand_objectiveprinciple_position"
+		position = { x = 570 y = 110 }
+	}
+
+	positionType = {
+		name = "aircommand_unityofcommandprinciple_position"
+		position = { x = 570 y = 250 }
+	}
+	
+	positionType = {
+		name = "airintelops_awacsc2doctrine_position"
+		position = { x = 570 y = 300 }
+	}	
+	
+	positionType = {
+		name = "aircommand_offensiveprinciple_position"
+		position = { x = 320 y = 380 }
+	}
+	
+	positionType = {
+		name = "aircommand_massprinciple_position"
+		position = { x = 570 y = 380 }
+	}
+
+	positionType = {
+		name = "pilotfocus_areabombingtraining_position"
+		position = { x = 570 y = 430 }
+	}
+	
+	positionType = {
+		name = "pilotfocus_lowlevelops_position"
+		position = { x = 570 y = 480 }
+	}	
+	
+	positionType = {
+		name = "aircommand_maneuverprinciple_position"
+		position = { x = 820 y = 380 }
+	}
+	
+	positionType = {
+		name = "aircommand_economyofforceprinciple_position"
+		position = { x = 320 y = 110 }
+	}
+	
+	positionType = {
+		name = "aircommand_securityprinciple_position"
+		position = { x = 320 y = 160 }
+	}
+	
+	positionType = {
+		name = "aircommand_surpriseprinciple_position"
+		position = { x = 820 y = 160 }
+	}
+	
+	positionType = {
+		name = "aircombatops_offensiveairsuperioritydoctrine_position"
+		position = { x = 320 y = 430 }
+	}
+	
+	positionType = {
+		name = "aircombatops_defensiveinterceptiondoctrine_position"
+		position = { x = 820 y = 480 }
+	}
+	
+	positionType = {
+		name = "aircombatops_wildweaseloperations_position"
+		position = { x = 320 y = 480 }
+	}
+	
+	positionType = {
+		name = "aircombatops_armydirectedbombing_position"
+		position = { x = 320 y = 210 }
+	}
+	
+#################################################################################
+# Air Doctrines2 Tree - Air Ops
+#################################################################################	
+	
+	positionType = {
+		name = "pilotfocus_realisticcombatexercises_position"
+		position = { x = 820 y = 430 }
+	}	
+	
+	positionType = {
+		name = "pilotfocus_precisionbombingtraining_position"
+		position = { x = 320 y = 160 }
+	}
+	
+	positionType = {
+		name = "pilotfocus_smartweapondeliverystriketraining_position"
+		position = { x = 320 y = 260 }
+	}
+
+	positionType = {
+		name = "airlogisticsops_airbridgeplanningandtraining_position"
+		position = { x = 320 y = 210 }
+	}
+	
+	positionType = {
+		name = "airlogisticsops_heloresupply_position"
+		position = { x = 820 y = 160 }
+	}
+	
+	positionType = {
+		name = "aircommand_searchandrescuemissions_position"
+		position = { x = 820 y = 210 }
+	}
+	
+	positionType = {
+		name = "airlogisticsops_mashmedevac_position"
+		position = { x = 820 y = 260 }
+	}	
+	
+	positionType = {
+		name = "airintelops_airreconplanningandtraining_position"
+		position = { x = 820 y = 210 }
+	}
+	
+	positionType = {
+		name = "airintelops_aswops_position"
+		position = { x = 570 y = 180 }
+	}
+	
+		positionType = {
+		name = "airborne_warfare_position"
+		position = { x = 690 y = 110 }
+	}
+
+	positionType = {
+		name = "airborneops_paratroopers_position"
+		position = { x = 580 y = 160 }
+	}
+
+	positionType = {
+		name = "airborneops_airassaultplanning_position"
+		position = { x = 580 y = 210 }
+	}
+	
+	positionType = {
+		name = "airborneops_aircavalry_position"
+		position = { x = 580 y = 260 }
+	}	
+
+#################################################################################
+# Air 1 Model Tech Tree
+#################################################################################
+
+positionType = {
+		name = "aircraft_fighter_position"
+		position = { x = 320 y = 110 }
+	}
+	
+positionType = {
+		name = "aircraft_multirole_position"
+		position = { x = 320 y = 160 }
+	}
+	
+positionType = {
+		name = "aircraft_cas_position"
+		position = { x = 320 y = 210 }
+	}
+	
+positionType = {
+		name = "aircraft_carrier_fighter_position"
+		position = { x = 320 y = 330 }
+	}
+	
+positionType = {
+		name = "aircraft_carrier_multirole_position"
+		position = { x = 320 y = 380 }
+	}
+	
+positionType = {
+		name = "aircraft_carrier_attack_position"
+		position = { x = 320 y = 430 }
+	}	
+	
+positionType = {
+		name = "aircraft_carrier_vtol_position"
+		position = { x = 320 y = 480 }
+	}	
+	
+positionType = {
+		name = "aircraft_maritimebomber_position"
+		position = { x = 570 y = 110 }
+	}
+	
+positionType = {
+		name = "aircraft_antisubbomber_position"
+		position = { x = 570 y = 160 }
+	}
+	
+positionType = {
+		name = "aircraft_strikebomber_position"
+		position = { x = 570 y = 210 }
+	}
+	
+positionType = {
+		name = "aircraft_strategicbomber_position"
+		position = { x = 570 y = 260 }
+	}
+
+positionType = {
+		name = "aircraft_awacs_position"
+		position = { x = 820 y = 330 }
+	}
+	
+positionType = {
+		name = "aircraft_transport_position"
+		position = { x = 820 y = 380 }
+	}
+	
+positionType = {
+		name = "aircraft_reconnaissance_position"
+		position = { x = 820 y = 430 }
+	}
+	
+positionType = {
+		name = "helicopter_gunship_position"
+		position = { x = 820 y = 110 }
+	}
+	
+positionType = {
+		name = "helicopter_cas_position"
+		position = { x = 820 y = 160 }
+	}
+	
+positionType = {
+		name = "helicopter_maritime_position"
+		position = { x = 820 y = 210 }
+	}
+			
+#################################################################################
+# Air 2 Parts Tech Tree
+#################################################################################
+
+positionType = {
+		name = "aircraftavionics_position"
+		position = { x = 570 y = 130 }
+	}
+
+positionType = {
+	name = "engine_turbojet_small_position"
+	position = { x = 320 y = 180 }
+}	
+
+positionType = {
+		name = "engine_turbojet_medium_position"
+		position = { x = 570 y = 180 }
+	}
+	
+positionType = {
+		name = "engine_turbojet_large_position"
+		position = { x = 820 y = 180 }
+	}
+
+positionType = {
+		name = "engine_rocket_position"
+		position = { x = 450 y = 240 }
+	}	
+	
+positionType = {
+		name = "engine_afterburner_position"
+		position = { x = 690 y = 240 }
+	}	
+
+positionType = {
+		name = "aerodynamics_position"
+		position = { x = 570 y = 340 }
+	}
+	
+positionType = {
+		name = "airframewing_speed_position"
+		position = { x = 570 y = 390 }
+	}
+	
+positionType = {
+		name = "airframewing_lift_position"
+		position = { x = 320 y = 390 }
+	}
+
+positionType = {
+	name = "helicopter_body_position"
+	position = { x = 820 y = 390 }
+}	
+	
+positionType = {
+		name = "aircraftcountermeasures_position"
+		position = { x =570 y = 480 }
+	}
+	
+
+	
+#positionType = {
+#	name = "stealth_basicconcepts_position"
+#	position = { x = 820 y = 350 }
+#}
+#
+#positionType = {
+#	name = "stealth_lowradarvisibility_position"
+#	position = { x = 820 y = 400 }
+#}
+#
+#positionType = {
+#	name = "stealth_silencing_position"
+#	position = { x = 820 y = 450 }
+#}	
+	
+#################################################################################
+# General mil tech 1
+#################################################################################	
+
+positionType = {
+	name = "communication_and_intelligence_position"
+	position = { x = 570 y = 110 }
+}
+
+positionType = {
+	name = "technology_intel_encryption_position"
+	position = { x = 450 y = 160 }
+}	
+
+positionType = {
+	name = "technology_intel_decryption_position"
+	position = { x = 690 y = 160 }
+}
+positionType = {
+		name = "technology_coups_position"
+		position = { x = 570 y = 310 }
+	}
+	positionType = {
+		name = "technology_assassins_position"
+		position = { x = 820 y = 310 }
+	}
+	positionType = {
+		name = "technology_counter_espionage_position"
+		position = { x = 820 y = 210 }
+	}
+	positionType = {
+		name = "technology_agent_training_position"
+		position = { x = 320 y = 260 }
+	}
+	positionType = {
+		name = "technology_espionage_position"
+		position = { x = 570 y = 210 }
+	}	
+	
+	positionType = {
+		name = "technology_recording_devices_position"
+		position = { x = 570 y = 260 }
+	}
+
+	positionType = {
+		name = "technology_intelligence_academies_position"
+		position = { x = 320 y = 210 }
+	}
+
+	positionType = {
+		name = "technology_internal_security_position"
+		position = { x = 820 y = 260 }
+	}
+
+	positionType = {
+		name = "technology_double_agents_position"
+		position = { x = 320 y = 310 }
+	}
+
+	positionType = {
+		name = "technology_hidden_cameras_position"
+		position = { x = 570 y = 360 }
+	}
+
+	positionType = {
+		name = "technology_microtransmitters_position"
+		position = { x = 570 y = 410 }
+	}
+
+	positionType = {
+		name = "technology_shell_company_position"
+		position = { x = 320 y = 360 }
+	}
+	
+	positionType = {
+		name = "technology_resident_networks_position"
+		position = { x = 320 y = 410 }
+	}
+	
+	positionType = {
+		name = "technology_disinformation_position"
+		position = { x = 820 y = 360 }
+	}
+	
+	positionType = {
+		name = "technology_interrogation_position"
+		position = { x = 820 y = 410 }
+	}
+
+	positionType = {
+		name = "space_spysatellites_position"
+		position = { x = 320 y = 480 }
+	}	
+
+	positionType = {
+		name = "radar_general_position"
+		position = { x = 820 y = 480 }
+	}	
+		
+#################################################################################
+# General mil tech 2
+#################################################################################	
+
+#################################################################################
+# Nuclear
+#################################################################################	
+
+	positionType = {
+		name = "nuclear_atomic_theory_position"
+		position = { x = 570 y = 110 }
+	}
+
+	positionType = {
+		name = "nuclear_enrichment_process_position"
+		position = { x = 320 y = 130 }
+	}	
+	
+	positionType = {
+		name = "nuclear_nuclear_power_position"
+		position = { x = 820 y = 130 }
+	}	
+	
+	positionType = {
+		name = "nuclear_thermonuclear_design_position"
+		position = { x = 570 y = 160 }
+	}	
+	positionType = {
+		name = "nuclear_delivery_systems_position"	
+		position = { x = 570 y = 220 }	
+		}
+
+	positionType = {
+		name = "nuclear_freefall_bomb_position"	
+		position = { x = 320 y = 270 }	
+		}
+	
+	positionType = {
+		name = "tech_icbm_missile_position"
+		position = { x = 570 y = 270 }
+	}
+	
+	positionType = {
+		name = "tech_slbm_missile_position"
+		position = { x = 820 y = 270 }
+	}
+	
+	positionType = {
+		name = "abm_site_tech_position"
+		position = { x = 570 y = 320 }
+	}
+	
+	positionType = {
+		name = "nuclearcommand_nuclear_strategy_position"
+		position = { x = 570 y = 380 }
+	}
+	
+	positionType = {
+		name = "nuclearcommand_mad_position"
+		position = { x = 320 y = 430 }
+	}
+	
+	positionType = {
+		name = "nuclearcommand_secondstrikecapability_position"
+		position = { x = 570 y = 430 }
+	}
+	
+	positionType = {
+		name = "nuclearcommand_countervailingstrategy_position"
+		position = { x = 820 y = 430 }
+	}
+	
+	positionType = {
+		name = "nuclearcommand_sdi_position"
+		position = { x = 450 y = 480 }
+	}
+	
+	positionType = {
+		name = "nuclearcommand_nuclearnonproliferation_position"
+		position = { x = 690 y = 480 }
+	}
+	
+#################################################################################
+# Space
+#################################################################################	
+
+	positionType = {
+		name = "space_research_mission_position"
+		position = { x = 570 y = 110 }
+	}
+
+	positionType = {
+		name = "space_ICBM_launch_vehicle_position"
+		position = { x = 320 y = 110 }
+	}	
+	
+	positionType = {
+		name = "space_requirements_study_position"
+		position = { x = 820 y = 110 }
+	}	
+	
+	positionType = {
+		name = "space_satellite_development_position"
+		position = { x = 320 y = 160 }
+	}
+
+	positionType = {
+		name = "space_solar_energy_position"
+		position = { x = 320 y = 210 }
+	}
+
+	positionType = {
+		name = "space_orbiting_observatory_position"
+		position = { x = 320 y = 260 }
+	}
+
+	positionType = {
+		name = "space_pressurized_cockpits_position"
+		position = { x = 820 y = 160 }
+	}	
+	
+	positionType = {
+		name = "space_shirtsleeve_environment_position"
+		position = { x = 820 y = 260 }
+	}		
+	
+	positionType = {
+		name = "space_missions_manned_planning_position"
+		position = { x = 570 y = 160 }
+	}	
+	
+	positionType = {
+		name = "space_missions_manned_orbit_position"
+		position = { x = 320 y = 430 }
+	}		
+
+	positionType = {
+		name = "space_missions_sustained_position"
+		position = { x = 820 y = 210 }
+	}
+
+	positionType = {
+		name = "space_circumlunar_orbit_position"
+		position = { x = 570 y = 210 }
+	}
+
+	positionType = {
+		name = "space_missions_moon_landing_position"
+		position = { x = 570 y = 430 }
+	}
+
+	positionType = {
+		name = "space_operations_position"
+		position = { x = 570 y = 260 }
+	}
+
+	positionType = {
+		name = "space_missions_research_station_position"
+		position = { x = 820 y = 430 }
+	}
+
+	positionType = {
+		name = "space_missions_permanent_planning_position"
+		position = { x = 570 y = 310 }
+	}
+
+	positionType = {
+		name = "space_living_conditions_requirements_position"
+		position = { x = 820 y = 310 }
+	}
+
+	positionType = {
+		name = "space_modular_design_position"
+		position = { x = 320 y = 310 }
+	}
+
+	positionType = {
+		name = "space_missions_permanent_station_position"
+		position = { x = 570 y = 480 }
+	}
+
+	
+#################################################################################
+# Science
+#################################################################################	
+####basic science####
+	positionType = {
+	name = "industry_modern_science_position"
+	position = { x = 570 y = 110 }
+}
+
+	positionType = {
+	name = "industry_physics_position"
+	position = { x = 450 y = 180 }
+}
+
+	positionType = {
+	name = "industry_mathematics_position"
+	position = { x = 690 y = 180 }
+}
+
+	positionType = {
+	name = "industry_chemistry_position"
+	position = { x = 570 y = 250 }
+}
+
+	positionType = {
+	name = "industry_biology_position"
+	position = { x = 570 y = 300 }
+}
+	positionType = {
+	name = "industry_medicine_position"
+	position = { x = 570 y = 350 }
+}
+
+	positionType = {
+	name = "industry_electronics_position"
+	position = { x = 320 y = 300 }
+}
+
+	positionType = {
+	name = "industry_hightech_computers_position"
+	position = { x = 320 y = 350 }
+}
+	positionType = {
+	name = "industry_softwareengineering_position"
+	position = { x = 320 y = 400 }
+}
+
+	positionType = {
+	name = "industry_sociology_position"
+	position = { x = 820 y = 300 }
+}
+	positionType = {
+	name = "industry_psychology_position"
+	position = { x = 820 y = 350 }
+}
+
+	positionType = {
+	name = "industry_poliec_position"
+	position = { x = 820 y = 400 }
+}
+
+#################################################################################
+# Industry
+#################################################################################
+
+	positionType = {
+	name = "industry_consumer_electronics_position"
+	position = { x = 320 y = 330 }
+}
+	positionType = {
+	name = "industry_recycling_position"
+	position = { x = 570 y = 330 }
+}
+	positionType = {
+	name = "industry_light_massproduction_position"
+	position = { x = 320 y = 110 }
+}
+	positionType = {
+	name = "industry_light_homeappliance_position"
+	position = { x = 320 y = 160 }
+}
+	positionType = {
+	name = "industry_light_plastics_position"
+	position = { x = 320 y = 260 }
+}
+	positionType = {
+	name = "industry_light_economyofscale_position"
+	position = { x = 320 y = 210 }
+}
+	positionType = {
+	name = "industry_heavy_mechanical_parts_position"
+	position = { x = 570 y = 110 }
+}
+	positionType = {
+	name = "industry_heavy_mechanical_engineering_position"
+	position = { x = 570 y = 160 }
+}
+	positionType = {
+	name = "industry_heavy_robotics_position"
+	position = { x = 570 y = 210 }
+}
+	positionType = {
+	name = "industry_hightech_integratedcircuits_position"
+	position = { x = 320 y = 380 }
+}
+	positionType = {
+	name = "industry_agriculture_mechanized_position"
+	position = { x = 820 y = 110 }
+}
+	positionType = {
+	name = "industry_agriculture_fertilizer_position"
+	position = { x = 820 y = 160 }
+}
+	positionType = {
+	name = "industry_mining_mining_position"
+	position = { x = 820 y = 330 }
+}
+	positionType = {
+	name = "industry_mining_oil_position"
+	position = { x = 820 y = 280 }
+}
+	positionType = {
+	name = "industry_refining_refining_position"
+	position = { x = 820 y = 480 }
+}
+	positionType = {
+	name = "industry_electricity_position"
+	position = { x = 570 y = 480 }
+}
+	positionType = {
+	name = "industry_electricity_conversion_position"
+	position = { x = 820 y = 430 }
+}
+	positionType = {
+	name = "industry_construction_engineering_position"
+	position = { x = 570 y = 430 }
+}
+
+}
+

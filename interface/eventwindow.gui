@@ -1,0 +1,98 @@
+guiTypes = {
+	windowType = {
+		name = "EventWindow"
+		backGround="Background"
+		position = { x=300 y=100 }	
+		size = { x=535 y=531 }
+		moveable = 1
+		
+		
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_bg_event_2"
+		}
+
+		
+		
+		iconType =
+		{
+			name ="event_images"
+			spriteType = "GFX_event_no_image"
+			position = { x= 33 y = 47 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+			
+		instanttextBoxType = {
+			name = "Title"
+			position = { x = 125 y = 19 }
+			font = "Jockey_16_paper"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 285
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="bg_event_clip_stamp"
+			spriteType = "GFX_bg_event_clip_stamp"
+			position = { x= 2 y = 15 }
+		}
+
+		
+		textBoxType = {
+			name = "Subtitle"
+			position = { x = 50 y = 280 }
+			font = "F25_executive_17"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 215
+			maxHeight = 24
+			format = left
+		}
+		
+		listboxType = {  
+			name = "Description"
+			position = { x = 53 y = 274 }
+			font = "Courier"	
+			size = { x= 458 y = 182 }
+			scrollbartype = "scrollbar_vertical_short"
+		}
+		
+#		instantTextBoxType = {  
+#			name = "Description"
+#			position = { x = 50 y = 275 }
+#			font = "Courier"
+#			scrollbartype = "scrollbar_vertical_short"				
+#			borderSize = {x = 0 y = 0}
+#			maxWidth = 465
+#			maxHeight = 160
+#			format = left
+#		}
+		
+		
+		
+	}
+	guiButtonType = {
+		name = "EventOptionButton"
+		position = { x=250 y =600}	#USELESS..
+		quadTextureSprite ="GFX_bg_event_button"
+		buttonText = "I Do."
+		buttonFont = "Jockey_14_dark"
+	}
+	
+	positionType = {
+		name = "event_option_start"
+		position = { x = 43 y = 452 }
+	}
+
+	positionType = {
+		name = "event_option_offset"
+		position = { x = 0 y = 30 }
+	}
+
+	
+	
+
+}

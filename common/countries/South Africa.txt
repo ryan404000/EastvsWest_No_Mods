@@ -1,0 +1,810 @@
+color = { 180  158  127 }
+graphical_culture = Us
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	ENG_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={} 
+ministers = {
+
+	# 1302000 - 1302999
+
+	
+	# English Monarchy ----------------------------------
+	1302001 = {
+		name = "George VI"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = ENG_George
+		head_of_state = parental_type
+		start_date = 1936.9.11
+		death_date = 1952.2.6	
+		base = 1181001
+	}
+	1302002 = {
+		name = "Elizabeth II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = ENG_Elizabeth
+		head_of_state = traditionalist_type
+		start_date = 1952.2.6
+		death_date = 2300.5.12
+		base = 1181002
+	}
+	
+	#English Succession
+	1302300 = {
+		name = "George VII"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.99
+		picture = ENG_M_George_VII
+		head_of_state = parental_type
+		start_date = 1966.11.14 
+		death_date = 2300.1.1
+		base = 1181196
+	}
+	1302301 = {
+		name = "Andrew I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.98
+		picture = ENG_M_Andrew_I
+		head_of_state = fortunate_type
+		start_date = 1978.2.19
+		death_date = 2300.1.1
+		base = 1181197
+	}
+	1302302 = {
+		name = "Edward IX"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.97
+		picture = ENG_M_Edward_IX
+		head_of_state = courteous_figure
+		start_date = 1982.3.10
+		death_date = 2300.1.1
+		base = 1181198
+	}
+	1302304 = {
+		name = "Anne II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.96
+		picture = ENG_M_Anne_II
+		head_of_state = courteous_figure
+		start_date = 1968.8.15
+		death_date = 2300.1.1
+		base = 1181209
+	}
+	1302305 = {
+		name = "Margaret I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.95
+		picture = ENG_M_Margaret_I
+		head_of_state = controversial_figure
+		start_date = 1952.3.1
+		death_date = 2002.2.9
+		base = 1181210
+	}
+	1302306 = {
+		name = "David III"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.94
+		picture = ENG_M_David_III
+		head_of_state = courteous_figure
+		start_date = 1979.11.3
+		death_date = 2300.1.1
+		base = 1181211
+	}
+	1302307 = {
+		name = "Sarah I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.93
+		picture = ENG_M_Sarah_I
+		head_of_state = courteous_figure
+		start_date = 1982.5.1
+		death_date = 2300.1.1
+		base = 1181212
+	}
+	1302308 = {
+		name = "Henry IX"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.92
+		picture = ENG_M_Henry_IX
+		head_of_state = courteous_figure
+		start_date = 1946.1.1
+		death_date = 1974.6.10
+		base = 1181213
+	}
+	1302309 = {
+		name = "William V"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.91
+		picture = ENG_M_William_V
+		head_of_state = courteous_figure
+		start_date = 1959.12.18
+		death_date = 1972.8.28
+		base = 1181214
+	}
+	1302310 = {
+		name = "Richard IV"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.90
+		picture = ENG_M_Richard_IV
+		head_of_state = courteous_figure
+		start_date = 1962.8.26
+		death_date = 2300.1.1
+		base = 1181215
+	}
+	
+	
+	#Distant English Succession
+	1302311 = {
+		name = "Robert I von Bayern"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.40
+		picture = ENG_M_Robert_I_Bayern
+		head_of_state = traditionalist_type
+		start_date = 1919.2.3
+		death_date = 1955.8.2
+		base = 1181199
+	}
+	1302312 = {
+		name = "Albert I von Bayern"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.40
+		picture = ENG_M_Albert_I_Bayern
+		head_of_state = fortunate_type
+		start_date = 1955.8.2
+		death_date = 1996.7.8
+		base = 1181200
+	}
+	
+	# Historical HoS (State President) -----------------------------------
+	1302003 = {
+		name = "Charles Robberts Swart"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Swart_Charles_R
+		head_of_state = hardliner_type
+		start_date = 1961.5.31
+		death_date = 1967.5.31
+	}
+	1302004 = {
+		name = "Jozua François Naudé"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Naude_Jozua_F
+		head_of_state = administrator_type
+		start_date = 1967.5.31
+		death_date = 1968.4.10
+	}
+	1302005 = {
+		name = "Jacobus Johannes Fouché"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Fouche_Jacobus_J
+		head_of_state = administrator_type
+		start_date = 1968.4.10
+		death_date = 1975.4.9
+	}
+	1302006 = {
+		name = "Johannes de Klerk"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Klerk_Johannes
+		head_of_state = parental_type
+		start_date = 1975.4.9
+		death_date = 1975.4.19
+	}
+	1302007 = {
+		name = "Nicolaas Johannes Diederichs"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Diederichs_Nicolaas_J
+		head_of_state = bureaucrat_type
+		start_date = 1975.4.19
+		death_date = 1978.8.21
+	}
+	1302008 = {
+		name = "Marais Viljoen"
+		ideology = social_cons_idolg
+		loyalty = 0.90
+		picture = SAF_M_Viljoen_Marais
+		head_of_state = democrat_type
+		start_date = 1978.8.21
+		death_date = 1984.9.3
+	}
+	#1302009 Merged to above
+	
+	1302010 = {
+		name = "Pieter Willem Botha"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Botha_Pieter_W
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1981.4.29
+		death_date = 1989.8.15
+	}
+	1302011 = {
+		name = "Frederik Willem de Klerk"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Klerk_Frederik_W
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1989.8.15
+		death_date = 1994.5.10
+	}
+	
+	
+	
+	# Historical HoGs (Prime Ministers) -----------------------------------
+	1302012 = {
+		name = "Jan Christiaan Smuts"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Smuts_Jan_C
+		head_of_government = democrat_type
+		start_date = 1939.9.5
+		death_date = 1950.9.11
+	}
+	1302013 = {
+		name = "D. F. Malan"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Malan_D_F
+		head_of_government = hardliner_type
+		start_date = 1938.5.18
+		death_date = 1958.4.16
+	}
+	1302014 = {
+		name = "Johannes Gerhardus Strijdom"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Strijdom_Johannes_G
+		head_of_government = hardliner_type
+		start_date = 1958.4.16
+		death_date = 1961.10.8
+	}
+	1302015 = {
+		name = "Hendrik Frensch Verwoerd"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Verwoerd_Hendrik_F
+		head_of_government = administrator_type
+		start_date = 1961.10.8
+		death_date = 1970.4.22
+	}
+	1302016 = {
+		name = "Balthazar Johannes Vorster"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Vorster_Balthazar_J
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1970.4.22
+		death_date = 1981.4.29
+	}
+
+		
+	# Alt HoSs and HoGs -----------------------------------
+	1302017 = {
+		name = "Koos Strauss"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Strauss_Koos
+		head_of_government = lethargic_type
+		start_date = 1950.9.11
+		death_date = 1958.4.16
+	}
+	1302018 = {
+		name = "De Villiers Graaff"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Graaff_Villiers
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1958.4.16
+		death_date = 1977.11.30
+	}
+	1302019 = {
+		name = "Colin Eglin"
+		ideology = market_liberal_idolg
+		loyalty = 0.90
+		picture = SAF_M_Eglin_Colin
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1977.11.30
+		death_date = 1989.9.6
+	}
+	1302020 = {
+		name = "Frederik van Zyl Slabbert"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Slabbert_Frederik_Z
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1981.4.29
+		death_date = 1987.5.6
+	}
+	
+	#Social Democrat
+	1302021 = {
+		name = "Zach de Beer"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = SAF_M_Beer_Zach
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1989.9.6
+		death_date = 1994.4.27
+	}
+	
+	#Communist
+	1302022 = {
+		name = "Joe Slovo"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = SAF_M_Slovo_Joe
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1942.1.1
+		death_date = 1995.1.1
+	}
+	1302023 = {
+		name = "Chris Hani"
+		ideology = communist_idolg
+		loyalty = 0.90
+		picture = SAF_M_Hani_Chris
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1960.1.1
+		death_date = 1993.4.10
+	}
+	
+	#Fascist
+	1302024 = { #Not actually fascist
+		name = "Andries Treurnicht"
+		ideology = paternal_auto_idolg
+		loyalty = 0.90
+		picture = SAF_M_Treurnicht_Andries
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1987.5.6
+		death_date = 1994.4.27
+	}
+	1302025 = {
+		name = "Clive Derby-Lewis"
+		ideology = fascistic_idolg
+		loyalty = 1.00
+		picture = SAF_M_Lewis_Clive_D
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1982.1.1
+		death_date = 2010.1.1
+	}
+
+	
+	
+	# ANC
+	1302026 = {
+		name = "James Arthur Calata"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Calata_James_A
+		head_of_state = moral_type
+		head_of_government = moral_type
+		start_date = 1936.1.1
+		death_date = 1949.1.1
+	}
+	1302027 = {
+		name = "Walter Sisulu"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Sisulu_Walter
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1949.1.1
+		death_date = 1955.1.1
+	}
+	1302028 = {
+		name = "Oliver Reginald Tambo"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Tambo_Oliver_R
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1955.1.1
+		death_date = 1958.1.1
+	}
+	1302029 = {
+		name = "Duma Nokwe"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Nokwe_Duma
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1958.1.1
+		death_date = 1969.1.1
+	}
+	1302030 = {
+		name = "Alfred Baphethuxolo Nzo"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Nzo_Alfred_B
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1969.1.1
+		death_date = 1991.1.1
+	}
+	1302031 = {
+		name = "Cyril Ramaphosa"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SAF_M_Ramaphosa_Cyril
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1991.1.1
+		death_date = 1997.1.1
+	}
+	
+	
+	#Autocrat
+	1302032 = {
+		name = "Mangosuthu Buthelezi"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = SAF_M_Buthelezi_Mangosuthu
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1975.1.1
+		death_date = 2009.1.1
+	}
+	
+	
+	#social_cons_idolg Alts
+	1302033 = {
+		name = "Albert Hertzog"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Hertzog_Albert
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1969.1.1
+		death_date = 1977.1.1
+	}
+	1302034 = {
+		name = "Jaap Marais"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SAF_M_Marais_Jaap
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1977.1.1
+		death_date = 2000.1.1
+	}
+	
+	#Later Added ANC
+	1302035 = {
+		name = "Nelson Mandela"
+		ideology = social_liberal_idolg
+		loyalty = 0.80
+		picture = SAF_M_Mandela_Nelson
+		head_of_state = courageous_type
+		start_date = 1948.1.1
+		death_date = 1999.6.14
+	}
+	
+	#WATW
+	1302100 = {
+		name = "John Christie"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = SAF_M_Christie_John
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1946.1.1
+		death_date = 1953.4.10
+	}
+	1302101 = {
+		name = "Alex Hepple"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = SAF_M_Hepple_Alex
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1953.4.10
+		death_date = 1958.1.1
+	}
+	1302102 = {
+		name = "Allan Hendrickse"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = SAF_M_Hendrickse_Allan
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1969.1.1
+		death_date = 1999.1.1
+	}
+	1302103 = {
+		name = "Oswald Pirow"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = SAF_M_Pirow_Oswald
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1946.1.1
+		death_date = 1959.10.11
+	}
+	1302104 = {
+		name = "Johannes Van Rensburg"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = SAF_M_Van_Rensburg_Johannes
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1946.1.1
+		death_date = 1966.9.25
+	}
+	1302105 = {
+		name = "Louis Weichardt"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = SAF_M_Weichardt_Louis
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1946.1.1
+		death_date = 1985.10.26 
+	}
+	1302106 = {
+		name = "Margaret Ballinger"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = SAF_M_Ballinger_Margaret
+		head_of_state = liberal_type
+		head_of_government = liberal_type
+		start_date = 1953.5.9
+		death_date = 1956.6.24
+	}
+	1302107 = {
+		name = "Alan Paton"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = SAF_M_Paton_Alan
+		head_of_state = moral_type
+		head_of_government = moral_type
+		start_date = 1956.6.24
+		death_date = 1968.5.1
+	}
+	1302108 = {
+		name = "Moses Kotane"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = SAF_M_Kotane_Moses
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1939.1.1
+		death_date = 1978.5.19
+	}
+	1302109 = {
+		name = "Moses Mabhida"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = SAF_M_Mabhida_Moses
+		head_of_state = reputable_type
+		head_of_government = reputable_type
+		start_date = 1978.5.19
+		death_date = 1984.1.1
+	}
+	1302110 = {
+		name = "Steve Biko"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = SAF_M_Biko_Steve
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1970.1.1
+		death_date = 1977.9.12
+	}
+	1302111 = {
+		name = "Robert Sobukwe"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = SAF_M_
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1959.4.6
+		death_date = 1978.2.27
+	}
+	1302112 = {
+		name = "Vusumuzi Make"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = SAF_M_Make_Vusumuzi
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1978.2.27
+		death_date = 1981.1.1
+	}
+	1302113 = {
+		name = "John Pokela"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = SAF_M_Pokela_John
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1981.1.1
+		death_date = 1985.1.1
+	}
+	1302114 = {
+		name = "Zephania Mothopeng"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = SAF_M_Mothopeng_Zephania
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1985.1.1
+		death_date = 1990.10.23
+	}
+	1302115 = {
+		name = "Potlako Leballo"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = SAF_M_Leballo_Potlako
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1952.4.18
+		death_date = 1986.1.18 
+		base = 1245108
+	}
+	1302116 = {
+		name = "Templeton Ntantala"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = SAF_M_Ntantala_Templeton
+		head_of_state = lethargic_type
+		head_of_government = lethargic_type
+		start_date = 1969.1.1
+		death_date = 1991.12.31
+	}
+	1302117 = {
+		name = "Ernest George Jansen"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = SAF_M_Jansen_Ernest_G
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1950.1.1
+		death_date = 1959.10.25
+	}
+	1302118 = {
+		name = "Harry Shwarz"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = SAF_M_Shwarz_Harry
+		head_of_state = liberal_type
+		head_of_government = liberal_type
+		start_date = 1951.1.1
+		death_date = 2010.2.5
+	}
+	1302119 = {
+		name = "Eugène Terre'Blanche"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = SAF_M_TerreBlanche_Eugene
+		head_of_state = supreme_leader
+		head_of_government = supreme_leader
+		start_date = 1973.7.7
+		death_date = 2010.4.1
+	}
+	
+	1302120 = {
+		name = "Wynand Malan"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = SAF_M_Malan_Wynand
+		head_of_state = liberal_type
+		head_of_government = liberal_type
+		start_date = 1987.5.6
+		death_date = 1993.1.1
+	}
+	1302121 = { #Monarch
+		name = "Cyprian Bhekuzulu kaSolomon"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SAF_M_kaSolomon_Cyprian_B
+		head_of_state = traditionalist_type
+		start_date = 1944.1.1
+		death_date = 1968.9.17
+	}
+	1302122 = { #Monarch
+		name = "Goodwill Zwelithini kaBhekuzulu"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SAF_M_kaBhekuzulu_Goodwill_Z
+		head_of_state = controversial_figure
+		start_date = 1968.9.17
+		death_date = 2300.1.1
+	}
+	
+	
+
+}

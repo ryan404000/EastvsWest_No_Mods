@@ -1,0 +1,26 @@
+navy = {
+	
+	name = "Test Fleet USA"
+	
+	base = 6422	
+	leader = 60586
+	location = 10507
+	ship = { type = nuclear_missile_cruiser name = "USS Long Beach" historical_model = 0 organisation = 30 }
+
+	ship = { type = missile_cruiser name = "USS Leahy" historical_model = 3 organisation = 30 }
+
+}
+
+air = {
+	name = "I. NATO AWACS"
+	base = 4513
+	location = 4513
+	wing = { type = awacs name = "1. AWACS squad" historical_model = 0 organisation = 10 }
+}
+
+air = {
+	name = "I. NATO Interceptors"
+	base = 4513
+	location = 4513
+	wing = { type = interceptor name = "1. Interceptor squad" historical_model = 7 organisation = 10 }
+}

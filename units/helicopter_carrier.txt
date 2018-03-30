@@ -1,0 +1,57 @@
+helicopter_carrier = {
+	type = naval
+	sprite = Carrier
+	capital = yes
+	can_be_pride = yes
+	active = no
+	goods_usage = 
+	{
+		heavy_industry = 0.05
+		naval_yards = 0.04
+		aviation_industry = 0.01
+	}
+	
+	hull = 2.6
+	modelsize = 6
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 10	#30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 38.65
+	build_cost_manpower = 2.50
+	build_time = 650
+
+	#Misc Abilities
+	maximum_speed = 2000.00
+	transport_capability = 0.00
+	carrier_size = 2
+	supply_consumption = 1.00
+	fuel_consumption = 1.15
+	range = 9999.0
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 2.00
+	sub_detection = 1.00
+	visibility = 100.00
+	air_radar_range = 160
+	surface_radar_range = 30
+	sonar_range = 0
+
+	#Defensive Abilities
+	sea_defence = 9.00
+	air_defence = 2.00
+
+	#Offensive Abilities
+	convoy_attack = 100.00
+	sea_attack = 100.00
+	sub_attack = 100.00
+	air_attack = 1.00
+	shore_bombardment = 0.00
+
+	priority = 10
+}

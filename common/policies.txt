@@ -1,0 +1,1805 @@
+#######################
+# Government policies #
+#######################
+
+##foreign_policy
+	#hardline_pol
+	#containment_pol
+	#detente_pol
+	#dove_policy_pol
+	#isolationism_pol
+	
+##domestic_policy
+	#agricultural_focus_pol
+	#commercial_focus_pol
+	#defence_focus_pol
+	#educational_focus_pol
+	#health_focus_pol
+	#industrial_focus_pol
+	#social_focus_pol
+	
+##intelligence_policy
+	#wet_operations_pol
+	#false_flag_operations_pol
+	#covert_ops_pol
+	#intelligence_gathering_pol
+	#counter_intelligence_focus_pol
+	#industrial_espionage_focus_pol
+	#signals_intelligence_pol
+	#coup_facilitating_ops_pol
+	
+##internal_policy
+	#state_controlled_aff_pol
+	#repressive_aff_pol
+	#oppressive_aff_pol
+	#liberal_aff_pol
+	#democratic_aff_pol
+	
+##armaments_policy
+	#conventional_warfare_focus_pol
+	#combined_arms_focus_pol
+	#assymetric_warfare_focus_pol
+	#littoral_waters_focus_pol
+	#blue_waters_focus_pol
+	#submarine_focus_pol
+	#fighter_focus_pol
+	#bomber_focus_pol
+	#close_air_support_focus_pol
+	#nuclear_armaments_focus_pol
+	#astronautical_focus_pol
+	
+##economic_policy
+	#supply_side_eco_pol
+	#technology_based_eco_pol
+	#development_eco_pol
+	#industrial_policy_pol
+	#resource_based_policy_pol
+	#agrarian_based_policy_pol
+	#welfare_state_pol
+	#indicative_planning_pol
+	#five-year_planning_pol
+	
+##military_policy
+	#basic_combat_training_pol
+	#half_y_service_pol
+	#one_y_service_pol
+	#one_half_y_service_pol
+	#two_y_service_pol
+	#two_half_y_service_pol
+	#three_y_service_pol
+	#sustained_military_service_pol
+	
+##fiscal_policy
+	#debt_and_loans_pol
+	#fiscal_straitjacket_pol
+	#increased_government_spending_pol
+	#reduced_taxation_pol
+	#curtailed_gov_spending_pol
+	#increased_taxation_pol
+	#expansionary_policy_pol
+	#tight_policy_pol
+
+##nuclear_policy
+	#military_nuclear_focus_pol
+	#mixed_nuclear_focus_pol
+	#civilian_nuclear_focus_pol
+	#nuclear_free_focus_pol
+	
+##education_policy
+	#very_high_funding_edu_pol
+	#high_funding_edu_pol
+	#medium_funding_edu_pol
+	#low_funding_edu_pol
+	#very_low_funding_edu_pol
+
+	
+# Foreign Policy
+foreign_policy = {
+
+    hardline_pol = {
+    	picture = hardline_policy
+		cost = 0.5
+		allow = {
+			OR = {
+				military_service = limited_conscription_army
+				military_service = conventional_drafted_army
+				military_service = expanded_drafted_army
+			}
+			NOT = {
+				OR = {
+					government = theocracy_gov
+					national_identity = corporate_focus
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+					national_attitude = balance_of_power
+					national_attitude = defensive
+					national_attitude = non-interventionism 
+					military_service = abbreviated_volunteer_army
+					military_service = conventional_volunteer_army
+					military_service = expanded_volunteer_army
+				}
+			}
+		}
+
+		diplomatic_point = 0.01
+		naval_base_efficiency = 0.02
+		supply_throughput = 0.01
+
+    }
+
+    containment_pol = {
+    	picture = containment_policy
+		cost = 0.5
+		allow = {
+			OR = {
+				military_service = conventional_volunteer_army
+				military_service = expanded_volunteer_army
+				military_service = limited_conscription_army
+			}
+			NOT = {
+				OR = {
+					national_identity = humanitarian_focus
+					national_attitude = non-interventionism 
+					military_service = abbreviated_volunteer_army
+				}
+			}
+		}
+
+		threat_impact = -0.01
+		diplomatic_point = 0.02
+		naval_base_efficiency = 0.01
+
+    }
+	
+    detente_pol	= {
+		picture = detente
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_attitude = imperialism
+					national_attitude = colonialism
+				}
+			}
+		}
+
+		threat_impact = -0.02
+		diplomatic_point = 0.03
+		
+    }
+
+    dove_policy_pol	= {
+    	picture = dove_policy
+		cost = 0.5
+		allow = {
+			OR = {
+				military_service = abbreviated_volunteer_army
+				military_service = conventional_volunteer_army
+			}
+			NOT = {
+				OR = {
+					government = theocracy_gov
+					national_identity = territorial_focus
+					national_attitude = imperialism
+					national_attitude = colonialism
+					national_attitude = hegemony
+					national_attitude = defensive
+					military_service = expanded_drafted_army
+				}
+			}
+		}
+		
+		threat_impact = -0.03
+		suseptibility = -0.01
+		diplomatic_point = 0.02
+
+    }
+
+    isolationism_pol = {
+    	picture = isolationism
+		cost = 0.5
+		allow = {
+			military_service = abbreviated_volunteer_army
+			NOT = {
+				OR = {
+					government = theocracy_gov
+					national_identity = territorial_focus
+					national_identity = corporate_focus
+					national_attitude = imperialism
+					national_attitude = colonialism
+					national_attitude = hegemony
+					national_attitude = balance_of_power
+					military_service = conventional_drafted_army
+					military_service = expanded_drafted_army
+				}
+			}
+		}
+
+		threat_impact = -0.04
+		suseptibility = -0.02
+		diplomatic_point = 0.01
+		
+    }
+
+# endo of foreign
+}
+
+# Domestic Policy
+domestic_policy = {
+    agricultural_focus_pol = {
+    	picture = agricultural_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				government = theocracy_gov
+			}
+		}
+ 
+ 		flexible_modifier = {
+			province_food_modifier = {
+				name = pol_province_food_modifier_desc
+				value = 0.01
+			}
+		}
+ 
+    }
+
+    commercial_focus_pol = {
+		picture = commercial_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_attitude = defensive
+					government = totalitarian_gov
+					government = authoritarian_gov
+					government = theocracy_gov
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			factory_light_industry_modifier = {
+				name = pol_factory_light_industry_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    defence_focus_pol = {
+    	picture = defence_focus
+    	cost = 0.5
+		allow = {
+			national_identity = territorial_focus
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+					national_attitude = non-interventionism
+				}
+			}
+		}
+
+		flexible_modifier = {
+			factory_military_goods_modifier = {
+				name = pol_military_goods_production_modifier_desc
+				value = 0.01
+			}
+		}
+
+
+    }
+
+    educational_focus_pol = {
+		picture = educational_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				national_identity = territorial_focus
+			}
+		}
+
+ 		flexible_modifier = {
+			factory_high_tech_modifier = {
+				name = pol_factory_high_tech_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    health_focus_pol = {
+    	picture = health_focus
+    	cost = 0.5
+		allow = {
+			national_identity = humanitarian_focus
+			NOT = {
+				OR = {
+					government = theocracy_gov
+					government = absolute_monarchy_gov
+				}
+			}
+		}
+
+		population_growth = 0.01
+
+    }
+
+    industrial_focus_pol = {
+    	picture = industrial_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					government = theocracy_gov
+					government = absolute_monarchy_gov
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			factory_heavy_industry_modifier = {
+				name = pol_factory_heavy_industry_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    social_focus_pol = {
+		picture = social_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_identity = corporate_focus
+					national_attitude = colonialism
+					national_attitude = hegemony
+					government = authoritarian_gov
+					government = absolute_monarchy_gov
+				}
+			}
+		}
+
+		#social_pension = 0.01
+		national_unity = 0.01
+		prestige = 0.01
+
+    }
+#end of domestic policiy
+}
+
+# Intelligence Policy
+intelligence_policy = {
+    wet_operations_pol = {
+		picture = wet_operations
+    	cost = 0.5
+		allow = {
+			technology_assassins = 1
+			OR = {
+				government = totalitarian_gov
+				government = authoritarian_gov
+			}
+			NOT = {
+				OR = {
+					human_rights = separate_but_equal
+					human_rights = universal_rights
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		flexible_modifier = {
+			assassinate_hog_chance_modifier = {
+				name = pol_assassinate_hog_chance_modifier_desc
+				value = 0.05
+			}
+		}
+		flexible_modifier = {
+			assassinate_hos_chance_modifier = {
+				name = pol_assassinate_hos_chance_modifier_desc
+				value = 0.05
+			}
+		}
+    }
+
+    false_flag_operations_pol = {
+		picture = false_flag_ops
+    	cost = 0.5
+		allow = {
+			technology_disinformation = 1
+			NOT = {
+				OR = {
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		prestige = 0.02
+		diplomatic_point = 0.01
+
+    }
+
+    covert_ops_pol = {
+		picture = covert_ops
+    	cost = 0.5
+        allow = {
+		}
+
+		flexible_modifier = {
+			sabotage_building_chance_modifier = {
+				name = pol_sabotage_building_chance_modifier_desc
+				value = 0.03
+			}
+		}
+		flexible_modifier = {
+			sabotage_buildings_chance_modifier = {
+				name = pol_sabotage_buildings_chance_modifier_desc
+				value = 0.01
+			}
+		}
+		flexible_modifier = {
+			incite_revolt_chance_modifier = {
+				name = pol_incite_revolt_chance_modifier_desc
+				value = 0.05
+			}
+		}
+
+    }
+
+    intelligence_gathering_pol = {
+		picture = intelligence_gathering
+    	cost = 0.5
+		allow = {
+			government = theocracy_gov
+		}
+
+		flexible_modifier = {
+			intel_information_chance_modifier = {
+				name = pol_intel_information_chance_modifier_desc
+				value = 0.03
+			}
+		}
+		flexible_modifier = {
+			show_nuclear_chance_modifier = {
+				name = pol_show_nuclear_chance_modifier_desc
+				value = 0.03
+			}
+		}
+		flexible_modifier = {
+			reveal_fog_chance_modifier = {
+				name = pol_reveal_fog_chance_modifier_desc
+				value = 0.03
+			}
+		}
+
+    }
+
+    counter_intelligence_focus_pol = {
+		picture = counter_intelligence_focus
+    	cost = 0.5
+        allow = {
+		}
+
+		flexible_modifier = {
+			intel_information_chance_modifier = {
+				name = pol_intel_information_chance_modifier_desc
+				value = 0.05
+			}
+		}
+		flexible_modifier = {
+			expose_spy_chance_modifier = {
+				name = pol_expose_spy_chance_modifier_desc
+				value = 0.05
+			}
+		}
+		flexible_modifier = {
+			kill_spy_chance_modifier = {
+				name = pol_kill_spy_chance_modifier_desc
+				value = 0.03
+			}
+		}
+
+    }
+
+    industrial_espionage_focus_pol	= {
+		picture = industrial_espionage_focus
+    	cost = 0.5
+        allow = {
+		}
+
+ 		flexible_modifier = {
+			factory_heavy_industry_modifier = {
+				name = pol_factory_heavy_industry_modifier_desc
+				value = 0.01
+			}
+		}
+ 		flexible_modifier = {
+			factory_high_tech_modifier = {
+				name = pol_factory_high_tech_modifier_desc
+				value = 0.01
+			}
+		}
+		flexible_modifier = {
+			factory_military_goods_modifier = {
+				name = pol_military_goods_production_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    signals_intelligence_pol = {
+		picture = signals_intelligence
+    	cost = 0.5
+		allow = {
+			NOT = {
+				government = theocracy_gov
+			}
+		}
+
+		flexible_modifier = {
+			reveal_fog_chance_modifier = {
+				name = pol_reveal_fog_chance_modifier_desc
+				value = 0.05
+			}
+		}
+		flexible_modifier = {
+			intel_information_chance_modifier = {
+				name = pol_intel_information_chance_modifier_desc
+				value = 0.02
+			}
+		}
+		flexible_modifier = {
+			incite_revolt_chance_modifier = {
+				name = pol_incite_revolt_chance_modifier_desc
+				value = 0.02
+			}
+		}
+
+    }
+
+    coup_facilitating_ops_pol = {
+		picture = coup_facilitating_ops
+    	cost = 0.5
+		allow = {
+			government = totalitarian_gov
+			NOT = {
+				OR = {
+					government = authoritarian_gov
+					government = absolute_monarchy_gov
+					national_identity = state_building_focus
+					national_identity = corporate_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		flexible_modifier = {
+			make_desert_chance_modifier = {
+				name = pol_make_desert_chance_modifier_desc
+				value = 0.03
+			}
+		}
+		flexible_modifier = {
+			incite_revolt_chance_modifier = {
+				name = pol_incite_revolt_chance_modifier_desc
+				value = 0.07
+			}
+		}
+		flexible_modifier = {
+			reveal_fog_chance_modifier = {
+				name = pol_reveal_fog_chance_modifier_desc
+				value = 0.01
+			}
+		}
+
+
+
+    }
+#end of intelligence
+}
+
+# Internal Affairs
+internal_policy = {
+    state_controlled_aff_pol = {
+		picture = state-controlled
+    	cost = 0.5
+		allow = {
+			OR = {
+				human_rights = not_recognized
+				human_rights = cultural_relativism
+				civil_liberties = suspended_indefinitely
+				civil_liberties = martial_law
+				freedom_of_the_press = propaganda_press
+				freedom_of_the_press = state_press
+				freedom_of_the_press = censored_press
+			}
+			NOT = {
+				OR = {
+					civil_liberties = curfew
+					civil_liberties = fully_granted_liberties
+					human_rights = universal_rights
+					freedom_of_the_press = limited_restrictions
+					freedom_of_the_press = free_press
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		minimum_revolt_risk = 0.05
+		global_revolt_risk = 0.05
+		dissent_decrease = 0.05
+
+    }
+
+
+    repressive_aff_pol = {
+		picture = repressive
+    	cost = 0.5
+		allow = {
+			OR = {
+				human_rights = not_recognized
+				human_rights = cultural_relativism
+				civil_liberties = suspended_indefinitely
+				civil_liberties = martial_law
+				civil_liberties = emergency_law
+				freedom_of_the_press = propaganda_press
+				freedom_of_the_press = state_press
+			}
+			NOT = {
+				OR = {
+					civil_liberties = fully_granted_liberties
+					human_rights = universal_rights
+					freedom_of_the_press = free_press
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		minimum_revolt_risk = 0.04
+		global_revolt_risk = 0.04
+		dissent_decrease = 0.04
+
+    }
+
+    oppressive_aff_pol = {
+		picture = oppressive
+    	cost = 0.5
+		allow = {
+			OR = {
+				civil_liberties = martial_law
+				civil_liberties = emergency_law
+				civil_liberties = curfew
+				human_rights = cultural_relativism
+				freedom_of_the_press = propaganda_press
+			}
+			NOT = {
+				OR = {
+					civil_liberties = fully_granted_liberties
+					human_rights = separate_but_equal
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		minimum_revolt_risk = 0.03
+		global_revolt_risk = 0.03
+		dissent_decrease = 0.03
+
+    }
+
+    liberal_aff_pol = {
+		picture = liberal
+    	cost = 0.5
+		allow = {
+			OR = {
+				civil_liberties = curfew
+				civil_liberties = fully_granted_liberties
+				freedom_of_the_press = free_press
+			}
+			NOT = {
+				OR = {
+					civil_liberties = suspended_indefinitely
+					civil_liberties = martial_law
+					human_rights = not_recognized
+					human_rights = separate_but_equal
+					national_identity = cultural_bias_focus
+				}
+			}
+		}
+
+		minimum_revolt_risk = 0.02
+		global_revolt_risk = 0.02
+		dissent_decrease = 0.02
+
+    }
+
+    democratic_aff_pol = {
+		picture = democratic
+    	cost = 0.5
+		allow = {
+			OR = {
+				human_rights = universal_rights
+				freedom_of_the_press = free_press
+				civil_liberties = fully_granted_liberties
+			}
+			NOT = {
+				OR = {
+					government = theocracy_gov
+					civil_liberties = suspended_indefinitely
+					civil_liberties = martial_law
+					human_rights = not_recognized
+					human_rights = cultural_relativism
+					human_rights = separate_but_equal
+					national_identity = cultural_bias_focus
+				}
+			}
+		}
+
+		minimum_revolt_risk = 0.01
+		global_revolt_risk = 0.01
+		dissent_decrease = 0.01
+
+    }
+
+#end of internal affairs
+}
+
+# Armaments Policy
+armaments_policy = {
+
+    conventional_warfare_focus_pol = {
+		picture = all_round_armaments_focus
+    	cost = 0.5
+        allow = {
+		}
+
+		flexible_modifier = {
+			factory_military_goods_modifier = {
+				name = pol_military_goods_production_modifier_desc
+				value = 0.01
+			}
+		}
+		org_regain = 0.05
+		max_war_exhaustion = -0.05
+
+    }
+
+   combined_arms_focus_pol = {
+		picture = ground_warfare_focus
+    	cost = 0.5
+        allow = {
+		}
+
+		unit_repair = -0.02
+		#combat_move_speed = 0.03
+		max_war_exhaustion = -0.03
+
+    }
+
+    assymetric_warfare_focus_pol = {
+		picture = assymetric_warfare_focus
+    	cost = 0.5
+        allow = {
+			NOT = {
+				national_identity = humanitarian_focus
+			}
+		}
+
+		#defence_modifier = 0.1
+		#out_of_supply_modifier = -0.2
+
+    }
+
+    littoral_waters_focus_pol = {
+		picture = littoral_waters_focus
+    	cost = 0.5
+        allow = {
+		}
+
+		# modifier bonus for ships fighting in national waters
+		# attrition modifer for enemy ships in our national waters
+
+    }
+
+    blue_waters_focus_pol = {
+		picture = blue_waters_focus
+    	cost = 0.5
+        allow = {
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+					national_attitude = non-interventionism 
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			factory_naval_yards_modifier = {
+				name = pol_factory_naval_yards_modifier_desc
+				value = 0.01
+			}
+		}
+		naval_base_efficiency = 0.05
+		naval_capacity = 0.01
+
+    }
+
+    submarine_focus_pol = {
+		picture = submarine_focus
+    	cost = 0.5
+        allow = {
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		#disengage_timer = 1
+		#submarine_attack = 0.02
+		naval_base_efficiency = 0.02
+		
+    }
+
+    fighter_focus_pol = {
+    	picture = quality_focus
+    	cost = 0.5
+        allow = {
+		}
+
+		radar_level = 0.01
+		territorial_pride = 0.01
+		#offence_modifier = 0.1
+
+    }
+
+   bomber_focus_pol = {
+    	picture = aeronautical_focus
+    	cost = 0.5
+        allow = {
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+					national_attitude = non-interventionism 
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			factory_aviation_industry_modifier = {
+				name = pol_factory_aviation_industry_modifier_desc
+				value = 0.01
+			}
+		}
+		#strategic_attack = 0.1
+		air_capacity = 0.01
+
+    }
+
+    close_air_support_focus_pol = {
+    	picture = offensive_armaments_focus
+    	cost = 0.5
+        allow = {
+		}
+
+		#tactical_attack = 0.03
+		air_capacity = 0.01
+
+    }
+
+    nuclear_armaments_focus_pol = {
+		picture = nuclear_armaments_focus
+    	cost = 0.5
+ 		allow = {
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+					nuclear_policy = civilian_nuclear_focus_pol
+					nuclear_policy = nuclear_free_focus_pol
+				}
+			}
+		}
+
+		#max_nuke_storage = 0.01
+		#sdi_defense = 0.01
+ 		flexible_modifier = {
+			factory_centrifuges_modifier = {
+				name = pol_factory_centrifuges_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    astronautical_focus_pol = {
+		picture = astronautical_focus
+    	cost = 0.5
+        allow = {
+		}
+
+		prestige = 0.02
+		
+ 		flexible_modifier = {
+			factory_military_satellites_modifier = {
+				name = pol_factory_military_satellites_modifier_desc
+				value = 0.01
+			}
+		}
+		# recon_satelite_level = 0.01 instead the two below
+		flexible_modifier = {
+			sat_surv_chance_modifier = {
+				name = pol_sat_surv_chance_modifier_desc
+				value = 0.05
+			}
+		}
+		flexible_modifier = {
+			sat_reveal_chance_modifier = {
+				name = pol_sat_reveal_chance_modifier_desc
+				value = 0.05
+			}
+		}
+
+    }
+
+# end of armament
+}
+
+# Economic Policy
+economic_policy = {
+    supply_side_eco_pol = {
+		picture = supply_side_eco
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = state_building_focus
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+					government = totalitarian_gov
+					government = authoritarian_gov
+					government = theocracy_gov
+					government = absolute_monarchy_gov
+					government = constitutional_monarchy_gov
+				}
+			}
+		}
+
+		#social_school = -0.03
+		#social_pension = -0.03
+
+    }
+
+    technology_based_eco_pol = {
+		picture = technology_based_eco
+    	cost = 0.5
+		allow = {
+			NOT = {
+				national_identity = equality_focus
+			}
+		}
+
+		flexible_modifier = {
+			factory_high_tech_modifier = {
+				name = pol_factory_high_tech_modifier_desc
+				value = 0.01
+			}
+		}
+		flexible_modifier = {
+			high_tech_initial_cost = {
+				name = pol_factory_high_tech_modifier_desc
+				value = -0.01
+			}
+		}
+		
+    }
+
+    development_eco_pol = {
+		picture = development_eco
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_identity = cultural_bias_focus
+					national_identity = corporate_focus
+					government = totalitarian_gov
+					government = authoritarian_gov
+					government = theocracy_gov
+				}
+			}
+		}
+
+		flexible_modifier = {
+			light_industry_initial_cost = {
+				name = pol_light_industry_initial_cost_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			factory_light_industry_modifier = {
+				name = pol_factory_light_industry_modifier_desc
+				value = 0.01
+			}
+		}
+		
+    }
+
+    industrial_policy_pol = {
+		picture = industrial_policy
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		flexible_modifier = {
+			heavy_industry_initial_cost = {
+				name = pol_heavy_industry_initial_cost_desc
+				value = -0.01
+			}
+		}
+		flexible_modifier = {
+			factory_military_goods_modifier = {
+				name = pol_military_goods_production_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    resource_based_policy_pol = {
+		picture = resource_based_policy
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		flexible_modifier = {
+			province_iron_modifier = {
+				name = pol_province_iron_production_modifier_desc
+				value = 0.01
+			}
+		}
+		flexible_modifier = {
+			province_coal_modifier = {
+				name = pol_province_coal_production_modifier_desc
+				value = 0.01
+			}
+		}
+		
+    }
+
+    agrarian_based_policy_pol = {
+		picture = agrarian_based_policy
+    	cost = 0.5
+		allow = {
+			NOT = {
+				national_identity = corporate_focus
+			}
+		}
+
+		flexible_modifier = {
+			agriculture_research_center_initial_cost = {
+				name = pol_agriculture_research_center_initial_cost_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			province_food_modifier = {
+				name = pol_province_food_modifier_desc
+				value = 0.01
+			}
+		}
+		
+    }
+
+    welfare_state_pol = {
+		picture = welfare_state
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_identity = corporate_focus
+					government = totalitarian_gov
+					government = theocracy_gov
+					government = absolute_monarchy_gov
+				}
+			}
+		}
+
+		#social_pension = 0.03
+		prestige = 0.01
+		flexible_modifier = {
+			services_income_modifier = {
+				name = pol_services_income_modifier_desc
+				value = -0.03
+			}
+		}
+		flexible_modifier = {
+			university_initial_cost = {
+				name = pol_university_initial_cost_desc
+				value = -0.01
+			}
+		}
+
+    }
+
+    indicative_planning_pol = {
+		picture = indicative_planning
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = corporate_focus
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+					government = absolute_monarchy_gov
+					government = constitutional_monarchy_gov
+					government = republic_gov
+					government = constitutional_republic_gov
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			production_income_modifier = {
+				name = pol_production_income_modifier_desc
+				value = 0.01
+			}
+		}
+ 		flexible_modifier = {
+			factory_light_industry_modifier = {
+				name = pol_factory_light_industry_modifier_desc
+				value = -0.03
+			}
+		}
+		
+    }
+	
+    five-year_planning_pol = {
+		picture = five-year_planning
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = cultural_bias_focus
+					national_identity = corporate_focus
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+					government = theocracy_gov
+					government = absolute_monarchy_gov
+					government = constitutional_monarchy_gov
+					government = republic_gov
+					government = constitutional_republic_gov
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			province_food_modifier = {
+				name = pol_province_food_modifier_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			factory_heavy_industry_modifier = {
+				name = pol_factory_heavy_industry_modifier_desc
+				value = 0.03
+			}
+		}
+		
+    }
+
+# end of economic
+}
+
+# Military Policy
+military_policy = {
+    basic_combat_training_pol = {
+    	picture = service_by_req
+    	cost = 0.5
+		allow = {
+			OR = { 
+				military_service = abbreviated_volunteer_army
+				military_service = conventional_volunteer_army
+				military_service = expanded_volunteer_army
+				military_service = limited_conscription_army
+				military_service = conventional_drafted_army
+				military_service = expanded_drafted_army
+			}
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_identity = cultural_bias_focus
+					national_attitude = imperialism
+					national_attitude = colonialism
+					national_attitude = hegemony
+				}
+			}
+		}
+		attack_reinforce_chance = 0.025
+		defend_reinforce_chance = 0.025
+		unit_start_experience = 2.5
+
+    }
+
+    half_y_service_pol = {
+    	picture = half_y_service
+    	cost = 0.5
+		allow = {
+			OR = { 
+				military_service = limited_conscription_army
+				military_service = conventional_drafted_army
+				military_service = expanded_drafted_army
+			}
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_attitude = imperialism
+				}
+			}
+		}
+		attack_reinforce_chance = 0.05
+		defend_reinforce_chance = 0.05
+		unit_start_experience = 5
+
+    }
+
+    one_y_service_pol = {
+    	picture = one_y_service
+    	cost = 0.5
+		allow = {
+			OR = { 
+				military_service = conventional_drafted_army
+				military_service = expanded_drafted_army
+			}
+			NOT = {
+				OR = { 
+					national_attitude = imperialism
+					national_attitude = colonialism
+				}
+			}
+		}
+		attack_reinforce_chance = 0.075
+		defend_reinforce_chance = 0.075
+		unit_start_experience = 7.5
+
+    }
+
+    one_half_y_service_pol = {
+    	picture = one_half_y_service
+    	cost = 0.5
+		allow = {
+			military_service = expanded_drafted_army
+			NOT = {
+				national_attitude = imperialism
+			}
+		}
+		attack_reinforce_chance = 0.1
+		defend_reinforce_chance = 0.1
+		unit_start_experience = 10
+
+    }
+
+    two_y_service_pol = {
+    	picture = two_y_service
+    	cost = 0.5
+		allow = {
+			military_service = expanded_drafted_army
+			NOT = {
+				OR = {
+					national_identity = humanitarian_focus
+					national_attitude = non-interventionism
+					military_service = abbreviated_volunteer_army
+				}
+			}
+		}
+		attack_reinforce_chance = 0.125
+		defend_reinforce_chance = 0.125
+		unit_start_experience = 12.5
+
+    }
+
+    two_half_y_service_pol = {
+    	picture = two_half_y_service
+    	cost = 0.5
+		allow = {
+			military_service = expanded_drafted_army
+			NOT = {
+				OR = {
+					national_identity = corporate_focus
+					national_identity = humanitarian_focus
+					national_attitude = non-interventionism
+					military_service = abbreviated_volunteer_army
+					military_service = conventional_volunteer_army
+				}
+			}
+		}
+		attack_reinforce_chance = 0.15
+		defend_reinforce_chance = 0.15
+		unit_start_experience = 15
+
+    }
+
+    three_y_service_pol = {
+    	picture = three_y_service
+    	cost = 0.5
+		allow = {
+			military_service = expanded_drafted_army
+			NOT = {
+				OR = {
+					national_identity = corporate_focus
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+					national_attitude = non-interventionism
+					military_service = abbreviated_volunteer_army
+					military_service = conventional_volunteer_army
+					military_service = expanded_volunteer_army
+				}
+			}
+		}
+		attack_reinforce_chance = 0.175
+		defend_reinforce_chance = 0.175
+		unit_start_experience = 17.5
+
+    }
+
+    sustained_military_service_pol = {
+    	picture = career_service
+    	cost = 0.5
+		allow = {
+			military_service = expanded_drafted_army
+			NOT = {
+				OR = {
+					national_identity = corporate_focus
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+					national_attitude = defensive
+					national_attitude = non-interventionism
+					military_service = abbreviated_volunteer_army
+					military_service = conventional_volunteer_army
+					military_service = expanded_volunteer_army
+				}
+			}
+		}
+		attack_reinforce_chance = 0.2
+		defend_reinforce_chance = 0.2
+		unit_start_experience = 20
+
+    }
+#end of military policy
+}
+
+# Fiscal Policy
+fiscal_policy = {
+    debt_and_loans_pol = {
+		picture = debt_and_loans
+    	cost = 0.5
+		allow = {
+			OR = { 
+				public_oversight = limited_oversight
+				public_oversight = moral_code_of_conduct
+			}
+			NOT = {
+				OR = {
+					public_oversight = transparent_public_oversight
+					public_oversight = systematic_oversight
+					national_identity = equality_focus
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			social_investment_money = {
+				name = pol_social_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    fiscal_straitjacket_pol = {
+		picture = fiscal_straitjacket
+    	cost = 0.5
+		allow = {
+			public_oversight = limited_oversight
+			NOT = {
+				OR = {
+					public_oversight = transparent_public_oversight
+					public_oversight = systematic_oversight
+					national_identity = state_building_focus
+					national_identity = corporate_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			upgrade_investment_money = {
+				name = pol_upgrade_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    increased_government_spending_pol = {
+		picture = increased_government_spending
+    	cost = 0.5
+		allow = {
+			OR = {
+				public_oversight = moral_code_of_conduct
+				NOT = {
+					OR = {
+						public_oversight = transparent_public_oversight
+						public_oversight = systematic_oversight
+					}
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			repair_investment_money = {
+				name = pol_repair_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    reduced_taxation_pol = {
+		picture = reduced_taxation
+    	cost = 0.5
+        allow = {
+		}
+
+ 		flexible_modifier = {
+			tech_investment_money = {
+				name = pol_tech_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    curtailed_gov_spending_pol = {
+		picture = curtailed_gov_spending
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					public_oversight = limited_oversight
+					public_oversight = moral_code_of_conduct
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			social_investment_money = {
+				name = pol_social_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    increased_taxation_pol = {
+		picture = increased_taxation
+    	cost = 0.5
+        allow = {
+		}
+
+ 		flexible_modifier = {
+			production_investment_money = {
+				name = pol_production_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    expansionary_policy_pol = {
+		picture = expansionary_policy
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					public_oversight = moral_code_of_conduct
+					national_identity = corporate_focus
+					national_identity = equality_focus
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			repair_investment_money = {
+				name = pol_repair_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    tight_policy_pol = {
+		picture = tight_policy
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					public_oversight = non-systematic_oversight
+					public_oversight = limited_oversight
+					public_oversight = moral_code_of_conduct
+					national_identity = state_building_focus
+					national_identity = equality_focus
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			repair_investment_money = {
+				name = pol_repair_investment_money_desc
+				value = 0.01
+			}
+		}
+
+    }
+#end of	Fiscal Policy
+}
+
+# Nuclear Policy
+nuclear_policy = {
+    military_nuclear_focus_pol = {
+		picture = nuclear_armaments_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = state_building_focus
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+		
+ 		flexible_modifier = {
+			nuclear_test_site_initial_cost = {
+				name = pol_nuclear_test_site_initial_cost_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			nuclear_silo_initial_cost = {
+				name = pol_nuclear_silo_initial_cost_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			factory_centrifuges_modifier = {
+				name = pol_factory_centrifuges_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    mixed_nuclear_focus_pol = {
+		picture = mixed_nuclear_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = state_building_focus
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+ 		flexible_modifier = {
+			nuclear_test_site_initial_cost = {
+				name = pol_nuclear_test_site_initial_cost_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			centrifuges_initial_cost = {
+				name = pol_centrifuges_initial_cost_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			nuclear_plant_efficiency = {
+				name = pol_nuclear_plant_efficiency_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+   civilian_nuclear_focus_pol = {
+		picture = civilian_nuclear_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				armaments_policy = nuclear_armaments_focus_pol
+			}
+		}
+
+ 		flexible_modifier = {
+			nuclear_plant_initial_cost = {
+				name = pol_nuclear_plant_initial_cost_desc
+				value = -0.01
+			}
+		}
+ 		flexible_modifier = {
+			nuclear_plant_efficiency = {
+				name = pol_nuclear_plant_efficiency_desc
+				value = 0.01
+			}
+		}
+ 		flexible_modifier = {
+			factory_high_tech_modifier = {
+				name = pol_factory_high_tech_modifier_desc
+				value = 0.01
+			}
+		}
+
+    }
+
+    nuclear_free_focus_pol = {
+		picture = environmental_focus
+    	cost = 0.5
+		allow = {
+			NOT = {
+				armaments_policy = nuclear_armaments_focus_pol
+			}
+		}
+
+ 		flexible_modifier = {
+			powerplant_efficiency = {
+				name = pol_powerplant_efficiency_desc
+				value = 0.01
+			}
+		}
+ 		flexible_modifier = {
+			nuclear_plant_efficiency = {
+				name = pol_nuclear_plant_efficiency_desc
+				value = -0.25
+			}
+		}
+		prestige = 0.01
+
+    }
+
+# end of Nuclear Policy
+}
+
+# Education Policy
+education_policy = {
+ 
+    very_high_funding_edu_pol = {
+		picture = private_schools_exclusive
+    	cost = 0.5
+		allow = {
+			OR = {
+				national_identity = civic_focus
+				NOT = {
+					OR = {
+						government = theocracy_gov
+						national_identity = equality_focus
+					}
+				}
+			}
+		}
+
+		research_efficiency = 0.05
+		#social_school = 1.00
+		#social_pension = 1.00
+		dissent_decrease = 0.025
+	
+    }
+
+    high_funding_edu_pol = {
+		picture = private_schools_oriented
+    	cost = 0.5
+		allow = {
+		}
+
+		research_efficiency = 0.025
+		#social_school = 0.50
+		#social_pension = 0.25
+		dissent_decrease = 0.02
+
+    }
+
+    medium_funding_edu_pol = {
+		picture = mixed_education
+    	cost = 0.5
+		allow = {
+			OR = {
+				national_identity = state_building_focus
+				national_identity = equality_focus
+				national_identity = humanitarian_focus
+			}
+			NOT = {
+				national_identity = civic_focus
+			}
+		}
+		dissent_decrease = 0.015
+    }
+
+
+    low_funding_edu_pol = {
+		picture = state_education
+    	cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = cultural_bias_focus
+				}
+			}
+		}
+
+		research_efficiency = -0.025
+		#social_school = -0.50
+		#social_pension = -0.65
+		dissent_decrease = 0.01
+
+    }
+
+   very_low_funding_edu_pol = {
+    	picture = education_very_low_funding
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = state_building_focus
+					national_identity = civic_focus
+					national_identity = cultural_bias_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		research_efficiency = -0.05
+		#social_school = -0.90
+		#social_pension = -1.00
+		dissent_decrease = 0.005
+
+    }
+
+#end education
+}

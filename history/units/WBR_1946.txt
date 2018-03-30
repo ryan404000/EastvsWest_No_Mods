@@ -1,0 +1,28 @@
+theatre =
+{ 
+	name = "Berlin Command HQ"
+	location = 14867
+	regiment = { type = hq_brigade name = "Berlin HQ" historical_model = 0 }
+	
+	army =
+	{
+		name = "Berlin Brigade"
+		location = 14867
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }		
+		
+		division =
+		{
+			name = "Berlin Brigade"
+			location = 14867
+			regiment = { type = light_mechanized_brigade name = "18th US Infantry Brigade" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = police_brigade name = "US Military Police Berlin" historical_model = 0 experience = 5}
+			regiment = { type = light_mechanized_brigade name = "British Troops Berlin" historical_model = 0 strength = 30 experience = 5 }			
+		}
+		division =
+		{
+			name = "Forces Françaises à Berlin"
+			location = 14867
+			regiment = { type = cavalry_brigade name = "Quartier Napoléon" historical_model = 0 strength = 35 experience = 5 }
+		}
+	}		
+}

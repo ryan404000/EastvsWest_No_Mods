@@ -1,0 +1,61 @@
+theatre =
+{
+	name = "Israeli Defense Forces"
+	location = 7800
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+	
+	army =
+	{
+		name = "1st Israeli Army"
+		location = 7800
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division =
+		{
+			name = "36th Division 'Ga'ash'"
+			location = 6231
+			regiment = { type = anti_tank_brigade name = "1st 'Golani' AT Brigade" historical_model = 0 strength = 20 experience = 5 }
+			regiment = { type = infantry_brigade name = "11th 'Yiftach' Infantry Brigade" historical_model = 0 strength = 20 experience = 6 }
+			regiment = { type = infantry_brigade name = "9th 'Oded' Infantry Brigade" historical_model = 0 strength = 20 experience = 4 }			
+		}
+		
+		division =
+		{
+			name = "2nd Division"
+			location = 7800
+			regiment = { type = infantry_brigade name = "3rd 'Alexandroni' Infantry Brigade" historical_model = 0 strength = 37 experience = 4 }
+			regiment = { type = light_mechanized_brigade name = "7th Armored Brigade" historical_model = 0 strength = 15 experience = 5 }
+		}	
+		
+		division =
+		{
+			name = "3rd Division"
+			location = 7800
+			regiment = { type = infantry_brigade name = "4th 'Kiryati' Infantry Brigade" historical_model = 0 strength = 27 experience = 5 }
+			regiment = { type = infantry_brigade name = "5th 'Givati' Infantry Brigade" historical_model = 0 strength = 26 experience = 5 }
+		}
+		
+		division =
+		{
+			name = "4th Division"
+			location = 5955
+			regiment = { type = infantry_brigade name = "6th 'Etzioni' Infantry Brigade" historical_model = 0 strength = 15 experience = 4 }
+			regiment = { type = infantry_brigade name = "10th 'Harel' Infantry  Brigade" historical_model = 0 strength = 15 experience = 5 }
+			regiment = { type = armor_brigade name = "8th Armored Brigade" historical_model = 0 strength = 22 experience = 2 }
+		}
+		
+		division =
+		{
+			name = "5th Reserve Division"
+			location = 14112
+			regiment = { type = infantry_brigade name = "2nd 'Carmeli' Infantry Brigade" historical_model = 0 strength = 255 experience = 4 }
+		}
+	}	
+	
+	division =
+	{
+		name = "6th Desert Division"
+		location = 7801
+		regiment = { type = infantry_brigade name = "12th 'Hativa HaNegev' Infantry Brigade" historical_model = 0 strength = 25 experience = 4 }
+	}
+}

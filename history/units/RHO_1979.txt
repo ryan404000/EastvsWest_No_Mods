@@ -1,0 +1,34 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 7271
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Rhodesian Army"
+		location = 7271
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 7271
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade 'Sailsbury'" historical_model = 0 strength = 35 experience = 4 }
+			regiment = { type = police_brigade name = "British South Africa Police" historical_model = 0 strength = 20 experience = 4 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 7271
+			regiment = { type = air_cav_brigade name = "1st Rhodesian Light Infantry" historical_model = 0 strength = 40 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 7271
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade 'Bulawayo'" historical_model = 0 strength = 35 experience = 4 }
+		}
+	}
+
+}

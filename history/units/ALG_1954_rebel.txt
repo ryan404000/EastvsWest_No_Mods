@@ -1,0 +1,49 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 4861
+	regiment = { type = hq_brigade name = "Armee de Liberation Nationale" historical_model = 0 }
+
+	army =
+	{
+		name = "Armée de Liberation Nationale"
+		location = 4972
+		pool = yes
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 5072
+			pool = yes
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 36 experience = 5 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 38 experience = 4 }
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 34 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 5176
+			pool = yes
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 36 experience = 3 }
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 37 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 5238
+			pool = yes
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 36 experience = 3 }
+			regiment = { type = militia_brigade name = "7th Militia Brigade" historical_model = 0 strength = 38 experience = 4 }
+			regiment = { type = militia_brigade name = "8th Militia Brigade" historical_model = 0 strength = 34 experience = 7 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 5363
+			pool = yes
+			regiment = { type = militia_brigade name = "9th Militia Brigade" historical_model = 0 strength = 38 experience = 5 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 0 strength = 37 experience = 4 }
+		}
+	}
+}

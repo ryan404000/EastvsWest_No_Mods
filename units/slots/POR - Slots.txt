@@ -1,0 +1,14 @@
+# ----------------------- SURFACE SHIPS -----------------------------------
+# ----------------------- DESTROYERS -----------------------------------
+
+# Douro-class
+destroyer.0 = {
+slotdata = { id = gun_complex level = 0 x = 160 y = 691}
+slotdata = { id = gun_complex level = 0 x = 200 y = 678}
+slotdata = { id = gun_complex level = 0 x = 550 y = 665}
+slotdata = { id = gun_complex level = 0 x = 590 y = 675}
+slotdata = { id = ciws_complex level = 1 x = 350 y = 685}
+slotdata = { id = ciws_complex level = 1 x = 490 y = 675}
+slotdata = { id = torpedo_complex level = 0 x = 290 y = 685 ammo_store = 4}
+slotdata = { id = torpedo_complex level = 0 x = 420 y = 685 ammo_store = 4}
+}

@@ -1,0 +1,217 @@
+color = { 188  168  163 }
+graphical_culture = Generic
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	ENG_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={} 
+ministers = {
+
+#HOS - President. UAE is independent as of 1971; timelines extended for early independence
+
+	1349000 = {
+		name = "Zayed bin Sultan Al Nahyan"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = UAE_M_Sultan_Zayed
+		head_of_state = parental_type
+		start_date = 1946.1.1
+		death_date = 2004.11.2
+	}
+	1349005 = {
+		name = "Shakbut bin Sultan Al-Nahyan"
+		ideology = paternal_auto_idolg
+		loyalty = 0.99
+		picture = UAE_M_bin_Sultan_al-Nahyan_Shakbut
+		head_of_state = traditionalist_type
+		start_date = 1928.1.1
+		death_date = 1966.8.8
+	}
+	1349009 = { 
+		name = "Khalifa bin Zayed Al Nahyan"
+		ideology = paternal_auto_idolg
+		loyalty = 0.98
+		picture = UAE_M_Al_Nahyan_Khalifa
+		head_of_state = traditionalist_type
+		start_date = 1969.1.25
+		death_date = 2300.1.1
+	}
+	1349010 = { 
+		name = "Sultan bin Khalifa Al Nahyan"
+		ideology = paternal_auto_idolg
+		loyalty = 0.97
+		picture = UAE_M_Al_Nahyan_Sultan
+		head_of_state = traditionalist_type
+		start_date = 1986.1.1
+		death_date = 2300.1.1
+	}
+
+#HOG - Prime Minister. 
+
+	1349001 = {
+		name = "Maktoum bin Rashid"
+		ideology = paternal_auto_idolg
+		loyalty = 0.90
+		picture = UAE_M_Rashid_Maktoum
+		head_of_government = traditionalist_type
+		start_date = 1971.12.9
+		death_date = 2006.1.4
+	}
+
+	1349002 = {
+		name = "Rashid bin Saeed"
+		ideology = paternal_auto_idolg
+		loyalty = 0.80
+		picture = UAE_M_Saeed_Rashid
+		head_of_government = reformer_type
+		start_date = 1946.1.1
+		death_date = 1990.10.7
+	}
+	
+	#1349003
+	
+	1349004 = { #P
+		name = "John Fieldhouse"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = UAE_M_Fieldhouse_John
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1946.1.1
+		death_date = 1992.2.17
+	}
+	
+
+	
+	1349006 = { #P
+		name = "Khalifa bin Yousef"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = UAE_M_bin_Yousef_Khalifa
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1928.1.1
+		death_date = 1971.8.13
+	}
+	
+	1349007 = { #P
+		name = "Amjad Hakim Nagi el-Amin"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = UAE_M_Nagi_el-Amin_Amjad_H
+		head_of_state = supreme_leader
+		head_of_government = supreme_leader
+		start_date = 1961.2.2
+		death_date = 1992.8.16
+	}
+	1349008 = { #P
+		name = "Ahmed Ibrahim"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = UAE_M_Ibrahim_Ahmed
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1968.5.3
+		death_date = 1996.8.16
+	}
+	
+	
+	1349011 = { #P
+		name = "Saeed bin Maktoum bin Hasher Al Maktoum"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = UAE_M_Al_Maktoum_Saeed_M_H
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1946.1.1
+		death_date = 1958.9.9
+	}
+	1349012 = { #P
+		name = "Rashid bin Saeed Al Maktoum"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = UAE_M_Al_Maktoum_Rashid_S
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1946.1.1
+		death_date = 1990.10.7
+	}
+	1349013 = { #P
+		name = "Maktoum bin Rashid Al Maktoum"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = UAE_M_Al_Maktoum_Maktoum_R
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1943.8.15
+		death_date = 2006.1.4
+	}
+
+	
+		
+}
+
+

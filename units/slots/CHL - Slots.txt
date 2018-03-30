@@ -1,0 +1,29 @@
+# ----------------------- SUBS -----------------------------------
+# Santa Fe-class
+submarine.0 = {
+slotdata = { id = gun_complex level = 0 x = 410 y = 635}
+slotdata = { id = torpedo_complex level = 0 x = 90 y = 675 ammo_store = 12}
+slotdata = { id = torpedo_complex level = 0 x = 660 y = 685 ammo_store = 2}
+}
+# ----------------------- SURFACE SHIPS -----------------------------------
+
+# ----------------------- DESTROYERS -----------------------------------
+
+# Serrano-class
+destroyer.0 = {
+slotdata = { id = gun_complex level = 0 x = 160 y = 690}
+slotdata = { id = gun_complex level = 0 x = 550 y = 665}
+slotdata = { id = gun_complex level = 0 x = 590 y = 675}
+slotdata = { id = torpedo_complex level = 0 x = 290 y = 685 ammo_store = 6}
+slotdata = { id = torpedo_complex level = 0 x = 400 y = 675 ammo_store = 6}
+}
+
+# ----------------------- CAPITAL SHIPS -----------------------------------
+# Almirante Latorre-class
+battleship.0 = {
+slotdata = { id = heavy_gun_complex level = 0 x = 200 y = 685}
+slotdata = { id = heavy_gun_complex level = 0 x = 250 y = 685}
+slotdata = { id = heavy_gun_complex level = 0 x = 480 y = 679}
+slotdata = { id = heavy_gun_complex level = 0 x = 520 y = 685}
+slotdata = { id = heavy_gun_complex level = 0 x = 560 y = 685}
+}

@@ -1,0 +1,144 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 12296
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 12296
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 12412
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+	}
+}
+
+military_construction = {
+	country = SVI
+	name = "1st Infantry Division"
+	militia_brigade =
+	{
+		name = "1st Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "2nd Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "3rd Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = SVI
+	name = "2nd Infantry Division"
+	infantry_brigade =
+	{
+		name = "1st Infantry Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "4th Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "5th Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = SVI
+	name = "3rd Infantry Division"
+	infantry_brigade =
+	{
+		name = "2nd Infantry Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "6th Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "7th Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = SVI
+	name = "4th Infantry Division"
+	infantry_brigade =
+	{
+		name = "3rd Infantry Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "8th Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "9th Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = SVI
+	name = "5th Infantry Division"
+	militia_brigade =
+	{
+		name = "10th Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "11th Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = SVI
+	name = "6th Infantry Division"
+	militia_brigade =
+	{
+		name = "12th Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "13th Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}

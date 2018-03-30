@@ -1,0 +1,130 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 5647
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 5360
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 5643
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 38 experience = 15 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 0 strength = 22 experience = 15 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 0 strength = 36 experience = 14 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 5643
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 0 strength = 38 experience = 15 }
+			regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 0 strength = 22 experience = 15 }
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 0 strength = 36 experience = 14 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 5647
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "3rd Division"
+			location = 5647
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 37 experience = 13 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 0 strength = 34 experience = 15 }
+			regiment = { type = artillery_brigade name = "3rd Artillery Regiment" historical_model = 0 strength = 22 experience = 15 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 5644
+		location = 5644
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 0 strength = 20 builder = USA }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 5428 # La Spezia
+		location = 5428
+		ship = { type = battleship name = "RM Vittorio Veneto" historical_model = 1 }
+		ship = { type = battleship name = "RM Italia" historical_model = 1 }
+		ship = { type = battleship name = "RM Andrea Doria" historical_model = 0 }
+		ship = { type = battleship name = "RM Caio Duilio" historical_model = 0 }
+		ship = { type = cruiser name = "RM Attilio Regolo" historical_model = 0 }
+		ship = { type = cruiser name = "RM Pompeo Magno" historical_model = 0 }		
+		ship = { type = destroyer name = "2a Flottiglia Torpediniere" historical_model = 0 }
+		ship = { type = transport_ship name = "1a Squadrone Trasporti" historical_model = 0 }
+		ship = { type = transport_ship name = "2a Squadrone Trasporti" historical_model = 0 }
+	}
+	navy = {
+		name = "7th Fleet"
+		base = 5428 # La Spezia
+		location = 5428
+		ship = { type = submarine name = "1a Flottiglia Sommergibili" historical_model = 0 strength = 60}
+	}
+
+	navy = {
+		name = "2nd Fleet"
+		base = 5816 # Napoli (m)
+		location = 5816
+		ship = { type = cruiser name = "RM Attilio Regolo" historical_model = 0 }
+		ship = { type = transport_ship name = "3a Squadrone Trasporti" historical_model = 0 }
+	}
+
+	navy = {
+		name = "3rd Fleet"
+		base = 5726 # Ancona
+		location = 5726
+		ship = { type = cruiser name = "RM San Giorgio" historical_model = 0 }
+	}
+
+	navy = {
+		name = "4th Fleet"
+		base = 5501 # Livorno (m)
+		location = 5501
+		ship = { type = cruiser name = "RM Scipione Africano" historical_model = 0 }
+	}
+
+	navy = {
+		name = "5th Fleet"
+		base = 5730 # Palermo
+		location = 5730
+		ship = { type = cruiser name = "RM Raimondo Montecuccoli" historical_model = 0 }
+	}
+
+	navy = {
+		name = "6th Fleet"
+		base = 6096 # Taranto
+		location = 6096
+		ship = { type = battleship name = "RM Giulio Cesare" historical_model = 0 }
+		ship = { type = cruiser name = "RM Giuseppe Garibaldi" historical_model = 0 }
+		ship = { type = cruiser name = "RM Luigi di Savoia Duca degli Abruzzi" historical_model = 0 }
+		ship = { type = cruiser name = "RM Eugenio di Savoia" historical_model = 0 }
+		ship = { type = destroyer name = "1a Flottiglia Torpediniere" historical_model = 0 }
+	}
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 5574
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 37 experience = 15 }
+	regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 0 strength = 34 experience = 22 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 0 strength = 22 experience = 14 }
+}
+
+navy = {
+	name = "Mothball Fleet"
+	base = 6096 # Taranto
+	location = 6096
+	pool = yes
+	ship = { type = cruiser name = "RM Emanuele Filiberto Duca d'Aosta" historical_model = 0 }
+	ship = { type = cruiser name = "RM Luigi Cadorna" historical_model = 0 }
+}

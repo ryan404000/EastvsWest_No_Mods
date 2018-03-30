@@ -1,0 +1,101 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_oobentry_bg"	
+		texturefile = "gfx\\interface\\SemperFi\\oobentry_bg.dds"
+		
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_oob_leader_entry_bg"	
+		texturefile = "gfx\\interface\\SemperFi\\oob_leader_entry.dds"
+		
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_plate_brigade"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_brigade.dds"
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_plate_division"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_division.dds"
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_plate_division_highlighted"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_division_highlighted.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_plate_theater"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_theater.dds"
+		noOfFrames = 2
+		
+	}
+	
+	
+	spriteType = {
+		name = "GFX_oob_unit_plate_army_small"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_army_small.dds"
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_plate_air_small"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_air_small.dds"
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_plate_naval_small"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_naval_small.dds"
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_tree"
+		texturefile = "gfx\\interface\\unit_window\\oob\\oob_btn_tree.dds"
+		
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_oob_unit_tree_bg"
+		texturefile = "gfx\\interface\\unit_window\\oob\\oob_btn_tree_bg.dds"
+		
+	}
+	
+	textSpriteType = {
+		name = "GFX_oob_button"
+		texturefile = "gfx\\interface\\unit_window\\oob\\oob_btn.dds"
+		
+	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_oob_bg"	
+		textureFile ="gfx\\interface\\unit_window\\oob\\oob_bg.dds"
+		
+		size = { x=360 y=544 }
+	}
+	
+	progressbartype = {
+		name = "oob_obj_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_big_hor_green.dds"
+		horizontal = yes
+		size = { x = 120 y = 8 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}	
+}

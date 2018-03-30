@@ -1,0 +1,118 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+#
+# Order in here matters for selection priority if icons are overlapping,
+# so leave bases on top
+
+# 
+# cost = x #==> cost in ic to build (subject to other modifiers)
+# time = x #==> number of day to build.
+#
+
+air_base = {
+	completion_size = 0.13
+	air_capacity = 1
+	capital = yes
+	onmap = yes
+	cost = 200
+	time = 180
+	max_level = 10
+	visibility = yes
+}
+
+naval_base = {
+	completion_size = 0.33
+	naval_capacity = 1
+	capital = yes
+	onmap = yes
+	port = yes
+	cost = 500
+	time = 180
+	max_level = 10
+	visibility = yes
+}
+
+industry = {
+	completion_size = 0.67
+	ic = 1
+	capital = yes
+	onmap = no
+	cost = 500
+	time = 365
+	max_level = 10
+}
+
+coastal_fort = {
+	completion_size = 0.33
+	coastal_fort_level = 1
+	onmap = yes
+	visibility = yes
+	port = yes
+	orientation = yes	
+	cost = 500
+	time = 180
+	max_level = 10
+}
+
+land_fort = {
+	completion_size = 0.33
+	fort_level = 1
+	onmap = yes
+	visibility = yes
+	cost = 500
+	time = 180
+	max_level = 10
+}
+
+anti_air = {
+	completion_size = 0.25
+	local_anti_air = 1
+	capital = yes
+	onmap = yes
+	visibility = yes
+	cost = 300
+	time = 600
+	max_level = 10
+	
+}
+
+infra = {
+	completion_size = 0.13
+	infrastructure = 0.1
+	onmap = no
+	cost = 50
+	time = 180
+	max_level = 10
+}
+
+radar_station = {
+	completion_size = 0.5
+	radar_level = 1
+	capital = yes
+	onmap = yes
+	visibility = yes
+	cost = 200
+	time = 180
+	max_level = 10
+}
+
+nuclear_reactor = {
+	completion_size = 6
+	capital = yes
+	onmap = yes
+	visibility = yes
+	cost = 5000
+	time = 180
+	max_level = 10
+}
+
+rocket_test = {
+	completion_size = 6
+	capital = yes
+	onmap = yes
+	visibility = yes
+	cost = 2000
+	time = 180
+	max_level = 10
+}
+

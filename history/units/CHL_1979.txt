@@ -1,0 +1,115 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 2584
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 2584
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 2584
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 2 strength = 38 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 2 strength = 39 experience = 4 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 2 strength = 22 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 2584
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 2 strength = 37 experience = 5 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 2 strength = 39 experience = 5 }
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 2 strength = 36 experience = 5 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 2580
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 2 strength = 37 experience = 4 }
+			regiment = { type = engineer_brigade name = "1st Engineer Brigade" historical_model = 3 strength = 24 experience = 4 }
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 2 strength = 40 experience = 4 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 2435
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "6th Division"
+			location = 2435
+			regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 2 strength = 37 experience = 5 }
+			regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 2 strength = 38 experience = 4 }
+			regiment = { type = artillery_brigade name = "3rd Artillery Brigade" historical_model = 2 strength = 24 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 1 strength = 37 experience = 5 }
+		}
+		division =
+		{
+			name = "8th Division"
+			location = 2513
+			regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 1 strength = 37 experience = 5 }
+			regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 1 strength = 38 experience = 5 }
+			regiment = { type = artillery_brigade name = "4th Artillery Brigade" historical_model = 1 strength = 25 experience = 4 }
+		}
+	}
+	navy = 
+		name = "1st Fleet"
+		base = 2500 # Valparaíso (m)
+		location = 2500
+		ship = { type = cruiser name = "BACH O'Higgins" historical_model = 0 builder = USA}
+		ship = { type = cruiser name = "BACH Capitán Prat" historical_model = 0 builder = USA}
+		ship = { type = cruiser name = "BACH Almirante Latorre" historical_model = 0 builder = SWE}
+		ship = { type = missile_destroyer name = "BACH Almirante Williams" historical_model = 1 builder = ENG }
+		ship = { type = missile_destroyer name = "BACH Almirante Riveros" historical_model = 1 builder = ENG }	
+		ship = { type = destroyer name = "Flotilla de Destructores nro. 1" historical_model = 0 builder = USA strength = 80}		
+		ship = { type = missile_frigate name = "BACH General Baquedano" historical_model = 4 builder = ENG }
+		ship = { type = missile_frigate name = "BACH Almirante Lynch" historical_model = 4 builder = ENG }
+		ship = { type = missile_frigate name = "BACH Almirante Condell" historical_model = 4 builder = ENG }
+		ship = { type = transport_ship name = "1a Flotilla de Transporte Naval" historical_model = 0 }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 2500 # Valparaíso (m)
+		location = 2500
+		ship = { type = submarine name = "Flotilla de Submarinos nro. 1" historical_model = 0 builder = USA strength = 20}			
+		ship = { type = attack_submarine name = "BACH Capitan O'Brien" historical_model = 2 builder = ENG }
+		ship = { type = attack_submarine name = "BACH Capitan Hyatt" historical_model = 2 builder = ENG }
+	}
+}
+
+division =
+{
+	name = "4th Division"
+	location = 2660
+	pool = yes
+	regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+	regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 38 experience = 4 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 1 strength = 24 experience = 5 }
+	regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+}
+division =
+{
+	name = "7th Division"
+	location = 2434
+	pool = yes
+	regiment = { type = bergsjaeger_brigade name = "3rd Mountain Brigade" historical_model = 1 strength = 36 experience = 5 }
+	regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 2 strength = 38 experience = 4 }
+	regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 1 strength = 39 experience = 4 }
+	regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+}
+division =
+{
+	name = "5th Division"
+	location = 2500
+	pool = yes
+	regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 1 strength = 37 experience = 4 }
+	regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 1 strength = 38 experience = 5 }
+	regiment = { type = bergsjaeger_brigade name = "2nd Mountain Brigade" historical_model = 1 strength = 36 experience = 4 }
+}

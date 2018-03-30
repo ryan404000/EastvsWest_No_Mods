@@ -1,0 +1,128 @@
+theatre = {
+	name = "India Theatre"
+	location = 14888
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Central Command"
+		location = 10484
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division = 
+		{   
+			name = "1st Armoured Division"
+			location = 10283
+			regiment = { type = armor_brigade name = "1st Armoured Brigade" historical_model = 0 strength = 21 experience = 14 }
+		}
+		
+		division = 
+		{   
+			name = "4th Indian Division"
+			location = 10547
+			regiment = { type = infantry_brigade name = "5th Indian Inf. Brigade" historical_model = 0 strength = 32 experience = 17 }
+			regiment = { type = infantry_brigade name = "7th Indian Inf. Brigade" historical_model = 0 strength = 33 experience = 16 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 0 strength = 22 experience = 12 }
+		}
+		
+		division = 
+		{   
+			name = "44th Airborne division"
+			location = 10413
+			regiment = { type = infantry_brigade name = "77th Parachute Brigade" historical_model = 0 strength = 34 experience = 13 }
+			regiment = { type = infantry_brigade name = "50th Parachute Brigade" historical_model = 0 strength = 37 experience = 15 }
+		}
+		
+		division = 
+		{   
+			name = "5th Infantry division"
+			location = 10750
+			regiment = { type = infantry_brigade name = "123rd Infantry Brigade" historical_model = 0 strength = 32 experience = 17 }
+			regiment = { type = infantry_brigade name = "161st Infantry Brigade" historical_model = 0 strength = 34 experience = 16 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 0 strength = 18 experience = 16 }
+		}
+		
+		division = 
+		{   
+			name = "Kumaon Brigade"
+			location = 10354
+			regiment = { type = infantry_brigade name = "Kumaon Brigade" historical_model = 0 strength = 19 experience = 36 }
+		}
+	}
+	
+	
+	army =
+	{
+		name = "Western Command"
+		location = 10287
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division = 
+		{   
+			name = "Rajput Brigade"
+			location = 10168 
+			regiment = { type = infantry_brigade name = "Rajput Brigade" historical_model = 0 strength = 36 experience = 31 }
+		}
+		
+		division = 
+		{   
+			name = "Rajputana Brigade"
+			location = 10284
+			regiment = { type = infantry_brigade name = "Rajputana Brigade" historical_model = 0 strength = 37 experience = 27 }
+		}
+		
+		division = 
+		{   
+			name = "Sikh Brigade"
+			location = 10385
+			regiment = { type = infantry_brigade name = "Sikh Brigade" historical_model = 0 strength = 35 experience = 26 }
+		}
+		
+		division = 
+		{   
+			name = "Malaun Brigade"
+			location = 10223
+			regiment = { type = infantry_brigade name = "1st Gurkha Brigade" historical_model = 0 strength = 33 experience = 36 }
+		}
+		
+		division = 
+		{   
+			name = "1st Militia Division"
+			location = 10223
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 35 experience = 4 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 37 experience = 5 }
+		}
+	}
+	army =
+	{
+		name = "Northern Command"
+		location = 10285
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division = 
+		{   
+			name = "2nd Militia Division"
+			location = 10617
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 37 experience = 2 }
+		}
+		division = 
+		{   
+			name = "3rd Militia Division"
+			location = 10549
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 34 experience = 4 }
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 38 experience = 4 }
+		}
+		division =
+		{
+			name = "21st Mountain Division"
+			location = 10474
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 0 strength = 35 experience = 11 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 14888
+		location = 14888
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 0 strength = 25 builder = ENG }
+	}
+}	

@@ -1,0 +1,44 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 14843
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 14843
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 14843
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 2 strength = 34 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 2 strength = 35 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 2 strength = 22 experience = 5 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 14837
+		location = 14837
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 2 strength = 50 builder = ENG }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 14843 # Wellington
+		location = 14843
+		ship = { type = missile_frigate name = "HMNZS Otago" historical_model = 2 builder = ENG }
+		ship = { type = missile_frigate name = "HMNZS Taranaki" historical_model = 2 builder = ENG }			
+	}
+}	
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 14832
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 1 strength = 34 experience = 10 }
+}

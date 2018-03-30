@@ -1,0 +1,177 @@
+theatre =
+{
+	name = "People's Republic of HUngary"
+	location = 6181
+	regiment = { type = hq_brigade name = "Ministry of Defense" historical_model = 0 }
+
+	army =
+	{
+		name = "Hungarian Defense Force"
+		location = 6181
+		regiment = { type = hq_brigade name = "Hungarian General Staff" historical_model = 0 }
+
+		corps = {
+			name = "3rd rifle corp"
+			location = 6273
+			regiment = { type = hq_brigade name = "3rd corp HQ" historical_model = 0 }
+	
+			division =
+			{
+				name = "5th rifle division"
+				location = 6273
+				regiment = { type = infantry_brigade name = "12th rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "19th rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "49th rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "12th  rifle division"
+				location = 6183
+				regiment = { type = infantry_brigade name = "22nd rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "25th rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "37th rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "27th  rifle division"
+				location = 6273
+				regiment = { type = infantry_brigade name = "17th rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "31st rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "34th rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+		}
+		corps = {
+			name = "6th rifle corp"
+			location = 6182
+			regiment = { type = hq_brigade name = "6th corp HQ" historical_model = 0 }
+	
+			division =
+			{
+				name = "9.  rifle division"
+				location = 6182
+				regiment = { type = infantry_brigade name = "26. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "33. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "38. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "17.  rifle division"
+				location = 6092
+				regiment = { type = infantry_brigade name = "14. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "29. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "32. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "32.  rifle division"
+				location = 6092
+				regiment = { type = infantry_brigade name = "75. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "90. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "94. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+		}
+		corps = {
+			name = "9th rifle corp"
+			location = 6466
+			regiment = { type = hq_brigade name = "9th corp HQ" historical_model = 0 }
+	
+			division =
+			{
+				name = "4th rifle division"
+				location = 6466
+				regiment = { type = infantry_brigade name = "5. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "48. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "52. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "8th  rifle division"
+				location = 6367
+				regiment = { type = infantry_brigade name = "28. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "82. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "93. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "35th  rifle division"
+				location = 6577
+				regiment = { type = infantry_brigade name = "46. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "2. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = infantry_brigade name = "99. rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+		}
+		corps = {
+			name = "11th mechanized corp"
+			location = 6168
+			regiment = { type = hq_brigade name = "11th corp HQ" historical_model = 0 }
+	
+			division =
+			{
+				name = "7th mechanized division"
+				location = 6168
+				regiment = { type = motorized_brigade name = "8th motorized rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = motorized_brigade name = "15th motorized rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = tank_destroyer_brigade name = "31st assault gun regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = armor_brigade name = "33rd heavy armoured regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "18th armoured division"
+				location = 6272
+				regiment = { type = armor_brigade name = "26th medium armoured regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = armor_brigade name = "44th medium armoured regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = armor_brigade name = "48th medium armoured regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = motorized_brigade name = "6. motorized rifle regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+		}
+		corps = {
+			name = "Hungarian airforce"
+			location = 6273
+			regiment = { type = hq_brigade name = "Airforce HQ" historical_model = 0 }
+	
+			division =
+			{
+				name = "25th fighter division"
+				location = 6273
+				regiment = { type = fighter name = "1st fighter regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = fighter name = "2nd fighter regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "66th  fighter division"
+				location = 6183
+				regiment = { type = fighter name = "3rd fighter regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = fighter name = "4th fighter regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "28th battle-fighter division"
+				location = 6273
+				regiment = { type = multi_role name = "5st fighter regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = multi_role name = "6th fighter regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+			division =
+			{
+				name = "82nd independent bomber division"
+				location = 6273
+				regiment = { type = bomber_strike name = "1st bomber regiment" historical_model = 0 strength = 100 experience = 0 }
+				regiment = { type = bomber_strike name = "2nd bomber regiment" historical_model = 0 strength = 100 experience = 0 }
+			}
+		}
+	}
+}
+# 38th mobile anti-air division sp_anti_air_brigade
+# 30th offensive artillery division Art sp_artillery_brigade
+# 28th mortar brigade rocket_artillery_brigade
+# 35th cannon brigade artillery_brigade
+# 36th anti-armor brigade anti_tank_brigade
+# 87th anti-armor brigade  anti_tank_brigade
+# 66th machine gun regiment  infantry_brigade
+# 15th anti-air division AA in Veszprém (6182)
+# 46th lanti-air division AA in Budapest (6181)
+# 55th anti-air division AA in Sztláinváros (6183)
+# 58th anti-air division AA in Miskolc (6366)
+# 12th engineer brigade engineer_brigade
+# 37th pontoon-bridge brigade engineer_brigade
+# 1st cavalry regiment cavalry_brigade
+# 64th battleship brigade (river flottila)

@@ -1,0 +1,1581 @@
+1514001 = {
+	name = "Kevin Rebane"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.12.1 = { rank = 0 }
+	}
+}
+1514004 = {
+	name = "Ando Saar"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.6.1 = { rank = 0 }
+	}
+}
+1514003 = {
+	name = "Arved Rebane"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.8.1 = { rank = 0 }
+	}
+}
+1514000 = {
+	name = "Karl Kukk"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1514008 = {
+	name = "Innar Tamm"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1948.12.1 = { rank = 1 }
+		1952.11.1 = { rank = 0 }
+	}
+}
+1514010 = {
+	name = "Meelis Koppe"
+	type = land
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1950.8.1 = { rank = 1 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1514005 = {
+	name = "Kaido Rebane"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1514002 = {
+	name = "Aabel Saar"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.1.1 = { rank = 0 }
+	}
+}
+1514014 = {
+	name = "Neeme Tamm"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1954.6.1 = { rank = 1 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1514011 = {
+	name = "Aleks Mägi"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1951.11.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1514013 = {
+	name = "Arvi Tamm"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1953.1.1 = { rank = 1 }
+		1958.5.1 = { rank = 0 }
+	}
+}
+1514015 = {
+	name = "Martin Mägi"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.1.1 = { rank = 1 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1514007 = {
+	name = "Jaagup Saar"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1514019 = {
+	name = "Peetrus Mägi"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.12.1 = { rank = 1 }
+		1961.10.1 = { rank = 0 }
+	}
+}
+1514006 = {
+	name = "Eduard Sepp"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1960.11.1 = { rank = 4 }
+		1962.7.1 = { rank = 0 }
+	}
+}
+1514009 = {
+	name = "Raido Saar"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.6.1 = { rank = 1 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1514017 = {
+	name = "Joonas Koppe"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1957.10.1 = { rank = 1 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1514020 = {
+	name = "Aksel Kask"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1960.11.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1514016 = {
+	name = "Ivar Rebane"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1956.4.1 = { rank = 1 }
+		1960.11.1 = { rank = 2 }
+		1962.7.1 = { rank = 3 }
+		1966.2.1 = { rank = 0 }
+	}
+}
+1514026 = {
+	name = "Jakob Ilves"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1966.2.1 = { rank = 1 }
+		1967.11.1 = { rank = 0 }
+	}
+}
+1514025 = {
+	name = "Mait Pärn"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.1.1 = { rank = 1 }
+		1968.5.1 = { rank = 0 }
+	}
+}
+1514021 = {
+	name = "Raigo Rebane"
+	type = land
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.10.1 = { rank = 1 }
+		1962.7.1 = { rank = 2 }
+		1966.2.1 = { rank = 3 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1514027 = {
+	name = "Meelis Koppe"
+	type = land
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1967.11.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1514018 = {
+	name = "Erko Kask"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1958.5.1 = { rank = 1 }
+		1971.8.1 = { rank = 0 }
+	}
+}
+1514030 = {
+	name = "Rasmus Kukk"
+	type = land
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1972.10.1 = { rank = 0 }
+	}
+}
+1514012 = {
+	name = "Märt Pärn"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1952.11.1 = { rank = 1 }
+		1954.6.1 = { rank = 2 }
+		1960.11.1 = { rank = 3 }
+		1962.7.1 = { rank = 4 }
+		1973.7.1 = { rank = 0 }
+	}
+}
+1514024 = {
+	name = "Kajar Rebane"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.2.1 = { rank = 1 }
+		1969.8.1 = { rank = 2 }
+		1973.7.1 = { rank = 3 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1514034 = {
+	name = "Ergo Saar"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1975.3.1 = { rank = 0 }
+	}
+}
+1514035 = {
+	name = "Jürgen Saar"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.3.1 = { rank = 1 }
+		1976.11.1 = { rank = 0 }
+	}
+}
+1514028 = {
+	name = "Paavo Koppe"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.5.1 = { rank = 1 }
+		1977.7.1 = { rank = 0 }
+	}
+}
+1514022 = {
+	name = "Heino Kask"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.7.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1514036 = {
+	name = "Arvo Ilves"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.11.1 = { rank = 1 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1514032 = {
+	name = "Ergo Mägi"
+	type = land
+	country = EST
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1972.10.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1980.5.1 = { rank = 0 }
+	}
+}
+1514038 = {
+	name = "Raiko Ilves"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1978.8.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1514039 = {
+	name = "Joonatan Mägi"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.6.1 = { rank = 1 }
+		1982.3.1 = { rank = 0 }
+	}
+}
+1514040 = {
+	name = "Ardi Tamm"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1980.5.1 = { rank = 1 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1514023 = {
+	name = "Raul Kask"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.10.1 = { rank = 1 }
+		1966.2.1 = { rank = 2 }
+		1969.8.1 = { rank = 3 }
+		1973.7.1 = { rank = 4 }
+		1984.11.1 = { rank = 0 }
+	}
+}
+1514044 = {
+	name = "Raimo Pärn"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1984.11.1 = { rank = 1 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1514041 = {
+	name = "Maarjo Rebane"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1981.10.1 = { rank = 1 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1514043 = {
+	name = "Magnus Sepp"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.1.1 = { rank = 1 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1514045 = {
+	name = "Jüri Tamm"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.2.1 = { rank = 1 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1514048 = {
+	name = "Hillar Koppe"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1988.1.1 = { rank = 1 }
+		1989.10.1 = { rank = 0 }
+	}
+}
+1514049 = {
+	name = "Maido Tamm"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1989.10.1 = { rank = 1 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1514029 = {
+	name = "Peetrus Sepp"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514031 = {
+	name = "Harri Rebane"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.8.1 = { rank = 1 }
+		1973.7.1 = { rank = 2 }
+		1974.8.1 = { rank = 3 }
+		1984.11.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514033 = {
+	name = "Alari Kukk"
+	type = land
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.7.1 = { rank = 1 }
+		1980.5.1 = { rank = 2 }
+		1984.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514037 = {
+	name = "Evald Tamm"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1977.7.1 = { rank = 1 }
+		1984.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514042 = {
+	name = "Rauno Kukk"
+	type = land
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1982.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514046 = {
+	name = "Raiko Saar"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514047 = {
+	name = "Peep Ilves"
+	type = land
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514050 = {
+	name = "Henri Sepp"
+	type = land
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514052 = {
+	name = "Olari Tamm"
+	type = sea
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1514053 = {
+	name = "Mark Tamm"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.8.1 = { rank = 0 }
+	}
+}
+1514056 = {
+	name = "Aksel Mägi"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.2.1 = { rank = 0 }
+	}
+}
+1514055 = {
+	name = "Janno Ilves"
+	type = sea
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.8.1 = { rank = 0 }
+	}
+}
+1514060 = {
+	name = "Karl Sepp"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1952.8.1 = { rank = 1 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1514057 = {
+	name = "Ando Tamm"
+	type = sea
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1955.4.1 = { rank = 0 }
+	}
+}
+1514058 = {
+	name = "Janno Sepp"
+	type = sea
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1956.10.1 = { rank = 0 }
+	}
+}
+1514062 = {
+	name = "Arti Koppe"
+	type = sea
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1955.8.1 = { rank = 1 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1514059 = {
+	name = "Mario Tamm"
+	type = sea
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1950.6.1 = { rank = 1 }
+		1955.2.1 = { rank = 2 }
+		1955.4.1 = { rank = 3 }
+		1956.10.1 = { rank = 4 }
+		1961.8.1 = { rank = 0 }
+	}
+}
+1514064 = {
+	name = "Markus Pärn"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1955.4.1 = { rank = 1 }
+		1966.6.1 = { rank = 0 }
+	}
+}
+1514051 = {
+	name = "Aivar Kukk"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.4.1 = { rank = 2 }
+		1956.10.1 = { rank = 3 }
+		1961.8.1 = { rank = 4 }
+		1968.1.1 = { rank = 0 }
+	}
+}
+1514061 = {
+	name = "Arno Ilves"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1955.2.1 = { rank = 1 }
+		1956.10.1 = { rank = 2 }
+		1961.8.1 = { rank = 3 }
+		1968.1.1 = { rank = 4 }
+		1969.2.1 = { rank = 0 }
+	}
+}
+1514066 = {
+	name = "Kermo Sepp"
+	type = sea
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1968.1.1 = { rank = 2 }
+		1969.2.1 = { rank = 3 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1514069 = {
+	name = "Jakob Ilves"
+	type = sea
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.1.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1514054 = {
+	name = "Jaakob Pärn"
+	type = sea
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.8.1 = { rank = 2 }
+		1968.1.1 = { rank = 3 }
+		1969.2.1 = { rank = 4 }
+		1977.1.1 = { rank = 0 }
+	}
+}
+1514073 = {
+	name = "Kristian Tamm"
+	type = sea
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.1.1 = { rank = 1 }
+		1978.6.1 = { rank = 0 }
+	}
+}
+1514067 = {
+	name = "Heigo Kukk"
+	type = sea
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.8.1 = { rank = 1 }
+		1969.2.1 = { rank = 2 }
+		1972.9.1 = { rank = 3 }
+		1977.1.1 = { rank = 4 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1514065 = {
+	name = "Joona Saar"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.10.1 = { rank = 1 }
+		1977.1.1 = { rank = 2 }
+		1979.6.1 = { rank = 3 }
+		1981.2.1 = { rank = 0 }
+	}
+}
+1514070 = {
+	name = "Aaron Ilves"
+	type = sea
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	add_trait = superior_tactician
+	history = {
+		1969.2.1 = { rank = 1 }
+		1983.7.1 = { rank = 0 }
+	}
+}
+1514072 = {
+	name = "Anti Koppe"
+	type = sea
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1975.6.1 = { rank = 1 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1514076 = {
+	name = "Aleksander Saar"
+	type = sea
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.2.1 = { rank = 1 }
+		1986.6.1 = { rank = 0 }
+	}
+}
+1514063 = {
+	name = "Mikk Tamm"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1955.11.1 = { rank = 1 }
+		1981.2.1 = { rank = 2 }
+		1986.7.1 = { rank = 0 }
+	}
+}
+1514068 = {
+	name = "Albert Kask"
+	type = sea
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1966.6.1 = { rank = 1 }
+		1979.6.1 = { rank = 2 }
+		1981.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514071 = {
+	name = "Kalju Kask"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1972.9.1 = { rank = 1 }
+		1975.6.1 = { rank = 2 }
+		1977.1.1 = { rank = 3 }
+		1979.6.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514074 = {
+	name = "Mihkel Pärn"
+	type = sea
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.6.1 = { rank = 1 }
+		1986.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514075 = {
+	name = "Ants Saar"
+	type = sea
+	country = EST
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514077 = {
+	name = "Martin Kukk"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514078 = {
+	name = "Ando Rebane"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1983.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514079 = {
+	name = "Neeme Tamm"
+	type = sea
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1986.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514080 = {
+	name = "Aaron Saar"
+	type = sea
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1986.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514087 = {
+	name = "Marten Sepp"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.8.1 = { rank = 0 }
+	}
+}
+1514084 = {
+	name = "Otto Mägi"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.8.1 = { rank = 0 }
+	}
+}
+1514085 = {
+	name = "Joosep Saar"
+	type = air
+	country = EST
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.5.1 = { rank = 0 }
+	}
+}
+1514089 = {
+	name = "Anton Tamm"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1514092 = {
+	name = "Miikael Kask"
+	type = air
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1949.5.1 = { rank = 1 }
+		1949.12.1 = { rank = 2 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1514093 = {
+	name = "Joonatan Rebane"
+	type = air
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.12.1 = { rank = 1 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1514091 = {
+	name = "Reigo Kask"
+	type = air
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = superior_air_tactician
+	history = {
+		1948.8.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1514095 = {
+	name = "Lembit Rebane"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1954.1.1 = { rank = 1 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1514083 = {
+	name = "Meeme Mägi"
+	type = air
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.8.1 = { rank = 0 }
+	}
+}
+1514090 = {
+	name = "Feliks Saar"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.8.1 = { rank = 1 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1514097 = {
+	name = "Alar Ilves"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.4.1 = { rank = 1 }
+		1962.7.1 = { rank = 0 }
+	}
+}
+1514086 = {
+	name = "Lembit Kukk"
+	type = air
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.12.1 = { rank = 3 }
+		1962.12.1 = { rank = 0 }
+	}
+}
+1514094 = {
+	name = "Maido Rebane"
+	type = air
+	country = EST
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.2.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1514101 = {
+	name = "Heiti Mägi"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.12.1 = { rank = 1 }
+		1968.6.1 = { rank = 0 }
+	}
+}
+1514100 = {
+	name = "Evert Saar"
+	type = air
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.7.1 = { rank = 1 }
+		1962.12.1 = { rank = 2 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1514099 = {
+	name = "Laur Kask"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1960.1.1 = { rank = 1 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1514103 = {
+	name = "Henri Tamm"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.6.1 = { rank = 1 }
+		1971.12.1 = { rank = 0 }
+	}
+}
+1514106 = {
+	name = "Maanus Pärn"
+	type = air
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.12.1 = { rank = 1 }
+		1972.2.1 = { rank = 0 }
+	}
+}
+1514096 = {
+	name = "Kajar Rebane"
+	type = air
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.10.1 = { rank = 1 }
+		1972.8.1 = { rank = 0 }
+	}
+}
+1514102 = {
+	name = "Eduard Saar"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1964.8.1 = { rank = 1 }
+		1969.7.1 = { rank = 2 }
+		1974.4.1 = { rank = 0 }
+	}
+}
+1514098 = {
+	name = "Hardi Tamm"
+	type = air
+	country = EST
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.8.1 = { rank = 1 }
+		1974.1.1 = { rank = 0 }
+	}
+}
+1514081 = {
+	name = "Olari Ilves"
+	type = air
+	country = EST
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.2.1 = { rank = 2 }
+		1976.7.1 = { rank = 0 }
+	}
+}
+1514104 = {
+	name = "Elmar Tamm"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1514109 = {
+	name = "Aaron Mägi"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1974.4.1 = { rank = 1 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1514111 = {
+	name = "Ardo Sepp"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	history = {
+		1976.7.1 = { rank = 1 }
+		1982.10.1 = { rank = 0 }
+	}
+}
+1514113 = {
+	name = "Feliks Koppe"
+	type = air
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.5.1 = { rank = 1 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1514105 = {
+	name = "Heino Saar"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1970.10.1 = { rank = 1 }
+		1987.10.1 = { rank = 0 }
+	}
+}
+1514082 = {
+	name = "Erki Kask"
+	type = air
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.8.1 = { rank = 2 }
+		1962.12.1 = { rank = 3 }
+		1987.8.1 = { rank = 0 }
+	}
+}
+1514088 = {
+	name = "Raigo Sepp"
+	type = air
+	country = EST
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514107 = {
+	name = "Arvo Mägi"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1972.2.1 = { rank = 1 }
+		1974.4.1 = { rank = 2 }
+		1987.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514108 = {
+	name = "Marti Kask"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1972.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514110 = {
+	name = "Aabraham Kukk"
+	type = air
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1974.1.1 = { rank = 1 }
+		1976.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514112 = {
+	name = "Heigo Sepp"
+	type = air
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1980.11.1 = { rank = 1 }
+		1987.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514114 = {
+	name = "Artur Pärn"
+	type = air
+	country = EST
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514115 = {
+	name = "Markus Tamm"
+	type = air
+	country = EST
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = night_flyer
+	history = {
+		1983.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514116 = {
+	name = "Joel Saar"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1514117 = {
+	name = "Margus Sepp"
+	type = air
+	country = EST
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

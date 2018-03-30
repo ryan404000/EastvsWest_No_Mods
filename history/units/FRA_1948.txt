@@ -1,0 +1,220 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6373
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 5296
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 5926
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 37 experience = 8 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 1 strength = 21 experience = 8 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 0 strength = 35 experience = 7 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 5358
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 36 experience = 8 }
+			regiment = { type = tank_destroyer_brigade name = "1st Tank Destroyer Regiment" historical_model = 0 strength = 17 experience = 8 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 1 strength = 34 experience = 7 }
+			regiment = { type = infantry_brigade name = "22nd Infantry Brigade" historical_model = 0 strength = 37 experience = 7 }
+		}
+		division =
+		{
+			name = "10th Division"
+			location = 6373
+			regiment = { type = infantry_brigade name = "18th Infantry Brigade" historical_model = 0 strength = 36 experience = 6 }
+			regiment = { type = infantry_brigade name = "19th Infantry Brigade" historical_model = 1 strength = 37 experience = 6 }
+			regiment = { type = artillery_brigade name = "5th Artillery Regiment" historical_model = 1 strength = 21 experience = 7 }
+			regiment = { type = infantry_brigade name = "20th Infantry Brigade" historical_model = 0 strength = 37 experience = 6 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 1 strength = 25 experience = 6 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 5170
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 1 strength = 35 experience = 7 }
+			regiment = { type = artillery_brigade name = "3rd Artillery Regiment" historical_model = 1 strength = 23 experience = 9 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 1 strength = 38 experience = 6 }
+			regiment = { type = infantry_brigade name = "21st Infantry Brigade" historical_model = 0 strength = 37 experience = 6 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 5012
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "6th Division"
+			location = 5012
+			regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 0 strength = 34 experience = 7 }
+			regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 0 strength = 22 experience = 7 }
+			regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 0 strength = 37 experience = 9 }
+		}
+		division =
+		{
+			name = "7th Division"
+			location = 6373
+			regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 1 strength = 34 experience = 9 }
+			regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 1 strength = 36 experience = 10 }
+			regiment = { type = anti_tank_brigade name = "2nd Anti-tank Regiment" historical_model = 0 strength = 18 experience = 10 }
+		}
+	}
+	army =
+	{
+		name = "3rd Army"
+		location = 5571
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "8th Division"
+			location = 5571
+			regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 1 strength = 34 experience = 11 }
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 0 strength = 35 experience = 9 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 5012
+		location = 5012
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 0 strength = 50 }
+	}
+	navy = {
+		
+		name = "Mediterranean Fleet"
+		base = 5175 # Marseilles
+		location = 5175
+		ship = { type = battleship name = "Richelieu" historical_model = 0 }		
+		ship = { type = cruiser name = "Gloire" historical_model = 0 }
+		ship = { type = cruiser name = "Montcalm" historical_model = 0 }
+		ship = { type = cruiser name = "Georges Leygues" historical_model = 0 }	
+		ship = { type = cruiser name = "Emile Bertin" historical_model = 0 }		
+		ship = { type = destroyer name = "1ere Flottille de Contre-Torpilleurs" historical_model = 0 }
+		ship = { type = destroyer name = "2eme Flottille de Contre-Torpilleurs" historical_model = 0 }		
+		ship = { type = transport_ship name = "1st Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "2nd Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "3rd Transport Flotilla" historical_model = 0 }
+	}
+}
+theatre =
+{
+	name = "African Theatre"
+	location = 5071
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 5071
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =
+		{
+			name = "9th Division"
+			location = 5071
+			regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 1 strength = 34 experience = 12 }
+			regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 0 strength = 34 experience = 1 }
+		}
+	}
+}
+
+theatre ={
+	name = "Pacific Theatre"
+	location = 12352
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+	navy = {
+		name = "Indochina Fleet"
+		base = 12352 # Hue
+		location = 12352
+		ship = { type = escort_carrier name = "Arromanches" historical_model = 0 builder = ENG}
+		ship = { type = cruiser name = "Duguay Trouin" historical_model = 0 }		
+		ship = { type = cruiser name = "Duquesne" historical_model = 0 }
+		ship = { type = cruiser name = "Tourville" historical_model = 0 }
+		ship = { type = cruiser name = "Jeanne d'Arc" historical_model = 0 }	
+		ship = { type = transport_ship name = "4th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "5th Transport Flotilla" historical_model = 0 }
+	}
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 5293
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 1 strength = 36 experience = 11 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 1 strength = 34 experience = 11 }
+	regiment = { type = anti_tank_brigade name = "1st Anti-tank Regiment" historical_model = 0 strength = 17 experience = 1 }
+}
+division =
+{
+	name = "4th Division"
+	location = 6373
+	pool = yes
+	regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 0 strength = 36 experience = 11 }
+	regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 0 strength = 37 experience = 12 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 0 strength = 21 experience = 11 }
+}
+division =
+{
+	name = "10th Division"
+	location = 6373
+	pool = yes
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 0 strength = 36 experience = 11 }
+	regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 0 strength = 37 experience = 12 }
+	regiment = { type = artillery_brigade name = "22nd Artillery Regiment" historical_model = 0 strength = 21 experience = 11 }
+	regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 0 strength = 39 experience = 12 }
+}
+navy = {
+	name = "Mothball Fleet"
+	base = 5175 # Marseilles
+	location = 5175
+	pool = yes
+	ship = { type = carrier name = "Béarn" historical_model = 0 }
+}
+military_construction = {
+	country = FRA
+	name = "1ere Flottille de Sous-Marins"
+	submarine = {
+		name = "1ere Flottille de Sous-Marins"
+		historical_model = 0
+		}
+	#cost = xxx
+	progress = 50
+	#duration = xxx
+	location = 5175
+}
+military_construction = {
+	country = FRA
+	name = "De Grasse"
+	cruiser = {
+		name = "De Grasse"
+		historical_model = 0
+		}
+	#cost = xxx
+	progress = 20
+	#duration = xxx
+	location = 5175
+}
+
+military_construction = {
+	country = FRA
+	name = "Jean Bart"
+	battleship = {
+		name = "Jean Bart"
+		historical_model = 0
+		}
+	#cost = xxx
+	progress = 60
+	#duration = xxx
+	location = 5175
+}

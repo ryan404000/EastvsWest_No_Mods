@@ -1,0 +1,227 @@
+spriteTypes = {
+
+	# Tool options - COLOR (each frame must match the options order)
+	spriteType = {
+		name = "GFX_bp_tool_color_option_icon"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_color_options.dds"
+		noOfFrames = 8 # From 4
+	}
+	# Tool options - ARROWS (each frame must match the options order)
+	spriteType = {
+		name = "GFX_bp_tool_arrow_option_icon"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_arrow_options.dds"
+		noOfFrames = 20 # From 10
+	}
+	# Tool options - BORDERS (each frame must match the options order)
+	spriteType = {
+		name = "GFX_bp_tool_border_option_icon"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_border_options.dds"
+		noOfFrames = 8 # From 5..?
+	}
+	# Tool options - ICONS (each frame must match the options order)
+	spriteType = {
+		name = "GFX_bp_tool_icons_option_icon"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_icon_options.dds"
+		noOfFrames = 22 # From 11
+	}
+	
+	spriteType = {
+		name = "GFX_bp_visibility_icon"
+		texturefile = "gfx\\interface\\battleplan\\bp_visibility_icon.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_share_with_allies"
+		texturefile = "gfx\\interface\\battleplan\\bp_share_with_allies.dds"
+		noOfFrames = 2
+	}
+	
+	textSpriteType = {
+		name = "GFX_bp_cancel"
+		texturefile = "gfx\\interface\\bp_cancel.dds"
+	}
+	textSpriteType = {
+		name = "GFX_bp_textapply"
+		texturefile = "gfx\\interface\\battleplan\\bp_textapply.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_textedit_bg"
+		texturefile = "gfx\\interface\\battleplan\\bp_textedit_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_bp_button_load"
+		texturefile = "gfx\\interface\\battleplan\\bp_button_load.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_tool_select"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_select.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_tool_colors"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_colors.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_tool_erase"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_erase.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_tool_arrows"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_arrows.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_bp_tool_borders"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_borders.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_tool_icons"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_icons.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_tool_text"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_text.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_background"
+		texturefile = "gfx\\interface\\battleplan\\bp_background.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_bottom"
+		texturefile = "gfx\\interface\\battleplan\\bp_bottom.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_save_botton"
+		texturefile = "gfx\\interface\\battleplan\\bp_save_bottom.dds"
+	}
+	
+	textspriteType = {
+		name = "GFX_bp_tab_current_historical"
+		texturefile = "gfx\\interface\\battleplan\\bp_tab_current.dds"
+		noOfFrames = 2
+		clicksound = click
+	}
+	
+	textspriteType = {
+		name = "GFX_bp_tab_saved"
+		texturefile = "gfx\\interface\\battleplan\\bp_tab_saved.dds"
+		noOfFrames = 2
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_bp_plan_btn"
+		texturefile = "gfx\\interface\\battleplan\\bp_plan_btn.dds"
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_bp_plan_btn_red"
+		texturefile = "gfx\\interface\\battleplan\\bp_plan_btn_red.dds"
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_bp_entry_bg"
+		texturefile = "gfx\\interface\\battleplan\\bp_entry_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_entry_save_bg"
+		texturefile = "gfx\\interface\\battleplan\\bp_entry_save_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_button_add"
+		texturefile = "gfx\\interface\\battleplan\\bp_button_add.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_button_remove"
+		texturefile = "gfx\\interface\\battleplan\\bp_button_remove.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_button_share"
+		texturefile = "gfx\\interface\\bp_button_share.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_button_rename"
+		texturefile = "gfx\\interface\\battleplan\\bp_button_rename.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_button_save"
+		texturefile = "gfx\\interface\\battleplan\\bp_button_save.dds"
+	}
+	
+	textSpriteType = {
+		name = "GFX_bp_save_cancel"
+		texturefile = "gfx\\interface\\bp_save_cancel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_open_manager"
+		texturefile = "gfx\\interface\\bp_open_manager.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_toggle_visible"
+		texturefile = "gfx\\interface\\bp_toggle_visible.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bp_open_button"
+		texturefile = "gfx\\interface\\battleplan\\bp_open_button.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_tool_bg"
+		texturefile = "gfx\\interface\\battleplan\\bp_tool_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_bottom_tools_1_bg"
+		texturefile = "gfx\\interface\\battleplan\\bp_bottom_tool_1_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_bottom_tools_2_bg"
+		texturefile = "gfx\\interface\\battleplan\\bp_bottom_tool_2_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_bottom_tools_4_bg"
+		texturefile = "gfx\\interface\\battleplan\\bp_bottom_tool_4_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_painter_close"
+		texturefile = "gfx\\interface\\battleplan\\painter_close.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bp_entry_bg_2"
+		texturefile = "gfx\\interface\\battleplan\\bp_entry_bg_2.dds"
+	}
+}

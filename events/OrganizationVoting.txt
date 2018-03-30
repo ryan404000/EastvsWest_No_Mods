@@ -1,0 +1,823 @@
+#OrganizationVoting_events.txt
+#Organization Actions AI Decision-making Events
+
+#United Nations:
+	#108000 - UN Nuclear Arms Embargo Initiation
+	#108001 - UN Nuclear Arms Embargo Choice for Major Nations - Triggered by Event 108000
+	#108010 - UN Arms Embargo Initiation
+	#108011 - UN Arms Embargo Choice for Major Nations - Triggered by Event 108010
+	
+#NATO:
+	#106000 - NATO Nuclear Arms Embargo Initiation
+	#106001 - UN Nuclear Arms Embargo Choice for Major Nations - Triggered by Event 106000
+	#106010 - NATO Arms Embargo Initiation
+	#106011 - NATO Arms Embargo Choice for Major Nations - Triggered by Event 106010
+	
+
+## United Nations ##
+	#108000 - UN Nuclear Arms Embargo Initiation
+	country_event = {
+	
+		id = 108000
+		
+		trigger = {
+			num_of_centrifuges_greater = 1
+			NOT = { same_faction = THIS }
+			NOT = { has_country_flag = "UN_EMBARGO" }
+			NOT = { has_country_flag = "UN_ARMSEMBARGO" }
+			NOT = { has_country_flag = "UN_NUCLEAREMBARGO" }
+			NOT = { has_country_modifier = "UN_EMBARGO_DELAY" }
+			NOT = { is_major = yes }
+		}
+		
+		mean_time_to_happen = {
+			days = 365
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 3
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 7
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 11
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 15
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 19
+			}
+			modifier = {
+				factor = 0.5
+				num_of_centrifuges_greater = 39
+			}
+		}
+		
+		title = "EVTNAME108000"
+		desc = "EVTDESC108000"
+		
+		option = {
+			name = "EVTOPTA108000"
+			any_country = {
+				limit = {
+					ai = yes
+					OR = {
+						NOT = { relation = { who = THIS value = 75 } }
+						nuclear_policy = nuclear_free_focus_pol
+					}
+					NOT = { has_country_flag = "UN_EMBARGO" }
+					is_major = yes
+					organisation = XUN
+					NOT = { vassal_of = THIS }
+					NOT = {
+						AND = {
+							relation = { who = THIS value = -25 }
+							alliance_with = THIS
+						}
+					}
+					NOT = {
+						AND = {
+							relation = { who = FROM value = 25 }
+							same_party = yes
+						}
+					}
+				}
+				country_event = 108001
+			}
+			add_country_modifier = {					#Countries cannot try to embargo this nation again through the UN for 6 months
+				name = "UN_EMBARGO_DELAY"
+				duration = 183
+			}
+			any_country = {
+				limit = { 
+					OR = {
+						has_country_flag = "UN_EMBARGO_VOTE" 
+						has_country_flag = "UN_WILL_NOT_VETO"
+					}
+				}
+				clr_country_flag = "UN_EMBARGO_VOTE"
+				clr_country_flag = "UN_WILL_NOT_VETO"
+			}
+		}
+	}
+
+	#108001 - UN Nuclear Arms Embargo Choice for Major Nations - Triggered by Event 108000
+	country_event = {
+	
+		id = 108001
+		
+		is_triggered_only = yes
+		
+		title = "EVTNAME108001"
+		desc = "EVTDESC108001"
+		
+		#major = yes
+		
+		option = {
+			name = "EVTOPTA108001"
+			ai_chance = {
+				factor = 75
+				modifier = {
+					factor = 0
+					FROM = { has_country_flag = "UN_EMBARGO_VOTE" }
+				}
+				modifier = {
+					factor = 0
+					FROM = { vassal_of = THIS }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = 0 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -50 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -100 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -150 } }
+				}
+				modifier = {
+					factor = 1.5
+					nuclear_policy = nuclear_free_focus_pol
+				}
+				modifier = {
+					factor = 1.25
+					OR = {
+						foreign_policy = hardline_pol
+						foreign_policy = containment_pol
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = { is_embargoed = yes }
+				}
+				modifier = {
+					factor = 1.5
+					num_of_warheads_greater = 1
+				}
+				modifier = {
+					factor = 1.5
+					truce_with = FROM
+				}
+				modifier = {
+					factor = 10
+					war_with = FROM
+				}
+			}
+			FROM = {
+				random_owned = {
+					limit = {
+						owner = {
+							NOT = { has_country_flag = "UN_EMBARGO_VOTE" }
+						}
+					}
+					owner = {
+						relation = { who = THIS value = -50 }
+						start_voting = {
+							organisation = 1
+							action = 5
+						}
+						set_country_flag = "UN_EMBARGO_VOTE"
+					}
+				}
+			}
+			set_country_flag = "UN_WILL_NOT_VETO"
+		}
+		
+		option = {
+			name = "EVTOPTB108001"
+			ai_chance = { 
+				factor = 25
+				modifier = {
+					factor = 1.5
+					FROM = {
+						OR = {
+							alliance_with = THIS
+							same_faction = yes
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					AND = {
+						FROM = { same_party = yes }
+						relation = { who = FROM value = 0 }
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = {
+						same_culture = yes
+						same_religion = yes
+					}
+				}
+			}
+		}
+	}
+
+	#108010 - UN Arms Embargo Initiation
+	country_event = {
+	
+		id = 108010
+		
+		trigger = {
+			NOT = { same_faction = THIS }
+			NOT = { has_country_flag = "UN_EMBARGO" }
+			NOT = { has_country_flag = "UN_ARMSEMBARGO" }
+			NOT = { has_country_modifier = "UN_EMBARGO_DELAY" }
+			NOT = { is_major = yes }
+			OR = {
+				OR = {
+					AND = { 
+						num_of_cities = 10
+						revolt_percentage = 0.2
+					}
+					num_of_revolts = 20
+				}
+				AND = {
+					war = yes
+					war_exhaustion = 8
+				}
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 92
+		}
+		
+		title = "EVTNAME108010"
+		desc = "EVTDESC108010"
+		
+		option = {
+			name = "EVTOPTA108010"
+			any_country = {
+				limit = {
+					ai = yes
+					NOT = { relation = { who = THIS value = 75 } }
+					NOT = { has_country_flag = "UN_EMBARGO" }
+					is_major = yes
+					organisation = XUN
+					NOT = { vassal_of = THIS }
+					NOT = {
+						AND = {
+							relation = { who = THIS value = -25 }
+							alliance_with = THIS
+						}
+					}
+					NOT = {
+						AND = {
+							relation = { who = FROM value = 25 }
+							same_party = yes
+						}
+					}
+				}
+				country_event = 108011
+			}
+			add_country_modifier = {					#Countries cannot try to embargo this nation again through the UN for 12 months
+				name = "UN_EMBARGO_DELAY"
+				duration = 365
+			}
+			any_country = {
+				limit = { 
+					OR = {
+						has_country_flag = "UN_EMBARGO_VOTE" 
+						has_country_flag = "UN_WILL_NOT_VETO"
+					}
+				}
+				clr_country_flag = "UN_EMBARGO_VOTE"
+				clr_country_flag = "UN_WILL_NOT_VETO"
+			}
+		}
+	}
+
+	#108011 - UN Arms Embargo Choice for Major Nations - Triggered by Event 108010
+	country_event = {
+	
+		id = 108011
+		
+		is_triggered_only = yes
+		
+		title = "EVTNAME108011"
+		desc = "EVTDESC108011"
+		
+		#major = yes
+		
+		option = {
+			name = "EVTOPTA108011"
+			ai_chance = {
+				factor = 40
+				modifier = {
+					factor = 0
+					FROM = { has_country_flag = "UN_EMBARGO_VOTE" }
+				}
+				modifier = {
+					factor = 0
+					FROM = { vassal_of = THIS }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = 0 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -50 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -100 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -150 } }
+				}
+				modifier = {
+					factor = 1.25
+					OR = {
+						foreign_policy = hardline_pol
+						foreign_policy = containment_pol
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = { is_embargoed = yes }
+				}
+				modifier = {
+					factor = 1.5
+					truce_with = FROM
+				}
+				modifier = {
+					factor = 10
+					war_with = FROM
+				}
+			}
+			FROM = {
+				random_owned = {
+					limit = {
+						owner = {
+							NOT = { has_country_flag = "UN_EMBARGO_VOTE" }
+						}
+					}
+					owner = {
+						relation = { who = THIS value = -50 }
+						start_voting = {
+							organisation = 1
+							action = 3
+						}
+						set_country_flag = "UN_EMBARGO_VOTE"
+					}
+				}
+			}
+			set_country_flag = "UN_WILL_NOT_VETO"
+		}
+		
+		option = {
+			name = "EVTOPTB108011"
+			ai_chance = { 
+				factor = 60
+				modifier = {
+					factor = 1.5
+					FROM = {
+						OR = {
+							alliance_with = THIS
+							same_faction = yes
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					AND = {
+						FROM = { same_party = yes }
+						relation = { who = FROM value = 0 }
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = {
+						same_culture = yes
+						same_religion = yes
+					}
+				}
+			}
+		}
+	}
+
+## NATO ##
+	#106000 - NATO Nuclear Arms Embargo Initiation
+	country_event = {
+	
+		id = 106000
+		
+		trigger = {
+			num_of_centrifuges_greater = 1
+			NOT = { same_faction = THIS }
+			NOT = { has_country_flag = "NATO_EMBARGO" }
+			NOT = { has_country_flag = "NATO_ARMSEMBARGO" }
+			NOT = { has_country_flag = "NATO_NUCLEAREMBARGO" }
+			NOT = { has_country_flag = "NATO_EMBARGO_DELAY" }
+			NOT = { organisation = XNA }
+		}
+		
+		mean_time_to_happen = {
+			days = 365
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 3
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 7
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 11
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 15
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 19
+			}
+			modifier = {
+				factor = 0.5
+				num_of_centrifuges_greater = 39
+			}
+		}
+		
+		title = "EVTNAME106000"
+		desc = "EVTDESC106000"
+		
+		option = {
+			name = "EVTOPTA106000"
+			any_country = {
+				limit = {
+					ai = yes
+					OR = {
+						is_major = yes
+						is_org_leader = XNA
+					}
+					organisation = XNA
+					OR = {
+						AND = {
+							NOT = { vassal_of = THIS }
+							NOT = {
+								AND = {
+									relation = { who = THIS value = -25 }
+									alliance_with = THIS
+								}
+							}
+							NOT = {
+								AND = {
+									relation = { who = FROM value = 25 }
+									same_party = yes
+								}
+							}
+							OR = {
+								NOT = { relation = { who = THIS value = 75 } }
+								nuclear_policy = nuclear_free_focus_pol
+							}
+						}
+						war_with = THIS
+					}
+				}
+				country_event = 106001
+			}
+			add_country_modifier = {					#Countries cannot try to embargo this nation again through the UN for 6 months
+				name = "UN_EMBARGO_DELAY"
+				duration = 183
+			}
+			any_country = {
+				limit = { 
+					OR = {
+						has_country_flag = "NATO_EMBARGO_VOTE" 
+						has_country_flag = "NATO_WILL_NOT_VETO"
+					}
+				}
+				clr_country_flag = "NATO_EMBARGO_VOTE"
+				clr_country_flag = "NATO_WILL_NOT_VETO"
+			}
+		}
+	}
+
+	#106001 - UN Nuclear Arms Embargo Choice for Major Nations - Triggered by Event 106000
+	country_event = {
+		
+		id = 106001
+		
+		is_triggered_only = yes
+		
+		title = "EVTNAME106001"
+		desc = "EVTDESC106001"
+		
+		#major = yes
+		
+		option = {
+			name = "EVTOPTA106001"
+			ai_chance = {
+				factor = 75
+				modifier = {
+					factor = 0
+					FROM = { has_country_flag = "NATO_EMBARGO_VOTE" }
+				}
+				modifier = {
+					factor = 0
+					FROM = { vassal_of = THIS }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = 0 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -50 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -100 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -150 } }
+				}
+				modifier = {
+					factor = 1.5
+					nuclear_policy = nuclear_free_focus_pol
+				}
+				modifier = {
+					factor = 1.25
+					OR = {
+						foreign_policy = hardline_pol
+						foreign_policy = containment_pol
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = { is_embargoed = yes }
+				}
+				modifier = {
+					factor = 1.5
+					num_of_warheads_greater = 1
+				}
+				modifier = {
+					factor = 1.5
+					truce_with = FROM
+				}
+				modifier = {
+					factor = 10
+					war_with = FROM
+				}
+			}
+			FROM = {
+				random_owned = {
+					limit = {
+						owner = {
+							NOT = { has_country_flag = "NATO_EMBARGO_VOTE" }
+						}
+					}
+					owner = {
+						relation = { who = THIS value = -50 }
+						start_voting = {
+							organisation = 2
+							action = 5
+						}
+						set_country_flag = "NATO_EMBARGO_VOTE"
+					}
+				}
+			}
+			set_country_flag = "NATO_WILL_NOT_VETO"
+		}
+		
+		option = {
+			name = "EVTOPTB106001"
+			ai_chance = { 
+				factor = 25
+				modifier = {
+					factor = 1.5
+					FROM = {
+						OR = {
+							alliance_with = THIS
+							same_faction = yes
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					AND = {
+						FROM = { same_party = yes }
+						relation = { who = FROM value = 0 }
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = {
+						same_culture = yes
+						same_religion = yes
+					}
+				}
+			}
+		}
+	}
+
+	#106010 - NATO Arms Embargo Initiation
+	country_event = {
+	
+		id = 106010
+		
+		trigger = {
+			NOT = { same_faction = THIS }
+			NOT = { has_country_flag = "NATO_EMBARGO" }
+			NOT = { has_country_flag = "NATO_ARMSEMBARGO" }
+			NOT = { has_country_flag = "NATO_EMBARGO_DELAY" }
+			NOT = { organisation = XNA }
+			OR = {
+				OR = {
+					AND = { 
+						##num_of_cities = 10
+						revolt_percentage = 0.2
+					}
+					num_of_revolts = 20
+				}
+				AND = {
+					war = yes
+					war_exhaustion = 8
+				}
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 92
+		}
+		
+		title = "EVTNAME106010"
+		desc = "EVTDESC106010"
+		
+		option = {
+			name = "EVTOPTA106010"
+			any_country = {
+				limit = {
+					ai = yes
+					OR = {
+						is_major = yes
+						is_org_leader = XNA
+					}
+					organisation = XNA
+					OR = {
+						AND = {
+							NOT = { vassal_of = THIS }
+							NOT = {
+								AND = {
+									relation = { who = THIS value = -25 }
+									alliance_with = THIS
+								}
+							}
+							NOT = {
+								AND = {
+									relation = { who = FROM value = 25 }
+									same_party = yes
+								}
+							}
+							NOT = { relation = { who = THIS value = 75 } }
+						}
+						war_with = THIS
+					}
+				}
+				country_event = 106011
+			}
+			add_country_modifier = {					#Countries cannot try to embargo this nation again through NATO for 12 months
+				name = "NATO_EMBARGO_DELAY"
+				duration = 365
+			}
+			any_country = {
+				limit = { 
+					OR = {
+						has_country_flag = "NATO_EMBARGO_VOTE" 
+						has_country_flag = "NATO_WILL_NOT_VETO"
+					}
+				}
+				clr_country_flag = "NATO_EMBARGO_VOTE"
+				clr_country_flag = "NATO_WILL_NOT_VETO"
+			}
+		}
+	}
+
+	#106011 - NATO Arms Embargo Choice for Major Nations - Triggered by Event 106010
+	country_event = {
+	
+		id = 106011
+		
+		is_triggered_only = yes
+		
+		title = "EVTNAME106011"
+		desc = "EVTDESC106011"
+		
+		#major = yes
+		
+		option = {
+			name = "EVTOPTA106011"
+			ai_chance = {
+				factor = 40
+				modifier = {
+					factor = 0
+					FROM = { has_country_flag = "NATO_EMBARGO_VOTE" }
+				}
+				modifier = {
+					factor = 0
+					FROM = { vassal_of = THIS }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = 0 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -50 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -100 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -150 } }
+				}
+				modifier = {
+					factor = 1.25
+					OR = {
+						foreign_policy = hardline_pol
+						foreign_policy = containment_pol
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = { is_embargoed = yes }
+				}
+				modifier = {
+					factor = 1.5
+					truce_with = FROM
+				}
+				modifier = {
+					factor = 10
+					war_with = FROM
+				}
+			}
+			FROM = {
+				random_owned = {
+					limit = {
+						owner = {
+							NOT = { has_country_flag = "NATO_EMBARGO_VOTE" }
+						}
+					}
+					owner = {
+						relation = { who = THIS value = -50 }
+						start_voting = {
+							organisation = 2
+							action = 3
+						}
+						set_country_flag = "NATO_EMBARGO_VOTE"
+					}
+				}
+			}
+			set_country_flag = "NATO_WILL_NOT_VETO"
+		}
+		
+		option = {
+			name = "EVTOPTB106011"
+			ai_chance = {
+				factor = 60
+				modifier = {
+					factor = 1.5
+					FROM = {
+						OR = {
+							alliance_with = THIS
+							same_faction = yes
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					AND = {
+						FROM = { same_party = yes }
+						relation = { who = FROM value = 0 }
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = {
+						same_culture = yes
+						same_religion = yes
+					}
+				}
+			}
+		}
+	}

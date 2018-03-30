@@ -1,0 +1,57 @@
+ballistic_missile_submarine = {
+	type = naval
+	sprite = Submarine
+	is_sub = yes
+	can_be_pride = yes
+	active = no
+	goods_usage = 
+	{
+		heavy_industry = 0.04
+		naval_yards = 0.04
+	}
+	
+	hull = 1
+	modelsize = 10
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 15	#30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 551.00
+	build_cost_manpower = 0.50
+	build_time = 1050
+
+	#Misc Abilities
+	maximum_speed = 25.00
+	transport_capability = 0.00
+	supply_consumption = 1.90
+	fuel_consumption = 0.00
+	range = 8000.00
+	
+	
+	#Detection Abilities
+	surface_detection = 7.00
+	air_detection = 1.00
+	sub_detection = 6.00
+	visibility = 4.0	#4.00
+	air_radar_range = 10
+	surface_radar_range = 5
+	sonar_range = 5.5
+
+	#Defensive Abilities
+	sea_defence = 12.00	#13.00
+	air_defence = 16.00
+
+	#Offensive Abilities
+	convoy_attack = 14.00
+	sea_attack = 7.00
+	sub_attack = 15.00
+	air_attack = 1.00
+	shore_bombardment = 0.00
+	nuclear_carrier = yes
+
+	priority = 3
+}

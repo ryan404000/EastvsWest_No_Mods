@@ -1,0 +1,337 @@
+# List of all Political Doctrine techs
+	#comb_supreme_leader					( 1 level )
+	#comb_theocratic_doctrine				( 1 level )
+	#comb_religious_police					( 1 level )
+	#comb_holywar							( 1 level )
+	#comb_fascist_doctrine					( 1 level )
+	#comb_national_identity					( 1 level )
+	#comb_thought_reform					( 1 level )
+	#comb_youth_movement					( 1 level )
+	#comb_informal_control					( 1 level )
+	#comb_foreign_legion					( 1 level )
+	#comb_colonial_army						( 1 level )
+	#comb_paramilitary_recruitment			( 1 level )
+	
+
+comb_supreme_leader ={
+	doctrine = yes
+	
+	allow = {
+		OR = {
+			ideology = fascistic_idolg 
+			ideology = paternal_auto_idolg
+			government = absolute_monarchy_gov 
+			government = theocracy_gov  
+		}
+		industry_sociology = 1
+	}
+	traits = {
+		science_theory		
+	}
+	modifier = {
+		RULING_PARTY_SUPPORT = 0.1
+	}
+
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_theocratic_doctrine ={
+	doctrine = yes
+	
+	allow = {
+		government = theocracy_gov
+		industry_sociology = 2
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = { 
+	national_unity = 0.1 
+	}
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_religious_police ={
+	doctrine = yes
+	
+	allow = {
+		comb_theocratic_doctrine = 1	
+	}
+	traits = {
+		political_theory	
+	}
+	police_brigade = {
+		default_organisation = 5
+		default_morale = 0.1
+		suppression = 3
+	}
+
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_holywar ={
+	doctrine = yes
+	
+	allow = {
+		comb_theocratic_doctrine = 1
+	}
+	traits = {
+		political_theory	
+	}
+	modifier = {
+		LAND_ORGANISATION = 0.1
+	}
+
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_fascist_doctrine ={
+	doctrine = yes
+	
+	allow = {
+		ideology = fascistic_idolg 
+		industry_sociology = 1
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = {
+	national_unity = 0.02
+	}
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_national_identity ={
+	doctrine = yes
+	
+	allow = {
+		ideology = fascistic_idolg 
+		industry_sociology = 2
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = {
+	national_unity = 0.2 
+	}
+
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_thought_reform ={
+	doctrine = yes
+	
+	allow = {
+		ideology = fascistic_idolg 
+		freedom_of_the_press = propaganda_press 
+		industry_psychology = 2
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = {
+	DISSENT_DECREASE = 0.05 
+	}
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_youth_movement ={
+	doctrine = yes
+	
+	allow = {
+			ideology = fascistic_idolg 
+		industry_sociology = 2
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = {
+		national_unity_effect = 0.02 
+	}
+	# will create unity decrease revolt risk 	
+	
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_informal_control ={
+	doctrine = yes
+	
+	allow = {
+		OR = {
+			can_create_vassals = yes
+			num_of_vassals = 1
+		}
+		industry_poliec = 1
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = {
+		national_unity = 0.02 
+	}
+	# will create unity decrease revolt risk 	
+	
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_foreign_legion ={ #FRA, SPA, HOL, RHO, ISR start with this tech researched  
+	doctrine = yes
+	
+	allow = {
+		OR = {
+		comb_informal_control = 1
+		has_country_flag = foreign_legion_tech	
+		}
+	}
+	traits = {
+		political_theory
+	}	
+	modifier = {
+		flexible_modifier = {
+			population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.02
+			}
+		}
+	}
+	bergsjaeger_brigade = {
+		unit_money_cost = -0.20
+		build_time = 50
+		default_morale = 0.1
+	}
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_colonial_army ={ #DEN, ENG, FRA, ITA, HOL, POR, SPA start with this tech researched 
+	doctrine = yes
+	
+	allow = {
+		comb_informal_control = 1
+		has_country_flag = colonial_army_tech			
+	}
+	traits = {
+		political_theory	
+	}	
+	modifier = {
+		flexible_modifier = {
+				population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.10
+			}
+		}
+		DISSENT_INCREASE = 0.10
+		LAND_ORGANISATION = -0.05
+	}
+	militia_brigade = {
+		default_organisation = 15
+		combat_width = 0.74
+		default_morale = 0.15
+		unit_money_cost = 1.90
+		build_time = 60
+		supply_consumption = 0.47
+		defensiveness = 0.5
+		toughness = 1.1
+		suppression = 1
+		soft_attack = 0.665
+		hard_attack = 0.335
+		air_attack = 0.15		
+		desert = {
+			attack = 0.05
+			defence = 0.06
+			movement = 0.1
+			attrition = -2
+		}		
+		jungle = {
+			attack = 0.1
+			defence = 0.05
+			attrition = -2
+		}
+	}
+
+	#more lightly equipped units predominantly cavalry and light inf but with higher moral
+	
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+comb_paramilitary_recruitment ={
+	doctrine = yes
+	
+	allow = { 
+	 }
+	traits = {
+	
+	}
+	police_brigade = {
+		default_organisation = 5
+		soft_attack = 0.15 
+		hard_attack = 0.15
+		defensiveness = 0.12 
+		toughness = -0.12
+		supply_consumption = 0.15
+	}
+	
+	militia_brigade = {
+		default_organisation = -2
+		soft_attack = 0.05	
+		hard_attack = 0.05		
+		defensiveness = 0.04	
+		toughness = -0.04	
+		supply_consumption = 0.03
+	}
+
+    folder = combined_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+#comb_UN_mines_and_booby_traps_convention = {  
+#	doctrine = yes
+#	
+#	allow = {
+#		NOT = { year = 1 }
+#	}
+#	traits = {
+#	
+#	}
+#	modifier = {
+#		prestige = 0.05
+#	}
+#
+#	air_cav_brigade = { 			soft_attack = -0.05 }
+#	cavalry_brigade = { 			soft_attack = -0.02 }
+#	engineer_brigade = { 			soft_attack = -0.01 }
+#	hq_brigade = { 					soft_attack = -0.02 }
+#	infantry_brigade = { 			soft_attack = -0.01 }
+#	light_mechanized_brigade = { 	soft_attack = -0.03 }
+#	marine_brigade = { 				soft_attack = -0.02 }
+#	militia_brigade = { 			soft_attack = -0.01 }
+#	partisan_brigade = { 			soft_attack = -0.01 }
+#	motorized_brigade = { 			soft_attack = -0.02 }
+#	bergsjaeger_brigade = { 		soft_attack = -0.02 }
+#
+#   folder = combined_doctrine1_folder
+#	time = 100000
+#	cost = 100000
+#}

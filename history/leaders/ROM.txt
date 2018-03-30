@@ -1,0 +1,1880 @@
+1448012 = {
+	name = "Simon Barb"
+	type = land
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.10.1 = { rank = 0 }
+	}
+}
+1448009 = {
+	name = "Dragomir Ursu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1448013 = {
+	name = "Manea Pacuraru"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1950.10.1 = { rank = 0 }
+	}
+}
+1448002 = {
+	name = "Ilie Taranu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.2.1 = { rank = 0 }
+	}
+}
+1448016 = {
+	name = "Barbu Muresanu"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.7.1 = { rank = 1 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1448014 = {
+	name = "Vintila Balan"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1448001 = {
+	name = "Ionel Popescu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1448011 = {
+	name = "Beniamin Jderoiu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1448020 = {
+	name = "Andrey Muresanu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1951.9.1 = { rank = 1 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1448008 = {
+	name = "Ioan Petrescu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1448004 = {
+	name = "Alexandru Ardeleanu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.10.1 = { rank = 2 }
+		1950.10.1 = { rank = 3 }
+		1951.9.1 = { rank = 4 }
+		1955.12.1 = { rank = 0 }
+	}
+}
+1448006 = {
+	name = "Ion Taranu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1448017 = {
+	name = "Sandu Croitoru"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1950.10.1 = { rank = 1 }
+		1956.10.1 = { rank = 0 }
+	}
+}
+1448025 = {
+	name = "Chivu Croitoru"
+	type = land
+	country = ROM
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.12.1 = { rank = 1 }
+		1957.4.1 = { rank = 0 }
+	}
+}
+1448018 = {
+	name = "Ionel Ursu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.2.1 = { rank = 1 }
+		1951.9.1 = { rank = 2 }
+		1955.12.1 = { rank = 3 }
+		1958.7.1 = { rank = 0 }
+	}
+}
+1448000 = {
+	name = "Cosmin Mocanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.11.1 = { rank = 2 }
+		1958.7.1 = { rank = 3 }
+		1959.10.1 = { rank = 0 }
+	}
+}
+1448005 = {
+	name = "Constantin Ionescu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.12.1 = { rank = 2 }
+		1960.12.1 = { rank = 0 }
+	}
+}
+1448023 = {
+	name = "Chivu Sadoveanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1954.1.1 = { rank = 1 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1448024 = {
+	name = "Radu Zimbrean"
+	type = land
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1955.11.1 = { rank = 1 }
+		1961.11.1 = { rank = 0 }
+	}
+}
+1448021 = {
+	name = "Danut Moraru"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.9.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1448027 = {
+	name = "Robert Moraru"
+	type = land
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.10.1 = { rank = 1 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1448003 = {
+	name = "Cosmin Capreanu"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.10.1 = { rank = 2 }
+		1951.9.1 = { rank = 3 }
+		1955.12.1 = { rank = 4 }
+		1962.9.1 = { rank = 0 }
+	}
+}
+1448029 = {
+	name = "Florian Popa"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1958.7.1 = { rank = 1 }
+		1962.9.1 = { rank = 2 }
+		1963.9.1 = { rank = 0 }
+	}
+}
+1448022 = {
+	name = "Sandu Sadoveanu"
+	type = land
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = logistics_wizard
+	history = {
+		1953.11.1 = { rank = 1 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1448031 = {
+	name = "Konstantin Moraru"
+	type = land
+	country = ROM
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.12.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1448036 = {
+	name = "Manea Moraru"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.9.1 = { rank = 1 }
+		1966.4.1 = { rank = 0 }
+	}
+}
+1448028 = {
+	name = "Ilie Muresanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.4.1 = { rank = 1 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1448026 = {
+	name = "Costea Zimbrean"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.12.1 = { rank = 1 }
+		1959.10.1 = { rank = 2 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1448015 = {
+	name = "Costea Ciubotea"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1948.10.1 = { rank = 1 }
+		1960.12.1 = { rank = 2 }
+		1962.9.1 = { rank = 3 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1448037 = {
+	name = "Nicolae Barb"
+	type = land
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.9.1 = { rank = 1 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1448040 = {
+	name = "Ion Popa"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1966.4.1 = { rank = 1 }
+		1968.1.1 = { rank = 0 }
+	}
+}
+1448032 = {
+	name = "Cozma Taranu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1963.9.1 = { rank = 2 }
+		1969.10.1 = { rank = 0 }
+	}
+}
+1448033 = {
+	name = "Bogdan Barb"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.11.1 = { rank = 1 }
+		1970.3.1 = { rank = 0 }
+	}
+}
+1448044 = {
+	name = "Alexandru Zimbrean"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1971.7.1 = { rank = 0 }
+	}
+}
+1448035 = {
+	name = "Ion Moldoveanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1962.10.1 = { rank = 1 }
+		1972.5.1 = { rank = 0 }
+	}
+}
+1448042 = {
+	name = "Viorel Ionescu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1968.4.1 = { rank = 2 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1448038 = {
+	name = "Florentin Jderoiu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.2.1 = { rank = 1 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1448019 = {
+	name = "Nicu Capreanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1951.4.1 = { rank = 1 }
+		1958.7.1 = { rank = 2 }
+		1975.1.1 = { rank = 0 }
+	}
+}
+1448045 = {
+	name = "Barbu Popa"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.1.1 = { rank = 1 }
+		1976.9.1 = { rank = 0 }
+	}
+}
+1448030 = {
+	name = "Tudor Jderoiu"
+	type = land
+	country = ROM
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.10.1 = { rank = 1 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1448010 = {
+	name = "Robert Popescu"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1959.10.1 = { rank = 3 }
+		1962.9.1 = { rank = 4 }
+		1978.6.1 = { rank = 0 }
+	}
+}
+1448053 = {
+	name = "Barbu Ciobanu"
+	type = land
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1976.9.1 = { rank = 1 }
+		1979.4.1 = { rank = 0 }
+	}
+}
+1448043 = {
+	name = "Puiu Ionescu"
+	type = land
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1968.4.1 = { rank = 1 }
+		1973.3.1 = { rank = 2 }
+		1980.10.1 = { rank = 0 }
+	}
+}
+1448050 = {
+	name = "Paul Muresanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.3.1 = { rank = 1 }
+		1978.6.1 = { rank = 2 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1448048 = {
+	name = "Liviu Muresanu"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1971.7.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1448039 = {
+	name = "Tudor Muresanu"
+	type = land
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1965.1.1 = { rank = 1 }
+		1982.11.1 = { rank = 0 }
+	}
+}
+1448057 = {
+	name = "Barbu Croitoru"
+	type = land
+	country = ROM
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1980.10.1 = { rank = 1 }
+		1980.12.1 = { rank = 2 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1448047 = {
+	name = "George Balan"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.3.1 = { rank = 1 }
+		1984.10.1 = { rank = 0 }
+	}
+}
+1448054 = {
+	name = "Dorin Capreanu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1448007 = {
+	name = "Sorin Zimbrean"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1969.10.1 = { rank = 2 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1448051 = {
+	name = "Mihai Moldoveanu"
+	type = land
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1983.4.1 = { rank = 2 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1448060 = {
+	name = "Manea Moraru"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.11.1 = { rank = 1 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1448041 = {
+	name = "Mircea Ursu"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.2.1 = { rank = 1 }
+		1987.12.1 = { rank = 0 }
+	}
+}
+1448049 = {
+	name = "Calin Sadoveanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = panzer_leader
+	history = {
+		1972.5.1 = { rank = 1 }
+		1985.5.1 = { rank = 2 }
+		1987.6.1 = { rank = 0 }
+	}
+}
+1448056 = {
+	name = "Beniamin Ionescu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1979.4.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1448065 = {
+	name = "Andrei Popa"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1985.8.1 = { rank = 1 }
+		1989.9.1 = { rank = 0 }
+	}
+}
+1448069 = {
+	name = "Cristian Ciobanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.7.1 = { rank = 1 }
+		1989.11.1 = { rank = 0 }
+	}
+}
+1448061 = {
+	name = "Florian Jderoiu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.4.1 = { rank = 1 }
+		1985.8.1 = { rank = 2 }
+		1990.8.1 = { rank = 0 }
+	}
+}
+1448034 = {
+	name = "Chivu Barb"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1968.2.1 = { rank = 2 }
+		1968.4.1 = { rank = 3 }
+		1978.6.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448046 = {
+	name = "Manea Fieraru"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.10.1 = { rank = 1 }
+		1975.1.1 = { rank = 2 }
+		1978.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448052 = {
+	name = "Ion Barb"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448055 = {
+	name = "Virgil Moldoveanu"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.6.1 = { rank = 1 }
+		1980.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448058 = {
+	name = "Mihai Moldoveanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1980.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448059 = {
+	name = "Bogdan Zimbrean"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448062 = {
+	name = "Florian Croitoru"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1984.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448063 = {
+	name = "Chivu Petrescu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448064 = {
+	name = "Barbu Ionescu"
+	type = land
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1985.5.1 = { rank = 1 }
+		1987.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448066 = {
+	name = "Cosmin Jderoiu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448067 = {
+	name = "Nicolae Popescu"
+	type = land
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448068 = {
+	name = "Cozma Sadoveanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1987.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448070 = {
+	name = "Costea Taranu"
+	type = land
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448071 = {
+	name = "Danut Popa"
+	type = land
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.11.1 = { rank = 1 }
+		1990.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448072 = {
+	name = "Beniamin Ardeleanu"
+	type = land
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448076 = {
+	name = "Paul Ciobanu"
+	type = sea
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.2.1 = { rank = 0 }
+	}
+}
+1448079 = {
+	name = "Sorin Ciobanu"
+	type = sea
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1950.8.1 = { rank = 0 }
+	}
+}
+1448078 = {
+	name = "Matei Ionescu"
+	type = sea
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.8.1 = { rank = 3 }
+		1951.1.1 = { rank = 0 }
+	}
+}
+1448080 = {
+	name = "Nicolae Zimbrean"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1448083 = {
+	name = "Virgil Lupu"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1951.1.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1448077 = {
+	name = "George Ciobanu"
+	type = sea
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1448073 = {
+	name = "Cristian Jderoiu"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.1.1 = { rank = 2 }
+		1951.11.1 = { rank = 3 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1448074 = {
+	name = "Florentin Muresanu"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.8.1 = { rank = 2 }
+		1951.1.1 = { rank = 3 }
+		1951.11.1 = { rank = 4 }
+		1960.7.1 = { rank = 0 }
+	}
+}
+1448075 = {
+	name = "Viorel Ciobanu"
+	type = sea
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 2 }
+		1959.12.1 = { rank = 3 }
+		1960.7.1 = { rank = 4 }
+		1961.10.1 = { rank = 0 }
+	}
+}
+1448087 = {
+	name = "Olimpiu Balan"
+	type = sea
+	country = ROM
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.12.1 = { rank = 1 }
+		1961.10.1 = { rank = 2 }
+		1962.6.1 = { rank = 0 }
+	}
+}
+1448089 = {
+	name = "Viorel Lupu"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.10.1 = { rank = 1 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1448082 = {
+	name = "Beniamin Ionescu"
+	type = sea
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1950.8.1 = { rank = 1 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1448090 = {
+	name = "Calin Pacuraru"
+	type = sea
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1962.6.1 = { rank = 1 }
+		1969.9.1 = { rank = 0 }
+	}
+}
+1448085 = {
+	name = "Manea Petrescu"
+	type = sea
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1957.9.1 = { rank = 1 }
+		1959.12.1 = { rank = 2 }
+		1960.7.1 = { rank = 3 }
+		1961.10.1 = { rank = 4 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1448093 = {
+	name = "George Ursu"
+	type = sea
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.9.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1448081 = {
+	name = "Gheorghe Fieraru"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.2.1 = { rank = 1 }
+		1960.7.1 = { rank = 2 }
+		1961.10.1 = { rank = 3 }
+		1969.12.1 = { rank = 4 }
+		1976.1.1 = { rank = 0 }
+	}
+}
+1448084 = {
+	name = "Puiu Ionescu"
+	type = sea
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1951.11.1 = { rank = 1 }
+		1977.5.1 = { rank = 0 }
+	}
+}
+1448088 = {
+	name = "Mihai Muresanu"
+	type = sea
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1960.7.1 = { rank = 1 }
+		1976.1.1 = { rank = 2 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1448095 = {
+	name = "Chivu Moraru"
+	type = sea
+	country = ROM
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1448096 = {
+	name = "Radu Popa"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.1.1 = { rank = 1 }
+		1979.3.1 = { rank = 2 }
+		1982.5.1 = { rank = 0 }
+	}
+}
+1448091 = {
+	name = "Ioan Balan"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	add_trait = superior_tactician
+	history = {
+		1965.12.1 = { rank = 1 }
+		1984.1.1 = { rank = 0 }
+	}
+}
+1448099 = {
+	name = "Claudiu Muresanu"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.7.1 = { rank = 1 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1448102 = {
+	name = "Alexandru Bourean"
+	type = sea
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1985.12.1 = { rank = 1 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1448097 = {
+	name = "Danut Popescu"
+	type = sea
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.5.1 = { rank = 1 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1448086 = {
+	name = "Beniamin Fieraru"
+	type = sea
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1958.4.1 = { rank = 1 }
+		1962.6.1 = { rank = 2 }
+		1969.12.1 = { rank = 3 }
+		1976.1.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448092 = {
+	name = "George Taranu"
+	type = sea
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.2.1 = { rank = 1 }
+		1969.12.1 = { rank = 2 }
+		1976.1.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448094 = {
+	name = "Sorin Ursu"
+	type = sea
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448098 = {
+	name = "Dorin Ciubotea"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1979.3.1 = { rank = 1 }
+		1982.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448100 = {
+	name = "Florin Fieraru"
+	type = sea
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	add_trait = spotter
+	history = {
+		1982.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448101 = {
+	name = "Vintila Popa"
+	type = sea
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448103 = {
+	name = "Tudor Muresanu"
+	type = sea
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448104 = {
+	name = "Radu Moldoveanu"
+	type = sea
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448111 = {
+	name = "Marius Bourean"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1448109 = {
+	name = "Gheorghe Barb"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.10.1 = { rank = 0 }
+	}
+}
+1448114 = {
+	name = "Alexandru Zimbrean"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1948.4.1 = { rank = 1 }
+		1956.1.1 = { rank = 0 }
+	}
+}
+1448107 = {
+	name = "Simon Pacuraru"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1448105 = {
+	name = "Dragomir Jderoiu"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.4.1 = { rank = 0 }
+	}
+}
+1448116 = {
+	name = "Ioan Ionescu"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.1.1 = { rank = 1 }
+		1958.8.1 = { rank = 0 }
+	}
+}
+1448117 = {
+	name = "Gheorghe Mocanu"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1957.9.1 = { rank = 1 }
+		1959.3.1 = { rank = 0 }
+	}
+}
+1448113 = {
+	name = "Bogdan Sadoveanu"
+	type = air
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1448108 = {
+	name = "Roberta Ardeleanu"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.12.1 = { rank = 0 }
+	}
+}
+1448118 = {
+	name = "Mihai Popa"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.4.1 = { rank = 1 }
+		1963.4.1 = { rank = 0 }
+	}
+}
+1448115 = {
+	name = "Dragomir Ardeleanu"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.10.1 = { rank = 1 }
+		1967.8.1 = { rank = 0 }
+	}
+}
+1448120 = {
+	name = "Claudiu Ardeleanu"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1959.3.1 = { rank = 1 }
+		1960.5.1 = { rank = 2 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1448122 = {
+	name = "Mircea Zimbrean"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.12.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1448110 = {
+	name = "Vla Pacuraru"
+	type = air
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1971.2.1 = { rank = 0 }
+	}
+}
+1448123 = {
+	name = "Gheorghe Croitoru"
+	type = air
+	country = ROM
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.4.1 = { rank = 1 }
+		1971.4.1 = { rank = 0 }
+	}
+}
+1448121 = {
+	name = "Cristian Ciubotea"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1960.5.1 = { rank = 1 }
+		1971.3.1 = { rank = 2 }
+		1972.3.1 = { rank = 0 }
+	}
+}
+1448112 = {
+	name = "Alexandru Popa"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1960.5.1 = { rank = 4 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1448126 = {
+	name = "Florin Bourean"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1972.3.1 = { rank = 2 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1448119 = {
+	name = "Ilie Ardeleanu"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.8.1 = { rank = 1 }
+		1972.11.1 = { rank = 2 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1448106 = {
+	name = "Cristian Pacuraru"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 2 }
+		1960.5.1 = { rank = 3 }
+		1972.11.1 = { rank = 4 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1448130 = {
+	name = "Mircea Balan"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.11.1 = { rank = 1 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1448125 = {
+	name = "Ovidiu Croitoru"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1971.3.1 = { rank = 1 }
+		1971.3.1 = { rank = 2 }
+		1972.11.1 = { rank = 3 }
+		1979.2.1 = { rank = 4 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1448132 = {
+	name = "Olimpiu Ciubotea"
+	type = air
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.3.1 = { rank = 1 }
+		1981.1.1 = { rank = 0 }
+	}
+}
+1448129 = {
+	name = "Virgil Ardeleanu"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1972.3.1 = { rank = 1 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1448127 = {
+	name = "Mircea Pacuraru"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1971.2.1 = { rank = 1 }
+		1977.12.1 = { rank = 2 }
+		1979.2.1 = { rank = 3 }
+		1981.9.1 = { rank = 4 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1448124 = {
+	name = "Dragomir Mocanu"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1967.8.1 = { rank = 1 }
+		1986.8.1 = { rank = 0 }
+	}
+}
+1448136 = {
+	name = "Ilie Mocanu"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1981.1.1 = { rank = 1 }
+		1985.2.1 = { rank = 2 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1448131 = {
+	name = "Ion Ciubotea"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.12.1 = { rank = 1 }
+		1979.2.1 = { rank = 2 }
+		1981.9.1 = { rank = 3 }
+		1985.2.1 = { rank = 4 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1448128 = {
+	name = "Cristian Balan"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.4.1 = { rank = 1 }
+		1979.3.1 = { rank = 2 }
+		1990.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448133 = {
+	name = "Cozma Jderoiu"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1979.2.1 = { rank = 1 }
+		1981.9.1 = { rank = 2 }
+		1985.2.1 = { rank = 3 }
+		1990.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448134 = {
+	name = "Marin Popescu"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.12.1 = { rank = 1 }
+		1988.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448135 = {
+	name = "Mircea Ursu"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448137 = {
+	name = "Danut Ciubotea"
+	type = air
+	country = ROM
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1981.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448138 = {
+	name = "Constantin Fieraru"
+	type = air
+	country = ROM
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448139 = {
+	name = "Sorin Capreanu"
+	type = air
+	country = ROM
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.8.1 = { rank = 1 }
+		1990.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448140 = {
+	name = "Mihai Pacuraru"
+	type = air
+	country = ROM
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1448141 = {
+	name = "Sandu Zimbrean"
+	type = air
+	country = ROM
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

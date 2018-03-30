@@ -1,0 +1,138 @@
+###################################################################
+# Unit upgrade rules are here
+#
+# If a unit A can upgrade to B and B to C and D,
+# then A will be able to upgrade to B, C and D
+###################################################################
+
+unit_upgrades = {
+	
+	# Militia
+	upgrade = 
+	{
+		base = militia_brigade
+		target = infantry_brigade
+	}
+	
+	# Infantry
+	upgrade = 
+	{
+		base = infantry_brigade
+		target = marine_brigade
+	}
+	
+	upgrade = 
+	{
+		base = infantry_brigade
+		target = bergsjaeger_brigade
+	}
+
+	upgrade = 
+	{
+		base = infantry_brigade
+		target = motorized_brigade
+	}
+	
+	upgrade = 
+	{
+		base = infantry_brigade
+		target = light_mechanized_brigade
+	}	
+
+	upgrade = 
+	{
+		base = infantry_brigade
+		target = air_cav_brigade
+	}	
+	
+	#Cavalry 
+	upgrade = 
+	{
+		base = cavalry_brigade
+		target = heavy_mechanized_brigade
+	}
+
+	upgrade = 
+	{
+		base = cavalry_brigade
+		target = armor_brigade
+	}
+
+	#Motorized 
+	upgrade = 
+	{
+		base = motorized_brigade
+		target = light_mechanized_brigade
+	}
+	
+	upgrade = 
+	{
+		base = motorized_brigade
+		target = heavy_mechanized_brigade
+	}	
+	
+	upgrade = 
+	{
+		base = motorized_brigade
+		target = air_cav_brigade
+	}		
+	
+	#Engineers
+	upgrade = 
+	{
+		base = engineer_brigade
+		target = all_terrain_vehicles
+	}
+
+	upgrade = 
+	{
+		base = engineer_brigade
+		target = armored_engineer_brigade
+	}	
+	
+	# Light Mech Infantry
+	upgrade = 
+	{
+		base = light_mechanized_brigade
+		target = heavy_mechanized_brigade
+	}
+		
+	upgrade = 
+	{
+		base = light_mechanized_brigade
+		target = air_cav_brigade
+	}			
+		
+	# Artillery
+	upgrade = 
+	{
+		base = anti_air_brigade
+		target = sp_anti_air_brigade
+	}
+	
+	upgrade = 
+	{
+		base = anti_air_brigade
+		target = long_range_anti_air_brigade
+	}	
+
+	upgrade = 
+	{
+		base = artillery_brigade
+		target = sp_artillery_brigade
+	}
+
+	upgrade = 
+	{
+		base = rocket_artillery_brigade
+		target = sp_rct_artillery_brigade
+	}
+	
+	# Anti-Tank
+	upgrade = 
+	{
+		base = anti_tank_brigade
+		target = tank_destroyer_brigade
+	}
+	
+}

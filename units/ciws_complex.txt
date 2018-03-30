@@ -1,0 +1,61 @@
+ciws_complex = {
+	type = air
+	active = no
+	sprite = Fighter
+	is_cag = no
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 1
+	default_morale = 0
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 10
+	build_cost_manpower = 0
+	build_time = 20
+
+	#Misc Abilities
+	maximum_speed = 0
+	transport_capability = 0.00
+	supply_consumption = 1.10
+	fuel_consumption = 0
+	range = 5.00
+	
+
+	#Detection Abilities
+	surface_detection = 0.00
+	air_detection = 0.00
+
+	#Defensive Abilities
+	surface_defence = 8.00
+	air_defence = 2.00
+
+	#Offensive Abilities
+	soft_attack = 0.00
+	hard_attack = 0.00
+	sea_attack = 0.00
+	air_attack = 2.00
+	strategic_attack = 0.00
+	sub_attack = 0.00
+
+	priority = 5
+	iscomplex = yes
+
+	install_to = { 
+		type = carrier 
+		type = escort_carrier 
+		type = missile_destroyer 
+		type = missile_cruiser 
+		type = missile_frigate
+		type = nuclear_missile_cruiser 
+		type = nuclear_battlecruiser 
+		type = supercarrier 
+		type = helicopter_carrier
+		type = battleship
+		type = missile_boat
+		type = destroyer
+		type = cruiser
+	}
+	weapon_category= air_defence
+}

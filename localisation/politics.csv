@@ -1,0 +1,356 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLSKI;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGESE;RUSSIAN;FINNISH;x
+##################################################;;;;;;;;;;;;;;x
+# Interface;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+LIBERATE_COUNTRY;Liberate Country;Libérer le pays;Land befreien;;Liberar país;;;;;;;;;x
+CREATE_PUPPET;Create Puppet;Créer un État fantoche;Marionettenstaat;;Crear títere;;;;;;;;;x
+POLITICAL_ORGANIZATION;Organization;Organisation;Organisation;;Organización;;;;;;;;;x
+POLITICAL_POPULARITY;Popularity;Popularité;Beliebtheit;;Popularidad;;;;;;;;;x
+RULING_IDEOLOGY;Ruling Ideology;Idéologie dominante;Vorherrschende Ideologie;;Ideología de Gobierno;;;;;;;;;x
+CAN_CREATE_VASSAL;Can Create Puppet Nation;;;;;;;;;;;;;x
+HAVE_MORE_VASSALS_THAN;Minimum number of Puppets ;;;;;;;;;;;;;x
+ELECTIONS_SUSPENDED;Elections suspended;;;;;;;;;;;;;x
+ELECTIONS_SUSPENDED_DESC;Elections have been suspended or are restricted to a choice only between candidates from the ruling party.;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Minister Positions;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+head_of_state;Head of State;Chef de l'État;Staatschef;;Jefe de Estado;;;;;;;;;x
+head_of_government;Head of Government;Chef du gouvernement;Regierungschef;;Jefe de Gobierno;;;;;;;;;x
+foreign_minister;Foreign Minister;Ministre des affaires étrangères;Außenminister;;Ministro Exteriores;;;;;;;;;x
+armament_minister;Armament Minister;Ministre de la défense;Kriegsminister;;Ministro Defensa;;;;;;;;;x
+minister_of_security;Minister of Security;Ministre de l'intérieur;Minister für innere Sicherheit;;Ministro Seguridad;;;;;;;;;x
+minister_of_intelligence;Head of Intelligence;Chef des services secrets;Nachrichtendienstchef;;Jefe de Inteligencia;;;;;;;;;x
+chief_of_staff;Chief of Staff;Chef d'état-major;Generalstabschef;;Jefe Estado Mayor;;;;;;;;;x
+chief_of_army;Chief of the Army;Chef de l'armée de terre;Armee-Oberfehlshaber;;Jefe del Ejército de Tierra;;;;;;;;;x
+chief_of_navy;Chief of the Navy;Chef de la marine;Marine-Oberfehlshaber;;Jefe de la Marina de Guerra;;;;;;;;;x
+chief_of_air;Chief of the Air Force;Chef de l'armée de l'air;Luftwaffenoberbefehlshaber;;Jefe de las Fuerzas Aéreas;;;;;;;;;x
+head_of_state_desc;The highest ranked official position in a sovereign state and the holder of the vested or implied powers to act as the chief public representative of a state.;;;;;;;;;;;;;x
+head_of_government_desc;The chief officer of the executive branch of the government, usually presiding over a cabinet.;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Ideologies;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+fascistic_idolg;Fascist;Fasciste;Faschist;;Fascista;;;;;;;;;x
+paternal_auto_idolg;Paternal Autocrat;Autocrate paternaliste;Väterlicher Alleinherrscher;;Autócrata paternalista;;;;;;;;;x
+social_cons_idolg;Social Conservative;Conservateur;Sozialkonservativer;;Social conservador;;;;;;;;;x
+market_liberal_idolg;Market Liberal;Libéral;Marktliberaler;;Ultraliberal;;;;;;;;;x
+social_liberal_idolg;Social Liberal;Social-libéral;Sozialliberaler;;Social liberal;;;;;;;;;x
+social_democrat_idolg;Social Democrat;Social-démocrate;Sozialdemokrat;;Socialdemócrata;;;;;;;;;x
+left_wing_radical_idolg;Left-Wing Radical;Marxiste;Linksradikaler;;Izquierda radical;;;;;;;;;x
+maoist_idolg;Maoist;Maoiste;Maoistisch;;Maoista;;;;;;;;;x
+communist_idolg;Communist;Communiste;Kommunistisch;;Comunista;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Ministertypes;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+extremist_type;Extremist;Extrémiste;Extremist;;Extremista;;;;;;;;;x
+hardliner_type;Hardliner;Harter Verfechter;Pur et dur;;Duro;;;;;;;;;x
+bureaucrat_type;Bureaucrat;Bürokrat;Bureaucrate;;Burócrata;;;;;;;;;x
+administrator_type;Administrator;Verwalter;Administrateur;;Administrador;;;;;;;;;x
+reformer_type;Reformer;Reformer;Réformateur;;Reformador;;;;;;;;;x
+ambitious_type;Ambitious;Ehrgeizig;Ambitieux;;Ambicioso;;;;;;;;;x
+lethargic_type;Lethargic;Lethargisch;Léthargique;;Letárgico;;;;;;;;;x
+visionary_type;Visionary;Hellseher;Visionnaire;;Visionario;;;;;;;;;x
+traditionalist_type;Traditionalist;;;;;;;;;;;;;x
+dictator_type;Dictator;Diktator;Dictateur;;Dictador;;;;;;;;;x
+autocrat_type;Autocrat;Autokrat;Autocrate;;Autócrata;;;;;;;;;x
+democrat_type;Democrat;Demokrat;Démocrate;;Demócrata;;;;;;;;;x
+zealous_type;Zealous;Eifrig;Zélé;;Entusiasta;;;;;;;;;x
+religious_type;Religious;Religiös;Religieux;;Religioso;;;;;;;;;x
+moral_type;Moral;Moral;Morale;;Moraleja;;;;;;;;;x
+parental_type;Parental;Elterlich;Parental;;Paternal;;;;;;;;;x
+liberal_type;Liberal;Liberaler;Libéral;;Liberal;;;;;;;;;x
+courageous_type;Courageous;Mutig;Courageux;;Valeroso;;;;;;;;;x
+fortunate_type;Fortunate;Glücklich;Fortuné;;Afortunado;;;;;;;;;x
+honest_type;Honest;Ehrlich;Honnête;;Honesto;;;;;;;;;x
+loyal_type;Loyal;Loyal;Fidèle;;Leal;;;;;;;;;x
+reputable_type;Reputable;Achtbar;Réputé;;Respetable;;;;;;;;;x
+iron_lady;Iron Lady;;;;;;;;;;;;;x
+controversial_figure;Controversial;;;;;;;;;;;;;x
+courteous_figure;Courteous;;;;;;;;;;;;;x
+supreme_leader;Supreme Leader;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Government Types;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+totalitarian_gov;Totalitarian State;;;;;;;;;;;;;x
+authoritarian_gov;Authoritarian State;;;;;;;;;;;;;x
+theocracy_gov;Theocracy;;;;;;;;;;;;;x
+absolute_monarchy_gov;Absolute Monarchy;Monarchie Absolue;Absolute Monarchie;;Monarquía Absolutista;;;;;;;;;x
+constitutional_monarchy_gov;Constitutional Monarchy;;;;;;;;;;;;;x
+republic_gov;Republic;République;Republik;;República;;;;;;;;;x
+constitutional_republic_gov;Constitutional Republic;;;;;;;;;;;;;x
+totalitarian_gov_ruler;Comrade;Camarade;Genosse;;Camarada;;;;;;;;;x
+authoritarian_gov_ruler;Generalissimus;Generalissimus;Generalissimus;;Generalissimus;;;;;;;;;x
+theocracy_gov_ruler;Your Holiness;;;;;;;;;;;;;x
+absolute_monarchy_gov_ruler;Your Highness;;;;;;;;;;;;;x
+constitutional_monarchy_gov_ruler;Prime Minister;Premier Ministre;Premierminister;;Primer Ministro;;;;;;;;;x
+republic_gov_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x
+constitutional_republic_gov_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Laws ;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+organized_religions_law;Organized religions;;;;;;;;;;;;;x
+constitutional_law;Constitutional Law;;;;;;;;;;;;;x
+civil_liberties;Civil Liberties;;;;;;;;;;;;;x
+freedom_of_the_press;Freedom  of The Press;;;;;;;;;;;;;x
+elections_and_voting;Elections and Voting ;;;;;;;;;;;;;x
+military_service;Military Service;;;;;;;;;;;;;x
+rule_of_law;Rule of Law ;;;;;;;;;;;;;x
+human_rights;Human Rights;;;;;;;;;;;;;x
+public_oversight;Public Oversight;;;;;;;;;;;;;x
+state_religion;State Religion;;;;;;;;;;;;;x
+state_religion_desc;State religions are official or government-sanctioned establishments of a particular religion, but not necessarily ecclesiastical control of the state, as in a theocracy, or state control of the church.;;;;;;;;;;;;;x
+secular_state;Secular State;;;;;;;;;;;;;x
+secular_state_desc;A secular state is a concept of secularism whereby a state or country purports to be officially neutral in matters of religion, supporting neither religion nor irreligion. A secular state also claims to treat all its citizens equally regardless of religion and claims in order to avoid preferential treatment for citizens from a particular religion/nonreligion over other religions/nonreligions. Secular states do not have a state religion or equivalent, although the absence of a state religion in of itself does not guarantee that a state is secular.;;;;;;;;;;;;;x
+totalitarian;Totalitarian;;;;;;;;;;;;;x
+totalitarian_desc;A society in which the ideology of the state has influence, if not power, over most of its citizens and attempts to control virtually all aspects of the social life including economy, education, art, science, private life, and morals. The source of the mass appeal of totalitarian regimes is their ideology, which provides a comforting, single answer to the mysteries of the past, present, and future.;;;;;;;;;;;;;x
+authoritarian;Authoritarian;;;;;;;;;;;;;x
+authoritarian_desc;In this autocratic form of government, the nation is ruled by an individual or a political elite with exclusive, arbitrary power in order to bring prosperity to its citizens via an efficient and centralized rule. Authoritarianism differs from totalitarianism in that social and economic institutions exist that are not under the government's control.;;;;;;;;;;;;;x
+theocracy;Theocracy ;;;;;;;;;;;;;x
+theocracy_desc;Theocracy is to be governed by immediate divine guidance or by officials who are regarded as divinely guided, or simply pursuant to the doctrine of a particular religious sect or religion. This form of government should be distinguished from other, secular forms because the political power in a theocracy is always subordinate to the religious hierarchies held by priests, clerics, and religious heads. They assure the representation of divinity to maintain morality, dignity, and social compliance.;;;;;;;;;;;;;x
+monarchy;Absolute Monarchy ;;;;;;;;;;;;;x
+monarchy_desc;Monarchies are associated with political or sociocultural hereditary rule and most monarchs have been born and brought up within a royal family, the center of the royal household and court. Future monarchs are often trained for the responsibilities of expected future rule which guarantees the immediate continuity of leadership, usually with a short interregnum.;;;;;;;;;;;;;x
+constitutional_monarchy;Constitutional Monarchy;;;;;;;;;;;;;x
+constitutional_monarchy_gov_desc;Constitutional monarchy is a form of government in which a monarch acts as head of state within the parameters of a constitution. Most modern constitutional monarchies employ a parliamentary system in which the monarch may have strictly ceremonial duties or may have reserve powers, however on occasions constitutional monarchs have played a crucial role in thwarting coups d'état and the overthrow of democratic institutions by fascist or communist movements.;;;;;;;;;;;;;x
+republic;Republic ;;;;;;;;;;;;;x
+republic_desc;A republic is a country with a specific form of government in which the people, or some significant portion of them, have supreme control over the government and where offices of state are not granted primarily based upon family, military, or business connections. This gives the citizenry a greater feeling of participation in shaping their state or nation.;;;;;;;;;;;;;x
+constitutional_republic;Constitutional Republic;;;;;;;;;;;;;x
+constitutional_republic_desc;A constitutional republic is a state in which the head of state and other officials are representatives of the people and must govern according to existing constitutional law that limits the government's power over its citizens. Executive, legislative, and judicial powers are instead separated into distinct branches that serve to check and balance each other. It is an attempt to weaken the threat of majoritarianism and protect dissenting individuals and minority groups from the tyranny of the majority.;;;;;;;;;;;;;x
+suspended_indefinitely;Suspended Indefinitely ;;;;;;;;;;;;;x
+suspended_indefinitely_desc;In order to shield our nation from dangerous elements, foreign spies, infiltrators, terrorists, and traitors who seek to destabilize our society, destroy property, and bring distress and mortal danger to our citizens, some rights must be sacrificed so that others may be protected. Rights of personal freedom and habeas corpus are therefore suspended indefinitely.;;;;;;;;;;;;;x
+martial_law;Martial Law;;;;;;;;;;;;;x
+martial_law_desc;Extraordinary times require us to protect the achievements of past generations and not let them fall into the ruin of anarchy. The current state of emergency has overwhelmed the normal functions of state, and therefore it falls to the military to defend the legal peace of the nation, to restore order, and to maintain societal discipline until normalcy returns.;;;;;;;;;;;;;x
+emergency_law;Emergency Law;;;;;;;;;;;;;x
+emergency_law_desc;To restore public order as a result of a natural disaster, epidemic, or other serious public health emergency, terrorist attack, or incident within the borders of our state, the executive has granted special powers to law enforcement and military personnel on the condition that no part or class of the nation’s people be deprived of a right, privilege, immunity, or protection named in the Constitution and secured by law.;;;;;;;;;;;;;x
+curfew;Curfew;;;;;;;;;;;;;x
+curfew_desc;Our government has issued an executive order for a nationwide curfew mandating citizens to return home daily before a certain time. The measures have been imposed to maintain public order and suppress the activities of targeted groups.;;;;;;;;;;;;;x
+fully_granted_liberties;Fully Granted Liberties;;;;;;;;;;;;;x
+fully_granted_liberties_desc;The state respects the individual rights of our citizens to assemble and collectively express, promote, pursue, and defend common interests, along with other rights of personal freedom.;;;;;;;;;;;;;x
+propaganda_press;Propaganda press;;;;;;;;;;;;;x
+propaganda_press_desc;Encourage the spread of propaganda to promote our ideas and boost morale amongst our people.;;;;;;;;;;;;;x
+state_press;State press;;;;;;;;;;;;;x
+state_press_desc;All media is owned and controlled by the government in order to prevent distortion of the minds of the populace. They will of course faithfully parrot the party line, although the more cynical amongst them will suspect that the media is not always 100% accurate.;;;;;;;;;;;;;x
+censored_press;Censored press;;;;;;;;;;;;;x
+censored_press_desc;Impose restrictions on the press by prohibiting the publication of any material that has not been reviewed first by the state.;;;;;;;;;;;;;x
+limited_restrictions;Limited restrictions;;;;;;;;;;;;;x
+limited_restrictions_desc;The press and the media has the liberty to print and publish with limited restrictions. ;;;;;;;;;;;;;x
+free_press;Free press;;;;;;;;;;;;;x
+free_press_desc;Allow the press and the media the liberty to print and publish as it sees fit, without governmental interference or restrictions.;;;;;;;;;;;;;x
+hereditary_rule;Hereditary rule;;;;;;;;;;;;;x
+hereditary_rule_desc;A system of succession where power is hereditary has the advantages of stability, continuity, and predictability, as well as the internal stabilizing factors of family affection and loyalty.;;;;;;;;;;;;;x
+single_party_system;Single Party System ;;;;;;;;;;;;;x
+single_party_system_desc;A party system government in which a single political party forms the government and no other parties are permitted to run candidates for election. These practices are usually deemed necessary to prevent the opposition from legally getting power and possibly bringing our nation into ruin and despair.;;;;;;;;;;;;;x
+gerrymandering;Gerrymandering;;;;;;;;;;;;;x
+gerrymandering_desc;In the process of drawing electoral districts, gerrymandering is a practice that attempts to establish a political advantage for a particular party by manipulating geographic boundaries to create incumbent protected districts. This may be used to achieve more harmonized electoral results and to hinder a political, racial, linguistic, religious, or class group from taking power.;;;;;;;;;;;;;x
+winner_takes_it_all;Winner Takes It All;;;;;;;;;;;;;x
+winner_takes_it_all_desc;This system has only one winner that will take office—beneficial to parliamentary governments that are typically more stable without loose coalitions in which small minorities may wield disproportionate power to break a coalition. The system also minimizes the influence of third parties and may help keep out extremists.;;;;;;;;;;;;;x
+semi-proportional;Semi-Proportional ;;;;;;;;;;;;;x
+semi-proportional_desc;A semi-proportional voting system attempts to find a balance between majority rule and proportional representation. Semi-proportional systems allow for fairer representation of those parties that have difficulty gaining individual seats while still maintaining the possibility of one party gaining a majority when there is a landslide victory.;;;;;;;;;;;;;x
+proportional;Proportional ;;;;;;;;;;;;;x
+proportional_desc;This voting systems aims at reproducing into a representative body the proportions of the different parts of the constituents. A drawback with the system is that if all candidates who received votes assume power, fragmentation can result and make it difficult to build lasting governing coalitions. However, the system is very democratic in nature.;;;;;;;;;;;;;x
+abbreviated_volunteer_army;Abbreviated Volunteer Army;;;;;;;;;;;;;x
+abbreviated_volunteer_army_desc;Keep an often symbolic or a small emergency only military force where the military derives its manpower from volunteers rather than conscription or mandatory service.;;;;;;;;;;;;;x
+conventional_volunteer_army;Conventional Volunteer Army;;;;;;;;;;;;;x
+conventional_volunteer_army_desc;Supplies a conventional military force that derives its manpower from volunteers rather than conscription or mandatory service. A country generally offers pay and benefits during military recruitment in order to attract enough volunteers.;;;;;;;;;;;;;x
+expanded_volunteer_army;Expanded Volunteer Army;;;;;;;;;;;;;x
+expanded_volunteer_army_desc;An expanded military force that derives its manpower from volunteers rather than conscription or mandatory service and usually offers generous pay and benefits during military recruitment in order to attract enough volunteers to fill the ranks.;;;;;;;;;;;;;x
+limited_conscription_army;Limited Conscription Army;;;;;;;;;;;;;x
+limited_conscription_army_desc;The compulsory enlistment of people in some sort of national service, where a minority comprised of the most able recruits are enlisted for active military service.;;;;;;;;;;;;;x
+conventional_drafted_army;Conventional Drafted Army;;;;;;;;;;;;;x
+conventional_drafted_army_desc;The compulsory enlistment of people in some sort of national service where a majority deemed to be of military age are enlisted for active military service.;;;;;;;;;;;;;x
+expanded_drafted_army;Expanded Drafted Army;;;;;;;;;;;;;x
+expanded_drafted_army_desc;The compulsory enlistment of people in some sort of national service where every individual deemed to be of military age is enlisted for active military service.;;;;;;;;;;;;;x
+substantively_defined;Substantively Defined;;;;;;;;;;;;;x
+substantively_defined_desc;Substantive conceptions of the rule of law include substantive rights based on the rule of law. It is the extent to which citizens, companies, and government have confidence and abide by the rules of society, in particular the quality of contract enforcement, the police and the courts, as well as the likelihood of crime or violence.;;;;;;;;;;;;;x
+well_defined;Well Defined;;;;;;;;;;;;;x
+well_defined_desc;Well defined conceptions of the rule of law include some rights based on or otherwise derived from the rule of law. It is the extent to which citizens, companies, and government have confidence and abide by the rules of society, and in particular the quality of contract enforcement, the police, and the courts, as well as the likelihood of crime or violence.;;;;;;;;;;;;;x
+moderately_defined;Moderately Defined;;;;;;;;;;;;;x
+moderately_defined_desc;Moderately defined conceptions of the rule of law include a few rights based on or other derived from the rule of law. It is the extent to which citizens, companies, and governments have confidence in and abide by the rules of society, and in particular the quality of contract enforcement, the police and the courts, as well as the likelihood of crime or violence.;;;;;;;;;;;;;x
+narrowly_defined;Narrowly Defined;;;;;;;;;;;;;x
+narrowly_defined_desc;Narrowly defined conceptions of the rule of law provide mostly formalist definitions of the rule of law and make few judgments about the justness of the law itself. Such legalistic interpretations mostly define specific procedural attributes that a legal framework must possess in order to be compliant and 'lawful.';;;;;;;;;;;;;x
+thinly_defined;Thinly Defined;;;;;;;;;;;;;x
+thinly_defined_desc;Thinly defined conceptions of the rule of law provide few definitions of the rule of law and do not attempt to either inquire into the justness of the law or whether it is effectively applied by courts. Such systems define very few and generally very vague procedural attributes that a legal framework must possess in order to be 'lawful.';;;;;;;;;;;;;x
+not_recognized;Not Recognized;;;;;;;;;;;;;x
+not_recognized_desc;The concept of inalienable and universal human rights is groundless. Rights arise from the actions of government or evolve from tradition and thus are neither totally inalienable nor truly universal. Instead, our traditions and values are for a government that is honest, effective, and efficient, and does not waste resources by grasping for unattainable concepts.;;;;;;;;;;;;;x
+cultural_relativism;Cultural Relativism;;;;;;;;;;;;;x
+cultural_relativism_desc;Proponents of cultural relativism argue for acceptance of different cultures that may have practices in conflict with human rights standards. Relativists take the viewpoint that universalism of human rights could be used as a form of cultural, economic, or political imperialism fundamentally rooted in a politically liberal outlook.;;;;;;;;;;;;;x
+separate_but_equal;Separate But Equal;;;;;;;;;;;;;x
+separate_but_equal_desc;Under this concept of segregation, local governments may legally provide services and institutions to separate groups of citizens on the condition that the quality of each group's public facilities remain equal. In practice, however, this creates a group of 'second-class citizens' whose facilities fell below the quality of those enjoyed by the dominant group of citizens.;;;;;;;;;;;;;x
+universal_rights;Universal Rights;;;;;;;;;;;;;x
+universal_rights_desc;Basic rights and freedoms guaranteed by law, that all people are entitled to regardless of nationality, sex national or ethnic origin, race, religion, language, or other status. Human rights are conceived as universal and egalitarian, with all people possessing equal rights by virtue of being human.;;;;;;;;;;;;;x
+transparent_public_oversight;Transparent Public Oversight;;;;;;;;;;;;;x
+transparent_public_oversight_desc;Governmental transparency means that citizens, organizations, companies, or ministries responsible for oversight have a right to obtain information about the workings of the government and government officials at any time.;;;;;;;;;;;;;x
+systematic_oversight;Systematic Oversight;;;;;;;;;;;;;x
+systematic_oversight_desc;Under this system of governmental oversight, citizens, organizations, companies, or ministries responsible for oversight may get information about most of the workings of the government and government officials. Government actions are systematically reviewed via a system of oversight, but government is not completely transparent in order to protect against revealing government secrets.;;;;;;;;;;;;;x
+non-systematic_oversight;Non-Systematic Oversight;;;;;;;;;;;;;x
+non-systematic_oversight_desc;From time to time, citizens, organizations, or companies can access information about some of the workings of the government and government officials. The actions of the government are not systematically reviewed, preventing sensitive information about the dealings of the government from being exploited by enemies of the regime.;;;;;;;;;;;;;x
+limited_oversight;Limited Oversight;;;;;;;;;;;;;x
+limited_oversight_desc;Only specifically designated citizens, organizations, or companies can get information about only a handful of government institutions and government officials. The actions of the government are almost exclusively kept secret to prevent information about the dealings of the government fromg being exploited or used maliciously to undermine the state.;;;;;;;;;;;;;x
+moral_code_of_conduct;Moral Code of Conduct;;;;;;;;;;;;;x
+moral_code_of_conduct_desc;There is no need for oversight because a moral code dictates our government’s actions with a set of rules outlining the responsibilities of or proper practices for an individual, party, or organization. It is up to each individual to uphold this code by relying on their own virtues and moral compass.;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Cultural Ideas;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+national_culture;Culture;;;;;;;;;;;;;x
+national_culture_desc;National Culture;;;;;;;;;;;;;x
+national_identity;Identity;;;;;;;;;;;;;x
+national_identity_desc;National Identity;;;;;;;;;;;;;x
+national_religion;Religion;;;;;;;;;;;;;x
+national_religion_desc;National Religion;;;;;;;;;;;;;x
+national_idealism;Idealism;;;;;;;;;;;;;x
+national_idealism_desc;National Idealism;;;;;;;;;;;;;x
+national_attitude;Attitude;;;;;;;;;;;;;x
+national_attitude_desc;National Attitude;;;;;;;;;;;;;x
+cul_north_america;North America;;;;;;;;;;;;;x
+cul_north_america_desc;North America;;;;;;;;;;;;;x
+cul_latin_america;Latin America;;;;;;;;;;;;;x
+cul_latin_america_desc;Latin America;;;;;;;;;;;;;x
+cul_western_europe;Western Europe;;;;;;;;;;;;;x
+cul_western_europe_desc;Western Europe;;;;;;;;;;;;;x
+cul_pacific;Pacific;;;;;;;;;;;;;x
+cul_pacific_desc;pacific;;;;;;;;;;;;;x
+cul_east_europe;East Europe;;;;;;;;;;;;;x
+cul_east_europe_desc;East Europe;;;;;;;;;;;;;x
+cul_middle_east;Middle East;;;;;;;;;;;;;x
+cul_middle_east_desc;Middle East;;;;;;;;;;;;;x
+cul_sub_saharan_africa;Sub-Saharan Africa;;;;;;;;;;;;;x
+cul_sub_saharan_africa_desc;Sub-Saharan Africa;;;;;;;;;;;;;x
+cul_east_asia;East Asia;;;;;;;;;;;;;x
+cul_east_asia_desc;East Asia;;;;;;;;;;;;;x
+cul_south_asia;South Asia;;;;;;;;;;;;;x
+cul_south_asia_desc;South Asia;;;;;;;;;;;;;x
+hinduism;Hinduism;;;;;;;;;;;;;x
+hinduism_desc;Hinduism is the predominant spiritual following of the Indian subcontinent and one of its indigenous faiths. Among other practices and philosophies, Hinduism includes a wide spectrum of laws and prescriptions of 'daily morality' based on karma, dharma, and societal norms. Hinduism is a conglomeration of distinct intellectual or philosophical points of view rather than a rigid common set of beliefs. The religion is formed from diverse traditions and has no single founder. Among its direct roots is the historical Vedic religion of Iron Age India and, as such, Hinduism is often called the 'oldest living religion' or the 'oldest living major religion' in the world.;;;;;;;;;;;;;x
+confucianism;Confucianism;;;;;;;;;;;;;x
+confucianism_desc;Confucianism is an ethical and philosophical system developed from the teachings of the Chinese philosopher Confucius. Confucianism originated as an 'ethical-sociopolitical teaching.' The core of Confucianism is humanism, or what the philosopher Herbert Fingarette calls 'the secular as sacred.' The focus of spiritual concern is this world and the family, not the gods or the afterlife. Confucianism generally does not exalt faithfulness to divine will or higher law. This stance rests on the belief that human beings are teachable, improvable, and perfectible through personal and communal endeavor, especially self-cultivation and self-creation. Confucian thought focuses on the cultivation of virtue and maintenance of ethics.;;;;;;;;;;;;;x
+buddhism;Buddhism;;;;;;;;;;;;;x
+buddhism_desc;Buddhism is a religion and philosophy encompassing a variety of traditions, beliefs, and practices largely based on teachings attributed to Siddhartha Gautama, commonly known as the Buddha. The Buddha lived and taught in the eastern part of the Indian subcontinent at some time between the 6th and 4th centuries BCE. He is recognized by Buddhists as an awakened or enlightened teacher who shared his insights to help sentient beings end suffering by eliminating ignorance. The Buddha taught that understanding and seeing dependent origination and eliminating craving is key to attaining the highest happiness, nirvana.;;;;;;;;;;;;;x
+shintoism;Shintoism;;;;;;;;;;;;;x
+shintoism_desc;"Shintoism is the indigenous spirituality of Japan and the people of Japan. It is a set of practices to be carried out diligently in order to establish a connection between present day Japan and its ancient past. Due to the historical relationship between Shinto and Buddhism, most 'life' events are handled by Shinto and 'death' or 'afterlife' events are handled by Buddhism; e.g. it is typical in Japan to register or celebrate a birth at a Shinto shrine, but funeral arrangements are generally dictated by Buddhist tradition, although the division is not exclusive.";;;;;;;;;;;;;x
+judaism;Judaism;;;;;;;;;;;;;x
+judaism_desc;Judaism is a monotheistic and Abrahamic religion originating in the Hebrew Bible (also known as the Tanakh) and explored in later texts such as the Talmud, Mishnah, Midrash, and Mishneh Torah. Judaism is considered by religious Jews to be the expression of the covenantal relationship God established with the Children of Israel. An adherent of Judaism is called a Jew.;;;;;;;;;;;;;x
+christianity;Christianity;;;;;;;;;;;;;x
+christianity_desc;Christianity is a monotheistic and Abrahamic religion based on the life and teachings of Jesus as presented in canonical gospels and other New Testament writings. It also considers the Hebrew Bible, which is known as the Old Testament, to be canonical. Adherents of the Christian faith are known as Christians.;;;;;;;;;;;;;x
+islam;Islam;;;;;;;;;;;;;x
+islam_desc;Islam is a monotheistic and Abrahamic religion articulated by the Qur'an, a text considered by its adherents to be the verbatim word of God and by the teachings and normative example (called the Sunnah and composed of Hadith) of Muhammad, considered by them to be the last prophet of God. An adherent of Islam is called a Muslim.;;;;;;;;;;;;;x
+folk_religions;Folk Religions;;;;;;;;;;;;;x
+folk_religions_desc;Folk religion consists of ethnic or regional religious customs under the umbrella of a religion but outside of official doctrine and practices. Folk religion has been defined as 'the totality of all those views and practices of religion that exist among the people apart from and alongside the strictly theological and liturgical forms of the official religions.' In East vs. West, Paganism also falls under this umbrella and refers to religious traditions which are polytheistic or indigenous.;;;;;;;;;;;;;x
+territorial_focus;Territorial Focus;;;;;;;;;;;;;x
+territorial_focus_desc;We value our territory above all else with a territorial focus. Whether we want to expand or just defend our historic lands, we need a strong military and supporting economy to acheive our territorial ends.;;;;;;;;;;;;;x
+cultural_bias_focus;Cultural Bias Focus;;;;;;;;;;;;;x
+cultural_bias_focus_desc;Cultural bias is the phenomenon of interpreting and judging phenomena by standards inherent to one's own culture. With this focus we aim to support our own culture or people over any other.;;;;;;;;;;;;;x
+state_building_focus;State Building Focus;;;;;;;;;;;;;x
+state_building_focus_desc;State-building is a term used in state theory to describe the construction of a functioning state. With this focus, we aim to secure power and build up our country at all levels.;;;;;;;;;;;;;x
+corporate_focus;Corporate Focus;;;;;;;;;;;;;x
+corporate_focus_desc;We focus on corporations and their ability to prosper, knowing that a prosperous corporate economy means plenty of tax revenue and international commercial influence for us. This focus is all about attaining a healthy industry and making money.;;;;;;;;;;;;;x
+civic_focus;Civic Focus;;;;;;;;;;;;;x
+civic_focus_desc;With our citizens' well-being at heart, let us strive for a well balanced country where all may prosper.;;;;;;;;;;;;;x
+equality_focus;Equality Focus;;;;;;;;;;;;;x
+equality_focus_desc;All people should be treated as equals and have the same political, economic, social, and civil rights. Perhaps not only within our borders, either...;;;;;;;;;;;;;x
+humanitarian_focus;Humanitarian Focus;;;;;;;;;;;;;x
+humanitarian_focus_desc;No distinction is to be made in the face of suffering or abuse on grounds of gender, sexual orientation, tribe, caste, age, religion, or nationality. We focus on ensuring basic human rights for every person in order to build a fair society.;;;;;;;;;;;;;x
+imperialism;Imperialism;;;;;;;;;;;;;x
+imperialism_desc;Imperialism is the attempt to conquer territory or to create or maintain an unequal economic, cultural, and territorial relationship, usually between states and often in the form of an empire based on domination and subordination. We focus on extracting the maximum benefit from our empire abroad and funneling this wealth to our mighty homeland.;;;;;;;;;;;;;x
+colonialism;Colonialism;;;;;;;;;;;;;x
+colonialism_desc;Colonialism is the establishment, exploitation, maintenance, acquisition, and expansion of colonies in one territory by people from another territory. It is about getting direct access to resources and markets in order to benefit our home territory.;;;;;;;;;;;;;x
+hegemony;Hegemony;;;;;;;;;;;;;x
+hegemony_desc;Hegemony is an indirect form of government by imperial dominance in which the hegemon (leader state) rules geopolitically subordinate states by the indirect use of power, the threat of force, or by economic rather than military force.;;;;;;;;;;;;;x
+balance_of_power;Balance of power;;;;;;;;;;;;;x
+balance_of_power_desc;At the core of the balance of power theory is the idea that national security is enhanced when military capabilities are distributed so that no one state is strong enough to dominate all others.;;;;;;;;;;;;;x
+defensive;Defensive;;;;;;;;;;;;;x
+defensive_desc;With a defensive attitude we prefer to maintain the status quo, but not at all costs. Self-defense is more important than the protection of others.;;;;;;;;;;;;;x
+non-interventionism;Non-interventionism;;;;;;;;;;;;;x
+non-interventionism_desc;Non-interventionism is about avoiding alliances with other nations and avoiding all wars not related to direct self-defense. We still practice active diplomacy, but we do not interfere in the internal politics of other states or attempt to shape the international status quo. Instead, we seek to enjoy the benefits of neutrality by not becoming involved in conflicts.;;;;;;;;;;;;;x
+noNIdeagroup;None;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Occupation Policies;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+OCCUPIED_COUNTRIES;Occupied Countries;Pays occupés;Besetzte Länder;;Países ocupados;;;;;;;;;x
+collaboration_government;Collaboration Government;Gouvern. de collaboration;Kollaborationsregierung;;Gobierno colaboracionista;;;;;;;;;x
+collaboration_government_desc;Instead of governing these conquered territories directly, we can support local sympathizers to govern in our name. By creating a buffer between ourselves and the populace, we reduce the temptation of people to form resistance movements and the collaboration government will encourage like-minded citizens to join our cause. However, they are also highly sensitive to their lack of legitimacy and won’t be able to do anything to jeopardize their support. This lack of unilateral control will make it harder for us to exploit the area economically.;Au lieu de gouverner directement ces territoires conquis, on peut soutenir les sympathisants locaux pour qu'ils gouvernent à notre place. En créant un tampon entre le peuple et nous, les gens sont moins tentés de former des mouvements de résistance et le;Anstatt diese eroberten Gebiete direkt zu regieren, können wir lokale Sympathisanten in unserem Namen mit dieser Aufgabe betrauen. Durch Schaffung eines Puffers zwischen uns und der Bevölkerung verringern wir das Risiko, dass sich Widerstandsbewegungen gründen. Darüber hinaus wird die Kollaborationsregierung gleichgesinnten Bürgern nahelegen, unserer Sache beizutreten. Andererseits ist sie sich aber auch der fehlenden Legitimität ihrer Herrschaft bewusst und wird daher nichts unternehmen, was ihren Rückhalt in der Bevölkerung gefährden könnte. Dies macht es uns schwerer, das Gebiet wirtschaftlich auszubeuten.;;En vez de gobernar directamente los territorios conquistados, podemos apoyar a simpatizantes locales para que lo hagan en nuestro nombre. Si creamos un amortiguador entre nosotros y la población, reduciremos su tentación de resistirse y el Gobierno colaboracionista animará a los ciudadanos de su órbita a unirse a nuestra causa. Aun así, también son muy sensibles a su falta de legitimidad y no harán nada que ponga el peligro sus apoyos, dificultando nuestra explotación económica de la zona.;;;;;;;;;x
+military_government;Military Government;Gouvernement militaire;Militärregierung;;Gobierno militar;;;;;;;;;x
+military_government_desc;By turning government over to our military authorities, the area will be governed by means of a highly literal interpretation of the laws. This is a more efficient way to exploit an area economically than a collaboration government, but a slightly less literal interpretation would allow even more resources to be gathered. Because the government has little sensitivity to local conditions, the people will not be happy, but at the same time the legalistic framework means that people enjoy some stability and will not become truly miserable because of our rule.;En plaçant le gouvernement entre les mains de nos autorités militaires, elles gouverneront en prenant les lois au pied de la lettre. C'est une manière plus efficace d'exploiter une région économiquement que le gouvernement de collaboration mais une interp;Die Übergabe der Regierungsgewalt an unsere Militärbürokratie wird in einer sehr strengen Ausübung der Gesetze resultieren. Auf diese Weise kann ein Gebiet wirtschaftlich effizienter ausgebeutet werden, als es unter einer Kollaborationsregierung möglich wäre, doch durch eine weniger strenge Gesetzesauslegung könnten sogar noch mehr Ressourcen gesammelt werden. Da es der Militärregierung an Feingefühl für die örtliche Situation fehlt, wird die lokale Bevölkerung nicht zufrieden sein, doch die strenge Gesetzeslage hält den Deckel auf dem kochenden Topf des Volkszorns.;;Si entregamos el gobierno a las autoridades militares, estas gobernarán con una interpretación muy literal de las reglas. Esto es un modo más eficaz de explotar una zona económicamente que con el Gobierno colaboracionista, pero una interpretación menos literal permitiría la adquisición de incluso más recursos. Dado que el Gobierno tiene una escasa sensibilidad hacia las condiciones locales, el pueblo no estará contento, pero, asimismo, el importante marco legal implica que podría estar más descontento si cabe.;;;;;;;;;x
+full_occupation;Full occupation;Occupation totale;Vollständige Besetzung;;Ocupación completa;;;;;;;;;x
+full_occupation_desc;Using civilian administrators and focusing on gaining economic advantage from our occupied territories, we can increase the amount of resources we gather from the area. However, astoundingly, being forced to work for the benefit of our war machine isn’t something that the local population will look forward to, and as such local resistance movements will have an easier time gathering support.;En utilisant des administrateurs civils qui concentrent leurs efforts sur l'obtention d'avantages économiques dans nos territoires occupés, nous pouvons augmenter la quantité de ressources en provenance de cette région. Mais bizarrement, les citoyens ne s;Mit Hilfe von Zivilverwaltern, die sich darauf konzentrieren, aus den von uns besetzten Gebieten wirtschaftlich Kapital zu schlagen, können wir die Anzahl der aus diesen Gebieten gewonnenen Ressourcen noch steigern. Aus irgendeinem Grund kann sich die lokale Bevölkerung jedoch etwas Besseres vorstellen, als zur Arbeit in unserer Kriegsmaschinerie gezwungen zu werden - was auch erklärt, warum sich die lokalen Widerstandsbewegungen enormen Zulaufs erfreuen.;;Si los administradores civiles se centran en obtener ventajas económicas de nuestros territorios ocupados, podemos aumentar los recursos obtenidos de dichas zonas. No obstante, verse obligados a trabajar para el beneficio de nuestra maquinaria bélica no es lo más deseable para el pueblo, y es una forma de que los movimientos de resistencia locales ganen apoyos.;;;;;;;;;x
+total_exploitation;Total Exploitation;Exploitation totale;Totale Ausbeutung;;Explotación total;;;;;;;;;x
+total_exploitation_desc;The gloves are off, and we don’t care if you are a totally corrupt carpetbagger so long as you know how to exploit a country and pay us our due. These are the kinds of people we are going to unleash on the populace, and their actions will carry the full weight of our law. This will maximize our own benefits, with some of the proceeds being lost to ensure that our ‘administrators’ are properly rewarded. Of course the local population will become upset at this, but that’s why we supply our occupation troops with so much ammunition.;"On ne prend plus de gants, ça nous est égal que vous soyez un opportuniste corrompu jusqu'à la moelle, tant que vous savez comment exploiter un pays. C'est le genre de personne qu'on va lâcher sur la population. Cela va maximiser nos bénéfices mais on devra prendre compte quelques pertes, afin de s'assurer que nos administrateurs"" soient récompensés comme ils le méritent. Cela risque de ne pas plaire aux gens mais bon, on doit bien veiller à ce que nos troupes d'occupation gardent la forme.";So, jetzt ist Schluss mit lustig! ‘Sie sind völlig korrupt und lügen, dass sich die Balken biegen? Ist uns alles egal, wenn Sie nur wissen, wie man ein Land ausbeutet!’ Diese Art von Leuten werden wir nun auf die Bevölkerung loslassen. Dadurch werden wir unsere Gewinne maximieren, auch wenn unsere sauberen ‘Verwalter’ einen Teil für sich selbst abzweigen. Natürlich wird sich die Bevölkerung gegen sie auflehnen, aber was soll's? Schusstraining unter Realbedingungen für unsere Besatzungstruppen ist nie verkehrt ...;;Guantes fuera. No nos importa si eres un aventurero corrupto, siempre que sepas como explotar el país. Este es el tipo de personas que esquilman a la población. Así, maximizaremos nuestros beneficios, perdiendo parte de ellos para asegurar que nuestros administradores reciban su recompensa. Pero la gente acabará muy descontenta, y nuestras tropas de ocupación tendrán que estar alerta.;;;;;;;;;x
+no_occupation;No Occupation;Pas d'occupation;Keine Besetzung;;No ocupado;;;;;;;;;x
+no_occupation_desc;This is never displayed.;Cela n'est jamais affiché.;Dies wird nie angezeigt.;;Esto no aparece nunca.;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Modifiers;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+province_food_modifier;Food production bonus;;;;;;;;;;;;;x
+pol_province_food_modifier_desc;We focus on maximising food production.;;;;;;;;;;;;;x
+country_food_modifier;Food production bonus;;;;;;;;;;;;;x
+pol_country_food_modifier_desc;We focus on maximising food production.;;;;;;;;;;;;;x
+province_natural_resources_modifier;Natural resource production bonus;;;;;;;;;;;;;x
+pol_province_natural_resources_modifier_desc;We focus on maximising natural resource production.;;;;;;;;;;;;;x
+province_oil_modifier;Oil production bonus;;;;;;;;;;;;;x
+pol_oil_modifier_desc;We focus on maximising oil production.;;;;;;;;;;;;;x
+factory_light_industry_modifier;Light industry production bonus;;;;;;;;;;;;;x
+pol_light_industry_production_modifier_desc;We focus on maximizing light industry development.;;;;;;;;;;;;;x
+factory_heavy_industry_modifier;Heavy industry production bonus;;;;;;;;;;;;;x
+pol_heavy_industry_production_modifier_desc;We focus on maximizing heavy industry development.;;;;;;;;;;;;;x
+factory_military_goods_modifier;Military goods production bonus;;;;;;;;;;;;;x
+pol_military_goods_production_modifier_desc;We focus on maximizing production of military goods.;;;;;;;;;;;;;x
+factory_refinery_modifier;Refinery production bonus;;;;;;;;;;;;;x
+pol_refinery_production_modifier_desc;We focus on maximizing production and efficiency at our refineries.;;;;;;;;;;;;;x
+factory_electricity_modifier;Electricity production bonus;;;;;;;;;;;;;x
+pol_electricity_production_modifier_desc;We focus on maximizing electricity production.;;;;;;;;;;;;;x
+factory_energy_modifier;Energy (electricity & oil) production bonus;;;;;;;;;;;;;x
+pol_energy_production_modifier_desc;We focus on maximizing energy (electricity & oil) production.;;;;;;;;;;;;;x
+factory_high_tech_modifier;High Tech production gain;;;;;;;;;;;;;x
+pol_factory_high_tech_modifier_desc;We focus on maximizing High Tech production.;;;;;;;;;;;;;x
+factory_naval_yards_modifier;Naval Yard production gain;;;;;;;;;;;;;x
+pol_factory_naval_yards_modifier_desc;We focus on naval production.;;;;;;;;;;;;;x
+factory_aviation_industry_modifier;Aviation industry gain;;;;;;;;;;;;;x
+pol_aviation_industry_production_modifier_desc;We focus on developing our aviation industry.;;;;;;;;;;;;;x
+factory_centrifuges_modifier;Centrifuges production gain;;;;;;;;;;;;;x
+pol_centrifuges_production_modifier_desc;We focus on the prodcution of nuclear material.;;;;;;;;;;;;;x
+factory_military_satellites_modifier;Satelites prodcution gain;;;;;;;;;;;;;x
+pol_aviation_military_satellites_modifier_desc;We focus on streamlining satelite production.;;;;;;;;;;;;;x
+province_iron_modifier;Iron production gain;;;;;;;;;;;;;x
+pol_province_iron_modifier_desc;We get an iron production bonus.;;;;;;;;;;;;;x
+province_coal_modifier;Coal production gain;;;;;;;;;;;;;x
+pol_province_coal_modifier_desc;We get a coal production bonus.;;;;;;;;;;;;;x
+nuclear_plant_efficiency;Nuclear powerplant efficiency gain;;;;;;;;;;;;;x
+pol_nuclear_plant_efficiency_desc;We get a Nuclear powerplant efficiency bonus.;;;;;;;;;;;;;x
+powerplant_efficiency;Conventional powerplant efficiency gain;;;;;;;;;;;;;x
+pol_powerplant_efficiency_desc;We get an conventional powerplant efficiency bonus.;;;;;;;;;;;;;x
+light_industry_efficiency;Light Industry efficiency gain;;;;;;;;;;;;;x
+light_industry_efficiency_desc;We get an light industry efficiency bonus.;;;;;;;;;;;;;x
+consumption_income_modifier;Consumption taxation gain;;;;;;;;;;;;;x
+pol_consumption_income_modifier_desc;We get a tax bonus.;;;;;;;;;;;;;x
+production_income_modifier;Production taxation gain;;;;;;;;;;;;;x
+pol_production_income_modifier_desc;We get a tax bonus.;;;;;;;;;;;;;x
+services_income_modifier;Service taxation gain;;;;;;;;;;;;;x
+pol_services_income_modifier_desc;We get a tax bonus.;;;;;;;;;;;;;x
+tech_investment_money;Technology budget gain;;;;;;;;;;;;;x
+social_investment_money;Social budget gain;;;;;;;;;;;;;x
+production_investment_money;Production budget gain;;;;;;;;;;;;;x
+repair_investment_money;Repair budget gain;;;;;;;;;;;;;x
+upgrade_investment_money;Upgrade budget gain;;;;;;;;;;;;;x
+sat_surv_chance_modifier;Bonus to satellite reveal of a region.;;;;;;;;;;;;;x
+sat_reveal_chance_modifier;Bonus to satellite reveal of the world.;;;;;;;;;;;;;x
+high_tech_initial_cost;High Tech building cost;;;;;;;;;;;;;x
+light_industry_initial_cost;Light Industry building cost;;;;;;;;;;;;;x
+heavy_industry_initial_cost;Heavy Industry building cost;;;;;;;;;;;;;x
+agriculture_research_center_initial_cost;Agriculture Research Center building cost;;;;;;;;;;;;;x
+aviation_industry_initial_cost;Aviation Industry building cost;;;;;;;;;;;;;x;;
+naval_yards_initial_cost;Naval yards building cost;;;;;;;;;;;;;x;;
+university_initial_cost;University building cost;;;;;;;;;;;;;x
+population_manpower;Manpower gain;;;;;;;;;;;;;x
+nuclear_test_site_initial_cost;Nuclear Test Site cost;;;;;;;;;;;;;x
+nuclear_silo_initial_cost;Nuclear Silo building cost;;;;;;;;;;;;;x
+centrifuges_initial_cost;Centrifuges building cost;;;;;;;;;;;;;x
+nuclear_plant_initial_cost;Nuclear Plant building cost;;;;;;;;;;;;;x
+assassinate_hog_chance_modifier;Bonus to assassinate HOG;;;;;;;;;;;;;x
+assassinate_hos_chance_modifier;Bonus to assassinate HOS;;;;;;;;;;;;;x
+sabotage_building_chance_modifier;Bonus to small scale Sabotage;;;;;;;;;;;;;x
+sabotage_buildings_chance_modifier;Bonus to large scale Sabotage;;;;;;;;;;;;;x
+incite_revolt_chance_modifier;Bonus to incite revolts;;;;;;;;;;;;;x
+intel_information_chance_modifier;Bonus to get information about foreign spies;;;;;;;;;;;;;x
+show_nuclear_chance_modifier;Bonus to find enemy nuclear constructions;;;;;;;;;;;;;x
+reveal_fog_chance_modifier;Bonus to Reveal Fog of War;;;;;;;;;;;;;x
+expose_spy_chance_modifier;Bonus to expose a foreign spy;;;;;;;;;;;;;x
+kill_spy_chance_modifier;Bonus to kill a foreign spy;;;;;;;;;;;;;x
+make_desert_chance_modifier;Infiltrate Enemy Forces bonus;;;;;;;;;;;;;x
+torpedo_defense;Torpedo defence bonus;;;;;;;;;;;;;x

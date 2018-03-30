@@ -1,0 +1,1916 @@
+1440000 = {
+	name = "Abdul Masih Al Assad"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.11.1 = { rank = 0 }
+	}
+}
+1440005 = {
+	name = "Jahid Hussain"
+	type = land
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1440002 = {
+	name = "Ali Reza Al Agha"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1440004 = {
+	name = "Farid Al Assad"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1440020 = {
+	name = "Shawkat Khoury"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.7.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1440019 = {
+	name = "Tawfik Khoury"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1949.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1440010 = {
+	name = "Naseer Najjar"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.3.1 = { rank = 0 }
+	}
+}
+1440023 = {
+	name = "Rahmi Najjar"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.11.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1440014 = {
+	name = "Yunus Khoury"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.12.1 = { rank = 0 }
+	}
+}
+1440009 = {
+	name = "Khalid Hussain"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1440024 = {
+	name = "Abdul Rasul Al Utari"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.3.1 = { rank = 1 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1440022 = {
+	name = "Hadem Kuzbari"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1440011 = {
+	name = "Abdul Rasul Al Utari"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.11.1 = { rank = 0 }
+	}
+}
+1440021 = {
+	name = "Abu Omar Shaaban"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.3.1 = { rank = 1 }
+		1957.12.1 = { rank = 0 }
+	}
+}
+1440025 = {
+	name = "Azizullah Najjar"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.5.1 = { rank = 1 }
+		1958.3.1 = { rank = 0 }
+	}
+}
+1440012 = {
+	name = "Ahsan Al Mahainy"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1440028 = {
+	name = "Atiq Al Mahainy"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1956.12.1 = { rank = 1 }
+		1960.10.1 = { rank = 0 }
+	}
+}
+1440003 = {
+	name = "Ziad Kuzbari"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.12.1 = { rank = 2 }
+		1961.11.1 = { rank = 0 }
+	}
+}
+1440001 = {
+	name = "Abd al-Uzza Nahas"
+	type = land
+	country = SYR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.6.1 = { rank = 0 }
+	}
+}
+1440016 = {
+	name = "Abbas Nahas"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1440030 = {
+	name = "Faizan Semaan"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.11.1 = { rank = 1 }
+		1959.1.1 = { rank = 2 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1440029 = {
+	name = "Amr "
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1956.8.1 = { rank = 1 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1440037 = {
+	name = "Asem Al Utari"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.7.1 = { rank = 1 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1440035 = {
+	name = "Ilyas Kuzbari"
+	type = land
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1961.11.1 = { rank = 1 }
+		1966.1.1 = { rank = 0 }
+	}
+}
+1440033 = {
+	name = "Junayd "
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.1.1 = { rank = 1 }
+		1966.12.1 = { rank = 0 }
+	}
+}
+1440042 = {
+	name = "Uday Al Assad"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1966.12.1 = { rank = 1 }
+		1967.7.1 = { rank = 0 }
+	}
+}
+1440008 = {
+	name = "Najm Kuzbari"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.1.1 = { rank = 0 }
+	}
+}
+1440036 = {
+	name = "Fahri Khoury"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.6.1 = { rank = 1 }
+		1963.7.1 = { rank = 2 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1440043 = {
+	name = "Hayatullah Al Assad"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.7.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1440040 = {
+	name = "Jasem Homsi"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.10.1 = { rank = 1 }
+		1970.1.1 = { rank = 0 }
+	}
+}
+1440041 = {
+	name = "Jamal ad-Din Al Agha"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1966.1.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1440031 = {
+	name = "Abdur Rahman "
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.12.1 = { rank = 1 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1440007 = {
+	name = "Hayatullah Hussain"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1440045 = {
+	name = "Yazid Homsi"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1968.9.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1440034 = {
+	name = "Wahid Semaan"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1960.10.1 = { rank = 1 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1440047 = {
+	name = "Azem Attasi"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1970.1.1 = { rank = 1 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1440039 = {
+	name = "Asem Semaan"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1964.2.1 = { rank = 1 }
+		1975.7.1 = { rank = 0 }
+	}
+}
+1440051 = {
+	name = "Junayd Homsi"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.2.1 = { rank = 1 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1440048 = {
+	name = "Abd Manaf Al Agha"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1971.5.1 = { rank = 1 }
+		1976.10.1 = { rank = 0 }
+	}
+}
+1440044 = {
+	name = "Ismat Al Agha"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.1.1 = { rank = 1 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1440017 = {
+	name = "Salim Homsi"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1440050 = {
+	name = "Taqi al-Din Nahas"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.4.1 = { rank = 1 }
+		1977.11.1 = { rank = 0 }
+	}
+}
+1440046 = {
+	name = "Al-Farooq Al Mahainy"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1969.5.1 = { rank = 1 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1440026 = {
+	name = "Nasir al-Din Hussain"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.12.1 = { rank = 1 }
+		1968.9.1 = { rank = 2 }
+		1978.11.1 = { rank = 0 }
+	}
+}
+1440057 = {
+	name = "Naji Khoury"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.2.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1440052 = {
+	name = "Zahir al-Din Al Agha"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1974.2.1 = { rank = 1 }
+		1980.2.1 = { rank = 0 }
+	}
+}
+1440060 = {
+	name = "Adeel Hussain"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.3.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1440062 = {
+	name = "Abdul Bari Al Assad"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1979.7.1 = { rank = 1 }
+		1982.5.1 = { rank = 0 }
+	}
+}
+1440013 = {
+	name = "Wadud Najjar"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1982.9.1 = { rank = 0 }
+	}
+}
+1440015 = {
+	name = "Mohannad Al Agha"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1963.7.1 = { rank = 3 }
+		1977.12.1 = { rank = 4 }
+		1983.12.1 = { rank = 0 }
+	}
+}
+1440064 = {
+	name = "Shahid Nahas"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1982.9.1 = { rank = 2 }
+		1984.11.1 = { rank = 0 }
+	}
+}
+1440066 = {
+	name = "Nasser Kuzbari"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.9.1 = { rank = 1 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1440069 = {
+	name = "Ismail Kuzbari"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.7.1 = { rank = 1 }
+		1986.3.1 = { rank = 0 }
+	}
+}
+1440058 = {
+	name = "Muhammad Addem"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.12.1 = { rank = 1 }
+		1984.11.1 = { rank = 2 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1440027 = {
+	name = "Hashem Nahas"
+	type = land
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.9.1 = { rank = 1 }
+		1963.10.1 = { rank = 2 }
+		1977.12.1 = { rank = 3 }
+		1983.12.1 = { rank = 4 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1440068 = {
+	name = "Sami Hussain"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.11.1 = { rank = 1 }
+		1988.4.1 = { rank = 0 }
+	}
+}
+1440053 = {
+	name = "Nasir al-Din Semaan"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.10.1 = { rank = 1 }
+		1988.9.1 = { rank = 0 }
+	}
+}
+1440067 = {
+	name = "Nasuh Khoury"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.12.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1440038 = {
+	name = "Sadik Al Assad"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.10.1 = { rank = 1 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1440076 = {
+	name = "Serhan Hussain"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1989.12.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1440006 = {
+	name = "Nuri Homsi"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1977.12.1 = { rank = 2 }
+		1983.12.1 = { rank = 3 }
+		1988.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440018 = {
+	name = "Sadik Najjar"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1948.11.1 = { rank = 1 }
+		1961.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440032 = {
+	name = "Naseeb Al Assad"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.3.1 = { rank = 1 }
+		1983.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440049 = {
+	name = "Osman Nahas"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440054 = {
+	name = "Abd Rabbo Al Assad"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440055 = {
+	name = "Sanaullah Al Agha"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440056 = {
+	name = "Nuh Khoury"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1976.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440059 = {
+	name = "Wasim Khoury"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1977.11.1 = { rank = 1 }
+		1978.11.1 = { rank = 2 }
+		1988.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440061 = {
+	name = "Nu'man Al Assad"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.11.1 = { rank = 1 }
+		1987.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440063 = {
+	name = "Abdur Razzaq Homsi"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440065 = {
+	name = "Baha Al Assad"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440070 = {
+	name = "Zainal Abidin Addem"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440071 = {
+	name = "Ehsanullah Al Assad"
+	type = land
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.7.1 = { rank = 1 }
+		1988.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440072 = {
+	name = "Abid Ali Najjar"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1988.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440073 = {
+	name = "Sultan Al Utari"
+	type = land
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440074 = {
+	name = "Zahir al-Din Al Assad"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1988.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440075 = {
+	name = "Junayd Semaan"
+	type = land
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440077 = {
+	name = "Moncef Homsi"
+	type = land
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440079 = {
+	name = "Adeem Attasi"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.9.1 = { rank = 0 }
+	}
+}
+1440080 = {
+	name = "Najibullah Najjar"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.2.1 = { rank = 0 }
+	}
+}
+1440082 = {
+	name = "Mukhtar Attasi"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1440085 = {
+	name = "Hikmat Kuzbari"
+	type = sea
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1952.1.1 = { rank = 0 }
+	}
+}
+1440086 = {
+	name = "Asem Addem"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.9.1 = { rank = 1 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1440084 = {
+	name = "Rasul Nahas"
+	type = sea
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1952.1.1 = { rank = 4 }
+		1955.1.1 = { rank = 0 }
+	}
+}
+1440089 = {
+	name = "Haydar Al Utari"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.1.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1440078 = {
+	name = "Raed Nahas"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.1.1 = { rank = 2 }
+		1958.12.1 = { rank = 0 }
+	}
+}
+1440081 = {
+	name = "Mustafa "
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.7.1 = { rank = 0 }
+	}
+}
+1440091 = {
+	name = "Nahyan Semaan"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.1.1 = { rank = 1 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1440093 = {
+	name = "Abdul Khaliq Al Assad"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.12.1 = { rank = 1 }
+		1960.10.1 = { rank = 0 }
+	}
+}
+1440088 = {
+	name = "Salim "
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.1.1 = { rank = 1 }
+		1960.7.1 = { rank = 0 }
+	}
+}
+1440094 = {
+	name = "Najm al-Din Najjar"
+	type = sea
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1959.7.1 = { rank = 1 }
+		1967.6.1 = { rank = 0 }
+	}
+}
+1440090 = {
+	name = "Nasim Al Mahainy"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1953.11.1 = { rank = 1 }
+		1973.7.1 = { rank = 0 }
+	}
+}
+1440096 = {
+	name = "Abdul Ghaffar Al Agha"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.10.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1440087 = {
+	name = "Ayad Al Agha"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.2.1 = { rank = 1 }
+		1952.1.1 = { rank = 2 }
+		1955.1.1 = { rank = 3 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1440095 = {
+	name = "Abdul Ghaffar Shaaban"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1959.12.1 = { rank = 1 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1440097 = {
+	name = "Hazem Shaaban"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.7.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1440083 = {
+	name = "Arif Kuzbari"
+	type = sea
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.1.1 = { rank = 3 }
+		1955.1.1 = { rank = 4 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1440102 = {
+	name = "Sidqi Al Mahainy"
+	type = sea
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.3.1 = { rank = 1 }
+		1976.2.1 = { rank = 2 }
+		1977.8.1 = { rank = 0 }
+	}
+}
+1440099 = {
+	name = "Ja'far Homsi"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.7.1 = { rank = 1 }
+		1977.8.1 = { rank = 2 }
+		1980.4.1 = { rank = 0 }
+	}
+}
+1440105 = {
+	name = "Midhat Hussain"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.8.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1440092 = {
+	name = "Abo Homsi"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1957.9.1 = { rank = 1 }
+		1958.12.1 = { rank = 2 }
+		1973.6.1 = { rank = 3 }
+		1976.2.1 = { rank = 4 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1440103 = {
+	name = "Chadli Nahas"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1975.6.1 = { rank = 1 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1440098 = {
+	name = "Gamil Najjar"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.6.1 = { rank = 1 }
+		1973.6.1 = { rank = 2 }
+		1976.2.1 = { rank = 3 }
+		1980.7.1 = { rank = 4 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1440100 = {
+	name = "Hafizullah Hussain"
+	type = sea
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1973.2.1 = { rank = 1 }
+		1980.4.1 = { rank = 2 }
+		1980.7.1 = { rank = 3 }
+		1982.4.1 = { rank = 4 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1440107 = {
+	name = "Tawfik Al Agha"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.11.1 = { rank = 1 }
+		1980.11.1 = { rank = 2 }
+		1982.4.1 = { rank = 3 }
+		1984.8.1 = { rank = 4 }
+		1988.3.1 = { rank = 0 }
+	}
+}
+1440108 = {
+	name = "Ramzan Hussain"
+	type = sea
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.7.1 = { rank = 1 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1440101 = {
+	name = "Hilmi Semaan"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1973.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440104 = {
+	name = "Abdolreza Shaaban"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.2.1 = { rank = 1 }
+		1982.4.1 = { rank = 2 }
+		1984.8.1 = { rank = 3 }
+		1988.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440106 = {
+	name = "Inayatullah Hussain"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440109 = {
+	name = "Nazimuddin Homsi"
+	type = sea
+	country = SYR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1982.4.1 = { rank = 1 }
+		1984.8.1 = { rank = 2 }
+		1988.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440110 = {
+	name = "Rashid Al Mahainy"
+	type = sea
+	country = SYR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1988.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440111 = {
+	name = "Hilal Al Utari"
+	type = sea
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440112 = {
+	name = "Tawfik Nahas"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440113 = {
+	name = "Wissem Al Mahainy"
+	type = sea
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440119 = {
+	name = "Imtiaz Semaan"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1440118 = {
+	name = "Abdel Nour Najjar"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1440115 = {
+	name = "Sa'd al-Din Al Assad"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1440120 = {
+	name = "Karem Semaan"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.2.1 = { rank = 0 }
+	}
+}
+1440123 = {
+	name = "Abdul Ghaffar Al Utari"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1953.7.1 = { rank = 0 }
+	}
+}
+1440121 = {
+	name = "Furkan Khoury"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1440128 = {
+	name = "Abdul Karim Al Agha"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.4.1 = { rank = 1 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1440117 = {
+	name = "Muzaffar Al Assad"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.2.1 = { rank = 2 }
+		1954.4.1 = { rank = 3 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1440126 = {
+	name = "Ridwan "
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.2.1 = { rank = 1 }
+		1959.3.1 = { rank = 0 }
+	}
+}
+1440129 = {
+	name = "Hasib Kuzbari"
+	type = air
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.11.1 = { rank = 1 }
+		1959.4.1 = { rank = 2 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1440124 = {
+	name = "Hayatullah Al Utari"
+	type = air
+	country = SYR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1949.12.1 = { rank = 1 }
+		1954.4.1 = { rank = 2 }
+		1964.5.1 = { rank = 0 }
+	}
+}
+1440116 = {
+	name = "Adem Shaaban"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 2 }
+		1959.4.1 = { rank = 3 }
+		1965.9.1 = { rank = 0 }
+	}
+}
+1440133 = {
+	name = "Asghar Homsi"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.5.1 = { rank = 1 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1440135 = {
+	name = "Bakr Attasi"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.12.1 = { rank = 1 }
+		1972.12.1 = { rank = 0 }
+	}
+}
+1440134 = {
+	name = "Rizqallah Al Mahainy"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = tank_buster
+	history = {
+		1965.9.1 = { rank = 1 }
+		1973.8.1 = { rank = 0 }
+	}
+}
+1440125 = {
+	name = "Samiullah Al Assad"
+	type = air
+	country = SYR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1440130 = {
+	name = "Safiullah Khoury"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1959.4.1 = { rank = 1 }
+		1963.2.1 = { rank = 2 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1440131 = {
+	name = "Hayatullah Khoury"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.3.1 = { rank = 1 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1440139 = {
+	name = "Rayan Homsi"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1975.8.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1440138 = {
+	name = "Shihab al-Din Al Mahainy"
+	type = air
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.12.1 = { rank = 1 }
+		1975.8.1 = { rank = 2 }
+		1978.4.1 = { rank = 0 }
+	}
+}
+1440137 = {
+	name = "Fouzan Nahas"
+	type = air
+	country = SYR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1973.8.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1440132 = {
+	name = "Faheem Al Mahainy"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.2.1 = { rank = 1 }
+		1965.9.1 = { rank = 2 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1440143 = {
+	name = "Aden Nahas"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1979.11.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1440136 = {
+	name = "Naji Najjar"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.12.1 = { rank = 1 }
+		1978.4.1 = { rank = 2 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1440140 = {
+	name = "Abdur Razzaq Kuzbari"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.12.1 = { rank = 1 }
+		1984.10.1 = { rank = 0 }
+	}
+}
+1440114 = {
+	name = "Faheem Homsi"
+	type = air
+	country = SYR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1983.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440122 = {
+	name = "Suleiman Najjar"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440127 = {
+	name = "Brahim Attasi"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.7.1 = { rank = 1 }
+		1964.5.1 = { rank = 2 }
+		1965.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440141 = {
+	name = "Bakir "
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.8.1 = { rank = 1 }
+		1980.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440142 = {
+	name = "Akif Al Assad"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1978.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440144 = {
+	name = "Kafeel Najjar"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	add_trait = night_flyer
+	history = {
+		1980.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440145 = {
+	name = "Asadullah Shaaban"
+	type = air
+	country = SYR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440146 = {
+	name = "Yusuf Ali "
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1440147 = {
+	name = "Rahmatullah Khoury"
+	type = air
+	country = SYR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

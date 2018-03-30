@@ -1,0 +1,1529 @@
+1507001 = {
+	name = "Ammar Hamade"
+	type = land
+	country = LEB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1507003 = {
+	name = "Tariq Shahadi"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.2.1 = { rank = 0 }
+	}
+}
+1507009 = {
+	name = "Shaaban Abdoo"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1949.2.1 = { rank = 1 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1507006 = {
+	name = "Kazem Maalouf"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1507004 = {
+	name = "Rashid Kahla"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1507002 = {
+	name = "Ikrimah Melik"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1507007 = {
+	name = "Hakim Abaid"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1507013 = {
+	name = "Abdul Wahhab Khoury"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.5.1 = { rank = 1 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1507011 = {
+	name = "Aladdin Zaher"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.4.1 = { rank = 1 }
+		1956.11.1 = { rank = 0 }
+	}
+}
+1507012 = {
+	name = "Mumtaz Melik"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.9.1 = { rank = 1 }
+		1957.3.1 = { rank = 0 }
+	}
+}
+1507005 = {
+	name = "Alaa Saba"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.4.1 = { rank = 3 }
+		1954.4.1 = { rank = 4 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1507014 = {
+	name = "Amir Touma"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1954.4.1 = { rank = 1 }
+		1958.11.1 = { rank = 2 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1507000 = {
+	name = "Furkan Rizk"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1507017 = {
+	name = "Muammer Wahim"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.3.1 = { rank = 1 }
+		1959.6.1 = { rank = 2 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1507016 = {
+	name = "Moncef Wahim"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.11.1 = { rank = 1 }
+		1961.4.1 = { rank = 2 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1507019 = {
+	name = "Nazimuddin Yassin"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1962.1.1 = { rank = 2 }
+		1963.8.1 = { rank = 0 }
+	}
+}
+1507021 = {
+	name = "Abd al-Uzza Saleeba"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.4.1 = { rank = 1 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1507008 = {
+	name = "Fathallah Khoury"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1951.4.1 = { rank = 2 }
+		1954.4.1 = { rank = 3 }
+		1958.11.1 = { rank = 4 }
+		1965.5.1 = { rank = 0 }
+	}
+}
+1507022 = {
+	name = "Ayman Hamade"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1962.1.1 = { rank = 1 }
+		1965.5.1 = { rank = 2 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1507026 = {
+	name = "Redouane "
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1966.10.1 = { rank = 1 }
+		1967.11.1 = { rank = 0 }
+	}
+}
+1507024 = {
+	name = "Samiullah Tarabah"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.3.1 = { rank = 1 }
+		1966.10.1 = { rank = 2 }
+		1968.3.1 = { rank = 0 }
+	}
+}
+1507018 = {
+	name = "Wajdi Kahla"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1969.9.1 = { rank = 0 }
+	}
+}
+1507028 = {
+	name = "Zaki Bettar"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.3.1 = { rank = 1 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1507010 = {
+	name = "Ismatullah Mourtada"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1950.6.1 = { rank = 1 }
+		1954.4.1 = { rank = 2 }
+		1958.11.1 = { rank = 3 }
+		1965.5.1 = { rank = 4 }
+		1971.11.1 = { rank = 0 }
+	}
+}
+1507015 = {
+	name = "Hazem Bishara"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.9.1 = { rank = 1 }
+		1963.8.1 = { rank = 2 }
+		1965.5.1 = { rank = 3 }
+		1971.11.1 = { rank = 4 }
+		1972.4.1 = { rank = 0 }
+	}
+}
+1507027 = {
+	name = "Ayub Zaher"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.11.1 = { rank = 1 }
+		1971.11.1 = { rank = 2 }
+		1972.4.1 = { rank = 3 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1507030 = {
+	name = "Hamidullah Abaid"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.10.1 = { rank = 1 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1507029 = {
+	name = "Karem Wahim"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1969.9.1 = { rank = 1 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1507031 = {
+	name = "Sayyid Rizk"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.11.1 = { rank = 1 }
+		1973.12.1 = { rank = 2 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1507034 = {
+	name = "Taqi Azzi"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1976.12.1 = { rank = 2 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1507035 = {
+	name = "Abdel Nour "
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1975.8.1 = { rank = 1 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1507038 = {
+	name = "Quddus Nassar"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.9.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1507023 = {
+	name = "Abdul Hamid Tarabah"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1963.8.1 = { rank = 1 }
+		1968.3.1 = { rank = 2 }
+		1971.11.1 = { rank = 3 }
+		1972.4.1 = { rank = 4 }
+		1980.5.1 = { rank = 0 }
+	}
+}
+1507037 = {
+	name = "Marwan "
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1977.6.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1507025 = {
+	name = "Shihab al-Din Abdoo"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.5.1 = { rank = 1 }
+		1972.4.1 = { rank = 2 }
+		1973.12.1 = { rank = 3 }
+		1980.5.1 = { rank = 4 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1507033 = {
+	name = "Atiq Hariri"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	history = {
+		1973.12.1 = { rank = 1 }
+		1977.6.1 = { rank = 2 }
+		1980.5.1 = { rank = 3 }
+		1982.12.1 = { rank = 4 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1507039 = {
+	name = "Nuh Yazbeck"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.7.1 = { rank = 1 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1507020 = {
+	name = "Alim Shalhoub"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1985.10.1 = { rank = 0 }
+	}
+}
+1507042 = {
+	name = "Shafiqullah Hamieh"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1982.12.1 = { rank = 1 }
+		1986.7.1 = { rank = 0 }
+	}
+}
+1507041 = {
+	name = "Rashid al-Din Ajram"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1982.12.1 = { rank = 2 }
+		1983.2.1 = { rank = 3 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1507040 = {
+	name = "Hadid Hamieh"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.5.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1507044 = {
+	name = "Awad Bettar"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1984.8.1 = { rank = 1 }
+		1989.10.1 = { rank = 0 }
+	}
+}
+1507049 = {
+	name = "Atiq Ajram"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1989.10.1 = { rank = 1 }
+		1990.3.1 = { rank = 0 }
+	}
+}
+1507032 = {
+	name = "Zahir Abuzaid"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.4.1 = { rank = 1 }
+		1980.5.1 = { rank = 2 }
+		1982.12.1 = { rank = 3 }
+		1983.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507036 = {
+	name = "Abu Omar Hyat"
+	type = land
+	country = LEB
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1976.12.1 = { rank = 1 }
+		1983.2.1 = { rank = 2 }
+		1987.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507043 = {
+	name = "Kamil Hussein"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507045 = {
+	name = "Abdur Rahman Hajjar"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.10.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507046 = {
+	name = "Moinuddin Abboud"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507047 = {
+	name = "Nasser Hussein"
+	type = land
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1987.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507048 = {
+	name = "Qasim Assaf"
+	type = land
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1988.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507050 = {
+	name = "Sattar Berry"
+	type = land
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507054 = {
+	name = "Mubarak Hamade"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1507055 = {
+	name = "Abidin Tarabah"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.5.1 = { rank = 0 }
+	}
+}
+1507059 = {
+	name = "Nabil Daher"
+	type = sea
+	country = LEB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1949.12.1 = { rank = 1 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1507051 = {
+	name = "Zafer Saleeba"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.5.1 = { rank = 0 }
+	}
+}
+1507057 = {
+	name = "Abdul Sattar Abdul"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1507063 = {
+	name = "Ali Akbar Yassin"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1955.9.1 = { rank = 1 }
+		1956.1.1 = { rank = 0 }
+	}
+}
+1507056 = {
+	name = "Habibullah Rizk"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.9.1 = { rank = 3 }
+		1964.12.1 = { rank = 0 }
+	}
+}
+1507065 = {
+	name = "Uday Daher"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.12.1 = { rank = 1 }
+		1965.3.1 = { rank = 0 }
+	}
+}
+1507058 = {
+	name = "Rizqallah Yazbeck"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1965.11.1 = { rank = 0 }
+	}
+}
+1507062 = {
+	name = "Fathallah Abaid"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.5.1 = { rank = 1 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1507066 = {
+	name = "Saad Saba"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1965.3.1 = { rank = 1 }
+		1965.11.1 = { rank = 2 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1507060 = {
+	name = "Abdul Hai Abuzaid"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.5.1 = { rank = 1 }
+		1955.9.1 = { rank = 2 }
+		1964.12.1 = { rank = 3 }
+		1965.11.1 = { rank = 4 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1507068 = {
+	name = "Ahmad "
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1975.6.1 = { rank = 3 }
+		1976.6.1 = { rank = 0 }
+	}
+}
+1507069 = {
+	name = "Shafiq ur Rahman Ayoub"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1974.8.1 = { rank = 1 }
+		1976.10.1 = { rank = 0 }
+	}
+}
+1507064 = {
+	name = "Fazlallah Subban"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.1.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1507067 = {
+	name = "Mamdouh Nader"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.11.1 = { rank = 1 }
+		1976.6.1 = { rank = 2 }
+		1980.6.1 = { rank = 0 }
+	}
+}
+1507070 = {
+	name = "Yakub "
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1975.6.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1507071 = {
+	name = "Abu Saba"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.6.1 = { rank = 1 }
+		1982.9.1 = { rank = 0 }
+	}
+}
+1507072 = {
+	name = "Asghar Maalouf"
+	type = sea
+	country = LEB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.10.1 = { rank = 1 }
+		1980.6.1 = { rank = 2 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1507076 = {
+	name = "Ishak Berry"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.9.1 = { rank = 1 }
+		1986.3.1 = { rank = 0 }
+	}
+}
+1507061 = {
+	name = "Haitham Assaf"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.8.1 = { rank = 1 }
+		1964.12.1 = { rank = 2 }
+		1965.11.1 = { rank = 3 }
+		1975.6.1 = { rank = 4 }
+		1987.1.1 = { rank = 0 }
+	}
+}
+1507074 = {
+	name = "Moatassem Hussein"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.6.1 = { rank = 1 }
+		1988.5.1 = { rank = 0 }
+	}
+}
+1507077 = {
+	name = "Baki Abaid"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.11.1 = { rank = 1 }
+		1988.11.1 = { rank = 0 }
+	}
+}
+1507078 = {
+	name = "Hashim Abboud"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.3.1 = { rank = 1 }
+		1989.3.1 = { rank = 0 }
+	}
+}
+1507052 = {
+	name = "Ehsanullah Wahim"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1975.6.1 = { rank = 2 }
+		1976.6.1 = { rank = 3 }
+		1987.1.1 = { rank = 4 }
+		1989.9.1 = { rank = 0 }
+	}
+}
+1507053 = {
+	name = "Wahid Najjar"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1986.11.1 = { rank = 2 }
+		1987.1.1 = { rank = 3 }
+		1989.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507073 = {
+	name = "Anjem Subban"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1987.1.1 = { rank = 2 }
+		1989.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507075 = {
+	name = "Abdel Fattah Hamieh"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507079 = {
+	name = "Hajji Mousawi"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507080 = {
+	name = "Irfan Abuzaid"
+	type = sea
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507081 = {
+	name = "Hikmat Rizk"
+	type = sea
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.11.1 = { rank = 1 }
+		1989.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507082 = {
+	name = "Malik Raidi"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1989.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507083 = {
+	name = "Shahid Assaf"
+	type = sea
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507090 = {
+	name = "Nazmi Bettar"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.6.1 = { rank = 0 }
+	}
+}
+1507087 = {
+	name = "Sa'd al-Din Zaher"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.12.1 = { rank = 0 }
+	}
+}
+1507094 = {
+	name = "Samad "
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.12.1 = { rank = 1 }
+		1953.6.1 = { rank = 0 }
+	}
+}
+1507085 = {
+	name = "Nimatullah Nader"
+	type = air
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.6.1 = { rank = 2 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1507089 = {
+	name = "Abdul Khaliq Hamieh"
+	type = air
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1507086 = {
+	name = "Rifat Khalil"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1507095 = {
+	name = "Riaz Shalhoub"
+	type = air
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.6.1 = { rank = 1 }
+		1954.9.1 = { rank = 2 }
+		1959.2.1 = { rank = 0 }
+	}
+}
+1507092 = {
+	name = "Tarak Zaher"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1960.9.1 = { rank = 0 }
+	}
+}
+1507098 = {
+	name = "Salah Berry"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1507096 = {
+	name = "Rajaei Melik"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.9.1 = { rank = 1 }
+		1959.2.1 = { rank = 2 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1507099 = {
+	name = "Ikhtiyar al-Din Batlouni"
+	type = air
+	country = LEB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1959.2.1 = { rank = 1 }
+		1960.9.1 = { rank = 2 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1507100 = {
+	name = "Mu'iz ad-Din Hussein"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.9.1 = { rank = 1 }
+		1963.10.1 = { rank = 2 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1507101 = {
+	name = "Abdur Razzaq Yazbeck"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.11.1 = { rank = 1 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1507088 = {
+	name = "Najm al-Din Yazbeck"
+	type = air
+	country = LEB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.3.1 = { rank = 2 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1507093 = {
+	name = "Abdel Fattah Hajjar"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.6.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1507106 = {
+	name = "Abdolreza Khalil"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.2.1 = { rank = 1 }
+		1976.4.1 = { rank = 0 }
+	}
+}
+1507097 = {
+	name = "Yahya Hassan"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1956.8.1 = { rank = 1 }
+		1964.9.1 = { rank = 2 }
+		1977.7.1 = { rank = 0 }
+	}
+}
+1507104 = {
+	name = "Ahmed Tijani Hannah"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.3.1 = { rank = 1 }
+		1978.11.1 = { rank = 0 }
+	}
+}
+1507105 = {
+	name = "Abdul Hussein Ayoub"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.6.1 = { rank = 1 }
+		1974.6.1 = { rank = 2 }
+		1979.8.1 = { rank = 0 }
+	}
+}
+1507107 = {
+	name = "Riaz Assaf"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1975.6.1 = { rank = 1 }
+		1977.7.1 = { rank = 2 }
+		1981.4.1 = { rank = 0 }
+	}
+}
+1507084 = {
+	name = "Baki Abuzaid"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.8.1 = { rank = 2 }
+		1960.9.1 = { rank = 3 }
+		1982.8.1 = { rank = 0 }
+	}
+}
+1507111 = {
+	name = "Faizan Yassin"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1979.8.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1507103 = {
+	name = "Talat Nassar"
+	type = air
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1981.4.1 = { rank = 2 }
+		1982.8.1 = { rank = 3 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1507091 = {
+	name = "Adan Touma"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1960.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507102 = {
+	name = "Fathi Abdul"
+	type = air
+	country = LEB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1963.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507108 = {
+	name = "Abu Talib Maalouf"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.4.1 = { rank = 1 }
+		1979.8.1 = { rank = 2 }
+		1989.5.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507109 = {
+	name = "Abdur Raqib Hamieh"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507110 = {
+	name = "Wasim Maalouf"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.11.1 = { rank = 1 }
+		1989.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507112 = {
+	name = "Nasrallah Subban"
+	type = air
+	country = LEB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1981.4.1 = { rank = 1 }
+		1982.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507113 = {
+	name = "Abdul Bari Hannah"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507114 = {
+	name = "Rahman Kahla"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1983.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1507115 = {
+	name = "Iskandar Khalil"
+	type = air
+	country = LEB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

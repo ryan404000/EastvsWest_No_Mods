@@ -1,0 +1,200 @@
+guiTypes = {
+	windowType = {
+		name = "modifier_window"
+		backGround=""
+		position = { x=-380 y=-320 }	
+		size = { x=1000 y=1000 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		iconType =
+		{
+			name ="modifier_bg"
+			spriteType = "GFX_modifier_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "modifier_label"
+			position = { x = 10 y =15 }
+			font = "Jockey_18_cyan"
+			borderSize = {x = 0 y = 0}
+			text = "MODIFIERS_ACHIEVMENTS"	
+			maxWidth = 500
+			maxHeight = 32
+			format = centre			
+		}
+		
+		listboxType = 	{
+			name ="modifier_list"
+			position = { x = 16 y = 70 }
+			backGround=""
+			size = { x=486  y =500 }
+			Orientation = "UPPER_LEFT"
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_prod"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		guiButtonType = {
+			name ="close_button"
+			quadTextureSprite ="GFX_spy_btn_red"
+			position = { x= 180 y = 577 }
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_red"
+			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType = {
+			name = "close_label"
+			position = { x = 6 y =587 }
+			font = "Jockey_16_glow_red"
+			borderSize = {x = 0 y = 0}
+			text = "CLOSE"
+			maxWidth = 500
+			maxHeight = 32
+			format = centre			
+		}
+
+		guiButtonType = {
+			name ="close_button2"
+			quadTextureSprite ="GFX_close_btn_small"
+			position = { x= 504 y = 12 }
+			buttonFont = "Jockey_14_glow_red"
+			shortcut = "ESCAPE"
+		}
+		
+		guiButtonType = {
+			name ="sort_btn_name"
+			quadTextureSprite ="GFX_modifier_sort_btn_name_completed"
+			position = { x= 12 y = 38 }
+			buttonFont = "Arial_11_bold_black"
+			buttonText = "NAME"
+		}
+		guiButtonType = {
+			name ="sort_btn_goals_left"
+			quadTextureSprite ="GFX_modifier_sort_btn_name_completed"
+			position = { x= 178 y = 38 }
+			buttonFont = "Arial_11_bold_black"
+			buttonText = "MODIFIER_WINDOW_GOALS_LEFT"
+		}
+		guiButtonType = {
+			name ="sort_btn_percent_completed"
+			quadTextureSprite ="GFX_modifier_sort_btn_close_completing"
+			position = { x= 344 y = 38 }
+			buttonFont = "Arial_11_bold_black"
+			buttonText = "MODIFIER_WINDOW_PERCENT_COMPLETED"
+		}
+		
+	}
+	
+	###### MODIFIER ENTRY
+	windowType = {
+		name = "modifier_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=500 y= 99 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType =
+		{
+			name ="modifier_entry_bg"
+			spriteType = "GFX_modifier_entry_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="modifier_strip"
+			spriteType = "GFX_modifier_strip"
+			position = { x= 6 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="pic_overlay_1"
+			spriteType = "GFX_modifier_pic_overlay_1"
+			position = { x= 6 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="pic_overlay_2"
+			spriteType = "GFX_modifier_pic_overlay_2"
+			position = { x= 6 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_name"
+			position = { x = 69 y = 12 }
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 32
+			fixedsize = yes
+			format = left			
+		}
+		
+		instantTextBoxType = {
+			name = "modifier_effect"
+			position = { x = 72 y = 36 }
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 100
+			format = left			
+		}
+		
+		## stuff to the right
+		iconType =
+		{
+			name ="modifier_info"
+			spriteType = "GFX_modifier_info"
+			position = { x= 406 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="modifier_progress"
+			spriteType = "modifier_progress"
+			position = { x= 479 y = 62 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.5708
+		}
+		
+		iconType =
+		{
+			name ="modifier_progress_overlay"
+			spriteType = "GFX_modifier_progress_overlay"
+			position = { x= 449 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "modifier_status"
+			position = { x = 386 y = 14 }
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 70
+			maxHeight = 20
+			format = centre			
+		}
+
+	}
+
+
+
+}

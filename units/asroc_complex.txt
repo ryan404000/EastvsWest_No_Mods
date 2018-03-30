@@ -1,0 +1,59 @@
+asroc_complex = {
+	type = naval
+	sprite = Submarine
+	is_sub = yes
+	active = no
+	
+	hull = 0.5
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 25
+	default_morale = 0
+	officers = 0
+
+
+	#Building Costs
+	unit_money_cost =  40.00
+	build_cost_manpower = 0
+	build_time = 30
+
+	#Misc Abilities
+	maximum_speed = 0.00
+	transport_capability = 0.00
+	supply_consumption = 0.30
+	fuel_consumption = 0
+	range = 20.00
+	distance = 0
+	
+	
+	#Detection Abilities
+	surface_detection = 2.00
+	air_detection = 1.00
+	sub_detection = 1.00
+	visibility = 6
+
+	#Defensive Abilities
+	sea_defence = 0.50
+	air_defence = 2.00
+
+	#Offensive Abilities
+	convoy_attack = 1.00
+	sea_attack = 0.00
+	sub_attack = 10.00
+	air_attack = 0.00
+	shore_bombardment = 0.00
+
+	priority = 3
+	iscomplex = yes
+	install_to = { 
+		type = battleship 
+		type = destroyer 
+		type = missile_cruiser 
+		type = nuclear_missile_cruiser 
+		type = nuclear_battlecruiser 
+		type = missile_frigate 
+		type = missile_destroyer 
+	}
+	weapon_category = ASW
+}

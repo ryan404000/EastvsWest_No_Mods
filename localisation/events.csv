@@ -1,0 +1,76 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLSKI;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGESE;RUSSIAN;FINNISH;x
+##################################################;;;;;;;;;;;;;;x
+# Decisions ;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Globals;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+# Events ;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+#Globals ;;;;;;;;;;;;;;x
+# up to 1000;;;;;;;;;;;;;;x
+EVTNAME400;$PRIDE_SUNK$ Sunk!;;$PRIDE_SUNK$ versenkt!;;;;;;;;;;;x
+EVTDESC400;The Pride of the $FROMCOUNTRY_ADJ$ Navy, the fearsome $PRIDE_SUNK$, has been sunk by the glorious $PRIDE_SINKER$! This is a blow to $FROMCOUNTRY_ADJ$ morale, and a boost to our own.;;Der Stolz der $FROMCOUNTRY_ADJ$ Flotte, die mächtige $PRIDE_SUNK$, ist von den glorreichen Streitkräften von $PRIDE_SINKER$ versenkt worden! Das wird die Moral von $FROMCOUNTRY_ADJ$ senken und unsere eigene stärken.;;;;;;;;;;;x
+EVTOPTA400;Excellent News!;;Ausgezeichnet!;;;;;;;;;;;x
+EVTNAME401;$PRIDE_SUNK$ Lost!;;$PRIDE_SUNK$ verloren!;;;;;;;;;;;x
+EVTDESC401;The Pride of our Navy, the glorious $PRIDE_SUNK$, has been lost with all hands, sunk by the $FROMCOUNTRY_ADJ$ $PRIDE_SINKER$. This is a stinging blow to our morale.;;Der Stolz unserer Flotte, die glorreiche $PRIDE_SUNK$, ging mit der gesamten Besatzung verloren, versenkt von $FROMCOUNTRY_ADJ$ $PRIDE_SINKER$. Das wird unsere Moral senken.;;;;;;;;;;;x
+EVTOPTA401;Damn!;;Verdammt!;;;;;;;;;;;x
+pride_of_the_fleet_dead;Pride Of The Fleet Sunk;;;;;;;;;;;;;x
+EVTNAME500;Surrender to $FROMCOUNTRY$;Se rendre à $FROMCOUNTRY$;Linker Staatsstreich;;Golpe de Estado de la izquierda;;;;;;;;;x
+EVTDESC500;With their national unity having fallen below their will to fight, $COUNTRYNAME$ is at the brink of oblivion. Their only possibility to continue the fight is as a government in exile.;L'unité nationale ne motive même plus notre volonté de nous battre et notre nation est au bord du désastre. Nous pouvons toutefois tenter de nous battre en tant que gouvernement en exil.;Dank ausländischer Hilfe ist es zur Revolution des Volkes gekommen! Die unterdrückten Arbeiter und Bauern haben die Kontrolle des Staats und der Produktionsmittel übernommen.;;Ha llegado la revolución del pueblo, ¡con apoyo extranjero! El glorioso proletariado y el campesinado oprimido se han hecho con el control del país y los medios de producción.;;;;;;;;;x
+EVTOPTA500;Continue the fight!;Continuer le combat !;Es gab keinen anderen Weg;;No podía haber sido de otro modo;;;;;;;;;x
+EVTOPTB500;Give up!;Abandonner !;Linker Staatsstreich;;Golpe de Estado de la izquierda;;;;;;;;;x
+EVTNAME501;$FROMCOUNTRY$ has surrendered!;$FROMCOUNTRY$ a capitulé !;Dank ausländischer Hilfe ist es zur Revolution des Volkes gekommen! Die unterdrückten Arbeiter und Bauern haben die Kontrolle des Staats und der Produktionsmittel übernommen.;;Ha llegado la revolución del pueblo, ¡con apoyo extranjero! El glorioso proletariado y el campesinado oprimido se han hecho con el control del país y los medios de producción.;;;;;;;;;x
+EVTDESC501;$FROMCOUNTRY$ is no longer willing to continue in their war against us. We now have the option to fully annex them into our country or to create a puppet state.;$FROMCOUNTRY$ ne veut plus se battre contre nous. Nous pouvons maintenant soit les annexer entièrement, soit créer un état fantoche.;Es gab keinen anderen Weg;;No podía haber sido de otro modo;;;;;;;;;x
+EVTOPTA501;Annex them;Annexer;Rechter Staatsstreich;;Golpe de Estado de la derecha;;;;;;;;;x
+EVTOPTB501;Create a Puppet;Créer un état fantoche;Die Kräfte von Recht und Ordnung haben mit ausländischer Hilfe die Kontrolle unseres Staats übernommen. Das neue Regime verspricht, sämtliche Verräter unserer geliebten Nation auszulöschen.;;Las fuerzas de la ley y el orden han tomado el control de nuestra nación con la ayuda de países extranjeros. El nuevo régimen promete erradicar a todos los traidores de nuestra amada patria.;;;;;;;;;x
+# 4000;;;;;;;;;;;;;;x
+EVTNAME4001;Coup d'état;Coup d'état;Es war unvermeidbar;;Era inevitable;;;;;;;;;x
+EVTDESC4001;Bowing to the inevitable, the old regime has given way to democratic elements within our nation. A prosperous, and free future awaits us.;Se pliant à l'inévitable, l'ancien régime a laissé place aux éléments démocratiques de notre nation. Un avenir prospère et libre nous attend.;Rechter Staatsstreich;;Golpe de Estado de la derecha;;;;;;;;;x
+EVTOPTA4001;It was only a matter of time;Ce n'était qu'une question de temps;Die Kräfte von Recht und Ordnung haben mit ausländischer Hilfe die Kontrolle unseres Staats übernommen. Das neue Regime verspricht, sämtliche Verräter unserer geliebten Nation auszulöschen.;;Las fuerzas de la ley y el orden han tomado el control de nuestra nación con la ayuda de países extranjeros. El nuevo régimen promete erradicar a todos los traidores de nuestra amada patria.;;;;;;;;;x
+EVTNAME4002;Coup d'état;Coup d'état;Es war unvermeidbar;;Era inevitable;;;;;;;;;x
+EVTDESC4002;Bowing to the inevitable, the old regime has given way to democratic elements within our nation. A prosperous, and free future awaits us.;Se pliant à l'inévitable, l'ancien régime a laissé place aux éléments démocratiques de notre nation. Un avenir prospère et libre nous attend.;;;;;;;;;;;;x
+EVTOPTA4002;It was only a matter of time;Ce n'était qu'une question de temps;;;;;;;;;;;;x
+EVTNAME4003;Left-wing Coup d'état;Coup d'état gauchiste;;;;;;;;;;;;x
+EVTDESC4003;The people's revolution has come, with the help of foreign aid! The glorious workers and oppressed peasantry have secured control of the nation, and the means of production.;Grâce à l'aide étrangère, l'heure de la révolution du peuple a sonné ! Nos ouvriers glorieux et nos paysans oppressés se sont emparés du gouvernail de la nation et de ses moyens de production. ;;;;;;;;;;;;x
+EVTOPTA4003;There could have been no other way;Il n'y avait pas d'autre moyen;;;;;;;;;;;;x
+EVTNAME4004;Left-wing Coup d'état;Coup d'état gauchiste;;;;;;;;;;;;x
+EVTDESC4004;The people's revolution has come, with the help of foreign aid! The glorious workers and oppressed peasantry have secured control of the nation, and the means of production.;Grâce à l'aide étrangère, l'heure de la révolution du peuple a sonné ! Nos ouvriers glorieux et nos paysans oppressés se sont emparés du gouvernail de la nation et de ses moyens de production.;;;;;;;;;;;;x
+EVTOPTA4004;There could have been no other way;Il n'y avait pas d'autre moyen;;;;;;;;;;;;x
+EVTNAME4005;Right-wing Coup d'état;Coup d'état de la droite;;;;;;;;;;;;x
+EVTDESC4005;The forces of law and order have taken control of our nation, with the assistance of foreign nations. The new regime promises to root out any and all traitors to our beloved nation.;Les forces de l’ordre public ont pris le contrôle de notre nation avec l'aide des pays étrangers. Le nouveau régime promet de démasquer tous les traîtres à notre pays bien aimé.;;;;;;;;;;;;x
+EVTOPTA4005;It was inevitable;C'était inévitable;;;;;;;;;;;;x
+EVTNAME4006;Right-wing Coup d'état;Coup d'état de la droite;;;;;;;;;;;;x
+EVTDESC4006;The forces of law and order have taken control of our nation, with the assistance of foreign nations. The new regime promises to root out any and all traitors to our beloved nation.;Les forces de l'ordre public ont pris le contrôle de notre nation, avec l'aide des pays étrangers. Le nouveau régime promet de démasquer tous les traîtres à notre pays bien aimé.;;;;;;;;;;;;x
+EVTOPTA4006;It was inevitable;C'était inévitable;;;;;;;;;;;;x
+# 5000;;;;;;;;;;;;;;x
+EVTNAME5000;Peace;;;;;;;;;;;;;x
+EVTDESC5000;Your country is now at peace, alertness is set to defcon 5;;;;;;;;;;;;;x
+EVTOPTA5000;Change defcon to 5;;;;;;;;;;;;;x
+EVTNAME5001;War on continent;;;;;;;;;;;;;x
+EVTDESC5001;There is a war on your continent, alertness is set to defcon 4;;;;;;;;;;;;;x
+EVTOPTA5001;Change defcon to 4;;;;;;;;;;;;;x
+EVTNAME5002;Faction member at war;;;;;;;;;;;;;x
+EVTDESC5002;Member of your faction is at war, alertness is set to defcon 3;;;;;;;;;;;;;x
+EVTOPTA5002;Change defcon to 3;;;;;;;;;;;;;x
+EVTNAME5003;War;;;;;;;;;;;;;x
+EVTDESC5003;You are at war, alertness is set to defcon 2;;;;;;;;;;;;;x
+EVTOPTA5003;Change defcon to 2;;;;;;;;;;;;;x
+EVTNAME5004;Nuke;;;;;;;;;;;;;x
+EVTDESC5004;$ENEMY$ has launched nukes, alertness is set to defcon 1;;;;;;;;;;;;;x
+EVTOPTA5004;Change defcon to 1;;;;;;;;;;;;;x
+EVTNAME5005;Provinces lost;;Staatsstreich;;Golpe de Estado;;;;;;;;;x
+EVTDESC5005;You have lost over 10% of your provinces, alertness is set to defcon 1.;;Das alte Regime hat sich dem Unvermeidbaren gebeugt und der Demokratisierung unserer Nation den Weg freigemacht. Uns steht eine Zukunft des Wohlstands und der Freiheit bevor.;;Sometiéndose a lo inevitable, el antiguo régimen ha cedido el paso a los elementos democráticos de nuestro país. Nos aguarda un futuro libre y próspero.;;;;;;;;;x
+EVTOPTA5005;Change defcon to 1;;Es war nur eine Frage der Zeit;;Solo era cuestión de tiempo;;;;;;;;;x
+EVTNAME5043;Biggest army;;;;;;;;;;;;;x
+EVTDESC5043;For having the biggest army in the game, you get bonus points to military rating.;;vor $FROMCOUNTRY$ kapitulieren.;;Rendición a $FROMCOUNTRY$;;;;;;;;;x
+EVTOPTA5043;OK;;Ihr nationaler Zusammenhalt hat ihren Kampfeswillen unterschritten unt zeigt Auflösungserscheinungen. Sie werden versuchen den Kampf als Exilregierung fortzusetzen.;;Nuestra unidad nacional ha caído más baja que nuestra voluntad de lucha. Nuestra nación está al borde de la desaparición. Sin embargo, podemos intentar continuar la lucha como un Gobierno en el exilio.;;;;;;;;;x
+EVTNAME5044;Biggest naval;;Weiterkämpfen!;;¡Que continúe la lucha!;;;;;;;;;x
+EVTDESC5044;For having the biggest naval in the game, you get bonus points to military rating.;;Aufgeben!;;¡Rindámonos!;;;;;;;;;x
+EVTOPTA5044;OK;;$FROMCOUNTRY$ hat kapituliert!;;¡$FROMCOUNTRY$ se ha rendido!;;;;;;;;;x
+EVTNAME5045;Biggest air;;$FROMCOUNTRY$ will nicht weiter gegen uns kämpfen. Wir können sie jetzt vollständig annektieren oder eine Marionettenregierung einsetzen.;;$FROMCOUNTRY$ ya no desea continuar en guerra contra nosotros. Ahora tenemos la opción de anexionar su país al nuestro o crear un eEstado títere.;;;;;;;;;x
+EVTDESC5045;For having the biggest air in the game, you get bonus points to military rating.;;Annektieren;;Anexionémoslo;;;;;;;;;x
+EVTOPTA5045;OK;;Marionettenregierung einsetzen;;Organicemos un Estado títere;;;;;;;;;x
+EVTNAME5046;Biggest nuke;;Staatsstreich;;Golpe de Estado;;;;;;;;;x
+EVTDESC5046;For having the biggest nuke in the game, you get bonus points to military rating.;;Das alte Regime hat sich dem Unvermeidbaren gebeugt und der Demokratisierung unserer Nation den Weg freigemacht. Uns steht eine Zukunft des Wohlstands und der Freiheit bevor.;;Sometiéndose a lo inevitable, el antiguo régimen ha cedido el paso a los elementos democráticos de nuestro país. Nos aguarda un futuro libre y próspero.;;;;;;;;;x
+EVTOPTA5046;OK;;Es war nur eine Frage der Zeit;;Solo era cuestión de tiempo;;;;;;;;;x

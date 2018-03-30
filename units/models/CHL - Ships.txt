@@ -1,0 +1,64 @@
+###########################
+# ARG  WW2 units
+###########################
+# Santa Fe-class
+submarine.0 = {
+	sonarsystem = 1
+	propulsion_diesel_submarine = 0
+	launcher_torpedotubes_533_650 = 0
+	closedefense = 0
+	allsubs_autonomousoperations = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 10		
+	wikipage = "/wiki/Capitan_O'Brien_class_submarine_(1928)"
+}
+# Serrano-class
+destroyer.0 = {
+	unit_destroyer = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0	
+	propulsion_steam = 0
+	conventionalnavalgun = 0
+	closedefense = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 14
+	wikipage = /wiki/Serrano_class_destroyer
+}
+# Almirante Latorre-class
+battleship.0 = {
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	propulsion_steam = 0	
+	conventionalnavalgun = 0
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_systemcoordination = 0
+	escort-battlegroup_surfaceengagementpositioning = 0
+	escort-battlegroup_denyenemyfreedomofaction = 0
+	escort-battlegroup_acceptablerisk = 0
+	hullmaxslots = 0
+	hullmaxsize = 670	
+	wikipage = /wiki/Almirante_Latorre_class_battleship
+}

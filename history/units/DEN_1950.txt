@@ -1,0 +1,42 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 5561
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+	army =
+	{
+		name = "1st Army"
+		location = 5561
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =
+		{
+			name = "1st Division"
+			location = 5561
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 39 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 1 strength = 36 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 1 strength = 23 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 1 strength = 24 experience = 4 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 5561
+		location = 5561
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 1 strength = 20 builder = USA }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 5561 # Kobenhavn (m)
+		location = 5561
+		ship = { type = submarine name = "1. Ublds Flotille" historical_model = 0 strength = 30 builder = ENG}
+	}		
+}
+division =
+{
+	name = "2nd Division"
+	location = 5487
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 1 strength = 38 experience = 5 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 1 strength = 36 experience = 5 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 1 strength = 23 experience = 4 }
+}

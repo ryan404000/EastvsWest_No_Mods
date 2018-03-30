@@ -1,0 +1,623 @@
+guiTypes = {
+
+########################################
+# Land Production Interface
+########################################
+	windowType = {
+		name = "brigade_builder_window"
+		backGround=""
+		size = { x=1024 y=768 }
+		position = { x=-512 y=-344 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		orientation="CENTER"
+		
+		iconType = {
+			name = "plane_build_bg"
+			spriteType = "GFX_bg_air_navy_build"
+			position = { x= 1 y = 62 }
+		}
+		################
+		### IC COST ####
+		iconType = {
+			name = "selected_brigade_green"
+			spriteType = "GFX_selected_brigade_green"
+			position = { x= 699 y = 553 }
+		}
+		
+		iconType = {
+			name = "selected_brigade_orange"
+			spriteType = "GFX_selected_brigade_orange"
+			position = { x= 699 y = 553 }
+		}
+		
+		iconType = {
+			name = "selected_brigade_red"
+			spriteType = "GFX_selected_brigade_red"
+			position = { x= 699 y = 553 }
+		}
+		instantTextBoxType = {
+			position = { x = 730 y = 562 }
+			name = "ic_cost_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "PW_IC_COST"	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 860 y = 562 }
+			name = "ic_cost_value"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "xxx"	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 730 y = 576 }
+			name = "mp_cost_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "PW_MP_COST"	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		checkboxType = {
+			name = "as_reserves"
+			position = { x= 766 y = 524 }
+			quadTextureSprite = "GFX_checkbox_square"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}		
+		instantTextBoxType = {
+			position = { x = 793 y = 530 }
+			name = "reserves_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "As Reseves"	
+			maxWidth = 170
+			maxHeight = 10
+			format = left
+			
+		}	
+		iconType = {
+			name ="on_complete_icon"
+			spriteType = "icon_tech_unknown"
+			position = { x= 795 y = 620 }
+		}	
+		iconType = {
+			name ="on_complete_frame"
+			spriteType = "GFX_on_complete_frame"
+			position = { x= 820 y = 618 }
+		}
+		instantTextBoxType = {
+			position = { x = 823 y = 623 }
+			name = "on_complete_impact"
+			font = "Arial14_black"
+			borderSize = {x = 4 y = 2}
+			text = ""	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 860 y = 576 }
+			name = "mp_cost_value"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "xxx"	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 730 y = 590 }
+			name = "build_time_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "PW_BUILD_TIME"	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 860 y =590 }
+			name = "build_time_value"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "xxx"	
+			maxWidth = 170
+			maxHeight = 10
+		}					
+	################################
+	### START PRODUCTION / CLOSE ###
+		guiButtonType = {
+			name = "accept"
+			position = { x=667 y =668}
+			quadTextureSprite ="GFX_button_build_division"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "START_PRODUCTION"
+			buttonFont = "Arial14"
+		}
+		guiButtonType = {
+			name = "cancel"
+			position = { x=105 y=668}
+			quadTextureSprite ="GFX_button_cancel_prod"
+			buttonText = "CLOSE"
+			buttonFont = "Arial14"
+		}
+		#############
+		##     SERIAL/PARALELL ##
+		guiButtonType = {
+			name = "serial_plus"
+			position = { x=922 y =469}
+			quadTextureSprite ="GFX_serial_plus"
+			buttonFont = "Arial12"
+		}
+		guiButtonType = {
+			name = "serial_minus"
+			position = { x=861 y =469}
+			quadTextureSprite ="GFX_serial_minus"
+			buttonFont = "Arial12"
+		}
+		instantTextBoxType = {
+			position = { x = 703 y = 472 }
+			name = "serial_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "PW_SERIAL"	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 814 y = 472 }
+			name = "serial_value"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		guiButtonType = {
+			name = "parallell_plus"
+			position = { x= 922 y = 497}
+			quadTextureSprite ="GFX_serial_plus"
+			buttonFont = "Arial12"
+		}
+		guiButtonType = {
+			name = "parallel_minus"
+			position = { x= 861 y = 497}
+			quadTextureSprite ="GFX_serial_minus"
+			buttonFont = "Arial12"
+		}
+		instantTextBoxType = {
+			position = { x = 703 y = 501 }
+			name = "paralell_label"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "PW_PARALELL"	
+			maxWidth = 170
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 814 y = 501 }
+			name = "paralell_value"
+			font = "Arial14"
+			borderSize = {x = 4 y = 2}
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		############
+		###     SORT BUTTONS ####
+		guiButtonType = {
+			name = "sort_prio" 
+			position = { x=80 y =83}
+			quadTextureSprite ="GFX_icon_prio"
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "sort_str"  #strength
+			position = { x=190 y =79 }
+			quadTextureSprite ="GFX_icon_str"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_org"  #organiztaion
+			position = { x=230 y =79 }
+			quadTextureSprite ="GFX_icon_org"
+			buttonFont = "Main_14_black"
+		}			
+		guiButtonType = {
+			name = "sort_cw"  #combat width
+			position = { x=270 y =79 }
+			quadTextureSprite ="GFX_icon_cw"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_sa" #soft attack
+			position = { x=310 y =79 }
+			quadTextureSprite ="GFX_icon_sa"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_ha"  #hard attack
+			position = { x=350 y =79 }
+			quadTextureSprite ="GFX_icon_ha"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_aa" # airattack
+			position = { x=390 y =79 }
+			quadTextureSprite ="GFX_icon_aa"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_def"  #defensivness
+			position = { x=430 y =79 }
+			quadTextureSprite ="GFX_icon_def"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_tou"  #toughness
+			position = { x=470 y =79 }
+			quadTextureSprite ="GFX_icon_tou"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_ad"  #air defense
+			position = { x=510 y =79 }
+			quadTextureSprite ="GFX_icon_ad"
+			buttonFont = "Main_14_black"
+		}		
+		guiButtonType = {
+			name = "sort_sof"  #softness
+			position = { x=550 y =79 }
+			quadTextureSprite ="GFX_icon_soft"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_speed"
+			position = { x=590 y =79 }
+			quadTextureSprite ="GFX_icon_speed"
+			buttonFont = "Main_14_black"
+		}		
+		guiButtonType = {
+			name = "sort_sup"  #supression
+			position = { x=630 y =79 }
+			quadTextureSprite ="GFX_icon_sup"
+			buttonFont = "Main_14_black"
+		}			
+		guiButtonType = {
+			name = "sort_sc"  #supply consumption
+			position = { x=670 y =79 }
+			quadTextureSprite ="GFX_icon_sc"
+			buttonFont = "Main_14_black"
+		}	
+		guiButtonType = {
+			name = "sort_fc"  #fuel consumption
+			position = { x=710 y =79 }
+			quadTextureSprite ="GFX_icon_oc"
+			buttonFont = "Main_14_black"
+		}	
+		guiButtonType = {
+			name = "sort_off"
+			position = { x=750 y =80 }
+			quadTextureSprite ="GFX_icon_off"
+			buttonFont = "Main_14_black"
+		}
+		guiButtonType = {
+			name = "sort_ic"
+			position = { x=810 y =79 }
+			quadTextureSprite ="GFX_icon_icneed"
+			buttonFont = "Main_14_black"
+		}	
+		guiButtonType = {
+			name = "sort_mp"
+			position = { x=870 y =79 }
+			quadTextureSprite ="GFX_icon_mp"
+			buttonFont = "Main_14_black"
+		}	
+		guiButtonType = {
+			name = "sort_time"
+			position = { x=930 y =79 }
+			quadTextureSprite ="GFX_icon_time"
+			buttonFont = "Main_14_black"
+		}
+######## LISTBOX ########
+		listboxType = {
+			name = "queue"
+			position = { x = 30 y = 105 }
+			size = { x= 943 y = 300}
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}
+########################
+##    SELECTED BRIGADE                               
+########################
+		windowType = {
+			name = "selected_brigade_window"
+			backGround=""
+			position = { x=0 y=0 }	
+			size = { x=700 y= 300 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			 
+			iconType = {
+				name = "selected_brigade_photo"
+				spriteType = "GFX_no_ship_selected"
+				position = { x= 40 y = 480 }
+			}
+			iconType = {
+				name = "model_overlay"
+				spriteType = "GFX_model_overlay"
+				position = { x= 32 y = 472 }
+			}
+			instantTextBoxType = {
+				position = { x = 240 y = 446 }
+				name = "selected_brigade_label"
+				font = "Arial14"
+				borderSize = {x = 4 y = 2}
+				text = ""	
+				maxWidth = 300
+				maxHeight = 20
+				format = left
+			}
+			listboxType = {
+				name = "stats_pos"
+				position = { x = 30 y = 414 }
+				backGround=""
+				size = { x= 533 y = 620}
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 0 y = 0}
+			}
+			instantTextBoxType = {
+				position = { x = 240 y = 473 }
+				name = "selected_brigade_description"
+				font = "Arial12"
+				borderSize = {x = 4 y = 2}
+				text = ""	
+				maxWidth = 330
+				maxHeight = 200
+				format = left
+			}
+		}
+	}	
+########################################
+# Entry for brigade to select
+########################################
+	windowType = {
+		name = "brigade_entry_3"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=360 y= 24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		guiButtonType = {
+			name = "select"
+			position = { x=0 y =4}
+			quadTextureSprite ="GFX_brigade_listbutton"
+			position = { x= 3 y = 0 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= -12 y = -11 }
+		}
+		iconType = {
+			name ="counter_size"
+			spriteType = "GFX_counter_size"
+			position = { x= 0 y = 0 }
+		}
+		instantTextBoxType = {
+			position = { x = 35 y = 4 }
+			name = "name"
+			font = "Arial12_bold_black"
+			borderSize = {x = 4 y = 2}
+			text = "name"	
+			maxWidth = 200
+			maxHeight = 10
+		}
+		instantTextBoxType = {
+			position = { x = 80 y = 4 }
+			name = "str"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "str"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		instantTextBoxType = {
+			position = { x = 120 y = 4 }
+			name = "org"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "org"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		instantTextBoxType = {
+			position = { x = 160 y = 4 }
+			name = "cw"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "cw"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}						
+		instantTextBoxType = {
+			position = { x = 200 y = 4 }
+			name = "sa"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "SA"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		instantTextBoxType = {
+			position = { x = 240 y = 4 }
+			name = "ha"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "HA"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}	
+		instantTextBoxType = {
+			position = { x = 280 y = 4 }
+			name = "aa"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "AA"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		instantTextBoxType = {
+			position = { x = 320 y = 4 }
+			name = "def"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "def"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}	
+		instantTextBoxType = {
+			position = { x = 360 y = 4 }
+			name = "tou"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "tou"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		instantTextBoxType = {
+			position = { x = 400 y = 4 }
+			name = "ad"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "AD"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}	
+		instantTextBoxType = {
+			position = { x = 440 y = 4 }
+			name = "sof"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "tou"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		instantTextBoxType = {
+			position = { x = 480 y = 4 }
+			name = "speed"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "speed"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}													
+		instantTextBoxType = {
+			position = { x = 520 y = 4 }
+			name = "sup"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "sup"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}													
+		instantTextBoxType = {
+			position = { x = 560 y = 4 }
+			name = "sc"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "sc"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}	
+		instantTextBoxType = {
+			position = { x = 600 y = 4 }
+			name = "fc"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "fc"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}
+		instantTextBoxType = {
+			position = { x = 640 y = 4 }
+			name = "off"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "time"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}		
+		instantTextBoxType = {
+			position = { x = 700 y = 4 }
+			name = "ic"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "ic"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}	
+		instantTextBoxType = {
+			position = { x = 760 y = 4 }
+			name = "mp"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "mp"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}															
+		instantTextBoxType = {
+			position = { x = 820 y = 4 }
+			name = "time"
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 2}
+			text = "time"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+		}																
+	}
+}
+

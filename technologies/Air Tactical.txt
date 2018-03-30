@@ -1,0 +1,366 @@
+# List of all Air Tactical techs
+	#aircombatops_offensiveairsuperioritydoctrine	(1 level )
+	#aircombatops_defensiveinterceptiondoctrine		(1 level )
+	#aircombatops_wildweaseloperations				(1 level )
+	#aircombatops_armydirectedbombing				(1 level )
+	
+	#aircommand_economyofforceprinciple				(1 level )
+	#aircommand_maneuverprinciple					(1 level )
+	#aircommand_offensiveprinciple					(1 level )
+	
+	#pilotfocus_realisticcombatexercises			(1 level )
+	#pilotfocus_precisionbombingtraining			(1 level )
+	#pilotfocus_smartweapondeliverystriketraining	(1 level )
+
+	#airlogisticsops_airbridgeplanningandtraining	(1 level )
+	#airlogisticsops_heloresupply					(1 level )
+	#aircommand_searchandrescuemissions				(1 level )
+	#airlogisticsops_mashmedevac					(1 level )
+	
+	#airborne_warfare								(1 level )
+	#airborneops_paratroopers						(1 level )
+	#airborneops_airassaultplanning					(1 level )
+	#airborneops_aircavalry							(1 level )
+
+
+#########################################################################
+# Combat Operations
+#########################################################################
+## 5 techs
+aircombatops_offensiveairsuperioritydoctrine = {
+	# warfare type
+    doctrine = yes
+	allow = {aircommand_offensiveprinciple = 1}
+	traits = {
+		airtactical_theory		
+	}	
+	fighter = {
+		default_organisation = 5
+	}
+	multi_role = {
+		default_organisation = 5
+	}		
+	folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+aircombatops_defensiveinterceptiondoctrine = {
+	# warfare type
+    doctrine = yes
+	allow = { pilotfocus_realisticcombatexercises = 1 }
+	traits = {
+		airtactical_theory		
+	}	
+	modifier = {
+		TERRITORIAL_PRIDE = 0.05
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+aircombatops_wildweaseloperations = {
+	# warfare type, possibly intelligence
+    doctrine = yes
+	allow = { aircombatops_offensiveairsuperioritydoctrine =  1 }
+	traits = {
+		airtactical_theory		
+	}	
+	multi_role = {
+				surface_defence = 0.25
+				fuel_consumption = 0.25
+		}
+	cag_mltr = {
+				surface_defence = 0.25
+				fuel_consumption = 0.25
+		}	
+	fighter = {
+				surface_defence = 0.25
+				fuel_consumption = 0.25
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+aircombatops_armydirectedbombing = {
+	# command & control type
+    doctrine = yes
+	allow = {
+			aircommand_objectiveprinciple = 1
+	}
+	traits = {
+		airstrategy_theory		
+	}
+	activate_unit = {
+		bomber_strike
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_economyofforceprinciple = {
+	# command type
+    doctrine = yes
+	allow = {}
+	traits = {}
+	activate_unit = {
+		cas
+		cag_attack
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_maneuverprinciple = {
+	# command type
+    doctrine = yes
+	allow = {}	
+	traits = {}
+	activate_unit = {
+		fighter
+		cag_fighter
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_offensiveprinciple = {
+	# command type
+    doctrine = yes
+	allow = {}
+	traits = {}
+	activate_unit = {
+		cag_mltr
+		multi_role
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+pilotfocus_realisticcombatexercises = {
+	# planning type
+    doctrine = yes
+	allow = {
+		aircommand_maneuverprinciple = 1
+	}
+	traits = {
+		airtactical_theory		
+	}	
+	fighter = {
+		default_organisation = 5
+	}
+	multi_role = {
+		default_organisation = 5
+	}
+
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+pilotfocus_precisionbombingtraining = {	# Vehicle, Ship and Installation bombing
+	# planning type
+    doctrine = yes
+	allow = {
+		aircommand_economyofforceprinciple = 1
+	}
+	traits = {
+		airtactical_theory		
+	}
+	cas = {
+		default_organisation = 5
+	}
+	cag_vtol = {
+		default_organisation = 5
+	}		
+
+	folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+pilotfocus_smartweapondeliverystriketraining = {
+	# planning type
+    doctrine = yes
+	allow = {
+		pilotfocus_precisionbombingtraining = 1
+		aircombatops_armydirectedbombing = 1
+	}
+	traits = {
+		airtactical_theory		
+	}
+	bomber_strike = {
+		default_organisation = 5
+		}
+		bomber_strategic = {
+		default_organisation = 5
+		}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+#########################################################################
+# Logistics Operations
+#########################################################################
+## 4 techs
+airlogisticsops_airbridgeplanningandtraining = {
+	# logistics type
+    doctrine = yes
+	allow = {
+		aircommand_securityprinciple = 1
+	}
+	traits = {
+		airstrategy_theory		
+	}	
+	supply_throughput = 0.05	
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+airlogisticsops_heloresupply = { # helo tech required
+	# logistics type
+    doctrine = yes
+	allow = {
+		airlogisticsops_airbridgeplanningandtraining = 1
+	}
+	traits = {
+		airstrategy_theory		
+	}
+	supply_throughput = 0.05	
+		
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_searchandrescuemissions = { #helicopter tech
+	# command type
+    doctrine = yes
+	allow = { airlogisticsops_heloresupply = 1 }
+	traits = {
+		airtactical_theory		
+	}
+	modifier = {
+		REINFORCEMENT_BONUS = 0.01
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+airlogisticsops_mashmedevac = {	# helo tech required, Mobile Army Surgical Hospital, followed by Combat Support Hospital MEDEVAC
+	# logistics type
+    doctrine = yes
+	allow = {
+		aircommand_searchandrescuemissions = 1
+	}
+	traits = {
+		airtactical_theory		
+	}
+	casualty_trickleback = 0.01
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+#########################################################################
+# Airborne Operations
+#########################################################################
+## 4 techs
+airborne_warfare = {
+    doctrine = yes
+    allow = { 
+		aircommand_unityofcommandprinciple = 1
+	}
+	traits = {
+		airstrategy_theory		
+	}
+	encirclement = 1
+	air_cav_brigade ={
+		forest = { attrition = -1}
+	}
+	attack_helo_brigade = {
+		forest = { attrition = -1}
+	}	
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+airborneops_paratroopers = {
+	# planning or warfare type
+    doctrine = yes
+	allow = { # Also requires tech
+		airborne_warfare =  1
+		aircommand_surpriseprinciple = 1
+	}
+	traits = {
+		airstrategy_theory		
+		airtactical_theory
+	}
+	envelop = 1
+	infantry_brigade = {
+		 toughness = 0.08
+	}
+	bergsjaeger_brigade = {
+		 toughness = 0.08
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+airborneops_airassaultplanning = {
+	# planning type
+    doctrine = yes
+	allow = {
+		airborne_warfare = 1
+		airborneops_paratroopers = 1
+		industry_electronics = 2
+		OR = {
+			aircommand_objectiveprinciple = 1
+			aircommand_surpriseprinciple = 1
+		}
+	}
+	traits = {
+		airstrategy_theory		
+		airtactical_theory	
+		science_theory			
+	}
+	activate_unit = {
+		helo_cas 
+		attack_helo_brigade
+		helo_gunship
+		ship_heli_cas
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+airborneops_aircavalry = {
+	# planning or warfare type
+    doctrine = yes
+	allow = { # Requires tech
+		airborneops_airassaultplanning = 1
+		aircommand_objectiveprinciple = 1
+	}
+	traits = {
+		airstrategy_theory		
+		airtactical_theory			
+	}
+	activate_unit = {
+		air_cav_brigade
+	}
+    folder = air_doctrine2_folder
+	time = 100
+	cost = 100
+}

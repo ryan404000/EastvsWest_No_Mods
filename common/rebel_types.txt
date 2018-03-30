@@ -1,0 +1,938 @@
+###################################
+# Hoi3 Partisans
+###################################
+partisans = {
+	ideology = any					# No special preference
+	area = nation 					# Stays within the nation
+	defection = none				# Does not defect
+	independence = none				# Does not strive for independence
+	unit = partisan_brigade
+	
+	resilient = no
+	reinforcing = yes				
+	smart = yes
+	auto_convert = yes
+	
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0.0
+			controlled_by = owner
+		}
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.01
+			controlled_by = REB
+		}
+	}
+	
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+	}
+	
+	demands_enforced_effect = {
+	}
+}
+
+
+####################################
+# Nationalist rebels. Freedom!!!
+####################################
+nationalist_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = none
+	ideology = any			# No special preference
+	independence = any
+	defect_delay = 12
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0.0
+			NOT = { controlled_by = owner }
+		}
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+	}
+	
+
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+	}
+}
+
+##########################################################
+# Patriots, yearning for a return to their mother nation.
+##########################################################
+patriot_rebels = {	
+	area = nation			# Stays within cultural borders
+	ideology = any			# No special preference
+	defection = any
+	defect_delay = 6
+	independence = any 		# Does not seek independence
+	unit_transfer = yes
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = no
+	smart = yes
+
+
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0.0
+			NOT = { controlled_by = owner }
+		}
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}		
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+	}
+	
+
+	
+	# Country scope
+	demands_enforced_effect = {
+	}
+}
+
+
+##########################################################
+# Disgruntled Rabble
+##########################################################
+disgruntled_rabble = {	
+	area = nation			# Stays within cultural borders
+	ideology = any			# No special preference
+	defection = none
+	independence = none
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = no
+	smart = no
+
+
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0.0
+			NOT = { controlled_by = owner }
+		}
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}		
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+	}
+	
+
+	
+	# Country scope
+	demands_enforced_effect = {
+	}
+}
+
+##########################################################
+# Guerrillas
+##########################################################
+guerrilla_rebels = {	
+	area = nation			# Stays within cultural borders
+	ideology = any			# No special preference
+	defection = none
+	independence = none
+
+	unit_transfer = yes
+	unit = militia_brigade
+	
+	resilient = yes
+	reinforcing = yes
+	smart = yes
+	
+	supported = 2.0			# if supported, spawn chance grows by this value (currently not in use )
+
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 0.1
+		modifier = {
+			factor = 10
+			has_province_modifier = guerrillas_support 
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { controlled_by = owner }
+		}
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}		
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "guerrillas_conquer"
+			duration = 90
+		}
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+	}
+	
+
+	
+	# Country scope
+	demands_enforced_effect = {
+	}
+}
+
+
+####################################
+# Algerian FLN 
+####################################
+algerian_fln_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = any
+	ideology = paternal_auto_idolg 		# nationalist preference
+	independence = any
+	defect_delay = 0
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+	spawn_chance = {
+		factor = 0.5
+		modifier = {
+			factor = 1
+			is_core = ALG		#increased chance in areas controlled by FRA
+		}		
+		modifier = {
+			factor = 1
+			has_province_modifier = algerian_fln_revolt 		#increased chance in provinces with revolt modifier
+		}	
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "algerian_fln_revolt"
+			duration = 90
+		}
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+		any_owned  = {
+			remove_province_modifier = algerian_fln_revolt 
+		}
+	}
+}
+
+
+####################################
+# Pathet Lao rebels. 
+####################################
+pathet_lao_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = any
+	ideology = communist_idolg			# communist preference
+	independence = any
+	defect_delay = 3
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+	spawn_chance = {
+		factor = 0.1
+		modifier = {
+			factor = 3
+			controlled_by = IDC
+			is_core = LAO 		#increased chance in provinces with laos cores modifier
+		}
+		modifier = {
+			factor = 3
+			owned_by = IDC		#increased chance in areas controlled by Indochina
+			is_core = LAO
+		}
+		modifier = {
+			factor = 3
+			has_province_modifier = phatet_lao_revolt 		#increased chance in provinces with pathet lao modifier
+		}		
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "phatet_lao_revolt"
+			duration = 90
+		}	
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+		any_owned  = {
+			remove_province_modifier = phatet_lao_revolt
+		}	
+	}
+}
+
+####################################
+# Viet Cong rebels. 
+####################################
+viet_cong_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = any
+	ideology = communist_idolg			# communist preference
+	independence = any
+	defect_delay = 0
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+	spawn_chance = {
+		factor = 1.0
+		modifier = {
+			factor = 1
+			controlled_by = IDC		#increased chance in areas controlled by Indochina
+			NOT = { is_core = LAO }
+		}
+		modifier = {
+			factor = 1
+			controlled_by = SVI		#increased chance in areas controlled by Indochina
+		}
+		modifier = {
+			factor = 1
+			owned_by = IDC		#increased chance in areas controlled by Indochina
+			NOT = { is_core = LAO }
+		}		
+		modifier = {
+			factor = 1
+			has_province_modifier = viet_cong_revolt 		#increased chance in provinces with viet cong modifier
+		}	
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "viet_cong_revolt"
+			duration = 90
+		}
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+		any_owned  = {
+			remove_province_modifier = viet_cong_revolt
+		}
+	}
+}
+
+####################################
+# Hukbalahap rebels. 
+####################################
+
+hukbalahap_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = any
+	ideology = communist_idolg			# communist preference
+	independence = any
+
+	defect_delay = 0
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+	spawn_chance = {
+		factor = 1.0
+		modifier = {
+			factor = 1
+			controlled_by = PHI		#increased chance in areas controlled by Indochina
+
+		}	
+		modifier = {
+			factor = 1
+
+			has_province_modifier = hukbalahap_revolt 		#increased chance in provinces with viet cong modifier
+		}	
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "hukbalahap_revolt"
+			duration = 90
+		}
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+		any_owned  = {
+			remove_province_modifier = hukbalahap_revolt
+		}
+	}
+}
+
+####################################
+# Indian rebels. 
+####################################
+indian_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = any
+	ideology = social_democrat_idolg			# SD
+	independence = any
+	defect_delay = 3
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+	spawn_chance = {
+		factor = 0.1
+		modifier = {
+			factor = 10
+			has_province_modifier = indian_revolt 		#increased chance in provinces with indian modifier
+		}		
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "indian_revolt"
+			duration = 90
+		}	
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+		any_owned  = {
+			remove_province_modifier = indian_revolt
+		}	
+	}
+}
+
+####################################
+# Pakistani rebels. 
+####################################
+pakistani_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = any
+	ideology = social_cons_idolg			# SC
+	independence = any
+	defect_delay = 3
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+	spawn_chance = {
+		factor = 0.1
+		modifier = {
+			factor = 10
+			has_province_modifier = pakistani_revolt 		#increased chance in provinces with pakistani_revolt modifier
+		}		
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "pakistani_revolt"
+			duration = 90
+		}	
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+		any_owned  = {
+			remove_province_modifier = pakistani_revolt
+		}	
+	}
+}
+
+####################################
+# Tibetan rebels. 
+####################################
+tibetan_rebels = {	
+	area = nation 				# Stays within provinces of their culture
+	defection = any
+	ideology = paternal_auto_idolg			# PA
+	independence = any
+	defect_delay = 3
+	unit_transfer = yes			# Units switch allegiance after enforcing demands.
+	unit = militia_brigade
+	
+	resilient = no
+	reinforcing = yes
+	smart = yes
+	
+	spawn_chance = {
+		factor = 0.1
+		modifier = {
+			factor = 10
+			has_province_modifier = tibetan_revolt 		#increased chance in provinces with tibetan modifier
+		}		
+	}
+ 
+ 	#This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 4
+		}
+		modifier = {
+			factor = 1.5
+			revolt_risk = 6
+		}
+		modifier = {
+			factor = 5.0
+			is_core = REB
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		add_province_modifier = {
+			name = "tibetan_revolt"
+			duration = 90
+		}	
+	}
+	
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+
+	# Country scope
+	demands_enforced_effect = {
+		any_owned  = {
+			remove_province_modifier = tibetan_revolt
+		}	
+	}
+}

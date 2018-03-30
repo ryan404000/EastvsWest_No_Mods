@@ -1,0 +1,140 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_unit_multi_bg"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_multi_unit_bg"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_army_plate.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_multi_unit_valhalla"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_checkbox_valhala.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	spriteType = {
+		name = "GFX_multi_unit_scorch_earth"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_checkbox_scorch_earth.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	spriteType = {
+		name = "GFX_multi_unit_reinforce"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_checkbox_reinforce.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	spriteType = {
+		name = "GFX_multi_unit_priority"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_checkbox_priority.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	spriteType = {
+		name = "GFX_multi_unit_upgrade"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_checkbox_circles.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	spriteType = {
+		name = "GFX_close_multiunit"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_close.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_multiunit_attach_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_attach_button.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_multiunit_detach_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_detach_button.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_multiunit_hierachy"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_hierarchy.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_multiunit_unload"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_load.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	spriteType = {
+		name = "GFX_multiunit_load_boat"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_btn_load_ship.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	spriteType = {
+		name = "GFX_multiunit_load_plane"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_btn_load_air.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_unit_reorg_button2"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\unit_reorg_button2.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_unit_merge_button"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_btn_arrows.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_disband_multiunit_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_disband.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+
+	spriteType = {
+		name = "GFX_multi_unit_remove"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_btn_remove.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_multi_unit_select"
+		texturefile = "gfx\\interface\\unit_window\\multi_unit\\multi_btn_select.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+
+}

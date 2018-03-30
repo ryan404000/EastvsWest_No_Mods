@@ -1,0 +1,275 @@
+guiTypes = {
+
+### MULTI UNIT PANEL ###
+
+	windowType = {
+		name = "multi_unitpanel"
+		position = { x=0 y=130 }
+		size = { x=371 y=68 }
+		moveable = 0
+		fullScreen = no	
+
+		iconType =
+		{
+			name ="multiselect_bg"
+			spriteType = "GFX_unit_multi_bg"
+			position = { x= -5 y = -10 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "desc"
+			position = { x = 12	 y = 7 }
+			font = "Jockey_16_cyan"
+			maxWidth = 136
+			maxHeight = 17
+			fixedsize = yes
+		}
+
+
+		checkboxType = {
+			name = "multiunit_valhalla_button"
+			position = { x = 180 y = 2 }
+			quadTextureSprite ="GFX_multi_unit_valhalla"
+			#buttonFont = "Arial12"
+			#shortcut = "v"
+		}
+		checkboxType = {
+			name = "multiunit_scorch_earth_button"
+			position = { x = 210 y = 2 }
+			quadTextureSprite ="GFX_multi_unit_scorch_earth"
+			#buttonFont = "Arial12"
+			#shortcut = "s"
+		}
+		checkboxType = {
+			name = "multiunit_priority_button"
+			position = { x = 240 y = 2 }
+			quadTextureSprite ="GFX_multi_unit_priority"
+			buttonFont = "Arial12"
+			shortcut = "n"
+		}
+		checkboxType = {
+			name = "multiunit_reinforce_button"
+			position = { x = 270 y = 2 }
+			quadTextureSprite ="GFX_multi_unit_reinforce"
+			buttonFont = "Arial12"
+			shortcut = "i"
+		}
+		checkboxType = {
+			name = "multiunit_upgrade_button"
+			position = { x = 300 y = 2 }
+			quadTextureSprite ="GFX_multi_unit_upgrade"
+			buttonFont = "Arial12"
+			shortcut = "u"
+		}
+
+		guiButtonType = {
+			name = "close_multiunit"
+			position = { x = 338 y = 3 }
+			quadTextureSprite ="GFX_panel_close"
+		}
+
+
+		guiButtonType = {
+			name = "load_multiunit_oob_attach"
+			position = { x = 7 y = 43 }
+			quadTextureSprite ="GFX_multiunit_attach_button"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "a"
+		}
+		guiButtonType = {
+			name = "load_multiunit_oob_detach"
+			position = { x = 7 y = 43 }
+			quadTextureSprite ="GFX_multiunit_detach_button"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "d"
+		}
+		guiButtonType = {
+			name = "load_multiunit_hierachy"
+			position = { x = 54 y = 43 }
+			quadTextureSprite ="GFX_multiunit_hierachy"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "c"
+		}
+
+
+		guiButtonType = {
+			name = "unload_multiunit"
+			position = { x = 148 y = 43 }
+			quadTextureSprite ="GFX_multiunit_unload"
+			buttonFont = "Arial12"
+			shortcut = "l"
+		}
+		guiButtonType = {
+			name = "load_multiunit_plane"
+			position = { x = 174 y = 43 }
+			quadTextureSprite ="GFX_multiunit_load_plane"
+			#buttonFont = "Arial12"
+			#shortcut = "l"
+		}
+		guiButtonType = {
+			name = "load_multiunit_boat"
+			position = { x = 221 y = 43 }
+			quadTextureSprite ="GFX_multiunit_load_boat"
+			#buttonFont = "Arial12"
+			#shortcut = "l"
+		}
+
+		guiButtonType = {
+			name = "reorganizebutton"
+			position = { x = 308 y = 43 }
+			quadTextureSprite ="GFX_unit_reorg_button"
+			buttonFont = "Arial12"
+			shortcut = "r"
+		}
+		guiButtonType = {
+			name = "mergebutton"
+			position = { x = 286 y = 43 }
+			quadTextureSprite ="GFX_unit_merge_button"
+			buttonFont = "Arial12"
+			shortcut = "g"
+		}
+
+		guiButtonType = {
+			name = "disband_button"
+			position = { x = 341 y = 43 }
+			quadTextureSprite ="GFX_disband_multiunit_button"
+			#buttonFont = "Arial12"
+			#shortcut = "x"
+		}
+
+	}
+	
+	windowType = 
+	{
+		name = "multiunit_select"
+		position = { x=0 y=0 }	
+		size = { x=370 y= 41 }
+		moveable = 0
+		fullScreen = no	
+
+		iconType = 
+		{
+			name ="multiunit_bg"
+			spriteType ="GFX_multi_unit_bg"	
+			position = { x= -2 y = -2 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = 
+		{
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= -5 y = -2 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = 
+		{
+			name ="counter_size"
+			spriteType = "GFX_counter_size"
+			position = { x= -5 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+					
+		iconType = {
+			name ="unit_activity"
+			spriteType = "GFX_unit_activity_strip"
+			position = { x= 19 y = 26 } 
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "unitname"
+			position = { x = 60 y = 6 }
+			font = "Arial12_bold_cyan"
+			maxWidth = 200
+			maxHeight = 15
+			format = left	
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "unit_location"
+			position = { x = 60 y = 22 }
+			font = "Arial12_bold"
+			maxWidth = 200
+			maxHeight = 15
+			format = left	
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "unitstrength"
+			position = { x = 271 y = 6 }
+			font = "Arial_14_bold_glow"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 55
+			maxHeight = 16	
+			format = right
+		}
+			
+		iconType =	{
+			name ="unit_pride_star"
+			spriteType = "GFX_unit_stars"
+			position = { x= 288 y = 24 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="eqp_bar"
+			spriteType = "eqp_progressbar_small"
+			position = { x= 341 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		iconType =
+		{
+			name ="man_bar"
+			spriteType = "manpower_progressbar_small"
+			position = { x= 341 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		iconType =
+		{
+			name ="org_bar"
+			position = { x= 349 y = 31 }
+			spriteType = "org_progressbar_small"
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		guiButtonType = {
+			name = "remove_unit_from_selection_button"
+			position = { x = 351 y = 22 }
+			quadTextureSprite ="GFX_multi_unit_remove"
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "only_unit_from_selection_button"
+			position = { x = 351 y = 4 }
+			quadTextureSprite = "GFX_multi_unit_select"
+		}
+
+	}
+	
+	
+	
+	
+
+	positionType = {
+		name = "unitlist_start"
+		position = { x = 0 y =204 }
+	}
+	
+	positionType = {
+		name = "unitlist_offset"
+		position = { x = 0 y =44 }
+	}
+}

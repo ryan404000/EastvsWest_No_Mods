@@ -1,0 +1,179 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_nuclear_window"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad.dds"
+	}
+
+	spriteType = {
+		name = "GFX_panel_close"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_close_btn.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_sub_nuke"
+		texturefile = "gfx\\interface\\nuclear\\icon_sub_nuke.dds"
+	}
+
+	spriteType = {
+		name = "GFX_plane_nuke"
+		texturefile = "gfx\\interface\\nuclear\\icon_plane_nuke.dds"
+	}
+
+	spriteType = {
+		name = "GFX_silo_nuke"
+		texturefile = "gfx\\interface\\nuclear\\icon_silo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_warheads_nuke"
+		texturefile = "gfx\\interface\\nuclear\\icon_warheads.dds"
+	}
+
+	spriteType = {
+		name = "GFX_warheads_nuke_btn"
+		texturefile = "gfx\\interface\\nuclear\\warheads_btn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_targetlist_close"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_close_btn.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+
+	spriteType = {
+		name = "GFX_panel_cover"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_switch_cover.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_panel_cover_open"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_switch_cover_open.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_nuclear_launch"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_red_btn.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_nuclear_select_global"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_global_btn.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+
+	spriteType = {
+		name = "GFX_nuclear_target_eco"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_eco_btn.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_nuclear_target_mil"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_mil_btn.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_nuclear_target_all"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_all_btn.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_icon_country_2s"
+		texturefile = "gfx\\interface\\icon_country_2s.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_icon_sel_country"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_country_btn.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+
+	spriteType = {
+		name = "GFX_icon_sel_region"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_region_btn.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_icon_sel_province"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_province_btn.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_nuclear_targeting"
+		texturefile = "gfx\\interface\\nuclear\\target_mode.dds"
+	}
+
+	spriteType = {
+		name = "GFX_targetlist_btn"
+		texturefile = "gfx\\interface\\nuclear\\nucleartarget_btn.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_btn_targetlist"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_target_btn.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_btn_missionlist"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_mission_btn.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_switch_led_red"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_red_light.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_switch_led_blue"
+		texturefile = "gfx\\interface\\nuclear\\launch_pad_blue_light.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_small_close"
+		texturefile = "gfx\\interface\\nuclear\\btns-close_small.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_platform_info"
+		texturefile = "gfx\\interface\\nuclear\\platform_icon.dds"
+	}
+
+
+}
+	

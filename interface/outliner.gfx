@@ -1,0 +1,239 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_button_outliner"	
+		texturefile = "gfx\\interface\\outliner_button.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_landunits"	
+		texturefile = "gfx\\interface\\outliner_view_landunits.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_deployment"
+		texturefile = "gfx\\interface\\outliner_view_deployment.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_theatre"
+		texturefile = "gfx\\interface\\outliner_view_theatre.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_building"
+		texturefile = "gfx\\interface\\outliner_view_building.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_spy"
+		texturefile = "gfx\\interface\\outliner_view_spy.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_revolts"
+		texturefile = "gfx\\interface\\outliner_view_revolts.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}	
+	
+	spriteType = {
+		name = "GFX_outliner_view_airunits"	
+		texturefile = "gfx\\interface\\outliner_view_airunits.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_navalunits"	
+		texturefile = "gfx\\interface\\outliner_view_navalunits.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_landcombat"	
+		texturefile = "gfx\\interface\\outliner_view_landcombat.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_aircombat"	
+		texturefile = "gfx\\interface\\outliner_view_aircombat.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_navalcombat"	
+		texturefile = "gfx\\interface\\outliner_view_navalcombat.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_bombus"	
+		texturefile = "gfx\\interface\\outliner_view_bombus.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_bombthem"	
+		texturefile = "gfx\\interface\\outliner_view_bombthem.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_view_objectives"	
+		texturefile = "gfx\\interface\\outliner_view_objectives.tga"
+		
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_outliner_expand_button"	
+		texturefile = "gfx\\interface\\outliner\\outliner_expand.dds"
+		
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_outliner_standard"	
+		texturefile = "gfx\\interface\\outliner\\outliner_standard.dds"
+		
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_outliner_bottom"	
+		texturefile = "gfx\\interface\\outliner\\outliner_bottom_bg.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_top"	
+		texturefile = "gfx\\interface\\outliner\\outliner_top_bg.dds"
+		
+	}
+
+	spriteType = {
+		name = "GFX_outliner_siege"	
+		texturefile = "gfx\\interface\\outliner_siege.tga"
+		
+	}
+
+	
+	spriteType = {
+		name = "GFX_outliner_move_arrow"	
+		texturefile = "gfx\\interface\\outliner_move_arrow.tga"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_no_leader"
+		texturefile = "gfx\\interface\\outliner_siege.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_scorched"
+		texturefile = "gfx\\interface\\outliner_move_arrow.tga"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_prioritized"
+		texturefile = "gfx\\interface\\outliner_move_arrow.tga"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_valhalla"
+		texturefile = "gfx\\interface\\outliner_move_arrow.tga"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_outliner_header"	
+		texturefile = "gfx\\interface\\outliner\\outliner_header.dds"
+		
+	}
+
+	spriteType = {
+		name = "GFX_outliner_icons"	
+		texturefile = "gfx\\interface\\outliner_icons.tga"
+		
+		noOfFrames = 12
+	}
+
+	progressbartype = {
+		name = "siegebar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		size = { x = 3 y = 14 }
+		horizontal = no
+		effectFile = "gfx\\FX\\progress.fx"
+		
+	}
+	
+	
+	corneredTileSpriteType = {
+		name = "GFX_outliner_slider_background"
+		size= {x =11 y = 12 }
+		texturefile = "gfx\\interface\\scrollbars\\scroller_outliner_standard.dds"
+		borderSize = { x=3 y=0 }
+		
+	}
+	
+	spriteType = {
+		name = "GFX_outliner_slider_slider"
+		texturefile = "gfx\\interface\\scrollbars\\scroller_outliner_bg.dds"
+		noOfFrames = 4
+		
+	}
+	
+	
+
+	spriteType = {
+		name = "GFX_outliner_slider_up_down"
+		texturefile = "gfx\\interface\\scrollbars\\scroller_outliner_btn_up_down.dds"
+		noOfFrames = 4
+		
+		norefcount = yes
+	}
+}

@@ -1,0 +1,84 @@
+########################################
+# Tutorial Events                      #
+########################################
+
+country_event = {
+	id = 8002
+	title = "tutorial.2.t"
+	desc = "tutorial.2.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_owned = {
+			limit = {
+				is_core = THIS
+			}
+			set_province_flag = tutorial_flag1
+		}	
+		random_owned = {
+			limit = {
+				NOT = {
+					has_province_flag = tutorial_flag1
+				}
+			}
+			set_province_flag = tutorial_flag2
+		}
+	}
+ 
+	option = {
+		name = "tutorial.2.a"
+		random_owned = {
+			limit = {
+				has_province_flag = tutorial_flag1
+			}
+			clr_province_flag = tutorial_flag1
+		}
+		random_owned = {
+			limit = {
+				has_province_flag = tutorial_flag2
+			}
+			clr_province_flag = tutorial_flag2
+		}
+	}
+}
+
+country_event = {
+	id = 8004
+	title = "tutorial.4.t"
+	desc = "tutorial.4.d"
+	picture = SHIP_SAILING_eventPicture
+	
+	is_triggered_only = yes
+	 
+	option = {
+		name = "tutorial.4.a"
+	}
+}
+
+country_event = {
+	id = 8005
+	title = "tutorial.5.t"
+	desc = "tutorial.5.d"
+	picture = NATIVES_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "tutorial.5.a"
+	}
+}
+
+country_event = {
+	id = 8006
+	title = "tutorial.6.t"
+	desc = "tutorial.6.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "tutorial.6.a"
+	}
+}

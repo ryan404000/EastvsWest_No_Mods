@@ -1,0 +1,20 @@
+#ManchuriaTransfer_events.txt 152007:
+	#152007	- The Soviets hand over Manchuria
+	
+#VietnamWar_events.txt 152000-152003:
+	#152000 - leave_indochina_CHI follow-up event
+	#152001 - CHI has to give Hanoi to IDC. Triggered by OPTA of FRA194002
+	#152002 - CHI has to back Hanoi to DRV after DRV has beaten the French
+	#152003 - intervene_firstindochinawar_CHI follow-up event	
+	
+#TibetInvasion_events.txt 152101-152110:
+	#152101 - demand_tibet_CHI follow-up event - Whether to demand Tibet or not
+	#152102 - 338003 follow-up event - Tibet gave in to our demands
+	#152103 - 338003 follow-up event - Tibet refused our demands
+	#152104 - 338004 follow-up event - Tibet accepted the 17 point agreement - annex them.
+	#152105 - 338004 follow-up event - Tibet rejected the 17 point agreement - fight on!
+	#152106 - tibet_land_reform_CHI follow-up event - whether to go ahead with land reform
+	#152107 - intervene_tibet_CHI_CHC follow-up event - decide whether to intervene in rebellion in communist held Tibet
+	#152108 - Dalai Lama flees in response to fighting near Lhasa
+	#152109 - 152108 follow-up event - Dalai Lama flees to exile
+	#152110 - 152108 follow-up event - Dalai Lama dies while fleeing	

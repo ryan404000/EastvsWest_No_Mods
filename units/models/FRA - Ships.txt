@@ -1,0 +1,1871 @@
+###########################
+# FRA  attack subs
+###########################
+# L'Aurore-class
+submarine.0 = {
+	sonarsystem = 1
+	propulsion_diesel_submarine = 0
+	launcher_torpedotubes_533_650 = 1
+	closedefense = 0
+	allsubs_autonomousoperations = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 6
+	wikipage = /wiki/Aurore_class_submarine
+}
+# Model 1950
+attack_submarine.0 = {
+	unit_submarine_attack = 1
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 2
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 8
+}
+# Narval-class
+attack_submarine.1 = {
+	unit_submarine_attack = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 3
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 2
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 6	
+	wikipage = /wiki/French_Narval_class_submarine
+}
+# Aréthuse-class
+attack_submarine.2 = {
+	unit_submarine_attack = 3
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 2
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 3	
+	wikipage = /wiki/Arethuse_class_submarine
+}
+# Daphné-class
+attack_submarine.3 = {
+	unit_submarine_attack = 4
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 4
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 4		
+	wikipage = /wiki/Daphne_class_submarine
+}
+# Model 1970
+attack_submarine.4 = {
+	unit_submarine_attack = 5
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 4
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 6
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 6	
+}
+# Agosta-class
+attack_submarine.5 = {
+	unit_submarine_attack = 6
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 4
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 6
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 2		
+	wikipage = /wiki/Agosta_class_submarine
+}
+# Model 1980
+attack_submarine.6 = {
+	unit_submarine_attack = 7
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_diesel_submarine = 5
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 8
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 4	
+}
+
+# Model 1985
+attack_submarine.7 = {
+	unit_submarine_attack = 8
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_diesel_submarine = 5
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 9
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 4	
+}
+
+# Model 1990
+attack_submarine.8 = {
+	unit_submarine_attack = 9
+	sonarsystem = 6
+	towed_sonarsystem = 2
+	propulsion_diesel_submarine = 6
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 10
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 4	
+}
+###########################
+# FRA nuclear Attack subs
+###########################
+# Model 1960
+nuclear_submarine.0 = {
+	unit_nuclearsubmarine_attack = 1
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_nuclear_submarine = 1	
+	launcher_torpedotubes_533_650 = 4	
+	antishipmissile_longrange_supersonic = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	hullmaxslots = 0
+	hullmaxsize = 6
+}
+
+# Model 1965
+nuclear_submarine.1 = {
+	unit_nuclearsubmarine_attack = 2
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_nuclear_submarine = 1	
+	launcher_torpedotubes_533_650 = 5
+	antishipmissile_longrange_supersonic = 0	
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	hullmaxslots = 0
+	hullmaxsize = 6
+}
+
+# Model 1970
+nuclear_submarine.2 = {
+	unit_nuclearsubmarine_attack = 3
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_nuclear_submarine = 2	
+	launcher_torpedotubes_533_650 = 6	
+	antishipmissile_longrange_supersonic = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	hullmaxslots = 0
+	hullmaxsize = 6
+}
+
+# Model 1975
+nuclear_submarine.3 = {
+	unit_nuclearsubmarine_attack = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_nuclear_submarine = 2	
+	launcher_torpedotubes_533_650 = 7
+	antishipmissile_longrange_supersonic = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	hullmaxslots = 0
+	hullmaxsize = 4
+}
+
+# Model 1980
+nuclear_submarine.4 = {
+	unit_nuclearsubmarine_attack = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_nuclear_submarine = 3	
+	launcher_torpedotubes_533_650 = 8
+	antishipmissile_longrange_supersonic = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	hullmaxslots = 0
+	hullmaxsize = 4
+}
+# Rubis-class
+nuclear_submarine.5 = {
+	unit_nuclearsubmarine_attack = 6
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_nuclear_submarine = 3	
+	launcher_torpedotubes_533_650 = 7	
+	antishipmissile_longrange_supersonic = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	hullmaxslots = 0
+	hullmaxsize = 3
+	wikipage = /wiki/Rubis_class_submarine
+}
+# Améthyste-class
+nuclear_submarine.6 = {
+	unit_nuclearsubmarine_attack = 7
+	sonarsystem = 6
+	towed_sonarsystem = 1
+	propulsion_nuclear_submarine = 3	
+	launcher_torpedotubes_533_650 = 7	
+	antishipmissile_longrange_supersonic = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	hullmaxslots = 0
+	hullmaxsize = 3
+	wikipage = "/wiki/French_submarine_Amethyste_(S605)"
+}
+
+###########################
+# FRA nuclear Ballistic subs
+###########################
+# Model 1960
+ballistic_missile_submarine.0 = {
+	unit_ballistic_missile_submarine = 1
+	sonarsystem = 3
+	propulsion_nuclear_submarine = 1	
+	launcher_torpedotubes_533_650 = 4	
+	tech_slbm_missile = 1
+	allsubs_autonomousoperations = 0
+	tacticalstrikesubs-surfacesubs_coordinatedoperations = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 56
+}
+
+# Model 1965
+ballistic_missile_submarine.1 = {
+	unit_ballistic_missile_submarine = 2
+	sonarsystem = 3
+	propulsion_nuclear_submarine = 1	
+	launcher_torpedotubes_533_650 = 5	
+	tech_slbm_missile = 2
+	allsubs_autonomousoperations = 0
+	tacticalstrikesubs-surfacesubs_coordinatedoperations = 0
+	allsubs_silentoperations = 0		
+	hullmaxslots = 0
+	hullmaxsize = 56
+}
+# Redoutable-class
+ballistic_missile_submarine.2 = {
+	unit_ballistic_missile_submarine = 3
+	sonarsystem = 4
+	propulsion_nuclear_submarine = 2	
+	launcher_torpedotubes_533_650 = 6	
+	tech_slbm_missile = 3
+	allsubs_autonomousoperations = 0
+	tacticalstrikesubs-surfacesubs_coordinatedoperations = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 67	
+	wikipage = "/wiki/Redoutable_class_submarine_(1967)"
+}
+# Model 1975
+ballistic_missile_submarine.3 = {
+	unit_ballistic_missile_submarine = 4
+	sonarsystem = 4
+	propulsion_nuclear_submarine = 2	
+	launcher_torpedotubes_533_650 = 7	
+	tech_slbm_missile = 4	
+	allsubs_autonomousoperations = 0
+	tacticalstrikesubs-surfacesubs_coordinatedoperations = 0
+	allsubs_silentoperations = 0		
+	hullmaxslots = 0
+	hullmaxsize = 104
+}
+
+# Model 1980
+ballistic_missile_submarine.4 = {
+	unit_ballistic_missile_submarine = 5
+	sonarsystem = 5
+	propulsion_nuclear_submarine = 3	
+	launcher_torpedotubes_533_650 = 8
+	tech_slbm_missile = 5
+	allsubs_autonomousoperations = 0
+	tacticalstrikesubs-surfacesubs_coordinatedoperations = 0
+	allsubs_silentoperations = 0		
+	hullmaxslots = 0
+	hullmaxsize = 154
+}
+
+# Model 1985
+ballistic_missile_submarine.5 = {
+	unit_ballistic_missile_submarine = 6
+	sonarsystem = 5
+	propulsion_nuclear_submarine = 3	
+	launcher_torpedotubes_533_650 = 9	
+	tech_slbm_missile = 6	
+	allsubs_autonomousoperations = 0
+	tacticalstrikesubs-surfacesubs_coordinatedoperations = 0
+	allsubs_silentoperations = 0		
+	hullmaxslots = 0
+	hullmaxsize = 204
+}
+# Triomphant-class
+ballistic_missile_submarine.6 = {
+	unit_ballistic_missile_submarine = 7
+	sonarsystem = 6
+	propulsion_nuclear_submarine = 4	
+	launcher_torpedotubes_533_650 = 9	
+	tech_slbm_missile = 8
+	allsubs_autonomousoperations = 0
+	tacticalstrikesubs-surfacesubs_coordinatedoperations = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 117	
+	wikipage = /wiki/Triomphant_class_submarine
+}
+
+########################
+# FRA missile Boats
+########################
+# Model 1955
+missile_boat.0 = {
+	unit_missileboat = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 2
+	conventionalnavalgun = 3
+	closedefense = 3
+	antishipmissile_shortrange = 1
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 3
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 18
+}
+
+# Model 1960
+missile_boat.1 = {
+	unit_missileboat = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 2
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 16
+}
+
+# Model 1965
+missile_boat.2 = {
+	unit_missileboat = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 5
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 13
+}
+# La Combattante II-class
+missile_boat.3 = {
+	unit_missileboat = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 6
+	closedefense = 3
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 6
+	wikipage = /wiki/La_Combattante_IIa_class_fast_attack_craft
+}
+# D'Estienne d'Orves-class
+missile_boat.4 = {
+	unit_missileboat = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 4
+	closedefense = 5
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 5
+	launcher_torpedotubes_533_650 = 6	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 11	
+	wikipage = "/wiki/D'Estienne_d'Orves_class"
+}
+# Drummond-class
+missile_boat.5 = {
+	unit_missileboat = 6
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 6	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 10
+	wikipage = /wiki/Drummond_class_corvette
+}
+# La Combattante III-class
+missile_boat.6 = {
+	unit_missileboat = 7
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 0
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 9	
+	wikipage = /wiki/La_Combattante_III_class_fast_attack_craft
+}
+# Velarde-class
+missile_boat.7 = {
+	unit_missileboat = 8
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 5
+	closedefense = 4
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 8	
+	wikipage = /wiki/PR-72P-class_corvette
+}
+# Model 1985
+missile_boat.8 = {
+	unit_missileboat = 9
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 0
+	propulsion_gas = 4
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 7
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 9
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 29
+}
+
+# Model 1990
+missile_boat.9 = {
+	unit_missileboat = 10
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 0
+	propulsion_gas = 5
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 10
+	closedefense = 10
+	antishipmissile_shortrange = 8
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 10
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 28
+}
+########################
+# FRA missile Frigattes
+########################
+# Le Normand-class
+missile_frigate.0 = {
+	unit_missilefrigate = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0	
+	propulsion_steam = 0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 0
+	conventionalnavalgun = 3
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 3
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 3	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 19	
+	wikipage = /wiki/Le_Normand_class_frigate	
+}
+# Commandant Riviére-class
+missile_frigate.1 = {
+	unit_missilefrigate = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0	
+	propulsion_steam = 0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =4
+	conventionalnavalgun = 4
+	closedefense = 3
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 4
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 4	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 21	
+	wikipage = /wiki/Commandant_Riviere_class_frigate
+}
+# Model 1965
+missile_frigate.2 = {
+	unit_missilefrigate = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 5
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 5
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 24
+}
+
+# Model 1970
+missile_frigate.3 = {
+	unit_missilefrigate = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_steam = 0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 6
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 6
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 24
+}
+
+# Model 1975
+missile_frigate.4 = {
+	unit_missilefrigate = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_steam =0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 7
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 7
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 32
+}
+
+# Model 1980
+missile_frigate.5 = {
+	unit_missilefrigate = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_steam =0	
+	propulsion_gas = 3
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 8
+	closedefense = 8
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 8
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 8
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 31
+}
+
+# Model 1985
+missile_frigate.6 = {
+	unit_missilefrigate = 7
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_steam =0	
+	propulsion_gas = 4
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 9
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 9
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 40
+}
+# Floréal-class
+missile_frigate.7 = {
+	unit_missilefrigate = 8
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 2
+	towed_sonarsystem = 0	
+	propulsion_steam = 0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =4
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 9
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 4	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 10	
+	wikipage = /wiki/Floreal_class_frigate
+}
+
+########################
+# FRA missile Destroyers
+########################
+# Fantasque-class
+destroyer.0 = {
+	unit_destroyer = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0	
+	propulsion_steam = 0
+	conventionalnavalgun = 0
+	closedefense = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 71
+	wikipage = /wiki/Fantasque_class_destroyer	
+}
+# Surcouf-class
+missile_destroyer.0 = {
+	unit_missiledestroyer = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	conventionalnavalgun = 3
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 3	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 48
+	wikipage = /wiki/T_47_class_destroyer
+}
+# Duperré-class
+missile_destroyer.1 = {
+	unit_missiledestroyer = 2
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	conventionalnavalgun = 3
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 3
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 3
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 3	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 48
+	wikipage = /wiki/T_53_class_destroyer
+}
+# Surcouf-class Mod
+missile_destroyer.2 = {
+	unit_missiledestroyer = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	conventionalnavalgun = 3
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 3
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 4
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 5	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 20
+	wikipage = /wiki/T_47_class_destroyer
+}
+# Suffren-class
+missile_destroyer.3 = {
+	unit_missiledestroyer = 4
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 2	
+	propulsion_gas = 0	
+	conventionalnavalgun = 5
+	closedefense = 4
+	antishipmissile_shortrange = 5
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 4
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 4
+	launcher_torpedotubes_533_650 = 6	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 24
+	wikipage = /wiki/Suffren_class_frigate
+}
+# Aconit-class
+missile_destroyer.4 = {
+	unit_missiledestroyer = 5
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 4
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	conventionalnavalgun = 5
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 4
+	launcher_torpedotubes_533_650 = 6	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 14	
+	wikipage = "/wiki/French_destroyer_Aconit_(F65)"
+}
+# Tourville-class
+missile_destroyer.5 = {
+	unit_missiledestroyer = 6
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	conventionalnavalgun = 6
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 7
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 6	
+	helicopterplatform = 3
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 18
+	wikipage = /wiki/Tourville_class_destroyer
+}
+# Georges Leygues-class
+missile_destroyer.6 = {
+	unit_missiledestroyer = 7
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 3	
+	propulsion_gas = 4
+	conventionalnavalgun = 6
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 7
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 8	
+	helicopterplatform = 3
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 14	
+	wikipage = /wiki/Georges_Leygues_class_destroyer
+}
+# Model 1985
+missile_destroyer.7 = {
+	unit_missiledestroyer = 8
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 2
+	naval_combat_system = 0
+	propulsion_steam = 5	
+	propulsion_gas = 0
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 7
+	antiairmissile_shortrange = 9
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 9
+	antisub_missile = 7
+	launcher_torpedotubes_533_650 = 9	
+	helicopterplatform = 4		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 43
+}
+# Cassard-class
+missile_destroyer.8 = {
+	unit_missiledestroyer = 9
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 1
+	naval_combat_system = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 9
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 6
+	antiairmissile_shortrange = 9
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 8	
+	helicopterplatform = 4
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 32
+	wikipage = /wiki/Cassard_class_frigate
+}
+
+########################
+# FRA missile cruisers
+########################
+# La Galissonniére-class
+cruiser.0 = {
+	unit_cruiser = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0
+	propulsion_steam = 1	
+	conventionalnavalgun = 1
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	escort-battlegroup_surfaceengagementpositioning = 0
+	escort-battlegroup_denyenemyfreedomofaction = 0
+	escort-battlegroup_acceptablerisk = 0	
+	helicopterplatform = 0	
+	hullmaxslots = 0
+	hullmaxsize = 41	
+	wikipage = /wiki/La_Galissonniere_class_cruiser
+}
+# De Grasse-class
+cruiser.1 = {
+	unit_cruiser = 2
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 0
+	propulsion_steam = 1	
+	conventionalnavalgun = 3
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	escort-battlegroup_surfaceengagementpositioning = 0
+	escort-battlegroup_denyenemyfreedomofaction = 0
+	escort-battlegroup_acceptablerisk = 0	
+	helicopterplatform = 0	
+	hullmaxslots = 0
+	hullmaxsize = 90	
+	wikipage = /wiki/French_cruiser_De_Grasse
+}
+
+# Model 1955
+missile_cruiser.0 = {
+	unit_missilecruiser = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 2	
+	propulsion_gas = 0	
+	conventionalnavalgun = 3
+	closedefense = 3
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 1
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 3
+	antisub_missile = 1
+	launcher_torpedotubes_533_650 = 3	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	hullmaxslots = 0
+	hullmaxsize = 49
+}
+
+# Model 1960
+missile_cruiser.1 = {
+	unit_missilecruiser = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 2
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 4
+	antisub_missile = 2
+	launcher_torpedotubes_533_650 = 4	
+	helicopterplatform = 1
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0	
+	hullmaxslots = 0
+	hullmaxsize = 48
+}
+# Jeanne d'Arc-class
+missile_cruiser.2 = {
+	unit_missilecruiser = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 4
+	closedefense = 0
+	antishipmissile_shortrange = 5
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 2
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	hullmaxslots = 0
+	hullmaxsize = 25	
+	wikipage = "/wiki/French_cruiser_Jeanne_d'Arc_(R97)"
+}
+# Colbert-class
+missile_cruiser.3 = {
+	unit_missilecruiser = 4
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 4
+	closedefense = 0
+	antishipmissile_shortrange = 5
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 5
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 2
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	hullmaxslots = 0
+	hullmaxsize = 39
+	wikipage = "/wiki/French_cruiser_Colbert_(C611)"
+}
+# Model 1975
+missile_cruiser.4 = {
+	unit_missilecruiser = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 1
+	naval_combat_system = 0
+	propulsion_steam = 0	
+	propulsion_gas = 3	
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 5
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 7
+	antisub_missile = 5
+	launcher_torpedotubes_533_650 = 7	
+	helicopterplatform = 3
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0	
+	hullmaxslots = 0
+	hullmaxsize = 52
+}
+
+# Model 1980
+missile_cruiser.5 = {
+	unit_missilecruiser = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 2
+	naval_combat_system = 0
+	propulsion_steam = 0	
+	propulsion_gas = 3	
+	conventionalnavalgun = 8
+	closedefense = 8
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 6
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 8
+	antisub_missile = 6
+	launcher_torpedotubes_533_650 = 8	
+	helicopterplatform = 3
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0	
+	hullmaxslots = 0
+	hullmaxsize = 61
+}
+
+# Model 1985
+missile_cruiser.6 = {
+	unit_missilecruiser = 7
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 2
+	naval_combat_system = 0
+	propulsion_steam = 0	
+	propulsion_gas = 4	
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 7
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 9
+	antisub_missile = 7
+	launcher_torpedotubes_533_650 = 9	
+	helicopterplatform = 4
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0	
+	hullmaxslots = 0
+	hullmaxsize = 60
+}
+
+# Model 1990
+missile_cruiser.7 = {
+	unit_missilecruiser = 8
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 6
+	towed_sonarsystem = 2
+	radarsystem_3dsearch = 3
+	naval_combat_system = 1
+	propulsion_steam = 0	
+	propulsion_gas = 5
+	conventionalnavalgun = 10
+	closedefense = 10
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 8
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 10
+	antisub_missile = 8
+	launcher_torpedotubes_533_650 = 10	
+	helicopterplatform = 5
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0		
+	hullmaxslots = 0
+	hullmaxsize = 70
+}
+########################
+# FRA Capital Ships
+########################
+# Richelieu-class
+battleship.0 = {
+	radarsystem_airsearch = 1
+	radarsystem_surfacesearch = 1
+	propulsion_steam = 1	
+	conventionalnavalgun = 1
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	antishipmissile_longrange_supersonic = 0	
+	landattackmissile = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_systemcoordination = 0
+	escort-battlegroup_surfaceengagementpositioning = 0
+	escort-battlegroup_denyenemyfreedomofaction = 0
+	escort-battlegroup_acceptablerisk = 0
+	hullmaxslots = 0
+	hullmaxsize = 1014
+	wikipage = /wiki/Richelieu_class_battleship
+}
+########################
+# FRA Carriers
+########################
+# Béarn-class
+carrier.0 = {
+	unit_carrier = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0
+	radarsystem_3dsearch = 0
+	propulsion_steam = 0	
+	conventionalnavalgun = 0
+	closedefense = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 0
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 12
+	carrier_size = 3	
+	wikipage = /wiki/French_aircraft_carrier_Bearn
+}
+# Model 1950
+carrier.1 = {
+	unit_carrier = 2
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	radarsystem_3dsearch = 0
+	propulsion_steam = 2	
+	conventionalnavalgun = 2
+	closedefense = 2
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 2
+	helicopterplatform = 0		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0
+	hullmaxslots = 0
+	hullmaxsize = 63
+	carrier_size = 3
+}
+
+# Model 1955
+carrier.2 = {
+	unit_carrier = 3
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	radarsystem_3dsearch = 0
+	propulsion_steam = 2	
+	conventionalnavalgun = 3
+	closedefense = 3
+	antiairmissile_mediumrange = 1
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 3
+	helicopterplatform = 0		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0
+	hullmaxslots = 0
+	hullmaxsize = 63
+	carrier_size = 3
+}
+# Clemenceau-class
+carrier.3 = {
+	unit_carrier = 4
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	radarsystem_3dsearch = 0
+	propulsion_steam = 1	
+	conventionalnavalgun = 4
+	closedefense = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 0
+	helicopterplatform = 2
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 30
+	carrier_size = 3	
+	wikipage = /wiki/Clemenceau_class_aircraft_carrier
+}
+# Model 1970
+carrier.4 = {
+	unit_carrier = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	radarsystem_3dsearch = 1
+	propulsion_steam = 4	
+	conventionalnavalgun = 6
+	closedefense = 6
+	antiairmissile_mediumrange = 4
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 6
+	helicopterplatform = 2
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 63
+	carrier_size = 3
+}
+
+# Model 1980
+carrier.5 = {
+	unit_carrier = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	radarsystem_3dsearch = 2
+	propulsion_steam = 5	
+	conventionalnavalgun = 8
+	closedefense = 8
+	antiairmissile_mediumrange = 6
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 8
+	helicopterplatform = 3	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 62
+	carrier_size = 3
+}
+
+# Model 1990
+carrier.6 = {
+	unit_carrier = 7
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 6
+	radarsystem_3dsearch = 3
+	propulsion_steam = 6	
+	conventionalnavalgun = 10
+	closedefense = 10
+	antiairmissile_mediumrange = 8
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 10
+	helicopterplatform = 5
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 57
+	carrier_size = 3
+}
+
+# Model 1955
+supercarrier.0 = {
+	unit_supercarrier = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 0
+	radarsystem_3dsearch = 0
+	propulsion_steam = 3	
+	propulsion_nuclear_surface = 0	
+	conventionalnavalgun = 3
+	closedefense = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 3
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 12
+	carrier_size = 4
+}
+
+# Model 1960
+supercarrier.1 = {
+	unit_supercarrier = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	radarsystem_3dsearch = 0
+	propulsion_steam = 0	
+	propulsion_nuclear_surface = 1	
+	conventionalnavalgun = 0
+	closedefense = 4
+	antiairmissile_mediumrange = 1
+	antiairmissile_shortrange = 3
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 4
+	helicopterplatform = 1		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 26
+	carrier_size = 4
+}
+
+# Model 1970
+supercarrier.2 = {
+	unit_supercarrier = 3
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	radarsystem_3dsearch = 1
+	propulsion_steam = 0	
+	propulsion_nuclear_surface = 2	
+	conventionalnavalgun = 0
+	closedefense = 6
+	antiairmissile_mediumrange = 4
+	antiairmissile_shortrange = 6
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 6
+	helicopterplatform = 2		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 37
+	carrier_size = 4
+}
+
+# Model 1980
+supercarrier.3 = {
+	unit_supercarrier = 4
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 0
+	radarsystem_3dsearch = 2
+	propulsion_steam = 0	
+	propulsion_nuclear_surface = 3	
+	conventionalnavalgun = 0
+	closedefense = 8
+	antiairmissile_mediumrange = 6
+	antiairmissile_shortrange = 8
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0
+	antisub_torpedorocket = 8
+	helicopterplatform = 3
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0		
+	hullmaxslots = 0
+	hullmaxsize = 51
+	carrier_size = 4
+}
+# Charles de Gaulle-class
+supercarrier.4 = {
+	unit_supercarrier = 5
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 0
+	radarsystem_3dsearch = 3
+	propulsion_steam =0	
+	propulsion_nuclear_surface = 4	
+	conventionalnavalgun = 0
+	closedefense = 7
+	antiairmissile_mediumrange = 9
+	antiairmissile_shortrange = 10
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 0
+	helicopterplatform = 5	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	carriergroup_constantairbornesurveillance = 0	
+	hullmaxslots = 0
+	hullmaxsize = 30
+	carrier_size = 3	
+	wikipage = /wiki/Charles_de_Gaulle_class_aircraft_carrier
+}

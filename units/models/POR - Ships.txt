@@ -1,0 +1,25 @@
+###########################
+# POR  WW2 units
+###########################
+
+destroyer.0 = {
+	unit_destroyer = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0	
+	propulsion_steam = 0
+	conventionalnavalgun = 0
+	closedefense = 1
+	antisub_torpedorocket = 1
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 26		
+}

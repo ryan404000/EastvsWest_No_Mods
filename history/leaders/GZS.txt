@@ -1,0 +1,1588 @@
+1609501 = {
+	name = "Izzat Ali"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.9.1 = { rank = 0 }
+	}
+}
+1609500 = {
+	name = "Mustafa Maalouf"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1609509 = {
+	name = "Azem Sahrawi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.3.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1609507 = {
+	name = "Nasrallah Hadi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1609510 = {
+	name = "Bashir Kashgari"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1952.11.1 = { rank = 0 }
+	}
+}
+1609506 = {
+	name = "Nawfal Turki"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.4.1 = { rank = 4 }
+		1953.4.1 = { rank = 0 }
+	}
+}
+1609508 = {
+	name = "Rukn al-Din Hazazi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.9.1 = { rank = 1 }
+		1951.4.1 = { rank = 2 }
+		1953.4.1 = { rank = 3 }
+		1954.5.1 = { rank = 0 }
+	}
+}
+1609505 = {
+	name = "Abdul Nasser Hosni"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.4.1 = { rank = 3 }
+		1953.4.1 = { rank = 4 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1609502 = {
+	name = "Talal Abidi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.10.1 = { rank = 2 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1609514 = {
+	name = "Hadid Jan"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1954.5.1 = { rank = 1 }
+		1956.4.1 = { rank = 2 }
+		1957.2.1 = { rank = 0 }
+	}
+}
+1609517 = {
+	name = "Nasrallah Yakub"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.2.1 = { rank = 1 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1609512 = {
+	name = "Abdul Latif Nafti"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.11.1 = { rank = 1 }
+		1953.4.1 = { rank = 2 }
+		1954.5.1 = { rank = 3 }
+		1955.10.1 = { rank = 4 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1609518 = {
+	name = "Shaaban Hani"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.4.1 = { rank = 1 }
+		1959.9.1 = { rank = 2 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1609504 = {
+	name = "Hamid al-Din Hajji"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.6.1 = { rank = 0 }
+	}
+}
+1609511 = {
+	name = "Rabih Mahmud"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1951.4.1 = { rank = 1 }
+		1954.5.1 = { rank = 2 }
+		1955.10.1 = { rank = 3 }
+		1959.9.1 = { rank = 4 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1609516 = {
+	name = "Abdul Khaliq Rais"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.4.1 = { rank = 1 }
+		1960.3.1 = { rank = 2 }
+		1962.8.1 = { rank = 3 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1609513 = {
+	name = "Sidqi Al-Fayed"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.4.1 = { rank = 1 }
+		1957.2.1 = { rank = 2 }
+		1959.9.1 = { rank = 3 }
+		1962.8.1 = { rank = 4 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1609523 = {
+	name = "Anjem Hadi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.12.1 = { rank = 1 }
+		1964.9.1 = { rank = 2 }
+		1965.4.1 = { rank = 0 }
+	}
+}
+1609524 = {
+	name = "Abdul Qayyum Najjar"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1965.4.1 = { rank = 2 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1609503 = {
+	name = "Jalal ad-Din Harari"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.3.1 = { rank = 0 }
+	}
+}
+1609527 = {
+	name = "Bilel Shanzay"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.3.1 = { rank = 1 }
+		1968.1.1 = { rank = 0 }
+	}
+}
+1609528 = {
+	name = "Ramzi Akkad"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.1.1 = { rank = 1 }
+		1969.10.1 = { rank = 0 }
+	}
+}
+1609522 = {
+	name = "Safi al-Din Fawzi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.8.1 = { rank = 1 }
+		1963.12.1 = { rank = 2 }
+		1964.9.1 = { rank = 3 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1609526 = {
+	name = "Hashim Naceri"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.10.1 = { rank = 1 }
+		1970.10.1 = { rank = 2 }
+		1971.10.1 = { rank = 0 }
+	}
+}
+1609521 = {
+	name = "Haldun Gheisari"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.6.1 = { rank = 1 }
+		1972.10.1 = { rank = 0 }
+	}
+}
+1609530 = {
+	name = "Murtaza Badawi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1970.10.1 = { rank = 1 }
+		1971.10.1 = { rank = 2 }
+		1973.10.1 = { rank = 0 }
+	}
+}
+1609520 = {
+	name = "Jabal Qasim"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1960.3.1 = { rank = 1 }
+		1974.9.1 = { rank = 0 }
+	}
+}
+1609532 = {
+	name = "Jubayr Barghouti"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1972.10.1 = { rank = 1 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1609531 = {
+	name = "Ramiz Al-Masri"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.10.1 = { rank = 1 }
+		1976.5.1 = { rank = 0 }
+	}
+}
+1609525 = {
+	name = "Shafiqullah Al-Mansur"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.4.1 = { rank = 1 }
+		1966.10.1 = { rank = 2 }
+		1970.10.1 = { rank = 3 }
+		1977.7.1 = { rank = 0 }
+	}
+}
+1609515 = {
+	name = "Zane Al-Shahrani"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.10.1 = { rank = 1 }
+		1962.8.1 = { rank = 2 }
+		1963.12.1 = { rank = 3 }
+		1964.9.1 = { rank = 4 }
+		1978.3.1 = { rank = 0 }
+	}
+}
+1609537 = {
+	name = "Najm Al-Turk"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.7.1 = { rank = 1 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1609533 = {
+	name = "Quddus Hannachi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1973.10.1 = { rank = 1 }
+		1977.7.1 = { rank = 2 }
+		1978.3.1 = { rank = 3 }
+		1980.4.1 = { rank = 0 }
+	}
+}
+1609529 = {
+	name = "Shukri Barad"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.10.1 = { rank = 1 }
+		1973.10.1 = { rank = 2 }
+		1977.7.1 = { rank = 3 }
+		1978.3.1 = { rank = 4 }
+		1981.1.1 = { rank = 0 }
+	}
+}
+1609540 = {
+	name = "Najm Gul"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.4.1 = { rank = 1 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1609535 = {
+	name = "Shams Sadir"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1975.2.1 = { rank = 1 }
+		1981.1.1 = { rank = 2 }
+		1983.12.1 = { rank = 0 }
+	}
+}
+1609542 = {
+	name = "Ishtiaq El-Shennawi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.12.1 = { rank = 1 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1609544 = {
+	name = "Abu Nahyan"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.8.1 = { rank = 1 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1609534 = {
+	name = "Habib Karim"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1974.9.1 = { rank = 1 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1609543 = {
+	name = "Kadeem Abbas"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1983.12.1 = { rank = 1 }
+		1987.1.1 = { rank = 0 }
+	}
+}
+1609547 = {
+	name = "Sa'd al-Din Handal"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.1.1 = { rank = 1 }
+		1988.6.1 = { rank = 0 }
+	}
+}
+1609546 = {
+	name = "Moncef Najibullah"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1986.11.1 = { rank = 1 }
+		1989.11.1 = { rank = 0 }
+	}
+}
+1609536 = {
+	name = "Jihan Maqdisi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.5.1 = { rank = 1 }
+		1978.3.1 = { rank = 2 }
+		1980.4.1 = { rank = 3 }
+		1981.1.1 = { rank = 4 }
+		1990.11.1 = { rank = 0 }
+	}
+}
+1609519 = {
+	name = "Abdur Razzaq Yusuf"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1959.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609538 = {
+	name = "Hajji Spanish-Moors"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.3.1 = { rank = 1 }
+		1980.4.1 = { rank = 2 }
+		1981.1.1 = { rank = 3 }
+		1990.11.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609539 = {
+	name = "Abd al-Uzza Basri"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.12.1 = { rank = 1 }
+		1983.12.1 = { rank = 2 }
+		1990.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609541 = {
+	name = "Abdul Basir Nazif"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609545 = {
+	name = "Faizullah Sidqi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1985.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609548 = {
+	name = "Ahsan Hannachi"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.6.1 = { rank = 1 }
+		1990.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609549 = {
+	name = "Rashid al-Din Wahed"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609550 = {
+	name = "Nadeem Bahjat"
+	type = land
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609553 = {
+	name = "Zeeshan Rajab"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1609556 = {
+	name = "Waleed Farooq"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1609558 = {
+	name = "Asil Masoud"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1609561 = {
+	name = "Adham Ahmadi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1953.8.1 = { rank = 1 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1609551 = {
+	name = "Hamdan Sadr"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1609557 = {
+	name = "Ali Naqi Abbas"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.8.1 = { rank = 4 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1609563 = {
+	name = "Salah Sahrawi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1962.4.1 = { rank = 0 }
+	}
+}
+1609562 = {
+	name = "Zahed Ismat"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.8.1 = { rank = 1 }
+		1964.11.1 = { rank = 0 }
+	}
+}
+1609565 = {
+	name = "Ramzan Taha"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.4.1 = { rank = 1 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1609559 = {
+	name = "Nasir al-Din Trabelsi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.2.1 = { rank = 1 }
+		1962.10.1 = { rank = 2 }
+		1970.8.1 = { rank = 0 }
+	}
+}
+1609552 = {
+	name = "Hidayatullah Amr"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.10.1 = { rank = 2 }
+		1953.8.1 = { rank = 3 }
+		1962.10.1 = { rank = 4 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1609560 = {
+	name = "Samad Bashour"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.10.1 = { rank = 1 }
+		1971.5.1 = { rank = 2 }
+		1973.10.1 = { rank = 0 }
+	}
+}
+1609570 = {
+	name = "Hilmi Gamil"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.10.1 = { rank = 1 }
+		1978.4.1 = { rank = 0 }
+	}
+}
+1609554 = {
+	name = "Masoud Baba"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.8.1 = { rank = 2 }
+		1971.5.1 = { rank = 3 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1609568 = {
+	name = "Shawki Naseeb"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.8.1 = { rank = 1 }
+		1982.7.1 = { rank = 0 }
+	}
+}
+1609573 = {
+	name = "Murtaza Naderi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1982.7.1 = { rank = 1 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1609555 = {
+	name = "Ismatullah Nasr"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.8.1 = { rank = 2 }
+		1962.10.1 = { rank = 3 }
+		1971.5.1 = { rank = 4 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1609566 = {
+	name = "Nasir Rizvi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.11.1 = { rank = 1 }
+		1987.4.1 = { rank = 0 }
+	}
+}
+1609574 = {
+	name = "Rizqallah Nafti"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1988.11.1 = { rank = 0 }
+	}
+}
+1609569 = {
+	name = "Redouane Tahir"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1982.2.1 = { rank = 2 }
+		1986.12.1 = { rank = 3 }
+		1989.6.1 = { rank = 0 }
+	}
+}
+1609571 = {
+	name = "Salman Khattab"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.4.1 = { rank = 1 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1609564 = {
+	name = "Rushdi Sultan"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.10.1 = { rank = 1 }
+		1989.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609567 = {
+	name = "Bakir Hindawi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1966.3.1 = { rank = 1 }
+		1973.10.1 = { rank = 2 }
+		1982.2.1 = { rank = 3 }
+		1986.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609572 = {
+	name = "Safi al-Din Abbas"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1986.12.1 = { rank = 2 }
+		1989.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609575 = {
+	name = "Abu Omar Nawawi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1986.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609576 = {
+	name = "Najm al-Din Yasin"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609577 = {
+	name = "Boutros Kazmi"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1988.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609578 = {
+	name = "Sarmad Hayek"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1989.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609579 = {
+	name = "Azim Latif"
+	type = sea
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = seawolf
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609584 = {
+	name = "Najm Dandachi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1609581 = {
+	name = "Redouane Adham"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1609590 = {
+	name = "Rashid Nawawi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1609580 = {
+	name = "Mukhtar Rashid"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1609591 = {
+	name = "Faqir Muhammad"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1949.4.1 = { rank = 1 }
+		1950.9.1 = { rank = 0 }
+	}
+}
+1609589 = {
+	name = "Jamil Abbas"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1948.7.1 = { rank = 1 }
+		1951.12.1 = { rank = 0 }
+	}
+}
+1609582 = {
+	name = "Waad Qarni"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.1.1 = { rank = 0 }
+	}
+}
+1609593 = {
+	name = "Furkan Nasser"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1950.9.1 = { rank = 1 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1609595 = {
+	name = "Anwar Nami"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.1.1 = { rank = 1 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1609596 = {
+	name = "Imad al-Din Qarni"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.2.1 = { rank = 1 }
+		1957.7.1 = { rank = 0 }
+	}
+}
+1609586 = {
+	name = "Abdul Mannan Azim"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1609585 = {
+	name = "Hamidullah Al-Zahabi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1609588 = {
+	name = "Fikri Ahmad"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1609594 = {
+	name = "Naji Al-Atassi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.12.1 = { rank = 1 }
+		1964.5.1 = { rank = 0 }
+	}
+}
+1609587 = {
+	name = "Zakariya Rizvi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1964.9.1 = { rank = 4 }
+		1965.5.1 = { rank = 0 }
+	}
+}
+1609598 = {
+	name = "Wajid Nader"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.7.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1609603 = {
+	name = "Nabil Hatem"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1965.5.1 = { rank = 1 }
+		1966.7.1 = { rank = 0 }
+	}
+}
+1609602 = {
+	name = "Yusuf Ali Jabr"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1964.5.1 = { rank = 1 }
+		1967.6.1 = { rank = 0 }
+	}
+}
+1609605 = {
+	name = "Imtiaz Munir"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1966.7.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1609597 = {
+	name = "Kulthum Najibullah"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1955.9.1 = { rank = 1 }
+		1965.5.1 = { rank = 2 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1609599 = {
+	name = "Abd Rabbo Al-Tusi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1957.9.1 = { rank = 1 }
+		1959.5.1 = { rank = 2 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1609607 = {
+	name = "Adham Al-Mansur"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1972.3.1 = { rank = 0 }
+	}
+}
+1609610 = {
+	name = "Zeeshan Al-Balawi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.3.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1609600 = {
+	name = "Ihsan Muhammad"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1959.5.1 = { rank = 1 }
+		1964.9.1 = { rank = 2 }
+		1965.5.1 = { rank = 3 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1609609 = {
+	name = "Abdul Azim Çelebi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.11.1 = { rank = 1 }
+		1976.3.1 = { rank = 0 }
+	}
+}
+1609604 = {
+	name = "Talat Attar"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.1.1 = { rank = 1 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1609601 = {
+	name = "Abdur Razzaq Tantawi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1975.9.1 = { rank = 2 }
+		1978.5.1 = { rank = 0 }
+	}
+}
+1609614 = {
+	name = "Qasim Yahya"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1977.6.1 = { rank = 1 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1609612 = {
+	name = "Abu'l Qasim Nami"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1975.9.1 = { rank = 1 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1609613 = {
+	name = "Yunus Hariri"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1976.3.1 = { rank = 1 }
+		1984.11.1 = { rank = 0 }
+	}
+}
+1609592 = {
+	name = "Muzaffar Ismail"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.1.1 = { rank = 1 }
+		1957.9.1 = { rank = 2 }
+		1964.9.1 = { rank = 3 }
+		1965.5.1 = { rank = 4 }
+		1986.2.1 = { rank = 0 }
+	}
+}
+1609583 = {
+	name = "Marwan Abbasi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609606 = {
+	name = "Zainal Handal"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.6.1 = { rank = 1 }
+		1968.4.1 = { rank = 2 }
+		1986.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609608 = {
+	name = "Hichem Al-Mansur"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1968.4.1 = { rank = 1 }
+		1970.11.1 = { rank = 2 }
+		1975.9.1 = { rank = 3 }
+		1986.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609611 = {
+	name = "Saif al-Din Sidqi"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1978.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609615 = {
+	name = "Abdur Raqib Al-Samarrai"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609616 = {
+	name = "Alaa Yasin"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1982.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609617 = {
+	name = "Taj al-Din Kaddouri"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609618 = {
+	name = "Farhat Kayyali"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	history = {
+		1984.11.1 = { rank = 1 }
+		1986.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1609619 = {
+	name = "Sarmad Hikmat"
+	type = air
+	country = GZS
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

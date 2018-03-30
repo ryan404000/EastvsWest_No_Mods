@@ -1,0 +1,1008 @@
+color = { 119  130  145 }
+graphical_culture = Soviet
+
+default_templates = {
+	SOV_guards_airborne_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	SOV_tank_division = {
+		armor_brigade
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade		
+	}
+	SOV_cavalry_division = {
+		cavalry_brigade
+		cavalry_brigade
+		cavalry_brigade
+		cavalry_brigade		
+		sp_artillery_brigade
+	}
+	SOV_guards_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade		
+	}
+	SOV_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade		
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	SOV_motor_rifle_division = {
+		motorized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	SOV_guards_rifle_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade			
+		artillery_brigade
+	}
+	SOV_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	SOV_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	SOV_rifle_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade			
+		artillery_brigade
+	}
+} 
+unit_names ={
+	supercarrier = {
+		"VMS Brandenburg" "VMS Mecklenburg-Vorpommern" "VMS Sachsen" "VMS Sachsen-Anhalt" "VMS Thüringen"
+		}	
+	carrier = {
+		"VMS Karl Marx" "VMS Friedrich Engels" "VMS Kurt Barthel" "VMS Karl Liebknecht"	"VMS Heinz Kapelle" "VMS Rosa Luxemburg" "VMS Walter Ulbrecht" "VMS Walter Steffens" "VMS Stephan Jantzen" "VMS Wilhelm Pieck" 
+		}
+	escort_carrier = {
+		"VMS Karl Marx" "VMS Friedrich Engels" "VMS Kurt Barthel" "VMS Karl Liebknecht"	"VMS Heinz Kapelle" "VMS Rosa Luxemburg" "VMS Walter Ulbrecht" "VMS Walter Steffens" "VMS Stephan Jantzen" "VMS Wilhelm Pieck" 
+		}	
+	helicopter_carrier = {
+		"VMS Karl Marx" "VMS Friedrich Engels" "VMS Kurt Barthel" "VMS Karl Liebknecht"	"VMS Heinz Kapelle" "VMS Rosa Luxemburg" "VMS Walter Ulbrecht" "VMS Walter Steffens" "VMS Stephan Jantzen" "VMS Wilhelm Pieck" 
+		}		
+	battleship = {
+		"VMS Brandenburg" "VMS Mecklenburg-Vorpommern" "VMS Sachsen" "VMS Sachsen-Anhalt" "VMS Thüringen"
+		}
+	nuclear_battlecruiser = {
+		"VMS Brandenburg" "VMS Mecklenburg-Vorpommern" "VMS Sachsen" "VMS Sachsen-Anhalt" "VMS Thüringen"
+	}	
+	nuclear_missile_cruiser = {
+		"VMS Berlin" "VMS Cottbus" "VMS Dresden" "VMS Görlitz" "VMS Erfurt" "VMS Weimar" "VMS Frankfurt" "VMS Eisenhüttenstadt" "VMS Schwedt" "VMS Gera"
+		"VMS Jena" "VMS Halle" "VMS Dessau" "VMS Halle-Neustadt" "VMS Karl-Marx-Stadt" "VMS Plauen" "VMS Zwickau" "VMS Johanngeorgenstadt" "VMS Schneeberg" "VMS Leipzig"
+		"VMS Magdeburg" "VMS Neubrandenburg" "VMS Potsdam" "VMS Brandenburg an der Havel" "VMS Rostock" "VMS Greifswald" "VMS Stralsund" "VMS Wismar" "VMS Schwerin" "VMS Suhl" 
+	}	
+	missile_cruiser = {
+		"VMS Berlin" "VMS Cottbus" "VMS Dresden" "VMS Görlitz" "VMS Erfurt" "VMS Weimar" "VMS Frankfurt" "VMS Eisenhüttenstadt" "VMS Schwedt" "VMS Gera"
+		"VMS Jena" "VMS Halle" "VMS Dessau" "VMS Halle-Neustadt" "VMS Karl-Marx-Stadt" "VMS Plauen" "VMS Zwickau" "VMS Johanngeorgenstadt" "VMS Schneeberg" "VMS Leipzig"
+		"VMS Magdeburg" "VMS Neubrandenburg" "VMS Potsdam" "VMS Brandenburg an der Havel" "VMS Rostock" "VMS Greifswald" "VMS Stralsund" "VMS Wismar" "VMS Schwerin" "VMS Suhl" 
+	}
+	cruiser = {
+		"VMS Berlin" "VMS Cottbus" "VMS Dresden" "VMS Görlitz" "VMS Erfurt" "VMS Weimar" "VMS Frankfurt" "VMS Eisenhüttenstadt" "VMS Schwedt" "VMS Gera"
+		"VMS Jena" "VMS Halle" "VMS Dessau" "VMS Halle-Neustadt" "VMS Karl-Marx-Stadt" "VMS Plauen" "VMS Zwickau" "VMS Johanngeorgenstadt" "VMS Schneeberg" "VMS Leipzig"
+		"VMS Magdeburg" "VMS Neubrandenburg" "VMS Potsdam" "VMS Brandenburg an der Havel" "VMS Rostock" "VMS Greifswald" "VMS Stralsund" "VMS Wismar" "VMS Schwerin" "VMS Suhl" 
+	}
+	missile_destroyer = {
+		"VMS Berlin" "VMS Cottbus" "VMS Dresden" "VMS Görlitz" "VMS Erfurt" "VMS Weimar" "VMS Frankfurt" "VMS Eisenhüttenstadt" "VMS Schwedt" "VMS Gera"
+		"VMS Jena" "VMS Halle" "VMS Dessau" "VMS Halle-Neustadt" "VMS Karl-Marx-Stadt" "VMS Plauen" "VMS Zwickau" "VMS Johanngeorgenstadt" "VMS Schneeberg" "VMS Leipzig"
+		"VMS Magdeburg" "VMS Neubrandenburg" "VMS Potsdam" "VMS Brandenburg an der Havel" "VMS Rostock" "VMS Greifswald" "VMS Stralsund" "VMS Wismar" "VMS Schwerin" "VMS Suhl" 
+	}
+	destroyer = {
+		"1. Zerstörer Geschwader" "2. Zerstörer Geschwader" "3. Zerstörer Geschwader" "4. Zerstörer Geschwader"	"5. Zerstörer Geschwader" "6. Zerstörer Geschwader" "7. Zerstörer Geschwader" "8. Zerstörer Geschwader" "9. Zerstörer Geschwader" "10. Zerstörer Geschwader"
+		"11. Zerstörer Geschwader" "12. Zerstörer Geschwader" "13. Zerstörer Geschwader" "14. Zerstörer Geschwader" "15. Zerstörer Geschwader" "16. Zerstörer Geschwader" "17. Zerstörer Geschwader" "18. Zerstörer Geschwader" "19. Zerstörer Geschwader" "20. Zerstörer Geschwader"
+		"21. Zerstörer Geschwader" "22. Zerstörer Geschwader" "23. Zerstörer Geschwader" "24. Zerstörer Geschwader" "25. Zerstörer Geschwader" "26. Zerstörer Geschwader" "27. Zerstörer Geschwader" "28. Zerstörer Geschwader" "29. Zerstörer Geschwader" "30. Zerstörer Geschwader"
+		"31. Zerstörer Geschwader" "32. Zerstörer Geschwader" "33. Zerstörer Geschwader" "34. Zerstörer Geschwader" "35. Zerstörer Geschwader" "36. Zerstörer Geschwader" "37. Zerstörer Geschwader" "38. Zerstörer Geschwader" "39. Zerstörer Geschwader" "40. Zerstörer Geschwader"
+		"41. Zerstörer Geschwader" "42. Zerstörer Geschwader" "43. Zerstörer Geschwader" "44. Zerstörer Geschwader" "45. Zerstörer Geschwader" "46. Zerstörer Geschwader" "47. Zerstörer Geschwader" "48. Zerstörer Geschwader" "49. Zerstörer Geschwader" "50. Zerstörer Geschwader"
+		}
+	missile_frigate = {
+		"VMS Ernst Thälmann" "VMS Karl Marx" "VMS Karl Liebknecht" "VMS Friedrich Engels" "VMS Rostock" "VMS Halle" "VMS Wismar" "VMS Lubz" "VMS Teterow" "VMS Gadebush" "VMS Grevesmuhlen" 
+		"VMS Parchim" "VMS Prenzlau" "VMS Perleberg" "VMS Butzow" "VMS Bad Doberan" "VMS Gustrow" "VMS Waren" "VMS Ludwigslust" "VMS Ribnitz-Damgarten" 
+		"VMS Bergen" "VMS Angermunde"
+	}	
+	missile_boat = {
+		"1. Flugkörperschnellboot Flottille" "2. Flugkörperschnellboot Flottille" "3. Flugkörperschnellboot Flottille" "4. Flugkörperschnellboot Flottille" "5. Flugkörperschnellboot Flottille" "6. Flugkörperschnellboot Flottille" "7. Flugkörperschnellboot Flottille" "9. Flugkörperschnellboot Flottille" "10. Flugkörperschnellboot Flottille"
+		"11. Flugkörperschnellboot Flottille" "12. Flugkörperschnellboot Flottille" "13. Flugkörperschnellboot Flottille" "14. Flugkörperschnellboot Flottille" "15. Flugkörperschnellboot Flottille" "16. Flugkörperschnellboot Flottille" "17. Flugkörperschnellboot Flottille" "18. Flugkörperschnellboot Flottille" "19. Flugkörperschnellboot Flottille" "20. Flugkörperschnellboot Flottille"
+		"21. Flugkörperschnellboot Flottille" "22. Flugkörperschnellboot Flottille" "23. Flugkörperschnellboot Flottille" "24. Flugkörperschnellboot Flottille" "25. Flugkörperschnellboot Flottille"	
+		"1. Korvette Flottille" "2. Korvette Flottille" "3. Korvette Flottille" "4. Korvette Flottille" "5. Korvette Flottille" "6. Korvette Flottille" "7. Korvette Flottille" "9. Korvette Flottille" "10. Korvette Flottille"
+		"11. Korvette Flottille" "12. Korvette Flottille" "13. Korvette Flottille" "14. Korvette Flottille" "15. Korvette Flottille" "16. Korvette Flottille" "17. Korvette Flottille" "18. Korvette Flottille" "19. Korvette Flottille" "20. Korvette Flottille"
+		"21. Korvette Flottille" "22. Korvette Flottille" "23. Korvette Flottille" "24. Korvette Flottille" "25. Korvette Flottille"
+		}
+	submarine = {
+		"1. Unterseeboots Flottille" "2. Unterseeboots Flottille" "3. Unterseeboots Flottille" "4. Unterseeboots Flottille" "5. Unterseeboots Flottille" "6. Unterseeboots Flottille" "7. Unterseeboots Flottille" "9. Unterseeboots Flottille" "10. Unterseeboots Flottille"
+		"11. Unterseeboots Flottille" "12. Unterseeboots Flottille" "13. Unterseeboots Flottille" "14. Unterseeboots Flottille" "15. Unterseeboots Flottille" "16. Unterseeboots Flottille" "17. Unterseeboots Flottille" "18. Unterseeboots Flottille" "19. Unterseeboots Flottille" "20. Unterseeboots Flottille"
+		"21. Unterseeboots Flottille" "22. Unterseeboots Flottille" "23. Unterseeboots Flottille" "24. Unterseeboots Flottille" "25. Unterseeboots Flottille" "26. Unterseeboots Flottille" "27. Unterseeboots Flottille" "28. Unterseeboots Flottille" "29. Unterseeboots Flottille" "30. Unterseeboots Flottille"
+		"31. Unterseeboots Flottille" "32. Unterseeboots Flottille" "33. Unterseeboots Flottille" "34. Unterseeboots Flottille" "35. Unterseeboots Flottille" "36. Unterseeboots Flottille" "37. Unterseeboots Flottille" "38. Unterseeboots Flottille" "39. Unterseeboots Flottille" "40. Unterseeboots Flottille"
+		"41. Unterseeboots Flottille" "42. Unterseeboots Flottille" "43. Unterseeboots Flottille" "44. Unterseeboots Flottille" "45. Unterseeboots Flottille" "46. Unterseeboots Flottille" "47. Unterseeboots Flottille" "48. Unterseeboots Flottille" "49. Unterseeboots Flottille" "50. Unterseeboots Flottille"
+		}
+	attack_submarine = {
+		"VMS U-1" "VMS U-2" "VMS U-3" "VMS U-4" "VMS U-5" "VMS U-6" "VMS U-7" "VMS U-8" "VMS U-9" "VMS U-10"
+		"VMS U-11" "VMS U-12" "VMS U-13" "VMS U-14" "VMS U-15" "VMS U-16" "VMS U-17" "VMS U-18" "VMS U-19" "VMS U-20"
+		"VMS U-21" "VMS U-22" "VMS U-23" "VMS U-24" "VMS U-25" "VMS U-26" "VMS U-27" "VMS U-28" "VMS U-29" "VMS U-30"
+		"VMS U-31" "VMS U-32" "VMS U-33" "VMS U-34" "VMS U-35" "VMS U-36" "VMS U-37" "VMS U-38" "VMS U-39" "VMS U-40"
+		"VMS U-41" "VMS U-42" "VMS U-43" "VMS U-44" "VMS U-45" "VMS U-46" "VMS U-47" "VMS U-48" "VMS U-49" "VMS U-50"		
+	}	
+	nuclear_submarine = {
+		"VMS U-1" "VMS U-2" "VMS U-3" "VMS U-4" "VMS U-5" "VMS U-6" "VMS U-7" "VMS U-8" "VMS U-9" "VMS U-10"
+		"VMS U-11" "VMS U-12" "VMS U-13" "VMS U-14" "VMS U-15" "VMS U-16" "VMS U-17" "VMS U-18" "VMS U-19" "VMS U-20"
+		"VMS U-21" "VMS U-22" "VMS U-23" "VMS U-24" "VMS U-25" "VMS U-26" "VMS U-27" "VMS U-28" "VMS U-29" "VMS U-30"
+		"VMS U-31" "VMS U-32" "VMS U-33" "VMS U-34" "VMS U-35" "VMS U-36" "VMS U-37" "VMS U-38" "VMS U-39" "VMS U-40"
+		"VMS U-41" "VMS U-42" "VMS U-43" "VMS U-44" "VMS U-45" "VMS U-46" "VMS U-47" "VMS U-48" "VMS U-49" "VMS U-50"	
+	}	
+	guided_submarine = {
+		"VMS U-1" "VMS U-2" "VMS U-3" "VMS U-4" "VMS U-5" "VMS U-6" "VMS U-7" "VMS U-8" "VMS U-9" "VMS U-10"
+		"VMS U-11" "VMS U-12" "VMS U-13" "VMS U-14" "VMS U-15" "VMS U-16" "VMS U-17" "VMS U-18" "VMS U-19" "VMS U-20"
+		"VMS U-21" "VMS U-22" "VMS U-23" "VMS U-24" "VMS U-25" "VMS U-26" "VMS U-27" "VMS U-28" "VMS U-29" "VMS U-30"
+		"VMS U-31" "VMS U-32" "VMS U-33" "VMS U-34" "VMS U-35" "VMS U-36" "VMS U-37" "VMS U-38" "VMS U-39" "VMS U-40"
+		"VMS U-41" "VMS U-42" "VMS U-43" "VMS U-44" "VMS U-45" "VMS U-46" "VMS U-47" "VMS U-48" "VMS U-49" "VMS U-50"
+	}	
+	nuclear_guided_submarine = {
+		"VMS U-1" "VMS U-2" "VMS U-3" "VMS U-4" "VMS U-5" "VMS U-6" "VMS U-7" "VMS U-8" "VMS U-9" "VMS U-10"
+		"VMS U-11" "VMS U-12" "VMS U-13" "VMS U-14" "VMS U-15" "VMS U-16" "VMS U-17" "VMS U-18" "VMS U-19" "VMS U-20"
+		"VMS U-21" "VMS U-22" "VMS U-23" "VMS U-24" "VMS U-25" "VMS U-26" "VMS U-27" "VMS U-28" "VMS U-29" "VMS U-30"
+		"VMS U-31" "VMS U-32" "VMS U-33" "VMS U-34" "VMS U-35" "VMS U-36" "VMS U-37" "VMS U-38" "VMS U-39" "VMS U-40"
+		"VMS U-41" "VMS U-42" "VMS U-43" "VMS U-44" "VMS U-45" "VMS U-46" "VMS U-47" "VMS U-48" "VMS U-49" "VMS U-50"
+	}	
+	ballistic_missile_submarine = {
+		"VMS U-1" "VMS U-2" "VMS U-3" "VMS U-4" "VMS U-5" "VMS U-6" "VMS U-7" "VMS U-8" "VMS U-9" "VMS U-10"
+		"VMS U-11" "VMS U-12" "VMS U-13" "VMS U-14" "VMS U-15" "VMS U-16" "VMS U-17" "VMS U-18" "VMS U-19" "VMS U-20"
+		"VMS U-21" "VMS U-22" "VMS U-23" "VMS U-24" "VMS U-25" "VMS U-26" "VMS U-27" "VMS U-28" "VMS U-29" "VMS U-30"
+		"VMS U-31" "VMS U-32" "VMS U-33" "VMS U-34" "VMS U-35" "VMS U-36" "VMS U-37" "VMS U-38" "VMS U-39" "VMS U-40"
+		"VMS U-41" "VMS U-42" "VMS U-43" "VMS U-44" "VMS U-45" "VMS U-46" "VMS U-47" "VMS U-48" "VMS U-49" "VMS U-50"
+	}	
+	transport_ship = {
+		"1. Truppentransporter Flottille" "2. Truppentransporter Flottille" "3. Truppentransporter Flottille" "4. Truppentransporter Flottille" "5. Truppentransporter Flottille" "6. Truppentransporter Flottille" "7. Truppentransporter Flottille" "8. Truppentransporter Flottille" "9. Truppentransporter Flottille" "10. Truppentransporter Flottille"
+		"11. Truppentransporter Flottille" "12. Truppentransporter Flottille" "13. Truppentransporter Flottille" "14. Truppentransporter Flottille" "15. Truppentransporter Flottille" "16. Truppentransporter Flottille" "17. Truppentransporter Flottille" "18. Truppentransporter Flottille" "19. Truppentransporter Flottille" "20. Truppentransporter Flottille"
+		"21. Truppentransporter Flottille" "22. Truppentransporter Flottille" "23. Truppentransporter Flottille" "24. Truppentransporter Flottille" "25. Truppentransporter Flottille" "26. Truppentransporter Flottille" "27. Truppentransporter Flottille" "28. Truppentransporter Flottille" "29. Truppentransporter Flottille" "30. Truppentransporter Flottille"
+		"31. Truppentransporter Flottille" "32. Truppentransporter Flottille" "33. Truppentransporter Flottille" "34. Truppentransporter Flottille" "35. Truppentransporter Flottille" "36. Truppentransporter Flottille" "37. Truppentransporter Flottille" "38. Truppentransporter Flottille" "39. Truppentransporter Flottille" "40. Truppentransporter Flottille"
+		"41. Truppentransporter Flottille" "42. Truppentransporter Flottille" "43. Truppentransporter Flottille" "44. Truppentransporter Flottille" "45. Truppentransporter Flottille" "46. Truppentransporter Flottille" "47. Truppentransporter Flottille" "48. Truppentransporter Flottille" "49. Truppentransporter Flottille" "50. Truppentransporter Flottille"
+	}
+} 
+ministers = {
+	1170001 = {
+		name = "Wilhelm Pieck"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Wilhelm_Pieck
+		head_of_state = autocrat_type
+		head_of_government = administrator_type
+		start_date = 1945.1.1
+		death_date = 1960.7.5
+		base = 1170001
+	}
+	1170002 = {
+		name = "Johannes Dieckmann"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = DDR_Johannes_Dieckmann
+		head_of_state = administrator_type
+		head_of_government = bureaucrat_type
+		start_date = 1949.1.1
+		death_date = 1960.7.5
+		base = 1170002
+	}
+	1170003 = {
+		name = "Walter Ulbricht"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Walter_Ulbricht
+		head_of_state = traditionalist_type
+		start_date = 1960.9.1
+		death_date = 1973.8.12
+		base = 1170003
+	}
+	1170004 = {
+		name = "Willi Stoph"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Willi_Stoph
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1973.10.3
+		death_date = 1976.10.29
+		base = 1170004
+	}
+	1170005 = {
+		name = "Erich Honecker"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Erich_Honecker
+		head_of_state = autocrat_type
+		start_date = 1976.10.29
+		death_date = 1989.10.18
+		base = 1170005
+	}
+	1170006 = {
+		name = "Egon Krenz"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Egon_Krenz
+		head_of_state = traditionalist_type
+		start_date = 1989.10.18
+		death_date = 1989.12.6
+		base = 1170006
+	}
+	1170007 = {
+		name = "Manfred Gerlach"
+		ideology = market_liberal_idolg
+		loyalty = 0.90
+		picture = DDR_Manfred_Gerlach
+		head_of_state = lethargic_type
+		start_date = 1953.1.1
+		death_date = 1992.1.1
+		base = 1170007
+	}
+	#1170147
+	
+	1170008 = {
+		name = "Sabine Bergmann-Pohl"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = DDR_Sabine_Bergmann
+		head_of_state = democrat_type
+		start_date = 1990.10.6
+		death_date = 1992.4.5
+		base = 1170008
+	}
+	1170009 = {
+		name = "Otto Grotewohl"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Otto_Grotewohl
+		head_of_government = democrat_type
+		start_date = 1949.1.1
+		death_date = 1964.7.5
+		base = 1170009
+	}
+	1170010 = {
+		name = "Horst Sindermann"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Horst_Sindermann
+		head_of_government = reformer_type
+		start_date = 1973.10.3
+		death_date = 1976.10.29
+		base = 1170010
+	}
+	1170011 = {
+		name = "Hans Modrow"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = DDR_Hans_Modrow
+		head_of_government = reformer_type
+		start_date = 1989.11.13
+		death_date = 1990.4.12
+		base = 1170011
+	}
+	1170012 = {
+		name = "Lothar de Maizière"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = DDR_M_de_Maiziere_Lothar
+		head_of_government = democrat_type
+		start_date = 1990.11.13
+		death_date = 1992.4.12
+		base = 1170012
+	}
+	
+	#WATW ----------------------------------
+	1170113 = { #P
+		name = "Niks Sims"
+		ideology = market_liberal_idolg
+		loyalty = 0.25
+		picture = DDR_M_Sims_Niks
+		head_of_government = ambitious_type
+		start_date = 1973.1.1
+		death_date = 1991.12.31
+		base = 1170113
+	}
+	1170114 = {
+		name = "Rainer Ortleb"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = DDR_M_Ortleb_Rainer
+		head_of_government = reformer_type
+		start_date = 1989.1.1
+		death_date = 1991.12.31
+		base = 1170114
+	}
+	1170115 = { #Monarch
+		name = "Friedrich Christian"
+		ideology = paternal_auto_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = DDR_M_Christian_Friedrich
+		head_of_state = visionary_type
+		start_date = 1946.1.1
+		death_date = 1968.8.9
+		base = 1170115
+	}
+	1170116 = { #P
+		name = "Frederick Holst"
+		ideology = paternal_auto_idolg
+		loyalty = 0.25
+		picture = DDR_M_Holst_Frederick
+		head_of_state = supreme_leader
+		start_date = 1946.1.1
+		death_date = 1965.6.24
+		base = 1170116
+	}
+	1170117 = {
+		name = "Margot Honecker"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Honecker_Margot
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1963.1.1
+		death_date = 1989.1.1
+		base = 1170117
+	}
+	1170118 = {
+		name = "Gregor Gysi"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Gysi_Gregor
+		head_of_government = reformer_type
+		start_date = 1989.1.1
+		death_date = 1991.12.31
+		base = 1170118
+	}
+	1170119 = {
+		name = "Angela Merkel"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Merkel_Angela
+		head_of_government = traditionalist_type
+		start_date = 1988.1.1
+		death_date = 1991.12.31
+		base = 1170119
+	}
+	1170120 = {
+		name = "Erich Mielke"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Mielke_Erich
+		head_of_government = traditionalist_type
+		start_date = 1957.1.1
+		death_date = 1989.1.1
+		base = 1170120
+	}
+	1170121 = {
+		name = "Reinhard Schult"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Schult_Reinhard
+		head_of_government = moral_type
+		start_date = 1978.1.1
+		death_date = 1992.1.1
+		base = 1170121
+	}
+	#1170174
+	
+	1170122 = {
+		name = "Andreas Hermes"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Hermes_Andreas
+		head_of_government = reformer_type
+		start_date = 1945.1.1
+		death_date = 1964.4.1
+		base = 1170122
+	}
+	1170123 = {
+		name = "Hans-Wilhelm Ebeling"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Ebeling_Hans-Wilhelm
+		head_of_government = religious_type
+		start_date = 1984.1.1
+		death_date = 1991.12.31
+		base = 1170123
+	}
+	1170124 = {
+		name = "Walther Schreiber"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Schreiber_Walther
+		head_of_government = reformer_type
+		start_date = 1945.1.1
+		death_date = 1958.6.30
+		base = 1170124
+	}
+	1170125 = {
+		name = "Max Fechner"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = DDR_M_Fechner_Max
+		head_of_government = autocrat_type
+		start_date = 1945.1.1
+		death_date = 1973.1.1
+		base = 1170125
+	}
+	1170126 = { #P
+		name = "Heinrich Zieschang"
+		ideology = maoist_idolg
+		loyalty = 0.25
+		picture = DDR_M_Zieschang_Heinrich
+		head_of_state = supreme_leader
+		head_of_government = supreme_leader
+		start_date = 1960.5.10
+		death_date = 1999.5.10
+		base = 1170126
+	}
+	1170127 = { #P
+		name = "Bram von Apfeldornen"
+		ideology = communist_idolg
+		loyalty = 0.25
+		picture = DDR_M_von_Apfeldornen_Bram
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1973.9.17
+		death_date = 1991.9.17
+		base = 1170127
+	}
+	1170128 = {
+		name = "Friedrich Ebert Jr."
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = DDR_M_Ebert_Jr_Friedrich
+		head_of_government = administrator_type
+		start_date = 1946.1.1
+		death_date = 1979.12.4
+		base = 1170128
+	}
+	1170129 = {
+		name = "Kurt Hager"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Hager_Kurt
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1946.1.1
+		death_date = 1998.9.18
+		base = 1170129
+	}
+	1170130 = {
+		name = "Sigmund Jahn"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Jahn_Sigmund
+		head_of_state = honest_type
+		head_of_government = honest_type
+		start_date = 1978.3.9
+		death_date = 1990.3.10
+		base = 1170130
+	}
+	1170131 = {
+		name = "Ernst Niekisch"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = DDR_M_Niekisch_Ernst
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1945.1.1
+		death_date = 1967.5.27
+		base = 1170131
+	}
+	1170132 = {
+		name = "Heinrich Homann"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = DDR_M_Homann_Heinrich
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1946.1.1
+		death_date = 1991.12.31
+		base = 1170132
+	}
+	1170133 = {
+		name = "Vincenz Muller"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = DDR_M_Muller_Vincenz
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1946.1.1
+		death_date = 1961.5.12
+		base = 1170133
+	}
+	1170134 = {
+		name = "Heinz Kessler"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Kessler_Heinz
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1950.5.1
+		death_date = 2013.06.30
+		base = 1170134
+	}
+	1170135 = {
+		name = "Gunther Schabowski"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Schabowski_Gunter
+		head_of_state = lethargic_type
+		head_of_government = lethargic_type
+		start_date = 1985.4.4
+		death_date = 2020.5.3
+		base = 1170135
+	}
+	1170136 = { #P
+		name = "Sebastian Potz"
+		ideology = social_democrat_idolg
+		loyalty = 0.25
+		picture = DDR_M_Potz_Sebastian
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1961.12.11
+		death_date = 1991.12.31
+		base = 1170136
+	}
+	
+
+	1170137 = {
+		name = "Waldemar Verner"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Verner_Waldemar
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1957.1.1
+		death_date = 1978.12.31
+		base = 1170137
+	}
+	1170138 = {
+		name = "Heinz Hoffman"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Potz_Sebastian
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1950.1.1
+		death_date = 1985.12.2
+		base = 1170138
+	}
+	1170139 = {
+		name = "Oliver Schweigert"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = DDR_M_Schweigert_Oliver
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1986.1.1
+		death_date = 2004.1.1
+		base = 1170139
+	}
+	1170140 = {
+		name = "Arnulf Priem"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = DDR_M_Priem_Arnulf
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1967.1.1
+		death_date = 2020.1.1
+		base = 1170140
+	}
+	
+	1170141 = {
+		name = "Heinz Reiche"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = DDR_M_Reiche_Heinz
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1961.8.1
+		death_date = 1992.1.1
+		base = 1170141
+	}
+	1170142 = {
+		name = "Günther Stempel"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Stempel_Gunther
+		head_of_state = democrat_type
+		start_date = 1946.1.1
+		death_date = 1981.10.22
+		base = 1170142
+	}
+	1170143 = {
+		name = "Hermann Kastner"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Kastner_Hermann
+		head_of_government = bureaucrat_type
+		start_date = 1946.1.1
+		death_date = 1957.9.4
+		base = 1170143
+	}
+	1170144 = {
+		name = "Hugo Hickmann"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Hickmann_Hugo
+		head_of_state = zealous_type
+		start_date = 1946.1.1
+		death_date = 1955.5.30
+		base = 1170144
+	}
+	1170145 = {
+		name = "Jakob Kaiser"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Kaiser_Jakob
+		head_of_government = reputable_type
+		start_date = 1946.1.1
+		death_date = 1961.5.7
+		base = 1170145
+	}
+	1170146 = {
+		name = "Hans-Dietrich Genscher"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Genscher_Hans-Dietrich
+		head_of_government = ambitious_type
+		start_date = 1957.1.1
+		death_date = 1991.12.31
+		base = 1170146
+	}
+	
+	1170148 = {
+		name = "Albrecht Schönherr"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Schonherr_Albrecht
+		head_of_state = religious_type
+		start_date = 1967.1.1
+		death_date = 1991.12.31
+		base = 1170148
+	}
+	1170149 = {
+		name = "Rainer Eppelmann"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Eppelmann_Rainer
+		head_of_government = visionary_type
+		start_date = 1974.1.1
+		death_date = 1991.12.31
+		base = 1170149
+	}
+	
+	1170150 = {
+		name = "August Bach"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Bach_August
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1945.1.1
+		death_date = 1966.3.23
+		base = 1170150
+	}
+	1170151 = {
+		name = "Otto Nuschke"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Nuschke_Otto
+		head_of_state = autocrat_type
+		head_of_government = autocrat_type
+		start_date = 1945.1.1
+		death_date = 1957.1.1
+		base = 1170151
+	}
+	1170152 = {
+		name = "Gerald Götting"
+		ideology = social_cons_idolg
+		loyalty = 0.50
+		picture = DDR_M_Gotting_Gerald
+		head_of_state = religious_type
+		head_of_government = religious_type
+		start_date = 1966.1.1
+		death_date = 1989.1.1
+		base = 1170152
+	}
+	
+	1170153 = {
+		name = "Waldemar Koch"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Koch_Waldemar
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1945.1.1
+		death_date = 1956.1.1
+		base = 1170153
+	}
+	1170154 = {
+		name = "Wilhelm Külz"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Kulz_Wilhelm
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1945.1.1
+		death_date = 1948.4.10
+		base = 1170154
+	}
+	1170155 = {
+		name = "Arthur Lieutenant"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Lieutenant_Arthur
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1945.1.1
+		death_date = 1948.10.1
+		base = 1170155
+	}
+	1170156 = {
+		name = "Karl Hamann"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Hamann_Karl
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1946.1.1
+		death_date = 1952.12.1
+		base = 1170156
+	}
+	1170157 = {
+		name = "Hans Loch"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Loch_Hans
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1945.1.1
+		death_date = 1960.7.13
+		base = 1170157
+	}
+	1170158 = {
+		name = "Max Suhrbier"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Suhrbier_Max
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1945.1.1
+		death_date = 1967.1.1
+		base = 1170158
+	}
+	1170159 = {
+		name = "Rainer Ortleb"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Ortleb_Rainer
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1990.1.1
+		death_date = 1992.1.1
+		base = 1170159
+	}
+	
+	1170160 = {
+		name = "Stefan Heym"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Heym_Stefan
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1952.1.1
+		death_date = 1994.1.1
+		base = 1170160
+	}
+	1170161 = {
+		name = "Christa Wolf"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Wolf_Christa
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1949.1.1
+		death_date = 1992.1.1
+		base = 1170161
+	}
+	1170162 = {
+		name = "Robert Havemann"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Havemann_Robert
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1950.1.1
+		death_date = 1982.4.9
+		base = 1170162
+	}
+	1170163 = {
+		name = "Rudolf Bahro"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Bahro_Rudolf
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1967.1.1
+		death_date = 1992.1.1
+		base = 1170163
+	}
+	1170164 = {
+		name = "Lothar Bisky"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Bisky_Lothar
+		head_of_state = autocrat_type
+		head_of_government = autocrat_type
+		start_date = 1985.1.1
+		death_date = 1992.1.1
+		base = 1170164
+	}
+	
+	1170165 = {
+		name = "Ibrahim Böhme"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = DDR_M_Bohme_Ibrahim
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1985.1.1
+		death_date = 1992.1.1
+		base = 1170165
+	}
+	1170166 = {
+		name = "Markus Meckel"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = DDR_M_Meckel_Markus
+		head_of_state = religious_type
+		head_of_government = religious_type
+		start_date = 1977.1.1
+		death_date = 1992.1.1
+		base = 1170166
+	}
+	1170167 = {
+		name = "Martin Gutzeit"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = DDR_M_Gutzeit_Martin
+		head_of_state = religious_type
+		head_of_government = religious_type
+		start_date = 1977.1.1
+		death_date = 1992.1.1
+		base = 1170167
+	}
+	1170168 = {
+		name = "Wolfgang Thierse"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = DDR_M_Thierse_Wolfgang
+		head_of_state = reputable_type
+		head_of_government = reputable_type
+		start_date = 1980.1.1
+		death_date = 1992.1.1
+		base = 1170168
+	}
+	1170169 = {
+		name = "Jens Reich"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Reich_Jens
+		head_of_state = reputable_type
+		head_of_government = reputable_type
+		start_date = 1970.1.1
+		death_date = 1992.1.1
+		base = 1170169
+	}
+	
+	1170170 = {
+		name = "Marianne Birthler"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Birthler_Marianne
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1985.1.1
+		death_date = 1992.1.1
+		base = 1170170
+	}
+	1170171 = {
+		name = "Bärbel Bohley"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = DDR_M_Bohley_Barbel
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1985.1.1
+		death_date = 1992.1.1
+		base = 1170171
+	}
+	1170172 = {
+		name = "Ulrike Poppe"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Poppe_Ulrike
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1970.1.1
+		death_date = 1992.1.1
+		base = 1170172
+	}
+	1170173 = {
+		name = "Thomas Klein"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = DDR_M_Klein_Thomas
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1980.1.1
+		death_date = 1992.1.1
+		base = 1170173
+	}
+	
+	1170175 = {
+		name = "Arno von Lenski"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = DDR_M_Lenski_Arno
+		head_of_state = parental_type
+		head_of_government = parental_type
+		start_date = 1949.10.1
+		death_date = 1986.10.4
+		base = 1170175
+	}
+	1170176 = {
+		name = "Wilhelm Adam"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = DDR_M_Adam_Wilhelm
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1948.1.1
+		death_date = 1978.11.24
+		base = 1170176
+	}
+	1170177 = {
+		name = "Werner Winkler"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = DDR_M_Winkler_Werner
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1948.1.1
+		death_date = 1961.5.12
+		base = 1170177
+	}
+	1170178 = {
+		name = "Karlfranz Schmidt-Wittmack"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = DDR_M_Schmidt-Wittmack_Karlfranz
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1954.8.21
+		death_date = 1987.10.31
+		base = 1170178
+	}
+
+	
+	
+	
+}

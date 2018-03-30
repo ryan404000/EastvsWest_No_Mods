@@ -1,0 +1,15 @@
+name = "Vietnam War"
+
+1959.12.31 = {
+	add_attacker = USA
+	add_attacker = LAO
+	add_attacker = SVI
+	add_defender = DRV
+}
+
+1975.4.30 = {
+	rem_attacker = USA
+	rem_attacker = LAO
+	rem_attacker = SVI
+	rem_defender = DRV
+}

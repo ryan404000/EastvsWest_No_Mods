@@ -1,0 +1,157 @@
+theatre =
+{
+	name = "People's Army of Vietnam"
+	location = 11937
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Steel and Iron Army"
+		location = 11937
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "308th Pioneer Div."
+			location = 11937
+			regiment = { type = infantry_brigade name = "102nd Capital Brigade" historical_model = 1 strength = 37 experience = 62 }
+			regiment = { type = infantry_brigade name = "88th Tu Vu Brigade" historical_model = 0 strength = 34 experience = 52 }
+			regiment = { type = infantry_brigade name = "35th Brigade" historical_model = 1 strength = 35 experience = 40 }
+		}
+		division =
+		{
+			name = "312th Victory Div."
+			location = 12080
+			regiment = { type = infantry_brigade name = "11th Brigade" historical_model = 1 strength = 36 experience = 20 }
+			regiment = { type = militia_brigade name = "312th Victory Mil." historical_model = 0 strength = 38 experience = 20 }
+		}
+		division =
+		{
+			name = "304th Div."
+			location = 12290
+			regiment = { type = infantry_brigade name = "1st Inf. Brigade" historical_model = 2 strength = 38 experience = 40 }
+			regiment = { type = infantry_brigade name = "2nd Inf. Brigade" historical_model = 1 strength = 34 experience = 30 }
+			regiment = { type = infantry_brigade name = "3rd Inf. Brigade" historical_model = 0 strength = 35 experience = 40 }
+		}
+		division =
+		{
+			name = "316th Div."
+			location = 12151
+			regiment = { type = infantry_brigade name = "4th Inf. Brigade" historical_model = 0 strength = 38 experience = 20 }
+			regiment = { type = infantry_brigade name = "6th Inf. Brigade" historical_model = 1 strength = 34 experience = 30 }
+			regiment = { type = infantry_brigade name = "5th Inf. Brigade" historical_model = 0 strength = 35 experience = 20 }
+		}
+		division =
+		{
+			name = "320th Div."
+			location = 12079
+			regiment = { type = infantry_brigade name = "7th Inf. Brigade" historical_model = 0 strength = 38 experience = 20 }
+			regiment = { type = infantry_brigade name = "8th Inf. Brigade" historical_model = 1 strength = 39 experience = 25 }
+			regiment = { type = infantry_brigade name = "9th Inf. Brigade" historical_model = 1 strength = 39 experience = 20 }
+		}
+	}
+	army =
+	{
+		name = "People's Army Volunteers"
+		location = 12150
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "2nd People's Mil."
+			location = 12218
+			regiment = { type = militia_brigade name = "2nd People's Mil." historical_model = 1 strength = 35 experience = 21 }
+			regiment = { type = militia_brigade name = "8th People's Mil." historical_model = 0 strength = 35 experience = 21 }
+		}
+		division =
+		{
+			name = "1st People's Mil."
+			location = 12217
+			regiment = { type = militia_brigade name = "1st People's Mil." historical_model = 0 strength = 36 experience = 22 }
+			regiment = { type = militia_brigade name = "7th People's Mil." historical_model = 1 strength = 36 experience = 22 }
+		}
+		division =
+		{
+			name = "3rd People's Mil."
+			location = 12289
+			regiment = { type = militia_brigade name = "3rd People's Mil." historical_model = 0 strength = 37 experience = 23 }
+			regiment = { type = militia_brigade name = "6th People's Mil." historical_model = 1 strength = 37 experience = 23 }
+		}
+		division =
+		{
+			name = "4th People's Mil."
+			location = 12150
+			regiment = { type = militia_brigade name = "4th People's Mil." historical_model = 0 strength = 34 experience = 25 }
+			regiment = { type = militia_brigade name = "5th People's Mil." historical_model = 0 strength = 34 experience = 25 }
+		}
+		division =
+		{
+			name = "330th Div."
+			location = 12150
+			regiment = { type = infantry_brigade name = "11th Inf. Brigade" historical_model = 1 strength = 38 experience = 22 }
+			regiment = { type = infantry_brigade name = "12th Inf. Brigade" historical_model = 0 strength = 39 experience = 21 }
+			regiment = { type = infantry_brigade name = "14th Inf. Brigade" historical_model = 0 strength = 39 experience = 21 }
+		}
+	}
+	army =
+	{
+		name = "People's Army Volunteers"
+		location = 12218
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =
+		{
+			name = "338th Div."
+			location = 12290
+			regiment = { type = infantry_brigade name = "15th Inf. Brigade" historical_model = 1 strength = 38 experience = 22 }
+			regiment = { type = infantry_brigade name = "16th Inf. Brigade" historical_model = 0 strength = 39 experience = 22 }
+			regiment = { type = infantry_brigade name = "17th Inf. Brigade" historical_model = 0 strength = 39 experience = 17 }
+		}
+		division =
+		{
+			name = "328th Div."
+			location = 12290
+			regiment = { type = infantry_brigade name = "19th Inf. Brigade" historical_model = 1 strength = 38 experience = 23 }
+			regiment = { type = infantry_brigade name = "20th Inf. Brigade" historical_model = 0 strength = 39 experience = 23 }
+			regiment = { type = infantry_brigade name = "21st Inf. Brigade" historical_model = 0 strength = 39 experience = 15 }
+		}
+		division =
+		{
+			name = "332nd Div."
+			location = 12217
+			regiment = { type = infantry_brigade name = "23rd Inf. Brigade" historical_model = 0 strength = 38 experience = 23 }
+			regiment = { type = infantry_brigade name = "24th Inf. Brigade" historical_model = 0 strength = 39 experience = 23 }
+			regiment = { type = infantry_brigade name = "25st Inf. Brigade" historical_model = 1 strength = 39 experience = 15 }
+		}
+		division =
+		{
+			name = "350th Div."
+			location = 12149
+			regiment = { type = infantry_brigade name = "27th Inf. Brigade" historical_model = 0 strength = 38 experience = 21 }
+			regiment = { type = infantry_brigade name = "28th Inf. Brigade" historical_model = 0 strength = 39 experience = 21 }
+			regiment = { type = infantry_brigade name = "30nd Inf. Brigade" historical_model = 1 strength = 39 experience = 18 }
+		}
+		division =
+		{
+			name = "305th Div."
+			location = 12290
+			regiment = { type = infantry_brigade name = "31st Inf. Brigade" historical_model = 0 strength = 38 experience = 21 }
+			regiment = { type = infantry_brigade name = "32nd Inf. Brigade" historical_model = 0 strength = 39 experience = 21 }
+			regiment = { type = infantry_brigade name = "33rd Inf. Brigade" historical_model = 1 strength = 40 experience = 17 }
+			regiment = { type = infantry_brigade name = "34th Inf. Brigade" historical_model = 0 strength = 39 experience = 18 }
+		}
+	}
+	army =
+	{
+		name = "People's Army Volunteers"
+		location = 12290
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =
+		{
+			name = "335th Div."
+			location = 12219
+			regiment = { type = infantry_brigade name = "35th Inf. Brigade" historical_model = 1 strength = 39 experience = 22 }
+			regiment = { type = infantry_brigade name = "36th Inf. Brigade" historical_model = 0 strength = 39 experience = 22 }
+			regiment = { type = infantry_brigade name = "37th Inf. Brigade" historical_model = 0 strength = 39 experience = 17 }
+		}
+	}
+}

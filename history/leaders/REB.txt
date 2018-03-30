@@ -1,0 +1,11385 @@
+1557124 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557125 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557126 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557127 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557128 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557129 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557130 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557131 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557132 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557133 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557134 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557135 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557136 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557137 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557138 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557139 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557140 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557141 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557142 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557143 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557144 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557145 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557146 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557147 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557148 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557149 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557150 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557151 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557152 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557153 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557154 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557155 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557156 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557157 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557158 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557159 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557160 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557161 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557162 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557163 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557164 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557165 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557166 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557167 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557168 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557169 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557170 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557171 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557172 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557173 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557174 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557175 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557176 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557177 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557178 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557179 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557180 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557181 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557182 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557183 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557184 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557185 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557186 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557187 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557188 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557189 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557190 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557191 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557192 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557193 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557194 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557195 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557196 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557197 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557198 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557199 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557200 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557201 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557202 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557203 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557204 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557205 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557206 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557207 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557208 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557209 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557210 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557211 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557212 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557213 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557214 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557215 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557216 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557217 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557218 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557219 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557220 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = ranger
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557221 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557222 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557223 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557224 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557225 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557226 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557227 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557228 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557229 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557230 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557231 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557232 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557233 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557234 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557235 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557236 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557237 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557238 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557239 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557240 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557241 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557242 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557243 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557244 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557245 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557246 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557247 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557248 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557249 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557250 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557251 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557252 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557253 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557254 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557255 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557256 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557257 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557258 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557259 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557260 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557261 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557262 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557263 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557264 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557265 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557266 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557267 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557268 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557269 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557270 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557271 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557272 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557273 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557274 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557275 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557276 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557277 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557278 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557279 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557280 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557281 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557282 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557283 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557284 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557285 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557286 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557287 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557288 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557289 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557290 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557291 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557292 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557293 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557294 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557295 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557296 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557297 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557298 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557299 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557300 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557301 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557302 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557303 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557304 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557305 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557306 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557307 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557308 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557309 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557310 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557311 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557312 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557313 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557314 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557315 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557316 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557317 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557318 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557319 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557320 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557321 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557322 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557323 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557324 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557325 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557326 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557327 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557328 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557329 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557330 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557331 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557332 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557333 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557334 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557335 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557336 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557337 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557338 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557339 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557340 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557341 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557342 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557343 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557344 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557345 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557346 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557347 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557348 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557349 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557350 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557351 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557352 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557353 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557354 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557355 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557356 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557357 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557358 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557359 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557360 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557361 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557362 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557363 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557364 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557365 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557366 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557367 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557368 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557369 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557370 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557371 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557372 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557373 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557374 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557375 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557376 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557377 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557378 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557379 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557380 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557381 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557382 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557383 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557384 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557385 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557386 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557387 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557388 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557389 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = ranger
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557390 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557391 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557392 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557393 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557394 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557395 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557396 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557397 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557398 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557399 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557400 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557401 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557402 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557403 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557404 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557405 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557406 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557407 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557408 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557409 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557410 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557411 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557412 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557413 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557414 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557415 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557416 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = ranger
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557417 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557418 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557419 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557420 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557421 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557422 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557423 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557424 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557425 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557426 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557427 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557428 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557429 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557430 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557431 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557432 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557433 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557434 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557435 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = engineer
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557436 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = engineer
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557437 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557438 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557439 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557440 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557441 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557442 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557443 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557444 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557445 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557446 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557447 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557448 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557449 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557450 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557451 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557452 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557453 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557454 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557455 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557456 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557457 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557458 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557459 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557460 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557461 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557462 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557463 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557464 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557465 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = ranger
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557466 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557467 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557468 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557469 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557470 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557471 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557472 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557473 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557474 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557475 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557476 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557477 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557478 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557479 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557480 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557481 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557482 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557483 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557484 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557485 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557486 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557487 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = ranger
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557488 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557489 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557490 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557491 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557492 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557493 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557494 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557495 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557496 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557497 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557498 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557499 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557500 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557501 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557502 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557503 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557504 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557505 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557506 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557507 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557508 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557509 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557510 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557511 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557512 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557513 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557514 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557515 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557516 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557517 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557518 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557519 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557520 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557521 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557522 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557523 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557524 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557525 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557526 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557527 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557528 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557529 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557530 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557531 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557532 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557533 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557534 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557535 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557536 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557537 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557538 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557539 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557540 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557541 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557542 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557543 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557544 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557545 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557546 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557547 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557548 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557549 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557550 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557551 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557552 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557553 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557554 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557555 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557556 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557557 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557558 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557559 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557560 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557561 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557562 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557563 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557564 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557565 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557566 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557567 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557568 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557569 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557570 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557571 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557572 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557573 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557574 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557575 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557576 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557577 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557578 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557579 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557580 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557581 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557582 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557583 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557584 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557585 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557586 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557587 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557588 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557589 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557590 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557591 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557592 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557593 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557594 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557595 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557596 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557597 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557598 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557599 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557600 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557601 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557602 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557603 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557604 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557605 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557606 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557607 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557608 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557609 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557610 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557611 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557612 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557613 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557614 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557615 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557616 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557617 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557618 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557619 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557620 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557621 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557622 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557623 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557624 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557625 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557626 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557627 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557628 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557629 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557630 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557631 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557632 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557633 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557634 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557635 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557636 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557637 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557638 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557639 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557640 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557641 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557642 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557643 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557644 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557645 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557646 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557647 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557648 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557649 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557650 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557651 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557652 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557653 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557654 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557655 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557656 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557657 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557658 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557659 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557660 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557661 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557662 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557663 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557664 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557665 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557666 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557667 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557668 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557669 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557670 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557671 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557672 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557673 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557674 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557675 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557676 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557677 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557678 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557679 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557680 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557681 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557682 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557683 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557684 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557685 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557686 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557687 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557688 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557689 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557690 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557691 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557692 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557693 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557694 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557695 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557696 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557697 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557698 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557699 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557700 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557701 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557702 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557703 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557704 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557705 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557706 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557707 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557708 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557709 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557710 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557711 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557712 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557713 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557714 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557715 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557716 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557717 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557718 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557719 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557720 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557721 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557722 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557723 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557724 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557725 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557726 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557727 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557728 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557729 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557730 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557731 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557732 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557733 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557734 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557735 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557736 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557737 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557738 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557739 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557740 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557741 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557742 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557743 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557744 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557745 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557746 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557747 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557748 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557749 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557750 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557751 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = commando
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557752 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557753 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557754 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557755 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557756 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557757 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557758 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557759 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557760 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557761 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557762 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557763 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557764 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557765 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557766 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557767 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557768 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557769 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557770 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557771 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557772 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557773 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557774 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557775 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557776 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557777 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557778 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557779 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557780 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557781 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557782 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557783 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557784 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557785 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557786 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557787 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557788 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = commando
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557789 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557790 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557791 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557792 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557793 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557794 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557795 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557796 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557797 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557798 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557799 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557800 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557801 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557802 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557803 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557804 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557805 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557806 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557807 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557808 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557809 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557810 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557811 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557812 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557813 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557814 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557815 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557816 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557817 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557818 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557819 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557820 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557821 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557822 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557823 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557824 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557825 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557826 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557827 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557828 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557829 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557830 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557831 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557832 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557833 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557834 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557835 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557836 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557837 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557838 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557839 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557840 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557841 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557842 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557843 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557844 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557845 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557846 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557847 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557848 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557849 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557850 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557851 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557852 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557853 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557854 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557855 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557856 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = engineer
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557857 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557858 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557859 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557860 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557861 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557862 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557863 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557864 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557865 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557866 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557867 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557868 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557869 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557870 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557871 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557872 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557873 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557874 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557875 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557876 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557877 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557878 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557879 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557880 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557881 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557882 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557883 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557884 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557885 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557886 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557887 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557888 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557889 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557890 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557891 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557892 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557893 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557894 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557895 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557896 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557897 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557898 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557899 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557900 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557901 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557902 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557903 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557904 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557905 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557906 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 1
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557907 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557908 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557909 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557910 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557911 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557912 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557913 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557914 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557915 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557916 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557917 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557918 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557919 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557920 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557921 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557922 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557923 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557924 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557925 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557926 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557927 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557928 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557929 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557930 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557931 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557932 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557933 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557934 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557935 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557936 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557937 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557938 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557939 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557940 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557941 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557942 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557943 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557944 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557945 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557946 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557947 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557948 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557949 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = ranger
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557950 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557951 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557952 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557953 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = ranger
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557954 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = engineer
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557955 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557956 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557957 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557958 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557959 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557960 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557961 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557962 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557963 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557964 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557965 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557966 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557967 = {
+	name = "Revolution Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557968 = {
+	name = "Revolution Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557969 = {
+	name = "Freedom Fighter Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557970 = {
+	name = "Revolution Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557971 = {
+	name = "Revolution Ringleader "
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557972 = {
+	name = "Insurgent Commander"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557973 = {
+	name = "Insurgent Commandant"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557974 = {
+	name = "Insurgent Officer"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557975 = {
+	name = "Insurgent Chief"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557976 = {
+	name = "Insurgent Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = engineer
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557977 = {
+	name = "Insurgent Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557978 = {
+	name = "Militia Commander"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557979 = {
+	name = "Militia Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557980 = {
+	name = "Militia Officer"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557981 = {
+	name = "Militia Chief"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557982 = {
+	name = "Militia Leader"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557983 = {
+	name = "Militia Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = trickster
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557984 = {
+	name = "Revolt Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = defensive_doctrine
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557985 = {
+	name = "Revolt Commandant"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557986 = {
+	name = "Revolt Officer"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557987 = {
+	name = "Revolt Chief"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557988 = {
+	name = "Revolt Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = ranger
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557989 = {
+	name = "Revolt Ringleader"
+	country = REB
+	type = land
+	skill = 2
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = engineer
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557990 = {
+	name = "Rebel Commander"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	add_trait = commando
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557991 = {
+	name = "Rebel Commandant"
+	country = REB
+	type = land
+	skill = 3
+	max_skill = 3
+	loyalty = 1.00
+	
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557992 = {
+	name = "Rebel Officer"
+	country = REB
+	type = land
+	skill = 5
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557993 = {
+	name = "Rebel Chief"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 5
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557994 = {
+	name = "Rebel Leader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 4
+	loyalty = 1.00
+	
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557995 = {
+	name = "Rebel Ringleader"
+	country = REB
+	type = land
+	skill = 4
+	max_skill = 5
+	loyalty = 1.00
+	
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}1557996 = {
+	name = "Revolution Commander"
+	country = REB
+	type = land
+	skill = 1
+	max_skill = 2
+	loyalty = 1.00
+	
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1930.1.1 = { rank = 1 }
+	}
+}

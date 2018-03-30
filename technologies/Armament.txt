@@ -1,0 +1,4070 @@
+# List of all Naval Armament techs
+	#targetingsystems						( 6 levels)
+	#launcher_submarine_surfacefire			( 1 level )
+	#launcher_submarine_submergefire_large	( 3 levels)
+	#launcher_torpedotubes_533_650			(10 levels)
+	#launcher_torpedotubes_external			( 1 level )
+	#launcher_torpedotubes_surface			( 1 level )
+	#launcher_vls							( 1 level )
+	#closedefense							( 9 levels)
+	#conventionalnavalgun					(10 levels)
+	#torpedoes								( 4 levels)
+	#antishipmissile_shortrange				( 8 levels)
+	#antishipmissile_longrange				( 8 levels)
+	#antisub_missile						( 8 levels)
+	#antisub_torpedorocket					(10 levels)
+	#landattackmissile						( 4 levels)
+	#antiairmissile_shortrange				(10 levels)
+	#antiairmissile_mediumrange				( 8 levels)
+	#antiairmissile_longrange				( 1 level )
+	#navalvessel_missilecomplex_trials		( 1 level )
+
+# Targeting systems
+#targetingsystems_0;Model 1941;;;;;;;;;;;;;x
+#targetingsystems_1;Model 1946;;;;;;;;;;;;;x
+#targetingsystems_2;Model 1950;;;;;;;;;;;;;x
+#targetingsystems_3;Model 1960;;;;;;;;;;;;;x
+#targetingsystems_4;Model 1970;;;;;;;;;;;;;x
+#targetingsystems_5;Model 1980;;;;;;;;;;;;;x
+#targetingsystems_6;Model 1990;;;;;;;;;;;;;x
+
+targetingsystems = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# General, but Inertial guidance in particular (1950s)
+			industry_electronics = 1
+		}
+		2 = {	# General, but Mid-course correction in particular (1960s)
+			industry_electronics = 2
+			radar_general = 2
+		}
+		3 = {	# General, but Radar-homing in particular (late 1960s)
+			industry_electronics = 2
+			radar_general = 3
+		}
+		4 = {	# General, but Satellite communication in particular (mid 70s)
+			industry_electronics = 3
+			# space research, satellites launched
+			# Probably remove the satellite bit, since it will break the chain for most nations. Alternatively make this a separate tehc
+		}
+		5 = {	# General, but Terrain-following in particular (1980s)
+			industry_electronics = 4
+		}
+		6 = {	# Wire-guided torpedoes
+					# Possibly make this a separate tech
+			industry_electronics = 5
+		}
+	}
+	traits = {
+		science_theory	
+		intel_theory	
+	}
+	level_effect = {
+		1 = {
+			targeting_chance = 0.1
+		}
+		2 = {
+			targeting_chance = 0.1
+		}
+		3 = {
+			targeting_chance = 0.1
+		}
+		4 = {
+			targeting_chance = 0.1
+		}
+		5 = {
+			targeting_chance = 0.1
+		}
+		6 = {
+			targeting_chance = 0.1
+		}
+	}
+
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+launcher_submarine_surfacefire = {
+
+	allow = { #1960
+			targetingsystems = 3
+	}
+	traits = {
+		armament_theory
+	}	
+	#TODO add visibility reduction for subs 
+	
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+launcher_submarine_submergefire_large = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {
+			launcher_submarine_surfacefire = 1
+			targetingsystems = 2			
+		}
+		2 = {
+			launcher_submarine_surfacefire = 2
+			targetingsystems = 3			
+		}
+		3 = {
+			launcher_submarine_surfacefire = 3
+			targetingsystems = 4			
+		}
+	}
+	traits = {
+		armament_theory
+	}
+	level_effect = {
+		1 = {
+		}
+		2 = {
+		}
+		3 = {
+		}
+	}
+
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# Torpedo Tube Launchers
+#launcher_torpedotubes_533_650_0;Model 1941;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_1;Model 1946;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_2;Model 1950;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_3;Model 1955;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_4;Model 1960;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_5;Model 1965;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_6;Model 1970;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_7;Model 1975;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_8;Model 1980;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_9;Model 1985;;;;;;;;;;;;;x
+#launcher_torpedotubes_533_650_10;Model 1990;;;;;;;;;;;;;x
+
+launcher_torpedotubes_533_650 = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			torpedoes = 1
+		}
+		2 = {
+		}
+		3 = {
+		}
+		4 = {
+		}
+		5 = {
+		}
+		6 = {
+		}
+		7 = {
+		}
+		8 = {
+		}
+		9 = {
+		}
+		10 = {
+		}
+	}
+	traits = {
+		armament_theory
+	}	
+	level_effect = {
+		1 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.5
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		2 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		3 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		4 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		5 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		6 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		7 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		8 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		9 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+		10 = {
+			torpedo_complex = {
+				sea_attack = 1
+				sub_attack = 1
+			}
+			submarine = {
+				maximum_speed = -0.1
+			}
+			attack_submarine = {
+				maximum_speed = -0.1
+			}			
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			destroyer = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}	
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}				
+		}
+	}
+
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+launcher_torpedotubes_external = { #TODO ADD BONUSES
+
+	allow = {
+			targetingsystems = 1
+	}
+	traits = {
+		armament_theory
+	}
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+launcher_torpedotubes_surface = { #TODO ADD BONUSES
+	allow = {
+	}
+	traits = {
+		
+	}
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+launcher_vls = {
+
+	allow = {
+		targetingsystems = 3
+	}
+	traits = {
+		armament_theory
+	}	
+	mr_aa_complex = {
+		default_organisation = 10
+		air_defence = 1
+	}
+
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# CIWS and CIWS/SR complex systems
+# 1-2 are pure CIWS, above 3 is defense complex
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOOSE TECHS
+#closedefense_0;Model 1941;;;;;;;;;;;;;x
+#closedefense_1;Model 1950;;;;;;;;;;;;;x
+#closedefense_2;Model 1955;;;;;;;;;;;;;x
+#closedefense_3;Model 1960;;;;;;;;;;;;;x
+#closedefense_4;Model 1965;;;;;;;;;;;;;x
+#closedefense_5;Model 1970;;;;;;;;;;;;;x
+#closedefense_6;Model 1975;;;;;;;;;;;;;x
+#closedefense_7;Model 1980;;;;;;;;;;;;;x
+#closedefense_8;Model 1985;;;;;;;;;;;;;x
+#closedefense_9;Model 1990;;;;;;;;;;;;;x
+
+closedefense = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			radarsystem_airsearch = 1
+			targetingsystems = 1
+		OR = {	
+			joint_contingencyplanning = 1
+			mass_firepower = 1
+		}
+		}
+		2 = {
+			radarsystem_airsearch = 2
+		}
+		3 = {
+			antiairmissile_shortrange = 2
+			targetingsystems = 2
+		}
+		4 = {
+			industry_hightech_computers = 1
+		}
+		5 = {
+			targetingsystems = 3
+		}
+		6 = {
+		}
+		7 = {
+			targetingsystems = 4
+			industry_hightech_computers = 2
+		}
+		8 = {
+		}
+		9 = {
+		}
+		10 = {
+		}
+	}
+	traits = {
+		armament_theory
+		science_theory
+		systems_theory
+	}	
+	level_effect = {
+		1 = {
+			ciws_complex = {
+				air_defence = 1
+			}
+			missile_boat = {
+				default_organisation = 2
+			}			
+			missile_frigate = {
+				default_organisation = 2
+			}
+			destroyer = {
+				default_organisation = 2
+			}			
+			missile_destroyer = {
+				default_organisation = 2
+			}
+			cruiser = {
+				default_organisation = 2
+			}			
+			missile_cruiser = {
+				default_organisation = 2
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 2
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 2
+			}			
+			battleship = {
+				default_organisation = 2
+			}			
+			helicopter_carrier = {
+				default_organisation = 2
+			}	
+			escort_carrier = {
+				default_organisation = 2
+			}			
+			carrier = {
+				default_organisation = 2
+			}
+			supercarrier = {
+				default_organisation = 2
+			}
+		}
+		2 = {
+			ciws_complex = {
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}				
+		}
+		3 = {
+			ciws_complex = {
+				air_defence = 1
+				air_attack = 1
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+		4 = {
+			ciws_complex = {
+				air_defence = 1
+				air_attack = 1
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+		5 = {
+			ciws_complex = {
+				air_defence = 1
+				air_attack = 1
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+		6 = {
+			ciws_complex = {
+				air_defence = 4
+				air_attack = 4
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+		7 = {
+			ciws_complex = {
+				air_defence = 1
+				air_attack = 1
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+		8 = {
+			ciws_complex = {
+				air_defence = 1
+				air_attack = 1
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+		9 = {
+			ciws_complex = {
+				air_defence = 1
+				air_attack = 1
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+		10 = {
+			ciws_complex = {
+				air_defence = 1
+				air_attack = 1
+			}
+			missile_boat = {
+				default_organisation = 0.5
+			}			
+			missile_frigate = {
+				default_organisation = 0.5
+			}
+			destroyer = {
+				default_organisation = 0.5
+			}			
+			missile_destroyer = {
+				default_organisation = 0.5
+			}
+			cruiser = {
+				default_organisation = 0.5
+			}			
+			missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_missile_cruiser = {
+				default_organisation = 0.5
+			}
+			nuclear_battlecruiser = {
+				default_organisation = 0.5
+			}			
+			battleship = {
+				default_organisation = 0.5
+			}			
+			helicopter_carrier = {
+				default_organisation = 0.5
+			}	
+			escort_carrier = {
+				default_organisation = 0.5
+			}			
+			carrier = {
+				default_organisation = 0.5
+			}
+			supercarrier = {
+				default_organisation = 0.5
+			}			
+		}
+	}
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# NAVAL GUNS
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOOSE TECHS
+
+conventionalnavalgun = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+		}
+		2 = {
+		}
+		3 = {
+		}
+		4 = {
+		}
+		5 = {
+		}
+		6 = {
+		}
+		7 = {
+		}
+		8 = {
+		}
+		9 = {
+		}
+		10 = {
+		}
+	}
+	traits = {
+		
+	}	
+	level_effect = {
+		1 = {
+			gun_complex = {
+				sea_attack = 1
+				air_defence = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.8
+			}			
+			missile_frigate = {
+				maximum_speed = -0.8
+			}
+			destroyer = {
+				maximum_speed = -0.5
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.5
+			}
+			cruiser = {
+				maximum_speed = -0.3
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.3
+			}			
+			battleship = {
+				maximum_speed = -0.5
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.3
+			}	
+			carrier = {
+				maximum_speed = -0.3
+			}
+			supercarrier = {
+				maximum_speed = -0.3
+			}			
+		}
+		2 = {
+			gun_complex = {
+				sea_attack = 1
+				range = 5
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}
+		}
+		3 = {
+			gun_complex = {
+				sea_attack = 1
+				range = 5
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}
+		}
+		4 = {
+			gun_complex = {
+				sea_attack = 1
+				range = 5
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}
+		}
+		5 = {
+			gun_complex = {
+				sea_attack = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}
+		}
+		6 = {
+			gun_complex = {
+				sea_attack = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}		
+		}
+		7 = {
+			gun_complex = {
+				sea_attack = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}		
+		}
+		8 = {
+			gun_complex = {
+				sea_attack = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}		
+		}
+		9 = {
+			gun_complex = {
+				sea_attack = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}		
+		}
+		10 = {
+			gun_complex = {
+				sea_attack = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.2
+			}			
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			destroyer = {
+				maximum_speed = -0.15
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.15
+			}
+			cruiser = {
+				maximum_speed = -0.1
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}	
+			carrier = {
+				maximum_speed = -0.1
+			}
+			supercarrier = {
+				maximum_speed = -0.1
+			}		
+		}
+	}
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# Torpedoes
+
+torpedoes = { #TODO ADD BONUSES
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {
+			explosives = 1
+			# Some kind of sub/anti-sub-doctrine, predating the development of actual subs
+		}
+		2 = {
+			explosives = 2
+			targetingsystems = 1
+		}
+		3 = {
+			explosives = 3
+			targetingsystems = 4
+		}
+		4 = {
+			explosives = 4
+			targetingsystems = 6	# Wire-guided torpedoes
+		}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+	}
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# SHORT/MEDIUM RANGE SUBSONIC ANTISHIP MISSILES
+#
+# default sea attack: 15
+# default range: 40km
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOOSE TECHS
+#
+#antishipmissile_shortrange_1;Model 1955;;;;;;;;;;;;;x
+#antishipmissile_shortrange_2;Model 1960;;;;;;;;;;;;;x
+#antishipmissile_shortrange_3;Model 1965;;;;;;;;;;;;;x
+#antishipmissile_shortrange_4;Model 1970;;;;;;;;;;;;;x
+#antishipmissile_shortrange_5;Model 1975;;;;;;;;;;;;;x
+#antishipmissile_shortrange_6;Model 1980;;;;;;;;;;;;;x
+#antishipmissile_shortrange_7;Model 1985;;;;;;;;;;;;;x
+#antishipmissile_shortrange_8;Model 1990;;;;;;;;;;;;;x
+
+antishipmissile_shortrange = {
+
+	multilevel = yes
+	level = 8
+
+	allow_level = {
+		1 = {
+			targetingsystems = 1
+			explosives = 1
+			engine_turbojet_small = 1
+			escort-battlegroup_denyenemyfreedomofaction = 1
+		}
+		2 = {
+			targetingsystems = 2
+			explosives = 2
+			engine_turbojet_small = 2
+		}
+		3 = {
+			targetingsystems = 3
+			explosives = 3
+			engine_turbojet_small = 3
+		}
+		4 = {
+			targetingsystems = 4
+			explosives = 4
+		}
+		5 = {
+			engine_turbojet_small = 4
+		}
+		6 = {
+			targetingsystems = 5
+		}
+		7 = {
+			industry_hightech_computers = 1
+		}
+		8 = {
+			targetingsystems = 6
+			industry_hightech_computers = 2
+		}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+		aviation_theory
+		science_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			mr_as_complex = {
+				sea_attack = 4
+			}
+			guided_submarine = {
+				maximum_speed = -0.2
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.2
+			}		
+			missile_boat = {
+				maximum_speed = -0.5
+			}	
+			missile_frigate = {
+				maximum_speed = -0.8
+			}
+			missile_destroyer = {
+				maximum_speed = -0.5
+			}
+			missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.3
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		2 = {
+			mr_as_complex = {
+				sea_attack = 4
+				range = 40
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}		
+			missile_boat = {
+				maximum_speed = -0.2
+			}	
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		3 = {
+			mr_as_complex = {
+				sea_attack = 4
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}		
+			missile_boat = {
+				maximum_speed = -0.2
+			}	
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}	
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		4 = {
+			mr_as_complex = {
+				sea_attack = 3
+				range = 30
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}		
+			missile_boat = {
+				maximum_speed = -0.2
+			}	
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}	
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		5 = {
+			mr_as_complex = {
+				sea_attack = 3
+				range = 10
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}		
+			missile_boat = {
+				maximum_speed = -0.2
+			}	
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}	
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		6 = {
+			mr_as_complex = {
+				sea_attack = 3
+				range = 10
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}		
+			missile_boat = {
+				maximum_speed = -0.2
+			}	
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}	
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		7 = {
+			mr_as_complex = {
+				sea_attack = 2
+				range = 10
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}		
+			missile_boat = {
+				maximum_speed = -0.2
+			}	
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		8 = {
+			mr_as_complex = {
+				sea_attack = 2
+				range = 10
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}		
+			missile_boat = {
+				maximum_speed = -0.2
+			}	
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+	}
+
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+
+
+}
+
+# LONG RANGE SUBSONIC ANTISHIP MISSILES
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOOSE TECHS
+#
+#antishipmissile_longrange_1;Model 1955;;;;;;;;;;;;;x
+#antishipmissile_longrange_2;Model 1960;;;;;;;;;;;;;x
+#antishipmissile_longrange_3;Model 1965;;;;;;;;;;;;;x
+#antishipmissile_longrange_4;Model 1970;;;;;;;;;;;;;x
+#antishipmissile_longrange_5;Model 1975;;;;;;;;;;;;;x
+#antishipmissile_longrange_6;Model 1980;;;;;;;;;;;;;x
+#antishipmissile_longrange_7;Model 1985;;;;;;;;;;;;;x
+#antishipmissile_longrange_8;Model 1990;;;;;;;;;;;;;x
+
+antishipmissile_longrange = {
+
+	multilevel = yes
+	level = 8
+
+	allow_level = {
+		1 = {
+			antishipmissile_shortrange = 1
+			targetingsystems = 1
+			explosives = 1
+			engine_turbojet_medium = 1
+			escort-battlegroup_denyenemyfreedomofaction = 1
+		}
+		2 = {
+			targetingsystems = 2
+			explosives = 2
+		}
+		3 = {
+			targetingsystems = 3
+			explosives = 3
+			engine_turbojet_medium = 2
+		}
+		4 = {
+			targetingsystems = 4
+			engine_turbojet_medium = 3
+		}
+		5 = {
+			targetingsystems = 5
+			explosives = 4
+			engine_turbojet_medium = 4
+		}
+		6 = {
+			targetingsystems = 6
+		}
+		7 = {
+			engine_turbojet_medium = 5
+			industry_hightech_computers = 1
+		}
+		8 = {
+			industry_hightech_computers = 2
+		}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+		aviation_theory
+		science_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			lr_as_complex = {
+				sea_attack = 4
+			}
+			guided_submarine = {
+				maximum_speed = -0.2
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.2
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.5
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.3
+			}			
+			battleship = {
+				maximum_speed = -0.2
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.5
+				default_organisation = -2
+			}			
+		}
+		2 = {
+			lr_as_complex = {
+				sea_attack = 2
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.15
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}			
+		}
+		3 = {
+			lr_as_complex = {
+				sea_attack = 2
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.15
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		4 = {
+			lr_as_complex = {
+				sea_attack = 2
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.15
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		5 = {
+			lr_as_complex = {
+				sea_attack = 2
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.15
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		6 = {
+			lr_as_complex = {
+				sea_attack = 2
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.15
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		7 = {
+			lr_as_complex = {
+				sea_attack = 2
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.15
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+		8 = {
+			lr_as_complex = {
+				sea_attack = 2
+			}
+			guided_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}			
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.15
+			}
+			helicopter_carrier = {
+				maximum_speed = -0.2
+				default_organisation = -0.5
+			}				
+		}
+	}
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# MEDIUM RANGE ANTISUB MISSILES
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOSE TECHS
+#
+#antisub_missile_1;Model 1955;;;;;;;;;;;;;x
+#antisub_missile_2;Model 1960;;;;;;;;;;;;;x
+#antisub_missile_3;Model 1965;;;;;;;;;;;;;x
+#antisub_missile_4;Model 1970;;;;;;;;;;;;;x
+#antisub_missile_5;Model 1975;;;;;;;;;;;;;x
+#antisub_missile_6;Model 1980;;;;;;;;;;;;;x
+#antisub_missile_7;Model 1985;;;;;;;;;;;;;x
+#antisub_missile_8;Model 1990;;;;;;;;;;;;;x
+
+antisub_missile = {
+
+	multilevel = yes
+	level = 9
+
+
+	allow_level = {
+		1 = {
+			generalmissiledesign = 1
+			engine_rocket = 2
+			targetingsystems = 2
+			escort_submarinehunting = 1
+			torpedoes = 1
+			antisub_torpedorocket = 1
+		}
+		2 = {
+			engine_rocket = 2
+			targetingsystems = 2
+			torpedoes = 2
+		}
+		3 = {
+			targetingsystems = 3
+			torpedoes = 3
+		}
+		4 = {
+			targetingsystems = 4
+			torpedoes = 4
+			engine_rocket = 3
+		}
+		5 = {
+		}
+		6 = {
+			targetingsystems = 5
+			engine_rocket = 4
+		}
+		7 = {
+		}
+		8 = {
+		}
+		9 = {
+			targetingsystems = 6
+		}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+		aviation_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 20 
+			}
+			missile_frigate = {
+				maximum_speed = -0.2
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		2 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		3 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		4 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		5 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		6 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		7 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		8 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+		9 = {
+			asroc_complex = {
+				sub_attack = 2
+				range = 10 
+			}
+			missile_frigate = {
+				maximum_speed = -0.1
+			}			
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}			
+		}
+	}
+
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# Short Range Rocket Propelled Depth Charges/torpedoes
+#
+#antisub_torpedorocket_0;Model 1941;;;;;;;;;;;;;x
+#antisub_torpedorocket_1;Model 1946;;;;;;;;;;;;;x
+#antisub_torpedorocket_2;Model 1950;;;;;;;;;;;;;x
+#antisub_torpedorocket_3;Model 1955;;;;;;;;;;;;;x
+#antisub_torpedorocket_4;Model 1960;;;;;;;;;;;;;x
+#antisub_torpedorocket_5;Model 1965;;;;;;;;;;;;;x
+#antisub_torpedorocket_6;Model 1970;;;;;;;;;;;;;x
+#antisub_torpedorocket_7;Model 1975;;;;;;;;;;;;;x
+#antisub_torpedorocket_8;Model 1980;;;;;;;;;;;;;x
+#antisub_torpedorocket_9;Model 1985;;;;;;;;;;;;;x
+#antisub_torpedorocket_10;Model 1990;;;;;;;;;;;;;x
+
+antisub_torpedorocket = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			generalmissiledesign = 1
+			engine_rocket = 2
+			targetingsystems = 2
+			escort_submarinehunting = 1
+			explosives = 1
+			torpedoes = 1
+		}
+		2 = {
+			engine_rocket = 2
+			targetingsystems = 2
+			explosives = 2
+			torpedoes = 2
+		}
+		3 = {
+			engine_rocket = 3
+			targetingsystems = 4
+		}
+		4 = {
+			explosives = 3
+			torpedoes = 3
+		}
+		5 = {
+			targetingsystems = 5
+			engine_rocket = 4
+		}
+		6 = {
+			explosives = 4
+		}
+		7 = {
+			engine_rocket = 4
+			torpedoes = 4
+		}
+		8 = {
+			targetingsystems = 6
+		}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+		aviation_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}			
+		}
+		2 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		3 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		4 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		5 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		6 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		7 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		8 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		9 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+		10 = {
+			missile_boat = {
+				sub_attack = 1
+			}			
+			missile_frigate = {
+				sub_attack = 1
+			}	
+			destroyer = {
+				sub_attack = 1
+			}			
+			missile_destroyer = {
+				sub_attack = 1
+			}
+			missile_cruiser = {
+				sub_attack = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_attack = 1
+			}			
+			nuclear_battlecruiser = {
+				sub_attack = 1
+			}
+			helicopter_carrier = {
+				sub_attack = 1
+			}
+			carrier = {
+				sub_attack = 1
+			}
+			supercarrier = {
+				sub_attack = 1
+			}
+		}
+	}
+	can_upgrade = no
+	change = no 	
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# LAND ATTACK MISSILES
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOOSE TECHS
+#
+#landattackmissile_1;Model 1980;;;;;;;;;;;;;x
+#landattackmissile_2;Model 1985;;;;;;;;;;;;;x
+#landattackmissile_3;Model 1990;;;;;;;;;;;;;x
+#landattackmissile_4;Model 1995;;;;;;;;;;;;;x
+
+landattackmissile = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {
+			engine_turbojet_small = 3
+			explosives = 3
+			targetingsystems = 4
+			industry_hightech_computers = 1
+			or = {
+				battlegroup_strikeoperations = 1
+				#carriergroup_strikegroupcommand = 1 # No such thing
+			}
+		}
+		2 = {
+			engine_turbojet_small = 4
+			targetingsystems = 5
+		}
+		3 = {
+			engine_rocket = 4
+			explosives = 4
+		}
+		4 = {
+			targetingsystems = 6
+			industry_hightech_computers = 2
+		}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+		aviation_theory
+		surface_theory
+		science_theory
+	}
+	level_effect = {
+		1 = {
+			tlam_complex = {
+				hard_attack = 2
+			}
+			missile_destroyer = {
+				maximum_speed = -0.5
+			}
+			missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.3
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.3
+			}			
+			battleship = {
+				maximum_speed = -0.2
+			}
+		}
+		2 = {
+			tlam_complex = {
+				hard_attack = 2
+				range = 100
+			}
+			missile_destroyer = {
+				maximum_speed = -0.25
+			}
+			missile_cruiser = {
+				maximum_speed = -0.15
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.15
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+		}
+		3 = {
+			tlam_complex = {
+				hard_attack = 2
+				range = 100
+			}
+			missile_destroyer = {
+				maximum_speed = -0.25
+			}
+			missile_cruiser = {
+				maximum_speed = -0.15
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.15
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+		}
+		4 = {
+			tlam_complex = {
+				hard_attack = 2
+				range = 100
+			}
+			missile_destroyer = {
+				maximum_speed = -0.25
+			}
+			missile_cruiser = {
+				maximum_speed = -0.15
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.15
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.15
+			}			
+			battleship = {
+				maximum_speed = -0.1
+			}			
+		}
+	}
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# SHORT RANGE AA MISSILES
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOOSE TECHS
+#
+#antiairmissile_shortrange_0;Model 1941;;;;;;;;;;;;;x
+#antiairmissile_shortrange_1;Model 1946;;;;;;;;;;;;;x
+#antiairmissile_shortrange_2;Model 1950;;;;;;;;;;;;;x
+#antiairmissile_shortrange_3;Model 1955;;;;;;;;;;;;;x
+#antiairmissile_shortrange_4;Model 1960;;;;;;;;;;;;;x
+#antiairmissile_shortrange_5;Model 1965;;;;;;;;;;;;;x
+#antiairmissile_shortrange_6;Model 1970;;;;;;;;;;;;;x
+#antiairmissile_shortrange_7;Model 1975;;;;;;;;;;;;;x
+#antiairmissile_shortrange_8;Model 1980;;;;;;;;;;;;;x
+#antiairmissile_shortrange_9;Model 1985;;;;;;;;;;;;;x
+#antiairmissile_shortrange_10;Model 1990;;;;;;;;;;;;;x
+#
+# engine rocket: 4
+# explosives: 4
+# targetingsystems: 6
+
+antiairmissile_shortrange = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {
+			targetingsystems = 2
+			explosives = 2
+			engine_rocket = 1
+		}
+		2 = {
+			engine_rocket = 2
+		}
+		3 = {
+			engine_rocket = 3
+		}
+		4 = {
+			targetingsystems = 3
+		}
+		5 = {
+		}
+		6 = {
+			targetingsystems = 4
+			explosives = 3
+			engine_rocket = 1
+		}
+		7 = {
+			engine_rocket = 3
+		}
+		8 = {
+			targetingsystems = 5
+			engine_rocket = 3
+		}
+		9 = {
+			explosives = 4
+		}
+		10 = {
+			targetingsystems = 6
+			engine_rocket = 4
+		}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+		aviation_theory
+	}	
+	level_effect = {
+		1 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.3
+			}			
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}
+		}
+		2 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+		3 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		4 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		5 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		6 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		7 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		8 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		9 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		10 = {
+			sr_aa_complex = {
+				air_defence = 1
+				default_organisation = 1
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+
+	}
+
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# MEDIUM RANGE AA MISSILES
+#
+# DO NOT REMOVE SHIP STATS ELSE SHIP MODELS LOOSE TECHS
+#
+#antiairmissile_mediumrange_1;Model 1955;;;;;;;;;;;;;x
+#antiairmissile_mediumrange_2;Model 1960;;;;;;;;;;;;;x
+#antiairmissile_mediumrange_3;Model 1965;;;;;;;;;;;;;x
+#antiairmissile_mediumrange_4;Model 1970;;;;;;;;;;;;;x
+#antiairmissile_mediumrange_5;Model 1975;;;;;;;;;;;;;x
+#antiairmissile_mediumrange_6;Model 1980;;;;;;;;;;;;;x
+#antiairmissile_mediumrange_7;Model 1985;;;;;;;;;;;;;x
+#antiairmissile_mediumrange_8;Model 1990;;;;;;;;;;;;;x
+#
+antiairmissile_mediumrange = {
+
+	multilevel = yes
+	level = 9
+
+	allow_level = {
+		1 = {
+			antiairmissile_shortrange = 2
+		}
+		2 = {
+			engine_rocket = 2
+		}
+		3 = {
+			engine_rocket = 3
+		}
+		4 = {
+			targetingsystems = 3
+		}
+		5 = {
+		}
+		6 = {
+			targetingsystems = 4
+			explosives = 3
+			engine_rocket = 1
+		}
+		7 = {
+			engine_rocket = 3
+		}
+		8 = {
+			targetingsystems = 5
+			engine_rocket = 3
+		}
+		9 = {
+		}
+	}
+	traits = {
+		armament_theory
+		arsenal_theory
+		aviation_theory
+	}	
+	level_effect = {
+		1 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.3
+			}			
+			missile_frigate = {
+				maximum_speed = -0.3
+			}
+			missile_destroyer = {
+				maximum_speed = -0.2
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+		2 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}				
+		}
+		3 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+		4 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+		5 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+		6 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+		7 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+			8 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+		9 = {
+			mr_aa_complex = {
+				air_defence = 2
+				default_organisation = 2
+			}
+			missile_boat = {
+				maximum_speed = -0.1
+			}			
+			missile_frigate = {
+				maximum_speed = -0.1
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.02
+			}			
+			carrier = {
+				maximum_speed = -0.02
+			}
+			supercarrier = {
+				maximum_speed = -0.01
+			}			
+		}
+	}
+	can_upgrade = no
+	change = yes 
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# Long Range AA Missiles
+# Boosts mr_aa_complex
+
+antiairmissile_longrange = {
+
+	allow = {
+		antiairmissile_mediumrange = 1
+	}
+	traits = {
+		armament_theory
+
+	}	
+	mr_aa_complex = {
+		air_defence = 4
+		default_organisation = 5
+	}
+
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+# Missile trial for missile ships and submarines
+
+navalvessel_missilecomplex_trials = {
+
+	allow = {
+		radarsystem_airsearch = 1
+		#radarsystem_airsurfacesearch = 1
+		engine_rocket = 1
+		engine_turbojet_medium = 1
+	}
+	traits = {
+		systems_theory
+		aviation_theory
+	}	
+	activate_unit = {
+		sr_aa_complex
+		mr_aa_complex
+		mr_as_complex
+		lr_as_complex
+		tlam_complex
+	}
+	
+	folder = naval_tech3_folder
+	time = 100
+	cost = 100
+}
+
+

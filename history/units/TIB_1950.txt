@@ -1,0 +1,31 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 11313
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 11313
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "2nd Division"
+			location = 11096
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 1 strength = 38 experience = 5 }
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 1 strength = 35 experience = 4 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 1 strength = 39 experience = 4 }
+		}
+	}
+}
+
+division =
+{
+	name = "1st Division"
+	location = 11313
+	pool = yes
+	regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 35 experience = 5 }
+	regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 36 experience = 5 }
+}

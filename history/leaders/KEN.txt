@@ -1,0 +1,1458 @@
+1467006 = {
+	name = "Kanelo Okoro"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1467001 = {
+	name = " Kone"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.8.1 = { rank = 0 }
+	}
+}
+1467009 = {
+	name = " Mbeki"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1950.12.1 = { rank = 0 }
+	}
+}
+1467010 = {
+	name = "Ashur Traore"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1467002 = {
+	name = " Sarr"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1467012 = {
+	name = "Kaikara Shakur"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1949.8.1 = { rank = 1 }
+		1951.10.1 = { rank = 2 }
+		1953.6.1 = { rank = 0 }
+	}
+}
+1467015 = {
+	name = " Ahumibe"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.5.1 = { rank = 1 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1467016 = {
+	name = " Bah"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.6.1 = { rank = 1 }
+		1955.3.1 = { rank = 0 }
+	}
+}
+1467013 = {
+	name = " Gueye"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.12.1 = { rank = 1 }
+		1956.11.1 = { rank = 0 }
+	}
+}
+1467011 = {
+	name = " Edusei"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1467020 = {
+	name = "Issay Contee"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1957.9.1 = { rank = 1 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1467000 = {
+	name = "Duka Sylla"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.6.1 = { rank = 2 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1467019 = {
+	name = "Javyvn Keita"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.11.1 = { rank = 1 }
+		1960.8.1 = { rank = 0 }
+	}
+}
+1467017 = {
+	name = "Jabari Traore"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1954.10.1 = { rank = 1 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1467024 = {
+	name = " Fall"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.7.1 = { rank = 1 }
+		1962.3.1 = { rank = 0 }
+	}
+}
+1467021 = {
+	name = " Maalouf"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.4.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1467005 = {
+	name = " Sy"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.12.1 = { rank = 2 }
+		1951.10.1 = { rank = 3 }
+		1964.12.1 = { rank = 0 }
+	}
+}
+1467008 = {
+	name = " Adewunni"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.12.1 = { rank = 3 }
+		1951.10.1 = { rank = 4 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1467028 = {
+	name = " Sylla"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1965.2.1 = { rank = 1 }
+		1966.7.1 = { rank = 0 }
+	}
+}
+1467023 = {
+	name = "Baingana Kadoko"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.8.1 = { rank = 1 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1467027 = {
+	name = " Fall"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1964.12.1 = { rank = 1 }
+		1968.8.1 = { rank = 0 }
+	}
+}
+1467007 = {
+	name = " Congo"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1964.12.1 = { rank = 3 }
+		1965.2.1 = { rank = 4 }
+		1969.10.1 = { rank = 0 }
+	}
+}
+1467029 = {
+	name = "Iqe Jalloh"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.7.1 = { rank = 1 }
+		1970.3.1 = { rank = 0 }
+	}
+}
+1467032 = {
+	name = "Basst Mandela"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1969.10.1 = { rank = 1 }
+		1971.6.1 = { rank = 0 }
+	}
+}
+1467026 = {
+	name = " Conteh"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.7.1 = { rank = 1 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1467014 = {
+	name = " Bah"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.10.1 = { rank = 1 }
+		1973.1.1 = { rank = 0 }
+	}
+}
+1467022 = {
+	name = "Bron Sillah"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1467036 = {
+	name = "Kanelo Maina"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.1.1 = { rank = 1 }
+		1975.4.1 = { rank = 0 }
+	}
+}
+1467037 = {
+	name = " Ouakili"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.11.1 = { rank = 1 }
+		1976.5.1 = { rank = 0 }
+	}
+}
+1467034 = {
+	name = "Jaivyn Sane"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.6.1 = { rank = 1 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1467033 = {
+	name = "Messina Traore"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1970.3.1 = { rank = 1 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1467004 = {
+	name = " Adewunni"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.6.1 = { rank = 2 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1467025 = {
+	name = "Biton Raoumbe"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1962.3.1 = { rank = 1 }
+		1980.6.1 = { rank = 0 }
+	}
+}
+1467042 = {
+	name = " Botha"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.1.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1467040 = {
+	name = " Ouakili"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.3.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1467018 = {
+	name = " Fofana"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.3.1 = { rank = 1 }
+		1964.12.1 = { rank = 2 }
+		1965.2.1 = { rank = 3 }
+		1969.10.1 = { rank = 4 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1467044 = {
+	name = " Koroma"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1981.10.1 = { rank = 1 }
+		1984.10.1 = { rank = 0 }
+	}
+}
+1467031 = {
+	name = " Imade"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.8.1 = { rank = 1 }
+		1969.10.1 = { rank = 2 }
+		1983.9.1 = { rank = 3 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1467041 = {
+	name = " Okeke"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.9.1 = { rank = 1 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1467003 = {
+	name = " Diallo"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1965.2.1 = { rank = 2 }
+		1969.10.1 = { rank = 3 }
+		1983.9.1 = { rank = 4 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1467050 = {
+	name = "Chatha Sane"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.3.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1467039 = {
+	name = "Cairo Olembe"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.5.1 = { rank = 1 }
+		1979.1.1 = { rank = 2 }
+		1987.3.1 = { rank = 3 }
+		1989.8.1 = { rank = 0 }
+	}
+}
+1467038 = {
+	name = "Kimoni Rokki"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.4.1 = { rank = 1 }
+		1990.6.1 = { rank = 0 }
+	}
+}
+1467030 = {
+	name = " Mandela"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467035 = {
+	name = " Contee"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.11.1 = { rank = 1 }
+		1983.9.1 = { rank = 2 }
+		1985.6.1 = { rank = 3 }
+		1987.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467043 = {
+	name = "Haben Coulibaly"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.6.1 = { rank = 1 }
+		1989.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467045 = {
+	name = " Sillah"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1985.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467046 = {
+	name = " Zanga"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467047 = {
+	name = " Diop"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467048 = {
+	name = " Diallo"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.6.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1989.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467049 = {
+	name = " Bah"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467051 = {
+	name = " Agoume"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467052 = {
+	name = " Conde"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467053 = {
+	name = "Mahdi Toure"
+	type = land
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467055 = {
+	name = "Jelani Kone"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.1.1 = { rank = 0 }
+	}
+}
+1467054 = {
+	name = " Bankole"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.9.1 = { rank = 0 }
+	}
+}
+1467058 = {
+	name = "Biton Congo"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.8.1 = { rank = 0 }
+	}
+}
+1467057 = {
+	name = " Zanga"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1467059 = {
+	name = "Dume Khumalo"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1467056 = {
+	name = " Ba"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.8.1 = { rank = 0 }
+	}
+}
+1467064 = {
+	name = "Kayin Mbeki"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.8.1 = { rank = 1 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1467068 = {
+	name = "Jelani Van der Merwe"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.2.1 = { rank = 1 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1467063 = {
+	name = "Edmund Diop"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1948.9.1 = { rank = 1 }
+		1956.3.1 = { rank = 2 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1467067 = {
+	name = " Dia"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1958.8.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1467065 = {
+	name = " Sarr"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.10.1 = { rank = 1 }
+		1970.2.1 = { rank = 0 }
+	}
+}
+1467069 = {
+	name = "Jengo Turay"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1972.6.1 = { rank = 0 }
+	}
+}
+1467061 = {
+	name = "Kirabo Traore"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1974.9.1 = { rank = 0 }
+	}
+}
+1467066 = {
+	name = " Edusei"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1956.3.1 = { rank = 1 }
+		1976.11.1 = { rank = 0 }
+	}
+}
+1467074 = {
+	name = "Kaikura Okeke"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.9.1 = { rank = 1 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1467060 = {
+	name = "Chiamaka Fall"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1974.9.1 = { rank = 4 }
+		1982.5.1 = { rank = 0 }
+	}
+}
+1467073 = {
+	name = " Bah"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1972.6.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1467072 = {
+	name = " Ouakili"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.2.1 = { rank = 1 }
+		1974.9.1 = { rank = 2 }
+		1982.5.1 = { rank = 3 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1467070 = {
+	name = " Koroma"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.12.1 = { rank = 1 }
+		1984.9.1 = { rank = 2 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1467062 = {
+	name = "Edmund Nwosu"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.1.1 = { rank = 1 }
+		1969.12.1 = { rank = 2 }
+		1974.9.1 = { rank = 3 }
+		1982.5.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467071 = {
+	name = " Boussombo"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1982.5.1 = { rank = 2 }
+		1984.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467075 = {
+	name = " Sane"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467076 = {
+	name = "Genet Conteh"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467077 = {
+	name = "Jengo Maalouf"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1982.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467078 = {
+	name = " Cisse"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467079 = {
+	name = "Haben Sesay"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.9.1 = { rank = 1 }
+		1988.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467080 = {
+	name = "Basst Itsweire"
+	type = sea
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467081 = {
+	name = " Ba"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1467088 = {
+	name = " Fofana"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1467087 = {
+	name = " Diallo"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1467083 = {
+	name = " Oshowole"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.11.1 = { rank = 0 }
+	}
+}
+1467091 = {
+	name = "Mahdi Ndiaye"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.12.1 = { rank = 1 }
+		1951.8.1 = { rank = 2 }
+		1955.1.1 = { rank = 0 }
+	}
+}
+1467084 = {
+	name = " Eloundou"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.12.1 = { rank = 0 }
+	}
+}
+1467095 = {
+	name = "Kei Agoume"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.12.1 = { rank = 1 }
+		1960.6.1 = { rank = 0 }
+	}
+}
+1467093 = {
+	name = "Harith Osei"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.11.1 = { rank = 1 }
+		1955.1.1 = { rank = 2 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1467086 = {
+	name = " Contee"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.12.1 = { rank = 3 }
+		1960.9.1 = { rank = 0 }
+	}
+}
+1467089 = {
+	name = "Kione Ouakili"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1960.12.1 = { rank = 0 }
+	}
+}
+1467099 = {
+	name = "Iqe Ike"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.12.1 = { rank = 1 }
+		1961.2.1 = { rank = 0 }
+	}
+}
+1467098 = {
+	name = "Jaivyn Boussombo"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.9.1 = { rank = 1 }
+		1960.12.1 = { rank = 2 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1467082 = {
+	name = "Kamwimbile Onye"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.1.1 = { rank = 2 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1467101 = {
+	name = "Eamon Boussombo"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1964.10.1 = { rank = 2 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1467100 = {
+	name = "Faraji Bankole"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.2.1 = { rank = 1 }
+		1971.9.1 = { rank = 0 }
+	}
+}
+1467104 = {
+	name = " Conteh"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.9.1 = { rank = 1 }
+		1974.3.1 = { rank = 0 }
+	}
+}
+1467085 = {
+	name = "Kijana Fofana"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.12.1 = { rank = 2 }
+		1960.9.1 = { rank = 3 }
+		1960.12.1 = { rank = 4 }
+		1975.4.1 = { rank = 0 }
+	}
+}
+1467092 = {
+	name = " Okafor"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.8.1 = { rank = 1 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1467094 = {
+	name = " Koroma"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.1.1 = { rank = 1 }
+		1964.10.1 = { rank = 2 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1467096 = {
+	name = "Chatha Sy"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.6.1 = { rank = 1 }
+		1970.9.1 = { rank = 2 }
+		1975.4.1 = { rank = 3 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1467097 = {
+	name = " Okeke"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.1.1 = { rank = 1 }
+		1960.9.1 = { rank = 2 }
+		1960.12.1 = { rank = 3 }
+		1975.4.1 = { rank = 4 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1467090 = {
+	name = "Jabari Boussombo"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1975.4.1 = { rank = 2 }
+		1979.6.1 = { rank = 3 }
+		1983.1.1 = { rank = 4 }
+		1989.11.1 = { rank = 0 }
+	}
+}
+1467102 = {
+	name = "Musoke Bah"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467103 = {
+	name = " Botha"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.9.1 = { rank = 1 }
+		1983.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467105 = {
+	name = "Daren Owusu"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467106 = {
+	name = "Kaikura Nwosu"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.4.1 = { rank = 1 }
+		1989.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467107 = {
+	name = "Mashaka Ouakili"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.6.1 = { rank = 1 }
+		1979.2.1 = { rank = 2 }
+		1989.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467108 = {
+	name = " Dia"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.2.1 = { rank = 1 }
+		1979.6.1 = { rank = 2 }
+		1983.1.1 = { rank = 3 }
+		1989.11.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467109 = {
+	name = "Eammon Dembo"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467110 = {
+	name = "Biton Kadoko"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1467111 = {
+	name = " Jalloh"
+	type = air
+	country = KEN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1989.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

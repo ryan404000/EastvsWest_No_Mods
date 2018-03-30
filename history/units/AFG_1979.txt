@@ -1,0 +1,126 @@
+theatre ={
+	name = "Home Theatre"
+	location = 9993
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+	regiment = { type = police_brigade name = "Palace Guards" historical_model = 0 experience = 7 }
+	army =	{
+		name = "1st Army"
+		location = 9993
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =	{
+			name = "Bekhesh Peaadh Nezam al-1i"
+			location = 10100
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 2 strength = 25 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 2 strength = 23 experience = 4 }
+			regiment = { type = anti_air_brigade name = "1st AA Regiment" historical_model = 1 strength = 12 experience = 4 }
+		}
+		division =	{
+			name = "Bekhesh Peaadh Nezam al-2i"
+			location = 10048
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 2 strength = 24 experience = 4 }
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 2 strength = 22 experience = 5 }
+			regiment = { type = anti_tank_brigade name = "1st Anti-tank Regiment" historical_model = 2 strength = 12 experience = 5 }
+		}
+		division =	{
+			name = "Bekhesh Peaadh Nezam al-3i"
+			location = 9996
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 2 strength = 24 experience = 5 }
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 2 strength = 25 experience = 5 }
+		}
+	}
+	army ={
+		name = "2nd Army"
+		location = 9843
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =	{
+			name = "Bekhesh Zerh Pewesh al-1i"
+			location = 9993
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 3 strength = 14 experience = 4 builder = SOV }
+			regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 3 strength = 23 experience = 4 builder = SOV }
+			regiment = { type = motorized_brigade name = "1st Motorized Brigade" historical_model = 3 strength = 23 experience = 5 builder = SOV }
+		}
+		division =	{
+			name = "Bekhesh Zerh Pewesh al-2i"
+			location = 9993
+			regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 3 strength = 15 experience = 4 builder = SOV }
+			regiment = { type = light_mechanized_brigade name = "2nd Light Mech. Brigade" historical_model = 3 strength = 21 experience = 5 builder = SOV }
+			regiment = { type = motorized_brigade name = "2nd Motorized Brigade" historical_model = 3 strength = 24 experience = 5 builder = SOV }
+		}
+		division =	{
+			name = "Bekhesh Zerh Pewesh al-3i"
+			location = 9843
+			regiment = { type = armor_brigade name = "3rd Armor Brigade" historical_model = 3 strength = 14 experience = 5 builder = SOV }
+			regiment = { type = light_mechanized_brigade name = "3rd Light Mech. Brigade" historical_model = 3 strength = 22 experience = 4 builder = SOV }
+			regiment = { type = motorized_brigade name = "3rd Motorized Brigade" historical_model = 3 strength = 22 experience = 5 builder = SOV }
+		}
+	}
+	army ={
+		name = "3rd Army"
+		location = 9992
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =	{
+			name = "Bekhesh Kewh al-1i"
+			location = 10213
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 1 strength = 35 experience = 5 }
+			regiment = { type = bergsjaeger_brigade name = "2nd Mountain Brigade" historical_model = 1 strength = 36 experience = 4 }
+		}	
+		division =	{
+			name = "Bekhesh Peaadh Nezam al-4i"
+			location = 10098
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 2 strength = 23 experience = 4 }
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 2 strength = 23 experience = 4 }
+		}	
+		division =	{
+			name = "Bekhesh Peaadh Nezam al-5i"
+			location = 10099
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 2 strength = 22 experience = 4 }
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 2 strength = 24 experience = 4 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 2 strength = 15 experience = 4 }
+		}		
+		division =	{
+			name = "Bekhesh Kewh al-2i"
+			location = 9633
+			regiment = { type = bergsjaeger_brigade name = "3rd Mountain Brigade" historical_model = 1 strength = 15 experience = 6 }
+		}			
+	}	
+	air = {
+		name = "1st Air Force"
+		base = 9993
+		location = 9993
+		wing = { type = fighter name = "Gurewh Jengunedh al-1i" historical_model = 4 strength = 70 builder = SOV }
+	}
+	air = {
+		name = "2nd Air Force"
+		base = 9843
+		location = 9843
+		wing = { type = multi_role name = "Jengunedh Bemb Afeken Gurewh al-1i" historical_model = 2 strength = 30 builder = SOV }
+	}
+	air = {
+		name = "3rd Air Force"
+		base = 9633
+		location = 9633
+		wing = { type = multi_role name = "Jengunedh Bemb Afeken Gurewh al-2i" historical_model = 1 strength = 45 builder = SOV }
+	}	
+}
+
+division ={
+	name = "Bekhesh Peaadh Nezam al-6i"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 2 strength = 36 experience = 4 }
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 2 strength = 35 experience = 5 }
+}
+division ={
+	name = "Bekhesh Peaadh Nezam al-7i"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 2 strength = 35 experience = 5 }
+	regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 2 strength = 35 experience = 5 }
+}
+division ={
+	name = "Bekhesh Peaadh Nezam al-8i"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 2 strength = 35 experience = 4 }
+	regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 2 strength = 35 experience = 5 }
+}

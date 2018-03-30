@@ -1,0 +1,123 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ledger"
+		texturefile = "gfx\\interface\\ledger\ledger_bg.dds"
+		transparencecheck = yes
+	}
+	
+	tileSpriteType = {
+		name = "GFX_topcolor_stats"
+		texturefile = "gfx\\interface\\topcolor_stats.dds"
+		
+		norefcount = yes
+		size = {x = 2048 y = 512}
+	}
+
+	spriteType = {
+		name = "GFX_ledger_overlay"
+		texturefile = "gfx\\interface\\ledger_overlay.tga"
+		transparencecheck = yes
+	}	
+	
+	#spriteType = {
+	#	name = "GFX_ledger_overlay_small"
+	#	texturefile = "gfx\\interface\\napoleon_interface\\ledger_overlay.tga"
+	#	transparencecheck = yes
+	#}
+	
+	textSpriteType = {
+		name = "GFX_ledger_top_button"
+		texturefile = "gfx\\interface\\ledger\\ledger_top_button.dds"
+	}
+	spriteType = {
+		name = "GFX_bg_statistics"
+		texturefile = "gfx\\interface\\ledger\bg_statistics.dds"
+		transparencecheck = yes
+	}	
+
+	spriteType = {
+		name = "GFX_bg_grid_mil"
+		texturefile = "gfx\\interface\\ledger\ledger_grid_mil.dds"
+		transparencecheck = yes
+	}	
+
+	spriteType = {
+		name = "GFX_bg_stat_listbox"
+		texturefile = "gfx\\interface\\ledger\\ledger_listbox_bg.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ledger_checkbox"
+		texturefile = "gfx\\interface\\ledger\\ledger_checkbox.dds"
+		noOfFrames = 2
+	}	
+
+	spriteType = {
+		name = "GFX_ledger_template_button"
+		texturefile = "gfx\\interface\\ledger\\ledger_template_btn.dds"
+		noOfFrames = 2
+	}	
+
+
+	spriteType = {
+		name = "GFX_ledger_columns"
+		texturefile = "gfx\\interface\\ledger_columns.tga"
+	}	
+
+	spriteType = {
+		name = "GFX_stat_arrow_left"
+		texturefile = "gfx\\interface\\ledger\\stats_arrow_left.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_stat_arrow_down"
+		texturefile = "gfx\\interface\\ledger\\stats_arrow_down.dds"
+	}	
+
+
+	LineChartType = {
+		name = "GFX_ledger_linechart"
+		size = { x = 700 y = 100 }
+		linewidth = 2		
+	}
+
+	LineChartType = {
+		name = "GFX_ledger_linechart_big"
+		size = { x = 750 y = 460 }
+		linewidth = 4
+	}
+
+	spriteType = {
+		name = "GFX_stat_close"
+		texturefile = "gfx\\interface\\ledger\\stat_close_btn.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_factory_small"
+		texturefile = "gfx\\interface\\ledger\\goods_factory_empty.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_party_overlay"
+		texturefile = "gfx\\interface\\politics\\party_light.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_chart_mp_button"
+		texturefile = "gfx\\interface\\ledger\\mp_loss_btn.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_chart_eq_button"
+		texturefile = "gfx\\interface\\ledger\\equip_loss_BTN.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		clicksound = click
+	}
+
+
+
+}

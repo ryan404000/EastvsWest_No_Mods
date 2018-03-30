@@ -1,0 +1,1628 @@
+[systemsettings.cpp:215]: System memory:   0MB
+[systemsettings.cpp:217]: CPU speed:       2592MHz
+[systemsettings.cpp:224]: Number of processors: 8
+[systemsettings.cpp:235]: CPU type: x86
+[systemsettings.cpp:267]: OS: Unknown     Build: 9200
+[graphicssettings.cpp:130]: Graphic Adapters: 
+[graphicssettings.cpp:135]: 	0: NVIDIA GeForce GTX 970M
+[graphicssettings.cpp:152]: Checking for multi-sampling support:
+[graphicssettings.cpp:163]: 	2 samples supported.
+[graphicssettings.cpp:163]: 	4 samples supported.
+[graphicssettings.cpp:163]: 	8 samples supported.
+[graphicssettings.cpp:178]: Using Adapter [0]:
+[graphicssettings.cpp:184]: Succeeded to create a device [D3DCREATE_HARDWARE_VERTEXPROCESSING].
+[graphicssettings.cpp:226]: Graphics device: NVIDIA GeForce GTX 970M
+[graphicssettings.cpp:227]: Graphics driver: nvldumd.dll
+[graphicssettings.cpp:232]:  Driver version: 8800
+[graphicssettings.cpp:249]: 
+
+
+Dumping all gfx info:
+DeviceIdentifier:	{D7B71E3E-5098-11CF-B255-60311BC2DA35}
+VendorId:	4318
+DeviceId:	5080
+SubSysId:	292361314
+Revision:	161
+DriverVersion.HighPart:	1507349
+DriverVersion.LowPart:	860768
+
+
+[graphicssettings.cpp:299]: Instancing supported.
+[graphicssettings.cpp:317]: Video memory amount: 1342MB
+[graphicssettings.cpp:320]: Support for T&L found.
+[graphicssettings.cpp:323]: MaxSimultaneousTextures: 8
+[graphicssettings.cpp:324]: MaxVertexBlendMatrices: 4
+[graphicssettings.cpp:325]: MaxVertexBlendMatrixIndex: 8
+[graphicssettings.cpp:327]: MaxSimultaneousTextures: 8
+[graphicssettings.cpp:328]: MaxTextureBlendStages: 8
+[graphicssettings.cpp:329]: Support for Anisotropic filtering found.
+[graphicssettings.cpp:332]: 	Max Anisotropic filtering: 16
+[graphicssettings.cpp:333]: 	Anisotropic filtering set to: 0
+[graphicssettings.cpp:337]: Vertex Shader version: 3.0
+[graphicssettings.cpp:342]: Pixel Shader version: 3.0
+[directorysettings.cpp:55]: Loading mod Complete Edition
+[main.cpp:287]: 	Mod: Complete Edition
+[main.cpp:316]: Blobing files
+[main.cpp:337]: Init Text Database
+[internationalizedtext.cpp:1278]: Create table
+[internationalizedtext.cpp:1280]: Create text database
+[main.cpp:339]: Text Database Done
+[main.cpp:367]: Creating application...
+[main.cpp:411]: Init Application...
+[eu3application.cpp:211]: Initialise Defines
+[eu3application.cpp:219]: App Init
+[eu3application.cpp:242]: Cursors Defines
+[eu3application.cpp:252]: Sound...
+[dxmusic.cpp:40]: Init Music
+[dxmusic.cpp:46]: Graph done 0
+[dxmusic.cpp:52]: Control done 0
+[dxmusic.cpp:58]: Seeking done 0
+[dxmusic.cpp:63]: Event done 0
+[dxmusic.cpp:68]: Music done 0
+[DirectSound.cpp:37]: Init DirectSound
+[DirectSound.cpp:55]: Sound initialised with result 0
+[DirectSound.cpp:65]: Coop Level Set. Result: 0
+[DirectSound.cpp:88]: Sound Init Done
+[eu3application.cpp:301]: Initialise Graphics...
+[graphics.cpp:155]: Direct3D Created
+[graphicssettings.cpp:651]: Usable res: 1024 768 60
+[graphicssettings.cpp:651]: Usable res: 1152 864 60
+[graphicssettings.cpp:651]: Usable res: 1280 768 60
+[graphicssettings.cpp:651]: Usable res: 1280 800 60
+[graphicssettings.cpp:651]: Usable res: 1280 960 60
+[graphicssettings.cpp:651]: Usable res: 1280 1024 60
+[graphicssettings.cpp:651]: Usable res: 1360 768 60
+[graphicssettings.cpp:651]: Usable res: 1366 768 60
+[graphicssettings.cpp:651]: Usable res: 1400 1050 60
+[graphicssettings.cpp:651]: Usable res: 1440 900 60
+[graphicssettings.cpp:651]: Usable res: 1600 900 60
+[graphicssettings.cpp:651]: Usable res: 1680 1050 60
+[graphicssettings.cpp:651]: Usable res: 1920 1080 60
+[graphics.cpp:256]: Using multisampling: 2
+[graphics.cpp:286]: Creating device with: D3DCREATE_HARDWARE_VERTEXPROCESSING
+	Fullscreen=no
+	Resolution=1600x900
+[graphics.cpp:367]: Done creating device.
+[eu3application.cpp:303]: Graphics Done
+[eu3graphics.cpp:209]: Load text  Loading Map-Sprites...
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\systems_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_DIFFICULTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\uv_obj_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\jetengine_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\surface_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\ideology_circle.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mainmenu\\evw_slider_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\aeronautic_engineering_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_replace_minister_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_dissent_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\brigade\\brigade_detail_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_military_goods.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\tile_faction_1.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\textcursor.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/sp_anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_awacs.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_thumb_down.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_long_goods.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_app2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airstrategy_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\hqandsub_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\division\\land_stamp_clip.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topcolor_stats.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbars\\slider_horizontal_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_surface.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_sat.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_linechart_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\naval_engineering_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\vessels_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_priority_3.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\ledger_shortcut.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/nuclear_missile_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_reinforce.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\create_puppet_entry.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/destroyer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\jetengine_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\empty_position.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/battlecruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_resourcebg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\diplo_decision_bar.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_oil.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\weapon_editor_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_woods.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_province_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\submarine_engineering_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_res_import.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_rightbutton.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_politics.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_desert.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\icon_workforce.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\ac_btn_long.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mechanicalengineering_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_shipyard.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval__bg_shadow.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/bomber_strike.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\brigade\\brigade_close_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_commando.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\bg_satcard_action.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\naval_doctrine_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\capitalship_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_industry_light.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_power_plant.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_movetopool.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\multi_unit\\multi_btn_remove.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_metal_big.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\band_regiment.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\icon_duration.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_industrial.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_selected_law.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_veto.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\stamp_national_ideas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_fuel.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_deployment_building1.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\shield_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\multi_unit\\multi_army_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_FORT_MODIFIER.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_global_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_long.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_wp.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\selected_brigade_red.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_shipyard.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_industry_light.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/tank_destroyer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_escort.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial_objectives_textbox.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_diplomacy.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\ideology_circle_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_old_guard.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\toggle.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_industry_light.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\uv_extra_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial_ingame\\tutorial_ingame_mini.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_military_goods.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy_factory_resource_plupp.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_sc.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_DUGIN_MODIFIER.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_bg_status_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_restoolbar.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\infantry_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_thumb_up.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_icon_name.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_ENVELOPMENT_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\goto_location_button.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/bomber_maritime.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mainmenu\\evw_slider.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_sub_det.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_soft.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/helo_maritime.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/attack_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_PARATROOP_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\bg_spies.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/destroyer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\dots_offensive.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\icon_pop.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/attack_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_INTERCEPT.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial_ingame\\tutorial_minimise.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airtactical_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\model_photo_small_empty.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_air_a.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/heavy_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/cag_vtol.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/guided_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nato_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/transport_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\asymmetric_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/sp_rct_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_slider_2.tga
+[spritetype.cpp:283]: Loading Texture gfx\\pictures\\events\\event_no_image.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_oil_big.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\icon_sw_convoy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_nuke.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\resources_test.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\artillery_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\model_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial_exclamation.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbars\\gen_slider_standard2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\econmy_build_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_short_btn_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\icon_di.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_winter_specialist.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_trickster.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/battleship.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/infantry_brigade.dds
+[spritetype.cpp:283]: Loading Texture tutorial\\tut_winning_conditions_view.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_ad.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/sp_anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_panzer_leader.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\deployment\\prod_deployment_land_2.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/battleship.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_EXPERIENCE.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\icon_nuke_digi.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_high_tech.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_reorg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\fleet_in_being_doctrine_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_nuke.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\buildings_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/unknown.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_espionage.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\fighter_focus_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_org.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\militia_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_threaten.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/long_range_anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_ammo2.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_type_5.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/ballistic_missile_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\mapitems\\counterarmysize.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_front_doc.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\land_doctrine_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_coastal_fort.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_abstain.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_visibility.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\land\\mission_checkbox.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\front_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_pop.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_box.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_magenta.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/rocket_interceptor.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_AIRCOMBAT.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_policies_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\electronicengineering_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_prio.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/hq_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\political_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/heavy_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_mil_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/cag_vtol.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_jungle.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mobile_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/missile_boat.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/air_cav_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_vertical_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\province\\prov_building_plupp.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\land_doctrine_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_factory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_icon_rest.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\chart_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_reset.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_upbutton.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\temp_unit_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\close_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\space_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_energy_mini.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_ic_small.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/light_mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_marsh.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/missile_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_ocean.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\btn_goto.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/bomber_antisub.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_urban.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\carrier_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_detail_close_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_power_plant.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_red.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\autosend_priorities.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_icon_cost.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airstrategy_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airdivision\\air_nuke_switch.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\brigade\\brigade_detail_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear_physics.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_regional.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_vertical_btn_up.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbarhor_slider.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\deployment\\prod_deployment_building_2.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/armored_engineer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_night_flyer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_seawolf.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\strait.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_aviation.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\spy_photo_empty.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/cavalry_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_fuel_icon_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_spy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\aircraft_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\systems_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_traingle_right.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_topitem.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/nuclear_guided_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\buldozer_slot.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airtactical_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_air_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\icon_party_plus_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_box_metal.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\weapon_image_empty.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\rocket_science_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_money_mini.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_hos_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_decision_question.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_satellites.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\bg_sort_un.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\automotive_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/militia_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_SURPRISE_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_load.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_supplies_icon_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_long_land.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/rocket_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\icon_nuke_big.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/icbm_complex.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\strategic_air_focus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_oil_small.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_nuke_sub.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_national_decision_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/helo_maritime.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_painterbar.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\naval\\mission_btn_left.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_region_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_land_def.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\spycard_corner.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\resources_none.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\slider_max_red.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topcolor_production.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\law_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_left.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_arctic.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_downbutton.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_workers_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/missile_frigate.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/awacs_air_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\deployment\\prod_deployment_naval_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_rarematerial_big.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/missile_destroyer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\create_corps.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\land\\land_mission_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_icon_navy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\deployment_equip_bar.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/flying_bomb.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_short_btn_3.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\land\\land_mission_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_icon_money_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_icon_money.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial\\icon_hint_question.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_slider_trace.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_icon_folder.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_factory_info_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\transparency.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\closebutton.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_triangle.dds
+[spritetype.cpp:283]: Loading Texture tutorial\\tut_military_view.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\submarine_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\militia_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\icon_partisan_digi.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\province\\bg_province.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_icon_transport.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_DI_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\warsaw_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_current_green.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\close_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/all_terrain_vehicles.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_icon_carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_sur_det.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_short_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_plate_buildings.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_puppet_select.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/marine_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_rightbutton_type_2.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_queue_orange.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_military_access_them.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/police_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_money_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_def.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_blue.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_convoy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\empty_position_minister.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/helo_cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_fleet_destroyer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_country_2s.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/super_heavy_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_close_frame.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/supercarrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_icon_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_yellow.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/battleship.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_load.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_reserve.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_fuel_big.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_close.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_forest.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_space.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/sp_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_defensive_doctrine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\air_doctrine_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\slider_rec_green.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\serial_plus.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\econmy_suspended_icon1.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_light.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_vertical_slider_sleek.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_disband.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_icon_workforce3.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\weapon_editor_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\pictures\tech\\noimage.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_industry_heavy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\sorting_btn_faction_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_save.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_high_tech.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/militia_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/bomber_strategic.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_MISSION_EFFICIENCY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_rightbutton2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\slider_min_red.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\bg_eco_ai.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_arrow_right.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\jetengine_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\aviation_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_land_b.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\arrow_down.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_main_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\electronicengineering_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\bg_technology_shadow.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/helicopter_carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\electronicengineering_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\selection_policy_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_hq_sub.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/escort_carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\political_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\land_screen_serials_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\icon_cost_sat.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/battlecruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\vessels_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_TERRITORIAL_PRIDE.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\fleet_in_being_doctrine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_factory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_salvo.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_trade_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\trade_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_dollar.dds
+[spritetype.cpp:283]: Loading Texture tutorial\\tut_budget_view.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_logistics_wizard.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_eco_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_plate_min.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/marine_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/multi_role.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\naked_topbar.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\ideology_circle_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/light_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/missile_boat.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\grand_battleplan_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\aeronautic_engineering.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/police_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Tabs\\tab_intel.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/battleship.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_selectminister.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\factions.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\cruiser_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_nuke_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\peace\\peace_negot_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spearhead_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\destroyer_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_nuclear.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_confirm_build.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_plains.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_triangle_right.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_industry_heavy.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/bergsjaeger_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_air_b.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\ideology_light_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\elected_icon2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_workers_big.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_tank_buster.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\cas_focus_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\division\\division_brigade.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/heavy_mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/fighter.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\bg_shadow.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_supplies_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\militia_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_space.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_money3.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/helo_gunship.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_icon_industry.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\base_strike_doctrine_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\twin_engine_aircraft_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/battleship.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/slbm_complex.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial\\hints\\hint-click.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airdivision\\air_stamp.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/light_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/rocket_interceptor.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\peace_negotiation_list.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_bar_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/engineer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tech_photo_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\selected_brigade_orange.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/armored_car_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_nuclear.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\cag_image_empty.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_hos_button.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/icbm_complex.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/engineer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_tab_ai.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_nuke.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/sp_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/missile_destroyer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\null_complex_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_queue_red.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/battlecruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intel_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\warsaw_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\econmy_build_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/nuclear_battlecruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\infantry_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_nato.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topcolor_intelligence.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/heavy_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/multi_role.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/transport.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_raremat_mini.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_sea_a.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_green.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Tabs\\tab_diplomacy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_weatherstrip.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nav_focus_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_airbase.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/flying_bomb.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_centrifuge.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\arrow_up.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\menubutton.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_leftbutton_type_2.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_war.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/garrison_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_SHORE_BOMBARD.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_blockade_runner.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mainmenu\\evw_slider_up.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sealane_interdiction_doctrine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_air_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_hills.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tac_focus_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/garrison_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\four_engine_aircraft_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/naval_bomber.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_engineer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_satellite.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_escort.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/ballistic_missile_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_bg_order.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_prod.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\ground_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\big_listbutton_1.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\province\\bg_province_paper.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mobile_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_info_small_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\economy_region_plate_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_green.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\empty_position_policy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sealane_interdiction_doctrine_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_WEATHER.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_coastalfort.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/attack_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\chemical_engineering_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mobile_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airdivision\\air_stamp_clip.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_orange.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_reset.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\four_engine_aircraft_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_leftbutton_type_2.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_navalbase.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_satellites.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/nuclear_missile_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_infra.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_soft2.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_traingle_left.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\cursor.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\plate_minister_selection_new.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/armored_engineer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\weapon_editor_picture_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_tab.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\trade_entry_bg3.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_priority.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/cag_fighter.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\dots.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplo_decision_thick.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_trans_cap.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/nuclear_guided_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intel_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/transport.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/transport_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\bg_spycard_action.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_shipyard.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_convoy_details2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_intel_espy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbars\\scroller_outliner_btn_up_down.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\divdesigner_listbutton2.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\trade_cancel.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/flying_bomb.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\bg_technology.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\uv_stance_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airdivision\\air_brigade_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_policy_selection_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/missile_destroyer.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_NIGHT_MODIFIER.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_red_stop_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\resource_lights.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\interbranch_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_escort.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear_bomb.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/missile_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airdivision\\air_badge.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_con_a.tga
+[spritetype.cpp:283]: Loading Texture tutorial\\tut_diplomacy_view.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy_region_plus_minus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\decision_info.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial_ingame\\tutorial_ingame_expanded.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\armour_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\icon_party_ban_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/attack_helo_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\deployment\bg_deployment.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/cag_vtol.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_manpower_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Tabs\\tab_economy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\selected_brigade_red_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_decision_entry.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/cag_mltr.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_naval_2.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/bergsjaeger_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/helo_gunship.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/naval_bomber.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\icon_chance.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\rocket_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\armament_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\artillery_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_close_under.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/militia_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/missile_frigate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\single_engine_aircraft_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\arsenal_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_icon_folder_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_res_export.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_horiz_slider.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_icon_workers_2.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/air_cav_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/light_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_INTERBRANCH.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\logistics_plate_green.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\fighter_focus.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/awacs_air_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/bomber_maritime.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/armored_car_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_LACK_OF_SUPPLIES.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\submarine_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\infantry_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_offensive_doctrine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Tabs\\tab_tech.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\steel_part.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_radar.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/unknown.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\province\\province_buildings_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\model_image_empty.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_plate_land.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/helicopter_carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\economy_paper.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_mountains.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\artillery_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_unit_plate_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\econmy_subsidized_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/flying_rocket.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_energy_small.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_ai.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_power_plant.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_DISSENT.dds
+[spritetype.cpp:283]: Loading Texture tutorial\\tut_ruler_view.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\artillery_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_radar.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_vertical_btn_down.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/cag_fighter.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/heavy_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_RADIO.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_superior_tactician.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\industry_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_btn_plus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_landfort.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mainmenu\\evw_slider_down.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_combined.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_centrifuge.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\air_doctrine_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\base_strike_doctrine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbars\\slider_btn_plus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\serial_minus.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_energy_big.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\decision_entry.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_attach_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\industry_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_bg_status.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_fortress_buster.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_land_2.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/cag_mltr.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_research.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_icon_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\empty_slot.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_long_building.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\land_doctrine_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_speed.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\icon_ak47.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_leadership_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_icon_airforce.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_below_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/battleship.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\uv_status_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\spy_cancel_buy_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_deployment_land1.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/cavalry_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_queue_green.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_back_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Tabs\\tab_military_sov.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_air_focus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\btn_goto.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_supplies_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\empty_slot_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_paused.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\diplo_shadow.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\naval_engineering.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_wp.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_hull.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/sp_rct_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_money_big.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/heavy_mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\tile_diplo.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\daynight.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\destroyer_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_app2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_aiknob.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\create_armygroup.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topcolor_technology.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_work.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_long_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\btn_plus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_icon_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\front_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_rocket.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_workforce_plupp.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\band_reorg_blue.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_button_selection_minister.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy_region_plate3.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/light_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\close_btn_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\paper\\empty_slot_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sunk_ships_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_navalbase.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_deployment_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\outliner_move_arrow.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\party_light.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/bergsjaeger_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_hierarchy_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\naval\\mission_btn_right.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_alliance.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_cag.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_shore.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_priority_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_satellite.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\bg_eco_budget.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/multi_role.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/paratrooper_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/sp_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_supplies_mini.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_bg_power.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\spy_disband_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\army_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\popular_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_icon_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear_bomb_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_arrow_up_down.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/helo_cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\stars.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/bomber_strike.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_superior_air_tactician.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_land.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/light_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\leader_types.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sort_off.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\leader_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_speed_icons.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\trade_inactive.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\human_wave_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_science.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_diverse.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_nuclear.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\aviation_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_airbase.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\economy_goods_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/attack_helo_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\ship_column.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\land_doctrine_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_bg_politics_naked.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\economy_bg_shadow.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_rafinery.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_plate_max.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\ideology_circle_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\rocket_science.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_politics.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\prod_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_build.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\sat_portrait.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_info_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\icon_satellite_big.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\aircraft_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\ic_need_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\ideology_light.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_loading_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/heavy_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_red_light.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\construction_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/light_mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\transp_black.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_STACKING_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_btn_switch.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_hierarchy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_detach_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\metaserver_listbutton.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_rafinery.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_LEADER_BONUS.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tech_unknown.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\multi_unit\\multi_btn_select.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/light_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/cag_fighter.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\select_ship_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_ENCIRCLEMENT_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\logistics_plate_red.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_vertical_btn_down_1.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_manpower_army_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\create_convoy.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/marine_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\icon_sw_allies.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_unit_plate_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mainwindow_divider.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_supplies_big.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/police_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\multi_unit\\multi_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_leftbutton2.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/cag_attack.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_POOR_SCREEN_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\bg_community_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\electronicengineering_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/long_range_anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\cruiser_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_spy_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_ai_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_plate_btn_close.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_icon_all.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/anti_tank_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/rocket_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/armored_car_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/engineer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_bg_assets.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\chemical_engineering.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/motorized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_embarked.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\human_wave_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_military_goods.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_DIVISION_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_paper_clip.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/recon_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_spotter.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_fuel_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\automotive_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_gdp_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_time.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/missile_boat.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_bg_objectives.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\bg_spy_card.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy_workforce_bar.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_rightbutton_type_2.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/armored_engineer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_building.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/nuclear_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_air_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_rocket.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_nuclear.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_pop_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/nuclear_guided_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\combat\\btn_retreat.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\construction_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\airdivision\\air_division_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/helicopter_carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\icon_number.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\hint_questionmark.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_uranium_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spycards\\icon_cost.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_workforce_plupp.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\diplo_bar_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/nuclear_battlecruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_infra.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_purple.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_fuel_mini.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_air_det.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\bg_decision.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/fighter.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/nuclear_missile_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_industry_heavy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_btn_minus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuke_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_aa.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/supercarrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_RADAR_STATION.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\outliner_move_arrow.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_all_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_ha.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\radar_aa\\prod_radar_screen.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\ideology_circle.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_infra.dds
+[spritetype.cpp:283]: Loading Texture gfx/interface/small_merge_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\single_engine_aircraft_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/garrison_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\band_mercenary_regiment.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_SURPRISE_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_slider.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sidebar_view_provinces.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\carrier_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\transport_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\model_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\select_btn_right.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_cyan.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_metal_mini.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\selected_brigade_green_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\temp_unit_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_brown.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\science_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\icon_spy_big.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\icon_sw_bombing.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\tile_faction.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\naval\\mission_checkbox.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_country_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tech_status_finnished.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\air_template_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_policy.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/cag_attack.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prov_terrain_high_mountains.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\selected_brigade_green.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/bomber_antisub.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\buildings_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/attack_helo_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/guided_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_aa.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\select_model.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_transport_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\outliner_siege.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_long_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_str.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\background_map.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/guided_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\deployment\\prod_deployment_air_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\slot_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/paratrooper_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_wire.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\science_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\create_army.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_metal_small.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_down.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_icon_capital.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/infantry_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tac_focus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\armour_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_ammo1.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_selected_tech.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_tape_right.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial\\hints_gold_ornament.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\policy_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sidebar_view_army.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\air\\air_mission_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_overlay_short.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/infantry_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\select_model2.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\bg_sort_faction.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/missile_frigate.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/bomber_maritime.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_close.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\province\\province_buildings_close.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_icneed.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_topitem.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\convoy_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_plate_carry.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\outliner_move_arrow.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial_ingame\\tutorial_maximise.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/air_cav_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_vertical_btn_down_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_right.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/recon_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_MULTIPLE.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_chart.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\land_screen_serials_btn_r.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_ammo.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/helo_maritime.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/long_range_anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_stop_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_subs.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_icon_house.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_sup.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\children_label_bg.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\hqandsub_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\army_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/icbm_complex.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/transport.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\grand_battleplan_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/flying_rocket.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/heavy_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbars\\slider_btn_minus.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/slbm_complex.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/tank_destroyer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\select_model_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/supercarrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_statesman.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tech_skill_indicator.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_current_red.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_air.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/bomber_antisub.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_strat_a.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_COMBINED_ARMS.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\cas_focus.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/transport_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\regiment_bg.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_question.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_bg_general_naked_shadow.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/tank_destroyer_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_noretreat.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\superior_firepower_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/sp_rct_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\naval_doctrine_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_sa.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\politics_tape_left.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\leader_stats_icons.tga
+[spritetype.cpp:283]: Loading Texture tutorial\\task_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_icon_sub.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tech_unknown_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\spearhead_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_nato.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factions_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_slider_btn1.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_transport.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\division\\division_selected_brigade_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\division\\division_template_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_sub_a.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\statesman_replace_button.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_high_tech.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\combat_close.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_nuke_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/sp_anti_air_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_nuke_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\rocket_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\capitalship_practical.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_aviation.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/nuclear_battlecruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\combat\\btn_combat_close.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_load.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_transport.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production_build_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\building_nuclear.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/nuclear_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/heavy_mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_RIVER_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_building_tv.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\reorg_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_attach_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\info_icon_nuke.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\scrollbar_leftbutton.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\prod_slider_btn.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_plate_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_allow_debt.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sidebar_view_combat.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\icon_folder_big.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/super_heavy_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/helo_cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_port.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\eco_time3.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_land_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\armament_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/escort_carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\button_arrow_left.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/destroyer.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/helo_cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\jetengine_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nav_focus.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\goal_plate_glow.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\division\\division_selected_brigade_close.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/cag_mltr.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_AMPH_PENALTY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear_physics_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/flying_rocket.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\division\\division_design_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_priority_1.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_unit_plate_stationary.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_nonaggression.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/paratrooper_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_ranger.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\slot_overlay_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_air_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_bg_general_naked.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/awacs_air_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\dots_defensive.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\transport_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\surface_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_naval_c.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mechanicalengineering_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\no_ship_selected.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/super_heavy_armor_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_fuel_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nato_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/helo_cas.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/anti_tank_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/slbm_complex.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_BASE_PROXIMITY.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\band_reorg_green.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_tou.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/bomber_strike.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_pos.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/light_mechanized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/motorized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\weapon_editor_plate.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_btn_eco_trade_tab.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\icon_military_access_us.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\bg_sort_diplo.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/missile_cruiser.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/cavalry_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\space_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\infantry_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tutorial\\icon_tutorial_exclamation.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\superior_firepower_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\selected_brigade_orange_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\on_complete_frame.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_law.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/all_terrain_vehicles.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_naval_2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\intel_unit_plate_naval.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\diplomacy\\bg_un_voting.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_nuke_icon_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\scroller_vertical_btn_down_3.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/cag_attack.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_factory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\brigade_detail_entry.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_carpet_bomber.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\arsenal_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_convoy_details.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_gov_policy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\outliner_move_arrow.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_air.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\stamp_laws.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_aviation.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\ideology_circle_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\null_complex.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_politics_selection.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/rocket_interceptor.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\strategic_air_focus_small.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/anti_tank_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/hq_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\tech_status_researching.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/recon_plane.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\multi_unit\\multi_btn_arrows.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_range.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_mp.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/hq_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/motorized_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\air\\mission_checkbox.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/militia_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\common\\select_btn_left.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_raremat_small.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\twin_engine_aircraft_practical_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\Backgrounds\\tech_bg_land.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\intelligence\\bg_intel_countrylist.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/escort_carrier.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/rocket_artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_yellow.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/helo_gunship.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/naval_bomber.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\asymmetric_theory.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sidebar_view_air.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\negotiation\\negot_plate_units_goods.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\militia_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_oc.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_btn_close.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/all_terrain_vehicles.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Pause_button\\Resume_pause.dds
+[spritetype.cpp:283]: Loading Texture gfx\\editor\\weapon_icon_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_plate_air.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/fighter.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_bg_buttons.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_prestige_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_default.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_top_air_ops.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_politics_main.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\politics\\bg_selected_policy.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\production\\prod_deployment_air.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/militia_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/bomber_strategic.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/nuclear_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_cw.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\flag_retreat.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_nuke_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\progress_overlay.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mobile_theory_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_escort_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_hierarchy_naked.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\Icons\\icon_unity_small.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_emblem.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_up.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\peace\\peace_negot_window_naked.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\icon_build_landfort.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_mainshadow.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/militia_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/bomber_strategic.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\skins\\country_bg_generic.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_bg_28.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\nuclear\\launch_pad_blue_light.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy_resource_title.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_folder.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\factory_build\\factory_left_rafinery.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\topbar\\topbar_prestige.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\sidebar_view_naval.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\factory_left_centrifuge.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/smallcounters/ballistic_missile_submarine.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\bg_spy_activity.dds
+[spritetype.cpp:283]: Loading Texture gfx\\models\\none_hull.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_plate_app2.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_folder_paper_clip.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_nuclear.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\bg_economy_trade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/unknown.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/helo_cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_detach_button.tga
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\research\\tech_btn_bottom_naval_b.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\CM_TERRAIN.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\submarine_engineering.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/mapcounters/artillery_brigade.dds
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/cas.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\unit_window\\unit_btn_close.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\economy\\eco_icon_upgrade.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\wind_icon.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\picture_aa.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\mission\\naval\\naval_mission_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\brigade_listbutton.tga
+[spritetype.cpp:283]: Loading Texture gfx/mapitems/counters/armor_brigade.dds
+[eu3graphics.cpp:209]: Load text  Loading GUI Definitions...
+[eu3graphics.cpp:209]: Load text  Loading Databases...
+[eu3graphics.cpp:209]: Load text  Initialising Maplogic...
+[eu3graphics.cpp:209]: Load text  Loading Databases II...
+[eu3graphics.cpp:209]: Load text  Loading History Files...
+[eu3graphics.cpp:209]: Load text  Loading Events...
+[eu3graphics.cpp:209]: Load text  Loading Sounds...
+[eu3graphics.cpp:209]: Load text  Processing Flags...
+[eu3graphics.cpp:209]: Load text  Creating Checksum...
+[main.cpp:417]: Run Application...
+[frontend.cpp:434]: entering frontend...
+[eu3graphics.cpp:209]: Load text  Loading Graphics...
+[frontend.cpp:471]: entering frontend...init map
+[eu3application.cpp:643]: initialise map
+[eu3graphics.cpp:209]: Load text  Creating Province #
+[eu3graphics.cpp:209]: Load text  Creating Borders...
+[provincemanager.cpp:1440]: Creating province data
+[eu3graphics.cpp:209]: Load text  Creating Texts....
+[eu3graphics.cpp:209]: Load text  Creating Rivers...
+[eu3graphics.cpp:209]: Load text  Creating the World...
+[provincemanager.cpp:1505]: Creating meshes
+[provincemanager.cpp:1546]: vertex declarations done
+[provincemanager.cpp:1582]: done quads
+[provincemanager.cpp:1614]: border adjacencies done
+[eu3graphics.cpp:209]: Load text  CREATE_WAVES
+[provincemanager.cpp:1661]: Create meshes done
+[eu3graphics.cpp:209]: Load text  Map Properly Initialized...
+[frontend.cpp:489]: eu3 idler restore
+[frontend.cpp:499]: reloaded
+[frontend.cpp:553]: done frontend
+[eu3graphics.cpp:209]: Load text  Loading Graphics...
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\editor_tooltip_bg.dds
+[spritetype.cpp:283]: Loading Texture gfx\\interface\\shipeditor\\naval_btn_empty.dds
+[eu3graphics.cpp:209]: Load text  Adapting History...
+[eu3graphics.cpp:209]: Load text  Adapting History for ---
+[eu3graphics.cpp:209]: Load text  Adapting History for ADN
+[eu3graphics.cpp:209]: Load text  Adapting History for AFG
+[eu3graphics.cpp:209]: Load text  Adapting History for ALB
+[eu3graphics.cpp:209]: Load text  Adapting History for ALG
+[eu3graphics.cpp:209]: Load text  Adapting History for ANG
+[eu3graphics.cpp:209]: Load text  Adapting History for ARA
+[eu3graphics.cpp:209]: Load text  Adapting History for ARG
+[eu3graphics.cpp:209]: Load text  Adapting History for ARM
+[eu3graphics.cpp:209]: Load text  Adapting History for ARU
+[eu3graphics.cpp:209]: Load text  Adapting History for AST
+[eu3graphics.cpp:209]: Load text  Adapting History for AUS
+[eu3graphics.cpp:209]: Load text  Adapting History for AZB
+[eu3graphics.cpp:209]: Load text  Adapting History for BAH
+[eu3graphics.cpp:209]: Load text  Adapting History for BAR
+[eu3graphics.cpp:209]: Load text  Adapting History for BEL
+[eu3graphics.cpp:209]: Load text  Adapting History for BEN
+[eu3graphics.cpp:209]: Load text  Adapting History for BGL
+[eu3graphics.cpp:209]: Load text  Adapting History for BHM
+[eu3graphics.cpp:209]: Load text  Adapting History for BHU
+[eu3graphics.cpp:209]: Load text  Adapting History for BIF
+[eu3graphics.cpp:209]: Load text  Adapting History for BKN
+[eu3graphics.cpp:209]: Load text  Adapting History for BLR
+[eu3graphics.cpp:209]: Load text  Adapting History for BLZ
+[eu3graphics.cpp:209]: Load text  Adapting History for BOL
+[eu3graphics.cpp:209]: Load text  Adapting History for BOS
+[eu3graphics.cpp:209]: Load text  Adapting History for BOT
+[eu3graphics.cpp:209]: Load text  Adapting History for BRA
+[eu3graphics.cpp:209]: Load text  Adapting History for BRD
+[eu3graphics.cpp:209]: Load text  Adapting History for BRM
+[eu3graphics.cpp:209]: Load text  Adapting History for BRU
+[eu3graphics.cpp:209]: Load text  Adapting History for BUL
+[eu3graphics.cpp:209]: Load text  Adapting History for BUR
+[eu3graphics.cpp:209]: Load text  Adapting History for BVI
+[eu3graphics.cpp:209]: Load text  Adapting History for CAL
+[eu3graphics.cpp:209]: Load text  Adapting History for CAM
+[eu3graphics.cpp:209]: Load text  Adapting History for CAN
+[eu3graphics.cpp:209]: Load text  Adapting History for CAR
+[eu3graphics.cpp:209]: Load text  Adapting History for CAT
+[eu3graphics.cpp:209]: Load text  Adapting History for CAY
+[eu3graphics.cpp:209]: Load text  Adapting History for CDI
+[eu3graphics.cpp:209]: Load text  Adapting History for CGX
+[eu3graphics.cpp:209]: Load text  Adapting History for CHA
+[eu3graphics.cpp:209]: Load text  Adapting History for CHC
+[eu3graphics.cpp:209]: Load text  Adapting History for CHI
+[eu3graphics.cpp:209]: Load text  Adapting History for CHL
+[eu3graphics.cpp:209]: Load text  Adapting History for CKI
+[eu3graphics.cpp:209]: Load text  Adapting History for CMB
+[eu3graphics.cpp:209]: Load text  Adapting History for COL
+[eu3graphics.cpp:209]: Load text  Adapting History for COM
+[eu3graphics.cpp:209]: Load text  Adapting History for CNG
+[eu3graphics.cpp:209]: Load text  Adapting History for COS
+[eu3graphics.cpp:209]: Load text  Adapting History for CPV
+[eu3graphics.cpp:209]: Load text  Adapting History for CRO
+[eu3graphics.cpp:209]: Load text  Adapting History for CSA
+[eu3graphics.cpp:209]: Load text  Adapting History for CSX
+[eu3graphics.cpp:209]: Load text  Adapting History for CUB
+[eu3graphics.cpp:209]: Load text  Adapting History for CXB
+[eu3graphics.cpp:209]: Load text  Adapting History for CYN
+[eu3graphics.cpp:209]: Load text  Adapting History for CYP
+[eu3graphics.cpp:209]: Load text  Adapting History for CZE
+[eu3graphics.cpp:209]: Load text  Adapting History for CZR
+[eu3graphics.cpp:209]: Load text  Adapting History for DDR
+[eu3graphics.cpp:209]: Load text  Adapting History for DEN
+[eu3graphics.cpp:209]: Load text  Adapting History for DJI
+[eu3graphics.cpp:209]: Load text  Adapting History for DMN
+[eu3graphics.cpp:209]: Load text  Adapting History for DOM
+[eu3graphics.cpp:209]: Load text  Adapting History for DRC
+[eu3graphics.cpp:209]: Load text  Adapting History for DRV
+[eu3graphics.cpp:209]: Load text  Adapting History for EAF
+[eu3graphics.cpp:209]: Load text  Adapting History for ECU
+[eu3graphics.cpp:209]: Load text  Adapting History for EGD
+[eu3graphics.cpp:209]: Load text  Adapting History for EGY
+[eu3graphics.cpp:209]: Load text  Adapting History for ENG
+[eu3graphics.cpp:209]: Load text  Adapting History for EQA
+[eu3graphics.cpp:209]: Load text  Adapting History for EQG
+[eu3graphics.cpp:209]: Load text  Adapting History for ERI
+[eu3graphics.cpp:209]: Load text  Adapting History for EST
+[eu3graphics.cpp:209]: Load text  Adapting History for ETH
+[eu3graphics.cpp:209]: Load text  Adapting History for EUS
+[eu3graphics.cpp:209]: Load text  Adapting History for FAR
+[eu3graphics.cpp:209]: Load text  Adapting History for FIN
+[eu3graphics.cpp:209]: Load text  Adapting History for FJI
+[eu3graphics.cpp:209]: Load text  Adapting History for FKL
+[eu3graphics.cpp:209]: Load text  Adapting History for FLA
+[eu3graphics.cpp:209]: Load text  Adapting History for FPO
+[eu3graphics.cpp:209]: Load text  Adapting History for FRA
+[eu3graphics.cpp:209]: Load text  Adapting History for FRG
+[eu3graphics.cpp:209]: Load text  Adapting History for FSU
+[eu3graphics.cpp:209]: Load text  Adapting History for GAB
+[eu3graphics.cpp:209]: Load text  Adapting History for GAM
+[eu3graphics.cpp:209]: Load text  Adapting History for GEO
+[eu3graphics.cpp:209]: Load text  Adapting History for GER
+[eu3graphics.cpp:209]: Load text  Adapting History for GHN
+[eu3graphics.cpp:209]: Load text  Adapting History for GPF
+[eu3graphics.cpp:209]: Load text  Adapting History for GRE
+[eu3graphics.cpp:209]: Load text  Adapting History for GRL
+[eu3graphics.cpp:209]: Load text  Adapting History for GRN
+[eu3graphics.cpp:209]: Load text  Adapting History for GRT
+[eu3graphics.cpp:209]: Load text  Adapting History for GUA
+[eu3graphics.cpp:209]: Load text  Adapting History for GUB
+[eu3graphics.cpp:209]: Load text  Adapting History for GUI
+[eu3graphics.cpp:209]: Load text  Adapting History for GUM
+[eu3graphics.cpp:209]: Load text  Adapting History for GUY
+[eu3graphics.cpp:209]: Load text  Adapting History for GZS
+[eu3graphics.cpp:209]: Load text  Adapting History for HAI
+[eu3graphics.cpp:209]: Load text  Adapting History for HNK
+[eu3graphics.cpp:209]: Load text  Adapting History for HOL
+[eu3graphics.cpp:209]: Load text  Adapting History for HON
+[eu3graphics.cpp:209]: Load text  Adapting History for HUN
+[eu3graphics.cpp:209]: Load text  Adapting History for ICL
+[eu3graphics.cpp:209]: Load text  Adapting History for IDC
+[eu3graphics.cpp:209]: Load text  Adapting History for IND
+[eu3graphics.cpp:209]: Load text  Adapting History for INO
+[eu3graphics.cpp:209]: Load text  Adapting History for IRE
+[eu3graphics.cpp:209]: Load text  Adapting History for IRQ
+[eu3graphics.cpp:209]: Load text  Adapting History for ISR
+[eu3graphics.cpp:209]: Load text  Adapting History for ITA
+[eu3graphics.cpp:209]: Load text  Adapting History for JAP
+[eu3graphics.cpp:209]: Load text  Adapting History for JMC
+[eu3graphics.cpp:209]: Load text  Adapting History for JOR
+[eu3graphics.cpp:209]: Load text  Adapting History for KAT
+[eu3graphics.cpp:209]: Load text  Adapting History for KAZ
+[eu3graphics.cpp:209]: Load text  Adapting History for KEN
+[eu3graphics.cpp:209]: Load text  Adapting History for KHM
+[eu3graphics.cpp:209]: Load text  Adapting History for KIR
+[eu3graphics.cpp:209]: Load text  Adapting History for KON
+[eu3graphics.cpp:209]: Load text  Adapting History for KOR
+[eu3graphics.cpp:209]: Load text  Adapting History for KOS
+[eu3graphics.cpp:209]: Load text  Adapting History for KRJ
+[eu3graphics.cpp:209]: Load text  Adapting History for KUR
+[eu3graphics.cpp:209]: Load text  Adapting History for KWT
+[eu3graphics.cpp:209]: Load text  Adapting History for KYG
+[eu3graphics.cpp:209]: Load text  Adapting History for LAO
+[eu3graphics.cpp:209]: Load text  Adapting History for LAT
+[eu3graphics.cpp:209]: Load text  Adapting History for LBY
+[eu3graphics.cpp:209]: Load text  Adapting History for LEB
+[eu3graphics.cpp:209]: Load text  Adapting History for LIB
+[eu3graphics.cpp:209]: Load text  Adapting History for LIT
+[eu3graphics.cpp:209]: Load text  Adapting History for LST
+[eu3graphics.cpp:209]: Load text  Adapting History for LUX
+[eu3graphics.cpp:209]: Load text  Adapting History for MAD
+[eu3graphics.cpp:209]: Load text  Adapting History for MAL
+[eu3graphics.cpp:209]: Load text  Adapting History for MAR
+[eu3graphics.cpp:209]: Load text  Adapting History for MCD
+[eu3graphics.cpp:209]: Load text  Adapting History for MCU
+[eu3graphics.cpp:209]: Load text  Adapting History for MEX
+[eu3graphics.cpp:209]: Load text  Adapting History for MIC
+[eu3graphics.cpp:209]: Load text  Adapting History for MLD
+[eu3graphics.cpp:209]: Load text  Adapting History for MLT
+[eu3graphics.cpp:209]: Load text  Adapting History for MLW
+[eu3graphics.cpp:209]: Load text  Adapting History for MLY
+[eu3graphics.cpp:209]: Load text  Adapting History for MNC
+[eu3graphics.cpp:209]: Load text  Adapting History for MNS
+[eu3graphics.cpp:209]: Load text  Adapting History for MOL
+[eu3graphics.cpp:209]: Load text  Adapting History for MON
+[eu3graphics.cpp:209]: Load text  Adapting History for MOR
+[eu3graphics.cpp:209]: Load text  Adapting History for MOZ
+[eu3graphics.cpp:209]: Load text  Adapting History for MRA
+[eu3graphics.cpp:209]: Load text  Adapting History for MRT
+[eu3graphics.cpp:209]: Load text  Adapting History for MTN
+[eu3graphics.cpp:209]: Load text  Adapting History for NAM
+[eu3graphics.cpp:209]: Load text  Adapting History for NAN
+[eu3graphics.cpp:209]: Load text  Adapting History for NEA
+[eu3graphics.cpp:209]: Load text  Adapting History for NEP
+[eu3graphics.cpp:209]: Load text  Adapting History for NEW
+[eu3graphics.cpp:209]: Load text  Adapting History for NGK
+[eu3graphics.cpp:209]: Load text  Adapting History for NGR
+[eu3graphics.cpp:209]: Load text  Adapting History for NIC
+[eu3graphics.cpp:209]: Load text  Adapting History for NIG
+[eu3graphics.cpp:209]: Load text  Adapting History for NIU
+[eu3graphics.cpp:209]: Load text  Adapting History for NOR
+[eu3graphics.cpp:209]: Load text  Adapting History for NRU
+[eu3graphics.cpp:209]: Load text  Adapting History for NYE
+[eu3graphics.cpp:209]: Load text  Adapting History for NZL
+[eu3graphics.cpp:209]: Load text  Adapting History for OMN
+[eu3graphics.cpp:209]: Load text  Adapting History for PAC
+[eu3graphics.cpp:209]: Load text  Adapting History for PAG
+[eu3graphics.cpp:209]: Load text  Adapting History for PAK
+[eu3graphics.cpp:209]: Load text  Adapting History for PAL
+[eu3graphics.cpp:209]: Load text  Adapting History for PAN
+[eu3graphics.cpp:209]: Load text  Adapting History for PAR
+[eu3graphics.cpp:209]: Load text  Adapting History for PER
+[eu3graphics.cpp:209]: Load text  Adapting History for PHI
+[eu3graphics.cpp:209]: Load text  Adapting History for POL
+[eu3graphics.cpp:209]: Load text  Adapting History for POR
+[eu3graphics.cpp:209]: Load text  Adapting History for PRC
+[eu3graphics.cpp:209]: Load text  Adapting History for PRK
+[eu3graphics.cpp:209]: Load text  Adapting History for PRU
+[eu3graphics.cpp:209]: Load text  Adapting History for PTL
+[eu3graphics.cpp:209]: Load text  Adapting History for QTR
+[eu3graphics.cpp:209]: Load text  Adapting History for QUE
+[eu3graphics.cpp:209]: Load text  Adapting History for REB
+[eu3graphics.cpp:209]: Load text  Adapting History for RHO
+[eu3graphics.cpp:209]: Load text  Adapting History for ROM
+[eu3graphics.cpp:209]: Load text  Adapting History for RSK
+[eu3graphics.cpp:209]: Load text  Adapting History for RUS
+[eu3graphics.cpp:209]: Load text  Adapting History for RWD
+[eu3graphics.cpp:209]: Load text  Adapting History for SAF
+[eu3graphics.cpp:209]: Load text  Adapting History for SAL
+[eu3graphics.cpp:209]: Load text  Adapting History for SAR
+[eu3graphics.cpp:209]: Load text  Adapting History for SAU
+[eu3graphics.cpp:209]: Load text  Adapting History for SCH
+[eu3graphics.cpp:209]: Load text  Adapting History for SCL
+[eu3graphics.cpp:209]: Load text  Adapting History for SCO
+[eu3graphics.cpp:209]: Load text  Adapting History for SDR
+[eu3graphics.cpp:209]: Load text  Adapting History for SEN
+[eu3graphics.cpp:209]: Load text  Adapting History for SER
+[eu3graphics.cpp:209]: Load text  Adapting History for SGP
+[eu3graphics.cpp:209]: Load text  Adapting History for SHL
+[eu3graphics.cpp:209]: Load text  Adapting History for SIA
+[eu3graphics.cpp:209]: Load text  Adapting History for SIB
+[eu3graphics.cpp:209]: Load text  Adapting History for SIE
+[eu3graphics.cpp:209]: Load text  Adapting History for SIK
+[eu3graphics.cpp:209]: Load text  Adapting History for SKA
+[eu3graphics.cpp:209]: Load text  Adapting History for SLC
+[eu3graphics.cpp:209]: Load text  Adapting History for SLI
+[eu3graphics.cpp:209]: Load text  Adapting History for SLL
+[eu3graphics.cpp:209]: Load text  Adapting History for SLO
+[eu3graphics.cpp:209]: Load text  Adapting History for SLV
+[eu3graphics.cpp:209]: Load text  Adapting History for SMO
+[eu3graphics.cpp:209]: Load text  Adapting History for SOM
+[eu3graphics.cpp:209]: Load text  Adapting History for SOV
+[eu3graphics.cpp:209]: Load text  Adapting History for SPA
+[eu3graphics.cpp:209]: Load text  Adapting History for SRL
+[eu3graphics.cpp:209]: Load text  Adapting History for SUD
+[eu3graphics.cpp:209]: Load text  Adapting History for SUR
+[eu3graphics.cpp:209]: Load text  Adapting History for SVI
+[eu3graphics.cpp:209]: Load text  Adapting History for SWA
+[eu3graphics.cpp:209]: Load text  Adapting History for SWE
+[eu3graphics.cpp:209]: Load text  Adapting History for SYA
+[eu3graphics.cpp:209]: Load text  Adapting History for SYR
+[eu3graphics.cpp:209]: Load text  Adapting History for TAJ
+[eu3graphics.cpp:209]: Load text  Adapting History for TCI
+[eu3graphics.cpp:209]: Load text  Adapting History for TEX
+[eu3graphics.cpp:209]: Load text  Adapting History for TIB
+[eu3graphics.cpp:209]: Load text  Adapting History for TIL
+[eu3graphics.cpp:209]: Load text  Adapting History for TNG
+[eu3graphics.cpp:209]: Load text  Adapting History for TNZ
+[eu3graphics.cpp:209]: Load text  Adapting History for TOG
+[eu3graphics.cpp:209]: Load text  Adapting History for TON
+[eu3graphics.cpp:209]: Load text  Adapting History for TRI
+[eu3graphics.cpp:209]: Load text  Adapting History for TRK
+[eu3graphics.cpp:209]: Load text  Adapting History for TSN
+[eu3graphics.cpp:209]: Load text  Adapting History for TUN
+[eu3graphics.cpp:209]: Load text  Adapting History for TUR
+[eu3graphics.cpp:209]: Load text  Adapting History for TWN
+[eu3graphics.cpp:209]: Load text  Adapting History for UAR
+[eu3graphics.cpp:209]: Load text  Adapting History for UAE
+[eu3graphics.cpp:209]: Load text  Adapting History for UGD
+[eu3graphics.cpp:209]: Load text  Adapting History for UKR
+[eu3graphics.cpp:209]: Load text  Adapting History for URU
+[eu3graphics.cpp:209]: Load text  Adapting History for USA
+[eu3graphics.cpp:209]: Load text  Adapting History for UZB
+[eu3graphics.cpp:209]: Load text  Adapting History for VAT
+[eu3graphics.cpp:209]: Load text  Adapting History for VEN
+[eu3graphics.cpp:209]: Load text  Adapting History for VGI
+[eu3graphics.cpp:209]: Load text  Adapting History for VIE
+[eu3graphics.cpp:209]: Load text  Adapting History for VNT
+[eu3graphics.cpp:209]: Load text  Adapting History for WBR
+[eu3graphics.cpp:209]: Load text  Adapting History for WLL
+[eu3graphics.cpp:209]: Load text  Adapting History for WLS
+[eu3graphics.cpp:209]: Load text  Adapting History for WPA
+[eu3graphics.cpp:209]: Load text  Adapting History for YEM
+[eu3graphics.cpp:209]: Load text  Adapting History for YUG
+[eu3graphics.cpp:209]: Load text  Adapting History for ZIM
+[eu3graphics.cpp:209]: Load text  Adapting History for ZMB
+[eu3graphics.cpp:209]: Load text  Adapting History for ZNZ
+[eu3graphics.cpp:209]: Load text  Adapting History for ZRH
+[eu3graphics.cpp:209]: Load text  Adapting Provinces...
+[eu3graphics.cpp:209]: Load text  Setting Up Information Caches
+[eu3graphics.cpp:209]: Load text  Setting Up Supply Logic
+[eu3graphics.cpp:209]: Load text  Setting Up Weather
+[eu3graphics.cpp:209]: Load text  Setting Up Intel
+[eu3graphics.cpp:209]: Load text  Setting Up Supply Network Phase 1/3
+[eu3graphics.cpp:209]: Load text  Setting Up Supply Network Phase 2/3
+[eu3graphics.cpp:209]: Load text  Setting Up Supply Network Phase 3/3
+[eu3graphics.cpp:209]: Load text  Setting Up Theatres
+[eu3graphics.cpp:209]: Load text  Starting GUI...

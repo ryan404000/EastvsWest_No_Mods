@@ -1,0 +1,7 @@
+military_construction = { #UAE EVENTID 349982
+	country = UAE
+		name = "Arabian Revolutionary Desert Vanguard"
+		motorized_brigade = { name = "1st Arab Mot-Desert Vanguard" historical_model = current strength = 40 experience = 40 }
+		police_brigade = { name = "1st Arab Pol-Desert Vanguard" historical_model = current strength = 21 experience = 40 }
+	progress = 35
+}

@@ -1,0 +1,18 @@
+name = "Chinese Civil War"
+
+1946.7.1 = {
+	add_attacker = CHI
+	add_attacker = CXB
+	add_attacker = CSX
+	add_attacker = CYN
+	add_defender = CHC
+}
+
+1950.1.1 = {
+	
+	rem_attacker = CHI
+	rem_attacker = CXB
+	rem_attacker = CSX
+	rem_attacker = CYN
+	rem_defender = CHC
+}

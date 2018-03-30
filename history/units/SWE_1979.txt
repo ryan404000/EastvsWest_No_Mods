@@ -1,0 +1,195 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6082
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 6082
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 6082
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+			regiment = { type = light_mechanized_brigade name = "2nd Light Mech. Brigade" historical_model = 3 strength = 37 experience = 4 }
+			regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 3 strength = 37 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 3 strength = 24 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 5987
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 2 strength = 39 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 2 strength = 25 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 6172
+			regiment = { type = light_mechanized_brigade name = "5th Light Mech. Brigade" historical_model = 3 strength = 37 experience = 4 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+			regiment = { type = air_cav_brigade name = "1st Air Cavalry Brigade" historical_model = 1 strength = 40 experience = 5 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 4156
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "4th Division"
+			location = 4156
+			regiment = { type = light_mechanized_brigade name = "7th Light Mech. Brigade" historical_model = 3 strength = 37 experience = 4 }
+			regiment = { type = light_mechanized_brigade name = "8th Light Mech. Brigade" historical_model = 3 strength = 37 experience = 4 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 3 strength = 25 experience = 4 }
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 4349
+			regiment = { type = light_mechanized_brigade name = "10th Light Mech. Brigade" historical_model = 1 strength = 37 experience = 4 }
+			regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 3 strength = 24 experience = 5 }
+			regiment = { type = light_mechanized_brigade name = "2nd Light Mech. Brigade" historical_model = 3 strength = 36 experience = 5 }
+			regiment = { type = engineer_brigade name = "1st Engineer Regiment" historical_model = 2 strength = 25 experience = 5 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 4156
+		location = 4156
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 3 strength = 75 }
+		wing = { type = fighter name = "2nd Fighter Wing" historical_model = 3 strength = 75 }
+	}
+	air = {
+		name = "2nd Air Force"
+		base = 4156
+		location = 4156
+		wing = { type = multi_role name = "3rd Fighter Wing" historical_model = 3 strength = 100 }
+		wing = { type = multi_role name = "4th Fighter Wing" historical_model = 4 strength = 100 }
+	}
+	navy = {
+		
+		name = "1st Fleet"
+		base = 5803 # Karlskrona (m)
+		location = 5803
+		ship = { type = missile_destroyer name = "HMS Småland" historical_model = 0 }
+		ship = { type = missile_destroyer name = "HMS Östergötland" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HMS Södermanland" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HMS Gästrikland" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HMS Hälsingland" historical_model = 1 }
+		ship = { type = missile_boat name = "1. Robotbåtflottiljen" strength = 70 historical_model = 4 builder = NOR}		
+		ship = { type = transport_ship name = "1. Sjötransportflottiljen" historical_model = 0 }
+	}
+	navy = {
+		
+		name = "2nd Fleet"
+		base = 5803 # Karlskrona (m)
+		location = 5803
+		ship = { type = attack_submarine name = "HMS Sjöormen" historical_model = 4 }
+		ship = { type = attack_submarine name = "HMS Sjölejonet" historical_model = 4 }
+		ship = { type = attack_submarine name = "HMS Sjöbörnen" historical_model = 4 }
+		ship = { type = attack_submarine name = "HMS Sjöhunden" historical_model = 4 }
+		ship = { type = attack_submarine name = "HMS Sjöhästen" historical_model = 4 }
+		ship = { type = attack_submarine name = "HMS Delfinen" historical_model = 2 }
+		ship = { type = attack_submarine name = "HMS Draken" historical_model = 2 }
+		ship = { type = attack_submarine name = "HMS Gripen" historical_model = 2 }
+		ship = { type = attack_submarine name = "HMS Nordkaparen" historical_model = 2 }
+		ship = { type = attack_submarine name = "HMS Springaren" historical_model = 2 }
+		ship = { type = attack_submarine name = "HMS Vargen" historical_model = 2 }
+		ship = { type = attack_submarine name = "HMS Bävern" historical_model = 1 }
+		ship = { type = attack_submarine name = "HMS Hajen" historical_model = 1 }
+		ship = { type = attack_submarine name = "HMS Illern" historical_model = 1 }
+		ship = { type = attack_submarine name = "HMS Sälen" historical_model = 1 }
+		ship = { type = attack_submarine name = "HMS Uttern" historical_model = 1 }
+		ship = { type = attack_submarine name = "HMS Valen" historical_model = 1 }
+	}
+}
+division =
+{
+	name = "6th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 2 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+}
+division =
+{
+	name = "7th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 3 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 3 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 2 strength = 39 experience = 4 }
+}
+division =
+{
+	name = "8th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "18th Infantry Brigade" historical_model = 3 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "19th Infantry Brigade" historical_model = 3 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "20th Infantry Brigade" historical_model = 3 strength = 39 experience = 5 }
+	regiment = { type = artillery_brigade name = "3rd Artillery Regiment" historical_model = 3 strength = 24 experience = 5 }
+	regiment = { type = infantry_brigade name = "21st Infantry Brigade" historical_model = 3 strength = 39 experience = 5 }
+}
+division =
+{
+	name = "9th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "22nd Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = light_mechanized_brigade name = "3rd Light Mech. Brigade" historical_model = 3 strength = 37 experience = 4 }
+	regiment = { type = infantry_brigade name = "23rd Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 3 strength = 25 experience = 4 }
+}
+navy = {
+	name = "Mothball Fleet"
+	base = 5803 # Karlskrona (m)
+	location = 5803
+	pool = yes
+		ship = { type = missile_destroyer name = "HMS Halland" historical_model = 0 }
+}
+
+military_construction = {
+	country = SWE
+	name = "HMS Näcken"
+	attack_submarine = {
+		name = "HMS Näcken"
+		historical_model = 6 
+		}
+	progress = 50
+	location = 5803
+}
+
+military_construction = {
+	country = SWE
+	name = "HMS Neptun"
+	attack_submarine = {
+		name = "HMS Neptun"
+		historical_model = 6
+		}
+	progress = 40
+	location = 5803
+}
+
+military_construction = {
+	country = SWE
+	name = "HMS Najad"
+	attack_submarine = {
+		name = "HMS Najad"
+		historical_model = 6 
+		}
+	progress = 10
+	location = 5803
+}

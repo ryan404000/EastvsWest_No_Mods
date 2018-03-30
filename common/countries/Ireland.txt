@@ -1,0 +1,711 @@
+color = { 80  159  90 }
+graphical_culture = Us
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	ENG_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={
+	supercarrier = {
+		"LÉ Máel Sechnaill" "LÉ Aed Findliath" "LÉ Flann Sinna" "LÉ Niall Glúndub" "LÉ Donnchad Donn" "LÉ Congalach Cnogba" "LÉ Domnall ua Néill" "LÉ Máel Sechnaill" "LÉ Brian Bóruma" "LÉ Donnchad mac Briain"
+		"LÉ Diarmait mac Maíl na mBó" "LÉ Toirdelbach Ua Briain" "LÉ Domnall Ua Lochlainn" "LÉ Muirchertach Ua Briain" "LÉ Toirdelbach Ua Conchobair" "LÉ Muirchertach Mac Lochlainn" "LÉ Ruaidrí Ua Conchobair"
+		}
+	carrier = {
+		"LÉ Máel Sechnaill" "LÉ Aed Findliath" "LÉ Flann Sinna" "LÉ Niall Glúndub" "LÉ Donnchad Donn" "LÉ Congalach Cnogba" "LÉ Domnall ua Néill" "LÉ Máel Sechnaill" "LÉ Brian Bóruma" "LÉ Donnchad mac Briain"
+		"LÉ Diarmait mac Maíl na mBó" "LÉ Toirdelbach Ua Briain" "LÉ Domnall Ua Lochlainn" "LÉ Muirchertach Ua Briain" "LÉ Toirdelbach Ua Conchobair" "LÉ Muirchertach Mac Lochlainn" "LÉ Ruaidrí Ua Conchobair"
+		}
+	escort_carrier = {
+		"LÉ Laighin" "LÉ Ulaidh" "LÉ Mumhain" "LÉ Connachta" "LÉ Gaillimhe" "LÉ Liatroma" "LÉ Mhaigh Eo" "LÉ Ros Comáin" "LÉ Chláir" "LÉ Chorcaí"
+		"LÉ Chiarraí" "LÉ Thiobraid Árann" "LÉ Cheatharlach" "LÉ Átha Cliath" "LÉ Chill Dara" "LÉ Chill Chainnigh" "LÉ Mhuineacháin" "LÉ Tír Chonaill" "LÉ Chabháin" "LÉ Tír Eoghain"		
+		}
+	helicopter_carrier = {
+		"LÉ Laighin" "LÉ Ulaidh" "LÉ Mumhain" "LÉ Connachta" "LÉ Gaillimhe" "LÉ Liatroma" "LÉ Mhaigh Eo" "LÉ Ros Comáin" "LÉ Chláir" "LÉ Chorcaí"
+		"LÉ Chiarraí" "LÉ Thiobraid Árann" "LÉ Cheatharlach" "LÉ Átha Cliath" "LÉ Chill Dara" "LÉ Chill Chainnigh" "LÉ Mhuineacháin" "LÉ Tír Chonaill" "LÉ Chabháin" "LÉ Tír Eoghain"		
+		}	
+	battleship = {
+		"LÉ Máel Sechnaill" "LÉ Aed Findliath" "LÉ Flann Sinna" "LÉ Niall Glúndub" "LÉ Donnchad Donn" "LÉ Congalach Cnogba" "LÉ Domnall ua Néill" "LÉ Máel Sechnaill" "LÉ Brian Bóruma" "LÉ Donnchad mac Briain"
+		"LÉ Diarmait mac Maíl na mBó" "LÉ Toirdelbach Ua Briain" "LÉ Domnall Ua Lochlainn" "LÉ Muirchertach Ua Briain" "LÉ Toirdelbach Ua Conchobair" "LÉ Muirchertach Mac Lochlainn" "LÉ Ruaidrí Ua Conchobair"
+		}
+	nuclear_battlecruiser = {
+		"LÉ Máel Sechnaill" "LÉ Aed Findliath" "LÉ Flann Sinna" "LÉ Niall Glúndub" "LÉ Donnchad Donn" "LÉ Congalach Cnogba" "LÉ Domnall ua Néill" "LÉ Máel Sechnaill" "LÉ Brian Bóruma" "LÉ Donnchad mac Briain"
+		"LÉ Diarmait mac Maíl na mBó" "LÉ Toirdelbach Ua Briain" "LÉ Domnall Ua Lochlainn" "LÉ Muirchertach Ua Briain" "LÉ Toirdelbach Ua Conchobair" "LÉ Muirchertach Mac Lochlainn" "LÉ Ruaidrí Ua Conchobair"
+		}
+	nuclear_missile_cruiser = {
+		"LÉ Laighin" "LÉ Ulaidh" "LÉ Mumhain" "LÉ Connachta" "LÉ Gaillimhe" "LÉ Liatroma" "LÉ Mhaigh Eo" "LÉ Ros Comáin" "LÉ Chláir" "LÉ Chorcaí"
+		"LÉ Chiarraí" "LÉ Thiobraid Árann" "LÉ Cheatharlach" "LÉ Átha Cliath" "LÉ Chill Dara" "LÉ Chill Chainnigh" "LÉ Mhuineacháin" "LÉ Tír Chonaill" "LÉ Chabháin" "LÉ Tír Eoghain"		
+		}	
+	missile_cruiser = {
+		"LÉ Laighin" "LÉ Ulaidh" "LÉ Mumhain" "LÉ Connachta" "LÉ Gaillimhe" "LÉ Liatroma" "LÉ Mhaigh Eo" "LÉ Ros Comáin" "LÉ Chláir" "LÉ Chorcaí"
+		"LÉ Chiarraí" "LÉ Thiobraid Árann" "LÉ Cheatharlach" "LÉ Átha Cliath" "LÉ Chill Dara" "LÉ Chill Chainnigh" "LÉ Mhuineacháin" "LÉ Tír Chonaill" "LÉ Chabháin" "LÉ Tír Eoghain"		
+		}	
+	cruiser = {
+		"LÉ Laighin" "LÉ Ulaidh" "LÉ Mumhain" "LÉ Connachta" "LÉ Gaillimhe" "LÉ Liatroma" "LÉ Mhaigh Eo" "LÉ Ros Comáin" "LÉ Chláir" "LÉ Chorcaí"
+		"LÉ Chiarraí" "LÉ Thiobraid Árann" "LÉ Cheatharlach" "LÉ Átha Cliath" "LÉ Chill Dara" "LÉ Chill Chainnigh" "LÉ Mhuineacháin" "LÉ Tír Chonaill" "LÉ Chabháin" "LÉ Tír Eoghain"		
+		}	
+	missile_destroyer = {
+		"LÉ Baile Átha Cliath" "LÉ Corcaigh" "LÉ Luimneach" "LÉ Gaillimh" "LÉ Port Láirge" "LÉ Droichead Átha" "LÉ Dún Dealgan" "LÉ Brí Chualann" "LÉ Uaimh" "LÉ Inis"
+		"LÉ Cill Chainnigh"	"LÉ Trá Lí" "LÉ Ceatharlach" "LÉ Droichead Nua" "LÉ Nás na Ríogh" "LÉ Baile Átha Luain" "LÉ Port Laoise" "LÉ An Muileann gCearr" "LÉ Loch Garman" "LÉ Baile Brigín"			
+		}
+	destroyer = {
+		"1. Destroyer Cabhlachán" "2. Destroyer Cabhlachán" "3. Destroyer Cabhlachán" "4. Destroyer Cabhlachán"	"5. Destroyer Cabhlachán" "6. Destroyer Cabhlachán" "7. Destroyer Cabhlachán" "8. Destroyer Cabhlachán" "9. Destroyer Cabhlachán" "10. Destroyer Cabhlachán"
+		"11. Destroyer Cabhlachán" "12. Destroyer Cabhlachán" "13. Destroyer Cabhlachán" "14. Destroyer Cabhlachán" "15. Destroyer Cabhlachán" "16. Destroyer Cabhlachán" "17. Destroyer Cabhlachán" "18. Destroyer Cabhlachán" "19. Destroyer Cabhlachán" "20. Destroyer Cabhlachán"
+		"21. Destroyer Cabhlachán" "22. Destroyer Cabhlachán" "23. Destroyer Cabhlachán" "24. Destroyer Cabhlachán" "25. Destroyer Cabhlachán" "26. Destroyer Cabhlachán" "27. Destroyer Cabhlachán" "28. Destroyer Cabhlachán" "29. Destroyer Cabhlachán" "30. Destroyer Cabhlachán"
+		"31. Destroyer Cabhlachán" "32. Destroyer Cabhlachán" "33. Destroyer Cabhlachán" "34. Destroyer Cabhlachán" "35. Destroyer Cabhlachán" "36. Destroyer Cabhlachán" "37. Destroyer Cabhlachán" "38. Destroyer Cabhlachán" "39. Destroyer Cabhlachán" "40. Destroyer Cabhlachán"
+		"41. Destroyer Cabhlachán" "42. Destroyer Cabhlachán" "43. Destroyer Cabhlachán" "44. Destroyer Cabhlachán" "45. Destroyer Cabhlachán" "46. Destroyer Cabhlachán" "47. Destroyer Cabhlachán" "48. Destroyer Cabhlachán" "49. Destroyer Cabhlachán" "50. Destroyer Cabhlachán"
+		}
+	missile_frigate = {
+		"LÉ Corrán Tuathail" "LÉ Binn Chaorach" "LÉ Cathair na Féinne" "LÉ Cnoc na Péiste" "LÉ Cathair Thiar" "LÉ Maolán Buí" "LÉ The Bones" "LÉ Cnoc an Chuillinn" "LÉ An Gunna Mór" "LÉ Cruach Mhór"
+		"LÉ Cnoc Bréanainn" "LÉ Log na Coille" "LÉ Cnoc Mór na nGaibhlte" "LÉ Sliabh Dónairt" "LÉ Barr Trí gCom" "LÉ Mullach Cliabháin" "LÉ An Mhangarta" "LÉ Cathair Conraoi" "LÉ Sliabh Corcra" "LÉ Binn os Gaoith" 
+	}	
+	missile_boat = {
+		"1. Bád Diúracán Cabhlachán" "2. Bád Diúracán Cabhlachán" "3. Bád Diúracán Cabhlachán" "4. Bád Diúracán Cabhlachán" "5. Bád Diúracán Cabhlachán" "6. Bád Diúracán Cabhlachán" "7. Bád Diúracán Cabhlachán" "9. Bád Diúracán Cabhlachán" "10. Bád Diúracán Cabhlachán"
+		"11. Bád Diúracán Cabhlachán" "12. Bád Diúracán Cabhlachán" "13. Bád Diúracán Cabhlachán" "14. Bád Diúracán Cabhlachán" "15. Bád Diúracán Cabhlachán" "16. Bád Diúracán Cabhlachán" "17. Bád Diúracán Cabhlachán" "18. Bád Diúracán Cabhlachán" "19. Bád Diúracán Cabhlachán" "20. Bád Diúracán Cabhlachán"
+		"21. Bád Diúracán Cabhlachán" "22. Bád Diúracán Cabhlachán" "23. Bád Diúracán Cabhlachán" "24. Bád Diúracán Cabhlachán" "25. Bád Diúracán Cabhlachán"	
+		"1. Corvette Cabhlachán" "2. Corvette Cabhlachán" "3. Corvette Cabhlachán" "4. Corvette Cabhlachán" "5. Corvette Cabhlachán" "6. Corvette Cabhlachán" "7. Corvette Cabhlachán" "9. Corvette Cabhlachán" "10. Corvette Cabhlachán"
+		"11. Corvette Cabhlachán" "12. Corvette Cabhlachán" "13. Corvette Cabhlachán" "14. Corvette Cabhlachán" "15. Corvette Cabhlachán" "16. Corvette Cabhlachán" "17. Corvette Cabhlachán" "18. Corvette Cabhlachán" "19. Corvette Cabhlachán" "20. Corvette Cabhlachán"
+		"21. Corvette Cabhlachán" "22. Corvette Cabhlachán" "23. Corvette Cabhlachán" "24. Corvette Cabhlachán" "25. Corvette Cabhlachán"
+		}
+	submarine = {
+		"1. Fomhuirí Cabhlachán" "2. Fomhuirí Cabhlachán" "3. Fomhuirí Cabhlachán" "4. Fomhuirí Cabhlachán" "5. Fomhuirí Cabhlachán" "6. Fomhuirí Cabhlachán" "7. Fomhuirí Cabhlachán" "9. Fomhuirí Cabhlachán" "10. Fomhuirí Cabhlachán"
+		"11. Fomhuirí Cabhlachán" "12. Fomhuirí Cabhlachán" "13. Fomhuirí Cabhlachán" "14. Fomhuirí Cabhlachán" "15. Fomhuirí Cabhlachán" "16. Fomhuirí Cabhlachán" "17. Fomhuirí Cabhlachán" "18. Fomhuirí Cabhlachán" "19. Fomhuirí Cabhlachán" "20. Fomhuirí Cabhlachán"
+		"21. Fomhuirí Cabhlachán" "22. Fomhuirí Cabhlachán" "23. Fomhuirí Cabhlachán" "24. Fomhuirí Cabhlachán" "25. Fomhuirí Cabhlachán" "26. Fomhuirí Cabhlachán" "27. Fomhuirí Cabhlachán" "28. Fomhuirí Cabhlachán" "29. Fomhuirí Cabhlachán" "30. Fomhuirí Cabhlachán"
+		"31. Fomhuirí Cabhlachán" "32. Fomhuirí Cabhlachán" "33. Fomhuirí Cabhlachán" "34. Fomhuirí Cabhlachán" "35. Fomhuirí Cabhlachán" "36. Fomhuirí Cabhlachán" "37. Fomhuirí Cabhlachán" "38. Fomhuirí Cabhlachán" "39. Fomhuirí Cabhlachán" "40. Fomhuirí Cabhlachán"
+		"41. Fomhuirí Cabhlachán" "42. Fomhuirí Cabhlachán" "43. Fomhuirí Cabhlachán" "44. Fomhuirí Cabhlachán" "45. Fomhuirí Cabhlachán" "46. Fomhuirí Cabhlachán" "47. Fomhuirí Cabhlachán" "48. Fomhuirí Cabhlachán" "49. Fomhuirí Cabhlachán" "50. Fomhuirí Cabhlachán"
+		}
+	attack_submarine = {
+		"LÉ Abhainn na Sionainne" "LÉ An Bhearú" "LÉ Abhainn na Siúire" "LÉ An Abhainn Mhór" "LÉ An Fheoir" "LÉ An Bhanna" "LÉ Loch nEathach" "LÉ Loch Coirib" "LÉ Loch Deirgeirt" "LÉ Loch Éirne"
+		"LÉ Loch Rí" "LÉ Loch Glenamaddy" "LÉ Loch Rahasane" "LÉ Lag na Sionna" "LÉ Loch Cairlinn" "LÉ  Loch Súilí" "LÉ An Caoláire Rua" "LÉ  Loch Dairbhreach" "LÉ Loch Léinn" "LÉ Loch Cuilinn"
+	}	
+	nuclear_submarine = {
+		"LÉ Abhainn na Sionainne" "LÉ An Bhearú" "LÉ Abhainn na Siúire" "LÉ An Abhainn Mhór" "LÉ An Fheoir" "LÉ An Bhanna" "LÉ Loch nEathach" "LÉ Loch Coirib" "LÉ Loch Deirgeirt" "LÉ Loch Éirne"
+		"LÉ Loch Rí" "LÉ Loch Glenamaddy" "LÉ Loch Rahasane" "LÉ Lag na Sionna" "LÉ Loch Cairlinn" "LÉ  Loch Súilí" "LÉ An Caoláire Rua" "LÉ  Loch Dairbhreach" "LÉ Loch Léinn" "LÉ Loch Cuilinn"
+	}	
+	guided_submarine = {
+		"LÉ Abhainn na Sionainne" "LÉ An Bhearú" "LÉ Abhainn na Siúire" "LÉ An Abhainn Mhór" "LÉ An Fheoir" "LÉ An Bhanna" "LÉ Loch nEathach" "LÉ Loch Coirib" "LÉ Loch Deirgeirt" "LÉ Loch Éirne"
+		"LÉ Loch Rí" "LÉ Loch Glenamaddy" "LÉ Loch Rahasane" "LÉ Lag na Sionna" "LÉ Loch Cairlinn" "LÉ  Loch Súilí" "LÉ An Caoláire Rua" "LÉ  Loch Dairbhreach" "LÉ Loch Léinn" "LÉ Loch Cuilinn"
+	}	
+	nuclear_guided_submarine = {
+		"LÉ Abhainn na Sionainne" "LÉ An Bhearú" "LÉ Abhainn na Siúire" "LÉ An Abhainn Mhór" "LÉ An Fheoir" "LÉ An Bhanna" "LÉ Loch nEathach" "LÉ Loch Coirib" "LÉ Loch Deirgeirt" "LÉ Loch Éirne"
+		"LÉ Loch Rí" "LÉ Loch Glenamaddy" "LÉ Loch Rahasane" "LÉ Lag na Sionna" "LÉ Loch Cairlinn" "LÉ  Loch Súilí" "LÉ An Caoláire Rua" "LÉ  Loch Dairbhreach" "LÉ Loch Léinn" "LÉ Loch Cuilinn"
+	}	
+	ballistic_missile_submarine = {
+		"LÉ Abhainn na Sionainne" "LÉ An Bhearú" "LÉ Abhainn na Siúire" "LÉ An Abhainn Mhór" "LÉ An Fheoir" "LÉ An Bhanna" "LÉ Loch nEathach" "LÉ Loch Coirib" "LÉ Loch Deirgeirt" "LÉ Loch Éirne"
+		"LÉ Loch Rí" "LÉ Loch Glenamaddy" "LÉ Loch Rahasane" "LÉ Lag na Sionna" "LÉ Loch Cairlinn" "LÉ  Loch Súilí" "LÉ An Caoláire Rua" "LÉ  Loch Dairbhreach" "LÉ Loch Léinn" "LÉ Loch Cuilinn"
+	}	
+	transport_ship = {
+		"1. Long Iompair Cabhlachán" "2. Long Iompair Cabhlachán" "3. Long Iompair Cabhlachán" "4. Long Iompair Cabhlachán" "5. Long Iompair Cabhlachán" "6. Long Iompair Cabhlachán" "7. Long Iompair Cabhlachán" "8. Long Iompair Cabhlachán" "9. Long Iompair Cabhlachán" "10. Long Iompair Cabhlachán"
+		"11. Long Iompair Cabhlachán" "12. Long Iompair Cabhlachán" "13. Long Iompair Cabhlachán" "14. Long Iompair Cabhlachán" "15. Long Iompair Cabhlachán" "16. Long Iompair Cabhlachán" "17. Long Iompair Cabhlachán" "18. Long Iompair Cabhlachán" "19. Long Iompair Cabhlachán" "20. Long Iompair Cabhlachán"
+		"21. Long Iompair Cabhlachán" "22. Long Iompair Cabhlachán" "23. Long Iompair Cabhlachán" "24. Long Iompair Cabhlachán" "25. Long Iompair Cabhlachán" "26. Long Iompair Cabhlachán" "27. Long Iompair Cabhlachán" "28. Long Iompair Cabhlachán" "29. Long Iompair Cabhlachán" "30. Long Iompair Cabhlachán"
+		"31. Long Iompair Cabhlachán" "32. Long Iompair Cabhlachán" "33. Long Iompair Cabhlachán" "34. Long Iompair Cabhlachán" "35. Long Iompair Cabhlachán" "36. Long Iompair Cabhlachán" "37. Long Iompair Cabhlachán" "38. Long Iompair Cabhlachán" "39. Long Iompair Cabhlachán" "40. Long Iompair Cabhlachán"
+		"41. Long Iompair Cabhlachán" "42. Long Iompair Cabhlachán" "43. Long Iompair Cabhlachán" "44. Long Iompair Cabhlachán" "45. Long Iompair Cabhlachán" "46. Long Iompair Cabhlachán" "47. Long Iompair Cabhlachán" "48. Long Iompair Cabhlachán" "49. Long Iompair Cabhlachán" "50. Long Iompair Cabhlachán"
+	}
+}
+ministers = {
+	1481000 = {
+		name = "Douglas Hyde"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRE_M_Hyde_D
+		head_of_state = traditionalist_type
+		start_date = 1946.1.1
+		death_date = 1949.7.1
+	}
+	1481001 = {
+		name = "Seán Ó Ceallaigh"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Ceallaigh_O_S
+		head_of_state = administrator_type
+		start_date = 1946.1.1
+		death_date = 1966.11.23
+	}
+	1481002 = {
+		name = "Éamon de Valera"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Valera_d_E
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1946.1.1
+		death_date = 1973.6.24
+	}
+	1481003 = {
+		name = "Erskine Hamilton Childers"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Childers_E_H
+		head_of_state = controversial_figure
+		start_date = 1946.1.1
+		death_date = 1974.11.17
+	}
+	1481004 = {
+		name = "Patrick Hillery"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Hillery_P
+		head_of_state = controversial_figure
+		start_date = 1974.1.1
+		death_date = 2002.1.1
+	}
+	1481005 = {
+		name = "Mary Robinson"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Robinson_M
+		head_of_state = administrator_type
+		start_date = 1974.1.1
+		death_date = 2002.1.1
+	}
+	1481006 = {
+		name = "John A. Costello"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Costello_J_A
+		head_of_government = bureaucrat_type
+		start_date = 1946.1.1
+		death_date = 1976.1.1
+	}
+	1481007 = {
+		name = "Seán Lemass"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Lemass_S
+		head_of_government = bureaucrat_type
+		start_date = 1946.1.1
+		death_date = 1971.5.11
+	}
+	1481008 = {
+		name = "Jack Lynch"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Lynch_J
+		head_of_government = controversial_figure
+		start_date = 1946.1.1
+		death_date = 1991.1.1
+	}
+	1481009 = {
+		name = "Liam Cosgrave"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Cosgrave_L
+		head_of_state = lethargic_type
+		head_of_government = lethargic_type
+		start_date = 1965.1.1
+		death_date = 1992.1.1
+	}
+	1481010 = {
+		name = "Charles J. Haughey"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_Haughey_C_J
+		head_of_government = ambitious_type
+		start_date = 1966.1.1
+		death_date = 1992.1.1
+	}
+	1481011 = {
+		name = "Garret FitzGerald"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = IRE_M_FitzGerald_G
+		head_of_state = fortunate_type
+		head_of_government = fortunate_type
+		start_date = 1965.1.1
+		death_date = 1992.1.1
+	}
+	1481012 = {
+		name = "Andy Barr"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = IRE_M_Barr_A
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1946.1.1
+		death_date = 1992.1.1
+	}
+	1481013 = {
+		name = "Michael O'Riordan"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = IRE_M_Riordan_M
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1946.1.1
+		death_date = 1992.1.1
+	}
+	
+	
+	#WATW
+	1481100 = { #P
+		name = "Donough I O'Brien"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = IRE_M_Donough_I
+		head_of_state = hardliner_type
+		start_date = 1929.12.9
+		death_date = 1968.10.19
+	}
+	1481101 = { #P
+		name = "Patrick I O'Brien"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = IRE_M_Patrick_I
+		head_of_state = ambitious_type
+		start_date = 1968.10.19
+		death_date = 1982.1.1
+	}
+	1481102 = { #P
+		name = "Conor I O'Brien"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = IRE_M_Conor_I
+		head_of_state = traditionalist_type
+		start_date = 1982.1.1
+		death_date = 2300.1.1
+	}
+	1481103 = { #P
+		name = "Christopher Fettes"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = IRE_M_Fettes_Christopher
+		head_of_state = reputable_type
+		head_of_government = reputable_type
+		start_date = 1981.1.1
+		death_date = 2001.10.6
+	}
+	1481104 = { #P
+		name = "Seán Mac Stiofáin"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Stiofain_Sean_M
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1969.8.3
+		death_date = 1982.3.12
+	}
+	1481105 = { #P
+		name = "Tony Magan"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Magan_Tony
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1953.9.12
+		death_date = 1962.5.3
+	}
+	1481106 = { #P
+		name = "Cathal Goulding"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Goulding_Cathal
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1962.11.30
+		death_date = 1972.10.31
+	}
+	1481107 = { #P
+		name = "Seán Cronin"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Cronin_Sean
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1950.1.11
+		death_date = 1962.9.18
+	}
+	1481108 = { #P
+		name = "John Joe McGirl"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_McGirl_John_J
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1958.4.11
+		death_date = 1974.10.11
+	}
+	1481109 = { #P
+		name = "Ruairí Ó Brádaigh"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Bradaigh_Ruairi
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1958.11.4
+		death_date = 2009.9.3
+	}
+	1481110 = { #P
+		name = "Joe Cahill"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Cahill_Joe
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1969.7.2
+		death_date = 1992.10.4
+	}
+	1481111 = { #P
+		name = "Seamus Twomey"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Twomey_Seamus
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1969.6.11
+		death_date = 1997.12.11
+	}
+	1481112 = { #P
+		name = "Éamonn O'Doherty"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_ODoherty_Eamonn
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1973.2.21
+		death_date = 1986.9.20
+	}
+	1481113 = { #P
+		name = "Gerry Adams"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Adams_Gerry
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1983.3.29
+		death_date = 1992.9.10
+	}
+	1481114 = { #P
+		name = "Martin McGuinness"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_McGuinness_Martin
+		head_of_state = fortunate_type
+		head_of_government = fortunate_type
+		start_date = 1972.9.18
+		death_date = 2005.9.25
+	}
+	1481115 = { #P
+		name = "Ivor Bell"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1970.9.22
+		death_date = 1985.1.30
+	}
+	1481116 = { #P
+		name = "Thomas Murphy"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_Murphy_Thomas
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1979.1.18
+		death_date = 2005.9.25
+	}
+	
+	1481117 = { #P
+		name = "William Norton"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = IRE_M_Norton_William
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1932.1.1
+		death_date = 1960.3.2
+	}
+	1481118 = { #P
+		name = "Brendan Corish"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = IRE_M_Corish_Brendan
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1960.3.2
+		death_date = 1977.6.26
+	}
+	1481119 = { #P
+		name = "Frank Cluskey"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = IRE_M_Cluskey_Frank
+		head_of_state = liberal_type
+		head_of_government = liberal_type
+		start_date = 1977.6.26
+		death_date = 1981.6.12
+	}
+	1481120 = { #P
+		name = "Michael O'Leary"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = IRE_M_OLeary_Michael
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1981.6.12
+		death_date = 1982.11.1
+	}
+	1481121 = { #P
+		name = "Dick Spring"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = IRE_M_Spring_Dick
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1982.11.1
+		death_date = 1997.11.13
+	}
+	1481122 = { #P
+		name = "Gearóid Ó Cuinneagáin"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = IRE_M_Cuinneagain_OGearoid
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1942.1.1
+		death_date = 1991.1.1
+	}
+	1481123 = { #P
+		name = "Oliver J. Flanagan"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = IRE_M_Flanagan_Oliver_J
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1943.1.1
+		death_date = 1987.4.26
+	}
+	1481124 = { #P
+		name = "Matthew D. Cunningham"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Cunningham_Matthew_D
+		head_of_state = honest_type
+		head_of_government = honest_type
+		start_date = 1974.01.15
+		death_date = 1981.10.08
+	}
+	
+	1481125 = { #P
+		name = "Seamus O'Neil"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = IRE_M_ONeil_Seamus
+		head_of_state = honest_type
+		head_of_government = honest_type
+		start_date = 1974.01.15
+		death_date = 1981.10.08
+	}
+	1481126 = { #P
+		name = "James Stewart"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Stewart_James
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1983.1.1
+		death_date = 2013.1.26
+	}
+	1481127 = { #P
+		name = "Seán Garland"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Garland_Sean
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1977.1.1
+		death_date = 2300.1.1
+	}
+	1481128 = { #P
+		name = "Seán Ó Cionnaith"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRE_M_OCionnaith_Sean
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1970.1.1
+		death_date = 2003.2.16
+	}
+	#1481129
+	1481130 = { #P
+		name = "Billy McMillen"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRE_M_McMillen_Billy
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1943.1.1
+		death_date = 1975.4.28
+	}
+	1481131 = { #P
+		name = "Seamus Costello"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Costello_Seamus
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1947.1.1
+		death_date = 1977.10.5
+	}
+	1481132 = { #P
+		name = "Ronnie Bunting"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Bunting_Ronnie
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1970.1.1
+		death_date = 1980.10.15
+	}
+	1481133 = { #P
+		name = "Dominic McGlinchey"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = IRE_M_McGlinchey_Dominic
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1972.8.1
+		death_date = 1994.2.10
+	}
+	1481134 = { #P
+		name = "Hugh Torney"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Torney_Hugh
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1970.1.1
+		death_date = 1996.9.3
+	}
+	1481135 = { #P
+		name = "Gino Gallagher"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Gallagher_Gino
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1970.1.1
+		death_date = 1996.1.30 
+	}
+	1481136 = { #P
+		name = "Bernadette Devlin"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Devlin_Bernadette
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1974.1.1
+		death_date = 2300.1.1
+	}
+	
+	1481137 = { #P
+		name = "Tomás Mac Giolla"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Giolla_Tomas_M
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1950.1.1
+		death_date = 2010.2.4
+	}
+	1481138 = { #P
+		name = "Proinsias De Rossa"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRE_M_Rossa_Proinsias
+		head_of_state = honest_type
+		head_of_government = honest_type
+		start_date = 1970.1.1
+		death_date = 2300.1.1
+	}
+	1481139 = { #P
+		name = "Brian O'Connelly"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = IRE_M_OConnelly_Brian
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1930.1.29
+		death_date = 1977.11.23
+	}
+	1481140 = { #P
+		name = "Ernest Blythe"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = IRE_M_Blythe_Ernest
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1927.10.27
+		death_date = 1975.2.23
+	}
+	
+}
+
+
+
+
+
+

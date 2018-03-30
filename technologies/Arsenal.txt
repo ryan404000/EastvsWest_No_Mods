@@ -1,0 +1,2732 @@
+# List of all Land Arsenal techs
+	#small_arms								( 4 levels)
+	#explosives								( 4 levels)
+	#crew_served_weapons					( 4 levels)
+	#anti_tank								( 4 levels)
+	#light_artillery						( 4 levels)
+	#medium_artillery						( 4 levels)
+	#heavy_artillery						( 4 levels)
+	#rocket_artillery						( 4 levels)
+	#generalmissiledesign					( 1 level )
+	#light_anti_air							( 4 levels)
+	#medium_anti_air						( 4 levels)
+	#heavy_anti_air							( 4 levels)
+	#aircraftweapons_guns					( 1 level )
+	#aircraftweapons_multibarrelguns		( 1 level )
+	#aircraftweapons_heavyrotarycannon		( 1 levels)
+	#aircraftweapons_aamissiles				( 8 levels)
+	#aircraftweapons_agordinance			( 6 levels)
+	#aircraftweapons_napalm					( 2 levels)
+	
+
+### Element ###########
+
+small_arms = { # ACAV, CAV, ENG, HQ, INF, LMEC, MAR, MIL, PA, MOT, MTN, POL
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+    level = 4 #7
+		allow_level = {
+			1 = { any_owned_province = { has_factory = military_goods } }
+			2 = { industry_heavy_mechanical_engineering = 3}
+			3 = { industry_heavy_mechanical_engineering = 5	industry_light_plastics = 4 }
+			4 = { industry_light_plastics = 7 industry_heavy_mechanical_engineering = 5 }
+		}	
+	traits = {
+		industry_theory	
+	}	
+	level_effect = {
+		1 = {
+			air_cav_brigade ={ #2SA - 3SUP
+				soft_attack = 0.50 supply_consumption = 0.33				
+			}
+			cavalry_brigade ={ #2SA - 2SUP
+				soft_attack = 0.24 supply_consumption = 0.20
+			}
+				engineer_brigade ={ #1SA - 2SUP
+				soft_attack = 0.07 supply_consumption = 0.14
+			}
+			hq_brigade = { #2SA - 3SUP 
+				soft_attack = 0.17 supply_consumption = 0.04
+			}				
+			infantry_brigade ={ #3SA - 4SUP
+				soft_attack = 0.13 supply_consumption = 0.07
+			}				
+			light_mechanized_brigade = { #2SA - 3SUP
+				soft_attack = 0.28 supply_consumption = 0.18
+			}
+			marine_brigade = { #2SA - 3SUP
+				soft_attack = 0.17 supply_consumption = 0.11
+			}
+			militia_brigade ={ #2SA - 2SUP
+				soft_attack = 0.07 supply_consumption = 0.04
+				}
+			partisan_brigade ={ #2SA - 2SUP
+				soft_attack = 0.07 supply_consumption = 0.04
+			}	
+			motorized_brigade ={ #2SA - 3SUP
+				soft_attack = 0.20 supply_consumption = 0.14
+			}	
+			bergsjaeger_brigade ={ #2SA - 3SUP
+				soft_attack = 0.17 supply_consumption = 0.09
+			}		
+			police_brigade ={ #1SA - 1SUP
+					soft_attack = 0.13 supply_consumption = 0.04
+			}				
+		}
+			2 = {
+				air_cav_brigade ={ #2SA - 3SUP
+				soft_attack = 0.75 supply_consumption = 0.50				
+			}
+			cavalry_brigade ={ #2SA - 2SUP
+				soft_attack = 0.46 supply_consumption = 0.35
+			}
+			engineer_brigade ={ #1SA - 2SUP
+				soft_attack = 0.10 supply_consumption = 0.20
+			}
+				hq_brigade = { #2SA - 3SUP 
+				soft_attack = 0.25 supply_consumption = 0.07
+			}				
+			infantry_brigade ={ #3SA - 4SUP
+				soft_attack = 0.20 supply_consumption = 0.10
+			}				
+			light_mechanized_brigade = { #2SA - 3SUP
+				soft_attack = 0.42 supply_consumption = 0.27
+			}
+			marine_brigade = { #2SA - 3SUP
+				soft_attack = 0.26 supply_consumption = 0.16
+			}
+			militia_brigade ={ #2SA - 2SUP
+				soft_attack = 0.10 supply_consumption = 0.06
+			}
+			partisan_brigade ={ #2SA - 2SUP
+				soft_attack = 0.10 supply_consumption = 0.06
+			}	
+			motorized_brigade ={ #2SA - 3SUP
+				soft_attack = 0.30 supply_consumption = 0.20
+			}	
+			bergsjaeger_brigade ={ #2SA - 3SUP
+				soft_attack = 0.25 supply_consumption = 0.13
+			}		
+			police_brigade ={ #1SA - 1SUP
+				soft_attack = 0.20 supply_consumption = 0.06
+			}				
+		}
+		3 = {
+			air_cav_brigade ={ #2SA - 3SUP
+				soft_attack = 1.25 supply_consumption = 0.83				
+			}
+			cavalry_brigade ={ #2SA - 2SUP
+				soft_attack = 0.60 supply_consumption = 0.50
+			}
+			engineer_brigade ={ #1SA - 2SUP
+			soft_attack = 0.17 supply_consumption = 0.34
+			}
+			hq_brigade = { #2SA - 3SUP 
+				soft_attack = 0.42 supply_consumption = 0.11
+			}				
+			infantry_brigade ={ #3SA - 4SUP
+				soft_attack = 0.33 supply_consumption = 0.17
+			}				
+			light_mechanized_brigade = { #2SA - 3SUP
+				soft_attack = 0.70 supply_consumption = 0.44
+			}
+			marine_brigade = { #2SA - 3SUP
+				soft_attack = 0.43 supply_consumption = 0.27
+			}
+			militia_brigade ={ #2SA - 2SUP
+				soft_attack = 0.17 supply_consumption = 0.10
+			}
+			partisan_brigade ={ #2SA - 2SUP
+				soft_attack = 0.17 supply_consumption = 0.10
+			}	
+			motorized_brigade ={ #2SA - 3SUP
+				soft_attack = 0.50 supply_consumption = 0.33
+			}	
+			bergsjaeger_brigade ={ #2SA - 3SUP
+				soft_attack = 0.42 supply_consumption = 0.22
+			}		
+			police_brigade ={ #1SA - 1SUP
+				soft_attack = 0.34 supply_consumption = 0.10
+			}			
+		}
+		4 = {
+			air_cav_brigade ={ #2SA - 3SUP
+				soft_attack = 1.88 supply_consumption = 1.25				
+			}
+			cavalry_brigade ={ #2SA - 2SUP
+				soft_attack = 0.90 supply_consumption = 0.75
+			}
+			engineer_brigade ={ #1SA - 2SUP
+				soft_attack = 0.25 supply_consumption = 0.50
+			}
+			hq_brigade = { #2SA - 3SUP 
+				soft_attack = 0.63 supply_consumption = 0.17
+			}				
+			infantry_brigade ={ #3SA - 4SUP
+			soft_attack = 0.50 supply_consumption = 0.25
+			}				
+			light_mechanized_brigade = { #2SA - 3SUP
+				soft_attack = 1.05 supply_consumption = 0.67
+			}
+			marine_brigade = { #2SA - 3SUP
+				soft_attack = 0.64 supply_consumption = 0.40
+			}
+			militia_brigade ={ #2SA - 2SUP
+				soft_attack = 0.25 supply_consumption = 0.15
+			}
+			partisan_brigade ={ #2SA - 2SUP
+					soft_attack = 0.25 supply_consumption = 0.15
+			}	
+			motorized_brigade ={ #2SA - 3SUP
+				soft_attack = 0.75 supply_consumption = 0.50
+			}	
+			bergsjaeger_brigade ={ #2SA - 3SUP
+				soft_attack = 0.63 supply_consumption = 0.34
+			}		
+			police_brigade ={ #1SA - 1SUP
+				soft_attack = 0.50 supply_consumption = 0.15
+			}				
+		}
+	}
+}
+
+explosives = {
+	level = 4
+	allow_level = {
+		1 = { #1946
+			industry_chemistry = 1
+			industry_physics = 1
+		}
+		2 = { #1955
+			industry_chemistry = 3
+			industry_physics = 3
+		}
+		3 = { #1965
+			industry_chemistry = 5
+			industry_physics = 5
+		}
+		4 = { #1975
+			industry_chemistry = 7
+			industry_physics = 7
+		}
+	}
+	traits = {
+		science_theory			
+	}
+	level_effect = {
+		1 = {
+			bomber_strategic = {
+				strategic_attack = 3.0
+				supply_consumption = 0.3
+			}
+			bomber_strike = {
+				strategic_attack = 1.0
+				supply_consumption = 0.25
+			}
+		}
+		2 = {
+			bomber_strategic = {
+				strategic_attack = 3.0
+				supply_consumption = 0.3
+			}
+			bomber_strike = {
+				strategic_attack = 1.0
+				supply_consumption = 0.25
+			}
+		}
+		3 = {
+			bomber_strategic = {
+				strategic_attack = 3.0
+				supply_consumption = 0.3
+			}
+			bomber_strike = {
+				strategic_attack = 1.0
+				supply_consumption = 0.25				
+			}
+		}
+		4 = {
+			bomber_strategic = {
+				strategic_attack = 3.0
+				supply_consumption = 0.3
+			}
+			bomber_strike = {
+				strategic_attack = 1.0
+				supply_consumption = 0.25
+			}
+		}
+	}
+
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}
+
+crew_served_weapons = { # AA, ACAV, ARM, AT, ATKHEL, ATV, HMEC, INF, LMEC, MAR, MIL, PA, MOT, MTN, TD
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+    level = 4 #6
+		allow_level = {
+			1 = { mass_firepower = 1 small_arms = 1}
+			2 = { industry_heavy_mechanical_engineering = 3 small_arms = 2}
+			3 = { industry_heavy_mechanical_engineering = 3 small_arms = 3}
+			4 = { industry_heavy_mechanical_engineering = 4 small_arms = 4}		
+		}
+	traits = {
+		front_theory
+		industry_theory
+		arsenal_theory		
+	}	
+		level_effect = {
+			1 = {
+				anti_air_brigade ={ #1SA - 2SUP
+					soft_attack = 0.14 supply_consumption = 0.13	
+				}			
+				air_cav_brigade ={ #2SA - 3SUP
+					soft_attack = 0.50 supply_consumption = 0.33	
+				}		
+				armor_brigade = { #2SA - 3SUP
+					soft_attack = 0.36 supply_consumption = 0.22	
+				}				
+				anti_tank_brigade = { #1SA - 2SUP
+					soft_attack = 0.24 supply_consumption = 0.13	
+				}		
+				attack_helo_brigade = { #1SA - 3SUP
+					soft_attack = 1.00 supply_consumption = 0.33	
+				}		
+				all_terrain_vehicles = { #2SA - 2SUP
+					soft_attack = 0.30 supply_consumption = 0.10	
+				}		
+				heavy_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 0.24 supply_consumption = 0.19	
+				}
+				infantry_brigade ={ #3SA - 4SUP
+					soft_attack = 0.13 supply_consumption = 0.07	
+				}		
+				light_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 0.28 supply_consumption = 0.18	
+				}	
+				marine_brigade = { #2SA - 3SUP
+					soft_attack = 0.17 supply_consumption = 0.11	
+				}	
+				militia_brigade ={ #2SA - 2SUP
+					soft_attack = 0.07 supply_consumption = 0.04	
+				}
+				partisan_brigade ={ #2SA - 2SUP
+					soft_attack = 0.07 supply_consumption = 0.04	
+				}	
+				motorized_brigade ={ #2SA - 3SUP
+					soft_attack = 0.20 supply_consumption = 0.13	
+				}	
+				bergsjaeger_brigade ={ #2SA - 3SUP
+					soft_attack = 0.17 supply_consumption = 0.09	
+				}	
+				tank_destroyer_brigade = { #1SA - 2SUP
+					soft_attack = 0.40 supply_consumption = 0.20	
+				}				
+			}
+			2 = {
+				anti_air_brigade ={ #1SA - 2SUP
+					soft_attack = 0.21 supply_consumption = 0.20
+				}			
+				air_cav_brigade ={ #2SA - 3SUP
+					soft_attack = 1.50 supply_consumption = 0.50	
+				}		
+				armor_brigade = { #2SA - 3SUP
+					soft_attack = 1.08 supply_consumption = 0.33	
+				}				
+				anti_tank_brigade = { #1SA - 2SUP
+					soft_attack = 0.36 supply_consumption = 0.20	
+				}		
+				attack_helo_brigade = { #1SA - 3SUP
+					soft_attack = 1.50 supply_consumption = 0.50	
+				}		
+				all_terrain_vehicles = { #2SA - 2SUP
+					soft_attack = 0.90 supply_consumption = 0.15	
+				}		
+				heavy_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 0.36 supply_consumption = 0.29	
+				}
+				infantry_brigade ={ #3SA - 4SUP
+					soft_attack = 0.60 supply_consumption = 0.10	
+				}		
+				light_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 0.84 supply_consumption = 0.27	
+				}	
+				marine_brigade = { #2SA - 3SUP
+					soft_attack = 0.51 supply_consumption = 0.16	
+				}	
+				militia_brigade ={ #2SA - 2SUP
+					soft_attack = 0.20 supply_consumption = 0.06	
+				}
+				partisan_brigade ={ #2SA - 2SUP
+					soft_attack = 0.20 supply_consumption = 0.06	
+				}	
+				motorized_brigade ={ #2SA - 3SUP
+					soft_attack = 0.60 supply_consumption = 0.20	
+				}	
+				bergsjaeger_brigade ={ #2SA - 3SUP
+					soft_attack = 0.50 supply_consumption = 0.13	
+				}	
+				tank_destroyer_brigade = { #1SA - 2SUP
+					soft_attack = 0.60 supply_consumption = 0.30	
+				}				
+			}
+			3 = {
+				anti_air_brigade ={ #1SA - 2SUP
+					soft_attack = 0.35 supply_consumption = 0.34	
+				}			
+				air_cav_brigade ={ #2SA - 3SUP
+					soft_attack = 1.25 supply_consumption = 0.83	
+				}		
+				armor_brigade = { #2SA - 3SUP
+					soft_attack = 0.90 supply_consumption = 0.55	
+				}				
+				anti_tank_brigade = { #1SA - 2SUP
+					soft_attack = 0.60 supply_consumption = 0.33	
+				}		
+				attack_helo_brigade = { #1SA - 3SUP
+					soft_attack = 2.50 supply_consumption = 0.83	
+				}		
+				all_terrain_vehicles = { #2SA - 2SUP
+					soft_attack = 0.75 supply_consumption = 0.25	
+				}		
+				heavy_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 0.60 supply_consumption = 0.48	
+				}
+				infantry_brigade ={ #3SA - 4SUP
+					soft_attack = 0.33 supply_consumption = 0.17	
+				}		
+				light_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 0.70 supply_consumption = 0.44	
+				}	
+				marine_brigade = { #2SA - 3SUP
+					soft_attack = 0.43 supply_consumption = 0.27	
+				}	
+				militia_brigade ={ #2SA - 2SUP
+					soft_attack = 0.17 supply_consumption = 0.10	
+				}
+				partisan_brigade ={ #2SA - 2SUP
+					soft_attack = 0.17 supply_consumption = 0.10	
+				}	
+				motorized_brigade ={ #2SA - 3SUP
+					soft_attack = 0.50 supply_consumption = 0.33	
+				}	
+				bergsjaeger_brigade ={ #2SA - 3SUP
+					soft_attack = 0.42 supply_consumption = 0.22	
+				}	
+				tank_destroyer_brigade = { #1SA - 2SUP
+					soft_attack = 1.00 supply_consumption = 0.50	
+				}				
+			}
+			4 = {
+				anti_air_brigade ={ #1SA - 2SUP
+					soft_attack = 0.53 supply_consumption = 0.50	
+				}			
+				air_cav_brigade ={ #2SA - 3SUP
+					soft_attack = 1.88 supply_consumption = 1.25	
+				}		
+				armor_brigade = { #2SA - 3SUP
+					soft_attack = 1.35 supply_consumption = 0.83	
+				}				
+				anti_tank_brigade = { #1SA - 2SUP
+					soft_attack = 0.90 supply_consumption = 0.50
+				}		
+				attack_helo_brigade = { #1SA - 3SUP
+					soft_attack = 3.75 supply_consumption = 1.25	
+				}		
+				all_terrain_vehicles = { #2SA - 2SUP
+					soft_attack = 1.13 supply_consumption = 0.38	
+				}		
+				heavy_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 0.90 supply_consumption = 0.73	
+				}
+				infantry_brigade ={ #3SA - 4SUP
+					soft_attack = 0.50 supply_consumption = 0.25	
+				}		
+				light_mechanized_brigade = { #2SA - 3SUP
+					soft_attack = 1.05 supply_consumption = 0.67	
+				}	
+				marine_brigade = { #2SA - 3SUP
+					soft_attack = 0.64 supply_consumption = 0.40	
+				}	
+				militia_brigade ={ #2SA - 2SUP
+					soft_attack = 0.25 supply_consumption = 0.15	
+				}
+				partisan_brigade ={ #2SA - 2SUP
+					soft_attack = 0.25 supply_consumption = 0.15	
+				}	
+				motorized_brigade ={ #2SA - 3SUP
+					soft_attack = 0.75 supply_consumption = 0.50	
+				}	
+				bergsjaeger_brigade ={ #2SA - 3SUP
+					soft_attack = 0.63 supply_consumption = 0.34	
+				}	
+				tank_destroyer_brigade = { #1SA - 2SUP
+					soft_attack = 1.5 supply_consumption = 0.75	
+				}				
+			}
+		}
+}
+
+anti_tank = { # Gives slight bonus for INF (+2) and MIL (+1) for the first levels
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+    level = 4 #5
+		allow_level = {
+			1 = { linear_fire_and_movement = 1  crew_served_weapons = 1 explosives = 1}
+			2 = { crew_served_weapons = 2 explosives = 2 }
+			3 = { explosives = 3 }
+			4 = { explosives = 4 }
+		}
+	traits = {
+		front_theory	
+		arsenal_theory		
+	}		
+		level_effect = {
+			1 = {
+				armor_brigade = { #1HA - 3SUP
+					hard_attack = 0.72 supply_consumption = 0.22	
+				}
+				anti_tank_brigade = {#1HA - 2SUP
+					hard_attack = 0.50 supply_consumption = 0.20
+				}					
+				attack_helo_brigade = {#1HA - 3SUP
+					hard_attack = 0.34 supply_consumption = 0.33
+				}	
+				heavy_mechanized_brigade = { #1HA - 3SUP
+					hard_attack = 0.34 supply_consumption = 0.19
+				}
+				tank_destroyer_brigade = { #1HA - 2SUP
+					hard_attack = 0.60 supply_consumption = 0.20
+				}
+			}
+			2 = {
+				armor_brigade = { #1HA - 3SUP
+					hard_attack = 1.08 supply_consumption = 0.33	
+				}
+				anti_tank_brigade = {#1HA - 2SUP
+					hard_attack = 0.75 supply_consumption = 0.30
+				}					
+				attack_helo_brigade = {#1HA - 3SUP
+					hard_attack = 0.51 supply_consumption = 0.50
+				}	
+				heavy_mechanized_brigade = { #1HA - 3SUP
+					hard_attack = 0.51 supply_consumption = 0.29
+				}
+				tank_destroyer_brigade = { #1HA - 2SUP
+					hard_attack = 0.90 supply_consumption = 0.30
+				}			
+			}
+			3 = {
+				armor_brigade = { #1HA - 3SUP
+					hard_attack = 1.80 supply_consumption = 0.55	
+				}
+				anti_tank_brigade = {#1HA - 2SUP
+					hard_attack = 1.25 supply_consumption = 0.50
+				}					
+				attack_helo_brigade = {#1HA - 3SUP
+					hard_attack = 0.85 supply_consumption = 0.83
+				}	
+				heavy_mechanized_brigade = { #1HA - 3SUP
+					hard_attack = 0.85 supply_consumption = 0.48
+				}
+				tank_destroyer_brigade = { #1HA - 2SUP
+					hard_attack = 1.50 supply_consumption = 0.50
+				}			
+			}
+			4 = {
+				armor_brigade = { #1HA - 3SUP
+					hard_attack = 2.70 supply_consumption = 0.83	
+				}
+				anti_tank_brigade = {#1HA - 2SUP
+					hard_attack = 1.88 supply_consumption = 0.75
+				}					
+				attack_helo_brigade = {#1HA - 3SUP
+					hard_attack = 1.28 supply_consumption = 1.25
+				}	
+				heavy_mechanized_brigade = { #1HA - 3SUP
+					hard_attack = 1.28 supply_consumption = 0.73
+				}
+				tank_destroyer_brigade = { #1HA - 2SUP
+					hard_attack = 2.25 supply_consumption = 0.75
+				}				
+			}
+		}
+}
+
+light_artillery = {
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+    level = 4 #6
+		allow_level = {
+			1 = { mass_firepower = 1 crew_served_weapons = 1}
+			2 = { explosives = 1 crew_served_weapons = 2 }
+			3 = { crew_served_weapons = 3 }
+			4 = { crew_served_weapons = 4 explosives = 2 }
+		}
+	traits = {
+		front_theory
+		arsenal_theory		
+	}	
+		level_effect = {
+			1 = {
+				artillery_brigade = {#3SA - 3SUP
+					soft_attack = 0.23 supply_consumption = 0.13
+				}		
+				all_terrain_vehicles = {#2SA - 2SUP
+					soft_attack  = 0.30 supply_consumption = 0.10
+				}
+				cavalry_brigade ={#2SA - 2SUP
+					soft_attack  = 0.24 supply_consumption = 0.20
+				}	
+				infantry_brigade ={#3SA - 4SUP
+					soft_attack  = 0.13 supply_consumption = 0.07
+				}				
+			}
+			2 = {
+				artillery_brigade = {#3SA - 3SUP
+					soft_attack = 0.34 supply_consumption = 0.20
+				}		
+				all_terrain_vehicles = {#2SA - 2SUP
+					soft_attack  = 0.45 supply_consumption = 0.15
+				}
+				cavalry_brigade ={#2SA - 2SUP
+					soft_attack  = 0.46 supply_consumption = 0.30
+				}	
+				infantry_brigade ={#3SA - 4SUP
+					soft_attack  = 0.2 supply_consumption = 0.10
+				}				
+			}
+			3 = {
+				artillery_brigade = { #3SA - 3SUP
+					soft_attack = 0.57 supply_consumption = 0.33
+				}		
+				all_terrain_vehicles = {#2SA - 2SUP
+					soft_attack  = 0.75 supply_consumption = 0.25
+				}
+				cavalry_brigade ={#2SA - 2SUP
+					soft_attack  = 0.60 supply_consumption = 0.50
+				}	
+				infantry_brigade ={#3SA - 4SUP
+					soft_attack  = 0.33 supply_consumption = 0.17
+				}				
+			}
+			4 = {
+				artillery_brigade = {#3SA - 3SUP
+					soft_attack = 0.85 supply_consumption = 0.50
+				}		
+				all_terrain_vehicles = {#2SA - 2SUP
+					soft_attack  = 1.13 supply_consumption = 0.38
+				}
+				cavalry_brigade ={#2SA - 2SUP
+					soft_attack  = 0.90 supply_consumption = 0.75
+				}	
+				infantry_brigade ={#3SA - 4SUP
+					soft_attack  = 0.5 supply_consumption = 0.25
+				}				
+			}
+		}		
+}
+medium_artillery = {
+    time = 100
+    cost = 200 
+    folder = land_tech2_folder
+    level = 4 #5
+		allow_level = {
+			1 = { indirect_artillery_fire = 1 explosives = 1 }
+			2 = { explosives = 2 }
+			3 = { explosives = 3 }
+			4 = { explosives = 4 }
+		}
+	traits = {
+		front_theory
+		arsenal_theory		
+	}		
+		level_effect = {
+			1 = {
+				artillery_brigade = {#3SA - 3SUP
+					soft_attack = 0.23 supply_consumption = 0.13
+				}		
+				sp_artillery_brigade ={#2SA - 2SUP
+					soft_attack = 0.46 supply_consumption = 0.20
+				}				
+			}
+			2 = {
+				artillery_brigade = {#3SA - 3SUP
+					soft_attack = 0.34 supply_consumption = 0.20
+				}		
+				sp_artillery_brigade ={#2SA - 2SUP
+					soft_attack = 0.69 supply_consumption = 0.30
+				}					
+			}
+			3 = {
+				artillery_brigade = { #3SA - 3SUP
+					soft_attack = 0.57 supply_consumption = 0.33
+				}			
+				sp_artillery_brigade ={#2SA - 2SUP
+					soft_attack = 1.15 supply_consumption = 0.50
+				}				
+			}
+			4 = {
+				artillery_brigade = {#3SA - 3SUP
+					soft_attack = 0.85 supply_consumption = 0.50
+				}		
+				sp_artillery_brigade ={#2SA - 2SUP
+					soft_attack = 1.73 supply_consumption = 0.75
+				}				
+			}
+		}		
+}
+
+heavy_artillery = {
+    time = 100
+    cost = 200 
+    folder = land_tech2_folder
+    level = 4
+	
+	allow_level = {
+		1 = { 
+			elastic_defense = 1 
+			explosives = 1 
+		}
+		2 = { 
+			industry_electronics = 1 
+			explosives = 2 
+		}
+		3 = { 
+			industry_electronics = 3 
+			industry_softwareengineering = 1
+			crew_served_weapons = 1
+			explosives = 3
+		}
+		4 = { 
+			industry_electronics = 5
+			industry_softwareengineering = 5
+			crew_served_weapons = 4
+			explosives = 4
+		}
+	}
+	traits = {
+		front_theory
+		science_theory	
+		industry_theory		
+		arsenal_theory			
+	}	
+	level_effect = {
+		1 = {
+			artillery_brigade = {#3SA - 1HA - 3SUP 
+				soft_attack = 0.23 hard_attack = 0.20 supply_consumption = 0.13 
+			}		
+			sp_artillery_brigade ={#2SA - 1HA - 2SUP
+				soft_attack = 0.46 hard_attack = 0.36 supply_consumption = 0.20
+			}				
+		}
+		2 = {
+			artillery_brigade = {#3SA - 1HA - 3SUP
+				soft_attack = 0.34 hard_attack = 0.30 supply_consumption = 0.20
+			}		
+			sp_artillery_brigade ={#2SA - 1HA - 2SUP
+				soft_attack = 0.69 hard_attack = 0.54 supply_consumption = 0.30
+			}					
+		}
+		3 = {
+			artillery_brigade = { #3SA - 1HA - 3SUP
+				soft_attack = 0.57 hard_attack = 0.50 supply_consumption = 0.33
+			}			
+			sp_artillery_brigade ={#2SA - 1HA - 2SUP
+				soft_attack = 1.15 hard_attack = 0.90 supply_consumption = 0.50
+			}				
+		}
+		4 = {
+			artillery_brigade = {#3SA - 1HA - 3SUP
+				soft_attack = 0.85 hard_attack = 0.75 supply_consumption = 0.50
+			}		
+			sp_artillery_brigade ={#2SA - 1HA - 2SUP
+				soft_attack = 1.73 hard_attack = 1.35 supply_consumption = 0.75
+			}				
+		}
+	}			
+}
+
+rocket_artillery = {
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+    level = 4 #5
+	
+	allow_level = { #Rocket production
+		1 = { crew_served_weapons = 1 medium_artillery = 1 engine_rocket = 1 }
+		2 = { crew_served_weapons = 2 explosives = 2 engine_rocket = 2}
+		3 = { crew_served_weapons = 3 explosives = 3 engine_rocket = 3}
+		4 = { crew_served_weapons = 4 explosives = 4 engine_rocket = 4}
+	}
+	traits = {
+		arsenal_theory
+		aviation_theory		
+	}
+	level_effect = {
+		1 = {
+			rocket_artillery_brigade  = {#1SA - 1SUP
+				soft_attack = 0.80 hard_attack = 0.75 supply_consumption = 0.60
+			}		
+			sp_rct_artillery_brigade  ={#1SA - 1SUP
+				soft_attack = 1.20 hard_attack = 1.35 supply_consumption = 0.60
+			}			
+		}
+		2 = {
+			rocket_artillery_brigade  = {#1SA - 1SUP
+				soft_attack = 1.20 hard_attack = 0.75 supply_consumption = 0.90
+			}		
+			sp_rct_artillery_brigade  ={#1SA - 1SUP
+				soft_attack = 1.80 hard_attack = 1.35 supply_consumption = 0.90
+			}			
+		}
+		3 = {
+			rocket_artillery_brigade  = {#1SA - 1SUP
+				soft_attack = 2.00 hard_attack = 0.75 supply_consumption = 1.50
+			}		
+			sp_rct_artillery_brigade  ={#1SA - 1SUP
+				soft_attack = 3.00 hard_attack = 1.35 supply_consumption = 1.50
+			}			
+		}
+		4 = {
+			rocket_artillery_brigade  = {#1SA - 1SUP
+				soft_attack = 3.00 hard_attack = 0.75 supply_consumption = 2.25
+			}		
+			sp_rct_artillery_brigade  ={#1SA - 1SUP
+				soft_attack = 4.50 hard_attack = 1.35 supply_consumption = 2.25
+			}			
+		}
+	}	
+}
+
+generalmissiledesign = {
+
+	allow = {
+		industry_electronics = 1
+		explosives = 1			
+		aerodynamics = 1
+	}
+	traits = {
+		science_theory	
+		arsenal_theory
+		aviation_theory		
+	}
+	
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}
+
+light_anti_air = {
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+    level = 4 #6
+	
+	allow_level = {
+		1 = { 
+			mass_firepower = 1 
+			crew_served_weapons = 1 
+		}
+		2 = { 
+			crew_served_weapons = 2
+		}
+		3 = { 
+			crew_served_weapons = 3 
+			generalmissiledesign = 1
+		}
+		4 = { 
+			crew_served_weapons = 4 
+		}
+	}
+	traits = {
+		front_theory
+		arsenal_theory		
+	}	
+	level_effect = {
+		1 = {
+			air_cav_brigade ={#1SA - 3SUP
+				air_attack = 0.60 supply_consumption = 0.33
+			}	
+
+			hq_brigade = { #1SA - 3SUP
+				air_attack = 0.20 supply_consumption = 0.04
+			}	
+			infantry_brigade ={#1SA - 4SUP
+				air_attack = 0.06 supply_consumption = 0.07
+			}				
+			light_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.24 supply_consumption = 0.18
+			}	
+			marine_brigade = { #1SA - 3SUP
+				air_attack = 0.05 supply_consumption = 0.11
+			}	
+			motorized_brigade ={#1SA - 3SUP
+				air_attack = 0.20 supply_consumption = 0.13
+			}		
+			bergsjaeger_brigade ={#1SA - 3SUP
+				air_attack = 0.02 supply_consumption = 0.09
+			}				
+		}
+		2 = {
+			air_cav_brigade ={#1SA - 3SUP
+				air_attack = 0.90 supply_consumption = 0.50
+			}	
+
+			hq_brigade = { #1SA - 3SUP
+				air_attack = 0.30 supply_consumption = 0.07
+			}	
+			infantry_brigade ={#1SA - 4SUP
+				air_attack = 0.09 supply_consumption = 0.10
+			}				
+			light_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.36 supply_consumption = 0.27
+			}	
+			marine_brigade = { #1SA - 3SUP
+				air_attack = 0.07 supply_consumption = 0.16
+			}	
+			motorized_brigade ={#1SA - 3SUP
+				air_attack = 0.30 supply_consumption = 0.20
+			}		
+			bergsjaeger_brigade ={#1SA - 3SUP
+				air_attack = 0.03 supply_consumption = 0.13
+			}				
+		}
+		3 = {
+			air_cav_brigade ={#1SA - 3SUP
+				air_attack = 1.50 supply_consumption = 0.83
+			}	
+
+			hq_brigade = { #1SA - 3SUP
+				air_attack = 0.50 supply_consumption = 0.11
+			}	
+			infantry_brigade ={#1SA - 4SUP
+				air_attack = 0.15 supply_consumption = 0.17
+			}				
+			light_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.60 supply_consumption = 0.44
+			}	
+			marine_brigade = { #1SA - 3SUP
+				air_attack = 0.12 supply_consumption = 0.27
+			}	
+			motorized_brigade ={#1SA - 3SUP
+				air_attack = 0.50 supply_consumption = 0.33
+			}		
+			bergsjaeger_brigade ={#1SA - 3SUP
+				air_attack = 0.05 supply_consumption = 0.22
+			}			
+		}
+		4 = {
+			air_cav_brigade ={#1SA - 3SUP
+				air_attack = 2.25 supply_consumption = 1.25
+			}	
+			hq_brigade = { #1SA - 3SUP
+				air_attack = 0.75 supply_consumption = 0.17
+			}	
+			infantry_brigade ={#1SA - 4SUP
+				air_attack = 0.23 supply_consumption = 0.25
+			}				
+			light_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.90 supply_consumption = 0.67
+			}	
+			marine_brigade = { #1SA - 3SUP
+				air_attack = 0.17 supply_consumption = 0.40
+			}	
+			motorized_brigade ={#1SA - 3SUP
+				air_attack = 0.75 supply_consumption = 0.50
+			}		
+			bergsjaeger_brigade ={#1SA - 3SUP
+				air_attack = 0.08 supply_consumption = 0.34
+			}			
+		}
+	}
+}
+
+medium_anti_air = { #ARM, HMEC, AENG
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+    level = 4 #5
+	
+	allow_level = {
+		1 = { 		
+			mechanized_warfare = 1			
+			OR = {
+				industry_heavy_mechanical_engineering = 1
+				light_anti_air = 1 
+				antiairmissile_mediumrange = 1
+			}  
+		} # and air doctrine
+		2 = { 		
+			OR = {
+				industry_heavy_mechanical_engineering = 2
+				light_anti_air = 2 
+				antiairmissile_mediumrange = 2
+				radar_general = 1
+			}  
+		}
+		3 = { 					
+			generalmissiledesign = 1
+			OR = {
+				industry_heavy_mechanical_engineering = 3
+				light_anti_air = 3 
+				antiairmissile_mediumrange = 3
+				radar_general = 2					
+			} 
+		}
+		4 = { 	
+			OR = {
+				industry_heavy_mechanical_engineering = 4			
+				light_anti_air = 4 
+				antiairmissile_mediumrange = 5
+			}  
+		}
+	}
+	traits = {
+		front_theory
+		industry_theory
+		intel_theory		
+		arsenal_theory
+		armament_theory		
+	}
+	level_effect = {
+		1 = { 
+			provincial_aa_efficiency = 0.10			
+			attack_helo_brigade = {
+				air_attack =  0.60 
+				supply_consumption = 0.33			
+			}
+			armor_brigade = { 
+				air_attack =  0.5 
+				supply_consumption = 0.33 
+			}
+			heavy_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.24 supply_consumption = 0.19
+			}
+			armored_engineer_brigade = { #1SA - 3SUP
+				air_attack = 0.24 supply_consumption = 0.19
+			}
+		}
+		2 = {
+			provincial_aa_efficiency = 0.11		
+			attack_helo_brigade = {
+				air_attack =  0.90 
+				supply_consumption = 0.50				
+			}				
+			armor_brigade = { 
+				air_attack =  0.75 
+				supply_consumption = 0.66 
+			}
+			heavy_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.36 supply_consumption = 0.29
+			}
+			armored_engineer_brigade = { #1SA - 3SUP
+				air_attack = 0.24 supply_consumption = 0.19
+			}
+		}
+		3 = {
+			provincial_aa_efficiency = 0.135
+			attack_helo_brigade = {
+				air_attack =  1.50 
+				supply_consumption = 0.83				
+			}				
+			armor_brigade = { 
+				air_attack =  1.05
+				supply_consumption = 1
+			}
+			heavy_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.60 supply_consumption = 0.48
+			}
+			armored_engineer_brigade = { #1SA - 3SUP
+				air_attack = 0.24 supply_consumption = 0.19
+			}
+		}
+		4 = {
+			provincial_aa_efficiency = 0.155
+			attack_helo_brigade = {
+				air_attack =  2.25 
+				supply_consumption = 1.25				
+			}				
+			armor_brigade = { 
+				air_attack =  1.5
+				supply_consumption = 1.5 
+			}
+			heavy_mechanized_brigade = { #1SA - 3SUP
+				air_attack = 0.90 supply_consumption = 0.73
+			}
+			armored_engineer_brigade = { #1SA - 3SUP
+				air_attack = 0.24 supply_consumption = 0.19
+			}
+		}
+	}
+}
+
+heavy_anti_air = { #AA, SPAA, LRAA
+    time = 100
+    cost = 200
+    folder = land_tech2_folder
+	
+    level = 4
+	allow_level = {
+		1 = {  
+			elastic_defense = 1 
+			indirect_artillery_fire = 1
+			OR = {
+				industry_heavy_mechanical_engineering = 1					
+				medium_anti_air = 1
+				antiairmissile_longrange = 1
+			}					
+		} # and air doctrine
+		2 = { 	
+			generalmissiledesign = 1
+			OR = {
+				industry_heavy_mechanical_engineering = 2 				
+				medium_anti_air = 2
+				#antiairmissile_longrange = 2
+			}
+		}	 
+		3 = {	
+			OR = {
+				industry_heavy_mechanical_engineering = 3				
+				medium_anti_air = 3
+				#antiairmissile_longrange = 3
+				radar_general = 3					
+			}
+		}	 
+		4 = { 	
+			OR = {
+				industry_heavy_mechanical_engineering = 4				
+				medium_anti_air = 4
+				#antiairmissile_longrange = 4
+				radar_general = 4					
+			}
+		}	 
+	}
+	traits = {
+		front_theory
+		industry_theory
+		intel_theory		
+		arsenal_theory
+		armament_theory			
+	}
+	level_effect = {
+		1 = {
+			provincial_aa_efficiency = 0.25			
+			anti_air_brigade = { 
+				air_attack = 2.60
+				supply_consumption = 0.13 
+			}
+			long_range_anti_air_brigade = { 
+				air_attack = 3.80
+				supply_consumption = 0.30 
+			}				
+			sp_anti_air_brigade = { 
+				soft_attack = 0.32
+				air_attack = 3.00
+				supply_consumption = 0.30 
+			}				
+			sr_aa_complex = { 
+				air_attack = 2
+				supply_consumption = 0.33 
+				maximum_speed = -0.5
+			}
+			
+		}
+		2 = {
+			provincial_aa_efficiency = 0.40
+			anti_air_brigade = { 
+				air_attack = 3.90
+				supply_consumption = 0.20
+			}
+			long_range_anti_air_brigade = { 
+				air_attack = 5.70
+				supply_consumption = 0.45
+			}					
+			sp_anti_air_brigade = { 
+				soft_attack = 0.48
+				air_attack = 4.50
+				supply_consumption = 0.45
+			}				
+			sr_aa_complex ={ 
+				air_attack = 3
+				supply_consumption = 0.66 
+				maximum_speed = -0.5
+			}
+		}
+		3 = {
+			provincial_aa_efficiency = 0.60
+			anti_air_brigade = { 
+				air_attack = 6.5
+				supply_consumption = 0.34 
+			}
+			long_range_anti_air_brigade = { 
+				air_attack = 9.50
+				supply_consumption = 0.75
+			}					
+			sp_anti_air_brigade = { 
+				soft_attack = 0.80
+				air_attack = 7.50
+				supply_consumption = 0.75
+			}				
+			sr_aa_complex = { 
+				air_attack = 5
+				supply_consumption = 1 
+				maximum_speed = -0.5
+			}
+		}
+		4 = {
+			provincial_aa_efficiency = 0.75
+			anti_air_brigade = { 
+				air_attack = 9.75
+				supply_consumption = 0.50
+			}
+			long_range_anti_air_brigade = { 
+				air_attack = 14.25
+				supply_consumption = 1.13 
+			}					
+			sp_anti_air_brigade = { 
+				soft_attack = 1.20
+				air_attack = 11.25
+				supply_consumption = 1.13
+			}				
+			sr_aa_complex = { 
+				air_attack = 8
+				supply_consumption = 1.5
+				maximum_speed = -0.5
+			}
+		}
+	}		
+}
+
+aircraftweapons_guns = {
+
+	allow = {	
+		OR = {
+			aircommand_offensiveprinciple = 1
+			aircommand_maneuverprinciple = 1
+			aircommand_economyofforceprinciple = 1
+		}
+	}
+	traits = {
+		airtactical_theory		
+	}
+	fighter = {
+		air_attack = 1.0
+		supply_consumption = 0.2
+		maximum_speed = -100
+		range = -50
+		unit_money_cost = 2.5
+	}
+	multi_role = {
+		air_attack = 1.0
+		soft_attack = 0.1
+		hard_attack = 0.1
+		supply_consumption = 0.2
+		maximum_speed = -100
+		range = -50
+		unit_money_cost = 2.5
+	}
+	cas = {
+		air_attack = 0.5
+		soft_attack = 0.1
+		hard_attack = 0.1
+		supply_consumption = 0.2
+		maximum_speed = -100
+		range = -50
+		unit_money_cost = 2.5
+	}
+	cag_fighter = {
+		air_attack = 1.0
+		supply_consumption = 0.2
+		maximum_speed = -100
+		range = -50
+		unit_money_cost = 2.5
+	}
+	cag_mltr = {
+		air_attack = 1.0
+		soft_attack = 0.1
+		hard_attack = 0.1
+		supply_consumption = 0.2
+		maximum_speed = -100
+		range = -50
+		unit_money_cost = 2.5
+	}
+	cag_attack = {
+		air_attack = 0.5
+		soft_attack = 0.1
+		hard_attack = 0.1
+		supply_consumption = 0.2
+		maximum_speed = -100
+		range = -50
+		unit_money_cost = 2.5
+	}
+	cag_vtol = {
+		air_attack = 0.5
+		soft_attack = 0.1
+		hard_attack = 0.1
+		supply_consumption = 0.2
+		maximum_speed = -100
+		range = -50
+		unit_money_cost = 2.5
+	}			
+	helo_gunship = {
+		soft_attack = 0.2
+		hard_attack = 0.1
+		supply_consumption = 0.05
+	}
+	helo_cas = {
+		air_attack = 0.5
+		soft_attack = 0.2
+		hard_attack = 0.2
+		supply_consumption = 0.05
+	}
+
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aircraftweapons_multibarrelguns = {
+
+	allow = {	# 1959
+		industry_physics = 3
+		industry_heavy_mechanical_engineering = 3		
+		aircraftweapons_guns = 1
+		crew_served_weapons = 2
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+		arsenal_theory
+	}
+	fighter = {
+		air_attack = 3.0
+		maximum_speed = -100
+		range = -50
+		supply_consumption = 0.2
+		unit_money_cost = 5.0
+	}
+	multi_role = {
+		air_attack = 2.0
+		soft_attack = 0.4
+		hard_attack = 0.4
+		maximum_speed = -100
+		range = -50
+		supply_consumption = 0.2
+		unit_money_cost = 5.0
+	}
+	cas = {
+		air_attack = 1.0
+		soft_attack = 0.4
+		hard_attack = 0.4
+		maximum_speed = -100
+		range = -50
+		supply_consumption = 0.2
+		unit_money_cost = 5.0
+	}
+	cag_fighter = {
+		air_attack = 3.0
+		maximum_speed = -100
+		range = -50
+		supply_consumption = 0.2
+		unit_money_cost = 5.0
+	}
+	cag_mltr = {
+		air_attack = 2.0
+		soft_attack = 0.4
+		hard_attack = 0.4
+		maximum_speed = -100
+		range = -50
+		supply_consumption = 0.2
+		unit_money_cost = 5.0
+	}
+	cag_attack = {
+		air_attack = 1.0
+		soft_attack = 0.4
+		hard_attack = 0.4
+		maximum_speed = -100
+		range = -50
+		supply_consumption = 0.2
+		unit_money_cost = 5.0
+	}
+	cag_vtol = {
+		air_attack = 1.0
+		soft_attack = 0.4
+		hard_attack = 0.4
+		maximum_speed = -100
+		range = -50
+		supply_consumption = 0.2
+		unit_money_cost = 5.0
+	}	
+	helo_gunship = {
+		soft_attack = 0.4
+		hard_attack = 0.6
+		supply_consumption = 0.05
+		unit_money_cost = 5.0
+	}
+	helo_cas = {
+		air_attack = 0.5
+		soft_attack = 0.4
+		hard_attack = 0.6
+		supply_consumption = 0.05
+		unit_money_cost = 5.0
+	}
+	ship_heli_cas = {
+		air_attack = 0.5
+		soft_attack = 0.4
+		hard_attack = 0.6
+		supply_consumption = 0.05
+		unit_money_cost = 5.0
+	}
+	
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aircraftweapons_heavyrotarycannon = {
+
+	allow = { # 1977
+		industry_physics = 6	
+		industry_heavy_mechanical_engineering = 4
+		industry_heavy_robotics = 2		
+		aircraftweapons_multibarrelguns = 1
+		anti_tank = 3
+	}
+	traits = {
+		science_theory	
+		industry_theory
+		arsenal_theory		
+	}	
+	cas = {
+		soft_attack = 2.0
+		hard_attack = 10.0
+		sea_attack = 3.0
+		maximum_speed = -300
+		range = -200
+		supply_consumption = 0.5
+		unit_money_cost = 15.0
+	}
+	## TODO add for CAG ATTACK 
+
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aircraftweapons_aamissiles = {
+
+	multilevel = yes
+	level = 8
+
+	allow_level = {
+		1 = {	# 1955
+			generalmissiledesign = 1			
+			OR = {
+				engine_turbojet_small = 1
+				engine_rocket = 1
+			}
+			OR = {
+				aircombatops_offensiveairsuperioritydoctrine = 1
+				aircombatops_defensiveinterceptiondoctrine = 1
+			}
+		}
+		2 = {	# 1960
+			explosives = 2
+			aerodynamics = 2
+			industry_electronics = 4
+		}
+		3 = {	# 1965
+			industry_electronics = 5
+			engine_turbojet_small = 2
+		}
+		4 = {	# 1970
+			explosives = 3
+			aerodynamics = 3
+			industry_electronics = 6
+		}
+		5 = {	# 1975
+			industry_electronics = 7
+			engine_turbojet_small = 3
+		}
+		6 = {	# 1980
+			explosives = 4
+			aerodynamics = 4
+			industry_electronics = 8
+		}
+		7 = {	# 1985
+			industry_electronics = 9
+			engine_turbojet_small = 4
+		}
+		8 = {	# 1990
+			aerodynamics = 5
+			industry_electronics = 10
+		}
+	}
+	traits = {
+		airtactical_theory
+		science_theory	
+		arsenal_theory		
+		aviation_theory
+	}
+	level_effect = {
+		1 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				maximum_speed = -75
+				unit_money_cost = 3.0
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+				maximum_speed = -50
+				unit_money_cost = 2.5
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.0
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				maximum_speed = -75
+				unit_money_cost = 3.0
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				maximum_speed = -50
+				unit_money_cost = 2.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.0
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.0
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+
+		}
+		2 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				maximum_speed = -50
+				unit_money_cost = 2.25
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+				unit_money_cost = 1.7
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.45
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				maximum_speed = -50
+				unit_money_cost = 2.75
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 1.95
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.55
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.45
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+
+		}
+		3 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 3.1
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+				unit_money_cost = 2.3
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.6
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 3.75
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.65
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.75
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.6
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+
+		}
+		4 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 3.9
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+				unit_money_cost = 2.9
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.8
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 4.75
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 3.4
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.95
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.8
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+
+		}
+		5 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 4.65
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+				unit_money_cost = 3.5
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.95
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.75
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 4.1
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.15
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 0.95
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+
+		}
+		6 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.45
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+				unit_money_cost = 4.1
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.1
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 6.75
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 4.8
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.35
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.1
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+		}
+		7 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 6.25
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+				unit_money_cost = 4.7
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.3
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 7.75
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.55
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.3
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+
+		}
+		8 = {
+			fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 7.05
+			}
+			multi_role = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 5.3
+			}
+			cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.45
+			}
+			cag_fighter = {
+				air_attack = 0.75
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 8.7
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 6.25
+			}
+			cag_attack = {
+				air_attack = 0.1
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.75
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.1
+				unit_money_cost = 1.45
+			}			
+			helo_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_attack = 0.2
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+			}
+		}
+	}
+
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aircraftweapons_agordinance = {	# Represents guided weaponry
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# 1957
+			explosives = 2
+			generalmissiledesign = 1
+			aircombatops_armydirectedbombing = 1
+			engine_turbojet_small = 1
+			}
+		2 = {	# 1960
+			explosives = 2
+			aerodynamics = 2
+			industry_electronics = 4
+			pilotfocus_smartweapondeliverystriketraining = 1
+		}
+		3 = {	# 1965
+			industry_electronics = 5
+			engine_turbojet_small = 2
+		}
+		4 = {	# 1970
+			explosives = 3
+			aerodynamics = 3
+			industry_electronics = 6
+		}
+		5 = {	# 1975
+			industry_electronics = 7
+			engine_turbojet_small = 3
+		}
+		6 = {	# 1980
+			explosives = 4
+			aerodynamics = 4
+			industry_electronics = 8
+		}
+	}
+	traits = {
+		airtactical_theory
+		science_theory	
+		arsenal_theory		
+		aviation_theory		
+	}
+	level_effect = {
+		1 = {	# Costs for helos?
+			multi_role = {
+				soft_attack = 0.2
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.2
+				maximum_speed = -50
+				unit_money_cost = 2.5
+			}
+			cas = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				maximum_speed = -75
+				unit_money_cost = 4.0
+			}
+			cag_mltr = {
+				soft_attack = 0.2
+				hard_attack = 0.8
+				range = -25
+				supply_consumption = 0.2
+				maximum_speed = -50
+				unit_money_cost = 2.5
+			}
+			cag_attack = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.75
+				sub_attack = 0.8
+				range = -50
+				supply_consumption = 0.3
+				maximum_speed = -75
+				unit_money_cost = 4.0
+			}
+			cag_vtol = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				maximum_speed = -75
+				unit_money_cost = 4.0
+			}			
+			bomber_strike = {
+				soft_attack = 2.0
+				hard_attack = 1.5
+				strategic_attack = 0.5
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 15.0
+			}
+			bomber_strategic = {
+				soft_attack = 4.0
+				hard_attack = 1.0
+				strategic_attack = 2.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 25.0
+			}
+			bomber_maritime = {
+				sea_attack = 2.5
+				sub_attack = 1.5
+				supply_consumption = 0.5
+				unit_money_cost = 17.0
+			}
+			bomber_antisub = {
+				sea_attack = 1.75
+				sub_attack = 2.5
+				supply_consumption = 0.5
+				unit_money_cost = 19.0
+			}
+			helo_gunship = {
+				soft_attack = 1.0
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				sea_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+		}
+		2 = {
+			multi_role = {
+				soft_attack = 0.2
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.25
+			}
+			cas = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				maximum_speed = -50
+				unit_money_cost = 7.85
+			}
+			cag_mltr = {
+				soft_attack = 0.2
+				hard_attack = 0.8
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.6
+			}
+			cag_attack = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.75
+				sub_attack = 0.8
+				range = -50
+				supply_consumption = 0.3
+				maximum_speed = -50
+				unit_money_cost = 9.25
+			}
+			cag_vtol = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				maximum_speed = -50
+				unit_money_cost = 7.85
+			}			
+			bomber_strike = {
+				soft_attack = 2.0
+				hard_attack = 1.5
+				strategic_attack = 0.5
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 29.75
+			}
+			bomber_strategic = {
+				soft_attack = 4.0
+				hard_attack = 1.0
+				strategic_attack = 2.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 47.55
+			}
+			bomber_maritime = {
+				sea_attack = 2.5
+				sub_attack = 1.5
+				supply_consumption = 0.5
+				unit_money_cost = 32.55
+			}
+			bomber_antisub = {
+				sea_attack = 1.75
+				sub_attack = 2.5
+				supply_consumption = 0.5
+				unit_money_cost = 35.5
+			}
+			helo_gunship = {
+				soft_attack = 1.0
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				sea_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+		}
+		3 = {
+			multi_role = {
+				soft_attack = 0.2
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 1.6
+			}
+			cas = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 5.55
+			}
+			cag_mltr = {
+				soft_attack = 0.2
+				hard_attack = 0.8
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 1.85
+			}
+			cag_attack = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.75
+				sub_attack = 0.8
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 6.55
+			}
+			cag_vtol = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 5.55
+			}			
+			bomber_strike = {
+				soft_attack = 2.0
+				hard_attack = 1.5
+				strategic_attack = 0.5
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 21.3
+			}
+			bomber_strategic = {
+				soft_attack = 4.0
+				hard_attack = 1.0
+				strategic_attack = 2.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 34.15
+			}
+			bomber_maritime = {
+				sea_attack = 2.5
+				sub_attack = 1.5
+				supply_consumption = 0.5
+				unit_money_cost = 23.35
+			}
+			bomber_antisub = {
+				sea_attack = 1.75
+				sub_attack = 2.5
+				supply_consumption = 0.5
+				unit_money_cost = 25.5
+			}
+			helo_gunship = {
+				soft_attack = 1.0
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				sea_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+		}
+		4 = {
+			multi_role = {
+				soft_attack = 0.2
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 1.9
+			}
+			cas = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 6.65
+			}
+			cag_mltr = {
+				soft_attack = 0.2
+				hard_attack = 0.8
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.2
+			}
+			cag_attack = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.75
+				sub_attack = 0.8
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 7.85
+			}
+			cag_vtol = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 6.65
+			}			
+			bomber_strike = {
+				soft_attack = 2.0
+				hard_attack = 1.5
+				strategic_attack = 0.5
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 25.55
+			}
+			bomber_strategic = {
+				soft_attack = 4.0
+				hard_attack = 1.0
+				strategic_attack = 2.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 41.1
+			}
+			bomber_maritime = {
+				sea_attack = 2.5
+				sub_attack = 1.5
+				supply_consumption = 0.5
+				unit_money_cost = 28.05
+			}
+			bomber_antisub = {
+				sea_attack = 1.75
+				sub_attack = 2.5
+				supply_consumption = 0.5
+				unit_money_cost = 30.65
+			}
+			helo_gunship = {
+				soft_attack = 1.0
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				sea_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+		}
+		5 = {
+			multi_role = {
+				soft_attack = 0.2
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.15
+			}
+			cas = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 7.75
+			}
+			cag_mltr = {
+				soft_attack = 0.2
+				hard_attack = 0.8
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.55
+			}
+			cag_attack = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.75
+				sub_attack = 0.8
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 9.15
+			}
+			cag_vtol = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 7.75
+			}			
+			bomber_strike = {
+				soft_attack = 2.0
+				hard_attack = 1.5
+				strategic_attack = 0.5
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 29.85
+			}
+			bomber_strategic = {
+				soft_attack = 4.0
+				hard_attack = 1.0
+				strategic_attack = 2.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 48.0
+			}
+			bomber_maritime = {
+				sea_attack = 2.5
+				sub_attack = 1.5
+				supply_consumption = 0.5
+				unit_money_cost = 32.75
+			}
+			bomber_antisub = {
+				sea_attack = 1.75
+				sub_attack = 2.5
+				supply_consumption = 0.5
+				unit_money_cost = 35.80
+			}
+			helo_gunship = {
+				soft_attack = 1.0
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				sea_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+		}
+		6 = {
+			multi_role = {
+				soft_attack = 0.2
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.45
+			}
+			cas = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 8.8
+			}
+			cag_mltr = {
+				soft_attack = 0.2
+				hard_attack = 0.8
+				range = -25
+				supply_consumption = 0.2
+				unit_money_cost = 2.9
+			}
+			cag_attack = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.75
+				sub_attack = 0.8
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 10.5
+			}
+			cag_vtol = {
+				soft_attack = 0.5
+				hard_attack = 1.5
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = -50
+				supply_consumption = 0.3
+				unit_money_cost = 8.8
+			}			
+			bomber_strike = {
+				soft_attack = 2.0
+				hard_attack = 1.5
+				strategic_attack = 0.5
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 34.1
+			}
+			bomber_strategic = {
+				soft_attack = 4.0
+				hard_attack = 1.0
+				strategic_attack = 2.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 54.9
+			}
+			bomber_maritime = {
+				sea_attack = 2.5
+				sub_attack = 1.5
+				supply_consumption = 0.5
+				unit_money_cost = 37.45
+			}
+			bomber_antisub = {
+				sea_attack = 1.75
+				sub_attack = 2.5
+				supply_consumption = 0.5
+				unit_money_cost = 40.95
+			}
+			helo_gunship = {
+				soft_attack = 1.0
+				hard_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				sea_attack = 1.0
+				range = -25
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				soft_attack = 1.2
+				hard_attack = 1.2
+				sea_attack = 0.5
+				range = -25
+				supply_consumption = 0.5
+			}
+		}
+	}
+
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aircraftweapons_napalm = {
+	multilevel = yes
+	level = 2
+	
+	allow_level = {
+		1 = {	
+				industry_chemistry = 1
+				#TODO NOT UN FLAG BANNING THE USE OF THE WEAPONS
+		}
+		2 = {  # 1960
+			aircraftweapons_agordinance = 3
+			explosives = 3
+			industry_chemistry = 5
+			#TODO NOT UN FLAG BANNING THE USE OF THE WEAPONS 
+		}
+	}
+	traits = {
+		science_theory
+		arsenal_theory		
+	}	
+	level_effect = {
+		1 = {
+			bomber_strike = {
+				woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}
+			cas = {
+				woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}
+			cag_attack = {
+				woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}
+			cag_vtol = {
+				woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}
+		}
+		2 = {
+			bomber_strike = {
+				woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}
+			cas = {
+				woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}	
+			cag_attack = {
+					woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}
+			cag_vtol = {
+				woods = { attack = 0.05 }
+				forest = { attack = 0.1 }
+				jungle = { attack = 0.1 }
+				supply_consumption = 0.1
+			}
+		}
+	}
+	folder = land_tech2_folder
+	time = 100
+	cost = 100
+}

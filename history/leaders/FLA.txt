@@ -1,0 +1,1769 @@
+1468002 = {
+	name = "Spelt Verbruggen"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.9.1 = { rank = 0 }
+	}
+}
+1468001 = {
+	name = "Rex Vercammen"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.9.1 = { rank = 0 }
+	}
+}
+1468003 = {
+	name = "Stanislas Desmet"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1468012 = {
+	name = "Pholien Christiaens"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1949.9.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1468010 = {
+	name = "Augustien De Cock"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1468013 = {
+	name = "Booij Matthys"
+	type = land
+	country = FLA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1950.3.1 = { rank = 1 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1468009 = {
+	name = "Do Lauwers"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1952.10.1 = { rank = 4 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1468007 = {
+	name = "Eleazar Moens"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.10.1 = { rank = 3 }
+		1954.4.1 = { rank = 4 }
+		1955.12.1 = { rank = 0 }
+	}
+}
+1468014 = {
+	name = "Crets Martens"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1955.12.1 = { rank = 2 }
+		1956.2.1 = { rank = 0 }
+	}
+}
+1468015 = {
+	name = "Reinaert Luyten"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.10.1 = { rank = 1 }
+		1957.4.1 = { rank = 0 }
+	}
+}
+1468019 = {
+	name = "Stanis Cools"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.2.1 = { rank = 1 }
+		1958.8.1 = { rank = 0 }
+	}
+}
+1468011 = {
+	name = "Jean Bosco Christiaens"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.9.1 = { rank = 1 }
+		1959.8.1 = { rank = 0 }
+	}
+}
+1468016 = {
+	name = "Geert Willems"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.8.1 = { rank = 1 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1468004 = {
+	name = "Occy Claes"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.10.1 = { rank = 2 }
+		1954.4.1 = { rank = 3 }
+		1955.12.1 = { rank = 4 }
+		1961.5.1 = { rank = 0 }
+	}
+}
+1468021 = {
+	name = "Tieleman Michiels"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1958.8.1 = { rank = 1 }
+		1962.4.1 = { rank = 0 }
+	}
+}
+1468005 = {
+	name = "Ludo Daems"
+	type = land
+	country = FLA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.4.1 = { rank = 2 }
+		1961.5.1 = { rank = 3 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1468020 = {
+	name = "Joos Claeys"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.4.1 = { rank = 1 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1468022 = {
+	name = "Deodaat De Meyer"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.8.1 = { rank = 1 }
+		1961.5.1 = { rank = 2 }
+		1965.3.1 = { rank = 0 }
+	}
+}
+1468027 = {
+	name = "Alfried Thijs"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1468017 = {
+	name = "Benna Hendrickx"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1954.4.1 = { rank = 1 }
+		1956.2.1 = { rank = 2 }
+		1963.2.1 = { rank = 3 }
+		1967.1.1 = { rank = 0 }
+	}
+}
+1468018 = {
+	name = "Wesley De Meyer"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1955.12.1 = { rank = 1 }
+		1967.1.1 = { rank = 2 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1468029 = {
+	name = "Buys Verhaeghe"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.5.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1468032 = {
+	name = "Tist Christiaens"
+	type = land
+	country = FLA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.5.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1468006 = {
+	name = "Manus Wuyts"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1971.2.1 = { rank = 0 }
+	}
+}
+1468028 = {
+	name = "Lucien Desmet"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.3.1 = { rank = 1 }
+		1972.2.1 = { rank = 0 }
+	}
+}
+1468026 = {
+	name = "Achiel Christiaens"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.2.1 = { rank = 1 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1468031 = {
+	name = "Cornelis De Backer"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.12.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1468034 = {
+	name = "Domien De Coninck"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.2.1 = { rank = 1 }
+		1975.11.1 = { rank = 0 }
+	}
+}
+1468025 = {
+	name = "Josse Segers"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1962.4.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1468036 = {
+	name = "Pien Bogaert"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1973.6.1 = { rank = 1 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1468000 = {
+	name = "Domien Christiaens"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1965.3.1 = { rank = 2 }
+		1978.5.1 = { rank = 0 }
+	}
+}
+1468037 = {
+	name = "Lambert De Winter"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.12.1 = { rank = 1 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1468023 = {
+	name = "Abel Ceulemans"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1960.1.1 = { rank = 1 }
+		1963.2.1 = { rank = 2 }
+		1967.1.1 = { rank = 3 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1468008 = {
+	name = "Jan Verlinden"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.12.1 = { rank = 3 }
+		1961.5.1 = { rank = 4 }
+		1981.12.1 = { rank = 0 }
+	}
+}
+1468035 = {
+	name = "Alfred Michiels"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1972.2.1 = { rank = 1 }
+		1981.12.1 = { rank = 2 }
+		1982.3.1 = { rank = 0 }
+	}
+}
+1468044 = {
+	name = "Elooi Vandenberghe"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1981.12.1 = { rank = 1 }
+		1983.5.1 = { rank = 0 }
+	}
+}
+1468043 = {
+	name = "Juan Pieters"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.3.1 = { rank = 1 }
+		1984.4.1 = { rank = 0 }
+	}
+}
+1468045 = {
+	name = "Arnold Verhaegen"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.3.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1468024 = {
+	name = "Leys Simons"
+	type = land
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1961.5.1 = { rank = 1 }
+		1968.12.1 = { rank = 2 }
+		1981.12.1 = { rank = 3 }
+		1986.10.1 = { rank = 0 }
+	}
+}
+1468039 = {
+	name = "Baaf Van de Velde"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1976.8.1 = { rank = 1 }
+		1982.3.1 = { rank = 2 }
+		1986.10.1 = { rank = 3 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1468050 = {
+	name = "Jean Claude Martens"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1987.5.1 = { rank = 1 }
+		1988.4.1 = { rank = 0 }
+	}
+}
+1468042 = {
+	name = "Paulus Claeys"
+	type = land
+	country = FLA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1979.10.1 = { rank = 1 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1468033 = {
+	name = "Geeraard Verstraeten"
+	type = land
+	country = FLA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1986.10.1 = { rank = 2 }
+		1990.3.1 = { rank = 0 }
+	}
+}
+1468030 = {
+	name = "Geen Goethals"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468038 = {
+	name = "Teun Simons"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.11.1 = { rank = 1 }
+		1978.5.1 = { rank = 2 }
+		1980.3.1 = { rank = 3 }
+		1981.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468040 = {
+	name = "Sven Goossens"
+	type = land
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468041 = {
+	name = "Maarten Stevens"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1978.5.1 = { rank = 1 }
+		1980.3.1 = { rank = 2 }
+		1987.5.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468046 = {
+	name = "Jacques Hermans"
+	type = land
+	country = FLA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1983.5.1 = { rank = 1 }
+		1990.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468047 = {
+	name = "Theunis Verbeke"
+	type = land
+	country = FLA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1984.4.1 = { rank = 1 }
+		1987.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468048 = {
+	name = "Gabriel Luyten"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468049 = {
+	name = "Wally Geerts"
+	type = land
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1986.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468051 = {
+	name = "Alfried Declercq"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1988.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468052 = {
+	name = "Charel De Meyer"
+	type = land
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468053 = {
+	name = "Piet Verschueren"
+	type = land
+	country = FLA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468054 = {
+	name = "Lebbeke De Pauw"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1468060 = {
+	name = "jurjen Geerts"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1468059 = {
+	name = "Jobathan De Clercq"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.8.1 = { rank = 3 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1468061 = {
+	name = "Francies Maes"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1468062 = {
+	name = "David Van Damme"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.7.1 = { rank = 1 }
+		1954.2.1 = { rank = 0 }
+	}
+}
+1468063 = {
+	name = "Simon Smets"
+	type = sea
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1951.8.1 = { rank = 1 }
+		1954.1.1 = { rank = 2 }
+		1959.11.1 = { rank = 0 }
+	}
+}
+1468055 = {
+	name = "Philippe De Groote"
+	type = sea
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1468066 = {
+	name = "Ruud Martens"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1954.2.1 = { rank = 1 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1468057 = {
+	name = "Hubertus Verbeke"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.8.1 = { rank = 2 }
+		1952.5.1 = { rank = 3 }
+		1954.1.1 = { rank = 4 }
+		1960.9.1 = { rank = 0 }
+	}
+}
+1468068 = {
+	name = "Godart Claeys"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1960.11.1 = { rank = 1 }
+		1963.11.1 = { rank = 0 }
+	}
+}
+1468071 = {
+	name = "Augustyn Vercammen"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.11.1 = { rank = 1 }
+		1964.4.1 = { rank = 0 }
+	}
+}
+1468070 = {
+	name = "Daam Pauwels"
+	type = sea
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1960.9.1 = { rank = 1 }
+		1965.5.1 = { rank = 0 }
+	}
+}
+1468067 = {
+	name = "Martin Dierckx"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1959.11.1 = { rank = 1 }
+		1960.9.1 = { rank = 2 }
+		1966.7.1 = { rank = 0 }
+	}
+}
+1468058 = {
+	name = "Rense Bosmans"
+	type = sea
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.11.1 = { rank = 2 }
+		1960.9.1 = { rank = 3 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1468069 = {
+	name = "Sylvain Willems"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.1.1 = { rank = 1 }
+		1967.10.1 = { rank = 0 }
+	}
+}
+1468073 = {
+	name = "Casper De Cock"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.5.1 = { rank = 1 }
+		1968.10.1 = { rank = 0 }
+	}
+}
+1468064 = {
+	name = "Godfried De Coninck"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.5.1 = { rank = 1 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1468065 = {
+	name = "Leek De Wilde"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.1.1 = { rank = 1 }
+		1966.7.1 = { rank = 2 }
+		1967.2.1 = { rank = 3 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1468056 = {
+	name = "Joeri Verbruggen"
+	type = sea
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.5.1 = { rank = 2 }
+		1954.1.1 = { rank = 3 }
+		1960.9.1 = { rank = 4 }
+		1971.12.1 = { rank = 0 }
+	}
+}
+1468074 = {
+	name = "Popelin De Wilde"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.7.1 = { rank = 1 }
+		1967.2.1 = { rank = 2 }
+		1970.6.1 = { rank = 3 }
+		1971.12.1 = { rank = 4 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1468075 = {
+	name = "Benoît De Coninck"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.2.1 = { rank = 1 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1468080 = {
+	name = "Josse Pieters"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = superior_tactician
+	history = {
+		1971.12.1 = { rank = 1 }
+		1974.4.1 = { rank = 0 }
+	}
+}
+1468081 = {
+	name = "Gaëtan Vandenberghe"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1973.6.1 = { rank = 1 }
+		1974.1.1 = { rank = 0 }
+	}
+}
+1468079 = {
+	name = "Vaas Nijs"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1970.6.1 = { rank = 1 }
+		1975.4.1 = { rank = 0 }
+	}
+}
+1468085 = {
+	name = "Stinus Heylen"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.4.1 = { rank = 1 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1468078 = {
+	name = "Gilbert Smet"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.8.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1971.12.1 = { rank = 3 }
+		1973.6.1 = { rank = 4 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1468072 = {
+	name = "Stephan Verlinden"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1964.4.1 = { rank = 1 }
+		1973.6.1 = { rank = 2 }
+		1979.5.1 = { rank = 3 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1468086 = {
+	name = "Reyer Devos"
+	type = sea
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.1.1 = { rank = 1 }
+		1979.5.1 = { rank = 2 }
+		1980.3.1 = { rank = 3 }
+		1981.3.1 = { rank = 0 }
+	}
+}
+1468088 = {
+	name = "Neve Van Acker"
+	type = sea
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.3.1 = { rank = 1 }
+		1982.11.1 = { rank = 0 }
+	}
+}
+1468077 = {
+	name = "Antoine Van Damme"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1968.10.1 = { rank = 1 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1468090 = {
+	name = "Huibrecht Lambrechts"
+	type = sea
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1982.11.1 = { rank = 1 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1468084 = {
+	name = "Barryman Wouters"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1974.1.1 = { rank = 1 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1468092 = {
+	name = "Daaf De Vos"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.9.1 = { rank = 1 }
+		1989.3.1 = { rank = 0 }
+	}
+}
+1468087 = {
+	name = "Jelle Lemmens"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1468082 = {
+	name = "Goeye Matthys"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.9.1 = { rank = 1 }
+		1981.3.1 = { rank = 2 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1468076 = {
+	name = "Tobe Verbeeck"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.10.1 = { rank = 1 }
+		1971.12.1 = { rank = 2 }
+		1973.6.1 = { rank = 3 }
+		1979.5.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468083 = {
+	name = "Suske Vervoort"
+	type = sea
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.4.1 = { rank = 1 }
+		1980.3.1 = { rank = 2 }
+		1981.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468089 = {
+	name = "Voller Vercammen"
+	type = sea
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1981.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468091 = {
+	name = "Daan De Backer"
+	type = sea
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	add_trait = spotter
+	history = {
+		1983.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468093 = {
+	name = "Ignaas Lambrechts"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	add_trait = superior_tactician
+	history = {
+		1988.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468094 = {
+	name = "Silvester Vermeiren"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1989.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468095 = {
+	name = "Arend Verbeke"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.12.1 = { rank = 1 }
+		1990.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468096 = {
+	name = "Giovanni Verbruggen"
+	type = sea
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468099 = {
+	name = "Marvin Pauwels"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.11.1 = { rank = 0 }
+	}
+}
+1468098 = {
+	name = "Nico Verbeeck"
+	type = air
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1468107 = {
+	name = "Donker Coppens"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.7.1 = { rank = 1 }
+		1950.9.1 = { rank = 0 }
+	}
+}
+1468105 = {
+	name = "Ollevier Vercammen"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1468106 = {
+	name = "Warre Mertens"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.11.1 = { rank = 1 }
+		1952.7.1 = { rank = 0 }
+	}
+}
+1468109 = {
+	name = "Remies Desmet"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.11.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1468102 = {
+	name = "Neal Verbeeck"
+	type = air
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.11.1 = { rank = 3 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1468100 = {
+	name = "Bellon De Groote"
+	type = air
+	country = FLA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.11.1 = { rank = 2 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1468101 = {
+	name = "Marijn Verbruggen"
+	type = air
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 2 }
+		1956.9.1 = { rank = 0 }
+	}
+}
+1468113 = {
+	name = "Caspar De Coninck"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.8.1 = { rank = 1 }
+		1959.11.1 = { rank = 0 }
+	}
+}
+1468097 = {
+	name = "Edwig De Smedt"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.8.1 = { rank = 2 }
+		1961.2.1 = { rank = 0 }
+	}
+}
+1468114 = {
+	name = "Pien Verhaegen"
+	type = air
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1956.9.1 = { rank = 1 }
+		1961.2.1 = { rank = 2 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1468104 = {
+	name = "Merck De Groote"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.11.1 = { rank = 4 }
+		1964.11.1 = { rank = 0 }
+	}
+}
+1468118 = {
+	name = "Matthieu Martens"
+	type = air
+	country = FLA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.11.1 = { rank = 1 }
+		1967.8.1 = { rank = 0 }
+	}
+}
+1468111 = {
+	name = "Kamile Bogaert"
+	type = air
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.4.1 = { rank = 1 }
+		1956.9.1 = { rank = 2 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1468120 = {
+	name = "Joël Somers"
+	type = air
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1969.7.1 = { rank = 1 }
+		1970.1.1 = { rank = 0 }
+	}
+}
+1468116 = {
+	name = "Evarist Thys"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.2.1 = { rank = 1 }
+		1970.7.1 = { rank = 0 }
+	}
+}
+1468110 = {
+	name = "Pholien Segers"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.7.1 = { rank = 1 }
+		1969.7.1 = { rank = 2 }
+		1972.5.1 = { rank = 0 }
+	}
+}
+1468121 = {
+	name = "Pieter-Jan De Smet"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.1.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1468103 = {
+	name = "Mathys Jansen"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.11.1 = { rank = 3 }
+		1964.11.1 = { rank = 4 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1468123 = {
+	name = "Naeye Maes"
+	type = air
+	country = FLA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1972.5.1 = { rank = 1 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1468125 = {
+	name = "Boris Verstraeten"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.2.1 = { rank = 1 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1468119 = {
+	name = "Luc Wuyts"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1967.8.1 = { rank = 1 }
+		1975.2.1 = { rank = 2 }
+		1984.7.1 = { rank = 0 }
+	}
+}
+1468126 = {
+	name = "Sterk Nijs"
+	type = air
+	country = FLA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.10.1 = { rank = 1 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1468115 = {
+	name = "Lexis Smet"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1959.11.1 = { rank = 1 }
+		1987.11.1 = { rank = 0 }
+	}
+}
+1468130 = {
+	name = "Diederik Verstraeten"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1987.11.1 = { rank = 1 }
+		1989.4.1 = { rank = 0 }
+	}
+}
+1468131 = {
+	name = "Ives Thys"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.4.1 = { rank = 1 }
+		1990.4.1 = { rank = 0 }
+	}
+}
+1468108 = {
+	name = "Meeùs De Coninck"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1950.9.1 = { rank = 1 }
+		1963.12.1 = { rank = 2 }
+		1964.11.1 = { rank = 3 }
+		1975.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468112 = {
+	name = "Starck Van Damme"
+	type = air
+	country = FLA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.11.1 = { rank = 1 }
+		1984.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468117 = {
+	name = "Eugeen Van Acker"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.12.1 = { rank = 1 }
+		1964.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468122 = {
+	name = "Liebaert Raes"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.7.1 = { rank = 1 }
+		1972.5.1 = { rank = 2 }
+		1975.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468124 = {
+	name = "Peene Moens"
+	type = air
+	country = FLA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468127 = {
+	name = "Porter De Ridder"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468128 = {
+	name = "Thiel Bogaerts"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1984.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468129 = {
+	name = "Samson Van den Bossche"
+	type = air
+	country = FLA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1986.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1468132 = {
+	name = "Piet Verbeeck"
+	type = air
+	country = FLA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

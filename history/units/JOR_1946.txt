@@ -1,0 +1,21 @@
+theatre =
+{
+	name = "Central Command"
+	location = 7978
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Trans-Jordanian Arab Legion"
+		location = 7978
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 7892
+			regiment = { type = light_mechanized_brigade name = "1st Brigade" historical_model = 0 strength = 32 experience = 4 }
+			regiment = { type = infantry_brigade name = "3rd Brigade" historical_model = 0 strength = 36 experience = 3 }
+		}
+	}
+}

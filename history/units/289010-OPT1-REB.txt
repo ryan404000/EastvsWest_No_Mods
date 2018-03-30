@@ -1,0 +1,36 @@
+####ANGOLAN REBELS####
+army = 
+	{
+		name = "Angolan Rebels"
+		location = 5773
+
+		division =
+		{
+			name = "1st Division"
+			location = 5773
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 2 strength = 20 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 5773
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+		}
+
+		rebel_faction=
+		{
+			type="nationalist_rebels"
+			name="Angolan insurgents"
+			country="POR"
+			target="POR"			
+			government="authoritarian_gov"
+			province=5773
+			provinces=
+			{
+				5773
+			}
+		}
+}
+####END ANGOLAN REBELS####

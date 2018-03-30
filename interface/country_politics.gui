@@ -1,0 +1,1843 @@
+guiTypes = {
+
+	windowType = {
+		name = "topcolor_politics"
+		backGround =""
+		size = { x=1120 y=798 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+	}
+	#############################
+	### MAIN POLITICAL WINDOW ###
+	#############################
+	windowType = {
+		name = "country_politics"
+		backGround =""
+		position = { x=-555 y=-340 }
+		size = { x=1120 y=798 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		orientation="CENTER"
+
+		iconType = {
+			name ="bg_politics_shadow"
+			spriteType = "GFX_bg_shadow"
+			position = { x=14 y=22 }
+		}
+
+		iconType = {
+			name ="bg_countryskin"	# not in use
+			spriteType = "GFX_country_bg"
+			position = { x=10030 y=35 }
+		}
+		
+		iconType = {
+			name ="bg_politics"
+			spriteType = "GFX_bg_politics"
+			position = { x=-22 y=-5 }
+		}
+
+		iconType = {
+			name ="bg_politics_main"
+			spriteType = "GFX_bg_politics_main"
+			position = { x=6 y=55 }
+		}
+		
+		iconType = {
+			name ="bg_politics_paperclip"
+			spriteType = "GFX_bg_politics_paper_clip"
+			position = { x=722 y=365 }
+		}
+		
+		guiButtonType = {
+			name = "close_button"
+			position = { x=1035 y=29}
+			quadTextureSprite = "GFX_close_btn"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ESCAPE"
+		}
+
+		instanttextBoxType = { 
+			name = "headline"
+			position = { x=45 y=30 }
+			font = "Jockey_30_glow_green"
+			text = "headline_politics"	
+			maxHeight = 28
+		}
+		
+		#instantTextBoxType = { 
+		#	name = "automation_setting"
+		#	position = { x=804 y=41 }
+		#	textureFile = ""
+		#	font = "arial_18"
+		#	borderSize = { x=0 y=4 }
+		#	text = "Expert"	
+		#	maxWidth = 300
+		#	maxHeight = 64	
+		#	format = centre
+		#}
+		
+		#guiButtonType = {
+		#	name ="mode_arrow_left"
+		#	quadTextureSprite = "GFX_mode_arrow_left"
+		#	position = { x=896 y=43 }
+		#}
+		
+		#guiButtonType = {
+		#	name ="mode_arrow_right"
+		#	quadTextureSprite = "GFX_mode_arrow_right"
+		#	position = { x=996 y=43 }
+		#}
+		
+		#########################
+		### National Decision ###
+		#########################
+		instantTextBoxType = {
+			name = "decisions_label"
+			position = { x=60 y=577 }
+			format = centre
+			textureFile = ""
+			font = "Jockey_24"
+			borderSize = { x=4 y=0 }
+			text = "NATDECISION"
+			maxWidth = 320
+			maxHeight = 32
+		}
+		
+		listboxType = {
+			name ="decisions_listbox"
+  			position = { x=54 y=597}
+			backGround=""
+			size = { x=311 y = 99 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=10 y=10 }
+		}
+		
+		
+
+		# Head of State
+		listboxType = {
+			name = "minister_list1"
+			position = { x=63 y=72 }
+			backGround=""
+			size = { x=220 y=80}
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=0 y=0 }
+		}
+		# Head of Government
+		listboxType = {
+			name = "minister_list2"
+			position = { x=401 y=72 }
+			backGround=""
+			size = { x=220 y=80}
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=0 y=0 }
+		}
+		################
+		### POLICIES ###
+		################
+		# Policies left side
+		listboxType = {
+			name = "policies_list1"
+			position = { x=58 y=170 }
+			backGround=""
+			size = { x=220 y=400 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=0 y=0 }
+		}
+		# Policies right side
+		listboxType = {
+			name = "policies_list2"
+			position = { x=398 y=170 }
+			backGround=""
+			size = { x=220 y=400 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=0 y=0 }
+		}
+
+		iconType = {
+			name ="tape1"
+			spriteType = "GFX_politics_tape_left"
+			position = { x=34 y=138 }
+		}
+		
+		iconType = {
+			name ="tape2"
+			spriteType = "GFX_politics_tape_right"
+			position = { x=385 y=156 }
+		}
+		
+		####FACTION ICON!!#####
+		iconType = {
+			name ="faction_symbol_icon"
+			spriteType = "GFX_icon_factions"
+			position = { x=770 y=80 }
+		}
+		###################################
+		### COUNTRY/GOVERMENT TYPE INFO ###
+		###################################
+		iconType =	{
+			name ="country_flag"
+			spriteType = "GFX_polflag"
+			position = { x=719 y=65 }
+			scale = 1.0
+		}
+	
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x=824 y=80 }
+			format = left
+			font = "Jockey_18_black"
+			borderSize = { x=4 y=0 }
+			maxWidth = 218
+			maxHeight = 32
+		}
+		
+		instantTextBoxType = {
+			name = "government_type"
+			position = { x=830 y=97 }
+			format = left
+			font = "Arial12_black"
+			borderSize = { x=4 y=0 }
+			maxWidth = 218
+			maxHeight = 32
+		}
+		
+		instantTextBoxType = {
+			name = "government_desc"
+			position = { x=847 y=122 }
+			format = centre
+			font = "Jockey_14"
+			borderSize = { x=2 y=0 }
+			maxWidth = 200
+			maxHeight = 64
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name = "political_popularity_chart"
+			spriteType = "GFX_political_popularity_chart"
+			position = { x=-315 y=205 }
+			orientation = "UPPER_RIGHT"
+			scale = 0.5
+		}
+
+		iconType = {
+			name = "chart_overlay"
+			spriteType = "GFX_chart_overlay"
+			position = { x=-377 y=196 }
+			Orientation = "UPPER_RIGHT"
+		}
+		
+		#####################
+		### WAR WEARINESS ###
+		#####################
+		windowType = {
+			name = "strat_warfare"
+			backGround=""
+			position = { x=460 y=564 }	
+			size = { x=100 y=100 }
+			moveable = 0
+			fullScreen = no
+			
+			instantTextBoxType = {
+				name = "label"
+				position = { x=-10 y=13 }
+				format = centre
+				textureFile = ""
+				font = "Jockey_24"
+				borderSize = { x=4 y=0 }
+				text = "POL_SW_LABEL"
+				maxWidth = 218
+				maxHeight = 32	
+			}
+			
+			iconType = {
+				name ="partisans_icon"
+				spriteType = "GFX_partisan_digi"
+				position = { x=-53 y=42 }
+			}			
+			instantTextBoxType = {
+				name = "partisans_val"
+				position = { x=-16 y=52 }
+				textureFile = ""
+				font = "Jockey_18"
+				borderSize = { x=4 y=0 }
+				text = "xyz"
+				maxWidth = 64
+				maxHeight = 32
+			}	
+			iconType = {
+				name ="allies_icon"
+				spriteType = "GFX_icon_sw_allies"
+				position = { x=62 y=43 }
+			}			
+			instantTextBoxType = {
+				name = "allies_val"
+				position = { x=78 y=52 }
+				format = centre
+				textureFile = ""
+				font = "Jockey_18"
+				borderSize = { x=4 y=0 }
+				text = "xyz"
+				maxWidth = 64
+				maxHeight = 32
+			}	
+			iconType = {
+				name ="nuke_icon"
+				spriteType = "GFX_nuke_digi"
+				position = { x=165 y=43 }
+			}			
+			instantTextBoxType = {
+				name = "nuke_val"
+				position = { x=183 y=52 }
+				format = centre
+				textureFile = ""
+				font = "Jockey_18"
+				borderSize = { x=4 y=0 }
+				text = "xyz"
+				maxWidth = 64
+				maxHeight = 32
+			}							
+		}
+		
+		### ORG CHART NOT IN USE ###
+		windowType = {
+			name = "org_chart"
+			backGround=""
+			position = { x=-9795 y=137 }	
+			size = { x=300 y=300 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			
+			iconType = {
+				name ="fascistic_idolg_org"
+				spriteType = "org_bar"
+				position = { x=0 y=0 }
+			}
+			iconType = {
+				name ="paternal_auto_idolg_org"
+				spriteType = "org_bar"
+				position = { x=25 y=0 }
+			}
+			iconType = {
+				name ="paternal_autocrat_idolg_org"
+				spriteType = "org_bar"
+				position = { x=50 y=0 }
+			}
+			iconType = {
+				name ="social_cons_idolg_org"
+				spriteType = "org_bar"
+				position = { x=75 y=0 }
+			}
+			iconType = {
+				name ="market_liberal_idolg_org"
+				spriteType = "org_bar"
+				position = { x=100 y=0 }
+			}
+			iconType = {
+				name ="social_liberal_idolg_org"
+				spriteType = "org_bar"
+				position = { x=125 y=0 }
+			}
+			iconType = {
+				name ="social_democrat_idolg_org"
+				spriteType = "org_bar"
+				position = { x=150 y=0 }
+			}
+			iconType = {
+				name ="left_wing_radical_idolg_org"
+				spriteType = "org_bar"
+				position = { x=175 y=0 }
+			}
+			iconType = {
+				name ="maoist_idolg_org"
+				spriteType = "org_bar"
+				position = { x=200 y=0 }
+			}
+			iconType = {
+				name ="communist_idolg_org"
+				spriteType = "org_bar"
+				position = { x=225 y=0 }
+			}
+		}
+		#######################
+		### POLITICAL CHART ###
+		#######################
+		instantTextBoxType = {
+			name = "popularity_label"
+			position = { x=670 y=160}
+			format = centre
+			textureFile = ""
+			font = "Jockey_14_dark"
+			borderSize = { x=4 y=0}
+			text = "POLITICAL_POPULARITY"
+			maxWidth = 218
+			maxHeight = 32
+		}
+
+		#instantTextBoxType = {
+		#	name = "organization_label"
+		#	position = { x = 790 y =126 }
+		#	format = centre
+		#	textureFile = ""
+		#	font = "Arial12_alpha"
+		#	borderSize = {x = 4 y = 0}
+		#	text = "POLITICAL_ORGANIZATION"
+		#	maxWidth = 218
+		#	maxHeight = 32	
+		#		
+		#}
+
+		listboxType = {
+			name = "political_legend"
+			position = { x=853 y=148 }
+			backGround=""
+			size = { x=220 y=250 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=0 y=0 }
+		}
+		############
+		### LAWS ###
+		############
+		instantTextBoxType = {
+			name = "laws_label"
+			position = { x=745 y=413}
+			format = centre
+			textureFile = ""
+			font = "Jockey_16_paper"
+			borderSize = { x=0 y=0 }
+			text = "LAWS"
+			maxWidth = 280
+			maxHeight = 32	
+		}
+
+		#iconType = {
+		#	name ="stamp_laws"
+		#	spriteType = "GFX_stamp_laws"
+		#	position = { x=970 y=360 }
+		#}
+		
+		listboxType = {
+			name ="laws_listbox"
+			position = { x=751 y=436 }
+			backGround=""
+			size = { x=432 y=250 }
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=10 y=10 }
+		}
+		###############
+		### CULTURE ###
+		###############
+		instantTextBoxType = {
+			name = "ideas_label"
+			position = { x=751 y=622}
+			format = centre
+			textureFile = ""
+			font = "Jockey_16_paper"
+			borderSize = { x=4 y=0 }
+			text = "NATIDEAS"
+			maxWidth = 280
+			maxHeight = 32	
+		}
+
+		
+		#iconType = {
+		#	name ="stamp_ideas"
+		#	spriteType = "GFX_stamp_national_ideas"
+		#	position = { x=750 y=572 }
+		#}
+		
+		
+		listboxType = {
+			name ="ideas_listbox"
+			position = { x=749 y=644 }
+			backGround=""
+			size = { x=252 y=160 }
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=10 y=10 }
+		}
+		##############################################
+		### BUTTONS LIBERATE COUNTRY/CREATE PUPPET ###
+		##############################################
+		guiButtonType = {
+			name = "liberate_country"
+			position = { x=404 y=672 }
+			quadTextureSprite ="GFX_pol_big_btn"
+			buttonText = ""
+			buttonFont = "Jockey_14_dark"
+		}
+
+		instantTextBoxType= {
+				position = { x=372 y=680 }
+				name = "liberate_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "LIBERATE_COUNTRY"	
+				format = centre
+			}
+		
+		guiButtonType = {
+			name = "create_puppet"
+			position = { x=568 y=672 }
+			quadTextureSprite ="GFX_pol_big_btn"
+			buttonText = ""
+			buttonFont = "Jockey_14_dark"
+		}
+
+		instantTextBoxType= {
+				position = { x=536 y=680 }
+				name = "puppet_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CREATE_PUPPET"	
+				format = centre
+			}
+		##############################
+		### MINISTER SELECT WINDOW ###
+		##############################
+		windowType = {
+			name = "minister_select_win"
+			position = { x=-21 y=-8 }	
+			size = { x=200 y=200 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType = {
+				name ="bg_selectnewminister"
+				spriteType = "GFX_bg_newselection"
+				position = { x=70 y=74 }
+			}
+			
+			instantTextBoxType= {
+				position = { x=300 y =104 }
+				name = "minister_position"
+				font = "Jockey_18"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "MINISTER_POSITION"	
+				format = centre
+			}
+			
+			listboxType = {
+				name = "minister_list_select_new"
+				position = { x=73 y=152 }
+				size = { x=568 y=360 }
+				spacing = -2
+				scrollbartype = "scrollbar_vertical_standard"
+			}
+			
+			iconType = {
+				name ="back_button"
+				spriteType = "GFX_politics_backbtn"
+				position = { x=54 y=515 }
+			}
+			
+			guiButtonType = {
+				name = "cancel"
+				position = { x=122 y=521 }
+				quadTextureSprite ="GFX_pol_big_btn"
+				buttonText = ""
+				buttonFont = "Arial12_bold_black"
+			}
+
+			instantTextBoxType= {
+				position = { x=91 y=530 }
+				name = "cancel_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CANCEL"
+				format = centre
+			}
+		}
+		##############################
+		### PUPPET SELECTIN WINDOW ###
+		##############################
+		windowType = {
+			name = "puppet_select"
+			position = { x=-15 y=-8 }	
+			size = { x=200 y=200 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType = {
+				name ="bg_puppet"
+				spriteType = "GFX_bg_newselection"
+				position = { x=64 y=74 }
+			}
+			
+			instantTextBoxType= {
+				position = { x=306 y=98 }
+				name = "label_puppet"
+				font = "Jockey_18_cyan"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CREATE_PUPPET"
+				format = centre
+			}
+
+			#instantTextBoxType = {
+			#	name = "description"
+			#	position = { x=196 y=113 }
+			#	format = centre
+			#	font = "Arial12"
+			#	maxWidth = 400
+			#	maxHeight = 20
+			#	text = "DOMESTIC_RELEASE_VASSALL"	
+			#}
+			
+			listboxType = {
+				name = "select_list"
+				position = { x=60 y=150  }
+				backGround=""
+				size = { x=575 y=360}
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			
+			iconType = {
+				name ="cancel"
+				spriteType = "GFX_politics_backbtn"
+				position = { x=54 y=515 }
+			}
+			
+			guiButtonType = {
+				name = "back_button"
+				position = { x=122 y=521 }
+				quadTextureSprite ="GFX_pol_big_btn"
+				buttonText = ""
+				buttonFont = "Arial12_bold_black"
+			}
+
+			instantTextBoxType= {
+				position = { x=91 y=530 }
+				name = "back_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CANCEL"
+				format = centre
+			}
+		}
+		##############################
+		### LIBERATE SELECT WINDOW ###
+		##############################
+		windowType = {
+			name = "liberate_select"
+			backGround=""
+			position = { x=-15 y=-6 }	
+			size = { x=1024 y=100 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = yes
+
+			iconType = {
+				name ="bg_liberate"
+				spriteType = "GFX_bg_newselection"
+				position = { x=64 y=74 }
+			}
+			
+			instantTextBoxType= {
+				position = { x=296 y=88 }
+				name = "label_liberate"
+				font = "Arial12_bold"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "LIBERATE_COUNTRY"
+				format = centre
+			}
+	
+			instantTextBoxType = {
+				name = "description"
+				position = { x=296 y=120 }
+				format = centre
+				font = "Arial12"
+				maxWidth = 200
+				maxHeight = 20
+				text = "DOMESTIC_RELEASE_VASSALL"	
+			}
+			
+			listboxType = {
+				name ="select_list"
+				position = { x=200 y=130 }
+				backGround=""
+				size = { x=558 y=384 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=10 y=10 }
+			}
+			
+			iconType = {
+				name ="cancel"
+				spriteType = "GFX_politics_backbtn"
+				position = { x=54 y=515 }
+			}
+			
+			guiButtonType = {
+				name = "back_button"
+				position = { x=122 y=521 }
+				quadTextureSprite ="GFX_pol_big_btn"
+				buttonText = ""
+				buttonFont = "Arial12_bold_black"
+			}
+
+			instantTextBoxType= {
+				position = { x=91 y=530 }
+				name = "back_2_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CANCEL"
+				format = centre
+			}
+		}
+		#############################
+		###  LAW SELECTION WINDOW ###
+		#############################
+		windowType = {
+			name = "law_selection_window"
+			position = { x=-15 y=-8 }	
+			size = { x=200 y=200 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_bg_newselection"
+				position = { x=64 y=74 }
+			}
+			
+			instantTextBoxType= {
+				position = { x=306 y=98 }
+				name = "category"
+				font = "Jockey_18_cyan"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "LAW_CATEGORY"	
+				format = centre
+			}
+			
+			listboxType = {
+				name = "law_list"
+				position = { x=60 y=150 }
+				backGround=""
+				size = { x=575 y=360 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			
+			iconType = {
+				name ="back_button"
+				spriteType = "GFX_politics_backbtn"
+				position = { x=54 y=515 }
+			}
+			
+			guiButtonType = {
+				name = "cancel"
+				position = { x=122 y=521 }
+				quadTextureSprite ="GFX_pol_big_btn"
+				buttonText = ""
+				buttonFont = "Arial12_bold_black"
+			}
+
+			instantTextBoxType= {
+				position = { x=91 y=530 }
+				name = "cancel_2_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CANCEL"
+				format = centre
+			}
+		}
+		#############################
+		### CULTURE SELECT WINDOW ###
+		#############################
+		windowType = {
+			name = "idea_selection_window"
+			position = { x=-15 y=-8 }	
+			size = { x=200 y=200 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_bg_newselection"
+				position = { x=64 y=74 }
+			}
+			
+			instantTextBoxType= {
+				position = { x=306 y=98 }
+				name = "category"
+				font = "Jockey_18_cyan"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "LAW_CATEGORY"	
+				format = centre
+			}
+			
+			listboxType = {
+				name = "idea_list"
+				position = { x=60 y=150  }
+				backGround=""
+				size = { x=575 y=360 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			
+			iconType = {
+				name ="back_button"
+				spriteType = "GFX_politics_backbtn"
+				position = { x=54 y=515 }
+			}
+			
+			guiButtonType = {
+				name = "cancel"
+				position = { x=122 y=521 }
+				quadTextureSprite ="GFX_pol_big_btn"
+				buttonText = ""
+				buttonFont = "Arial12_bold_black"
+			}
+
+			instantTextBoxType= {
+				position = { x=91 y=530 }
+				name = "cancel_3_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CANCEL"
+				format = centre
+			}
+		}
+		#################################
+		###  GOV POLICY SELECT WINDOW ###
+		#################################
+		windowType = {
+			name = "gov_policy_selection_window"
+			position = { x=-15 y=-8 }	
+			size = { x=200 y=200 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_bg_newselection"
+				position = { x=64 y=74 }
+			}
+			
+			instantTextBoxType= {
+				position = { x=306 y=98 }
+				name = "category"
+				font = "Jockey_18_cyan"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "LAW_CATEGORY"	
+				format = centre
+			}
+			
+			listboxType = {
+				name = "gov_policy_list"
+				position = { x=60 y=150 }
+				backGround=""
+				size = { x=575 y=360 }
+				spacing = 1
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			
+			iconType = {
+				name ="back_button"
+				spriteType = "GFX_politics_backbtn"
+				position = { x=54 y=515 }
+			}
+			
+			guiButtonType = {
+				name = "cancel"
+				position = { x=122 y=521 }
+				quadTextureSprite ="GFX_pol_big_btn"
+				buttonText = ""
+				buttonFont = "Arial12_bold_black"
+			}
+
+			instantTextBoxType= {
+				position = { x=91 y=530 }
+				name = "cancel_4_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CANCEL"
+				format = centre
+			}
+		}
+
+		###  POLICY SELECTION WINDOW????
+		windowType = {
+			name = "policy_selection_window"
+			position = { x=-15 y=-6 }	
+			size = { x=200 y=200 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_bg_selectnewminister"
+				position = { x=65 y=74 }
+			}
+			instantTextBoxType= {
+				position = { x=296 y=88 }
+				name = "category"
+				font = "Arial12_bold"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "country name!"
+				format = centre
+			}
+			listboxType = {
+				name = "policy_list"
+				position = { x=167 y=120 }
+				backGround=""
+				size = { x=430 y=390 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			guiButtonType = {
+				name = "cancel"
+				position = { x=294 y=508 }
+				quadTextureSprite ="GFX_button_212wide"
+				buttonText = ""
+				buttonFont = "Arial12_bold_black"
+				
+			}
+
+			instantTextBoxType= {
+				position = { x=91 y=530 }
+				name = "cancel_5_label"
+				font = "Jockey_16_dark"
+				borderSize = { x=0 y=0 }	
+				maxWidth = 200
+				maxHeight = 20
+				text = "CANCEL"
+				format = centre
+			}
+		}
+		#########################################################
+		# AI CONTROL OVERLAY
+		#########################################################
+		# windowType = {
+			# name = "ai_control_overlay"
+			# backGround="background"
+			# position = { x=0 y=0 }	
+			# size = { x=900 y=600 }
+			# moveable = 0
+			# fullScreen = no
+			# Orientation = "CENTER"	
+			# iconType = {
+				# name = "background"
+				# spriteType = "AI_control_tile"
+				# position = { x= 0 y = 0 }
+			#}
+		#}
+	}
+	######################################################
+	### Head of State/Head of Government Listing ENTRY ###
+	######################################################
+	windowType = {
+		name = "minister_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=200 y=80 }
+		moveable = 0
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "replace_minister"
+			position = { x=-9 y=0 }
+			quadTextureSprite ="GFX_empty_position_minister"
+		}
+
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_politics_ideology_light"
+			position = { x=71 y=2 }
+		}
+		
+		iconType = {
+			name = "legend_color_overlay"
+			spriteType = "GFX_politics_ideology_light_overlay"
+			position = { x=71 y=2 }
+		}
+
+		iconType = {
+				name = "photo_overlay"
+				spriteType = "GFX_tv_photo_overlay"
+				position = { x=-7 y=2 }
+				allwaystransparent = yes
+			}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x=68 y=6 }
+			format = right
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=4 y=0 }
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "personality"
+			position = { x=89 y=28 }
+			format = left
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = { x=4 y=0 }
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "ability"
+			position = { x=89 y=42 }
+			format = left
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = { x=4 y=0 }
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32
+		}
+
+		guiButtonType = {
+			name = "info_minister"
+			position = { x=295 y=-4 }
+			quadTextureSprite ="GFX_politics_info"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+	
+	##### SELECT NEW MINISTER ENTRY 
+	windowType = {
+		name = "minister_select_entry"
+		position = { x=0 y=0 }	
+		size = { x=591 y=90 }
+		moveable = 0
+		fullScreen = no
+	
+		iconType = {
+			name ="minister_plate"
+			spriteType = "GFX_minister_plate_new"
+			position = { x=73 y=0 }
+		}
+		
+		iconType = {
+			name = "photo"
+			spriteType = "GFX_empty_position_minister"
+			position = { x=78 y=5 }
+		}
+
+		iconType = {
+				name = "photo_overlay"
+				spriteType = "GFX_tv_photo_overlay"
+				position = { x=80 y=7 }
+			}
+
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_politics_ideology_light"
+			position = { x=156 y=5 }
+		}
+		
+		iconType = {
+			name = "legend_color_overlay"
+			spriteType = "GFX_politics_ideology_light_overlay"
+			position = { x=156 y=5 }
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x=-125 y=11 }
+			format = right
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=0 }
+			maxWidth = 450
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "personality"
+			position = { x=365 y=13 }
+			format = left
+			font = "Arial12"
+			borderSize = { x=4 y=0 }
+			maxWidth = 450
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "ability"
+			position = { x=365 y=28 }
+			format = left
+			font = "Arial12"
+			borderSize = { x=4 y=0 }
+			maxWidth = 450
+			maxHeight = 32
+		}
+
+		guiButtonType = {
+			name = "info_minister"
+			position = { x=335 y=2 }
+			quadTextureSprite ="GFX_politics_info"
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		guiButtonType = {
+			name = "replace_minister"
+			position = { x=515 y=6 }
+			quadTextureSprite ="GFX_minister_btn_new"
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+	################################
+	### POLITICAL CHART GRAPHICS ###
+	################################
+	windowType = {
+		name = "political_legend_item"
+		position = { x=0 y=0 }	
+		size = { x=210 y=24 }
+		moveable = 0
+		fullScreen = no
+		
+		iconType = {
+			name = "ideology_circle_bg"
+			spriteType = "GFX_ideology_circle_bg"
+			position = { x=0 y=-3 }
+		}
+
+		# color icon inserted here
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_legend_icon"
+			position = { x=0 y=-3 }
+		}
+
+		iconType = {
+			name = "ideology_circle_overlay"
+			spriteType = "GFX_ideology_circle_overlay"
+			position = { x=0 y=-3 }
+		}
+		
+		iconType = {
+			name = "elected_crown"
+			spriteType = "GFX_elected_crown"
+			position = { x=2 y=0 }
+		}
+		
+		iconType = {
+			name = "popular_star"
+			spriteType = "GFX_popular_star"
+			position = { x=7 y=4 }
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x=20 y=6 }
+			format = right
+			textureFile = ""
+			font = "Arial12"
+			borderSize = { x=4 y=0 }
+			text = ""	
+			maxWidth = 170
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		guiButtonType = {
+			name = "support_party"
+			position = { x=159 y=2 }
+			quadTextureSprite ="GFX_party_plus"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		guiButtonType = {
+			name = "outlaw_party"
+			position = { x=182 y=2 }
+			quadTextureSprite ="GFX_party_ban"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+	##################
+	### LAW ENTRY ####
+	##################
+	windowType = {
+		name = "current_law_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=300 y= 16 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		instantTextBoxType= {
+			position = { x=-9 y =-9}
+			name = "category"
+			font = "Arial12"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x=116 y=-12 }
+			quadTextureSprite = "GFX_law_button"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		instantTextBoxType= {
+			position = { x=88 y=-10 }
+			name = "which"
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			format = centre
+		}		
+	}
+	##########################
+	### POSSIBLE LAW ENTRY ###
+	##########################
+	windowType = {
+		name = "possible_law_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=310 y=90 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "current_indicator"
+			spriteType = "GFX_bg_selected_law"
+			position = { x=90 y=-5 }
+		}				
+		iconType = {
+			name = "possible_indicator"
+			spriteType = "GFX_bg_law"
+			position = { x=90 y=-5 }
+		}				
+
+		instantTextBoxType= {
+			position = { x=190 y=4 }
+			name = "name"
+			font = "Jockey_16_paper"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 300
+			maxHeight = 20
+			text = ""
+			format = centre
+		}
+
+		instantTextBoxType= {
+			position = { x=105 y=27 }
+			name = "effect"
+			font = "Arial12_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 250
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		guiButtonType = {
+			name = "info_button"
+			position = { x=531 y=0 }
+			quadTextureSprite ="GFX_policy_info"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x=526 y=26 }
+			quadTextureSprite = "GFX_button_politics_decision"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+	######################
+	### CULTURE ENTRY ####
+	######################
+	windowType = {
+		name = "current_idea_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=300 y= 16 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		instantTextBoxType= {
+			position = { x=-10 y=-9 }
+			name = "category"
+			font = "Arial12"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x=118 y=-11 }
+			quadTextureSprite = "GFX_law_button"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		instantTextBoxType= {
+			position = { x=88 y=-9 }
+			name = "which"
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = centre
+		}		
+	}
+	##############################
+	### POSSIBLE CULTURE ENTRY ###
+	##############################
+	windowType = {
+		name = "possible_idea_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=310 y=90 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "current_indicator"
+			spriteType = "GFX_bg_selected_law"
+			position = { x=90 y=-5 }
+		}
+		
+		iconType = {
+			name = "possible_indicator"
+			spriteType = "GFX_bg_law"
+			position = { x=90 y=-5 }
+		}				
+
+	instantTextBoxType= {
+			position = { x=190 y=4 }
+			name = "name"
+			font = "Jockey_16_paper"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 250
+			maxHeight = 20
+			text = ""
+			format = centre
+		}
+
+		instantTextBoxType= {
+			position = { x=105 y=27 }
+			name = "effect"
+			font = "Arial12_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 250
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		guiButtonType = {
+			name = "info_button"
+			position = { x=531 y=0 }
+			quadTextureSprite ="GFX_policy_info"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x=526 y=26 }
+			quadTextureSprite = "GFX_button_politics_decision"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+	#########################
+	### GOV POLICY ENTRY ####
+	#########################
+	windowType = {
+		name = "current_gov_policy_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=150 y=79 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		#iconType = {
+		#	name = "bg_policy_entry"
+		#	spriteType = "GFX_gov_policy_entry"
+		#	position = { x= 0 y = 0 }
+		#}				
+
+		instantTextBoxType= {
+			position = { x=77 y=-1 }
+			name = "category"
+			font = "Jockey_16_paper"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 240
+			maxHeight = 20
+			text = ""
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x=85 y=19 }
+			quadTextureSprite = "GFX_gov_policy_button"
+			buttonText = ""
+			buttonFont = "Arial12_black"
+		}
+
+		
+		guiButtonType = {
+			name = "govphoto"
+			quadTextureSprite = "GFX_empty_position_policy"
+			position = { x=5 y=6 }
+		}
+
+		iconType = {
+			name = "tooltip_image"
+			spriteType = "GFX_empty_position_policy"
+			position = { x=5 y=6 }
+		}
+
+		instantTextBoxType= {
+			position = { x=90 y=21 }
+			name = "which"
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = centre
+		}
+		
+		instantTextBoxType= {
+			position = { x=88 y=36 }
+			name = "info"
+			font = "Arial12_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 40
+			text = ""
+			format = left
+		}	
+
+		guiButtonType = {
+			name = "info_policy_button"
+			position = { x=303 y=13}
+			quadTextureSprite ="GFX_policy_info"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+	#################################
+	### POSSIBLE GOV POLICY ENTRY ###
+	#################################
+	windowType = {
+		name = "possible_gov_policy_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=310 y=90 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		
+		
+		iconType = {
+			name = "current_indicator"
+			spriteType = "GFX_bg_selected_policy"
+			position = { x=90 y=-5 }
+		}
+		
+		iconType = {
+			name = "possible_indicator"
+			spriteType = "GFX_bg_policy"
+			position = { x=90 y=-5 }
+		}	
+
+		iconType = {
+			name = "govphoto"
+			spriteType = "GFX_empty_position_policy"
+			position = { x=101 y=11 }
+		}
+
+		iconType = {
+			name = "policy_overlay"
+			spriteType = "GFX_selection_policy_overlay"
+			position = { x=93 y=7 }
+		}
+
+		instantTextBoxType= {
+			position = { x=230 y=4 }
+			name = "name"
+			font = "Jockey_16_paper"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 250
+			maxHeight = 20
+			text = ""
+			format = centre
+		}
+
+		instantTextBoxType= {
+			position = { x=185 y=27 }
+			name = "effect"
+			font = "Arial12_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 250
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		guiButtonType = {
+			name = "info_button"
+			position = { x=531 y=0 }
+			quadTextureSprite ="GFX_policy_info"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x=526 y=26 }
+			quadTextureSprite = "GFX_button_politics_decision"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+
+	####POLICY ENTRY  ??????????????	
+	windowType = {
+		name = "current_policy_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=300 y=24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name ="country_icon"
+			quadTextureSprite = "GFX_minishield_small"
+			position = { x=0 y=-13 }
+			scale = 0.5
+		}
+		instantTextBoxType= {
+			position = { x=34 y=-4 }
+			name = "country"
+			font = "Arial12_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 80
+			maxHeight = 20
+			text = ""	
+			fixedsize = yes
+			format = left
+		}
+		guiButtonType = {
+			name = "select_button"
+			position = { x=120 y=-8 }
+			quadTextureSprite = "GFX_policy_button"	
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		instantTextBoxType= {
+			position = { x=126 y=-4 }
+			name = "which"
+			font = "Arial12_headline"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""	
+			format = left
+		}		
+	}
+	#### POSSIBLE POLICY ENTRY ??
+	windowType = {
+		name = "possible_policy_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=300 y=93 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "current_indicator"
+			spriteType = "GFX_bg_selected_policy"
+			position = { x=0 y=-5 }
+		}
+		iconType = {
+			name = "possible_indicator"
+			spriteType = "GFX_bg_policy"
+			position = { x=0 y=-5 }
+		}
+		instantTextBoxType= {
+			position = { x=16 y=0 }
+			name = "name"
+			font = "Arial12_headline"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+		instantTextBoxType= {
+			position = { x=16 y=14 }
+			name = "effect"
+			font = "Arial12"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+		guiButtonType = {
+			name = "select_button"
+			position = { x=410 y=21 }
+			quadTextureSprite = "GFX_button_politics_decision"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}	
+
+	####################
+	### PUPPET ENTRY ###
+	####################
+	windowType = {
+		name = "puppet_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=320 y=82 }
+		moveable = 0
+		fullScreen = no
+
+		iconType = {
+			name = "create_puppet_entry"
+			spriteType = "GFX_bg_puppet_select"
+			position = { x=85 y=15 }
+		}
+		
+		iconType = {
+			name = "vassal_selection_shield"
+			spriteType = "GFX_popup_shield"
+			position = { x=90 y=23 }
+		}
+
+		
+		guiButtonType = {
+			name = "vassal_selection_button"
+			position = { x=528 y=21 }
+			quadTextureSprite = "GFX_politics_hos_button"
+			buttonFont = "Arial12_bold_black"
+		}
+
+		instantTextBoxType = {
+			position = { x=27 y=26 }
+			name = "name"
+			font = "Jockey_14_cyan"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 250
+			maxHeight = 20
+			text = ""
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "provinces"
+			position = { x=302 y=27 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = { x=0 y=0 }
+			text = ""	
+			maxWidth = 220
+			maxHeight = 130
+		}
+	}
+	######################
+	### LIBERATE ENTRY ###
+	######################
+	windowType = {
+		name = "liberate_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=320 y=97 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "create_puppet_entry"
+			spriteType = "GFX_bg_puppet_select"
+			position = { x=-35 y=-5 }
+		}	
+
+		iconType = {
+			name = "liberation_selection_shield"
+			spriteType = "GFX_thinshield"
+			rotation = -1.5708
+			position = { x=-35 y=11 }
+		}
+
+		guiButtonType = {
+			name = "selection_button"
+			position = { x=490 y=21 }
+			quadTextureSprite = "GFX_politics_hos_button"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}		
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x=93 y=2 }
+			format = left
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = { x=0 y=0 }
+			text = ""	
+			maxWidth = 300
+			maxHeight = 32
+		}
+	}
+	###############################
+	### NATIONAL DECISION ENTRY ###
+	###############################
+	windowType = {
+		name = "diplomatic_internal_decision_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=300 y=32 }	#x=300 y= 31 -Chromos changed for presentation
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "bg_decision"
+			spriteType = "GFX_decision_entry_internal"
+			position = { x=-3 y=0 }
+		}
+
+		instantTextBoxType= {
+			position = { x=4 y=10 }
+			name = "name"
+			font = "Jockey_14_cyan"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		iconType = {
+			name = "info_icon"
+			spriteType = "GFX_info_politics_decision"
+			position = { x=246 y=5 }
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x=271 y=5 }
+			quadTextureSprite = "GFX_button_national_decision_btn"
+			buttonText = "SELECT"
+			buttonFont = "Main_14_black"
+		}
+	}
+
+	positionType = {
+		name = "political_legend_x_offset"
+		position = { x=-37 y=0 }
+	}
+
+	positionType = {
+		name = "political_legend_cos_offset"
+		position = { x=35 y=0 }
+	}
+}

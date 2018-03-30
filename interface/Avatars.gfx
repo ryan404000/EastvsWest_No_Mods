@@ -1,0 +1,821 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Generic_air_cav_0"
+		file = "gfx/anims/bell_uh_1_neu.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "bell_uh_1_neu_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "bell_uh_1_neu_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "bell_uh_1_neu_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "bell_uh_1_neu_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_air_cav_1"
+		file = "gfx/anims/mil_mi_8_neu.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "mil_mi_8_neu_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "mil_mi_8_neu_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "mil_mi_8_neu_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "mil_mi_8_neu_idle"
+			}
+		}
+	pdxmesh = {
+		name = "chinese_air_cav_1"
+		file = "gfx/anims/mil_mi_8_chi.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "mil_mi_8_chi_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "mil_mi_8_chi_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "mil_mi_8_chi_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "mil_mi_8_chi_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_air_cav_0"
+		file = "gfx/anims/mil_mi_4.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "mil_mi_4_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "mil_mi_4_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "mil_mi_4_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "mil_mi_4_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_air_cav_1"
+		file = "gfx/anims/mil_mi_8_sov.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "mil_mi_8_sov_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "mil_mi_8_sov_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "mil_mi_8_sov_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "mil_mi_8_sov_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_air_cav_0"
+		file = "gfx/anims/bell_uh_1_us.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "bell_uh_1_us_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "bell_uh_1_us_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "bell_uh_1_us_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "bell_uh_1_us_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_air_cav_1"
+		file = "gfx/anims/boeing_ch_47_chinook.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "boeing_ch_47_chinook_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "boeing_ch_47_chinook_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "boeing_ch_47_chinook_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "boeing_ch_47_chinook_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_ifv_0"
+		file = "gfx/anims/btr152.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "btr152_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "btr152_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "btr152_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "btr152_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_ifv_1"
+		file = "gfx/anims/bmp1.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "bmp1_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "bmp1_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "bmp1_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "bmp1_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_ifv_2"
+		file = "gfx/anims/bmp3.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "bmp3_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "bmp3_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "bmp3_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "bmp3_idle"
+			}
+		}
+	pdxmesh = {
+		name = "chinese_ifv_1"
+		file = "gfx/anims/m113_chi.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m113_chi_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m113_chi_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m113_chi_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m113_chi_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_ifv_0"
+		file = "gfx/anims/btr60.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "btr60_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "btr60_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "btr60_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "btr60_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_ifv_1"
+		file = "gfx/anims/m113_neu.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m113_neu_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m113_neu_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m113_neu_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m113_neu_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_ifv_2"
+		file = "gfx/anims/combat_vehicle_90.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "combat_vehicle_90_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "combat_vehicle_90_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "combat_vehicle_90_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "combat_vehicle_90_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_motorized_1"
+		file = "gfx/anims/gaz66.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "gaz66_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "gaz66_walk"
+			}
+		animation = {
+			id = "attack"
+			type = "gaz66_walk"
+			}
+		animation = {
+			id = "idle"
+			type = "gaz66_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_motorized_2"
+		file = "gfx/anims/btr_80.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "btr_80_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "btr_80_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "btr_80_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "btr_80_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_motorized_0"
+		file = "gfx/anims/gmc_cckw.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "gmc_cckw_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "gmc_cckw_walk"
+			}
+		animation = {
+			id = "attack"
+			type = "gmc_cckw_walk"
+			}
+		animation = {
+			id = "idle"
+			type = "gmc_cckw_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_motorized_1"
+		file = "gfx/anims/m35.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m35_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m35_walk"
+			}
+		animation = {
+			id = "attack"
+			type = "m35_walk"
+			}
+		animation = {
+			id = "idle"
+			type = "m35_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_motorized_2"
+		file = "gfx/anims/hummer.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "hummer_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "hummer_walk"
+			}
+		animation = {
+			id = "attack"
+			type = "hummer_walk"
+			}
+		animation = {
+			id = "idle"
+			type = "hummer_idle"
+			}
+		}
+	pdxmesh = {
+		name = "chinese_Infantry_0"
+		file = "gfx/anims/infantry_chi.mesh"
+		scale = 0.5
+		animation = {
+			id = "move"
+			type = "infantry_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "infantry_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_Infantry_0"
+		file = "gfx/anims/infantry_neu.mesh"
+		scale = 0.5
+		animation = {
+			id = "move"
+			type = "infantry_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "infantry_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_Infantry_0"
+		file = "gfx/anims/infantry_sov.mesh"
+		scale = 0.5
+		animation = {
+			id = "move"
+			type = "infantry_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "infantry_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_Infantry_0"
+		file = "gfx/anims/infantry_us.mesh"
+		scale = 0.5
+		animation = {
+			id = "move"
+			type = "infantry_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "infantry_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "infantry_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_tank_2"
+		file = "gfx/anims/leopard2.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "leopard2_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "leopard2_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "leopard2_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "leopard2_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_ifv_0"
+		file = "gfx/anims/m3_half_track.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m3_half_track_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m3_half_track_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m3_half_track_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m3_half_track_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_ifv_1"
+		file = "gfx/anims/m113_us.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m113_us_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m113_us_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m113_us_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m113_us_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_ifv_2"
+		file = "gfx/anims/m2_bradley.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m2_bradley_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m2_bradley_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m2_bradley_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m2_bradley_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_tank_0"
+		file = "gfx/anims/m48patton.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m48patton_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m48patton_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m48patton_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m48patton_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_tank_1"
+		file = "gfx/anims/m60patton.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m60patton_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m60patton_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m60patton_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m60patton_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Us_tank_2"
+		file = "gfx/anims/m1_abrams_col.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "m1_abrams_col_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "m1_abrams_col_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "m1_abrams_col_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "m1_abrams_col_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_motorized_1"
+		file = "gfx/anims/sbat111s.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "sbat111s_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "sbat111s_walk"
+			}
+		animation = {
+			id = "attack"
+			type = "sbat111s_walk"
+			}
+		animation = {
+			id = "idle"
+			type = "sbat111s_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_motorized_2"
+		file = "gfx/anims/patria_pasi.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "patria_pasi_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "patria_pasi_walk"
+			}
+		animation = {
+			id = "attack"
+			type = "patria_pasi_walk"
+			}
+		animation = {
+			id = "idle"
+			type = "patria_pasi_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_tank_0"
+		file = "gfx/anims/t54_sov.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "t54_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "t54_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "t54_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "t54_idle"
+			}
+		}
+	pdxmesh = {
+		name = "chinese_tank_0"
+		file = "gfx/anims/t54_chi.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "t54_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "t54_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "t54_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "t54_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_tank_0"
+		file = "gfx/anims/t54_neu.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "t54_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "t54_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "t54_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "t54_idle"
+			}
+		}
+	pdxmesh = {
+		name = "chinese_tank_1"
+		file = "gfx/anims/t72_chi.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "t72_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "t72_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "t72_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "t72_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Generic_tank_1"
+		file = "gfx/anims/t72_neu.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "t72_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "t72_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "t72_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "t72_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_tank_1"
+		file = "gfx/anims/t72_sov.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "t72_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "t72_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "t72_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "t72_idle"
+			}
+		}
+	pdxmesh = {
+		name = "Soviet_tank_2"
+		file = "gfx/anims/t80.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "t80_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "t80_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "t80_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "t80_idle"
+			}
+		}
+	}

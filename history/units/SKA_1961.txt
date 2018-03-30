@@ -1,0 +1,14 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6840
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 6840
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 39 experience = 5 }
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 40 experience = 4 }
+		}
+}

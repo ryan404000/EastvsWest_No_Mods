@@ -1,0 +1,204 @@
+# Add some kind of requirement to Principles, such as possession of any (combat) aircraft unit
+
+# CATEGORIES
+#	Combat Operations
+#	Logistics Operations
+#	Airborne Operations
+#	Intelligence Operations
+#	Joint/Command Principles
+#	Pilot Focus
+#	Nuclear Command
+#
+#	All doctrines listed under the various Operations headings (incl. Pilot Focus) are multi-level techs, giving various (minor) bonuses.
+#	Principles and Nuclear Command are single-level techs that give significant bonuses.
+#
+
+# List of all Air Doctrine techs
+	#aircommand_unityofcommandprinciple			(1 level )
+	#aircommand_objectiveprinciple				(1 level )
+	#aircommand_massprinciple					(1 level )
+	#aircommand_securityprinciple				(1 level )
+	#aircommand_surpriseprinciple				(1 level )
+
+	#pilotfocus_areabombingtraining				(1 level )
+	#pilotfocus_lowlevelops						(1 level )
+
+	#airintelops_airreconplanningandtraining	(1 level )
+	#airintelops_awacsc2doctrine				(1 level )
+	#airintelops_aswops							(1 level )
+
+
+#########################################################################
+# Joint/Command Principles
+#########################################################################
+## 9 techs
+aircommand_unityofcommandprinciple = {
+	# command type
+    doctrine = yes
+	allow = { radar_general = 1 }
+	traits = {
+		intel_theory		
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_objectiveprinciple = {
+	# command type
+    doctrine = yes
+	allow = {}
+	traits = {}
+	activate_unit = {
+		bomber_maritime
+		bomber_antisub
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_massprinciple = {
+	# command type
+    doctrine = yes
+	allow = {}
+	traits = {}
+	activate_unit = {
+		bomber_strategic
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_securityprinciple = {
+	# command type
+    doctrine = yes
+	allow = {}
+	traits = {}
+	activate_unit = {
+		transport_plane
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+aircommand_surpriseprinciple = {
+	# command type
+    doctrine = yes
+	allow = {}
+	traits = {}
+	activate_unit = { recon_plane }
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+#########################################################################
+# Pilot Focus
+#########################################################################
+## 7 techs
+
+pilotfocus_areabombingtraining = {	# Troop, Airbase and Infrastructure bombing
+	# planning type
+    doctrine = yes
+	allow = {
+		aircommand_massprinciple = 1
+	}
+	traits = {
+		airstrategy_theory		
+	}
+	bomber_strategic = {
+		default_organisation = 5
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+pilotfocus_lowlevelops = {	# only short-range AA can fire and with reduced effectiveness, but at the cost of increased risk of accidents and harder to find target (lower mission efficiency?) - should be selectable when programming mission
+	# planning type
+    doctrine = yes
+	allow = {
+		aircombatops_armydirectedbombing = 1
+		pilotfocus_areabombingtraining = 1
+	}
+	traits = {
+		airstrategy_theory
+		airtactical_theory
+	}
+	bomber_strike = {
+		surface_defence = 2.00
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+
+
+#########################################################################
+# Intelligence Operations
+#########################################################################
+## 3 techs
+airintelops_airreconplanningandtraining = {
+	# intelligence type
+    doctrine = yes
+	allow = {
+		aircommand_surpriseprinciple = 1
+		communication_and_intelligence = 1
+	}
+	traits = {
+		airstrategy_theory
+		intel_theory		
+	}
+	recon_plane = {
+		default_organisation = 5
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+airintelops_awacsc2doctrine = { #1954
+	# intelligence or command type
+    doctrine = yes
+	allow = {
+		aircommand_unityofcommandprinciple = 1
+		radar_general = 2		
+	}
+	traits = {
+		airstrategy_theory
+		intel_theory			
+	}
+	activate_unit = {
+		awacs_air_plane
+		awacs_complex
+	}
+
+	folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+airintelops_aswops = {
+	# intelligence type
+    doctrine = yes
+	allow = {
+		aircommand_objectiveprinciple = 1
+		torpedoes = 1
+	}
+	traits = {
+		airstrategy_theory		
+	}
+	bomber_antisub = {
+		sub_detection = 1.00
+		default_organisation = 5
+	}
+    folder = air_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+

@@ -1,0 +1,1617 @@
+spriteTypes = {	
+	
+	tileSpriteType = {
+		name = "GFX_topcolor_production"
+		texturefile = "gfx\\interface\\topcolor_production.dds"
+		
+		norefcount = yes
+		size = {x = 2048 y = 512}
+	}
+	
+	spriteType = {
+		name = "GFX_bg_prod"
+		texturefile = "gfx\\interface\\production\\prod_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_RadarAA"
+		
+		textureFile ="gfx\\interface\\production\radar_aa\\prod_radar_screen.dds"
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_radar_aa_accept"
+		texturefile = "gfx\\interface\\production\\radar_aa\\big_button.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_radar_aa_decline"
+		texturefile = "gfx\\interface\\production\\radar_aa\\prod_btn_back.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_manpower"
+		texturefile = "gfx\\interface\\production\\info_icon_work.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_land"
+		texturefile = "gfx\\interface\\production\\info_icon_land.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_air"
+		texturefile = "gfx\\interface\\production\\info_icon_air.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_naval"
+		texturefile = "gfx\\interface\\production\\info_icon_naval.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_nuke"
+		texturefile = "gfx\\interface\\production\\info_icon_nuke.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_nuke_air"
+		texturefile = "gfx\\interface\\production\\info_icon_nuke_air.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_prod_population"
+		texturefile = "gfx\\interface\\production\\info_icon_pop.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_deploy_deploy"
+		texturefile = "gfx\\interface\\production\\prod_btn_deploy.dds"
+		
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_prod_aa"
+		texturefile = "gfx\\interface\\production\\prod_btn_aa.dds"
+		
+		noOfFrames = 3
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_prod_radar"
+		texturefile = "gfx\\interface\\production\\prod_btn_radar.dds"
+		
+		noOfFrames = 3
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_prod_big_deploy"
+		texturefile = "gfx\\interface\\production\\prod_button_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_production"
+		texturefile = "gfx\\interface\\production\\prod_thick.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_deploy_delete"
+		texturefile = "gfx\\interface\\production\\prod_btn_delete.dds"
+		
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_prod_close_button"
+		texturefile = "gfx\\interface\\production\\prod_btn_close.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_prod_close_under"
+		texturefile = "gfx\\interface\\production\\prod_btn_close_under.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_deploy_icon_all"
+		texturefile = "gfx\\interface\\production\\prod_icon_all.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_deploy_icon_rest"
+		texturefile = "gfx\\interface\\production\\prod_icon_rest.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_deploy_icon_land"
+		texturefile = "gfx\\interface\\production\\prod_icon_land.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_deploy_icon_air"
+		texturefile = "gfx\\interface\\production\\prod_icon_air.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_deploy_icon_naval"
+		texturefile = "gfx\\interface\\production\\prod_icon_naval.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_deploy_icon_house"
+		texturefile = "gfx\\interface\\production\\prod_icon_house.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_nuke_sub"
+		texturefile = "gfx\\interface\\production\\info_icon_nuke_sub.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_air_build"
+		texturefile = "gfx\\interface\\airdivision\\air_division_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = { 
+		name = "GFX_plane_stamp_clip"
+		texturefile = "gfx\\interface\\airdivision\\air_stamp_clip.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = { 
+		name = "GFX_land_stamp_clip"
+		texturefile = "gfx\\interface\\division\\land_stamp_clip.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_airdivision_nuclear_switch"
+		texturefile = "gfx\\interface\\airdivision\\air_nuke_switch.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_serial_production_plus_btn"
+		texturefile = "gfx\\interface\\division\\land_screen_serials_btn_r.dds"
+	}
+	spriteType = {
+		name = "GFX_serial_production_minus_btn"
+		texturefile = "gfx\\interface\\division\\land_screen_serials_btn_l.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_slider_icon_supplies"
+		texturefile = "gfx\\interface\\icon_supplies_small.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_theatre_need_entry"
+		texturefile = "gfx\\interface\\production\\prod_theater_plate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_theatre_div_need_entry"
+		texturefile = "gfx\\interface\\division\\theatre_plate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_theater_build"
+		texturefile = "gfx\\interface\\production\\prod_theater_build.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_build_theatre_need"
+		texturefile = "gfx\\interface\\build_theatre_need.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_icon_transport_small"
+		texturefile = "gfx\\interface\\icon_transport_small.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_escort_small"
+		texturefile = "gfx\\interface\\icon_escort_small.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_trade_cancel"
+		texturefile = "gfx\\interface\\trade_cancel.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_trade_inactive"
+		texturefile = "gfx\\interface\\trade_inactive.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_trade_entry_bg"
+		texturefile = "gfx\\interface\\trade_entry_bg3.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "icon_build_escort"
+		texturefile = "gfx\\interface\\icon_build_escort.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_convoy"
+		texturefile = "gfx\\interface\\icon_build_transport.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_rocket_test"
+		texturefile = "gfx\\interface\\icon_build_rocket.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_air_base"
+		texturefile = "gfx\\interface\\icon_build_airbase.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_naval_base"
+		texturefile = "gfx\\interface\\icon_build_navalbase.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_nuclear_reactor"
+		texturefile = "gfx\\interface\\icon_build_nuclear.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_radar_station"
+		texturefile = "gfx\\interface\\icon_build_radar.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_anti_air"
+		texturefile = "gfx\\interface\\icon_build_aa.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_industry"
+		texturefile = "gfx\\interface\\icon_build_factory.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_coastal_fort"
+		texturefile = "gfx\\interface\\icon_build_coastalfort.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_land_fort"
+		texturefile = "gfx\\interface\\icon_build_landfort.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "icon_build_infra"
+		texturefile = "gfx\\interface\\icon_build_infra.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "picture_coastal_fort"
+		texturefile = "gfx\\interface\\picture_coastal_fort.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_air_base"
+		texturefile = "gfx\\interface\\picture_airbase.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_anti_air"
+		texturefile = "gfx\\interface\\picture_aa.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_rocket_test"
+		texturefile = "gfx\\interface\\picture_rocket.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_radar_station"
+		texturefile = "gfx\\interface\\picture_radar.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "picture_nuclear_reactor"
+		texturefile = "gfx\\interface\\picture_nuclear.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_naval_base"
+		texturefile = "gfx\\interface\\picture_navalbase.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_land_fort"
+		texturefile = "gfx\\interface\\picture_landfort.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_infra"
+		texturefile = "gfx\\interface\\picture_infra.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_industry"
+		texturefile = "gfx\\interface\\picture_factory.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "picture_escort"
+		texturefile = "gfx\\interface\\picture_escort.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "picture_convoy"
+		texturefile = "gfx\\interface\\picture_convoy.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bg_confirm_build"
+		texturefile = "gfx\\interface\\bg_confirm_build.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_convoy_details"
+		texturefile = "gfx\\interface\\bg_convoy_details.dds"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_bg_convoy_details2"
+		texturefile = "gfx\\interface\\bg_convoy_details2.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_transport"
+		texturefile = "gfx\\interface\\icon_transport.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_escort"
+		texturefile = "gfx\\interface\\icon_escort.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_nuke_icon"
+		texturefile = "gfx\\interface\\nuke_icon.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_model_overlay"
+		texturefile = "gfx\\interface\\model_overlay.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_no_ship_selected"
+		texturefile = "gfx\\interface\\no_ship_selected.tga"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_air_navy_build"
+		texturefile = "gfx\\interface\\bg_air_navy_build.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_on_complete_frame"
+		texturefile = "gfx\\interface\\on_complete_frame.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_escort_select"
+		texturefile = "gfx\\interface\\production\\logistics_plate_green.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_escort_select_red"
+		texturefile = "gfx\\interface\\production\\logistics_plate_red.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_countryview_GER"
+		texturefile = "gfx\\interface\\production\\prod_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_topitem"
+		texturefile = "gfx\\interface\\production_topitem.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_resourcebg"
+		texturefile = "gfx\\interface\\production_resourcebg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_energy_big"
+		texturefile = "gfx\\interface\\icon_energy_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_metal_big"
+		texturefile = "gfx\\interface\\icon_metal_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_money_big"
+		texturefile = "gfx\\interface\\icon_money_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oil_big"
+		texturefile = "gfx\\interface\\icon_oil_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_fuel_big"
+		texturefile = "gfx\\interface\\icon_fuel_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_rarematerial_big"
+		texturefile = "gfx\\interface\\icon_rarematerial_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_supplies_big"
+		texturefile = "gfx\\interface\\icon_supplies_big.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_build_bg"
+		texturefile = "gfx\\interface\\production_build_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mainwindow_divider"
+		texturefile = "gfx\\interface\\mainwindow_divider.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_convoy_button"
+		texturefile = "gfx\\interface\\convoy_button.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_ic_need_button"
+		texturefile = "gfx\\interface\\ic_need_button.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_division_button"
+		texturefile = "gfx\\interface\\production\\prod_land.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_air_button"
+		texturefile = "gfx\\interface\\production\\prod_air.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_naval_button"
+		texturefile = "gfx\\interface\\production\\prod_naval.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_sortbutton_bottom"
+		texturefile = "gfx\\interface\\production\\prod_btn_priority_3.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_production_sortbutton_top"
+		texturefile = "gfx\\interface\\production\\prod_btn_priority_1.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_production_sortbutton_down"
+		texturefile = "gfx\\interface\\production\\prod_btn_priority_2.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_production_sortbutton_up"
+		texturefile = "gfx\\interface\\production\\prod_btn_priority.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_production_cancel_button"
+		texturefile = "gfx\\interface\\production\\prod_plate_btn_close.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_production_queue_green"
+		texturefile = "gfx\\interface\\production_queue_green.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_queue_orange"
+		texturefile = "gfx\\interface\\production_queue_orange.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_queue_red"
+		texturefile = "gfx\\interface\\production_queue_red.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_queue_division"
+		texturefile = "gfx\\interface\\production\\prod_plate_land.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_queue_air"
+		texturefile = "gfx\\interface\\production\\prod_plate_air.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_queue_naval"
+		texturefile = "gfx\\interface\\production\\prod_plate_naval.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_queue_buildings"
+		texturefile = "gfx\\interface\\production\\prod_plate_buildings.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_production_equipment_bar"
+		texturefile = "gfx\\interface\\production\\deployment_equip_bar.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_serial_decrease"
+		texturefile = "gfx\\interface\\production\\prod_btn_traingle_left.dds"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_serial_increase"
+		texturefile = "gfx\\interface\\production\\prod_btn_traingle_right.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_temp_unit_icon"
+		texturefile = "gfx\\interface\\temp_unit_icon.dds"
+		
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_icon_trans"
+		texturefile = "gfx\\interface\\temp_unit_icon.dds"
+		
+		norefcount = yes
+		allwaystransparent = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_brigattach"
+		texturefile = "gfx\\interface\\production_button_brigattach.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_airbase"
+		texturefile = "gfx\\interface\\production_button_airbase.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_navalbase"
+		texturefile = "gfx\\interface\\production_button_navalbase.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_aa"
+		texturefile = "gfx\\interface\\production_button_aa.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_radar"
+		texturefile = "gfx\\interface\\production_button_radar.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_nuclear"
+		texturefile = "gfx\\interface\\production_button_nuclear.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_rocket"
+		texturefile = "gfx\\interface\\production_button_rocket.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_convoy"
+		texturefile = "gfx\\interface\\production_button_convoy.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_escort"
+		texturefile = "gfx\\interface\\production_button_escort.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_production_button_industry"
+		texturefile = "gfx\\interface\\production_button_industry.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	
+	spriteType = {
+		name = "GFX_production_divdesign_bg"
+		texturefile = "gfx\\interface\\division\\division_design_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_selected_brigade_green"
+		texturefile = "gfx\\interface\\selected_brigade_green.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_selected_brigade_orange"
+		texturefile = "gfx\\interface\\selected_brigade_orange.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_selected_brigade_red"
+		texturefile = "gfx\\interface\\selected_brigade_red.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_selected_brigade_green_small"
+		texturefile = "gfx\\interface\\selected_brigade_green_small.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_selected_brigade_orange_small"
+		texturefile = "gfx\\interface\\selected_brigade_orange_small.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_selected_brigade_red_small"
+		texturefile = "gfx\\interface\\selected_brigade_red_small.dds"
+		
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_divdesigner_listbutton1"
+		texturefile = "gfx\\interface\\division\\division_brigade.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_template_select_button"
+		texturefile = "gfx\\interface\\division\\division_template_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_brigade_listbutton"
+		texturefile = "gfx\\interface\\brigade_listbutton.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_select_ship_button"
+		texturefile = "gfx\\interface\\select_ship_button.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_select_plane_button"
+		texturefile = "gfx\\interface\\air_template_bg.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_divdesigner_listbutton2"
+		texturefile = "gfx\\interface\\divdesigner_listbutton2.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_remove_button"
+		texturefile = "gfx\\interface\\division\\division_selected_brigade_close.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_serial_minus"
+		texturefile = "gfx\\interface\\serial_minus.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_serial_plus"
+		texturefile = "gfx\\interface\\serial_plus.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_selected_brigade_frame"
+		texturefile = "gfx\\interface\\division\\division_selected_brigade_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_select_model_bg"
+		texturefile = "gfx\\interface\\select_model_bg.dds"
+		
+		norefcount = yes
+	}
+
+spriteType = {
+		name = "GFX_select_weaponsel_bg"
+		texturefile = "gfx\\interface\\select_model_bg2.dds"
+		
+		norefcount = yes
+	}
+
+	
+	spriteType = {		name = "GFX_ship_column"
+		texturefile = "gfx\\interface\\ship_column.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_build_division"
+		texturefile = "gfx\\interface\\division\\division_build.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	textSpriteType = {
+		name = "GFX_button_cancel_prod"
+		texturefile = "gfx\\interface\\button_cancel_prod.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_model_button"
+		texturefile = "gfx\\interface\\model_button.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_select_model"
+		texturefile = "gfx\\interface\\select_model.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_select_model2"
+		texturefile = "gfx\\interface\\select_model2.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_current_model"
+		texturefile = "gfx\\interface\\current_model.tga"	
+	}
+	
+	spriteType = {
+		name = "GFX_icon_str"
+		texturefile = "gfx\\interface\\icon_str.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_org"
+		texturefile = "gfx\\interface\\icon_org.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_cw"
+		texturefile = "gfx\\interface\\icon_cw.tga"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sa"
+		texturefile = "gfx\\interface\\icon_sa.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_ha"
+		texturefile = "gfx\\interface\\icon_ha.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_strat_a"
+		texturefile = "gfx\\interface\\icon_strat_a.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_land_def"
+		texturefile = "gfx\\interface\\icon_land_def.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_aa"
+		texturefile = "gfx\\interface\\icon_aa.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_def"
+		texturefile = "gfx\\interface\\icon_def.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_tou"
+		texturefile = "gfx\\interface\\icon_tou.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_ad"
+		texturefile = "gfx\\interface\\icon_ad.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_off"
+		texturefile = "gfx\\interface\\sort_off.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_speed"
+		texturefile = "gfx\\interface\\icon_speed.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sup"
+		texturefile = "gfx\\interface\\icon_sup.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_icon_ammo_p"
+		texturefile = "gfx\\interface\\icon_ammo1.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_icon_ammo_s"
+		texturefile = "gfx\\interface\\icon_ammo2.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_icon_salvo"
+		texturefile = "gfx\\interface\\icon_salvo.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_icon_sc"
+		texturefile = "gfx\\interface\\icon_sc.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oc"
+		texturefile = "gfx\\interface\\icon_oc.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_icneed"
+		texturefile = "gfx\\interface\\icon_icneed.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_mp"
+		texturefile = "gfx\\interface\\icon_mp.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_time"
+		texturefile = "gfx\\interface\\icon_time.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_soft"
+		texturefile = "gfx\\interface\\icon_soft.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_soft2"
+		texturefile = "gfx\\interface\\icon_soft2.tga"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prio"
+		texturefile = "gfx\\interface\\icon_prio.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_pos"
+		texturefile = "gfx\\interface\\icon_pos.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_hull"
+		texturefile = "gfx\\interface\\icon_hull.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_range"
+		texturefile = "gfx\\interface\\icon_range.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_trans_cap"
+		texturefile = "gfx\\interface\\icon_trans_cap.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_visibility"
+		texturefile = "gfx\\interface\\icon_visibility.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sub_det"
+		texturefile = "gfx\\interface\\icon_sub_det.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_air_det"
+		texturefile = "gfx\\interface\\icon_air_det.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sur_det"
+		texturefile = "gfx\\interface\\icon_sur_det.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_shore"
+		texturefile = "gfx\\interface\\icon_shore.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_air_a"
+		texturefile = "gfx\\interface\\icon_air_a.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sub_a"
+		texturefile = "gfx\\interface\\icon_sub_a.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sea_a"
+		texturefile = "gfx\\interface\\icon_sea_a.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_con_a"
+		texturefile = "gfx\\interface\\icon_con_a.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_divdesign_button"
+		texturefile = "gfx\\interface\\mapmode_button1.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_create_convoy"
+		texturefile = "gfx\\interface\\create_convoy.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_airbuild_listbutton"
+		texturefile = "gfx\\interface\\airdivision\\air_brigade_plate.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_air_badge"
+		texturefile = "gfx\\interface\\airdivision\\air_badge.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_air_stamp"
+		texturefile = "gfx\\interface\\airdivision\\air_stamp.dds"
+		
+		norefcount = yes
+	}
+	
+	progressbartype = {
+		name = "prodqueue_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\prodqueue_progress2.dds"
+		textureFile2 = "gfx\\interface\\prodqueue_progress1.dds"
+		size = { x = 237 y = 16 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	progressbartype = {
+		name = "prodqueue_progress_green"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\production\\progress_bar_production_green.dds"
+		textureFile2 = "gfx\\interface\\production\\progress_bar_production_transparent.dds"
+		size = { x = 247 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "prodqueue_progress_red"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\production\\progress_bar_production_red.dds"
+		textureFile2 = "gfx\\interface\\production\\progress_bar_production_transparent.dds"
+		size = { x = 247 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "prodqueue_progress_orange"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\production\\progress_bar_production_orange.dds"
+		textureFile2 = "gfx\\interface\\production\\progress_bar_production_transparent.dds"
+		size = { x = 247 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	spriteType = {
+		name = "GFX_serial_upgrade"
+		texturefile = "gfx\\interface\\production\\btn_plus.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_slider_min_cap"
+		texturefile = "gfx\\interface\\slider_min_red.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_slider_max_cap"
+		texturefile = "gfx\\interface\\slider_max_red.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_slider_recommended"
+		texturefile = "gfx\\interface\\slider_rec_green.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_info_armies"
+		texturefile = "gfx\\interface\\production_icon_land.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_info_airforce"
+		texturefile = "gfx\\interface\\production_icon_airforce.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_info_navy"
+		texturefile = "gfx\\interface\\production_icon_navy.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_model_photo"
+		texturefile = "gfx\\interface\\common\\model_image_empty.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_model_small"
+		texturefile = "gfx\\interface\\model_photo_small_empty.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_minus"
+		texturefile = "gfx\\interface\\land_screen_serials_btn.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prod_plus"
+		texturefile = "gfx\\interface\\land_screen_serials_btn_r.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_btn_prod_start"
+		texturefile = "gfx\\interface\\prod_screen_start_btn.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_btn_prod_money"
+		texturefile = "gfx\\interface\\common\\prod_screen_icon_money.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_btn_prod_money_daily"
+		texturefile = "gfx\\interface\\common\\prod_screen_icon_daily_money.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_btn_prod_manpower"
+		texturefile = "gfx\\interface\\prod_screen_icon_strength.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_btn_prod_time"
+		texturefile = "gfx\\interface\\common\\prod_screen_icon_time.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_icon_div_str"
+		texturefile = "gfx\\interface\\division\\land_screen_icon_strength_glow.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_icon_div_time"
+		texturefile = "gfx\\interface\\division\\land_screen_icon_time.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_icon_div_org"
+		texturefile = "gfx\\interface\\division\\land_screen_icon_org.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_icon_div_money"
+		texturefile = "gfx\\interface\\division\\land_screen_icon_money.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_land_badge"
+		texturefile = "gfx\\interface\\division\\land_badge.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_div_overlay"
+		texturefile = "gfx\\interface\\division\\division_overlay.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_theatre_prod"
+		texturefile = "gfx\\interface\\theater_production.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_build_radar_station"
+		texturefile = "gfx\\interface\\production\\prod_radar_icon.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_icon_build_anti_air"
+		texturefile = "gfx\\interface\\production\\prod_AA_icon.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_bg_shadow_prod"
+		texturefile = "gfx\\interface\\production\\prod_shadow.dds"
+		noOfFrames = 1
+	}
+
+	
+}
+	

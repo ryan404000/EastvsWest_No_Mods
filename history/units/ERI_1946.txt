@@ -1,0 +1,14 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 8073
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	division =
+	{
+		name = "1st Eritrean Security Force"
+		location = 8073
+		regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 38 experience = 5 }
+		regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 39 experience = 5 }
+	}
+}

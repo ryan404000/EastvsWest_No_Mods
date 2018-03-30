@@ -1,0 +1,54 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 7644
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "7th Army"
+		location = 7644
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+	}
+}
+
+military_construction = {
+	country = UGD
+	name = "1st Infantry Division"
+	infantry_brigade =
+	{
+		name = "1st Infantry Brigade"
+		historical_model = 0
+	}
+	infantry_brigade =
+	{
+		name = "2nd Infantry Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "1st Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = UGD
+	name = "2nd Infantry Division"
+	militia_brigade =
+	{
+		name = "3rd Militia Brigade"
+		historical_model = 0
+	}
+	militia_brigade =
+	{
+		name = "2nd Militia Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}

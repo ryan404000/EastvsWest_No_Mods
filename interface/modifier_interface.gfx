@@ -1,0 +1,51 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_modifier_bg"
+		texturefile = "gfx\\interface\\modifier\\bg.dds"
+	}
+	spriteType = {
+		name = "GFX_modifier_entry_bg"
+		texturefile = "gfx\\interface\\modifier\\plate.dds"
+	}
+	spriteType = {
+		name = "GFX_modifier_strip"
+		texturefile = "gfx\\interface\\modifier\\modifier_strip.dds"
+		noOfFrames = 17
+	}
+	spriteType = {
+		name = "GFX_modifier_info"
+		texturefile = "gfx\\interface\\modifier\\btn_question.dds"
+	}
+	spriteType = {
+		name = "GFX_modifier_pic_overlay_1"
+		texturefile = "gfx\\interface\\modifier\\pic_overlay_1.dds"
+	}
+	spriteType = {
+		name = "GFX_modifier_pic_overlay_2"
+		texturefile = "gfx\\interface\\modifier\\pic_overlay_2.dds"
+	}
+	textSpriteType = {
+		name = "GFX_modifier_sort_btn_close_completing"
+		texturefile = "gfx\\interface\\modifier\\sort_btn_close_completing.dds"
+	}
+	textSpriteType = {
+		name = "GFX_modifier_sort_btn_name_completed"
+		texturefile = "gfx\\interface\\modifier\\sort_btn_name_completed.dds"
+	}
+	progressbartype = {
+		name = "modifier_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\modifier\\vertical_bar.dds"
+		textureFile2 = ""
+		size = { x = 80 y = 28 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	spriteType = {
+		name = "GFX_modifier_progress_overlay"
+		texturefile = "gfx\\interface\\modifier\\vertical_bar_overlay.dds"
+	}
+	
+	
+}

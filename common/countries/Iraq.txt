@@ -1,0 +1,607 @@
+color = { 178  114  99 }
+graphical_culture = Generic
+
+default_templates = {
+	USA_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	USA_armored_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	USA_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	USA_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	USA_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	USA_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	USA_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	USA_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	USA_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	USA_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={
+
+#	air_cav_brigade ={}
+#	armor_brigade = {}
+#	cavalry_brigade ={}		
+#	heavy_mechanized_brigade = {}
+	infantry_brigade = {
+		"1st Division" "2nd Division" "3rd Division" "4th Division" "5th Division" "6th Division"
+	}
+#	light_mechanized_brigade = {}	
+#	marine_brigade = {}
+	militia_brigade ={ }
+#	motorized_brigade ={}	
+#	bergsjaeger_brigade ={}	
+
+} 
+ministers = {
+#HOS - Kingdom of Iraq (to 1958), Republic of Iraq (to 1968), Ba'athist Republic (1968-2003) - name Ba'ath LWR and Arab socialist Union Social Democrat (despite lack of elections); all military figures with no party are social_cons
+	1221000 = { #Monarch
+		name = "Faisal II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = IRQ_M_Faisal_II
+		head_of_state = courageous_type
+		start_date = 1939.4.4
+		death_date = 1958.7.14
+		base = 1221000
+	}
+	1221029 = { #Monarch
+		name = "Abd al-llah"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.99
+		picture = IRQ_M_al-llah_Abd
+		head_of_state = courteous_figure
+		start_date = 1946.1.1
+		death_date = 1958.7.14
+		base = 1221029
+	}
+	1221100 = { #Monarch
+		name = "Zeid I bin Hussein"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.98
+		picture = IRQ_M_Hussein_Zeid
+		head_of_state = autocrat_type
+		start_date = 1958.7.14
+		death_date = 1970.10.18
+		base = 1221100
+	}
+	1221101 = { #Monarch
+		name = "Ra'ad I bin Zeid"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.97
+		picture = IRQ_M_Zeid_Raad
+		head_of_state = visionary_type
+		start_date = 1970.10.18
+		death_date = 1999.12.31
+		base = 1221101
+	}
+	1221030 = { #Monarch
+		name = "Zeid bin Ra'ad"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.96
+		picture = IRQ_M_Zeid_Raad
+		head_of_state = courteous_figure
+		start_date = 1979.1.26
+		death_date = 2300.1.1
+		base = 1221030
+	}
+	1221031 = { #Monarch
+		name = "Mired bin Ra'ad"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.95
+		picture = IRQ_M_Mired
+		head_of_state = courteous_figure
+		start_date = 1980.6.11
+		death_date = 2300.1.1
+		base = 1221031
+	}
+	1221032 = { #Monarch
+		name = "Firas bin Ra'ad"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.94
+		picture = IRQ_M_Firas
+		head_of_state = courteous_figure
+		start_date = 1984.10.12
+		death_date = 2300.1.1
+		base = 1221032
+	}
+	
+	
+
+	1221001 = {
+		name = "Muhammad Najib ar-Rubai'i"
+		ideology = fascistic_idolg
+		loyalty = 1.00
+		picture = IRQ_M_ar-Rubai'i_Muhammad_N
+		head_of_state = extremist_type
+		start_date = 1958.7.14
+		death_date = 1963.2.8
+		base = 1221001
+	}
+
+	1221002 = {
+		name = "Saddam Hussein"
+		ideology = paternal_auto_idolg
+		loyalty = 0.80
+		picture = IRQ_M_Hussein_Saddam
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1959.10.7
+		death_date = 2003.4.9
+		base = 1221002
+	}
+
+	1221004 = {
+		name = "Abdul Salam Arif"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Arif_Abdul_S
+		head_of_state = controversial_figure
+		start_date = 1963.2.8
+		death_date = 1966.4.13
+		base = 1221004
+	}
+
+	1221005 = {
+		name = "Abd ar-Rahman al-Bazzaz"
+		ideology = social_democrat_idolg
+		loyalty = 0.90
+		picture = IRQ_M_al-Bazzaz_Abd_Ar-Rahman
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1965.9.21
+		death_date = 1966.8.9
+		base = 1221005
+	}		
+
+	1221006 = {
+		name = "Abdul Rahman Arif"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Arif_Abdul_Rahman
+		head_of_state = lethargic_type
+		head_of_government = lethargic_type
+		start_date = 1966.4.16
+		death_date = 1968.7.17
+		base = 1221006
+	}
+
+	1221007 = {
+		name = "Ahmed Hassan al-Bakr"
+		ideology = paternal_auto_idolg
+		loyalty = 0.90	
+		picture = IRQ_M_al-Bakr_Ahmed_H
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1963.2.8
+		death_date = 1979.7.16
+		base = 1221007
+	}
+#HOG - Kingdom of Iraq ministers very much work in progress
+
+	1221008 = {
+		name = "Hamdi al-Pachachi"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_al-Pachachi_Hamdi
+		head_of_government = hardliner_type
+		start_date = 1944.6.4
+		death_date = 1946.2.23
+		base = 1221008
+	}
+
+	1221009 = {
+		name = "Tawfiq al-Suwaidi"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = IRQ_M_al-Suwaidi_Tawfiq
+		head_of_government = liberal_type
+		start_date = 1946.2.23
+		death_date = 1950.9.15
+		base = 1221009
+	}
+
+	1221010 = {
+		name = "Arshad al-Umrai"
+		ideology = social_cons_idolg
+		loyalty = 0.80
+		picture = IRQ_M_al-Umrai_Arshad
+		head_of_government = reputable_type
+		start_date = 1946.6.1
+		death_date = 1954.8.4
+		base = 1221010
+	}
+
+	1221011 = {
+		name = "Nuri as-Said"
+		ideology = social_liberal_idolg
+		loyalty = 0.90
+		picture = IRQ_M_as-Said_Nuri
+		head_of_government = controversial_figure
+		start_date = 1946.11.21
+		death_date = 1958.5.18
+		base = 1221011
+	}
+
+	1221012 = {
+		name = "Sayyid Salih Jabr"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Jabr_Sayyid_S #only image is very poor; paternal_auto_idolg might be better
+		head_of_government = liberal_type
+		start_date = 1947.3.29
+		death_date = 1948.1.29
+		base = 1221012
+	}
+
+	1221013 = {
+		name = "Sayyid Muhammad as-Sadr"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_as-Sadr_Sayyid_M
+		head_of_government = bureaucrat_type
+		start_date = 1948.1.29
+		death_date = 1948.6.26
+		base = 1221013
+	}
+
+	1221014 = {
+		name = "Muzahim al-Pachachi"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_al-Pachachi_Muzahim_A
+		head_of_government = zealous_type
+		start_date = 1948.6.26
+		death_date = 1949.1.6
+		base = 1221014
+	}
+
+	1221015 = {
+		name = "Ali Jawdat al-Ayubi"
+		ideology = social_cons_idolg
+		loyalty = 0.90
+		picture = IRQ_M_al-Ayubi_Ali_J
+		head_of_government = hardliner_type
+		start_date = 1949.12.10
+		death_date = 1957.12.15
+		base = 1221015
+	}
+
+	1221016 = {
+		name = "Mustafa Mahmud al-Umari"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_al-Umari_Mustafa_M #questionable quality
+		head_of_government = traditionalist_type
+		start_date = 1952.7.12
+		death_date = 1952.11.23
+		base = 1221016
+	}
+		
+	1221017 = {
+		name = "Nureddin Mahmud"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Mahmud_Nureddin #again, really low quality image
+		head_of_government = hardliner_type
+		start_date = 1952.11.23
+		death_date = 1953.1.29
+		base = 1221017
+	}
+	1221018 = {
+		name = "Jamil al-Midfai"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_al-Midfai_Jamil #terrible image
+		head_of_government = reputable_type
+		start_date = 1953.1.29
+		death_date = 1953.9.17
+		base = 1221018
+	}
+	1221019 = {
+		name = "Muhammad Fadhel al-Jamali"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_al-Jamali_Muhammad_F #only pic is from 2008
+		head_of_government = religious_type
+		start_date = 1953.9.17
+		death_date = 1954.4.29
+		base = 1221019
+	}
+	1221020 = {
+		name = "Abdul-Wahab Mirjan"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Mirjan_Abdul-Wahab #terrible again
+		head_of_government = honest_type
+		start_date = 1957.12.15
+		death_date = 1958.3.3
+		base = 1221020
+	}
+	1221021 = {
+		name = "Ahmad Mukhtar Baban"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Baban_Ahmad_M
+		head_of_government = administrator_type
+		start_date = 1958.5.18
+		death_date = 1958.7.14
+		base = 1221021
+	}
+	1221022 = {
+		name = "Abd al-Karim Qasim"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Qasim_Abd_K
+		head_of_government = autocrat_type
+		start_date = 1958.7.14
+		death_date = 1963.2.8
+		base = 1221022
+	}
+	1221023 = {
+		name = "Tahir Yahya"
+		ideology = social_democrat_idolg
+		loyalty = 0.90
+		picture = IRQ_M_Yahya_Tahir
+		head_of_government = zealous_type
+		start_date = 1963.11.20
+		death_date = 1968.6.17
+		base = 1221023
+	}
+	1221024 = {
+		name = "Arif Abd ar-Razzaq"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = IRQ_M_ar-Razza_Arif_A #no picture found
+		head_of_government = loyal_type
+		start_date = 1965.9.6
+		death_date = 1965.9.21
+		base = 1221024
+	}
+	1221025 = {
+		name = "Naji Talib"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Talib_Naji
+		head_of_government = loyal_type
+		start_date = 1966.8.9
+		death_date = 1967.5.10
+		base = 1221025
+	}
+	1221026 = {
+		name = "Abd ar-Razzaq an-Naif"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = IRQ_M_an-Naif_Abd_A #no picture
+		head_of_government = honest_type
+		start_date = 1968.7.17
+		death_date = 1968.7.30
+		base = 1221026
+	}
+	1221027 = {
+		name = "Sa'dun Hammadi"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = IRQ_M_Hammadi_Sa'dun
+		head_of_government = reformer_type
+		start_date = 1991.3.23
+		death_date = 1991.9.13
+		base = 1221027
+	}
+	1221028 = {
+		name = "Mohammad Hamza al-Zubaidi"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = IRQ_M_al-Zubaidi_Mohammad_H
+		head_of_government = controversial_figure
+		start_date = 1991.9.16
+		death_date = 1993.9.5
+		base = 1221028
+	}
+	
+	
+	
+	
+	#WATW
+	1221102 = { #P
+		name = "Husain al-Radi"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_al-Radi_Husain
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1955.11.18
+		death_date = 1963.2.24
+	}
+	1221103 = { #P
+		name = "Fuad al-Rikabi"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = IRQ_M_al-Rikabi_Fuad
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1951.1.1
+		death_date = 1971.1.1
+	}
+	1221104 = { #P
+		name = "Talib El-Shibib"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = IRQ_M_el-Shibib_Talib
+		head_of_state = democrat_type
+		head_of_government = democrat_type
+		start_date = 1959.9.1
+		death_date = 1997.1.1
+	}
+	
+	1221105 = { #P
+		name = "Yusuf Salman Yusuf"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_Yusuf_Yusuf_S
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1941.10.29
+		death_date = 1949.2.14
+	}
+	1221106 = { #P
+		name = "Baha' al-Din Nuri"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_Nuri_Baha_D
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1949.2.14
+		death_date = 1953.4.1
+	}
+	1221107 = { #P
+		name = "Abd al-Karim Ahmad al-Daud"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_al-Daud_Abd_K_A
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1953.4.1
+		death_date = 1954.6.1
+	}
+	1221108 = { #P
+		name = "Hamid Uthman"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_Uthman_Hamid
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1954.6.1
+		death_date = 1955.6.1
+	}
+	1221109 = { #P
+		name = "Aziz Muhammad"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_Muhammad_Aziz
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1963.2.24
+		death_date = 1993.1.1
+	}
+	1221110 = { #P
+		name = "Izzat Ibrahim al-Douri"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = IRQ_M_al-Douri_Izzat
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1968.7.17
+		death_date = 2300.1.1
+	}
+	1221111 = {
+		name = "Michel Aflaq"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = IRQ_M_Aflaq_Michel
+		head_of_state = liberal_type
+		head_of_government = liberal_type
+		start_date = 1947.4.6
+		death_date = 1989.6.23
+		base = 1335033
+	}
+	
+	1221112 = { #P
+		name = "Amir Abdullah"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_Abdullah_Amir
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1963.2.25
+		death_date = 1985.8.22
+	}
+	1221113 = { #P
+		name = "Aziz Muhammed"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_Muhammed_Aziz
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1963.2.25
+		death_date = 1992.1.1
+	}
+	1221114 = { #P
+		name = "Aziz al-Hajj"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = IRQ_M_al-Hajj_Aziz
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1967.7.14
+		death_date = 1991.11.8
+	}
+	1221115 = { #P
+		name = "Abd al-Ilah"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = IRQ_M_al-Ilah_Abd
+		head_of_state = moral_type
+		start_date = 1939.1.1
+		death_date = 1958.7.14
+	}
+	
+}

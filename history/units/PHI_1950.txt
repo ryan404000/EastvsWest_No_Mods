@@ -1,0 +1,28 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 13195
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 13195
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 13195
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 34 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 0 strength = 36 experience = 5 }
+		}
+	}
+	navy = {
+		
+		name = "1st Fleet"
+		base = 13195 # Manila
+		location = 13195
+		ship = { type = destroyer name = "1st Destroyer Flotilla" historical_model = 0 }
+	}
+}

@@ -1,0 +1,128 @@
+bookmark =
+{
+	icon = "GFX_scenario_pic_main"
+	name = "COLDWARSTART_NAME"
+	desc = "COLDWARSTART_DESC"
+	date = 1946.1.1
+	
+	country = SOV
+	country = USA
+	country = ENG
+	country = FRA
+	country = CHI
+	country = CHC
+	country = IDC
+	country = DRV
+
+}
+
+bookmark =
+{
+	icon = "GFX_scenario_pic_arab"
+	name = "ARABISRAELIWAR_NAME"
+	desc = "ARABISRAELIWAR_DESC"
+	date = 1948.5.14
+	
+	country = ISR 
+	country = EGY	
+	country = SYR
+	country = JOR
+	country = PAL
+	country = LEB
+	country = SAU
+	country = SOV
+	country = USA
+
+}
+
+bookmark =
+{
+	icon = "GFX_scenario_pic_korea"
+	name = "KOREANWAR_NAME"
+	desc = "KOREANWAR_DESC"
+	date = 1950.6.25
+	
+	country = KOR
+	country = PRK
+	country = USA
+	country = CHC
+	country = TIB
+	country = SOV
+	country = FRA
+	country = IDC
+	country = DRV
+	country = FRG
+	country = DDR
+
+}
+
+bookmark =
+{
+	icon = "GFX_scenario_pic_vietnam"
+	name = "VIETNAMWAR_NAME"
+	desc = "VIETNAMWAR_DESC"
+	date = 1961.12.11
+	
+	country = DRV
+	country = SVI
+	country = USA
+	country = SOV
+	country = CMB
+	country = LAO
+	country = CHC
+	country = ETH
+	country = ERI
+	country = FRA
+
+}
+
+bookmark =
+{
+	icon = "GFX_scenario_pic_afghan"
+	name = "AFGHANISTANWAR_NAME"
+	desc = "AFGHANISTANWAR_DESC"
+	date = 1979.12.24
+	
+	country = SOV
+	country = AFG
+	country = VIE
+	country = CMB
+	country = CHC
+	country = PER
+	country = USA
+	country = FRA
+
+}
+
+bookmark =
+{
+	icon = "GFX_scenario_pic_gulf"
+	name = "COLDWARTEST_NAME"
+	desc = "COLDWARTEST_DESC"
+	date = 1982.1.1
+	
+	country = ENG
+	country = GER
+	country = FRA
+	country = USA
+	country = JAP
+	country = SOV
+	country = ITA
+}
+
+bookmark =
+{
+	icon = "GFX_scenario_pic_gulf"
+	name = "GULFWAR_NAME"
+	desc = "GULFWAR_DESC"
+	date = 1991.1.16
+	
+	country = IRQ
+	country = USA
+	country = SOV
+	country = LIT
+	country = POL
+	country = YUG
+	country = SOM
+
+}

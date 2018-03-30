@@ -1,0 +1,110 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 7891
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+	
+	army =
+	{
+		name = "1st Army"
+		location = 7891
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division =
+		{
+			name = "1st Division"
+			location = 7891
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 8057
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 2 strength = 25 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 2 strength = 25 experience = 5 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 7889
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 2 strength = 25 experience = 5 }
+		}
+		division =
+		{
+			name = "6th Division"
+			location = 8142
+			regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 2 strength = 25 experience = 5 }
+			regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+			regiment = { type = light_mechanized_brigade name = "13th L. Mech. Brigade" historical_model = 2 strength = 37 experience = 5 }
+		}
+		division =
+		{
+			name = "7th Division"
+			location = 8230
+			regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+			regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+			regiment = { type = artillery_brigade name = "3rd Artillery Brigade" historical_model = 2 strength = 25 experience = 5 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 7973
+		location = 7973
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 4 strength = 90 }
+	}
+	navy = {
+		name = "Home Fleet"
+		base = 7889 # Latakia (m)
+		location = 7889
+		ship = { type = missile_frigate name = "1-508" historical_model = 4 builder = SOV }	
+		ship = { type = missile_frigate name = "2-508" historical_model = 4 builder = SOV }			
+		ship = { type = missile_boat name = "Ustul al-Zewreq Sewareykh al-1i" strength = 60 historical_model = 0 builder = SOV }
+		ship = { type = missile_boat name = "Ustul al-Zewreq Sewareykh al-2i" historical_model = 1 builder = SOV }		
+		ship = { type = missile_boat name = "Ustul al-Zewreq Sewareykh al-3i" strength = 60 historical_model = 1 builder = SOV }		
+	}
+	navy = {
+		name = "Home Submarine Fleet"
+		base = 7889 # Latakia (m)
+		location = 7889
+		ship = { type = attack_submarine name = "S-167" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-171" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-183" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "S-4" historical_model = 1 builder = SOV }
+		ship = { type = attack_submarine name = "S-53" historical_model = 1 builder = SOV }
+		ship = { type = attack_submarine name = "S-101" historical_model = 1 builder = SOV }		
+	}
+}
+division =
+{
+	name = "2nd Division"
+	location = 7891
+	pool = yes
+	regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+	regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 1 strength = 40 experience = 5 }
+	regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+}
+division =
+{
+	name = "4th Division"
+	location = 7891
+	pool = yes
+	regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+	regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 1 strength = 40 experience = 5 }
+}
+division =
+{
+	name = "8th Division"
+	location = 8230
+	pool = yes
+	regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+	regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 3 strength = 40 experience = 5 }
+	regiment = { type = infantry_brigade name = "18th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+	regiment = { type = artillery_brigade name = "4th Artillery Brigade" historical_model = 2 strength = 25 experience = 5 }
+}

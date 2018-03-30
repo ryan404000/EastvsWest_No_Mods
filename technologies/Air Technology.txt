@@ -1,0 +1,1614 @@
+# List of all Air Technology techs
+	#aircraft_fighter				(6 levels)
+	#aircraft_multirole				(5 levels)
+	#aircraft_cas					(6 levels)
+	#aircraft_carrier_fighter		(5 levels)
+	#aircraft_carrier_multirole		(6 levels)
+	#aircraft_carrier_attack		(5 levels)
+	#aircraft_carrier_vtol			(2 levels)
+	#aircraft_strikebomber			(4 levels)
+	#aircraft_strategicbomber		(3 levels)
+	#aircraft_maritimebomber		(3 levels)
+	#aircraft_antisubbomber			(2 levels)
+	#aircraft_transport				(3 levels)
+	#aircraft_reconnaissance		(1 level )
+	#aircraft_awacs					(3 levels)
+	#helicopter_gunship				(2 levels)
+	#helicopter_cas					(2 levels)
+	#helicopter_maritime			(2 levels)
+
+	
+# Add in traits - the more there are, then potentially easier it is to research since each gives a bonus to research time.
+
+# All model-specific techs below generally raise all (relevant) values for that type.
+
+aircraft_fighter = {	# Base platforms get better and more expensive, hence ocurring with greater time in-between
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# 1945
+			industry_electronics = 1
+			engine_turbojet_medium = 1
+			airframewing_speed = 1
+			aircraftweapons_guns = 1
+			aircommand_maneuverprinciple = 1
+
+		}
+		2 = {	# 1951
+			industry_electronics = 2
+			engine_turbojet_medium = 2
+			airframewing_speed = 2
+		}
+		3 = {	# 1953
+			aircraftweapons_guns = 1
+		}
+		4 = {	# 1959
+			industry_electronics = 3
+			engine_turbojet_medium = 3
+			airframewing_speed = 3
+		}
+		5 = {	# 1970
+			industry_electronics = 5
+			industry_softwareengineering = 3
+		}
+		6 = {	# 1975
+			engine_turbojet_medium = 4
+			airframewing_speed = 4
+			industry_softwareengineering = 6
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		arsenal_theory
+		airtactical_theory
+	}
+	level_effect = {
+		1 = {
+			fighter = {
+				air_attack = 2.0
+				air_defence = 3.0
+				surface_defence = 0.25
+				maximum_speed = 50
+				range = -400
+				fuel_consumption = 0.25
+				supply_consumption = 0.5
+				unit_money_cost = 3.0
+				build_time = 30
+			}
+		}
+		2 = {
+			fighter = {
+				air_attack = 2.5
+				air_defence = 2.5
+				surface_defence = 0.5
+				maximum_speed = 175
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 4.35
+				build_time = 30
+			}
+		}
+		3 = {
+			fighter = {
+				air_attack = 2.0
+				air_defence = 3.0
+				surface_defence = 0.5
+				maximum_speed = 200
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 2.65
+				build_time = 30
+			}
+		}
+		4 = {
+			fighter = {
+				air_attack = 2.5
+				air_defence = 2.5
+				surface_defence = 0.5
+				maximum_speed = 400
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 11.4
+				build_time = 30
+			}
+		}
+		5 = {
+			fighter = {
+				air_attack = 3.0
+				air_defence = 3.0
+				surface_defence = 0.5
+				maximum_speed = 200
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 34.85
+				build_time = 30
+			}
+		}
+		6 = {
+			fighter = {
+				air_attack = 4.0
+				air_defence = 2.5
+				surface_defence = 0.5
+				maximum_speed = 50
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 21.75
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_multirole = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {	# 1950
+			aircommand_offensiveprinciple = 1
+			industry_electronics = 1
+			engine_turbojet_medium = 1
+			airframewing_speed = 1
+			aircraftweapons_guns = 1
+		}
+		2 = {	# 1954
+			industry_electronics = 2
+		}
+		3 = {	# 1957
+			industry_electronics = 3
+			engine_turbojet_medium = 3
+			airframewing_speed = 3
+		}
+		4 = {	# 1963
+			industry_electronics = 4
+		}
+		5 = {	# 1978
+			industry_electronics = 7
+			engine_turbojet_medium = 4
+			airframewing_speed = 4
+			industry_softwareengineering = 6
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		arsenal_theory
+		airtactical_theory
+	}
+	level_effect = {
+		1 = {
+			multi_role = {
+				air_attack = 3.0
+				air_defence = 3.0
+				soft_attack = 0.5
+				hard_attack = 2.0
+				surface_defence = 0.25
+				maximum_speed = 175
+				range = -300
+				fuel_consumption = 0.25
+				supply_consumption = 0.5
+				unit_money_cost = 3.5
+				build_time = 30
+			}
+		}
+		2 = {
+			multi_role = {
+				air_attack = 2.5
+				air_defence = 2.0
+				soft_attack = 0.5
+				hard_attack = 2.0
+				surface_defence = 0.5
+				maximum_speed = 150
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 6.8
+				build_time = 30
+			}
+		}
+		3 = {
+			multi_role = {
+				air_attack = 1.5
+				air_defence = 3.0
+				soft_attack = 0.5
+				hard_attack = 2.0
+				surface_defence = 0.5
+				maximum_speed = 425
+				range = -200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 6.1
+				build_time = 30
+			}
+		}
+		4 = {
+			multi_role = {
+				air_attack = 3.0
+				air_defence = 3.0
+				soft_attack = 0.5
+				hard_attack = 4.0
+				surface_defence = 0.5
+				maximum_speed = 400
+				range = -200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 16.72
+				build_time = 30
+			}
+		}
+		5 = {
+			multi_role = {
+				air_attack = 4.0
+				air_defence = 4.0
+				soft_attack = 0.5
+				hard_attack = 2.0
+				surface_defence = 0.5
+				maximum_speed = 0
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 68.25
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_cas = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# 1947
+			aircommand_economyofforceprinciple = 1
+			industry_electronics = 1
+			engine_turbojet_medium = 1
+			airframewing_speed = 1
+			aircraftweapons_guns = 1
+		}
+		2 = {	# 1953
+			industry_electronics = 2
+		}
+		3 = {	# 1958
+			industry_electronics = 3
+			engine_turbojet_medium = 2
+			airframewing_speed = 2
+		}
+		4 = {	# 1967
+			industry_electronics = 5
+			engine_turbojet_medium = 3
+			airframewing_speed = 3
+		}
+		5 = {	# 1977
+			engine_turbojet_medium = 4
+			airframewing_speed = 4
+			industry_softwareengineering = 3
+		}
+		6 = {	# 1983
+			industry_softwareengineering = 8 # poss stealth
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		arsenal_theory
+		airtactical_theory
+	}
+	level_effect = {
+		1 = {
+			cas = {
+				air_attack = 0.5
+				air_defence = 2.5
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 0.5
+				sub_attack = 0.5
+				surface_defence = 0.75
+				maximum_speed = 225
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 4.0
+				build_time = 30
+			}
+		}
+		2 = {
+			cas = {
+				air_attack = 0.5
+				air_defence = 2.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 0.5
+				sub_attack = 0.5
+				surface_defence = 0.75
+				maximum_speed = 225
+				range = -200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 8.45
+				build_time = 30
+			}
+		}
+		3 = {
+			cas = {
+				air_attack = 1.0
+				air_defence = 2.5
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 0.5
+				sub_attack = 0.5
+				surface_defence = 0.75
+				maximum_speed = 300
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 13.5
+				build_time = 30
+			}
+		}
+		4 = {
+			cas = {
+				air_attack = 2.0
+				air_defence = 2.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 0.5
+				sub_attack = 0.5
+				surface_defence = 0.75
+				maximum_speed = 0
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 56.25
+				build_time = 30
+			}
+		}
+		5 = {
+			cas = {
+				air_attack = 0.0
+				air_defence = 2.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 0.5
+				sub_attack = 0.5
+				surface_defence = 0.75
+				maximum_speed = 0
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 48.4
+				build_time = 30
+			}
+		}
+		6 = {
+			cas = {
+				air_attack = 2.0
+				air_defence = 5.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 0.5
+				sub_attack = 0.5
+				surface_defence = 0.75
+				maximum_speed = 0
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 150.0	# Originally 50.65, roughly tripled because of Stealth requirement
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_carrier_fighter = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {	# 1946
+			aircommand_maneuverprinciple = 1
+			carriergroup_aircraftpatrolpatterns =  1
+			engine_turbojet_medium = 1
+			airframewing_speed = 1
+			aircraftweapons_guns = 1
+		}
+		2 = {	# 1949
+			industry_electronics = 1
+		}
+		3 = {	# 1956
+			industry_electronics = 3
+			engine_turbojet_medium = 2
+			airframewing_speed = 2
+		}
+		4 = {	# 1974
+			industry_electronics = 6
+			engine_turbojet_medium = 3
+			airframewing_speed = 3
+			industry_softwareengineering = 3
+		}
+		5 = {	# 1983
+			industry_electronics = 8
+			engine_turbojet_medium = 4
+			airframewing_speed = 4
+			industry_softwareengineering = 6
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		arsenal_theory
+		airtactical_theory
+		surface_theory
+	}	
+	level_effect = {
+		1 = {
+			cag_fighter = {
+				air_attack = 1.5
+				air_defence = 2.0
+				surface_defence = 0.5
+				maximum_speed = 75
+				range = -400
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 3.5
+				build_time = 30
+			}
+		}
+		2 = {
+			cag_fighter = {
+				air_attack = 2.5
+				air_defence = 2.0
+				surface_defence = 0.5
+				maximum_speed = 125
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 2.15
+				build_time = 30
+			}
+		}
+		3 = {
+			cag_fighter = {
+				air_attack = 2.0
+				air_defence = 3.0
+				surface_defence = 0.5
+				maximum_speed = 100
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 13.95
+				build_time = 30
+			}
+		}
+		4 = {
+			cag_fighter = {
+				air_attack = 4.0
+				air_defence = 4.0
+				surface_defence = 0.5
+				maximum_speed = 500
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 69.0
+				build_time = 30
+			}
+		}
+		5 = {
+			cag_fighter = {
+				air_attack = 5.0
+				air_defence = 3.0
+				surface_defence = 0.5
+				maximum_speed = 0
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 58.25
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_carrier_multirole = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# 1949
+			aircommand_offensiveprinciple = 1
+			carriergroup_carrierstrikegroup = 1
+			industry_electronics = 1
+			engine_turbojet_medium = 1
+			airframewing_speed = 1
+			aircraftweapons_guns = 1
+		}
+		2 = {	# 1951
+			industry_electronics = 2
+		}
+		3 = {	# 1957
+			industry_electronics = 3
+			engine_turbojet_medium = 2
+			airframewing_speed = 2
+		}
+		4 = {	# 1960
+			aircraftweapons_multibarrelguns = 1
+		}
+		5 = {	# 1976
+			industry_electronics = 7
+			engine_turbojet_medium = 3
+			airframewing_speed = 3
+			industry_softwareengineering = 4
+		}
+		6 = {	# 1983
+			industry_electronics = 8
+			engine_turbojet_medium = 4
+			airframewing_speed = 4
+			industry_softwareengineering = 6
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		arsenal_theory
+		airtactical_theory
+		surface_theory		
+	}
+	level_effect = {
+		1 = {
+			cag_mltr = {
+				air_attack = 1.5
+				air_defence = 2.0
+				soft_attack = 0.4
+				hard_attack = 1.0
+				surface_defence = 0.25
+				maximum_speed = 100
+				range = 200
+				fuel_consumption = 0.25
+				supply_consumption = 0.5
+				unit_money_cost = 4.0
+				build_time = 30
+			}
+		}
+		2 = {
+			cag_mltr = {
+				air_attack = 1.5
+				air_defence = 1.0
+				soft_attack = 0.4
+				hard_attack = 1.0
+				surface_defence = 0.5
+				maximum_speed = 175
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 5.8
+				build_time = 30
+			}
+		}
+		3 = {
+			cag_mltr = {
+				air_attack = 1.5
+				air_defence = 2.0
+				soft_attack = 0.4
+				hard_attack = 1.5
+				surface_defence = 0.5
+				maximum_speed = 0
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 6.45
+				build_time = 30
+			}
+		}
+		4 = {
+			cag_mltr = {
+				air_attack = 2.0
+				air_defence = 2.0
+				soft_attack = 0.4
+				hard_attack = 3.0
+				surface_defence = 0.5
+				maximum_speed = 1450
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 11.4
+				build_time = 30
+			}
+		}
+		5 = {
+			cag_mltr = {
+				air_attack = 3.0
+				air_defence = 4.0
+				soft_attack = 0.4
+				hard_attack = 3.0
+				surface_defence = 0.5
+				maximum_speed = 25
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 77.4
+				build_time = 30
+			}
+		}
+		6 = {
+			cag_mltr = {
+				air_attack = 3.5
+				air_defence = 3.0
+				soft_attack = 0.4
+				hard_attack = 2.0
+				surface_defence = 0.5
+				maximum_speed = 0
+				range = 100
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 49.95
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_carrier_attack = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {	# 1946
+			aircommand_economyofforceprinciple = 1
+			carriergroup_aircraftpatrolpatterns = 1
+			industry_electronics = 1
+			airframewing_speed = 1
+			aircraftweapons_guns = 1
+			engine_turbojet_medium = 1
+		}
+		2 = {	# 1956
+			industry_electronics = 3
+			engine_turbojet_medium = 2
+			airframewing_speed = 2
+		}
+		3 = {	# 1963
+			industry_electronics = 4
+			aircraftweapons_agordinance = 2
+		}
+		4 = {	# 1967
+			industry_electronics = 5
+			engine_turbojet_medium = 3
+			airframewing_speed = 3
+		}
+		5 = {	# 1985
+			industry_electronics = 8
+			engine_turbojet_medium = 4
+			airframewing_speed = 4
+			industry_softwareengineering = 7 
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		arsenal_theory
+		airtactical_theory
+		surface_theory
+	}
+	level_effect = {
+		1 = {
+			cag_attack = {
+				air_attack = 0.0
+				air_defence = 2.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = 50
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 1.0
+				build_time = 30
+			}
+		}
+		2 = {
+			cag_attack = {
+				air_attack = 1.0
+				air_defence = 2.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = 200
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 22.0	# Raise 3 extra because this is first jet model
+				build_time = 30
+			}
+		}
+		3 = {
+			cag_attack = {
+				air_attack = 1.0
+				air_defence = 2.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = 75
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 29.9
+				build_time = 30
+			}
+		}
+		4 = {
+			cag_attack = {
+				air_attack = 2.0
+				air_defence = 3.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = 175
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 23.25
+				build_time = 30
+			}
+		}
+		5 = {
+			cag_attack = {
+				air_attack = 2.0
+				air_defence = 3.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = 100
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 160.0
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_carrier_vtol = {
+
+	multilevel = yes
+	level = 2
+
+	allow_level = {
+		1 = { #1969
+			aircommand_simplicityprinciple = 1
+			airframewing_speed = 2
+			aircraftweapons_guns = 1
+			engine_turbojet_medium = 2
+		}
+		2 = { #1985
+			industry_electronics = 8
+			engine_turbojet_medium = 4
+			airframewing_speed = 4
+			industry_softwareengineering = 7 
+		}
+	}
+	traits = {
+		surface_theory
+		arsenal_theory
+		aviation_theory
+	}	
+	level_effect = {
+		1 = {
+			cag_vtol = {
+				air_attack = 1.0
+				air_defence = 2.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = 75
+				range = 300
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 29.9
+				build_time = 30
+			}
+		}
+		2 = {
+			cag_vtol = {
+				air_attack = 2.0
+				air_defence = 3.0
+				soft_attack = 1.0
+				hard_attack = 3.0
+				sea_attack = 1.0
+				sub_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = 100
+				range = 200
+				fuel_consumption = 0.5
+				supply_consumption = 0.5
+				unit_money_cost = 160.0
+				build_time = 30
+			}
+		}
+	}
+	
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+
+}
+
+aircraft_strikebomber = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {	# 1951
+			aircombatops_armydirectedbombing = 1
+			industry_electronics = 2
+			engine_turbojet_large = 1
+			airframewing_lift = 1
+		}
+		2 = {	# 1960
+			industry_electronics = 3
+			engine_turbojet_large = 2
+			airframewing_lift = 2
+			aircraftweapons_agordinance = 1
+		}
+		3 = {	# 1967
+			industry_electronics = 5
+			aircraftweapons_agordinance = 2
+			engine_turbojet_large = 3
+			industry_softwareengineering = 3
+		}
+		4 = {	# 1988
+			industry_electronics = 9
+			engine_turbojet_large = 4
+			aircraftweapons_agordinance = 6
+			industry_softwareengineering = 9
+			or = {
+				airframewing_lift = 4
+				airframewing_speed = 4
+			}
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		airtactical_theory
+	}	
+	level_effect = {
+		1 = {
+			bomber_strike = {
+				air_defence = 2.0
+				soft_attack = 6.0
+				hard_attack = 4.0
+				sea_attack = 1.0
+				sub_attack = 1.0
+				surface_defence = 1.0
+				maximum_speed = 530
+				range = 1000
+				fuel_consumption = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 19.0
+				build_time = 30
+			}
+		}
+		2 = {
+			bomber_strike = {
+				air_defence = 2.0
+				soft_attack = 6.0
+				hard_attack = 4.0
+				sea_attack = 1.0
+				sub_attack = 1.0
+				surface_defence = 1.0
+				maximum_speed = 1100
+				range = 0
+				fuel_consumption = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 78.2
+				build_time = 30
+			}
+		}
+		3 = {
+			bomber_strike = {
+				air_defence = 3.0
+				soft_attack = 6.0
+				hard_attack = 5.0
+				sea_attack = 1.0
+				sub_attack = 1.0
+				surface_defence = 1.0
+				maximum_speed = 500
+				range = -800
+				fuel_consumption = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 105.5
+				build_time = 30
+			}
+		}
+		4 = {
+			bomber_strike = {
+				air_defence = 3.0
+				soft_attack = 6.0
+				hard_attack = 4.0
+				sea_attack = 1.0
+				sub_attack = 1.0
+				surface_defence = 1.0
+				maximum_speed = 0
+				range = -300
+				fuel_consumption = 0.75
+				supply_consumption = 0.5
+				unit_money_cost = 551.2
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_strategicbomber = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {	# 1949
+			aircommand_massprinciple = 1
+			industry_electronics = 1
+			engine_turbojet_large = 1
+			airframewing_lift = 1
+		}
+		2 = {	# 1955
+			industry_electronics = 2
+			engine_turbojet_large = 2
+			airframewing_lift = 2
+		}
+		3 = {	# 1986
+			industry_electronics = 8
+			engine_turbojet_large = 4
+			airframewing_lift = 4
+			aircraftweapons_agordinance = 4
+			industry_softwareengineering = 7
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		airstrategy_theory
+	}
+	level_effect = {
+		1 = {
+			bomber_strategic = {
+				air_defence = 2.0
+				soft_attack = 15.0
+				hard_attack = 4.0
+				sea_attack = 1.0
+				sub_attack = 1.0
+				surface_defence = 1.5
+				maximum_speed = 100
+				range = 1000
+				fuel_consumption = 1.0
+				supply_consumption = 0.7
+				unit_money_cost = 16.0
+				build_time = 60
+			}
+		}
+		2 = {
+			bomber_strategic = {
+				air_defence = 3.0
+				soft_attack = 20.0
+				hard_attack = 4.0
+				sea_attack = 2.0
+				sub_attack = 1.0
+				surface_defence = 1.5
+				maximum_speed = 370
+				range = 800
+				fuel_consumption = 1.0
+				supply_consumption = 0.7
+				unit_money_cost = 55.6
+				build_time = 60
+			}
+		}
+		3 = {
+			bomber_strategic = {
+				air_defence = 3.0
+				soft_attack = 15.0
+				hard_attack = 20.0
+				sea_attack = 1.0
+				sub_attack = 1.0
+				surface_defence = 1.5
+				maximum_speed = 300
+				range = -1700
+				fuel_consumption = 1.0
+				supply_consumption = 0.7
+				unit_money_cost = 1028.0
+				build_time = 60
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_maritimebomber = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {	# 1956
+			aircommand_objectiveprinciple = 1
+			industry_electronics = 3
+			airframewing_lift = 2
+			heavy_engine = 1
+			OR = { 
+			torpedoes = 1
+			antishipmissile_shortrange = 1
+			}
+		}
+		2 = {	# 1962
+			industry_electronics = 4
+			heavy_engine = 2
+			OR = {
+			antishipmissile_shortrange = 2
+			antishipmissile_longrange = 2
+			torpedoes = 2 
+			}
+		}
+		3 = {	# 1972
+			industry_electronics = 6
+			engine_turbojet_large = 3
+			airframewing_lift = 3
+			industry_softwareengineering = 3
+			OR = { 
+			antishipmissile_shortrange = 4
+			antishipmissile_longrange = 4
+			torpedoes = 4
+			}
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		army_theory
+		airstrategy_theory
+		armament_theory	
+	}
+	level_effect = {
+		1 = {
+			bomber_maritime = {
+				air_defence = 3.5
+				sea_attack = 4.5
+				sub_attack = 3.0
+				surface_defence = 2.0
+				maximum_speed = 270
+				range = 4400
+				fuel_consumption = 0.75
+				supply_consumption = 0.75
+				unit_money_cost = 131.4
+				build_time = 30
+			}
+		}
+		2 = {
+			bomber_maritime = {
+				air_defence = 3.5
+				sea_attack = 4.5
+				sub_attack = 3.0
+				surface_defence = 2.0
+				maximum_speed = 1250
+				range = -6000
+				fuel_consumption = 0.75
+				supply_consumption = 0.75
+				unit_money_cost = 195.9
+				build_time = 30
+			}
+		}
+		3 = {
+			bomber_maritime = {
+			#Missing
+			}
+		}		
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_antisubbomber = {
+
+	multilevel = yes
+	level = 2
+
+	allow_level = {
+		1 = {	# 1954
+			aircommand_objectiveprinciple = 1
+			industry_electronics = 2
+			engine_turbojet_large = 1
+			airframewing_lift = 1
+			antisub_torpedorocket = 1
+		}
+		2 = {	# 1974
+			industry_electronics = 6
+			engine_turbojet_large = 3
+			airframewing_lift = 3
+			antisub_missile = 4
+			torpedoes = 3
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		airstrategy_theory
+		armament_theory			
+	}
+	level_effect = {
+		1 = {
+			bomber_antisub = {
+				air_defence = 3.0
+				sea_attack = 3.0
+				sub_attack = 4.0
+				surface_defence = 1.0
+				maximum_speed = -60
+				range = -300
+				fuel_consumption = 0.75
+				supply_consumption = 0.75
+				unit_money_cost = 40.95
+				build_time = 30
+			}
+		}
+		2 = {
+			bomber_antisub = {
+				air_defence = 3.0
+				sea_attack = 3.0
+				sub_attack = 4.0
+				surface_defence = 1.0
+				maximum_speed = 350
+				range = 3000
+				fuel_consumption = 0.75
+				supply_consumption = 0.75
+				unit_money_cost = 370.15
+				build_time = 30
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_transport = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {	# 1949
+			aircommand_securityprinciple = 1
+			industry_electronics = 1
+			airframewing_lift = 1
+			heavy_engine = 1
+		}
+		2 = {	# 1957
+			industry_electronics = 2
+			airframewing_lift = 2
+			heavy_engine = 2
+		}
+		3 = {	# 1968
+			industry_electronics = 4
+			engine_turbojet_large = 3
+			airframewing_lift = 3
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		army_theory
+		airstrategy_theory
+	}
+	level_effect = {
+		1 = {
+			transport_plane = {
+				transport_capability = 5
+				maximum_speed = 50
+				range = -2600
+				unit_money_cost = 100.0
+			}
+		}
+		2 = {
+			transport_plane = {
+				transport_capability = 20
+				maximum_speed = 150
+				range = 150
+				unit_money_cost = 290.0
+			}
+		}
+		3 = {
+			transport_plane = {
+				transport_capability = 60
+				maximum_speed = 340
+				range = 600
+				unit_money_cost = 690.0
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_reconnaissance = {
+
+	allow = {
+			#1966
+			aircommand_surpriseprinciple = 1
+			industry_electronics = 5
+			engine_turbojet_large = 3
+			airframewing_lift = 3
+			engine_afterburner = 1
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		airstrategy_theory
+	
+	}	
+	recon_plane = {
+		air_defence = 18.0
+		surface_defence = 15.0		
+		air_detection = 3.0
+		surface_detection = 6.0
+		maximum_speed = 2700
+		range = -4900
+		fuel_consumption = 1.5
+		supply_consumption = 1.5
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+aircraft_awacs = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {	# 1964
+			airintelops_awacsc2doctrine = 1
+			industry_electronics = 4
+			engine_turbojet_large = 2
+			airframewing_lift = 2
+			industry_softwareengineering = 2
+		}
+		2 = {	# 1977
+			industry_electronics = 7
+			engine_turbojet_large = 3
+			airframewing_lift = 3
+			industry_softwareengineering = 5
+		}
+		3 = {}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		airstrategy_theory	
+	}
+	level_effect = {
+		1 = {
+			awacs_air_plane = {
+				air_detection = 10.0
+				intel_level = 2
+				air_radar_range = 200
+				maximum_speed = 180
+				range = 300
+				supply_consumption = 2.0
+				fuel_consumption = 2.0
+				unit_money_cost = 60.0
+				build_time = 60
+			}
+			awacs_complex = {
+				air_detection = 10.0
+				maximum_speed = 170
+				range = 900
+				supply_consumption = 1.5
+				fuel_consumption = 1.5
+				unit_money_cost = 40.0
+				build_time = 40
+			}
+		}
+		2 = {
+			awacs_air_plane = {
+				air_detection = 10.0
+				intel_level = 2
+				air_radar_range = 200
+				maximum_speed = 200
+				range = 300
+				supply_consumption = 2.0
+				fuel_consumption = 2.0
+				unit_money_cost = 200.0
+				build_time = 60
+			}
+			awacs_complex = {
+				air_detection = 10.0
+				maximum_speed = 200
+				range = 300
+				supply_consumption = 1.0
+				fuel_consumption = 1.0
+				unit_money_cost = 120.0
+				build_time = 40
+			}
+		}
+	}
+
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+helicopter_gunship = {	# 
+
+	multilevel = yes
+	level = 2
+	
+	allow_level = {
+		1 = {	# 1966
+			airborneops_airassaultplanning = 1
+			helicopter_body = 2
+			medium_engine = 2
+			crew_served_weapons = 2
+		}
+		2 = {	# 1973
+			helicopter_body = 3
+			medium_engine = 3
+			crew_served_weapons = 3
+			industry_electronics = 5
+			OR = {
+			aircraftweapons_agordinance = 1
+			aircraftweapons_heavyrotarycannon = 1
+			}
+		}
+	}
+	traits = {
+		airtactical_theory
+		army_theory
+		aviation_theory
+		arsenal_theory
+	}	
+	level_effect = {
+		1 = {	# 
+			helo_gunship = {
+				air_defence = 1.5
+				soft_attack = 1.5
+				hard_attack = 2.0
+				maximum_speed = 15.0
+				range = 200.0
+				fuel_consumption = 0.05
+				supply_consumption = 0.05
+			}
+		}
+		2 = {	# 
+			helo_gunship = {
+				air_defence = 2.5
+				soft_attack = 2.5
+				hard_attack = 2.0
+				maximum_speed = 80.0
+				range = 100.0
+				fuel_consumption = 0.15
+				supply_consumption = 0.08
+				unit_money_cost = 70.0
+			}
+		}
+	}
+	
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+helicopter_cas = {	# 
+
+	multilevel = yes
+	level = 2
+	
+	allow_level = {
+		1 = {	# 1970
+			airborneops_airassaultplanning = 1
+			helicopter_body = 3
+			heavy_engine = 3
+			medium_armor = 3
+			anti_tank = 3
+			industry_electronics = 4
+			aircraftweapons_agordinance = 2
+		}
+		2 = {	# 1985
+			helicopter_body = 4
+			medium_armor = 4
+			industry_electronics = 7
+			heavy_engine = 4
+			aircraftweapons_heavyrotarycannon = 1
+			OR = {
+			anti_tank = 4
+			aircraftweapons_agordinance = 4
+			}
+		}
+	}
+	traits = {
+		airtactical_theory
+		army_theory
+		aviation_theory
+		arsenal_theory
+		science_theory		
+	}	
+	level_effect = {
+		1 = {	# 
+			helo_cas = {
+				air_attack = 1
+				air_defence = 2
+				soft_attack = 2
+				hard_attack = 4.5
+				sea_attack = 0.8
+				maximum_speed = 55.0
+				range = 0
+				fuel_consumption = 0.1
+				supply_consumption = 0.1
+				unit_money_cost = 25.0
+			}
+			ship_heli_cas = {
+				air_attack = 1
+				air_defence = 2
+				soft_attack = 2
+				hard_attack = 4.5
+				sea_attack = 0.8
+				maximum_speed = 55.0
+				range = 0
+				fuel_consumption = 0.1
+				supply_consumption = 0.1
+				unit_money_cost = 25.0
+			}
+		}
+		2 = {	# 
+			helo_cas = {
+				air_attack = 1.4
+				air_defence = 4.5
+				soft_attack = 5.5
+				hard_attack = 6.5
+				sea_attack = 3.5
+				maximum_speed = 5.0
+				range = -100
+				fuel_consumption = 0.2
+				supply_consumption = 0.2
+				unit_money_cost = 140.0
+			}
+			ship_heli_cas = {
+				air_attack = 1.4
+				air_defence = 4.5
+				soft_attack = 5.5
+				hard_attack = 6.5
+				sea_attack = 3.5
+				maximum_speed = 5.0
+				range = -100
+				fuel_consumption = 0.2
+				supply_consumption = 0.2
+				unit_money_cost = 140.0
+			}
+
+		}
+	}
+	
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}
+
+helicopter_maritime = {
+
+	multilevel = yes
+	level = 2
+	
+	allow_level = {
+		1 = {	# 1975
+			aircommand_simplicityprinciple = 1
+			helicopter_body = 2
+			heavy_engine = 3
+			industry_electronics = 5
+		}
+		2 = {	# 1984
+			helicopter_body = 4
+			heavy_engine = 4
+			industry_electronics = 7
+			OR = { 
+			antisub_missile = 3
+			torpedoes = 3
+			}
+		}
+	}
+	traits = {
+		science_theory
+		army_theory
+		aviation_theory
+		surface_theory		
+	}	
+	level_effect = {	# Limited Sea Attack capabilities early on, which increases with each base model (esp. the Sea Hawk, which also increases cost very much). To retain "pure" ASW helicopters, do not research the third base model.
+		1 = {	# 
+			helo_maritime = {
+				air_defence = 1
+				sea_attack = 1
+				sub_attack = 1.5
+				maximum_speed = 50.0
+				range = 320
+				fuel_consumption = 0.1
+				supply_consumption = 0.1
+				unit_money_cost = 118.0
+			}
+		}
+		2 = {	# 
+			helo_maritime = {
+				air_defence = 2.0
+				sea_attack = 2.5
+				sub_attack = 3.0
+				maximum_speed = -60.0
+				range = -170
+				fuel_consumption = 0.1
+				supply_consumption = 0.05
+				unit_money_cost = 147.0
+			}
+		}
+	}
+	
+	folder = air_tech1_folder
+	time = 100
+	cost = 100
+}

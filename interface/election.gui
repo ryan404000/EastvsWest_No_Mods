@@ -1,0 +1,298 @@
+guiTypes = {
+#################################################################################
+# Minister Listing ENTRY
+#################################################################################		
+		
+	windowType = {
+		name = "minister_entry2"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=200 y=80 }
+		moveable = 0
+		fullScreen = no
+
+		iconType = {
+			name = "bg_policy_entry"
+			spriteType = "GFX_statesman_entry"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType = {
+			name = "photo"
+			spriteType = "GFX_empty_position_minister"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_ideology_circle_overlay"
+			position = { x= 73 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 90 y = 5 }
+			format = left
+
+			textureFile = ""
+			font = "Arial12_headline"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"	
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 90 y = 20 }
+			format = left
+
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "personality"
+			position = { x = 90 y =30 }
+			format = left
+
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "ability"
+			position = { x = 90 y =42 }
+			format = left
+
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+
+	}
+
+#### GOV POLICY ENTRY#####
+	
+	windowType = {
+		name = "current_gov_policy_entry2"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=150 y= 76 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "bg_policy_entry"
+			spriteType = "GFX_gov_policy_entry"
+			position = { x= -3 y = -5 }
+			Orientation = "UPPER_LEFT"
+		}	
+				
+		instantTextBoxType= {
+			position = { x= 90 y = 1}
+			name = "category"
+			font = "Arial14"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+
+		guiButtonType = {
+			name = "select_button"
+			position = { x= 84 y = 14}
+			quadTextureSprite = "GFX_gov_policy_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		guiButtonType = {
+			name = "govphoto"
+			quadTextureSprite = "GFX_empty_position_policy"
+			position = { x= 6 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		instantTextBoxType= {
+			position = { x=90 y = 16}
+			name = "which"
+			font = "Arial12_headline"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 200
+			maxHeight = 20
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+		}	
+
+		instantTextBoxType= {
+			position = { x=90 y= 32}
+			name = "info"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 230
+			maxHeight = 40
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+		}	
+	}
+
+	eu3dialogtype = {
+		name = "ElectionResultPopup"
+		backGround="Background"
+		position = { x=-465 y=-343 }	
+		size = { x=904 y=525 }
+		orientation="CENTER"
+		moveable = 1
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_bg_ministers_election"
+		}
+		
+		textBoxType = {
+			name = "Title"
+			position = { x = 202 y = 15}
+			font = "Arial_17"
+			borderSize = {x = 4 y = 4}
+			maxWidth = 500
+			maxHeight = 32
+			format = centre
+		}
+		
+		iconType = {
+			name = "result_chart"
+			spriteType = "GFX_election_result_chart"
+			position = { x= 120 y = 164 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		listboxType = {
+			name = "minister_list1"
+			position = { x = 230 y = 53 }
+			backGround=""
+			size = { x=300 y = 400}
+			Orientation = "UPPER_LEFT"
+		#	horisontal = 0
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		listboxType = {
+			name = "minister_list2"
+			position = { x = 566 y = 53 }
+			backGround=""
+			size = { x=300 y = 400}
+			Orientation = "UPPER_LEFT"
+		#	horisontal = 0
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}		
+
+		listboxType = {
+			name = "policies_list1"
+			position = { x = 230 y = 134}
+			backGround=""
+			size = { x=300 y = 400}
+			Orientation = "UPPER_LEFT"
+		#	horisontal = 0
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		listboxType = {
+			name = "policies_list2"
+			position = { x = 566 y = 134}
+			backGround=""
+			size = { x=400 y = 400}
+			Orientation = "UPPER_LEFT"
+		#	horisontal = 0
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}
+
+		
+		textBoxType = {
+			name = "Description"
+			position = { x = 202 y = 52 }
+			textureFile = ""
+			font = "Arial14_black"
+			borderSize = {x = 4 y = 4}
+			text = ""	
+			maxWidth = 500
+			maxHeight = 230	
+			format = centre
+		}
+		
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x = 4 y = 4}
+			quadTextureSprite ="GFX_button_128wide"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ENTER"
+		}
+
+
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=236 y =840}
+			quadTextureSprite ="GFX_button_128wide"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ESCAPE"
+		}
+		
+		guiButtonType = {
+			name = "CenterOK"
+			position = { x=10 y =16}
+			quadTextureSprite ="GFX_bar_btn_abort"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ENTER"
+		}
+	}
+	
+}

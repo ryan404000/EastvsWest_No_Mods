@@ -1,0 +1,63 @@
+objectTypes = {
+	pdxmesh = {
+		name = "GenericInfantry"
+		file = "gfx/anims/bell_uh_1_neu.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "bell_uh_1_neu_walk"
+			}
+		animation = {
+			id = "attackmove"
+			type = "bell_uh_1_neu_attack"
+			}
+		animation = {
+			id = "attack"
+			type = "bell_uh_1_neu_attack"
+			}
+		animation = {
+			id = "idle"
+			type = "bell_uh_1_neu_idle"
+			}
+		}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "GenericInfantry6"
+		file = "gfx/dbg/mil_mi_4.mesh"
+		scale = 0.025
+		animation = {
+			id = "move"
+			type = "Mil_Mi_4_Move"
+			emitter = "gunfire_emitter"
+		}
+		
+		animation = {
+			id = "attackmove"
+			type = "Mil_Mi_4_Attack"
+			emitter = ""
+		}
+
+		animation = {
+			id = "attack"
+			type = "Mil_Mi_4_Attack"
+			emitter = ""
+		}
+
+		animation = {
+			id = "idle"
+			type = "Mil_Mi_4_idle"
+			emitter = ""
+		}
+	}
+	
+	#pdxmesh = {
+	#	name = "carrack"
+	#	file = "gfx/dbg/Carrack.mesh"
+	#	
+	#	animation = {
+	#		id = "idle"
+	#		type = "TestCarrack"
+	#	}
+	#}
+}

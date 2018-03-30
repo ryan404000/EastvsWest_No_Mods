@@ -1,0 +1,1012 @@
+spriteTypes = {	
+	# OBSOLETE, use GFX_bg_shadow in core.gfx
+	spriteType = {
+		name = "GFX_bg_mainshadow"
+		texturefile = "gfx\\interface\\bg_mainshadow.dds"
+		
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_factory_info_bg"
+		texturefile="gfx\\interface\\eco_factory_info_bg.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_cost_icon_big"
+		texturefile="gfx\\interface\\eco_money3.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_date_icon_big"
+		texturefile="gfx\\interface\\eco_time3.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_workers_icon_spec"
+		texturefile="gfx\\interface\\eco_icon_workforce3.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_resource_colors"
+		texturefile = "gfx\\interface\\economy\\resource_lights.dds"
+		norefcount = yes
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_resource_colors_io"
+		texturefile = "gfx\\interface\\eco_box.dds"
+		norefcount = yes
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_resource_colors_metal"
+		texturefile = "gfx\\interface\\economy\\eco_box_metal.dds"
+		norefcount = yes
+		
+		noOfFrames = 4
+	}
+	
+	spriteType = {												#<-----------------------------------
+		name = "GFX_bg_economy_empty"
+		texturefile = "gfx\\interface\\economy\\bg_economy_empty.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_trade_bg"
+		texturefile = "gfx\\interface\\economy\\eco_trade_bg.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {												#<-----------------------------------
+		name = "GFX_bg_economy_trade"
+		texturefile = "gfx\\interface\\economy\\bg_economy_trade.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {												#<-----------------------------------
+		name = "GFX_bg_economy_paper"
+		texturefile = "gfx\\interface\\economy\\economy_paper.dds"
+		
+		norefcount = yes
+	}
+
+
+	spriteType = {												#<-----------------------------------
+		name = "GFX_bg_economy_ai"
+		texturefile = "gfx\\interface\\economy\\bg_eco_ai.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {												#<-----------------------------------
+		name = "GFX_bg_economy_slider"
+		texturefile = "gfx\\interface\\economy\\bg_eco_budget.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_factory_workforce_plupp"
+		texturefile = "gfx\\interface\\economy\\factory_workforce_plupp.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_eco_automate"
+		texturefile = "gfx\\interface\\economy\\eco_btn_ai.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	
+	textSpriteType = {
+		name = "GFX_eco_name_button"
+		texturefile = "gfx\\interface\\economy\\eco_btn_develop.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_slider_trade_checkbox"
+		texturefile = "gfx\\interface\\economy\\eco_btn_eco_trade_tab.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_eco_ai_checkbox"
+		texturefile = "gfx\\interface\\economy\\eco_btn_tab_ai.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_DI_button"
+		texturefile = "gfx\\interface\\economy\\eco_btn_develop.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_population_button"
+		texturefile = "gfx\\interface\\economy\\eco_btn_pop.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_workers_button"
+		texturefile = "gfx\\interface\\economy\\eco_btn_workers.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_groups_button"
+		texturefile = "gfx\\interface\\economy_sorting_groups.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_price_button"
+		texturefile = "gfx\\interface\\economy_sorting_groups.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_export_button"
+		texturefile = "gfx\\interface\\economy_sorting_groups.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {												#<-----------------------------------
+		name = "GFX_linechart_bg"
+		texturefile = "gfx\\interface\\eco_linechart_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	LineChartType = {
+		name = "GFX_resources_linechart"
+		size = { x = 250 y = 130 }
+		linewidth = 2		
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_suspend_demolish_button"
+		texturefile = "gfx\\interface\\economy\\eco_folder_btn_blue.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_subsidize_demolish_button"
+		texturefile = "gfx\\interface\\economy\\eco_folder_btn_red.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_factory_lev_plupp"
+		texturefile = "gfx\\interface\\economy\\eco_building_light.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_factory_lev_wf"
+		texturefile = "gfx\\interface\\economy\\factory_workforce_plupp.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_eco_factory_res_plupp"
+		texturefile = "gfx\\interface\\economy_factory_resource_plupp.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_factory_build_bg"
+		texturefile = "gfx\\interface\\economy\\buildings_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_factory_build_name"
+		texturefile = "gfx\\interface\\economy\\eco_sort_type_date.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_factory_build_input"
+		texturefile = "gfx\\interface\\economy\\eco_sort_output_input.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_factory_build_workforce"
+		texturefile = "gfx\\interface\\economy\\eco_button_workforce.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_factory_build_output"
+		texturefile = "gfx\\interface\\economy\\eco_sort_output_input.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_factory_build_workforce"
+		texturefile = "gfx\\interface\\economy\\eco_sort_workforce.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_factory_build_cost"
+		texturefile = "gfx\\interface\\economy\\eco_sort_type_date.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_eco_factory_build_time"
+		texturefile = "gfx\\interface\\economy\\eco_sort_type_date.dds"
+		
+		norefcount = yes
+	}
+	
+		textSpriteType = {
+		name = "GFX_eco_sort_1"
+		texturefile = "gfx\\interface\\economy\\eco_sort_1.dds"
+		
+		norefcount = yes
+	}
+
+		textSpriteType = {
+		name = "GFX_eco_sort_3"
+		texturefile = "gfx\\interface\\economy\\eco_sort_3.dds"
+		
+		norefcount = yes
+	}
+
+		textSpriteType = {
+		name = "GFX_eco_sort_5"
+		texturefile = "gfx\\interface\\economy\\eco_sort_5.dds"
+		
+		norefcount = yes
+	}
+
+	textSpriteType = {
+		name = "GFX_eco_factory_build_cancel"
+		texturefile = "gfx\\interface\\economy\\eco_back.dds"
+		
+		norefcount = yes
+	}
+		
+	########## REGION ENTRY  ########
+	spriteType = {
+		name = "GFX_region_bg_small"
+		texturefile = "gfx\\interface\\economy\\economy_region_plate_small.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_region_factory_bg"
+		texturefile = "gfx\\interface\\economy_region_plate3.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_DI_icon"
+		texturefile = "gfx\\interface\\icon_DI_small.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_arrow_multiframe"
+		texturefile = "gfx\\interface\\eco_arrow_up_down.dds"
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_workforce_icon"
+		texturefile = "gfx\\interface\\eco_icon_workers_2.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_efficiency_icon"
+		texturefile = "gfx\\interface\\eco_icon_industry.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_population_icon"
+		texturefile = "gfx\\interface\\icon_pop_small.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_workers_icon"
+		texturefile = "gfx\\interface\\icon_workers_small.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_show_regions"
+		texturefile = "gfx\\interface\\economy_region_plus_minus.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_region_minus"
+		texturefile = "gfx\\interface\\economy\\eco_plate_min.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_region_plus"
+		texturefile = "gfx\\interface\\economy\\eco_plate_max.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	
+	
+	######### FACTORY ENTRY  ########
+	
+	spriteType = {
+		name = "GFX_factory_bg"
+		texturefile = "gfx\\interface\\economy\\eco_building_tv.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_factory_colorbar_purple"
+		texturefile = "gfx\\interface\\economy\\eco_building_purple.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_factory_colorbar_red"
+		texturefile = "gfx\\interface\\economy\\eco_building_red.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_factory_colorbar_blue"
+		texturefile = "gfx\\interface\\economy\\eco_building_blue.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_factory_colorbar_green"
+		texturefile = "gfx\\interface\\economy\\eco_building_green.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_factory_colorbar_brown"
+		texturefile = "gfx\\interface\\economy\\eco_building_brown.dds"
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_factory_colorbar_magenta"
+		texturefile = "gfx\\interface\\economy\\eco_building_magenta.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_factory_colorbar_cyan"
+		texturefile = "gfx\\interface\\economy\\eco_building_cyan.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_factory_colorbar_yellow"
+		texturefile = "gfx\\interface\\economy\\eco_building_yellow.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_factory_colorbar_orange"
+		texturefile = "gfx\\interface\\economy\\eco_building_orange.dds"
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_eco_suspended_icon"
+		texturefile = "gfx\\interface\\economy\\econmy_suspended_icon1.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_underbuilding_icon"
+		texturefile = "gfx\\interface\\economy\\econmy_build_icon.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_subsidize_icon"
+		texturefile = "gfx\\interface\\economy\\econmy_subsidized_icon.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_import_icon"
+		texturefile = "gfx\\interface\\eco_res_import.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name="GFX_export_icon"
+		texturefile="gfx\\interface\\eco_res_export.dds"
+		norefcount=yes
+	}
+	
+	
+	
+	#spriteType = {
+	#	name = "GFX_factory_photo"
+	#	texturefile = "gfx\\interface\\icon_workers_small.dds"
+	#	norefcount = yes
+	#}
+	
+	#spriteType = {
+	#	name = "GFX_factory_income"
+	#	texturefile = "gfx\\interface\\icon_workers_small.dds"
+	#	norefcount = yes
+	#}
+	
+	######### NEW FACTORY ENTRY ##########
+	
+	spriteType = {
+		name = "GFX_eco_new_factory_bg"
+		texturefile = "gfx\\interface\\economy\\buildings_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_workers_icon_big"
+		texturefile = "gfx\\interface\\icon_workers_big.dds"
+		norefcount = yes
+	}
+	
+	######## RESOURCE ENTRY #########
+	spriteType = {
+		name = "GFX_resources_icon"
+		texturefile = "gfx\\interface\\resources_test.dds"
+		noOfFrames = 25
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_resource_title"
+		texturefile = "gfx\\interface\\economy_resource_title.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_resource_bg"
+		texturefile = "gfx\\interface\\economy\\economy_goods_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_arrow_up"
+		texturefile = "gfx\\interface\\arrow_up.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_arrow_down"
+		texturefile = "gfx\\interface\\arrow_down.dds"
+		norefcount = yes
+	}
+	
+	######## FACTORY INFO #########
+	
+	spriteType = {
+		name = "GFX_workforce_bar"
+		texturefile = "gfx\\interface\\economy_workforce_bar.dds"
+		norefcount = yes
+	}
+	
+	########## FACTORY IMAGES #########
+	
+#	spriteType = { #Replaced by suspend icon
+#		name = "GFX_suspended_image"
+#		texturefile = "gfx\\interface\\economy\\econmy_suspended.dds"
+#		norefcount = yes
+#	}
+	
+	spriteType = {
+		name = "GFX_factory_build_image"
+		texturefile = "gfx\\interface\\economy\\eco_build.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_factory_under_construction"
+		texturefile = "gfx\\interface\\economy\\econmy_build_icon.dds"
+		norefcount = yes
+	}
+	
+	##
+	
+	spriteType = {
+		name = "GFX_light_industry_image"
+		texturefile = "gfx\\interface\\economy\\building_industry_light.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_aviation_industry_image"
+		texturefile = "gfx\\interface\\economy\\building_aviation.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_nuclear_plant_image"
+		texturefile = "gfx\\interface\\economy\\building_nuclear.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_high_tech_image"
+		texturefile = "gfx\\interface\\economy\\building_high_tech.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_centrifuges_image"
+		texturefile = "gfx\\interface\\economy\\building_centrifuge.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_refinery_image"
+		texturefile = "gfx\\interface\\economy\\building_rafinery.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_naval_yards_image"
+		texturefile = "gfx\\interface\\economy\\building_shipyard.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_heavy_industry_image"
+		texturefile = "gfx\\interface\\economy\\building_industry_heavy.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_military_goods_image"
+		texturefile = "gfx\\interface\\economy\\building_military_goods.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_powerplant_image"
+		texturefile = "gfx\\interface\\economy\\building_power_plant.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_satellites_factory_image"
+		texturefile = "gfx\\interface\\economy\\building_satellite.dds"
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "deployment_plate_land"
+		texturefile = "gfx\\interface\\production\\prod_deployment_land1.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "deployment_plate_air"
+		texturefile = "gfx\\interface\\production\\prod_deployment_air.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "deployment_plate_building"
+		texturefile = "gfx\\interface\\production\\prod_deployment_building1.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "deployment_plate_naval"
+		texturefile = "gfx\\interface\\production\\prod_deployment_naval.dds"
+		norefcount = yes
+	}
+	
+	########################## LEFT BOTTOM IMAGES ###################
+	
+	spriteType = {
+		name = "GFX_light_industry_info_image"
+		texturefile = "gfx\\interface\\factory_left_industry_light.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_aviation_industry_info_image"
+		texturefile = "gfx\\interface\\factory_left_aviation.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_satellites_factory_info_image"
+		texturefile = "gfx\\interface\\factory_left_satellites.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_nuclear_plant_info_image"
+		texturefile = "gfx\\interface\\factory_left_nuclear.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_high_tech_info_image"
+		texturefile = "gfx\\interface\\factory_left_high_tech.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_centrifuges_info_image"
+		texturefile = "gfx\\interface\\factory_left_centrifuge.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_refinery_info_image"
+		texturefile = "gfx\\interface\\factory_left_rafinery.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_naval_yards_info_image"
+		texturefile = "gfx\\interface\\factory_left_shipyard.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_heavy_industry_info_image"
+		texturefile = "gfx\\interface\\factory_left_industry_heavy.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_military_goods_info_image"
+		texturefile = "gfx\\interface\\factory_left_military_goods.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_powerplant_info_image"
+		texturefile = "gfx\\interface\\factory_left_power_plant.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_slider_icon_infra"
+		texturefile = "gfx\\interface\\economy\\eco_icon_infra.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_slider_icon_upgrade"
+		texturefile = "gfx\\interface\\economy\\eco_icon_upgrade.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_slider_icon_reinforce"
+		texturefile = "gfx\\interface\\economy\\eco_icon_reinforce.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_slider_icon_prod"
+		texturefile = "gfx\\interface\\economy\\eco_icon_prod.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_eco_supply_icon"
+		texturefile = "gfx\\interface\\economy\\eco_icon_ammo.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_fuel_icon"
+		texturefile = "gfx\\interface\\economy\\eco_icon_fuel.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_extra_income"
+		texturefile = "gfx\\interface\\economy\\eco_btn_dollar.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_sat_icon"
+		texturefile = "gfx\\interface\\economy\\eco_icon_sat.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_nuke_icon"
+		texturefile = "gfx\\interface\\economy\\eco_icon_nuke.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_disable_knobs"
+		texturefile = "gfx\\interface\\economy\\eco_btn_nuke.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_enable_knobs"
+		texturefile = "gfx\\interface\\economy\\eco_btn_aiknob.dds"
+		noOfFrames = 2
+		norefcount = yes
+	}
+
+	
+	spriteType = {
+		name = "GFX_eco_auto_left_btn"
+		texturefile = "gfx\\interface\\economy\\eco_btn_triangle.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_eco_auto_right_btn"
+		texturefile = "gfx\\interface\\economy\\eco_btn_triangle_right.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	progressbartype = {
+		name = "slider_need_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\economy\\eco_slider_bar2.dds"
+		textureFile2 = "gfx\\interface\\economy\\eco_slider_bar1.dds"
+		size = { x = 196 y = 6 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	spriteType = {
+		name = "ecoslider_rightbutton"
+		texturefile = "gfx\\interface\\scrollbars\\slider_btn_plus.dds"
+		noOfFrames = 4
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "ecoslider_leftbutton"
+		texturefile = "gfx\\interface\\scrollbars\\slider_btn_minus.dds"
+		noOfFrames = 4
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_slider_trackbutton"
+		texturefile = "gfx\\interface\\scrollbars\\slider_horizontal_btn.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_prod_slider_trackbutton_vert"
+		texturefile = "gfx\\interface\\scrollbars\\gen_slider_standard2.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	
+	
+	
+	
+	spriteType = {
+		name = "GFX_light_industry_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_industry_light.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_aviation_industry_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_aviation.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_satellites_factory_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_satellites.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_nuclear_plant_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_nuclear.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_high_tech_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_high_tech.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_centrifuges_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_centrifuge.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_refinery_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_rafinery.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_naval_yards_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_shipyard.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_heavy_industry_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_industry_heavy.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_military_goods_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_military_goods.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_powerplant_image_build"
+		texturefile = "gfx\\interface\\economy\\factory_build\\factory_left_power_plant.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_economy_bg_shadow"
+		texturefile = "gfx\\interface\\economy\\economy_bg_shadow.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_economy_icon_di"
+		texturefile = "gfx\\interface\\economy\\icon_di.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_economy_icon_workforce"
+		texturefile = "gfx\\interface\\economy\\icon_workforce.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_economy_prod_icon"
+		texturefile = "gfx\\interface\\economy\\prod_icon.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_economy_icon_pop"
+		texturefile = "gfx\\interface\\economy\\icon_pop.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_economy_building_wire"
+		texturefile = "gfx\\interface\\economy\\building_wire.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_build_progress_overlay"
+		texturefile = "gfx\\interface\\economy\\factory_build\\eco_build_progress_overlay.dds"
+		
+		norefcount = yes
+	}
+
+	progressbartype = {
+		name = "GFX_building_construction_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\economy\\eco_build_progress_bar.dds"
+		size = { x = 98 y = 13 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	
+	spriteType = {
+		name = "GFX_region_checkbox"
+		texturefile = "gfx\\interface\\economy\\eco_btn_regional.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_AI_long"
+		texturefile = "gfx\\interface\\economy\\ac_btn_long.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+
+}	
+	
+	

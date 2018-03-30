@@ -1,0 +1,34 @@
+#CUB Expeditionary force in Angola - placed in NW Angola
+	army = 
+	{
+		name = "Cuban Expeditionary Army"
+		location = 5773
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = CUB
+
+		division = 
+		{   
+			name = "1st Infantry Division"
+			location = 5773
+			expeditionary_owner = CUB
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 2 strength = 32 experience = 8 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 1 strength = 23 experience = 10 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 2 strength = 33 experience = 8 }
+		}
+		division = 
+		{   
+			name = "2nd Infantry Division"
+			location = 5772
+			expeditionary_owner = CUB
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 2 strength = 35 experience = 8 }
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 2 strength = 35 experience = 9 }
+		}
+		division = 
+		{   
+			name = "3rd Infantry Division"
+			location = 5687
+			expeditionary_owner = CUB
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 2 strength = 34 experience = 9 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 2 strength = 20 experience = 10 }
+		}
+	}

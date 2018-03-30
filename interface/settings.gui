@@ -1,0 +1,1207 @@
+##########################################################################################
+####################################### Settings Menu#####################################
+##########################################################################################
+
+guiTypes = {
+
+########### NEW Settings window ############################################################################
+	windowType = {
+		name = "menu_settings"
+		position = { x= -185 y = -299 }	
+		size = { x=557 y = 598 }
+		fullScreen = no
+		orientation = CENTER
+		
+		##### Subwindow AUDIO settings ############################################
+
+		windowType = {
+			name = "menu_settings_AUDIO"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="audio_background"
+				spriteType = "GFX_frontend_settings_audio_bg"
+			}
+
+			instantTextBoxType={
+				name = "mastervolume_label"
+				font = "Jockey_14_cyan"
+				position = {x = 31 y = 103 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_MASTER_VOLUME"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			scrollbarType = {
+				name = "mastervolume_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =131}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+			
+			instantTextBoxType={
+				name = "effectvolume_label"
+				font = "Jockey_14_cyan"
+				position = {x = 31 y = 164 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_EFFECT_VOLUME"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			scrollbarType = {
+				name = "effectvolume_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =192}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+
+			instantTextBoxType={
+				position = {x = 31 y = 225 }
+				name = "musicvolume_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_MUSIC_VOLUME"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			scrollbarType = {
+				name = "musicvolume_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =253}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}			
+		}
+
+		##### Subwindow Controls settings ############################################
+
+		windowType = {
+			name = "menu_settings_CONTROLS"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="controls_background"
+				spriteType = "GFX_frontend_settings_controls_bg"
+			}
+
+
+			instantTextBoxType={
+				name = "scrollspeed_label"
+				font = "Jockey_14_cyan"
+				position = {x = 36 y = 103 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_SCROLL_SPEED"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			scrollbarType = {
+				name = "scrollspeed_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =131}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+
+
+			instantTextBoxType={
+				name = "zoomspeed_label"
+				font = "Jockey_14_cyan"
+				position = {x = 34 y = 164 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_ZOOM_SPEED"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			
+			scrollbarType = {
+				name = "zoomspeed_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =192}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+		}
+
+		##### Subwindow Video settings ############################################
+
+		windowType = {
+			name = "menu_settings_VIDEO"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="video_background"
+				spriteType = "GFX_frontend_settings_video_bg"
+			}
+
+			instantTextBoxType={
+				position = {x = 61 y = 108 }
+				name = "resolution_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_RESOLUTION"	
+				format = left
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 107 }
+				name = "resolution_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			guiButtonType = {
+				name = "decrease_resolution_button"
+				position = { x = 179 y = 99 }  
+				quadTextureSprite ="option_prev"	
+			}
+
+
+			guiButtonType = {
+				name = "increase_resolution_button"
+				position = { x = 287 y = 99 }
+				quadTextureSprite ="option_next"	
+			}
+
+
+			instantTextBoxType={
+				position = {x = 61 y = 140 }
+				name = "refreshrate_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_REFRESH_RATE"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 139 }
+				name = "refreshrate_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			guiButtonType = {
+				name = "decrease_refreshrate_button"
+				position = { x = 179 y = 131 }
+				quadTextureSprite ="option_prev"
+			}
+
+
+			guiButtonType = {
+				name = "increase_refreshrate_button"
+				position = { x = 287 y = 131 }
+				quadTextureSprite ="option_next"
+			}
+			
+			
+			instantTextBoxType={
+				position = {x = 61 y = 172 }
+				name = "multisample_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_MULTISAMPLE"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 171 }
+				name = "multisample_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			guiButtonType = {
+				name = "decrease_multisample_button"
+				position = { x = 179 y = 163 }
+				quadTextureSprite ="option_prev"
+			}
+
+
+			guiButtonType = {
+				name = "increase_multisample_button"
+				position = { x = 287 y = 163 }
+				quadTextureSprite ="option_next"
+			}
+			
+			instantTextBoxType={
+				position = {x = 31 y = 211 }
+				name = "gamma_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_GAMMA"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			scrollbarType = {
+				name = "gamma_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =239}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+			
+			instantTextBoxType={
+				position = {x = 31 y = 272 }
+				name = "slider_label"
+				font = "Jockey_14_cyan"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_COUNTER_SLIDER"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			scrollbarType = {
+				name = "counter_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =300 }
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+			
+			instantTextBoxType={
+				position = {x = 31 y = 333 }
+				name = "counter_scale_label"
+				font = "Jockey_14_cyan"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_COUNTER_SCALE"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			scrollbarType = {
+				name = "counter_scale_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =361 }
+				priority = 100
+				maxValue = 2
+				minValue = 0
+				stepSize =0.1
+				startValue = 1
+			}
+			
+			checkboxType = {
+				name = "counters_checkbox"
+				position = { x = 283 y = 419 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 422 }
+				name = "counters_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_COUNTERS"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+			
+			checkboxType = {
+				name = "hierarchy_checkbox"
+				position = { x = 283 y = 451 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 454}
+				name = "hierarchy_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_HIERARCHY"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			checkboxType = {
+				name = "unit_name_checkbox"
+				position = { x = 283 y = 483 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 486}
+				name = "unit_name_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_UNIT_NAMES"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+			
+			checkboxType = {
+				name = "trees_checkbox"
+				position = { x = 153 y = 515 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 518 }
+				name = "trees_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_TREES"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			checkboxType = {
+				name = "water_checkbox"
+				position = { x = 283 y = 515 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 518 }
+				name = "water_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_WATER"
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+		}
+
+		##### Subwindow Game settings ############################################
+
+		windowType = {
+			name = "menu_settings_GAME"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="game_background"
+				spriteType = "GFX_frontend_settings_game_bg"
+			}
+
+			instantTextBoxType={
+				name = "autosave_label"
+				position = {x = 61 y = 141 }
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_AUTOSAVE_INTERVAL"	
+			}
+
+			instantTextBoxType={
+				name = "autosave_value"
+				position = {x = 186 y = 139 }
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				format = centre
+			}
+
+
+			guiButtonType = {
+				name = "decrease_autosave_button"
+				position = { x = 179 y = 131 }
+				quadTextureSprite ="option_prev"
+			}
+
+
+			guiButtonType = {
+				name = "increase_autosave_button"
+				position = { x = 287 y = 131 }
+				quadTextureSprite ="option_next"	
+			}
+
+			instantTextBoxType={
+				name = "unitarrowtooltip_label"
+				position = {x = 55 y = 486}
+				font = "Jockey_14_dark"
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_UNITARROW"	
+				format = left
+			}
+			
+			checkboxType = {
+				name = "unitarrowtooltip_checkbox"
+				position = { x = 283 y = 483 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+			}
+		}
+		
+		###################
+		###################
+
+		instantTextBoxType={
+			position = {x = 30 y = 34 }
+			name = "settings_label"
+			font = "Jockey_24"
+			maxWidth = 310
+			maxHeight = 18
+			text = "SM_SETTINGS"	
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "settings_tab_1"
+			position = { x = 28 y = 65 }
+			quadTextureSprite ="GFX_frontend_settings_tab_btn1"	
+			buttonfont = "Arial_11_bold_black"
+			buttontext = "SM_GAME"	
+		}
+
+		guiButtonType = {
+			name = "settings_tab_2"
+			position = { x = 106 y = 65 }
+			quadTextureSprite ="GFX_frontend_settings_tab_btn1"	
+			buttonfont = "Arial_11_bold_black"
+			buttontext = "SM_VIDEO"	
+		}
+
+		guiButtonType = {
+			name = "settings_tab_3"
+			position = { x = 184 y = 65 }
+			quadTextureSprite ="GFX_frontend_settings_tab_btn1"	
+			buttonfont = "Arial_11_bold_black"
+			buttontext = "SM_AUDIO"	
+		}
+
+		guiButtonType = {
+			name = "settings_tab_4"
+			position = { x = 262 y = 65 }
+			quadTextureSprite ="GFX_frontend_settings_tab_btn1"	
+			buttonfont = "Arial_11_bold_black"	
+			buttontext = "SM_CONTROLS"	
+		}
+
+		guiButtonType = {
+			name = "ApplyButton"
+			position = { x = 405 y = 481 }
+			quadTextureSprite ="GFX_frontend_gen_button"	
+			buttonText = ""
+			buttonFont = "Jockey_16_dark"
+		}
+		
+		instantTextBoxType={
+			position = {x = 320 y = 490 }
+			name = "apply_label"
+			font = "Jockey_16_dark"
+			maxWidth = 310
+			maxHeight = 18
+			text = "SM_APPLY"
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "BackButton"
+			position = { x = 405 y = 522 }
+			quadTextureSprite ="GFX_frontend_gen_button"	
+			buttonText = ""
+			buttonFont = "Jockey_16_dark"
+		}
+
+		instantTextBoxType={
+			position = {x = 320 y = 531 }
+			name = "back_label"
+			font = "Jockey_16_dark"
+			maxWidth = 310
+			maxHeight = 18
+			text = "SM_BACK"
+			format = centre
+		}
+	}
+
+	####################################################################################
+### IN-game SETTINGS
+	####################################################################################
+
+	windowType = {
+		name = "menu_settings_ingame"
+		position = { x= -181 y = -267 }	
+		size = { x=324 y = 536 }
+		fullScreen = no
+		orientation = CENTER
+		
+		##### Subwindow AUDIO settings ############################################
+
+		
+		windowType = {
+			name = "menu_settings_AUDIO"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="audio_background"
+				spriteType = "GFX_settings_audio_bg"
+				position = { x=-2 y = 0 }
+			}
+
+			instantTextBoxType={
+				name = "mastervolume_label"
+				font = "Jockey_14_cyan"
+				position = {x = 31 y = 103 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_MASTER_VOLUME"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			scrollbarType = {
+				name = "mastervolume_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =131}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+			
+			instantTextBoxType={
+				name = "effectvolume_label"
+				font = "Jockey_14_cyan"
+				position = {x = 31 y = 164 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_EFFECT_VOLUME"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			scrollbarType = {
+				name = "effectvolume_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =192}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+
+			instantTextBoxType={
+				position = {x = 31 y = 225 }
+				name = "musicvolume_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_MUSIC_VOLUME"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			scrollbarType = {
+				name = "musicvolume_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =253}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}			
+		}
+
+		##### Subwindow Controls settings ############################################
+
+		
+		windowType = {
+			name = "menu_settings_CONTROLS"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="controls_background"
+				spriteType = "GFX_settings_controls_bg"
+				position = { x=-2 y = 0 }
+			}
+
+
+			instantTextBoxType={
+				name = "scrollspeed_label"
+				font = "Jockey_14_cyan"
+				position = {x = 36 y = 103 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_SCROLL_SPEED"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			scrollbarType = {
+				name = "scrollspeed_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =131}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+
+
+			instantTextBoxType={
+				name = "zoomspeed_label"
+				font = "Jockey_14_cyan"
+				position = {x = 34 y = 164 }
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_ZOOM_SPEED"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			
+			scrollbarType = {
+				name = "zoomspeed_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =192}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+		}
+
+
+		##### Subwindow Video settings ############################################
+
+		windowType = {
+			name = "menu_settings_VIDEO"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="video_background"
+				spriteType = "GFX_settings_video_bg"
+				position = { x=-2 y = 0 }
+			}
+
+			instantTextBoxType={
+				position = {x = 61 y = 108 }
+				name = "resolution_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_RESOLUTION"	
+				format = left
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 107 }
+				name = "resolution_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			guiButtonType = {
+				name = "decrease_resolution_button"
+				position = { x = 179 y = 99 }  
+				quadTextureSprite ="option_prev"	
+			}
+
+
+			guiButtonType = {
+				name = "increase_resolution_button"
+				position = { x = 287 y = 99 }
+				quadTextureSprite ="option_next"	
+			}
+
+
+			instantTextBoxType={
+				position = {x = 61 y = 140 }
+				name = "refreshrate_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_REFRESH_RATE"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 139 }
+				name = "refreshrate_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			guiButtonType = {
+				name = "decrease_refreshrate_button"
+				position = { x = 179 y = 131 }
+				quadTextureSprite ="option_prev"
+			}
+
+
+			guiButtonType = {
+				name = "increase_refreshrate_button"
+				position = { x = 287 y = 131 }
+				quadTextureSprite ="option_next"
+			}
+			
+			
+			instantTextBoxType={
+				position = {x = 61 y = 172 }
+				name = "multisample_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_MULTISAMPLE"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 171 }
+				name = "multisample_value"
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			guiButtonType = {
+				name = "decrease_multisample_button"
+				position = { x = 179 y = 163 }
+				quadTextureSprite ="option_prev"
+			}
+
+
+			guiButtonType = {
+				name = "increase_multisample_button"
+				position = { x = 287 y = 163 }
+				quadTextureSprite ="option_next"
+			}
+			
+			instantTextBoxType={
+				position = {x = 31 y = 211 }
+				name = "gamma_label"
+				font = "Jockey_14_cyan"
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_GAMMA"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			scrollbarType = {
+				name = "gamma_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =239}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+			
+			instantTextBoxType={
+				position = {x = 31 y = 272 }
+				name = "slider_label"
+				font = "Jockey_14_cyan"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_COUNTER_SLIDER"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			scrollbarType = {
+				name = "counter_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =300 }
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+			}
+			
+			instantTextBoxType={
+				position = {x = 31 y = 333 }
+				name = "counter_scale_label"
+				font = "Jockey_14_cyan"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 306
+				maxHeight = 18
+				text = "SM_COUNTER_SCALE"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			scrollbarType = {
+				name = "counter_scale_slider"
+				parent = "standard_horizontal_slider"
+				size = {x =305 y =12 }
+				position = {x= 33 y =361 }
+				priority = 100
+				maxValue = 2
+				minValue = 0
+				stepSize =0.1
+				startValue = 1
+			}
+			
+			checkboxType = {
+				name = "counters_checkbox"
+				position = { x = 283 y = 399 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 402 }
+				name = "counters_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_COUNTERS"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+			
+			checkboxType = {
+				name = "hierarchy_checkbox"
+				position = { x = 283 y = 431 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 434}
+				name = "hierarchy_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_HIERARCHY"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			checkboxType = {
+				name = "unit_name_checkbox"
+				position = { x = 283 y = 463 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 466}
+				name = "unit_name_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_UNIT_NAMES"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+			
+			checkboxType = {
+				name = "trees_checkbox"
+				position = { x = 153 y = 495 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+
+			}
+
+			instantTextBoxType={
+				position = {x = 55 y = 498 }
+				name = "trees_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_TREES"	
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+
+			checkboxType = {
+				name = "water_checkbox"
+				position = { x = 283 y = 495 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+			}
+
+			instantTextBoxType={
+				position = {x = 187 y = 498 }
+				name = "water_label"
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_WATER"
+				orientation = "UPPER_LEFT"
+				format = left
+			}
+		}
+
+		##### Subwindow Game settings ############################################
+
+		windowType = {
+			name = "menu_settings_GAME"
+			size = { x=370 y = 598 }
+			moveable = 0
+			fullScreen = no
+
+			iconType =
+			{
+				name ="game_background"
+				spriteType = "GFX_settings_game_bg"
+				position = { x=-2 y = 0 }
+			}
+
+			instantTextBoxType={
+				name = "autosave_label"
+				position = {x = 61 y = 141 }
+				font = "Jockey_14_cyan"
+				maxWidth = 127
+				maxHeight = 15
+				text = "SM_AUTOSAVE_INTERVAL"	
+			}
+
+			instantTextBoxType={
+				name = "autosave_value"
+				position = {x = 186 y = 139 }
+				font = "Jockey_18_yellow"
+				maxWidth = 106
+				maxHeight = 15
+				format = centre
+			}
+
+
+			guiButtonType = {
+				name = "decrease_autosave_button"
+				position = { x = 179 y = 131 }
+				quadTextureSprite ="option_prev"
+			}
+
+
+			guiButtonType = {
+				name = "increase_autosave_button"
+				position = { x = 287 y = 131 }
+				quadTextureSprite ="option_next"	
+			}
+
+			instantTextBoxType={
+				name = "unitarrowtooltip_label"
+				position = {x = 55 y = 466}
+				font = "Jockey_14_dark"
+				maxWidth = 170
+				maxHeight = 18
+				text = "SM_UNITARROW"	
+				format = left
+			}
+			
+			checkboxType = {
+				name = "unitarrowtooltip_checkbox"
+				position = { x = 283 y = 463 }
+				quadTextureSprite ="GFX_frontend_checkbutton"	
+				buttonFont = "Main_14_black"
+			}
+		}
+		
+		###################
+		###################
+
+		instantTextBoxType={
+			position = {x = 30 y = 34 }
+			name = "settings_label"
+			font = "Jockey_24"
+			maxWidth = 310
+			maxHeight = 18
+			text = "SM_SETTINGS"	
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "settings_tab_1"
+			position = { x = 28 y = 65 }
+			quadTextureSprite ="GFX_settings_tab_btn1"
+			buttonfont = "Arial_11_bold_black"
+			buttontext = "SM_GAME"	
+		}
+
+		guiButtonType = {
+			name = "settings_tab_2"
+			position = { x = 106 y = 65 }
+			quadTextureSprite ="GFX_settings_tab_btn1"
+			buttonfont = "Arial_11_bold_black"
+			buttontext = "SM_VIDEO"	
+		}
+
+		guiButtonType = {
+			name = "settings_tab_3"
+			position = { x = 184 y = 65 }
+			quadTextureSprite ="GFX_settings_tab_btn1"
+			buttonfont = "Arial_11_bold_black"
+			buttontext = "SM_AUDIO"	
+		}
+
+		guiButtonType = {
+			name = "settings_tab_4"
+			position = { x = 262 y = 65 }
+			quadTextureSprite ="GFX_settings_tab_btn1"	
+			buttonfont = "Arial_11_bold_black"	
+			buttontext = "SM_CONTROLS"	
+		}
+
+
+		guiButtonType = {
+			name = "ApplyButton"
+			position = { x = 188 y = 530}
+			quadTextureSprite ="GFX_settings_ok_btn"	
+			buttonText = ""
+			buttonFont = "Jockey_16_glow_blue"
+		}
+
+		instantTextBoxType={
+			position = {x = 105 y = 540 }
+			name = "apply_label"
+			font = "Jockey_16_glow_blue"
+			maxWidth = 310
+			maxHeight = 18
+			text = "SM_APPLY"
+			format = centre
+		}
+
+
+		guiButtonType = {
+			name = "BackButton"
+			position = { x = 35 y = 530 }
+			quadTextureSprite ="GFX_settings_cancel_btn"	
+			buttonText = ""
+			buttonFont = "Jockey_16_glow_red"
+		}
+
+		instantTextBoxType={
+			position = {x = -50 y = 540 }
+			name = "back_label"
+			font = "Jockey_16_glow_red"
+			maxWidth = 310
+			maxHeight = 18
+			text = "SM_BACK"
+			format = centre
+		}
+	}
+}
+

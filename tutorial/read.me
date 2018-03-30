@@ -1,0 +1,199 @@
+##############################################
+#	DEV NOTE
+#	All trigger can be read in trigger.cpp
+#	All effects can be read in effect.cpp
+###############################################
+
+tutorial = {
+	index = 1								# chapter id
+	title = "TUTORIAL_1"					# chapter title
+	buttonText = "CHAPTER_BUTTON"			# chapter button text
+	desc = "TUTORIAL_1_DESC"				# chapter description
+	window = "hints_window"					# default window.
+	exclusive = yes							# default exclusive mode
+	country = FRA							# player country (crashes without this!!!)
+	moveable = no							# default moveable
+	save_game = "save.eu3"					# save game to load
+	start_date = 1453.12.1					# in game start date of the chapter ( dunno if this can be combined with savegame )
+
+	page = {								# new page
+		index = 1							# page id
+		
+		disabled_gui_object = { object sub-object sub-sub-object }
+		
+		effect={								# effect that will be applied to the game when this page is shown.
+											# standard scriptable effect + these:
+			close_window = "all"			# closes "all" other windows.
+			open_window = "ideas_view"		# Opens desired window.
+												# Valid options for these 2 above is: "diplomacyview", "budgetview" "ideasview", 
+												# "militaryview", "overviewview", "victoryview", "build_building_view",
+												# "build_army_view", "build_navy_view", "militarybuildview" and "all".
+			keep_window_open = yes			# Forces windows in open_window to stay open until this page is done.
+			keep_window_closed = yes		# Forces windows in close_window to stay closed until this page is done.
+			select_province = provinceID	# selects a province.
+			goto = provinceID				# centers to a province.
+			mapmode = terrain				# changes mapmode. 
+												#Valid options are: "terrain", "political", "diplomatic", "dominance", "culture", 
+												# "revolt", "economy", "manpower", "fort_level" and "supply"
+			select_units = provinceID		# selects all units in that province.
+			select_army = armyName			# select army
+			select_navy = navyName			# select navy
+			pauseable = yes					# is pause/unpause allowed
+			pause = yes						# pauses the game
+			max_speed = 2					# Sets maximum speed while this page is active. Valid value 1-5.
+			speed = 4						# Sets speed. Valid value 1-5.
+			lock_camera_to_box = {			# locks camera in an area:
+				min = {						# xyz of the minimal corner. 
+					0						# Remark: since the game is topview z is the y-axis in heightmap
+					2						# and y becomes the zoom of the game.
+					3
+				}
+				max = {						# xyz of the maximum corner.
+					8						
+					4
+					6
+				}
+			}
+			reset_lock_box = yes			# resets lock_camera_to_box to game default.
+			zoom = 40						# Set zoom. Remark: Not implemented.
+			lock_zoom = yes					# Locks zooming. Remark: Not implemented.
+			allow_select_army = yes			# allowing selection of army.
+			allow_select_navy = yes			# allowing selection of navy.
+			allow_select_province = yes		# allowing selection of province.
+			disband_player_units = yes		# disband all the players units.
+			navy = {						# create navy.
+				name = "Navy"				# Navy name.
+				location = provinceId		# Province, Id or name
+				leader = leaderId			# Leader, Id or name
+				country = "tag"				# Nationality of this navy.
+				
+				squadron = {				# Subunit squadron.
+					name = ""				# Subunit name
+					type = ""				# subunit type
+					experience = 0			# subunit experience
+				}
+				
+				squadron{					# Subunit squadron.
+					#...
+				}
+			}
+			army = {						# create army.
+				name = "Army"				# Army name.
+				location = provinceId		# Province, Id or name
+				leader = leaderId			# Leader, Id or name
+				country = "tag"				# Nationality of this army.
+				
+				left = {					# Subunit in left flank.
+					name = ""				# Subunit name
+					type = ""				# subunit type
+					experience = 0			# subunit experience
+				}
+
+				center = {					# Subunit in center flank.
+					#...
+				}
+
+				right = {					# Subunit in right flank.
+					#...
+				}
+				
+				reserves = {				# Subunit in reserves.
+					#...
+				}
+			}
+			clear_navy_construction = 65	# Clear province buildqueue of naval units. Takes ProvinceID or all.
+			clear_army_construction = all	# Clear province buildqueue of army units. Takes ProvinceID or all.
+			clear_building_construction = 8 # Clear province buildqueue of building units. Takes ProvinceID or all.
+			discover_province = all/none/<provinceid> #discover all provinces/terra incognita on all provinces/toggle discover or hide on a province
+			ai = no/yes 					#wont activate until you unpause
+		}
+		
+		trigger={							# trigger that marks this page as finished.
+											# standard scriptable trigger + these:
+			page = PageID					# Sets page to goto when this trigger is triggered. 
+											#
+			select_province = provinceID	# check if province is selected. ProvinceId or any.
+			select_army = armyName			# check if army is selected. armyName or any. 
+			select_navy = navyName			# check if navy is selected. navyName or any. 
+			pause = yes						# check if game is paused/unpaused.
+			
+			close_window = "ideas_view"		# checks if "ideas_view" is closed.
+			open_window = "ideas_view"		# checks if desired window is open
+												# Valid options for these 2 above is: "missionview", "stabilityview" "religionview", "tradeview", "courtview",
+												# "technologyview", "diplomacyview", "economyview", "ideasview", "militaryview", "build_army_view", "build_building_view", "build_ship_view"
+			unit_not_exist = unitName		# checks if an unit does not exists.
+			embarked = unitName				# checks if unit is embarked. 
+												# For Army that means loaded on a ship. 
+												# For Navy that means not at port.
+			building_construction = provId	# checks province for building construction. ProvinceId or any.
+			army_construction = provId		# checks province for army construction. ProvinceId or any.
+			navy_construction = provId		# checks province for navy construction. ProvinceId or any.
+			zoom_in = 40					# Zoom is less than.
+			zoom_out = 1000					# Zoom is more than.
+		}
+		
+		trigger={							# second trigger.
+			#...
+		}
+		
+		
+		title = "some_title"				# Page title. Remark: Window Gui needs to have an instantTextBox named "title_text" for this.
+		text = "blah"						# new text placeholder
+		text = "blah"						# new text placeholder
+		text = "blah"						# new text placeholder
+		text = "blah"						# new text placeholder
+		sprite = "blah_sprite"				# new picture placeholder
+		text = "blaha"						# ...
+		text = "blaha"
+		sprite = "blah_sprite"
+		text = "blaha"
+		text = "blaha"
+		text = "blaha"
+		text = "blaha"
+
+		moveable = yes						# override for this page 
+		exclusive = yes 					# override for this page 
+		
+		window = "window_def"				# override for this page.
+		position = { 	# overrides position of window gui. Remark: Adds position to window gui position.
+			x = 100 
+			y = 150 
+		}	
+		orientation = "CENTER"				# overrides orientation of window gui. Remark: removes gui position if gui ori and this ori differs.
+		
+		extra_window = { 					# new extra window (optional). Subset of page.
+											
+			window = "MyOwnWindow"
+			position = { 
+				x = 100 
+				y = 200 
+			}
+			text = "blah4"
+			sprite "blah4_sprite" 			#GFX_uiarrow_up || GFX_uiarrow_right || GFX_uiarrow_down || GFX_uiarrow_left
+			hide_on_parent_hide = no		# This window will not hide when parent hides and thus will be 
+											# open until page is done.
+		}
+
+		option = { 							#New Option aka Button
+			button = "TutorialPageButtonOption"
+			text = "CONTINUE"				# Button text placeholder.
+			action = "continue"				# OnClick action. 
+												#Valid actions are "close", "continue" and "minimize"
+			tooltip = "override"			# Tooltip override. Remark: No tooltip is shown right now.
+		}
+		
+		option = {							#New Option aka Button
+			button = "TutorialPageButtonOption"
+			text = "CLOSE"					
+			action = "close"				
+			position = {					# overrides position of window gui. Remark: Adds position to window gui position.
+				x = 200
+				y = 0
+			}
+		}
+	}
+	
+	page{	# New page
+		#...
+	}
+}

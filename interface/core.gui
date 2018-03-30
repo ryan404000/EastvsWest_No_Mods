@@ -1,0 +1,730 @@
+guiTypes = {
+
+	listBoxType = 
+	{
+		name ="console_list"
+#		background = "console_background"
+		position = { x=5 y=100 }
+		orientation = "UPPER_LEFT"
+		priority = 100
+		size = { x=400 y=456 }
+		borderSize = {x = 32 y = 32}
+	}
+	
+	editBoxType = {
+		position = { x = 0 y = 560  }
+		name = "console_edit"
+		textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+		font = "FPS_Font"
+		borderSize = {x = 10 y = 10}	
+		size = { x=300 y=40}
+		text = " "	
+		orientation = "UPPER_LEFT"
+	}
+	
+	textBoxType={
+		position = { x=1 y=1 }
+		name = "ChatMemberText"
+		textureFile = "gfx\\interface\\transparency.tga"
+		borderSize = {x = 1 y = 1}
+		font = "FPS_Font"
+		text = "menutextbox1"
+		maxWidth = 300
+		maxHeight = 22
+	}
+		
+
+	textBoxType={
+		name = "ConsoleText"
+		textureFile = "gfx\\interface\\transparency.tga"
+		font = "ToolTip_Font"
+		borderSize = { x=1 y=1 }
+		maxWidth = 500
+		maxHeight = 16
+	}
+
+	textBoxType={
+		name = "ToolTip"
+		#textureFile = "gfx\\interface\\transparency.tga"
+		textureFile = "gfx\\interface\\tiles_dialog.tga"
+		font = "Arial14"
+		borderSize = { x=16 y=16 }
+		position = { x= 560 y=10 }
+		maxWidth = 400 #320
+		maxHeight = 256
+	}
+
+
+	textBoxType={
+		name = "FPS_Counter"
+		#textureFile = "gfx\\interface\\transparency.tga"
+		textureFile = "gfx\\interface\\tiles_dialog.tga"
+		#textureFile = ""
+		font = "FPS_Font"
+		borderSize = { x=32 y=32 }
+		position = { x=0 y=0 }
+		maxWidth = 128
+		maxHeight = 64
+	}
+
+
+
+
+
+	textBoxType={
+		position = {x = 233 y = 29 }
+		textureFile = ""
+		name = "PauseText"
+		font = "arial_18"
+		borderSize = {x = 0 y = 0}	
+		maxWidth = 260
+		maxHeight = 16
+		text = "FE_PAUSED_TEXT"	
+		orientation = "UPPER_LEFT"
+		format = centre
+	}	
+
+	textBoxType={
+		position = {x = -205 y = 104 }
+		textureFile = ""
+		name = "PauseText_2"
+		font = "Arial12"
+		borderSize = {x = 0 y = 4}	
+		maxWidth = 460
+		maxHeight = 64
+		text = "CORE_PAUSED"	
+		orientation = "CENTER_UP"
+		format = centre
+	}	
+
+	
+	
+	iconType =
+	{
+		name ="testbaricon"
+		spriteType = "testbar"
+		position = { x= 300 y = 300 }
+		Orientation = "UPPER_LEFT"
+	}	
+	
+	#########################################################
+	# Common scrollbars
+	#########################################################	
+	
+	# OBSOLETE, from old hoi3 gui
+	scrollbarType = {
+			name = "standardlistbox_slider"	
+			slider = "listboxSliderButton"
+			track= "listboxTrackButton"
+			leftbutton = "upButton"
+			rightbutton = "downButton"
+			size = {x =16 y =16 }
+			position = {x= 0 y =0}
+			priority = 100
+			maxValue =1
+			minValue =0
+			stepSize =0.01
+			startValue = 0
+			horizontal = no
+
+
+			guiButtonType = {
+				name = "listboxSliderButton"	
+				quadTextureSprite = "slider_slider"
+				tooltip = ""
+				tooltipText =""	
+				delayedTooltipText = ""
+				position = { x=0 y =0}
+			}
+
+			guiButtonType = {
+				name = "listboxTrackButton"
+				quadTextureSprite = "slider_background"
+				position = { x=24 y =24}	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""	
+
+			}	
+
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "upButton"
+				quadTextureSprite = "slider_downbutton"
+				position = { x=0 y =0}	
+			}
+			
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "downButton"
+				quadTextureSprite = "slider_upbutton"
+				position = { x=0 y =120}	
+			}
+	}
+	
+	# Standard vertical scrollbar
+	scrollbarType = {
+		name = "scrollbar_vertical_standard"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =24 y =24 }
+		position = {x= 0 y = 235}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_vertical_slider_standard"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn"
+			position = { x=20 y =40}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn"
+			position = { x=0 y =120}	
+		}
+	}
+	
+	# Same as standard vertical scrollbar, but with
+	# different slider image
+	scrollbarType = {
+		name = "scrollbar_vertical_standard_2"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =24 y =24 }
+		position = {x= 0 y = 235}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_vertical_slider_standard_2"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn"
+			position = { x=20 y =40}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn"
+			position = { x=0 y =120}	
+		}
+	}
+	
+	# Same as standard vertical scrollbar, but with
+	# much shorter slider, good for small text areas
+	scrollbarType = {
+		name = "scrollbar_vertical_short"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =9 y =9 }
+		position = {x= 0 y = 235}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_vertical_slider_short"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track"
+			position = { x=0 y =9}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_short_btn"
+			position = { x=9 y =9}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_short_btn"
+			position = { x=0 y =120}	
+		}
+	}
+
+	# Standard horizontal slider. Set parent to this to
+	# get all of the features. You may want to set
+	# will want to set name, position, and lockable
+	# and maybe other fields
+	scrollbarType = {
+		name = "standard_horizontal_slider"
+		slider = "ds_SliderButton_s"
+		track= "ds_TrackButton_s"
+		leftbutton = "ds_upButton_s"
+		rightbutton = "ds_downButton_s"
+
+		size = {x = 140 y =16 }
+		position = {x= 29 y = 215}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = yes
+			
+		
+		guiButtonType = {
+			name = "ds_SliderButton_s"	
+			quadTextureSprite = "GFX_scroller_horiz_slider"
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_s"
+			quadTextureSprite = "techslider_background"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_s"
+			name = "ds_upButton_s"
+			quadTextureSprite = "GFX_scroller_btn_minus"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_s"
+			name = "ds_downButton_s"
+			quadTextureSprite = "GFX_scroller_btn_plus"
+			position = { x=0 y =120}	
+		}
+	}
+	
+	scrollbarType = {
+		name = "eco_region_slider"	
+		slider = "listboxSliderButton"
+		track= "listboxTrackButton"
+		leftbutton = "upButton"
+		rightbutton = "downButton"
+		size = {x = 12 y =16 }
+		position = {x= 10 y =0}
+		priority = 100			
+		borderSize = {x = 0 y = 24}	
+		maxValue =1
+		minValue =0
+		stepSize =0.01
+		startValue = 0
+		horizontal = no
+
+
+		guiButtonType = {
+			name = "listboxSliderButton"	
+			quadTextureSprite = "slider_slider_eco_reg"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "listboxTrackButton"
+			quadTextureSprite = "slider_nobackground"
+			position = { x=10 y =24}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+
+		}	
+
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "upButton"
+			quadTextureSprite = "eco_slider_button"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "downButton"
+			quadTextureSprite = "eco_slider_button"
+			position = { x=0 y =120}	
+		}
+	}
+	
+	scrollbarType = {
+			name = "standardlistbox_noslider"	
+			slider = "listboxSliderButton"
+			track= "listboxTrackButton"
+			leftbutton = "upButton"
+			rightbutton = "downButton"
+			size = {x =16 y =16 }
+			position = {x= 0 y =0}
+			priority = 100			
+			borderSize = {x = 24 y = 24}	
+			maxValue =1
+			minValue =0
+			stepSize =0.01
+			startValue = 0
+			horizontal = no
+
+
+			guiButtonType = {
+				name = "listboxSliderButton"	
+				quadTextureSprite = "slider_noslider"
+				tooltip = ""
+				tooltipText =""	
+				delayedTooltipText = ""
+				position = { x=0 y =0}
+			}
+
+			guiButtonType = {
+				name = "listboxTrackButton"
+				quadTextureSprite = "slider_nobackground"
+				position = { x=24 y =24}	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""	
+
+			}	
+
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "upButton"
+				quadTextureSprite = "slider_downbutton"
+				position = { x=0 y =0}	
+			}
+			
+			guiButtonType = {
+				parent = "listboxSliderButton"
+				name = "downButton"
+				quadTextureSprite = "slider_upbutton"
+				position = { x=0 y =120}	
+			}
+			
+	}
+	
+	# INTEL_COUNTRYLIST vertical scrollbar
+	scrollbarType = {
+		name = "scrollbar_vertical_intel"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =24 y =0 }
+		position = {x= 0 y = 0}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_vertical_slider_standard"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_down"
+			position = { x=20 y =40}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_up"
+			position = { x=0 y =120}	
+		}
+	}
+
+# DIPLOMACY_COUNTRYLIST vertical scrollbar
+	scrollbarType = {
+		name = "scrollbar_vertical_diplo"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =24 y =0 }
+		position = {x= 0 y = 0}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_vertical_slider_standard"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_down_1"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_up"
+			position = { x=0 y =120}	
+		}
+	}
+
+	# PRODUCTION QUEUE LIST vertical scrollbar
+	scrollbarType = {
+		name = "scrollbar_vertical_prod"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =24 y =0 }
+		position = {x= 0 y = 0}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_vertical_slider_standard"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_down_2"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_up"
+			position = { x=0 y =120}	
+		}
+	}
+
+	# PRODUCTION deploy LIST vertical scrollbar 2
+	scrollbarType = {
+		name = "scrollbar_vertical_prod_2"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =24 y =0 }
+		position = {x= 0 y = 0}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_vertical_slider_standard"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_down_3"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_vertical_btn_up"
+			position = { x=0 y =120}	
+		}
+	}
+
+	scrollbarType = {
+		name = "scrollbar_vertical_short_2"	
+		slider = "ds_SliderButton_f"
+		track= "ds_TrackButton_f"
+		leftbutton = "ds_upButton_f"
+		rightbutton = "ds_downButton_f"
+		size = {x =3 y =10 }
+		position = {x= 0 y = 235}
+		priority = 100
+		maxValue = 100
+		minValue = 0
+		stepSize =0.001
+		startValue = 0
+		horizontal = no
+
+
+		guiButtonType = {
+			name = "ds_SliderButton_f"	
+			quadTextureSprite = "GFX_scroller_sleek_btn"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "ds_TrackButton_f"
+			quadTextureSprite = "GFX_scrollbar_track_2"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}	
+
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_upButton_f"
+			quadTextureSprite = "GFX_scroller_short_btn_2"
+			position = { x=9 y =9}	
+		}
+		
+		guiButtonType = {
+			parent = "ds_SliderButton_f"
+			name = "ds_downButton_f"
+			quadTextureSprite = "GFX_scroller_short_btn_3"
+			position = { x=0 y =120}	
+		}
+	}
+
+
+	windowtype = {
+		name = "textlistitem"
+		moveable = 0
+		fullScreen = no	
+		
+		instantTextBoxType= {
+			name = "text"
+			font = "Arial12"
+			fixedSize = yes
+		}
+	}
+
+
+}

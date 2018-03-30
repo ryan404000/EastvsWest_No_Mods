@@ -1,0 +1,94 @@
+guiTypes = {
+	windowType = {
+		name = "province_goto_entry"
+		position = { x=0 y=0 }	
+		size = { x=265 y= 32 }
+		fullScreen = no
+		
+		checkboxType = {
+			name = "game"
+			position = { x=-2 y =-2 }
+			quadTextureSprite ="GFX_prov_goto_button"
+			buttonFont = "Jockey_14_cyan"
+		}
+	}
+	
+		windowType = {
+			name ="goto_box"
+			position = { x= -306 y =-206 }
+			background = "goto_box"
+			size = { x=312 y =412 }
+			moveable = 1
+			fullscreen=no
+			Orientation = "CENTER"
+
+			guiButtonType = {
+				name = "goto_box"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_bg_find_province"	
+			}
+			
+			listboxType = 
+			{
+				name ="provinces"
+				position = { x= 17 y = 109}
+				size = { x=287 y =259}
+				scrollbartype = "scrollbar_vertical_diplo"
+				Orientation = "UPPER_LEFT"
+			}
+			
+			guiButtonType = {
+				name = "goto"
+				position = { x = 174 y = 389 }
+				quadTextureSprite= "GFX_savegame_ingame_button"
+			}
+			
+			instantTextBoxType={
+				position = {x = 164 y = 398 }
+				name = "goto_btn_label"
+				font = "Jockey_16_glow_blue"
+				maxWidth = 161
+				maxHeight = 24
+				text = "GOTO_GOTO"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			guiButtonType = {
+				name = "cancel"
+				position = { x = 21 y = 389 }
+				quadTextureSprite = "GFX_menu_ingame_button_cancel_2"
+			}
+			
+			instantTextBoxType={
+				position = {x = 11 y = 398 }
+				name = "cancel_btn_label"
+				font = "Jockey_16_glow_red"
+				maxWidth = 161
+				maxHeight = 24
+				text = "GOTO_CANCEL"
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+			instantTextBoxType={
+				position = {x = 73 y = 20 }
+				name = "goto_text"
+				font = "Jockey_24"
+				maxWidth = 190
+				maxHeight = 18
+				text = "GOTO_LIST_BOX"	
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+			
+			editBoxType = {
+				position = { x = 25 y = 69 }
+				name = "goto_edit"
+				font = "Jockey_14"
+				size = { x=280 y=20 }
+				orientation = "UPPER_LEFT"
+			}
+			
+		}
+}

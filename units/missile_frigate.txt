@@ -1,0 +1,54 @@
+missile_frigate = {
+	type = naval
+	sprite = Destroyer
+	active = no
+	capital = no
+	goods_usage = 
+	{
+		heavy_industry = 0.02
+		naval_yards = 0.04
+	}
+
+	hull = 1.5
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 15	#30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 43.2
+	build_cost_manpower = 1.50
+	build_time = 310
+
+	#Misc Abilities
+	maximum_speed = 30.00
+	transport_capability = 0.00
+	supply_consumption = 0.40
+	fuel_consumption = 0.58
+	range = 2500.00
+	
+
+	#Detection Abilities
+	surface_detection = 3.00
+	air_detection = 3.00
+	sub_detection = 4.00
+	visibility = 70.00
+	air_radar_range = 160
+	surface_radar_range = 30
+	sonar_range = 4.5
+
+	#Defensive Abilities
+	sea_defence = 4.00
+	air_defence = 2.00
+
+	#Offensive Abilities
+	convoy_attack = 6.00
+	sea_attack = 8.00
+	sub_attack = 1.00
+	air_attack = 2.00
+	shore_bombardment = 0.00	#1
+
+	priority = 6
+}

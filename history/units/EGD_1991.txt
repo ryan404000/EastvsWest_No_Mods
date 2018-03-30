@@ -1,0 +1,505 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 4903
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 4903
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 4903
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 3 strength = 36 experience = 10 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 3 strength = 37 experience = 9 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 4 strength = 21 experience = 10 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 4903
+			regiment = { type = motorized_brigade name = "1st Motorized Brigade" historical_model = 3 strength = 35 experience = 9 }
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 3 strength = 36 experience = 10 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 4 strength = 34 experience = 9 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 4731
+			regiment = { type = light_mechanized_brigade name = "5th L. Mech Brigade" historical_model = 3 strength = 35 experience = 5 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 4 strength = 22 experience = 5 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 3 strength = 38 experience = 5 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 4677
+			pool = yes
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 4 strength = 34 experience = 9 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 4 strength = 35 experience = 10 }
+			regiment = { type = air_cav_brigade name = "1st Air Cavalry Brigade" historical_model = 3 strength = 37 experience = 8 }
+			regiment = { type = attack_helo_brigade name = "1st Attack Helicopter Brigade" historical_model = 1 strength = 10 experience = 8 }
+		}
+	}
+	army =
+	{
+		name = "8th Army"
+		location = 4790
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+
+		division =
+		{
+			name = "19th Division"
+			location = 4789
+			regiment = { type = light_mechanized_brigade name = "37th L. Mech Brigade" historical_model = 4 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "38th Infantry Brigade" historical_model = 4 strength = 35 experience = 9 }
+			regiment = { type = infantry_brigade name = "39th Infantry Brigade" historical_model = 3 strength = 36 experience = 10 }
+		}
+		division =
+		{
+			name = "11th Division"
+			location = 4789
+			regiment = { type = infantry_brigade name = "19th Infantry Brigade" historical_model = 3 strength = 34 experience = 9 }
+			regiment = { type = infantry_brigade name = "20th Infantry Brigade" historical_model = 4 strength = 36 experience = 10 }
+			regiment = { type = infantry_brigade name = "21st Infantry Brigade" historical_model = 3 strength = 37 experience = 9 }
+		}
+		division =
+		{
+			name = "12th Division"
+			location = 4843
+			regiment = { type = infantry_brigade name = "22nd Infantry Brigade" historical_model = 3 strength = 34 experience = 10 }
+			regiment = { type = infantry_brigade name = "23rd Infantry Brigade" historical_model = 4 strength = 35 experience = 9 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 5291
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "6th Division"
+			location = 5418
+			regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 4 strength = 38 experience = 9 }
+			regiment = { type = artillery_brigade name = "3rd Artillery Brigade" historical_model = 4 strength = 22 experience = 10 }
+			regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 4 strength = 36 experience = 9 }
+			regiment = { type = air_cav_brigade name = "2nd Air Cavalry Brigade" historical_model = 3 strength = 37 experience = 8 }
+		}
+		division =
+		{
+			name = "9th Division"
+			location = 5353
+			regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 4 strength = 36 experience = 4 }
+			regiment = { type = sp_anti_air_brigade name = "1st Self-propelled AA Brigade" historical_model = 3 strength = 19 experience = 5 }
+			regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 3 strength = 34 experience = 4 }
+		}
+		division =
+		{
+			name = "10th Division"
+			location = 5292
+			regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 3 strength = 36 experience = 10 }
+			regiment = { type = armor_brigade name = "3rd Armor Brigade" historical_model = 4 strength = 23 experience = 10 }
+			regiment = { type = infantry_brigade name = "18th Infantry Brigade" historical_model = 4 strength = 34 experience = 9 }
+		}
+	}
+	army =
+	{
+		name = "9th Army"
+		location = 5724
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "22nd Division"
+			location = 5724
+			regiment = { type = infantry_brigade name = "45th Infantry Brigade" historical_model = 4 strength = 35 experience = 15 }
+			regiment = { type = artillery_brigade name = "6th Artillery Brigade" historical_model = 3 strength = 23 experience = 16 }
+			regiment = { type = infantry_brigade name = "46th Infantry Brigade" historical_model = 3 strength = 34 experience = 14 }
+		}
+		division =
+		{
+			name = "23rd Division"
+			location = 5903
+			regiment = { type = infantry_brigade name = "47th Infantry Brigade" historical_model = 3 strength = 35 experience = 16 }
+			regiment = { type = artillery_brigade name = "7th Artillery Brigade" historical_model = 4 strength = 22 experience = 15 }
+			regiment = { type = infantry_brigade name = "48th Infantry Brigade" historical_model = 4 strength = 38 experience = 13 }
+		}
+		division =
+		{
+			name = "17th Division"
+			location = 5724
+			regiment = { type = infantry_brigade name = "33rd Infantry Brigade" historical_model = 4 strength = 34 experience = 10 }
+			regiment = { type = police_brigade name = "2nd Police Brigade" historical_model = 2 strength = 19 experience = 9 }
+			regiment = { type = infantry_brigade name = "34th Infantry Brigade" historical_model = 4 strength = 37 experience = 10 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 8960
+		location = 8960
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 6 strength = 100 }
+		wing = { type = fighter name = "2nd Fighter Wing" historical_model = 6 strength = 100 }
+		wing = { type = transport_plane name = "1st Transport Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "2nd Air Force"
+		base = 4734
+		location = 4734
+		wing = { type = multi_role name = "5th Fighter Wing" historical_model = 5 strength = 100 }
+	}
+	air = {
+		name = "3rd Air Force"
+		base = 4734
+		location = 4734
+		wing = { type = cas name = "1st CAS Wing" historical_model = 6 strength = 50 }
+	}
+	air = {
+		name = "4th Air Force"
+		base = 4734
+		location = 4734
+		wing = { type = bomber_strategic name = "1st Strategic Bomber Wing" historical_model = 3 strength = 100 }
+		wing = { type = bomber_strategic name = "2nd Strategic Bomber Wing" historical_model = 2 strength = 50 }
+		wing = { type = transport_plane name = "2nd Transport Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "5th Air Force"
+		base = 4734
+		location = 4734
+		wing = { type = bomber_strike name = "1st Strike Bomber Wing" historical_model = 4 strength = 100 }
+		wing = { type = bomber_strike name = "2nd Strike Bomber Wing" historical_model = 3 strength = 50 }
+	}
+	navy = {
+		name = "Home Fleet"
+		base = 4733 # Cardiff
+		location = 4733
+		ship = { type = helicopter_carrier name = "HMS Invincible" historical_model = 2 }	
+		ship = { type = helicopter_carrier name = "HMS Illustrious" historical_model = 2 }
+		ship = { type = helicopter_carrier name = "HMS Ark Royal" historical_model = 2 }
+		ship = { type = missile_destroyer name = "HMS Southampton" historical_model = 6 }
+		ship = { type = missile_destroyer name = "HMS Nottingham" historical_model = 6 }
+		ship = { type = missile_destroyer name = "HMS York" historical_model = 6 }
+		ship = { type = missile_destroyer name = "HMS Edinburgh" historical_model = 6 }
+		ship = { type = missile_destroyer name = "HMS Birmingham" historical_model = 6 }
+		ship = { type = missile_frigate name = "HMS Penelope" historical_model = 4 }	
+		ship = { type = missile_frigate name = "HMS Cleopatra" historical_model = 4 }	
+		ship = { type = missile_frigate name = "HMS Minerva" historical_model = 4 }
+		ship = { type = missile_frigate name = "HMS Sirius" historical_model = 4 }		
+		ship = { type = missile_frigate name = "HMS Argonaut" historical_model = 4 }		
+		ship = { type = missile_frigate name = "HMS Danae" historical_model = 4 }		
+		ship = { type = missile_frigate name = "HMS Juno" historical_model = 4 }
+		ship = { type = missile_frigate name = "HMS Amazon" historical_model = 5 }
+		ship = { type = missile_frigate name = "HMS Ambuscade" historical_model = 5 }
+		ship = { type = missile_frigate name = "HMS Broadsword" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMS Battleaxe" historical_model = 9 }		
+		ship = { type = missile_frigate name = "HMS Brilliant" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMS Brazen" historical_model = 9 }	
+		ship = { type = missile_frigate name = "HMS Boxer" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMS Beaver" historical_model = 9 }		
+		ship = { type = missile_frigate name = "HMS Brave" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMS London" historical_model = 9 }	
+		ship = { type = missile_frigate name = "HMS Sheffield" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMS Coventry" historical_model = 9 }	
+		ship = { type = missile_frigate name = "HMS Cornwall" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMS Cumberland" historical_model = 9 }	
+		ship = { type = missile_frigate name = "HMS Campbeltown" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMS Chatham" historical_model = 9 }	
+		ship = { type = transport_ship name = "1st Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "2nd Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "3rd Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "4th Transport Flotilla" historical_model = 0 }
+	}
+
+	navy = {
+		name = "Home Submarine Fleet"
+		base = 4733 # Cardiff
+		location = 4733						
+		ship = { type = attack_submarine name = "HMS Oracle" historical_model = 2 }	
+		ship = { type = attack_submarine name = "HMS Orpheus" historical_model = 2 }	
+		ship = { type = attack_submarine name = "HMS Upholder" historical_model = 8 }			
+		ship = { type = nuclear_submarine name = "HMS Valiant" historical_model = 1 }
+		ship = { type = nuclear_submarine name = "HMS Sovereign" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "HMS Superb" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "HMS Sceptre" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "HMS Spartan" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "HMS Splendid" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "HMS Turbulent" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "HMS Tireless" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "HMS Torbay" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "HMS Trenchant" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "HMS Talent" historical_model = 5 }
+		ship = { type = ballistic_missile_submarine name = "HMS Resolution" historical_model = 1 }
+		ship = { type = ballistic_missile_submarine name = "HMS Repulse" historical_model = 1 }
+		ship = { type = ballistic_missile_submarine name = "HMS Renown" historical_model = 1 }
+	}
+
+	navy = {
+		name = "Mediterranean Fleet"
+		base = 4575 # Gibraltar
+		location = 4575
+		ship = { type = missile_frigate name = "HMS Charybdis" historical_model = 4 }
+		ship = { type = missile_frigate name = "HMS Hermione" historical_model = 4 }
+		ship = { type = missile_frigate name = "HMS Jupiter" historical_model = 4 }
+		ship = { type = transport_ship name = "5th Transport Flotilla" historical_model = 0 }
+	}
+
+	navy = {
+		name = "1st Fleet"
+		base = 8805 # Kuwait (m)
+		location = 8805
+		ship = { type = missile_destroyer name = "HMS Cardiff" historical_model = 6 }
+		ship = { type = missile_destroyer name = "HMS Newcastle" historical_model = 6 }	
+		ship = { type = missile_destroyer name = "HMS Exeter" historical_model = 6 }
+		ship = { type = missile_destroyer name = "HMS Manchester" historical_model = 6 }
+		ship = { type = missile_destroyer name = "HMS Gloucester" historical_model = 6 }
+		ship = { type = missile_frigate name = "HMS Andromeda" historical_model = 4 }
+		ship = { type = missile_frigate name = "HMS Scylla" historical_model = 4 }
+		ship = { type = missile_frigate name = "HMS Ariadne" historical_model = 4 }		
+		ship = { type = transport_ship name = "6th Transport Flotilla" historical_model = 0 }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 8805 # Kuwait (m)
+		location = 8805
+		ship = { type = attack_submarine name = "HMS Opportune" historical_model = 2 }			
+		ship = { type = attack_submarine name = "HMS Opossum" historical_model = 2 }		
+	}
+	navy = {	
+		name = "South Atlantic Fleet"
+		base = 14911 # Falklands
+		location = 14911
+		ship = { type = missile_frigate name = "HMS Cumberland" historical_model = 4 }
+		ship = { type = missile_frigate name = "HMS Arrow" historical_model = 5 }
+		ship = { type = missile_frigate name = "HMS Active" historical_model = 5 }		
+		ship = { type = transport_ship name = "7th Transport Flotilla" historical_model = 0 }
+	}
+	navy = {
+		name = "3rd Fleet"
+		base = 14496 # Devonport, Tasmania (m)
+		location = 14496
+		ship = { type = missile_frigate name = "HMS Norfolk" historical_model = 11 }
+		ship = { type = missile_frigate name = "HMS Alacrity" historical_model = 5 }
+		ship = { type = missile_frigate name = "HMS Avenger" historical_model = 5 }			
+	}
+}
+
+division =
+{
+	name = "Scottish Division Aden"
+	location = 8567
+	pool = yes
+	regiment = { type = infantry_brigade name = "The Argyll and Sutherland Highlanders" historical_model = 3 strength = 39 experience = 30 }
+	regiment = { type = militia_brigade name = "1st South Arabian Brigade" historical_model = 4 strength = 37 experience = 10 }
+	regiment = { type = militia_brigade name = "2nd South Arabian Brigade" historical_model = 4 strength = 37 experience = 7 }
+	regiment = { type = police_brigade name = "3rd Police Brigade" historical_model = 2 strength = 19 experience = 9 }
+}	
+division =
+{
+	name = "20th Division"
+	location = 11608
+	pool = yes
+	regiment = { type = infantry_brigade name = "40th Infantry Brigade" historical_model = 4 strength = 38 experience = 9 }
+	regiment = { type = infantry_brigade name = "41st Infantry Brigade" historical_model = 3 strength = 34 experience = 10 }
+	regiment = { type = infantry_brigade name = "42nd Infantry Brigade" historical_model = 3 strength = 36 experience = 9 }
+}
+division =
+{
+	name = "21st Division"
+	location = 14890
+	pool = yes
+	regiment = { type = infantry_brigade name = "43rd Infantry Brigade" historical_model = 3 strength = 37 experience = 10 }
+	regiment = { type = infantry_brigade name = "44th Infantry Brigade" historical_model = 3 strength = 34 experience = 11 }
+}
+
+division =
+{
+	name = "4th Division"
+	location = 4904
+	pool = yes
+	regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 4 strength = 34 experience = 10 }
+	regiment = { type = marine_brigade name = "1st Marine Brigade" historical_model = 3 strength = 36 experience = 9 }
+	regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 3 strength = 37 experience = 10 }
+}
+division =
+{
+	name = "7th Division"
+	location = 5416
+	pool = yes
+	regiment = { type = motorized_brigade name = "2nd Motorized Brigade" historical_model = 3 strength = 37 experience = 10 }
+	regiment = { type = motorized_brigade name = "3rd Motorized Brigade" historical_model = 3 strength = 34 experience = 10 }
+	regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 3 strength = 22 experience = 9 }
+}
+division =
+{
+	name = "8th Division"
+	location = 5417
+	pool = yes
+	regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 3 strength = 37 experience = 10 }
+	regiment = { type = engineer_brigade name = "1st Engineer Brigade" historical_model = 3 strength = 21 experience = 9 }
+	regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 3 strength = 35 experience = 10 }
+}
+division =
+{
+	name = "22nd Division"
+	location = 14890
+	pool = yes
+	regiment = { type = infantry_brigade name = "45th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+	regiment = { type = infantry_brigade name = "46th Infantry Brigade" historical_model = 4 strength = 40 experience = 11 }
+	regiment = { type = infantry_brigade name = "47th Infantry Brigade" historical_model = 4 strength = 40 experience = 11 }
+	regiment = { type = infantry_brigade name = "48th Infantry Brigade" historical_model = 4 strength = 40 experience = 11 }
+	regiment = { type = artillery_brigade name = "6th Infantry Brigade" historical_model = 3 strength = 40 experience = 11 }
+}
+division =
+{
+	name = "23rd Division"
+	location = 14890
+	pool = yes
+	regiment = { type = infantry_brigade name = "49th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+	regiment = { type = infantry_brigade name = "50th Infantry Brigade" historical_model = 4 strength = 40 experience = 11 }
+	regiment = { type = infantry_brigade name = "51st Infantry Brigade" historical_model = 4 strength = 40 experience = 11 }
+	regiment = { type = infantry_brigade name = "52nd Infantry Brigade" historical_model = 3 strength = 40 experience = 11 }
+	regiment = { type = artillery_brigade name = "7th Infantry Brigade" historical_model = 3 strength = 40 experience = 11 }
+}	
+division =
+{
+	name = "16th Division"
+	location = 14890
+	pool = yes
+	regiment = { type = infantry_brigade name = "30th Infantry Brigade" historical_model = 4 strength = 35 experience = 10 }
+	regiment = { type = infantry_brigade name = "31st Infantry Brigade" historical_model = 4 strength = 36 experience = 9 }
+	regiment = { type = infantry_brigade name = "32nd Infantry Brigade" historical_model = 3 strength = 38 experience = 10 }
+}
+
+division =
+{
+	name = "18th Division"
+	location = 4732
+	pool = yes
+	regiment = { type = infantry_brigade name = "35th Infantry Brigade" historical_model = 3 strength = 34 experience = 10 }
+	regiment = { type = infantry_brigade name = "36th Infantry Brigade" historical_model = 3 strength = 36 experience = 9 }
+	regiment = { type = artillery_brigade name = "5th Artillery Brigade" historical_model = 3 strength = 23 experience = 9 }
+}
+division =
+{
+	name = "14th Division"
+	location = 4732
+	pool = yes
+	regiment = { type = infantry_brigade name = "26th Infantry Brigade" historical_model = 4 strength = 35 experience = 14 }
+	regiment = { type = artillery_brigade name = "4th Artillery Brigade" historical_model = 4 strength = 22 experience = 15 }
+	regiment = { type = infantry_brigade name = "27th Infantry Brigade" historical_model = 4 strength = 37 experience = 14 }
+}
+division =
+{
+	name = "15th Division"
+	location = 4732
+	pool = yes
+	regiment = { type = police_brigade name = "1st Police Brigade" historical_model = 2 strength = 18 experience = 10 }
+	regiment = { type = infantry_brigade name = "28th Infantry Brigade" historical_model = 4 strength = 36 experience = 10 }
+	regiment = { type = infantry_brigade name = "29th Infantry Brigade" historical_model = 4 strength = 37 experience = 11 }
+}
+
+division =
+{
+	name = "13th Division"
+	location = 4732
+	pool = yes
+	regiment = { type = infantry_brigade name = "24th Infantry Brigade" historical_model = 4 strength = 36 experience = 9 }
+	regiment = { type = infantry_brigade name = "25th Infantry Brigade" historical_model = 4 strength = 34 experience = 10 }
+}
+
+navy = {
+	name = "Mothball Fleet"
+	base = 4733 # Cardiff
+	location = 4733
+	pool = yes
+		ship = { type = missile_destroyer name = "HMS Bristol" historical_model = 5 }	
+		ship = { type = missile_frigate name = "HMS Arethusa" historical_model = 4 }	
+		ship = { type = missile_frigate name = "HMS Phoebe" historical_model = 4 }		
+		ship = { type = missile_frigate name = "HMS Gurkha" historical_model = 0 }
+		ship = { type = missile_frigate name = "HMS Tartar" historical_model = 0 }
+		ship = { type = transport_ship name = "8th Transport Flotilla" historical_model = 0 }
+}
+navy = {
+	name = "Mothball Submarine Fleet"
+	base = 4733 # Cardiff
+	location = 4733
+	pool = yes
+		ship = { type = attack_submarine name = "HMS Ocelot" historical_model = 2 }	
+		ship = { type = attack_submarine name = "HMS Onyx" historical_model = 2 }	
+		ship = { type = attack_submarine name = "HMS Otter" historical_model = 2 }			
+		ship = { type = attack_submarine name = "HMS Otus" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "HMS Warspite" historical_model = 1 }	
+		ship = { type = nuclear_submarine name = "HMS Churchill" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "HMS Courageous" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "HMS Swiftsure" historical_model = 3 }	
+		ship = { type = ballistic_missile_submarine name = "HMS Revenge" historical_model = 1 }		
+}
+
+military_construction = {
+	country = ENG
+	name = "HMS Unseen"
+	attack_submarine = {
+		name = "HMS Unseen"
+		historical_model = 8
+		}
+	#cost = xxx
+	progress = 75
+	#duration = xxx
+	location = 4733
+}
+military_construction = {
+	country = ENG
+	name = "HMS Triumph"
+	nuclear_submarine = {
+		name = "HMS Triumph"
+		historical_model = 5
+		}
+	#cost = xxx
+	progress = 70
+	#duration = xxx
+	location = 4733
+}
+
+military_construction = {
+	country = ENG
+	name = "HMS Argyll"
+	missile_frigate = {
+		name = "HMS Argyll"
+		historical_model = 11
+		}
+	#cost = xxx
+	progress = 75
+	#duration = xxx
+	location = 4733
+}
+
+military_construction = {
+	country = ENG
+	name = "HMS Lancaster"
+	missile_frigate = {
+		name = "HMS Lancaster"
+		historical_model = 11 
+		}
+	#cost = xxx
+	progress = 20
+	#duration = xxx
+	location = 4733
+}
+
+military_construction = {
+	country = ENG
+	name = "HMS Marlborough"
+	missile_frigate = {
+		name = "HMS Marlborough"
+		historical_model = 11
+		}
+	#cost = xxx
+	progress = 70
+	#duration = xxx
+	location = 4733
+}

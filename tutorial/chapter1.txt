@@ -1,0 +1,622 @@
+tutorial = {
+	index = 1
+	category = 1
+	title = "TUT_BAS_CHAPTER01_TITLE"
+	desc = "TUT_BAS_CHAPTER01_DESC"
+	buttonText = "TUT_BAS_CHAPTER01_BUTTON"
+	country = SOV
+	window = "hints_window"	# default window
+	moveable = yes
+	save_game = "tutorial_chapter1.hoi3"
+	
+	page = {
+		index = 1
+		title = "TUT_BAS_CHAPTER01_PAGE01_TITLE" # Tutorial Window
+		text = "TUT_BAS_CHAPTER01_PAGE01_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE01_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }										
+		
+		effect = { # This page's effects
+			goto = 8039 # Moscow
+			pauseable = no
+			pause = yes
+			close_window = "all"
+#			keep_window_closed = yes 
+			zoom = 250
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no			
+		}
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = -485
+				y = -550
+			}
+		}
+#		connected_icons = { dummy-br tutorial_minimized hint_maximize }
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+			position = { x = 5 y = 8 }
+		}
+				
+		orientation = "UPPER_LEFT"
+	}
+	page = {
+		index = 2
+		title = "TUT_BAS_CHAPTER01_PAGE02_TITLE" # Camera/Mouse 
+		text = "TUT_BAS_CHAPTER01_PAGE02_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE02_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects
+			goto = 8039 # Moscow
+			pauseable = no
+			pause = yes
+			close_window = "all"
+#			keep_window_closed = yes 
+			zoom = 250
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no			
+		}
+	
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}	
+	page = {
+		index = 3
+		title = "TUT_BAS_CHAPTER01_PAGE03_TITLE" # Zooming out
+		text = "TUT_BAS_CHAPTER01_PAGE03_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE03_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects
+			goto = 8039 # Moscow
+			pauseable = no
+			pause = yes
+			close_window = "all"
+#			keep_window_closed = yes 
+			zoom = 250
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no			
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			zoom_out = 1000
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 4
+		title = "TUT_BAS_CHAPTER01_PAGE04_TITLE" # Zooming in
+		text = "TUT_BAS_CHAPTER01_PAGE04_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE04_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects
+			goto = 8039 # Moscow
+			pauseable = no
+			pause = yes
+			close_window = "all"
+#			keep_window_closed = yes 
+			zoom = 1000
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no			
+		}
+	
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			zoom_in = 40
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}	
+		
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 5
+		title = "TUT_BAS_CHAPTER01_PAGE05_TITLE" # Time
+		text = "TUT_BAS_CHAPTER01_PAGE05_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE05_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects
+			goto = 8039 # Moscow
+			pauseable = no
+			pause = yes
+			close_window = "all"
+#			keep_window_closed = yes 
+			zoom = 40 
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no			
+		}
+
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}	
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 6
+		title = "TUT_BAS_CHAPTER01_PAGE06_TITLE" # Play and Pause
+		text = "TUT_BAS_CHAPTER01_PAGE06_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE06_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects
+			goto = 8039 # Moscow
+			pauseable = no
+			pause = yes
+			close_window = "all"
+#			keep_window_closed = yes 
+			zoom = 250
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no			
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}	
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 7
+		title = "TUT_BAS_CHAPTER01_PAGE07_TITLE" # Find province
+		text = "TUT_BAS_CHAPTER01_PAGE07_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE07_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = {
+			goto = 3932 # Murmansk
+			mapmode = "terrain"
+			pause = yes
+			pauseable = no
+			zoom = 250			
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no	
+		}
+		
+		leave_page_effect = {
+			direction_pointer = { enable = no }
+			province_highlight = { enable = no }
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			select_province = 3932 # Murmansk
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 8
+		title = "TUT_BAS_CHAPTER01_PAGE08_TITLE" # Search province
+		text = "TUT_BAS_CHAPTER01_PAGE08_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE08_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = {
+			goto = 3932 # Murmansk
+			mapmode = "terrain"
+			pause = yes
+			pauseable = no
+			zoom = 100			
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no	
+		}
+
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = -130
+				y = -65
+			}
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			select_province = 13820 # Vladivostok
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}	
+	page = {
+		index = 9
+		title = "TUT_BAS_CHAPTER01_PAGE09_TITLE" # Minimap
+		text = "TUT_BAS_CHAPTER01_PAGE09_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE09_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = {
+			goto = 13820 # Vladivostok
+			mapmode = "terrain"
+			pause = yes
+			pauseable = no
+			zoom = 100			
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no	
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 10
+		title = "TUT_BAS_CHAPTER01_PAGE010_TITLE" # Mapmodes
+		text = "TUT_BAS_CHAPTER01_PAGE010_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE010_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}		
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = {
+			goto = 8039 # Moscow
+			pauseable = no
+			pause = yes
+			close_window = "all"
+#			keep_window_closed = yes 
+			zoom = 1000
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no			
+		}
+
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = -373
+				y = -135
+			}
+		}
+
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+}

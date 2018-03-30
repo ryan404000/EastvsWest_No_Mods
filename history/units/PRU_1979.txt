@@ -1,0 +1,71 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 2209
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 2209
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "2nd Division"
+			location = 2493
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 2 strength = 35 experience = 4 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 3 strength = 36 experience = 4 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 2 strength = 23 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 2204
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 2 strength = 34 experience = 4 }
+			regiment = { type = bergsjaeger_brigade name = "2nd Mountain Brigade" historical_model = 1 strength = 36 experience = 5 }
+			regiment = { type = bergsjaeger_brigade name = "3rd Mountain Brigade" historical_model = 1 strength = 37 experience = 5 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 2209
+		location = 2209
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 1 strength = 30 builder = USA }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 2209 # Callao, Lima (m)
+		location = 2209
+		ship = { type = cruiser name = "BAP Aguirre" historical_model = 0 builder = HOL}		
+		ship = { type = cruiser name = "BAP Capitán Quiñones" historical_model = 0 builder = ENG}
+		ship = { type = cruiser name = "BAP Coronel Bolognesi" historical_model = 0 builder = ENG}
+		ship = { type = missile_destroyer name = "BAP Ferré" historical_model = 0 builder = ENG}		
+		ship = { type = missile_destroyer name = "BAP Palacios" historical_model = 0 builder = ENG}	
+		ship = { type = missile_frigate name = "BAP Carvajal" historical_model = 4 builder = ITA }
+		ship = { type = missile_frigate name = "BAP Villavisencio" historical_model = 4 builder = ITA }
+		ship = { type = missile_boat name = "1st Missile Boat Flotilla" strength = 25 historical_model = 5 builder = FRA }
+
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 2209 # Callao, Lima (m)
+		location = 2209
+		ship = { type = attack_submarine name = "BAP Islay" historical_model = 6 builder = FRG }
+		ship = { type = attack_submarine name = "BAP Arica" historical_model = 6 builder = FRG }
+		ship = { type = attack_submarine name = "BAP Abtao" historical_model = 0 builder = USA }
+		ship = { type = attack_submarine name = "BAP Dos de Mayo" historical_model = 0 builder = USA }
+		ship = { type = attack_submarine name = "BAP Angamos" historical_model = 0 builder = USA }
+		ship = { type = attack_submarine name = "BAP Iquique" historical_model = 0 builder = USA }			
+	}
+}
+
+division =
+{
+	name = "1st Division"
+	location = 2209
+	pool = yes
+	regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 36 experience = 5 }
+	regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 2 strength = 37 experience = 5 }
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 1 strength = 34 experience = 5 }
+}

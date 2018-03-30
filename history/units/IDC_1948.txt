@@ -1,0 +1,140 @@
+theatre =
+{
+	name = "Indochina Theatre"
+	location = 12353
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Indochinese HQ"
+		location = 12352
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 12352
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 12415
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 12294
+			regiment = { type = militia_brigade name = "7th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "8th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "9th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 12357
+			regiment = { type = militia_brigade name = "10th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "11th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "12th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 12220
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =
+		{
+			name = "5th Division"
+			location = 12220
+			regiment = { type = militia_brigade name = "13th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "14th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "15th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "6th Division"
+			location = 12220
+			regiment = { type = militia_brigade name = "16th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "17th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "18th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+	}
+	#FRENCH EXPEDITIONARY FORCES IN INDOCHINA
+	army = 
+	{
+		name = "CEFEO Army"
+		location = 12296
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = FRA
+
+		division = 
+		{   
+			name = "5th Colonial Brigade"
+			location = 12296
+			expeditionary_owner = FRA
+			regiment = { type = infantry_brigade name = "5th Colonial Brigade" historical_model = 0 strength = 35 experience = 25 }
+		}
+			
+		division = 
+		{
+			name = "9th Colonial Brigade"
+			location = 12352
+			expeditionary_owner = FRA
+			regiment = { type = infantry_brigade name = "9th Colonial Brigade" historical_model = 0 strength = 38 experience = 31 }
+		}
+		
+		division = 
+		{
+			name = "Far East Brigade"
+			location = 12353
+			expeditionary_owner = FRA
+			regiment = { type = infantry_brigade name = "Far East Brigade" historical_model = 0 strength = 32 experience = 22 }
+		}
+	}
+	
+	army =
+	{
+		name = "Légion étrangère"
+		location = 12296 
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = FRA
+		
+		division = 
+		{
+			name = "3rd Foreign Brigade 'de la Selva'"
+			location = 12296
+			expeditionary_owner = FRA
+			regiment = { type = infantry_brigade name = "3rd Foreign Brigade" historical_model = 0 strength = 35 experience = 55 }
+		}
+	}
+	army = 
+	{
+		name = "CEFEO Army Hanoi"
+		location = 12289
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = FRA
+	
+		division = 
+		{
+			name = "11th Colonial Brigade"
+			location = 11937
+			expeditionary_owner = FRA
+			regiment = { type = infantry_brigade name = "11th Colonial Brigade" historical_model = 0 strength = 33 experience = 29 }
+		}
+		
+		division = 
+		{
+			name = "2nd Armored Division 'Leclerc'"
+			location = 12289
+			expeditionary_owner = FRA
+			regiment = { type = armor_brigade name = "2nd Arm. Division 'Leclerc'" historical_model = 0 strength = 22 experience = 35 }
+		}
+	}
+
+}

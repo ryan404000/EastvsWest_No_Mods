@@ -1,0 +1,54 @@
+theatre =
+{
+	name = "Central Command"
+	location = 14869
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 14869
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 14869
+			regiment = { type = infantry_brigade name = "1st Brigade" historical_model = 0 strength = 35 experience = 4 }
+			regiment = { type = infantry_brigade name = "2nd Brigade" historical_model = 0 strength = 36 experience = 7 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 14869
+			regiment = { type = infantry_brigade name = "3rd Brigade" historical_model = 0 strength = 37 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 0 strength = 21 experience = 4 }
+		}
+	}
+	navy = {
+		name = "Suez Ferry Fleet"
+		base = 7516 # Suez
+		location = 7516		
+		ship = { type = transport_ship name = "Ustul al-Hamli al-1i" historical_model = 0 }
+		ship = { type = transport_ship name = "Ustul al-Hamli al-2i" historical_model = 0 }
+	}
+}
+
+military_construction = {
+	country = EGY
+	armor_brigade = {
+		name = "7th Armored Brigade"
+		historical_model = 0
+		}
+	cost = 900
+	progress = 0
+	duration = 47
+}
+
+division =
+{
+	name = "3rd Division"
+	location = 7321
+	pool = yes
+	regiment = { type = infantry_brigade name = "4th Brigade" historical_model = 0 strength = 36 experience = 2 }
+}

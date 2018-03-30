@@ -1,0 +1,53 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_bg_painterbar"
+		texturefile = "gfx\\interface\\bg_painterbar.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bar_icon_province"
+		texturefile = "gfx\\interface\\icon_province.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_bar_icon_area"
+		texturefile = "gfx\\interface\\icon_area.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_bar_icon_region"
+		texturefile = "gfx\\interface\\icon_region.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_bar_icon_country"
+		texturefile = "gfx\\interface\\icon_country.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_bar_btn_abort"
+		texturefile = "gfx\\interface\\bar_close_btn.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+
+
+}

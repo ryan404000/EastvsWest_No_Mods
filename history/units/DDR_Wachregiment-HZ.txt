@@ -1,0 +1,7 @@
+military_construction = { #DDR EVENTID 170982
+	country = DDR
+		name = "Wachregiment 'Heinrich Zieschang'"
+		motorized_brigade = { name = "1st Mot-Wachregiment 'HZ'" historical_model = current strength = 40 experience = 40 }
+		police_brigade = { name = "1st Pol-Wachregiment 'HZ'" historical_model = current strength = 21 experience = 40 }
+	progress = 35
+}

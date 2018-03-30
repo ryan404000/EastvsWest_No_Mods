@@ -1,0 +1,411 @@
+
+## WP ##
+	#700176 - WP Nuclear Arms Embargo Initiation
+	country_event = {
+	
+		id = 700176
+		
+		trigger = {
+			num_of_centrifuges_greater = 1
+			NOT = { same_faction = THIS }
+			NOT = { has_country_flag = "WP_EMBARGO" }
+			NOT = { has_country_flag = "WP_ARMSEMBARGO" }
+			NOT = { has_country_flag = "WP_NUCLEAREMBARGO" }
+			NOT = { has_country_flag = "WP_EMBARGO_DELAY" }
+			NOT = { organisation = XWP }
+		}
+		
+		mean_time_to_happen = {
+			days = 365
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 3
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 7
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 11
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 15
+			}
+			modifier = {
+				factor = 0.75
+				num_of_centrifuges_greater = 19
+			}
+			modifier = {
+				factor = 0.5
+				num_of_centrifuges_greater = 39
+			}
+		}
+		
+		title = "EVTNAME700176"
+		desc = "EVTDESC700176"
+		
+		option = {
+			name = "EVTOPTA700176"
+			any_country = {
+				limit = {
+					ai = yes
+					OR = {
+						is_major = yes
+						is_org_leader = XWP
+					}
+					organisation = XWP
+					OR = {
+						AND = {
+							NOT = { vassal_of = THIS }
+							NOT = {
+								AND = {
+									relation = { who = THIS value = -25 }
+									alliance_with = THIS
+								}
+							}
+							NOT = {
+								AND = {
+									relation = { who = FROM value = 25 }
+									same_party = yes
+								}
+							}
+							OR = {
+								NOT = { relation = { who = THIS value = 75 } }
+								nuclear_policy = nuclear_free_focus_pol
+							}
+						}
+						war_with = THIS
+					}
+				}
+				country_event = 700177
+			}
+			add_country_modifier = {					#Countries cannot try to embargo this nation again through the UN for 6 months
+				name = "WP_EMBARGO_DELAY"
+				duration = 183
+			}
+			any_country = {
+				limit = { 
+					OR = {
+						has_country_flag = "WP_EMBARGO_VOTE" 
+						has_country_flag = "WP_WILL_NOT_VETO"
+					}
+				}
+				clr_country_flag = "WP_EMBARGO_VOTE"
+				clr_country_flag = "WP_WILL_NOT_VETO"
+			}
+		}
+	}
+
+	#700177 - UN Nuclear Arms Embargo Choice for Major Nations - Triggered by Event 700176
+	country_event = {
+		
+		id = 700177
+		
+		is_triggered_only = yes
+		
+		title = "EVTNAME700177"
+		desc = "EVTDESC700177"
+		
+		#major = yes
+		
+		option = {
+			name = "EVTOPTA700177"
+			ai_chance = {
+				factor = 75
+				modifier = {
+					factor = 0
+					FROM = { has_country_flag = "WP_EMBARGO_VOTE" }
+				}
+				modifier = {
+					factor = 0
+					FROM = { vassal_of = THIS }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = 0 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -50 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -100 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -150 } }
+				}
+				modifier = {
+					factor = 1.5
+					nuclear_policy = nuclear_free_focus_pol
+				}
+				modifier = {
+					factor = 1.25
+					OR = {
+						foreign_policy = hardline_pol
+						foreign_policy = containment_pol
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = { is_embargoed = yes }
+				}
+				modifier = {
+					factor = 1.5
+					num_of_warheads_greater = 1
+				}
+				modifier = {
+					factor = 1.5
+					truce_with = FROM
+				}
+				modifier = {
+					factor = 10
+					war_with = FROM
+				}
+			}
+			FROM = {
+				random_owned = {
+					limit = {
+						owner = {
+							NOT = { has_country_flag = "WP_EMBARGO_VOTE" }
+						}
+					}
+					owner = {
+						relation = { who = THIS value = -50 }
+						start_voting = {
+							organisation = 2
+							action = 5
+						}
+						set_country_flag = "WP_EMBARGO_VOTE"
+					}
+				}
+			}
+			set_country_flag = "WP_WILL_NOT_VETO"
+		}
+		
+		option = {
+			name = "EVTOPTB700177"
+			ai_chance = { 
+				factor = 25
+				modifier = {
+					factor = 1.5
+					FROM = {
+						OR = {
+							alliance_with = THIS
+							same_faction = yes
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					AND = {
+						FROM = { same_party = yes }
+						relation = { who = FROM value = 0 }
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = {
+						same_culture = yes
+						same_religion = yes
+					}
+				}
+			}
+		}
+	}
+
+	#700178 - WP Arms Embargo Initiation
+	country_event = {
+	
+		id = 700178
+		
+		trigger = {
+			NOT = { same_faction = THIS }
+			NOT = { has_country_flag = "WP_EMBARGO" }
+			NOT = { has_country_flag = "WP_ARMSEMBARGO" }
+			NOT = { has_country_flag = "WP_EMBARGO_DELAY" }
+			NOT = { organisation = XWP }
+			OR = {
+				OR = {
+					AND = { 
+						num_of_cities = 10
+						revolt_percentage = 0.2
+					}
+					num_of_revolts = 20
+				}
+				AND = {
+					war = yes
+					war_exhaustion = 8
+				}
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 92
+		}
+		
+		title = "EVTNAME700178"
+		desc = "EVTDESC700178"
+		
+		option = {
+			name = "EVTOPTA700178"
+			any_country = {
+				limit = {
+					ai = yes
+					OR = {
+						is_major = yes
+						is_org_leader = XWP
+					}
+					organisation = XWP
+					OR = {
+						AND = {
+							NOT = { vassal_of = THIS }
+							NOT = {
+								AND = {
+									relation = { who = THIS value = -25 }
+									alliance_with = THIS
+								}
+							}
+							NOT = {
+								AND = {
+									relation = { who = FROM value = 25 }
+									same_party = yes
+								}
+							}
+							NOT = { relation = { who = THIS value = 75 } }
+						}
+						war_with = THIS
+					}
+				}
+				country_event = 700179
+			}
+			add_country_modifier = {					#Countries cannot try to embargo this nation again through WP for 12 months
+				name = "WP_EMBARGO_DELAY"
+				duration = 365
+			}
+			any_country = {
+				limit = { 
+					OR = {
+						has_country_flag = "WP_EMBARGO_VOTE" 
+						has_country_flag = "WP_WILL_NOT_VETO"
+					}
+				}
+				clr_country_flag = "WP_EMBARGO_VOTE"
+				clr_country_flag = "WP_WILL_NOT_VETO"
+			}
+		}
+	}
+
+	#700179 - WP Arms Embargo Choice for Major Nations - Triggered by Event 700178
+	country_event = {
+	
+		id = 700179
+		
+		is_triggered_only = yes
+		
+		title = "EVTNAME700179"
+		desc = "EVTDESC700179"
+		
+		#major = yes
+		
+		option = {
+			name = "EVTOPTA700179"
+			ai_chance = {
+				factor = 40
+				modifier = {
+					factor = 0
+					FROM = { has_country_flag = "WP_EMBARGO_VOTE" }
+				}
+				modifier = {
+					factor = 0
+					FROM = { vassal_of = THIS }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = 0 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -50 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -100 } }
+				}
+				modifier = {
+					factor = 1.25
+					NOT = { relation = { who = FROM value = -150 } }
+				}
+				modifier = {
+					factor = 1.25
+					OR = {
+						foreign_policy = hardline_pol
+						foreign_policy = containment_pol
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = { is_embargoed = yes }
+				}
+				modifier = {
+					factor = 1.5
+					truce_with = FROM
+				}
+				modifier = {
+					factor = 10
+					war_with = FROM
+				}
+			}
+			FROM = {
+				random_owned = {
+					limit = {
+						owner = {
+							NOT = { has_country_flag = "WP_EMBARGO_VOTE" }
+						}
+					}
+					owner = {
+						relation = { who = THIS value = -50 }
+						start_voting = {
+							organisation = 2
+							action = 3
+						}
+						set_country_flag = "WP_EMBARGO_VOTE"
+					}
+				}
+			}
+			set_country_flag = "WP_WILL_NOT_VETO"
+		}
+		
+		option = {
+			name = "EVTOPTB700179"
+			ai_chance = {
+				factor = 60
+				modifier = {
+					factor = 1.5
+					FROM = {
+						OR = {
+							alliance_with = THIS
+							same_faction = yes
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					AND = {
+						FROM = { same_party = yes }
+						relation = { who = FROM value = 0 }
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = {
+						same_culture = yes
+						same_religion = yes
+					}
+				}
+			}
+		}
+	}

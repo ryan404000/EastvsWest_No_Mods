@@ -1,0 +1,72 @@
+[main.cpp:354]: Loading text.csv took 0.350465 seconds...
+[main.cpp:357]: Loading files took 0.0414979
+[main.cpp:358]: Loading blob took 0.290275
+[main.cpp:408]: 
+***>  Total loadtime before app init 1.45746 seconds.
+[eu3application.cpp:295]: Initiliasing Music & Sound<0.0943884>
+[eu3application.cpp:330]: Loading .gfx files <5.84429>
+[eu3application.cpp:343]: Initialise Graphics1<6.67011>
+[eu3application.cpp:348]: Initialise Graphics2<0.0195761>
+[eu3application.cpp:377]: Loading GUI <0.0632324>
+[eu3application.cpp:833]: Loading Databases <0.0354328>
+[map.cpp:289]: It takes <0.799601> seconds to generate colorspace.
+[map.cpp:369]: It takes <0.0485862> seconds to load mapfiles.
+[map.cpp:413]: It takes <0.149259> seconds to generate provinces.
+[map.cpp:418]: It takes <0.125341> seconds to generate bounding boxes.
+[map.cpp:600]: It takes <0> seconds to calculate paths.
+[map.cpp:608]: It takes <0.0160162> seconds to fix naval distances.
+[map.cpp:642]: It takes <1.64206> in total to init map-logics.
+[eu3application.cpp:918]: country database <2.59381>
+[eu3application.cpp:1014]: final pass of databases <3.08497>
+[eu3application.cpp:1037]: Loading History Database <9.68237>
+[eu3application.cpp:384]: ****> databases was total of <17.2668>
+[eu3application.cpp:390]: Loading Events <0.173225>
+[eu3application.cpp:404]: Loading Soundeffects <0.101841>
+[eu3application.cpp:413]: Loading Flags <0.372726>
+[eu3application.cpp:431]: history execute <0.456575>
+[eu3application.cpp:437]: Idler Initialised <0.0330982>
+[eu3application.cpp:628]: Creating checksum for all files took 26.8339 seconds.
+[main.cpp:415]: 
+***>  Total loadtime after app init 59.6669 seconds.
+[frontend.cpp:450]: Initialising frontend artwork <0.003582>
+[provincemanager.cpp:469]: CEU3MapCache creation <0.00558617>
+[provincemanager.cpp:660]: Finished creating beach manager <0.0329572>
+[provincemanager.cpp:672]: Province collision meshes <0.0231123>
+[bordermanager.cpp:112]:     CBorderManager::FillBitmap() <0.0271072>
+[provincemanager.cpp:687]: Creating borders <0.0275271>
+[provincemanager.cpp:703]: Creating texts <0.00993812>
+[provincemanager.cpp:736]: Creating rivers <0.372568>
+[provincemanager.cpp:1554]: Creating terrain textures <0.270918>
+[provincemanager.cpp:1560]: Creating visible from <0>
+[provincemanager.cpp:1592]: Creating meshes from <1.6355>
+[provincemanager.cpp:1641]: Creating waves <0.0135665>
+[provincemanager.cpp:749]: Creating the world <2.11683>
+[provincemanager.cpp:759]: Writing timefile for map<0.00691152>
+[provincemanager.cpp:770]: Cleaning up provincemanager<5.34058e-005>
+[eu3application.cpp:650]: Initialising Graphical Map <3.4913>
+[eu3application.cpp:654]: Cleaning up after Graphical Map <0.00266266>
+[frontend.cpp:486]: Mapflags <0.022171>
+[frontend.cpp:494]: Device objects <0.00111008>
+[frontend.cpp:510]: frontend screens <0.767426>
+[frontend.cpp:516]: 
+
+
+Total loadtime was 63.9574 seconds.
+
+
+[eu3idler.cpp:807]: Moving History to Gamestate<0.44123>
+[eu3idler.cpp:849]: Knowledge refreshment<0.00146052>
+[eu3idler.cpp:856]: AI Started<0.00609779>
+[eu3idler.cpp:881]: Final idler initialisation<0.0114121>
+[eu3idler.cpp:5574]: Countries initialized<0.823463>
+[eu3idler.cpp:5642]: provinces initialised<0.292743>
+[eu3idler.cpp:5680]: information caches setup<0.064487>
+[eu3idler.cpp:5704]: supply logic defined<0.0567893>
+[eu3idler.cpp:5734]:  processed weather <1.85807>
+[eu3idler.cpp:5750]:  processed intel setup <0.448967>
+[eu3idler.cpp:5843]:  processed supplies <0.0158958>
+[eu3idler.cpp:5860]:  processed time init <1.62501>
+[eu3idler.cpp:6213]: graphics objects setup<0.369943>
+[eu3idler.cpp:6221]:  intel update<0.0251575>
+[eu3idler.cpp:6310]: skin loading<0.509346>
+[eu3idler.cpp:2772]: Timer check for 1946.1.1.0 at 6.33918 seconds.

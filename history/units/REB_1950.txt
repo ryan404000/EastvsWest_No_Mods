@@ -1,0 +1,83 @@
+####VIETCONG####
+army = 
+{
+		name = "1st Army"
+		location = 12156
+	
+		division =
+		{
+			name = "1st Division"
+			location = 12156
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "2nd Division"
+			location = 12088
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "3rd Division"
+			location = 12354
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "4th Division"
+			location = 12226
+			regiment = { type = militia_brigade name = "7th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "8th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "5th Division"
+			location = 12157
+			regiment = { type = militia_brigade name = "9th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "10th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "6th Division"
+			location = 12156
+			regiment = { type = militia_brigade name = "11th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "12th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		division =
+		{
+			name = "7th Division"
+			location = 12413
+			regiment = { type = militia_brigade name = "11th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "12th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		rebel_faction =
+		{
+			type="viet_cong_rebels"
+			name="Viet Cong"
+			country="IDC"
+			target="IDC"
+			target="FRA"
+			target="SVI"
+			target="USA"
+			target="ENG"
+			target="CHI"
+			target="CHC"
+			government="totalitarian_gov"
+			province=12156
+			provinces=
+			{
+				12156 12088 12226 12157 12156 12221 12295 12224 12413 12414 12412 12354 12153 
+			}
+		}
+
+}
+####END VIETCONG####

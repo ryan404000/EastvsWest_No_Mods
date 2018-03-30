@@ -1,0 +1,44 @@
+##################################################;;;;;;;;;;;;;;x
+### Rebel groups ###;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+nationalist_rebels_title;Nationalist;Nationaliste;Nationalist;;Nacionalistas;;;;;;;;;x
+nationalist_rebels_name;$INDEP$ Nationalists;$INDEP$ Nationalistes;$INDEP$ Nationalisten;;Nacionalistas de $INDEP$;;;;;;;;;x
+nationalist_rebels_desc;Nationalist rebels seek freedom for their people. They are well led and equipped, and they will focus on achieving independence for their nation.;Les rebels nationalistes veulent la liberté pour leur peuple. Ils sont bien menés et bien équipés et ils vont se concentrer sur l'obtention de l'indépendance pour leur nation.;Nationalistische Rebellen kämpfen für die Freiheit ihres Volkes.  Gut diszipliniert und ausgerüstet konzentrieren sich auf die Erlangung der Unabhängigkeit für ihr Land.;;Los rebeldes nacionalistas buscan la libertad de su pueblo. Están bien dirigidos y equipados, y se afanarán en lograr la independencia de su nación.;;;;;;;;;x
+nationalist_rebels_army;$COUNTRY$ Nationalists;$COUNTRY$ Nationalistes;$COUNTRY$ Nationalisten;;Nacionalistas de $COUNTRY$;;;;;;;;;x
+patriot_rebels_title;Patriot;Patriote;Patriot;;Patriotas;;;;;;;;;x
+patriot_rebels_name;$INDEP$ Patriots;$INDEP$ Patriotes;$INDEP$ Patrioten;;Patriotas de $INDEP$;;;;;;;;;x
+patriot_rebels_desc;Patriot rebels dream of unification with their cultural kin under a free banner. Beware, because provinces taken by them may defect.;Les rebels patriotes rêvent d'être unifiés à leur tribu culturelle sous une bannière libre. Prenez garde, les provinces sous leur contrôle peuvent déserter.;Patriotische Rebellen träumen davon, mit ihren Gleichgesinnten einen eigenen Staat zu gründen. Seien Sie auf der Hut, denn von diesen Rebellen übernommene Provinzen könnten sich abspalten.;;Los rebeldes patriotas sueñan con la unificación de su ámbito cultural bajo una bandera soberana. Cuidado, pues las provincias que caigan en sus manos pueden desertar.;;;;;;;;;x
+patriot_rebels_army;$COUNTRY$ Patriots;$COUNTRY$ Patriotes;$COUNTRY$ Patrioten;;Patriotas de $COUNTRY$;;;;;;;;;x
+partisans_title;Partisans;Partisans;Partisanen;;Partisanos;;;;;;;;;x
+partisans_name;Partisans;Partisans;Partisanen;;Partisanos;;;;;;;;;x
+partisans_desc;Partisans fight against enemy occupiers, and they dream of expelling their enemy from the country.;Les partisans se battent contre l'occupant ennemi tout en rêvant de chasser leur ennemi du pays.;Partisanen kämpfen gegen feindliche Besatzungstruppen und träumen davon, den Feind aus ihrem Land zu vertreiben.;;Los partisanos luchan contra el enemigo ocupante y albergan el sueño de expulsarlo de su país.;;;;;;;;;x
+partisans_army;$COUNTRY$ Partisans;$COUNTRY$ Partisans;$COUNTRY$ Partisanen;;Partisanos de $COUNTRY$;;;;;;;;;x
+disgruntled_rabble_title;Disgruntled Rabble;Populace en colère;Aufstand gegen die Besatzer;;Chusma descontenta;;;;;;;;;x
+disgruntled_rabble_name;Disgruntled Rabble;Populace en colère;Aufstand gegen die Besatzer;;Chusma descontenta;;;;;;;;;x
+disgruntled_rabble_desc;These are dissaffected citizens that have formed a big mob focused merely on looting and pillaging.;Ce sont des citoyens mécontents qui ont formé une foule dont le but est principalement le pillage.;Widerstandskämpfer in dieser Provinz haben sich organsiert und die Kontrolle an sich gerissen.;;Se trata de ciudadanos insatisfechos que han formado una gran chusma cuyo único objetivo es el saqueo y el pillaje.;;;;;;;;;x
+disgruntled_rabble_army;$COUNTRY$ Revolters;$COUNTRY$ Révoltés;$COUNTRY$ Revoluzzer;;Rebeldes de $COUNTRY$;;;;;;;;;x
+guerrilla_rebels_title;Guerrillas;;;;;;;;;;;;;x
+guerrilla_rebels_name;Guerrillas;;;;;;;;;;;;;x
+guerrilla_rebels_desc;These are partisans who have been organized and equipped thanks to another country's sponsorship with the objective of expelling their common enemy from the country.;;;;;;;;;;;;;x
+guerrilla_rebels_army;$COUNTRY$ Guerrillas;;;;;;;;;;;;;x
+algerian_fln_rebels_title;FLN;;;;;;;;;;;;;x
+algerian_fln_rebels_name;$INDEP$ FLN;;;;;;;;;;;;;x
+algerian_fln_rebels_desc;Front de Libération Nationale, hence FLN, is primarily an Algerian nationalist, Arab socialist political party. Defining Islam as it's main foundation for national counciousness it opposes colonialism and doctrinaire Marxism. The focus of the party and the movement is to obtaining independence for Algeria.;;;;;;;;;;;;;x
+algerian_fln_rebels_army;$COUNTRY$ FLN;;;;;;;;;;;;;x
+pathet_lao_rebels_title;Pathet Lao;;;;;;;;;;;;;x
+pathet_lao_rebels_name;$INDEP$ Pathet Lao;;;;;;;;;;;;;x
+pathet_lao_rebels_desc;Focusing on Laos, the Pathet Lao is a communist nationalist rebel army. They are well led and equipped, and they fight for the independence for their nation.;;;;;;;;;;;;;x
+pathet_lao_rebels_army;$COUNTRY$ Pathet Lao;;;;;;;;;;;;;x
+viet_cong_rebels_title;Viet Cong;;;;;;;;;;;;;x
+viet_cong_rebels_name;$INDEP$ Viet Cong;;;;;;;;;;;;;x
+viet_cong_rebels_desc;Focusing on South Vietnam, the Viet Cong is a political organization as well as a left-wing Vietnamese nationalist and communist rebel army. They are well led and equipped, and they fight for the independence for their nation.;;;;;;;;;;;;;x
+viet_cong_rebels_army;$COUNTRY$ Viet Cong;;;;;;;;;;;;;x
+political_revolters_title;Political Rebels;;;;;;;;;;;;;x
+political_revolters_name;$INDEP$ Political Rebels;;;;;;;;;;;;;x
+political_revolters_desc;Focusing on a particular political issue, usually fuelled by dissatisfaction with or opposition to the policies and actions of our government. These groups expressions may take forms from vocal disagreement to civil disobedience to the use of violence. ;;;;;;;;;;;;;x
+political_revolters_army;$COUNTRY$ Political Rebels;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+### Uprising event modifiers ###;;;;;;;;;;;;;;x
+##################################################;;;;;;;;;;;;;;x
+IDC_communist_rebellion_modifier;Rebel infiltration;;;;;;;;;;;;;x
+desc_IDC_communist_rebellion_modifier;Our nation has been infiltrated by rebels!;;;;;;;;;;;;;x

@@ -1,0 +1,331 @@
+color = { 113  138  183 }
+graphical_culture = Generic
+
+default_templates = {
+	USA_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	USA_armored_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	USA_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	USA_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	USA_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	USA_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	USA_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	USA_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	USA_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	USA_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={} 
+ministers = {
+
+# Acceptable IDs 1214000 - 1214999
+
+# Starting HoS and HoG ---------------------
+	1214001 = {
+		name = "Tiburcio Carías Andino" 
+		ideology = social_cons_idolg         #paternal_auto_idolg
+		loyalty = 0.90
+		picture = HON_M_Andino_Tiburcio_C
+		head_of_government = parental_type
+		head_of_state = parental_type
+		start_date = 1933.02.01
+		death_date = 1956.10.21
+	}
+	
+# HoS and HoG ---------------------	
+	1214002 = {
+		name = "Juan Manuel Gálvez"
+		ideology = social_cons_idolg      
+		loyalty = 1.00
+		picture = HON_M_Galvez_Juan_M
+		head_of_government = reformer_type
+		head_of_state = reformer_type
+		start_date = 1949.01.01
+		death_date = 1954.12.05
+	}
+	1214003 = {
+		name = "Julio Lozano Díaz"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = HON_M_Diaz_Julio_L
+		head_of_government = lethargic_type
+		head_of_state = lethargic_type
+		start_date = 1954.12.05
+		death_date = 1956.10.21
+	}
+	1214004 = {
+		name = "Ramón Villeda Morales"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = HON_M_Morales_Ramon_V
+		head_of_government = democrat_type
+		head_of_state = democrat_type
+		start_date = 1956.10.21
+		death_date = 1963.10.03
+	}
+	
+	#Dictatorship - Turned social_cons to preserve elections held.
+	1214005 = {
+		name = "Oswaldo López Arellano"
+		ideology = social_cons_idolg
+		loyalty = 0.90
+		picture = HON_M_Arellano_Oswaldo_L
+		head_of_government = autocrat_type
+		head_of_state = autocrat_type
+		start_date = 1963.10.03
+		death_date = 1975.04.22
+	}
+	#Elected HoSs
+	1214006 = {
+		name = "Ramón Ernesto Cruz Uclés"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = HON_M_Ucles_Ramon_E_C
+		head_of_state = traditionalist_type
+		start_date = 1971.06.07
+		death_date = 1972.12.04
+	}
+	
+	#Dictators continued, social conserve to preserve semi-democratic institutions
+	1214007 = {
+		name = "Juan Alberto Melgar Castro"
+		ideology = social_cons_idolg    #paternal_auto_idolg
+		loyalty = 1.00
+		picture = HON_M_Castro_Juan_A_M
+		head_of_government = lethargic_type
+		head_of_state = lethargic_type
+		start_date = 1975.04.22
+		death_date = 1978.08.07
+	}
+	1214008 = {
+		name = "Policarpo Paz García"
+		ideology = social_cons_idolg    #paternal_auto_idolg
+		loyalty = 1.00
+		picture = HON_M_Garcia_Policarpo_Paz
+		head_of_government = dictator_type
+		head_of_state = dictator_type
+		start_date = 1978.08.07
+		death_date = 1982.01.27
+	}
+	
+	#Return to normal elections
+	1214009 = {
+		name = "Roberto Suazo Córdova"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = HON_M_Cordova_Roberto_S
+		head_of_government = ambitious_type
+		head_of_state = ambitious_type
+		start_date = 1982.01.27
+		death_date = 1986.01.27
+	}
+	1214010 = {
+		name = "José Azcona del Hoyo"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = HON_M_Hoyo_Jose_A
+		head_of_government = bureaucrat_type
+		head_of_state = bureaucrat_type
+		start_date = 1986.01.27
+		death_date = 1990.01.27
+	}
+	1214011 = {
+		name = "Rafael Leonardo Callejas Romero"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = HON_M_Romero_Rafael_L_C
+		head_of_government = reformer_type
+		head_of_state = reformer_type
+		start_date = 1986.01.27
+		death_date = 1994.01.27
+	}
+	1214012 = {
+		name = "Carlos Roberto Flores Facussé"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = HON_M_Facusse_Carlos_R_F
+		head_of_government = traditionalist_type
+		head_of_state = traditionalist_type
+		start_date = 1990.01.27
+		death_date = 1994.01.27
+	}
+	
+	#Alts --------------------------
+	1214013 = { #P
+		name = "Dionisio Ramos Bejarano"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = HON_M_Bejarano_Dionisio_R
+		head_of_government = supreme_leader
+		head_of_state = supreme_leader
+		start_date = 1948.1.1
+		death_date = 1992.1.1
+	}
+	
+	1214014 = { #P
+		name = "Dr. Miguel A. Fernández"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = HON_M_Fernandez_Miguel_A
+		head_of_government = reformer_type
+		head_of_state = reformer_type
+		start_date = 1982.1.27
+		death_date = 1986.1.27
+	}
+	1214015 = { #P
+		name = "Dr. Enrique A. C. Paz"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = HON_M_Paz_Enrique
+		head_of_government = moral_type
+		head_of_state = moral_type
+		start_date = 1986.1.27
+		death_date = 1990.1.27
+	}
+	
+	1214016 = { #P
+		name = "Ramos Dionisio Bejarano"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = HON_M_Bejarano_Ramos_D
+		head_of_government = zealous_type
+		head_of_state = zealous_type
+		start_date = 1946.1.1
+		death_date = 1992.1.1
+	}
+	1214017 = { #P
+		name = "Rigoberto Padilla Rush"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = HON_M_Rush_Rigoberto_P
+		head_of_government = zealous_type
+		head_of_state = zealous_type
+		start_date = 1954.1.1
+		death_date = 1998.10.24
+	}
+	1214018 = { #P
+		name = "Mario Virgilio Caras"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = HON_M_Caras_Mario_V
+		head_of_government = courageous_type
+		head_of_state = courageous_type
+		start_date = 1975.1.1
+		death_date = 1992.1.1
+	}
+	1214019 = { #P
+		name = "Rogelio Martinez Reina"
+		ideology = left_wing_radical_idolg
+		loyalty = 0.50
+		picture = HON_M_Reina_Rogelio_M
+		head_of_government = courageous_type
+		head_of_state = courageous_type
+		start_date = 1975.1.1
+		death_date = 1992.1.1
+	}
+	
+	1214020 = { #P
+		name = "Roque J. Rodriguez"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = HON_M_Rodriguez_Roque_J
+		head_of_government = ambitious_type
+		head_of_state = ambitious_type
+		start_date = 1946.01.01
+		death_date = 1976.01.01
+	}
+	1214021 = { #P
+		name = "Hector Caraccioli"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = HON_M_Caraccioli_Hector
+		head_of_government = ambitious_type
+		head_of_state = ambitious_type
+		start_date = 1952.01.01 
+		death_date = 1992.01.01 
+	}
+	1214022 = { #P
+		name = "Roberto Galvez"
+		ideology = paternal_auto_idolg
+		loyalty = 0.50
+		picture = HON_M_Galvez_Roberto
+		head_of_government = ambitious_type
+		head_of_state = ambitious_type
+		start_date = 1955.01.01 
+		death_date = 1995.01.01 
+	}
+	1214023 = { #P
+		name = "Ramón Amaya Amador"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = HON_M_Amador_Ramon_A
+		head_of_government = liberal_type
+		head_of_state = liberal_type
+		start_date = 1946.1.1 
+		death_date = 1966.11.24 
+	}
+	1214024 = { #P
+		name = "Angel Zúñiga Huete"
+		ideology = market_liberal_idolg
+		loyalty = 0.50
+		picture = HON_M_Huete_Angel_Z
+		head_of_government = reformer_type
+		head_of_state = reformer_type
+		start_date = 1932.11.1
+		death_date = 1953.6.17
+	}
+	
+
+}

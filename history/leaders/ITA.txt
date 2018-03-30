@@ -1,0 +1,2741 @@
+1426025 = {
+	name = "Graziano Padovesi"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1426014 = {
+	name = "Girolamo Cocci"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.1.1 = { rank = 0 }
+	}
+}
+1426015 = {
+	name = "Ugo Piccio"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.10.1 = { rank = 0 }
+	}
+}
+1426005 = {
+	name = "Graziano Padovesi"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 2 }
+		1949.2.1 = { rank = 0 }
+	}
+}
+1426017 = {
+	name = "Giacomo Pisani"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1426026 = {
+	name = "Fausto Greece"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1949.10.1 = { rank = 0 }
+	}
+}
+1426008 = {
+	name = "Gianmarco Zetticci"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1426029 = {
+	name = "Orlando Siciliani"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = logistics_wizard
+	history = {
+		1948.10.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1426030 = {
+	name = "Mario Fiorentini"
+	type = land
+	country = ITA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1949.2.1 = { rank = 1 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1426007 = {
+	name = "Luchino Lombardi"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1426020 = {
+	name = "Silvestro Sagese"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.10.1 = { rank = 3 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1426031 = {
+	name = "Ottavio Dellucci"
+	type = land
+	country = ITA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.3.1 = { rank = 1 }
+		1951.3.1 = { rank = 0 }
+	}
+}
+1426024 = {
+	name = "Gianni Piazza"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.10.1 = { rank = 4 }
+		1952.8.1 = { rank = 0 }
+	}
+}
+1426012 = {
+	name = "Matteo Nucci"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.7.1 = { rank = 0 }
+	}
+}
+1426035 = {
+	name = "Niccolò Mancini"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1951.4.1 = { rank = 1 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1426000 = {
+	name = "Pasquale Baresi"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.8.1 = { rank = 0 }
+	}
+}
+1426019 = {
+	name = "Luca Gallo"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1426038 = {
+	name = "Pasqual Rizzo"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1951.3.1 = { rank = 1 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1426040 = {
+	name = "Fiorino Folliero"
+	type = land
+	country = ITA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.7.1 = { rank = 1 }
+		1957.12.1 = { rank = 0 }
+	}
+}
+1426018 = {
+	name = "Pasquale Cattaneo"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.7.1 = { rank = 3 }
+		1957.7.1 = { rank = 0 }
+	}
+}
+1426010 = {
+	name = "Gianfranco Mazzi"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.10.1 = { rank = 2 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1426016 = {
+	name = "Pasqual Marino"
+	type = land
+	country = ITA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.1.1 = { rank = 0 }
+	}
+}
+1426033 = {
+	name = "Valentino Palerma"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1950.4.1 = { rank = 1 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1426044 = {
+	name = "Gaetano Fanucci"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1956.4.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1426021 = {
+	name = "Gaspare Pisani"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.10.1 = { rank = 3 }
+		1952.8.1 = { rank = 4 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1426034 = {
+	name = "Cesare Ferrari"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1961.10.1 = { rank = 0 }
+	}
+}
+1426013 = {
+	name = "Eduardo Angelo"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.7.1 = { rank = 2 }
+		1961.3.1 = { rank = 0 }
+	}
+}
+1426036 = {
+	name = "Beppe Trevisan"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1951.8.1 = { rank = 1 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1426039 = {
+	name = "Fabrizio Mancini"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.8.1 = { rank = 1 }
+		1963.1.1 = { rank = 0 }
+	}
+}
+1426023 = {
+	name = "Agnolo Trevisan"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.7.1 = { rank = 3 }
+		1960.5.1 = { rank = 4 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1426006 = {
+	name = "Corrado Longo"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.5.1 = { rank = 2 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1426041 = {
+	name = "Salvi Sabbatini"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1954.1.1 = { rank = 1 }
+		1956.12.1 = { rank = 2 }
+		1960.5.1 = { rank = 3 }
+		1964.1.1 = { rank = 0 }
+	}
+}
+1426003 = {
+	name = "Ugo Marino"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1965.9.1 = { rank = 0 }
+	}
+}
+1426058 = {
+	name = "Luciano Loggia"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1964.1.1 = { rank = 1 }
+		1966.1.1 = { rank = 0 }
+	}
+}
+1426046 = {
+	name = "Gustavo Calabrese"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1957.7.1 = { rank = 1 }
+		1966.2.1 = { rank = 0 }
+	}
+}
+1426037 = {
+	name = "Adelmo Moretti"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.10.1 = { rank = 1 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1426022 = {
+	name = "Agnolo Lucchesi"
+	type = land
+	country = ITA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1966.11.1 = { rank = 0 }
+	}
+}
+1426042 = {
+	name = "Osvaldo Lombardi"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1955.8.1 = { rank = 1 }
+		1964.1.1 = { rank = 2 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1426004 = {
+	name = "Lorenzo Ricci"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1426001 = {
+	name = "Orlando Fallaci"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.10.1 = { rank = 0 }
+	}
+}
+1426032 = {
+	name = "Gianluca Pagnotto"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1949.10.1 = { rank = 1 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1426054 = {
+	name = "Giovanni Longo"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1962.11.1 = { rank = 1 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1426066 = {
+	name = "Orazio Baresi"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1967.10.1 = { rank = 1 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1426063 = {
+	name = "Gustavo Cremonesi"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.11.1 = { rank = 1 }
+		1968.10.1 = { rank = 0 }
+	}
+}
+1426053 = {
+	name = "Umberto Padovesi"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1961.3.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1426045 = {
+	name = "Baldassare Nucci"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.12.1 = { rank = 1 }
+		1969.10.1 = { rank = 0 }
+	}
+}
+1426064 = {
+	name = "Ugo Iadanza"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.12.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1426071 = {
+	name = "Gianfrancesco Marcelo"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1968.2.1 = { rank = 1 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1426002 = {
+	name = "Mario Trevisani"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.10.1 = { rank = 2 }
+		1964.1.1 = { rank = 3 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1426056 = {
+	name = "Lucio Trevisan"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.3.1 = { rank = 1 }
+		1972.10.1 = { rank = 0 }
+	}
+}
+1426057 = {
+	name = "Pasqual Capon"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.3.1 = { rank = 1 }
+		1972.6.1 = { rank = 0 }
+	}
+}
+1426061 = {
+	name = "Giovanni Battista Trentini"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.2.1 = { rank = 1 }
+		1973.8.1 = { rank = 0 }
+	}
+}
+1426011 = {
+	name = "Agostino Lorenzo"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.4.1 = { rank = 2 }
+		1973.11.1 = { rank = 0 }
+	}
+}
+1426059 = {
+	name = "Gustavo Romani"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.9.1 = { rank = 1 }
+		1973.5.1 = { rank = 0 }
+	}
+}
+1426055 = {
+	name = "Corrado Cattaneo"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.1.1 = { rank = 1 }
+		1973.1.1 = { rank = 0 }
+	}
+}
+1426048 = {
+	name = "Adamo Lombardo"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.1.1 = { rank = 1 }
+		1961.3.1 = { rank = 2 }
+		1964.3.1 = { rank = 3 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1426081 = {
+	name = "Durante Schiavone"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.1.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1426009 = {
+	name = "Amadeo Endrizzi"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.2.1 = { rank = 2 }
+		1952.8.1 = { rank = 3 }
+		1964.3.1 = { rank = 4 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1426074 = {
+	name = "Jacopo Trentini"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1971.3.1 = { rank = 1 }
+		1971.3.1 = { rank = 2 }
+		1975.3.1 = { rank = 0 }
+	}
+}
+1426065 = {
+	name = "Adriano Greece"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.12.1 = { rank = 1 }
+		1976.3.1 = { rank = 0 }
+	}
+}
+1426072 = {
+	name = "Fabrizio Baresi"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1969.10.1 = { rank = 1 }
+		1977.10.1 = { rank = 0 }
+	}
+}
+1426075 = {
+	name = "Simone Bergamaschi"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.3.1 = { rank = 1 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1426069 = {
+	name = "Jacopo Milanesi"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.4.1 = { rank = 1 }
+		1978.3.1 = { rank = 0 }
+	}
+}
+1426062 = {
+	name = "Cosimo Bruno"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.10.1 = { rank = 1 }
+		1966.11.1 = { rank = 2 }
+		1974.11.1 = { rank = 3 }
+		1978.2.1 = { rank = 0 }
+	}
+}
+1426051 = {
+	name = "Adelmo Padovano"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1426085 = {
+	name = "Giorgio Beneventi"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1975.3.1 = { rank = 1 }
+		1980.10.1 = { rank = 0 }
+	}
+}
+1426052 = {
+	name = "Federico Trentino"
+	type = land
+	country = ITA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.10.1 = { rank = 1 }
+		1973.11.1 = { rank = 2 }
+		1981.1.1 = { rank = 0 }
+	}
+}
+1426047 = {
+	name = "Claudio Siciliani"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.4.1 = { rank = 1 }
+		1964.3.1 = { rank = 2 }
+		1982.5.1 = { rank = 0 }
+	}
+}
+1426088 = {
+	name = "Damiano Moretti"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.12.1 = { rank = 1 }
+		1981.1.1 = { rank = 2 }
+		1983.5.1 = { rank = 0 }
+	}
+}
+1426092 = {
+	name = "Renato Buccho"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.10.1 = { rank = 1 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1426079 = {
+	name = "Matteo Udinese"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.11.1 = { rank = 1 }
+		1974.11.1 = { rank = 2 }
+		1984.7.1 = { rank = 0 }
+	}
+}
+1426067 = {
+	name = "Pasquale Cocci"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1967.2.1 = { rank = 1 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1426043 = {
+	name = "Giulio Calabrese"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.12.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1426093 = {
+	name = "Niccolò Cremonesi"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1981.1.1 = { rank = 1 }
+		1982.5.1 = { rank = 2 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1426086 = {
+	name = "Salvi Ferrari"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1976.3.1 = { rank = 1 }
+		1985.6.1 = { rank = 2 }
+		1986.5.1 = { rank = 0 }
+	}
+}
+1426094 = {
+	name = "Silvio Lombardo"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1982.5.1 = { rank = 1 }
+		1987.2.1 = { rank = 0 }
+	}
+}
+1426090 = {
+	name = "Sandro Trevisani"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1978.2.1 = { rank = 1 }
+		1987.6.1 = { rank = 0 }
+	}
+}
+1426087 = {
+	name = "Gianpaolo Panicucci"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.10.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1426060 = {
+	name = "Umberto Calabresi"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1966.1.1 = { rank = 1 }
+		1986.5.1 = { rank = 2 }
+		1988.6.1 = { rank = 0 }
+	}
+}
+1426103 = {
+	name = "Valentino Sal"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1987.6.1 = { rank = 1 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1426082 = {
+	name = "Dino Beneventi"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.11.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1426077 = {
+	name = "Silvio Conti"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1972.6.1 = { rank = 1 }
+		1984.7.1 = { rank = 2 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1426070 = {
+	name = "Romolo Trevisano"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.10.1 = { rank = 1 }
+		1975.9.1 = { rank = 2 }
+		1978.2.1 = { rank = 3 }
+		1988.11.1 = { rank = 0 }
+	}
+}
+1426100 = {
+	name = "Gaetano Boni"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1985.6.1 = { rank = 1 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1426089 = {
+	name = "Bernardo Milanesi"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1978.3.1 = { rank = 1 }
+		1989.7.1 = { rank = 0 }
+	}
+}
+1426083 = {
+	name = "Arturo Bellucci"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1426076 = {
+	name = "Camillo Bergamaschi"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1972.10.1 = { rank = 1 }
+		1978.2.1 = { rank = 2 }
+		1988.11.1 = { rank = 3 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1426098 = {
+	name = "Valerio Zito"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1985.8.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1426027 = {
+	name = "Jacopo Pisani"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1967.12.1 = { rank = 2 }
+		1975.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426028 = {
+	name = "Ruggero Gallo"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.1.1 = { rank = 1 }
+		1952.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426049 = {
+	name = "Cosimo Longo"
+	type = land
+	country = ITA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426050 = {
+	name = "Vito De Luca"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.5.1 = { rank = 1 }
+		1964.3.1 = { rank = 2 }
+		1971.3.1 = { rank = 3 }
+		1975.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426068 = {
+	name = "Orazio Genovesi"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1967.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426073 = {
+	name = "Maurilio Padovano"
+	type = land
+	country = ITA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426078 = {
+	name = "Geppetto Gallo"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.8.1 = { rank = 1 }
+		1975.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426080 = {
+	name = "Constantino Calabresi"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1973.5.1 = { rank = 1 }
+		1983.5.1 = { rank = 2 }
+		1990.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426084 = {
+	name = "Pierluigi Sal"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426091 = {
+	name = "Gianluigi Genovese"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1979.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426095 = {
+	name = "Marco Folliero"
+	type = land
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.5.1 = { rank = 1 }
+		1988.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426096 = {
+	name = "Federico De Luca"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1983.9.1 = { rank = 1 }
+		1988.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426097 = {
+	name = "Giovanni Battista Calabresi"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426099 = {
+	name = "Giuliano Ferrari"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1985.11.1 = { rank = 1 }
+		1990.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426101 = {
+	name = "Armando Toscani"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426102 = {
+	name = "Giulio Cremonesi"
+	type = land
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1987.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426104 = {
+	name = "Adelmo Russo"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426105 = {
+	name = "Leonardo Beneventi"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426106 = {
+	name = "Marcello Bruno"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426107 = {
+	name = "Antonio Mancini"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.7.1 = { rank = 1 }
+		1988.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426108 = {
+	name = "Laureano Trevisano"
+	type = land
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1988.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426109 = {
+	name = "Beppe Lettiere"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = offensive_doctrine
+	history = {
+		1988.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426110 = {
+	name = "Maurizio Pisani"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426111 = {
+	name = "Zanob Monaldo"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1989.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426112 = {
+	name = "Orlando Milani"
+	type = land
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426113 = {
+	name = "Ivo Genovesi"
+	type = land
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426114 = {
+	name = "Amadeo Trentino"
+	type = land
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426123 = {
+	name = "Giorgio Conti"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.2.1 = { rank = 0 }
+	}
+}
+1426119 = {
+	name = "Geppetto Gallo"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.10.1 = { rank = 0 }
+	}
+}
+1426124 = {
+	name = "Mariano Buccho"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1426128 = {
+	name = "Stefano Pirozzi"
+	type = sea
+	country = ITA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1952.11.1 = { rank = 0 }
+	}
+}
+1426129 = {
+	name = "Valerio Fiorentini"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1948.2.1 = { rank = 1 }
+		1952.3.1 = { rank = 0 }
+	}
+}
+1426116 = {
+	name = "Nicola Sagese"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1426133 = {
+	name = "Giorgio Romano"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.3.1 = { rank = 1 }
+		1953.3.1 = { rank = 0 }
+	}
+}
+1426130 = {
+	name = "Ludovico Palerma"
+	type = sea
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1949.10.1 = { rank = 1 }
+		1953.12.1 = { rank = 0 }
+	}
+}
+1426117 = {
+	name = "Jacopo Davide"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.2.1 = { rank = 0 }
+	}
+}
+1426127 = {
+	name = "Saverio Siciliano"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1952.11.1 = { rank = 4 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1426137 = {
+	name = "Emilio Fiorentino"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.2.1 = { rank = 1 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1426122 = {
+	name = "Guarino Gallo"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.3.1 = { rank = 0 }
+	}
+}
+1426136 = {
+	name = "Ennio Fanucci"
+	type = sea
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.12.1 = { rank = 1 }
+		1957.11.1 = { rank = 0 }
+	}
+}
+1426126 = {
+	name = "Marco Lombardo"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.2.1 = { rank = 0 }
+	}
+}
+1426115 = {
+	name = "Amadeo Bruno"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1426120 = {
+	name = "Alfonso Milani"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.10.1 = { rank = 0 }
+	}
+}
+1426135 = {
+	name = "Fabio Pirozzi"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.3.1 = { rank = 1 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1426145 = {
+	name = "Michelangelo Cattaneo"
+	type = sea
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.1.1 = { rank = 1 }
+		1962.7.1 = { rank = 0 }
+	}
+}
+1426118 = {
+	name = "Diego Milani"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.8.1 = { rank = 2 }
+		1967.11.1 = { rank = 0 }
+	}
+}
+1426125 = {
+	name = "Orlando Milanesi"
+	type = sea
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.11.1 = { rank = 3 }
+		1956.8.1 = { rank = 4 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1426146 = {
+	name = "Santino Giordano"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1962.7.1 = { rank = 1 }
+		1967.2.1 = { rank = 2 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1426140 = {
+	name = "Federico Rossi"
+	type = sea
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.3.1 = { rank = 1 }
+		1967.11.1 = { rank = 2 }
+		1967.11.1 = { rank = 3 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1426149 = {
+	name = "Federico Romano"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1968.4.1 = { rank = 1 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1426139 = {
+	name = "Cosimo Cocci"
+	type = sea
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.3.1 = { rank = 1 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1426138 = {
+	name = "Salvi Cattaneo"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.8.1 = { rank = 1 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1426150 = {
+	name = "Valerio Marchesi"
+	type = sea
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1426134 = {
+	name = "Stefano Beneventi"
+	type = sea
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1952.12.1 = { rank = 1 }
+		1957.2.1 = { rank = 2 }
+		1969.7.1 = { rank = 3 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1426143 = {
+	name = "Teodoro Marchesi"
+	type = sea
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.5.1 = { rank = 1 }
+		1970.9.1 = { rank = 2 }
+		1971.9.1 = { rank = 0 }
+	}
+}
+1426148 = {
+	name = "Sandro Beneventi"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.2.1 = { rank = 1 }
+		1969.7.1 = { rank = 2 }
+		1970.9.1 = { rank = 3 }
+		1971.11.1 = { rank = 0 }
+	}
+}
+1426151 = {
+	name = "Dino Lucchese"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1969.8.1 = { rank = 1 }
+		1972.2.1 = { rank = 0 }
+	}
+}
+1426155 = {
+	name = "Amadeo Toscano"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.9.1 = { rank = 1 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1426141 = {
+	name = "Giuliano Folliero"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.11.1 = { rank = 1 }
+		1976.1.1 = { rank = 0 }
+	}
+}
+1426160 = {
+	name = "Dario Cocci"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.1.1 = { rank = 1 }
+		1977.1.1 = { rank = 0 }
+	}
+}
+1426158 = {
+	name = "Valerio Iadanza"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.2.1 = { rank = 1 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1426154 = {
+	name = "Filippo Fallaci"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1426152 = {
+	name = "Angelo Trevisano"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1969.7.1 = { rank = 1 }
+		1971.11.1 = { rank = 2 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1426159 = {
+	name = "Filippo Zetticci"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1973.3.1 = { rank = 1 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1426157 = {
+	name = "Rodolfo Padovesi"
+	type = sea
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1971.11.1 = { rank = 1 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1426153 = {
+	name = "Bernardo Arcuri"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1969.6.1 = { rank = 1 }
+		1984.10.1 = { rank = 0 }
+	}
+}
+1426166 = {
+	name = "Fausto Endrizzi"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1983.9.1 = { rank = 1 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1426147 = {
+	name = "Gaetano Lorenzo"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1967.11.1 = { rank = 1 }
+		1988.3.1 = { rank = 0 }
+	}
+}
+1426156 = {
+	name = "Osvaldo Esposito"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.9.1 = { rank = 1 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1426163 = {
+	name = "Vito Siciliani"
+	type = sea
+	country = ITA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.12.1 = { rank = 1 }
+		1982.1.1 = { rank = 2 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1426165 = {
+	name = "Giovanni Battista Napolitano"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1988.9.1 = { rank = 0 }
+	}
+}
+1426161 = {
+	name = "Matteo Dellucci"
+	type = sea
+	country = ITA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	add_trait = blockade_runner
+	history = {
+		1977.1.1 = { rank = 1 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1426144 = {
+	name = "Giuliano Schiavone"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1960.10.1 = { rank = 1 }
+		1988.3.1 = { rank = 0 }
+	}
+}
+1426132 = {
+	name = "Mirko Esposito"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1952.11.1 = { rank = 1 }
+		1968.4.1 = { rank = 2 }
+		1971.11.1 = { rank = 3 }
+		1989.11.1 = { rank = 0 }
+	}
+}
+1426167 = {
+	name = "Niccolò Calabresi"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1984.10.1 = { rank = 1 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1426172 = {
+	name = "Macuto Napolitano"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.9.1 = { rank = 1 }
+		1990.3.1 = { rank = 0 }
+	}
+}
+1426170 = {
+	name = "Alfredo Trentino"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = blockade_runner
+	history = {
+		1988.2.1 = { rank = 1 }
+		1988.2.1 = { rank = 2 }
+		1989.11.1 = { rank = 3 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1426121 = {
+	name = "Ottavio Napolitani"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426131 = {
+	name = "Cesare Trevisan"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.1.1 = { rank = 1 }
+		1952.11.1 = { rank = 2 }
+		1956.8.1 = { rank = 3 }
+		1967.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426142 = {
+	name = "Pasqual Pisani"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1957.2.1 = { rank = 1 }
+		1971.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426162 = {
+	name = "Alberto Fanucci"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1977.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426164 = {
+	name = "Vincenzo Romano"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1989.11.1 = { rank = 2 }
+		1990.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426168 = {
+	name = "Silvio Rizzo"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1985.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426169 = {
+	name = "Saverio Sagese"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426171 = {
+	name = "Mirko Trevisan"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1988.2.1 = { rank = 1 }
+		1990.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426173 = {
+	name = "Omero Trentino"
+	type = sea
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426174 = {
+	name = "Macuto Ferri"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426175 = {
+	name = "Lorenzo Mazzi"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426176 = {
+	name = "Cosimo Napolitano"
+	type = sea
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426177 = {
+	name = "Pasquale Nucci"
+	type = sea
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1990.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426178 = {
+	name = "Gianfrancesco Genovesi"
+	type = sea
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426182 = {
+	name = "Arlo Moretti"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.10.1 = { rank = 0 }
+	}
+}
+1426185 = {
+	name = "Dario Lucchesi"
+	type = air
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.5.1 = { rank = 0 }
+	}
+}
+1426183 = {
+	name = "Guarino Moretti"
+	type = air
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1426181 = {
+	name = "Benedetto Toscani"
+	type = air
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.5.1 = { rank = 2 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1426179 = {
+	name = "Leonardo Padovesi"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.4.1 = { rank = 0 }
+	}
+}
+1426184 = {
+	name = "Daniele Lo Duca"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1426190 = {
+	name = "Pietro Greece"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.9.1 = { rank = 1 }
+		1961.3.1 = { rank = 0 }
+	}
+}
+1426189 = {
+	name = "Federico Trentini"
+	type = air
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.5.1 = { rank = 1 }
+		1952.9.1 = { rank = 2 }
+		1964.5.1 = { rank = 0 }
+	}
+}
+1426195 = {
+	name = "Adriano Trevisani"
+	type = air
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1964.5.1 = { rank = 1 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1426194 = {
+	name = "Agnolo Milani"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.3.1 = { rank = 1 }
+		1969.1.1 = { rank = 0 }
+	}
+}
+1426193 = {
+	name = "Alessandro Dellucci"
+	type = air
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.10.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1426186 = {
+	name = "Gianfrancesco Giordano"
+	type = air
+	country = ITA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1972.8.1 = { rank = 0 }
+	}
+}
+1426192 = {
+	name = "Ugo Marino"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1953.4.1 = { rank = 1 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1426196 = {
+	name = "Ugo Angelo"
+	type = air
+	country = ITA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.3.1 = { rank = 1 }
+		1972.8.1 = { rank = 2 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1426201 = {
+	name = "Severino Trentini"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1977.2.1 = { rank = 1 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1426198 = {
+	name = "Paolo Russo"
+	type = air
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1426199 = {
+	name = "Luigi Toscani"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.8.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1426202 = {
+	name = "Mauro Fanucci"
+	type = air
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.9.1 = { rank = 1 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1426203 = {
+	name = "Mirko Pisani"
+	type = air
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1979.10.1 = { rank = 1 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1426188 = {
+	name = "Camillo Cattaneo"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = night_flyer
+	add_trait = carpet_bomber
+	history = {
+		1949.10.1 = { rank = 1 }
+		1953.10.1 = { rank = 2 }
+		1972.8.1 = { rank = 3 }
+		1988.3.1 = { rank = 0 }
+	}
+}
+1426180 = {
+	name = "Severino Manfrin"
+	type = air
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426187 = {
+	name = "Raffaello Rossi"
+	type = air
+	country = ITA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426191 = {
+	name = "Amedeo Marino"
+	type = air
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1952.9.1 = { rank = 1 }
+		1964.5.1 = { rank = 2 }
+		1988.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426197 = {
+	name = "Gianluca Pagnotto"
+	type = air
+	country = ITA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	add_trait = superior_air_tactician
+	history = {
+		1969.1.1 = { rank = 1 }
+		1977.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426200 = {
+	name = "Giulio Bianchi"
+	type = air
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1974.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426204 = {
+	name = "Ferdinando Lucciano"
+	type = air
+	country = ITA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426205 = {
+	name = "Fabrizio Padovano"
+	type = air
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426206 = {
+	name = "Sandro Greece"
+	type = air
+	country = ITA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.7.1 = { rank = 1 }
+		1988.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1426207 = {
+	name = "Mariano Milano"
+	type = air
+	country = ITA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

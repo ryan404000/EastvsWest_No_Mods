@@ -1,0 +1,47 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6280
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 6280
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 6280
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 2 strength = 36 experience = 5 }
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 1 strength = 38 experience = 6 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 1 strength = 34 experience = 5 }
+		}
+	}
+	
+	air = {
+		name = "1st Air Force"
+		base = 6280
+		location = 6280
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 2 strength = 70 builder = SOV }
+	}
+	navy = {	
+		name = "1st Fleet"
+		base = 6280
+		location = 6280
+		ship = { type = attack_submarine name = "N-022" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "N-024" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "N-331" historical_model = 0 builder = SOV }
+		ship = { type = attack_submarine name = "N-423" historical_model = 0 builder = SOV }
+	}
+
+}
+division =
+{
+	name = "2nd Division"
+	location = 6281
+	pool = yes
+	regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 1 strength = 36 experience = 5 }
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 1 strength = 37 experience = 4 }
+}

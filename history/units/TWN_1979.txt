@@ -1,0 +1,258 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 13057
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 2 }
+	army =
+	{
+		name = "25th Army"
+		location = 13189
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 2 }
+
+		division =
+		{
+			name = "120th Division"
+			location = 13189
+			regiment = { type = infantry_brigade name = "149th Infantry Brigade" historical_model = 2 strength = 34 experience = 10 }
+			regiment = { type = light_mechanized_brigade name = "149th L. Mech. Brigade" historical_model = 2 strength = 34 experience = 10 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 2 strength = 25 experience = 10 }
+		}
+		division =
+		{
+			name = "121st Division"
+			location = 13189
+			regiment = { type = infantry_brigade name = "150th Infantry Brigade" historical_model = 2 strength = 30 experience = 9 }
+			regiment = { type = militia_brigade name = "318th Militia Brigade" historical_model = 2 strength = 32 experience = 10 }
+		}
+		division =
+		{
+			name = "122nd Division"
+			location = 13189
+			regiment = { type = infantry_brigade name = "152nd Infantry Brigade" historical_model = 2 strength = 31 experience = 10 }
+		}
+		division =
+		{
+			name = "123rd Division"
+			location = 13125
+			regiment = { type = infantry_brigade name = "153rd Infantry Brigade" historical_model = 2 strength = 32 experience = 10 }
+			regiment = { type = militia_brigade name = "323rd Militia Brigade" historical_model = 2 strength = 33 experience = 9 }
+		}
+		division =
+		{
+			name = "124th Division"
+			location = 13190
+			regiment = { type = infantry_brigade name = "154th Infantry Brigade" historical_model = 2 strength = 33 experience = 10 }
+			regiment = { type = militia_brigade name = "326th Militia Brigade" historical_model = 2 strength = 30 experience = 10 }
+		}
+	}army =
+	{
+		name = "3rd Army"
+		location = 13189
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 2 }
+
+		division =
+		{
+			name = "10th Division"
+			location = 13189
+			regiment = { type = light_mechanized_brigade name = "15th L. Mech. Brigade" historical_model = 2 strength = 34 experience = 10 }
+			regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 1 strength = 32 experience = 10 }
+			regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 2 strength = 25 experience = 10 }
+		}
+		division =
+		{
+			name = "11th Division"
+			location = 13125
+			regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 2 strength = 32 experience = 10 }
+			regiment = { type = militia_brigade name = "20th Militia Brigade" historical_model = 2 strength = 33 experience = 10 }
+		}
+		division =
+		{
+			name = "12th Division"
+			location = 13125
+			regiment = { type = infantry_brigade name = "18th Infantry Brigade" historical_model = 1 strength = 33 experience = 8 }
+			regiment = { type = militia_brigade name = "23rd Militia Brigade" historical_model = 2 strength = 30 experience = 7 }
+			regiment = { type = infantry_brigade name = "19th Infantry Brigade" historical_model = 1 strength = 32 experience = 8 }
+		}
+		division =
+		{
+			name = "13th Division"
+			location = 13190
+			regiment = { type = infantry_brigade name = "20th Infantry Brigade" historical_model = 1 strength = 34 experience = 8 }
+			regiment = { type = light_mechanized_brigade name = "21st L. Mech. Brigade" historical_model = 2 strength = 34 experience = 10 }
+			regiment = { type = militia_brigade name = "25th Militia Brigade" historical_model = 2 strength = 32 experience = 9 }
+		}
+	}
+	army =
+	{
+		name = "5th Army"
+		location = 13190
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 1 }
+
+		division =
+		{
+			name = "21st Division"
+			location = 13190
+			regiment = { type = infantry_brigade name = "33rd Infantry Brigade" historical_model = 1 strength = 31 experience = 8 }
+			regiment = { type = militia_brigade name = "43rd Militia Brigade" historical_model = 2 strength = 32 experience = 7 }
+		}
+		division =
+		{
+			name = "22nd Division"
+			location = 13190
+			regiment = { type = infantry_brigade name = "34th Infantry Brigade" historical_model = 1 strength = 32 experience = 6 }
+			regiment = { type = light_mechanized_brigade name = "35th L. Mech. Brigade" historical_model = 2 strength = 34 experience = 10 }
+			regiment = { type = artillery_brigade name = "5th Artillery Brigade" historical_model = 2 strength = 19 experience = 6 }
+			regiment = { type = militia_brigade name = "46th Militia Brigade" historical_model = 1 strength = 32 experience = 6 }
+		}
+		division =
+		{
+			name = "23rd Division"
+			location = 13125
+			regiment = { type = infantry_brigade name = "36th Infantry Brigade" historical_model = 1 strength = 33 experience = 9 }
+			regiment = { type = infantry_brigade name = "37th Infantry Brigade" historical_model = 1 strength = 30 experience = 9 }
+			regiment = { type = militia_brigade name = "47th Militia Brigade" historical_model = 1 strength = 31 experience = 10 }
+		}
+	}	
+	air = {
+		name = "1st Air Force"
+		base = 13189
+		location = 13189
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 4 strength = 75 builder = USA }
+		wing = { type = multi_role name = "2nd Fighter Wing" historical_model = 3 strength = 50 builder = USA }
+	}	
+	navy = {
+	
+		name = "1st Fleet"
+		base = 13125 # Tainan, Taiwan
+		location = 13125
+		ship = { type = destroyer name = "Di 1 Quzujian Biandui" historical_model = 0 builder = USA}
+		ship = { type = destroyer name = "Di 2 Quzujian Biandui" historical_model = 0 builder = USA}
+		ship = { type = destroyer name = "Di 3 Quzujian Biandui" historical_model = 0 builder = USA}
+		ship = { type = destroyer name = "Di 4 Quzujian Biandui" historical_model = 0 builder = USA}
+		ship = { type = transport_ship name = "Di 1 Yunshuji Biandui" historical_model = 0 }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 13125 # Tainan, Taiwan
+		location = 13125
+		ship = { type = submarine name = "Di 1 Qianting Bianduii" historical_model = 0 builder = USA strength = 20}		
+	}	
+}
+
+division =
+{
+	name = "25th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "39th Infantry Brigade" historical_model = 2 strength = 30 experience = 6 }
+	regiment = { type = militia_brigade name = "52nd Militia Brigade" historical_model = 2 strength = 32 experience = 7 }
+	regiment = { type = infantry_brigade name = "40th Infantry Brigade" historical_model = 1 strength = 33 experience = 7 }
+	regiment = { type = infantry_brigade name = "41st Infantry Brigade" historical_model = 1 strength = 30 experience = 7 }
+}
+division =
+{
+	name = "26th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "42nd Infantry Brigade" historical_model = 1 strength = 31 experience = 7 }
+	regiment = { type = infantry_brigade name = "43rd Infantry Brigade" historical_model = 1 strength = 34 experience = 6 }
+	regiment = { type = militia_brigade name = "54th Militia Brigade" historical_model = 1 strength = 30 experience = 7 }
+}
+division =
+{
+	name = "27th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "44th Infantry Brigade" historical_model = 1 strength = 32 experience = 7 }
+	regiment = { type = militia_brigade name = "55th Militia Brigade" historical_model = 2 strength = 33 experience = 6 }
+}
+division =
+{
+	name = "28th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "45th Infantry Brigade" historical_model = 1 strength = 33 experience = 7 }
+	regiment = { type = infantry_brigade name = "46th Infantry Brigade" historical_model = 1 strength = 30 experience = 6 }
+	regiment = { type = artillery_brigade name = "6th Artillery Brigade" historical_model = 1 strength = 19 experience = 6 }
+	regiment = { type = militia_brigade name = "58th Militia Brigade" historical_model = 2 strength = 32 experience = 7 }
+}
+division =
+{
+	name = "29th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "47th Infantry Brigade" historical_model = 2 strength = 34 experience = 10 }
+	regiment = { type = militia_brigade name = "59th Militia Brigade" historical_model = 1 strength = 30 experience = 9 }
+	regiment = { type = infantry_brigade name = "48th Infantry Brigade" historical_model = 1 strength = 32 experience = 10 }
+	regiment = { type = militia_brigade name = "60th Militia Brigade" historical_model = 1 strength = 33 experience = 9 }
+}
+division =
+{
+	name = "45th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "76th Infantry Brigade" historical_model = 1 strength = 34 experience = 6 }
+	regiment = { type = militia_brigade name = "91st Militia Brigade" historical_model = 2 strength = 30 experience = 6 }
+}
+division =
+{
+	name = "46th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "77th Infantry Brigade" historical_model = 1 strength = 30 experience = 7 }
+	regiment = { type = militia_brigade name = "94th Militia Brigade" historical_model = 1 strength = 31 experience = 7 }
+}
+division =
+{
+	name = "47th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "78th Infantry Brigade" historical_model = 1 strength = 31 experience = 7 }
+	regiment = { type = militia_brigade name = "97th Militia Brigade" historical_model = 1 strength = 32 experience = 6 }
+}
+division =
+{
+	name = "48th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "79th Infantry Brigade" historical_model = 2 strength = 32 experience = 7 }
+	regiment = { type = militia_brigade name = "100th Militia Brigade" historical_model = 2 strength = 33 experience = 7 }
+}
+division =
+{
+	name = "49th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "80th Infantry Brigade" historical_model = 1 strength = 32 experience = 7 }
+	regiment = { type = militia_brigade name = "103rd Militia Brigade" historical_model = 2 strength = 34 experience = 4 }
+}
+division =
+{
+	name = "93rd Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "103rd Infantry Brigade" historical_model = 2 strength = 34 experience = 10 }
+	regiment = { type = militia_brigade name = "256th Militia Brigade" historical_model = 2 strength = 30 experience = 9 }
+}
+division =
+{
+	name = "127th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "497th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+	regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 2 strength = 25 experience = 5 }
+	regiment = { type = infantry_brigade name = "498th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+	regiment = { type = militia_brigade name = "9th Militia Brigade" historical_model = 2 strength = 40 experience = 5 }
+	regiment = { type = militia_brigade name = "10th Militia Brigade" historical_model = 2 strength = 40 experience = 5 }
+}
+division =
+{
+	name = "128th Division"
+	location = 13190
+	pool = yes
+	regiment = { type = infantry_brigade name = "499th Infantry Brigade" historical_model = 2 strength = 39 experience = 5 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 2 strength = 25 experience = 5 }
+	regiment = { type = infantry_brigade name = "500th Infantry Brigade" historical_model = 2 strength = 40 experience = 5 }
+	regiment = { type = militia_brigade name = "11th Militia Brigade" historical_model = 2 strength = 40 experience = 5 }
+	regiment = { type = militia_brigade name = "12th Militia Brigade" historical_model = 2 strength = 40 experience = 5 }
+}

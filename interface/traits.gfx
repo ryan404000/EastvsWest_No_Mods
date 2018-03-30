@@ -1,0 +1,126 @@
+spriteTypes = {
+	
+	# trait icons
+	spriteType = {
+	  name = "icon_old_guard"
+	  texturefile = "gfx\\interface\\icon_old_guard.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_trickster"
+	  texturefile = "gfx\\interface\\icon_trickster.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_logistics_wizard"
+	  texturefile = "gfx\\interface\\icon_logistics_wizard.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_defensive_doctrine"
+	  texturefile = "gfx\\interface\\icon_defensive_doctrine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_offensive_doctrine"
+	  texturefile = "gfx\\interface\\icon_offensive_doctrine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}		
+	spriteType = {
+	  name = "icon_winter_specialist"
+	  texturefile = "gfx\\interface\\icon_winter_specialist.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_ranger"
+	  texturefile = "gfx\\interface\\icon_ranger.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_engineer"
+	  texturefile = "gfx\\interface\\icon_engineer.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_fortress_buster"
+	  texturefile = "gfx\\interface\\icon_fortress_buster.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_panzer_leader"
+	  texturefile = "gfx\\interface\\icon_panzer_leader.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_commando"
+	  texturefile = "gfx\\interface\\icon_commando.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+
+	spriteType = {
+	  name = "icon_seawolf"
+	  texturefile = "gfx\\interface\\icon_seawolf.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_blockade_runner"
+	  texturefile = "gfx\\interface\\icon_blockade_runner.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_superior_tactician"
+	  texturefile = "gfx\\interface\\icon_superior_tactician.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_spotter"
+	  texturefile = "gfx\\interface\\icon_spotter.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_tank_buster"
+	  texturefile = "gfx\\interface\\icon_tank_buster.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_carpet_bomber"
+	  texturefile = "gfx\\interface\\icon_carpet_bomber.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_night_flyer"
+	  texturefile = "gfx\\interface\\icon_night_flyer.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_fleet_destroyer"
+	  texturefile = "gfx\\interface\\icon_fleet_destroyer.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+	spriteType = {
+	  name = "icon_superior_air_tactician"
+	  texturefile = "gfx\\interface\\icon_superior_air_tactician.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+	}
+
+}

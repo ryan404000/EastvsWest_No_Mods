@@ -1,0 +1,139 @@
+#######################################
+# Each trait can have ONE effect of the following
+#
+# xp_gain surprise_chance supply_consumption defence_modifier offence_modifier combat_move_speed winter_attrition river_attack
+# fort_attack combined_arms_bonus out_of_supply_modifier submarine_attack disengage_timer spread_out spotting_chance defender_softness
+# strategic_attack naval_attack night_attack  tactical_attack dissent_impact encirclement_bonus envelopment_bonus experience_bonus
+# fort_defence amph_attack digin_bonus  paradrop_mission
+#######################################
+
+ambitious_trait = {
+} 
+
+
+##################################
+# Obsolete Traits
+##################################
+
+fortress_buster = { 
+	fort_attack = 0.1
+}
+
+##################################
+# Common Traits
+##################################
+old_guard = { 
+	xp_gain = -0.5
+}
+
+
+##################################
+# Land traits.
+##################################
+
+trickster = { 
+	surprise_chance = 0.1
+}
+
+logistics_wizard = { 
+	supply_consumption = -0.25
+}
+
+defensive_doctrine = { 
+	defence_modifier = 0.1
+}
+
+offensive_doctrine = { 
+	offence_modifier = 0.1
+}
+
+winter_specialist = { 
+	winter_attrition = -0.5
+}
+
+ranger = {
+	terrain_speed = {
+		type = woods
+		value = 0.05
+	}
+	terrain_attack = {
+		type = woods
+		value = 0.05
+	}
+	terrain_defence = {
+		type = woods
+		value = 0.05
+	}
+	terrain_speed = {
+		type = forest
+		value = 0.05
+	}
+	terrain_attack = {
+		type = forest
+		value = 0.05
+	}
+	terrain_defence = {
+		type = forest
+		value = 0.05
+	}
+}
+
+engineer = { 
+	river_attack = 0.1
+}
+
+panzer_leader = { 
+	combined_arms_bonus = 0.1
+}
+
+commando = { 
+	out_of_supply_modifier = -0.2
+}
+
+
+
+
+##################################
+# Naval traits.
+##################################
+
+seawolf = { 
+	submarine_attack = 0.2
+}
+
+blockade_runner = { 
+	disengage_timer = 1
+}
+
+superior_tactician = { 
+	spread_out = 0.1
+}
+
+spotter = { 
+	spotting_chance = 0.1
+}
+
+
+##################################
+# Air traits.
+##################################
+
+tank_buster = { 
+	defender_softness = 0.2
+}
+
+carpet_bomber = { 
+	strategic_attack = 0.1
+}
+
+night_flyer = { 	
+	night_attack = 0.1
+}
+
+fleet_destroyer = { 
+	naval_attack = 0.1
+}
+
+superior_air_tactician = {
+	tactical_attack = 0.1
+}

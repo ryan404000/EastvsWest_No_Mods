@@ -1,0 +1,20 @@
+theatre =
+{
+	name = "Central Command"
+	location = 7890
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 7890
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 7890
+			regiment = { type = infantry_brigade name = "1st Brigade" historical_model = 0 strength = 36 experience = 5 }
+		}
+	}
+}

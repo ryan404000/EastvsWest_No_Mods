@@ -1,0 +1,5298 @@
+1396026 = {
+	name = "Jacquet Bisaillon"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1396060 = {
+	name = "Alphonse Joseph Plante"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1396021 = {
+	name = "Jean-Martin Chicoine"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.9.1 = { rank = 0 }
+	}
+}
+1396035 = {
+	name = "Jean-Martin Bertrand"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.6.1 = { rank = 0 }
+	}
+}
+1396043 = {
+	name = "Paul-Antoine Brousseau"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.11.1 = { rank = 0 }
+	}
+}
+1396033 = {
+	name = "Jean-Robert Desnoyers"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1396049 = {
+	name = "Bernard Du Trieux"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.5.1 = { rank = 0 }
+	}
+}
+1396064 = {
+	name = "Jean-Robert Latourelle"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1950.12.1 = { rank = 0 }
+	}
+}
+1396028 = {
+	name = "Erwan Desnoyers"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.8.1 = { rank = 0 }
+	}
+}
+1396010 = {
+	name = "Frédéric Chasse"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1396001 = {
+	name = "Stéphane Beaule"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.11.1 = { rank = 0 }
+	}
+}
+1396003 = {
+	name = "Xavier Marcheterre"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1396079 = {
+	name = "Richard Ailleboust"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1396051 = {
+	name = "Fulbert Chicoine"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.7.1 = { rank = 0 }
+	}
+}
+1396055 = {
+	name = "Jean-Louis Bois"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1396012 = {
+	name = "Fulbert Beland"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.2.1 = { rank = 0 }
+	}
+}
+1396058 = {
+	name = "Hilaire Lafond"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.3.1 = { rank = 0 }
+	}
+}
+1396002 = {
+	name = "Séraphin Poisson"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1396027 = {
+	name = "Jean-Henri Lambert"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1396081 = {
+	name = "Christian Boisvert"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1950.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1396053 = {
+	name = "Louis Charron"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.3.1 = { rank = 0 }
+	}
+}
+1396037 = {
+	name = "Vivien Caya"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.6.1 = { rank = 0 }
+	}
+}
+1396073 = {
+	name = "Jules Audibert"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.6.1 = { rank = 1 }
+		1952.8.1 = { rank = 0 }
+	}
+}
+1396089 = {
+	name = "Élie Monjeau"
+	type = land
+	country = FRA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.11.1 = { rank = 1 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1396020 = {
+	name = "Stéphane Bergeron"
+	type = land
+	country = FRA
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1396063 = {
+	name = "Edmond Chevrette"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1396038 = {
+	name = "Séraphin Coulombe"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1396067 = {
+	name = "Alphonse Joseph Paquin"
+	type = land
+	country = FRA
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1396036 = {
+	name = "Guy Dandonneau"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1396082 = {
+	name = "Bernard Chandonnet"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.8.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1396094 = {
+	name = "Adhemar Bordeleau"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1952.9.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1396044 = {
+	name = "Jean-Antoine Allaire"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1396018 = {
+	name = "Jean-Noël Courtemanche"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1396023 = {
+	name = "Luc Mazuret"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1396007 = {
+	name = "Élie Garreau"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1396024 = {
+	name = "Ludovic Sirois"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1396048 = {
+	name = "Arnaud Carignan"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1396034 = {
+	name = "Marcellin Ruel"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.5.1 = { rank = 2 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1396017 = {
+	name = "Odilon Lapierre"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1396105 = {
+	name = "Alexandre Bourget"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.6.1 = { rank = 1 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1396086 = {
+	name = "Jean-Henri Hervieux"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1951.3.1 = { rank = 1 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1396078 = {
+	name = "Gérald Faucher"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.8.1 = { rank = 1 }
+		1955.1.1 = { rank = 0 }
+	}
+}
+1396088 = {
+	name = "Jacquet Nadeau"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1951.4.1 = { rank = 1 }
+		1955.6.1 = { rank = 0 }
+	}
+}
+1396071 = {
+	name = "Yann Cyr"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1955.2.1 = { rank = 0 }
+	}
+}
+1396005 = {
+	name = "Louis-Alphonse Lereau"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.2.1 = { rank = 0 }
+	}
+}
+1396099 = {
+	name = "Richard Francoeur"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.5.1 = { rank = 1 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1396045 = {
+	name = "Fabien Cotuand"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1396076 = {
+	name = "Gaspard Huot"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1950.5.1 = { rank = 1 }
+		1955.7.1 = { rank = 0 }
+	}
+}
+1396011 = {
+	name = "Yann Collin"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.4.1 = { rank = 0 }
+	}
+}
+1396098 = {
+	name = "Julien Josseaume"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1953.10.1 = { rank = 1 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1396042 = {
+	name = "Maurille Boncoeur"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 2 }
+		1956.11.1 = { rank = 0 }
+	}
+}
+1396068 = {
+	name = "Jean-Michel Laliberte"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1396065 = {
+	name = "Louison Grignon"
+	type = land
+	country = FRA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1396015 = {
+	name = "Hilaire Giroux"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1396004 = {
+	name = "Gaspard Blanc"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 2 }
+		1957.7.1 = { rank = 0 }
+	}
+}
+1396104 = {
+	name = "Jean-Baptiste Gauvin"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.1.1 = { rank = 1 }
+		1957.1.1 = { rank = 0 }
+	}
+}
+1396050 = {
+	name = "Frédéric Lafond"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.7.1 = { rank = 0 }
+	}
+}
+1396097 = {
+	name = "Fabien Bergeron"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.1.1 = { rank = 1 }
+		1957.2.1 = { rank = 0 }
+	}
+}
+1396107 = {
+	name = "Thierry Mazuret"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1954.6.1 = { rank = 1 }
+		1957.11.1 = { rank = 0 }
+	}
+}
+1396127 = {
+	name = "Jean-Claude emond"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.2.1 = { rank = 1 }
+		1958.8.1 = { rank = 0 }
+	}
+}
+1396066 = {
+	name = "Jean-Sébastien Fugère"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1396041 = {
+	name = "Severin Rocheleau"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1396101 = {
+	name = "Severin Latourelle"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = logistics_wizard
+	history = {
+		1953.5.1 = { rank = 1 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1396092 = {
+	name = "Jean-Étienne Clavette"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.8.1 = { rank = 1 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1396122 = {
+	name = "Fulbert Ruest"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1956.12.1 = { rank = 1 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1396039 = {
+	name = "Jean-Antoine Paquette"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.12.1 = { rank = 2 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1396062 = {
+	name = "Noël Coupart"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1396029 = {
+	name = "Frédéric Pirouet"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.7.1 = { rank = 2 }
+		1960.2.1 = { rank = 0 }
+	}
+}
+1396128 = {
+	name = "Abbon Lajeunesse"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1957.11.1 = { rank = 1 }
+		1960.12.1 = { rank = 0 }
+	}
+}
+1396133 = {
+	name = "Patrick Desnoyers"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1959.1.1 = { rank = 1 }
+		1959.5.1 = { rank = 2 }
+		1960.2.1 = { rank = 0 }
+	}
+}
+1396115 = {
+	name = "Richard Auger"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1955.10.1 = { rank = 1 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1396124 = {
+	name = "Jean-Yves Robert"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1957.7.1 = { rank = 1 }
+		1961.9.1 = { rank = 0 }
+	}
+}
+1396126 = {
+	name = "Jean-Denis Plaisance"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.7.1 = { rank = 1 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1396137 = {
+	name = "Olivier Ferland"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1960.2.1 = { rank = 1 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1396132 = {
+	name = "Servais Moreau"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1396095 = {
+	name = "Fabien Echeverri"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.9.1 = { rank = 1 }
+		1956.12.1 = { rank = 2 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1396075 = {
+	name = "Jean-Claude Boulanger"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.3.1 = { rank = 1 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1396059 = {
+	name = "Florimond Morin"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1396008 = {
+	name = "Jean-Marc Mousseau"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.2.1 = { rank = 2 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1396084 = {
+	name = "Hervé Trottier"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1396006 = {
+	name = "Christian Pichette"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1396123 = {
+	name = "Jean-Pierre Larivière"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1963.4.1 = { rank = 0 }
+	}
+}
+1396057 = {
+	name = "Jean-Michel Gingras"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1963.6.1 = { rank = 0 }
+	}
+}
+1396148 = {
+	name = "Gérald Brisebois"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1962.10.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1396103 = {
+	name = "Jean-Pascal Cantin"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1953.1.1 = { rank = 1 }
+		1963.5.1 = { rank = 0 }
+	}
+}
+1396013 = {
+	name = "Alphonse Viens"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.3.1 = { rank = 2 }
+		1956.12.1 = { rank = 3 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1396142 = {
+	name = "Luc Bosse"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1961.12.1 = { rank = 2 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1396077 = {
+	name = "Michel-Ange Belair"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1950.12.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1396125 = {
+	name = "Erwan Busson"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.1.1 = { rank = 1 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1396134 = {
+	name = "Francis Courtois"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1960.11.1 = { rank = 2 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1396147 = {
+	name = "Stéphane Frechette"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.7.1 = { rank = 1 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1396093 = {
+	name = "Raoul Ayot"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1952.5.1 = { rank = 1 }
+		1954.4.1 = { rank = 2 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1396091 = {
+	name = "Yannick Perreault"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1952.6.1 = { rank = 1 }
+		1965.11.1 = { rank = 0 }
+	}
+}
+1396121 = {
+	name = "Louis-Alphonse Croquetaigne"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.12.1 = { rank = 1 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1396052 = {
+	name = "Alexandre Larivière"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.1.1 = { rank = 3 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1396016 = {
+	name = "Armand Menard"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1966.11.1 = { rank = 0 }
+	}
+}
+1396117 = {
+	name = "Jacquet Bler"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1955.7.1 = { rank = 1 }
+		1958.11.1 = { rank = 2 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1396069 = {
+	name = "Noel Berthiaume"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1396143 = {
+	name = "Jean-Antoine Plouffe"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.4.1 = { rank = 1 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1396046 = {
+	name = "Julien Lang"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1396108 = {
+	name = "Raoul Morin"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.8.1 = { rank = 1 }
+		1966.11.1 = { rank = 0 }
+	}
+}
+1396031 = {
+	name = "Lucien Tanguay"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1396168 = {
+	name = "Pierre-Julien Desnoyer"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.10.1 = { rank = 1 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1396118 = {
+	name = "Medard Marcil"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.4.1 = { rank = 1 }
+		1967.6.1 = { rank = 0 }
+	}
+}
+1396156 = {
+	name = "Odilon Trudeau"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1964.9.1 = { rank = 1 }
+		1968.8.1 = { rank = 0 }
+	}
+}
+1396146 = {
+	name = "Mathieu Gingras"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1961.12.1 = { rank = 1 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1396014 = {
+	name = "Paul-Louis Bonnet"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1396149 = {
+	name = "Medard L'Hiver"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.11.1 = { rank = 1 }
+		1968.10.1 = { rank = 0 }
+	}
+}
+1396087 = {
+	name = "Ludovic Cloutier"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.10.1 = { rank = 1 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1396165 = {
+	name = "Désiré Thibault"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1966.11.1 = { rank = 1 }
+		1968.11.1 = { rank = 0 }
+	}
+}
+1396129 = {
+	name = "André Pinneau"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.8.1 = { rank = 1 }
+		1965.6.1 = { rank = 2 }
+		1969.1.1 = { rank = 0 }
+	}
+}
+1396172 = {
+	name = "Paul-Antoine Richard"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.12.1 = { rank = 1 }
+		1969.2.1 = { rank = 0 }
+	}
+}
+1396019 = {
+	name = "Hervé Garreau"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1396090 = {
+	name = "Sébastien Doucet"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1952.3.1 = { rank = 1 }
+		1953.1.1 = { rank = 2 }
+		1969.10.1 = { rank = 0 }
+	}
+}
+1396157 = {
+	name = "Roger Lepage"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.8.1 = { rank = 1 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1396144 = {
+	name = "Armand Brousseau"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1396040 = {
+	name = "Jacques Clement"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.11.1 = { rank = 2 }
+		1969.4.1 = { rank = 0 }
+	}
+}
+1396151 = {
+	name = "Patrice Tardif"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1963.4.1 = { rank = 1 }
+		1969.9.1 = { rank = 0 }
+	}
+}
+1396162 = {
+	name = "Louison Rouze"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.11.1 = { rank = 1 }
+		1969.9.1 = { rank = 0 }
+	}
+}
+1396047 = {
+	name = "Yann Marier"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.7.1 = { rank = 2 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1396160 = {
+	name = "Fulbert Laforge"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = panzer_leader
+	history = {
+		1965.2.1 = { rank = 1 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1396112 = {
+	name = "Jean-Christophe Louis"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = panzer_leader
+	history = {
+		1955.6.1 = { rank = 1 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1396135 = {
+	name = "Servais Deziel"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1959.5.1 = { rank = 1 }
+		1970.3.1 = { rank = 0 }
+	}
+}
+1396022 = {
+	name = "Claude-Henri Joly"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.2.1 = { rank = 0 }
+	}
+}
+1396180 = {
+	name = "Albertet Larivière"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.1.1 = { rank = 1 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1396152 = {
+	name = "Jean-François Bourdette"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1963.6.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1396170 = {
+	name = "André-Marie Narcisse"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1966.11.1 = { rank = 1 }
+		1970.7.1 = { rank = 0 }
+	}
+}
+1396186 = {
+	name = "Fulgence Labrecque"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1969.4.1 = { rank = 1 }
+		1971.11.1 = { rank = 0 }
+	}
+}
+1396110 = {
+	name = "Léon Guibord"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.9.1 = { rank = 1 }
+		1971.11.1 = { rank = 0 }
+	}
+}
+1396072 = {
+	name = "Gaspard Lauzier"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1949.9.1 = { rank = 1 }
+		1951.7.1 = { rank = 2 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1396114 = {
+	name = "Gabriel Charlebois"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.2.1 = { rank = 1 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1396192 = {
+	name = "Ludovic Beaujolie"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.3.1 = { rank = 1 }
+		1971.11.1 = { rank = 0 }
+	}
+}
+1396106 = {
+	name = "Grégoire Boisvert"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1954.4.1 = { rank = 1 }
+		1972.1.1 = { rank = 0 }
+	}
+}
+1396154 = {
+	name = "Raoul Mainville"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.5.1 = { rank = 1 }
+		1972.8.1 = { rank = 0 }
+	}
+}
+1396166 = {
+	name = "Marc Fortin"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.8.1 = { rank = 1 }
+		1972.1.1 = { rank = 0 }
+	}
+}
+1396194 = {
+	name = "Fulgence Chastain"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1970.9.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1396141 = {
+	name = "Charles L'Angelier"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.9.1 = { rank = 1 }
+		1973.7.1 = { rank = 0 }
+	}
+}
+1396182 = {
+	name = "Jean-Paul Metivier"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.11.1 = { rank = 1 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1396177 = {
+	name = "Noël Guernon"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1968.10.1 = { rank = 1 }
+		1973.11.1 = { rank = 0 }
+	}
+}
+1396131 = {
+	name = "Charles Trudeau"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1973.8.1 = { rank = 0 }
+	}
+}
+1396175 = {
+	name = "Étienne Devoe"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1968.9.1 = { rank = 1 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1396009 = {
+	name = "Olivier Cyr"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1973.1.1 = { rank = 0 }
+	}
+}
+1396190 = {
+	name = "Gerbaud Ruest"
+	type = land
+	country = FRA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.12.1 = { rank = 1 }
+		1973.1.1 = { rank = 0 }
+	}
+}
+1396189 = {
+	name = "Jean-Claude Cotuand"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1969.12.1 = { rank = 1 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1396197 = {
+	name = "François-Xavier Theriault"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1971.11.1 = { rank = 1 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1396193 = {
+	name = "Ademar Benoit"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.2.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1396178 = {
+	name = "François-Xavier Duplessis"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.7.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1396074 = {
+	name = "Charles Gingras"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.11.1 = { rank = 1 }
+		1965.6.1 = { rank = 2 }
+		1974.3.1 = { rank = 0 }
+	}
+}
+1396111 = {
+	name = "Jérémie Pouchard"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.1.1 = { rank = 1 }
+		1962.10.1 = { rank = 2 }
+		1974.9.1 = { rank = 0 }
+	}
+}
+1396214 = {
+	name = "Alexandre Nadeau"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.9.1 = { rank = 1 }
+		1974.7.1 = { rank = 0 }
+	}
+}
+1396213 = {
+	name = "Jean-Louis Beriault"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.4.1 = { rank = 1 }
+		1974.7.1 = { rank = 0 }
+	}
+}
+1396196 = {
+	name = "Jean-Baptiste Viens"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = panzer_leader
+	history = {
+		1970.7.1 = { rank = 1 }
+		1974.3.1 = { rank = 0 }
+	}
+}
+1396054 = {
+	name = "Jérémie Des Meaux"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.12.1 = { rank = 3 }
+		1974.10.1 = { rank = 0 }
+	}
+}
+1396153 = {
+	name = "Frédéric Courcelle"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1963.12.1 = { rank = 1 }
+		1966.10.1 = { rank = 2 }
+		1974.3.1 = { rank = 0 }
+	}
+}
+1396195 = {
+	name = "Jean-Pierre Aube"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1970.4.1 = { rank = 1 }
+		1974.7.1 = { rank = 0 }
+	}
+}
+1396032 = {
+	name = "Jean-Henri Sauve"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.6.1 = { rank = 2 }
+		1956.12.1 = { rank = 3 }
+		1966.5.1 = { rank = 4 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1396140 = {
+	name = "François-Xavier Barrière"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1961.4.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1396220 = {
+	name = "Patrice Collin"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.7.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1396212 = {
+	name = "Henri Riquier"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1973.1.1 = { rank = 1 }
+		1975.1.1 = { rank = 0 }
+	}
+}
+1396070 = {
+	name = "Yann Lafond"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.4.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1396083 = {
+	name = "Jean-Jacques Mazuret"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1951.7.1 = { rank = 1 }
+		1956.12.1 = { rank = 2 }
+		1958.11.1 = { rank = 3 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1396203 = {
+	name = "Jean-Robert Aube"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = trickster
+	history = {
+		1972.8.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1396085 = {
+	name = "Jérémie Bosse"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.2.1 = { rank = 1 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1396215 = {
+	name = "Alphonse Cyr"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1973.2.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1396159 = {
+	name = "Émile Laux"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1965.6.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1396185 = {
+	name = "Baptiste Plouffe"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.6.1 = { rank = 1 }
+		1976.4.1 = { rank = 0 }
+	}
+}
+1396223 = {
+	name = "Maurice Legault"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1974.3.1 = { rank = 1 }
+		1976.3.1 = { rank = 0 }
+	}
+}
+1396201 = {
+	name = "Jean-René Jette"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1971.11.1 = { rank = 1 }
+		1976.9.1 = { rank = 0 }
+	}
+}
+1396209 = {
+	name = "Raoul L'Anglais"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.8.1 = { rank = 1 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1396179 = {
+	name = "Jean-André Hebert"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.11.1 = { rank = 1 }
+		1976.9.1 = { rank = 0 }
+	}
+}
+1396119 = {
+	name = "Jean-Robert Lereau"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1396100 = {
+	name = "Léon Beland"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.5.1 = { rank = 1 }
+		1966.8.1 = { rank = 2 }
+		1976.5.1 = { rank = 0 }
+	}
+}
+1396056 = {
+	name = "Nicolas Guernon"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1976.7.1 = { rank = 0 }
+	}
+}
+1396210 = {
+	name = "Jules Tetrault"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1973.6.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1396061 = {
+	name = "Séraphin Quirion"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1975.2.1 = { rank = 3 }
+		1976.6.1 = { rank = 0 }
+	}
+}
+1396116 = {
+	name = "Élie Galarneau"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = panzer_leader
+	history = {
+		1955.11.1 = { rank = 1 }
+		1961.7.1 = { rank = 2 }
+		1963.7.1 = { rank = 3 }
+		1976.1.1 = { rank = 0 }
+	}
+}
+1396138 = {
+	name = "Jean-Noël Landry"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1960.12.1 = { rank = 1 }
+		1969.12.1 = { rank = 2 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1396000 = {
+	name = "Florimond Cyr"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 2 }
+		1966.5.1 = { rank = 3 }
+		1977.8.1 = { rank = 0 }
+	}
+}
+1396206 = {
+	name = "Antoine Bussière"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.7.1 = { rank = 1 }
+		1977.1.1 = { rank = 0 }
+	}
+}
+1396204 = {
+	name = "Alexandre Marois"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.1.1 = { rank = 1 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1396233 = {
+	name = "Patrice D'Aubigne"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1976.8.1 = { rank = 1 }
+		1976.8.1 = { rank = 2 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1396207 = {
+	name = "Hervé Clavet"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.4.1 = { rank = 1 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1396184 = {
+	name = "Jean-Pascal DeGrasse"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1974.10.1 = { rank = 2 }
+		1977.9.1 = { rank = 0 }
+	}
+}
+1396242 = {
+	name = "Michel Aube"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1976.7.1 = { rank = 1 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1396187 = {
+	name = "Noël Plouffe"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.9.1 = { rank = 1 }
+		1978.5.1 = { rank = 0 }
+	}
+}
+1396232 = {
+	name = "Charles Rochefort"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1975.2.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1396247 = {
+	name = "Thierry Cotuand"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.8.1 = { rank = 1 }
+		1978.12.1 = { rank = 0 }
+	}
+}
+1396109 = {
+	name = "Louis Jobin"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1955.10.1 = { rank = 1 }
+		1977.8.1 = { rank = 2 }
+		1978.7.1 = { rank = 0 }
+	}
+}
+1396096 = {
+	name = "Aubin Laberge"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1952.5.1 = { rank = 1 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1396258 = {
+	name = "Gerbaud Dubois"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = panzer_leader
+	add_trait = engineer
+	history = {
+		1978.9.1 = { rank = 1 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1396228 = {
+	name = "Jean-Étienne Levesque"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	history = {
+		1975.1.1 = { rank = 1 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1396102 = {
+	name = "Jean-Baptiste Monty"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.10.1 = { rank = 1 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1396253 = {
+	name = "Jean-Noël Theberge"
+	type = land
+	country = FRA
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.9.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1396120 = {
+	name = "Jean-Marc Cailot"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.11.1 = { rank = 1 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1396155 = {
+	name = "Gabriel Bourget"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1963.7.1 = { rank = 1 }
+		1977.6.1 = { rank = 2 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1396222 = {
+	name = "Thierry Dubois"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.10.1 = { rank = 1 }
+		1980.8.1 = { rank = 0 }
+	}
+}
+1396226 = {
+	name = "Jules Binet"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1979.9.1 = { rank = 2 }
+		1980.10.1 = { rank = 0 }
+	}
+}
+1396191 = {
+	name = "Ludovic Lang"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1970.11.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1396245 = {
+	name = "Fulgence Petrie"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.1.1 = { rank = 1 }
+		1980.5.1 = { rank = 0 }
+	}
+}
+1396256 = {
+	name = "Émile Labrie"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1978.12.1 = { rank = 1 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1396080 = {
+	name = "Jean-André Melanson"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.11.1 = { rank = 1 }
+		1952.3.1 = { rank = 2 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1396211 = {
+	name = "Jean-Michel Du Trieux"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1973.1.1 = { rank = 1 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1396171 = {
+	name = "Jacques Ferland"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1967.2.1 = { rank = 1 }
+		1981.2.1 = { rank = 0 }
+	}
+}
+1396236 = {
+	name = "Jean-François Tardif"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.3.1 = { rank = 1 }
+		1976.5.1 = { rank = 2 }
+		1981.12.1 = { rank = 0 }
+	}
+}
+1396255 = {
+	name = "Arnaud Courcelle"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1978.8.1 = { rank = 1 }
+		1981.2.1 = { rank = 0 }
+	}
+}
+1396176 = {
+	name = "Guillaume Marcil"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.7.1 = { rank = 1 }
+		1976.7.1 = { rank = 2 }
+		1981.12.1 = { rank = 0 }
+	}
+}
+1396227 = {
+	name = "Jean-Yves Mailloux"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1975.5.1 = { rank = 1 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1396243 = {
+	name = "Jean-Julien Lacasse"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1976.8.1 = { rank = 1 }
+		1981.1.1 = { rank = 0 }
+	}
+}
+1396224 = {
+	name = "Jean-Denis Lejeune"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.7.1 = { rank = 1 }
+		1981.3.1 = { rank = 0 }
+	}
+}
+1396218 = {
+	name = "Noel Mainville"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1974.9.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1396254 = {
+	name = "Ludovic Barrientos"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.5.1 = { rank = 1 }
+		1982.8.1 = { rank = 0 }
+	}
+}
+1396167 = {
+	name = "Noël Marier"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = engineer
+	history = {
+		1966.5.1 = { rank = 1 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1396270 = {
+	name = "Gérald Talon"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.9.1 = { rank = 1 }
+		1982.11.1 = { rank = 0 }
+	}
+}
+1396279 = {
+	name = "Medard Deserres"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.2.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1396264 = {
+	name = "Grégoire Gousse"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.9.1 = { rank = 1 }
+		1983.8.1 = { rank = 0 }
+	}
+}
+1396202 = {
+	name = "Florimond Allaire"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1972.1.1 = { rank = 1 }
+		1975.8.1 = { rank = 2 }
+		1984.4.1 = { rank = 0 }
+	}
+}
+1396173 = {
+	name = "Louis Vachon"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.6.1 = { rank = 1 }
+		1978.7.1 = { rank = 2 }
+		1984.4.1 = { rank = 0 }
+	}
+}
+1396266 = {
+	name = "Jean-Antoine Lajoie"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.10.1 = { rank = 1 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1396265 = {
+	name = "Étienne Theriault"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.8.1 = { rank = 1 }
+		1984.11.1 = { rank = 0 }
+	}
+}
+1396164 = {
+	name = "Guillaume Coupart"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1966.10.1 = { rank = 1 }
+		1969.1.1 = { rank = 2 }
+		1984.10.1 = { rank = 0 }
+	}
+}
+1396169 = {
+	name = "Sébastien Sevier"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1966.3.1 = { rank = 1 }
+		1980.9.1 = { rank = 2 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1396248 = {
+	name = "Guillaume Vincent"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1977.1.1 = { rank = 1 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1396216 = {
+	name = "Étienne De La Ronde"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1974.12.1 = { rank = 1 }
+		1981.12.1 = { rank = 2 }
+		1984.2.1 = { rank = 0 }
+	}
+}
+1396274 = {
+	name = "Abbon Parizeau"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1981.2.1 = { rank = 1 }
+		1984.3.1 = { rank = 0 }
+	}
+}
+1396272 = {
+	name = "Jean-Yves Dufour"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.2.1 = { rank = 1 }
+		1984.2.1 = { rank = 0 }
+	}
+}
+1396251 = {
+	name = "Pierre-Simon De La Ronde"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1977.12.1 = { rank = 1 }
+		1985.1.1 = { rank = 0 }
+	}
+}
+1396229 = {
+	name = "Roger Brault"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1975.9.1 = { rank = 1 }
+		1977.9.1 = { rank = 2 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1396249 = {
+	name = "Odilon Mazuret"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.4.1 = { rank = 1 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1396273 = {
+	name = "Xavier Laux"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.12.1 = { rank = 1 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1396174 = {
+	name = "Luc Bedard"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.8.1 = { rank = 1 }
+		1977.2.1 = { rank = 2 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1396294 = {
+	name = "Matthieu Menard"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1984.2.1 = { rank = 1 }
+		1985.5.1 = { rank = 2 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1396208 = {
+	name = "Jean-Paul Voisine"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.11.1 = { rank = 1 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1396246 = {
+	name = "Fulgence Trottier"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1396278 = {
+	name = "Guy Sabourin"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.3.1 = { rank = 1 }
+		1984.2.1 = { rank = 2 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1396299 = {
+	name = "Bernard Aubin"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.5.1 = { rank = 1 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1396296 = {
+	name = "Guy Theberge"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.8.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1396145 = {
+	name = "Thierry Jacques"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1961.12.1 = { rank = 1 }
+		1966.5.1 = { rank = 2 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1396293 = {
+	name = "Nicolas Cartier"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.3.1 = { rank = 1 }
+		1987.2.1 = { rank = 0 }
+	}
+}
+1396221 = {
+	name = "Jean-Jacques Miron"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.3.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1987.12.1 = { rank = 0 }
+	}
+}
+1396139 = {
+	name = "Pierre-Simon Miron"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1960.2.1 = { rank = 1 }
+		1971.5.1 = { rank = 2 }
+		1976.1.1 = { rank = 3 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1396240 = {
+	name = "Michel Theberge"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1976.2.1 = { rank = 1 }
+		1988.9.1 = { rank = 0 }
+	}
+}
+1396268 = {
+	name = "Jérémie Lamoureux"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.5.1 = { rank = 1 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1396225 = {
+	name = "Thierry Saurel"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.2.1 = { rank = 1 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1396025 = {
+	name = "Jean-Yves Course"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = commando
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1969.4.1 = { rank = 2 }
+		1988.5.1 = { rank = 0 }
+	}
+}
+1396289 = {
+	name = "André Briard"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.10.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1396257 = {
+	name = "Pierre-Simon Marcoux"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.7.1 = { rank = 1 }
+		1987.5.1 = { rank = 2 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1396113 = {
+	name = "Jean-Yves Côte"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.2.1 = { rank = 1 }
+		1964.9.1 = { rank = 2 }
+		1966.10.1 = { rank = 3 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1396291 = {
+	name = "Baptiste Belanger"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.8.1 = { rank = 1 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1396241 = {
+	name = "Xavier Beland"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.5.1 = { rank = 1 }
+		1976.5.1 = { rank = 2 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1396305 = {
+	name = "Désiré Quirion"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1987.5.1 = { rank = 1 }
+		1989.10.1 = { rank = 0 }
+	}
+}
+1396295 = {
+	name = "Jean-Pascal Proulx"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1985.1.1 = { rank = 1 }
+		1989.6.1 = { rank = 0 }
+	}
+}
+1396303 = {
+	name = "Éric Côte"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1989.7.1 = { rank = 0 }
+	}
+}
+1396318 = {
+	name = "Jérémy Bisaillon"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.12.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1396288 = {
+	name = "Sébastien Piedalue"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.11.1 = { rank = 1 }
+		1990.4.1 = { rank = 0 }
+	}
+}
+1396267 = {
+	name = "Julien-Joseph Bosse"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1980.11.1 = { rank = 1 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1396281 = {
+	name = "Émile Genereux"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1982.1.1 = { rank = 1 }
+		1990.4.1 = { rank = 0 }
+	}
+}
+1396239 = {
+	name = "François Theriault"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1976.9.1 = { rank = 1 }
+		1987.12.1 = { rank = 2 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1396262 = {
+	name = "Charles Chalut"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.7.1 = { rank = 1 }
+		1990.8.1 = { rank = 0 }
+	}
+}
+1396320 = {
+	name = "Louis Aupry"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1989.6.1 = { rank = 1 }
+		1990.11.1 = { rank = 0 }
+	}
+}
+1396188 = {
+	name = "Marcel Vincent"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.9.1 = { rank = 1 }
+		1990.3.1 = { rank = 0 }
+	}
+}
+1396030 = {
+	name = "Jérémie Dupere"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1963.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396130 = {
+	name = "Paul-Antoine Cliche"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1974.3.1 = { rank = 2 }
+		1975.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396136 = {
+	name = "Jean-Charles Lachapelle"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1960.11.1 = { rank = 1 }
+		1960.11.1 = { rank = 2 }
+		1976.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396150 = {
+	name = "Marcel Barrientos"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1963.7.1 = { rank = 2 }
+		1977.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396158 = {
+	name = "Vivien Piedalue"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = panzer_leader
+	add_trait = engineer
+	history = {
+		1965.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396161 = {
+	name = "Jean-Sébastien Langlois"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.6.1 = { rank = 1 }
+		1969.10.1 = { rank = 2 }
+		1974.10.1 = { rank = 3 }
+		1975.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396163 = {
+	name = "Pierre-Simon Collin"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396181 = {
+	name = "Sébastien Plaisance"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1969.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396183 = {
+	name = "Abbon Deserres"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1969.10.1 = { rank = 1 }
+		1975.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396198 = {
+	name = "Valéry Batard"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1971.11.1 = { rank = 1 }
+		1974.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396199 = {
+	name = "Patrice Godin"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1988.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396200 = {
+	name = "Jean-Pierre Robillard"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1971.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396205 = {
+	name = "Gabriel Josseaume"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.2.1 = { rank = 1 }
+		1974.3.1 = { rank = 2 }
+		1988.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396217 = {
+	name = "Anatole Lagrange"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1974.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396219 = {
+	name = "Henri Giroux"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396230 = {
+	name = "Jean-Yves Coulombe"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396231 = {
+	name = "Medard Duplessis"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.12.1 = { rank = 1 }
+		1984.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396234 = {
+	name = "Noel Pouchard"
+	type = land
+	country = FRA
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1976.8.1 = { rank = 1 }
+		1981.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396235 = {
+	name = "Jean-André Gousse"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396237 = {
+	name = "Hilaire Laframboise"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.9.1 = { rank = 1 }
+		1984.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396238 = {
+	name = "Jacques Rancourt"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396244 = {
+	name = "Pascal Cliche"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1976.6.1 = { rank = 1 }
+		1988.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396250 = {
+	name = "Louis-Alphonse Clavet"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396252 = {
+	name = "Patrick Blanc"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1977.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396259 = {
+	name = "Sébastien Clavet"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396260 = {
+	name = "Émile Plouffe"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.6.1 = { rank = 1 }
+		1980.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396261 = {
+	name = "Élie Boisclair"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.6.1 = { rank = 1 }
+		1984.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396263 = {
+	name = "Jean-Luc Aupry"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1979.2.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1987.5.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396269 = {
+	name = "Francis Tetrault"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396271 = {
+	name = "Julien Savard"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.3.1 = { rank = 1 }
+		1984.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396275 = {
+	name = "Éric etoile"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1981.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396276 = {
+	name = "Jean-André Drouin"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396277 = {
+	name = "Arnaud Ruest"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396280 = {
+	name = "Mathieu Laberge"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1982.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396282 = {
+	name = "Louis-Alphonse Auger"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1982.11.1 = { rank = 1 }
+		1988.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396283 = {
+	name = "Gérald Huot"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1983.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396284 = {
+	name = "Jean-Pierre Fugère"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396285 = {
+	name = "Gerbaud Beaule"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396286 = {
+	name = "Jean-Claude Laframboise"
+	type = land
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396287 = {
+	name = "Désiré Lagace"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1984.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396290 = {
+	name = "Claude-Henri Bonnet"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396292 = {
+	name = "René Boisclair"
+	type = land
+	country = FRA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.2.1 = { rank = 1 }
+		1985.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396297 = {
+	name = "Francis Roussel"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1985.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396298 = {
+	name = "Hilaire Provencher"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.7.1 = { rank = 1 }
+		1986.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396300 = {
+	name = "Éric Querry"
+	type = land
+	country = FRA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1986.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396301 = {
+	name = "Baptiste Faure"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396302 = {
+	name = "Séraphin Gingras"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396304 = {
+	name = "Hilaire Lampron"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396306 = {
+	name = "François-Xavier Mathieu"
+	type = land
+	country = FRA
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1987.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396307 = {
+	name = "Jean-André Landry"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1987.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396308 = {
+	name = "Jacques Lapresse"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396309 = {
+	name = "André Masse"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1990.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396310 = {
+	name = "Louis-Alphonse Berie"
+	type = land
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1988.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396311 = {
+	name = "Olivier Chicoine"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1988.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396312 = {
+	name = "Rainier Grondin"
+	type = land
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396313 = {
+	name = "Louison Gousse"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396314 = {
+	name = "Yannick Achin"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1988.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396315 = {
+	name = "Paul-Louis Lavallee"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396316 = {
+	name = "Raoul Duclos"
+	type = land
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1988.2.1 = { rank = 1 }
+		1988.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396317 = {
+	name = "Christian Bonnet"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396319 = {
+	name = "Jean-Marc Pouchard"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1989.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396321 = {
+	name = "Paul-Louis Lefèbvre"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396322 = {
+	name = "Ademar Metivier"
+	type = land
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396323 = {
+	name = "Louis-Alphonse Metivier"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1990.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396324 = {
+	name = "Luc Douffet"
+	type = land
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396325 = {
+	name = "Claude-Henri Batard"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396326 = {
+	name = "Lucien Lajeunesse"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396327 = {
+	name = "Jules Lacasse"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1990.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396328 = {
+	name = "Valéry Barteaux"
+	type = land
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396329 = {
+	name = "Bernard Frappier"
+	type = land
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396335 = {
+	name = "Edmond Berger"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.8.1 = { rank = 0 }
+	}
+}
+1396331 = {
+	name = "Raoul Bilodeau"
+	type = sea
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.12.1 = { rank = 0 }
+	}
+}
+1396337 = {
+	name = "Gabriel L'Anglais"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1396334 = {
+	name = "Olivier Dupont"
+	type = sea
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.7.1 = { rank = 0 }
+	}
+}
+1396332 = {
+	name = "Louis Barrientos"
+	type = sea
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.12.1 = { rank = 2 }
+		1950.10.1 = { rank = 0 }
+	}
+}
+1396340 = {
+	name = "Marcellin Gervais"
+	type = sea
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = superior_tactician
+	history = {
+		1948.8.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1396338 = {
+	name = "Odilon Bourdette"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1952.8.1 = { rank = 0 }
+	}
+}
+1396333 = {
+	name = "Jean-François Beaujolie"
+	type = sea
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1396341 = {
+	name = "Fulbert Begin"
+	type = sea
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.12.1 = { rank = 1 }
+		1954.2.1 = { rank = 0 }
+	}
+}
+1396345 = {
+	name = "Stéphane Boivin"
+	type = sea
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1951.5.1 = { rank = 1 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1396344 = {
+	name = "Yann Lachapelle"
+	type = sea
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1950.10.1 = { rank = 1 }
+		1955.8.1 = { rank = 0 }
+	}
+}
+1396346 = {
+	name = "Claude-Henri Coupart"
+	type = sea
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1952.8.1 = { rank = 1 }
+		1958.9.1 = { rank = 0 }
+	}
+}
+1396349 = {
+	name = "Fulgence Bosse"
+	type = sea
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.4.1 = { rank = 1 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1396351 = {
+	name = "Sébastien Laux"
+	type = sea
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1958.9.1 = { rank = 1 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1396330 = {
+	name = "Grégoire Batard"
+	type = sea
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.10.1 = { rank = 2 }
+		1952.8.1 = { rank = 3 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1396352 = {
+	name = "Ademar Labrecque"
+	type = sea
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1960.5.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1396350 = {
+	name = "Étienne Gilbert"
+	type = sea
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.8.1 = { rank = 1 }
+		1964.4.1 = { rank = 0 }
+	}
+}
+1396348 = {
+	name = "Richard Duclos"
+	type = sea
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.2.1 = { rank = 1 }
+		1962.8.1 = { rank = 2 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1396339 = {
+	name = "Jean Laberge"
+	type = sea
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1396343 = {
+	name = "Maurice Artois"
+	type = sea
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.7.1 = { rank = 1 }
+		1952.8.1 = { rank = 2 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1396342 = {
+	name = "Lucien Camus"
+	type = sea
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.12.1 = { rank = 1 }
+		1966.4.1 = { rank = 0 }
+	}
+}
+1396360 = {
+	name = "Edmé Paquette"
+	type = sea
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1966.4.1 = { rank = 1 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1396347 = {
+	name = "Jean Alexandre"
+	type = sea
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.5.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1396359 = {
+	name = "François-Xavier Loiselle"
+	type = sea
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.2.1 = { rank = 1 }
+		1969.3.1 = { rank = 0 }
+	}
+}
+1396353 = {
+	name = "Jean-Denis Bonsaint"
+	type = sea
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1961.12.1 = { rank = 1 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1396356 = {
+	name = "Roger Coupart"
+	type = sea
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1964.4.1 = { rank = 1 }
+		1964.10.1 = { rank = 2 }
+		1965.6.1 = { rank = 3 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1396354 = {
+	name = "Jean-Martin Hervieux"
+	type = sea
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.8.1 = { rank = 1 }
+		1965.2.1 = { rank = 2 }
+		1970.5.1 = { rank = 3 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1396362 = {
+	name = "Jérémie Huot"
+	type = sea
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1969.11.1 = { rank = 1 }
+		1981.12.1 = { rank = 0 }
+	}
+}
+1396355 = {
+	name = "Fernand Lauzier"
+	type = sea
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1970.5.1 = { rank = 2 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1396364 = {
+	name = "Michel Barrientos"
+	type = sea
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1969.12.1 = { rank = 1 }
+		1986.2.1 = { rank = 0 }
+	}
+}
+1396369 = {
+	name = "Léon Dionne"
+	type = sea
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1986.2.1 = { rank = 1 }
+		1987.10.1 = { rank = 0 }
+	}
+}
+1396336 = {
+	name = "Charles Letourneau"
+	type = sea
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1962.8.1 = { rank = 3 }
+		1965.6.1 = { rank = 4 }
+		1989.6.1 = { rank = 0 }
+	}
+}
+1396361 = {
+	name = "Jean-Martin Gervais"
+	type = sea
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1967.12.1 = { rank = 1 }
+		1989.9.1 = { rank = 0 }
+	}
+}
+1396357 = {
+	name = "Jean-Marie Menard"
+	type = sea
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = superior_tactician
+	history = {
+		1964.10.1 = { rank = 1 }
+		1965.6.1 = { rank = 2 }
+		1980.7.1 = { rank = 3 }
+		1989.6.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396358 = {
+	name = "Jean-Louis Pinneau"
+	type = sea
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396363 = {
+	name = "Lucien Boisvert"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.3.1 = { rank = 1 }
+		1980.7.1 = { rank = 2 }
+		1989.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396365 = {
+	name = "Jean-Antoine Bonneville"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396366 = {
+	name = "Alain Frappier"
+	type = sea
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1980.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396367 = {
+	name = "Séraphin Beaujolie"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.12.1 = { rank = 1 }
+		1983.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396368 = {
+	name = "Medard Plouffe"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1983.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396370 = {
+	name = "Étienne Leduc"
+	type = sea
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.10.1 = { rank = 1 }
+		1989.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396371 = {
+	name = "Florimond Trottier"
+	type = sea
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1989.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396372 = {
+	name = "Pierre-Simon Marleau"
+	type = sea
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1989.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396379 = {
+	name = "Matthieu Lagace"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.1.1 = { rank = 0 }
+	}
+}
+1396377 = {
+	name = "André-Marie Cyr"
+	type = air
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1396380 = {
+	name = "Alexandre Michaud"
+	type = air
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.7.1 = { rank = 0 }
+	}
+}
+1396375 = {
+	name = "Guy Talon"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.8.1 = { rank = 0 }
+	}
+}
+1396383 = {
+	name = "Albertet Gauvin"
+	type = air
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.4.1 = { rank = 1 }
+		1959.7.1 = { rank = 0 }
+	}
+}
+1396386 = {
+	name = "Fulbert Frappier"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.7.1 = { rank = 1 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1396374 = {
+	name = "Jean-Martin Theberge"
+	type = air
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.4.1 = { rank = 0 }
+	}
+}
+1396381 = {
+	name = "Paul-Antoine Benoit"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1396388 = {
+	name = "Fabien Bouvier"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1964.4.1 = { rank = 1 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1396385 = {
+	name = "Francis Bourgeois"
+	type = air
+	country = FRA
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1959.8.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1396378 = {
+	name = "Richard Bazin"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.7.1 = { rank = 3 }
+		1968.4.1 = { rank = 4 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1396373 = {
+	name = "Jean-Louis Chevrette"
+	type = air
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.1.1 = { rank = 2 }
+		1972.2.1 = { rank = 0 }
+	}
+}
+1396382 = {
+	name = "Noël Rivard"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1951.1.1 = { rank = 1 }
+		1953.7.1 = { rank = 2 }
+		1968.4.1 = { rank = 3 }
+		1969.7.1 = { rank = 4 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1396387 = {
+	name = "Jean-François Artois"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1396392 = {
+	name = "Abbon Trottier"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1972.2.1 = { rank = 2 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1396391 = {
+	name = "Aubin Desruisseaux"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1968.2.1 = { rank = 1 }
+		1979.9.1 = { rank = 2 }
+		1980.8.1 = { rank = 0 }
+	}
+}
+1396390 = {
+	name = "Gerbaud Lauzier"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1968.12.1 = { rank = 1 }
+		1969.7.1 = { rank = 2 }
+		1972.11.1 = { rank = 3 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1396384 = {
+	name = "Alphonse Joseph Racine"
+	type = air
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = carpet_bomber
+	history = {
+		1953.7.1 = { rank = 1 }
+		1968.4.1 = { rank = 2 }
+		1969.7.1 = { rank = 3 }
+		1972.11.1 = { rank = 4 }
+		1985.3.1 = { rank = 0 }
+	}
+}
+1396393 = {
+	name = "André-Marie Audet"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1972.2.1 = { rank = 1 }
+		1987.4.1 = { rank = 0 }
+	}
+}
+1396396 = {
+	name = "Antoine LaCaille"
+	type = air
+	country = FRA
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1979.9.1 = { rank = 1 }
+		1983.2.1 = { rank = 2 }
+		1985.3.1 = { rank = 3 }
+		1987.10.1 = { rank = 0 }
+	}
+}
+1396376 = {
+	name = "Pascal Bosse"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1396397 = {
+	name = "Yannick Mireault"
+	type = air
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1980.8.1 = { rank = 1 }
+		1985.3.1 = { rank = 2 }
+		1989.7.1 = { rank = 0 }
+	}
+}
+1396389 = {
+	name = "Jean Verreau"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.4.1 = { rank = 1 }
+		1972.11.1 = { rank = 2 }
+		1983.2.1 = { rank = 3 }
+		1985.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396394 = {
+	name = "Jean-Louis Sevier"
+	type = air
+	country = FRA
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1972.11.1 = { rank = 1 }
+		1989.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396395 = {
+	name = "Jean-Baptiste Tardif"
+	type = air
+	country = FRA
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1980.8.1 = { rank = 2 }
+		1987.10.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396398 = {
+	name = "Grégoire Quessy"
+	type = air
+	country = FRA
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396399 = {
+	name = "Jean-Baptiste Mainville"
+	type = air
+	country = FRA
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1985.3.1 = { rank = 1 }
+		1987.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396400 = {
+	name = "Maurille Bonneville"
+	type = air
+	country = FRA
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1987.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396401 = {
+	name = "François-Xavier Berube"
+	type = air
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396402 = {
+	name = "Jean-René Menard"
+	type = air
+	country = FRA
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1396403 = {
+	name = "Gerbaud Compagnon"
+	type = air
+	country = FRA
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1989.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

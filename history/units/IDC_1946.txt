@@ -1,0 +1,35 @@
+theatre =
+{
+	name = "Indochina Theatre"
+	location = 12353
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Indochinese HQ"
+		location = 12352
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Militia Division"
+			location = 12352
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Militia Division"
+			location = 12352
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+		division =
+		{
+			name = "3rd Militia Division"
+			location = 12352
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 40 experience = 5 }
+		}
+	}
+}

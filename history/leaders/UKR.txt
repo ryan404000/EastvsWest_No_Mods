@@ -1,0 +1,9157 @@
+1389075 = {
+	name = "Kirill Artemyeva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.10.1 = { rank = 0 }
+	}
+}
+1389101 = {
+	name = "Pyotr Zakharova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1389035 = {
+	name = "Dmitry Belova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1389006 = {
+	name = "Andrey Afanasyeva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.12.1 = { rank = 0 }
+	}
+}
+1389051 = {
+	name = "Vitaly Bogdanova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1389045 = {
+	name = "Anton Tikhonova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.9.1 = { rank = 0 }
+	}
+}
+1389000 = {
+	name = "Gleb Ibrahimova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.2.1 = { rank = 0 }
+	}
+}
+1389092 = {
+	name = "Evgeny Ermakov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.10.1 = { rank = 0 }
+	}
+}
+1389038 = {
+	name = "Vadim Kuznetsova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1389040 = {
+	name = "Vladimir Zotova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.11.1 = { rank = 0 }
+	}
+}
+1389021 = {
+	name = "Boris Biryukov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1389108 = {
+	name = "Gleb Sukhorukova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1389061 = {
+	name = "Kirill Samsonova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.10.1 = { rank = 2 }
+		1949.6.1 = { rank = 0 }
+	}
+}
+1389033 = {
+	name = "Svyatoslav Kozlov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1389001 = {
+	name = "Maxim Andreev"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1389015 = {
+	name = "Georgy Matveyeva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1389058 = {
+	name = "Dmitry Solomina"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1389121 = {
+	name = "Vyacheslav Fyodorov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1949.3.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1389113 = {
+	name = "Dmitry Sokolova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1948.12.1 = { rank = 1 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1389102 = {
+	name = "Gleb Butusov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1389028 = {
+	name = "Nikola Alekseeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1389019 = {
+	name = "Kirill Belyakova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1389022 = {
+	name = "Anton Zaitseva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 2 }
+		1950.8.1 = { rank = 0 }
+	}
+}
+1389119 = {
+	name = "Nikola Komarova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.11.1 = { rank = 1 }
+		1950.8.1 = { rank = 0 }
+	}
+}
+1389013 = {
+	name = "Vasily Matveyev"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.2.1 = { rank = 0 }
+	}
+}
+1389047 = {
+	name = "Gleb Lavrov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.2.1 = { rank = 0 }
+	}
+}
+1389117 = {
+	name = "Artyom Andreev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1948.10.1 = { rank = 1 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1389123 = {
+	name = "Evgeny Pavlova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1949.7.1 = { rank = 1 }
+		1951.2.1 = { rank = 0 }
+	}
+}
+1389126 = {
+	name = "Anton Tychonoff"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1949.7.1 = { rank = 1 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1389063 = {
+	name = "Andrey Evdokimov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.3.1 = { rank = 0 }
+	}
+}
+1389055 = {
+	name = "Vadim Kovalyov"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.1.1 = { rank = 0 }
+	}
+}
+1389023 = {
+	name = "Georgy Ibrahimov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1389044 = {
+	name = "Vitaly Vasiliev"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1389098 = {
+	name = "Anatoly Pokrovskaya"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.1.1 = { rank = 0 }
+	}
+}
+1389070 = {
+	name = "Dmitry Tokareva"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.11.1 = { rank = 0 }
+	}
+}
+1389083 = {
+	name = "Boris Nevzorova"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1389007 = {
+	name = "Alexandr Alekseeva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.1.1 = { rank = 0 }
+	}
+}
+1389116 = {
+	name = "Georgy Fokina"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.2.1 = { rank = 1 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1389071 = {
+	name = "Fyodor Artemyeva"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1389084 = {
+	name = "Vladimir Volodin"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1389139 = {
+	name = "Alexandr Alexeeva"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.3.1 = { rank = 1 }
+		1952.7.1 = { rank = 0 }
+	}
+}
+1389091 = {
+	name = "Vladimir Fomina"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.9.1 = { rank = 0 }
+	}
+}
+1389128 = {
+	name = "Egor Krylova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.3.1 = { rank = 1 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1389034 = {
+	name = "Gleb Woronoff"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.10.1 = { rank = 2 }
+		1948.10.1 = { rank = 3 }
+		1953.6.1 = { rank = 0 }
+	}
+}
+1389011 = {
+	name = "Alexandr Efimov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1389069 = {
+	name = "Anatoly Denisova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.1.1 = { rank = 2 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1389096 = {
+	name = "Dmitry Degtyarev"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.7.1 = { rank = 0 }
+	}
+}
+1389012 = {
+	name = "Boris Kirillov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1389155 = {
+	name = "Pyotr Avdeyeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1953.5.1 = { rank = 1 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1389049 = {
+	name = "Nikola Bykova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1389082 = {
+	name = "Gleb Avdeev"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1389133 = {
+	name = "Vadim Konovalov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.8.1 = { rank = 1 }
+		1954.12.1 = { rank = 0 }
+	}
+}
+1389027 = {
+	name = "Vadim Vinogradoff"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1389031 = {
+	name = "Svyatoslav Seleznyova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.2.1 = { rank = 0 }
+	}
+}
+1389073 = {
+	name = "Kirill Gerasimov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.2.1 = { rank = 0 }
+	}
+}
+1389100 = {
+	name = "Viktor Vinogradova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1389074 = {
+	name = "Mikhail Baryshnikov"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.1.1 = { rank = 0 }
+	}
+}
+1389080 = {
+	name = "Maxim Balabanov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.4.1 = { rank = 0 }
+	}
+}
+1389004 = {
+	name = "Ivan Lazareva"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.8.1 = { rank = 0 }
+	}
+}
+1389114 = {
+	name = "Fyodor Andreeff"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1952.4.1 = { rank = 2 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1389112 = {
+	name = "Viktor Ignatieff"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.6.1 = { rank = 1 }
+		1950.3.1 = { rank = 2 }
+		1955.5.1 = { rank = 0 }
+	}
+}
+1389161 = {
+	name = "Yury Bodrova"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1954.12.1 = { rank = 1 }
+		1956.9.1 = { rank = 0 }
+	}
+}
+1389097 = {
+	name = "Svyatoslav Shcherbakov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.10.1 = { rank = 0 }
+	}
+}
+1389046 = {
+	name = "Denis Samoylova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 2 }
+		1954.10.1 = { rank = 3 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1389079 = {
+	name = "Artyom Abramovich"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.3.1 = { rank = 3 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1389076 = {
+	name = "Vyacheslav Seleznyov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1389050 = {
+	name = "Denis Izmailov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.11.1 = { rank = 0 }
+	}
+}
+1389087 = {
+	name = "Viktor Matveyev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.1.1 = { rank = 0 }
+	}
+}
+1389154 = {
+	name = "Egor Matveyev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = panzer_leader
+	add_trait = trickster
+	history = {
+		1953.5.1 = { rank = 1 }
+		1954.7.1 = { rank = 2 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1389115 = {
+	name = "Georgy Shubin"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1948.9.1 = { rank = 1 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1389095 = {
+	name = "Mikhail Bogolyubova"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1389036 = {
+	name = "Ivan Ibragimova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.2.1 = { rank = 0 }
+	}
+}
+1389042 = {
+	name = "Ivan Prokhorova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1389003 = {
+	name = "Alexandr Ankudinova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.1.1 = { rank = 0 }
+	}
+}
+1389067 = {
+	name = "Anton Solomina"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1389159 = {
+	name = "Kirill Vagin"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1954.8.1 = { rank = 1 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1389002 = {
+	name = "Artyom Repina"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.3.1 = { rank = 0 }
+	}
+}
+1389120 = {
+	name = "Georgy Baranov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1949.3.1 = { rank = 1 }
+		1957.2.1 = { rank = 0 }
+	}
+}
+1389090 = {
+	name = "Andrey Bazhenov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.1.1 = { rank = 0 }
+	}
+}
+1389129 = {
+	name = "Grigory Maslov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1950.3.1 = { rank = 1 }
+		1957.9.1 = { rank = 0 }
+	}
+}
+1389018 = {
+	name = "Nikola Yermakov"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.1.1 = { rank = 0 }
+	}
+}
+1389043 = {
+	name = "Artyom Yefremova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1957.7.1 = { rank = 0 }
+	}
+}
+1389072 = {
+	name = "Ivan Yuriev"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.2.1 = { rank = 0 }
+	}
+}
+1389053 = {
+	name = "Egor Golovanov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.11.1 = { rank = 0 }
+	}
+}
+1389025 = {
+	name = "Mikhail Lavrova"
+	type = land
+	country = UKR
+	skill = 12
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.1.1 = { rank = 0 }
+	}
+}
+1389175 = {
+	name = "Dmitry Afanasyeva"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1956.5.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1958.6.1 = { rank = 0 }
+	}
+}
+1389103 = {
+	name = "Mikhail Kudryashova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1958.1.1 = { rank = 0 }
+	}
+}
+1389147 = {
+	name = "Gleb Kazakova"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1952.12.1 = { rank = 1 }
+		1958.6.1 = { rank = 0 }
+	}
+}
+1389184 = {
+	name = "Vyacheslav Fomin"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1957.6.1 = { rank = 1 }
+		1958.3.1 = { rank = 0 }
+	}
+}
+1389016 = {
+	name = "Anton Kozlov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.8.1 = { rank = 0 }
+	}
+}
+1389187 = {
+	name = "Maxim Yefremov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1957.2.1 = { rank = 1 }
+		1958.12.1 = { rank = 0 }
+	}
+}
+1389152 = {
+	name = "Fyodor Muravyova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1953.8.1 = { rank = 1 }
+		1958.5.1 = { rank = 0 }
+	}
+}
+1389168 = {
+	name = "Vasily Sergeyev"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1955.8.1 = { rank = 1 }
+		1958.1.1 = { rank = 2 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1389189 = {
+	name = "Vasily Kovaleva"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1957.9.1 = { rank = 1 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1389062 = {
+	name = "Vyacheslav Konovalov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1389110 = {
+	name = "Bogdan Yevseyev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.10.1 = { rank = 1 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1389125 = {
+	name = "Viktor Gerasimova"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1949.1.1 = { rank = 1 }
+		1959.7.1 = { rank = 0 }
+	}
+}
+1389088 = {
+	name = "Viktor Golubeva"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1389141 = {
+	name = "Vyacheslav Repina"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.8.1 = { rank = 1 }
+		1954.10.1 = { rank = 2 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1389144 = {
+	name = "Georgy Sokolova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1952.11.1 = { rank = 1 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1389164 = {
+	name = "Nikola Golubov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.2.1 = { rank = 1 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1389131 = {
+	name = "Kirill Kapustina"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.1.1 = { rank = 1 }
+		1953.6.1 = { rank = 2 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1389143 = {
+	name = "Valery Volkova"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.1.1 = { rank = 1 }
+		1956.10.1 = { rank = 2 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1389142 = {
+	name = "Vitaly Loginov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.5.1 = { rank = 1 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1389136 = {
+	name = "Ivan Zakharov"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1951.4.1 = { rank = 1 }
+		1960.10.1 = { rank = 0 }
+	}
+}
+1389167 = {
+	name = "Kirill Alekseeva"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1955.4.1 = { rank = 1 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1389064 = {
+	name = "Evgeny Ignatieff"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.4.1 = { rank = 0 }
+	}
+}
+1389204 = {
+	name = "Gleb Zotov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1959.6.1 = { rank = 1 }
+		1960.12.1 = { rank = 0 }
+	}
+}
+1389165 = {
+	name = "Artyom Yashina"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.10.1 = { rank = 1 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1389137 = {
+	name = "Mikhail Volkov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.2.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1960.9.1 = { rank = 0 }
+	}
+}
+1389146 = {
+	name = "Anton Volodin"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.1.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1389005 = {
+	name = "Bogdan Izmailova"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.12.1 = { rank = 2 }
+		1960.2.1 = { rank = 0 }
+	}
+}
+1389196 = {
+	name = "Viktor Kharlamov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1958.1.1 = { rank = 1 }
+		1960.7.1 = { rank = 0 }
+	}
+}
+1389111 = {
+	name = "Andrey Glebova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1948.3.1 = { rank = 1 }
+		1950.8.1 = { rank = 2 }
+		1961.11.1 = { rank = 0 }
+	}
+}
+1389207 = {
+	name = "Fyodor Yevseyev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1959.6.1 = { rank = 1 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1389183 = {
+	name = "Vladimir Kuznetsova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1957.1.1 = { rank = 1 }
+		1961.10.1 = { rank = 0 }
+	}
+}
+1389197 = {
+	name = "Boris Aksyonova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1958.6.1 = { rank = 1 }
+		1961.11.1 = { rank = 0 }
+	}
+}
+1389078 = {
+	name = "Denis Degtyarev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.5.1 = { rank = 0 }
+	}
+}
+1389059 = {
+	name = "Anton Volodin"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1389077 = {
+	name = "Bogdan Aksenova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1389106 = {
+	name = "Bogdan Bogdanova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1389178 = {
+	name = "Alexandr Abramowitz"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1956.5.1 = { rank = 1 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1389149 = {
+	name = "Artyom Yudina"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.12.1 = { rank = 1 }
+		1961.3.1 = { rank = 0 }
+	}
+}
+1389132 = {
+	name = "Georgy Maslow"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.8.1 = { rank = 1 }
+		1961.3.1 = { rank = 0 }
+	}
+}
+1389230 = {
+	name = "Valery Bobrov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.7.1 = { rank = 1 }
+		1962.6.1 = { rank = 0 }
+	}
+}
+1389199 = {
+	name = "Kirill Kazakova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1958.8.1 = { rank = 1 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1389056 = {
+	name = "Valery Vinogradov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 2 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1389212 = {
+	name = "Alexey Gerasimov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.11.1 = { rank = 1 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1389057 = {
+	name = "Grigory Alexeyeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1389205 = {
+	name = "Svyatoslav Glazkov"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1962.6.1 = { rank = 0 }
+	}
+}
+1389206 = {
+	name = "Fyodor Vasilyev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.7.1 = { rank = 1 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1389224 = {
+	name = "Alexandr Yuryeva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1961.1.1 = { rank = 1 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1389176 = {
+	name = "Vyacheslav Yegorov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.11.1 = { rank = 1 }
+		1956.11.1 = { rank = 2 }
+		1962.5.1 = { rank = 0 }
+	}
+}
+1389124 = {
+	name = "Vasily Boholyubov"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1389170 = {
+	name = "Boris Voronina"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1955.5.1 = { rank = 1 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1389182 = {
+	name = "Alexandr Sozonov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1389235 = {
+	name = "Denis Komarova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1962.11.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1389237 = {
+	name = "Gleb Dubinina"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = panzer_leader
+	history = {
+		1962.11.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1389185 = {
+	name = "Denis Kotov"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.8.1 = { rank = 1 }
+		1963.9.1 = { rank = 0 }
+	}
+}
+1389215 = {
+	name = "Boris Fyodorov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1960.5.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1389024 = {
+	name = "Grigory Ibragimova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1389218 = {
+	name = "Svyatoslav Kharlamov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1963.9.1 = { rank = 0 }
+	}
+}
+1389188 = {
+	name = "Dmitry Pirogov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.1.1 = { rank = 1 }
+		1963.5.1 = { rank = 0 }
+	}
+}
+1389145 = {
+	name = "Boris Ermakov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.4.1 = { rank = 1 }
+		1952.12.1 = { rank = 2 }
+		1956.5.1 = { rank = 3 }
+		1964.7.1 = { rank = 0 }
+	}
+}
+1389014 = {
+	name = "Grigory Degtyarev"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.12.1 = { rank = 2 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1389210 = {
+	name = "Anton Medvedev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = offensive_doctrine
+	history = {
+		1959.9.1 = { rank = 1 }
+		1964.11.1 = { rank = 0 }
+	}
+}
+1389008 = {
+	name = "Anatoly Ozerov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.6.1 = { rank = 0 }
+	}
+}
+1389166 = {
+	name = "Boris Belov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.1.1 = { rank = 1 }
+		1962.5.1 = { rank = 2 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1389093 = {
+	name = "Alexandr Mordvinova"
+	type = land
+	country = UKR
+	skill = 13
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1389220 = {
+	name = "Svyatoslav Uspenskaya"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1960.11.1 = { rank = 1 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1389203 = {
+	name = "Vasily Zakharova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1959.4.1 = { rank = 1 }
+		1961.5.1 = { rank = 2 }
+		1965.12.1 = { rank = 0 }
+	}
+}
+1389130 = {
+	name = "Nikola Alexeeva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1950.6.1 = { rank = 1 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1389201 = {
+	name = "Kirill Gorbunova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.5.1 = { rank = 1 }
+		1965.7.1 = { rank = 0 }
+	}
+}
+1389232 = {
+	name = "Boris Sokolova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1961.3.1 = { rank = 1 }
+		1965.3.1 = { rank = 0 }
+	}
+}
+1389200 = {
+	name = "Anton Vassiliev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1958.12.1 = { rank = 1 }
+		1965.4.1 = { rank = 0 }
+	}
+}
+1389260 = {
+	name = "Maxim Kryukova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1965.12.1 = { rank = 1 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1389157 = {
+	name = "Boris Izmailova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.10.1 = { rank = 1 }
+		1966.11.1 = { rank = 0 }
+	}
+}
+1389162 = {
+	name = "Vyacheslav Bykova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.10.1 = { rank = 1 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1389192 = {
+	name = "Boris Vasin"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1957.2.1 = { rank = 1 }
+		1960.11.1 = { rank = 2 }
+		1966.1.1 = { rank = 0 }
+	}
+}
+1389195 = {
+	name = "Vadim Yuriev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1958.6.1 = { rank = 1 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1389153 = {
+	name = "Yury Vaguine"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.6.1 = { rank = 1 }
+		1966.2.1 = { rank = 0 }
+	}
+}
+1389234 = {
+	name = "Vadim Gorshkov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.6.1 = { rank = 1 }
+		1966.7.1 = { rank = 0 }
+	}
+}
+1389135 = {
+	name = "Boris Ermakov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.2.1 = { rank = 1 }
+		1954.8.1 = { rank = 2 }
+		1958.1.1 = { rank = 3 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1389248 = {
+	name = "Viktor Belov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1963.9.1 = { rank = 1 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1389193 = {
+	name = "Nikola Aksenov"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.11.1 = { rank = 1 }
+		1962.10.1 = { rank = 2 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1389240 = {
+	name = "Nikola Anisimov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.1.1 = { rank = 1 }
+		1966.11.1 = { rank = 0 }
+	}
+}
+1389269 = {
+	name = "Alexey Evseyev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1966.8.1 = { rank = 1 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1389173 = {
+	name = "Kirill Mironov"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1956.12.1 = { rank = 1 }
+		1960.5.1 = { rank = 2 }
+		1967.5.1 = { rank = 0 }
+	}
+}
+1389244 = {
+	name = "Andrey Lazarev"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1963.2.1 = { rank = 1 }
+		1967.10.1 = { rank = 0 }
+	}
+}
+1389068 = {
+	name = "Svyatoslav Aksakov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1389104 = {
+	name = "Viktor Efremova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1968.11.1 = { rank = 0 }
+	}
+}
+1389017 = {
+	name = "Mikhail Uspensky"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.7.1 = { rank = 2 }
+		1964.7.1 = { rank = 3 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1389150 = {
+	name = "Viktor Blinova"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1952.7.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1389151 = {
+	name = "Valery Uspenskaya"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.9.1 = { rank = 1 }
+		1955.5.1 = { rank = 2 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1389048 = {
+	name = "Mikhail Repina"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1969.2.1 = { rank = 0 }
+	}
+}
+1389225 = {
+	name = "Boris Krylov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1961.10.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1389264 = {
+	name = "Svyatoslav Grigoryeva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.4.1 = { rank = 1 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1389122 = {
+	name = "Alexandr Konovalova"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.6.1 = { rank = 1 }
+		1969.1.1 = { rank = 0 }
+	}
+}
+1389163 = {
+	name = "Alexey Bazarova"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.2.1 = { rank = 1 }
+		1969.2.1 = { rank = 0 }
+	}
+}
+1389054 = {
+	name = "Alexey Afanasyev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.6.1 = { rank = 2 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1389272 = {
+	name = "Evgeny Andreev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.8.1 = { rank = 1 }
+		1966.10.1 = { rank = 2 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1389226 = {
+	name = "Denis Fomina"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1961.11.1 = { rank = 1 }
+		1966.8.1 = { rank = 2 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1389258 = {
+	name = "Vitaly Denisov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.6.1 = { rank = 1 }
+		1970.2.1 = { rank = 0 }
+	}
+}
+1389158 = {
+	name = "Mikhail Larionova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1954.9.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1389181 = {
+	name = "Grigory Bezrukov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.2.1 = { rank = 1 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1389020 = {
+	name = "Georgy Pirogov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1389160 = {
+	name = "Valery Bykov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1954.8.1 = { rank = 1 }
+		1960.2.1 = { rank = 2 }
+		1970.2.1 = { rank = 0 }
+	}
+}
+1389251 = {
+	name = "Denis Golovanov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1963.9.1 = { rank = 1 }
+		1968.12.1 = { rank = 2 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1389253 = {
+	name = "Georgy Demidov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1964.7.1 = { rank = 1 }
+		1969.12.1 = { rank = 2 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1389254 = {
+	name = "Kirill Aksenova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1964.8.1 = { rank = 1 }
+		1965.12.1 = { rank = 2 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1389292 = {
+	name = "Vyacheslav Alexandrova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1970.2.1 = { rank = 1 }
+		1970.2.1 = { rank = 2 }
+		1971.7.1 = { rank = 0 }
+	}
+}
+1389231 = {
+	name = "Maxim Maslova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1971.7.1 = { rank = 0 }
+	}
+}
+1389140 = {
+	name = "Evgeny Bulgakov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.1.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1389263 = {
+	name = "Egor Ulyanova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.3.1 = { rank = 1 }
+		1971.7.1 = { rank = 0 }
+	}
+}
+1389177 = {
+	name = "Evgeny Ponomarev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1956.1.1 = { rank = 1 }
+		1972.5.1 = { rank = 0 }
+	}
+}
+1389026 = {
+	name = "Evgeny Sazonova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.7.1 = { rank = 2 }
+		1972.10.1 = { rank = 0 }
+	}
+}
+1389186 = {
+	name = "Vyacheslav Bulgakov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1957.3.1 = { rank = 1 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1389211 = {
+	name = "Dmitry Vasin"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = defensive_doctrine
+	history = {
+		1960.5.1 = { rank = 1 }
+		1967.5.1 = { rank = 2 }
+		1972.1.1 = { rank = 0 }
+	}
+}
+1389256 = {
+	name = "Vasily Maslova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1964.6.1 = { rank = 1 }
+		1972.12.1 = { rank = 0 }
+	}
+}
+1389243 = {
+	name = "Vyacheslav Lebedeva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1963.10.1 = { rank = 1 }
+		1972.1.1 = { rank = 0 }
+	}
+}
+1389265 = {
+	name = "Vladimir Solomina"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1966.5.1 = { rank = 1 }
+		1972.10.1 = { rank = 0 }
+	}
+}
+1389041 = {
+	name = "Denis Kazantseva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.6.1 = { rank = 2 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1389222 = {
+	name = "Bogdan Bogdanov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = winter_specialist
+	history = {
+		1960.7.1 = { rank = 1 }
+		1973.8.1 = { rank = 0 }
+	}
+}
+1389283 = {
+	name = "Vladimir Yefremova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1969.6.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1389280 = {
+	name = "Bogdan Alexeeva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.11.1 = { rank = 1 }
+		1973.11.1 = { rank = 0 }
+	}
+}
+1389281 = {
+	name = "Denis Nevzorov"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1968.12.1 = { rank = 1 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1389202 = {
+	name = "Andrey Lavrova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = trickster
+	history = {
+		1959.12.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1389236 = {
+	name = "Vasily Bykova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.10.1 = { rank = 1 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1389314 = {
+	name = "Ivan Ignatiev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.11.1 = { rank = 1 }
+		1974.7.1 = { rank = 0 }
+	}
+}
+1389107 = {
+	name = "Georgy Alexeeva"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1389301 = {
+	name = "Artyom Tretiakov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.7.1 = { rank = 1 }
+		1974.5.1 = { rank = 0 }
+	}
+}
+1389227 = {
+	name = "Gleb Borodina"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.5.1 = { rank = 1 }
+		1974.9.1 = { rank = 0 }
+	}
+}
+1389279 = {
+	name = "Mikhail Tretiakova"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1968.9.1 = { rank = 1 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1389255 = {
+	name = "Pyotr Alekseeva"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.11.1 = { rank = 1 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1389267 = {
+	name = "Kirill Matveyev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1966.8.1 = { rank = 1 }
+		1974.10.1 = { rank = 0 }
+	}
+}
+1389277 = {
+	name = "Pyotr Evdokimov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.5.1 = { rank = 1 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1389172 = {
+	name = "Anatoly Yusupova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1956.10.1 = { rank = 1 }
+		1970.5.1 = { rank = 2 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1389179 = {
+	name = "Georgy Yusupov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1956.3.1 = { rank = 1 }
+		1965.6.1 = { rank = 2 }
+		1974.5.1 = { rank = 0 }
+	}
+}
+1389238 = {
+	name = "Boris Vasin"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = commando
+	history = {
+		1962.10.1 = { rank = 1 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1389295 = {
+	name = "Dmitry Sokolov"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1970.11.1 = { rank = 1 }
+		1974.1.1 = { rank = 0 }
+	}
+}
+1389148 = {
+	name = "Valery Abdulov"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.12.1 = { rank = 1 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1389303 = {
+	name = "Viktor Kolesnikov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.7.1 = { rank = 1 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1389219 = {
+	name = "Viktor Bezrukov"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1960.9.1 = { rank = 1 }
+		1964.7.1 = { rank = 2 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1389271 = {
+	name = "Mikhail Sergeyeva"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.7.1 = { rank = 1 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1389213 = {
+	name = "Nikola Tretiakova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1960.3.1 = { rank = 1 }
+		1975.4.1 = { rank = 0 }
+	}
+}
+1389259 = {
+	name = "Viktor Glebova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1965.2.1 = { rank = 1 }
+		1975.11.1 = { rank = 0 }
+	}
+}
+1389276 = {
+	name = "Boris Sokolova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.9.1 = { rank = 1 }
+		1975.1.1 = { rank = 0 }
+	}
+}
+1389138 = {
+	name = "Alexandr Sazonova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1951.10.1 = { rank = 1 }
+		1975.1.1 = { rank = 0 }
+	}
+}
+1389242 = {
+	name = "Ivan Kotov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1962.5.1 = { rank = 1 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1389285 = {
+	name = "Vadim Evseyev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1969.5.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1389037 = {
+	name = "Kirill Evdokimov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1968.11.1 = { rank = 2 }
+		1975.4.1 = { rank = 0 }
+	}
+}
+1389191 = {
+	name = "Andrey Yermolayev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1957.7.1 = { rank = 1 }
+		1975.3.1 = { rank = 0 }
+	}
+}
+1389208 = {
+	name = "Fyodor Kudryashov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1389198 = {
+	name = "Vyacheslav Kapustin"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1958.3.1 = { rank = 1 }
+		1959.6.1 = { rank = 2 }
+		1961.7.1 = { rank = 3 }
+		1975.3.1 = { rank = 0 }
+	}
+}
+1389318 = {
+	name = "Vitaly Avdeyev"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1974.7.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1389180 = {
+	name = "Maxim Fyodorov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1956.5.1 = { rank = 1 }
+		1961.1.1 = { rank = 2 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1389291 = {
+	name = "Vadim Artemova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1969.5.1 = { rank = 1 }
+		1976.11.1 = { rank = 0 }
+	}
+}
+1389065 = {
+	name = "Grigory Zaitsev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.10.1 = { rank = 2 }
+		1976.1.1 = { rank = 0 }
+	}
+}
+1389306 = {
+	name = "Valery Voronkov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1389342 = {
+	name = "Pyotr Alexeyeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1389309 = {
+	name = "Vasily Yuriev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1972.1.1 = { rank = 1 }
+		1976.12.1 = { rank = 0 }
+	}
+}
+1389325 = {
+	name = "Fyodor Lazareva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1974.2.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1389327 = {
+	name = "Mikhail Vaguine"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.5.1 = { rank = 1 }
+		1977.5.1 = { rank = 0 }
+	}
+}
+1389337 = {
+	name = "Ivan Konovalov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1975.1.1 = { rank = 1 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1389261 = {
+	name = "Valery Lavrentyev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.10.1 = { rank = 1 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1389127 = {
+	name = "Artyom Ponomarev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1950.4.1 = { rank = 1 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1389239 = {
+	name = "Vitaly Seleznev"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = winter_specialist
+	history = {
+		1962.6.1 = { rank = 1 }
+		1978.2.1 = { rank = 0 }
+	}
+}
+1389060 = {
+	name = "Vladimir Yuryeva"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.1.1 = { rank = 2 }
+		1966.8.1 = { rank = 3 }
+		1978.6.1 = { rank = 0 }
+	}
+}
+1389190 = {
+	name = "Denis Gerasimov"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1957.1.1 = { rank = 1 }
+		1978.6.1 = { rank = 0 }
+	}
+}
+1389336 = {
+	name = "Maxim Biryukova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.1.1 = { rank = 1 }
+		1978.5.1 = { rank = 0 }
+	}
+}
+1389030 = {
+	name = "Vladimir Sukhorukova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1976.1.1 = { rank = 2 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1389299 = {
+	name = "Bogdan Kudryashov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1389305 = {
+	name = "Kirill Ponomaryova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1972.10.1 = { rank = 1 }
+		1978.12.1 = { rank = 0 }
+	}
+}
+1389304 = {
+	name = "Alexey Chesnokova"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = ranger
+	history = {
+		1972.5.1 = { rank = 1 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1389257 = {
+	name = "Kirill Ankudinova"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1965.12.1 = { rank = 1 }
+		1978.6.1 = { rank = 0 }
+	}
+}
+1389326 = {
+	name = "Vyacheslav Belov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.2.1 = { rank = 1 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1389275 = {
+	name = "Pyotr Bodrova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.11.1 = { rank = 1 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1389308 = {
+	name = "Vadim Rozhkova"
+	type = land
+	country = UKR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.12.1 = { rank = 1 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1389316 = {
+	name = "Vyacheslav Kozlova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1973.2.1 = { rank = 1 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1389311 = {
+	name = "Anatoly Solomina"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1972.7.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1389273 = {
+	name = "Maxim Bykova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1966.5.1 = { rank = 1 }
+		1978.6.1 = { rank = 2 }
+		1979.4.1 = { rank = 0 }
+	}
+}
+1389066 = {
+	name = "Svyatoslav Denisov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1389284 = {
+	name = "Vladimir Sokolova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.2.1 = { rank = 1 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1389317 = {
+	name = "Dmitry Voronoff"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1974.8.1 = { rank = 1 }
+		1975.2.1 = { rank = 2 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1389169 = {
+	name = "Yury Bobrov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.10.1 = { rank = 1 }
+		1964.8.1 = { rank = 2 }
+		1974.6.1 = { rank = 3 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1389209 = {
+	name = "Andrey Artamonova"
+	type = land
+	country = UKR
+	skill = 13
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.9.1 = { rank = 1 }
+		1961.11.1 = { rank = 2 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1389346 = {
+	name = "Artyom Belov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1976.11.1 = { rank = 1 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1389321 = {
+	name = "Ivan Izmaylov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.9.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1389323 = {
+	name = "Nikola Kirillova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1980.5.1 = { rank = 0 }
+	}
+}
+1389298 = {
+	name = "Svyatoslav Sokolova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1970.5.1 = { rank = 1 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1389312 = {
+	name = "Grigory Larionova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1973.8.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1389266 = {
+	name = "Fyodor Blinova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.11.1 = { rank = 1 }
+		1974.6.1 = { rank = 2 }
+		1978.6.1 = { rank = 3 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1389359 = {
+	name = "Pyotr Abdulov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1978.5.1 = { rank = 1 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1389364 = {
+	name = "Vladimir Glebova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.6.1 = { rank = 1 }
+		1980.6.1 = { rank = 0 }
+	}
+}
+1389307 = {
+	name = "Alexandr Pirogova"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1972.1.1 = { rank = 1 }
+		1980.10.1 = { rank = 0 }
+	}
+}
+1389349 = {
+	name = "Boris Fomin"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.12.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1389302 = {
+	name = "Viktor Glebova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1971.5.1 = { rank = 1 }
+		1974.5.1 = { rank = 2 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1389300 = {
+	name = "Vitaly Nekrasova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = panzer_leader
+	history = {
+		1971.7.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1389052 = {
+	name = "Vasily Sergeyev"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1972.1.1 = { rank = 2 }
+		1979.12.1 = { rank = 3 }
+		1981.7.1 = { rank = 0 }
+	}
+}
+1389290 = {
+	name = "Valery Ibrahimov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.11.1 = { rank = 1 }
+		1981.11.1 = { rank = 0 }
+	}
+}
+1389010 = {
+	name = "Alexey Aksyonov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1969.5.1 = { rank = 2 }
+		1981.1.1 = { rank = 0 }
+	}
+}
+1389367 = {
+	name = "Yury Tokareva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = winter_specialist
+	history = {
+		1979.10.1 = { rank = 1 }
+		1981.8.1 = { rank = 0 }
+	}
+}
+1389383 = {
+	name = "Denis Vasin"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.6.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1389344 = {
+	name = "Anton Kirillov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1975.12.1 = { rank = 1 }
+		1981.2.1 = { rank = 0 }
+	}
+}
+1389286 = {
+	name = "Vyacheslav Pirogova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.12.1 = { rank = 1 }
+		1981.7.1 = { rank = 0 }
+	}
+}
+1389362 = {
+	name = "Bogdan Bazarov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.12.1 = { rank = 1 }
+		1982.9.1 = { rank = 0 }
+	}
+}
+1389329 = {
+	name = "Denis Borodin"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.1.1 = { rank = 1 }
+		1980.7.1 = { rank = 2 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1389343 = {
+	name = "Anton Tikhonova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.3.1 = { rank = 1 }
+		1982.2.1 = { rank = 0 }
+	}
+}
+1389350 = {
+	name = "Andrey Yudina"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1976.12.1 = { rank = 1 }
+		1982.8.1 = { rank = 0 }
+	}
+}
+1389214 = {
+	name = "Grigory Belova"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.10.1 = { rank = 1 }
+		1975.3.1 = { rank = 2 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1389233 = {
+	name = "Anton Vinogradov"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1961.3.1 = { rank = 1 }
+		1982.10.1 = { rank = 0 }
+	}
+}
+1389330 = {
+	name = "Anton Tikhonova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1975.2.1 = { rank = 1 }
+		1982.7.1 = { rank = 0 }
+	}
+}
+1389221 = {
+	name = "Bogdan Bezrukov"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1960.2.1 = { rank = 1 }
+		1983.7.1 = { rank = 0 }
+	}
+}
+1389392 = {
+	name = "Evgeny Abdulov"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1981.10.1 = { rank = 1 }
+		1983.11.1 = { rank = 0 }
+	}
+}
+1389247 = {
+	name = "Vladimir Tokareva"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1963.12.1 = { rank = 1 }
+		1983.11.1 = { rank = 0 }
+	}
+}
+1389356 = {
+	name = "Vadim Borodin"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1978.2.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1389194 = {
+	name = "Gleb Kharlamova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1958.1.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1389293 = {
+	name = "Vadim Korovina"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1970.12.1 = { rank = 1 }
+		1983.12.1 = { rank = 0 }
+	}
+}
+1389341 = {
+	name = "Fyodor Yegorov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1975.3.1 = { rank = 1 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1389390 = {
+	name = "Vitaly Biryukova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1981.1.1 = { rank = 1 }
+		1984.1.1 = { rank = 0 }
+	}
+}
+1389270 = {
+	name = "Denis Sokolov"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.2.1 = { rank = 1 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1389324 = {
+	name = "Bogdan Kryukov"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1974.10.1 = { rank = 1 }
+		1975.4.1 = { rank = 2 }
+		1984.1.1 = { rank = 0 }
+	}
+}
+1389375 = {
+	name = "Anton Kirillov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1979.2.1 = { rank = 1 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1389379 = {
+	name = "Valery Pokrovski"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.9.1 = { rank = 1 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1389174 = {
+	name = "Kirill Demidov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1982.4.1 = { rank = 2 }
+		1984.11.1 = { rank = 0 }
+	}
+}
+1389348 = {
+	name = "Vyacheslav Samoylova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.2.1 = { rank = 1 }
+		1984.11.1 = { rank = 0 }
+	}
+}
+1389334 = {
+	name = "Grigory Gorbunova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1975.4.1 = { rank = 1 }
+		1984.7.1 = { rank = 0 }
+	}
+}
+1389216 = {
+	name = "Artyom Afanasyev"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1960.4.1 = { rank = 1 }
+		1984.3.1 = { rank = 0 }
+	}
+}
+1389313 = {
+	name = "Andrey Alexeeva"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1973.2.1 = { rank = 1 }
+		1981.7.1 = { rank = 2 }
+		1984.3.1 = { rank = 0 }
+	}
+}
+1389353 = {
+	name = "Denis Solomina"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1977.3.1 = { rank = 1 }
+		1984.1.1 = { rank = 0 }
+	}
+}
+1389388 = {
+	name = "Artyom Efremova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.7.1 = { rank = 1 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1389396 = {
+	name = "Ivan Zotova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1389009 = {
+	name = "Kirill Evseev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1389039 = {
+	name = "Nikola Abramov"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.9.1 = { rank = 2 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1389381 = {
+	name = "Anatoly Sokolov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1980.9.1 = { rank = 1 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1389403 = {
+	name = "Dmitry Larionova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.11.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1389320 = {
+	name = "Vitaly Galkina"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1974.5.1 = { rank = 1 }
+		1978.9.1 = { rank = 2 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1389086 = {
+	name = "Artyom Balashova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.6.1 = { rank = 3 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1389389 = {
+	name = "Nikola Pavlova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1981.11.1 = { rank = 1 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1389413 = {
+	name = "Denis Evseyev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.12.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1389335 = {
+	name = "Valery Denisova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.11.1 = { rank = 1 }
+		1985.1.1 = { rank = 0 }
+	}
+}
+1389340 = {
+	name = "Vladimir Maslova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1975.4.1 = { rank = 1 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1389407 = {
+	name = "Alexandr Seleznyov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1983.12.1 = { rank = 1 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1389366 = {
+	name = "Yury Fedorova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.6.1 = { rank = 1 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1389368 = {
+	name = "Kirill Ozerov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.1.1 = { rank = 1 }
+		1981.1.1 = { rank = 2 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1389287 = {
+	name = "Valery Yuryeva"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1969.1.1 = { rank = 1 }
+		1986.7.1 = { rank = 0 }
+	}
+}
+1389328 = {
+	name = "Svyatoslav Kruglov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.2.1 = { rank = 1 }
+		1976.2.1 = { rank = 2 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1389297 = {
+	name = "Vadim Aksenova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1986.4.1 = { rank = 0 }
+	}
+}
+1389331 = {
+	name = "Maxim Vinogradoff"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.2.1 = { rank = 1 }
+		1979.2.1 = { rank = 2 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1389405 = {
+	name = "Valery Mironov"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	add_trait = offensive_doctrine
+	history = {
+		1983.3.1 = { rank = 1 }
+		1986.5.1 = { rank = 0 }
+	}
+}
+1389352 = {
+	name = "Gleb Evdokimov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1977.5.1 = { rank = 1 }
+		1986.3.1 = { rank = 0 }
+	}
+}
+1389360 = {
+	name = "Artyom Avdeev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1978.9.1 = { rank = 1 }
+		1986.4.1 = { rank = 0 }
+	}
+}
+1389089 = {
+	name = "Viktor Kotov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1986.10.1 = { rank = 0 }
+	}
+}
+1389322 = {
+	name = "Gleb Demidov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1974.6.1 = { rank = 1 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1389347 = {
+	name = "Gleb Belousov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.1.1 = { rank = 1 }
+		1986.1.1 = { rank = 0 }
+	}
+}
+1389382 = {
+	name = "Evgeny Ponomaryov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1980.3.1 = { rank = 1 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1389370 = {
+	name = "Yury Yermolayev"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.4.1 = { rank = 1 }
+		1979.12.1 = { rank = 2 }
+		1986.6.1 = { rank = 0 }
+	}
+}
+1389262 = {
+	name = "Kirill Bazhenov"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1965.7.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1987.1.1 = { rank = 0 }
+	}
+}
+1389441 = {
+	name = "Vadim Sukhorukova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.4.1 = { rank = 1 }
+		1987.1.1 = { rank = 0 }
+	}
+}
+1389268 = {
+	name = "Nikola Uspensky"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.1.1 = { rank = 1 }
+		1979.4.1 = { rank = 2 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1389249 = {
+	name = "Vladimir Shubina"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.7.1 = { rank = 1 }
+		1966.1.1 = { rank = 2 }
+		1987.8.1 = { rank = 0 }
+	}
+}
+1389402 = {
+	name = "Vasily Yashina"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1983.7.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1389294 = {
+	name = "Boris Ponomaryova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1970.9.1 = { rank = 1 }
+		1970.9.1 = { rank = 2 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1389385 = {
+	name = "Egor Kapustina"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1980.11.1 = { rank = 1 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1389134 = {
+	name = "Alexandr Dubinina"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.2.1 = { rank = 1 }
+		1955.4.1 = { rank = 2 }
+		1968.12.1 = { rank = 3 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1389354 = {
+	name = "Vladimir Shcherbakova"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1977.12.1 = { rank = 1 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1389411 = {
+	name = "Gleb Gerasimov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.1.1 = { rank = 1 }
+		1988.11.1 = { rank = 0 }
+	}
+}
+1389395 = {
+	name = "Vasily Biryukov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.9.1 = { rank = 1 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1389424 = {
+	name = "Vladimir Yershova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1985.12.1 = { rank = 1 }
+		1988.6.1 = { rank = 0 }
+	}
+}
+1389438 = {
+	name = "Vyacheslav Komarova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = commando
+	history = {
+		1986.9.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1389437 = {
+	name = "Valery Uvarova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1986.4.1 = { rank = 1 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1389228 = {
+	name = "Grigory Alexeieva"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1389421 = {
+	name = "Maxim Aleksandrova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.11.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1389274 = {
+	name = "Alexey Isayeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = commando
+	add_trait = panzer_leader
+	history = {
+		1966.10.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1989.6.1 = { rank = 0 }
+	}
+}
+1389409 = {
+	name = "Bogdan Glebova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.1.1 = { rank = 1 }
+		1989.3.1 = { rank = 0 }
+	}
+}
+1389457 = {
+	name = "Svyatoslav Efremov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1988.2.1 = { rank = 1 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1389398 = {
+	name = "Artyom Fomin"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1982.8.1 = { rank = 1 }
+		1989.2.1 = { rank = 0 }
+	}
+}
+1389452 = {
+	name = "Bogdan Efimov"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1987.7.1 = { rank = 1 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1389357 = {
+	name = "Dmitry Bykov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1978.6.1 = { rank = 1 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1389399 = {
+	name = "Boris Artemieva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1982.12.1 = { rank = 1 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1389451 = {
+	name = "Vitaly Bezrukova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1987.5.1 = { rank = 1 }
+		1990.5.1 = { rank = 0 }
+	}
+}
+1389338 = {
+	name = "Valery Aksenova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.2.1 = { rank = 1 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1389459 = {
+	name = "Alexandr Sokolov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1988.7.1 = { rank = 1 }
+		1990.11.1 = { rank = 0 }
+	}
+}
+1389363 = {
+	name = "Vasily Ibrahimov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.9.1 = { rank = 1 }
+		1990.11.1 = { rank = 0 }
+	}
+}
+1389229 = {
+	name = "Boris Avdeev"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1961.1.1 = { rank = 1 }
+		1985.4.1 = { rank = 2 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1389282 = {
+	name = "Boris Pokrovskaya"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1968.2.1 = { rank = 1 }
+		1972.7.1 = { rank = 2 }
+		1990.4.1 = { rank = 0 }
+	}
+}
+1389443 = {
+	name = "Georgy Sidorova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1986.12.1 = { rank = 1 }
+		1987.8.1 = { rank = 2 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1389029 = {
+	name = "Kirill Konovalova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389032 = {
+	name = "Svyatoslav Zhdanova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389081 = {
+	name = "Mikhail Biryukov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389085 = {
+	name = "Fyodor Efremova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389094 = {
+	name = "Evgeny Ermakov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389099 = {
+	name = "Svyatoslav Larionova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1981.7.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389105 = {
+	name = "Viktor Uvarova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389109 = {
+	name = "Pyotr Volkov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389118 = {
+	name = "Alexandr Vasiliev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.7.1 = { rank = 1 }
+		1959.6.1 = { rank = 2 }
+		1975.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389156 = {
+	name = "Evgeny Bezrukov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1954.7.1 = { rank = 1 }
+		1958.6.1 = { rank = 2 }
+		1968.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389171 = {
+	name = "Grigory Volodin"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1956.9.1 = { rank = 1 }
+		1969.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389217 = {
+	name = "Alexey Kryukov"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.12.1 = { rank = 1 }
+		1979.2.1 = { rank = 2 }
+		1980.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389223 = {
+	name = "Vladimir Alexeyeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.11.1 = { rank = 1 }
+		1985.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389241 = {
+	name = "Kirill Vasiliev"
+	type = land
+	country = UKR
+	skill = 12
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1962.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389245 = {
+	name = "Vladimir Blokhin"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1963.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389246 = {
+	name = "Vladimir Ozerov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1963.7.1 = { rank = 1 }
+		1965.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389250 = {
+	name = "Bogdan Pirogov"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1963.12.1 = { rank = 1 }
+		1969.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389252 = {
+	name = "Vladimir Kozlov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1963.5.1 = { rank = 1 }
+		1970.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389278 = {
+	name = "Viktor Alexeieva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.10.1 = { rank = 1 }
+		1971.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389288 = {
+	name = "Alexandr Voronov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1969.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389289 = {
+	name = "Valery Yevdokimova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1969.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389296 = {
+	name = "Vadim Andreyeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1970.2.1 = { rank = 1 }
+		1972.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389310 = {
+	name = "Alexandr Bogolyubova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1972.10.1 = { rank = 1 }
+		1974.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389315 = {
+	name = "Nikola Pavlova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1973.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389319 = {
+	name = "Gleb Artemyeva"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.6.1 = { rank = 1 }
+		1985.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389332 = {
+	name = "Valery Repina"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389333 = {
+	name = "Yury Tretiakova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1975.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389339 = {
+	name = "Svyatoslav Yashina"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1975.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389345 = {
+	name = "Alexandr Muravyova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = logistics_wizard
+	add_trait = panzer_leader
+	history = {
+		1976.2.1 = { rank = 1 }
+		1980.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389351 = {
+	name = "Gleb Voronina"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1976.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389355 = {
+	name = "Boris Pirogova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389358 = {
+	name = "Artyom Yusupov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1978.6.1 = { rank = 1 }
+		1987.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389361 = {
+	name = "Svyatoslav Ermakova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1978.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389365 = {
+	name = "Georgy Ignatyeva"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389369 = {
+	name = "Fyodor Bogdanova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389371 = {
+	name = "Artyom Frolova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = panzer_leader
+	history = {
+		1979.11.1 = { rank = 1 }
+		1986.6.1 = { rank = 2 }
+		1987.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389372 = {
+	name = "Evgeny Zotov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1979.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389373 = {
+	name = "Georgy Aliyev"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1979.2.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389374 = {
+	name = "Egor Vavilov"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389376 = {
+	name = "Alexey Blinova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389377 = {
+	name = "Anton Kovalyov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389378 = {
+	name = "Vadim Pokrovskii"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1980.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389380 = {
+	name = "Svyatoslav Seleznev"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1980.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389384 = {
+	name = "Anatoly Sorokina"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1980.10.1 = { rank = 1 }
+		1984.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389386 = {
+	name = "Bogdan Yefremova"
+	type = land
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1980.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389387 = {
+	name = "Dmitry Vasilyev"
+	type = land
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1980.11.1 = { rank = 1 }
+		1984.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389391 = {
+	name = "Evgeny Glebova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1981.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389393 = {
+	name = "Vadim Denisova"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.2.1 = { rank = 1 }
+		1982.12.1 = { rank = 2 }
+		1985.4.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389394 = {
+	name = "Grigory Zakharov"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1981.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389397 = {
+	name = "Viktor Pirogov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1982.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389400 = {
+	name = "Egor Andreyeva"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1982.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389401 = {
+	name = "Ivan Vinogradova"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.7.1 = { rank = 1 }
+		1989.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389404 = {
+	name = "Bogdan Andreev"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1983.11.1 = { rank = 1 }
+		1984.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389406 = {
+	name = "Viktor Alexeeva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1983.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389408 = {
+	name = "Pyotr Korovin"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1983.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389410 = {
+	name = "Pyotr Ponomarev"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389412 = {
+	name = "Vadim Abramova"
+	type = land
+	country = UKR
+	skill = 12
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1984.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389414 = {
+	name = "Anton Efremova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389415 = {
+	name = "Vyacheslav Pokrovsky"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389416 = {
+	name = "Mikhail Ermakova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1984.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389417 = {
+	name = "Vyacheslav Bogolyubov"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1984.3.1 = { rank = 1 }
+		1985.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389418 = {
+	name = "Dmitry Bykov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389419 = {
+	name = "Viktor Gerasimov"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389420 = {
+	name = "Evgeny Seleznev"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1985.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389422 = {
+	name = "Kirill Konovalova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389423 = {
+	name = "Bogdan Belyakova"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389425 = {
+	name = "Vasily Bobrova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1985.11.1 = { rank = 1 }
+		1986.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389426 = {
+	name = "Vladimir Vasiliev"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1985.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389427 = {
+	name = "Bogdan Medvedeva"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389428 = {
+	name = "Georgy Belov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1985.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389429 = {
+	name = "Nikola Kolesnikov"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1985.11.1 = { rank = 1 }
+		1990.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389430 = {
+	name = "Artyom Ignatieff"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = panzer_leader
+	history = {
+		1985.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389431 = {
+	name = "Anton Izmailova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1985.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389432 = {
+	name = "Andrey Bykova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1985.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389433 = {
+	name = "Dmitry Alexandrov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389434 = {
+	name = "Egor Maslov"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1985.6.1 = { rank = 1 }
+		1990.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389435 = {
+	name = "Grigory Shubin"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1986.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389436 = {
+	name = "Artyom Avdeyeva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1987.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389439 = {
+	name = "Georgy Anisimov"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1986.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389440 = {
+	name = "Vyacheslav Gorbunov"
+	type = land
+	country = UKR
+	skill = 11
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = defensive_doctrine
+	history = {
+		1986.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389442 = {
+	name = "Mikhail Izmailov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1986.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389444 = {
+	name = "Mikhail Sokolova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1986.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389445 = {
+	name = "Anton Uspensky"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1986.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389446 = {
+	name = "Anton Tretiakov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1986.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389447 = {
+	name = "Yury Yevseyev"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389448 = {
+	name = "Maxim Tikhonova"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389449 = {
+	name = "Mikhail Afanasyeva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1987.5.1 = { rank = 1 }
+		1987.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389450 = {
+	name = "Maxim Ignatieff"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	add_trait = winter_specialist
+	history = {
+		1987.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389453 = {
+	name = "Evgeny Kudryashova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1987.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389454 = {
+	name = "Maxim Frolova"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1987.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389455 = {
+	name = "Mikhail Shcherbakov"
+	type = land
+	country = UKR
+	skill = 12
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1987.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389456 = {
+	name = "Anton Selezneva"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = commando
+	history = {
+		1988.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389458 = {
+	name = "Yury Lebedeva"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1988.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389460 = {
+	name = "Kirill Pokrovski"
+	type = land
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389461 = {
+	name = "Artyom Volkova"
+	type = land
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = engineer
+	add_trait = winter_specialist
+	history = {
+		1988.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389462 = {
+	name = "Vyacheslav Ignatyev"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1988.7.1 = { rank = 1 }
+		1990.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389463 = {
+	name = "Bogdan Krylov"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = panzer_leader
+	history = {
+		1989.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389464 = {
+	name = "Pyotr Kolesnikova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389465 = {
+	name = "Vyacheslav Dubinina"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389466 = {
+	name = "Alexey Maslova"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389467 = {
+	name = "Ivan Ozerova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389468 = {
+	name = "Vitaly Andreyeva"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389469 = {
+	name = "Vadim Blokhin"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389470 = {
+	name = "Ivan Voronina"
+	type = land
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1990.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389471 = {
+	name = "Gleb Belova"
+	type = land
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389472 = {
+	name = "Georgy Fokine"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389473 = {
+	name = "Pyotr Andreev"
+	type = land
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1990.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389474 = {
+	name = "Valery Bobrov"
+	type = land
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389475 = {
+	name = "Georgy Alexeeva"
+	type = land
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1990.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389476 = {
+	name = "Georgy Fokine"
+	type = land
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = winter_specialist
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389481 = {
+	name = "Svyatoslav Zhirov"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1389488 = {
+	name = "Boris Evdokimov"
+	type = sea
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1389480 = {
+	name = "Grigory Vasiliev"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1389483 = {
+	name = "Dmitry Efremova"
+	type = sea
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1389479 = {
+	name = "Boris Nevzorova"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1389485 = {
+	name = "Alexandr Bodrova"
+	type = sea
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1389482 = {
+	name = "Fyodor Yermolayeva"
+	type = sea
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1389478 = {
+	name = "Bogdan Volodin"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1389497 = {
+	name = "Maxim Yermakov"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = seawolf
+	history = {
+		1952.4.1 = { rank = 1 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1389491 = {
+	name = "Vitaly Ignatieff"
+	type = sea
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1948.6.1 = { rank = 2 }
+		1954.12.1 = { rank = 0 }
+	}
+}
+1389499 = {
+	name = "Anton Pokrovskii"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1953.11.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1389500 = {
+	name = "Anton Izmailova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.12.1 = { rank = 1 }
+		1957.7.1 = { rank = 0 }
+	}
+}
+1389498 = {
+	name = "Egor Chesnokova"
+	type = sea
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.10.1 = { rank = 1 }
+		1954.12.1 = { rank = 2 }
+		1957.2.1 = { rank = 0 }
+	}
+}
+1389503 = {
+	name = "Pyotr Ponomaryova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1957.2.1 = { rank = 1 }
+		1958.1.1 = { rank = 0 }
+	}
+}
+1389477 = {
+	name = "Grigory Yermolayeva"
+	type = sea
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1389496 = {
+	name = "Artyom Belyakova"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = spotter
+	history = {
+		1952.12.1 = { rank = 1 }
+		1959.8.1 = { rank = 0 }
+	}
+}
+1389492 = {
+	name = "Boris Mordvinov"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.6.1 = { rank = 1 }
+		1960.6.1 = { rank = 0 }
+	}
+}
+1389486 = {
+	name = "Boris Belov"
+	type = sea
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1389502 = {
+	name = "Viktor Bykova"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.7.1 = { rank = 1 }
+		1962.12.1 = { rank = 0 }
+	}
+}
+1389501 = {
+	name = "Anatoly Kharitonova"
+	type = sea
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1957.10.1 = { rank = 1 }
+		1962.8.1 = { rank = 2 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1389504 = {
+	name = "Egor Belyakova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1958.1.1 = { rank = 1 }
+		1964.3.1 = { rank = 2 }
+		1966.4.1 = { rank = 0 }
+	}
+}
+1389511 = {
+	name = "Bogdan Grigoryeva"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.4.1 = { rank = 1 }
+		1967.7.1 = { rank = 0 }
+	}
+}
+1389505 = {
+	name = "Maxim Mishina"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.5.1 = { rank = 1 }
+		1968.5.1 = { rank = 0 }
+	}
+}
+1389510 = {
+	name = "Evgeny Seleznyov"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1964.3.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1389506 = {
+	name = "Ivan Vinogradov"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.8.1 = { rank = 1 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1389494 = {
+	name = "Dmitry Matveyeva"
+	type = sea
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1389495 = {
+	name = "Yury Glebova"
+	type = sea
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.10.1 = { rank = 1 }
+		1957.2.1 = { rank = 2 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1389516 = {
+	name = "Alexandr Belyakova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = blockade_runner
+	history = {
+		1970.9.1 = { rank = 1 }
+		1971.6.1 = { rank = 0 }
+	}
+}
+1389507 = {
+	name = "Alexandr Fokina"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1960.6.1 = { rank = 1 }
+		1972.5.1 = { rank = 0 }
+	}
+}
+1389493 = {
+	name = "Alexey Zuev"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = blockade_runner
+	history = {
+		1950.1.1 = { rank = 1 }
+		1972.12.1 = { rank = 0 }
+	}
+}
+1389512 = {
+	name = "Georgy Anisimov"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1967.7.1 = { rank = 1 }
+		1971.5.1 = { rank = 2 }
+		1973.5.1 = { rank = 0 }
+	}
+}
+1389517 = {
+	name = "Gleb Voronov"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1973.1.1 = { rank = 0 }
+	}
+}
+1389509 = {
+	name = "Egor Cherkasova"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.12.1 = { rank = 1 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1389520 = {
+	name = "Alexandr Medvedeva"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = spotter
+	add_trait = superior_tactician
+	history = {
+		1972.12.1 = { rank = 1 }
+		1973.5.1 = { rank = 2 }
+		1974.9.1 = { rank = 0 }
+	}
+}
+1389518 = {
+	name = "Maxim Mishina"
+	type = sea
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.6.1 = { rank = 1 }
+		1976.9.1 = { rank = 0 }
+	}
+}
+1389508 = {
+	name = "Vyacheslav Chesnokova"
+	type = sea
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1962.8.1 = { rank = 1 }
+		1977.11.1 = { rank = 0 }
+	}
+}
+1389519 = {
+	name = "Georgy Yefremova"
+	type = sea
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.5.1 = { rank = 1 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1389522 = {
+	name = "Maxim Sidorova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1973.1.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1389523 = {
+	name = "Vitaly Tychonoff"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.4.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1389514 = {
+	name = "Egor Vassiliev"
+	type = sea
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1969.11.1 = { rank = 1 }
+		1974.9.1 = { rank = 2 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1389490 = {
+	name = "Mikhail Kotova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1389487 = {
+	name = "Alexandr Yurieva"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1389525 = {
+	name = "Nikola Volodin"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1976.9.1 = { rank = 1 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1389521 = {
+	name = "Pyotr Vasiliev"
+	type = sea
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1973.5.1 = { rank = 1 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1389530 = {
+	name = "Anatoly Abdulov"
+	type = sea
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1979.6.1 = { rank = 1 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1389513 = {
+	name = "Anton Nekrasov"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = superior_tactician
+	history = {
+		1968.5.1 = { rank = 1 }
+		1979.6.1 = { rank = 2 }
+		1984.3.1 = { rank = 0 }
+	}
+}
+1389535 = {
+	name = "Evgeny Tokaryev"
+	type = sea
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1984.5.1 = { rank = 1 }
+		1985.7.1 = { rank = 0 }
+	}
+}
+1389527 = {
+	name = "Pyotr Vorobyova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.9.1 = { rank = 1 }
+		1979.10.1 = { rank = 2 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1389526 = {
+	name = "Valery Blinova"
+	type = sea
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.11.1 = { rank = 1 }
+		1983.3.1 = { rank = 2 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1389524 = {
+	name = "Gleb Kozlova"
+	type = sea
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.9.1 = { rank = 1 }
+		1984.3.1 = { rank = 2 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1389540 = {
+	name = "Evgeny Voronkov"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1987.9.1 = { rank = 1 }
+		1988.6.1 = { rank = 0 }
+	}
+}
+1389534 = {
+	name = "Dmitry Tikhonov"
+	type = sea
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1984.5.1 = { rank = 1 }
+		1986.11.1 = { rank = 2 }
+		1988.9.1 = { rank = 0 }
+	}
+}
+1389484 = {
+	name = "Kirill Sazonova"
+	type = sea
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1966.4.1 = { rank = 2 }
+		1979.10.1 = { rank = 3 }
+		1988.11.1 = { rank = 0 }
+	}
+}
+1389515 = {
+	name = "Vyacheslav Yermakova"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1989.10.1 = { rank = 0 }
+	}
+}
+1389489 = {
+	name = "Egor Davydova"
+	type = sea
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1979.10.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389528 = {
+	name = "Anatoly Pokrovskii"
+	type = sea
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389529 = {
+	name = "Alexandr Voronina"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.11.1 = { rank = 1 }
+		1987.9.1 = { rank = 2 }
+		1988.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389531 = {
+	name = "Vitaly Yershova"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1979.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389532 = {
+	name = "Pyotr Kovalyova"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.3.1 = { rank = 1 }
+		1988.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389533 = {
+	name = "Alexandr Panina"
+	type = sea
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1983.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389536 = {
+	name = "Gleb Abramovich"
+	type = sea
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389537 = {
+	name = "Svyatoslav Abramov"
+	type = sea
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.7.1 = { rank = 1 }
+		1987.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389538 = {
+	name = "Bogdan Aliyeva"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	add_trait = seawolf
+	history = {
+		1986.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389539 = {
+	name = "Vladimir Alexeeva"
+	type = sea
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389541 = {
+	name = "Boris Izmailov"
+	type = sea
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389542 = {
+	name = "Denis Sokolova"
+	type = sea
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = superior_tactician
+	history = {
+		1988.9.1 = { rank = 1 }
+		1988.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389543 = {
+	name = "Vladimir Uspenskaya"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1988.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389544 = {
+	name = "Vladimir Ankudinova"
+	type = sea
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389554 = {
+	name = "Vladimir Konovalova"
+	type = air
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.8.1 = { rank = 0 }
+	}
+}
+1389556 = {
+	name = "Vladimir Aksakova"
+	type = air
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1389575 = {
+	name = "Evgeny Fyodorov"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1389578 = {
+	name = "Bogdan Alexeyeva"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.8.1 = { rank = 0 }
+	}
+}
+1389576 = {
+	name = "Denis Tretiakova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1389550 = {
+	name = "Maxim Bykova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1389574 = {
+	name = "Denis Abramowitz"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.6.1 = { rank = 0 }
+	}
+}
+1389585 = {
+	name = "Maxim Yefimov"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1948.4.1 = { rank = 1 }
+		1951.1.1 = { rank = 0 }
+	}
+}
+1389561 = {
+	name = "Valery Alekseyeva"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.3.1 = { rank = 2 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1389547 = {
+	name = "Denis Pokrovskii"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1389590 = {
+	name = "Alexey Bulgakov"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1951.6.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1389581 = {
+	name = "Denis Muravyova"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.6.1 = { rank = 0 }
+	}
+}
+1389591 = {
+	name = "Vyacheslav Ignatieff"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1389545 = {
+	name = "Boris Vinogradov"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.4.1 = { rank = 0 }
+	}
+}
+1389557 = {
+	name = "Fyodor Kazantseva"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.2.1 = { rank = 0 }
+	}
+}
+1389548 = {
+	name = "Anatoly Volkov"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.6.1 = { rank = 0 }
+	}
+}
+1389569 = {
+	name = "Egor Kolesnikov"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1389555 = {
+	name = "Ivan Vasiliev"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.6.1 = { rank = 2 }
+		1955.1.1 = { rank = 0 }
+	}
+}
+1389565 = {
+	name = "Valery Vavilov"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.3.1 = { rank = 0 }
+	}
+}
+1389583 = {
+	name = "Vyacheslav Artamonova"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1956.7.1 = { rank = 0 }
+	}
+}
+1389552 = {
+	name = "Boris Alexandrov"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.1.1 = { rank = 2 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1389593 = {
+	name = "Andrey Artamonova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1952.4.1 = { rank = 1 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1389587 = {
+	name = "Nikola Ignatyev"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.8.1 = { rank = 1 }
+		1957.3.1 = { rank = 0 }
+	}
+}
+1389589 = {
+	name = "Alexey Alekseyeva"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.6.1 = { rank = 1 }
+		1957.12.1 = { rank = 0 }
+	}
+}
+1389586 = {
+	name = "Andrey Kruglov"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.1.1 = { rank = 1 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1389606 = {
+	name = "Vyacheslav Belova"
+	type = air
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.3.1 = { rank = 1 }
+		1958.1.1 = { rank = 0 }
+	}
+}
+1389580 = {
+	name = "Anton Denisova"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1956.7.1 = { rank = 4 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1389562 = {
+	name = "Dmitry Aliyeva"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 2 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1389549 = {
+	name = "Maxim Seleznyova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.8.1 = { rank = 2 }
+		1956.7.1 = { rank = 3 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1389579 = {
+	name = "Alexandr Alexeyeva"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1389610 = {
+	name = "Denis Kotova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1958.2.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1389603 = {
+	name = "Viktor Bazarov"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1956.7.1 = { rank = 1 }
+		1960.6.1 = { rank = 0 }
+	}
+}
+1389567 = {
+	name = "Alexandr Izmailova"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1960.8.1 = { rank = 0 }
+	}
+}
+1389558 = {
+	name = "Maxim Kharlamova"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1389577 = {
+	name = "Nikola Bazarova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1958.2.1 = { rank = 3 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1389602 = {
+	name = "Andrey Biryukova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.3.1 = { rank = 1 }
+		1960.8.1 = { rank = 2 }
+		1961.3.1 = { rank = 0 }
+	}
+}
+1389619 = {
+	name = "Svyatoslav Alexeeva"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.3.1 = { rank = 1 }
+		1962.6.1 = { rank = 0 }
+	}
+}
+1389599 = {
+	name = "Kirill Gerasimova"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.6.1 = { rank = 1 }
+		1958.11.1 = { rank = 2 }
+		1961.7.1 = { rank = 3 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1389573 = {
+	name = "Valery Degtyarev"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.8.1 = { rank = 3 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1389616 = {
+	name = "Ivan Efremova"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1960.8.1 = { rank = 1 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1389571 = {
+	name = "Valery Yefimova"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1963.5.1 = { rank = 0 }
+	}
+}
+1389621 = {
+	name = "Svyatoslav Biryukov"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1962.1.1 = { rank = 1 }
+		1963.5.1 = { rank = 2 }
+		1964.4.1 = { rank = 0 }
+	}
+}
+1389612 = {
+	name = "Dmitry Degtyarev"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1958.2.1 = { rank = 1 }
+		1962.8.1 = { rank = 2 }
+		1964.12.1 = { rank = 0 }
+	}
+}
+1389617 = {
+	name = "Andrey Aksyonova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1961.7.1 = { rank = 2 }
+		1964.11.1 = { rank = 0 }
+	}
+}
+1389584 = {
+	name = "Maxim Voronina"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.8.1 = { rank = 1 }
+		1958.2.1 = { rank = 2 }
+		1962.8.1 = { rank = 3 }
+		1965.7.1 = { rank = 0 }
+	}
+}
+1389597 = {
+	name = "Andrey Koltsova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.4.1 = { rank = 1 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1389614 = {
+	name = "Vyacheslav Yevdokimova"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	add_trait = tank_buster
+	history = {
+		1959.5.1 = { rank = 1 }
+		1964.4.1 = { rank = 2 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1389630 = {
+	name = "Mikhail Abdulov"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.1.1 = { rank = 1 }
+		1966.9.1 = { rank = 0 }
+	}
+}
+1389622 = {
+	name = "Ivan Frolova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1962.8.1 = { rank = 1 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1389615 = {
+	name = "Denis Bocharov"
+	type = air
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1960.6.1 = { rank = 1 }
+		1967.10.1 = { rank = 0 }
+	}
+}
+1389605 = {
+	name = "Gleb Tretiakova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	add_trait = night_flyer
+	history = {
+		1957.8.1 = { rank = 1 }
+		1962.1.1 = { rank = 2 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1389551 = {
+	name = "Boris Yusupova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.3.1 = { rank = 0 }
+	}
+}
+1389592 = {
+	name = "Svyatoslav Alexeieva"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.9.1 = { rank = 1 }
+		1956.8.1 = { rank = 2 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1389588 = {
+	name = "Georgy Pirogova"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1950.3.1 = { rank = 1 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1389626 = {
+	name = "Georgy Bobrova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1964.12.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1389594 = {
+	name = "Artyom Fyodorova"
+	type = air
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1952.4.1 = { rank = 1 }
+		1961.3.1 = { rank = 2 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1389564 = {
+	name = "Dmitry Zuyeva"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.6.1 = { rank = 2 }
+		1958.2.1 = { rank = 3 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1389633 = {
+	name = "Maxim Efremov"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.10.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1389596 = {
+	name = "Vasily Solomina"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.5.1 = { rank = 1 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1389631 = {
+	name = "Andrey Denisova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.9.1 = { rank = 1 }
+		1967.12.1 = { rank = 2 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1389629 = {
+	name = "Grigory Bodrova"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1965.10.1 = { rank = 1 }
+		1969.12.1 = { rank = 2 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1389568 = {
+	name = "Anton Mironova"
+	type = air
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1958.11.1 = { rank = 3 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1389553 = {
+	name = "Fyodor Yefremova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1971.4.1 = { rank = 0 }
+	}
+}
+1389608 = {
+	name = "Pyotr Isayev"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.4.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1389566 = {
+	name = "Andrey Kapustina"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1973.8.1 = { rank = 0 }
+	}
+}
+1389582 = {
+	name = "Artyom Kazantseva"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1389643 = {
+	name = "Denis Ponomarev"
+	type = air
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1970.6.1 = { rank = 1 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1389640 = {
+	name = "Viktor Bezrukov"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1969.8.1 = { rank = 1 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1389637 = {
+	name = "Anatoly Artemieva"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = superior_air_tactician
+	history = {
+		1968.7.1 = { rank = 1 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1389623 = {
+	name = "Alexandr Alexeeva"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.2.1 = { rank = 1 }
+		1964.11.1 = { rank = 2 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1389624 = {
+	name = "Grigory Alekseyeva"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1963.5.1 = { rank = 1 }
+		1975.7.1 = { rank = 0 }
+	}
+}
+1389559 = {
+	name = "Egor Gavrilova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.2.1 = { rank = 2 }
+		1976.10.1 = { rank = 0 }
+	}
+}
+1389654 = {
+	name = "Mikhail Galkina"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.7.1 = { rank = 1 }
+		1976.9.1 = { rank = 0 }
+	}
+}
+1389570 = {
+	name = "Grigory Koltsova"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1976.10.1 = { rank = 0 }
+	}
+}
+1389604 = {
+	name = "Georgy Samsonova"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1956.8.1 = { rank = 1 }
+		1976.11.1 = { rank = 0 }
+	}
+}
+1389641 = {
+	name = "Kirill Biryukov"
+	type = air
+	country = UKR
+	skill = 12
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1969.5.1 = { rank = 1 }
+		1977.10.1 = { rank = 0 }
+	}
+}
+1389642 = {
+	name = "Vasily Mishin"
+	type = air
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1972.7.1 = { rank = 2 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1389560 = {
+	name = "Vadim Vasilyev"
+	type = air
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.7.1 = { rank = 2 }
+		1962.1.1 = { rank = 3 }
+		1978.3.1 = { rank = 0 }
+	}
+}
+1389628 = {
+	name = "Vladimir Kulikova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.7.1 = { rank = 1 }
+		1973.12.1 = { rank = 2 }
+		1978.7.1 = { rank = 0 }
+	}
+}
+1389658 = {
+	name = "Dmitry Kovalev"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1976.11.1 = { rank = 1 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1389649 = {
+	name = "Georgy Kovaleva"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1973.12.1 = { rank = 1 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1389546 = {
+	name = "Mikhail Fedorova"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 2 }
+		1973.12.1 = { rank = 3 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1389644 = {
+	name = "Vitaly Bocharov"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1980.1.1 = { rank = 0 }
+	}
+}
+1389595 = {
+	name = "Egor Tretiakova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1953.6.1 = { rank = 1 }
+		1958.4.1 = { rank = 2 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1389620 = {
+	name = "Vitaly Yashina"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1962.6.1 = { rank = 1 }
+		1981.7.1 = { rank = 0 }
+	}
+}
+1389611 = {
+	name = "Egor Blinova"
+	type = air
+	country = UKR
+	skill = 10
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = tank_buster
+	history = {
+		1958.4.1 = { rank = 1 }
+		1982.7.1 = { rank = 0 }
+	}
+}
+1389627 = {
+	name = "Vitaly Alexeeva"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.11.1 = { rank = 1 }
+		1969.8.1 = { rank = 2 }
+		1982.11.1 = { rank = 0 }
+	}
+}
+1389639 = {
+	name = "Gleb Muravyov"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1969.12.1 = { rank = 1 }
+		1978.3.1 = { rank = 2 }
+		1983.10.1 = { rank = 0 }
+	}
+}
+1389600 = {
+	name = "Pyotr Bulgakov"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1954.1.1 = { rank = 1 }
+		1968.2.1 = { rank = 2 }
+		1970.6.1 = { rank = 3 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1389635 = {
+	name = "Bogdan Medvedev"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.3.1 = { rank = 1 }
+		1983.6.1 = { rank = 0 }
+	}
+}
+1389645 = {
+	name = "Vladimir Belov"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1970.6.1 = { rank = 1 }
+		1973.8.1 = { rank = 2 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1389657 = {
+	name = "Georgy Artemyeva"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.10.1 = { rank = 1 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1389647 = {
+	name = "Denis Dolgorukova"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.7.1 = { rank = 1 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1389673 = {
+	name = "Andrey Isayeva"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	add_trait = night_flyer
+	history = {
+		1983.6.1 = { rank = 1 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1389675 = {
+	name = "Artyom Yudin"
+	type = air
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1986.3.1 = { rank = 0 }
+	}
+}
+1389648 = {
+	name = "Boris Yevseyev"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.8.1 = { rank = 1 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1389678 = {
+	name = "Vasily Mordvinova"
+	type = air
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1986.3.1 = { rank = 1 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1389670 = {
+	name = "Valery Afanasyev"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1982.11.1 = { rank = 1 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1389677 = {
+	name = "Bogdan Zubareva"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1985.9.1 = { rank = 1 }
+		1989.7.1 = { rank = 0 }
+	}
+}
+1389679 = {
+	name = "Alexey Bobrov"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.7.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1389653 = {
+	name = "Svyatoslav Bezrukova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.2.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1389625 = {
+	name = "Evgeny Nikitina"
+	type = air
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1964.4.1 = { rank = 1 }
+		1983.3.1 = { rank = 2 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1389563 = {
+	name = "Vasily Yuriev"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1990.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389572 = {
+	name = "Valery Aliyeva"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.6.1 = { rank = 3 }
+		1958.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389598 = {
+	name = "Denis Nekrasova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.2.1 = { rank = 1 }
+		1954.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389601 = {
+	name = "Svyatoslav Bocharov"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.1.1 = { rank = 1 }
+		1976.10.1 = { rank = 2 }
+		1980.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389607 = {
+	name = "Grigory Vasilyev"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1957.12.1 = { rank = 1 }
+		1964.12.1 = { rank = 2 }
+		1965.7.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389609 = {
+	name = "Andrey Nekrasov"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1958.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389613 = {
+	name = "Viktor Isayev"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1958.11.1 = { rank = 1 }
+		1965.7.1 = { rank = 2 }
+		1969.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389618 = {
+	name = "Denis Alexandrov"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.7.1 = { rank = 1 }
+		1965.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389632 = {
+	name = "Yury Kozlova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1967.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389634 = {
+	name = "Vyacheslav Davydova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1967.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389636 = {
+	name = "Vladimir Degtyarev"
+	type = air
+	country = UKR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1968.2.1 = { rank = 1 }
+		1978.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389638 = {
+	name = "Denis Vasiliev"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1978.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389646 = {
+	name = "Artyom Fomina"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1971.4.1 = { rank = 1 }
+		1976.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389650 = {
+	name = "Anton Andrejew"
+	type = air
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1973.9.1 = { rank = 1 }
+		1980.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389651 = {
+	name = "Denis Zubareva"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = carpet_bomber
+	history = {
+		1974.11.1 = { rank = 1 }
+		1975.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389652 = {
+	name = "Egor Bodrov"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389655 = {
+	name = "Fyodor Pokrovsky"
+	type = air
+	country = UKR
+	skill = 9
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.10.1 = { rank = 1 }
+		1978.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389656 = {
+	name = "Nikola Tretyakova"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1976.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389659 = {
+	name = "Bogdan Kozlova"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389660 = {
+	name = "Yury Tikhonova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389661 = {
+	name = "Alexey Kozlov"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1978.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389662 = {
+	name = "Anton Bogdanova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	add_trait = tank_buster
+	history = {
+		1978.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389663 = {
+	name = "Anton Seleznyova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.3.1 = { rank = 1 }
+		1980.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389664 = {
+	name = "Svyatoslav Komarov"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1979.9.1 = { rank = 1 }
+		1983.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389665 = {
+	name = "Artyom Kovalyova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389666 = {
+	name = "Bogdan Fomin"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389667 = {
+	name = "Ivan Kazantseva"
+	type = air
+	country = UKR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389668 = {
+	name = "Vladimir Blinova"
+	type = air
+	country = UKR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1981.7.1 = { rank = 1 }
+		1982.11.1 = { rank = 2 }
+		1983.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389669 = {
+	name = "Denis Zubarev"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = night_flyer
+	history = {
+		1982.7.1 = { rank = 1 }
+		1983.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389671 = {
+	name = "Denis Ulyanov"
+	type = air
+	country = UKR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1983.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389672 = {
+	name = "Kirill Ankudinova"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1983.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389674 = {
+	name = "Vitaly Zaitsev"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1983.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389676 = {
+	name = "Maxim Golubov"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = superior_air_tactician
+	add_trait = carpet_bomber
+	history = {
+		1985.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389680 = {
+	name = "Vyacheslav Kolesnikova"
+	type = air
+	country = UKR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389681 = {
+	name = "Anatoly Lavrova"
+	type = air
+	country = UKR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389682 = {
+	name = "Pyotr Evdokimov"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389683 = {
+	name = "Dmitry Bogolyubov"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389684 = {
+	name = "Evgeny Matveyev"
+	type = air
+	country = UKR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1389685 = {
+	name = "Svyatoslav Nekrasov"
+	type = air
+	country = UKR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

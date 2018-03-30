@@ -1,0 +1,1919 @@
+1450013 = {
+	name = "Alékos Staikopoulos"
+	type = land
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1450000 = {
+	name = "Agríppas Georgiou"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.11.1 = { rank = 0 }
+	}
+}
+1450003 = {
+	name = "Ioánnis Constantinou"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1450005 = {
+	name = "Alfónsos Tsiatouras"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1450018 = {
+	name = "Edouárdos Adamidis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.3.1 = { rank = 1 }
+		1950.9.1 = { rank = 0 }
+	}
+}
+1450001 = {
+	name = "Eugénios Parakeimenos"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 2 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1450020 = {
+	name = "Nikólaos Tatoulis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1950.3.1 = { rank = 1 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1450019 = {
+	name = "Giannákis Karyotakis"
+	type = land
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1950.9.1 = { rank = 1 }
+		1950.9.1 = { rank = 2 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1450002 = {
+	name = "Károlos Mavrovouniotis"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1450011 = {
+	name = "Avraám Papantoniou"
+	type = land
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1450017 = {
+	name = "Ioánnis Kolokotronis"
+	type = land
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1949.1.1 = { rank = 1 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1450004 = {
+	name = "Geórgios Kolokotronis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1450021 = {
+	name = "Vasíleios Makriyannis"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1952.2.1 = { rank = 2 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1450024 = {
+	name = "Perséas Papakonstantinou"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.8.1 = { rank = 1 }
+		1954.8.1 = { rank = 2 }
+		1955.6.1 = { rank = 0 }
+	}
+}
+1450016 = {
+	name = "Perséas Kolokotronis"
+	type = land
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1949.11.1 = { rank = 1 }
+		1955.3.1 = { rank = 0 }
+	}
+}
+1450029 = {
+	name = "Arthoúros Kossos"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1955.3.1 = { rank = 1 }
+		1956.6.1 = { rank = 0 }
+	}
+}
+1450015 = {
+	name = "Nikólaos Ypsilantis"
+	type = land
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.4.1 = { rank = 1 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1450012 = {
+	name = "Eugénios Dimitriadis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1450010 = {
+	name = "Nikólaos Papantoniou"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.4.1 = { rank = 3 }
+		1958.6.1 = { rank = 0 }
+	}
+}
+1450006 = {
+	name = "Gáios Makris"
+	type = land
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1450030 = {
+	name = "Venédiktos Oikonomou"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = trickster
+	history = {
+		1956.6.1 = { rank = 1 }
+		1959.2.1 = { rank = 0 }
+	}
+}
+1450032 = {
+	name = "Fílippos Adamidis"
+	type = land
+	country = GRE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1450008 = {
+	name = "Ángelos Asimos"
+	type = land
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1450025 = {
+	name = "Antónis Mavrovouniotis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1954.9.1 = { rank = 1 }
+		1957.6.1 = { rank = 2 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1450031 = {
+	name = "Arthoúros Ypsilantis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.8.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1450037 = {
+	name = "Alfrédos Kossos"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1962.10.1 = { rank = 2 }
+		1963.1.1 = { rank = 0 }
+	}
+}
+1450026 = {
+	name = "Agisílaos Deligiannis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.9.1 = { rank = 1 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1450040 = {
+	name = "Vladímiros Oikonomou"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1963.1.1 = { rank = 1 }
+		1965.9.1 = { rank = 0 }
+	}
+}
+1450034 = {
+	name = "Vladímiros Makris"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.5.1 = { rank = 1 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1450014 = {
+	name = "Giórgios Papadakis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1967.3.1 = { rank = 0 }
+	}
+}
+1450042 = {
+	name = "Adólfos Diakos"
+	type = land
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.9.1 = { rank = 1 }
+		1967.3.1 = { rank = 2 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1450041 = {
+	name = "Aischýlos Staikopoulos"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1964.10.1 = { rank = 1 }
+		1968.4.1 = { rank = 0 }
+	}
+}
+1450007 = {
+	name = "Aléxandros Makris"
+	type = land
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.8.1 = { rank = 2 }
+		1958.6.1 = { rank = 3 }
+		1967.3.1 = { rank = 4 }
+		1969.1.1 = { rank = 0 }
+	}
+}
+1450036 = {
+	name = "Károlos Asimos"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1970.8.1 = { rank = 0 }
+	}
+}
+1450009 = {
+	name = "Giánnis Ypsilantis"
+	type = land
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1971.10.1 = { rank = 0 }
+	}
+}
+1450043 = {
+	name = "Avraám Makriyannis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.8.1 = { rank = 1 }
+		1969.1.1 = { rank = 2 }
+		1972.6.1 = { rank = 0 }
+	}
+}
+1450047 = {
+	name = "Antónis Sakellarios"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1969.1.1 = { rank = 1 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1450046 = {
+	name = "Konstantínos Ypsilantis"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.4.1 = { rank = 1 }
+		1972.6.1 = { rank = 2 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1450051 = {
+	name = "Adám Tatoulis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.6.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1450035 = {
+	name = "Kýrillos Manetas"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.2.1 = { rank = 1 }
+		1968.4.1 = { rank = 2 }
+		1969.1.1 = { rank = 3 }
+		1975.3.1 = { rank = 0 }
+	}
+}
+1450044 = {
+	name = "Alfrédos Georgiou"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.3.1 = { rank = 1 }
+		1976.4.1 = { rank = 0 }
+	}
+}
+1450033 = {
+	name = "Vladímiros Georgiou"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.6.1 = { rank = 1 }
+		1963.1.1 = { rank = 2 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1450054 = {
+	name = "Andréas Papantoniou"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1975.3.1 = { rank = 1 }
+		1977.12.1 = { rank = 2 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1450057 = {
+	name = "Kýrillos Ypsilantis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.1.1 = { rank = 1 }
+		1979.8.1 = { rank = 0 }
+	}
+}
+1450058 = {
+	name = "Alfrédos Karaiskakis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.8.1 = { rank = 1 }
+		1980.2.1 = { rank = 0 }
+	}
+}
+1450039 = {
+	name = "Veniamín Topalidis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1962.2.1 = { rank = 1 }
+		1981.2.1 = { rank = 0 }
+	}
+}
+1450055 = {
+	name = "Alfónsos Zervas"
+	type = land
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1976.4.1 = { rank = 1 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1450053 = {
+	name = "Albertos Papadakis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.12.1 = { rank = 1 }
+		1978.1.1 = { rank = 2 }
+		1983.7.1 = { rank = 0 }
+	}
+}
+1450022 = {
+	name = "Rompén Tsiatouras"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1952.2.1 = { rank = 1 }
+		1955.6.1 = { rank = 2 }
+		1984.4.1 = { rank = 0 }
+	}
+}
+1450038 = {
+	name = "Geórgios Karaiskakis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.10.1 = { rank = 1 }
+		1983.7.1 = { rank = 2 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1450059 = {
+	name = "Giórgios Athanasiadis"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.2.1 = { rank = 1 }
+		1985.4.1 = { rank = 2 }
+		1986.10.1 = { rank = 0 }
+	}
+}
+1450063 = {
+	name = "Sekrátis Staikopoulos"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1984.4.1 = { rank = 1 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1450049 = {
+	name = "Erríkos Oikonomou"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.10.1 = { rank = 1 }
+		1975.3.1 = { rank = 2 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1450045 = {
+	name = "Albertos Topalidis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.4.1 = { rank = 1 }
+		1989.6.1 = { rank = 0 }
+	}
+}
+1450065 = {
+	name = "Erríkos Dimitriadis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.10.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1450023 = {
+	name = "Agisílaos Papakonstantinou"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1953.1.1 = { rank = 1 }
+		1958.6.1 = { rank = 2 }
+		1967.3.1 = { rank = 3 }
+		1969.1.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450027 = {
+	name = "Albertos Georgakopoulos"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.4.1 = { rank = 1 }
+		1973.2.1 = { rank = 2 }
+		1975.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450028 = {
+	name = "Giánnis Constantinou"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450048 = {
+	name = "Perséas Georgiou"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = offensive_doctrine
+	history = {
+		1970.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450050 = {
+	name = "Agisílaos Stoltidis"
+	type = land
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450052 = {
+	name = "Nikólaos Constantinou"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450056 = {
+	name = "Ángelos Theodoridis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1977.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450060 = {
+	name = "Vasíleios Kolokotronis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1981.2.1 = { rank = 1 }
+		1984.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450061 = {
+	name = "Konstantínos Petridis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450062 = {
+	name = "Gáios Athanasiadis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1983.7.1 = { rank = 1 }
+		1986.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450064 = {
+	name = "Aristotélis Adamidis"
+	type = land
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1988.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450066 = {
+	name = "Ioánnis Papantoniou"
+	type = land
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450067 = {
+	name = "Adám Kossos"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450068 = {
+	name = "Vasíleios Oikonomou"
+	type = land
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1989.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450069 = {
+	name = "Agisílaos Athanasiadis"
+	type = land
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450075 = {
+	name = "Giórgios Kossos"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1450070 = {
+	name = "Arthoúros Bakirtzis"
+	type = sea
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1450073 = {
+	name = "Antónis Mavrovouniotis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.9.1 = { rank = 0 }
+	}
+}
+1450077 = {
+	name = "Giánnis Theodoridis"
+	type = sea
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1450076 = {
+	name = "Fílippos Stoltidis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.5.1 = { rank = 4 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1450071 = {
+	name = "Aischýlos Athanasiadis"
+	type = sea
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1450078 = {
+	name = "Matthaíos Stoltidis"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1949.7.1 = { rank = 1 }
+		1955.9.1 = { rank = 2 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1450082 = {
+	name = "Léon Georgiou"
+	type = sea
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.9.1 = { rank = 1 }
+		1965.3.1 = { rank = 0 }
+	}
+}
+1450084 = {
+	name = "Aléxandros Papadopoulos"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.8.1 = { rank = 1 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1450080 = {
+	name = "Euripídis Petridis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.9.1 = { rank = 1 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1450086 = {
+	name = "Aristeídis Karaiskakis"
+	type = sea
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1966.3.1 = { rank = 1 }
+		1970.8.1 = { rank = 0 }
+	}
+}
+1450079 = {
+	name = "Velissários Athanasiadis"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.12.1 = { rank = 1 }
+		1964.8.1 = { rank = 2 }
+		1971.12.1 = { rank = 0 }
+	}
+}
+1450085 = {
+	name = "Léon Adamidis"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.3.1 = { rank = 1 }
+		1971.12.1 = { rank = 2 }
+		1972.3.1 = { rank = 0 }
+	}
+}
+1450089 = {
+	name = "Theodórikos Kouros"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1971.12.1 = { rank = 1 }
+		1975.7.1 = { rank = 0 }
+	}
+}
+1450083 = {
+	name = "Albertos Diamantopoulou"
+	type = sea
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1963.12.1 = { rank = 1 }
+		1976.7.1 = { rank = 0 }
+	}
+}
+1450087 = {
+	name = "Konstantínos Kossos"
+	type = sea
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1966.5.1 = { rank = 1 }
+		1980.2.1 = { rank = 0 }
+	}
+}
+1450088 = {
+	name = "Perséas Bakirtzis"
+	type = sea
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1970.8.1 = { rank = 1 }
+		1972.3.1 = { rank = 2 }
+		1981.11.1 = { rank = 0 }
+	}
+}
+1450081 = {
+	name = "Antónis Dimitriadis"
+	type = sea
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1953.5.1 = { rank = 1 }
+		1981.7.1 = { rank = 0 }
+	}
+}
+1450093 = {
+	name = "Kýrillos Petridis"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1980.2.1 = { rank = 1 }
+		1981.11.1 = { rank = 2 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1450096 = {
+	name = "Theódoros Karaiskakis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.12.1 = { rank = 1 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1450097 = {
+	name = "Perséas Mavrovouniotis"
+	type = sea
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1983.9.1 = { rank = 1 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1450094 = {
+	name = "Avraám Karaiskakis"
+	type = sea
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.11.1 = { rank = 1 }
+		1987.4.1 = { rank = 0 }
+	}
+}
+1450099 = {
+	name = "Arthoúros Adamidis"
+	type = sea
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1987.4.1 = { rank = 1 }
+		1989.9.1 = { rank = 0 }
+	}
+}
+1450072 = {
+	name = "Vasíleios Mavrovouniotis"
+	type = sea
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 2 }
+		1955.9.1 = { rank = 3 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1450100 = {
+	name = "Geórgios Ypsilantis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1989.9.1 = { rank = 1 }
+		1989.12.1 = { rank = 2 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1450074 = {
+	name = "Vasíleios Parakeimenos"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 2 }
+		1953.5.1 = { rank = 3 }
+		1955.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450090 = {
+	name = "Agisílaos Tsiatouras"
+	type = sea
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.3.1 = { rank = 1 }
+		1990.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450091 = {
+	name = "Ioánnis Deligiannis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450092 = {
+	name = "Veniamín Kouros"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450095 = {
+	name = "Fílippos Adamidis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.7.1 = { rank = 1 }
+		1982.12.1 = { rank = 2 }
+		1989.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450098 = {
+	name = "Konstantínos Georgiou"
+	type = sea
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1984.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450101 = {
+	name = "Adólfos Papakonstantinou"
+	type = sea
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450102 = {
+	name = "Gáios Makriyannis"
+	type = sea
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450103 = {
+	name = "Geórgios Mavrovouniotis"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1450111 = {
+	name = "Theódoros Peponis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1450108 = {
+	name = "Aristeídis Staikopoulos"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.11.1 = { rank = 3 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1450104 = {
+	name = "Ioánnis Diamantopoulou"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1450107 = {
+	name = "Áris Mavrovouniotis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1450106 = {
+	name = "Theodórikos Plapoutas"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.1.1 = { rank = 0 }
+	}
+}
+1450117 = {
+	name = "Fílippos Oikonomou"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1958.1.1 = { rank = 1 }
+		1959.11.1 = { rank = 0 }
+	}
+}
+1450112 = {
+	name = "Aarón Stoltidis"
+	type = air
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1953.11.1 = { rank = 2 }
+		1955.9.1 = { rank = 3 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1450105 = {
+	name = "Fílippos Papantoniou"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.9.1 = { rank = 2 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1450114 = {
+	name = "Fragkískos Adamidis"
+	type = air
+	country = GRE
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.9.1 = { rank = 1 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1450115 = {
+	name = "Agisílaos Sakellarios"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.4.1 = { rank = 1 }
+		1960.3.1 = { rank = 2 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1450118 = {
+	name = "Venédiktos Papakonstantinou"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1959.11.1 = { rank = 1 }
+		1961.7.1 = { rank = 2 }
+		1962.9.1 = { rank = 0 }
+	}
+}
+1450116 = {
+	name = "Konstantínos Karyotakis"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1958.2.1 = { rank = 1 }
+		1962.2.1 = { rank = 2 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1450123 = {
+	name = "Aristotélis Sakellarios"
+	type = air
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.9.1 = { rank = 1 }
+		1968.5.1 = { rank = 0 }
+	}
+}
+1450109 = {
+	name = "Gáios Adamidis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1960.3.1 = { rank = 3 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1450120 = {
+	name = "Velissários Kouros"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1961.7.1 = { rank = 1 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1450125 = {
+	name = "Adrianós Bakirtzis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.5.1 = { rank = 1 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1450126 = {
+	name = "Euripídis Karyotakis"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1450128 = {
+	name = "Theodórikos Asimos"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1969.6.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1450122 = {
+	name = "Theódoros Dimitriadis"
+	type = air
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1968.2.1 = { rank = 2 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1450121 = {
+	name = "Adrianós Karyotakis"
+	type = air
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.8.1 = { rank = 1 }
+		1966.5.1 = { rank = 2 }
+		1974.6.1 = { rank = 0 }
+	}
+}
+1450113 = {
+	name = "Léon Tatoulis"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.11.1 = { rank = 1 }
+		1975.11.1 = { rank = 0 }
+	}
+}
+1450129 = {
+	name = "Agríppas Adamidis"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1974.6.1 = { rank = 2 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1450134 = {
+	name = "Velissários Constantinou"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.10.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1450110 = {
+	name = "Gáios Mavrovouniotis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.11.1 = { rank = 4 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1450133 = {
+	name = "Geórgios Tsiatouras"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.11.1 = { rank = 1 }
+		1975.11.1 = { rank = 2 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1450135 = {
+	name = "Andréas Sakellarios"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1976.8.1 = { rank = 1 }
+		1979.9.1 = { rank = 2 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1450132 = {
+	name = "Antónis Asimos"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.6.1 = { rank = 1 }
+		1982.3.1 = { rank = 0 }
+	}
+}
+1450137 = {
+	name = "Andréas Papadakis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1979.10.1 = { rank = 1 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1450136 = {
+	name = "Adrianós Mavrovouniotis"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.9.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1450127 = {
+	name = "Veniamín Tsiatouras"
+	type = air
+	country = GRE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1969.7.1 = { rank = 1 }
+		1979.10.1 = { rank = 2 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1450131 = {
+	name = "Rompén Kolokotronis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.9.1 = { rank = 1 }
+		1988.4.1 = { rank = 0 }
+	}
+}
+1450139 = {
+	name = "Matthaíos Theodoridis"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.3.1 = { rank = 1 }
+		1985.2.1 = { rank = 2 }
+		1990.6.1 = { rank = 0 }
+	}
+}
+1450141 = {
+	name = "Euripídis Makris"
+	type = air
+	country = GRE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.11.1 = { rank = 1 }
+		1990.8.1 = { rank = 0 }
+	}
+}
+1450119 = {
+	name = "Adrianós Athanasiadis"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1962.9.1 = { rank = 2 }
+		1968.2.1 = { rank = 3 }
+		1979.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450124 = {
+	name = "Áris Amanatidis"
+	type = air
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1966.5.1 = { rank = 1 }
+		1980.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450130 = {
+	name = "Áris Zervas"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1973.9.1 = { rank = 2 }
+		1979.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450138 = {
+	name = "Alfrédos Ypsilantis"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1980.9.1 = { rank = 1 }
+		1990.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450140 = {
+	name = "Matthaíos Kouros"
+	type = air
+	country = GRE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1985.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450142 = {
+	name = "Avraám Zervas"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1985.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450143 = {
+	name = "Andréas Ypsilantis"
+	type = air
+	country = GRE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450144 = {
+	name = "Adrianós Papadopoulos"
+	type = air
+	country = GRE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1990.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1450145 = {
+	name = "Avraám Dimitriadis"
+	type = air
+	country = GRE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1990.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

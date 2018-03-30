@@ -1,0 +1,50 @@
+
+# ----------------------- SURFACE SHIPS -----------------------------------
+# Model 1955
+missile_boat.0 = {
+	slotdata = { id = gun_complex level = 3 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 3 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 1 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1960
+missile_boat.1 = {
+	slotdata = { id = gun_complex level = 4 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 4 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 2 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1965
+missile_boat.2 = {
+	slotdata = { id = gun_complex level = 5 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 5 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 3 x = 320 y = 655 ammo_store = 4}
+}
+# Turunmaa-class
+missile_boat.3 = {
+slotdata = { id = gun_complex level = 6 x = 420 y = 655}
+slotdata = { id = ciws_complex level = 5 x = 290 y = 655}
+slotdata = { id = ciws_complex level = 5 x = 340 y = 635}	
+}
+# Model 1975
+missile_boat.4 = {
+	slotdata = { id = gun_complex level = 7 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 7 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 5 x = 320 y = 655 ammo_store = 6}
+}
+# Helsinki-class
+missile_boat.5 = {
+slotdata = { id = ciws_complex level = 3 x = 410 y = 655}
+slotdata = { id = sr_aa_complex level = 9 x = 340 y = 645}
+slotdata = { id = mr_as_complex level = 9 x = 300 y = 655 ammo_store = 6}
+}
+# Model 1985
+missile_boat.6 = {
+	slotdata = { id = gun_complex level = 9 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 9 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 7 x = 320 y = 655 ammo_store = 8}
+}
+# Rauma-class
+missile_boat.7 = {
+slotdata = { id = ciws_complex level = 3 x = 408 y = 653}
+slotdata = { id = sr_aa_complex level = 9 x = 361 y = 650}
+slotdata = { id = mr_as_complex level = 9 x = 325 y = 658 ammo_store = 6}
+}

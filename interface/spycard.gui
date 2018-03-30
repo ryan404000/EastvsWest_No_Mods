@@ -1,0 +1,755 @@
+guiTypes = {
+
+########################################
+# Spy Card Interface
+########################################
+
+	windowType = {
+		name = "spycard_window"
+		backGround=""
+		size = { x=665 y=662 }
+		position = { x=-512 y=-344 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		orientation="CENTER"
+
+		iconType = {
+			name ="spy_plate"
+			spriteType = "GFX_bg_spies"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = { 
+			name = "spycard_title"
+			position = { x = 0 y = 15 }
+			textureFile = ""
+			font = "Jockey_18"
+			borderSize = {x = 0 y = 4}
+			text = "SPYCARD_TITLE"	
+			maxWidth = 548
+			maxHeight = 64	
+			format = centre
+		}
+
+
+		guiButtonType = {
+			name = "buy"
+			position = { x=111 y = 580 }
+			quadTextureSprite = "GFX_spy_btn_blue"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_16_glow_blue"
+
+		}
+
+		instantTextBoxType = { 
+				name = "buy_label"
+				position = { x = 57 y =590 }
+				textureFile = ""
+				font = "Jockey_16_glow_blue"
+				borderSize = {x = 0 y = 0}
+				text = "BUY"
+				maxWidth = 260
+				maxHeight = 64	
+				format = centre
+			}
+
+		guiButtonType = {
+			name = "cancel"
+			position = { x=275 y = 580 }
+			quadTextureSprite ="GFX_spy_btn_red"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_16_glow_red"
+
+		}
+
+		instantTextBoxType = { 
+				name = "cancel_label"
+				position = { x = 218 y =590 }
+				textureFile = ""
+				font = "Jockey_16_glow_red"
+				borderSize = {x = 0 y = 0}
+				text = "CLOSE"
+				maxWidth = 260
+				maxHeight = 64	
+				format = centre
+			}
+
+		OverlappingElementsBoxType = {
+			   name = "cards_box"
+			   position = { x = 16 y = 49 }
+			   size = { x= 540 y= 600 }
+			   Orientation = "UPPER_LEFT"
+			   format = left
+			   spacing = 1.0
+		}
+
+		windowType = {
+			name = "satellite_window"
+			backGround=""
+			position = { x=0 y = 394 }	
+			size = { x = 548 y = 158 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			Orientation = "UPPER_LEFT" 
+
+#			iconType = {
+#				name ="sat_plate"
+#				spriteType = "GFX_bg_satellite"
+#				position = { x= 4 y = 4 }
+#				Orientation = "UPPER_LEFT"
+#			}
+
+			iconType = {
+				name ="sat_portrait"
+				spriteType = "GFX_satellite"
+				position = { x= 52 y = 44 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = { 
+				name = "sat_label"
+				position = { x = 20 y = 15 }
+				textureFile = ""
+				font = "Jockey_18"
+				borderSize = {x = 0 y = 0}
+				text = "sat_label"	
+				maxWidth = 250
+				maxHeight = 64	
+				format = centre
+			}
+
+#			instantTextBoxType = { 
+#				name = "sat_dur_label"
+#				position = { x = 160 y = 14 }
+#				textureFile = ""
+#				font = "Arial16_black"
+#				borderSize = {x = 0 y = 0}
+#				text = "sat_duration_label"	
+#				maxWidth = 116
+#				maxHeight = 64	
+#				format = left
+#			}
+
+#			instantTextBoxType = { 
+#				name = "sat_dur_text"
+#				position = { x = 154 y = 150 }
+#				textureFile = ""
+#				font = "Jockey_14"
+#				borderSize = {x = 0 y = 0}
+#				text = ""	
+#				maxWidth = 116
+#				maxHeight = 64	
+#				format = centre
+#			}
+
+
+#			instantTextBoxType = { 
+#				name = "sat_desc_label"
+#				position = { x = 160 y = 69 }
+#				textureFile = ""
+#				font = "Arial16_black"
+#				borderSize = {x = 0 y = 0}
+#				text = "sat_desc_label"	
+#				maxWidth = 116
+#				maxHeight = 64	
+#				format = left
+#			}
+
+			instantTextBoxType = { 
+				name = "sat_actions_label"
+				position = { x = 290 y = 20 }
+				textureFile = ""
+				font = "Jockey_18_black"
+				borderSize = {x = 0 y = 0}
+				text = "sat_action_label"	
+				maxWidth = 260
+				maxHeight = 64	
+				format = left
+			}
+			
+			iconType = {
+				name = "sataction_icon_cost"
+				spriteType = "GFX_sat_action_cost"
+				position = { x= 420 y = 16 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType = {
+				name = "sataction_icon_duration"
+				spriteType = "GFX_spy_action_duration"
+				position = { x= 470 y = 18 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+
+			listboxType = {
+				name ="sataction_list"
+				position = { x = 286 y = 42 }
+				backGround=""
+				size = { x = 230 y = 88 }
+				Orientation = "UPPER_LEFT"
+				spacing = 2
+			#	horisontal = 0
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 0 y = 0}
+			}	
+
+#			instantTextBoxType = { 
+#				name = "sat_desc_text"
+#				position = { x = 160 y = 89 }
+#				textureFile = ""
+#				font = "Arial12_black"
+#				borderSize = {x = 0 y = 0}
+#				text = ""	
+#				maxWidth = 130
+#				maxHeight = 60	
+#				format = left
+#			}
+
+		}
+
+
+	}
+
+	windowType = {
+		name = "spycard_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x = 260 y = 402 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		iconType = {
+			name ="card_plate"
+			spriteType = "GFX_bg_spycard"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = { 
+			name = "spy_callsign"
+			position = { x = 80 y = 12 }
+			textureFile = ""
+			font = "Courier_12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 162
+			maxHeight = 64	
+			format = right
+		}
+
+		instantTextBoxType = { 
+			name = "spy_codenumber"
+			position = { x = 79 y = 54 }
+			textureFile = ""
+			font = "Danger_14"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 162
+			maxHeight = 64	
+			format = right
+		}
+		
+		iconType = {
+			name ="icon_rank"
+			spriteType = "GFX_spy_rank"
+			position = { x= 110 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+				name ="country_flag"
+				spriteType = "GFX_topbar_small_shield"
+				position = { x= 195 y = 97 }
+				Orientation = "UPPER_LEFT"
+				#rotation = -1.5708
+				
+		}
+		
+		iconType = {
+				name ="country_target_flag"
+				spriteType = "GFX_topbar_small_shield"
+				position = { x= 225 y = 97 }
+				Orientation = "UPPER_LEFT"
+				#rotation = -1.5708
+		}
+
+		iconType = {
+				name = "photo_corner"
+				spriteType = "GFX_spycard_corner"
+				position = { x= 16 y = 26 }
+				Orientation = "UPPER_LEFT"
+				
+		}
+
+		iconType = {
+				name = "spyphoto"
+				spriteType = "GFX_spy_photo_empty"
+				position = { x= 20 y = 36 }
+				Orientation = "UPPER_LEFT"
+				
+		}
+
+		OverlappingElementsBoxType = {
+			   name = "skill_box"
+			   position = { x = 14 y = 108 }
+			   size = { x= 64 y= 34 }
+			   Orientation = "UPPER_LEFT"
+			   format = left
+			   spacing = 1.0
+		}
+
+
+#		iconType = {
+#				name = "spystamp"
+#				spriteType = "GFX_spycard_stamp"
+#				position = { x= 60 y = 40 }
+#				Orientation = "UPPER_LEFT"
+#				
+#		}
+
+
+#		instantTextBoxType = { 
+#			name = "spyname_english_label"
+#			position = { x = 12 y = 128 }
+#			textureFile = ""
+#			font = "Arial12_black"
+#			borderSize = {x = 0 y = 4}
+#			text = ""	
+#			maxWidth = 300
+#			maxHeight = 64	
+#			format = left
+#		}
+
+#		instantTextBoxType = { 
+#			name = "spyname_russian_label"
+#			position = { x = 12 y = 128 }
+#			textureFile = ""
+#			font = "Cyrill_14_black"
+#			borderSize = {x = 0 y = 4}
+#			text = ""	
+#			maxWidth = 300
+#			maxHeight = 64	
+#			format = left
+#		}
+
+
+		instantTextBoxType = { 
+			name = "spyname"
+			position = { x = 105 y = 35 }
+			textureFile = ""
+			font = "Danger_14"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 140
+			maxHeight = 64	
+			format = right
+		}
+
+		instantTextBoxType = { 
+			#name = "spybirth_english_label"
+			name = "spybirth_label"
+			position = { x = 108 y = 78 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+
+#		instantTextBoxType = { 
+#			name = "spybirth_russian_label"
+#			position = { x = 108 y = 78 }
+#			textureFile = ""
+#			font = "Cyrill_14_black"
+#			borderSize = {x = 0 y = 4}
+#			text = ""	
+#			maxWidth = 300
+#			maxHeight = 64	
+#			format = left
+#		}
+
+		instantTextBoxType = { 
+			#name = "spynat_english_label"
+			name = "spynat_label"
+			position = { x = 108 y = 97 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+
+#		instantTextBoxType = { 
+#			name = "spynat_russian_label"
+#			position = { x = 108 y = 96 }
+#			textureFile = ""
+#			font = "Cyrill_14_black"
+#			borderSize = {x = 0 y = 4}
+#			text = ""	
+#			maxWidth = 300
+#			maxHeight = 64	
+#			format = left
+#		}
+
+		instantTextBoxType = { 
+			name = "spybirth"
+			position = { x = 194 y = 78 }
+			textureFile = ""
+			font = "Courier_12"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+		
+		instantTextBoxType = { 
+			name = "spyrank"
+			position = { x = 154 y = 115 }
+			textureFile = ""
+			font = "Courier_12"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+		
+		instantTextBoxType = { 
+			name = "spyrank_label"
+			position = { x = 108 y = 115 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+
+				
+		instantTextBoxType = { 
+			name = "spygender_label"
+			position = { x = 187 y = 115 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+
+
+		instantTextBoxType = { 
+			name = "spygender"
+			position = { x = 216 y = 115}
+			textureFile = ""
+			font = "Courier_12"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 240
+			maxHeight = 64	
+			format = left
+		}
+		
+		instantTextBoxType = { 
+			name = "spysignature_label"
+			position = { x = 30 y = 140 }
+			textureFile = ""
+			font = "Signature_28_black"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 64	
+			format = left
+		}
+
+		instantTextBoxType = { 
+			name = "spysignature"
+			position = { x = -23 y = 132 }
+			textureFile = ""
+			font = "Signature_28_black"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 240
+			maxHeight = 64	
+			format = right
+		}
+
+		guiButtonType = {
+			name = "disband_button"
+			position = { x= 234 y = 138 }
+			quadTextureSprite = "GFX_spycard_disband_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+			Orientation = "UPPER_LEFT"
+			shortcut = ""
+			clicksound = click
+		}
+		
+		instantTextBoxType = { 
+			name = "spy_actions_label"
+			position = { x = 12 y = 175 }
+			textureFile = ""
+			font = "Jockey_16_paper"
+			borderSize = {x = 0 y = 0}
+			text = "ACTIONS"	
+			maxWidth = 246
+			maxHeight = 64	
+			format = centre
+		}
+
+
+		instantTextBoxType = { 
+			name = "spy_missiontype_label"
+			position = { x = 32 y = 204 }
+			textureFile = ""
+			font = "Danger_14"
+			borderSize = {x = 0 y = 0}
+			text = "spy_action_label"	
+			maxWidth = 240
+			maxHeight = 64	
+			format = left
+		}
+		
+		iconType = {
+				name = "action_icon_cost"
+				spriteType = "GFX_spy_action_cost"
+				position = { x= 193 y = 204 }
+				Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+				name = "action_icon_chance"
+				spriteType = "GFX_spy_action_chance"
+				position = { x= 225 y = 204 }
+				Orientation = "UPPER_LEFT"
+		}
+
+
+		listboxType = {
+				name ="spyaction_list"
+				position = { x = 28 y = 224 }
+				backGround=""
+				size = { x = 219 y = 96 }
+				Orientation = "UPPER_LEFT"
+				spacing = 2
+			#	horisontal = 0
+				scrollbartype = "scrollbar_vertical_short"
+				borderSize = {x = 0 y = 0}
+		}	
+
+#		instantTextBoxType = { 
+#			name = "spy_desc_label"
+#			position = { x = 14 y = 362 }
+#			textureFile = ""
+#			font = "Arial_11_bold_black"
+#			borderSize = {x = 0 y = 0}
+#			text = "sat_desc_label"	
+#			maxWidth = 116
+#			maxHeight = 64	
+#			format = left
+#		}
+
+#		instantTextBoxType = { 
+#			name = "spy_desc_text"
+#			position = { x = 14 y = 381 }
+#			textureFile = ""
+#			font = "Arial12_black"
+#			borderSize = {x = 0 y = 0}
+#			text = ""	
+#			maxWidth = 210
+#			maxHeight = 40	
+#			format = left
+#		}
+
+
+
+	}
+
+
+	windowType = {
+		name = "spyaction_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x = 228 y = 24 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		guiButtonType = {
+			name = "select_action"
+			position = { x= -1 y = 0}
+			quadTextureSprite = "GFX_bg_spycard_entry"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+		instantTextBoxType = { 
+			name = "actionname"
+			position = { x = 5 y = 1 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 240
+			maxHeight = 64	
+			format = left
+		}
+
+		instantTextBoxType = { 
+			name = "cost"
+			position = { x = 162 y = 2 }
+			textureFile = ""
+			font = "Courier"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 20
+			maxHeight = 64	
+			format = centre
+		}
+
+
+		instantTextBoxType = { 
+			name = "chance"
+			position = { x = 150 y = -2 }
+			textureFile = ""
+			font = "Danger_14"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 100
+			maxHeight = 64	
+			format = centre
+		}
+
+
+	}
+
+	windowType = {
+		name = "sataction_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x = 232 y = 28 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		guiButtonType = {
+			name = "sat_select_action"
+			position = { x= 0 y = 0}
+			quadTextureSprite = "GFX_bg_satcard_entry"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+		instantTextBoxType = { 
+			name = "sat_actionname"
+			position = { x = 9 y = 6 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 240
+			maxHeight = 64	
+			format = left
+		}
+
+		instantTextBoxType = { 
+			name = "cost"
+			position = { x = 127 y = 6 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 32
+			maxHeight = 64	
+			format = centre
+		}
+
+		instantTextBoxType = { 
+			name = "duration"
+			position = { x = 177§ y = 6 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 20
+			maxHeight = 64	
+			format = centre
+		}
+
+
+		
+
+
+	}
+
+
+	windowType = {
+		name = "spyskill_entry"
+		backGround=""
+		position = { x=0 y = 0 }	
+		size = { x = 32 y = 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		iconType = {
+				name = "spyskill"
+				spriteType = "GFX_unit_stars"
+				position = { x= -3 y = 9 }
+				Orientation = "UPPER_LEFT"
+				
+		}
+
+
+	}
+
+
+
+}
+
+

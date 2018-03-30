@@ -1,0 +1,1434 @@
+1482009 = {
+	name = "Martijn Cheung"
+	type = land
+	country = HOL
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1948.11.1 = { rank = 0 }
+	}
+}
+1482010 = {
+	name = "Aart Ekkel"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1948.11.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1482007 = {
+	name = "Adriaan Verbakel"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.11.1 = { rank = 3 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1482002 = {
+	name = "Aldemar Oostrom"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1482000 = {
+	name = "Sjaak Kraakman"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 2 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1482014 = {
+	name = "Aalbrecht Stalman"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1952.5.1 = { rank = 1 }
+		1953.4.1 = { rank = 0 }
+	}
+}
+1482011 = {
+	name = "Christiaan Leijser"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1949.1.1 = { rank = 1 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1482012 = {
+	name = "Maurits Huberts"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = trickster
+	add_trait = defensive_doctrine
+	history = {
+		1950.1.1 = { rank = 1 }
+		1955.4.1 = { rank = 0 }
+	}
+}
+1482013 = {
+	name = "Timo Boeijen"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.10.1 = { rank = 1 }
+		1952.5.1 = { rank = 2 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1482005 = {
+	name = "Pol Romme"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1482004 = {
+	name = "Ruud Prudon"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1482006 = {
+	name = "Lieven van Elferen"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1482018 = {
+	name = "Gerrit de Bekker"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1956.3.1 = { rank = 1 }
+		1960.7.1 = { rank = 0 }
+	}
+}
+1482017 = {
+	name = "Hans Weitering"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1955.4.1 = { rank = 1 }
+		1961.2.1 = { rank = 0 }
+	}
+}
+1482020 = {
+	name = "Jaap Overgoor"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1482022 = {
+	name = "Gustaaf Ekkel"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.7.1 = { rank = 1 }
+		1963.6.1 = { rank = 0 }
+	}
+}
+1482019 = {
+	name = "Adolf Langevoort"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.10.1 = { rank = 1 }
+		1959.4.1 = { rank = 2 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1482024 = {
+	name = "Constantijn Roumen"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1962.2.1 = { rank = 1 }
+		1965.4.1 = { rank = 0 }
+	}
+}
+1482016 = {
+	name = "Alonso Oosterling"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1954.10.1 = { rank = 1 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1482023 = {
+	name = "Alonso Steenbakkers"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1961.2.1 = { rank = 1 }
+		1967.1.1 = { rank = 0 }
+	}
+}
+1482003 = {
+	name = "Gerrit Teuben"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.11.1 = { rank = 2 }
+		1950.1.1 = { rank = 3 }
+		1968.11.1 = { rank = 0 }
+	}
+}
+1482028 = {
+	name = "Piet Kooyman"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.8.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1482008 = {
+	name = "Dirk ter Laak"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.11.1 = { rank = 4 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1482015 = {
+	name = "Basiel Weima"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = logistics_wizard
+	history = {
+		1953.4.1 = { rank = 1 }
+		1956.3.1 = { rank = 2 }
+		1968.11.1 = { rank = 3 }
+		1970.12.1 = { rank = 4 }
+		1971.12.1 = { rank = 0 }
+	}
+}
+1482025 = {
+	name = "Achiel Driessens"
+	type = land
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = offensive_doctrine
+	history = {
+		1963.6.1 = { rank = 1 }
+		1971.12.1 = { rank = 2 }
+		1972.5.1 = { rank = 0 }
+	}
+}
+1482034 = {
+	name = "Wiebrand Geerts"
+	type = land
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.5.1 = { rank = 1 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1482027 = {
+	name = "Pieter Piet"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1965.4.1 = { rank = 1 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1482033 = {
+	name = "Andreas de Wit"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.12.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1482029 = {
+	name = "Rinus Nieborg"
+	type = land
+	country = HOL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.1.1 = { rank = 1 }
+		1970.12.1 = { rank = 2 }
+		1971.12.1 = { rank = 3 }
+		1976.1.1 = { rank = 0 }
+	}
+}
+1482032 = {
+	name = "Peter Schel"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1972.5.1 = { rank = 2 }
+		1976.1.1 = { rank = 3 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1482038 = {
+	name = "Daniël van Haaster"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1976.1.1 = { rank = 1 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1482026 = {
+	name = "Adelwin Schaar"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1482030 = {
+	name = "Acco van der Waal"
+	type = land
+	country = HOL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1968.11.1 = { rank = 1 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1482031 = {
+	name = "Mark Sportel"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.11.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1482036 = {
+	name = "Francis van Deursen"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.2.1 = { rank = 1 }
+		1977.3.1 = { rank = 2 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1482042 = {
+	name = "Maarten Brussen"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1980.12.1 = { rank = 1 }
+		1983.12.1 = { rank = 0 }
+	}
+}
+1482037 = {
+	name = "Adriaan Verweij"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1976.1.1 = { rank = 2 }
+		1977.3.1 = { rank = 3 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1482035 = {
+	name = "Kees van Harten"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.6.1 = { rank = 1 }
+		1984.6.1 = { rank = 2 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1482043 = {
+	name = "Francis Eland"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.10.1 = { rank = 1 }
+		1986.5.1 = { rank = 0 }
+	}
+}
+1482048 = {
+	name = "Koenraad Langenkamp"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1986.5.1 = { rank = 1 }
+		1987.12.1 = { rank = 0 }
+	}
+}
+1482041 = {
+	name = "Adalmar Wijker"
+	type = land
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.5.1 = { rank = 1 }
+		1982.1.1 = { rank = 2 }
+		1984.6.1 = { rank = 3 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1482021 = {
+	name = "Thijs Wolswijk"
+	type = land
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1959.4.1 = { rank = 1 }
+		1968.11.1 = { rank = 2 }
+		1970.12.1 = { rank = 3 }
+		1971.12.1 = { rank = 4 }
+		1989.8.1 = { rank = 0 }
+	}
+}
+1482046 = {
+	name = "Armando Berkhoff"
+	type = land
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1984.6.1 = { rank = 1 }
+		1985.2.1 = { rank = 2 }
+		1990.5.1 = { rank = 0 }
+	}
+}
+1482001 = {
+	name = "Michel van Eijck"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.9.1 = { rank = 2 }
+		1988.12.1 = { rank = 3 }
+		1989.8.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482039 = {
+	name = "Willem van der Pluijm"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1977.3.1 = { rank = 1 }
+		1988.12.1 = { rank = 2 }
+		1989.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482040 = {
+	name = "Wiebrand Stapper"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1978.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482044 = {
+	name = "Menno Floor"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1982.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482045 = {
+	name = "Aad Ivens"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482047 = {
+	name = "Eduard van der Voorn"
+	type = land
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1985.2.1 = { rank = 1 }
+		1990.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482049 = {
+	name = "Frans Lekkerkerker"
+	type = land
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1987.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482050 = {
+	name = "Timo Anderson"
+	type = land
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1988.12.1 = { rank = 1 }
+		1989.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482051 = {
+	name = "Arthur Steensma"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482052 = {
+	name = "David Plant"
+	type = land
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482057 = {
+	name = "Jakob van der Slik"
+	type = sea
+	country = HOL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.12.1 = { rank = 0 }
+	}
+}
+1482055 = {
+	name = "Jaap Versteegen"
+	type = sea
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.2.1 = { rank = 0 }
+	}
+}
+1482058 = {
+	name = "Koenraad Cheng"
+	type = sea
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.11.1 = { rank = 0 }
+	}
+}
+1482062 = {
+	name = "Cor Wijngaard"
+	type = sea
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1950.2.1 = { rank = 1 }
+		1957.11.1 = { rank = 2 }
+		1960.9.1 = { rank = 0 }
+	}
+}
+1482059 = {
+	name = "Ad Klijnstra"
+	type = sea
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1482060 = {
+	name = "Martinus Schelvis"
+	type = sea
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1482065 = {
+	name = "Kees Kooi"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	add_trait = seawolf
+	history = {
+		1960.1.1 = { rank = 1 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1482053 = {
+	name = "Constantijn van der Ree"
+	type = sea
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1482064 = {
+	name = "Christiaan Swets"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.9.1 = { rank = 1 }
+		1964.5.1 = { rank = 0 }
+	}
+}
+1482069 = {
+	name = "Sander Tuithof"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1964.5.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1482054 = {
+	name = "Sander ten Veen"
+	type = sea
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1966.12.1 = { rank = 0 }
+	}
+}
+1482061 = {
+	name = "Peter Woning"
+	type = sea
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1948.12.1 = { rank = 1 }
+		1960.1.1 = { rank = 2 }
+		1964.9.1 = { rank = 3 }
+		1967.5.1 = { rank = 0 }
+	}
+}
+1482068 = {
+	name = "Aart Houwing"
+	type = sea
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1482070 = {
+	name = "Michel Kamman"
+	type = sea
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.1.1 = { rank = 1 }
+		1969.9.1 = { rank = 0 }
+	}
+}
+1482067 = {
+	name = "Jakob Henkes"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1964.9.1 = { rank = 1 }
+		1970.7.1 = { rank = 0 }
+	}
+}
+1482071 = {
+	name = "Jaap Vreeburg"
+	type = sea
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1966.12.1 = { rank = 1 }
+		1967.5.1 = { rank = 2 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1482066 = {
+	name = "Hans Wijngaards"
+	type = sea
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1981.6.1 = { rank = 0 }
+	}
+}
+1482056 = {
+	name = "Aad van Heteren"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.9.1 = { rank = 2 }
+		1960.9.1 = { rank = 3 }
+		1964.9.1 = { rank = 4 }
+		1982.3.1 = { rank = 0 }
+	}
+}
+1482074 = {
+	name = "André Reijntjes"
+	type = sea
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1969.9.1 = { rank = 1 }
+		1984.3.1 = { rank = 0 }
+	}
+}
+1482073 = {
+	name = "Folkert Valstar"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1968.2.1 = { rank = 1 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1482063 = {
+	name = "Adelmar Smedts"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.11.1 = { rank = 1 }
+		1964.9.1 = { rank = 2 }
+		1967.5.1 = { rank = 3 }
+		1982.3.1 = { rank = 4 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1482079 = {
+	name = "Rik Shah"
+	type = sea
+	country = HOL
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.3.1 = { rank = 1 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1482072 = {
+	name = "Sieme de Hooge"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.5.1 = { rank = 1 }
+		1972.11.1 = { rank = 2 }
+		1982.3.1 = { rank = 3 }
+		1990.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482075 = {
+	name = "David Borgers"
+	type = sea
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1970.7.1 = { rank = 1 }
+		1990.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482076 = {
+	name = "Eduard Tjepkema"
+	type = sea
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1972.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482077 = {
+	name = "Mark Hamoen"
+	type = sea
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.6.1 = { rank = 1 }
+		1982.3.1 = { rank = 2 }
+		1990.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482078 = {
+	name = "Wouder Dijk"
+	type = sea
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = superior_tactician
+	history = {
+		1982.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482080 = {
+	name = "Eduard Bunschoten"
+	type = sea
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482081 = {
+	name = "Constantijn van Marwijk"
+	type = sea
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482082 = {
+	name = "Woute Albrecht"
+	type = sea
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482085 = {
+	name = "Cor Molendijk"
+	type = air
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.5.1 = { rank = 0 }
+	}
+}
+1482086 = {
+	name = "Bram Richardson"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1482090 = {
+	name = "Aaldrik van Steensel"
+	type = air
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1482089 = {
+	name = "Peter Bergers"
+	type = air
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1960.1.1 = { rank = 3 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1482091 = {
+	name = "Menno Rooker"
+	type = air
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1482092 = {
+	name = "Timo Harmsen"
+	type = air
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1949.5.1 = { rank = 1 }
+		1964.10.1 = { rank = 0 }
+	}
+}
+1482084 = {
+	name = "Tonny Engelaar"
+	type = air
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.4.1 = { rank = 2 }
+		1966.9.1 = { rank = 0 }
+	}
+}
+1482094 = {
+	name = "Aad van Voorden"
+	type = air
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = superior_air_tactician
+	history = {
+		1960.1.1 = { rank = 1 }
+		1964.10.1 = { rank = 2 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1482096 = {
+	name = "Maximiliaan Samuel"
+	type = air
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.10.1 = { rank = 1 }
+		1966.9.1 = { rank = 2 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1482100 = {
+	name = "Bert Leijser"
+	type = air
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.9.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1482097 = {
+	name = "Johannes Luijt"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1964.10.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1482099 = {
+	name = "Abraham Lunenburg"
+	type = air
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1482083 = {
+	name = "Constantijn Theunisz"
+	type = air
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.1.1 = { rank = 2 }
+		1964.10.1 = { rank = 3 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1482098 = {
+	name = "Adolf Brummelhuis"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.9.1 = { rank = 1 }
+		1976.9.1 = { rank = 0 }
+	}
+}
+1482103 = {
+	name = "Jaap Goedkoop"
+	type = air
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1975.8.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1482087 = {
+	name = "Sieme Trouwborst"
+	type = air
+	country = HOL
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482088 = {
+	name = "Adri Duis"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.4.1 = { rank = 3 }
+		1964.10.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482093 = {
+	name = "Christiaan van Meggelen"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.1.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482095 = {
+	name = "Boudewijn Broere"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1961.4.1 = { rank = 1 }
+		1973.9.1 = { rank = 2 }
+		1976.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482101 = {
+	name = "Alonso van de Weijer"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482102 = {
+	name = "Joris van Twillert"
+	type = air
+	country = HOL
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1976.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482104 = {
+	name = "Aäron van Mill"
+	type = air
+	country = HOL
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482105 = {
+	name = "Stefan Nieboer"
+	type = air
+	country = HOL
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1976.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1482106 = {
+	name = "Renaat van't Hoog"
+	type = air
+	country = HOL
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

@@ -1,0 +1,725 @@
+###########################
+# SWE  attack subs
+###########################
+# Neptun-class
+submarine.0 = {
+	sonarsystem = 0
+	propulsion_diesel_submarine = 1
+	launcher_torpedotubes_533_650 = 0
+	closedefense = 0
+	allsubs_autonomousoperations = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 5	
+	wikipage = /wiki/Neptun_class_submarine
+}
+# Model 1950
+attack_submarine.0 = {
+	unit_submarine_attack = 1
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 2
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 8
+}
+# Hajen-class
+attack_submarine.1 = {
+	unit_submarine_attack = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 1
+	launcher_torpedotubes_533_650 = 2
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 3	
+	wikipage = /wiki/Hajen_class_submarine
+}
+# Draken-class
+attack_submarine.2 = {
+	unit_submarine_attack = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 1
+	launcher_torpedotubes_533_650 = 4
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 2		
+	wikipage = /wiki/Draken_class_submarine
+}
+# Model 1965
+attack_submarine.3 = {
+	unit_submarine_attack = 4
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 3
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 5
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 6	
+}
+# Sjöormen-class
+attack_submarine.4 = {
+	unit_submarine_attack = 5
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	launcher_torpedotubes_533_650 = 5
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 2		
+	wikipage = "/wiki/Sjöormen_class_submarine"
+}
+# Model 1975
+attack_submarine.5 = {
+	unit_submarine_attack = 6
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 4
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 7
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 4	
+}
+
+# Näcken-class
+attack_submarine.6 = {
+	unit_submarine_attack = 7
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	launcher_torpedotubes_533_650 = 7
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 2		
+	wikipage = "/wiki/Näcken_class_submarine"
+}
+# Västergötland-class
+attack_submarine.7 = {
+	unit_submarine_attack = 8
+	sonarsystem = 5
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	launcher_torpedotubes_533_650 = 10
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 3	
+	wikipage = "/wiki/Västergötland_class_submarine"
+}
+# Gotland-class
+attack_submarine.8 = {
+	unit_submarine_attack = 9
+	sonarsystem = 6
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	launcher_torpedotubes_533_650 = 11
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 3		
+	wikipage = /wiki/Gotland_class_submarine
+}
+########################
+# SWE missile Boats
+########################
+# Model 1955
+missile_boat.0 = {
+	unit_missileboat = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 2
+	conventionalnavalgun = 3
+	closedefense = 3
+	antishipmissile_shortrange = 1
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 3
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 18
+}
+
+# Model 1960
+missile_boat.1 = {
+	unit_missileboat = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 2
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 16
+}
+
+# Model 1965
+missile_boat.2 = {
+	unit_missileboat = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 5
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 13
+}
+
+# Model 1970
+missile_boat.3 = {
+	unit_missileboat = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 4
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 6
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 23
+}
+
+# Model 1975
+missile_boat.4 = {
+	unit_missileboat = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 3
+	propulsion_diesel_surface_40s = 0
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 7
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 21
+}
+# Norrköpings-class
+missile_boat.5 = {
+	unit_missileboat = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 4
+	propulsion_gas = 1	
+	propulsion_diesel_surface_40s = 0
+	conventionalnavalgun = 5
+	closedefense = 0
+	antishipmissile_shortrange = 7
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 9
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 3
+}
+# Stockholm-class
+missile_boat.6 = {
+	unit_missileboat = 7
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	propulsion_gas = 1	
+	propulsion_diesel_surface_40s = 2
+	conventionalnavalgun = 9
+	closedefense = 0
+	antishipmissile_shortrange = 7
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 9
+	launcher_torpedotubes_533_650 = 9	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 4	
+	wikipage = /wiki/Stockholm_class_corvette
+}
+# Göteborg-class
+missile_boat.7 = {
+	unit_missileboat = 8
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 6
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 9
+	closedefense = 3
+	antishipmissile_shortrange = 7
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 10
+	launcher_torpedotubes_533_650 = 10	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 5	
+	wikipage = "/wiki/Göteborg_class_corvette"
+}
+
+########################
+# SWE Missile Destroyers
+########################
+# Visby-class
+destroyer.0 = {
+	unit_destroyer = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0
+	propulsion_steam = 0
+	conventionalnavalgun = 0
+	closedefense = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 49
+	wikipage = /wiki/Visby_class_destroyer
+}
+# Öland-class
+destroyer.1 = {
+	unit_destroyer = 2
+	radarsystem_airsearch = 1
+	radarsystem_surfacesearch = 1
+	sonarsystem = 1	
+	propulsion_steam = 0
+	conventionalnavalgun = 0
+	closedefense = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 1	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 38		
+	wikipage = "/wiki/Öland_class_destroyer"
+}
+# Halland-class
+missile_destroyer.0 = {
+	unit_missiledestroyer = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	conventionalnavalgun = 3
+	closedefense = 1
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 2
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 2	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 30
+	wikipage = /wiki/Halland_class_destroyer
+}
+# Östergötland-class
+missile_destroyer.1 = {
+	unit_missiledestroyer = 2
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	conventionalnavalgun = 3
+	closedefense = 2
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 4
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 2
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 3	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 25	
+	wikipage = "/wiki/Östergötland_class_destroyer"
+}
+# Model 1965
+missile_destroyer.2 = {
+	unit_missiledestroyer = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 5
+	antishipmissile_shortrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 5
+	antisub_missile = 3
+	launcher_torpedotubes_533_650 = 5	
+	helicopterplatform = 1		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 34
+}
+
+# Model 1970
+missile_destroyer.3 = {
+	unit_missiledestroyer = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 1
+	naval_combat_system = 0
+	propulsion_steam = 4	
+	propulsion_gas = 0	
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 6
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0	
+	antisub_torpedorocket = 6
+	antisub_missile = 4
+	launcher_torpedotubes_533_650 = 6	
+	helicopterplatform = 2		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 31
+}
+
+# Model 1975
+missile_destroyer.4 = {
+	unit_missiledestroyer = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 1
+	naval_combat_system = 0
+	propulsion_steam = 4	
+	propulsion_gas = 0	
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 5
+	antiairmissile_shortrange = 7
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 7
+	antisub_missile = 5
+	launcher_torpedotubes_533_650 = 7	
+	helicopterplatform = 3	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 35
+}
+
+# Model 1980
+missile_destroyer.5 = {
+	unit_missiledestroyer = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 2
+	naval_combat_system = 0
+	propulsion_steam = 5	
+	propulsion_gas = 0	
+	conventionalnavalgun = 8
+	closedefense = 8
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 6
+	antiairmissile_shortrange = 8
+	antishipmissile_shortrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 8
+	antisub_missile = 6
+	launcher_torpedotubes_533_650 = 8	
+	helicopterplatform = 3	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 34
+}
+
+# Model 1985
+missile_destroyer.6 = {
+	unit_missiledestroyer = 7
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 2
+	naval_combat_system = 0
+	propulsion_steam = 5	
+	propulsion_gas = 0
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 7
+	antiairmissile_shortrange = 9
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 9
+	antisub_missile = 7
+	launcher_torpedotubes_533_650 = 9	
+	helicopterplatform = 4		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 43
+}
+
+# Model 1990
+missile_destroyer.7 = {
+	unit_missiledestroyer = 8
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 6
+	towed_sonarsystem = 2
+	radarsystem_3dsearch = 3
+	naval_combat_system = 1
+	propulsion_steam = 6	
+	propulsion_gas = 0	
+	conventionalnavalgun = 10
+	closedefense = 10
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 8
+	antiairmissile_shortrange = 10
+	antishipmissile_shortrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 10
+	antisub_missile = 8
+	launcher_torpedotubes_533_650 = 10	
+	helicopterplatform = 5	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 42
+}
+########################
+# SWE Cruisers
+########################
+# Tre Kronor-class
+cruiser.0 = {
+	unit_cruiser = 1
+	radarsystem_airsearch = 1
+	radarsystem_surfacesearch = 1
+	sonarsystem = 1
+	propulsion_steam = 1	
+	conventionalnavalgun = 1
+	closedefense = 1
+	launcher_torpedotubes_533_650 = 1	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	escort-battlegroup_surfaceengagementpositioning = 0
+	escort-battlegroup_denyenemyfreedomofaction = 0
+	escort-battlegroup_acceptablerisk = 0	
+	helicopterplatform = 0	
+	hullmaxslots = 0
+	hullmaxsize = 76
+	wikipage = /wiki/Tre_Kronor_class_cruiser	
+}

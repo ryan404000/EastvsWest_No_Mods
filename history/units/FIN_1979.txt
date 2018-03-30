@@ -1,0 +1,79 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6777
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 6777
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 6777
+			regiment = { type = light_mechanized_brigade name = "1st L. Mech.  Brigade" historical_model = 3 strength = 36 experience = 8 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 3 strength = 23 experience = 7 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 3 strength = 34 experience = 7 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 3 strength = 25 experience = 7 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 4127
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 3 strength = 35 experience = 7 }
+			regiment = { type = artillery_brigade name = "4th Artillery Brigade" historical_model = 3 strength = 23 experience = 7 }
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 4 strength = 38 experience = 7 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 4508
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 4 strength = 34 experience = 6 }
+			regiment = { type = artillery_brigade name = "5th Artillery Brigade" historical_model = 4 strength = 22 experience = 7 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 3 strength = 37 experience = 7 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 7189
+		location = 7189
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 3 strength = 30 builder = USA }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 6777 # Helsinki (m)
+		location = 6777
+		ship = { type = missile_frigate name = "Hämeenmaa" historical_model = 1 builder = SOV }
+		ship = { type = missile_boat name = "1. Ohjusvenelaivue" strength = 40 historical_model = 3 }		
+		ship = { type = missile_boat name = "2. Ohjusvenelaivue" strength = 40 historical_model = 1 builder = SOV }
+	}
+}
+division =
+{
+	name = "2nd Division"
+	location = 7191
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 3 strength = 36 experience = 7 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 3 strength = 23 experience = 7 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 3 strength = 34 experience = 7 }
+}
+division =
+{
+	name = "3rd Division"
+	location = 7188
+	pool = yes
+	regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 3 strength = 36 experience = 7 }
+	regiment = { type = artillery_brigade name = "3rd Artillery Brigade" historical_model = 2 strength = 23 experience = 6 }
+	regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 3 strength = 34 experience = 7 }
+}
+
+navy = {
+	name = "Mothball Fleet"
+	base = 6777 # Helsinki (m)
+	location = 6777
+	pool = yes
+		ship = { type = missile_frigate name = "Uusimaa" historical_model = 1 builder = SOV }
+}		

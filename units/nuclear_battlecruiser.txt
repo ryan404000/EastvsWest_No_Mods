@@ -1,0 +1,58 @@
+nuclear_battlecruiser = {
+	type = naval
+	sprite = Battlecruiser
+	capital = yes
+	can_be_pride = yes
+	active = no
+	goods_usage = 
+	{
+		heavy_industry = 0.04
+		naval_yards = 0.04
+	}
+
+	
+	hull = 3
+	modelsize = 3
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 10	#35
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 172.0
+	build_cost_manpower = 2.00
+	build_time = 1200
+
+	#Misc Abilities
+	maximum_speed = 32.00
+	transport_capability = 0.00
+	supply_consumption = 0.50
+	fuel_consumption = 0.92
+	range = 90000.00
+	
+
+	#Detection Abilities
+	surface_detection = 6.00
+	air_detection = 8.00
+	sub_detection = 4.00
+	visibility = 110.00
+	air_radar_range = 160
+	surface_radar_range = 30
+	sonar_range = 4.5
+
+	#Defensive Abilities
+	sea_defence = 6.00
+	air_defence = 10.00
+
+	#Offensive Abilities
+	convoy_attack = 14.00
+	sea_attack = 14.00
+	sub_attack = 0.00
+	air_attack = 3.00
+	shore_bombardment = 3.00	#5
+
+
+	priority = 8
+}

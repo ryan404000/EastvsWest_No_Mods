@@ -1,0 +1,1219 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_unitpanel_bg"
+		texturefile = "gfx\\interface\\unit_window\\unit_bg_status.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_unitpanel_small_bg"
+		texturefile = "gfx\\interface\\unit_window\\unit_bg_status_small.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unitpanel_status_bg"
+		texturefile = "gfx\\interface\\unit_window\\uv_status_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unitpanel_objectives_bg"
+		texturefile = "gfx\\interface\\unit_window\\uv_obj_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_unitpanel_side_stance"
+		texturefile = "gfx\\interface\\unit_window\\unit_objective_left_right.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_unitpanel_side_stance_2"
+		texturefile = "gfx\\interface\\unit_window\\unit_objective_left_right_2.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_unitpanel_middle_stance"
+		texturefile = "gfx\\interface\\unit_window\\unit_objective_middle.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_unitpanel_middle_stance_2"
+		texturefile = "gfx\\interface\\unit_window\\unit_objective_middle_2.dds"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_unitpanel_stances_bg"
+		texturefile = "gfx\\interface\\unit_window\\uv_stance_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unitpanel_support_bg"
+		texturefile = "gfx\\interface\\unit_window\\uv_extra_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_open_oob_button"
+		texturefile = "gfx\\interface\\unit_window\\oob_toggle.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_prio"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_priority.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_prio_small"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_priority_small.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_reinforce"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_reinforce.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_reinforce_small"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_reinforce_small.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_upgrade"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_upgrade.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_upgrade_small"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_upgrade_small.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_valhalla"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_valhala.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_valhalla_small"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_valhala_small.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_scorched"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_scorched.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_scorched_small"
+		texturefile = "gfx\\interface\\unit_window\\checkbox_scorched_small.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_disband_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_disband.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_reorg_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_reorg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_detach_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_detach_button.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_attach_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_attach_button.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_movetopool"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_movetopool.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_reserve"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_reserve.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+		noOfFrames = 2
+	}
+
+	
+	spriteType = {
+		name = "GFX_checkbox_reorg_hq"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_hq_ai.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_automate"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_auto_ai.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	
+	spriteType = {
+		name = "GFX_checkbox_automate_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_auto_ai_small.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_paint"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_paint.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_option_bg"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_nuke_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_nuke_option"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_nuke.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_nuke_option_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_nuke_small.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_fuel_icon"
+		texturefile = "gfx\\interface\\unit_window\\unit_fuel_icon.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_fuel_icon_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_fuel_icon_small.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_supplies_icon"
+		texturefile = "gfx\\interface\\unit_window\\unit_supplies_icon.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_supplies_icon_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_supplies_icon_small.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_ammostore1_status"
+		texturefile = "gfx\\interface\\unit_window\\unit_ammostore1_icon.dds"
+		
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_ammostore1_status_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_ammostore1_icon_small.dds"
+		
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_ammostore2_status"
+		texturefile = "gfx\\interface\\unit_window\\unit_ammostore2_icon.dds"
+		
+		noOfFrames = 4
+	}	
+	
+	spriteType = {
+		name = "GFX_ammostore2_status_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_ammostore2_icon_small.dds"
+		
+		noOfFrames = 4
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_nuke_bg"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_nuke_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_nuke_icon"
+		texturefile = "gfx\\interface\\unit_window\\unit_nuke_icon.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_nuke_icon_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_nuke_icon_small.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_upgrade_unit"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_upgrade.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}	
+	
+	spriteType = {
+		name = "GFX_upgrade_unit_small"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_upgrade_small.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_stars"
+		texturefile = "gfx\\interface\\unit_window\\unit_stars.dds"
+		noOfFrames = 5
+		
+	}	
+	
+	spriteType = {
+		name = "GFX_remove_unit_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_close.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_cancel_order"
+		texturefile = "gfx\\interface\\unit_window\\order_cancel.dds"
+		
+	}	
+	
+	progressbartype = {
+		name = "eqp_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_medium_yellow.dds"
+		size = { x = 43 y = 12 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	
+	progressbartype = {
+		name = "org_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_medium_green.dds"
+		size = { x = 43 y = 12 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "manpower_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_medium_blue.dds"
+		size = { x = 43 y = 12 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "manpower_progressbar_small"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_small_blue.dds"
+		size = { x = 43 y = 12 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "eqp_progressbar_small"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_small_yellow.dds"
+		size = { x = 43 y = 12 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}		
+	
+	progressbartype = {
+		name = "org_progressbar_small"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_small_green.dds"
+		size = { x = 43 y = 12 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}	
+	
+	progressbartype = {
+		name = "supplies_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\bar_hor_green.dds"
+		horizontal = yes
+		size = { x = 52 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}	
+	
+	spriteType = {
+		name = "GFX_button_load_boat"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_load.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_unload_boat"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_load.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_bg_label_plate"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uw_unit_plate_army"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_army.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uw_unit_plate_naval"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_naval.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uw_unit_plate_air"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_air.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uw_unit_plate_army_simple"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_army_simple.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uw_unit_plate_naval_simple"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_naval_simple.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uw_unit_plate_air_simple"	
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_air_simple.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uv_unit_plate_parent"
+		texturefile = "gfx\\interface\\unit_window\\oob\\unit_plate_parent.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_global_plus"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_globalplus.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_hierachy"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_hierarchy.dds"
+		
+	}
+		
+	textSpriteType = { 
+		name = "GFX_uv_leader_btn"
+		textureFile = "gfx\\interface\\unit_window\\unit_btn_leader.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_uv_hq_btn"
+		textureFile = "gfx\\interface\\unit_window\\unit_btn_hq.dds"
+		noOfFrames = 2
+		
+	}
+	spriteType = {
+		name = "GFX_select_leader_bg"
+		texturefile = "gfx\\interface\\leader_window\\select_leader_bg.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_selected_leader_plate"
+		texturefile = "gfx\\interface\\leader_window\\leader_plate.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_leader_main_pic_overlay"
+		texturefile = "gfx\\interface\\leader_window\\leader_main_pic_overlay.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_leader_paper_clip"
+		texturefile = "gfx\\interface\\leader_window\\leader_paper_clip.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_leader_promote"
+		texturefile = "gfx\\interface\\leader_window\\selected_leader_promote.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	spriteType = {
+		name = "GFX_leader_demote"
+		texturefile = "gfx\\interface\\leader_window\\selected_leader_demote.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	textSpriteType = {
+		name = "GFX_leader_btn_cancel"
+		texturefile = "gfx\\interface\\leader_window\\leader_btn_cancel.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	textSpriteType = {
+		name = "GFX_no_leader_btn"
+		texturefile = "gfx\\interface\\leader_window\\leader_btn_blue.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	textSpriteType = {
+		name = "GFX_sort_btn_name"
+		texturefile = "gfx\\interface\\leader_window\\sort_btn_name.dds"
+		
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_sort_btn_skill"
+		texturefile = "gfx\\interface\\leader_window\\sort_btn_skill.dds"
+		
+		clicksound = click
+	}
+	textSpriteType = {
+		name = "GFX_sort_btn_rank"
+		texturefile = "gfx\\interface\\leader_window\\sort_btn_rank.dds"
+		
+		clicksound = click
+	}
+	textSpriteType = {
+		name = "GFX_sort_btn_traits"
+		texturefile = "gfx\\interface\\leader_window\\sort_btn_traits.dds"
+		
+		clicksound = click
+	}
+	spriteType = {
+		name = "GFX_icon_land_commander"
+		texturefile = "gfx\\interface\\leader_window\\icon_land_commander.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_icon_naval_commander"
+		texturefile = "gfx\\interface\\leader_window\\icon_naval_commander.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_icon_air_commander"
+		texturefile = "gfx\\interface\\leader_window\\icon_air_commander.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_leader_list_plate"
+		texturefile = "gfx\\interface\\leader_window\\leader_list_plate.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_leader_list_promote"
+		texturefile = "gfx\\interface\\leader_window\\leader_list_promote.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	spriteType = {
+		name = "GFX_leader_list_demote"
+		texturefile = "gfx\\interface\\leader_window\\leader_list_demote.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	textSpriteType = {
+		name = "GFX_uv_objective_btn"
+		textureFile = "gfx\\interface\\unit_window\\unit_stance.dds"
+		
+	}
+	
+	textSpriteType = {
+		name = "GFX_uv_objective_darker_btn"
+		textureFile = "gfx\\interface\\unit_window\\unit_stance_2.dds"
+		
+	}
+	
+	textSpriteType = {
+		name = "GFX_uv_location_btn"
+		textureFile = "gfx\\interface\\unit_window\\unit_btn_location.dds"
+		
+	}
+	
+	progressbartype = {
+		name = "huge_greenbar_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unit_window\\unit_big_green_bar.dds"
+		size = { x = 374 y = 22 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "unit_combat_progressbar"
+		textureFile1 = "gfx\\interface\\unit_window\\unit_battle_bar.dds"
+		size = { x = 161 y = 13}
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_unit_combat_progressbar_overlay"
+		texturefile = "gfx\\interface\\unit_window\\unit_battle_bar_overlay.dds"
+		
+	}
+
+	spriteType = {
+		name = "GFX_combat_select_button"
+		texturefile = "gfx\\interface\\unit_window\\unit_plate_battle.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_bg_loadedunits"
+		texturefile = "gfx\\interface\\unit_window\\unit_plate_carry.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_view_loaded_bg"
+		texturefile = "gfx\\interface\\unit_window\\unit_below_btn.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_view_loaded_land"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_loaded.dds"
+		
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_view_loaded_air"
+		texturefile = "gfx\\interface\\unit_window\\unit_btn_loaded_air.dds"
+		
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_loaded_unit_bg"
+		texturefile = "gfx\\interface\\unit_window\\unit_loading_plate.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+		
+	
+	
+##################################################
+####   OLD STUFF DOWN
+##################################################
+
+	spriteType = {
+		name = "GFX_small_merge"
+		texturefile = "gfx/interface/small_merge_btn.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bg_weight"
+		texturefile = "gfx\\interface\\bg_weight.tga"
+	}
+	spriteType = {
+		name = "GFX_select_all_childunits"
+		texturefile = "gfx\\interface\\select_all_childunits.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_exp_minishield"
+		textureFile1 = "gfx\\interface\\exp_flag_overlay.tga"
+		textureFile2 = "gfx\\interface\\exp_flag_mask.tga"
+		effectFile = "gfx\\FX\\maskedflag.fx"
+	}
+		
+	spriteType = {
+		name = "GFX_unit_cw_strip"
+		texturefile = "gfx\\interface\\unit_cw_strip.tga"
+		noOfFrames = 5
+		
+	}
+	
+	spriteType = {
+		name = "GFX_icon_rank_strip"
+		texturefile = "gfx\\interface\\icon_rank_strip.tga"
+		noOfFrames = 4
+		
+	}
+	spriteType = {
+		name = "GFX_unit_activity_strip"
+		texturefile = "gfx\\interface\\unit_activity_strip.tga"
+		noOfFrames = 6
+		
+	}
+	
+	spriteType = {
+		name = "GFX_unitstatus_delay"
+		texturefile = "gfx\\interface\\unitstatus_delay.tga"
+		
+	}
+	spriteType = {
+		name = "GFX_unitstatus_moving"
+		texturefile = "gfx\\interface\\unitstatus_moving.tga"
+		
+	}
+	spriteType = {
+		name = "GFX_unitstatus_combinedarms"
+		texturefile = "gfx\\interface\\unitstatus_combinedarms.tga"
+		
+	}
+	spriteType = {
+		name = "GFX_unitstatus_nuke"
+		texturefile = "gfx\\interface\\unitstatus_nuke.tga"
+		
+	}
+	spriteType = {
+		name = "GFX_unitstatus_dugin"
+		texturefile = "gfx\\interface\\unitstatus_dugin.tga"
+		
+	}
+	spriteType = {
+		name = "GFX_unitstatus_lowequip"
+		texturefile = "gfx\\interface\\unitstatus_low_equipment.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_unitstatus_reserve"
+		texturefile = "gfx\\interface\\unitstatus_reserve.tga"
+		
+	}
+	spriteType = {
+		name = "GFX_unitstatus_range"
+		texturefile = "gfx\\interface\\unitstatus_range.tga"
+		noOfFrames = 2
+		
+	}
+	spriteType = {
+		name = "GFX_brigade_detail_bg"
+		texturefile = "gfx\\interface\\brigade\\brigade_detail_bg.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_brigade_detail_overlay"
+		texturefile = "gfx\\interface\\brigade\\brigade_detail_overlay.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_brigade_detail_close"
+		texturefile = "gfx\\interface\\brigade\\brigade_close_btn.dds"
+		
+		norefcount = yes
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_sunk_ships_bg"
+		texturefile = "gfx\\interface\\sunk_ships_bg.dds"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_brigade_detail_entry"
+		texturefile = "gfx\\interface\\brigade_detail_entry.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_bg_28"
+		texturefile = "gfx\\interface\\unit_bg_28.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_bg_order"
+		texturefile = "gfx\\interface\\unit_bg_order.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_bg_objectives"
+		texturefile = "gfx\\interface\\unit_bg_objectives.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_order_button"
+		texturefile = "gfx\\interface\\order_button.tga"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_stance_button"
+		texturefile = "gfx\\interface\\stance_button.tga"
+		
+		norefcount = yes
+	}
+	textSpriteType = {
+		name = "GFX_stance_entry"
+		texturefile = "gfx\\interface\\stance_entry.tga"
+		
+		norefcount = yes
+	}
+	textSpriteType = {
+		name = "GFX_stance_entry2"
+		texturefile = "gfx\\interface\\stance_entry2.tga"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_stance_bg"
+		texturefile = "gfx\\interface\\stance_bg.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_brigade_band"
+		texturefile = "gfx\\interface\\unit_window\\reorg_land.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_air_band"
+		texturefile = "gfx\\interface\\unit_window\\reorg_air.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_navy_band"
+		texturefile = "gfx\\interface\\unit_window\\reorg_navy.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_attach_banner"
+		texturefile = "gfx\\interface\\unit_window\\unit_hierarchy_plate.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_attach_transbutton"
+		texturefile = "gfx\\interface\\unit_window\\unit_hierarchy_plate_prov_btn.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_attach_bg"
+		texturefile = "gfx\\interface\\unit_window\\unit_hierarchy_naked.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_children_label_bg"
+		texturefile = "gfx\\interface\\children_label_bg.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_bg_assets"
+		texturefile = "gfx\\interface\\unit_bg_assets.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_bg_power"
+		texturefile = "gfx\\interface\\unit_bg_power.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_unit_bg_buttons"
+		texturefile = "gfx\\interface\\unit_bg_buttons.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+		
+	spriteType = {
+		name = "GFX_goto_location_button"
+		texturefile = "gfx\\interface\\goto_location_button.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_create_corps"
+		texturefile = "gfx\\interface\\create_corps.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_create_army"
+		texturefile = "gfx\\interface\\create_army.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_create_armygroup"
+		texturefile = "gfx\\interface\\create_armygroup.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_edit_theatre"
+		texturefile = "gfx\\interface\\SemperFi\\edit_theatre.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_edit_autonomous_priorities"
+		texturefile = "gfx\\interface\\edit_autonomous_priorities.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	progressbartype = {
+		name = "supply_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_green.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_red.dds"
+		size = { x = 36 y = 10 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "fuel_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_green.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_red.dds"
+		size = { x = 36 y = 10 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "unit_str"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_green.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_red.dds"
+		size = { x = 28 y = 8 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "power_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\power_progress1.dds"
+		textureFile2 = "gfx\\interface\\power_progress2.dds"
+		size = { x = 145 y = 16 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	spriteType = {
+		name = "GFX_regiment_bg"
+		texturefile = "gfx\\interface\\regiment_bg.tga"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_reorg_bg"
+		texturefile = "gfx\\interface\\unit_window\\reorg_bg.dds"
+		
+	}
+
+	spriteType = {
+		name = "GFX_reorg_right"
+		texturefile = "gfx\\interface\\unit_window\\reorg_right.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+	spriteType = {
+		name = "GFX_leader_button"
+		texturefile = "gfx\\interface\\leader_button.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_button_embarked"
+		texturefile = "gfx\\interface\\button_embarked.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_leader_band_button"
+		texturefile = "gfx\\interface\\leader_band_button.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+	spriteType = {
+		name = "GFX_multi_reorg_button"
+		texturefile = "gfx\\interface\\button_reorg.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+	spriteType = {
+		name = "GFX_multi_reinforce_button"
+		texturefile = "gfx\\interface\\button_reinforce.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+	spriteType = {
+		name = "GFX_multi_merge_button"
+		texturefile = "gfx\\interface\\button_merge.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+
+	spriteType = {
+		name = "GFX_reorg_button"
+		texturefile = "gfx\\interface\\reorg_button.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+	spriteType = {	
+		name = "GFX_reorg_left"
+		texturefile = "gfx\\interface\\unit_window\\reorg_left.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+	spriteType = {
+		name = "GFX_band_regiment"
+		texturefile = "gfx\\interface\\band_regiment.tga"
+		
+		norefcount = yes
+	}
+
+	
+
+	spriteType = {
+		name = "GFX_band_mercenary_regiment"
+		texturefile = "gfx\\interface\\band_mercenary_regiment.tga"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_band_reorg_regiment"
+		texturefile = "gfx\\interface\\band_reorg_blue.tga"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_band_reorg_mercenary_regiment"
+		texturefile = "gfx\\interface\\band_reorg_green.tga"
+		
+		norefcount = yes
+	}
+
+
+
+	spriteType = {
+		name = "GFX_disband_unit_button"
+		texturefile = "gfx\\interface\\disband_button.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+	
+
+	progressbartype = {
+		name = "unitbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		size = { x = 6 y = 24 }
+		horizontal = no
+		effectFile = "gfx\\FX\\progress.fx"
+		
+	}
+
+	spriteType = {
+		name = "GFX_button_prev"
+		texturefile = "gfx\\interface\\button_prev.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		
+	}
+
+	spriteType = {
+		name = "GFX_button_next"
+		texturefile = "gfx\\interface\\button_next.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+	
+	
+}

@@ -1,0 +1,44 @@
+####UNITA (SAF ALIGNED) REBELS####
+army = 
+	{
+		name = "UNITA Rebels"
+		location = 6055
+
+		division =
+		{
+			name = "1st Division"
+			location = 6055
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 2 strength = 20 experience = 5 }
+			regiment = { type = militia_brigade name = "7th Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 5867
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 6425
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 1 strength = 20 experience = 5 }
+		}
+
+		rebel_faction=
+		{
+			type="nationalist_rebels"
+			name="UNITA Rebels"
+			country="ANG"
+			target="ANG"			
+			government="authoritarian_gov"
+			province=5773
+			provinces=
+			{
+				5773
+			}
+		}
+}
+####END UNITA REBELS####

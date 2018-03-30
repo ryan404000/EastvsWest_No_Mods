@@ -1,0 +1,17 @@
+#MOZ Expeditionary force in Angola
+	army = 
+	{
+		name = "Mozambican Expeditionary Army"
+		location = 6527
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = MOZ
+
+		division = 
+		{   
+			name = "1st Infantry Division"
+			location = 6527
+			expeditionary_owner = MOZ
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 32 experience = 5 }
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 1 strength = 30 experience = 6 }
+		}
+	}

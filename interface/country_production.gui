@@ -1,0 +1,1198 @@
+guiTypes = {
+
+	windowType = {
+		name = "topcolor_production"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+	
+#		iconType = {				#Removed gradient from the gui
+#			name = "topcolor_icon"
+#			spriteType = "GFX_topcolor_production"
+#			position = { x=0 y=-1 }
+#		}
+	}
+
+	### Main production window ###
+	windowType = {
+		name = "country_production"
+		backGround =""
+		position = { x=-555 y=-340 }
+		size = { x=1120 y=768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		orientation="CENTER"
+		
+		iconType = {
+			name ="deploy_units_categories_pos"
+			spriteType = "GFX_unit_types_strip"
+			position = { x=734 y=108 }
+		}
+		
+		iconType = {
+			name ="bg_mainshadow"
+			spriteType = "GFX_bg_shadow_prod"
+			position = { x=-22 y=-5 }
+		}
+		#############
+		iconType = {
+			name ="bg_countryskin"
+			spriteType = "GFX_country_bg"
+			position = { x=10044 y=54 }
+		}
+		#############
+		iconType = {
+			name ="bg_prod"
+			spriteType = "GFX_bg_prod"
+			position = { x=-22 y=-5 }
+		}
+		# Main window title #
+		instantTextBoxType = { 
+			name = "headline"
+			position = { x=45 y=30 }
+			font = "Jockey_30_glow_green"
+			text = "PRODUCTION"
+			maxHeight = 28
+		}
+		
+		guiButtonType = {
+			name = "close_button"
+			position = { x=1035 y=29 }
+			quadTextureSprite = "GFX_close_btn"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ESCAPE"
+		}		
+		# LAND build button #
+		guiButtonType = {
+			name = "build_division_button"
+			position = { x=54 y=75 }
+			quadTextureSprite ="GFX_production_division_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_blue"
+		}
+		instantTextBoxType = { 
+			name = "build_division_label"
+			position = { x=173 y=114 }
+			textureFile = ""
+			font = "Jockey_16_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "BUILD_DIVISION"	
+			maxWidth = 50
+			maxHeight = 64
+			format = right
+		}
+		# AIR build button #
+		guiButtonType = {
+			name = "build_air_button"
+			position = { x=255 y=75 }
+			quadTextureSprite ="GFX_production_air_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_blue"
+		}
+		instantTextBoxType = { 
+			name = "build_air_label"
+			position = { x=374 y=114 }
+			textureFile = ""
+			font = "Jockey_16_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "BUILD_AIR"	
+			maxWidth = 50
+			maxHeight = 64
+			format = right
+		}
+		# NAVAL build button
+		guiButtonType = {
+			name = "build_ship_button"
+			position = { x=456 y=75 }
+			quadTextureSprite ="GFX_production_naval_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_blue"
+		}
+		instantTextBoxType = { 
+			name = "build_ship_label"
+			position = { x=578 y=114 }
+			textureFile = ""
+			font = "Jockey_16_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "BUILD_SHIP"	
+			maxWidth = 50
+			maxHeight = 64
+			format = right
+		}
+		# AA build button #
+		guiButtonType = {
+			name = "aa_button"
+			position = { x=65 y=170 }
+			quadTextureSprite ="GFX_prod_aa"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "impact_small"
+		}		
+		# RADAR build button #
+		guiButtonType = {
+			name = "radar_button"
+			position = { x=95 y=170 }
+			quadTextureSprite ="GFX_prod_radar"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "impact_small"
+		}
+		# Title production #
+		instantTextBoxType = { 
+			name = "production_title"
+			position = { x=200 y=165 }
+			textureFile = ""
+			font = "Jockey_24"
+			borderSize = {x = 0 y = 4}
+			text = "PRODUCTION"	
+			maxWidth = 300
+			maxHeight = 64	
+			format = centre
+		}
+		# List production queue #
+		listboxType = {
+			name = "build_queue"
+			position = { x=53 y=202 }
+			backGround=""
+			size = { x=571 y=296 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_prod"
+			borderSize = { x=0 y=0 }
+		}
+
+		# Title Theatre #
+		instantTextBoxType = { 
+			name = "theater_build"
+			position = { x=207 y=510 }
+			textureFile = ""
+			font = "Jockey_24"
+			borderSize = { x=0 y=4 }
+			text = "THEATER_BUILD"	
+			maxWidth = 300
+			maxHeight = 64	
+			format = centre
+		}
+		# List Theatre needs #
+		listboxType = {
+			name = "ai_need_queue"
+			position = { x=48 y=556 }
+			backGround=""
+			size = { x=576 y=158 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_prod_2"
+		}
+		# Auto deployment #
+		checkboxType = {
+			name = "auto_deployment_checkbox"
+			position = { x=1014 y=381 }
+			quadTextureSprite ="GFX_checkbox_production"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_14_dark"
+		}
+		instantTextBoxType = {
+			name = "auto_deployment_label"
+			position = { x=845 y=384 }
+			textureFile = ""
+			font = "Jockey_14_dark"
+			borderSize = {x = 4 y = 0}
+			text = "AUTO_DEPLOY"	
+			maxWidth = 200
+			maxHeight = 16	
+		}
+		guiButtonType = {
+			name = "deploy_big_button"
+			position = { x=676 y=334 }
+			quadTextureSprite ="GFX_prod_big_deploy"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_18"
+		}
+		instantTextBoxType = { 
+			name = "deploy_big_button_label"
+			position = { x=815 y=340 }
+			textureFile = ""
+			font = "Jockey_16_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "DEPLOY_UNITS"	
+			maxWidth = 80
+			maxHeight = 32	
+			format = centre
+		}
+		# Units deployment #
+		guiButtonType = {
+			name = "deploy_deploy_button"
+			position = { x=679 y=382}
+			quadTextureSprite ="GFX_deploy_deploy"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "impact_small"
+		}		
+		
+		guiButtonType = {
+			name = "deploy_delete_button"
+			position = { x=709 y=382}
+			quadTextureSprite ="GFX_deploy_delete"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "impact_small"
+		}		
+		
+		instantTextBoxType = {
+			name = "deploy_title"
+			position = { x=760 y=78 }
+			textureFile = ""
+			font = "Jockey_24"
+			borderSize = { x=4 y=0 }
+			text = "DEPLOY_TITLE"
+			maxWidth = 200
+			maxHeight = 32
+			format = centre
+		}
+		
+		listboxType = {
+			name = "deployment_pool_listbox"
+			position = { x=670 y=128 }
+			backGround = ""
+			size = { x=355 y=203 }
+			spacing = 0
+			scrollbartype = "scrollbar_vertical_prod_2"
+		}
+		windowType = {
+			name = "RadarAADialog"
+			backGround=""
+			position = { x=-531 y=-155 }
+			size = { x=594 y=485 }
+			orientation="CENTER"
+			moveable = 1
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+			fullScreen = no
+			
+			iconType = {
+				name = "Radar_AA"
+				position = { x=0 y=-32 }
+				spriteType = "GFX_RadarAA"
+			}
+	
+			instantTextBoxType = {
+				name = "title"
+				position = { x=165 y=-7 }
+				textureFile = ""
+				font = "Jockey_18_cyan"
+				borderSize = { x=4 y=0 }
+				text = "TITLE"	
+				maxWidth = 300
+				maxHeight = 16
+				format = centre
+			}
+			# Daily cost #
+			iconType = {
+				name = "cost_daily_icon"
+				position = { x=443 y=121 }
+				spriteType = "GFX_btn_prod_money_daily"
+			}
+			instantTextBoxType = {
+				name = "cost_daily"
+				position = { x=389 y=152 }
+				textureFile = ""
+				font = "Danger_14"
+				borderSize = { x=4 y=0 }
+				text = "cost_daily"	
+				maxWidth = 100
+				maxHeight = 16
+				format = right
+			}
+			iconType = {
+				name = "cost_total_icon"
+				position = { x=440 y=168 }
+				spriteType = "GFX_btn_prod_money"
+			}
+			instantTextBoxType = {
+				name = "cost_total"
+				position = { x=389 y=204 }
+				textureFile = ""
+				font = "Danger_14"
+				borderSize = { x=4 y=0 }
+				text = "cost_total"	
+				maxWidth = 100
+				maxHeight = 16
+				format = right
+			}
+			iconType = {
+				name = "time_icon"
+				position = { x=442 y=221 }
+				spriteType = "GFX_btn_prod_time"
+			}
+			instantTextBoxType = {
+				name = "time"
+				position = { x=396 y=253 }
+				textureFile = ""
+				font = "Danger_14"
+				borderSize = { x=4 y=0 }
+				text = "days_time"	
+				maxWidth = 100
+				maxHeight = 16
+				format = right
+			}
+			# Serial/parallel text #
+			instantTextBoxType = {
+				name = "serial_text"
+				position = { x=251 y=405 }
+				textureFile = ""
+				font = "Jockey_14_cyan"
+				borderSize = { x=4 y=0 }
+				text = "PW_SERIAL"	
+				maxWidth = 97
+				maxHeight = 16
+			}
+			instantTextBoxType = {
+				name = "parallel_text"
+				position = { x=251 y=437 }
+				textureFile = ""
+				font = "Jockey_14_cyan"
+				borderSize = { x=4 y=0 }
+				text = "PW_PARALELL"	
+				maxWidth = 97
+				maxHeight = 16
+			}
+			# Serial/parallel interactive part #
+			guiButtonType = {
+				name = "dec_ser"
+				position = { x=329 y=396}
+				quadTextureSprite ="option_prev"
+				buttonFont = "Arial12_bold_black"
+			}
+			instantTextBoxType = {
+				name = "serial_number"
+				position = { x=350 y=404}
+				textureFile = ""
+				font = "Jockey_18_yellow"
+				borderSize = { x=4 y=0 }
+				text = "33"	
+				maxWidth = 60
+				maxHeight = 16
+				format = centre
+			}
+			guiButtonType = {
+				name = "inc_ser"
+				position = { x=429 y=396}
+				quadTextureSprite ="option_next"
+				buttonFont = "Arial12_bold_black"
+			}
+			guiButtonType = {
+				name = "dec_par"
+				position = { x=329 y=428}
+				quadTextureSprite ="option_prev"
+				buttonFont = "Arial12_bold_black"
+			}
+			instantTextBoxType = {
+				name = "parallel_number"
+				position = { x=350 y=436}
+				textureFile = ""
+				font = "Jockey_18_yellow"
+				borderSize = { x=4 y=0 }
+				text = "44"	
+				maxWidth = 60
+				maxHeight = 16
+				format = centre
+			}
+			guiButtonType = {
+				name = "inc_par"
+				position = { x=429 y=428}
+				quadTextureSprite ="option_next"
+				buttonFont = "Arial12_bold_black"
+			}
+			# Close/Start btns #
+			guiButtonType = {
+				name = "cancel"
+				position = { x=79 y=415}
+				quadTextureSprite ="GFX_radar_aa_decline"
+				buttonFont = "Jockey_14_dark"
+				shortcut = "ESCAPE"
+			}
+			instantTextBoxType = {
+				name = "cancel_label"
+				position = { x=99 y=421 }
+				textureFile = ""
+				font = "Jockey_16_dark"
+				text = "Back"
+				maxWidth = 100
+				maxHeight = 16
+				format = centre
+			}
+			guiButtonType = {
+				name = "start"
+				position = { x=474 y=396}
+				quadTextureSprite ="GFX_radar_aa_accept"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = ""
+				buttonFont = "Jockey_24_glow_blue"
+				shortcut = "ENTER"
+			}
+
+			instantTextBoxType = {
+				name = "start_label"
+				position = { x=482 y=418 }
+				textureFile = ""
+				font = "Jockey_24_glow_blue"
+				text = "BUILD"
+				maxWidth = 100
+				maxHeight = 16
+				format = centre
+			}
+
+					}		
+		#####################################
+		# Logitics
+		#####################################		
+		instantTextBoxType = {
+			name = "logistics_text"
+			position = { x=785 y=570 }
+			textureFile = ""
+			font = "Jockey_24"
+			borderSize = { x=4 y=0 }
+			text = "LOGISTICS"	
+			maxWidth = 118
+			maxHeight = 32
+			format = centre
+		}
+		
+		listboxType = {
+			name = "convoy_queue"
+			position = { x=674 y=601 }
+			backGround=""
+			size = { x=351 y=100 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard_2"
+		}
+		
+		instantTextBoxType = {
+			name = "transports_value"
+			position = { x=913 y=576 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=0 }
+			text = "xx"	
+			maxWidth = 118
+			maxHeight = 32
+			format = right
+		}
+		#######################
+		### Production info ###
+		#######################
+		windowType = {
+			name = "production_info_part"
+			position = { x=649 y=141 }	
+			size = { x=100 y=300 }
+			moveable = 0
+			fullScreen = no
+			# Population #
+			#iconType = {
+			#	name = "prod_info_pop"
+			#	position = { x=18 y=5 }
+			#	spriteType = "GFX_prod_population"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_pop_value"
+				position = { x=130 y=287 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+			# Manpower #
+			#iconType = {
+			#	name = "prod_info_manpower"
+			#	position = { x=18 y=58 }
+			#	spriteType = "GFX_icon_prod_manpower"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_manpower_value"
+				position = { x=130 y=315 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+			# Land divisions #
+			#iconType = {
+			#	name = "prod_info_land"
+			#	position = { x=17 y=117 }
+			#	spriteType = "GFX_icon_prod_land"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_land_value"
+				position = { x = 130 y = 343 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+			# Naval divisions #
+			#iconType = {
+			#	name = "prod_info_naval"
+			#	position = { x=15 y=174 }
+			#	spriteType = "GFX_icon_prod_naval"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_naval_value"
+				position = { x=130 y=399 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+			# Air divisions
+			#iconType = {
+			#	name = "prod_info_air"
+			#	position = { x=16 y=227 }
+			#	spriteType = "GFX_icon_prod_air"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_air_value"
+				position = { x=130 y=371 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+			# ICBM's #
+			#iconType = {
+			#	name = "prod_info_nuke"
+			#	position = { x=15 y=295 }
+			#	spriteType = "GFX_icon_prod_nuke"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_nuke_value"
+				position = { x=327 y=315 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+			# SLBM's
+			#iconType = {
+			#	name = "prod_info_nuke_sub"
+			#	position = { x=15 y=352 }
+			#	spriteType = "GFX_icon_prod_nuke_sub"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_nuke_sub_value"
+				position = { x=327 y=343 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+			# Strategic bombers
+			#iconType = {
+			#	name = "prod_info_nuke_air"
+			#	position = { x=15 y=407 }
+			#	spriteType = "GFX_icon_prod_nuke_air"
+			#}
+			instantTextBoxType = {
+				name = "prod_info_nuke_air_value"
+				position = { x=327 y=371 }
+				font = "Jockey_14_yellow"
+				format = right
+				maxWidth = 65
+				maxHeight = 17
+			}
+		}
+	}
+	####################################
+	# Checkbox'n list units deployment #
+	####################################
+	windowType = {
+		name = "deploy_units_categories"
+		backGround = ""
+		size = { x=400 y=41 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+		checkboxType = {
+			name = "deploy_all"
+			position = { x=-62 y=-7 }
+			quadTextureSprite ="GFX_deploy_icon_all"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType = {
+			name = "deploy_all_label"
+			position = { x=-90 y=-3}
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=4 }
+			text = "DEP_POOL_FILTER_ALL"
+			maxWidth = 120
+			maxHeight = 24
+			format = centre
+		}
+
+		checkboxType = {
+			name = "deploy_land"
+			position = { x=0 y=-7 }
+			quadTextureSprite ="GFX_deploy_icon_rest"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		instantTextBoxType = {
+			name = "deploy_land_label"
+			position = { x=-19 y=-3}
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=4 }
+			text = DEP_POOL_FILTER_LAND
+			maxWidth = 120
+			maxHeight = 24
+			format = centre
+		}
+
+		checkboxType = {
+			name = "deploy_air"
+			position = { x=78 y=-7 }
+			quadTextureSprite ="GFX_deploy_icon_rest"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType = {
+			name = "deploy_air_label"
+			position = { x=60 y=-3}
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=4 }
+			text = DEP_POOL_FILTER_AIR
+			maxWidth = 120
+			maxHeight = 24
+			format = centre
+		}
+
+		checkboxType = {
+			name = "deploy_naval"
+			position = { x = 156 y=-7 }
+			quadTextureSprite ="GFX_deploy_icon_rest"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType = {
+			name = "deploy_naval_label"
+			position = { x=140 y=-3}
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=4 }
+			text = DEP_POOL_FILTER_NAVAL
+			maxWidth = 120
+			maxHeight = 24
+			format = centre
+		}
+		checkboxType = {
+			name = "deploy_home"
+			position = { x = 234 y=-7 }
+			quadTextureSprite ="GFX_deploy_icon_rest"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType = {
+			name = "deploy_home_label"
+			position = { x=215 y=-3}
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=4 }
+			text = DEP_POOL_FILTER_BUILDINGS
+			maxWidth = 120
+			maxHeight = 24
+			format = centre
+		}
+	}
+	########################
+	### Production Queue ### V
+	########################
+	windowType = {
+		name = "queue_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=478 y=37 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "production_queue_naval"
+			position = { x=0 y=0 }
+			quadTextureSprite = "GFX_production_queue_naval"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "production_queue_division"
+			position = { x=0 y=0 }
+			quadTextureSprite = "GFX_production_queue_division"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "production_queue_air"
+			position = { x=0 y=0 }
+			quadTextureSprite = "GFX_production_queue_air"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "production_queue_buildings"
+			position = { x=0 y=0 }
+			quadTextureSprite = "GFX_production_queue_buildings"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x=-3 y=-6 }
+		}
+		
+		instantTextBoxType = {
+			position = { x=54 y=11 }
+			name = "unit_name"
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=2 }
+			text = ""	
+			maxWidth = 170
+			maxHeight = 10
+			fixedsize = yes
+		}
+		
+		guiButtonType = {
+			name ="serial_remove"
+			quadTextureSprite = "GFX_serial_decrease"
+			position = { x=224 y=8 }
+		}
+
+		instantTextBoxType = {
+			name = "serial_txt"
+			position = { x=230 y=14 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = { x=4 y=0 }
+			text = "0/0"	
+			maxWidth = 41
+			maxHeight = 32
+			format = centre
+		}
+
+		guiButtonType = {
+			name ="serial_add"
+			quadTextureSprite = "GFX_serial_increase"
+			position = { x=268 y=8 }
+		}
+		
+		iconType = {
+			name ="prodqueue_progress"
+			spriteType = "prodqueue_progress_green"
+			position = { x=287 y=8 }
+		}
+		
+		iconType = {
+			name ="prodqueue_progress_red"
+			spriteType = "prodqueue_progress_red"
+			position = { x=287 y=8 }
+		}
+		
+		iconType = {
+			name ="prodqueue_progress_orange"
+			spriteType = "prodqueue_progress_orange"
+			position = { x=287 y=8 }
+		}
+		
+		guiButtonType = {
+			name = "max_non_prio"
+			position = { x=284 y=13 }
+			quadTextureSprite ="GFX_production_sortbutton_bottom"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		
+		guiButtonType = {
+			name = "non_prio"
+			position = { x=302 y=13 }
+			quadTextureSprite ="GFX_production_sortbutton_down"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		
+		guiButtonType = {
+			name = "prio"
+			position = { x=320 y=13 }
+			quadTextureSprite ="GFX_production_sortbutton_up"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}	
+		
+		guiButtonType = {
+			name = "max_prio"
+			position = { x=338 y=13 }
+			quadTextureSprite ="GFX_production_sortbutton_top"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		
+		guiButtonType = {
+			name = "upgrade_unit"
+			position = { x=356 y=13 }
+			quadTextureSprite = "GFX_serial_upgrade"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+
+		instantTextBoxType = {
+			name = "production_speed"
+			position = { x = 435 y = 18 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 0}
+			text = "production_speed"	
+			maxWidth = 130
+			maxHeight = 32
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "ic_cost"
+			position = { x=350 y=18 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = { x=4 y=0 }
+			text = "ic_cost"	
+			maxWidth = 80
+			maxHeight = 32
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "eta_date"
+			position = { x = 466 y = 18 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 4 y = 0}
+			text = "production_eta"	
+			maxWidth = 130
+			maxHeight = 32
+		}
+		
+		guiButtonType = {
+			name = "cancel"
+			position = { x=539 y=8}
+			quadTextureSprite ="GFX_production_cancel_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		
+		instantTextBoxType = {				# ??
+			position = { x=300 y=20 }
+			name = "unit_target"
+			font = "Arial12_alpha"
+			borderSize = { x=4 y=2 }
+			text = ""	
+			maxWidth = 170
+			maxHeight = 10
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "move_to_pool"			# ??
+			position = { x=424 y=1 }
+			quadTextureSprite ="GFX_button_reset"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+	}
+#################################################################################
+# AI need
+#################################################################################
+################## IN USE IN THE LANDPRODUCTION WINDOW ##########################
+windowType = {																#
+		name = "theatre_need_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=273 y=52 }
+		moveable = 0
+		fullScreen = no
+
+		iconType = {
+			name ="theatre_need_entry"
+			spriteType = "GFX_theatre_div_need_entry"
+			position = { x=0 y=0 }
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x=4 y=11 }
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=0 }
+			text = "name of theathre"	
+			maxWidth = 105
+			maxHeight = 32	
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			position = { x=182 y=13 }
+			name = "needs"
+			text = "NO_NEEDS_FOR_BUILDS"
+			font = "Arial12"
+			maxWidth = 150
+			maxHeight = 50
+		}
+	}																					#
+################## IN USE IN THE LANDPRODUCTION WINDOW ##########################
+	# AI need #
+	windowType = {
+		name = "ai_need_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=553 y=52 }
+		moveable = 0
+		fullScreen = no
+
+		iconType = {
+			name ="theatre_need_entry"
+			spriteType = "GFX_theatre_need_entry"
+			position = { x=5 y =-2 }
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x=10 y=9 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=0 }
+			text = "name of theathre"	
+			maxWidth = 400
+			maxHeight = 32	
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "needs"
+			position = { x=190 y=20 }
+			font = "Arial12"
+			borderSize = { x=4 y=0 }
+			text = "NO_NEEDS_FOR_BUILDS"	
+			maxWidth = 400
+			maxHeight = 16	
+			fixedsize = yes
+		}		
+		
+		guiButtonType = {
+			name = "build"
+			position = { x=524 y=12 }
+			quadTextureSprite ="GFX_theater_build"
+			buttonFont = "Arial12"
+		}		
+	}
+	####################
+	### Convoy Queue ###
+	####################
+	windowType = {
+		name = "convoy_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=480 y= 25 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "select"
+			position = { x=0 y =0 }
+			quadTextureSprite ="GFX_escort_select"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}	
+
+		instantTextBoxType = {
+			name = "convoy_name"
+			position = { x = -1 y = 7}
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 0}
+			text = "convoy_name"	
+			maxWidth = 203
+			maxHeight = 32
+		}
+		
+		instantTextBoxType = {
+			name = "supply_number"
+			position = { x=90 y=7 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=4 y=0 }
+			text = "1234"	
+			maxWidth = 130
+			maxHeight = 32
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "fuel_number"
+			position = { x=163 y=7 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=4 y=0 }
+			text = "1234"	
+			maxWidth = 130
+			maxHeight = 32
+			format = right
+		}				
+		
+		instantTextBoxType = {
+			name = "num_convoys"
+			position = { x=249 y=7 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=4 y=0 }
+			text = "123"	
+			maxWidth = 130
+			maxHeight = 32
+			format = centre
+		}
+	}
+	########################
+	# Unit deployment list #
+	########################
+	windowType = {
+		name = "deployment_item"
+		position = { x=0 y=0 }
+		size = { x=553 y=28 }
+		moveable = 0
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "background"
+			position = { x=0 y=0 }
+			quadTextureSprite ="deployment_plate_land"
+		}		
+		
+		iconType = {
+			name ="unit_counter"
+			spriteType = "GFX_model_small"
+			position = { x=-9 y=-7 }
+		}
+
+		iconType = {
+			name ="deployment_equipment_bar"
+			spriteType = "GFX_production_equipment_bar"
+			position = { x=50 y=5 }
+		}
+		
+		instantTextBoxType = {
+			name = "unit_name"
+			position = { x=68 y=11 }
+			font = "Jockey_14_cyan"
+			format= left
+			maxWidth = 270
+			maxHeight = 25
+			fixedsize = yes
+		}
+	}
+	
+	windowType = {
+		name = "production_info_item"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=80 y= 54 }
+		moveable = 0
+		fullScreen = no	
+
+		iconType = {
+			name ="info_part_icon"
+			spriteType = "GFX_bar_icon_province"
+			position = { x= 15 y = 0 }
+		}
+
+		instantTextBoxType = {
+			name = "info_part_text"
+			position = { x = 8 y = 34 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 0}
+			format=right
+			text = "NBRP"	
+			maxWidth = 50
+			maxHeight = 17
+		}
+	}
+}

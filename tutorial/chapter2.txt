@@ -1,0 +1,497 @@
+tutorial = {
+	index = 2
+	category = 1
+	title = "TUT_BAS_CHAPTER02_TITLE"
+	desc = "TUT_BAS_CHAPTER02_DESC"
+	buttonText = "TUT_BAS_CHAPTER02_BUTTON"
+	country = SOV
+	window = "hints_window"	# default window
+	moveable = yes
+	save_game = "tutorial_chapter1.hoi3"
+	
+	page = {
+		index = 1
+		title = "TUT_BAS_CHAPTER02_PAGE01_TITLE" # Select the Army
+		text = "TUT_BAS_CHAPTER02_PAGE01_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE01_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+				
+		effect = { # This page's effects on the world
+			5562 = {create_revolt = 1}
+			close_window = "all"
+#			keep_window_closed = yes
+			mapmode = political
+			goto = 5562 # Wismar
+			zoom = 90
+			pauseable = yes
+			pause = yes
+			allow_select_army = yes
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no		
+			ai = no
+			
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			select_army = "96th Division"
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}	
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 2
+		title = "TUT_BAS_CHAPTER02_PAGE02_TITLE" # Move the Army
+		text = "TUT_BAS_CHAPTER02_PAGE02_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE02_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects on the world
+			zoom = 90
+			pauseable = yes
+			pause = yes
+			speed = 4
+			allow_select_army = yes
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no		
+			ai = no
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			7295 = { # Leningrad
+				units_in_province = 2
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+
+	page = {
+		index = 3
+		title = "TUT_BAS_CHAPTER02_PAGE03_TITLE" # Load the unit into ships
+		text = "TUT_BAS_CHAPTER02_PAGE03_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE03_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+				
+		effect = { # This page's effects on the world
+#			close_window = "all"
+#			keep_window_closed = yes
+			mapmode = political
+			goto = 7295 # Leningrad
+			zoom = 90
+			pauseable = yes
+			pause = yes
+			speed = 1			
+			allow_select_army = yes
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no		
+			ai = no
+		}
+		
+		trigger = {
+			attached_army = "96th Division"
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = 295
+				y = 365
+			}
+		}
+#		connected_icons = { dummy-ul unitpanel attach_to_transport }
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+		
+	}
+		page = {
+		index = 4
+		title = "TUT_BAS_CHAPTER02_PAGE04_TITLE" # Select the fleet and move it
+		text = "TUT_BAS_CHAPTER02_PAGE04_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE04_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects on the world
+			close_window = "all"
+#			keep_window_closed = yes
+			mapmode = political
+			goto = 7295 # Leningrad
+			zoom = 90
+			pauseable = yes
+			pause = yes			
+			allow_select_army = yes
+			allow_select_navy = yes
+			allow_select_air = no
+			allow_select_province = no		
+			ai = no
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled			
+			select_navy = "Baltic Fleet"
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}		
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+
+	page = {
+		index = 5
+		title = "TUT_BAS_CHAPTER02_PAGE05_TITLE" # Select the fleet and move it
+		text = "TUT_BAS_CHAPTER02_PAGE05_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE05_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects on the world
+			goto = 7295 # Leningrad
+			close_window = "all"
+#			keep_window_closed = yes
+			allow_select_army = yes
+			allow_select_navy = yes
+			allow_select_air = no			
+			ai = no
+			pauseable = yes
+			pause = yes
+			allow_select_province = no
+			select_navy = "Baltic Fleet"
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			16970 = { # Bornholmsgat
+				units_in_province = 2
+			}
+			embarked = "96th Division"
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+
+	page = {
+		index = 6
+		title = "TUT_BAS_CHAPTER02_PAGE06_TITLE" # Battle order
+		text = "TUT_BAS_CHAPTER02_PAGE06_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE06_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+				
+		effect = { # This page's effects on the world
+			goto = 5633 # Rostock
+			close_window = "all"
+#			keep_window_closed = yes
+			speed = 4
+			allow_select_army = yes
+			allow_select_navy = no
+			allow_select_air = no
+			allow_select_province = no
+			ai = no
+		}
+		
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			5562 = { # Wismar
+				controlled_by = SOV
+			}
+			5563 = { # Schwerin
+				controlled_by = SOV 
+			}
+			5634 = { # Neubrandenburg
+				controlled_by = SOV 
+			}
+			5633 = { # Rostock
+				controlled_by = SOV 
+			}
+			5715 = { # Anklam
+				controlled_by = SOV 
+			}			
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 7
+		title = "TUT_BAS_CHAPTER02_PAGE07_TITLE" # Rebase Aircraft
+		text = "TUT_BAS_CHAPTER02_PAGE07_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE07_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects on the world
+			goto = 6779 # Parnu
+			close_window = "all"
+#			keep_window_closed = yes
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = yes			
+			pauseable = yes
+			pause = yes
+			ai = no
+		}
+
+		trigger = { # Conditions that will take you to the next page if fulfilled
+			5636 = { # Dresden
+				units_in_province = 4
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 8
+		title = "TUT_BAS_CHAPTER02_PAGE08_TITLE" # End of Chapter
+		text = "TUT_BAS_CHAPTER02_PAGE08_TEXT"
+		object = "TUT_BAS_CHAPTER02_PAGE08_OBJECTIVES"
+		disabled_gui_object = { topbar_menubutton}
+		disabled_gui_object = { topbarbutton_statistics }
+		disabled_gui_object = { topbarbutton_economy }
+		disabled_gui_object = { topbarbutton_prod }		
+		disabled_gui_object = { topbarbutton_tech }		
+		disabled_gui_object = { topbarbutton_politics }
+		disabled_gui_object = { topbarbutton_diplo }
+		disabled_gui_object = { topbarbutton_intelligence }	
+		disabled_gui_object = { menubar_mission }
+		disabled_gui_object = { menubar_nuke }	
+		disabled_gui_object = { menubar_spy }
+		disabled_gui_object = { menubar_goals_button }
+		disabled_gui_object = { menubar_modifiers_button }	
+		
+		effect = { # This page's effects on the world
+			close_window = "all"
+#			keep_window_closed = yes
+			allow_select_army = no
+			allow_select_navy = no
+			allow_select_air = no		
+			pauseable = yes
+			pause = yes
+			ai = no
+		}
+		
+
+#		trigger = { #prevent tutorial from automatically skipping to next page
+#			ai = yes
+#		}
+
+		option = {
+			button = "TutorialPageButtonBackOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 24
+				y = 320
+			}
+		}
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 225
+				y = 320
+			}
+		}		
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}	
+}

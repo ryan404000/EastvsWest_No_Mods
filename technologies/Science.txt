@@ -1,0 +1,740 @@
+# List of all Basic Science techs
+	#industry_modern_science		( 1 level )
+	#industry_mathematics 			(10 levels)
+	#industry_physics				(10 levels)
+	#industry_electronics			(10 levels)
+	#industry_chemistry				(10 levels)
+	#industry_biology				(10 levels)
+	#industry_medicine				(10 levels)
+	#industry_hightech_computers	(10 levels)
+	#industry_softwareengineering	(10 levels)
+	#industry_sociology				(10 levels)
+	#industry_psychology			(10 levels)
+	#industry_poliec				(10 levels)
+
+
+################
+#Basic sciences#
+################
+industry_modern_science = {
+	folder = general_tech2_folder
+	allow = {}
+	traits = {}
+	time = 730
+	cost = 50 #cheap
+	activate_building = university
+}
+
+industry_mathematics = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_modern_science = 1 }
+		2 = {}
+		3 = {}
+		4 = { industry_hightech_computers = 1 }
+		5 = { industry_hightech_computers = 2 }
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		2 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		3 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		4 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		5 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		6 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		7 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		8 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		9 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		10 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 50 #cheap
+}
+
+industry_physics = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { 
+			industry_modern_science = 1 
+		}
+		2 = {}
+		3 = { 
+			industry_mathematics = 1
+		}
+		4 = { 
+			industry_mathematics = 2 
+		}
+		5 = { 
+			industry_mathematics = 3 
+		}
+		6 = { 
+			industry_mathematics = 4 
+		}
+		7 = { 
+			industry_mathematics = 5 
+		}
+		8 = { 
+			industry_mathematics = 6 
+		}
+		9 = { 
+			industry_mathematics = 7 
+			industry_hightech_computers = 2
+		}
+		10 = { industry_mathematics = 8 
+			industry_hightech_computers = 3
+			}
+	}
+	traits = {
+		science_theory		
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		2 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		3 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		4 = {	# Inc prestige 
+			prestige_gain = 10
+		} 
+		5 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		6 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		7 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		8 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		9 = {	# Inc prestige 
+			prestige_gain = 10
+		} 
+		10 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 150 #moderate
+}
+
+industry_electronics = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_modern_science = 1 }
+		2 = { industry_physics = 1 }
+		3 = { industry_physics = 2 }
+		4 = { industry_physics = 3 }
+		5 = { industry_physics = 4 }
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		science_theory		
+	}
+	level_effect = {
+		1 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		2 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		3 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		4 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		5 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		6 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		7 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		8 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		9 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		10 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 100 #moderate
+}
+
+industry_chemistry = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_modern_science = 1 }
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = { industry_physics = 1 }
+		8 = { industry_physics = 2 }
+		9 = { industry_physics = 3 }
+		10 = { industry_physics = 4 }
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		2 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		3 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		4 = {	# Inc prestige 
+			prestige_gain = 10
+		} 
+		5 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		6 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		7 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		8 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+		9 = {	# Inc prestige 
+			prestige_gain = 10
+		} 
+		10 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 150 #moderate
+}
+
+industry_biology = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_modern_science = 1 }
+		2 = {}
+		3 = { industry_chemistry = 1 }
+		4 = {}
+		5 = { industry_chemistry = 2 }
+		6 = {}
+		7 = { industry_chemistry = 3 }
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		2 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		3 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		4 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		5 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		6 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		7 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		8 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		9 = {	# Inc prestige 
+			prestige_gain = 10
+		} 
+		10 = {	# Inc prestige 
+			prestige_gain = 10
+		}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 100 #moderate
+}
+
+industry_medicine = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { 
+			industry_modern_science = 1
+		}
+		2 = { 
+			industry_biology = 1
+			industry_chemistry = 1 
+		}
+		3 = { 
+			industry_biology = 2
+		    industry_chemistry = 2
+		}
+		4 = { 
+			industry_biology = 3
+			industry_chemistry = 3
+		}
+		5 = {
+			industry_biology = 4
+			industry_chemistry = 4
+		}
+		6 = { 
+			industry_biology = 5
+			industry_chemistry = 5
+		}
+		7 = { 
+			industry_biology = 6
+			industry_chemistry = 6
+		}
+		8 = { 
+			industry_biology = 7
+		}
+		9 = { 
+			industry_biology = 8
+		}
+		10 = { 
+			industry_biology = 9
+		}
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc DVI
+			# dec mortality
+			modifier = { 
+				PEACETIME_MANPOWER_ROTATION = -0.01 
+			}
+		}
+		2 = {	# Inc DVI
+			# dec mortality
+			modifier = { 
+				PEACETIME_MANPOWER_ROTATION = -0.01 
+			}
+		}
+		3 = {	# Inc DVI
+			# dec mortality
+			modifier = { 
+				PEACETIME_MANPOWER_ROTATION = -0.01 
+			}
+		}
+		4 = {	# Inc DVI
+			# dec mortality
+			modifier = { 
+				PEACETIME_MANPOWER_ROTATION = -0.01 
+			}
+		}
+		5 = {	# Inc DVI
+          # dec mortality
+			modifier = { 
+				PEACETIME_MANPOWER_ROTATION = -0.01 
+			}
+		}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+
+	folder = general_tech2_folder
+	time = 950
+	cost = 300 #expensive
+}
+
+industry_hightech_computers = {
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { 
+			industry_modern_science = 1
+		}
+		2 = { 
+			industry_electronics = 1
+		    }
+		3 = {
+			industry_electronics = 2
+			industry_softwareengineering = 1
+		}
+		4 = { 
+			industry_electronics = 3 
+			industry_softwareengineering = 2
+		}
+		5 = { 
+			industry_electronics = 4 
+		}
+		6 = { 
+			industry_softwareengineering = 3
+		}
+		7 = { 
+			industry_electronics = 5
+			industry_softwareengineering = 4
+		}
+		8 = {}
+		9 = { 
+			industry_electronics = 6
+		}
+		10 = {}
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		2 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		3 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		4 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		5 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		6 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		7 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		8 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		9 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		10 = {	# Inc prestige
+			prestige_gain = 10
+		}
+	}
+
+	folder = general_tech2_folder
+	time = 350
+	cost = 100 #cheap
+}
+
+industry_softwareengineering = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { 
+			industry_modern_science = 1
+		}
+		2 = { 
+			industry_mathematics = 1
+			industry_hightech_computers = 1
+		}
+		3 = { 
+			industry_mathematics = 2
+			industry_hightech_computers = 2
+		}
+		4 = { 
+			industry_mathematics = 3
+			industry_hightech_computers = 3
+		}
+		5 = { 
+			industry_mathematics = 4
+			industry_hightech_computers = 4
+		}
+		6 = { 
+			industry_hightech_computers = 5
+		}
+		7 = { 
+			industry_hightech_computers = 6
+		}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		2 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		3 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		4 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		5 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		6 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		7 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		8 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		9 = {	# Inc prestige
+			prestige_gain = 10
+		}
+		10 = {	# Inc prestige
+			prestige_gain = 10
+		}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 100 #cheap
+}
+
+industry_sociology = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_modern_science = 1 }
+		2 = {  }
+		3 = {  }
+		4 = {  }
+		5 = {  }
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+		
+	}
+	traits = {
+		science_theory
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		2 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		3 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		4 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		5 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		6 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		7 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		8 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		9 = {}
+		10 = {}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 100 #cheap
+}
+
+industry_psychology = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_modern_science = 1 }
+		2 = {  }
+		3 = {  }
+		4 = {  }
+		5 = {  }
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		2 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		3 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		4 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		5 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		6 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		7 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		8 = {	# Inc prestige
+			prestige_gain = 5
+		}
+		9 = {}
+		10 = {}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 100 #cheap
+}
+
+industry_poliec = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_modern_science = 1 }
+		2 = { }
+		3 = { }
+		4 = { }
+		5 = { }
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+		
+	}
+	traits = {
+		science_theory	
+	}
+	level_effect = {
+		1 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		2 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		3 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		4 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		5 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		6 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		7 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		8 = {	# Inc prestige
+				prestige_gain = 5
+		    }
+		9 = {}
+		10 = {}
+	}
+
+	folder = general_tech2_folder
+	time = 1800
+	cost = 100 #cheap
+}

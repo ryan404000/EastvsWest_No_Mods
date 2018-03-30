@@ -1,0 +1,11 @@
+name = "Indo-Pakistani war of 1947-1948"
+
+1947.10.22 = {
+	add_attacker = PAK
+	add_defender = IND
+}
+
+1948.12.31 = {
+	rem_attacker = PAK
+	rem_defender = IND
+}

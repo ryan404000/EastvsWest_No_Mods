@@ -1,0 +1,110 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_vc_bar_blue"
+		texturefile = "gfx\\interface\\victory\\bar_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_bar_red"
+		texturefile = "gfx\\interface\\victory\\bar_red.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_bar_overlay"
+		texturefile = "gfx\\interface\\victory\\bar_overlay.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_bg"
+		texturefile = "gfx\\interface\\victory\\bg.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_btn_nato"
+		texturefile = "gfx\\interface\\victory\\btn_nato.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_btn_unaligned"
+		texturefile = "gfx\\interface\\victory\\btn_unaligned.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_btn_wp"
+		texturefile = "gfx\\interface\\victory\\btn_wp.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_air_units"
+		texturefile = "gfx\\interface\\victory\\icon_air_units.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_army_points"
+		texturefile = "gfx\\interface\\victory\\icon_army_points.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_diplomacy_points"
+		texturefile = "gfx\\interface\\victory\\icon_diplomacy_points.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_economy_points"
+		texturefile = "gfx\\interface\\victory\\icon_economy_points.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_folder"
+		texturefile = "gfx\\interface\\victory\\icon_folder.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_land_units"
+		texturefile = "gfx\\interface\\victory\\icon_land_units.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_naval_units"
+		texturefile = "gfx\\interface\\victory\\icon_naval_units.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_nukes"
+		texturefile = "gfx\\interface\\victory\\icon_nukes.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_pop"
+		texturefile = "gfx\\interface\\victory\\icon_pop.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_icon_provinces"
+		texturefile = "gfx\\interface\\victory\\icon_provinces.dds"
+	}
+	spriteType = {
+		name = "GFX_vc_shield_big_overlay"
+		texturefile = "gfx\\interface\\victory\\shield_big_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_vclobby_entry_bg"
+		texturefile = "gfx\\interface\\SemperFi\\vclobby_entry_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_victorycondition_entry_bg"
+		texturefile = "gfx\\interface\\SemperFi\\victorycondition_entry_bg.tga"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_vclobby_bg"
+		texturefile = "gfx\\interface\\SemperFi\\vclobby_bg.dds"
+	}
+	
+	progressbartype = {
+		name = "vc_com_progress"
+		textureFile1 = "gfx\\interface\\victory\\bar_red.tga"
+		size = { x = -486 y = 31 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	progressbartype = {
+		name = "vc_allies_progress"
+		textureFile1 = "gfx\\interface\\victory\\bar_blue.tga"
+		size = { x = 486 y = 31 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_vc_shield"
+		textureFile1 = "gfx\\interface\\victory\\shield_big_overlay.dds"
+		textureFile2 = "gfx\\interface\\victory\\shield_big.tga"
+		effectFile = "gfx\\FX\\maskedflag.fx"
+	}
+}

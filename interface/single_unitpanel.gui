@@ -1,0 +1,1145 @@
+guiTypes = {
+	windowType = {
+		name = "single_unitpanel"
+		position = { x=0 y=0 }	
+		size = { x=1024 y=768 }
+		moveable = 0
+		fullScreen = no	
+		
+		listboxType = 	{
+			name ="list"
+			position = { x = 13 y = 138 }
+			size = { x=430  y =650}
+			Orientation = "UPPER_LEFT"
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		guiButtonType = {
+			name = "oob_button"
+			position = { x=-6 y=160}
+			quadTextureSprite ="GFX_open_oob_button"	
+			buttonFont = "Arial12_bold_black"
+			shortcut = "o"
+		}
+		
+		##############################################
+		# Select upgrade window
+		##############################################
+		windowType = {
+			name = "select_upgrade_window"
+			position = { x=254 y=138 }	
+			size = { x=254 y=240 }
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			listboxType = 	{
+				name ="list"
+				position = { x = 0 y = 0 }
+				size = { x=254  y =240}
+				Orientation = "UPPER_LEFT"
+				spacing = 0
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+	}	
+	
+	##############################################
+	# Stance Changes Window
+	##############################################
+	windowType = {
+		name = "sup_stance_change_window"
+		position = { x=0 y=0 }	
+		size = { x=254 y=160 }
+		moveable = 0
+		fullScreen = no
+		
+		listboxType = 	{
+			name ="list"
+			position = { x = 0 y = 0 }
+			size = { x=374  y =300}
+			Orientation = "UPPER_LEFT"
+			scrollbartype = "scrollbar_vertical_standard"
+		}
+	}	
+	
+	##############################################
+	# Unit status
+	##############################################
+	windowType = {
+		name = "sup_unit_status"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=400 y=392 }
+		moveable = 0
+		fullScreen = no	
+		
+		iconType =
+		{
+			name ="status_bg"
+			spriteType = "GFX_unitpanel_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "unit_location_button"
+			position = { x = 5 y = -1 }
+			quadTextureSprite ="GFX_goto_location_button"
+			shortcut = "w"
+		}
+
+		textBoxType = {
+			name = "unitlocation"
+			position = { x = 10 y = 0 }
+			font = "Arial12"
+			maxWidth = 140
+			maxHeight = 16
+			fixedsize = yes	
+			format = left
+		}		
+
+		textBoxType = {
+			name = "unitattrition"
+			position = { x = 160  y = -1 }
+			font = "Arial12"
+			maxWidth = 100
+			maxHeight = 17	
+			format = left
+		}
+		
+		textBoxType = {
+			name = "unitbase"
+			position = { x = 120  y = 14 }
+			font = "Arial12"
+			text = "SUPPLIED_FROM"	
+			maxWidth = 200
+			maxHeight = 16	
+			format = left
+		}
+			
+		textBoxType = {
+			name = "speed"
+			position = { x = 230 y = -1 }
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 80
+			maxHeight = 16
+			fixedsize = yes	
+			format = right
+		}	
+
+
+		iconType =
+		{
+			name ="icon_supplies_small"
+			spriteType = "GFX_unit_supplies_icon"
+			position = { x= 1 y = 13}
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		iconType =
+		{
+			name ="supply_status"
+			spriteType = "supply_progress"
+			position = { x= 23 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="icon_fuel_small"
+			spriteType = "GFX_unit_fuel_icon"
+			position = { x= 65 y = 13}
+			Orientation = "UPPER_LEFT"
+			
+		}
+		
+		iconType =
+		{
+			name ="fuel_status"
+			spriteType = "fuel_progress"
+			position = { x= 80 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="unit_cw_strip"
+			spriteType = "GFX_unit_cw_strip"
+			position = { x= 5 y = 28 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+		iconType =
+		{
+			name ="bg_weight"
+			spriteType = "GFX_bg_weight"
+			position = { x= 52 y = 28 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "unit_weight"
+			position = { x = 30 y = 30 }
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = "65"	
+			maxWidth = 70
+			maxHeight = 16	
+			format = centre
+		}
+			
+		iconType =
+		{
+			name ="unitstatus_combinedarms"
+			spriteType = "GFX_unitstatus_combinedarms"
+			position = { x= 110 y = 24 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="unitstatus_moving"
+			spriteType = "GFX_unitstatus_moving"
+			position = { x= 140 y = 24 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="unitstatus_delay"
+			spriteType = "GFX_unitstatus_delay"
+			position = { x= 170 y = 23 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+#		iconType =
+#		{
+#			name ="unitstatus_nuke"
+#			spriteType = "GFX_unitstatus_nuke"
+#			position = { x= 200 y = 23 }
+#			Orientation = "UPPER_LEFT"
+#		}
+		
+		iconType =
+		{
+			name ="unitstatus_dugin"
+			spriteType = "GFX_unitstatus_dugin"
+			position = { x= 230 y = 23 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name = "unit_low_equip_strength"
+			spriteType = "GFX_unitstatus_lowequip"
+			position = { x = 206 y = 23 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="unitstatus_distance"
+			spriteType = "GFX_unitstatus_range"
+			position = { x= 260 y = 27 }
+			Orientation = "UPPER_LEFT"
+		}			
+
+	}
+	
+	##############################################
+	# Unit Stance
+	##############################################
+	windowType = {
+		name = "sup_unit_stance"
+		position = { x=0 y=0 }
+		size = { x=374 y=22 }
+		moveable = 0
+		fullScreen = no
+
+#		iconType =
+#		{
+#			name ="stance_bg"
+#			spriteType = "GFX_uv_objective_btn"
+#			position = { x= 0 y = 0 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
+		guiButtonType = 
+		{
+			name ="stance"
+			quadTextureSprite ="GFX_uv_objective_btn"	
+			position = { x= 0 y = -1 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "Arial12_bold"
+			shortcut = "s"
+		}
+		
+	}	
+
+
+	##############################################
+	# Stance Change Entry
+	##############################################
+	windowType = {
+		name = "sup_stance_change"
+		position = { x=0 y=0 }	
+		size = { x=374 y=22 }
+		moveable = 0
+		fullScreen = no		
+
+		guiButtonType = 
+		{
+			name ="stance"
+			quadTextureSprite ="GFX_uv_objective_darker_btn"	
+			position = { x= 0 y = -1 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "Arial12_bold"
+		}
+	}	
+	
+	
+
+
+	##############################################
+	# Desired Assets
+	##############################################
+	windowType = {
+		name = "sup_desired_assets"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=254 y=55 }
+		moveable = 0
+		fullScreen = no	
+		
+		iconType =
+		{
+			name ="assets_bg"
+			spriteType = "GFX_unit_bg_assets"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}	
+
+		textBoxType = {
+			name = "desired"
+			position = { x = 10 y = 1 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = "yyy"
+			format = centre
+			maxWidth = 305
+			maxHeight = 52	
+		}
+	}
+	
+
+	##############################################
+	# Power Ratios
+	##############################################
+	windowType = {
+		name = "sup_power_ratios"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=254 y=28 }
+		moveable = 0
+		fullScreen = no	
+		
+		iconType =
+		{
+			name ="power_bg"
+			spriteType = "GFX_unit_bg_power"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="our_power_value"
+			spriteType = "power_progress"
+			position = { x= 11 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType =
+		{
+			name ="enemy_power_value"
+			spriteType = "power_progress"
+			position = { x= 164 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "our_power_text"
+			position = { x = 4 y = 6 }
+			font = "Arial12_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "OUR_POWER"
+			format = centre			
+			maxWidth = 155
+			maxHeight = 32	
+		}
+		textBoxType = {
+			name = "enemy_power_text"
+			position = { x = 159 y = 6 }
+			font = "Arial12_bold_black"
+			borderSize = {x = 0 y = 0}
+			text = "ESTIMATED_POWER"	
+			format = centre
+			maxWidth = 155
+			maxHeight = 32	
+		}
+						
+	}
+	
+	
+	##############################################
+	# Odds Display
+	##############################################
+	windowType = {
+		name = "sup_odds"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=254 y=28 }
+		moveable = 0
+		fullScreen = no
+
+		iconType =
+		{
+			name ="power_bg"
+			spriteType = "GFX_unit_bg_28"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "odds"
+			position = { x = 8 y = 6 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = "We will not stand a chance."	
+			maxWidth = 305
+			maxHeight = 32	
+			format = centre
+		}
+	}
+
+	##############################################
+	# Sub Units
+	##############################################
+	windowType = {
+		name = "sup_subunits"
+		position = { x=0 y=0 }	
+		size = { x=397 y=27 }
+		moveable = 0
+		fullScreen = no
+
+		iconType =
+		{
+			name ="bg_label_plate"
+			spriteType = "GFX_bg_label_plate"
+			position = { x= -4 y = 20 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "header"
+			position = { x = 17 y = 33 }
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 193
+			maxHeight = 18	
+		}
+		
+		textBoxType = {
+			name = "extrainfo"
+			position = { x = 110 y = 34 }
+			font = "Arial12_bold"
+			maxWidth = 210
+			maxHeight = 18
+			format = left
+		}
+		
+		textBoxType = {
+			name = "positioning"
+			position = { x = 294 y = 34 }
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 65
+			maxHeight = 18	
+			format = right
+		}		
+
+		guiButtonType = {
+			name ="toggle_subunits"
+			quadTextureSprite = "GFX_oob_unit_tree"
+			position = { x= 360 y = 29 }
+		}
+		
+		listboxType = 	{
+			name ="subunits_list"
+			position = { x = 0 y = 57 }
+			size = { x=397  y =176}
+			Orientation = "UPPER_LEFT"
+			spacing = 0
+			scrollbartype = "scrollbar_vertical_standard"
+		}
+	}
+	
+	##################################################	
+	# Subunit entry for divisions / air units / naval units.
+	##################################################
+	windowType = {
+		name = "subunit_entry"
+		position = { x=0 y=0 }	
+		size = { x=387 y= 44 }
+		moveable = 0
+		fullScreen = no	
+
+		guiButtonType = 
+		{
+			name ="select"
+			quadTextureSprite ="GFX_brigade_band"	
+			position = { x= -1 y = -2 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= -3 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="counter_size"
+			spriteType = "GFX_counter_size"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+#		iconType = {
+#			name ="unit_pride_star"
+#			spriteType = "GFX_unit_stars"
+#			position = {  x= -2 y = 17 }
+#			Orientation = "UPPER_LEFT"
+#		}
+		
+		iconType =	{
+			name ="unit_cw_strip"
+			spriteType = "GFX_unit_cw_strip"
+			position = { x= 47 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		instantTextBoxType = {
+			name = "subunit_name"
+			position = { x = 76 y = 5 }
+			font = "Arial12_bold"	
+			borderSize = {x = 0 y = 0}
+			maxWidth = 130
+			maxHeight = 16
+			fixedsize = yes
+			allwaystransparent = yes
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "subunit_amount"
+			position = { x = 328 y = 5 }
+			font = "Arial12_bold"	
+			borderSize = {x = 0 y = 0}
+			maxWidth = 35
+			maxHeight = 16
+			format = right	
+			fixedsize = yes
+			allwaystransparent = yes
+			Orientation = "UPPER_LEFT"
+		}
+			
+		instantTextBoxType = {
+			name = "subunit_level"
+			position = { x = 73 y =25 }
+			format = centre
+			font = "Arial12_bold"	
+			borderSize = {x = 0 y = 0}
+			maxWidth = 24
+			maxHeight = 24	
+			fixedsize = yes
+			allwaystransparent = yes
+			Orientation = "UPPER_LEFT"
+		}			
+			
+
+		instantTextBoxType = {
+			name = "subunit_type"
+			position = { x = 106 y =25 }
+			format = left
+			font = "Arial12_bold"	
+			borderSize = {x = 0 y = 0}
+			maxWidth = 100
+			maxHeight = 24	
+			fixedsize = yes
+			allwaystransparent = yes
+			Orientation = "UPPER_LEFT"
+		}
+
+		icontype = {
+			name ="ammo_store1"
+			spriteType = "GFX_ammostore1_status"
+			position = { x= 212 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		icontype = {
+			name ="ammo_store2"
+			spriteType = "GFX_ammostore2_status"
+			position = { x= 238 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "may_nuke"
+			position = { x = 263 y = 9 }
+			spriteType = "GFX_unit_nuke_icon"
+		}
+
+		checkboxType = {
+			name = "nuke_option"
+			position = { x = 263 y = 9 }
+			quadTextureSprite ="GFX_nuke_option"	
+			buttonFont = "Arial12_bold_black"
+			shortcut = "n"
+		}
+			
+		guiButtonType = {
+			name = "upgrade_button"
+			position = { x=289 y=9}
+			quadTextureSprite ="GFX_upgrade_unit"	
+			buttonFont = "Arial12_bold_black"
+		}
+			
+		iconType =	{
+			name ="unit_pride_star"
+			spriteType = "GFX_unit_stars"
+			position = { x= 321 y = 24 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+		iconType =
+		{
+			name ="eqp_bar"
+			spriteType = "eqp_progressbar_small"
+			position = { x= 377 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		iconType =
+		{
+			name ="man_bar"
+			spriteType = "manpower_progressbar_small"
+			position = { x= 377 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		iconType =
+		{
+			name ="org_bar"
+			position = { x= 385 y = 31 }
+			spriteType = "org_progressbar_small"
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+
+		iconType =
+		{
+			name ="unitstatus_reserve"
+			spriteType = "GFX_unitstatus_reserve"
+			position = { x= 300 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+	}
+
+	##############################################
+	# children Units
+	##############################################
+	windowType = {
+		name = "sup_children"
+		position = { x=0 y=0 }	
+		size = { x=397 y=27 }
+		moveable = 0
+		fullScreen = no
+		
+		iconType = {
+			name = "sup_children_bg"
+			position = { x= -4 y = 25 }
+			spriteType = "GFX_bg_label_plate"
+		}
+		
+		guiButtonType = {
+			name = "select_all_childunits"
+			position = { x= -4 y = 25 }
+			quadTextureSprite ="GFX_bg_label_plate"
+		}
+
+		textBoxType = {
+			name = "header"
+			position = { x = 17 y = 38 }
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 193
+			maxHeight = 18	
+		}			
+		
+		textBoxType = {
+			name = "str"
+			position = { x = 294 y =39 }
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 65
+			maxHeight = 18	
+			format = right
+		}
+		
+		guiButtonType = {
+			name = "toggle_children"
+			position = { x= 360 y = 34 }
+			quadTextureSprite ="GFX_oob_unit_tree"
+		}
+		
+		listboxType = 	{
+			name ="children_list"
+			position = { x = 0 y = 62 }
+			size = { x=397  y =114}
+			Orientation = "UPPER_LEFT"
+			spacing = 0
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}
+	}
+
+
+	##############################################
+	# Loaded Units
+	##############################################
+	windowType = {
+		name = "sup_loaded"
+		position = { x=0 y=0 }	
+		size = { x=380 y=28 }
+		moveable = 0
+		fullScreen = no	
+		
+		iconType =
+		{
+			name ="bg_loadedunits"
+			spriteType = "GFX_unit_bg_loadedunits"
+			position = { x= -4 y = 26 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+			name = "header"
+			position = { x = 17 y = 41 }
+			font = "Jockey_14"
+			maxWidth = 199
+			format = left
+			maxHeight = 15	
+		}
+		
+		
+		
+		guiButtonType = 
+		{
+			name ="select_land"
+			quadTextureSprite ="GFX_view_loaded_land"	
+			position = { x= 310 y = 37 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "Arial12"
+			shortcut = "."
+		}	
+		
+		
+		
+		guiButtonType = 
+		{
+			name ="select_air"
+			quadTextureSprite ="GFX_view_loaded_air"	
+			position = { x= 336 y = 37 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "Arial12"
+			shortcut = ","
+		}	
+		
+		guiButtonType =
+		{
+			name = "toggle_loaded"
+			quadTextureSprite = "GFX_oob_unit_tree"
+			position = { x= 360 y = 35 }
+		}
+		
+		listboxType = 	{
+			name ="list"
+			position = { x = 0 y = 66 }
+			size = { x=380  y =192}
+			Orientation = "UPPER_LEFT"
+			scrollbartype = "scrollbar_vertical_standard"
+		}
+	}
+
+	##############################################
+	# Combat Entry
+	##############################################
+	windowType = {
+		name = "combat_entry"
+		position = { x=0 y=0 }	
+		size = { x=379 y=43 }
+		moveable = 0
+		fullScreen = no	
+		
+		guiButtonType = 
+		{
+			name ="select"
+			quadTextureSprite ="GFX_combat_select_button"	
+			position = { x= -4 y = -4 }
+			Orientation = "UPPER_LEFT"
+			buttonFont = "Arial14"
+		}
+		
+
+		textBoxType = {
+			name = "desc"
+			position = { x = 106 y = 9 }
+			font = "Jockey_14_cyan"
+			format = centre
+			maxWidth = 166
+			maxHeight = 20	
+		}
+		
+		iconType =
+		{
+			name ="attacker_flag"
+			spriteType = "GFX_topbarflag"
+			position = { x= 2 y = -4 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="defender_flag"
+			spriteType = "GFX_topbarflag"
+			position = { x= 278 y = -4 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		iconType =
+		{
+			name ="progress"
+			spriteType = "unit_combat_progressbar"
+			position = { x= 114 y = 32 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="progress_overlay"
+			spriteType = "GFX_unit_combat_progressbar_overlay"
+			position = { x= 112 y = 30 }
+			Orientation = "UPPER_LEFT"
+		}
+				
+	}	
+		
+		
+
+
+
+	##################################################	
+	# Subunit entry
+	##################################################
+	windowType = {
+		name = "childunit_entry"
+		position = { x=0 y=0 }	
+		size = { x=387 y= 44 }
+		moveable = 0
+		fullScreen = no	
+
+		guiButtonType = 
+		{
+			name ="select"
+			quadTextureSprite ="GFX_brigade_band"	
+			position = { x= -1 y = -2 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= -3 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="counter_size"
+			spriteType = "GFX_counter_size"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+#		iconType = {
+#			name ="unit_pride_star"
+#			spriteType = "GFX_unit_stars"
+#			position = {  x= -44 y = -2 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 76 y = 5 }
+			font = "Arial12_bold"	
+			borderSize = {x = 0 y = 0}
+			maxWidth = 195
+			maxHeight = 16
+			format = left	
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "str"
+			position = { x = 328 y = 5 }
+			font = "Arial12_bold"	
+			borderSize = {x = 0 y = 0}
+			maxWidth = 35
+			maxHeight = 16
+			format = right	
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "order"
+			position = { x = 73 y =25 }
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 195
+			maxHeight = 12
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		#instantTextBoxType = {
+		#	name = "objective"
+		#	position = { x = 170 y = 25 }
+		#	font = "Arial12"
+		#	borderSize = {x = 0 y = 0}
+		#	maxWidth = 120
+		#	maxHeight = 12
+		#	format = left	
+		#	Orientation = "UPPER_LEFT"
+		#}
+		
+		#listboxType = 	{
+		#	name ="subunit_status_list"
+		#	position = { x = 0 y = 33 }
+		#	backGround=""
+		#	size = { x=254  y =1200}
+		#	Orientation = "UPPER_LEFT"
+		#	spacing = 2
+			#scrollbartype = "scrollbar_vertical_standard"
+		#	borderSize = {x = 0 y = 0}
+		#}
+		
+		#iconType =
+		#	{
+		#		name ="org_bar"
+		#		spriteType = "org_progress"
+		#		position = { x= 305 y = 23 }
+		#		Orientation = "UPPER_LEFT"
+		#		rotation = 1.57
+		#	}
+		#	iconType = 
+		#		{
+		#		name ="org_bar_red"
+		#		spriteType = "org_progress_red"
+		#		position = { x= 305 y = 23 }
+		#		Orientation = "UPPER_LEFT"
+		#		rotation = 1.57
+		#	}
+		
+		
+		iconType =
+		{
+			name ="eqp_bar"
+			spriteType = "eqp_progressbar_small"
+			position = { x= 377 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		iconType =
+		{
+			name ="man_bar"
+			spriteType = "manpower_progressbar_small"
+			position = { x= 377 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}	
+		
+		iconType =
+		{
+			name ="org_bar"
+			position = { x= 385 y = 31 }
+			spriteType = "org_progressbar_small"
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		guiButtonType = 
+		{
+			name ="movetopool"
+			quadTextureSprite = "GFX_unit_movetopool"
+			position = { x=290 y=10}
+			Orientation = "UPPER_LEFT"
+			buttonFont = "Arial12"
+		}
+	}
+
+
+	##################################################	
+	# Loaded unit entry
+	##################################################
+	windowType = {
+		name = "loadedunit_entry"
+		position = { x=0 y=0 }	
+		size = { x=386 y= 39 }
+		moveable = 0
+		fullScreen = no	
+
+		guiButtonType = 
+		{
+			name ="select"
+			quadTextureSprite ="GFX_loaded_unit_bg"	
+			position = { x= -1 y = -3 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= -3 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "counter_size"
+			spriteType = "GFX_counter_size"
+			position = { x= -3 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 75 y = 5 }
+			font = "Arial12_bold"	
+			maxWidth = 145
+			maxHeight = 16
+			fixedsize = yes
+			allwaystransparent = yes
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "order"
+			position = { x = 75 y =24 }
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 145
+			maxHeight = 12
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "objective"
+			position = { x = -13 y = 22 }
+			font = "Arial12"
+			borderSize = {x = 4 y = 4}
+			maxWidth = 300
+			maxHeight = 10
+			format = right	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="eqp_bar"
+			spriteType = "eqp_progressbar_small"
+			position = { x= 377 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		iconType =
+		{
+			name ="man_bar"
+			spriteType = "manpower_progressbar_small"
+			position = { x= 377 y = 31 }
+			Orientation = "UPPER_LEFT"
+			rotation = 1.57
+		}
+		
+		iconType =
+		{
+			name ="org_bar"
+			position = { x= 385 y = 31 }
+			spriteType = "org_progressbar_small"
+			rotation = 1.57
+		}
+
+	}
+
+	##############################################
+	# Select upgrade entry
+	##############################################
+	windowType = {
+		name = "select_upgrade_entry"
+		position = { x=0 y=0 }	
+		size = { x=254 y=22 }
+		moveable = 0
+		fullScreen = no
+		
+		guiButtonType = 
+		{
+			name ="target"
+			quadTextureSprite ="GFX_stance_entry2"	
+			position = { x= 95 y = 48 }
+			buttonFont = "Arial12_bold_black"
+		}
+	}	
+	
+	################################################
+	# Unit Window AI Entry
+	###############################################
+	windowType = {
+		name = "single_type_ai_entry"
+		size = {x = 300 y = 20 }
+		
+		instantTextBoxType = {
+			name = "unit_segment"
+			position = { x = 0 y = 0 }
+			font = "Arial12"
+			borderSize = {x = 4 y = 4}
+			maxWidth = 300
+			maxHeight = 20
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}

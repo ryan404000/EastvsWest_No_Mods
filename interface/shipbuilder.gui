@@ -1,0 +1,1491 @@
+guiTypes = {
+
+########################################
+# Ship builder Interface
+########################################
+
+	windowType = {
+		name = "ship_builder_window"
+		size = { x=1120 y=768 }
+		position = { x=-555 y=-340 }
+		moveable = 0
+		fullScreen = no	
+		orientation="CENTER"
+	
+		iconType = {
+			name = "ship_build_bg_shadow"
+			spriteType = "GFX_shipeditor_bg_shadow"
+			position = { x=-22 y=-5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		iconType = {
+			name = "ship_build_bg"
+			spriteType = "GFX_shipeditor_bg"
+			position = { x=-22 y=-5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		### Badge ###
+		iconType = {
+			name = "naval_badge"
+			spriteType = "GFX_naval_badge"
+			position = { x=270 y=41 }
+		}
+		
+		instantTextBoxType = {
+			name = "headline"
+			position = { x=45 y=30 }
+			font = "Jockey_30_glow_green"
+			text = "SHIP_PRODUCTION"
+			maxHeight = 28
+			maxWidth = 600
+			fixedsize = yes
+		}
+		
+		guiButtonType = {
+			name = "cancel"
+			position = { x=1035 y=29 }
+			quadTextureSprite = "GFX_close_btn"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ESCAPE"
+		}
+
+		guiButtonType = {
+			name = "filter_all"
+			position = { x=70 y =108 }
+			quadTextureSprite ="GFX_filter_all"
+			buttonText = "ALL"
+			buttonFont = "Arial14"
+		}
+
+		
+		guiButtonType = {
+			name = "filter_carriers"
+			position = { x=142 y =100 }
+			quadTextureSprite ="GFX_filter_carrier"
+			buttonFont = "Arial14"
+		}
+
+		guiButtonType = {
+			name = "filter_surface"
+			position = { x=202 y =100 }
+			quadTextureSprite ="GFX_filter_surface"
+			buttonFont = "Arial14"
+		}
+		
+		guiButtonType = {
+			name = "filter_submarine"
+			position = { x=264 y =100 }
+			quadTextureSprite ="GFX_filter_sub"
+			buttonFont = "Arial14"
+		}
+		
+		guiButtonType = {
+			name = "filter_transport"
+			position = { x=326 y =100 }
+			quadTextureSprite ="GFX_filter_transport"
+			buttonFont = "Arial14"
+		}
+
+
+		
+		################
+		# shipeditor part
+		################
+
+		iconType = {
+			name ="hull"
+			spriteType = GFX_emptyhull
+			position = { x= 35 y = 535 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="icon_weapons"
+			spriteType = GFX_btn_naval_icon_weapons
+			position = { x= 57 y = 542 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 79 y = 542 }
+			name = "hullslotnumber_info"
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 170
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			format = left
+		}	
+		
+		iconType = {
+			name ="icon_sizes"
+			spriteType = GFX_btn_naval_icon_sizes
+			position = { x= 57 y = 557 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		instantTextBoxType = {
+			position = { x = 79 y = 557 }
+			name = "hullslotsize_info"
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 170
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			format = left
+		}	
+
+		
+		OverlappingElementsBoxType = {
+			   name = "shipstat_list"
+			   position = { x = 680 y = 247 }
+			   size = { x= 400 y= 90 }
+			   Orientation = "UPPER_LEFT"
+			   format = left
+			   spacing = 1.0
+		}
+		
+		OverlappingElementsBoxType = {
+			   name = "shipstat_sensor_list"
+			   position = { x = 770 y = 678 }
+			   size = { x= 400 y= 90 }
+			   Orientation = "UPPER_LEFT"
+			   format = left
+			   spacing = 1.0
+		}
+		
+		instantTextBoxType = {
+			position = { x = 658 y = 318 }
+			name = "theatre_label"
+			font = "Jockey_24"
+			borderSize = {x = 2 y = 2}
+			text = "THEATRE_DEST"	
+			maxWidth = 260
+			maxHeight = 30
+			fixedsize = yes
+			format = centre
+		}
+		
+		listboxType = {
+			name ="modelstat_list"
+			position = { x = 954 y = 562 }
+			backGround=""
+			size = { x= 110 y = 150}
+			Orientation = "UPPER_LEFT"
+			scrollbartype = "scrollbar_vertical_standard"
+		}
+
+		iconType = {
+			name ="slot0"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot1"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		iconType = {
+			name ="slot2"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot3"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot4"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot5"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot6"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot7"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot8"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot9"
+			spriteType = "GFX_empty_slot_small_paper"
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="slot10"
+			spriteType = GFX_empty_slot
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="slot11"
+			spriteType = GFX_empty_slot
+			position = { x= 50 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		### IC-cost ###
+		iconType = {
+			name = "ic_cost_icon"
+			spriteType = "GFX_btn_prod_money_daily"
+			position = { x=979 y=86 }
+		}
+		instantTextBoxType = {
+			position = { x=973 y=104 }
+			name = "ic_cost_value"
+			font = "Danger_14"
+			borderSize = { x=4 y=2 }
+			text = "xxx"	
+			maxWidth = 60
+			maxHeight = 10
+			format = right
+		}	
+		
+		iconType = {
+			name ="icon_total_money"
+			spriteType = GFX_btn_prod_money
+			position = { x=976 y=120 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x=973 y=141 }
+			name = "total_cost_value"
+			font = "Danger_14"
+			borderSize = {x = 4 y = 2}
+			maxWidth = 60
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			format = right
+		}	
+		
+		iconType = {
+			name ="icon_manpower"
+			spriteType = GFX_btn_prod_manpower
+			position = { x=977 y=195 }
+			Orientation = "UPPER_LEFT"
+		}
+	
+		instantTextBoxType = {
+			position = { x=973 y=217 }
+			name = "mp_cost_value"
+			font = "Danger_14"
+			borderSize = {x = 4 y = 2}
+			maxWidth = 60
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			format = right
+		}	
+		
+		iconType = {
+			name ="icon_prod_time"
+			spriteType = GFX_btn_prod_time
+			position ={ x=978 y=159 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		instantTextBoxType = {
+			position = { x=973 y=179 }
+			name = "build_time_value"
+			font = "Danger_14"
+			borderSize = {x = 4 y = 2}
+			maxWidth = 60
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			format = right
+		}					
+			
+		instantTextBoxType = {
+			position = { x = 53 y = 634 }
+			name = "on_complete_impact"
+			font = "Arial14_black"
+			borderSize = {x = 4 y = 2}
+			maxWidth = 180
+			maxHeight = 20
+			orientation = "UPPER_LEFT"
+		}			
+			
+	
+		##### BUTTONS #######
+		
+
+		guiButtonType = {
+			name = "accept"
+			position = { x=923 y =440}
+			quadTextureSprite ="GFX_button_build_division"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_24_glow_blue"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 868 y = 459 }
+			name = "start_prod_label"
+			font = "Jockey_24_glow_blue"
+			borderSize = {x = 4 y = 2}
+			text = "BUILD"	
+			maxWidth = 220
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+			format = centre
+		}			
+
+		
+		guiButtonType = {
+			name = "clear"
+			position = { x=731  y = 537}
+			quadTextureSprite ="GFX_weapons_reset_btn"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CLEAR"
+			buttonFont = "Arial12"
+
+		}
+
+		guiButtonType = {
+			name = "default"
+			position = { x=731  y = 561 }
+			quadTextureSprite ="GFX_weapons_default_btn"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "DEFAULT"
+			buttonFont = "Arial12"
+		}
+		
+		guiButtonType = {
+			name = "save"
+			position = { x=731  y = 609 }
+			quadTextureSprite ="GFX_naval_btn_save"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "DEFAULT"
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "load"
+			position = { x=731  y = 633 }
+			quadTextureSprite ="GFX_naval_btn_load"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "DEFAULT"
+			buttonFont = "Arial12"
+		}
+
+		
+		instantTextBoxType = {
+			position = { x=729 y = 670 }
+			name = "caginfo"
+			font = "Danger_14"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 50
+			maxHeight = 14
+			orientation = "UPPER_LEFT"
+		}			
+
+		
+		checkboxType = {
+			name = "add_cag"
+			position = { x=731  y = 689 }
+			quadTextureSprite ="GFX_cag_build_btn"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}		
+		
+		
+		iconType = {
+			name = "selected_ship_photo"
+			spriteType = "GFX_no_ship_selected"
+			position = { x= 685 y = 86 }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 683 y = 210 }
+			name = "select_unit_text"
+			font = "Jockey_14"
+			maxWidth = 288
+			maxHeight = 14
+			format = centre
+		}			
+
+		iconType = {
+			name = "selected_ship_stamp_clip"
+			spriteType = "GFX_ship_stamp_clip"
+			position = { x= 671 y = 72 }
+		}
+
+		guiButtonType = {
+			name = "info_button"
+			position = { x = 1025 y = 70}
+			quadTextureSprite ="GFX_politics_info"
+			buttonFont = "Arial12_bold_black"
+		}
+
+#		listboxType = {
+#			name = "ship_desc"
+#			position = { x = 694 y = 494 }
+#			size = { x= 214 y = 60}
+#			spacing = 2
+#			scrollbartype = "scrollbar_vertical_standard"
+#		}
+		
+		#### THEATRE
+
+		
+		listboxType = {
+			name = "ai_need_queue"
+			position = { x = 673 y = 351 }
+			size = { x=215 y = 168}
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+		}		
+
+		#### # SERIAL
+		
+		guiButtonType = {
+			name = "serial_plus"
+			position = { x=1026  y = 344}
+			quadTextureSprite ="option_next"
+			buttonFont = "Arial12"
+		}	
+		
+		guiButtonType = {
+			name = "serial_minus"
+			position = { x=926 y = 344}
+			quadTextureSprite ="option_prev"
+			buttonFont = "Arial12"
+		}	
+		
+		instantTextBoxType = {
+			position = { x = 893 y =321 }
+			name = "serial_label"
+			font = "Jockey_14_cyan"
+			borderSize = {x = 4 y = 2}
+			text = "PW_SERIAL"
+			format = centre	
+			maxWidth = 170
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			position = { x = 893 y = 349 }
+			name = "serial_value"
+			font = "Jockey_18_yellow"
+			borderSize = {x = 4 y = 2}
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}				
+	
+		
+		guiButtonType = {
+			name = "parallell_plus"
+			position = { x= 1026 y = 404}
+			quadTextureSprite ="option_next"
+			buttonFont = "Arial12"
+		}	
+		
+		guiButtonType = {
+			name = "parallel_minus"
+			position = { x= 926 y = 404}
+			quadTextureSprite ="option_prev"
+			buttonFont = "Arial12"
+		}		
+		
+		instantTextBoxType = {
+			position = { x = 893 y = 381 }
+			name = "paralell_label"
+			font = "Jockey_14_cyan"
+			borderSize = {x = 4 y = 2}
+			text = "PW_PARALELL"	
+			format = centre
+			maxWidth = 170
+			maxHeight = 10
+			orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			position = { x = 893 y = 409 }
+			name = "paralell_value"
+			font = "Jockey_18_yellow"
+			borderSize = {x = 4 y = 2}
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}	
+
+		editBoxType = {
+				position = { x = 768 y = 528 }
+				name = "shipname"
+				font = "Jockey_14_yellow"
+				borderSize = {x = 4 y = 2}
+				size = { x = 290 y = 18 }
+				orientation = "UPPER_LEFT"
+		}
+		
+			
+
+  ####### LISTBOX ########
+#######################  
+					
+							
+		listboxType = {
+			name = "queue"
+			position = { x=50 y=124 }
+			backGround=""
+			size = { x=574 y=390 }
+			Orientation = "UPPER_LEFT"
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_prod"
+			borderSize = {x = 0 y = 0}
+		}
+		
+########################
+##    SELECTED SHIP                                                    
+########################
+	
+	windowType = {
+			name = "selected_ship_window"
+			backGround=""
+			position = { x=0 y=0 }	
+			size = { x=700 y= 300 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			Orientation = "UPPER_LEFT" 
+
+	
+		
+#		listboxType = {
+#			name = "models"
+#			position = { x = 240 y = 480 }
+#			backGround=""
+#			size = { x= 433 y = 100}
+#			Orientation = "UPPER_LEFT"
+#			spacing = 2
+#			scrollbartype = "scrollbar_vertical_standard"
+#			borderSize = {x = 0 y = 0}
+#		}
+
+		windowType = {
+			name = "tooltip_window"
+			backGround=""
+			position = { x = 0 y = 0 }	
+			size = { x = 452 y = 89 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+
+			iconType = {
+				name = "tooltipbg"
+				spriteType = GFX_shipeditor_tooltip_bg
+				position = { x = 0 y = 0 }  
+				Orientation = "UPPER_LEFT"
+			}
+
+
+			iconType = {
+				name = "tooltipimage"
+				spriteType = "GFX_weapon_image_empty"
+				position = { x = 14 y = 18 }  
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				position = { x = 116 y = 6 }
+				name = "tooltiptext"
+				font = "Arial14"
+				borderSize = {x = 4 y = 2}
+				text = ""	
+				maxWidth = 400
+				maxHeight = 30
+				format = left
+				orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				position = { x = 116 y = 35 }
+				name = "tooltipdesc"
+				font = "Arial12"
+				borderSize = {x = 4 y = 2}
+				text = ""	
+				maxWidth = 340
+				maxHeight = 200
+				format = left
+				orientation = "UPPER_LEFT"
+			}
+
+
+
+		}
+
+		windowType = {
+			name = "editor_popup"
+			backGround=""
+			position = { x=320 y=60 }	
+			size = { x= 500 y= 426 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			Orientation = "UPPER_LEFT" 
+
+			iconType =
+			{
+				name ="bg"
+				spriteType = "GFX_select_weaponsel_bg"
+				position = { x= 1 y = 1 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				position = { x = 2 y = 33 }
+				name = "editortitle"
+				font = "Jockey_18_cyan"
+				borderSize = {x = 2 y = 2}
+				text = "name"	
+				maxWidth = 500
+				maxHeight = 10
+				format = centre
+				orientation = "UPPER_LEFT"
+			}		
+	
+			listboxType = {
+				name ="model_list"
+				position = { x = 20 y = 104 }
+				backGround=""
+				size = { x = 394 y = 316}
+				Orientation = "UPPER_LEFT"
+				spacing = 1
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 10 y = 0}
+			}	
+
+			guiButtonType = {
+				name = "back_button"
+				position = { x = 83 y = 424 }
+				quadTextureSprite ="GFX_neg_button_accept"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "CANCEL"
+				buttonFont = "Jockey_14_glow_red"
+			}
+
+			
+			guiButtonType = {
+				name = "ok_button"
+				position = { x = 236 y = 424}
+				quadTextureSprite ="GFX_neg_button_accept"
+				buttonText = "OK"
+				buttonFont = "Jockey_14_glow_blue"
+				shortcut = "ENTER"
+			}
+			
+			guiButtonType = {
+				name = "previous_set"
+				position = { x = 27 y = 70}
+				quadTextureSprite ="GFX_mode_arrow_left"
+				shortcut = "ENTER"
+			}
+			
+			guiButtonType = {
+				name = "next_set"
+				position = { x = 412 y = 70}
+				quadTextureSprite ="GFX_mode_arrow_right"
+				shortcut = "ENTER"
+			}
+			
+			iconType = {
+				name ="slotset0"
+				spriteType = GFX_empty_slot
+				position = { x= 47 y = 65 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+			
+			iconType = {
+				name ="slotset1"
+				spriteType = GFX_empty_slot
+				position = { x= 60 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset2"
+				spriteType = GFX_empty_slot
+				position = { x= 110 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset3"
+				spriteType = GFX_empty_slot
+				position = { x= 160 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset4"
+				spriteType = GFX_empty_slot
+				position = { x= 210 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset5"
+				spriteType = GFX_empty_slot
+				position = { x= 260 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset6"
+				spriteType = GFX_empty_slot
+				position = { x= 310 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset7"
+				spriteType = GFX_empty_slot
+				position = { x= 360 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset8"
+				spriteType = GFX_empty_slot
+				position = { x= 410 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			iconType = {
+				name ="slotset9"
+				spriteType = GFX_empty_slot
+				position = { x= 460 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+			
+			iconType = {
+				name ="slotset10"
+				spriteType = GFX_empty_slot
+				position = { x= 460 y = 40 }
+				Orientation = "UPPER_LEFT"
+				scale = 1.2
+			}
+
+			
+			iconType = {
+				name ="slot_overlay"
+				spriteType = GFX_weapon_icon_overlay
+				position = { x= 50 y = 67 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		}
+
+
+		##############################################
+		# Model Selection...
+		##############################################
+		windowType = {
+			name = "shipbuild_model_selection"
+			backGround=""
+			position = { x=270 y=330 }	
+			size = { x=254 y=400 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			
+			iconType =
+			{
+				name ="bg"
+				spriteType = "GFX_select_model_bg"
+				position = { x= 10 y = 9 }
+				Orientation = "UPPER_LEFT"
+			}	
+			
+			textBoxType = {
+				name = "name"
+				position = { x = 97  y = 22 }
+				textureFile = ""
+				font = "Arial14"
+				borderSize = {x = 0 y = 0}
+				text = "name goes here."	
+				maxWidth = 350
+				maxHeight = 17	
+				format = centre
+			}	
+	
+	
+			listboxType = 	{
+				name ="list"
+				position = { x = 45 y = 46 }
+				backGround=""
+				size = { x=448  y = 250 }
+				Orientation = "UPPER_LEFT"
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 0 y = 0}
+			}
+			
+			guiButtonType = {
+				name = "back_button"
+				position = { x = 157 y = 293 }
+				quadTextureSprite ="GFX_button_212wide"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "CANCEL"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+		}
+		}
+				
+	}
+########################################
+# BOAT LIST   ENTRY
+########################################
+	
+	windowType = {
+		name = "build_ship_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=587 y=76 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+		
+		guiButtonType = {
+			name = "select"
+			position = { x=3 y=1 }
+			quadTextureSprite ="GFX_ship_plate"
+			buttonFont = "Arial14"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "ship_photo"
+			spriteType = "GFX_model_small"
+			position = { x=10 y=8 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x=70 y=-5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "division_overlay"
+			spriteType = "GFX_div_overlay"
+			position = { x=7 y=5 }
+		}
+
+		guiButtonType = {
+			name = "nextmodel"
+			position = { x= 544 y = 9 }
+			quadTextureSprite = "GFX_next_model"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "prevmodel"
+			position = { x= 544 y = 53 }
+			quadTextureSprite = "GFX_prev_model"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 120 y = 10 }
+			name = "name"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = "name"	
+			maxWidth = 160
+			maxHeight = 14
+			orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}		
+
+		instantTextBoxType = {
+			position = { x = 278 y = 10 }
+			name = "modelname"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = "name"	
+			maxWidth = 120
+			maxHeight = 14
+			orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			position = { x = 380 y = 10 }
+			name = "money"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = "tou"	
+			maxWidth = 100
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 450 y = 10 }
+			name = "time"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = "tou"	
+			maxWidth = 100
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+
+		
+		OverlappingElementsBoxType = {
+			   name = "weapons"
+			   position = { x = 122 y = 42 }
+			   size = { x= 740 y= 700 }
+			   Orientation = "UPPER_LEFT"
+			   format = left
+			   spacing = 1.0
+		}
+	
+	}				
+	
+	windowType = {
+		name = "weapon_slot_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=29 y= 33 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+
+		iconType = {
+			name ="sloticon"
+			spriteType = "GFX_null_slot_small"
+			position = { x= 1 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="slot_overlay_small"
+			spriteType = "GFX_slot_small_overlay"
+			position = { x= 3 y = 1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+	}
+
+
+
+	##############################################
+	# Model Entry
+	##############################################
+	windowType = {
+		name = "shipbuild_model_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=300 y=46 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "ship_column"
+			spriteType = "GFX_ship_column"
+			position = { x= -4 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		guiButtonType = {
+				name = "select"
+				position = { x = 197 y = -1 }
+				quadTextureSprite ="GFX_model_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "  "
+				buttonFont = "Arial12_bold"
+
+			}
+
+		textBoxType = {
+			name = "title"
+			position = { x = 1 y = 0 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 200
+			maxHeight = 16
+
+			fixedsize = yes	
+
+			format = left
+		}	
+		textBoxType = {
+			name = "name"
+			position = { x = 210 y = 0 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 250
+			maxHeight = 16
+
+			fixedsize = yes	
+
+			format = left
+		}	
+
+	}	
+	
+	##############################################
+	# Model Entry
+	##############################################
+	windowType = {
+		name = "shipbuild_possible_model_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=254 y=49 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		guiButtonType = {
+				name = "change"
+				position = { x = -6 y = -2 }
+				quadTextureSprite ="GFX_select_model2"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "  "
+				buttonFont = "Arial12_bold"
+
+			}
+			
+		iconType = {
+			name = "current_model"
+			spriteType = "GFX_current_model"
+			position = { x = -6 y = -2 }  
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			name = "name"
+			position = { x = 10 y = 16 }
+			textureFile = ""
+			font = "arial_18"
+			borderSize = {x = 0 y = 0}
+			text = "name"	
+			maxWidth = 200
+			maxHeight = 32
+
+			fixedsize = yes	
+
+			format = left
+		}	
+		textBoxType = {
+			name = "effect"
+			position = { x = 270 y = 5 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			text = "effect"	
+			maxWidth = 400
+			maxHeight = 64
+
+			fixedsize = yes	
+
+			format = left
+		}		
+
+	}		
+
+	# overlappingbox
+	windowType = {
+		name = "model_stat_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=40 y= 60 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		iconType = {
+			name = "stat_icon"
+			spriteType = "GFX_null_slot_small"
+			position = { x = 6 y = 6 }  
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		textBoxType = {
+			position = { x = 0 y = 34 }
+			name = "stat"
+			font = "Arial12_black"
+			text = ""	
+			maxWidth = 40
+			maxHeight = 14
+			format = centre
+		}
+
+	}	
+	
+	#listbox
+	windowType = {
+		name = "weapon_stat_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=110 y= 28 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		iconType = {
+			name = "stat_icon"
+			spriteType = "GFX_null_slot_small"
+			position = { x = 0 y = -1 }  
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			position = { x = 4 y = 7 }
+			name = "stat"
+			font = "Arial14"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 80
+			maxHeight = 30
+			format = right
+		}
+
+	}	
+
+	windowType = {
+		name = "sensor_stat_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x= 55 y= 28 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		iconType = {
+			name = "stat_icon"
+			spriteType = "GFX_null_slot_small"
+			position = { x = 0 y = 0 }  
+			Orientation = "UPPER_LEFT"
+		}
+
+		textBoxType = {
+			position = { x = 12 y = 10 }
+			name = "stat"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 40
+			maxHeight = 30
+			format = right
+		}
+
+	}	
+
+
+	windowType = {
+			name = "editor_model_entry"
+			backGround=""
+			position = { x=0 y=0 }	
+			size = { x=384 y= 76 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			Orientation = "UPPER_LEFT" 
+		
+			guiButtonType = {
+				name = "select"
+				position = { x = -1 y = -1 }
+				quadTextureSprite ="GFX_complex_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "  "
+				buttonFont = "Arial12_bold"
+			}
+			
+			iconType = {
+				name ="model_photo"
+				spriteType = "GFX_model_small"
+				position = { x= 5 y = 7 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType = {
+				name ="model_photo_overlay"
+				spriteType = "GFX_weapon_editor_picture_overlay"
+				position = { x= 2 y = 3 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		
+			textBoxType = {
+				position = { x = 135 y = 7 }
+				name = "name"
+				font = "Jockey_14_cyan"
+				borderSize = {x = 2 y = 2}
+				text = ""	
+				maxWidth = 300
+				maxHeight = 50
+				format = left
+
+			}	
+			textBoxType = {
+				position = { x = 135 y = 29 }
+				name = "stat1"
+				font = "Arial12"
+				borderSize = {x = 2 y = 2}
+				text = ""	
+				maxWidth = 200
+				maxHeight = 50
+				format = left
+
+			}	
+			textBoxType = {
+				position = { x = 135 y = 42 }
+				name = "stat2"
+				font = "Arial12"
+				borderSize = {x = 2 y = 2}
+				text = ""	
+				maxWidth = 200
+				maxHeight = 50
+				format = left
+
+			}	
+			textBoxType = {
+				position = { x = 135 y = 55 }
+				name = "stat3"
+				font = "Arial12"
+				borderSize = {x = 2 y = 2}
+				text = ""	
+				maxWidth = 200
+				maxHeight = 50
+				format = left
+
+			}	
+		}	
+
+	windowType = {
+		name = "shipdesc_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=210 y= 14 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+
+		instantTextBoxType={
+			position = {x = 33 y = 5 }
+			name = "desc_text_entry"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 210
+			maxHeight = 14
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+			allwaystransparent = yes
+		}
+	}
+	
+#################################################################################
+# AI need
+#################################################################################	
+	windowType = {
+		name = "naval_theatre_select_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=250 y= 44 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		
+		guiButtonType = {
+			name = "select"
+			position = { x= 0 y = 0}
+			quadTextureSprite ="GFX_btn_naval_theater_plate"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 2 y = 8 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 0}
+			text = "name of theathre"	
+			maxWidth = 400
+			maxHeight = 32	
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "port"
+			position = { x = 8 y = 26 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 4 y = 0}
+			text = "needs"	
+			maxWidth = 165
+			maxHeight = 16	
+			fixedsize = yes
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		iconType = {
+			name ="port_selected"
+			spriteType = "GFX_naval_btn_port"
+			position = { x= 168 y = 11 }
+			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes
+		}
+		
+	}
+	
+	positionType = {
+		name = "weapon_editor_icon_gap"
+		position = { x = 37 y = 0 }
+	}
+	
+	positionType = {
+		name = "hull_slot_offset"
+		position = { x = -15 y = -40 }
+	}
+
+	
+	
+}
+

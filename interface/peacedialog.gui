@@ -1,0 +1,258 @@
+guiTypes = {
+
+	eu3dialogtype = {
+		name = "PeaceOfferDiplomacyDialog"
+		backGround="Background"
+		position = { x=300 y=100 }	
+		size = { x=436 y=564 }
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_bg_peace"
+		}
+
+		textBoxType = {
+			name = "Title"
+			position = { x = 20 y = 11 }
+			font = "Jockey_18_cyan"
+			text = "PEACE_NEG_TITLE"	
+			maxWidth = 370
+			maxHeight = 50
+			format = centre
+		}
+
+		textBoxType = {
+			name = "Warscore_label"
+			position = { x = 137 y = 54 }
+			font = "Jockey_14_cyan"
+			text = "PEACE_NEG_WARSCORE"	
+			maxWidth = 166
+			maxHeight = 20
+			format = centre
+		}
+
+		textBoxType = {
+			name = "Warscore"
+			position = { x = 200 y = 100}
+			font = "Jockey_18_green"
+			maxWidth = 40
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		
+		textBoxType = {
+			name = "Description"
+			position = { x = 12 y = 400 }
+			font = "Arial14_black"
+			maxWidth = 265
+			maxHeight = 120	
+			format = left
+		}
+
+		guiButtonType = {
+			name = "OfferPeace"
+			position = { x= 16 y = 116}
+			quadTextureSprite = "GFX_peace_demandoffer"
+			buttonText = "PEACETYPE_OFFER_BUTTON"
+			buttonFont = "Arial12_bold_black"
+		}
+
+		guiButtonType = {
+			name = "DemandPeace"
+			position = { x= 321 y = 116}
+			quadTextureSprite = "GFX_peace_demandoffer"
+			buttonText = "PEACETYPE_DEMAND_BUTTON"
+			buttonFont = "Arial12_bold_black"
+		}	
+
+		textBoxType = {
+			name = "chance_string"
+			position = { x = 290 y = 406 }
+			font = "Jockey_14"
+			maxWidth = 125
+			maxHeight = 20	
+			format = left
+			fixedsize = yes
+		}
+		
+		shieldtype = 
+		{
+			name ="LeftShield"
+			spriteType = "GFX_topbarflag"
+			position = { x= 12 y = 36 }
+		}
+		
+		shieldtype = 
+		{
+			name ="RightShield"
+			spriteType = "GFX_topbarflag"
+			position = { x= 315 y = 36 }
+		}
+
+		guiButtonType = {
+			name = "OverallGoals"
+			position = { x=17 y = 159}
+			quadTextureSprite ="GFX_peace_sort_2"
+			buttonText = "BTN_OVERALLGOAL"
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "AbolishCores"
+			position = { x=151 y = 159}
+			quadTextureSprite ="GFX_peace_sort_2"
+			buttonText = "BTN_ABOLISHCORE"
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "DemandProvinces"
+			position = { x= 285 y = 159}
+			quadTextureSprite ="GFX_peace_sort_1"
+			buttonText = "GFX_neg_button_tab"
+			buttonFont = "Arial12_bold_black"
+		}
+
+		guiButtonType = {
+			name = "DemandRegions"
+			position = { x= 17 y = 179}
+			quadTextureSprite ="GFX_peace_sort_2"
+			buttonText = "GFX_neg_button_tab"
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "ReleaseNation"
+			position = { x=151 y = 179}
+			quadTextureSprite ="GFX_peace_sort_2"
+			buttonText = "BTN_RELEASENATION"
+			buttonFont = "Arial12_bold_black"
+		}
+		guiButtonType = {
+			name = "LiberateNation"
+			position = { x=285 y = 179}
+			quadTextureSprite ="GFX_peace_sort_1"
+			buttonText = "BTN_LIBERATENATION"
+			buttonFont = "Arial12_bold_black"
+		}
+	
+		listboxType = {
+			name ="offer_list"
+			position = { x = 18 y = 242 }
+			size = { x=381 y = 152}
+			scrollbartype = "scrollbar_vertical_standard"
+		}	
+
+		GuiButtonType = {
+			name = "sortby_name"
+			position = { x = 16 y = 205 }
+			quadTextureSprite = "GFX_peace_sort_white_1"
+			buttonFont = "Arial12_bold_black"
+			buttonText = "PEACEITEM_NAME"	
+		}
+		
+		GuiButtonType = {
+			name = "sortby_cost"
+			position = { x = 194 y = 205 }
+			quadTextureSprite = "GFX_peace_sort_white_2"
+			buttonFont = "Arial12_bold_black"
+			buttonText = "PEACEITEM_COST"	
+		}
+		
+		GuiButtonType = {
+			name = "sortby_prestige"
+			position = { x = 270 y = 205 }
+			quadTextureSprite = "GFX_peace_sort_white_2"
+			buttonFont = "Arial12_bold_black"
+			buttonText = "PEACEITEM_PRESTIGE"	
+		}
+		
+		GuiButtonType = {
+			name = "sortby_infamy"
+			position = { x = 346 y = 205 }
+			quadTextureSprite = "GFX_peace_sort_white_2"
+			buttonFont = "Arial12_bold_black"
+			buttonText = "PEACEITEM_INFAMY"	
+		}
+
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=220 y =516}
+			quadTextureSprite ="GFX_settings_ok_btn"
+			buttonText = "PW_I_DO"
+			buttonFont = "Jockey_14_glow_blue"
+		}
+
+
+		guiButtonType = {
+			name = "DeclineButton"
+			position = { x=67 y = 516}
+			quadTextureSprite ="GFX_settings_cancel_btn"
+			buttonText = "PW_RUN_AWAY"
+			buttonFont = "Jockey_14_glow_red"
+		}
+		
+		guiButtonType = {
+			name = "CloseButton"
+			position = { x= 401 y = 12}
+			quadTextureSprite = "GFX_close_btn_small"	
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ESCAPE"
+		}
+	}
+	windowType = {
+		name = "peaceoffer_entry"
+		size = { x=384 y= 37 }
+
+		iconType =
+		{
+			name ="peaceentry_plate"
+			spriteType = "GFX_peace_plate"
+			position = { x= -1 y = -3 }
+		}
+
+		checkboxType = {
+			name = "select_frame"
+			position = { x=5  y = 6}
+			quadTextureSprite = "GFX_frontend_checkbutton"
+		}
+
+		textBoxType = {
+			name = "field_name"
+			position = { x = 55 y = 12 }
+			font = "Jockey_14_cyan"
+			maxWidth = 120
+			maxHeight = 20	
+			format = left
+			fixedsize = yes
+		}
+
+		textBoxType = {
+			name = "field_cost"
+			position = { x = 185 y = 12 }
+			font = "Jockey_14_cyan"
+			maxWidth = 65
+			maxHeight = 20	
+			format = centre
+			fixedsize = yes
+		}
+
+		textBoxType = {
+			name = "field_prestige"
+			position = { x = 260 y = 12}
+			font = "Jockey_14_cyan"
+			maxWidth = 65
+			maxHeight = 20	
+			format = centre
+			fixedsize = yes
+		}
+
+		textBoxType = {
+			name = "field_infamy"
+			position = { x = 335 y = 12}
+			font = "Jockey_14_cyan"
+			maxWidth = 40
+			maxHeight = 20	
+			format = centre
+			fixedsize = yes
+		}			
+	}	
+}

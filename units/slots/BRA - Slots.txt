@@ -1,0 +1,93 @@
+# ----------------------- SURFACE SHIPS -----------------------------------
+
+# ----------------------- MISSILE BOATS -----------------------------------
+# Model 1955
+missile_boat.0 = {
+	slotdata = { id = gun_complex level = 3 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 3 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 1 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1960
+missile_boat.1 = {
+	slotdata = { id = gun_complex level = 4 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 4 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 2 x = 320 y = 655 ammo_store = 2}
+}
+# Model 1965
+missile_boat.2 = {
+	slotdata = { id = gun_complex level = 5 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 5 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 3 x = 320 y = 655 ammo_store = 4}
+}
+# Model 1970
+missile_boat.3 = {
+	slotdata = { id = gun_complex level = 6 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 6 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 4 x = 320 y = 655 ammo_store = 4}
+}
+# Model 1975
+missile_boat.4 = {
+	slotdata = { id = gun_complex level = 7 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 7 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 5 x = 320 y = 655 ammo_store = 6}
+}
+# Model 1980
+missile_boat.5 = {
+	slotdata = { id = gun_complex level = 8 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 8 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 6 x = 320 y = 655 ammo_store = 6}
+}
+# Model 1985
+missile_boat.6 = {
+	slotdata = { id = gun_complex level = 9 x = 440 y = 655}
+	slotdata = { id = ciws_complex level = 9 x = 410 y = 655}
+	slotdata = { id = mr_as_complex level = 7 x = 320 y = 655 ammo_store = 8}
+}
+# Inhaúma-class
+missile_boat.7 = {
+	slotdata = { id = gun_complex level = 6 x = 410 y = 657}
+	slotdata = { id = ciws_complex level = 0 x = 320 y = 645}
+	slotdata = { id = mr_as_complex level = 5 x = 380 y = 645 ammo_store = 4}
+	slotdata = { id = torpedo_complex level = 5 x = 348 y = 658 ammo_store = 3}
+	slotdata = { id = ship_heli_complex level = 4 x = 292 y = 658}
+}
+
+# ----------------------- DESTROYERS -----------------------------------
+
+# Marcilio Dias-class
+destroyer.0 = {
+	slotdata = { id = gun_complex level = 1 x = 156 y = 691}
+	slotdata = { id = gun_complex level = 1 x = 197 y = 677}
+	slotdata = { id = gun_complex level = 1 x = 237 y = 663}
+	slotdata = { id = gun_complex level = 1 x = 554 y = 665}
+	slotdata = { id = gun_complex level = 1 x = 590 y = 678}
+	slotdata = { id = ciws_complex level = 0 x = 460 y = 665}
+	slotdata = { id = torpedo_complex level = 0 x = 290 y = 685 ammo_store = 4}
+	slotdata = { id = torpedo_complex level = 0 x = 410 y = 675 ammo_store = 4}
+}
+
+# Amazonas-class
+destroyer.1 = {
+	slotdata = { id = gun_complex level = 1 x = 150 y = 691}
+	slotdata = { id = gun_complex level = 1 x = 200 y = 678}
+	slotdata = { id = gun_complex level = 1 x = 560 y = 665}
+	slotdata = { id = gun_complex level = 1 x = 600 y = 675}
+	slotdata = { id = ciws_complex level = 0 x = 360 y = 675}
+	slotdata = { id = torpedo_complex level = 1 x = 290 y = 685 ammo_store = 3}
+	slotdata = { id = torpedo_complex level = 1 x = 420 y = 695 ammo_store = 3}
+}
+# ----------------------- CAPITAL SHIPS -----------------------------------
+
+# Minas Gerais-class
+battleship.0 = {
+	slotdata = { id = heavy_gun_complex level = 0 x = 160 y = 685}
+	slotdata = { id = heavy_gun_complex level = 0 x = 200 y = 685}
+	slotdata = { id = heavy_gun_complex level = 0 x = 240 y = 684}
+	slotdata = { id = heavy_gun_complex level = 0 x = 490 y = 678}
+	slotdata = { id = heavy_gun_complex level = 0 x = 530 y = 685}
+	slotdata = { id = heavy_gun_complex level = 0 x = 580 y = 685}
+	slotdata = { id = gun_complex level = 0 x = 320 y = 680}
+	slotdata = { id = gun_complex level = 0 x = 430 y = 678}
+	slotdata = { id = ciws_complex level = 0 x = 350 y = 665}
+	slotdata = { id = ciws_complex level = 0 x = 390 y = 665}
+}

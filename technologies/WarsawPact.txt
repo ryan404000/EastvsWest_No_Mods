@@ -1,0 +1,770 @@
+# List of all Warsaw Pact techs
+	#warsaw_historical_materialism			( 1 level )
+	#warsaw_dialectical_materialism			( 1 level )
+	#warsaw_marxist-leninist_doctrine		( 1 level )
+	#warsaw_permanent_revolution			( 1 level )
+	#warsaw_democratic_centralism			( 1 level )
+	#warsaw_stalinist_doctrine				( 1 level )
+	#warsaw_socialism_in_one_country		( 1 level )
+	#warsaw_cult_of_personality				( 1 level )
+	#warsaw_maoist_doctrine					( 1 level )
+	#warsaw_new_democratic_revolution		( 1 level )
+	#warsaw_cultural_revolution				( 1 level )
+	#warsaw_thought_reform					( 1 level )
+	#warsaw_young_pioneer					( 1 level )
+	#warsaw_political_commissars			( 1 level )
+	#torpedoes_supercavitating				( 2 levels)
+	#antishipmissile_shortrange_supersonic	( 4 levels)
+	#antishipmissile_longrange_supersonic	( 4 levels)
+	#nuclearbattlecruiser_doctrine			( 1 level )
+	
+
+# Warsaw Pact
+
+# Also add:
+#	nuclear_battlecruiser (done, Biga)
+#	heavy aviation cruiser (removed, Biga)
+#	some weapon slots like supersonic AS missiles (done, Biga)
+
+warsaw_historical_materialism = { #prereq for doctrine type
+	doctrine = yes
+
+	allow = {
+		OR = {
+			ideology = maoist_idolg
+			ideology = communist_idolg
+		}
+		industry_sociology = 1
+	}
+	traits = {
+		science_theory			
+	}
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_dialectical_materialism = { #prereq for doctrine type
+	doctrine = yes
+
+	allow = {
+		OR = {
+			ideology = maoist_idolg
+			ideology = communist_idolg
+		}
+		industry_sociology = 1
+	}
+	traits = {
+		science_theory			
+	}
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+
+warsaw_marxist-leninist_doctrine = { #USSR after Stalin, Cuba, Nepal, Laos, Algeria
+	doctrine = yes
+
+	allow = {
+		ideology = communist_idolg
+		government = totalitarian_gov
+#		has_country_flag = tech_event_marxist-leninist_doctrine 	#tech event that gives access
+		warsaw_dialectical_materialism = 1
+		warsaw_historical_materialism = 1
+		NOT = { warsaw_stalinist_doctrine = 1 }
+		NOT = {	warsaw_maoist_doctrine = 1 }
+	}
+	traits = {
+		warsaw_theory	
+	}	
+	modifier = { 
+		neutrality = -0.02 
+	}
+		
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_permanent_revolution = {
+	doctrine = yes
+
+	allow = {
+		warsaw_marxist-leninist_doctrine = 1
+		ideology = communist_idolg
+	}	
+	traits = {
+		warsaw_theory		
+	}	
+	modifier = {
+		neutrality = -0.05 
+	}
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_democratic_centralism = {
+	doctrine = yes
+
+	allow = {
+		warsaw_marxist-leninist_doctrine = 1
+		ideology = communist_idolg
+	}
+	traits = {
+		warsaw_theory
+	}	
+	modifier = { 
+		national_unity = 0.05 
+	}
+		
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_stalinist_doctrine = { #USSR under Stalin, North Korea, Romania
+	doctrine = yes
+
+	allow = {
+		ideology = communist_idolg
+		government = totalitarian_gov
+#		has_country_flag = tech_event_stalinist_doctrine 		#tech event that gives access
+		warsaw_dialectical_materialism = 1
+		warsaw_historical_materialism = 1
+		NOT = { warsaw_marxist-leninist_doctrine = 1 }
+		NOT = {	warsaw_maoist_doctrine = 1 }
+	}
+	traits = {
+		warsaw_theory	
+	}	
+	modifier = { 
+		production_tax = 0.25
+		consumption_tax = 0.25
+		services_tax = 0.25
+	}
+		
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_socialism_in_one_country = {
+	doctrine = yes
+
+	allow = {
+		warsaw_stalinist_doctrine = 1
+		ideology = communist_idolg
+		industry_sociology = 2
+	}
+	traits = {
+		warsaw_theory	
+		science_theory			
+	}	
+	modifier = { 
+		dissent_decrease = 0.05
+	}	
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_cult_of_personality = {
+	doctrine = yes
+
+	allow = {
+		warsaw_stalinist_doctrine = 1
+		ideology = communist_idolg
+		industry_sociology = 2
+	}
+	traits = {
+		warsaw_theory	
+		science_theory			
+	}	
+	modifier = {
+		dissent_decrease = 0.05
+	}
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_maoist_doctrine = { #China, Vietnam, Cambodia, Yugoslavia, Albania
+	doctrine = yes
+
+	allow = {
+		ideology = maoist_idolg
+		government = totalitarian_gov
+#		has_country_flag = tech_event_maoist_doctrine 		#tech event that gives access
+		warsaw_dialectical_materialism = 1
+		warsaw_historical_materialism = 1
+		NOT = { warsaw_marxist-leninist_doctrine = 1 }
+		NOT = { warsaw_stalinist_doctrine = 1 }
+	}
+	traits = {
+		warsaw_theory	
+	}
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_new_democratic_revolution = {
+	doctrine = yes
+
+	allow = {
+		warsaw_maoist_doctrine = 1
+		ideology = maoist_idolg		
+	}
+	traits = {
+		warsaw_theory		
+	}	
+	modifier = { 
+		national_unity = 0.05 
+	}
+		
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+
+warsaw_cultural_revolution = {
+	doctrine = yes
+	
+	allow = {
+		warsaw_maoist_doctrine = 1
+		ideology = maoist_idolg
+	}
+	traits = {
+		warsaw_theory		
+	}	
+	modifier = { 
+		national_unity = 0.05 
+	}
+		
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+
+warsaw_thought_reform = { #communist conformity reform
+	doctrine = yes
+	
+	allow = {
+		OR = {
+			ideology = maoist_idolg
+			ideology = communist_idolg
+#			law = propaganda_press 
+		}
+		industry_psychology = 1
+	}
+	traits = {
+		science_theory		
+	}
+	modifier = {
+		dissent_increase = 0.01
+		national_unity = 0.01
+	}
+	# will give dissent but create unity
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_young_pioneer = { #communist youth group
+	doctrine = yes
+	
+	allow = {
+		OR = {
+			ideology = maoist_idolg
+			ideology = communist_idolg
+		}
+		industry_sociology = 1
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = {
+		dissent_decrease = 0.02
+		national_unity = 0.01
+	}
+	# will create unity decrease revolt risk 
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+warsaw_political_commissars = { #Moral bonus to POL units but gives units higher losses in combat
+	doctrine = yes
+	
+	allow = {
+		OR = {
+			ideology = maoist_idolg
+			ideology = communist_idolg
+		}
+	}
+	traits = {
+		
+	}	
+	modifier = {
+		dissent_decrease = 0.02
+		flexible_modifier = {
+			province_food_modifier= {
+				name = my_first_change
+				value = 0.1
+			}
+		}
+	}
+	police_brigade = {
+		default_morale = 0.05
+		suppression = 1
+		defensiveness = 0.2
+		toughness = -0.2
+	}
+	militia_brigade = {
+		default_morale = 0.01
+		defensiveness = 0.05
+		toughness = -0.005		
+	}
+	infantry_brigade = {
+		default_morale = 0.01
+		defensiveness = 0.05
+		toughness = -0.02		
+	}
+	# will decrease revolt risk
+	
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+# very fast torpedoes designed for response/revenge weapons
+torpedoes_supercavitating = {
+
+	multilevel = yes
+	level = 2
+
+	allow_level = {
+		1 = {
+			torpedoes = 3
+			engine_rocket = 3
+			industry_physics = 5
+			faction = comintern 
+			# Something else...?
+		}
+		2 = {
+			torpedoes_supercavitating = 1
+			faction = comintern 			
+			# Something else...?
+		}
+	}
+	traits = {
+		science_theory
+		armament_theory
+		aviation_theory		
+	}
+	level_effect = {
+		# + sub_attack, + sea_attack, + build_cost, + supply_cost
+		1 = {
+			torpedo_complex = {
+			  sea_attack = 5.00
+			  sub_attack = 2.50
+			  unit_money_cost = 2
+			}
+		}
+		2 = {
+			torpedo_complex = {
+			  sea_attack = 5.00
+			  sub_attack = 2.50
+			  unit_money_cost = 2
+			}
+		}
+	}
+ 	can_upgrade = yes
+	change = no
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+# Soviet Short/Medium Range Supersonic missiles
+antishipmissile_shortrange_supersonic = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {	
+			antishipmissile_shortrange = 1
+			or = {
+				battlegroup_missilebattlegroup = 1
+				battlegroup_strikeoperations = 1
+			}
+			OR = {
+				ideology = maoist_idolg
+				ideology = communist_idolg
+			}			
+		}
+		2 = {
+		}
+		3 = {
+		}		
+		4 = {
+		}		
+	}
+	traits = {
+		surface_theory
+		armament_theory		
+	}
+	level_effect = {
+		1 = {								# 120km
+			ss_mr_as_complex = {
+				sea_attack = 5
+			}		
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}				
+		}
+		2 = {								# 200km
+			ss_mr_as_complex = {
+				sea_attack = 5
+				range = -250
+			}
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}			
+		}
+		3 = {								
+			ss_mr_as_complex = {
+				sea_attack = 5
+			}
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}			
+		}		
+		4 = {								
+			ss_mr_as_complex = {
+				sea_attack = 5
+			}
+			missile_frigate = {
+				maximum_speed = -0.2
+			}
+			missile_destroyer = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}			
+		}		
+	}
+ 	can_upgrade = no
+	change = yes
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+
+#Soviet supersonic AS missiles
+#SOV_ss_lr_as_complex_0;SS-N-12 Sandbox;;;;;;;;;;;;;x
+#SOV_ss_lr_as_complex_1;SS-N-19 Shipwreck;;;;;;;;;;;;;x
+#SOV_ss_lr_as_complex_2;SS-N-26 Onyx;;;;;;;;;;;;;x
+#default range: 550km
+#default sea attack: 24
+
+antishipmissile_longrange_supersonic = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {
+			antishipmissile_longrange = 1
+			battlegroup_missilebattlegroup = 1
+			faction = comintern 
+		}
+		2 = {
+		}
+		3 = {
+			antishipmissile_longrange = 2
+		}
+		4 = {
+		}		
+	}
+	traits = {
+		surface_theory
+		armament_theory		
+	}
+	level_effect = {
+		1 = {	
+			ss_lr_as_complex = {
+				sea_attack = 3
+			}
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}	
+		}
+		2 = {	
+			ss_lr_as_complex = {
+				sea_attack = 2
+			}
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}			
+		}
+		3 = {	
+			ss_lr_as_complex = {
+				sea_attack = 3
+				range = -250
+			}
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}			
+		}
+		4 = {	
+			ss_lr_as_complex = {
+				sea_attack = 3
+			}
+			nuclear_submarine = {
+				maximum_speed = -0.1
+			}
+			nuclear_guided_submarine = {
+				maximum_speed = -0.1
+			}
+			missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_missile_cruiser = {
+				maximum_speed = -0.1
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = -0.1
+			}
+			battleship = {
+				maximum_speed = -0.1
+			}			
+			helicopter_carrier = {
+				maximum_speed = -0.1
+			}
+			carrier = {
+				maximum_speed = -0.1
+			}	
+			supercarrier = {
+				maximum_speed = -0.1
+			}			
+		}		
+	}
+ 	can_upgrade = no
+	change = yes
+	folder =  warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+#nuclear battlecruiser
+#Biga: changed to doctrine, for unit see naval techs.
+
+nuclearbattlecruiser_doctrine = {
+
+	allow = {
+		battlegroup_missilebattlegroup = 1
+		targetingsystems = 4
+		unit_missilecruiser = 2
+		propulsion_nuclear_surface = 1
+		antishipmissile_longrange_supersonic = 2
+		closedefense = 2
+		conventionalnavalgun = 3
+		helicopterplatform = 2
+		antisub_torpedorocket = 3
+		launcher_vls = 1
+		faction = comintern
+	}
+	traits = {
+		warsaw_theory	
+		surface_theory	
+		armament_theory
+		vessels_theory
+		systems_theory		
+	}	
+	activate_unit = {
+		nuclear_battlecruiser
+	}
+	
+	folder = warsaw_doctrine1_folder
+	time = 100
+	cost = 100
+}
+

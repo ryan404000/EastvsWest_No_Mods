@@ -1,0 +1,1662 @@
+1515006 = {
+	name = "Vito Cano"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.12.1 = { rank = 0 }
+	}
+}
+1515004 = {
+	name = "Ignacio Badillo"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.8.1 = { rank = 0 }
+	}
+}
+1515001 = {
+	name = "Benito Castillo"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1515008 = {
+	name = "Ariel Montenegro"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.12.1 = { rank = 1 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1515002 = {
+	name = "Ezequiel Delgadillo"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.12.1 = { rank = 2 }
+		1952.11.1 = { rank = 0 }
+	}
+}
+1515011 = {
+	name = "Ramiro Dominquez"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1951.8.1 = { rank = 1 }
+		1952.11.1 = { rank = 2 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1515010 = {
+	name = "Mateo Fajardo"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1954.5.1 = { rank = 0 }
+	}
+}
+1515013 = {
+	name = "Leandro Matias"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.1.1 = { rank = 1 }
+		1955.5.1 = { rank = 0 }
+	}
+}
+1515007 = {
+	name = "Alfonso Luna"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1956.7.1 = { rank = 0 }
+	}
+}
+1515016 = {
+	name = "Bernardo Ibarra"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.7.1 = { rank = 1 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1515005 = {
+	name = "Froila Almaraz"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.12.1 = { rank = 3 }
+		1956.7.1 = { rank = 4 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1515000 = {
+	name = "Sergio Concepcion"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1515003 = {
+	name = "Ordono Pagan"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 2 }
+		1956.7.1 = { rank = 3 }
+		1958.4.1 = { rank = 4 }
+		1960.4.1 = { rank = 0 }
+	}
+}
+1515020 = {
+	name = "Alberto Palacios"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.4.1 = { rank = 1 }
+		1961.6.1 = { rank = 0 }
+	}
+}
+1515014 = {
+	name = "Leonardo Angulo"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1954.5.1 = { rank = 1 }
+		1958.4.1 = { rank = 2 }
+		1960.4.1 = { rank = 3 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1515019 = {
+	name = "Ordono Saldivar"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1959.4.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1515021 = {
+	name = "Rubén Zaragoza"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.6.1 = { rank = 1 }
+		1962.2.1 = { rank = 2 }
+		1964.9.1 = { rank = 0 }
+	}
+}
+1515012 = {
+	name = "Germán Sanabria"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.11.1 = { rank = 1 }
+		1960.4.1 = { rank = 2 }
+		1962.2.1 = { rank = 3 }
+		1965.3.1 = { rank = 0 }
+	}
+}
+1515009 = {
+	name = "Fulberto Zepeda"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.8.1 = { rank = 1 }
+		1966.10.1 = { rank = 0 }
+	}
+}
+1515025 = {
+	name = "Teodoro Zaragoza"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.3.1 = { rank = 1 }
+		1967.5.1 = { rank = 0 }
+	}
+}
+1515027 = {
+	name = "Oriol Hernadez"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = engineer
+	history = {
+		1967.5.1 = { rank = 1 }
+		1968.8.1 = { rank = 0 }
+	}
+}
+1515022 = {
+	name = "Tadeo Agosto"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1965.3.1 = { rank = 2 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1515015 = {
+	name = "Julián Godinez"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.5.1 = { rank = 1 }
+		1956.7.1 = { rank = 2 }
+		1958.4.1 = { rank = 3 }
+		1960.4.1 = { rank = 4 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1515024 = {
+	name = "Alfredo Morales"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.9.1 = { rank = 1 }
+		1971.9.1 = { rank = 0 }
+	}
+}
+1515028 = {
+	name = "Pedro Mendoza"
+	type = land
+	country = ECU
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.8.1 = { rank = 1 }
+		1969.8.1 = { rank = 2 }
+		1970.5.1 = { rank = 3 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1515030 = {
+	name = "Adalberto Garay"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1973.7.1 = { rank = 0 }
+	}
+}
+1515026 = {
+	name = "Sancho Orosco"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1966.10.1 = { rank = 1 }
+		1970.5.1 = { rank = 2 }
+		1972.7.1 = { rank = 3 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1515033 = {
+	name = "Isidro Tejada"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.7.1 = { rank = 1 }
+		1975.2.1 = { rank = 0 }
+	}
+}
+1515032 = {
+	name = "Florio Toro"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.7.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1515017 = {
+	name = "César Saldivar"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1515018 = {
+	name = "Ginés Veliz"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.4.1 = { rank = 1 }
+		1964.9.1 = { rank = 2 }
+		1965.3.1 = { rank = 3 }
+		1970.5.1 = { rank = 4 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1515036 = {
+	name = "Augustín Regalado"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.8.1 = { rank = 1 }
+		1979.8.1 = { rank = 0 }
+	}
+}
+1515023 = {
+	name = "Antonio Soto"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.12.1 = { rank = 1 }
+		1974.12.1 = { rank = 2 }
+		1978.8.1 = { rank = 3 }
+		1980.4.1 = { rank = 0 }
+	}
+}
+1515038 = {
+	name = "Antonio Pineda"
+	type = land
+	country = ECU
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.8.1 = { rank = 1 }
+		1981.11.1 = { rank = 0 }
+	}
+}
+1515035 = {
+	name = "Diego Ordonez"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1975.2.1 = { rank = 1 }
+		1982.5.1 = { rank = 0 }
+	}
+}
+1515037 = {
+	name = "Gilberto Zamora"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1515034 = {
+	name = "Alfredo Maestas"
+	type = land
+	country = ECU
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1974.12.1 = { rank = 1 }
+		1978.8.1 = { rank = 2 }
+		1980.4.1 = { rank = 3 }
+		1984.2.1 = { rank = 0 }
+	}
+}
+1515029 = {
+	name = "Aitor Iglesias"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1969.8.1 = { rank = 1 }
+		1972.7.1 = { rank = 2 }
+		1974.12.1 = { rank = 3 }
+		1978.8.1 = { rank = 4 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1515040 = {
+	name = "Mario Marin"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.4.1 = { rank = 1 }
+		1985.12.1 = { rank = 2 }
+		1986.6.1 = { rank = 0 }
+	}
+}
+1515042 = {
+	name = "Oriol Alvarado"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.5.1 = { rank = 1 }
+		1987.7.1 = { rank = 0 }
+	}
+}
+1515047 = {
+	name = "Fermín Villalobos"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.7.1 = { rank = 1 }
+		1988.9.1 = { rank = 0 }
+	}
+}
+1515043 = {
+	name = "Humberto Feliciano"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1984.2.1 = { rank = 2 }
+		1985.12.1 = { rank = 3 }
+		1989.6.1 = { rank = 0 }
+	}
+}
+1515045 = {
+	name = "Dionisio Gallardo"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.12.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1515031 = {
+	name = "Froilán Caballero"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515039 = {
+	name = "Gonzalo Torres"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.8.1 = { rank = 1 }
+		1980.4.1 = { rank = 2 }
+		1984.2.1 = { rank = 3 }
+		1985.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515041 = {
+	name = "Teodoro Almaraz"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1981.11.1 = { rank = 1 }
+		1986.6.1 = { rank = 2 }
+		1989.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515044 = {
+	name = "Modesto Negrete"
+	type = land
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.2.1 = { rank = 1 }
+		1989.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515046 = {
+	name = "Claudio Arteaga"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515048 = {
+	name = "Armando Alva"
+	type = land
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515049 = {
+	name = "Leandro Valdivia"
+	type = land
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515050 = {
+	name = "Rubén Diaz"
+	type = land
+	country = ECU
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515054 = {
+	name = "Humberto Curiel"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.1.1 = { rank = 0 }
+	}
+}
+1515053 = {
+	name = "Raúl Gonzales"
+	type = sea
+	country = ECU
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.10.1 = { rank = 0 }
+	}
+}
+1515051 = {
+	name = "Enrique Riojas"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.3.1 = { rank = 0 }
+	}
+}
+1515057 = {
+	name = "Marcelino Raya"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1956.10.1 = { rank = 0 }
+	}
+}
+1515058 = {
+	name = "Álvaro Ornelas"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1958.6.1 = { rank = 0 }
+	}
+}
+1515060 = {
+	name = "Diego Loera"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.10.1 = { rank = 1 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1515059 = {
+	name = "Rodolfo Lopez"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1948.1.1 = { rank = 1 }
+		1960.7.1 = { rank = 0 }
+	}
+}
+1515056 = {
+	name = "Jesús Burgos"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.10.1 = { rank = 3 }
+		1958.6.1 = { rank = 4 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1515064 = {
+	name = "Moisés Carranza"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1963.4.1 = { rank = 0 }
+	}
+}
+1515062 = {
+	name = "Modesto Cuellar"
+	type = sea
+	country = ECU
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1956.10.1 = { rank = 1 }
+		1958.6.1 = { rank = 2 }
+		1961.12.1 = { rank = 3 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1515052 = {
+	name = "Juan Velez"
+	type = sea
+	country = ECU
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1515068 = {
+	name = "Ladislao Salgado"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.2.1 = { rank = 1 }
+		1968.5.1 = { rank = 0 }
+	}
+}
+1515066 = {
+	name = "Raúl Becerra"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1968.6.1 = { rank = 0 }
+	}
+}
+1515063 = {
+	name = "Moisés Serrano"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.6.1 = { rank = 1 }
+		1971.8.1 = { rank = 0 }
+	}
+}
+1515055 = {
+	name = "Natalio Benitez"
+	type = sea
+	country = ECU
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.12.1 = { rank = 2 }
+		1964.2.1 = { rank = 3 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1515067 = {
+	name = "Miguel Gaitan"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.4.1 = { rank = 1 }
+		1964.2.1 = { rank = 2 }
+		1972.9.1 = { rank = 3 }
+		1977.10.1 = { rank = 0 }
+	}
+}
+1515073 = {
+	name = "Floro Arellano"
+	type = sea
+	country = ECU
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1515071 = {
+	name = "Pedro Arteaga"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.6.1 = { rank = 1 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1515076 = {
+	name = "Albano Patino"
+	type = sea
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.12.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1515061 = {
+	name = "Aarón Salas"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.3.1 = { rank = 1 }
+		1956.10.1 = { rank = 2 }
+		1958.6.1 = { rank = 3 }
+		1961.12.1 = { rank = 4 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1515074 = {
+	name = "Matías Riojas"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.10.1 = { rank = 1 }
+		1983.8.1 = { rank = 0 }
+	}
+}
+1515069 = {
+	name = "Ósca Abrego"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1977.10.1 = { rank = 2 }
+		1983.4.1 = { rank = 3 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1515070 = {
+	name = "Miguel Ángel Alaniz"
+	type = sea
+	country = ECU
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.5.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1977.10.1 = { rank = 3 }
+		1983.4.1 = { rank = 4 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1515065 = {
+	name = "Silvio Carmona"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.7.1 = { rank = 1 }
+		1983.4.1 = { rank = 2 }
+		1988.12.1 = { rank = 3 }
+		1990.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515072 = {
+	name = "Natalio Verduzco"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515075 = {
+	name = "Marcelino Brito"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.8.1 = { rank = 1 }
+		1990.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515077 = {
+	name = "Rodrigo Verdugo"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515078 = {
+	name = "Pablito Agosto"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.4.1 = { rank = 1 }
+		1988.12.1 = { rank = 2 }
+		1990.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515079 = {
+	name = "Oswaldo Rosario"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1983.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515080 = {
+	name = "León Toro"
+	type = sea
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515081 = {
+	name = "Manuel Canales"
+	type = sea
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515089 = {
+	name = "Bonifacio Robledo"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.9.1 = { rank = 0 }
+	}
+}
+1515082 = {
+	name = "Domingo Lomeli"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.5.1 = { rank = 0 }
+	}
+}
+1515084 = {
+	name = "Ginés Esquibel"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.5.1 = { rank = 0 }
+	}
+}
+1515091 = {
+	name = "Carlos Osorio"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.9.1 = { rank = 1 }
+		1950.11.1 = { rank = 0 }
+	}
+}
+1515090 = {
+	name = "Simón Luevano"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.1.1 = { rank = 0 }
+	}
+}
+1515086 = {
+	name = "Feliciano Madera"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1515094 = {
+	name = "Ricardo Sedillo"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.11.1 = { rank = 1 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1515095 = {
+	name = "Domingo Saavedra"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.1.1 = { rank = 1 }
+		1955.3.1 = { rank = 0 }
+	}
+}
+1515083 = {
+	name = "David Palacios"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.9.1 = { rank = 2 }
+		1951.1.1 = { rank = 3 }
+		1958.8.1 = { rank = 0 }
+	}
+}
+1515087 = {
+	name = "Santiago Villareal"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1515099 = {
+	name = "Silvio Rivero"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1958.8.1 = { rank = 1 }
+		1962.3.1 = { rank = 0 }
+	}
+}
+1515092 = {
+	name = "Aitor Nieto"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.5.1 = { rank = 1 }
+		1951.1.1 = { rank = 2 }
+		1958.8.1 = { rank = 3 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1515102 = {
+	name = "Sergio Rodarte"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.3.1 = { rank = 1 }
+		1969.4.1 = { rank = 0 }
+	}
+}
+1515101 = {
+	name = "Benito Ponce"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.3.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1515093 = {
+	name = "Simón Briseno"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.5.1 = { rank = 1 }
+		1971.6.1 = { rank = 0 }
+	}
+}
+1515100 = {
+	name = "Ángel Ruiz"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1971.6.1 = { rank = 0 }
+	}
+}
+1515097 = {
+	name = "Floro Medina"
+	type = air
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.1.1 = { rank = 1 }
+		1964.3.1 = { rank = 2 }
+		1973.9.1 = { rank = 0 }
+	}
+}
+1515085 = {
+	name = "Agustín Cuellar"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.1.1 = { rank = 2 }
+		1964.3.1 = { rank = 3 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1515108 = {
+	name = "Rodolfo Rosas"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.3.1 = { rank = 1 }
+		1974.5.1 = { rank = 0 }
+	}
+}
+1515107 = {
+	name = "Joaquín Alba"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.9.1 = { rank = 1 }
+		1975.4.1 = { rank = 0 }
+	}
+}
+1515105 = {
+	name = "Franco Rios"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.6.1 = { rank = 1 }
+		1973.9.1 = { rank = 2 }
+		1976.5.1 = { rank = 0 }
+	}
+}
+1515106 = {
+	name = "Ezequiel Villalobos"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1971.6.1 = { rank = 1 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1515098 = {
+	name = "Joaquín Naranjo"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1955.3.1 = { rank = 1 }
+		1973.3.1 = { rank = 2 }
+		1978.5.1 = { rank = 0 }
+	}
+}
+1515110 = {
+	name = "Cayetano Cervantes"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1975.4.1 = { rank = 1 }
+		1978.3.1 = { rank = 0 }
+	}
+}
+1515096 = {
+	name = "Luciano Camacho"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.8.1 = { rank = 1 }
+		1958.8.1 = { rank = 2 }
+		1973.3.1 = { rank = 3 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1515111 = {
+	name = "Damián Blanco"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1976.5.1 = { rank = 1 }
+		1978.5.1 = { rank = 2 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1515113 = {
+	name = "Vito Banda"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.5.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1515104 = {
+	name = "Florio Salinas"
+	type = air
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.11.1 = { rank = 1 }
+		1976.5.1 = { rank = 2 }
+		1978.1.1 = { rank = 3 }
+		1982.7.1 = { rank = 0 }
+	}
+}
+1515088 = {
+	name = "Leonardo Chavez"
+	type = air
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.9.1 = { rank = 3 }
+		1951.1.1 = { rank = 4 }
+		1983.10.1 = { rank = 0 }
+	}
+}
+1515118 = {
+	name = "Gustavo Saldivar"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.7.1 = { rank = 1 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1515109 = {
+	name = "Yago Correa"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1974.5.1 = { rank = 1 }
+		1978.1.1 = { rank = 2 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1515103 = {
+	name = "Fulco Terrazas"
+	type = air
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.4.1 = { rank = 1 }
+		1983.10.1 = { rank = 2 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1515116 = {
+	name = "Bernardo Hernadez"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1980.7.1 = { rank = 1 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1515119 = {
+	name = "Moisés Maldonado"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.10.1 = { rank = 1 }
+		1986.4.1 = { rank = 0 }
+	}
+}
+1515114 = {
+	name = "Pablito Castro"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1978.3.1 = { rank = 1 }
+		1988.7.1 = { rank = 0 }
+	}
+}
+1515115 = {
+	name = "Eloy Osorio"
+	type = air
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1978.1.1 = { rank = 1 }
+		1984.8.1 = { rank = 2 }
+		1990.1.1 = { rank = 0 }
+	}
+}
+1515112 = {
+	name = "Adriano Zelaya"
+	type = air
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.3.1 = { rank = 1 }
+		1980.7.1 = { rank = 2 }
+		1982.7.1 = { rank = 3 }
+		1983.10.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515117 = {
+	name = "Damián Regalado"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1982.7.1 = { rank = 2 }
+		1983.10.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515120 = {
+	name = "Eliseo Frias"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515121 = {
+	name = "Mateo Ledesma"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1984.8.1 = { rank = 1 }
+		1984.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515122 = {
+	name = "Carlos Naranjo"
+	type = air
+	country = ECU
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.12.1 = { rank = 1 }
+		1990.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515123 = {
+	name = "Abundio Arteaga"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515124 = {
+	name = "Gilberto Becerra"
+	type = air
+	country = ECU
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1986.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515125 = {
+	name = "Albano Duenas"
+	type = air
+	country = ECU
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1515126 = {
+	name = "Rubén Montalvo"
+	type = air
+	country = ECU
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1990.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

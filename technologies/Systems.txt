@@ -1,0 +1,2451 @@
+# List of all Naval System techs
+	#propulsion_steam						( 6 levels)
+	#propulsion_gas							( 5 levels)
+	#propulsion_diesel_surface_40s			( 6 levels)
+	#propulsion_diesel_submarine			( 6 levels)
+	#propulsion_nuclear						( 1 level )
+	#propulsion_nuclear_surface				( 4 levels)
+	#propulsion_nuclear_submarine			( 4 levels)
+	#nuclearpropulsion_trials_submarine		( 1 level )
+	#nuclearpropulsion_trials_surfacevessel	( 1 level )
+	
+	#radarsystem_airsearch					( 6 levels)
+	#radarsystem_surfacesearch				( 6 levels)
+	#radarsystem_3dsearch					( 3 levels)
+	#sonarsystem							( 6 levels)
+	#towed_sonarsystem						( 2 levels)
+	#torpedodefensesystem					( 3 levels)
+	#helicopterplatform						( 5 levels)
+
+###############################
+# Propulsions
+###############################
+
+propulsion_steam = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {
+			industry_heavy_mechanical_engineering = 1
+		}
+		2 = {
+			industry_heavy_mechanical_engineering = 2
+		}
+		3 = {
+			industry_heavy_mechanical_engineering = 3
+		}
+		4 = {
+			industry_heavy_mechanical_engineering = 5
+		}
+		5 = {
+			industry_heavy_mechanical_engineering = 7
+		}
+		6 = {
+			industry_heavy_mechanical_engineering = 8
+		}
+	}
+	traits = {
+		industry_theory
+	}
+	level_effect = {
+		1 = {
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			destroyer = {
+				maximum_speed = 2.0
+			}			
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			cruiser = {
+				maximum_speed = 1.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			battleship = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+			escort_carrier = {
+				maximum_speed = 1.0
+			}
+			carrier = {
+				maximum_speed = 1.0
+			}			
+			supercarrier = {
+				maximum_speed = 1.0
+			}			
+		}
+		2 = {
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			destroyer = {
+				maximum_speed = 2.0
+			}			
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			cruiser = {
+				maximum_speed = 1.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			battleship = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+			escort_carrier = {
+				maximum_speed = 1.0
+			}
+			carrier = {
+				maximum_speed = 1.0
+			}			
+			supercarrier = {
+				maximum_speed = 1.0
+			}
+		}
+		3 = {
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			destroyer = {
+				maximum_speed = 2.0
+			}			
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			cruiser = {
+				maximum_speed = 1.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			battleship = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+			escort_carrier = {
+				maximum_speed = 1.0
+			}
+			carrier = {
+				maximum_speed = 1.0
+			}			
+			supercarrier = {
+				maximum_speed = 1.0
+			}
+		}
+		4 = {
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			destroyer = {
+				maximum_speed = 2.0
+			}			
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			cruiser = {
+				maximum_speed = 1.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			battleship = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+			escort_carrier = {
+				maximum_speed = 1.0
+			}
+			carrier = {
+				maximum_speed = 1.0
+			}			
+			supercarrier = {
+				maximum_speed = 1.0
+			}
+		}
+		5 = {
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			destroyer = {
+				maximum_speed = 2.0
+			}			
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			cruiser = {
+				maximum_speed = 1.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			battleship = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+			escort_carrier = {
+				maximum_speed = 1.0
+			}
+			carrier = {
+				maximum_speed = 1.0
+			}			
+			supercarrier = {
+				maximum_speed = 1.0
+			}
+		}
+		6 = {
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			destroyer = {
+				maximum_speed = 2.0
+			}			
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			cruiser = {
+				maximum_speed = 1.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			battleship = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+			escort_carrier = {
+				maximum_speed = 1.0
+			}
+			carrier = {
+				maximum_speed = 1.0
+			}			
+			supercarrier = {
+				maximum_speed = 1.0
+			}		
+		}
+	}
+ 	can_upgrade = no
+	change = yes
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Propulsion Gas Turbine
+
+#propulsion_gas_1;Model 1960;;;;;;;;;;;;;x
+#propulsion_gas_2;Model 1967;;;;;;;;;;;;;x
+#propulsion_gas_3;Model 1974;;;;;;;;;;;;;x
+#propulsion_gas_4;Model 1981;;;;;;;;;;;;;x
+#propulsion_gas_5;Model 1988;;;;;;;;;;;;;x
+
+propulsion_gas = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {
+			industry_heavy_mechanical_engineering = 1
+		}
+		2 = {
+			industry_heavy_mechanical_engineering = 2
+		}
+		3 = {
+			industry_heavy_mechanical_engineering = 3
+		}
+		4 = {
+			industry_heavy_mechanical_engineering = 5
+		}
+		5 = {
+			industry_heavy_mechanical_engineering = 8
+		}
+	}
+	traits = {
+		industry_theory
+	}
+
+	level_effect = {
+		1 = {
+			missile_boat = {
+				maximum_speed = 3.0
+			}			
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+		}
+		2 = {
+			missile_boat = {
+				maximum_speed = 3.0
+			}			
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+		}
+		3 = {
+			missile_boat = {
+				maximum_speed = 3.0
+			}			
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+		}
+		4 = {
+			missile_boat = {
+				maximum_speed = 3.0
+			}		
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+		}
+		5 = {
+			missile_boat = {
+				maximum_speed = 3.0
+			}	
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+		}
+		6 = {
+			missile_boat = {
+				maximum_speed = 3.0
+			}	
+			missile_frigate = {
+				maximum_speed = 2.0
+			}
+			missile_destroyer = {
+				maximum_speed = 2.0
+			}
+			missile_cruiser = {
+				maximum_speed = 1.0
+			}
+			nuclear_battlecruiser = {
+				maximum_speed = 1.0
+			}			
+			helicopter_carrier = {
+				maximum_speed = 1.0
+			}
+		}		
+	}
+ 	can_upgrade = no
+	change = yes
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Propulsion surface diesel
+#
+#propulsion_diesel_0;Model 1941;;;;;;;;;;;;;x
+#propulsion_diesel_1;Model 1946;;;;;;;;;;;;;x
+#propulsion_diesel_2;Model 1950;;;;;;;;;;;;;x
+#propulsion_diesel_3;Model 1960;;;;;;;;;;;;;x
+#propulsion_diesel_4;Model 1970;;;;;;;;;;;;;x
+#propulsion_diesel_5;Model 1980;;;;;;;;;;;;;x
+#propulsion_diesel_6;Model 1990;;;;;;;;;;;;;x
+
+propulsion_diesel_surface_40s = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {}
+		2 = {
+			industry_heavy_mechanical_engineering = 1
+		}
+		3 = {
+			industry_heavy_mechanical_engineering = 3
+		}
+		4 = {
+			industry_heavy_mechanical_engineering = 5
+		}
+		5 = {
+			industry_heavy_mechanical_engineering = 7
+		}
+		6 = {
+			industry_heavy_mechanical_engineering = 9
+		}
+	}
+	traits = {
+		industry_theory
+	}
+	
+	level_effect = {
+		1 = {
+			missile_boat = {
+				maximum_speed = 2
+			}
+			missile_frigate = {
+				maximum_speed = 1.0
+			}
+		}
+		2 = {
+			missile_boat = {
+				maximum_speed = 2
+			}
+			missile_frigate = {
+				maximum_speed = 1.0
+			}
+		}
+		3 = {
+			missile_boat = {
+				maximum_speed = 2
+			}
+			missile_frigate = {
+				maximum_speed = 1.0
+			}
+		}
+		4 = {
+			missile_boat = {
+				maximum_speed = 2
+			}
+			missile_frigate = {
+				maximum_speed = 1.0
+			}
+		}
+		5 = {
+			missile_boat = {
+				maximum_speed = 2
+			}
+			missile_frigate = {
+				maximum_speed = 1.0
+			}
+		}
+		6 = {
+			missile_boat = {
+				maximum_speed = 2
+			}
+			missile_frigate = {
+				maximum_speed = 1.0
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = yes
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Diesel-Electric Submarine Prop
+
+propulsion_diesel_submarine = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {
+			industry_heavy_mechanical_engineering = 1
+		}
+		2 = {
+			industry_chemistry = 5
+			industry_heavy_mechanical_engineering = 3
+		}
+		3 = {
+		}
+		4 = {
+			industry_chemistry = 6
+			industry_heavy_mechanical_engineering = 7
+		}
+		5 = {
+			industry_chemistry = 7
+		}
+		6 = {
+			industry_heavy_mechanical_engineering = 9
+			industry_physics = 9
+		}
+	}
+	traits = {
+		industry_theory
+		science_theory
+	}	
+	level_effect = {
+		1 = {
+#			submarine = {
+#				#visibility = -0.5
+#			}		
+#			attack_submarine = {
+#				#visibility = -0.5
+#			}
+#			guided_submarine = {
+#				#visibility = -0.5
+#			}	
+		}
+		2 = {
+#			submarine = {
+#				#visibility = -0.5
+#			}		
+#			attack_submarine = {
+#				#visibility = -0.5
+#			}
+#			guided_submarine = {
+#				#visibility = -0.5
+#			}
+		}
+		3 = {
+#			submarine = {
+#				#visibility = -0.5
+#			}		
+#			attack_submarine = {
+#				#visibility = -0.5
+#			}
+#			guided_submarine = {
+#				#visibility = -0.5
+#			}
+		}
+		4 = {
+#			submarine = {
+#				#visibility = -0.5
+#			}		
+#			attack_submarine = {
+#				#visibility = -0.5
+#			}
+#			guided_submarine = {
+#				#visibility = -0.5
+#			}		
+		}
+		5 = {
+#			submarine = {
+#				#visibility = -0.5
+#			}		
+#			attack_submarine = {
+#				#visibility = -0.5
+#			}
+#			guided_submarine = {
+#				#visibility = -0.5
+#			}
+		}
+		6 = {
+#			submarine = {
+#				#visibility = -0.5
+#			}		
+#			attack_submarine = {
+#				#visibility = -0.5
+#			}
+#			guided_submarine = {
+#				#visibility = -0.5
+#			}
+		}
+	}
+ 	can_upgrade = no
+	change = yes
+	folder = naval_tech2_folder
+	time = 200
+	cost = 100
+}
+
+propulsion_nuclear = {
+
+	allow = {
+		nuclear_nuclear_power = 1
+		propulsion_steam = 1
+	}
+	traits = {
+		systems_theory
+		nuclear_theory
+	}
+	
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Nuclear prop for surface units
+
+#propulsion_nuclear_surface_1;Model 1960;;;;;;;;;;;;;x
+#propulsion_nuclear_surface_2;Model 1970;;;;;;;;;;;;;x
+#propulsion_nuclear_surface_3;Model 1980;;;;;;;;;;;;;x
+#propulsion_nuclear_surface_4;Model 1990;;;;;;;;;;;;;x
+
+propulsion_nuclear_surface = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {
+			nuclearpropulsion_trials_surfacevessel = 1
+		}
+		2 = {
+			industry_physics = 4
+		}
+		3 = {
+			industry_physics = 6
+		}
+		4 = {
+			industry_physics = 8
+		}
+	}
+	traits = {
+		systems_theory
+		science_theory
+	}
+	level_effect = {
+		1 = {
+			nuclear_missile_cruiser = {
+				maximum_speed = 1
+			}		
+			nuclear_battlecruiser = {
+				maximum_speed = 1
+			}
+			supercarrier = {
+				maximum_speed = 1
+			}
+		}
+		2 = {
+			nuclear_missile_cruiser = {
+				maximum_speed = 1
+			}		
+			nuclear_battlecruiser = {
+				maximum_speed = 1
+			}
+			supercarrier = {
+				maximum_speed = 1
+			}
+		}
+		3 = {
+			nuclear_missile_cruiser = {
+				maximum_speed = 1
+			}		
+			nuclear_battlecruiser = {
+				maximum_speed = 1
+			}
+			supercarrier = {
+				maximum_speed = 1
+			}
+		}
+		4 = {
+			nuclear_missile_cruiser = {
+				maximum_speed = 1
+			}		
+			nuclear_battlecruiser = {
+				maximum_speed = 1
+			}
+			supercarrier = {
+				maximum_speed = 1
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = yes
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Nuclear Propulsion for Submarines
+#propulsion_nuclear_submarine_1;Model 1960;;;;;;;;;;;;;x
+#propulsion_nuclear_submarine_2;Model 1970;;;;;;;;;;;;;x
+#propulsion_nuclear_submarine_3;Model 1980;;;;;;;;;;;;;x
+#propulsion_nuclear_submarine_4;Model 1990;;;;;;;;;;;;;x
+
+propulsion_nuclear_submarine = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {
+			nuclearpropulsion_trials_submarine = 1
+		}
+		2 = {
+			industry_physics = 3
+		}
+		3 = {
+			industry_physics = 5
+		}
+		4 = {
+			industry_physics = 7
+		}
+	}
+	traits = {
+		systems_theory
+		industry_theory
+	}
+	level_effect = {
+		1 = {
+			nuclear_submarine = {
+				#visibility = -1
+			}
+			ballistic_missile_submarine = {
+				#visibility = -1
+			}
+			nuclear_guided_submarine = {
+				#visibility = -1
+			}
+		}
+		2 = {
+			nuclear_submarine = {
+				#visibility = -1
+			}
+			ballistic_missile_submarine = {
+				#visibility = -1
+			}
+			nuclear_guided_submarine = {
+				#visibility = -1
+			}
+		}
+		3 = {
+			nuclear_submarine = {
+				#visibility = -1
+			}
+			ballistic_missile_submarine = {
+				#visibility = -1
+			}
+			nuclear_guided_submarine = {
+				#visibility = -1
+			}
+		}
+		4 = {
+			nuclear_submarine = {
+				#visibility = -1
+			}
+			ballistic_missile_submarine = {
+				#visibility = -1
+			}
+			nuclear_guided_submarine = {
+				#visibility = -1
+			}
+		}
+	}
+ 	can_upgrade = no
+	change = yes
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+nuclearpropulsion_trials_submarine = {
+
+	allow = {
+		propulsion_nuclear = 1
+		propulsion_steam = 2
+		industry_heavy_mechanical_engineering = 1
+	}
+	traits = {
+		systems_theory
+		industry_theory
+	}
+
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+nuclearpropulsion_trials_surfacevessel = {
+
+	allow = {
+		propulsion_nuclear = 1
+		propulsion_steam = 2
+		industry_heavy_mechanical_engineering = 1
+	}	
+	traits = {
+		systems_theory
+		industry_theory
+	}
+	
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+
+# 3D search systems
+#radarsystem_3dsearch_1;Model 1970;;;;;;;;;;;;;x
+#radarsystem_3dsearch_2;Model 1980;;;;;;;;;;;;;x
+#radarsystem_3dsearch_3;Model 1990;;;;;;;;;;;;;x
+
+radarsystem_3dsearch = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {
+			radarsystem_airsearch = 3
+			industry_hightech_computers = 3
+			industry_softwareengineering = 1
+		}
+		2 = {
+			radarsystem_airsearch = 4
+		}
+		3 = {
+			industry_hightech_computers = 4
+			industry_softwareengineering = 2
+		}
+
+	}
+	traits = {
+		systems_theory
+		science_theory
+	}
+	
+	level_effect = {
+		1 = {
+			missile_destroyer = {
+				air_detection = 8.00
+			}		
+			missile_cruiser = {
+				air_detection = 10.00
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 10.00
+			}
+			nuclear_battlecruiser = {
+				air_detection = 10.00
+			}
+			helicopter_carrier = {
+				air_detection = 8.00
+			}	
+			carrier = {
+				air_detection = 9.00
+			}			
+			supercarrier = {
+				air_detection = 10.00
+			}			
+		}
+		2 = {
+			missile_destroyer = {
+				air_detection = 8.00
+			}		
+			missile_cruiser = {
+				air_detection = 10.00
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 10.00
+			}
+			nuclear_battlecruiser = {
+				air_detection = 10.00
+			}
+			helicopter_carrier = {
+				air_detection = 8.00
+			}
+			carrier = {
+				air_detection = 9.00
+			}				
+			supercarrier = {
+				air_detection = 10.00
+			}	
+		}
+		3 = {
+			missile_destroyer = {
+				air_detection = 8.00
+			}		
+			missile_cruiser = {
+				air_detection = 10.00
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 10.00
+			}
+			nuclear_battlecruiser = {
+				air_detection = 10.00
+			}
+			helicopter_carrier = {
+				air_detection = 8.00
+			}
+			carrier = {
+				air_detection = 9.00
+			}			
+			supercarrier = {
+				air_detection = 10.00
+			}	
+		}
+	}
+ 	can_upgrade = yes
+	change = no
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Air Search Radars
+#radarsystem_airsearch_0;Model 1941;;;;;;;;;;;;;x
+#radarsystem_airsearch_1;Model 1946;;;;;;;;;;;;;x
+#radarsystem_airsearch_2;Model 1950;;;;;;;;;;;;;x
+#radarsystem_airsearch_3;Model 1960;;;;;;;;;;;;;x
+#radarsystem_airsearch_4;Model 1970;;;;;;;;;;;;;x
+#radarsystem_airsearch_5;Model 1980;;;;;;;;;;;;;x
+#radarsystem_airsearch_6;Model 1990;;;;;;;;;;;;;x
+
+radarsystem_airsearch = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {
+			radar_general = 3
+		}
+		2 = {
+			radar_general = 4
+		}
+		3 = {
+			radar_general = 5
+		}
+		4 = {
+			radar_general = 6
+		}
+		5 = {
+			radar_general = 7
+			industry_hightech_computers = 2
+		}
+		6 = {
+			radar_general = 8
+			industry_hightech_computers = 3
+		}
+	}
+	traits = {
+		intel_theory
+		science_theory
+	}
+	level_effect = {
+		1 = {
+			missile_boat = {
+				air_detection = 2.00
+				surface_radar_range = 110
+			}		
+			missile_frigate = {
+				air_detection = 1.00
+				surface_radar_range = 90
+			}
+			destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 100
+			}				
+			missile_destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 90
+			}
+			cruiser = {
+				air_detection = 4.00
+				surface_radar_range = 90
+			}			
+			missile_cruiser = {
+				air_detection = 4.00
+				surface_radar_range = 90
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 90
+			}
+			nuclear_battlecruiser = {
+				air_detection = 2.00
+				surface_radar_range = 90
+			}
+			battleship = {
+				air_detection = 2.00
+				surface_radar_range = 90
+			}			
+			helicopter_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 90
+			}			
+			escort_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 90
+			}
+			carrier = {
+				air_detection = 2.00
+				surface_radar_range = 90
+			}
+			supercarrier = {
+				air_detection = 2.00
+				surface_radar_range = 90
+			}
+
+		}
+		2 = {
+			missile_boat = {
+				air_detection = 2.00
+				surface_radar_range = 70
+			}		
+			missile_frigate = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 60
+			}				
+			missile_destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_battlecruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			battleship = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			helicopter_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}			
+			escort_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			carrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			supercarrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+		}
+		3 = {
+			missile_boat = {
+				air_detection = 2.00
+				surface_radar_range = 70
+			}		
+			missile_frigate = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 60
+			}				
+			missile_destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_battlecruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			battleship = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			helicopter_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}			
+			escort_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			carrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			supercarrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+		}
+		4 = {
+			missile_boat = {
+				air_detection = 2.00
+				surface_radar_range = 70
+			}		
+			missile_frigate = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 60
+			}				
+			missile_destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_battlecruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			battleship = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			helicopter_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}			
+			escort_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			carrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			supercarrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+		}
+		5 = {
+			missile_boat = {
+				air_detection = 2.00
+				surface_radar_range = 70
+			}		
+			missile_frigate = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 60
+			}				
+			missile_destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_battlecruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			battleship = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			helicopter_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}			
+			escort_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			carrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			supercarrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+		}
+		6 = {
+			missile_boat = {
+				air_detection = 2.00
+				surface_radar_range = 70
+			}		
+			missile_frigate = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 60
+			}				
+			missile_destroyer = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_missile_cruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			nuclear_battlecruiser = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			battleship = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}			
+			helicopter_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}			
+			escort_carrier = {
+				air_detection = 1.00
+				surface_radar_range = 50
+			}
+			carrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+			supercarrier = {
+				air_detection = 2.00
+				surface_radar_range = 50
+			}
+		}
+	}
+	can_upgrade = yes
+	change = no 
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Surface Radar systems
+#radarsystem_surfacesearch_0;Model 1941;;;;;;;;;;;;;x
+#radarsystem_surfacesearch_1;Model 1946;;;;;;;;;;;;;x
+#radarsystem_surfacesearch_2;Model 1950;;;;;;;;;;;;;x
+#radarsystem_surfacesearch_3;Model 1960;;;;;;;;;;;;;x
+#radarsystem_surfacesearch_4;Model 1970;;;;;;;;;;;;;x
+#radarsystem_surfacesearch_5;Model 1980;;;;;;;;;;;;;x
+#radarsystem_surfacesearch_6;Model 1990;;;;;;;;;;;;;x
+
+radarsystem_surfacesearch = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {
+			radarsystem_airsearch = 1
+		}
+		2 = {
+			radarsystem_airsearch = 2
+		}
+		3 = {
+			radarsystem_airsearch = 3
+		}
+		4 = {
+		}
+		5 = {
+		}
+		6 = {
+		}
+	}
+	traits = {
+		systems_theory
+	}
+
+	level_effect = {
+		1 = {
+			missile_boat = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}	
+			missile_frigate = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}
+			destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 17.5
+			}			
+			missile_destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}
+			cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}			
+			missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}
+			nuclear_missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}
+			nuclear_battlecruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}			
+			battleship = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}
+			escort_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}			
+			carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}
+		}
+		2 = {
+			missile_boat = {
+				surface_detection = 1.00
+				surface_radar_range = 15
+			}	
+			missile_frigate = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}
+			destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 12.5
+			}			
+			missile_destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}
+			cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}			
+			missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}
+			nuclear_missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}
+			nuclear_battlecruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}			
+			battleship = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}
+			escort_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}			
+			carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				surface_radar_range = 10
+			}
+		}
+		3 = {
+			missile_boat = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}	
+			missile_frigate = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 22.5
+			}			
+			missile_destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			nuclear_missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			nuclear_battlecruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			battleship = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			escort_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+		}
+		4 = {
+			missile_boat = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}	
+			missile_frigate = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 22.5
+			}			
+			missile_destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			nuclear_missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			nuclear_battlecruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			battleship = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+			escort_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				surface_radar_range = 20
+			}
+		}
+		5 = {
+			missile_boat = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}	
+			missile_frigate = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}
+			destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 27.5
+			}			
+			missile_destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}
+			cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}			
+			missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}
+			nuclear_missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}
+			nuclear_battlecruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}			
+			battleship = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}
+			escort_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}			
+			carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				surface_radar_range = 25
+			}
+		}
+		6 = {
+			missile_boat = {
+				surface_detection = 1.00
+				surface_radar_range = 35
+			}	
+			missile_frigate = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}
+			destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 32.5
+			}			
+			missile_destroyer = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}
+			cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}			
+			missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}
+			nuclear_missile_cruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}
+			nuclear_battlecruiser = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}			
+			battleship = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}
+			escort_carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}			
+			carrier = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				surface_radar_range = 30
+			}
+		}
+	}
+ 	can_upgrade = yes
+	change = no
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Sonar Systems
+#sonarsystem_0;Model 1941;;;;;;;;;;;;;x
+#sonarsystem_1;Model 1946;;;;;;;;;;;;;x
+#sonarsystem_2;Model 1950;;;;;;;;;;;;;x
+#sonarsystem_3;Model 1960;;;;;;;;;;;;;x
+#sonarsystem_4;Model 1970;;;;;;;;;;;;;x
+#sonarsystem_5;Model 1980;;;;;;;;;;;;;x
+#sonarsystem_6;Model 1990;;;;;;;;;;;;;x
+
+sonarsystem = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = { 
+		1 = { # 50s
+			industry_electronics = 2				
+		}
+		2 = { # 60s
+			industry_electronics = 3				
+		}
+		3 = {	# 70s
+			industry_electronics = 4
+		}
+		4 = {	# 80s
+			industry_electronics = 5				
+		}
+		5 = {	# 80s
+			industry_electronics = 6		
+		}
+		6 = {	# 80s
+			industry_electronics = 7
+		}
+	}
+	traits = {
+		science_theory
+	}
+	level_effect = { # Surface Radar range to represent Sonar used to detect surface ships as well
+		1 = {
+			submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 3.5
+				surface_radar_range = 4
+			}			
+			attack_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 2.5
+				surface_radar_range = 3
+			}	
+			nuclear_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 2.5
+				surface_radar_range = 3
+			}	
+			guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 2.5
+				surface_radar_range = 3
+			}					
+			nuclear_guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 2.5
+				surface_radar_range = 3
+			}			
+			ballistic_missile_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 2.5
+				surface_radar_range = 3
+			}
+			missile_boat = {
+				sub_detection = 0.5
+				sonar_range = 3.5
+			}
+			missile_frigate = {
+				sub_detection = 0.5
+				sonar_range = 2.5
+			}			
+			destroyer = {
+				sub_detection = 0.5
+				sonar_range = 3
+			}
+			missile_destroyer = {
+				sub_detection = 0.5
+				sonar_range = 2.5
+			}
+			cruiser = {
+				sub_detection = 0.5
+				sonar_range = 2.5
+			}			
+			missile_cruiser = {
+				sub_detection = 1.00
+				sonar_range = 2.5
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 2.5
+			}
+			nuclear_battlecruiser = {
+				sub_detection = 0.5
+				sonar_range = 2.5
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				sonar_range = 2.5
+			}
+			carrier = {
+				surface_detection = 1.00
+				sonar_range = 2.5
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				sonar_range = 2.5
+			}			
+		}
+		2 = {
+			submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 5.5
+				surface_radar_range = 7
+			}			
+			attack_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4.5
+				surface_radar_range = 6
+			}	
+			nuclear_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4.5
+				surface_radar_range = 6
+			}	
+			guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4.5
+				surface_radar_range = 6
+			}					
+			nuclear_guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4.5
+				surface_radar_range = 6
+			}			
+			ballistic_missile_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4.5
+				surface_radar_range = 6
+			}
+			missile_boat = {
+				sub_detection = 0.5
+				sonar_range = 5.5
+			}
+			missile_frigate = {
+				sub_detection = 0.5
+				sonar_range = 4.5
+			}			
+			destroyer = {
+				sub_detection = 0.5
+				sonar_range = 5
+			}
+			missile_destroyer = {
+				sub_detection = 0.5
+				sonar_range = 4.5
+			}
+			cruiser = {
+				sub_detection = 0.5
+				sonar_range = 4.5
+			}			
+			missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 4.5
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 4.5
+			}
+			nuclear_battlecruiser = {
+				sub_detection = 0.5
+				sonar_range = 4.5
+			}			
+			helicopter_carrier = {
+				surface_detection = 0.5
+				sonar_range = 4.5
+			}
+			carrier = {
+				surface_detection = 0.5
+				sonar_range = 4.5
+			}			
+			supercarrier = {
+				surface_detection = 0.5
+				sonar_range = 4.5
+			}	
+		}
+		3 = {
+			submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 5
+				surface_radar_range = 10
+			}			
+			attack_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4
+				surface_radar_range = 9
+			}	
+			nuclear_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4
+				surface_radar_range = 9
+			}	
+			guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4
+				surface_radar_range = 9
+			}					
+			nuclear_guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4
+				surface_radar_range = 9
+			}			
+			ballistic_missile_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 4
+				surface_radar_range = 9
+			}
+			missile_boat = {
+				sub_detection = 0.5
+				sonar_range = 5
+			}
+			missile_frigate = {
+				sub_detection = 0.5
+				sonar_range = 4
+			}			
+			destroyer = {
+				sub_detection = 0.5
+				sonar_range = 4.5
+			}
+			missile_destroyer = {
+				sub_detection = 0.5
+				sonar_range = 4
+			}
+			cruiser = {
+				sub_detection = 0.5
+				sonar_range = 4
+			}			
+			missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 4
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 4
+			}
+			nuclear_battlecruiser = {
+				sub_detection = 0.5
+				sonar_range = 4
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				sonar_range = 4
+			}
+			carrier = {
+				surface_detection = 1.00
+				sonar_range = 4
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				sonar_range = 4
+			}	
+		}
+		4 = {
+			submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 9
+				surface_radar_range = 11
+			}			
+			attack_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}	
+			nuclear_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}	
+			guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}					
+			nuclear_guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}			
+			ballistic_missile_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}
+			missile_boat = {
+				sub_detection = 0.5
+				sonar_range = 9
+			}
+			missile_frigate = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			destroyer = {
+				sub_detection = 0.5
+				sonar_range = 8.5
+			}
+			missile_destroyer = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			nuclear_battlecruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				sonar_range = 8
+			}
+			carrier = {
+				surface_detection = 1.00
+				sonar_range = 8
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				sonar_range = 8
+			}	
+		}
+		5 = {
+			submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 9
+				surface_radar_range = 11
+			}			
+			attack_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}	
+			nuclear_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}	
+			guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}					
+			nuclear_guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}			
+			ballistic_missile_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}
+			missile_boat = {
+				sub_detection = 0.5
+				sonar_range = 9
+			}
+			missile_frigate = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			destroyer = {
+				sub_detection = 0.5
+				sonar_range = 8.5
+			}
+			missile_destroyer = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			nuclear_battlecruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			helicopter_carrier = {
+				surface_detection = 1.00
+				sonar_range = 8
+			}
+			carrier = {
+				surface_detection = 1.00
+				sonar_range = 8
+			}			
+			supercarrier = {
+				surface_detection = 1.00
+				sonar_range = 8
+			}	
+		}
+		6 = {
+			submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 9
+				surface_radar_range = 11
+			}			
+			attack_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}	
+			nuclear_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}	
+			guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}					
+			nuclear_guided_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}			
+			ballistic_missile_submarine = {
+				sub_detection = 0.5
+				surface_detection = 1.00
+				sonar_range = 8
+				surface_radar_range = 10
+			}
+			missile_boat = {
+				sub_detection = 0.5
+				sonar_range = 9
+			}
+			missile_frigate = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			destroyer = {
+				sub_detection = 0.5
+				sonar_range = 8.5
+			}
+			missile_destroyer = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}
+			nuclear_battlecruiser = {
+				sub_detection = 0.5
+				sonar_range = 8
+			}			
+			helicopter_carrier = {
+				surface_detection = 0.5
+				sonar_range = 8
+			}
+			carrier = {
+				surface_detection = 0.5
+				sonar_range = 8
+			}			
+			supercarrier = {
+				surface_detection = 0.5
+				sonar_range = 8
+			}	
+		}
+	}
+ 	can_upgrade = yes
+	change = no
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Towed Array Sonars
+# Used on attack submarines, missile destroyers and frigates
+#
+#towed_sonarsystem_1;Model 1980;;;;;;;;;;;;;x
+#towed_sonarsystem_2;Model 1990;;;;;;;;;;;;;x
+
+towed_sonarsystem = {
+
+	multilevel = yes
+	level = 2
+
+	allow_level = { 
+		1 = { 
+			sonarsystem = 2
+		}
+		2 = { 
+			sonarsystem = 3
+		}
+	}
+	traits = {
+		systems_theory
+	}
+	level_effect = {
+		1 = {
+			attack_submarine = {
+				sub_detection = 1
+			}	
+			nuclear_submarine = {
+				sub_detection = 1
+			}
+			missile_frigate = {
+				sub_detection = 1
+			}			
+			missile_destroyer = {
+				sub_detection = 1
+			}
+			missile_cruiser = {
+				sub_detection = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 1
+			}			
+		}
+		2 = {
+			attack_submarine = {
+				sub_detection = 1
+			}	
+			nuclear_submarine = {
+				sub_detection = 1
+			}
+			missile_frigate = {
+				sub_detection = 1
+			}			
+			missile_destroyer = {
+				sub_detection = 1
+			}
+			missile_cruiser = {
+				sub_detection = 1
+			}
+			nuclear_missile_cruiser = {
+				sub_detection = 1
+			}
+		}
+	}
+ 	can_upgrade = yes
+	change = no
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Decoys
+#torpedodefensesystem_1;Model 1980;;;;;;;;;;;;;x
+#torpedodefensesystem_2;Model 1985;;;;;;;;;;;;;x
+#torpedodefensesystem_3;Model 1990;;;;;;;;;;;;;x
+
+torpedodefensesystem = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {
+			industry_electronics = 3
+		}
+		2 = {
+			industry_electronics = 4
+		}
+		3 = {
+			industry_electronics = 4
+		}
+	}
+	traits = {
+		science_theory
+	}
+	level_effect = {
+		1 = {
+			modifier = {
+				flexible_modifier = {
+					torpedo_defense = {
+						name = torpedo_defense
+						value = 1.2
+					}
+				}
+			}
+		}
+		2 = {
+			modifier = {
+				flexible_modifier = {
+					torpedo_defense = {
+						name = torpedo_defense
+						value = 1.8
+					}
+				}
+			}
+		}
+		3 = {
+			modifier = {
+				flexible_modifier = {
+					torpedo_defense = {
+						name = torpedo_defense
+						value = 2.0
+					}
+				}
+			}
+		}
+	}
+ 	can_upgrade = yes
+	change = no
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}
+
+# Helicopters and platforms
+#helicopterplatform_1;Model 1960;;;;;;;;;;;;;x
+#helicopterplatform_2;Model 1968;;;;;;;;;;;;;x
+#helicopterplatform_3;Model 1976;;;;;;;;;;;;;x
+#helicopterplatform_4;Model 1984;;;;;;;;;;;;;x
+#helicopterplatform_5;Model 1992;;;;;;;;;;;;;x
+
+helicopterplatform = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {
+			aircommand_searchandrescuemissions = 1
+		}
+		2 = {	# Enclosed
+		}
+		3 = {	# Helicopter decks on helicopter carriers
+		}
+		4 = {
+		}
+		5 = {
+		}
+	}
+	traits = {
+		airtactical_theory
+	}
+	
+	level_effect = {
+		1 = {
+			ship_heli_complex = {
+				sub_attack = 2
+				sea_attack = 1
+				surface_detection = 1.00
+				air_detection = 0.5
+				sub_detection = 0.5
+			}		
+		}
+		2 = {
+			ship_heli_complex = {
+				sub_attack = 1
+				surface_detection = 1.00
+				air_detection = 0.5
+				sub_detection = 0.5
+			}		
+		}
+		3 = {
+			ship_heli_complex = {
+				sub_attack = 1
+				surface_detection = 1.00
+				air_detection = 0.5
+				sub_detection = 0.5
+			}				
+		}
+		4 = {
+			ship_heli_complex = {
+				sub_attack = 1
+				surface_detection = 1.00
+				air_detection = 0.5
+				sub_detection = 0.5
+			}		
+		}
+		5 = {
+			ship_heli_complex = {
+				sub_attack = 1
+				surface_detection = 1.00
+				air_detection = 0.5
+				sub_detection = 0.5
+			}		
+		}
+	}
+ 	can_upgrade = yes
+	change = no
+	folder = naval_tech2_folder
+	time = 100
+	cost = 100
+}

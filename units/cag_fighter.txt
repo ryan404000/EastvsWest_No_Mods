@@ -1,0 +1,49 @@
+cag_fighter = {
+	goods_usage = 
+	{
+		aviation_industry = 0.02
+	}
+	type = air
+	active = no
+	sprite = Fighter
+	is_cag = yes
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 17.00
+	build_cost_manpower = 1.10
+	build_time = 230
+
+	#Misc Abilities
+	maximum_speed = 675.00
+	transport_capability = 0.00
+	supply_consumption = 0.80
+	fuel_consumption = 1.70
+	range = 1520.00
+	
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 4.00
+
+	#Defensive Abilities
+	surface_defence = 4.00
+	air_defence = 3.00
+
+	#Offensive Abilities
+	soft_attack = 0.00
+	hard_attack = 0.00
+	sea_attack = 0.00
+	air_attack = 5.50
+	strategic_attack = 0.00
+	sub_attack = 0.00
+
+	priority = 5
+	install_to = { type = carrier type = escort_carrier type = supercarrier }
+	weapon_category = wing
+}

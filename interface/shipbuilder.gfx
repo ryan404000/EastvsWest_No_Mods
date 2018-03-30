@@ -1,0 +1,332 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_shipeditor_bg"
+		texturefile = "gfx\\interface\\shipeditor\\naval_bg.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_shipeditor_bg_shadow"
+		texturefile = "gfx\\interface\\shipeditor\\naval__bg_shadow.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_emptyhull"
+		texturefile = "gfx\\models\\none_hull.tga"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_empty_slot"
+		texturefile = "gfx\\editor\\empty_slot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_empty_slot_small"
+		texturefile = "gfx\\editor\\empty_slot_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+
+	spriteType = {
+		name = "GFX_null_slot"
+		texturefile = "gfx\\editor\\null_complex.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_null_slot_small"
+		texturefile = "gfx\\editor\\null_complex_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_buldozer_small"
+		texturefile = "gfx\\editor\\buldozer_slot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_complex_button"
+		texturefile = "gfx\\editor\\weapon_editor_plate.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ship_plate"
+		texturefile = "gfx\\interface\\shipeditor\\naval_main_plate.dds"
+		noOfFrames = 1
+		norefcount = yes
+#		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_filter_carrier"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_carrier.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_filter_surface"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_capital.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_filter_sub"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_sub.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_filter_transport"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_transport.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_filter_all"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_name.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_next_model"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_up.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_prev_model"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_down.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+
+	spriteType = {
+		name = "GFX_cag_build_btn"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_cag.dds"
+		noOfFrames = 2
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_weapons_default_btn"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_default.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_weapons_reset_btn"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_reset.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_stamp"
+		texturefile = "gfx\\interface\\shipeditor\\naval_stamp.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_ship_stamp_clip"
+		texturefile = "gfx\\interface\\shipeditor\\naval_stamp_clip.dds"
+		noOfFrames = 1
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_btn_naval_time"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_time.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_btn_naval_daily"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_daily_money.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_btn_naval_theatre_prod"
+		texturefile = "gfx\\interface\\shipeditor\\naval_theater_production.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_btn_naval_icon_weapons"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_weapons.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_btn_naval_icon_sizes"
+		texturefile = "gfx\\interface\\shipeditor\\naval_icon_length.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_btn_naval_theater_plate"
+		texturefile = "gfx\\interface\\shipeditor\\naval_theater_plate.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_select_weaponsel_bg"
+		texturefile = "gfx\\editor\\weapon_editor_bg.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_weapon_editor_entry_bg"
+		texturefile = "gfx\\editor\\weapon_editor_plate.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_weapon_editor_picture_overlay"
+		texturefile = "gfx\\editor\\weapon_editor_picture_overlay.dds"
+		
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_weapon_icon_overlay"
+		texturefile = "gfx\\editor\\weapon_icon_overlay.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_weapon_image_empty"
+		texturefile = "gfx\\editor\\weapon_image_empty.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_cag_image_empty"
+		texturefile = "gfx\\editor\\cag_image_empty.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_naval_badge"
+		texturefile = "gfx\\interface\\shipeditor\\naval_emblem.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_slot_small_overlay"
+		texturefile = "gfx\\interface\\shipeditor\\slot_overlay_small.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_slot_plate"
+		texturefile = "gfx\\interface\\shipeditor\\slot_bg.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_naval_btn_empty"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_empty.dds"
+		loadType = "INGAME"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+		
+	spriteType = {
+		name = "GFX_naval_btn_load"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_load.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_naval_btn_save"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_save.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_naval_btn_port"
+		texturefile = "gfx\\interface\\shipeditor\\naval_btn_port.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_empty_slot_small_paper"
+		texturefile = "gfx\\editor\\paper\\empty_slot_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}		
+	
+	spriteType = {
+		name = "GFX_shipeditor_tooltip_bg"
+		texturefile = "gfx\\interface\\shipeditor\\editor_tooltip_bg.dds"
+		loadType = "INGAME"
+		norefcount = yes
+	}
+}

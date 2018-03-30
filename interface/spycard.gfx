@@ -1,0 +1,148 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_bg_spycard"
+		texturefile = "gfx\\interface\\spycards\\bg_spy_card.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bg_spycard_entry"
+		texturefile = "gfx\\interface\\spycards\\bg_spycard_action.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_bg_satcard_entry"
+		texturefile = "gfx\\interface\\spycards\\bg_satcard_action.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+
+	spriteType = {
+		name = "GFX_spycard_corner"
+		texturefile = "gfx\\interface\\spycards\\spycard_corner.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_spycard_disband_button"
+		texturefile = "gfx\\interface\\spycards\\spy_disband_button.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_spy_photo_empty"
+		texturefile = "gfx\\interface\\spycards\\spy_photo_empty.tga"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bg_spies"
+		texturefile = "gfx\\interface\\spycards\\bg_spies.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bg_satellite"
+		texturefile = "gfx\\interface\\spycards\\bg_satellite.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_satellite"
+		texturefile = "gfx\\interface\\spycards\\sat_portrait.dds"
+		
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_bg_spycard_button"
+		texturefile = "gfx\\interface\\spycards\\spy_cancel_buy_button.dds"
+		
+		norefcount = yes
+	}
+
+#	spriteType = {
+#		name = "GFX_spycard_stamp_sov"
+#		texturefile = "gfx\\interface\\spycards\\spycard_stamp_sov.dds"
+#		
+#		norefcount = yes
+#	}
+
+#	spriteType = {
+#		name = "GFX_spycard_stamp"
+#		texturefile = "gfx\\interface\\spycards\\spycard_stamp.dds"
+#		
+#		norefcount = yes
+#	}
+	
+	textSpriteType = {
+		name = "GFX_spy_btn_red"
+		texturefile = "gfx\\interface\\spycards\\spy_btn_red.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_spy_btn_blue"
+		texturefile = "gfx\\interface\\spycards\\spy_btn_blue.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_spy_action_cost"
+		texturefile = "gfx\\interface\\spycards\\icon_cost.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_spy_action_chance"
+		texturefile = "gfx\\interface\\spycards\\icon_chance.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_spy_action_number"
+		texturefile = "gfx\\interface\\spycards\\icon_number.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_spy_action_duration"
+		texturefile = "gfx\\interface\\spycards\\icon_duration.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_sat_action_cost"
+		texturefile = "gfx\\interface\\spycards\\icon_cost_sat.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_spy_rank"
+		texturefile = "gfx\\interface\\spycards\\icon_ranks.dds"
+		
+		noOfFrames = 5
+	}
+
+
+
+}

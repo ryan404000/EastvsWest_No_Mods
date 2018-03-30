@@ -1,0 +1,103 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 13422
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 13422
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+	}
+}
+
+military_construction = {
+	country = PRK
+	name = "1st Infantry Division"
+	infantry_brigade =
+	{
+		name = "1st Infantry Brigade"
+		historical_model = 0
+	}
+	infantry_brigade =
+	{
+		name = "2nd Infantry Brigade"
+		historical_model = 0
+	}
+	infantry_brigade =
+	{
+		name = "3rd Infantry Brigade"
+		historical_model = 1
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = PRK
+	name = "2nd Division"
+	infantry_brigade =
+	{
+		name = "5th Infantry Brigade"
+		historical_model = 0
+	}
+	infantry_brigade =
+	{
+		name = "4th Infantry Brigade"
+		historical_model = 0
+	}
+	armor_brigade =
+	{
+		name = "1st Armor Brigade"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = PRK
+	name = "3rd Infantry Division"
+	infantry_brigade =
+	{
+		name = "6th Infantry Brigade"
+		historical_model = 0
+	}
+	infantry_brigade =
+	{
+		name = "7th Infantry Brigade"
+		historical_model = 0
+	}
+	artillery_brigade =
+	{
+		name = "1st Artillery Regiment"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}
+military_construction = {
+	country = PRK
+	name = "4th Infantry Division"
+	infantry_brigade =
+	{
+		name = "8th Infantry Brigade"
+		historical_model = 0
+	}
+	infantry_brigade =
+	{
+		name = "9th Infantry Brigade"
+		historical_model = 0
+	}
+	artillery_brigade =
+	{
+		name = "2nd Artillery Regiment"
+		historical_model = 0
+	}
+	#cost = xxx
+	progress = 99
+	#duration = xxx
+}

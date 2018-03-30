@@ -1,0 +1,55 @@
+ship_heli_cas = {
+	type = air
+	active = no
+	sprite = Cas
+	is_cag = yes
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 2
+	default_morale = 0
+	officers = 0
+
+	#Building Costs
+	unit_money_cost= 30
+	build_cost_manpower = 0
+	build_time = 50
+
+	#Misc Abilities
+	maximum_speed = 0
+	transport_capability = 0.00
+	supply_consumption = 1.10
+	fuel_consumption = 0.00
+	range = 40.00
+	
+
+	#Detection Abilities
+	surface_detection = 5.00
+	air_detection = 3.00
+	sub_detection = 6.00
+	air_radar_range = 100
+	surface_radar_range = 100
+	sonar_range = 10
+
+	#Defensive Abilities
+	surface_defence = 3.00
+	air_defence = 3.00
+
+	#Offensive Abilities
+	soft_attack = 0.00
+	hard_attack = 0.00
+	sea_attack = 4.00
+	air_attack = 0.00
+	strategic_attack = 0.00
+	sub_attack = 12.00
+
+	priority = 5
+	iscomplex = yes
+	install_to = { 
+		type = carrier 
+		type = escort_carrier 
+		type = helicopter_carrier 
+		type = supercarrier
+	}
+	weapon_category = wing
+}

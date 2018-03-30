@@ -1,0 +1,291 @@
+color = { 152  130  191 }
+graphical_culture = Soviet
+
+default_templates = {
+	CHC_airborne_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	CHC_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade		
+	}
+	CHC_cavalry_division = {
+		cavalry_brigade
+		cavalry_brigade
+		cavalry_brigade
+		cavalry_brigade		
+		sp_artillery_brigade
+	}
+	CHC_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade		
+		sp_artillery_brigade		
+	}
+	CHC_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade		
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	CHC_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		light_mechanized_brigade
+		sp_artillery_brigade
+	}
+	CHC_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade			
+		artillery_brigade
+	}
+	CHC_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	CHC_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	CHC_volunteer_division = {
+		militia_brigade
+		militia_brigade
+		militia_brigade
+		militia_brigade
+	}	
+} 
+unit_names ={
+	supercarrier = {
+		"Shqipëri" "Andrea II Muzaka" "Teodor I Muzaka" "Teodor II Muzaka" "Teodor III Muzaka" "Karl Topia" "Gjergj Topia" "Andrea Topia" "Gjon Zenebishi" "Pal I Dukagjini"
+		"Tanush Dukagjini" "Pal II Dukagjini" "Gjon Kastrioti" "Gjergj Kastrioti" "George Kastrioti Skanderbeg" "Lekë Dukagjini" "Princ Vilhelm Vidi" "Carol Victor" "Zog I" "Leka I"
+	}	
+	carrier = {
+		"Shqipëri" "Andrea II Muzaka" "Teodor I Muzaka" "Teodor II Muzaka" "Teodor III Muzaka" "Karl Topia" "Gjergj Topia" "Andrea Topia" "Gjon Zenebishi" "Pal I Dukagjini"
+		"Tanush Dukagjini" "Pal II Dukagjini" "Gjon Kastrioti" "Gjergj Kastrioti" "George Kastrioti Skanderbeg" "Lekë Dukagjini" "Princ Vilhelm Vidi" "Carol Victor" "Zog I" "Leka I"
+	}
+	escort_carrier = {
+		"Tiranë" "Durrës" "Elbasan" "Vlorë" "Shkodra" "Fier" "Korça" "Berat" "Lushnjë" "Kavajë"
+	}	
+	helicopter_carrier = {
+		"Berat" "Dibër" "Durrës" "Elbasan" "Fier" "Gjirokastër" "Korçë" "Kukës" "Lezhë" "Shkodër" "Tiranë" "Vlorë"
+	}		
+	battleship = {
+		"Shqipëri" "Andrea II Muzaka" "Teodor I Muzaka" "Teodor II Muzaka" "Teodor III Muzaka" "Karl Topia" "Gjergj Topia" "Andrea Topia" "Gjon Zenebishi" "Pal I Dukagjini"
+		"Tanush Dukagjini" "Pal II Dukagjini" "Gjon Kastrioti" "Gjergj Kastrioti" "George Kastrioti Skanderbeg" "Lekë Dukagjini" "Princ Vilhelm Vidi" "Carol Victor" "Zog I" "Leka I"
+	}
+	nuclear_battlecruiser = {
+		"Shqipëri" "Andrea II Muzaka" "Teodor I Muzaka" "Teodor II Muzaka" "Teodor III Muzaka" "Karl Topia" "Gjergj Topia" "Andrea Topia" "Gjon Zenebishi" "Pal I Dukagjini"
+		"Tanush Dukagjini" "Pal II Dukagjini" "Gjon Kastrioti" "Gjergj Kastrioti" "George Kastrioti Skanderbeg" "Lekë Dukagjini" "Princ Vilhelm Vidi" "Carol Victor" "Zog I" "Leka I"
+	}		
+	nuclear_missile_cruiser = {
+		"Berat" "Dibër" "Durrës" "Elbasan" "Fier" "Gjirokastër" "Korçë" "Kukës" "Lezhë" "Shkodër" "Tiranë" "Vlorë"
+	}	
+	missile_cruiser = {
+		"Berat" "Dibër" "Durrës" "Elbasan" "Fier" "Gjirokastër" "Korçë" "Kukës" "Lezhë" "Shkodër" "Tiranë" "Vlorë"	
+	}
+	cruiser = {
+		"Berat" "Dibër" "Durrës" "Elbasan" "Fier" "Gjirokastër" "Korçë" "Kukës" "Lezhë" "Shkodër" "Tiranë" "Vlorë"	
+	}
+	missile_destroyer = {
+		"Tiranë" "Durrës" "Elbasan" "Vlorë" "Shkodra" "Fier" "Korça" "Berat" "Lushnjë" "Kavajë"		
+	}
+	destroyer = {
+		"1. Shkatërrues Flota" "2. Shkatërrues Flota" "3. Shkatërrues Flota" "4. Shkatërrues Flota" "5. Shkatërrues Flota" "6. Shkatërrues Flota" "7. Shkatërrues Flota" "8. Shkatërrues Flota" "9. Shkatërrues Flota" "10. Shkatërrues Flota"
+		"11. Shkatërrues Flota" "12. Shkatërrues Flota" "13. Shkatërrues Flota" "14. Shkatërrues Flota" "15. Shkatërrues Flota" "16. Shkatërrues Flota" "17. Shkatërrues Flota" "18. Shkatërrues Flota" "19. Shkatërrues Flota" "20. Shkatërrues Flota"
+		"21. Shkatërrues Flota" "22. Shkatërrues Flota" "23. Shkatërrues Flota" "24. Shkatërrues Flota" "25. Shkatërrues Flota" "26. Shkatërrues Flota" "27. Shkatërrues Flota" "28. Shkatërrues Flota" "29. Shkatërrues Flota" "30. Shkatërrues Flota"
+		"31. Shkatërrues Flota" "32. Shkatërrues Flota" "33. Shkatërrues Flota" "34. Shkatërrues Flota" "35. Shkatërrues Flota" "36. Shkatërrues Flota" "37. Shkatërrues Flota" "38. Shkatërrues Flota" "39. Shkatërrues Flota" "40. Shkatërrues Flota"
+		"41. Shkatërrues Flota" "42. Shkatërrues Flota" "43. Shkatërrues Flota" "44. Shkatërrues Flota" "45. Shkatërrues Flota" "46. Shkatërrues Flota" "47. Shkatërrues Flota" "48. Shkatërrues Flota" "49. Shkatërrues Flota" "50. Shkatërrues Flota"
+	}
+	missile_frigate = {
+		"Tiranë" "Durrës" "Elbasan" "Vlorë" "Shkodra" "Fier" "Korça" "Berat" "Lushnjë" "Kavajë"
+	}	
+	missile_boat = {
+		"1. Raketave Varkë Flöte" "2. Raketave Varkë Flöte" "3. Raketave Varkë Flöte" "4. Raketave Varkë Flöte" "5. Raketave Varkë Flöte" "6. Raketave Varkë Flöte" "7. Raketave Varkë Flöte" "8. Raketave Varkë Flöte" "9. Raketave Varkë Flöte" "10. Raketave Varkë Flöte"
+		"11. Raketave Varkë Flöte" "12. Raketave Varkë Flöte" "13. Raketave Varkë Flöte" "14. Raketave Varkë Flöte" "15. Raketave Varkë Flöte" "16. Raketave Varkë Flöte" "17. Raketave Varkë Flöte" "18. Raketave Varkë Flöte" "19. Raketave Varkë Flöte" "20. Raketave Varkë Flöte"
+		"21. Raketave Varkë Flöte" "22. Raketave Varkë Flöte" "23. Raketave Varkë Flöte" "24. Raketave Varkë Flöte" "25. Raketave Varkë Flöte" "26. Raketave Varkë Flöte" "27. Raketave Varkë Flöte" "28. Raketave Varkë Flöte" "29. Raketave Varkë Flöte" "30. Raketave Varkë Flöte"
+		"31. Raketave Varkë Flöte" "32. Raketave Varkë Flöte" "33. Raketave Varkë Flöte" "34. Raketave Varkë Flöte" "35. Raketave Varkë Flöte" "36. Raketave Varkë Flöte" "37. Raketave Varkë Flöte" "38. Raketave Varkë Flöte" "39. Raketave Varkë Flöte" "40. Raketave Varkë Flöte"
+		"41. Raketave Varkë Flöte" "42. Raketave Varkë Flöte" "43. Raketave Varkë Flöte" "44. Raketave Varkë Flöte" "45. Raketave Varkë Flöte" "46. Raketave Varkë Flöte" "47. Raketave Varkë Flöte" "48. Raketave Varkë Flöte" "49. Raketave Varkë Flöte" "50. Raketave Varkë Flöte"
+		"1. Korvetë Flöte" "2. Korvetë Flöte" "3. Korvetë Flöte" "4. Korvetë Flöte" "5. Korvetë Flöte" "6. Korvetë Flöte" "7. Korvetë Flöte" "8. Korvetë Flöte" "9. Korvetë Flöte" "10. Korvetë Flöte"
+		"11. Korvetë Flöte" "12. Korvetë Flöte" "13. Korvetë Flöte" "14. Korvetë Flöte" "15. Korvetë Flöte" "16. Korvetë Flöte" "17. Korvetë Flöte" "18. Korvetë Flöte" "19. Korvetë Flöte" "20. Korvetë Flöte"
+		"21. Korvetë Flöte" "22. Korvetë Flöte" "23. Korvetë Flöte" "24. Korvetë Flöte" "25. Korvetë Flöte" "26. Korvetë Flöte" "27. Korvetë Flöte" "28. Korvetë Flöte" "29. Korvetë Flöte" "30. Korvetë Flöte"
+		"31. Korvetë Flöte" "32. Korvetë Flöte" "33. Korvetë Flöte" "34. Korvetë Flöte" "35. Korvetë Flöte" "36. Korvetë Flöte" "37. Korvetë Flöte" "38. Korvetë Flöte" "39. Korvetë Flöte" "40. Korvetë Flöte"
+		"41. Korvetë Flöte" "42. Korvetë Flöte" "43. Korvetë Flöte" "44. Korvetë Flöte" "45. Korvetë Flöte" "46. Korvetë Flöte" "47. Korvetë Flöte" "48. Korvetë Flöte" "49. Korvetë Flöte" "50. Korvetë Flöte"
+	}
+	submarine = {
+		"1. Nendetëse Flöte" "2. Nendetëse Flöte" "3. Nendetëse Flöte" "4. Nendetëse Flöte" "5. Nendetëse Flöte" "6. Nendetëse Flöte" "7. Nendetëse Flöte" "8. Nendetëse Flöte" "9. Nendetëse Flöte" "10. Nendetëse Flöte"
+		"11. Nendetëse Flöte" "12. Nendetëse Flöte" "13. Nendetëse Flöte" "14. Nendetëse Flöte" "15. Nendetëse Flöte" "16. Nendetëse Flöte" "17. Nendetëse Flöte" "18. Nendetëse Flöte" "19. Nendetëse Flöte" "20. Nendetëse Flöte"
+		"21. Nendetëse Flöte" "22. Nendetëse Flöte" "23. Nendetëse Flöte" "24. Nendetëse Flöte" "25. Nendetëse Flöte" "26. Nendetëse Flöte" "27. Nendetëse Flöte" "28. Nendetëse Flöte" "29. Nendetëse Flöte" "30. Nendetëse Flöte"
+		"31. Nendetëse Flöte" "32. Nendetëse Flöte" "33. Nendetëse Flöte" "34. Nendetëse Flöte" "35. Nendetëse Flöte" "36. Nendetëse Flöte" "37. Nendetëse Flöte" "38. Nendetëse Flöte" "39. Nendetëse Flöte" "40. Nendetëse Flöte"
+		"41. Nendetëse Flöte" "42. Nendetëse Flöte" "43. Nendetëse Flöte" "44. Nendetëse Flöte" "45. Nendetëse Flöte" "46. Nendetëse Flöte" "47. Nendetëse Flöte" "48. Nendetëse Flöte" "49. Nendetëse Flöte" "50. Nendetëse Flöte"
+	}
+	attack_submarine = {
+		"Belushka" "Blini i Bardhe" "Blini Turigjate" "Ngjala" "Celiku" "Lareza Vizake" "Ballgjeri Laraman" "Aterina Symadhe" "Millona Deti" "Mustak i Lumit"
+		"Mrene e Prespes" "Peshk i Kuq" "Karasi" "Qefulli i Dimrit" "Skobuzi i Pogradecit" "Krapi" "Barkaleci" "Mustaku i Lumit" "Burdullak" "Barburiqi"
+		"Mëlyshi i Zi" "Veshari" "Qefulli i Vjeshtes" "Qefulli i Veres" "Trofte Ylberi" "Skorti i Zi" "Sharmak" "Peshk Kavall" "Ushojze e Zeze" "Lareza Tripikaloshe"
+		"Skort i Bardhe" "Koran Lumi" "Trofte Njile" "Trofte e Cemit" "Lloska-ë"
+		}	
+	nuclear_submarine = {
+		"Belushka" "Blini i Bardhe" "Blini Turigjate" "Ngjala" "Celiku" "Lareza Vizake" "Ballgjeri Laraman" "Aterina Symadhe" "Millona Deti" "Mustak i Lumit"
+		"Mrene e Prespes" "Peshk i Kuq" "Karasi" "Qefulli i Dimrit" "Skobuzi i Pogradecit" "Krapi" "Barkaleci" "Mustaku i Lumit" "Burdullak" "Barburiqi"
+		"Mëlyshi i Zi" "Veshari" "Qefulli i Vjeshtes" "Qefulli i Veres" "Trofte Ylberi" "Skorti i Zi" "Sharmak" "Peshk Kavall" "Ushojze e Zeze" "Lareza Tripikaloshe"
+		"Skort i Bardhe" "Koran Lumi" "Trofte Njile" "Trofte e Cemit" "Lloska-ë"
+	}
+	guided_submarine = {
+		"Tiranë" "Durrës" "Elbasan" "Vlorë" "Shkodra" "Fier" "Korça" "Berat" "Lushnjë" "Kavajë"
+	}
+	nuclear_guided_submarine = {
+		"Berat" "Dibër" "Durrës" "Elbasan" "Fier" "Gjirokastër" "Korçë" "Kukës" "Lezhë" "Shkodër" "Tiranë" "Vlorë"
+	}	
+	ballistic_missile_submarine = {
+		"Shqipëri" "Andrea II Muzaka" "Teodor I Muzaka" "Teodor II Muzaka" "Teodor III Muzaka" "Karl Topia" "Gjergj Topia" "Andrea Topia" "Gjon Zenebishi" "Pal I Dukagjini"
+		"Tanush Dukagjini" "Pal II Dukagjini" "Gjon Kastrioti" "Gjergj Kastrioti" "George Kastrioti Skanderbeg" "Lekë Dukagjini" "Princ Vilhelm Vidi" "Carol Victor" "Zog I" "Leka I"
+	}	
+	transport_ship = {
+		"1. Transportoj Marinë Naval" "2. Transportoj Marinë Naval" "3. Transportoj Marinë Naval" "4. Transportoj Marinë Naval" "5. Transportoj Marinë Naval" "6. Transportoj Marinë Naval" "7. Transportoj Marinë Naval" "8. Transportoj Marinë Naval" "9. Transportoj Marinë Naval" "10. Transportoj Marinë Naval"
+		"11. Transportoj Marinë Naval" "12. Transportoj Marinë Naval" "13. Transportoj Marinë Naval" "14. Transportoj Marinë Naval" "15. Transportoj Marinë Naval" "16. Transportoj Marinë Naval" "17. Transportoj Marinë Naval" "18. Transportoj Marinë Naval" "19. Transportoj Marinë Naval" "20. Transportoj Marinë Naval"
+		"21. Transportoj Marinë Naval" "22. Transportoj Marinë Naval" "23. Transportoj Marinë Naval" "24. Transportoj Marinë Naval" "25. Transportoj Marinë Naval" "26. Transportoj Marinë Naval" "27. Transportoj Marinë Naval" "28. Transportoj Marinë Naval" "29. Transportoj Marinë Naval" "30. Transportoj Marinë Naval"
+		"31. Transportoj Marinë Naval" "32. Transportoj Marinë Naval" "33. Transportoj Marinë Naval" "34. Transportoj Marinë Naval" "35. Transportoj Marinë Naval" "36. Transportoj Marinë Naval" "37. Transportoj Marinë Naval" "38. Transportoj Marinë Naval" "39. Transportoj Marinë Naval" "40. Transportoj Marinë Naval"
+		"41. Transportoj Marinë Naval" "42. Transportoj Marinë Naval" "43. Transportoj Marinë Naval" "44. Transportoj Marinë Naval" "45. Transportoj Marinë Naval" "46. Transportoj Marinë Naval" "47. Transportoj Marinë Naval" "48. Transportoj Marinë Naval" "49. Transportoj Marinë Naval" "50. Transportoj Marinë Naval"
+	}
+} 
+ministers = {
+
+	#1111000 - 1111999
+
+
+	1111000 = {
+		name = "Enver Hoxha"
+		ideology = communist_idolg
+		loyalty = 0.95
+		picture = ALB_M_Hoxha_Enver
+		head_of_state = dictator_type
+		head_of_government = dictator_type
+		start_date = 1941.11.08
+		death_date = 1985.04.11
+	}
+
+	1111001 = {
+		name = "Haxhi Lleshi"
+		ideology = communist_idolg
+		loyalty = 0.90
+		picture = ALB_M_Lleshi_Haxhi
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1944.05.26
+		death_date = 1953.08.01
+	}
+	1111002 = {
+		name = "Omer Nishani"
+		ideology = communist_idolg
+		loyalty = 0.90
+		picture = ALB_M_Nishani_Omer
+		head_of_state = zealous_type
+		head_of_government = zealous_type
+		start_date = 1953.08.01
+		death_date = 1982.11.22
+	}
+
+	1111003 = {
+		name = "Ramiz Alia"
+		ideology = communist_idolg
+		loyalty = 0.90
+		picture = ALB_M_Alia_Ramiz
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1982.11.22
+		death_date = 1992.04.03
+	}
+
+	1111004 = {
+		name = "Pjetër Arbnori"
+		ideology = market_liberal_idolg
+		loyalty = 0.90
+		picture = ALB_M_Arbnori_Pjeter
+		head_of_state = courageous_type
+		head_of_government = courageous_type
+		start_date = 1960.1.1
+		death_date = 1992.4.9
+	}
+	1111005 = {
+		name = "Sali Berisha"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = ALB_M_Berisha_Sali
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1990.1.1
+		death_date = 1997.1.1
+	}
+	
+	#HoGs
+	1111006 = {
+		name = "Mehmet Shehu"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = ALB_M_Shehu_Mehmet
+		head_of_government = controversial_figure
+		start_date = 1954.07.20
+		death_date = 1981.12.17
+	}
+	1111007 = {
+		name = "Adil Çarçani"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = ALB_M_Carcan_Adil
+		head_of_government = bureaucrat_type
+		start_date = 1981.12.17
+		death_date = 1991.02.22
+	}
+	1111008 = {
+		name = "Fatos Nano"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = ALB_M_Nano_Fatos
+		head_of_government = reformer_type
+		start_date = 1991.02.22
+		death_date = 1991.06.05
+	}
+	1111009 = {
+		name = "Ylli Bufi"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = ALB_M_Bufi_Ylli
+		head_of_government = lethargic_type
+		start_date = 1991.06.05
+		death_date = 1991.12.10
+	}
+	1111010 = {
+		name = "Vilson Ahmeti"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = ALB_M_Ahmeti_Vilson
+		head_of_government = bureaucrat_type
+		start_date = 1991.12.10
+		death_date = 1992.04.13
+	}
+	
+	1111011 = { #Monarch
+		name = "Zog I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = ALB_M_Zog_I
+		head_of_state = courteous_figure
+		start_date = 1922.12.26
+		death_date = 1961.04.09
+	}
+
+
+
+}

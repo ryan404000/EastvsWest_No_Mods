@@ -1,0 +1,329 @@
+# note: USA - JAPAN Alliance
+
+alliance = {
+  first = USA
+  second = JAP
+  start_date = 1946.1.1
+  end_date = 1991.12.31
+}
+
+# note: USA - WEST BERLIN Alliance
+
+alliance = {
+  first = USA
+  second = WBR
+  start_date = 1946.1.1
+  end_date = 1991.12.31
+}
+
+# note: USA - KOREA Alliance
+
+alliance = {
+  first = USA
+  second = KOR
+  start_date = 1950.6.25
+  end_date = 1991.12.31
+}
+
+# note: USA - PHILIPPINES Alliance
+
+alliance = {
+	first = USA
+	second = PHI
+	start_date = 1951.8.30
+	end_date = 1991.1.16
+}
+
+# note : KOREAN WAR UN Alliance.
+
+alliance = {
+  first = KOR 
+  second = AST
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = BEL
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = CAN
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = FRA
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = PHI
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = COL
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = ETH
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = GRE
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = LUX
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = HOL
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = NZL
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = SAF
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = SIA
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = TUR
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+alliance = {
+  first = KOR
+  second = ENG
+  start_date = 1950.6.25
+  end_date = 1961.12.11
+}
+
+
+# note: NORAD Alliance
+
+# United States USA - Canada CAN
+alliance = {
+  first = USA
+  second = CAN
+  start_date = 1957.8.1
+  end_date = 1991.12.31
+}
+
+# note: ANZUS Alliance
+
+# United States USA - New Zealand NZL
+alliance = {
+  first = USA
+  second = NZL
+  start_date = 1951.9.1
+  end_date = 1985.8.6
+}
+
+# Australia AST - New Zealand NZL
+alliance = {
+  first = AST
+  second = NZL
+  start_date = 1951.9.1
+  end_date = 1991.12.31
+}
+
+# note: VIETNAM WAR Alliance
+
+alliance = {
+  first = SVI
+  second = USA
+  start_date = 1961.12.11
+  end_date = 1979.12.24
+}
+
+alliance = {
+  first = SVI
+  second = ROK
+  start_date = 1961.12.11
+  end_date = 1979.12.24
+}
+
+alliance = {
+  first = SVI
+  second = AST
+  start_date = 1961.12.11
+  end_date = 1979.12.24
+}
+
+alliance = {
+  first = SVI
+  second = NZL
+  start_date = 1961.12.11
+  end_date = 1979.12.24
+}
+
+alliance = {
+  first = SVI
+  second = SIA
+  start_date = 1961.12.11
+  end_date = 1979.12.24
+}
+
+alliance = {
+  first = SVI
+  second = KHM
+  start_date = 1961.12.11
+  end_date = 1979.12.24
+}
+
+alliance = {
+  first = SVI
+  second = LAO
+  start_date = 1961.12.11
+  end_date = 1979.12.24
+}
+
+
+# note: RHODESIA Alliances
+
+# United Kingdom ENG - Rhodesia RHO
+alliance = {
+ first = ENG
+ second = RHO
+ start_date = 1953.8.1
+ end_date = 1965.11.11
+}
+
+# United Kingdom ENG - Malawi MLW
+alliance = {
+ first = ENG
+ second = MLW
+ start_date = 1963.12.31
+ end_date = 1964.7.6
+}
+
+# Rhodesia RHO - Malawi MLW
+alliance = {
+ first = RHO
+ second = MLW
+ start_date = 1963.2.1
+ end_date = 1963.12.31
+}
+
+# Rhodesia RHO - Zambia ZMB
+alliance = {
+ first = RHO
+ second = ZMB
+ start_date = 1963.2.1
+ end_date = 1964.10.24
+}
+
+# United Kingdom ENG - Hong Kong HNK ##Suspended
+#alliance = {
+# first = ENG
+# second = HNK
+# start_date = 1946.1.1
+# end_date = 1991.12.31
+#}
+
+
+# note: VIETNAM - CAMBODIA Alliance
+
+alliance = {
+ first = VIE
+ second = CMB
+ start_date = 1979.1.8
+ end_date = 1989.9.1
+}
+
+# note: SOVIET UNION - AFGHANISTAN Alliance
+
+alliance = {
+ first = SOV
+ second = AFG
+ start_date = 1979.12.24
+ end_date = 1989.2.15
+}
+
+# note: UNITED KINGDOM DOMINIONS Alliance
+
+# United Kingdom ENG - British Virgin Islands BVI
+alliance = {
+ first = ENG
+ second = BVI
+ start_date = 1960.1.1
+ end_date = 1991.12.31
+}
+
+# United Kingdom ENG - Cayman Islands CAY
+alliance = {
+ first = ENG
+ second = CAY
+ start_date = 1962.1.1
+ end_date = 1991.12.31
+}
+
+# note: DENMARK DOMINIONS Alliance
+
+# Denmark DEN - Faroe Islands FAR
+alliance = {
+ first = DEN
+ second = FAR
+ start_date = 1948.4.1
+ end_date = 1991.12.31
+}
+
+# Denmark DEN - Greenland GRL
+alliance = {
+ first = DEN
+ second = GRL
+ start_date = 1979.5.1
+ end_date = 1991.12.31
+}
+
+# note: SHANXI - NATIONALIST CHINA Alliance
+
+alliance = {
+	first = CSX
+	second = CHI
+	start_date = 1946.1.1
+	end_date = 1950.6.25
+}

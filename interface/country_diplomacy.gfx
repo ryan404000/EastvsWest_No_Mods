@@ -1,0 +1,599 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_diplomacy_bg"
+		texturefile = "gfx\\interface\\diplomacy\\bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_shadow"
+		texturefile = "gfx\\interface\\diplomacy\\diplo_shadow.dds"
+		
+		norefcount = yes
+	}
+
+	maskedShieldType = {
+		name = "GFX_flag_tiny"
+		textureFile1 = "gfx\\interface\\flag_overlay_tiny.dds"
+		textureFile2 = "gfx\\interface\\flag_mask_tiny.tga"
+		effectFile = "gfx\\FX\\maskedflag.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_decision_info"
+		texturefile = "gfx\\interface\\diplomacy\\decision_info.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_action_btn"
+		texturefile = "gfx\\interface\\diplomacy\\action_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_name_btn"
+		texturefile = "gfx\\interface\\diplomacy\\sort_name_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_relations_threat_btn"
+		texturefile = "gfx\\interface\\diplomacy\\sort_relations_threat_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_voting_btn"
+		texturefile = "gfx\\interface\\diplomacy\\sort_voting_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_organisation_btn"
+		texturefile = "gfx\\interface\\diplomacy\\sort_organisation_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_alliance_btn"
+		texturefile = "gfx\\interface\\diplomacy\\sort_alliance_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_members_btn"
+		texturefile = "gfx\\interface\\diplomacy\\members_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_effects_btn"
+		texturefile = "gfx\\interface\\diplomacy\\sort_effects_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_sort_last_vote_btn"
+		texturefile = "gfx\\interface\\diplomacy\\sort_last_vote_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_un_abstain_btn"
+		texturefile = "gfx\\interface\\diplomacy\\un_abstain_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_diplomacy_un_yes_btn"
+		texturefile = "gfx\\interface\\diplomacy\\un_yes_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_diplomacy_un_no_btn"
+		texturefile = "gfx\\interface\\diplomacy\\un_no_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_diplomacy_un_veto_btn"
+		texturefile = "gfx\\interface\\diplomacy\\un_veto_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_continent_btn"
+		texturefile = "gfx\\interface\\diplomacy\\continent_btn.dds"
+		noOfFrames = 2
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_continent_btn_2"
+		texturefile = "gfx\\interface\\diplomacy\\continent_btn_2.dds"
+		noOfFrames = 2
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_diplomacy_continent_all_btn"
+		texturefile = "gfx\\interface\\diplomacy\\continent_all_btn.dds"
+		noOfFrames = 2
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_tv_diplo"
+		texturefile = "gfx\\interface\\diplomacy\\tv_diplo.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+		clicksound = click
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_tv_faction"
+		texturefile = "gfx\\interface\\diplomacy\\tv_faction.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+		clicksound = click
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_tv_un"
+		texturefile = "gfx\\interface\\diplomacy\\tv_un.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+		clicksound = click
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplomacy_tv_community"
+		texturefile = "gfx\\interface\\diplomacy\\tv_community.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+		clicksound = click
+		#effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_tile_diplo"
+		texturefile = "gfx\\interface\\diplomacy\\tile_diplo.dds"
+		
+		norefcount = yes
+		clicksound = click
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_tile_faction"
+		texturefile = "gfx\\interface\\diplomacy\\tile_faction.dds"
+		
+		norefcount = yes
+		clicksound = click
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_tile_faction_1"
+		texturefile = "gfx\\interface\\diplomacy\\tile_faction_1.dds"
+		
+		norefcount = yes
+		clicksound = click
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_diplomacy_bar_overlay"
+		texturefile = "gfx\\interface\\diplomacy\\diplo_bar_overlay.dds"
+		
+		norefcount = yes
+		clicksound = click
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "dip_align_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\diplomacy\\bar_blue_horizontal.dds"
+		textureFile2 = "gfx\\interface\\diplomacy\\bar_red_horizontal.dds"
+		size = { x = 91 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_thumb_up"
+		texturefile = "gfx\\interface\\diplomacy\\icon_thumb_up.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_thumb_down"
+		texturefile = "gfx\\interface\\diplomacy\\icon_thumb_down.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_veto"
+		texturefile = "gfx\\interface\\diplomacy\\icon_veto.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_abstain"
+		texturefile = "gfx\\interface\\diplomacy\\icon_abstain.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_threaten"
+		texturefile = "gfx\\interface\\diplomacy\\icon_threaten.dds"
+		
+		norefcount = yes
+		clicksound = click
+		noOfFrames = 2
+	}
+
+	
+	spriteType = {
+		name = "GFX_community_button"
+		texturefile = "gfx\\interface\\diplomacy\\bg_community_button.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_trade_bg"
+		texturefile = "gfx\\interface\\trade_bg.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_button_reset"
+		texturefile = "gfx\\interface\\button_reset.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_button_diplo_decision"
+		texturefile = "gfx\\interface\\diplo_decision_thick.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {	
+		name = "GFX_togglebutton"
+		texturefile = "gfx\\interface\\diplomacy\\btn_goto.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_icon_factions"
+		texturefile = "gfx\\interface\\diplomacy\\factions.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_factions_small"
+		texturefile = "gfx\\interface\\factions_small.dds"
+		
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_decision_entry"
+		texturefile = "gfx\\interface\\diplomacy\\decision_entry.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_bg_decision"
+		texturefile = "gfx\\interface\\diplomacy\\bg_decision.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_buysell"
+		texturefile = "gfx\\interface\\button_buysell.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_neg_right"
+		texturefile = "gfx\\interface\\negotiation_slidearrow_right.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_neg_left"
+		texturefile = "gfx\\interface\\negotiation_slidearrow_left.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	progressbartype = {
+		name = "faction_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_green.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_red.dds"
+		size = { x = 91 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "surrender_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\diplomacy\\bar_green.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_red.dds"
+		size = { x = 267 y = 23 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_bg_sort_diplo"
+		texturefile = "gfx\\interface\\diplomacy\\bg_sort_diplo.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_bg_sort_faction"
+		texturefile = "gfx\\interface\\diplomacy\\bg_sort_faction.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_bg_sort_un"
+		texturefile = "gfx\\interface\\diplomacy\\bg_sort_un.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_bg_un_voting"
+		texturefile = "gfx\\interface\\diplomacy\\bg_un_voting.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_btn_goto"
+		texturefile = "gfx\\interface\\diplomacy\\btn_goto.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_shield_bg"
+		texturefile = "gfx\\interface\\diplomacy\\shield_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_military_access_them"
+		texturefile = "gfx\\interface\\diplomacy\\icon_military_access_them.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_military_access_us"
+		texturefile = "gfx\\interface\\diplomacy\\icon_military_access_us.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_alliance"
+		texturefile = "gfx\\interface\\diplomacy\\icon_alliance.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_allow_debt"
+		texturefile = "gfx\\interface\\diplomacy\\icon_allow_debt.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_nonaggression"
+		texturefile = "gfx\\interface\\diplomacy\\icon_nonaggression.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_icon_war"
+		texturefile = "gfx\\interface\\diplomacy\\icon_war.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_diplo_ideology_circle_bg"
+		texturefile = "gfx\\interface\\diplomacy\\ideology_circle_bg.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_diplo_legend_icon"
+		texturefile = "gfx\\interface\\diplomacy\\ideology_circle.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_diplo_ideology_circle_overlay"
+		texturefile = "gfx\\interface\\diplomacy\\ideology_circle_overlay.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplo_sorting_btn_faction_agreement"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_agreement.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplo_sorting_btn_faction_alignment"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_alignment.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_diplo_sorting_btn_faction_bg"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_bg.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplo_sorting_btn_faction_bias"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_bias.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplo_sorting_btn_faction_biases"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_biases.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplo_sorting_btn_faction_name"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_name.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplo_sorting_btn_faction_relations"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_relations.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_diplo_sorting_btn_faction_voting"
+		texturefile = "gfx\\interface\\diplomacy\\sorting_btn_faction_voting.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_nation_relation_diplo_sort"
+		texturefile = "gfx\\interface\\diplomacy\\nation_relation_sort.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	maskedShieldType = {
+		name = "GFX_diplomacy_shield"
+		textureFile1 = "gfx\\interface\\diplomacy\\shield_diplo_overlay.dds"
+		textureFile2 = "gfx\\interface\\popup\\shield_popup_mask.dds"
+		effectFile = "gfx\\FX\\maskedflag.fx"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_diplomacy_shield_left"
+		textureFile1 = "gfx\\interface\\diplomacy\\shield_diplo_overlay_left.dds"
+		textureFile2 = "gfx\\interface\\popup\\shield_popup_mask.dds"
+		effectFile = "gfx\\FX\\maskedflag.fx"
+	}
+
+	
+}
+	

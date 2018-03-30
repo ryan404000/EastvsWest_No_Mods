@@ -1,0 +1,1034 @@
+guiTypes = {
+
+########################################
+# Air builder Interface
+########################################
+
+	windowType = {
+		name = "air_builder_window"
+		size = { x=1024 y=768 }
+		position = { x=-555 y=-340 }
+		orientation="CENTER"
+		
+		iconType = {
+			name ="bg_mainshadow"
+			spriteType = "GFX_bg_shadow_prod"
+			position = { x=-22 y=-5 }
+		}
+
+		iconType = {
+			name = "plane_build_bg"
+			spriteType = "GFX_bg_air_build"
+			position = { x=-22 y=-5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "headline"
+			position = { x=45 y=30 }
+			font = "Jockey_30_glow_green"
+			text = "AIR_PRODUCTION"
+			maxHeight = 28
+			maxWidth = 600
+			fixedsize = yes
+		}
+
+		iconType = {
+			name = "air_badge"
+			spriteType = "GFX_air_badge"
+			position = { x=272 y=46 }
+		}
+		
+		################
+		### IC COST ####	
+#		iconType = {
+#			name = "selected_brigade_green"
+#			spriteType = "GFX_selected_brigade_green"
+#			position = { x= 689 y = 589 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
+#		iconType = {
+#			name = "selected_brigade_orange"
+#			spriteType = "GFX_selected_brigade_orange"
+#			position = { x= 689 y = 589 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
+#		iconType = {
+#			name = "selected_brigade_red"
+#			spriteType = "GFX_selected_brigade_red"
+#			position = { x= 689 y = 589 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
+		iconType = {
+			name ="str_div"
+			spriteType = "GFX_icon_str"
+			position = { x=373 y =97 }
+		}
+
+		iconType = {
+			name ="org_div"
+			spriteType = "GFX_icon_org"
+			position = { x=435 y =97 }
+		}
+
+		iconType = {
+			name ="perday_div"
+			spriteType = "GFX_icon_div_money"
+			position = { x=488 y =97 }
+		}			
+
+		iconType = {
+			name ="time_div"
+			spriteType = "GFX_spy_action_duration"
+			position = { x=574 y =98 }
+		}
+		
+		iconType = {
+			name = "ic_cost_icon"
+			spriteType = "GFX_btn_prod_money_daily"
+			position = { x=979 y=86 }
+		}
+
+		
+
+		instantTextBoxType = {
+			position = { x=973 y=104 }
+			name = "ic_cost_value"
+			font = "Danger_14"
+			borderSize = { x=4 y=2 }
+			text = "xxx"	
+			maxWidth = 60
+			maxHeight = 10
+			format = right
+		}	
+		
+		iconType = {
+			name = "cost_icon"
+			spriteType = "GFX_btn_prod_money"
+			position = { x=976 y=120 }
+		}		
+		
+		instantTextBoxType = {
+			position = { x=973 y=141 }
+			name = "unit_money_cost"
+			font = "Danger_14"
+			borderSize = { x=4 y=2 }
+			text = "UNIT_MONEY_COST"	
+			maxWidth = 60
+			maxHeight = 10
+			format = right
+		}
+		
+		iconType = {
+			name = "build_time_icon"
+			spriteType = "GFX_btn_prod_time"
+			position = { x=978 y=159 }
+		}
+		
+		instantTextBoxType = {
+			position = { x=973 y=179 }
+			name = "build_time_value"
+			font = "Danger_14"
+			borderSize = {x = 4 y = 2}
+			text = "xxx"	
+			maxWidth = 60
+			maxHeight = 10
+			format = right
+		}
+		
+		iconType = {
+			name = "mp_cost_icon"
+			spriteType = "GFX_btn_prod_manpower"
+			position = { x=977 y=195 }
+		}
+		
+		instantTextBoxType = {
+			position = { x=973 y=217 }
+			name = "mp_cost_value"
+			font = "Danger_14"
+			borderSize = { x=4 y=2 }
+			text = "xxx"	
+			maxWidth = 60
+			maxHeight = 10
+			format = right
+		}
+		
+#		instantTextBoxType = {
+#			position = { x = 570 y = 220 }
+#			name = "description_text"
+#			font = "Arial14"
+#			borderSize = {x=4 y=2}
+#			text = ""
+#			maxWidth = 200
+#			maxHeight = 600
+#			orientation = "UPPER_LEFT"
+#		}
+		#
+#		instantTextBoxType = {
+#			position = { x = 860 y = 606 }
+#			name = "ic_cost_value"
+#			font = "Arial14"
+#			borderSize = {x = 4 y = 2}
+#			text = "xxx"	
+#			maxWidth = 170
+#			maxHeight = 10
+#			orientation = "UPPER_LEFT"
+#		}						
+
+			
+#		iconType =
+#		{
+#			name ="on_complete_icon"
+#			spriteType = "icon_tech_unknown"
+#			position = { x= 595 y = 600 }
+#			Orientation = "UPPER_LEFT"			
+#		}	
+
+#		iconType =
+#		{
+#			name ="on_complete_frame"
+#			spriteType = "GFX_on_complete_frame"
+#			position = { x= 620 y = 598 }
+#			Orientation = "UPPER_LEFT"			
+#		}		
+
+#		instantTextBoxType = {
+#			position = { x = 623 y = 603 }
+#			name = "on_complete_impact"
+#			font = "Arial14_black"
+#			borderSize = {x = 4 y = 2}
+#			maxWidth = 170
+#			maxHeight = 10
+#			orientation = "UPPER_LEFT"
+#		}			
+	#################
+	#################
+		
+		listboxType = {
+			name = "ai_need_queue"
+			position = { x=672 y=349 }
+			backGround=""
+			size = { x=353 y=159 }
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard_2"
+		}
+		
+	### START PRODUCTION / CLOSE ###
+	
+		guiButtonType = {
+			name = "accept"
+			position = { x=908 y=611 }
+			quadTextureSprite ="GFX_button_build_division"
+			buttonText = ""
+			buttonFont = "Jockey_24_glow_blue"
+		}
+		
+		instantTextBoxType = {
+			position = { x=948 y=631 }
+			name = "accept_label"
+			font = "Jockey_24_glow_blue"
+			borderSize = { x=4 y=2 }
+			text = "BUILD"
+			maxWidth = 30
+			maxHeight = 30
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "cancel"
+			position = { x = 1035 y = 29 }
+			quadTextureSprite ="GFX_close_btn"
+			buttonText = "CLOSE"
+			buttonFont = "Jockey_14_dark"
+			shortcut = "ESCAPE"
+		}
+		#############
+		##     NUKE PAYLOAD ##
+
+
+#		iconType =
+#		{
+#			name ="nuke_add_icon"
+#			spriteType = "GFX_nuke_icon"
+#			position = { x= 703 y = 490 }
+#			Orientation = "UPPER_LEFT"
+#		}	
+
+		checkboxType = {
+			name = "nuke_payload"
+			position = { x= 693 y = 519 }
+			quadTextureSprite ="GFX_airdivision_nuclear_switch"
+		}
+
+#		instantTextBoxType = {
+#			position = { x = 760 y = 496 }
+#			name = "nuke_payload_label"
+#			font = "Arial14"
+#			borderSize = {x = 4 y = 2}
+#			text = "NUCLEAR_PLANE_PAYLOAD"	
+#			maxWidth = 170
+#			maxHeight = 10
+#			orientation = "UPPER_LEFT"
+#		}		
+		
+		#############
+		##     SERIAL/PARALELL ##
+		
+		guiButtonType = {
+			name = "serial_plus"
+			position = { x=863 y=611 }
+			quadTextureSprite ="option_next"
+			buttonFont = "Arial12"
+		}
+		
+		guiButtonType = {
+			name = "serial_minus"
+			position = { x=763 y=611 }
+			quadTextureSprite ="option_prev"
+			buttonFont = "Arial12"
+		}	
+			
+		
+		instantTextBoxType = {
+			position = { x=685 y=618 }
+			name = "serial_label"
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=2 }
+			text = "PW_SERIAL"	
+			maxWidth = 200
+			maxHeight = 10
+			format = left
+		}
+		instantTextBoxType = {
+			position = { x=730 y=617 }
+			name = "serial_value"
+			font = "Jockey_18_yellow"
+			borderSize = { x=4 y=2 }
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 15
+			format = centre
+		}
+		guiButtonType = {
+			name = "parallell_plus"
+			position = { x=863 y=643 }
+			quadTextureSprite ="option_next"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		guiButtonType = {
+			name = "parallel_minus"
+			position = { x=763 y=643 }
+			quadTextureSprite ="option_prev"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+		instantTextBoxType = {
+			position = { x=685 y=650 }
+			name = "paralell_label"
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=2 }
+			text = "PW_PARALELL"	
+			maxWidth = 170
+			maxHeight = 10
+			format = left
+		}
+		instantTextBoxType = {
+			position = { x=730 y=649 }
+			name = "paralell_value"
+			font = "Jockey_18_yellow"
+			borderSize = { x=4 y=2 }
+			text = "0"	
+			maxWidth = 170
+			maxHeight = 15
+			format = centre
+		}
+		
+		
+		############
+		###     SORT BUTTONS ####
+		
+					
+					
+######## LISTBOX ########			
+			
+		listboxType = {
+			name = "queue"
+			position = { x=53 y=125 }
+			backGround=""
+			size = { x= 571 y = 533}
+			Orientation = "UPPER_LEFT"
+			spacing = 0
+			scrollbartype = "scrollbar_vertical_prod"
+			borderSize = {x = 0 y = 0}
+		}
+		
+########################
+##    SELECTED AIR                                                    
+########################
+	
+	windowType = {
+		name = "selected_air_window"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=700 y= 300 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+		
+		iconType = {
+			name = "selected_plane_photo"
+			spriteType = "GFX_model_photo"
+			position = { x=685 y=86}
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 646 y = 195 }
+			name = "select_unit_text"
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 288
+			maxHeight = 14
+			orientation = "UPPER_LEFT"
+			format = centre
+		}			
+
+		
+		iconType = {
+			name = "selected_plane_stamp"
+			spriteType = "GFX_air_stamp"
+			position = { x= 671 y = 72 }
+			Orientation = "UPPER_LEFT"
+		}
+	
+		## ORG
+		iconType = {
+			name = "total_org"
+			spriteType = "GFX_icon_org"
+			position = { x=680 y=254 }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 686 y=282  }
+			name = "org"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## SOFT A
+		iconType = {
+			name = "total_sa"
+			spriteType = "GFX_icon_sa"
+			position = { x= 700 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 705 y=282  }
+			name = "sa"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		## HARD A
+		iconType = {
+			name = "total_ha"
+			spriteType = "GFX_icon_ha"
+			position = { x= 720 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 726 y=282  }
+			name = "ha"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## STR A
+		iconType = {
+			name = "total_att"
+			spriteType = "GFX_icon_strat_a"
+			position = { x= 738 y=251  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 748 y=282  }
+			name = "str_att"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## Surface D
+		iconType = {
+			name = "total_ad"
+			spriteType = "GFX_icon_land_def"
+			position = { x= 759 y=252  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 769 y=282  }
+			name = "sea_defence"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## Air Detection
+		iconType = {
+			name = "total_sof"
+			spriteType = "GFX_icon_air_det"
+			position = { x= 778 y=251  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 789 y=282  }
+			name = "air_detection"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## Air A
+		iconType = {
+			name = "total_aa"
+			spriteType = "GFX_icon_air_a"
+			position = { x= 800 y=253  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 810 y=282  }
+			name = "air_attack"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## Air D
+		iconType = {
+			name = "total_def"
+			spriteType = "GFX_icon_ad"
+			position = { x= 825 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 831 y=282  }
+			name = "air_def"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## Sea Detection
+		iconType = {
+			name = "total_sc"
+			spriteType = "GFX_icon_sur_det"
+			position = { x=841 y=250  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 852 y=282 }
+			name = "surface_detection"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		## Sea A
+		iconType = {
+			name = "total_tou"
+			spriteType = "GFX_icon_sea_a"
+			position = { x= 862 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 874 y=282  }
+			name = "sea_attack"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## Sea A
+		iconType = {
+			name = "total_subatt"
+			spriteType = "GFX_icon_sub_a"
+			position = { x= 885 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 895 y=282  }
+			name = "sub_attack"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+	
+		## Transp Cap
+		iconType = {
+			name = "total_cw"
+			spriteType = "GFX_icon_trans_cap"
+			position = { x= 910 y=252  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 920 y=282  }
+			name = "trans_cap"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}		
+		
+		## RANGE
+		iconType = {
+			name = "total_range"
+			spriteType = "GFX_icon_range"
+			position = { x= 941 y=252  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 952 y=282  }
+			name = "range"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		## SPEED
+		iconType = {
+			name = "total_speed"
+			spriteType = "GFX_icon_speed"
+			position = { x= 971 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 978 y=282  }
+			name = "speed"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}	
+		
+		## Supply C
+		iconType = {
+			name = "total_sup"
+			spriteType = "GFX_icon_sc"
+			position = { x= 995 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 1000 y=282  }
+			name = "sup"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}	
+
+		## Oil C
+		iconType = {
+			name = "total_oc"
+			spriteType = "GFX_icon_oc"
+			position = { x= 1018 y=254  }
+		}
+		
+		instantTextBoxType = {
+			position = { x = 1024 y=282  }
+			name = "fuel_consumption"
+			font = "Arial12_black"
+			maxWidth = 10
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x=718 y=318 }
+			name = "theater_label"
+			font = "Jockey_24"
+			borderSize = { x=4 y=2 }
+			text = "OL_THEATRE"	
+			maxWidth = 270
+			maxHeight = 22
+			format = centre
+		}
+	}	
+}	
+	
+	windowType = {
+		name = "air_desc_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=1024 y= 16 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		instantTextBoxType = {
+			position = { x = 0 y = 0 }
+			name = "selected_plane_description"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 330
+			maxHeight = 16
+			format = left
+			orientation = "UPPER_LEFT"
+		}
+	}
+########################################
+# AIRPLANE LIST    ENTRY
+########################################
+	
+	windowType = {
+		name = "build_air_entry"
+		position = { x=0 y=0 }	
+		size = { x=587 y= 76 }
+		
+		guiButtonType = {
+			name = "select"
+			position = { x= 0 y = 0 }
+			quadTextureSprite ="GFX_airbuild_listbutton"
+			buttonFont = "Arial14"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "plane_photo"
+			spriteType = "GFX_model_small"
+			position = { x= 7 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "division_overlay"
+			spriteType = "GFX_div_overlay"
+			position = { x=4 y=4 }
+		}
+
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= 67 y = -6 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+#		iconType = {
+#			name ="counter_size"
+#			spriteType = "GFX_counter_size"
+#			position = { x= 0 y = 0 }
+#			Orientation = "UPPER_LEFT"
+#		}		
+		
+#		instantTextBoxType = {
+#			position = { x = 165 y = 18 }
+#			name = "mode_short"
+#			font = "Arial_14_bold_glow"
+#			borderSize = {x = 4 y = 2}
+#			text = "MODEL_SHORT"	
+#			maxWidth = 250
+#			maxHeight = 10
+#			orientation = "UPPER_LEFT"
+#		}				
+		
+		instantTextBoxType = {
+			position = { x = 119 y = 10 }
+			name = "name"
+			font = "Jockey_14_cyan"
+			borderSize = {x = 4 y = 2}
+			text = "name"	
+			maxWidth = 160
+			maxHeight = 14
+			orientation = "UPPER_LEFT"
+		}	
+
+		#iconType =
+		#{
+		#	name ="icon_str_small"
+		#	spriteType = "GFX_icon_div_str"
+		#	position = { x= 296 y = 8 }
+		#	Orientation = "UPPER_LEFT"
+		#}	
+		
+		instantTextBoxType = {
+			position = { x = 298 y = 10 }
+			name = "mp"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = "mp"	
+			maxWidth = 50
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}		
+		
+		#iconType =
+		#{
+		#	name ="icon_org_small"
+		#	spriteType = "GFX_icon_div_org"
+		#	position = { x= 370 y = 8 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+		
+		instantTextBoxType = {
+			position = { x = 361 y = 10 }
+			name = "org"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = "org"	
+			maxWidth = 50
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		#iconType =
+		#{
+		#	name ="icon_money_small"
+		#	spriteType = "GFX_btn_naval_daily"
+		#	position = { x= 424 y = 2 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+		
+		instantTextBoxType = {
+			position = { x = 413 y = 10 }
+			name = "money_cost"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = ""	
+			maxWidth = 75
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		#iconType =
+		#{
+		#	name ="icon_time_small"
+		#	spriteType = "GFX_btn_naval_time"
+		#	position = { x= 506 y = 2 }
+		#	Orientation = "UPPER_LEFT"
+		#}	
+		
+		instantTextBoxType = {
+			position = { x = 488 y = 10 }
+			name = "time"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			text = "tou"	
+			maxWidth = 65
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		
+		## STATS
+		instantTextBoxType = {
+			position = { x = 123 y = 54  }
+			name = "soft_a"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 141 y = 54  } ## DIstance = 25
+			name = "hard_a"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 158 y = 54  }
+			name = "sea_a"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 177 y = 54  }
+			name = "air_a"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 195 y = 54  }
+			name = "strat_a"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 213 y = 54  }
+			name = "sea_d"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		
+		instantTextBoxType = {
+			position = { x = 231 y = 54  }
+			name = "air_d"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 249 y = 54  }
+			name = "sur_det"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 267 y = 54  }
+			name = "air_det"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 285 y = 54  }
+			name = "sub_att"
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 15
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 310 y = 54  }
+			name = "trans"
+			font = "Arial12_bold"
+			maxWidth = 35
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 363 y = 54  } #40 difference
+			name = "range"
+			font = "Arial12_bold"
+			maxWidth = 35
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 416 y = 54  }
+			name = "speed"
+			font = "Arial12_bold"
+			maxWidth = 35
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 469 y = 54  }
+			name = "sc"
+			font = "Arial12_bold"
+			maxWidth = 35
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			position = { x = 522 y = 54  }
+			name = "fc"
+			font = "Arial12_bold"
+			maxWidth = 35
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+	}				
+}
+

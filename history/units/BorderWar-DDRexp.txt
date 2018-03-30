@@ -1,0 +1,19 @@
+#DDR Expeditionary force in Angola
+	army = 
+	{
+		name = "East German Expeditionary Army"
+		location = 5857
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = DDR
+
+		division = 
+		{   
+			name = "1st Infantry Division"
+			location = 5857
+			expeditionary_owner = DDR
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 3 strength = 33 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 2 strength = 38 experience = 7 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 2 strength = 25 experience = 8 }
+			regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 1 strength = 35 experience = 9 }
+		}
+	}

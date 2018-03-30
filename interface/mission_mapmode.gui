@@ -1,0 +1,255 @@
+guiTypes = {
+	windowType = {
+		name = "allied_mission_item"
+		backGround = ""
+		position = { x = -220 y = 0 }
+		size = { x = 200 y = 30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullscreen = no
+
+		checkboxType = 
+		{
+			name = "country_selection"
+			position = { x=0 y=0 }
+			quadTextureSprite = "GFX_missionmap_checkbox"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+		}
+		
+		iconType = 
+		{
+			name = "flag"
+			spriteType = "GFX_minishield"
+			position = { x=-7 y=2}
+			Orientation = "UPPER_LEFT"
+		#	allwaystransparent = yes
+		}
+		
+		instantTextBoxType = 
+		{
+			name = "country_name"
+			position = { x=35 y=10 }
+			format = left
+			
+			textureFile = ""
+			font = "Jockey_14"
+			text = ""
+			maxWidth = 140
+			maxHeight = 16
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = 
+		{
+			name = "num_assigned"
+			position = { x=138 y=10 }
+			format = centre
+			textureFile = ""
+			font = "Jockey_14"
+			text = "U"
+			maxWidth = 20
+			maxHeight = 16
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = 
+		{
+			name = "num_avail"
+			position = { x=194 y=10 }
+			format = centre
+			textureFile = ""
+			font = "Jockey_14"
+			text = "A"
+			maxWidth = 20
+			maxHeight = 16
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+	}
+	
+	windowType = {
+		name = "allied_mission_window"
+		backGround = ""
+		position = { x = -725 y = -207 }
+		size = { x = 350 y = 250 }
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		orientation = "LOWER_RIGHT"
+		
+		iconType = {
+				name ="background"
+				spriteType = "GFX_mission_mapmode_bg"
+				position = { x= -130 y = 40 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		listboxType =  {
+			name = "allied_items_list"
+			position = { x = -110 y = 96 }
+			backGround = ""
+			size = { x = 260 y = 100 }
+			Orientation = "UPPER_LEFT"
+		#	horisontal = 0
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = { x=0 y=0 }
+		}
+		
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x=-110 y= 62 }
+			format = left
+			
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = ""
+			maxWidth = 55
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "currently_available"
+			position = { x=85 y= 62 }
+			format = left
+			
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = ""
+			maxWidth = 80
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "currently_assigned"
+			position = { x=-18 y= 62 }
+			format = left
+			
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = ""
+			maxWidth = 80
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			fixedsize = yes
+		}
+		
+		guiButtonType = {
+			name = "cancel_all"
+			position = { x=177 y= 55 }
+			quadTextureSprite = "GFX_missionmap_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_blue"
+		}
+
+		instantTextBoxType = { 
+			name = "cancel_all_label"
+			position = { x=106 y=60 }
+			textureFile = ""
+			font = "Jockey_14_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "CANCEL_ALL_MISSION"
+			maxWidth = 250
+			maxHeight = 32	
+			format = centre
+		}
+		
+		guiButtonType = {
+			name = "start"
+			position = { x=177 y=90 }
+			quadTextureSprite = "GFX_missionmap_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonFont = "Jockey_14_glow_blue"
+			buttonText = ""
+		}
+
+		instantTextBoxType = { 
+			name = "start_mission_label"
+			position = { x=106 y=95 }
+			textureFile = ""
+			font = "Jockey_14_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "START_MISSION"
+			maxWidth = 250
+			maxHeight = 32	
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "finish"
+			position = { x=177 y=125 }
+			quadTextureSprite = "GFX_missionmap_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonFont = "Jockey_14_glow_blue"
+			buttonText = ""
+		}
+
+		instantTextBoxType = { 
+			name = "finish_label"
+			position = { x=106 y=130}
+			textureFile = ""
+			font = "Jockey_14_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "DONE_MISSION"
+			maxWidth = 250
+			maxHeight = 32	
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "select_all"
+			position = { x=177 y=160 }
+			quadTextureSprite = "GFX_missionmap_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Jockey_14_glow_blue"
+		}
+
+		instantTextBoxType = { 
+			name = "select_all_label"
+			position = { x=106 y=165}
+			textureFile = ""
+			font = "Jockey_14_glow_blue"
+			borderSize = { x=0 y=4 }
+			text = "SELECT_ALL_MISSION"
+			maxWidth = 250
+			maxHeight = 32	
+			format = centre
+		}
+		
+
+		#guiButtonType = {
+		#	name = "close"
+		#	position = { x=210 y=112 }
+		#	quadTextureSprite = "GFX_divdesign_button"
+		#	tooltip = ""
+		#	tooltipText = ""
+		#	delayedTooltipText = ""
+		#	buttonFont = "Arial12_bold_black"
+		#	buttonText = "CLOSE"
+		#}
+
+	}
+}
+			
+		

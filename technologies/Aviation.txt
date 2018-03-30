@@ -1,0 +1,3659 @@
+# List of all Aviation techs
+	#engine_turbojet_small					( 4 levels)
+	#engine_turbojet_medium					( 6 levels)
+	#engine_afterburner						( 1 levels)
+	#engine_turbojet_large					( 5 levels)
+	#engine_rocket							( 4 levels)
+	#airframewing_speed						( 6 levels)
+	#airframewing_lift						( 5 levels)
+	#helicopter_body						( 4 levels)
+	#aerodynamics							( 5 levels)
+	#aircraftavionics						( 5 levels)
+	#aircraftcountermeasures				( 6 levels)
+
+	
+engine_turbojet_small = {
+
+	level = 4
+
+	allow_level = { 
+		1 = {
+			industry_physics = 1
+			industry_heavy_mechanical_engineering = 1
+			aircraftavionics = 1
+			}
+		2 = { 
+			industry_physics = 3
+			industry_heavy_mechanical_engineering = 2
+			aircraftavionics = 3
+		}
+		3 = {
+			industry_physics = 5
+			industry_heavy_mechanical_engineering = 5
+			aircraftavionics = 4
+		}
+		4 = {
+			industry_physics = 7
+			industry_heavy_mechanical_engineering = 5
+			aircraftavionics = 5
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		industry_theory
+	}	
+	level_effect = {
+		1 = {
+		}
+		2 = {
+		}
+		3 = {
+		}
+		4 = {
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+engine_turbojet_medium = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# 1945
+			engine_turbojet_small = 1
+			aircommand_unityofcommandprinciple = 1
+		}
+		2 = {	# 1948
+			industry_physics = 2
+			industry_heavy_mechanical_engineering = 1
+			aircraftavionics = 1
+		}
+		3 = {	# 1954
+			industry_physics = 3
+			industry_heavy_mechanical_engineering = 2
+			aircraftavionics = 2
+		}
+		4 = {	# 1962
+			industry_physics = 4
+			industry_heavy_mechanical_engineering = 3
+			aircraftavionics = 3
+		}
+		5 = {	# 1972
+			industry_physics = 6
+			industry_heavy_mechanical_engineering = 4
+			aircraftavionics = 4
+		}
+		6 = {	# 1982
+			industry_physics = 8
+			industry_heavy_mechanical_engineering = 5
+			aircraftavionics = 5
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		industry_theory
+		airstrategy_theory		
+	}		
+	level_effect = {
+		1 = {	# 
+			fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 75
+				unit_money_cost = 3.0
+			}
+			multi_role = {
+				air_attack = 0.6
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 75
+				unit_money_cost = 3.2
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 75
+				unit_money_cost = 3.5
+			}
+			cag_fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 75
+				unit_money_cost = 3.1
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 75
+				unit_money_cost = 3.3
+			}
+			cag_attack = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 0	# Intentional, this model is a prop
+				unit_money_cost = 0
+			}
+		}
+		2 = {	# 
+			fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 150
+				unit_money_cost = 1.3
+			}
+			multi_role = {
+				air_attack = 0.6
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 150
+				unit_money_cost = 1.35
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 150
+				unit_money_cost = 1.5
+			}
+			cag_fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 150
+				unit_money_cost = 1.4
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 150
+				unit_money_cost = 1.4
+			}
+			cag_attack = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 200
+				unit_money_cost = 5.2
+			}
+		}
+		3 = {	# 
+			fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 350
+				unit_money_cost = 6.0
+			}
+			multi_role = {
+				air_attack = 0.6
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 300
+				unit_money_cost = 6.55
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 300
+				unit_money_cost = 8.45
+			}
+			cag_fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 250
+				unit_money_cost = 7.05
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 400
+				unit_money_cost = 7.45
+			}
+			cag_attack = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 250
+				unit_money_cost = 9.7
+			}
+		}
+		4 = {	# 
+			fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 200
+				unit_money_cost = 15.09
+			}
+			multi_role = {
+				air_attack = 0.6
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 300
+				unit_money_cost = 16.8
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 22.5
+			}
+			cag_fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 350
+				unit_money_cost = 18.3
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 19.5
+			}
+			cag_attack = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 75
+				unit_money_cost = 26.4
+			}
+		}
+		5 = {	# 
+			fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 200
+				unit_money_cost = 30.3
+			}
+			multi_role = {
+				air_attack = 0.6
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 200
+				unit_money_cost = 34.0
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 46.2
+			}
+			cag_fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 450
+				unit_money_cost = 37.2
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 39.75
+			}
+			cag_attack = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 54.6
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 54.6
+			}
+		}
+		6 = {	# 
+			fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 200
+				unit_money_cost = 43.0
+			}
+			multi_role = {
+				air_attack = 0.6
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 200
+				unit_money_cost = 48.35
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 66.3
+			}
+			cag_fighter = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 53.1
+			}
+			cag_mltr = {
+				air_attack = 0.6
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 56.9
+			}
+			cag_attack = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 78.6
+			}
+			cag_vtol = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				range = -100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 78.6
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+engine_afterburner = {
+
+	allow = {	# 1950
+		engine_turbojet_medium = 2
+	}
+	traits = {
+		aviation_theory
+	}	
+	fighter = {
+		air_attack = 0.5
+		air_defence = 1.0
+		surface_defence = 0.5
+		fuel_consumption = 0.3
+		supply_consumption = 0.1
+		unit_money_cost = 0.2
+	}
+	multi_role = {
+		air_attack = 0.5
+		air_defence = 1.0
+		surface_defence = 0.5
+		fuel_consumption = 0.3
+		supply_consumption = 0.1
+		unit_money_cost = 0.2
+	}
+	cas = {
+		air_attack = 0.2
+		air_defence = 1.0
+		surface_defence = 0.5
+		fuel_consumption = 0.3
+		supply_consumption = 0.1
+		unit_money_cost = 0.2
+	}
+	cag_fighter = {
+		air_attack = 0.5
+		air_defence = 1.0
+		surface_defence = 0.5
+		fuel_consumption = 0.3
+		supply_consumption = 0.1
+		unit_money_cost = 0.2
+	}
+	cag_mltr = {
+		air_attack = 0.5
+		air_defence = 1.0
+		surface_defence = 0.5
+		fuel_consumption = 0.3
+		supply_consumption = 0.1
+		unit_money_cost = 0.2
+	}
+	cag_attack = {
+		air_attack = 0.2
+		air_defence = 1.0
+		surface_defence = 0.5
+		fuel_consumption = 0.3
+		supply_consumption = 0.1
+		unit_money_cost = 0.2
+	}
+	cag_vtol = {
+		air_attack = 0.2
+		air_defence = 1.0
+		surface_defence = 0.5
+		fuel_consumption = 0.3
+		supply_consumption = 0.1
+		unit_money_cost = 0.2
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+engine_turbojet_large = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {	# 1948
+			engine_turbojet_medium = 1
+			or = { 
+			aircommand_massprinciple = 1
+			aircommand_objectiveprinciple = 1
+			aircombatops_armydirectedbombing = 1
+			}
+		}
+		2 = {	# 1950
+			aircraftavionics = 2
+			industry_physics = 2
+			industry_heavy_mechanical_engineering = 2
+		}
+		3 = {	# 1953
+			aircraftavionics = 3
+		}
+		4 = {	# 1965
+			aircraftavionics = 5
+			industry_physics = 4
+			industry_heavy_mechanical_engineering = 4
+
+		}
+		5 = {	# 1981
+			aircraftavionics = 7
+			industry_physics = 7
+			industry_heavy_mechanical_engineering = 7
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		industry_theory
+		airtactical_theory
+		airstrategy_theory
+	}		
+	level_effect = {
+		1 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 6.0
+			}
+			bomber_strategic = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 8.0
+			}
+			bomber_maritime = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 6.5
+			}
+			bomber_antisub = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.25
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 7.0
+			}
+		}
+		2 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 26.25
+			}
+			bomber_strategic = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 41.0
+			}
+			bomber_maritime = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 28.45
+			}
+			bomber_antisub = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.25
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 30.85
+			}
+		}
+		3 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 73.3
+			}
+			bomber_strategic = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 116.7
+			}
+			bomber_maritime = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 80.1
+			}
+			bomber_antisub = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.25
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 87.3
+			}
+		}
+		4 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 153.15
+			}
+			bomber_strategic = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 245.5
+			}
+			bomber_maritime = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 167.9
+			}
+			bomber_antisub = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.25
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 183.4
+			}
+		}
+		5 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 221.55
+			}
+			bomber_strategic = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 356.2
+			}
+			bomber_maritime = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 243.2
+			}
+			bomber_antisub = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				sea_attack = 0.25
+				sub_attack = 0.25
+				range = -200
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 265.9
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+
+engine_rocket = { #TODO ADD BONUSES
+
+	level = 4
+
+	allow_level = {
+		1 = {
+			industry_physics = 1
+		}
+		2 = {
+			industry_physics = 3
+			industry_chemistry = 2
+			any_owned_province = { has_special_building = rocket_test_site }
+		}
+		3 = {
+			industry_physics = 5
+			industry_chemistry = 5
+		}
+		4 = {
+			industry_physics = 7
+			industry_chemistry = 7
+		}
+	}
+	traits = {
+		science_theory
+	}	
+	level_effect = {
+		1 = {
+		}
+		2 = {
+		}
+		3 = {
+		}
+		4 = {
+		}
+	}
+
+	activate_building = rocket_test_site
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+airframewing_speed = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# 1945
+			aerodynamics = 1
+			or = {
+				aircommand_objectiveprinciple = 1
+				aircommand_offensiveprinciple = 1
+				aircommand_maneuverprinciple = 1
+				aircommand_economyofforceprinciple = 1
+			}
+		}
+		2 = {	# 1949
+		}
+		3 = {	# 1956
+			aerodynamics = 2
+		}
+		4 = {	# 1962
+			aerodynamics = 3
+			industry_electronics = 2
+		}
+		5 = {	# 1973
+			aerodynamics = 4
+			industry_electronics = 4
+			industry_softwareengineering = 3
+		}
+		6 = {	# 1983
+			aerodynamics = 5
+			industry_electronics = 7
+			industry_softwareengineering = 7
+		}
+	}
+	traits = {
+		aviation_theory
+		airtactical_theory
+		airstrategy_theory
+	}	
+	level_effect = {
+		1 = {	# 
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = -0.1
+				maximum_speed = 25
+				unit_money_cost = 2.0
+			}
+			multi_role = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 25
+				unit_money_cost = 2.2
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 25
+				unit_money_cost = 2.5
+			}
+			cag_fighter = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 25
+				unit_money_cost = 2.1
+			}
+			cag_mltr = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 25
+				unit_money_cost = 2.3
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 25
+				unit_money_cost = 2.6
+			}
+		}
+		2 = {	# 
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = -0.1
+				maximum_speed = 50
+				unit_money_cost = 1.3
+			}
+			multi_role = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 1.35
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 1.6
+			}
+			cag_fighter = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 1.45
+			}
+			cag_mltr = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 1.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 1.75
+			}
+		}
+		3 = {	# 
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = -0.1
+				maximum_speed = 100
+				unit_money_cost = 6.0
+			}
+			multi_role = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 6.1
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 150
+				unit_money_cost = 7.95
+			}
+			cag_fighter = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 6.6
+			}
+			cag_mltr = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 7.0
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 9.25
+			}
+		}
+		4 = {	# 
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = -0.1
+				maximum_speed = 100
+				unit_money_cost = 15.1
+			}
+			multi_role = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 10.8
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 14.5
+			}
+			cag_fighter = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 11.8
+			}
+			cag_mltr = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 12.55
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 17.1
+			}
+		}
+		5 = {	# 
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = -0.1
+				maximum_speed = 100
+				unit_money_cost = 30.3
+			}
+			multi_role = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 23.6
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 32.15
+			}
+			cag_fighter = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 200
+				unit_money_cost = 25.85
+			}
+			cag_mltr = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 27.65
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 38.0
+			}
+			cag_vtol = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 38.0
+			}
+		}
+		6 = {	# 
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = -0.1
+				maximum_speed = 100
+				unit_money_cost = 43.05
+			}
+			multi_role = {
+				air_attack = 0.5
+				air_defence = 0.6
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.4
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 33.2
+			}
+			cas = {
+				air_attack = 0.2
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 100
+				unit_money_cost = 45.55
+			}
+			cag_fighter = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 36.45
+			}
+			cag_mltr = {
+				air_attack = 0.3
+				air_defence = 0.5
+				surface_defence = 0.5
+				soft_attack = 0.1
+				hard_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 39.05
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 54.0
+			}
+			cag_vtol = {
+				air_attack = 0.1
+				air_defence = 0.4
+				surface_defence = 0.5
+				soft_attack = 0.2
+				hard_attack = 0.5
+				sea_attack = 0.3
+				sub_attack = 0.3
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+				unit_money_cost = 54.0
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+airframewing_lift = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {	# 1949
+			aerodynamics = 1
+			or = {
+				aircommand_objectiveprinciple = 1
+				aircommand_massprinciple = 1
+				aircombatops_armydirectedbombing = 1
+			}
+		}
+		2 = {	# 1951
+			aerodynamics = 2
+		}
+		3 = {	# 1954
+				industry_electronics = 2 
+		}
+		4 = {	# 1966
+			aerodynamics = 3
+				industry_electronics = 6 
+				industry_light_plastics =3
+		}
+		5 = {	# 1982
+			aerodynamics = 4
+			 industry_electronics = 8
+			 industry_light_plastics =7
+		}
+	}
+	traits = {
+		airtactical_theory
+		aviation_theory
+		airstrategy_theory
+	}	
+	level_effect = {
+		1 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 4.5
+			}
+			bomber_strategic = {
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 8.0
+			}
+			bomber_maritime = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 5.0
+			}
+			bomber_antisub = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 5.5
+			}
+		}
+		2 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 25.2
+			}
+			bomber_strategic = {
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 39.65
+			}
+			bomber_maritime = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 27.4
+			}
+			bomber_antisub = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 29.75
+			}
+		}
+		3 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 47.55
+			}
+			bomber_strategic = {
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 75.8
+			}
+			bomber_maritime = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 52.0
+			}
+			bomber_antisub = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 56.7
+			}
+		}
+		4 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 106.65
+			}
+			bomber_strategic = {
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 171.05
+			}
+			bomber_maritime = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 116.95
+			}
+			bomber_antisub = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 127.75
+			}
+		}
+		5 = {	# 
+			bomber_strike = {
+				air_defence = 0.5
+				surface_defence = 0.3
+				soft_attack = 0.5
+				hard_attack = 0.5
+				strategic_attack = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 152.25
+			}
+			bomber_strategic = {
+				surface_defence = 0.3
+				soft_attack = 1.0
+				hard_attack = 0.5
+				strategic_attack = 1.0
+				sea_attack = 0.5
+				sub_attack = 0.25
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 244.85
+			}
+			bomber_maritime = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.6
+				supply_consumption = 0.4
+				unit_money_cost = 167.15
+			}
+			bomber_antisub = {
+				air_defence = 0.4
+				surface_defence = 0.3
+				sea_attack = 0.5
+				sub_attack = 0.5
+				range = 300
+				fuel_consumption = 0.4
+				supply_consumption = 0.2
+				unit_money_cost = 182.75
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+helicopter_body = {
+
+	level = 4
+
+	allow_level = {
+		1 = {
+		or = {
+			airborneops_airassaultplanning = 1
+			aircommand_simplicityprinciple = 1
+			}
+			aerodynamics = 1
+			industry_physics = 2
+		}
+		2 = {
+			aerodynamics = 2
+			industry_physics = 4
+		}
+		3 = {
+			aerodynamics = 3
+			industry_electronics = 2
+		}
+		4 = {
+			aerodynamics = 5
+			industry_electronics = 7
+			industry_light_plastics = 7
+		}
+	}
+	traits = {
+		science_theory
+		aviation_theory
+		industry_theory
+		surface_theory
+		airtactical_theory
+	}	
+	level_effect = {	# Can allow non-combat helicopters, like Search&Rescue and scouting/recon, directly
+		1 = {
+			helo_gunship = {
+				air_defence = 0.2
+				surface_defence = 0.2
+				range = 100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+			helo_cas = {
+				air_defence = 0.2
+				surface_defence = 0.5
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+			helo_maritime = {
+				air_defence = 0.2
+				surface_defence = 0.2
+				range = 100
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+			ship_heli_cas = {
+				air_defence = 0.2
+				surface_defence = 0.5
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+		}
+		2 = {
+			helo_gunship = {
+				air_defence = 0.4
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+			helo_cas = {
+				air_defence = 0.4
+				surface_defence = 0.75
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+			helo_maritime = {
+				air_defence = 0.4
+				surface_defence = 0.5
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+			ship_heli_cas = {
+				air_defence = 0.4
+				surface_defence = 0.75
+				range = 200
+				fuel_consumption = 0.3
+				supply_consumption = 0.1
+				maximum_speed = 50
+			}
+		}
+		3 = {
+			helo_gunship = {
+				air_defence = 0.75
+				surface_defence = 1
+				range = 500
+				fuel_consumption = 0.75
+				supply_consumption = 0.3
+				maximum_speed = 150
+			}
+			helo_cas = {
+				air_defence = 1
+				surface_defence = 2
+				range = 600
+				fuel_consumption = 0.75
+				supply_consumption = 0.75
+				maximum_speed = -50
+			}
+			helo_maritime = {
+				air_defence = 0.75
+				surface_defence = 1
+				range = 500
+				fuel_consumption = 0.75
+				supply_consumption = 0.3
+				maximum_speed = 150
+			}
+			ship_heli_cas = {
+				air_defence = 1
+				surface_defence = 2
+				range = 600
+				fuel_consumption = 0.75
+				supply_consumption = 0.75
+				maximum_speed = -50
+			}
+		}
+		4 = {
+			helo_gunship = {
+				air_defence = 1
+				surface_defence = 1.5
+				range = 500
+				fuel_consumption = 1
+				supply_consumption = 0.75
+				maximum_speed = 250
+			}
+			helo_cas = {
+				air_defence = 1.5
+				surface_defence = 5
+				range = 300
+				fuel_consumption = 1.5
+				supply_consumption = 1.5
+				maximum_speed = -50
+			}
+			helo_maritime = {
+				air_defence = 1
+				surface_defence = 1.5
+				range = 500
+				fuel_consumption = 1
+				supply_consumption = 0.75
+				maximum_speed = 250
+			}
+			ship_heli_cas = {
+				air_defence = 1.5
+				surface_defence = 5
+				range = 300
+				fuel_consumption = 1.5
+				supply_consumption = 1.5
+				maximum_speed = -50
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aerodynamics = {
+
+	level = 5
+
+	allow_level = {
+		1 = {	# WW2 level
+		industry_physics = 1
+		industry_mathematics = 1
+		}
+		2 = {	# 50s level
+
+			industry_physics = 2
+			industry_mathematics = 2
+
+		}
+		3 = {	# 60s level
+			industry_physics = 4
+			industry_mathematics = 4
+			industry_light_plastics = 1
+		}
+		4 = {	# 70s level
+		industry_physics = 7
+		industry_mathematics = 7
+		industry_light_plastics = 3
+		}
+		5 = {	# 80s level
+		industry_physics = 9
+		industry_mathematics = 9
+		industry_light_plastics = 7
+		}
+	}
+	traits = {
+		science_theory
+		industry_theory
+	}	
+	level_effect = {
+		1 = {	# Costs for bombers?
+			fighter = {
+				maximum_speed = 10
+			}
+			multi_role = {
+				maximum_speed = 10
+			}
+			cas = {
+				maximum_speed = 7.5
+			}
+			cag_fighter = {
+				maximum_speed = 10
+			}
+			cag_mltr = {
+				maximum_speed = 10
+			}
+			cag_attack = {
+				maximum_speed = 7.5
+			}
+			cag_vtol = {
+				maximum_speed = 7.5
+			}				
+			bomber_strike = {
+				maximum_speed = 7.5
+			}
+			bomber_strategic = {
+				maximum_speed = 2.5
+			}
+			bomber_maritime = {
+				maximum_speed = 5.0
+			}
+			bomber_antisub = {
+				maximum_speed = 5.0
+			}
+			helo_gunship = {
+				maximum_speed = 5.0
+			}
+			helo_cas = {
+				maximum_speed = 5.0
+			}
+			helo_maritime = {
+				maximum_speed = 5.0
+			}
+			ship_heli_cas = {
+				maximum_speed = 5.0
+			}
+		}
+		2 = {
+			fighter = {
+				maximum_speed = 10
+			}
+			multi_role = {
+				maximum_speed = 10
+			}
+			cas = {
+				maximum_speed = 7.5
+			}
+			cag_fighter = {
+				maximum_speed = 10
+			}
+			cag_mltr = {
+				maximum_speed = 10
+			}
+			cag_attack = {
+				maximum_speed = 7.5
+			}
+			cag_vtol = {
+				maximum_speed = 7.5
+			}				
+			bomber_strike = {
+				maximum_speed = 7.5
+			}
+			bomber_strategic = {
+				maximum_speed = 2.5
+			}
+			bomber_maritime = {
+				maximum_speed = 5.0
+			}
+			bomber_antisub = {
+				maximum_speed = 5.0
+			}
+			helo_gunship = {
+				maximum_speed = 5.0
+			}
+			helo_cas = {
+				maximum_speed = 5.0
+			}
+			helo_maritime = {
+				maximum_speed = 5.0
+			}
+			ship_heli_cas = {
+				maximum_speed = 5.0
+			}
+		}
+		3 = {
+			fighter = {
+				maximum_speed = 10
+			}
+			multi_role = {
+				maximum_speed = 10
+			}
+			cas = {
+				maximum_speed = 7.5
+			}
+			cag_fighter = {
+				maximum_speed = 10
+			}
+			cag_mltr = {
+				maximum_speed = 10
+			}
+			cag_attack = {
+				maximum_speed = 7.5
+			}
+			cag_vtol = {
+				maximum_speed = 7.5
+			}			
+			bomber_strike = {
+				maximum_speed = 7.5
+			}
+			bomber_strategic = {
+				maximum_speed = 2.5
+			}
+			bomber_maritime = {
+				maximum_speed = 5.0
+			}
+			bomber_antisub = {
+				maximum_speed = 5.0
+			}
+			helo_gunship = {
+				maximum_speed = 5.0
+			}
+			helo_cas = {
+				maximum_speed = 5.0
+			}
+			helo_maritime = {
+				maximum_speed = 5.0
+			}
+			ship_heli_cas = {
+				maximum_speed = 5.0
+			}
+		}
+		4 = {
+			fighter = {
+				maximum_speed = 10
+			}
+			multi_role = {
+				maximum_speed = 10
+			}
+			cas = {
+				maximum_speed = 7.5
+			}
+			cag_fighter = {
+				maximum_speed = 10
+			}
+			cag_mltr = {
+				maximum_speed = 10
+			}
+			cag_attack = {
+				maximum_speed = 7.5
+			}
+			cag_vtol = {
+				maximum_speed = 7.5
+			}			
+			bomber_strike = {
+				maximum_speed = 7.5
+			}
+			bomber_strategic = {
+				maximum_speed = 2.5
+			}
+			bomber_maritime = {
+				maximum_speed = 5.0
+			}
+			bomber_antisub = {
+				maximum_speed = 5.0
+			}
+			helo_gunship = {
+				maximum_speed = 5.0
+			}
+			helo_cas = {
+				maximum_speed = 5.0
+			}
+			helo_maritime = {
+				maximum_speed = 5.0
+			}
+			ship_heli_cas = {
+				maximum_speed = 5.0
+			}
+		}
+		5 = {
+			fighter = {
+				maximum_speed = 10
+			}
+			multi_role = {
+				maximum_speed = 10
+			}
+			cas = {
+				maximum_speed = 7.5
+			}
+			cag_fighter = {
+				maximum_speed = 10
+			}
+			cag_mltr = {
+				maximum_speed = 10
+			}
+			cag_attack = {
+				maximum_speed = 7.5
+			}
+			cag_vtol = {
+				maximum_speed = 7.5
+			}			
+			bomber_strike = {
+				maximum_speed = 7.5
+			}
+			bomber_strategic = {
+				maximum_speed = 2.5
+			}
+			bomber_maritime = {
+				maximum_speed = 5.0
+			}
+			bomber_antisub = {
+				maximum_speed = 5.0
+			}
+			helo_gunship = {
+				maximum_speed = 5.0
+			}
+			helo_cas = {
+				maximum_speed = 5.0
+			}
+			helo_maritime = {
+				maximum_speed = 5.0
+			}
+			ship_heli_cas = {
+				maximum_speed = 5.0
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aircraftavionics = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = {	# 1946
+			industry_physics = 1
+		}
+		2 = {	# 1956
+			industry_physics = 3
+		}
+		3 = {	# 1966
+			industry_physics = 5
+		}
+		4 = {	# 1976
+			industry_physics = 7
+		}
+		5 = {	# 1986
+			industry_physics = 9
+		}
+	}
+	traits = {
+		science_theory
+	}		
+	level_effect = {
+		1 = {	# Costs for bombers?
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.3
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+				supply_consumption = 0.1
+			}
+			multi_role = {
+				air_attack = 0.4
+				air_defence = 0.3
+				hard_attack = 0.25
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+			}
+			cas = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 0.2
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_fighter = {
+				air_attack = 1.25
+				air_defence = 0.75
+				surface_defence = 0.2
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_mltr = {
+				air_attack = 1
+				air_defence = 0.75
+				hard_attack = 0.6
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 1
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_vtol = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}			
+			bomber_strike = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 1
+				strategic_attack = 0.5
+				sea_attack = 1.25
+				sub_attack = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_strategic = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 0.75
+				strategic_attack = 1.25
+				sea_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_maritime = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_antisub = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 2
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_gunship = {
+				air_defence = 0.75
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				air_defence = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+		}
+		2 = {
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.3
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+				supply_consumption = 0.1
+			}
+			multi_role = {
+				air_attack = 0.4
+				air_defence = 0.3
+				hard_attack = 0.25
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+			}
+			cas = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 0.2
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_fighter = {
+				air_attack = 1.25
+				air_defence = 0.75
+				surface_defence = 0.2
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_mltr = {
+				air_attack = 1
+				air_defence = 0.75
+				hard_attack = 0.6
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 1
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_vtol = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}			
+			bomber_strike = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 1
+				strategic_attack = 0.5
+				sea_attack = 1.25
+				sub_attack = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_strategic = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 0.75
+				strategic_attack = 1.25
+				sea_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_maritime = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_antisub = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 2
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_gunship = {
+				air_defence = 0.75
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				air_defence = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+		}
+		3 = {
+				fighter = {
+				air_attack = 0.5
+				air_defence = 0.3
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+				supply_consumption = 0.1
+			}
+			multi_role = {
+				air_attack = 0.4
+				air_defence = 0.3
+				hard_attack = 0.25
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+			}
+			cas = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 0.2
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_fighter = {
+				air_attack = 1.25
+				air_defence = 0.75
+				surface_defence = 0.2
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_mltr = {
+				air_attack = 1
+				air_defence = 0.75
+				hard_attack = 0.6
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 1
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_vtol = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}			
+			bomber_strike = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 1
+				strategic_attack = 0.5
+				sea_attack = 1.25
+				sub_attack = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_strategic = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 0.75
+				strategic_attack = 1.25
+				sea_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_maritime = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_antisub = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 2
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_gunship = {
+				air_defence = 0.75
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				air_defence = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+		}
+		4 = {
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.3
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+				supply_consumption = 0.1
+			}
+			multi_role = {
+				air_attack = 0.4
+				air_defence = 0.3
+				hard_attack = 0.25
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+			}
+			cas = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 0.2
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_fighter = {
+				air_attack = 1.25
+				air_defence = 0.75
+				surface_defence = 0.2
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_mltr = {
+				air_attack = 1
+				air_defence = 0.75
+				hard_attack = 0.6
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 1
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_vtol = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}			
+			bomber_strike = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 1
+				strategic_attack = 0.5
+				sea_attack = 1.25
+				sub_attack = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_strategic = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 0.75
+				strategic_attack = 1.25
+				sea_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_maritime = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_antisub = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 2
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_gunship = {
+				air_defence = 0.75
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				air_defence = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+		}
+		5 = {
+			fighter = {
+				air_attack = 0.5
+				air_defence = 0.3
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+				supply_consumption = 0.1
+			}
+			multi_role = {
+				air_attack = 0.4
+				air_defence = 0.3
+				hard_attack = 0.25
+				surface_defence = 0.2
+				maximum_speed = -25
+				range = -150
+			}
+			cas = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 0.2
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_fighter = {
+				air_attack = 1.25
+				air_defence = 0.75
+				surface_defence = 0.2
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_mltr = {
+				air_attack = 1
+				air_defence = 0.75
+				hard_attack = 0.6
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_attack = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				sub_attack = 1
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}
+			cag_vtol = {
+				air_attack = 0.1
+				air_defence = 0.75
+				soft_attack = 0.2
+				hard_attack = 0.75
+				sea_attack = 0.75
+				surface_defence = 0.5
+				maximum_speed = -150
+				range = -150
+				supply_consumption = 0.5
+			}			
+			bomber_strike = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 1
+				strategic_attack = 0.5
+				sea_attack = 1.25
+				sub_attack = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_strategic = {
+				air_defence = 1.25
+				surface_defence = 0.75
+				soft_attack = 1.25
+				hard_attack = 0.75
+				strategic_attack = 1.25
+				sea_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_maritime = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 1.25
+				range = -150
+				supply_consumption = 0.5
+			}
+			bomber_antisub = {
+				air_defence = 1
+				surface_defence = 0.75
+				sea_attack = 1.25
+				sub_attack = 2
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_gunship = {
+				air_defence = 0.75
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+			helo_maritime = {
+				air_defence = 0.5
+				range = -150
+				supply_consumption = 0.5
+			}
+			ship_heli_cas = {
+				air_attack = 0.25
+				air_defence = 1
+				range = -150
+				supply_consumption = 0.5
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+aircraftcountermeasures = {
+
+	multilevel = yes
+	level = 6
+
+	allow_level = {
+		1 = {	# 1955
+			industry_electronics = 2
+			industry_chemistry = 2
+				aircommand_unityofcommandprinciple = 1
+		}
+		2 = {	# 1959
+					industry_electronics = 3
+					industry_chemistry = 3
+		}
+		3 = {	# 1966
+			industry_electronics = 5
+			industry_chemistry = 5
+		}
+		4 = {	# 1973
+			industry_electronics = 6
+		}
+		5 = {	# 1980
+			industry_electronics = 7
+		}
+		6 = {	# 1987
+			industry_electronics = 9
+		}
+	}
+	traits = {
+		science_theory
+		airstrategy_theory
+	}	
+	level_effect = {
+		1 = {	# Costs for helos?
+			fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.75
+			}
+			multi_role = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.8
+			}
+			cas = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.0
+			}
+			cag_fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.85
+			}
+			cag_mltr = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.9
+			}
+			cag_attack = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 5.5
+				unit_money_cost = 1.15
+			}
+			cag_vtol = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.0
+			}			
+			bomber_strike = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 3.05
+			}
+			bomber_strategic = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 4.8
+			}
+			bomber_maritime = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 3.5
+			}
+			bomber_antisub = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 3.6
+			}
+			helo_gunship = {
+				air_defence = 1.0
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_maritime = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+		}
+		2 = {
+			fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.6
+			}
+			multi_role = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.65
+			}
+			cas = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.85
+			}
+			cag_fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.7
+			}
+			cag_mltr = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.75
+			}
+			cag_vtol = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 0.85
+			}			
+			cag_attack = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 5.5
+				unit_money_cost = 1.0
+			}
+			bomber_strike = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 2.85
+			}
+			bomber_strategic = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 4.5
+			}
+			bomber_maritime = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 3.1
+			}
+			bomber_antisub = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 3.35
+			}
+			helo_gunship = {
+				air_defence = 1.0
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_maritime = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+		}
+		3 = {
+			fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.25
+			}
+			multi_role = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.4
+			}
+			cas = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.9
+			}
+			cag_fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.55
+			}
+			cag_mltr = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.65
+			}
+			cag_attack = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 5.5
+				unit_money_cost = 2.25
+			}
+			cag_vtol = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.9
+			}			
+			bomber_strike = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 6.3
+			}
+			bomber_strategic = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 10.05
+			}
+			bomber_maritime = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 6.9
+			}
+			bomber_antisub = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 7.5
+			}
+			helo_gunship = {
+				air_defence = 1.0
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_maritime = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+		}
+		4 = {
+			fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 1.95
+			}
+			multi_role = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 2.2
+			}
+			cas = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.0
+			}
+			cag_fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 2.4
+			}
+			cag_mltr = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 2.55
+			}
+			cag_attack = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 5.5
+				unit_money_cost = 3.55
+			}
+			cag_vtol = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.0
+			}			
+			bomber_strike = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 9.95
+			}
+			bomber_strategic = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 15.95
+			}
+			bomber_maritime = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 10.9
+			}
+			bomber_antisub = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 11.9
+			}
+			helo_gunship = {
+				air_defence = 1.0
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_maritime = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+		}
+		5 = {
+			fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 2.5
+			}
+			multi_role = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 2.8
+			}
+			cas = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.8
+			}
+			cag_fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.05
+			}
+			cag_mltr = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.25
+			}
+			cag_attack = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 5.5
+				unit_money_cost = 4.5
+			}
+			cag_vtol = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.8
+			}			
+			bomber_strike = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 12.7
+			}
+			bomber_strategic = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 20.45
+			}
+			bomber_maritime = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 13.95
+			}
+			bomber_antisub = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 15.25
+			}
+			helo_gunship = {
+				air_defence = 1.0
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_maritime = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+		}
+		6 = {
+			fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.0
+			}
+			multi_role = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.35
+			}
+			cas = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 4.65
+			}
+			cag_fighter = {
+				air_defence = 1.0
+				surface_defence = 0.3
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.7
+			}
+			cag_mltr = {
+				air_defence = 1.2
+				surface_defence = 0.35
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 3.95
+			}
+			cag_attack = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 5.5
+			}
+			cag_vtol = {
+				air_defence = 1.4
+				surface_defence = 0.5
+				maximum_speed = -25
+				range = -25
+				supply_consumption = 0.05
+				unit_money_cost = 4.65
+			}			
+			bomber_strike = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 15.5
+			}
+			bomber_strategic = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 25.0
+			}
+			bomber_maritime = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 17.05
+			}
+			bomber_antisub = {
+				air_defence = 1.5
+				surface_defence = 0.5
+				supply_consumption = 0.05
+				unit_money_cost = 18.65
+			}
+			helo_gunship = {
+				air_defence = 1.0
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			helo_maritime = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+			ship_heli_cas = {
+				air_defence = 1.2
+				surface_defence = 0.5
+				range = -50
+				supply_consumption = 0.05
+			}
+		}
+	}
+
+	folder = air_tech2_folder
+	time = 100
+	cost = 100
+}
+
+
+
+#stealth_basicconcepts = {
+#
+#	allow = {
+#			manufacturing_vehicle = 12
+#			electronics = 4
+#			or = {
+#				aircommand_securityprinciple = 1
+#				allsubs_silentoperations = 2
+#			}
+#	}
+#	traits = {
+#		
+#	}	
+#
+#	folder = air_tech2_folder
+#	time = 100
+#	cost = 100
+#}
+
+#stealth_lowradarvisibility = {
+
+#	level = 2
+
+#	allow_level = {
+#		1 = {
+#			stealth_basicconcepts = 1
+#			manufacturing_vehicle = 24
+#			computers = 9
+##			aircommand_securityprinciple = 1
+#		}
+#		2 = {
+##			stealth_lowradarvisibility = 1
+##			manufacturing_vehicle = 26
+##			computers = 11
+#		}
+#	}
+#	traits = {
+#		
+#	}	
+#	level_effect = {
+#		1 = {
+#		}
+#		2 = {
+#		}
+#	}
+#
+#	folder = air_tech2_folder
+##	time = 100
+#	cost = 100
+#}
+
+
+#stealth_silencing = {
+#
+#	level = 3
+#
+#	allow_level = {
+#		1 = {
+#			stealth_basicconcepts = 1
+#			manufacturing_vehicle = 18
+#			hull_submarine_teardrop = 1
+#			allsubs_silentoperations = 3
+#			or = {
+#				propulsion_diesel_submarine = 1
+#				propulsion_nuclear = 1
+#			}
+#		}
+#		2 = {
+#			stealth_silencing = 1
+#			manufacturing_vehicle = 22
+#			hull_submarine_attack = 1
+#			or = {
+#				propulsion_diesel_submarine = 2
+#				propulsion_nuclear_submarine = 1
+#			}
+#		}
+#		3 = {
+#			stealth_silencing = 2
+#			manufacturing_vehicle = 28
+#			hull_submarine_attack = 2
+#			or = {
+#				propulsion_diesel_submarine = 3
+#				propulsion_nuclear_submarine = 2
+#			}
+#		}
+#	}
+#	traits = {
+#		
+#	}	
+#	level_effect = {
+#		1 = {
+#		}
+#		2 = {
+#		}
+#		3 = {
+#		}
+#	}
+#
+#	folder = air_tech2_folder
+#	time = 100
+#	cost = 100
+#}
+#

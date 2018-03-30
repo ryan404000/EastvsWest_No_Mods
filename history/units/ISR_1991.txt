@@ -1,0 +1,113 @@
+theatre =
+{
+	name = "Israeli Defense Forces"
+	location = 7800
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+	army =
+	{
+		name = "1st Israeli Army"
+		location = 7800
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division =
+		{
+			name = "36th Division 'Ga'ash'"
+			location = 6231
+			regiment = { type = anti_tank_brigade name = "1st 'Golani' AT Brigade" historical_model = 2 strength = 20 experience = 5 }
+			regiment = { type = infantry_brigade name = "11th 'Yiftach' Infantry Brigade" historical_model = 4 strength = 35 experience = 6 }
+			regiment = { type = infantry_brigade name = "9th 'Oded' Infantry Brigade" historical_model = 4 strength = 35 experience = 4 }
+			regiment = { type = light_mechanized_brigade name = "12th L. Mech. Brigade" historical_model = 3 strength = 40 experience = 4 }			
+		}
+		
+		division =
+		{
+			name = "2nd Division"
+			location = 7800
+			regiment = { type = infantry_brigade name = "3rd 'Alexandroni' Infantry Brigade" historical_model = 3 strength = 37 experience = 4 }
+			regiment = { type = light_mechanized_brigade name = "7th Armored Brigade" historical_model = 3 strength = 32 experience = 5 }
+			regiment = { type = attack_helo_brigade name = "1st Attack Helicopter Brigade" historical_model = 2 strength = 10 experience = 4 }
+			regiment = { type = armor_brigade name = "10th Armored Brigade" historical_model = 4 strength = 25 experience = 2 }
+		}	
+		
+		division =
+		{
+			name = "3rd Division"
+			location = 7800
+			regiment = { type = infantry_brigade name = "4th 'Kiryati' Infantry Brigade" historical_model = 4 strength = 37 experience = 5 }
+			regiment = { type = infantry_brigade name = "5th 'Givati' Infantry Brigade" historical_model = 4 strength = 36 experience = 5 }
+			regiment = { type = light_mechanized_brigade name = "9th L. Mech.  Brigade" historical_model = 3 strength = 40 experience = 4 }	
+			regiment = { type = air_cav_brigade name = "1st Air Cavalry Brigade" historical_model = 3 strength = 40 experience = 4 }
+		}
+		
+		division =
+		{
+			name = "4th Division"
+			location = 5955
+			regiment = { type = infantry_brigade name = "6th 'Etzioni' Infantry Brigade" historical_model = 4 strength = 35 experience = 4 }
+			regiment = { type = infantry_brigade name = "10th 'Harel' Infantry  Brigade" historical_model = 4 strength = 33 experience = 5 }
+			regiment = { type = armor_brigade name = "8th Armored Brigade" historical_model = 3 strength = 22 experience = 5 }
+			regiment = { type = armor_brigade name = "9th Armored Brigade" historical_model = 4 strength = 25 experience = 5 }
+		}
+		division =
+		{
+			name = "7th Division"
+			location = 7801
+			regiment = { type = light_mechanized_brigade name = "11th Mechanized Brigade" historical_model = 3 strength = 37 experience = 4 }
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 4 strength = 40 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armored Brigade" historical_model = 4 strength = 25 experience = 2 }
+		}	
+	}	
+	air = {
+		name = "1st Air Force"
+		base = 7800
+		location = 7800
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 6 strength = 100 builder = USA }
+		wing = { type = multi_role name = "2nd Fighter Wing" historical_model = 5 strength = 50 builder = USA }
+	}
+	navy = {
+	
+		name = "1st Fleet"
+		base = 7800 # Tel Aviv
+		location = 7800
+		ship = { type = missile_boat name = "1. Missile Boat Flotilla" strength = 60 historical_model = 3}
+		ship = { type = missile_boat name = "2. Missile Boat Flotilla" strength = 60 historical_model = 4 }		
+		ship = { type = missile_boat name = "3. Missile Boat Flotilla" strength = 70 historical_model = 5 }	
+		ship = { type = missile_boat name = "4. Missile Boat Flotilla" historical_model = 6 }			
+		ship = { type = missile_boat name = "5. Missile Boat Flotilla" historical_model = 8 }				
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 7800 # Tel Aviv
+		location = 7800
+		ship = { type = attack_submarine name = "INS Gal" historical_model = 5 builder = FRG }
+		ship = { type = attack_submarine name = "INS Tanin" historical_model = 5 builder = FRG }
+		ship = { type = attack_submarine name = "INS Rahav" historical_model = 5 builder = FRG }
+	}	
+}
+division =
+{
+	name = "6th Desert Division"
+	location = 7801
+	pool = yes
+	regiment = { type = infantry_brigade name = "12th 'Hativa HaNegev' Infantry Brigade" historical_model = 4 strength = 35 experience = 4 }
+	regiment = { type = light_mechanized_brigade name = "13th L. Mech. Brigade" historical_model = 4 strength = 40 experience = 4 }	
+	regiment = { type = light_mechanized_brigade name = "14th L. Mech. Brigade" historical_model = 4 strength = 40 experience = 4 }	
+}	
+division =
+{
+	name = "5th Reserve Division"
+	location = 14112
+	pool = yes
+	regiment = { type = infantry_brigade name = "2nd 'Carmeli' Infantry Brigade" historical_model = 4 strength = 36 experience = 4 }
+	regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 4 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 4 strength = 40 experience = 4 }
+}
+division =
+{
+	name = "4th Division"
+	location = 5955
+	pool = yes
+	regiment = { type = infantry_brigade name = "6th 'Etzioni' Infantry Brigade" historical_model = 4 strength = 35 experience = 4 }
+	regiment = { type = infantry_brigade name = "10th 'Harel' Infantry  Brigade" historical_model = 4 strength = 33 experience = 5 }
+	regiment = { type = armor_brigade name = "8th Armored Brigade" historical_model = 3 strength = 22 experience = 2 }
+}

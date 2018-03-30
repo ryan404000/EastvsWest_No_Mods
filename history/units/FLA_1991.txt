@@ -1,0 +1,84 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 5113
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 5113
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 5113
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 4 strength = 36 experience = 6 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 4 strength = 38 experience = 6 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 4 strength = 22 experience = 7 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 3 strength = 22 experience = 7 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 5167
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 4 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 3 strength = 36 experience = 5 }
+			regiment = { type = engineer_brigade name = "1st Engineer Brigade" historical_model = 3 strength = 23 experience = 4 }
+		}
+	}
+	
+	air = {
+		name = "1st Air Force"
+		base = 5113
+		location = 5113
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 3 strength = 100 builder = ENG }
+		wing = { type = fighter name = "2nd Fighter Wing" historical_model = 3 strength = 50 builder = ENG }
+	}
+	
+	air = {
+		name = "2nd Air Force"
+		base = 5113
+		location = 5113
+		wing = { type = multi_role name = "3rd Fighter Wing" historical_model = 1 strength = 50 builder = USA }
+	}
+	navy = {	
+		name = "1st Fleet"
+		base = 5061
+		location = 5061
+		ship = { type = missile_frigate name = "BNS Wielingen" historical_model = 3 }
+		ship = { type = missile_frigate name = "BNS Westdiep" historical_model = 3 }
+		ship = { type = missile_frigate name = "BNS Wandelaar" historical_model = 3 }
+		ship = { type = missile_frigate name = "BNS Westhinder" historical_model = 3 }
+		ship = { type = transport_ship name = "1ère Flottille de Convoi" historical_model = 0 }
+	}
+}
+division =
+{
+	name = "3rd Division"
+	location = 5166
+	pool = yes
+	regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 4 strength = 36 experience = 5 }
+	regiment = { type = artillery_brigade name = "3rd Artillery Brigade" historical_model = 3 strength = 23 experience = 4 }
+	regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 3 strength = 34 experience = 5 }
+}
+division =
+{
+	name = "2nd Division"
+	location = 5061
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 3 strength = 36 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 3 strength = 37 experience = 5 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 4 strength = 21 experience = 5 }
+}
+
+division =
+{
+	name = "4th Division"
+	location = 5113
+	pool = yes
+	regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 4 strength = 35 experience = 5 }
+	regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 3 strength = 36 experience = 5 }
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 2 strength = 38 experience = 4 }
+}

@@ -1,0 +1,887 @@
+guiTypes = {
+	
+	windowType = {
+		name = "nuclear_mapmode_window"
+		backGround = ""
+		position = { x = -932 y = -172 }
+		size = { x = 548 y = 143 }
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		orientation = "LOWER_RIGHT"
+		
+		iconType = {
+				name ="background"
+				spriteType = "GFX_nuclear_window"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		guiButtonType = {
+			name = "btn_abort"
+			position = { x=478 y = 16 }
+			quadTextureSprite ="GFX_panel_close"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+		
+		checkboxType = {
+			name = "automate_checkbox"
+			position = { x = 17 y = 18 }
+			quadTextureSprite ="GFX_eco_automate"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "btn_launch"
+			position = { x=401 y=62 }
+			quadTextureSprite ="GFX_nuclear_launch"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+		guiButtonType = {
+			name = "btn_global_select"
+			position = { x = 52 y = 16 }
+			quadTextureSprite = "GFX_nuclear_select_global"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = "SELECT_GLOBAL"
+			buttonFont = "Arial12_black"
+		}
+
+		guiButtonType = {
+			name = "btn_country_select"
+			position = { x = 85 y = 16 }
+			quadTextureSprite = "GFX_icon_sel_country"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "btn_region_select"
+			position = { x = 118 y = 16 }
+			quadTextureSprite = "GFX_icon_sel_region"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "btn_province_select"
+			position = { x = 151 y = 16 }
+			quadTextureSprite = "GFX_icon_sel_province"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "btn_targetlist"
+			position = { x = 211 y = 16 }
+			quadTextureSprite = "GFX_btn_targetlist"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = "T"
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "btn_missionlist"
+			position = { x = 244 y = 16 }
+			quadTextureSprite = "GFX_btn_missionlist"
+			buttonText = "M"
+			buttonFont = "Arial12"
+		}
+
+
+		guiButtonType = {
+			name = "btn_target_eco"
+			position = { x = 280 y = 16 }
+			quadTextureSprite = "GFX_nuclear_target_eco"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = "SELECT_ECONOMY"
+			buttonFont = "Arial12_black"
+		}
+
+		guiButtonType = {
+			name = "btn_target_mil"
+			position = { x = 313 y = 16 }
+			quadTextureSprite = "GFX_nuclear_target_mil"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = "SELECT_MILITARY"
+			buttonFont = "Arial12_black"
+		}
+
+		guiButtonType = {
+			name = "btn_target_all"
+			position = { x = 346 y = 16 }
+			quadTextureSprite = "GFX_nuclear_target_all"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = "SELECT_ALL"
+			buttonFont = "Arial12_black"
+		}
+
+		iconType = {
+			name ="icon_pad_blue"
+			spriteType = "GFX_switch_led_blue"
+			position = { x=  390 y = 60 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="icon_pad_red"
+			spriteType = "GFX_switch_led_red"
+			position = { x=  390 y = 128 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		guiButtonType = {
+			name = "btn_cover"
+			position = { x=366 y=31 }
+			quadTextureSprite ="GFX_panel_cover"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+		guiButtonType = {
+			name = "btn_cover_open"
+			position = { x=366 y=-47 }
+			quadTextureSprite ="GFX_panel_cover_open"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+		guiButtonType = {
+			name = "warheads_nuke"
+			position = { x=24 y=54 }
+			quadTextureSprite = "GFX_warheads_nuke_btn"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+#		iconType = {
+#			name ="warheads_nuke"
+#			spriteType = "GFX_warheads_nuke"
+#			position = { x=  12 y = 39 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
+		
+		instantTextBoxType = {
+			name = "warheads_text"
+			position = { x=46 y = 60 }
+			format = left
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 45
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "warheads_text_max"
+			position = { x=234 y = 60 }
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 60
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+
+		iconType = {
+			name ="silo_nuke"
+			spriteType = "GFX_silo_nuke"
+			position = { x=  26 y = 77 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		instantTextBoxType = {
+			name = "silo_text"
+			position = { x=46 y = 85 }
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 45
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "silo_text_max"
+			position = { x=234 y = 85 }
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 60
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+
+		iconType = {
+			name ="sub_nuke"
+			spriteType = "GFX_sub_nuke"
+			position = { x=  25 y = 99 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		instantTextBoxType = {
+			name = "sub_text"
+			position = { x=46 y = 109 }
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 45
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "sub_text_max"
+			position = { x=234 y = 109 }
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 60
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+
+
+		iconType = {
+			name ="plane_nuke"
+			spriteType = "GFX_plane_nuke"
+			position = { x=  28 y = 127 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		instantTextBoxType = {
+			name = "plane_text"
+			position = { x=46 y = 133 }
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 45
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "plane_text_max"
+			position = { x=234 y = 133 }
+			format = left
+			textureFile = ""
+			font = "Jockey_14"
+			text = "0"
+			maxWidth = 60
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+
+		scrollbarType = {
+				name = "warheads_scrollbar"	
+				parent = "standard_horizontal_slider"
+				size = {x = 165 y = 16 }
+				position = {x= 101 y = 50}
+				priority = 100			
+				borderSize = {x = 0 y = 0}	
+				maxValue = 0
+				minValue = 0
+				stepSize = 1
+				startValue = 0
+				horizontal = yes
+				rangelimitmaxicon = "ds_slider_max_cap_t"
+				rangelimitminicon = "ds_slider_min_cap_t"
+				recommendedicon = "ds_slider_recommended_t"
+
+	
+				guiButtonType = {
+					name = "ds_SliderButton_t"	
+					quadTextureSprite = "yearslider_slider"
+					tooltip = ""
+					tooltipText =""	
+					delayedTooltipText = ""
+					position = { x=0 y =0}
+				}
+	
+				guiButtonType = {
+					name = "ds_TrackButton_t"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""	
+	
+				}	
+	
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_upButton_t"
+					quadTextureSprite = "prodslider_leftbutton"
+					position = { x=0 y =0}	
+				}
+				
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_downButton_t"
+					quadTextureSprite = "prodslider_rightbutton"
+					position = { x=0 y =120}	
+				}
+
+				iconType = {
+					name ="ds_slider_min_cap_t"
+					spriteType = "GFX_slider_min_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_max_cap_t"
+					spriteType = "GFX_slider_max_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_recommended_t"
+					spriteType = "GFX_slider_recommended"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+		}
+
+
+		scrollbarType = {
+				name = "silo_scrollbar"	
+				parent = "standard_horizontal_slider"
+				#slider = "ds_SliderButton_t"
+				#track= "ds_TrackButton_t"
+				#leftbutton = "ds_upButton_t"
+				#rightbutton = "ds_downButton_t"
+				size = {x = 165 y = 16 }
+				position = {x= 101 y = 77}
+				priority = 100			
+				borderSize = {x = 0 y = 0}	
+				maxValue = 0
+				minValue = 0
+				stepSize = 1
+				startValue = 0
+				horizontal = yes
+				rangelimitmaxicon = "ds_slider_max_cap_t"
+				rangelimitminicon = "ds_slider_min_cap_t"
+				recommendedicon = "ds_slider_recommended_t"
+
+	
+				guiButtonType = {
+					name = "ds_SliderButton_t"	
+					quadTextureSprite = "yearslider_slider"
+					tooltip = ""
+					tooltipText =""	
+					delayedTooltipText = ""
+					position = { x=0 y =0}
+				}
+	
+				guiButtonType = {
+					name = "ds_TrackButton_t"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""	
+	
+				}	
+	
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_upButton_t"
+					quadTextureSprite = "prodslider_leftbutton"
+					position = { x=0 y =0}	
+				}
+				
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_downButton_t"
+					quadTextureSprite = "prodslider_rightbutton"
+					position = { x=0 y =120}	
+				}
+
+				iconType = {
+					name ="ds_slider_min_cap_t"
+					spriteType = "GFX_slider_min_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_max_cap_t"
+					spriteType = "GFX_slider_max_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_recommended_t"
+					spriteType = "GFX_slider_recommended"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+		}
+
+		scrollbarType = {
+				name = "sub_scrollbar"	
+				parent = "standard_horizontal_slider"
+				#slider = "ds_SliderButton_t"
+				#track= "ds_TrackButton_t"
+				#leftbutton = "ds_upButton_t"
+				#rightbutton = "ds_downButton_t"
+				size = {x = 165 y = 16 }
+				position = {x= 101 y = 103}
+				priority = 100			
+				borderSize = {x = 0 y = 0}	
+				maxValue = 0
+				minValue = 0
+				stepSize = 1
+				startValue = 0
+				horizontal = yes
+				rangelimitmaxicon = "ds_slider_max_cap_t"
+				rangelimitminicon = "ds_slider_min_cap_t"
+				recommendedicon = "ds_slider_recommended_t"
+
+	
+				guiButtonType = {
+					name = "ds_SliderButton_t"	
+					quadTextureSprite = "yearslider_slider"
+					tooltip = ""
+					tooltipText =""	
+					delayedTooltipText = ""
+					position = { x=0 y =0}
+				}
+	
+				guiButtonType = {
+					name = "ds_TrackButton_t"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""	
+	
+				}	
+	
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_upButton_t"
+					quadTextureSprite = "prodslider_leftbutton"
+					position = { x=0 y =0}	
+				}
+				
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_downButton_t"
+					quadTextureSprite = "prodslider_rightbutton"
+					position = { x=0 y =120}	
+				}
+
+				iconType = {
+					name ="ds_slider_min_cap_t"
+					spriteType = "GFX_slider_min_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_max_cap_t"
+					spriteType = "GFX_slider_max_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_recommended_t"
+					spriteType = "GFX_slider_recommended"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+		}
+
+		scrollbarType = {
+				name = "plane_scrollbar"	
+				parent = "standard_horizontal_slider"
+				#slider = "ds_SliderButton_t"
+				#track= "ds_TrackButton_t"
+				#leftbutton = "ds_upButton_t"
+				#rightbutton = "ds_downButton_t"
+				size = {x = 165 y = 16 }
+				position = {x= 101 y = 128}
+				priority = 100			
+				borderSize = {x = 0 y = 0}	
+				maxValue = 0
+				minValue = 0
+				stepSize = 1
+				startValue = 0
+				horizontal = yes
+				rangelimitmaxicon = "ds_slider_max_cap_t"
+				rangelimitminicon = "ds_slider_min_cap_t"
+				recommendedicon = "ds_slider_recommended_t"
+
+	
+				guiButtonType = {
+					name = "ds_SliderButton_t"	
+					quadTextureSprite = "yearslider_slider"
+					tooltip = ""
+					tooltipText =""	
+					delayedTooltipText = ""
+					position = { x=0 y =0}
+				}
+	
+				guiButtonType = {
+					name = "ds_TrackButton_t"
+					quadTextureSprite = "techslider_background"
+					position = { x=0 y =20}	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""	
+	
+				}	
+	
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_upButton_t"
+					quadTextureSprite = "prodslider_leftbutton"
+					position = { x=0 y =0}	
+				}
+				
+				guiButtonType = {
+					parent = "ds_SliderButton_t"
+					name = "ds_downButton_t"
+					quadTextureSprite = "prodslider_rightbutton"
+					position = { x=0 y =120}	
+				}
+
+				iconType = {
+					name ="ds_slider_min_cap_t"
+					spriteType = "GFX_slider_min_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_max_cap_t"
+					spriteType = "GFX_slider_max_cap"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType = {
+					name ="ds_slider_recommended_t"
+					spriteType = "GFX_slider_recommended"
+					position = { x= 0 y = 0 }
+					Orientation = "UPPER_LEFT"
+				}
+		}
+
+		listboxType = {
+			name ="attackers_listbox"
+  			position = { x=300 y=40}
+			backGround=""
+			size = { x = 60 y = 110 }
+			Orientation = "UPPER_LEFT"
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 1 y = 1}
+		}
+
+	}
+
+	windowType = {
+		name = "nuclear_mapmode_targetlist"
+		backGround = ""
+		position = { x = -424 y = -532 }
+		size = { x = 380 y = 376 }
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		orientation = "LOWER_RIGHT"
+
+		iconType = {
+				name ="background"
+				spriteType = "GFX_nuclear_targeting"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+		guiButtonType = {
+			name = "btn_close"
+			position = { x = 338 y = 13 }
+			quadTextureSprite = "GFX_small_close"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+		instantTextBoxType = {
+			name = "targetmode"
+			position = { x=2 y = 20 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = "0"
+			maxWidth = 380
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = centre
+		}
+		
+		iconType = {
+			name ="province_label_icon"
+			spriteType = "GFX_vc_icon_provinces"
+			position = { x= 55 y = 52 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="eco_label_icon"
+			spriteType = "GFX_vc_icon_economy_points"
+			position = { x= 125 y = 52 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="mil_label_icon"
+			spriteType = "GFX_vc_icon_army_points"
+			position = { x= 160 y = 52 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="platform_label_icon"
+			spriteType = "GFX_platform_info"
+			position = { x= 250 y = 52 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "ledger_button"
+			position = { x = 310 y = 54 }
+			quadTextureSprite = "GFX_ledger_shortcut"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+		
+		listboxType = {
+			name ="target_listbox"
+  			position = { x=10 y=89}
+			backGround=""
+			size = { x = 380 y = 270}
+			Orientation = "UPPER_LEFT"
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 1 y = 1}
+		}
+
+		listboxType = {
+			name ="mission_listbox"
+  			position = { x=10 y=89}
+			backGround=""
+			size = { x = 380 y = 200}
+			Orientation = "UPPER_LEFT"
+			spacing = 1
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 1 y = 1}
+		}
+
+
+
+	}
+
+	windowType = {
+		name = "targetlist_entry"
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 380 y = 24 }
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		orientation = "LOWER_RIGHT"
+
+		guiButtonType = {
+			name = "btn_select"
+			position = { x = 8 y=-2 }
+			quadTextureSprite = "GFX_targetlist_btn"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+		instantTextBoxType = {
+			name = "province_name"
+			position = { x = 8 y = 0 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = "0"
+			maxWidth = 200
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+
+		iconType = {
+			name ="country_flag"
+			spriteType = "GFX_minishield_small"
+			position = { x= 84 y = -8 }
+			Orientation = "UPPER_LEFT"
+			rotation = 0
+		}
+
+		instantTextBoxType = {
+			name = "ecovalue"
+			position = { x=74 y = 0 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = "0"
+			maxWidth = 60
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "milvalue"
+			position = { x = 106 y = 0 }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = "0"
+			maxWidth = 60
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "unitinfo"
+			position = { x = 176 y = 0 }
+			format = left
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			text = "0"
+			maxWidth = 300
+			maxHeight = 50
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+
+
+
+	}
+
+	windowType = {
+		name = "attackerlist_entry"
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 60 y = 20 }
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		orientation = "LOWER_RIGHT"
+
+		iconType =
+		{
+			name ="country_flag"
+			spriteType = "GFX_minishield_small"
+			position = { x= 16 y = -1 }
+			Orientation = "UPPER_LEFT"
+			rotation = 0
+		}
+
+		iconType =
+		{
+			name ="launch_flag"
+			spriteType = "GFX_switch_led_red"
+			position = { x= 50 y = 6 }
+			Orientation = "UPPER_LEFT"
+			rotation = -1.5708
+		}
+
+
+		textBoxType = {
+			name = "missiles"
+			position = { x = 55 y = 4 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			text = " "	
+			maxWidth = 20
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+
+
+	}
+}

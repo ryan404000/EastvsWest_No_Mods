@@ -1,0 +1,31 @@
+theatre =
+{
+	name = "Palestinian HQ"
+	location = 6520
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+		
+		division =
+		{
+			name = "Arab Liberation Army"
+			location = 14881
+			regiment = { type = militia_brigade name = "Arab Volunteers" historical_model = 0 strength = 30 experience = 0 }
+		}
+		
+		division =
+		{
+			name = "Army of the Holy War"
+			location = 6520
+			regiment = { type = militia_brigade name = "Jihad Moquades" historical_model = 0 strength = 35 experience = 5 }
+	
+		}	
+		
+		division =
+		{
+			name = "Local Militia Army"
+			location = 14879
+			regiment = { type = militia_brigade name = "Local Militia" historical_model = 0 strength = 35 experience = 5 }
+	
+		}	
+
+		
+}

@@ -1,0 +1,205 @@
+####EAST TURKESTAN REBELS####
+army = 
+	{
+		name = "Ili Insurgency"
+		location = 10333
+
+		division =
+		{
+			name = "Kazakh Forces"
+			location = 10537
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 35 experience = 3 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 35 experience = 3 }
+		}
+		division =
+		{
+			name = "Uyghur Forces"
+			location = 10667
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 35 experience = 3 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 35 experience = 3 }
+		}
+		division =
+		{
+			name = "Central Forces"
+			location = 10333
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 35 experience = 3 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 35 experience = 3 }
+		}
+
+		rebel_faction=
+		{
+			type="nationalist_rebels"
+			name="Ili Insurgency"
+			country="CHI"
+			target="CHI"
+			target="CXB"	
+			target="CSX"
+			target="CYN"			
+			government="totalitarian_gov"
+			province=10664
+			provinces=
+			{
+				10537 10538 10469 10468 10402 10401 10467 10334 10333 10270 10332 10397 10463 10532 10601 10600 10667 
+			}
+		}
+}
+####END EAST TURKESTAN####
+
+####INDONESIAN INDEPENDENCE REBELS####
+army = 
+{
+		name = "1st Army"
+		location = 11548
+	
+		
+		division =
+		{
+			name = "1st Division Badan Perjuangan"
+			location = 11548
+			regiment = { type = infantry_brigade name = "1st Elite Revolutionary Brigade" historical_model = 0 strength = 40 experience = 10 }
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "2nd Division Badan Perjuangan"
+			location = 11609
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "4th Division Badan Perjuangan"
+			location = 11810
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "8th Division Badan Perjuangan"
+			location = 12232
+			regiment = { type = militia_brigade name = "9th Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+			regiment = { type = militia_brigade name = "10th Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "9th Division Badan Perjuangan"
+			location = 12540
+			regiment = { type = infantry_brigade name = "2nd Elite Revolutionary Brigade" historical_model = 0 strength = 30 experience = 10 }
+			regiment = { type = militia_brigade name = "11th Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+			regiment = { type = militia_brigade name = "12th Militia Brigade" historical_model = 0 strength = 40 experience = 10 }
+		}
+		
+		rebel_faction =
+		{
+			type="nationalist_rebels"
+			name="Indonesian National Revolution"
+			country="HOL"
+			target="HOL"
+			government="republic_gov"
+			province=12298
+			provinces=
+			{
+				11548 11609 11672 11673 11808 11809 11810 11878 11877 11876 11948 11949 11879 12021 12022 11951 12232 12540 12599 12600
+			}
+		}
+
+}
+####END INDONESIAN INDEPENDENCE####
+
+####PATHET LAO####
+army = 
+{
+		name = "1st Army"
+		location = 12080
+	
+		division =
+		{
+			name = "1st Division"
+			location = 12088
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+
+		rebel_faction =
+		{
+			type="pathet_lao_rebels"
+			name="Pathet Lao"
+			country="IDC"
+			supporter="LAO"
+			target="IDC"
+			target="FRA"
+			target="SVI"
+			target="USA"
+			target="ENG"
+			target="CHI"
+			target="CHC"
+			government="totalitarian_gov"
+			province=12080
+			provinces=
+			{
+				12080 12221 12292
+			}
+		}
+
+}
+####END PATHET LAO####
+
+
+####VIETCONG####
+army = 
+{
+		name = "1st Army"
+		location = 12080
+		
+		division =
+		{
+			name = "2nd Division"
+			location = 12296
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "3rd Division"
+			location = 12080
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		division =
+		{
+			name = "4th Division"
+			location = 12354
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+			regiment = { type = militia_brigade name = "6th Militia Brigade" historical_model = 0 strength = 20 experience = 10 }
+		}
+		
+		rebel_faction =
+		{
+			type="viet_cong_rebels"
+			name="Viet Cong"
+			country="IDC"
+			supporter="DRV"
+			target="IDC"
+			target="FRA"
+			target="SVI"
+			target="USA"
+			target="ENG"
+			target="CHI"
+			target="CHC"
+			government="totalitarian_gov"
+			province=12080
+			provinces=
+			{
+				12088 12226 12225 12296 12294 12354 12413 12414 12290 12218 12150 12150 12217 12216 12159 12150
+			}
+		}
+
+}
+####END VIETCONG####

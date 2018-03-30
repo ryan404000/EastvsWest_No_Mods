@@ -1,0 +1,87 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 5164
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 5164
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 5164
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 2 strength = 39 experience = 4 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 1 strength = 25 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 2 strength = 39 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 2 strength = 25 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 5164
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 2 strength = 39 experience = 4 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 1 strength = 25 experience = 5 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 1 strength = 39 experience = 4 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 5778
+		location = 5778
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 1 strength = 20 builder = USA }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 5164 # Amsterdam
+		location = 5164
+		ship = { type = escort_carrier name = "HrMs Karel Doorman" historical_model = 0 builder = ENG}	
+		ship = { type = cruiser name = "HrMs De Ruyter" historical_model = 1 }
+		ship = { type = cruiser name = "HrMs De Zeven Provinciën" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Holland" historical_model = 0 }
+		ship = { type = missile_destroyer name = "HrMs Zeeland" historical_model = 0 }
+		ship = { type = missile_destroyer name = "HrMs Noord Brabant" historical_model = 0 }
+		ship = { type = missile_destroyer name = "HrMs Gelderland" historical_model = 0 }
+		ship = { type = missile_destroyer name = "HrMs Friesland" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Groningen" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Limburg" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Overijssel" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Drenthe" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Utrecht" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Rotterdam" historical_model = 1 }
+		ship = { type = missile_destroyer name = "HrMs Amsterdam" historical_model = 1 }		
+		ship = { type = transport_ship name = "1e Transportsmaldeel" historical_model = 0 }
+		ship = { type = transport_ship name = "2e Transportsmaldeel" historical_model = 0 }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 5164 # Amsterdam
+		location = 5164
+		ship = { type = attack_submarine name = "HrMs Dolfijn" historical_model = 2 }
+		ship = { type = attack_submarine name = "HrMs Zeehond" historical_model = 2 }
+	}
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 5112
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 1 strength = 38 experience = 5 }
+	regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 1 strength = 36 experience = 5 }
+	regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 1 strength = 36 experience = 5 }
+}
+
+
+navy = {
+	name = "Mothball Fleet"
+	base = 5164 # Amsterdam
+	location = 5164
+	pool = yes
+	ship = { type = cruiser name = "HrMs Tromp" historical_model = 0 }
+	ship = { type = cruiser name = "HrMs Jacob van Heemskerck" historical_model = 0 }
+}

@@ -1,0 +1,100 @@
+guiTypes = {
+
+	eu3dialogtype = {
+		name = "painterbar"
+		backGround="Background"
+		position = { x=300 y=300 }	
+		size = { x=203 y=64 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_bg_painterbar"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		textBoxType = {
+				name = "pbar_title"
+				position = { x = 5 y = 6 }
+				textureFile = ""
+				font = "Arial12_bold"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 470
+				maxHeight = 50
+				format = left
+			}
+
+
+
+		guiButtonType = {
+			name = "sel_province"
+			position = { x=4 y=29 }
+			quadTextureSprite ="GFX_bar_icon_province"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+		guiButtonType = {
+			name = "sel_region"
+			position = { x=38 y=29 }
+			quadTextureSprite = "GFX_bar_icon_region"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+		guiButtonType = {
+			name = "sel_area"
+			position = { x=72 y=29 }
+			quadTextureSprite = "GFX_bar_icon_area"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+		guiButtonType = {
+			name = "sel_country"
+			position = { x=106 y=29 }
+			quadTextureSprite ="GFX_bar_icon_country"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+		guiButtonType = {
+			name = "btn_abort"
+			position = { x=176 y=3 }
+			quadTextureSprite ="GFX_bar_btn_abort"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+
+	}
+}
+
+
+
+

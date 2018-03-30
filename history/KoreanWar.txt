@@ -1,0 +1,43 @@
+name = "1950 Korean War"
+
+1950.6.25 = {
+	add_attacker = PRK
+	add_defender = KOR
+	add_defender = USA
+	add_defender = ENG
+	add_defender = CAN
+	add_defender = TUR
+	add_defender = HOL
+	add_defender = BEL
+	add_defender = AUS
+	add_defender = PHI
+	add_defender = NZL
+	add_defender = GRE
+	add_defender = FRA
+	add_defender = COL
+	add_defender = LUX
+	add_defender = ETH
+}
+
+1950.10.18 = {
+	add_attacker = CHC
+}
+1953.7.27 = {
+	rem_attacker = PRK
+	rem_attacker = CHC
+	rem_defender = KOR
+	rem_defender = USA
+	rem_defender = ENG
+	rem_defender = CAN
+	rem_defender = TUR
+	rem_defender = HOL
+	rem_defender = BEL
+	rem_defender = AUS
+	rem_defender = PHI
+	rem_defender = NZL
+	rem_defender = GRE
+	rem_defender = FRA
+	rem_defender = COL
+	rem_defender = LUX
+	rem_defender = ETH
+}

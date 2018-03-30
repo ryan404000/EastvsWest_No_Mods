@@ -1,0 +1,68 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 8166
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 8075
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 8330
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 37 experience = 5 }
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 34 experience = 4 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 1 strength = 36 experience = 5 }
+			regiment = { type = militia_brigade name = "5th Militia Brigade" historical_model = 0 strength = 36 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 8074
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 0 strength = 37 experience = 9 }
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 1 strength = 34 experience = 9 }
+			regiment = { type = militia_brigade name = "4th Militia Brigade" historical_model = 0 strength = 35 experience = 10 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 8248
+			pool = yes
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 0 strength = 38 experience = 4 }
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 7992
+			pool = yes
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 1 strength = 34 experience = 4 }
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 7989
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 1 strength = 34 experience = 4 }
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 8407
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =
+		{
+			name = "6th Division"
+			location = 8247
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 1 strength = 34 experience = 4 }
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+		}
+	}
+}

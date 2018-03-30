@@ -1,0 +1,77 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+add_core = MLY
+oil = 221.000
+infra = 4
+1946.1.1.0 = {
+  population_total = {
+   amount = 116621
+   template = 23
+  }
+}
+1957.08.31 = {
+  remove_core = ENG
+  owner = MLY
+  controller = MLY
+}
+1950.1.1 = {
+  economy_building = {
+    name = powerplant
+    size = 1
+  }
+}
+1953.1.1 = {
+  economy_building = {
+    name = powerplant
+    size = 2
+  }
+}
+1979.1.1 = {
+  economy_building = {
+    name = powerplant
+    size = 4
+  }
+}
+1985.1.1 = {
+  economy_building = {
+    name = powerplant
+    size = 5
+  }
+}
+1991.1.1 = {
+  economy_building = {
+    name = powerplant
+    size = 6
+  }
+}
+1948.1.1 = {
+population_total = {
+   amount = 119845
+   template = 23
+}
+}
+1950.1.1 = {
+population_total = {
+   amount = 123159
+   template = 23
+}
+}
+1961.12.30 = {
+population_total = {
+   amount = 175568
+   template = 123
+}
+}
+1979.1.1 = {
+population_total = {
+   amount = 272196
+   template = 223
+}
+}
+1991.1.1 = {
+population_total = {
+   amount = 377097
+   template = 323
+}
+}

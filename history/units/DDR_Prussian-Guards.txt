@@ -1,0 +1,7 @@
+military_construction = { #DDR EVENTID 170986
+	country = DDR
+		name = "1st Prussian Guard Division 'Frederick the Great'"
+		motorized_brigade = { name = "1st Mot-Guard reg 'FtG'" historical_model = current strength = 40 experience = 40 }
+		police_brigade = { name = "1st Pol-Guard reg 'FtG'" historical_model = current strength = 21 experience = 40 }
+	progress = 35
+}

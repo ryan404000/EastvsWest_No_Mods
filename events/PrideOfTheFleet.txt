@@ -1,0 +1,34 @@
+#Enemy Pride of the Fleet Sunk
+country_event = {
+	id = 400
+	title = "EVTNAME400"
+	desc = "EVTDESC400"
+	picture = "2006_Belleau_Wood"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA400"
+		dissent = -1
+		war_exhaustion = -1
+	}
+}
+
+#Our Pride of the Fleet Sunk
+country_event = {
+	id = 401
+	title = "EVTNAME401"
+	desc = "EVTDESC401"
+	picture = "2006_Belleau_Wood"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA401"
+		war_exhaustion = 1
+		add_country_modifier = {
+			name = pride_of_the_fleet_dead
+			duration = 30
+		}
+	}
+}

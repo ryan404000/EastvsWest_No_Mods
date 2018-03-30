@@ -1,0 +1,2374 @@
+# List of all Industrial Technology techs
+	#industry_heavy_mechanical_parts			( 1 level )
+	#industry_heavy_mechanical_engineering		( 10 levels)
+	#industry_heavy_robotics					(10 levels)
+	
+	#industry_light_massproduction				(10 levels)
+	#industry_light_homeappliance				(10 levels)
+	#industry_light_plastics					(10 levels)
+	#industry_light_economyofscale				( 5 levels)
+	
+	#industry_agriculture_mechanized			(10 levels)
+	#industry_agriculture_fertilizer			(10 levels)
+	
+	#industry_consumer_electronics				( 1 level )
+	#industry_hightech_integratedcircuits		( 5 levels)
+	
+	#industry_mining_mining						(10 levels)
+	#industry_mining_oil						(10 levels)
+	#industry_refining_refining					(10 levels)
+	#industry_electricity						(10 levels)
+	#industry_electricity_conversion			(10 levels)
+	#industry_recycling							( 4 levels)
+	
+	#industry_construction_engineering			(10 levels)
+
+
+#Industrial research at one hand follows the division of factories with some technologies affecting all industrial build.
+#Only for testing.
+
+################
+#Heavy industry#
+################
+industry_heavy_mechanical_parts = {
+
+	allow ={
+	}
+	traits = {
+		
+	}	
+	activate_building = naval_base
+	activate_building = air_base
+	activate_building = heavy_industry 
+	activate_building = aviation_industry
+	activate_building = naval_yards
+	activate_building = powerplant
+	activate_building = refinery 
+    folder = industrial_tech1_folder
+	time = 1000
+	cost = 100 #not too expensive
+}
+
+industry_heavy_mechanical_engineering = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_heavy_mechanical_parts = 1 }
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 ={}
+	}
+	traits = {
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# Dec industry construction cost for heavy
+				# Dec industry construction cost for naval
+				# Dec industry construction cost for aerial
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+		2 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+		3 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+		4 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+				5 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+				6 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+				7 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+				8 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+				9 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				flexible_modifier = {
+					 heavy_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 aviation_industry_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+					 naval_yards_initial_cost = {
+					  name = my_first_change
+					  value = -0.1
+					}
+				}
+			}
+		}
+	}
+
+	folder = industrial_tech1_folder
+	time = 2920
+	cost = 200
+
+}
+industry_heavy_robotics = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_heavy_mechanical_parts = 1
+   			  industry_softwareengineering = 1
+		      industry_hightech_computers = 2
+		    }
+		2 = { industry_hightech_computers = 3
+		}
+		3 = { industry_softwareengineering = 2
+			}
+		4 = {
+			industry_hightech_computers = 5
+			}
+		5 = {
+			industry_softwareengineering = 4
+			}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		2 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		3 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		4 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		5 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		6 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		7 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		8 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		9 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+		10 = {	
+				# Inc electricity demand
+				# Dec workforce demand
+		modifier = {
+			flexible_modifier = {
+				heavy_factory_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				aviation_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+			flexible_modifier = {
+				naval_yards_input_electricity_modifier = {
+				name = my_first_change
+				value = 0.1
+				}
+			}
+}
+}
+
+}
+
+	folder = industrial_tech1_folder
+	time = 990
+	cost = 200
+
+}
+
+################
+#Light industry#
+################
+industry_light_massproduction = {
+	multilevel = yes
+	level = 10
+	activate_building = light_industry
+	#decrease manpower cost slightly
+	#increase electricity input
+	allow_level = {
+		1 = {}
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+		10 = {}
+	}
+	traits = {
+		
+	}  
+	level_effect = {
+		1 = {
+			modifier = {
+				flexible_modifier = {
+  				light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+ 					value = 0.1
+					}
+				}
+			}
+		}
+		2 = {
+			modifier = {
+				flexible_modifier = {
+  				    name = my_first_change
+  				light_industry_input_electricity_modifier = {
+					value = 0.1
+					}
+				}
+			}
+		}
+		3 = {
+			modifier = {
+				flexible_modifier = {
+  				    name = my_first_change
+  				light_industry_input_electricity_modifier = {
+					value = 0.1
+					}
+				}
+			}
+		}
+		4 = {
+			modifier = {
+				flexible_modifier = {
+  				    name = my_first_change
+  				light_industry_input_electricity_modifier = {
+					value = 0.1
+					}
+				}
+			}
+		}
+		5 = {
+			modifier = {
+				flexible_modifier = {
+  				    name = my_first_change
+  				light_industry_input_electricity_modifier = {
+					value = 0.1
+					}
+				}
+			}
+		}
+		6 = {
+			modifier = {
+				flexible_modifier = {
+  				light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+ 					value = 0.1
+					}
+				}
+			}
+		}
+		7 = {
+			modifier = {
+				flexible_modifier = {
+  				light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+ 					value = 0.1
+					}
+				}
+			}
+		}
+		8 = {
+			modifier = {
+				flexible_modifier = {
+  				light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+ 					value = 0.1
+					}
+				}
+			}
+		}
+		9 = {
+			modifier = {
+				flexible_modifier = {
+  				light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+ 					value = 0.1
+					}
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				flexible_modifier = {
+  				light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+ 					value = 0.1
+					}
+				}
+			}
+		}
+  
+  }
+  folder = industrial_tech1_folder
+  time = 1825
+  cost = 150 #not too expensive
+}
+
+industry_light_homeappliance = {
+
+	multilevel = yes
+	level = 10 
+
+	allow_level = {
+		1 = { industry_modern_science = 1
+		    }
+		2 = {	industry_heavy_mechanical_engineering  = 1 
+				industry_light_massproduction = 1
+			}
+		3 = {	industry_light_massproduction = 2
+			}
+		4 = {	 industry_heavy_mechanical_engineering  = 2
+				 industry_light_massproduction = 3
+			}
+		5 = { industry_light_massproduction = 4
+		    }
+		6 = {	industry_light_massproduction = 5
+			}
+		7 = {	industry_heavy_mechanical_engineering  = 3
+				industry_light_massproduction = 6
+			}
+		8 = { industry_light_massproduction = 7 }
+		9 = {	industry_light_massproduction = 4
+		       industry_light_massproduction = 8
+			}
+		10 = {	 industry_heavy_mechanical_engineering  = 4
+		         industry_light_massproduction = 9
+		     }
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	  
+
+			modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		2 = {	# Inc electricity demand
+				# Inc DVI of the country
+							modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+			}
+		3 = {	# Inc electricity demand
+				# Inc DVI of the country
+							modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+			}
+		4 = {	# Inc electricity demand
+				# Inc DVI of the country
+							modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+			}
+		5 = {	# Inc electricity demand
+					modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+				# Inc DVI of the country
+			}
+		6 = {	# Inc electricity demand
+					modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+				# Inc DVI of the country
+			}
+		7 = {	# Inc electricity demand
+					modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+				# Inc DVI of the country
+			}
+		8 = {	# Inc electricity demand
+					modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+				# Inc DVI of the country
+			}
+		9 = {	# Inc electricity demand
+					modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+				# Inc DVI of the country
+			}
+		10 = {	# Inc electricity demand
+					modifier = {
+				flexible_modifier = {
+					factory_light_industry_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+				# Inc DVI of the country
+			 }
+	}
+
+	folder = industrial_tech1_folder
+	time = 1460
+	cost = 200
+
+}
+
+industry_light_plastics = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_light_massproduction = 1
+		      industry_chemistry = 1  }
+		2 = {    
+		}
+		3 = {  industry_chemistry = 2
+			   industry_light_massproduction = 2
+		    }
+		4 = { industry_chemistry = 3 
+		    }
+		5 = { industry_chemistry = 4
+			   industry_light_massproduction = 3
+    		}
+		6 = { industry_chemistry = 5
+		    }
+		7 = { industry_chemistry = 6
+			  industry_light_massproduction = 4
+			}
+		8 = { }
+		9 = {
+			   industry_light_massproduction = 5
+		    }
+		10 = { }
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		2 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		3 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		4 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		5 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		6 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		7 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		8 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		9 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_input_electricity_modifier = {
+  				    name = my_first_change
+					value = 1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_oil_modifier = {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+				flexible_modifier = {
+					light_industry_input_wood_modifier = {
+  				    name = my_first_change
+					value = -0.5
+					}
+				}
+			}
+		}
+	}
+
+	folder = industrial_tech1_folder
+	time = 1460
+	cost = 200
+
+}
+
+industry_light_economyofscale = {
+
+	multilevel = yes
+	level = 5
+
+	allow_level = {
+		1 = { industry_light_massproduction = 1
+		    }
+		2 = { industry_mathematics = 1
+			}
+		3 = { industry_mathematics = 2
+			}
+		4 = { industry_mathematics = 3
+		    }
+		5 = { industry_mathematics = 4
+		    }
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_initial_cost = {
+  				    name = my_first_change
+					value = -0.3
+					}
+				}
+			}
+		}
+		2 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_initial_cost = {
+  				    name = my_first_change
+					value = -0.3
+					}
+				}
+			}
+		}
+		3 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_initial_cost = {
+  				    name = my_first_change
+					value = -0.3
+					}
+				}
+			}
+		}
+		4 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_initial_cost = {
+  				    name = my_first_change
+					value = -0.3
+					}
+				}
+			}
+		}
+		5 = {
+			modifier = {
+				flexible_modifier = {
+					light_industry_initial_cost = {
+					value = -0.3
+  				    name = my_first_change
+					}
+				}
+			}
+		}
+  
+  }
+
+	folder = industrial_tech1_folder
+	time = 1460
+	cost = 200
+
+}
+#############
+#Agriculture#
+#############
+industry_agriculture_mechanized = {
+
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {}
+		2 = {}
+		3 = {}
+		4 = {}
+		5 = { industry_heavy_mechanical_parts = 1
+			}
+		6 = { industry_heavy_mechanical_engineering = 1 
+			}
+		7 = { industry_heavy_mechanical_engineering = 2
+			}
+		8 = { industry_heavy_mechanical_engineering = 3
+			} 
+		9 = { industry_heavy_mechanical_engineering = 4 
+			}
+		10 = {}
+	}
+	traits = {
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# Dec manpower need
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+			}
+		2 = {	# Dec manpower need
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}		
+		}
+		3 = {	# Dec manpower need 
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		4 = {	# Dec manpower need 
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		5 = {	# Dec manpower need 
+				#1940s tech
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		6 = {	# Dec manpower need
+				#1950s tech
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		7 = {	# Dec manpower need 
+				#1960s tech
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		8 = {	# Dec manpower need 
+				#1970s tech
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 1.0 #Historically roughly valid for FRA/UK/CZE/GER
+					}
+				}
+			}
+		}
+		9 = {	# Dec manpower need 
+				#1980s tech
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 1.0 #Historically roughly valid for FRA/UK/CZE/GER
+					}
+				}
+			}
+		}
+		10 = {	# Dec manpower need 
+			modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					name = my_first_change
+					value = 0.5 #Historically roughly valid for FRA/UK/CZE/GER
+					}
+				}
+			}
+		}
+	}
+
+  folder = industrial_tech1_folder
+	time = 1825 #5 years
+	cost = 100 #cheap
+}
+industry_agriculture_fertilizer = {
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { industry_agriculture_mechanized = 1 
+		      industry_chemistry = 1
+		    }
+		2 = { industry_agriculture_mechanized = 2
+			industry_biology = 1
+			}
+		3 = { industry_agriculture_mechanized = 3
+		      industry_chemistry = 2
+		    }
+		4 = { industry_agriculture_mechanized = 4
+			industry_biology = 2
+		    }
+		5 = { industry_agriculture_mechanized = 5
+			  industry_chemistry = 3
+			}
+		6 = { industry_agriculture_mechanized = 6
+			industry_biology = 3
+			}
+		7 = { industry_agriculture_mechanized = 7
+			  industry_chemistry = 4
+			}
+		8  = { industry_agriculture_mechanized = 8
+			industry_biology = 4
+			}
+		9  = { industry_agriculture_mechanized = 9
+			  industry_chemistry = 5
+			}
+		10  = { industry_agriculture_mechanized = 10
+			industry_biology = 5
+			}
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# Inc food output
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+			}
+		2 = {	# Inc food output 
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.3
+					}
+				}
+			}
+			}
+		3 = {	# Inc food output 
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.3
+					}
+				}
+			}
+			}
+		4 = {	# Inc food output 
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+					value = 0.3
+  				    name = my_first_change
+					}
+				}
+			}
+			}
+		5 = {	# Inc food output 
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.3
+					}
+				}
+			}
+			}
+		6 = {	# Inc food output 
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.2
+					}
+				}
+			}
+			}
+		7 = {
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.2
+					}
+				}
+			}
+		}
+		8 = {
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		9 = {
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		10 = {
+		modifier = {
+				flexible_modifier = {
+					country_food_modifier= {
+  				    name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+	}
+
+  folder = industrial_tech1_folder
+	time = 3650
+	cost = 100 #cheap
+  
+}
+
+###########
+#High tech#
+###########
+industry_consumer_electronics = {
+	multilevel = no
+	allow = {    
+	  industry_hightech_computers = 5
+	}
+	traits = {
+		science_theory			
+	}	
+	activate_building = high_tech	
+	folder = industrial_tech1_folder
+	time = 700
+	cost = 100 #cheap
+  
+}
+
+industry_hightech_integratedcircuits = {
+	multilevel = yes
+	level = 5
+	
+	allow_level = {
+		1 = { 
+			industry_consumer_electronics = 1
+		}
+		2 = { industry_heavy_robotics = 2
+		}
+		3 = { industry_heavy_robotics = 3
+		}
+		4 = { industry_heavy_robotics = 4
+		}
+		5 = { industry_heavy_robotics = 5
+		} 
+	}
+	traits = {
+		industry_theory		
+	}	
+	level_effect = {
+		1 = { 
+			modifier = {
+				flexible_modifier = {
+				high_tech_initial_cost = {
+					name = my_first_change
+					value = -0.3
+					}
+				}
+			 }
+		    }
+		2 = {	# Dec cost of building
+			modifier = {
+				flexible_modifier = {
+				high_tech_initial_cost = {
+					name = my_first_change
+					value = -0.3
+					}
+				}
+			 }
+		    }
+		3 = {	# Dec cost of building
+			modifier = {
+				flexible_modifier = {
+				high_tech_initial_cost = {
+					name = my_first_change
+					value = -0.3
+					}
+				}
+			 }
+		    }
+		4 = {	# Dec cost of building
+			modifier = {
+				flexible_modifier = {
+				high_tech_initial_cost = {
+					name = my_first_change
+					value = -0.3
+					}
+				}
+			 }
+		    }
+		5 = {	# Dec cost of building 
+			modifier = {
+				flexible_modifier = {
+				high_tech_initial_cost = {
+					name = my_first_change
+					value = -0.3
+					}
+				}
+			 }
+		    }
+	}
+
+  folder = industrial_tech1_folder
+	time = 700
+	cost = 100 #cheap
+  
+}
+########
+#Mining#
+########
+industry_mining_mining = {
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {}
+		2 = { }
+		3 = { } 
+		4 = { }
+		5 = { industry_heavy_mechanical_engineering = 1
+		     }
+		6 = { industry_heavy_mechanical_engineering = 2
+		    } 
+		7 = { industry_heavy_mechanical_engineering = 3
+		     }
+		8 = { industry_heavy_mechanical_engineering = 4
+			  industry_chemistry = 4
+		     }
+		9 = { industry_heavy_mechanical_engineering = 5
+			  industry_chemistry = 6
+		     }
+		10 = { 
+			  industry_chemistry = 8
+		     }
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# Inc mining output
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		2 = {	# Inc mining output 
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		3 = {	# Inc mining output
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		4 = {	# Inc mining output
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		5 = {	# Inc mining output
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		6 = {	# Inc mining output
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		7 = {
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+			} }
+		}
+		8 = {
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+			} }
+		}
+		9 = {
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+			} }
+		}
+		10 = {
+		modifier = {
+				flexible_modifier = {
+					province_natural_resources_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}	
+	}
+
+  folder = industrial_tech1_folder
+	time = 1200
+	cost = 200 #moderate
+
+}
+
+industry_mining_oil = {
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {}
+		2 = { }
+		3 = { } 
+		4 = { }
+		5 = { industry_heavy_mechanical_engineering = 1
+		     }
+		6 = { industry_heavy_mechanical_engineering = 2
+		    } 
+		7 = { industry_heavy_mechanical_engineering = 3
+		     }
+		8 = { industry_heavy_mechanical_engineering = 4
+			  industry_chemistry = 4
+		     }
+		9 = { industry_heavy_mechanical_engineering = 5
+			  industry_chemistry = 6
+		     }
+		10 = { 
+			  industry_chemistry = 8
+		     }
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# Inc oil output
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		2 = {	# Inc oil output 
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		3 = {	# Inc oil output
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		4 = {	# Inc oil output
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		5 = {	# Inc oil output
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		6 = {	# Inc oil output
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		7 = {
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		8 = {
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		9 = {
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		10 = {
+		modifier = {
+				flexible_modifier = {
+					province_oil_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+	}
+  folder = industrial_tech1_folder
+	time = 1200
+	cost = 200 #moderate
+}
+
+##########
+#Refining#
+##########
+industry_refining_refining = {
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = {}
+		2 = {}
+		3 = { } 
+		4 = { }
+		5 = { industry_heavy_mechanical_engineering = 1
+		     }
+		6 = { industry_heavy_mechanical_engineering = 2
+		    } 
+		7 = { industry_heavy_mechanical_engineering = 3
+		     }
+		8 = { industry_heavy_mechanical_engineering = 4
+			  industry_chemistry = 4
+		     }
+		9 = { industry_heavy_mechanical_engineering = 5
+			  industry_chemistry = 6
+		     }
+		10 = { 
+			  industry_chemistry = 8
+		     }
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# decreased fuel input refinery
+			modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		2 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		3 = {	#decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		4 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		5 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		6 = {	# decreased fuel input
+			modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		7 = {
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		8 = {
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		9 = {
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		10 = {
+		modifier = {
+				flexible_modifier = {
+					factory_refinery_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+	}
+
+  folder = industrial_tech1_folder
+	time = 1200
+	cost = 200 #moderate
+}
+
+#############
+#Electricity#
+#############
+industry_electricity = {
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { }
+		2 = { }
+		3 = { } 
+		4 = { }
+		5 = { industry_heavy_mechanical_engineering = 1
+		     }
+		6 = { industry_heavy_mechanical_engineering = 2
+		    } 
+		7 = { industry_heavy_mechanical_engineering = 3
+		     }
+		8 = { industry_heavy_mechanical_engineering = 4
+			  industry_electronics = 4
+		     }
+		9 = { industry_heavy_mechanical_engineering = 5
+			  industry_electronics = 6
+		     }
+		10 = {
+			  industry_electronics = 8
+		     }    
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# decreased fuel input
+	modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		2 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		3 = {	#decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		4 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		5 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		6 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		7 = {
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		8 = {
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		9 = {
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		10 = {
+		modifier = {
+				flexible_modifier = {
+					powerplant_efficiency = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+	}
+  folder = industrial_tech1_folder
+	time = 1200
+	cost = 200 #moderate
+}
+
+industry_electricity_conversion = {
+	multilevel = yes
+	level = 10
+	allow_level = {
+		1 = { }
+		2 = { }
+		3 = { } 
+		4 = { }
+		5 = { industry_heavy_mechanical_engineering = 1
+		     }
+		6 = { industry_heavy_mechanical_engineering = 2
+		    } 
+		7 = { industry_heavy_mechanical_engineering = 3
+		     }
+		8 = { industry_heavy_mechanical_engineering = 4
+			  industry_electronics = 4
+		     }
+		9 = { industry_heavy_mechanical_engineering = 5
+			  industry_electronics = 6
+		     }
+		10 = {   industry_electronics = 8
+		     }		     
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		2 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		3 = {	#decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		4 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		5 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		6 = {	# decreased fuel input
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		    }
+		7 = {
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		8 = {
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		9 = {
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+		10 = {
+		modifier = {
+				flexible_modifier = {
+					factory_electricity_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+		}
+	}
+  folder = industrial_tech1_folder
+	time = 1200
+	cost = 200 #moderate
+}
+###########
+#Recycling#
+###########
+industry_recycling = {
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = { 
+			industry_chemistry = 6
+			industry_light_plastics = 4
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+	1 = {
+			modifier = {
+				flexible_modifier = {
+					factory_energy_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+	}
+	2 = {
+			modifier = {
+				flexible_modifier = {
+					factory_energy_modifier  = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+	}
+	3 = {
+			modifier = {
+				flexible_modifier = {
+					factory_energy_modifier = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}	
+	}
+	4 = {
+			modifier = {
+				flexible_modifier = {
+					factory_energy_modifier  = {
+					name = my_first_change
+					value = 0.1
+					}
+				}
+			}
+	}
+	}
+	#Decreases inputs but increases workforce requirement for all factories.
+	folder = industrial_tech1_folder
+	time = 1200
+	cost = 200 #moderate
+}
+##############
+#Construction#
+##############
+industry_construction_engineering = {
+	multilevel = yes
+	level = 10
+
+	allow_level = {
+		1 = { 
+		      industry_heavy_robotics = 1
+          industry_hightech_computers =1 }
+		2 = { 
+		      industry_heavy_robotics = 2
+          industry_hightech_computers = 2 }
+		 3 = {}
+		 4 = {}
+		 5 = {}
+		 6 = {}
+		 7 = {}
+		 8 = {}
+		 9 = {}
+		 10 = {}
+	}
+	traits = {
+		industry_theory		
+	}
+	level_effect = {
+		1 = {	# Dec building time Light_industry
+          # Dec building time Heavy
+          # Dec building time High tech
+          # Dec building time Military
+          # Dec building time Naval
+          # Dec building time Aviation
+          # Dec building time Powerplant
+          # Dec building time Nuclear Powerplant
+          # Dec building time Refinery
+		  modifier = { GLOBAL_INFRASTRUCTURE = 0.01 }
+          
+		     }
+		2 = {	# Dec time of building
+				  modifier = { GLOBAL_INFRASTRUCTURE = 0.01 }
+		    }
+		3 = {	# Dec time of building
+				  modifier = { GLOBAL_INFRASTRUCTURE = 0.01 }
+		    }
+		4 = {	# Dec time of building
+				  modifier = { GLOBAL_INFRASTRUCTURE = 0.01 }
+		    }
+		5 = {	# Dec time of building
+				  modifier = { GLOBAL_INFRASTRUCTURE = 0.01 }
+		    }
+		6 = {	# Dec time of building
+				  modifier = { GLOBAL_INFRASTRUCTURE = 0.01 }
+		    }
+		 7 = {}
+		 8 = {}
+		 9 = {}
+		 10 = {}
+	}
+
+	folder = industrial_tech1_folder
+	time = 1000
+	cost = 100 # expensive
+  
+}
+
+

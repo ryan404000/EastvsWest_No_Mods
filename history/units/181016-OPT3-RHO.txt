@@ -1,0 +1,47 @@
+	army =
+	{
+		name = "Rhodesian Army"
+		location = 7466
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 7466
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade 'Sailsbury'" historical_model = 2 strength = 35 experience = 4 }
+			regiment = { type = police_brigade name = "British South Africa Police" historical_model = 1 strength = 20 experience = 4 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 7466
+			regiment = { type = air_cav_brigade name = "1st Rhodesian Light Infantry" historical_model = 0 strength = 40 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 7269
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade 'Bulawayo'" historical_model = 2 strength = 35 experience = 4 }
+			regiment = { type = motorized_brigade name = "1st Motorized Infantry Brigade " historical_model = 2 strength = 39 experience = 4 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 7661
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade 'Umtali'" historical_model = 1 strength = 35 experience = 5 }
+		}
+		division =
+		{
+			name = "Guard Force"
+			location = 7466
+			regiment = { type = militia_brigade name = "1st Rhodesian Guards" historical_model = 1 strength = 35 experience = 5 }
+			regiment = { type = militia_brigade name = "2nd Rhodesian Guards" historical_model = 1 strength = 35 experience = 5 }
+		}
+	}
+	
+	air = {
+		name = "1st Air Force"
+		base = 7466
+		location = 7466
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 1 strength = 30 }
+	}

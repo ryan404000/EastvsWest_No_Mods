@@ -1,0 +1,33 @@
+#SOV Expeditionary force in Angola - placed in NE Angola
+	army = 
+	{
+		name = "Soviet Expeditionary Army"
+		location = 6416
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = SOV
+
+		division = 
+		{   
+			name = "1st Infantry Division"
+			location = 6521
+			expeditionary_owner = SOV
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 3 strength = 35 experience = 12 }
+			regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 3 strength = 37 experience = 9 }
+		}
+		division = 
+		{   
+			name = "2nd Infantry Division"
+			location = 6524
+			expeditionary_owner = SOV
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 3 strength = 36 experience = 12 }
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 3 strength = 36 experience = 12 }
+		}
+		division = 
+		{   
+			name = "3rd Infantry Division"
+			location = 6636
+			expeditionary_owner = SOV
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 3 strength = 35 experience = 15 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 3 strength = 25 experience = 10 }
+		}
+	}

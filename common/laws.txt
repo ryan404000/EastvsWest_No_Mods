@@ -1,0 +1,734 @@
+###Laws### 
+
+##civil_liberties
+	#suspended_indefinitely
+	#martial_law
+	#emergency_law
+	#curfew
+	#fully_granted_liberties
+	
+##rule_of_law
+	#substantively_defined
+	#well_defined
+	#moderately_defined
+	#narrowly_defined
+	#thinly_defined
+	
+##elections_and_voting
+	#hereditary_rule
+	#single_party_system
+	#gerrymandering
+	#winner_takes_it_all
+	#semi-proportional
+	#proportional
+	
+##human_rights
+	#not_recognized
+	#cultural_relativism
+	#separate_but_equal
+	#universal_rights
+	
+##public_oversight
+	#transparent_public_oversight
+	#systematic_oversight
+	#non-systematic_oversight
+	#limited_oversight
+	#moral_code_of_conduct
+	
+##freedom_of_the_press
+	#propaganda_press
+	#state_press
+	#censored_press
+	#limited_restrictions
+	#free_press
+	
+##military_service
+	#abbreviated_volunteer_army
+	#conventional_volunteer_army
+	#expanded_volunteer_army
+	#limited_conscription_army
+	#conventional_drafted_army
+	#expanded_drafted_army
+	
+##organized_religions_law
+	#state_religion
+	#secular_state
+
+
+civil_liberties = {
+	suspended_indefinitely  = {
+		cost = 0.5
+		allow = {
+			dissent = 80		
+			OR = { 
+				ideology = fascistic_idolg
+				ideology = paternal_auto_idolg 
+				ideology = maoist_idolg 
+				ideology = communist_idolg
+			}				
+		}
+
+		national_unity = 0.02
+		global_revolt_risk = -0.04
+		ruling_party_support = -0.07
+		prestige = -0.04
+
+	}
+
+	martial_law = {
+		cost = 0.5
+		allow = {
+			OR = { 
+				dissent = 60
+				war = yes
+			}
+			NOT = {	dissent = 80 }	
+			OR = { 
+				ideology = fascistic_idolg
+				ideology = paternal_auto_idolg 
+				ideology = maoist_idolg 
+				ideology = communist_idolg
+			}			
+		}
+
+		national_unity = 0.01
+		global_revolt_risk = -0.03
+		ruling_party_support = -0.05
+		prestige = -0.03
+
+	}
+
+	emergency_law = {
+		cost = 0.5
+		allow = {
+			OR = { 
+				dissent = 40
+				war = yes
+			}
+			NOT = {	dissent = 60 }	
+		}
+
+		global_revolt_risk = -0.02
+		ruling_party_support = -0.03
+		prestige = -0.02
+
+	}
+
+	curfew = {
+		cost = 0.5
+		allow = {
+			OR = { 
+				dissent = 10
+				war = yes
+			}
+			NOT = {	dissent = 40 }
+		}
+ 
+		global_revolt_risk = -0.01
+		ruling_party_support = -0.01
+		prestige = -0.01
+
+	}
+
+	fully_granted_liberties = {
+		cost = 0.5
+		allow = {
+			NOT = {	ideology = fascistic_idolg}
+			NOT = {	ideology = paternal_auto_idolg }
+			NOT = {	ideology = maoist_idolg }
+			NOT = {	ideology = communist_idolg }
+		}
+
+		prestige = 0.01
+
+	}	
+#end civil liberties
+}
+
+rule_of_law = {
+	substantively_defined = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_attitude = colonialism
+				}
+			}
+		}
+
+		dissent_decrease = 0.02
+		production_tax = -0.05
+	}
+	
+	well_defined = {
+		cost = 0.5
+		allow = {
+		
+		}
+
+		dissent_decrease = 0.01
+		production_tax = -0.025
+
+	}
+
+	moderately_defined = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		dissent_increase = 0.01
+
+	}
+	
+	narrowly_defined = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		dissent_increase = 0.02
+		production_tax = 0.01
+
+	}	
+
+	thinly_defined = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = state_building_focus
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		dissent_increase = 0.03
+		production_tax = 0.03
+
+	}		
+#end rule of law
+}
+
+elections_and_voting = {
+
+	hereditary_rule  = {
+		#cost = 0.5
+		allow = {
+			OR = {
+
+				government = authoritarian_gov
+				government = theocracy_gov
+				government = absolute_monarchy_gov
+			}
+		}
+
+		party_size_bonus = 0.0175 
+		global_revolt_risk = 0.05
+		party_max_size = 0.0025
+
+	}
+	
+	single_party_system  = {
+		#cost = 0.5
+		allow = {
+			OR = {
+				government = totalitarian_gov
+				government = authoritarian_gov				
+				national_identity = territorial_focus
+				NOT = { 
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		party_size_bonus = 0.02
+		global_revolt_risk = 0.04
+		party_max_size = 0.0035
+
+	}
+
+	gerrymandering = {
+		#cost = 0.5
+		allow = {
+			OR = {
+				government = authoritarian_gov
+				government = theocracy_gov
+				government = constitutional_monarchy_gov
+				government = republic_gov
+				national_identity = territorial_focus
+				national_identity = cultural_bias_focus
+			}
+			OR = {
+				NOT = { 
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		party_size_bonus = 0.015
+		global_revolt_risk = 0.03
+		party_max_size = 0.0010
+	}
+	
+	winner_takes_it_all = {
+		#cost = 0.5
+		allow = {
+			NOT = { government = theocracy_gov }
+			OR = {
+				government = constitutional_monarchy_gov
+				government = constitutional_republic_gov
+				government = republic_gov
+			}
+		}
+		ideology = {
+			social_cons_idolg 
+			market_liberal_idolg 
+			social_liberal_idolg 	
+		}
+
+		party_size_bonus = 0.010
+		global_revolt_risk = 0.02
+		party_max_size = 0.007
+	}
+
+	semi-proportional = {
+		#cost = 0.5
+		allow = {
+			NOT = { government = theocracy_gov }
+			OR = {
+				government = constitutional_monarchy_gov
+				government = republic_gov
+				government = constitutional_republic_gov
+			}
+		}
+
+		party_size_bonus = 0.005
+		global_revolt_risk = 0.01
+		party_max_size = -0.0010
+	}
+	
+	proportional = {
+		#cost = 0.5
+		allow = {
+			NOT = { government = theocracy_gov }
+			OR = {
+				government = constitutional_monarchy_gov
+				government = republic_gov
+				government = constitutional_republic_gov
+			}
+		}
+
+#		party_size_bonus = 0.000
+		party_max_size = -0.0020
+	}	
+#end elections and voting
+}
+
+human_rights = {
+	not_recognized = {
+		cost = 0.5
+		allow = {
+			national_identity = territorial_focus
+			NOT = {
+				OR = {
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		ruling_party_support = 0.05
+		dissent_increase = 0.04
+		prestige = -0.02
+
+	}
+	
+	cultural_relativism = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_identity = territorial_focus
+				national_identity = cultural_bias_focus
+			}
+			NOT = {
+				OR = {
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		ruling_party_support = 0.03
+		dissent_increase = 0.03
+		prestige = -0.01
+
+	}
+
+	separate_but_equal = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_attitude = imperialism
+				}
+			}
+		}
+
+		ruling_party_support = 0.02
+		dissent_increase = 0.02
+
+	}
+	
+	universal_rights = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					national_identity = territorial_focus
+					national_attitude = imperialism
+					national_attitude = colonialism
+				}
+			}
+		}
+
+		ruling_party_support = 0.01
+		dissent_increase = 0.01
+		prestige = 0.01
+
+	}
+#end human rights
+}
+
+public_oversight = {
+	transparent_public_oversight = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				OR = {
+					government = theocracy_gov
+					national_attitude = imperialism
+					national_attitude = colonialism
+				}
+			}
+		}
+
+		dissent_decrease = 0.01
+		national_unity = 0.05
+		#factory building cost increased 
+		#special building cost increased 
+
+	}
+	
+	systematic_oversight = {
+		cost = 0.5
+		allow = {
+			NOT = {
+				national_attitude = imperialism
+			}
+		}
+
+		national_unity = 0.02
+		#factory building cost increased 
+		#special building cost increased 
+
+	}
+
+	non-systematic_oversight = {
+		cost = 0.5
+		allow = {
+		
+		}
+
+	}
+	
+	limited_oversight = {
+		cost = 0.5
+		allow = {
+		
+		}
+
+		national_unity = -0.01
+		#factory building cost decreased 
+		#special building cost decreased 
+
+	}
+
+	moral_code_of_conduct = {
+		cost = 0.5
+		allow = {
+		
+		}
+
+		national_unity = -0.02
+		#factory building cost decreased 
+		#special building cost decreased 
+
+	}
+# end public_oversight
+}
+
+freedom_of_the_press = {
+
+	propaganda_press  = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_identity = territorial_focus
+				NOT = { 
+					national_identity = civic_focus
+					national_identity = equality_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		#add social spending cost modifier +++
+		neutrality_change = -0.03
+		national_unity = 0.04
+		suseptibility = -0.04
+
+	}
+	
+	state_press = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_identity = territorial_focus
+				NOT = { 
+					national_identity = civic_focus
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		#add social spending cost modifier ++
+		neutrality_change = -0.02
+		national_unity = 0.03
+		suseptibility = -0.03
+
+	}
+
+	censored_press = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_identity = territorial_focus
+				NOT = { 
+					national_identity = humanitarian_focus
+				}
+			}
+		}
+
+		#add social spending cost modifier +
+		neutrality_change = -0.01
+		national_unity = 0.02
+		suseptibility = -0.02
+
+	}
+	
+	limited_restrictions = {
+		cost = 0.5
+		allow = {
+			NOT = { national_identity = territorial_focus }
+		}
+
+		#add social spending cost modifier 0
+		neutrality_change = 0.01
+		national_unity = 0.01
+		suseptibility = -0.01
+
+	}
+
+	free_press = {
+		cost = 0.5
+		allow = {
+			OR = {
+				NOT = { national_identity = territorial_focus }
+				NOT = { government = theocracy_gov }
+			}
+		}
+
+		#counter spionage malus
+		suseptibility = 0.01
+		neutrality_change = 0.02
+		prestige = 0.01
+
+	}
+#end freedom of press
+}
+
+military_service = {
+	abbreviated_volunteer_army  = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_attitude = non-interventionism
+				NOT = {
+					OR = {
+						national_attitude = imperialism
+						national_attitude = colonialism
+						national_attitude = hegemony
+						national_identity = territorial_focus
+					}
+				}
+			}
+		}
+ 		flexible_modifier = {
+			population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.02
+			}
+		}
+		org_regain = 0.05
+		reinforcement_bonus = -0.075
+	}
+	
+	conventional_volunteer_army  = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_attitude = non-interventionism
+					NOT = {
+						OR = {
+						national_attitude = imperialism
+						national_attitude = colonialism
+					}
+				}
+			}
+		}
+ 		flexible_modifier = {
+			population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.04
+			}
+		}
+		org_regain = 0.03
+		reinforcement_bonus = -0.05
+	}
+
+	expanded_volunteer_army = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_attitude = non-interventionism
+				national_attitude = hegemony
+				NOT = { national_attitude = imperialism }
+				}
+		}
+ 		flexible_modifier = {
+			population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.07
+			}
+		}
+		org_regain = 0.01
+		reinforcement_bonus = -0.025
+	}
+	
+	limited_conscription_army = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_attitude = colonialism
+				national_attitude = defensive
+			}
+		}
+ 		flexible_modifier = {
+			population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.11
+			}
+		}
+		org_regain = -0.01
+
+	}
+
+	conventional_drafted_army  = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_attitude = imperialism
+				national_attitude = colonialism
+				national_attitude = defensive
+			}
+		}
+ 		flexible_modifier = {
+			population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.16
+			}
+		}
+		org_regain = -0.03
+		reinforcement_bonus = 0.05
+
+	}
+	
+	expanded_drafted_army = {
+		cost = 0.5
+		allow = {
+			OR = {
+				national_attitude = imperialism
+				NOT = { national_identity = humanitarian_focus }
+				}
+		}
+ 		flexible_modifier = {
+			population_manpower = {
+				name = pol_population_manpower_desc
+				value = 0.22
+			}
+		}
+		org_regain = -0.05
+		reinforcement_bonus = 0.10
+
+	}
+#end military service
+}
+
+organized_religions_law = {
+
+	state_religion = {
+		cost = 0.5
+		allow = {
+		}
+		ideology = { 
+			paternal_auto_idolg 
+			social_cons_idolg
+			market_liberal_idolg
+			social_liberal_idolg
+			social_democrat_idolg
+		}
+	}
+	
+	secular_state = {
+		cost = 0.5
+		allow = {
+			NOT = { government = theocracy_gov }
+		}
+		ideology = { 
+			fascistic_idolg
+			paternal_auto_idolg 
+			social_cons_idolg
+			market_liberal_idolg
+			social_liberal_idolg
+			social_democrat_idolg
+			left_wing_radical_idolg
+			maoist_idolg
+			communist_idolg
+		}
+	}
+#end organized religion
+}

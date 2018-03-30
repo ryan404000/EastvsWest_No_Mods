@@ -1,0 +1,431 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_frontend_main_bg"
+		texturefile = "gfx\\interface\\mainmenu\\frontend_main_bg.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_mainmenu_bg"
+		texturefile = "gfx\\interface\\mainmenu\\frontend_mainmenu_bg.dds"
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_bg_multiplayer_menu"
+		texturefile = "gfx\\interface\\bg_multiplayer_menu.dds"
+		loadType = "FRONTEND"
+	}
+	
+	textSpriteType = {
+		name = "GFX_frontend_localgame_listbutton"
+		texturefile = "gfx\\interface\\frontend_localgame_listbutton.dds"
+		loadType = "FRONTEND"
+	}
+
+#	spriteType = {
+#		name = "GFX_basic_tut"
+#		texturefile = "gfx//interface//tutorial//basic_tut.dds"
+#		noOfFrames = 1
+#		loadType = "FRONTEND"
+#		allwaystransparent = yes
+#	}	
+#	spriteType = {
+#		name = "GFX_advanced_tut"
+#		texturefile = "gfx//interface//tutorial//advanced_tut.dds"
+#		noOfFrames = 1
+#		loadType = "FRONTEND"
+#		allwaystransparent = yes
+#	}
+#	spriteType = {
+#		name = "GFX_Spa_empire_tut"
+#		texturefile = "gfx//interface//tutorial//Spa_empire_tut.dds"
+#		noOfFrames = 1
+#		loadType = "FRONTEND"
+#		allwaystransparent = yes
+#	}
+	
+	spriteType = {
+		name = "GFX_tutorial_pic"
+		texturefile = "gfx//interface//tutorial//tutorial_menu_pic.dds"
+		loadType = "FRONTEND"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_tutorial_pic_overlay"
+		texturefile = "gfx//interface//tutorial//tutorial_menu_overlay.dds"
+		loadType = "FRONTEND"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_startdate_1936"
+		texturefile = "gfx\\interface\\bg_startdate_1936.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_bg_startdate_1938"
+		texturefile = "gfx\\interface\\bg_startdate_1938.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_bg_startdate_1939"
+		texturefile = "gfx\\interface\\bg_startdate_1939.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_bg_startdate_1940"
+		texturefile = "gfx\\interface\\SemperFi\\bg_startdate_1940.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_bg_startdate_1941-1"
+		texturefile = "gfx\\interface\\bg_startdate_1941-1.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_bg_startdate_1941-2"
+		texturefile = "gfx\\interface\\bg_startdate_1941-2.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_bg_startdate_1943"
+		texturefile = "gfx\\interface\\bg_startdate_1943.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_bg_startdate_1944"
+		texturefile = "gfx\\interface\\bg_startdate_1944.dds"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_scenario_pic_main"
+		texturefile = "gfx\\interface\\scenariopic\\scenario_pic_main.dds"
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_scenario_pic_afghan"
+		texturefile = "gfx\\interface\\scenariopic\\scenario_pic_afghan.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_scenario_pic_arab"
+		texturefile = "gfx\\interface\\scenariopic\\scenario_pic_arab.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_scenario_pic_gulf"
+		texturefile = "gfx\\interface\\scenariopic\\scenario_pic_gulf.dds"
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_scenario_pic_korea"
+		texturefile = "gfx\\interface\\scenariopic\\scenario_pic_korea.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_scenario_pic_vietnam"
+		texturefile = "gfx\\interface\\scenariopic\\scenario_pic_vietnam.dds"
+		loadType = "FRONTEND"
+	}	
+	
+	spriteType = {
+		name = "GFX_frontend_savegame_entry"
+		texturefile = "gfx\\interface\\frontend\\frontend_save_entry.dds"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tutorial_list_bg"
+		texturefile = "gfx//interface//tutorial//tutorial_menu_bg.dds"
+		noOfFrames = 1
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_tutorial_select_tab"
+		texturefile = "gfx//interface//tutorial//tutorial_menu_select.dds"
+		noOfFrames = 2
+		loadType = "FRONTEND"
+	}
+
+	textspriteType = {
+	#spriteType = {
+		name = "GFX_tutorial_select_chapter"
+		texturefile = "gfx//interface//tutorial//tutorial_menu_chapter.dds"
+		noOfFrames = 2
+		loadType = "FRONTEND"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_tutorial_basics"
+		texturefile = "gfx\\interface\\frontend_tutorial_basics.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_frontend_tutorial_diplomacy"
+		texturefile = "gfx\\interface\\frontend_tutorial_diplomacy.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_frontend_tutorial_production"
+		texturefile = "gfx\\interface\\frontend_tutorial_production.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_frontend_tutorial_technology"
+		texturefile = "gfx\\interface\\frontend_tutorial_technology.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_frontend_tutorial_politics"
+		texturefile = "gfx\\interface\\frontend_tutorial_politics.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	spriteType = {
+		name = "GFX_frontend_tutorial_intel"
+		texturefile = "gfx\\interface\\frontend_tutorial_intel.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+	textSpriteType = {
+		name = "GFX_frontend_button_big"
+		texturefile = "gfx\\interface\\mainmenu\\frontend_button_big.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+	textSpriteType = {
+		name = "GFX_frontend_button_small"
+		texturefile = "gfx\\interface\\mainmenu\\frontend_button_small.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+
+	textSpriteType = {
+		name = "GFX_frontend_button_exit"
+		texturefile = "gfx\\interface\\mainmenu\\frontend_button_exit.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}	
+	
+	textSpriteType = {
+		name = "GFX_frontend_button"
+		texturefile = "gfx\\interface\\frontend_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	
+	textSpriteType = {
+		name = "GFX_frontend_button2"
+		texturefile = "gfx\\interface\\frontend_button2.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	
+	textSpriteType = {
+		name = "GFX_frontend_button3"
+		texturefile = "gfx\\interface\\frontend_button3.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_frontend_button4"
+		texturefile = "gfx\\interface\\frontend_button4.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_frontend_button5"
+		texturefile = "gfx\\interface\\frontend_button5.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	textSpriteType = {
+		name = "GFX_frontend_toggle_button"
+		texturefile = "gfx\\interface\\frontend_toggle_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_connectlog_bg"
+		texturefile = "gfx\\interface\\frontend_connectlog_bg.dds"
+		loadType = "FRONTEND"
+	}
+		
+########################################################
+	spriteType = {
+		name = "slider_leftbutton"
+		texturefile = "gfx\\interface\\scrollbar_leftbutton2.dds"
+		noOfFrames = 4
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "slider_rightbutton"
+		texturefile = "gfx\\interface\\scrollbar_rightbutton2.dds"
+		noOfFrames = 4
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	corneredTileSpriteType = {
+		name = "horizontalslider_background"
+		size= {x =24 y = 24 }
+		texturefile = "gfx\\interface\\scrollbarhor_background.dds"
+		borderSize = { x=8 y=8 }
+#		
+	}
+
+	spriteType = {
+		name = "horizontalslider_slider"
+		texturefile = "gfx\\interface\\scrollbarhor_slider.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	
+
+	################################################################
+	spriteType = {
+		name = "yearslider_leftbutton"
+		texturefile = "gfx\\interface\\scrollbar_leftbutton.tga"
+		noOfFrames = 4
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "yearslider_rightbutton"
+		texturefile = "gfx\\interface\\scrollbar_rightbutton.tga"
+		noOfFrames = 4
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "yearslider_slider"
+		texturefile = "gfx\\interface\\scrollbar_slider.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "prodslider_slider"
+		texturefile = "gfx\\interface\\prod_slider_btn.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "yearslider_slider2"
+		texturefile = "gfx\\interface\\scrollbar_slider_2.tga"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evw_slider"
+		texturefile = "gfx\\interface\\mainmenu\\evw_slider.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evw_slider_up"
+		texturefile = "gfx\\interface\\mainmenu\\evw_slider_up.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evw_slider_down"
+		texturefile = "gfx\\interface\\mainmenu\\evw_slider_down.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evw_slider_trackbutton"
+		texturefile = "gfx\\interface\\mainmenu\\evw_slider_button.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_selectdate_bookmark"
+		texturefile = "gfx\\interface\\selectdate_bookmark.tga"
+		#effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+		noOfFrames = 4
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_frontend_checkbutton"
+		textureFile = "gfx\\interface\\mainmenu\\frontend_checkbutton.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_button_kick"
+		texturefile = "gfx\\interface\\button_kick.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_button_kick_small"
+		texturefile = "gfx\\interface\\button_kick_small.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_button_ban"
+		texturefile = "gfx\\interface\\button_ban.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_button_ban_small"
+		texturefile = "gfx\\interface\\button_ban_small.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+		
+}

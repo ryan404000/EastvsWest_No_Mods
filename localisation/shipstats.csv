@@ -1,0 +1,68 @@
+#CODE;ENGLISH;FRENCH;GERMAN;POLSKI;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGESE;RUSSIAN;FINNISH;x
+SHIP_STAT_1_NAME;DEFAULT_ORG;;;;;;;;;;;;;x
+SHIP_STAT_1_ICON;GFX_icon_org;;;;;;;;;;;;;x
+SHIP_STAT_2_NAME;RANGE;;;;;;;;;;;;;x
+SHIP_STAT_2_ICON;GFX_icon_range;;;;;;;;;;;;;x
+SHIP_STAT_3_NAME;MAXIMUM_SPEED;;;;;;;;;;;;;x
+SHIP_STAT_3_ICON;GFX_icon_speed;;;;;;;;;;;;;x
+SHIP_STAT_4_NAME;HULL;;;;;;;;;;;;;x
+SHIP_STAT_4_ICON;GFX_icon_hull;;;;;;;;;;;;;x
+SHIP_STAT_5_NAME;VISIBILITY;;;;;;;;;;;;;x
+SHIP_STAT_5_ICON;GFX_icon_visibility;;;;;;;;;;;;;x
+SHIP_STAT_6_NAME;TRANSPORT_CAPABILITY;;;;;;;;;;;;;x
+SHIP_STAT_6_ICON;GFX_icon_trans_cap;;;;;;;;;;;;;x
+SHIP_STAT_7_NAME;SUPPLY_CONSUMPTION;;;;;;;;;;;;;x
+SHIP_STAT_7_ICON;GFX_icon_sc;;;;;;;;;;;;;x
+SHIP_STAT_8_NAME;FUEL_CONSUMPTION;;;;;;;;;;;;;x
+SHIP_STAT_8_ICON;GFX_icon_oc;;;;;;;;;;;;;x
+SHIP_STAT_10_NAME;SEA_ATTACK;;;;;;;;;;;;;x
+SHIP_STAT_10_ICON;GFX_icon_sea_a;;;;;;;;;;;;;x
+SHIP_STAT_11_NAME;SUB_ATTACK;;;;;;;;;;;;;x
+SHIP_STAT_11_ICON;GFX_icon_sub_a;;;;;;;;;;;;;x
+SHIP_STAT_13_NAME;AIR_ATTACK;;;;;;;;;;;;;x
+SHIP_STAT_13_ICON;GFX_icon_air_a;;;;;;;;;;;;;x
+SHIP_STAT_14_NAME;AIR_DEFENCE;;;;;;;;;;;;;x
+SHIP_STAT_14_ICON;GFX_icon_air_det;;;;;;;;;;;;;x
+SHIP_STAT_15_NAME;STRATEGIC_ATTACK;;;;;;;;;;;;;x
+SHIP_STAT_15_ICON;GFX_icon_strat_a;;;;;;;;;;;;;x
+SHIP_STAT_16_NAME;PRIMARY_AMMO;;;;;;;;;;;;;x
+SHIP_STAT_16_ICON;GFX_icon_ammo_p;;;;;;;;;;;;;x
+SHIP_STAT_17_NAME;SECONDARY_AMMO;;;;;;;;;;;;;x
+SHIP_STAT_17_ICON;GFX_icon_ammo_s;;;;;;;;;;;;;x
+SHIP_STAT_SENSOR_1_NAME;SURFACERADAR_RANGE;;;;;;;;;;;;;x
+SHIP_STAT_SENSOR_1_ICON;GFX_icon_sur_det;;;;;;;;;;;;;x
+SHIP_STAT_SENSOR_2_NAME;AIRRADAR_RANGE;;;;;;;;;;;;;x
+SHIP_STAT_SENSOR_2_ICON;GFX_icon_air_det;;;;;;;;;;;;;x
+SHIP_STAT_SENSOR_3_NAME;SONAR_RANGE;;;;;;;;;;;;;x
+SHIP_STAT_SENSOR_3_ICON;GFX_icon_sub_det;;;;;;;;;;;;;x
+COMPLEX_STAT_1_NAME;AIR_ATTACK;;;;;;;;;;;;;x
+COMPLEX_STAT_1_ICON;GFX_icon_air_a;;;;;;;;;;;;;x
+COMPLEX_STAT_2_NAME;SEA_ATTACK;;;;;;;;;;;;;x
+COMPLEX_STAT_2_ICON;GFX_icon_sea_a;;;;;;;;;;;;;x
+COMPLEX_STAT_3_NAME;LAND_ATTACK;;;;;;;;;;;;;x
+COMPLEX_STAT_3_ICON;GFX_icon_shore;;;;;;;;;;;;;x
+COMPLEX_STAT_4_NAME;SURFACE_DETECTION;;;;;;;;;;;;;x
+COMPLEX_STAT_4_ICON;GFX_icon_sur_det;;;;;;;;;;;;;x
+COMPLEX_STAT_5_NAME;SEA_DEFENCE;;;;;;;;;;;;;x
+COMPLEX_STAT_5_ICON;GFX_icon_def;;;;;;;;;;;;;x
+COMPLEX_STAT_6_NAME;AIR_DEFENCE;;;;;;;;;;;;;x
+COMPLEX_STAT_6_ICON;GFX_icon_def;;;;;;;;;;;;;x
+COMPLEX_STAT_7_NAME;RANGE;;;;;;;;;;;;;x
+COMPLEX_STAT_7_ICON;GFX_icon_range;;;;;;;;;;;;;x
+COMPLEX_STAT_8_NAME;SALVO_SIZE;;;;;;;;;;;;;x
+COMPLEX_STAT_8_ICON;GFX_icon_salvo;;;;;;;;;;;;;x
+COMPLEX_STAT_9_NAME;SUPPLY_CONSUMPTION;;;;;;;;;;;;;x
+COMPLEX_STAT_9_ICON;GFX_icon_sc;;;;;;;;;;;;;x
+gun_complex_technology_desc;Modern guns are small (generally 76mm) but effective weapons with radar-control, fast fire rate, and long range.;;;;;;;;;;;;;x
+heavy_gun_complex_technology_desc;WW2 era heavy naval guns between 330 and 406mm calibers.;;;;;;;;;;;;;x
+ciws_complex_technology_desc;CIWS stands for Close-In Weapon System and provides the last bastion of ship defense. Their main armaments are 20-30mm multibarrelled Gatling guns.;;;;;;;;;;;;;x
+ss_lr_as_complex_technology_desc;Long range, supersonic speed anti-ship missiles fired from tube or vertical launch systems.;;;;;;;;;;;;;x
+ss_mr_as_complex_technology_desc;Medium range, supersonic speed anti-ship missiles fired from tube or vertical launch systems.;;;;;;;;;;;;;x
+lr_as_complex_technology_desc;Long range anti-ship missiles fired from angled tube or box launch systems.;;;;;;;;;;;;;x
+asroc_complex_technology_desc;Rocket propelled anti-submarine torpedoes fired from vertical or box launch systems.;;;;;;;;;;;;;x
+ship_heli_complex_technology_desc;Ship based helicopters providing ASW, rescue, or anti-ship capability.;;;;;;;;;;;;;x
+sr_aa_complex_technology_desc;Short-range anti-air missiles used for close range/point defense.;;;;;;;;;;;;;x
+mr_aa_complex_technology_desc;Medium range anti-air missiles used for fleet/battle group defense.;;;;;;;;;;;;;x
+cag_mltr_technology_desc;Carrier based multi-role fighters capable of performing air-superiority, anti-ship, and strike missions.;;;;;;;;;;;;;x
+cag_fighter_technology_desc;Carrier based air superiority fighters primarly for defending the carrier battle group.;;;;;;;;;;;;;x
+tlam_complex_technology_desc;TLAM missiles used for attacking land based targets like buildings and HQs;;;;;;;;;;;;;x

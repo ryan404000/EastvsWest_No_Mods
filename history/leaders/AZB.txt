@@ -1,0 +1,1621 @@
+1615000 = {
+	name = "Habil Gaibov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.11.1 = { rank = 0 }
+	}
+}
+1615008 = {
+	name = "Faig Bakikhanov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1948.11.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1615001 = {
+	name = "Mammad Huseynov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.10.1 = { rank = 0 }
+	}
+}
+1615007 = {
+	name = "Aghabey Bakikhanov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1615005 = {
+	name = "Akbar Orujov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.8.1 = { rank = 3 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1615004 = {
+	name = "Baghir Quliyev"
+	type = land
+	country = AZB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.10.1 = { rank = 2 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1615010 = {
+	name = "Yahya Rasulov"
+	type = land
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1950.10.1 = { rank = 1 }
+		1951.8.1 = { rank = 2 }
+		1952.10.1 = { rank = 3 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1615006 = {
+	name = "Baybar Hasanov"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.8.1 = { rank = 4 }
+		1955.5.1 = { rank = 0 }
+	}
+}
+1615011 = {
+	name = "Valeh Bagirov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1951.8.1 = { rank = 1 }
+		1954.1.1 = { rank = 2 }
+		1955.5.1 = { rank = 3 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1615012 = {
+	name = " Bunyatov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1952.10.1 = { rank = 1 }
+		1953.5.1 = { rank = 2 }
+		1954.1.1 = { rank = 3 }
+		1955.5.1 = { rank = 4 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1615009 = {
+	name = "Aghabey Orujov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1949.4.1 = { rank = 1 }
+		1958.9.1 = { rank = 0 }
+	}
+}
+1615016 = {
+	name = "Zohrab Babayev"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.8.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1615003 = {
+	name = "Asgar Gaitabashi"
+	type = land
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1615019 = {
+	name = "Mehdi Suleymanov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.5.1 = { rank = 1 }
+		1961.9.1 = { rank = 0 }
+	}
+}
+1615015 = {
+	name = "Manjun Huseynov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.5.1 = { rank = 1 }
+		1957.8.1 = { rank = 2 }
+		1962.3.1 = { rank = 0 }
+	}
+}
+1615017 = {
+	name = "Abbasagha Rasulbekov"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1957.8.1 = { rank = 1 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1615013 = {
+	name = "Gafiz Mahmudov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.5.1 = { rank = 1 }
+		1955.5.1 = { rank = 2 }
+		1956.8.1 = { rank = 3 }
+		1957.8.1 = { rank = 4 }
+		1964.4.1 = { rank = 0 }
+	}
+}
+1615020 = {
+	name = "Malik Yadigarov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.3.1 = { rank = 1 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1615022 = {
+	name = " Bakikhanov"
+	type = land
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1962.3.1 = { rank = 1 }
+		1964.4.1 = { rank = 2 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1615026 = {
+	name = "Asgar Agalarov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.3.1 = { rank = 1 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1615025 = {
+	name = "Asgar Abbasov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.6.1 = { rank = 1 }
+		1966.3.1 = { rank = 2 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1615024 = {
+	name = "Hasan Bakikhanov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.4.1 = { rank = 1 }
+		1969.6.1 = { rank = 0 }
+	}
+}
+1615029 = {
+	name = "Ibrahim Yadigarov"
+	type = land
+	country = AZB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.6.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1615027 = {
+	name = "Ujal Afsharov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.4.1 = { rank = 1 }
+		1971.6.1 = { rank = 0 }
+	}
+}
+1615028 = {
+	name = "Elbay Afsharov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1968.7.1 = { rank = 1 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1615031 = {
+	name = "Tahir Mammadov"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.6.1 = { rank = 1 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1615033 = {
+	name = "Bahlul Bunyatov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1973.4.1 = { rank = 1 }
+		1974.10.1 = { rank = 0 }
+	}
+}
+1615023 = {
+	name = "Shohrat Aliyev"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.10.1 = { rank = 1 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1615014 = {
+	name = "Bahriz Yadigarov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.1.1 = { rank = 1 }
+		1962.3.1 = { rank = 2 }
+		1964.4.1 = { rank = 3 }
+		1976.6.1 = { rank = 0 }
+	}
+}
+1615002 = {
+	name = "Ahmad Kesemenli"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.8.1 = { rank = 2 }
+		1957.8.1 = { rank = 3 }
+		1964.4.1 = { rank = 4 }
+		1977.8.1 = { rank = 0 }
+	}
+}
+1615018 = {
+	name = "Aghabey Shirvansky"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.9.1 = { rank = 1 }
+		1976.6.1 = { rank = 2 }
+		1977.8.1 = { rank = 3 }
+		1978.3.1 = { rank = 0 }
+	}
+}
+1615036 = {
+	name = "Ujal Ismayilov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.6.1 = { rank = 1 }
+		1978.3.1 = { rank = 2 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1615021 = {
+	name = "Abbasagha Valiyev"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.9.1 = { rank = 1 }
+		1968.7.1 = { rank = 2 }
+		1976.6.1 = { rank = 3 }
+		1977.8.1 = { rank = 4 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1615035 = {
+	name = "Uzeyir Rasulov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.8.1 = { rank = 1 }
+		1981.12.1 = { rank = 0 }
+	}
+}
+1615037 = {
+	name = "Zohrab Agalarov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.8.1 = { rank = 1 }
+		1982.6.1 = { rank = 0 }
+	}
+}
+1615038 = {
+	name = "Faig Afsharov"
+	type = land
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.3.1 = { rank = 1 }
+		1983.10.1 = { rank = 0 }
+	}
+}
+1615039 = {
+	name = "Zohrab Bagirov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.6.1 = { rank = 1 }
+		1984.1.1 = { rank = 0 }
+	}
+}
+1615030 = {
+	name = "Ogtay Bunyatov"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1977.8.1 = { rank = 2 }
+		1978.3.1 = { rank = 3 }
+		1980.9.1 = { rank = 4 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1615034 = {
+	name = "Baloghlan Hajiev"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.10.1 = { rank = 1 }
+		1979.6.1 = { rank = 2 }
+		1980.9.1 = { rank = 3 }
+		1985.11.1 = { rank = 4 }
+		1986.8.1 = { rank = 0 }
+	}
+}
+1615040 = {
+	name = "Hazi Talishkhanov"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.9.1 = { rank = 1 }
+		1986.8.1 = { rank = 2 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1615042 = {
+	name = "Zahid Aliyev"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.6.1 = { rank = 1 }
+		1985.11.1 = { rank = 2 }
+		1986.8.1 = { rank = 3 }
+		1988.1.1 = { rank = 0 }
+	}
+}
+1615041 = {
+	name = "Abbasagha Abbasov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1981.12.1 = { rank = 1 }
+		1989.7.1 = { rank = 0 }
+	}
+}
+1615048 = {
+	name = "Jalil Novruzov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.1.1 = { rank = 1 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1615032 = {
+	name = "Zohrab Rafiyev"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.11.1 = { rank = 1 }
+		1980.9.1 = { rank = 2 }
+		1985.11.1 = { rank = 3 }
+		1986.8.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615043 = {
+	name = "Jahangir Kesemenli"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615044 = {
+	name = "Mazahir Abbasov"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.1.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1988.1.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615045 = {
+	name = "Vurghun Bunyatov"
+	type = land
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615046 = {
+	name = "Zahid Bagirov"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1986.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615047 = {
+	name = "Baloghlan Gaibov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.3.1 = { rank = 1 }
+		1988.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615049 = {
+	name = "Abbasagha Huseynov"
+	type = land
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615050 = {
+	name = "Gafiz Guliyev"
+	type = land
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615057 = {
+	name = "Adalat Helejov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.8.1 = { rank = 0 }
+	}
+}
+1615051 = {
+	name = "Asgar Orujov"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1615052 = {
+	name = "Shahriyar Rafiyev"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.8.1 = { rank = 2 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1615060 = {
+	name = "Aghabey Musayev"
+	type = sea
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.4.1 = { rank = 1 }
+		1955.11.1 = { rank = 2 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1615061 = {
+	name = "Charkaz Kesemenli"
+	type = sea
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.11.1 = { rank = 1 }
+		1961.9.1 = { rank = 0 }
+	}
+}
+1615054 = {
+	name = "Shahriyar Rafiyev"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.4.1 = { rank = 2 }
+		1966.6.1 = { rank = 0 }
+	}
+}
+1615059 = {
+	name = "Asgar Aliyarbeyov"
+	type = sea
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.8.1 = { rank = 1 }
+		1966.6.1 = { rank = 2 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1615065 = {
+	name = "Malik Hajiev"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.9.1 = { rank = 1 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1615066 = {
+	name = "Gafiz Orujov"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.7.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1615062 = {
+	name = "Hazi Huseinov"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.4.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1615058 = {
+	name = "Hazi Huseinov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1970.7.1 = { rank = 0 }
+	}
+}
+1615063 = {
+	name = "Bahlul Valiyev"
+	type = sea
+	country = AZB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.9.1 = { rank = 1 }
+		1967.9.1 = { rank = 2 }
+		1970.7.1 = { rank = 3 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1615064 = {
+	name = "Subhi Aliyarbeyov"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.6.1 = { rank = 1 }
+		1970.7.1 = { rank = 2 }
+		1971.3.1 = { rank = 3 }
+		1972.8.1 = { rank = 0 }
+	}
+}
+1615068 = {
+	name = "Baybar Mammadov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1970.4.1 = { rank = 1 }
+		1971.3.1 = { rank = 2 }
+		1972.8.1 = { rank = 3 }
+		1973.6.1 = { rank = 0 }
+	}
+}
+1615067 = {
+	name = " Agalarov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1970.6.1 = { rank = 1 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1615072 = {
+	name = "Adalat Ismayilov"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.6.1 = { rank = 1 }
+		1977.8.1 = { rank = 0 }
+	}
+}
+1615056 = {
+	name = "Habil Rasulov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.8.1 = { rank = 3 }
+		1970.7.1 = { rank = 4 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1615071 = {
+	name = "Aghabey Mammadov"
+	type = sea
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1972.8.1 = { rank = 1 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1615074 = {
+	name = "Panah Novruzov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.8.1 = { rank = 1 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1615075 = {
+	name = "Shaig Abbasov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1615069 = {
+	name = "Shohrat Talishinski"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.7.1 = { rank = 1 }
+		1977.2.1 = { rank = 2 }
+		1984.6.1 = { rank = 0 }
+	}
+}
+1615078 = {
+	name = "Jovdat Valiyev"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.5.1 = { rank = 1 }
+		1985.10.1 = { rank = 0 }
+	}
+}
+1615073 = {
+	name = "Gafiz Abbasov"
+	type = sea
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1975.8.1 = { rank = 1 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1615077 = {
+	name = "Baybar Bunyatov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1983.1.1 = { rank = 1 }
+		1984.6.1 = { rank = 2 }
+		1986.1.1 = { rank = 0 }
+	}
+}
+1615080 = {
+	name = "Hasan Ibrahimov"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.10.1 = { rank = 1 }
+		1987.6.1 = { rank = 0 }
+	}
+}
+1615070 = {
+	name = "Ahmad Hasanov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.3.1 = { rank = 1 }
+		1989.8.1 = { rank = 0 }
+	}
+}
+1615053 = {
+	name = "Aghabey Hasanov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1972.8.1 = { rank = 2 }
+		1973.6.1 = { rank = 3 }
+		1977.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615055 = {
+	name = "Vurghun Musayev"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1973.6.1 = { rank = 2 }
+		1977.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615076 = {
+	name = "Jovdat Gaitabashi"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615079 = {
+	name = "Akbar Mammadov"
+	type = sea
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615081 = {
+	name = "Akbar Melikyeganov"
+	type = sea
+	country = AZB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.2.1 = { rank = 1 }
+		1986.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615082 = {
+	name = "Mammad Helejov"
+	type = sea
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615083 = {
+	name = "Bagman Agalarov"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615084 = {
+	name = "Yahya Guliyev"
+	type = sea
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1989.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615087 = {
+	name = "Bahadir Hashimbeyov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.1.1 = { rank = 0 }
+	}
+}
+1615090 = {
+	name = "Mehdi Rafiyev"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.5.1 = { rank = 0 }
+	}
+}
+1615092 = {
+	name = "Shaig Valiyev"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1615093 = {
+	name = " Babayev"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.12.1 = { rank = 0 }
+	}
+}
+1615088 = {
+	name = "Mammad Gaibov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.5.1 = { rank = 2 }
+		1950.5.1 = { rank = 3 }
+		1951.12.1 = { rank = 4 }
+		1953.2.1 = { rank = 0 }
+	}
+}
+1615097 = {
+	name = "Hazi Talishkhanov"
+	type = air
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.12.1 = { rank = 1 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1615095 = {
+	name = "Ujal Talishkhanov"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1950.5.1 = { rank = 1 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1615086 = {
+	name = "Malik Rasulov"
+	type = air
+	country = AZB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.12.1 = { rank = 2 }
+		1953.2.1 = { rank = 3 }
+		1956.11.1 = { rank = 0 }
+	}
+}
+1615094 = {
+	name = "Shaig Vizirov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.1.1 = { rank = 1 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1615096 = {
+	name = "Oghuz Babayev"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1953.2.1 = { rank = 2 }
+		1956.11.1 = { rank = 3 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1615091 = {
+	name = "Gasim Afsharov"
+	type = air
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.12.1 = { rank = 3 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1615085 = {
+	name = "Manjun Bagirov"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.11.1 = { rank = 2 }
+		1962.11.1 = { rank = 3 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1615103 = {
+	name = "Aghabey Talishinski"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1961.12.1 = { rank = 1 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1615106 = {
+	name = "Bahriz Helejov"
+	type = air
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.6.1 = { rank = 1 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1615100 = {
+	name = "Panah Gaibov"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.10.1 = { rank = 1 }
+		1961.12.1 = { rank = 2 }
+		1964.3.1 = { rank = 3 }
+		1968.8.1 = { rank = 0 }
+	}
+}
+1615108 = {
+	name = "Bahriz Musayev"
+	type = air
+	country = AZB
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.8.1 = { rank = 1 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1615101 = {
+	name = "Zohrab Musayev"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.11.1 = { rank = 1 }
+		1964.3.1 = { rank = 2 }
+		1973.7.1 = { rank = 0 }
+	}
+}
+1615089 = {
+	name = "Taghi Babayev"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 2 }
+		1951.12.1 = { rank = 3 }
+		1953.2.1 = { rank = 4 }
+		1973.5.1 = { rank = 0 }
+	}
+}
+1615099 = {
+	name = "Faig Rasulbekov"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.10.1 = { rank = 1 }
+		1973.7.1 = { rank = 0 }
+	}
+}
+1615104 = {
+	name = "Shaig Mammadov"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.11.1 = { rank = 1 }
+		1968.8.1 = { rank = 2 }
+		1975.8.1 = { rank = 0 }
+	}
+}
+1615112 = {
+	name = "Zohrab Guliyev"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1973.7.1 = { rank = 1 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1615102 = {
+	name = "Adigozal Bunyatov"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1975.8.1 = { rank = 2 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1615113 = {
+	name = "Afiyaddin Sultanov"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.8.1 = { rank = 1 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1615105 = {
+	name = "Ogtay Vekilov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1964.3.1 = { rank = 1 }
+		1973.5.1 = { rank = 2 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1615115 = {
+	name = "Valeh Aliyev"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1983.2.1 = { rank = 0 }
+	}
+}
+1615117 = {
+	name = "Bahlul Helejov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1979.12.1 = { rank = 1 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1615109 = {
+	name = "Ujal Afsharov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.3.1 = { rank = 1 }
+		1979.5.1 = { rank = 2 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1615116 = {
+	name = "Yahya Novruzov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1979.11.1 = { rank = 1 }
+		1988.5.1 = { rank = 0 }
+	}
+}
+1615114 = {
+	name = "Faig Valiyev"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1979.12.1 = { rank = 1 }
+		1987.9.1 = { rank = 2 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1615098 = {
+	name = "Afiyaddin Huseynov"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.2.1 = { rank = 1 }
+		1962.11.1 = { rank = 2 }
+		1968.8.1 = { rank = 3 }
+		1973.5.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615107 = {
+	name = "Yahya Hashimbeyov"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.5.1 = { rank = 1 }
+		1973.7.1 = { rank = 2 }
+		1973.7.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615110 = {
+	name = "Shohrat Musayev"
+	type = air
+	country = AZB
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.7.1 = { rank = 1 }
+		1979.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615111 = {
+	name = "Yahya Guliyev"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615118 = {
+	name = "Jovdat Yadigarov"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615119 = {
+	name = "Gasim Shirvansky"
+	type = air
+	country = AZB
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615120 = {
+	name = "Mazahir Talishkhanov"
+	type = air
+	country = AZB
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.9.1 = { rank = 1 }
+		1990.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615121 = {
+	name = "Malik "
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1988.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1615122 = {
+	name = "Malik Hasanov"
+	type = air
+	country = AZB
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

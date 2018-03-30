@@ -1,0 +1,478 @@
+guiTypes = {
+
+	windowType = {
+		name = "oobbrowser"
+		position = { x=0 y=133 }	
+		size = { x=348 y=544 }
+		fullScreen = no	
+
+		iconType =
+		{
+			position = { x = -6 y = 0 }
+			name = "Background"	
+			spriteType = "GFX_oob_bg"
+			Orientation = "UPPER_LEFT"
+		}
+	
+		instantTextBoxType = {
+			name = "oob_label"	
+			position = { x = -1 y = 18 }
+			font = "Jockey_18_cyan"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 340
+			maxHeight = 32	
+			format = centre
+		}
+
+		guiButtonType = {
+			name ="collapse_button"
+			quadTextureSprite ="GFX_oob_button"
+			position = { x= 22 y = 46 }
+			buttonText = "OOB_COLLAPSE_ALL"
+			buttonFont = "Jockey_16_glow_blue"
+			shortcut = "m"
+		}
+
+		guiButtonType = {
+			name ="focus_button"
+			quadTextureSprite ="GFX_oob_button"
+			position = { x= 175 y = 46 }
+			buttonText = "OOB_GO_TO_SELECTED"
+			buttonFont = "Jockey_16_glow_blue"
+			shortcut = "f"
+		}
+		
+		listboxType = 
+		{
+			name ="list"
+			position = { x = 13 y = 87 }
+			size = { x=304  y =442}
+			Orientation = "UPPER_LEFT"
+			spacing = 0
+			scrollbartype = "scrollbar_vertical_diplo"
+			borderSize = {x = 0 y = 0}
+		}
+		
+	}
+
+	######    Unit entry
+
+	windowType = {
+		name = "oob_unit_entry"
+		position = { x=0 y=0 }	
+		size = { x=252 y= 44 }
+		moveable = 0
+		fullScreen = no	
+		
+		windowType = {
+			name = "oob_actual_entry"
+			size = { x =252 y=42 }
+
+			guiButtonType = {
+				name ="drag_button"
+				quadTextureSprite = "GFX_oobentry_bg"
+				position = { x= 18 y = -2 }
+			}
+				
+			instantTextBoxType = {
+				name = "unit_name"
+				position = { x = 87 y = 6 }
+				font = "Arial12_bold"
+				maxWidth = 122
+				maxHeight = 14	
+				format = left
+				fixedsize = yes
+			}
+				
+			iconType = {
+				name ="counter_type"
+				spriteType = "GFX_temp_unit_icon"
+				position = { x= 12 y = -2 }
+				Orientation = "UPPER_LEFT"
+			}
+				
+			iconType = {
+				name ="counter_size"
+				spriteType = "GFX_counter_size"
+				position = { x= 12 y = -1 }
+				Orientation = "UPPER_LEFT"
+			}	
+					
+			iconType = {
+				name ="unit_activity"
+				spriteType = "GFX_unit_activity_strip"
+				position = { x= 36 y = 26 } 
+				Orientation = "UPPER_LEFT"
+			}
+				
+			iconType = {
+				name = "expand_bg"
+				spriteType = "GFX_oob_unit_tree_bg"
+				position = { x= -4 y = 10 }
+			}
+				
+			guiButtonType = {
+				name = "expand_button"
+				quadTextureSprite = "GFX_oob_unit_tree"
+				position = { x=-4 y =10}	
+			}
+			
+			iconType =
+			{
+				name ="eqp_bar"
+				spriteType = "eqp_progressbar_small"
+				position = { x= 75 y = 31 }
+				Orientation = "UPPER_LEFT"
+				rotation = 1.57
+			}
+			
+			iconType =
+			{
+				name ="man_bar"
+				spriteType = "manpower_progressbar_small"
+				position = { x= 75 y = 31 }
+				Orientation = "UPPER_LEFT"
+				rotation = 1.57
+			}
+			
+			iconType =
+			{
+				name ="org_bar"
+				spriteType = "org_progressbar_small"
+				position = { x= 83 y = 31 }
+				Orientation = "UPPER_LEFT"
+				rotation = 1.57
+			}
+			
+			checkboxType = {
+				name = "prio_checkbox"
+				position = { x = 97 y = 20 }
+				quadTextureSprite ="GFX_checkbox_prio_small"	
+				buttonFont = "Arial12"
+			}
+			
+			checkboxType = {
+				name = "reinf_checkbox"
+				position = { x = 127 y = 20 }
+				quadTextureSprite ="GFX_checkbox_reinforce_small"	
+				buttonFont = "Arial12"
+			}
+			
+			checkboxType = {
+				name = "upgrade_checkbox"
+				position = { x = 157 y = 20 }
+				quadTextureSprite ="GFX_checkbox_upgrade_small"	
+				buttonFont = "Arial12"
+			}
+			
+			checkboxType = {
+				name = "walhalla_checkbox"
+				position = { x = 187 y = 20 }
+				quadTextureSprite = "GFX_checkbox_valhalla_small"
+				buttonFont = "Arial12"
+			}
+			
+			checkboxType = {
+				name = "scorched_earth"
+				position = { x = 217 y = 20}
+				quadTextureSprite = "GFX_checkbox_scorched_small"
+				buttonFont = "Arial12"
+			}
+			
+					
+			iconType =
+			{
+				name = "ammo_icon"
+				position = { x = 12 y = 0 }
+				Orientation = "UPPER_LEFT"
+				spriteType = "GFX_unit_supplies_icon_small"
+			}
+			
+			iconType =
+			{
+				name = "fuel_icon"
+				position = { x = 12 y = 0 }
+				Orientation = "UPPER_LEFT"
+				spriteType = "GFX_unit_fuel_icon_small"
+			}
+			
+			iconType = 
+			{
+				name = "ammostore1_icon"
+				position = { x = 12 y = 0 }
+				SpriteType = "GFX_ammostore1_status_small"
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType = 
+			{
+				name = "ammostore2_icon"
+				position = { x = 12 y = 0 }
+				SpriteType = "GFX_ammostore2_status_small"
+				Orientation = "UPPER_LEFT"
+			}	
+			
+			iconType =
+			{
+				name = "nuke_icon"
+				position = { x = 12 y = 0 }
+				Orientation = "UPPER_LEFT"
+				spriteType = "GFX_unit_nuke_icon_small"
+			}
+			
+			checkboxType = {
+				name = "ai_chkbox"
+				position = { x = 234 y = 21 }
+				quadTextureSprite ="GFX_checkbox_automate_small"	
+				buttonFont = "Arial12"
+			}
+			
+			instantTextboxType = {
+				name = "order_box"
+				position = { x = 72 y = 24 }
+				maxWidth = 89
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+		
+			iconType = {
+				name ="objective_progress"
+				spriteType = "oob_obj_progressbar"
+				position = { x = 87 y = 26 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextboxType = {
+				name = "stat_sa"
+				position = { x = 84 y = 24 }
+				maxWidth = 23
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+			
+			instantTextboxType = {
+				name = "stat_ha"
+				position = { x = 110 y = 24 }
+				maxWidth = 23
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+			
+			instantTextboxType = {
+				name = "stat_aa"
+				position = { x = 133 y = 24 }
+				maxWidth = 23
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+			
+			instantTextboxType = {
+				name = "stat_def"
+				position = { x = 158 y = 24 }
+				maxWidth = 23
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+			
+			instantTextboxType = {
+				name = "stat_tg"
+				position = { x = 181 y = 24 }
+				maxWidth = 23
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+			
+			instantTextboxType = {
+				name = "stat_ad"
+				position = { x = 206 y = 24 }
+				maxWidth = 23
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+			
+			instantTextboxType = {
+				name = "stat_sup"
+				position = { x = 231 y = 24 }
+				maxWidth = 23
+				maxHeight = 13
+				fixedsize = yes
+				Orientation = "UPPER_LEFT"
+				format = centre
+				font = "Arial12"
+			}
+			
+		}
+	}	
+	
+	######Leader  entry
+
+	windowType = {
+		name = "oob_leader_entry"
+		position = { x=0 y=0 }	
+		size = { x=380 y= 80 }
+		moveable = 0
+		fullScreen = no	
+			
+		guiButtonType = {
+			name ="drag_button"
+			quadTextureSprite = "GFX_oob_leader_entry_bg"
+			position = { x= 0 y = 0 }
+		}
+
+			
+		instantTextBoxType = {
+			name = "leader_name"
+			position = { x = 34 y = 5 }
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 220
+			maxHeight = 32
+			fixedsize = yes
+			format = left
+		}
+			
+		iconType =
+		{
+			name ="leader_rank"
+			spriteType = "GFX_icon_rank_strip"
+			position = { x= 30 y = 17 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+		instantTextBoxType = {
+			name = "leader_info"
+			position = { x = 34 y = 37 }
+			font = "Arial12_bold"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 32	
+			format = left
+		}
+
+		iconType =	{
+			name ="leader_photo"
+			spriteType = "GFX_empty_position"
+			position = { x = 4 y = 3 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.7
+		}
+	
+			
+		OverlappingElementsBoxType = {
+			name = "leader_traits"
+			position = { x = 15 y = 58}
+			size = { x=200 y= 32 }
+			Orientation = "UPPER_LEFT"
+			format = left
+			spacing = 1.0
+		}
+
+	}
+
+	
+
+	positionType =
+	{
+		name = "division_ammo_postype"
+		position = { x = 212 y = 4 }
+	}
+	
+	positionType =
+	{
+		name = "division_fuel_postype"
+		position = { x = 233 y = 4 }
+	}	
+	
+	positionType = {
+		name = "navy_ammo_postype"
+		position = { x = 212 y = 4 }
+	}
+	
+	positionType = {
+		name = "navy_fuel_postype"
+		position = { x = 233 y = 4 }
+	}
+	
+	positionType = 
+	{
+		name = "navy_ammostore1_postype"
+		position = { x = 191 y = 21 }
+	}	
+	
+	positionType = 
+	{
+		name = "navy_ammostore2_postype"
+		position = { x = 212 y = 21 }
+	}	
+	
+	positionType = 
+	{
+		name = "navy_nuke_postype"
+		position = { x = 236 y = 22 }
+	}
+				
+	positionType =
+	{
+		name = "air_ammo_postype"
+		position = { x = 212 y = 4 }
+	}
+	
+	positionType =
+	{
+		name = "air_fuel_postype"
+		position = { x = 233 y = 4 }
+	}
+	
+	positionType =
+	{
+		name = "air_nuke_postype"
+		position = { x = 236 y = 22 }
+	}
+	
+	positionType =
+	{
+		name = "theatre_nuke_postype"
+		position = { x = 215 y = 22 }
+	}
+	
+	positionType =
+	{
+		name = "theatre_ai_postype"
+		position = { x = 233 y = 22 }
+	}
+
+	positionType =
+	{
+		name = "theatre_ammo_postype"
+		position = { x = 212 y = 4 }
+	}
+	
+	positionType =
+	{
+		name = "theatre_fuel_postype"
+		position = { x = 233 y = 4 }
+	}		
+
+}
+	

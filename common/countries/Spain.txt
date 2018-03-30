@@ -1,0 +1,685 @@
+color = { 251  238  2 }
+graphical_culture = Generic
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armored_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	ENG_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names = {
+	supercarrier = {
+		"Principe de Asturias" "Dedalo" "La Falange" "Tenerife"	"Duque de Segovia" "Duque de Cádiz" "Duquesa de Badajoz" "Duquesa de Soria" "Duquesa de Galliera" "Duquesa de Lugo"
+		"Duquesa de Palma de Mallorca" "Duque de Sevilla" "Conde de Chinchón" "Conde de Montemolín" "Conde de Molina" "Conde de Montizón"
+	}	
+	carrier = {
+		"Principe de Asturias" "Dedalo" "La Falange" "Tenerife"	"Duque de Segovia" "Duque de Cádiz" "Duquesa de Badajoz" "Duquesa de Soria" "Duquesa de Galliera" "Duquesa de Lugo"
+		"Duquesa de Palma de Mallorca" "Duque de Sevilla" "Conde de Chinchón" "Conde de Montemolín" "Conde de Molina" "Conde de Montizón"
+	}	
+	escort_carrier = {
+		"Principe de Asturias" "Dedalo" "La Falange" "Tenerife"	"Duque de Segovia" "Duque de Cádiz" "Duquesa de Badajoz" "Duquesa de Soria" "Duquesa de Galliera" "Duquesa de Lugo"
+		"Duquesa de Palma de Mallorca" "Duque de Sevilla" "Conde de Chinchón" "Conde de Montemolín" "Conde de Molina" "Conde de Montizón"
+	}	
+	helicopter_carrier = {
+		#--------Principe de Asturias-Class--------#		
+		"Principe de Asturias"
+		#--------Extra Names--------#
+		"Dedalo" "La Falange" "Tenerife" "Duque de Segovia" "Duque de Cádiz" "Duquesa de Badajoz" "Duquesa de Soria" "Duquesa de Galliera" "Duquesa de Lugo"
+		"Duquesa de Palma de Mallorca" "Duque de Sevilla" "Conde de Chinchón" "Conde de Montemolín" "Conde de Molina" "Conde de Montizón"
+	}		
+	battleship = {
+		"Espana" "Alfonso XIII" "Jaime I" "Felipe II" "Isabel la Catolica" "Lepanto" "Caudillo" "12 de Octubre" "República" "Democracia"
+		"Constitución" "14 de Abril" "Reina Victoria Eugenia" "Principe de Asturias" "Santísima Trinidad" "Don Juan de Austria"	"Emperador Carlos V" "Cristobal Colon" "Pedro de Aragon" "Don Juan de Austria" "Pelayo"
+	}
+	nuclear_battlecruiser = {
+		"Espana" "Alfonso XIII" "Jaime I" "Felipe II" "Isabel la Catolica" "Lepanto" "Caudillo" "12 de Octubre" "República" "Democracia"
+		"Constitución" "14 de Abril" "Reina Victoria Eugenia" "Principe de Asturias" "Santísima Trinidad" "Don Juan de Austria"	"Emperador Carlos V" "Cristobal Colon" "Pedro de Aragon" "Don Juan de Austria" "Pelayo"
+	}
+	nuclear_missile_cruiser = {
+		"Canarias" "Baleares" "El Ferrol" "Álvaro de Bazán" "Marqués de la Ensenada" "Cristobal Colón" "Santa María" "Numancia" "Victoria" "Princesa de Asturias"
+		"Cardenal Cisneros" "Cataluna" "Galicia" "Almirante Cervera" "Miguel de Cervantes" "Méndez Núñez" "Blas de Lezo" "Andalucia" "Asturias"
+		"Extremadura" "Reina Victoira Eugenia" "Infata Maria Theresa" "Reina Regente" "Principe Alfonso"
+	}
+	missile_cruiser = {
+		"Canarias" "Baleares" "El Ferrol" "Álvaro de Bazán" "Marqués de la Ensenada" "Cristobal Colón" "Santa María" "Numancia" "Victoria" "Princesa de Asturias"
+		"Cardenal Cisneros" "Cataluna" "Galicia" "Almirante Cervera" "Miguel de Cervantes" "Méndez Núñez" "Blas de Lezo" "Andalucia" "Asturias"
+		"Extremadura" "Reina Victoira Eugenia" "Infata Maria Theresa" "Reina Regente" "Principe Alfonso"
+	}
+	cruiser = {
+		"Canarias" "Baleares" "El Ferrol" "Álvaro de Bazán" "Marqués de la Ensenada" "Cristobal Colón" "Santa María" "Numancia" "Victoria" "Princesa de Asturias"
+		"Cardenal Cisneros" "Cataluna" "Galicia" "Almirante Cervera" "Miguel de Cervantes" "Méndez Núñez" "Blas de Lezo" "Andalucia" "Asturias"
+		"Extremadura" "Reina Victoira Eugenia" "Infata Maria Theresa" "Reina Regente" "Principe Alfonso"
+	}
+	missile_destroyer = {
+		#--------Oquendo-Class--------#
+		"Oquendo" "Blasco de Garay" "Blas de Lezo" "Bonifaz" "Gelmirez" "Langara" "Recalde" "Roger de Lauria" "Marques de la Ensenadae"
+		#--------Roger de Lauria-Class--------#
+		"Roger de Lauria" "Marques de la Ensenada"
+		#--------Extra Names--------#
+		"Churruca" "Gravina" "Langara" "Méndez Núñez" "Blas de Lezo" "Lepanto" "Almirante Ferrandiz" "Almirante Valdes" "Alcala Galiano" "Jorge Juan" 
+		"Alava" "Liniers" "Alvise Cadamosto" "Huesca" "Teruel" "Ceuta" "Melilla" "Audaz" "Osado" "Pluton" "Proserpine"
+	}
+	destroyer = {
+		"1a Flotilla de Destructores" "2a Flotilla de Destructores" "3a Flotilla de Destructores" "4a Flotilla de Destructores" "5a Flotilla de Destructores" "6a Flotilla de Destructores" "7a Flotilla de Destructores" "8a Flotilla de Destructores" "9a Flotilla de Destructores" "10a Flotilla de Destructores"
+		"11a Flotilla de Destructores" "12a Flotilla de Destructores" "13a Flotilla de Destructores" "14a Flotilla de Destructores" "15a Flotilla de Destructores" "16a Flotilla de Destructores" "17a Flotilla de Destructores" "18a Flotilla de Destructores" "19a Flotilla de Destructores" "20a Flotilla de Destructores"
+		"21a Flotilla de Destructores" "22a Flotilla de Destructores" "23a Flotilla de Destructores" "24a Flotilla de Destructores" "25a Flotilla de Destructores" "26a Flotilla de Destructores" "27a Flotilla de Destructores" "28a Flotilla de Destructores" "29a Flotilla de Destructores" "30a Flotilla de Destructores"
+		"31a Flotilla de Destructores" "32a Flotilla de Destructores" "33a Flotilla de Destructores" "34a Flotilla de Destructores" "35a Flotilla de Destructores" "36a Flotilla de Destructores" "37a Flotilla de Destructores" "38a Flotilla de Destructores" "39a Flotilla de Destructores" "40a Flotilla de Destructores"
+		"41a Flotilla de Destructores" "42a Flotilla de Destructores" "43a Flotilla de Destructores" "44a Flotilla de Destructores" "45a Flotilla de Destructores" "46a Flotilla de Destructores" "47a Flotilla de Destructores" "48a Flotilla de Destructores" "49a Flotilla de Destructores" "50a Flotilla de Destructores"
+	}
+	missile_frigate = {
+		#--------Baleares-Class--------#
+		"Baleares" "Andalucía" "Cataluña" "Asturias" "Extremadura"
+		#--------Santa María-Class--------#
+		"Santa María" "Victoria" "Numancia" "Reina Sofía" "Navarra" "Canarias" "Pinta" "Leon" "Nina" "Murcia"
+		#--------Extra Names--------#
+		"Álvaro de Bazan" "Almirante Juan de Borbón" "Blas de Lezo" "Méndez Núñez" "Cristóbal Colón" "Roger de Lauria" "Juan de Austria" "Pizarro" "Hernán Cortes" "Martin Alonso Pinzon"
+		"Vasco Núnez de Balboa" "Martín Alonso Pinzón" "Magallanes" "Sarmiento de Gamboa" "Vicente Yáñez Pinzón" "Legazpi" "America"
+	}
+	missile_boat = {
+		"1a Flotilla de Barco de Misiles" "2a Flotilla de Barco de Misiles" "3a Flotilla de Barco de Misiles" "4a Flotilla de Barco de Misiles" "5a Flotilla de Barco de Misiles" "6a Flotilla de Barco de Misiles" "7a Flotilla de Barco de Misiles" "8a Flotilla de Barco de Misiles" "9a Flotilla de Barco de Misiles" "10a Flotilla de Barco de Misiles"
+		"11a Flotilla de Barco de Misiles" "12a Flotilla de Barco de Misiles" "13a Flotilla de Barco de Misiles" "14a Flotilla de Barco de Misiles" "15a Flotilla de Barco de Misiles" "16a Flotilla de Barco de Misiles" "17a Flotilla de Barco de Misiles" "18a Flotilla de Barco de Misiles" "19a Flotilla de Barco de Misiles" "20a Flotilla de Barco de Misiles"
+		"21a Flotilla de Barco de Misiles" "22a Flotilla de Barco de Misiles" "23a Flotilla de Barco de Misiles" "24a Flotilla de Barco de Misiles" "25a Flotilla de Barco de Misiles"
+		"1a Flotilla de Corbeta" "2a Flotilla de Corbeta" "3a Flotilla de Corbeta" "4a Flotilla de Corbeta" "5a Flotilla de Corbeta" "6a Flotilla de Corbeta" "7a Flotilla de Corbeta" "8a Flotilla de Corbeta" "9a Flotilla de Corbeta" "10a Flotilla de Corbeta"
+		"11a Flotilla de Corbeta" "12a Flotilla de Corbeta" "13a Flotilla de Corbeta" "14a Flotilla de Corbeta" "15a Flotilla de Corbeta" "16a Flotilla de Corbeta" "17a Flotilla de Corbeta" "18a Flotilla de Corbeta" "19a Flotilla de Corbeta" "20a Flotilla de Corbeta"
+		"21a Flotilla de Corbeta" "22a Flotilla de Corbeta" "23a Flotilla de Corbeta" "24a Flotilla de Corbeta" "25a Flotilla de Corbeta"		
+	}
+	submarine = {
+		"1a Flotilla de Submarinos" "2a Flotilla de Submarinos" "3a Flotilla de Submarinos" "4a Flotilla de Submarinos" "5a Flotilla de Submarinos" "6a Flotilla de Submarinos" "7a Flotilla de Submarinos" "8a Flotilla de Submarinos" "9a Flotilla de Submarinos" "10a Flotilla de Submarinos"
+		"11a Flotilla de Submarinos" "12a Flotilla de Submarinos" "13a Flotilla de Submarinos" "14a Flotilla de Submarinos" "15a Flotilla de Submarinos" "16a Flotilla de Submarinos" "17a Flotilla de Submarinos" "18a Flotilla de Submarinos" "19a Flotilla de Submarinos" "20a Flotilla de Submarinos"
+		"21a Flotilla de Submarinos" "22a Flotilla de Submarinos" "23a Flotilla de Submarinos" "24a Flotilla de Submarinos" "25a Flotilla de Submarinos" "26a Flotilla de Submarinos" "27a Flotilla de Submarinos" "28a Flotilla de Submarinos" "29a Flotilla de Submarinos" "30a Flotilla de Submarinos"
+		"31a Flotilla de Submarinos" "32a Flotilla de Submarinos" "33a Flotilla de Submarinos" "34a Flotilla de Submarinos" "35a Flotilla de Submarinos" "36a Flotilla de Submarinos" "37a Flotilla de Submarinos" "38a Flotilla de Submarinos" "39a Flotilla de Submarinos" "40a Flotilla de Submarinos"
+		"41a Flotilla de Submarinos" "42a Flotilla de Submarinos" "43a Flotilla de Submarinos" "44a Flotilla de Submarinos" "45a Flotilla de Submarinos" "46a Flotilla de Submarinos" "47a Flotilla de Submarinos" "48a Flotilla de Submarinos" "49a Flotilla de Submarinos" "50a Flotilla de Submarinos"
+	}
+	attack_submarine = {
+		"Delfín" "Tonina" "Marsopa" "Narval" "Galerna" "Siroco" "Mistral" "Tramontana" "Isaac Peral" "Narciso Monturiol"
+		"Cosme García" "General Mola" "General Sanjurjo" "Almirante García de los Reyes" "Narciso Monturiol" "Foca I" "Foca II" "Tiburón I" "Tiburón II"
+	}	
+	nuclear_submarine = {
+		"Delfín" "Tonina" "Marsopa" "Narval" "Galerna" "Siroco" "Mistral" "Tramontana" "Isaac Peral" "Narciso Monturiol"
+		"Cosme García" "General Mola" "General Sanjurjo" "Almirante García de los Reyes" "Narciso Monturiol" "Foca I" "Foca II" "Tiburón I" "Tiburón II"
+	}	
+	guided_submarine = {
+		"Delfín" "Tonina" "Marsopa" "Narval" "Galerna" "Siroco" "Mistral" "Tramontana" "Isaac Peral" "Narciso Monturiol"
+		"Cosme García" "General Mola" "General Sanjurjo" "Almirante García de los Reyes" "Narciso Monturiol" "Foca I" "Foca II" "Tiburón I" "Tiburón II"
+	}	
+	nuclear_guided_submarine = {
+		"Delfín" "Tonina" "Marsopa" "Narval" "Galerna" "Siroco" "Mistral" "Tramontana" "Isaac Peral" "Narciso Monturiol"
+		"Cosme García" "General Mola" "General Sanjurjo" "Almirante García de los Reyes" "Narciso Monturiol" "Foca I" "Foca II" "Tiburón I" "Tiburón II"
+	}	
+	ballistic_missile_submarine = {
+		"Delfín" "Tonina" "Marsopa" "Narval" "Galerna" "Siroco" "Mistral" "Tramontana" "Isaac Peral" "Narciso Monturiol"
+		"Cosme García" "General Mola" "General Sanjurjo" "Almirante García de los Reyes" "Narciso Monturiol" "Foca I" "Foca II" "Tiburón I" "Tiburón II"
+	}	
+	transport_ship = {
+		"1a Flotilla de Transporte Marítimo" "2a Flotilla de Transporte Marítimo" "3a Flotilla de Transporte Marítimo" "4a Flotilla de Transporte Marítimo" "5a Flotilla de Transporte Marítimo" "6a Flotilla de Transporte Marítimo" "7a Flotilla de Transporte Marítimo" "8a Flotilla de Transporte Marítimo" "9a Flotilla de Transporte Marítimo" "10a Flotilla de Transporte Marítimo"
+		"11a Flotilla de Transporte Marítimo" "12a Flotilla de Transporte Marítimo" "13a Flotilla de Transporte Marítimo" "14a Flotilla de Transporte Marítimo" "15a Flotilla de Transporte Marítimo" "16a Flotilla de Transporte Marítimo" "17a Flotilla de Transporte Marítimo" "18a Flotilla de Transporte Marítimo" "19a Flotilla de Transporte Marítimo" "20a Flotilla de Transporte Marítimo"
+		"21a Flotilla de Transporte Marítimo" "22a Flotilla de Transporte Marítimo" "23a Flotilla de Transporte Marítimo" "24a Flotilla de Transporte Marítimo" "25a Flotilla de Transporte Marítimo" "26a Flotilla de Transporte Marítimo" "27a Flotilla de Transporte Marítimo" "28a Flotilla de Transporte Marítimo" "29a Flotilla de Transporte Marítimo" "30a Flotilla de Transporte Marítimo"
+		"31a Flotilla de Transporte Marítimo" "32a Flotilla de Transporte Marítimo" "33a Flotilla de Transporte Marítimo" "34a Flotilla de Transporte Marítimo" "35a Flotilla de Transporte Marítimo" "36a Flotilla de Transporte Marítimo" "37a Flotilla de Transporte Marítimo" "38a Flotilla de Transporte Marítimo" "39a Flotilla de Transporte Marítimo" "40a Flotilla de Transporte Marítimo"
+		"41a Flotilla de Transporte Marítimo" "42a Flotilla de Transporte Marítimo" "43a Flotilla de Transporte Marítimo" "44a Flotilla de Transporte Marítimo" "45a Flotilla de Transporte Marítimo" "46a Flotilla de Transporte Marítimo" "47a Flotilla de Transporte Marítimo" "48a Flotilla de Transporte Marítimo" "49a Flotilla de Transporte Marítimo" "50a Flotilla de Transporte Marítimo"
+	}
+}
+ministers = {
+	1327000 = {
+		name = "Francisco Franco y Bahamonde"
+		ideology = fascistic_idolg
+		loyalty = 0.80
+		picture = SPA_M_Franco_y_Bahamonde_Francisco
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1936.10.1
+		death_date = 1975.11.20
+	}	
+	#1327001
+	#1327002
+	1327003 = {
+		name = "Carlos Hugo I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.75
+		picture = SPA_M_Carlos_I_Hugo
+		head_of_state = controversial_figure		
+		start_date = 1977.5.7
+		death_date = 1999.12.31
+	}	
+	1327004 = {
+		name = "Juan Carlos I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = SPA_M_Carlos_I_Juan
+		head_of_state = traditionalist_type
+		start_date = 1975.11.20
+		death_date = 1999.12.31
+	}	
+	1327005 = {
+		name = "Luis Carrero Blanco"
+		ideology = fascistic_idolg
+		loyalty = 1.00
+		picture = SPA_M_Carrero_Blanco_Luis
+		head_of_government = hardliner_type		
+		start_date = 1973.6.8
+		death_date = 1973.12.20
+	}	
+	1327006 = {
+		name = "Torcuato Fernández-Miranda"
+		ideology = fascistic_idolg
+		loyalty = 1.00
+		picture = SPA_M_Fernandez-Miranda_Torcuato
+		head_of_government = traditionalist_type		
+		start_date = 1973.12.20
+		death_date = 1973.12.31
+	}	
+	1327007 = {
+		name = "Carlos Arias Navarro"
+		ideology = fascistic_idolg
+		loyalty = 0.80
+		picture = SPA_M_Arias_Navarro_Carlos
+		head_of_government = zealous_type
+		start_date = 1973.12.31
+		death_date = 1976.7.1
+	}	
+	#1327008	
+	1327009 = {
+		name = "Fernando de Santiago y Diaz de Mendivil"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SPA_M_Santiago_y_Diaz_de_Mendivil_Fernando_de
+		head_of_government = reformer_type		
+		start_date = 1976.7.1
+		death_date = 1976.7.5
+	}		
+	1327010 = {
+		name = "Adolfo Suárez y González"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SPA_M_Suarez_y_Gonzalez_Adolfo
+		head_of_government = reformer_type		
+		start_date = 1976.7.5
+		death_date = 1981.1.29
+	}	
+	1327011 = {
+		name = "Leopoldo Calvo-Sotelo y Bustelo"
+		ideology = social_liberal_idolg
+		loyalty = 1.00
+		picture = SPA_M_Calvo-Sotelo_y_Bustelo_Leopoldo
+		head_of_government = bureaucrat_type		
+		start_date = 1981.1.29
+		death_date = 1982.12.2
+	}	
+	1327012 = {
+		name = "Felipe González Márquez"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = SPA_M_Gonzalez_Marquez_Felipe
+		head_of_government = reformer_type		
+		start_date = 1976.7.5
+		death_date = 1996.5.5
+	}	
+	1327013 = {
+		name = "I. Dolores Ibárruri Gómez"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = SPA_M_Ibarruri_Gomez_I_Dolores
+		head_of_state = zealous_type	
+		head_of_government = zealous_type		
+		start_date = 1942.3.19
+		death_date = 1960.1.29
+	}	
+	1327014 = {
+		name = "Santiago José Carrillo Solares"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = SPA_M_Carrillo_Solares_Santiago_J
+		head_of_state = courageous_type		
+		head_of_government = courageous_type		
+		start_date = 1960.1.29
+		death_date = 1982.11.6
+	}		
+	1327015 = {
+		name = "Gerardo Iglesias Argüelles"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = SPA_M_Iglesias_Arguelles_Gerardo
+		head_of_state = bureaucrat_type			
+		head_of_government = bureaucrat_type		
+		start_date = 1982.11.6
+		death_date = 1988.2.21
+	}	
+	1327016 = {
+		name = "Julio Anguita González"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = SPA_M_Anguita_Gonzalez_Julio
+		head_of_state = honest_type			
+		head_of_government = honest_type		
+		start_date = 1988.2.21
+		death_date = 1999.12.31
+	}	
+	1327017 = {
+		name = "Jordi Pujol i Soley"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SPA_M_Pujol_i_Soley_Jordi
+		head_of_government = bureaucrat_type		
+		start_date = 1976.7.5
+		death_date = 1982.12.2
+		base = 1327017
+	}	
+	1327018 = {
+		name = "Manuel Fraga Iribarne"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SPA_M_Fraga_Iribarne_Manuel
+		head_of_government = traditionalist_type		
+		start_date = 1982.12.2     #1962.7.10  Suggested
+		death_date = 1989.10.9     #2005.8.2
+	}	
+	1327019 = {
+		name = "José M. A. Aznar López"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SPA_M_Aznar_Lopez_Jose_M_A
+		head_of_government = parental_type
+		start_date = 1989.10.9
+		death_date = 1999.12.31
+	}	
+	1327020 = {
+		name = "Miquel Roca i Junyent"
+		ideology = market_liberal_idolg
+		loyalty = 1.00
+		picture = SPA_M_Roca_i_Junyent_Miquel
+		head_of_government = liberal_type		
+		start_date = 1982.12.2
+		death_date = 1995.1.31
+	}
+	
+	#Continuation of Monarch Heirs
+	1327021 = {
+		name = "Felipe VI"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.99
+		picture = SPA_M_Felipe_VI
+		head_of_state = courteous_figure		
+		start_date = 1986.1.30
+		death_date = 2300.1.1
+	}
+	1327022 = {
+		name = "Elena I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.98
+		picture = SPA_M_Elena_I
+		head_of_state = courteous_figure		
+		start_date = 1981.12.20
+		death_date = 2300.1.1
+	}
+	1327023 = {
+		name = "Cristina I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.97
+		picture = SPA_M_Cristina_I
+		head_of_state = courteous_figure		
+		start_date = 1983.6.13
+		death_date = 2300.1.1
+	}
+	1327107 = {
+		name = "Juan III de Borbón"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.96
+		picture = SPA_M_Borbon_Juan_III
+		head_of_state = traditionalist_type
+		start_date = 1941.5.14
+		death_date = 1993.3.1
+	}
+	1327024 = {
+		name = "Pilar I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.95
+		picture = SPA_M_Pilar_I
+		head_of_state = courteous_figure		
+		start_date = 1954.6.30
+		death_date = 1967.5.5
+	}
+	1327025 = {
+		name = "Margarita I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.94
+		picture = SPA_M_Margarita_I
+		head_of_state = courteous_figure		
+		start_date = 1957.3.6
+		death_date = 1972.10.12
+	}
+	
+	
+	# WATW
+	1327100 = { #P
+		name = "Rodolfo Llopis"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = SPA_M_Llopis_Rodolfo
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type		
+		start_date = 1944.1.1
+		death_date = 1972.1.1
+	}	
+	1327101 = { #P
+		name = "José Giral"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = SPA_M_Giral_Jose
+		head_of_state = loyal_type
+		head_of_government = loyal_type		
+		start_date = 1946.1.1
+		death_date = 1960.1.1
+	}	
+	1327102 = { #P
+		name = "Álvaro de Albornoz"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = SPA_M_Albornoz_Alvaro
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type		
+		start_date = 1946.1.1
+		death_date = 1951.1.1
+	}	
+	1327103 = { #P
+		name = "Félix Gordón Ordás"
+		ideology = social_liberal_idolg
+		loyalty = 0.50
+		picture = SPA_M_Ordas_Felix_G
+		head_of_state = courteous_figure
+		head_of_government = courteous_figure		
+		start_date = 1951.1.1
+		death_date = 1960.1.1
+	}	
+	1327104 = { #P
+		name = "Enrique Líster"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = SPA_M_Lister_Enrique
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type		
+		start_date = 1946.1.1
+		death_date = 1994.1.1
+	}	
+	1327105 = { #P
+		name = "Antonio Tejero"
+		ideology = fascistic_idolg
+		loyalty = 0.50
+		picture = SPA_M_Tejero_Antonio
+		head_of_state = zealous_type
+		head_of_government = zealous_type		
+		start_date = 1978.11.11 
+		death_date = 1999.12.31
+	}	
+	1327106 = { #P
+		name = "Julio Álvarez del Vayo"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = SPA_M_Vayo_Julio_A
+		head_of_state = zealous_type
+		head_of_government = zealous_type		
+		start_date = 1945.1.1
+		death_date = 1975.4.26
+	}	
+	
+	1327108 = { #P
+		name = "Javier I de Borbón-PaESPSa"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Borbon-PaESPSa_Javier_I
+		head_of_state = ambitious_type
+		start_date = 1936.9.29
+		death_date = 1977.5.7
+	}	
+	1327109 = { #P
+		name = "Sixto I de Borbón-PaESPSa"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Borbon-PaESPSa_Sixto_I
+		head_of_state = autocrat_type		
+		start_date = 1977.5.7
+		death_date = 1999.12.31
+	}	
+	1327110 = { #P
+		name = "Carlos VIII de Habsburgo-Borbón"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Habsburgo-Borbon_Carlos_VIII
+		head_of_state = ambitious_type
+		start_date = 1943.1.1
+		death_date = 1953.12.24
+	}	
+	1327111 = { #P
+		name = "Carlos IX de Habsburgo-Borbón"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Habsburgo-Borbon_Carlos_IX
+		head_of_state = courageous_type	
+		start_date = 1953.12.24
+		death_date = 1987.10.22
+	}
+	1327112 = { #P
+		name = "Stefano I de Habsburgo-Borbón"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Habsburgo-Borbon_Stefano_I
+		head_of_state = reputable_type	
+		start_date = 1987.10.22
+		death_date = 1998.11.12
+	}
+	1327113 = { #P
+		name = "Francisco I de Habsburgo-Borbón"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Habsburgo-Borbon_Francisco_I
+		head_of_state = loyal_type	
+		start_date = 1961.1.1
+		death_date = 1975.5.9
+	}
+	1327114 = { #P
+		name = "Domingo I de Habsburgo-Borbón"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Habsburgo-Borbon_Domingo_I
+		head_of_state = visionary_type
+		start_date = 1975.5.9
+		death_date = 2030.1.1
+	}
+	1327115 = { #P
+		name = "Enrique I de Borbón y Battenberg"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Borbon-Battenberg_Enrique_I
+		head_of_state = controversial_figure	
+		start_date = 1941.2.28
+		death_date = 1975.3.20
+	}
+	1327116 = { #P
+		name = "Alfonso XIV de Borbón y Dampierre"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Borbon-Dampierre_Alfonso_XIV
+		head_of_state = bureaucrat_type		
+		start_date = 1975.3.20
+		death_date = 1989.1.30
+	}
+	1327117 = { #P
+		name = "Luis Alfonso I de Borbón"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.50
+		picture = SPA_M_Borbon_Luis_Alfonso_I
+		head_of_state = courteous_figure	
+		start_date = 1989.1.30
+		death_date = 2030.1.1
+	}
+	
+	1327118 = { #P
+		name = "Benjamín de las Casas de Groggo"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = SPA_M_Groggo_Benjamin_C
+		head_of_state = religious_type
+		head_of_government = religious_type
+		start_date = 1945.8.15
+		death_date = 1990.2.26
+	}
+	
+	1327119 = { #P
+		name = "Ignacio Gallego"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = SPA_M_Gallego_Ignacio
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1984.1.1
+		death_date = 1988.1.1
+	}
+	1327120 = { #P
+		name = "Juan Ramos Camarero"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = SPA_M_Camarero_Juan_R
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1988.1.1
+		death_date = 2002.1.1
+	}
+	1327121 = { #P
+		name = "Ander Ezkurra Altuna"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = SPA_M_Altuna_Ander_E
+		head_of_state = visionary_type
+		head_of_government = visionary_type
+		start_date = 1931.4.14
+		death_date = 1993.5.12
+	}
+	1327122 = { #P
+		name = "Juan Fontanes"
+		ideology = social_democrat_idolg
+		loyalty = 0.50
+		picture = SPA_M_Fontanes_Juan
+		head_of_state = reformer_type
+		head_of_government = reformer_type
+		start_date = 1949.1.1
+		death_date = 1986.12.25
+	}
+	1327123 = { #P
+		name = "Santiago Carrillo"
+		ideology = communist_idolg
+		loyalty = 0.50
+		picture = SPA_M_Carrillo_Santiago
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1955.1.1
+		death_date = 1989.12.10
+	}
+	1327124 = { #P
+		name = "Manuel Perez Martinez"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = SPA_M_Martinez_Manuel_P
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1975.1.1
+		death_date = 1991.12.31
+	}
+	1327125 = { #P
+		name = "Juan Carlos Delgado de Codex"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = SPA_de_Codex_Juan_C_D
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1975.1.1
+		death_date = 1979.12.31
+	}
+	1327126 = { #P
+		name = "Julio Manuel Fernandez Lopez"
+		ideology = maoist_idolg
+		loyalty = 0.50
+		picture = SPA_Lopez_Julio_M_F
+		head_of_state = administrator_type
+		head_of_government = administrator_type
+		start_date = 1964.1.1
+		death_date = 1991.12.31
+	}
+	
+	
+}

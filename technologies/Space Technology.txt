@@ -1,0 +1,548 @@
+# List of all Space Technology techs
+	#space_research_mission					( 1 level )
+	#space_ICBM_launch_vehicle				( 1 level )
+	#space_requirements_study				( 1 level )
+	#space_satellite_development 			( 6 levels)
+	#space_exploration 						( 2 levels)
+	#space_solar_energy 					( 3 levels)
+	#space_orbiting_observatory 			( 4 levels)
+	#space_spysatellites 					( 3 levels)
+	#space_pressurized_cockpits				( 1 level )
+	#space_shirtsleeve_environment			( 1 level )
+	#space_missions_manned_planning			( 1 level )
+	#space_missions_manned_orbit			( 1 level )
+	#space_extravehicularactivity			( 1 level )
+	#space_missions_sustained				( 1 level )
+	#space_circumlunar_orbit				( 1 level )
+	#space_missions_moon_landing			( 1 level )
+	#space_operations 						( 2 levels)
+	#space_missions_research_station 		( 2 levels)
+	#space_missions_permanent_planning		( 1 level )
+	#space_living_conditions_requirements	( 1 level )
+	#space_modular_design					( 1 level )
+	#space_missions_permanent_station		( 1 level )
+
+# Current Prestige goals:
+#	#1: First artificial satellite in orbit
+#	#2: First living being in space
+#	#3: First human in space
+#	#4: First soft landing on the Moon
+#	#5: First human on the Moon
+#	#6: First research station in space
+#	#7: First soft landing on another planet
+#	#8: First photo from the surface of another planet
+#	#9: First fly-by of a planet in the outer Solar system
+#	#10: First spacecraft beyond Solar system
+#	#11: First space rendezvous, 1965
+#	#12: First Extra Vehicular Activity (Spacewalking), 1966
+#	#13: First space docking, 1966
+#	#14: First circumlunar orbit/First photo of the far side of the Moon, 1968
+#	#15: First Large Space Telescope, 1990
+
+space_research_mission = {
+
+	allow = {
+		industry_physics = 1
+		industry_electronics = 1
+		industry_mathematics = 1
+		industry_heavy_mechanical_parts = 1
+		any_owned_province = { has_special_building = rocket_test_site }
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	modifier = { PRESTIGE = 0.01 }
+	activate_building = spaceport
+	folder =  space_tech1_folder
+	time = 1000
+	cost = 100
+}
+
+space_ICBM_launch_vehicle = {
+
+	allow = { 
+		generalmissiledesign = 1
+		engine_rocket = 2
+		targetingsystems = 2
+		industry_chemistry = 1
+		industry_electronics = 1
+		industry_heavy_mechanical_parts = 1
+		any_owned_province = { has_special_building = spaceport }
+	}
+	traits = {
+		science_theory	
+		industry_theory	
+		arsenal_theory		
+	}	
+	modifier = { PRESTIGE = 0.01 }
+	folder =  space_tech1_folder
+	time = 1500
+	cost = 100
+}
+
+space_requirements_study = {
+
+	allow = {
+		industry_biology = 2
+		industry_electronics = 2
+		any_owned_province = { has_special_building = spaceport }
+	}
+	traits = {
+		science_theory			
+	}	
+	modifier = { PRESTIGE = 0.01 }	
+	folder =  space_tech1_folder
+	time = 1000
+	cost = 100
+}
+
+space_satellite_development = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {	# Basic development
+			space_ICBM_launch_vehicle = 1
+			industry_electronics = 3
+			industry_softwareengineering = 1
+		}
+		2 = {	# Unmanned, 1957
+			# computers?
+		}
+		3 = {	# Moon-range, 1959
+			industry_electronics =3
+			space_solar_energy = 1
+			# computers?
+		}
+		4 = {	# Inner solar system-range, 1960
+					space_solar_energy = 2
+			# computers?
+		}
+	}
+	traits = {
+		space_theory	
+		science_theory			
+	}	
+	level_effect = {
+		1 = {	
+			modifier = { 
+				PRESTIGE = 0.01 
+			}
+		}
+		2 = {		
+			modifier = { 	# Prestige #1: First artificial satellite in orbit
+				PRESTIGE = 0.01 
+			}
+		}
+		3 = {
+			modifier = { 
+				PRESTIGE = 0.01 
+			}
+		}
+		4 = {		
+			modifier = { 
+				PRESTIGE = 0.01 
+			}# Prestige #7: First soft landing on another planet
+		}	
+	}
+	
+	activate_building = satellites_factory		#enable at lvl 1
+
+	folder =  space_tech1_folder
+	time = 700
+	cost = 100
+}
+
+space_solar_energy = {
+
+	multilevel = yes
+	level = 3
+
+	allow_level = {
+		1 = {	# 1960
+			space_satellite_development = 2
+			industry_electricity_conversion = 1
+			industry_electronics  = 4
+		}
+		2 = {	# 1970
+			industry_electronics  = 4
+			# Manufacturing tech
+		}
+		3 = {	# 1980
+			industry_electronics  = 6
+			# Manufacturing tech
+		}
+	}
+	traits = {
+		science_theory	
+		industry_theory	
+		space_theory		
+	}	
+	level_effect = {
+		1 = {	
+			modifier = { 
+				PRESTIGE = 0.01 
+			}
+		}
+		2 = {		
+			modifier = {
+				PRESTIGE = 0.01 
+			}# Prestige #1: First artificial satellite in orbit
+		}
+		3 = {	
+			modifier = { 
+				PRESTIGE = 0.01 
+			}
+		}
+	}
+	folder =  space_tech1_folder
+	time = 700
+	cost = 100
+}
+
+space_orbiting_observatory = {
+
+	multilevel = yes
+	level = 4
+
+	allow_level = {
+		1 = {	# Solar observatory, 1962
+			space_satellite_development = 2
+			space_solar_energy = 2
+			industry_physics = 3
+			industry_electronics = 3
+			industry_heavy_mechanical_parts = 1
+			# computers?
+		}
+		2 = {	# Astronomical observatory, 1966
+			industry_electronics  = 5
+			# computers?
+		}
+		3 = {	# Advanced astronomical observatory, 1972
+			industry_electronics  = 6
+			space_solar_energy = 2
+#			space_missions_research_station = 1
+			# computers?
+		}
+		4 = {	# Large Space Telescope (Hubble)
+			industry_electronics  = 8
+			space_solar_energy = 3
+			# computers?
+		}
+	}
+	traits = {
+		science_theory	
+		industry_theory	
+		space_theory		
+	}	
+	level_effect = {	# General research bonus
+		1 = {
+			modifier = {
+				PRESTIGE = 0.01
+			}
+		}
+		2 = {
+			modifier = { 
+				PRESTIGE = 0.01 
+			}
+		}
+		3 = {
+			modifier = { 
+				PRESTIGE = 0.01 
+			}
+		}
+		4 = {	
+			modifier = { 
+				PRESTIGE = 0.01
+			}	# Prestige #15: First Large Space Telescope
+		}
+	}
+	
+	folder =  space_tech1_folder
+	time = 1800
+	cost = 100
+}
+
+space_pressurized_cockpits = {
+
+	allow = {	# 1957
+		space_requirements_study = 1
+		industry_biology = 2
+		aerodynamics = 2
+	}
+	traits = {
+		science_theory	
+		space_theory
+		aviation_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}	# Prestige #2: First living being in space
+
+	folder =  space_tech1_folder
+	time = 180
+	cost = 100
+}
+
+space_shirtsleeve_environment = {
+
+	allow = {	# 1965
+		space_missions_sustained = 1
+		industry_biology = 6
+		industry_recycling = 1
+		industry_psychology = 4
+	}
+	traits = {
+		science_theory	
+		space_theory
+		industry_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}
+	
+	folder =  space_tech1_folder
+	time = 180
+	cost = 100
+}
+
+space_missions_manned_planning = {
+
+	allow = {	# 1960
+		space_research_mission = 1
+		space_satellite_development = 2
+		space_pressurized_cockpits = 1
+	}
+	traits = {
+		space_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}
+	
+	folder =  space_tech1_folder
+	time = 180
+	cost = 100
+}
+
+space_missions_manned_orbit = {
+
+	allow = {	# 1961
+		space_missions_manned_planning = 1
+	}
+	traits = {
+		space_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}	# Prestige #3: First human in space
+
+	folder =  space_tech1_folder
+	time = 180
+	cost = 100
+}
+
+space_missions_sustained = {
+
+	allow = {	# 1965
+		space_pressurized_cockpits = 1
+		industry_biology = 4
+		industry_light_plastics = 4
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+		space_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}
+	
+	folder =  space_tech1_folder
+	time = 700
+	cost = 100
+}
+
+space_circumlunar_orbit = {
+
+	allow = {	# 1968
+		space_missions_manned_planning = 1
+		industry_mathematics = 5
+		industry_physics = 5
+		space_missions_sustained = 1
+#		computers?
+	}
+	traits = {	
+		science_theory			
+		space_theory			
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}	# Prestige #14: First circumlunar orbit/First photo of the far side of the Moon
+
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+
+space_missions_moon_landing = {
+
+	allow = {	# 1969
+		space_circumlunar_orbit = 1
+		space_solar_energy = 1
+	}
+	traits = {
+		space_theory			
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}	# Prestige #5: First human on the Moon
+
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+
+space_operations = {
+
+	multilevel = yes
+	level = 2
+
+	allow_level = {
+		1 = {	# Space rendezvous, 1965
+			space_circumlunar_orbit = 1
+			industry_heavy_robotics = 4
+		}
+		2 = {
+		}
+	}
+	traits = {
+		industry_theory		
+		space_theory			
+	}	
+	level_effect = {
+		1 = {	
+			modifier = { 
+				PRESTIGE = 0.01 
+			}	# Prestige #11: First space rendezvous
+		}
+		2 = {
+			modifier = {
+				PRESTIGE = 0.01
+			}	# Prestige #13: First space docking
+		}
+	}
+
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+
+space_missions_research_station = {
+	allow = {
+		space_operations = 2
+		space_orbiting_observatory = 3			
+		space_shirtsleeve_environment = 1
+	}
+	traits = {
+		space_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01
+	}	# Prestige #6: First research station in space
+
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+
+space_missions_permanent_planning = {
+
+	allow = {	# 1978
+		space_operations = 2
+		space_living_conditions_requirements = 1
+		industry_mathematics = 7
+		industry_physics = 7
+		industry_hightech_computers = 7
+	}
+	traits = {
+		science_theory		
+		space_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01
+	}
+	
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+
+space_living_conditions_requirements = {
+
+	allow = {	# 1982
+		space_shirtsleeve_environment = 1
+		industry_biology = 7
+		industry_chemistry = 7
+		industry_recycling = 3
+		industry_psychology = 7
+	}
+	traits = {
+		science_theory	
+		industry_theory
+		space_theory		
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}
+	
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+
+space_modular_design = {
+
+	allow = {	# 1984
+		space_orbiting_observatory = 3
+		industry_hightech_integratedcircuits = 5
+		industry_electronics = 7
+		industry_construction_engineering = 7
+		industry_heavy_robotics = 7
+		space_solar_energy = 3
+		space_satellite_development = 4
+	}
+	traits = {
+		science_theory	
+		industry_theory
+		space_theory			
+	}	
+	modifier = { 
+		PRESTIGE = 0.01 
+	}
+	
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+
+space_missions_permanent_station = {
+
+	allow = {	# 1986
+		space_missions_permanent_planning = 1
+		space_modular_design = 1
+	}
+	traits = {
+		space_theory			
+	}	
+	modifier = { 
+		PRESTIGE = 0.01
+	}	# Prestige #11: First permanent spacestation
+
+	folder =  space_tech1_folder
+	time = 100
+	cost = 100
+}
+

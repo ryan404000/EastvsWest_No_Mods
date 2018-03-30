@@ -1,0 +1,198 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 3978
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 3978
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 3978
+			regiment = { type = light_mechanized_brigade name = "1st L. Mech. Brigade" historical_model = 2 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 4 strength = 37 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 3 strength = 34 experience = 5 }
+			regiment = { type = infantry_brigade name = "24th Infantry Brigade" historical_model = 4 strength = 35 experience = 5 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 3901
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 4 strength = 34 experience = 5 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 3 strength = 36 experience = 4 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 3 strength = 23 experience = 4 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 3845
+			regiment = { type = light_mechanized_brigade name = "2nd L. Mech. Brigade" historical_model = 2 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 3 strength = 35 experience = 4 }
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 3 strength = 37 experience = 5 }
+		}
+		division =
+		{
+			name = "11th Division"
+			location = 3898
+			regiment = { type = air_cav_brigade name = "1st Air Cavalry Brigade" historical_model = 3 strength = 38 experience = 5 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 3 strength = 24 experience = 5 }
+			regiment = { type = light_mechanized_brigade name = "3rd L. Mech. Brigade" historical_model = 4 strength = 35 experience = 5 }
+			regiment = { type = engineer_brigade name = "1st Engineer Regiment" historical_model = 4 strength = 25 experience = 4 }
+		}
+		division =
+		{
+			name = "12th Division"
+			location = 3869
+			regiment = { type = attack_helo_brigade name = "1st Attack Helicopter Brigade" historical_model = 1 strength = 10 experience = 4 }
+			regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 3 strength = 24 experience = 5 }
+			regiment = { type = infantry_brigade name = "35th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 3711
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "5th Division"
+			location = 3623
+			regiment = { type = light_mechanized_brigade name = "4th L. Mech. Brigade" historical_model = 4 strength = 35 experience = 5 }
+			regiment = { type = artillery_brigade name = "3rd Artillery Brigade" historical_model = 4 strength = 22 experience = 5 }
+			regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 3 strength = 36 experience = 4 }
+		}
+		division =
+		{
+			name = "7th Division"
+			location = 3715
+			regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 3 strength = 37 experience = 5 }
+			regiment = { type = light_mechanized_brigade name = "5th L. Mech. Brigade" historical_model = 3 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 3 strength = 35 experience = 4 }
+		}
+	}
+	army =
+	{
+		name = "3rd Army"
+		location = 3760
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "8th Division"
+			location = 3690
+			regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 3 strength = 36 experience = 4 }
+			regiment = { type = infantry_brigade name = "18th Infantry Brigade" historical_model = 3 strength = 34 experience = 4 }
+			regiment = { type = infantry_brigade name = "19th Infantry Brigade" historical_model = 3 strength = 35 experience = 5 }
+		}
+		division =
+		{
+			name = "9th Division"
+			location = 3762
+			regiment = { type = infantry_brigade name = "20th Infantry Brigade" historical_model = 3 strength = 36 experience = 4 }
+			regiment = { type = artillery_brigade name = "5th Artillery Brigade" historical_model = 4 strength = 23 experience = 4 }
+			regiment = { type = infantry_brigade name = "21st Infantry Brigade" historical_model = 3 strength = 34 experience = 5 }
+		}
+	}
+	
+	air = {
+		name = "1st Air Force"
+		base = 3978
+		location = 3978
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 3 strength = 25 builder = USA }
+	}
+	
+	air = {
+		name = "2nd Air Force"
+		base = 3978
+		location = 3978
+		wing = { type = fighter name = "2nd Fighter Wing" historical_model = 5 strength = 75 builder = USA }
+	}
+	navy = {
+		
+		name = "1st Fleet"
+		base = 3978 # Rio de Janeiro (m)
+		location = 3978
+		ship = { type = escort_carrier name = "NRB Minas Gerais" historical_model = 0 builder = ENG}
+		ship = { type = missile_frigate name = "NRB Niterói" historical_model = 8 builder = ENG }
+		ship = { type = missile_frigate name = "NRB Defensora" historical_model = 8 builder = ENG }
+		ship = { type = missile_frigate name = "NRB Constituição" historical_model = 8 builder = ENG }
+		ship = { type = missile_frigate name = "NRB Liberal" historical_model = 8 builder = ENG }
+		ship = { type = missile_frigate name = "NRB Independência" historical_model = 8 builder = ENG }
+		ship = { type = missile_frigate name = "NRB União" historical_model = 8 builder = ENG }
+		ship = { type = missile_frigate name = "NRB Brasil" historical_model = 8 builder = ENG }
+		ship = { type = missile_frigate name = "NRB Para" historical_model = 0 builder = USA }
+		ship = { type = missile_frigate name = "NRB Paraiba" historical_model = 0 builder = USA }
+		ship = { type = missile_frigate name = "NRB Parana" historical_model = 0 builder = USA }
+		ship = { type = missile_frigate name = "NRB Pernambuco" historical_model = 0 builder = USA }		
+		ship = { type = destroyer name = "1. Flotilla de Contratorpedeiros" historical_model = 0 builder = USA strength = 80}
+		ship = { type = destroyer name = "2. Flotilla de Contratorpedeiros" historical_model = 0 builder = USA strength = 60}
+		ship = { type = missile_boat name = "1. Flotilla de Corveta" historical_model = 7 strength = 40}		
+		ship = { type = transport_ship name = "1. Flotilla de Navios de Transporte" historical_model = 0 }
+		ship = { type = transport_ship name = "2. Flotilla de Navios de Transporte" historical_model = 0 }
+	}
+	navy = {
+		
+		name = "2nd Fleet"
+		base = 3978 # Rio de Janeiro (m)
+		location = 3978
+		ship = { type = attack_submarine name = "NRB Humaita" historical_model = 2 builder = ENG }	
+		ship = { type = attack_submarine name = "NRB Tonelero" historical_model = 2 builder = ENG }	
+		ship = { type = attack_submarine name = "NRB Riachuelo" historical_model = 2 builder = ENG }		
+		ship = { type = attack_submarine name = "NRB Tupi" historical_model = 6 builder = FRG }
+	}
+}
+division =
+{
+	name = "6th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 3 strength = 38 experience = 4 }
+	regiment = { type = artillery_brigade name = "4th Artillery Brigade" historical_model = 4 strength = 21 experience = 5 }
+	regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 3 strength = 36 experience = 5 }
+}
+division =
+{
+	name = "2nd Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 3 strength = 35 experience = 5 }
+	regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 3 strength = 23 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 3 strength = 38 experience = 4 }
+}
+division =
+{
+	name = "13th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "36th Infantry Brigade" historical_model = 4 strength = 40 experience = 5 }
+	regiment = { type = infantry_brigade name = "37th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "38th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "43rd Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+}
+division =
+{
+	name = "14th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "39th Infantry Brigade" historical_model = 2 strength = 39 experience = 5 }
+	regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 3 strength = 24 experience = 5 }
+	regiment = { type = infantry_brigade name = "40th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "41st Infantry Brigade" historical_model = 4 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "42nd Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+}
+
+division =
+{
+	name = "7th Division"
+	location = 3787
+	pool = yes
+	regiment = { type = infantry_brigade name = "22nd Infantry Brigade" historical_model = 1 strength = 38 experience = 5 }
+	regiment = { type = infantry_brigade name = "23rd Infantry Brigade" historical_model = 2 strength = 34 experience = 5 }
+	regiment = { type = artillery_brigade name = "4th Artillery Brigade" historical_model = 3 strength = 22 experience = 5 }
+}

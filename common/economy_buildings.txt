@@ -1,0 +1,549 @@
+refinery = {
+	type = economy_building
+	workforce = 10000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		oil = 2.0
+	}
+	output_goods = {
+		fuel = 1.0
+	}
+	max_level = 10
+	time = 730
+	onmap = yes
+	visibility = yes
+	color = orange
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+powerplant = {
+	type = economy_building
+	workforce = 1000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		coal = 4.0
+		renewable_energy = 4.0
+	}
+	output_goods = {
+		electricity = 4.0
+	}
+	max_level = 10
+	time = 200
+	onmap = yes
+	visibility = yes
+	color = blue
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+nuclear_plant = {
+	type = economy_building
+	workforce = 2000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		uranium = 2.0
+	}
+	output_goods = {
+		electricity = 5.0
+	}
+	max_level = 10
+	time = 200
+	onmap = yes
+	visibility = yes
+	color = red
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+light_industry = {
+	type = economy_building
+	workforce = 50000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		electricity = 0.5
+		wood = 2.5
+		iron = 1.0
+		precious_metals = 0.1
+	}
+	output_goods = {
+		light_industry = 1.0
+	}
+	max_level = 10
+	time = 200
+	onmap = yes
+	visibility = yes
+	color = yellow
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+heavy_industry = {
+	type = economy_building
+	workforce = 20000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		electricity = 3.0
+		iron = 3.0
+		coal = 2.0
+	}
+	output_goods = {
+		heavy_industry = 1.0
+	}
+	max_level = 10
+	time = 200
+	onmap = yes
+	visibility = yes
+	color = brown
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+aviation_industry = {
+	type = economy_building
+	workforce = 10000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		electricity = 2.0
+		fuel = 2.0
+		rare_metals = 3.0
+		light_industry = 0.3
+	}
+	output_goods = {
+		aviation_industry = 1.0
+	}
+	max_level = 10
+	time = 200
+	onmap = yes
+	visibility = yes
+	color = cyan
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+naval_yards = {
+	type = economy_building
+	workforce = 10000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		electricity = 3.0
+		heavy_industry = 0.75
+		fuel = 1.0
+		rare_metals = 0.2
+	}
+	output_goods = {
+		naval_yards = 1.0
+	}
+	max_level = 10
+	time = 250
+	onmap = yes
+	visibility = yes
+	color = darkblue
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+high_tech = {
+	type = economy_building
+	workforce = 5000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		electricity = 5.0
+		fuel = 4.0
+		rare_metals = 3.0
+		precious_metals = 0.7
+	}
+	output_goods = {
+		high_tech = 1.0
+	}
+	max_level = 10
+	time = 10
+	onmap = yes
+	visibility = yes
+	color = green
+    on_occupy_destroy = no
+    upkeep = 0.0
+}
+
+military_goods = {
+	type = economy_building
+	workforce = 10000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		light_industry = 0.5
+		heavy_industry = 0.5
+	}
+	output_goods = {
+		military_goods = 12.0	
+	}
+	max_level = 10
+	time = 3
+	onmap = yes
+	visibility = yes
+	color = gray
+	on_occupy_destroy = no
+	upkeep = 0.0
+}
+
+centrifuges = {
+	type = economy_building
+	workforce = 1000
+	initial_cost = {
+		money = 20000 #800 million in total $
+	}
+	input_goods = {
+		heavy_industry = 0.2
+		uranium = 7.0
+	}
+	output_goods = {
+		centrifuges = 0.01
+	}
+	max_level = 10
+	time = 1095
+	onmap = yes
+	visibility = yes
+	color = purple
+	on_occupy_destroy = no
+	upkeep = 100.0
+}
+
+satellites_factory = {
+	type = economy_building
+	workforce = 1000
+	initial_cost = {
+		money = 2000
+	}
+	input_goods = {
+		high_tech = 1.5
+		electricity = 3.0
+		fuel = 5.0		
+		military_goods = 1.2
+	}
+	output_goods = {
+		military_satellites = 0.1
+	}
+	max_level = 10
+	time = 2
+	onmap = yes
+	visibility = yes
+	color = purple
+	on_occupy_destroy = no
+	upkeep = 100.0
+}
+
+military_academy  = {       
+	type = special_building
+	initial_cost = {
+		money = 2000
+	}
+	time = 730
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = yes
+	upkeep = 500.0
+}
+
+nuclear_test_site  = {       
+	type = special_building
+	initial_cost = {
+		money = 1500
+		uranium = 20
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = no #usable only in cores
+	upkeep = 10.0
+}
+
+rocket_test_site  = {       
+	type = special_building
+	initial_cost = {
+		money = 750
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = no
+	upkeep = 20.0
+}
+
+financial_district  = {       
+	type = special_building
+	initial_cost = {
+		money = 1000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+}
+
+strategical_storage  = {       
+	type = special_building
+	initial_cost = {
+		money = 250
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = no
+	upkeep = 10.0
+}
+
+intelligence_center = {
+	type = special_building
+	initial_cost = {
+		spies = 10
+		money = 500
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = no #usable only in cores
+	upkeep = 200.0
+}
+
+sdi_site = {
+	type = special_building
+	initial_cost = {
+		money = 3000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	modifier = { sdi_missile_defense = 5 }
+	on_occupy_destroy = no
+	upkeep = 1000.0
+}
+
+nuclear_silo = {
+	type = special_building
+	initial_cost = {
+		uranium = 20
+		money = 2000
+	}
+#	time = 3
+	time = 1
+	visibility = yes
+	onmap = no
+	slotdata = icbm_complex
+	ammo_store = 4
+	on_occupy_destroy = no
+	upkeep = 50.0
+}
+
+spaceport  = {       
+	type = special_building
+	initial_cost = {
+		money = 2500
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = yes #usable only in cores
+	upkeep = 1000.0
+}
+
+national_monument = {
+	type = special_building
+	initial_cost = {
+		money = 5000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = yes #usable only in cores
+	upkeep = 100.0
+}
+
+university  = {       
+	type = special_building
+	initial_cost = {
+		money = 10000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	modifier = {
+		flexible_modifier = { 
+			industry_physics_cost = {
+				name = name_university
+				value = -0.01
+				type = technology_cost
+			}
+			industry_electronics_cost = {
+				name = name_university
+				value = -0.01
+				type = technology_cost
+			}
+			industry_chemistry_cost = {
+				name = name_university
+				value = -0.01
+				type = technology_cost
+			}
+			industry_biology_cost = {
+				name = name_university
+				value = -0.01
+				type = technology_cost
+			}
+			industry_mathematics_cost = {
+				name = name_university
+				value = -0.01
+				type = technology_cost
+			}
+			industry_softwareengineering_cost = {
+				name = name_university
+				value = -0.01
+				type = technology_cost
+			}
+			industry_medicine_cost = {
+				name = name_university
+				value = -0.01
+				type = technology_cost
+			}
+		}
+	}
+	on_occupy_destroy = no
+	upkeep = 100.0
+}
+
+agriculture_research_center = {
+	type = special_building
+	initial_cost = {
+		money = 10000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	modifier = {
+		flexible_modifier = { 
+			industry_agriculture_mechanized_cost = {
+				name = name_agriculture_research_center
+				value = -0.2
+				type = technology_cost
+			}
+			industry_agriculture_fertilizer_cost = {
+				name = name_agriculture_research_center
+				value = -0.2
+				type = technology_cost
+			}
+#			industry_agriculture_green_cost = {
+#				name = name_agriculture_research_center
+#				value = -0.2
+#				type = technology_cost
+#			}
+		}
+	}
+	on_occupy_destroy = no
+	upkeep = 100.0
+}
+
+naval_research_center = {
+	type = special_building
+	initial_cost = {
+		money = 2000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+#	modifier = {
+#        targetingsystems = 0.1
+#        propulsion_steam = 0.2
+#        propulsion_gas = 0.2
+#        propulsion_nuclear = 0.1
+#      	}
+	on_occupy_destroy = no
+	upkeep = 100.0
+}
+
+land_research_center = {
+	type = special_building
+	initial_cost = {
+		money = 2000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	modifier = {
+		flexible_modifier = { 
+			small_arms_cost = {
+				name = name_land_research_center
+				value = -0.1
+				type = technology_cost
+			}
+			light_artillery_cost = {
+				name = name_land_research_center
+				value = -0.1
+				type = technology_cost
+			}
+			anti_tank_cost = {
+				name = name_land_research_center
+				value = -0.1
+				type = technology_cost
+			}
+		}
+      	}
+	on_occupy_destroy = no
+	upkeep = 100.0
+}
+
+air_research_center = {
+	type = special_building
+	initial_cost = {
+		money = 2000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	modifier = {
+		flexible_modifier = { 
+			aircraftavionics_cost = {
+				name = name_air_research_center
+				value = -0.1
+				type = technology_cost
+			}
+			airframewing_speed_cost = {
+				name = name_air_research_center
+				value = -0.1
+				type = technology_cost
+			}
+			aircraftweapons_guns_cost = {
+				name = name_air_research_center
+				value = -0.2
+				type = technology_cost
+			}
+		}
+      	}
+	on_occupy_destroy = no
+	upkeep = 100.0
+}
+
+early_warning_site = {
+	type = special_building
+	initial_cost = {
+		money = 3000
+	}
+	time = 3
+	visibility = yes
+	onmap = no
+	on_occupy_destroy = no
+	upkeep = 1000.0
+}

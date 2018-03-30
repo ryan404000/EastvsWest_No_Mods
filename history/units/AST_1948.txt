@@ -1,0 +1,137 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 14619
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 14619
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 14619
+			regiment = { type = marine_brigade name = "1st Marine Brigade" historical_model = 0 strength = 34 experience = 10 }
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 35 experience = 10 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 0 strength = 22 experience = 9 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 14455
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 37 experience = 10 }
+			regiment = { type = marine_brigade name = "2nd Marine Brigade" historical_model = 0 strength = 34 experience = 10 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 0 strength = 35 experience = 9 }
+		}
+	}
+	army =
+	{
+		name = "2nd Army"
+		location = 13317
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "4th Division"
+			location = 13317
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 1 strength = 36 experience = 15 }
+			regiment = { type = marine_brigade name = "3rd Marine Brigade" historical_model = 0 strength = 34 experience = 13 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 0 strength = 22 experience = 15 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 13202
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 1 strength = 36 experience = 5 }
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 1 strength = 37 experience = 5 }
+			regiment = { type = marine_brigade name = "4th Marine Brigade" historical_model = 0 strength = 34 experience = 5 }
+		}
+	}
+	army =
+	{
+		name = "3rd Army"
+		location = 14510
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "7th Division"
+			location = 14510
+			regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 0 strength = 35 experience = 10 }
+			regiment = { type = artillery_brigade name = "4th Artillery Brigade" historical_model = 1 strength = 23 experience = 9 }
+			regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 0 strength = 38 experience = 9 }
+		}
+		division =
+		{
+			name = "8th Division"
+			location = 14346
+			regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 1 strength = 34 experience = 10 }
+			regiment = { type = engineer_brigade name = "1st Engineer Brigade" historical_model = 1 strength = 22 experience = 10 }
+			regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 1 strength = 37 experience = 10 }
+		}
+	}
+	
+	air = {
+		name = "1st Air Force"
+		base = 12871
+		location = 12871
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 0 strength = 100 }
+		wing = { type = fighter name = "2nd Fighter Wing" historical_model = 0 strength = 50 }
+	}
+	air = {
+		name = "2nd Air Force"
+		base = 12871
+		location = 12871
+		wing = { type = multi_role name = "3rd Fighter Wing" historical_model = 0 strength = 50 }
+	}
+	air = {
+		name = "3rd Air Force"
+		base = 14673
+		location = 14673
+		wing = { type = cas name = "1st CAS Wing" historical_model = 0 strength = 50 }
+	}
+	air = {
+		name = "3rd Air Force"
+		base = 14673
+		location = 14673
+		wing = { type = bomber_strike name = "1st Bomber Wing" historical_model = 0 strength = 100 }
+	}
+	navy = {
+	
+		name = "1st Fleet"
+		base = 14642
+		location = 14642
+		ship = { type = escort_carrier name = "HMAS Sydney" historical_model = 0 builder = ENG}
+		ship = { type = cruiser name = "HMAS Australia" historical_model = 0 builder = ENG}
+		ship = { type = cruiser name = "HMAS Hobart" historical_model = 0 builder = ENG}		
+		ship = { type = cruiser name = "HMAS Shropshire" historical_model = 0 builder = ENG}
+		ship = { type = destroyer name = "1st Destroyer Flotilla" historical_model = 0 }
+		ship = { type = destroyer name = "2nd Destroyer Flotilla" historical_model = 0 }
+		ship = { type = destroyer name = "3rd Destroyer Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "1st Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "2nd Transport Flotilla" historical_model = 0 }
+
+	}
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 14616
+	pool = yes
+	regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 1 strength = 38 experience = 4 }
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 0 strength = 36 experience = 4 }
+}
+division =
+{
+	name = "6th Division"
+	location = 13067
+	pool = yes
+	regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 0 strength = 36 experience = 10 }
+	regiment = { type = artillery_brigade name = "3rd Artillery Brigade" historical_model = 0 strength = 23 experience = 10 }
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 0 strength = 34 experience = 9 }
+}

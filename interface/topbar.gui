@@ -1,0 +1,751 @@
+guiTypes = {
+
+	windowType = {
+		name = "topbar"
+		backGround=""
+		position = { x=-1 y=2 }	
+		size = { x=2048 y=100 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = yes
+
+
+
+
+################################################### test area
+
+	
+
+####################################################
+
+		
+		iconType = {
+			name ="topbar_bg"
+			spriteType = "GFX_topbar_bg"
+			position = { x= -55 y = -22 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="doomsday_clock"
+			spriteType = "GFX_doomsday_clock"
+			position = { x= 0 y = -2 }
+			Orientation = "UPPER_LEFT"
+		}
+				
+		iconType = {
+			name ="icon_population"
+			spriteType = "GFX_icon_population_small"
+			position = { x= 170 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "population_number"
+			position = { x = 200 y = 5 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "1000"	
+			maxWidth = 55
+			maxHeight = 32	
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="icon_manpower"
+			spriteType = "GFX_icon_manpower_small"
+			position = { x= 280 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "manpower_number"
+			position = { x = 315 y = 5 } 
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "100"	
+			maxWidth = 55
+			maxHeight = 32	
+			format = left
+		}
+				
+		iconType = {
+			name ="icon_gdp"
+			spriteType = "GFX_icon_gdp_small"
+			position = { x= 375 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "gdp_number"
+			position = { x = 415 y =5 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "1000"	
+			maxWidth = 55
+			maxHeight = 32	
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="icon_money"
+			spriteType = "GFX_icon_money_small"
+			position = { x= 475 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "money_number"
+			position = { x = 503 y = 5 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "1000"	
+			maxWidth = 60
+			maxHeight = 32	
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="icon_supplies"
+			spriteType = "GFX_icon_supplies_small"
+			position = { x= 555 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "supplies_number"
+			position = { x = 582 y = 5 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "1000"	
+			maxWidth = 45
+			maxHeight = 32	
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="icon_fuel"
+			spriteType = "GFX_icon_fuel_small"
+			position = { x= 640 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "fuel_number"
+			position = { x = 670 y = 5 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "1000"	
+			maxWidth = 45
+			maxHeight = 32	
+			format = left
+		}	
+		
+		iconType = {
+			name ="icon_prestige"
+			spriteType = "GFX_icon_prestige_small"
+			position = { x= 720 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "prestige_number"
+			position = { x = 750 y = 5 }
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			maxWidth = 45
+			maxHeight = 32	
+			format = left
+		}
+
+		iconType = {
+			name ="icon_uranium"
+			spriteType = "GFX_icon_uranium_small"
+			position = { x= 795 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+			name = "uranium_number"
+			position = { x = 835 y = 5 }
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "25"	
+			maxWidth = 35
+			maxHeight = 32	
+			format = left
+		}	
+		
+		iconType =
+		{
+			name ="icon_dissent"
+			spriteType = "GFX_icon_dissent_small"
+			position = { x= 873 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "dissent_number"
+			position = { x = 900 y = 5 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "100"	
+			maxWidth = 45
+			maxHeight = 32	
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="icon_national_unity"
+			spriteType = "GFX_icon_unity_small"
+			position = { x= 938 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = { 
+			name = "national_unity_number"
+			position = { x = 970 y = 5 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "100"	
+			maxWidth = 45
+			maxHeight = 32	
+			format = left
+		}
+		#####MAINBUTTONS######
+		### Economy
+		guiButtonType = {
+			name = "topbarbutton_economy"
+			quadTextureSprite ="GFX_topbarbutton_economy"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x = 436 y = 35 }
+			buttonFont = "trebuchet"
+			shortcut = "F1"
+			clicksound = message
+		}
+		instantTextBoxType = { 
+			name = "economy_label"
+			position = { x = 443 y = 67 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "Economy"
+			orientation = "UPPER_LEFT"
+			maxWidth = 75
+			maxHeight = 30	
+			format = left
+		}
+		
+		textBoxType = { 
+			name = "economy_moneychange"
+			position = { x = 456 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""
+			orientation = "UPPER_LEFT"
+			maxWidth = 65
+			maxHeight = 30	
+			format = right
+		}
+		
+		###production(military)
+		guiButtonType = {
+			name = "topbarbutton_prod"
+			quadTextureSprite ="GFX_topbarbutton_prod"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x = 532 y = 35 }
+			buttonText = ""
+			buttonFont = "trebuchet"
+			shortcut = "F2"
+			clicksound = message
+		}
+		
+		instantTextBoxType = { 
+			name = "ARMS_label"
+			position = { x = 539 y = 67 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "Armaments"
+			orientation = "UPPER_LEFT"
+			maxWidth = 75
+			maxHeight = 30	
+			format = left
+		}
+
+		iconType =
+		{
+			name ="arms_progress"
+			spriteType = "GFX_topbar_progress"
+			position = { x= 541 y = 94 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="arms_proj_icon"
+			spriteType = "GFX_topbar_folder"
+			position = { x= 539 y = 89 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="progress_overlay"
+			spriteType = "GFX_topbar_progress_overlay"
+			position = { x= 538 y = 92 }
+		}
+		
+		textBoxType = { 
+			name = "arms_proj_text"
+			position = { x = 558 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""
+			orientation = "UPPER_LEFT"
+			maxWidth = 20
+			maxHeight = 30	
+			format = left
+		}
+		
+		textBoxType = { 
+			name = "arms_progress_text"
+			position = { x = 596 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""
+			orientation = "UPPER_LEFT"
+			maxWidth = 50
+			maxHeight = 30	
+			format = center
+		}
+		
+		###Tech button - Done###
+		
+		guiButtonType = {
+			name = "topbarbutton_tech"
+			quadTextureSprite ="GFX_topbarbutton_tech"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x = 628 y = 35 }
+			buttonText = ""
+			buttonFont = "trebuchet"
+			shortcut = "F3"
+			clicksound = message
+		}
+
+		instantTextBoxType = { 
+			name = "TECH_label"
+			position = { x = 636 y = 67 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "Tech"
+			orientation = "UPPER_LEFT"
+			maxWidth = 75
+			maxHeight = 30	
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="tech_progress"
+			spriteType = "GFX_topbar_progress"
+			position = { x= 637 y = 94 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="tech_proj_icon"
+			spriteType = "GFX_topbar_folder"
+			position = { x= 638 y = 89 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="progress_overlay_2"
+			spriteType = "GFX_topbar_progress_overlay"
+			position = { x= 634 y = 92 }
+		}
+
+		textBoxType = { 
+			name = "tech_proj_text"
+			position = { x = 657 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""
+			orientation = "UPPER_LEFT"
+			maxWidth = 20
+			maxHeight = 30	
+			format = left
+		}
+		
+		textBoxType = { 
+			name = "tech_progress_text"
+			position = { x = 686 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "100%"
+			orientation = "UPPER_LEFT"
+			maxWidth = 50
+			maxHeight = 30	
+			format = center
+		}
+
+		
+		
+		
+		### politics - done
+		guiButtonType = {
+			name = "topbarbutton_politics"
+			quadTextureSprite ="GFX_topbarbutton_politics"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x = 724 y = 35 }
+			buttonText = ""
+			buttonFont = "trebuchet"
+			shortcut = "F4"
+			clicksound = message
+		}
+		
+		InstantTextBoxType = { 
+			name = "POLITICS_label"
+			position = { x = 733 y = 67 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "Politics"
+			orientation = "UPPER_LEFT"
+			maxWidth = 75
+			maxHeight = 30	
+			format = left
+		}
+
+		textBoxType = { 
+			name = "pol_election_year"
+			position = { x = 737 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			orientation = "UPPER_LEFT"
+			maxWidth = 60
+			maxHeight = 30
+			format = center
+		}
+				
+		###Diplomacy
+		guiButtonType = {
+			name = "topbarbutton_diplo"
+			quadTextureSprite ="GFX_topbarbutton_diplo"
+			position = { x = 820 y = 35 }
+			buttonFont = "trebuchet"
+			shortcut = "F5"
+			clicksound = message
+		}
+
+		InstantTextBoxType = { 
+			name = "DIPLO_label"
+			position = { x = 828 y = 67 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "Diplomacy"
+			orientation = "UPPER_LEFT"
+			maxWidth = 75
+			maxHeight = 30	
+			format = left
+		}
+		
+		textBoxType = { 
+			name = "diplo_peace"
+			position = { x = 817 y = 88 }
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = "INTERFACE_PEACE"
+			orientation = "UPPER_LEFT"
+			maxWidth = 94
+			maxHeight = 30	
+			format = centre
+		}
+		
+		OverlappingElementsBoxType = { 
+			name = "diplo_status"
+			position = { x = 817 y = 94 }
+			size = { x= 94 y = 32}
+			orientation = "UPPER_LEFT"
+			format = center
+			spacing = 1.0
+		}
+		
+		### intel - done ###
+		guiButtonType = {
+			name = "topbarbutton_intelligence"
+			quadTextureSprite ="GFX_topbarbutton_intel"
+			position = { x = 916 y = 35 }
+			buttonFont = "trebuchet"
+			shortcut = "F6"
+			clicksound = message
+		}
+		
+		InstantTextBoxType = { 
+			name = "INTEL_label"
+			position = { x = 924 y = 67 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "Intel"
+			orientation = "UPPER_LEFT"
+			maxWidth = 75
+			maxHeight = 30	
+			format = left
+		}
+		iconType = {
+			name ="int_sat_icon"
+			spriteType = "GFX_icon_satellites_small"
+			position = { x= 926 y = 91 }
+			Orientation = "UPPER_LEFT"
+			scale = 1.0
+		}
+		
+		textBoxType = { 
+			name = "int_sat_number"
+			position = { x = 946 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 30
+			maxHeight = 30	
+			format = left
+		}
+		
+		iconType = {
+			name ="int_spy_icon"
+			spriteType = "GFX_icon_spies_small"
+			position = { x= 963 y = 90 }
+			Orientation = "UPPER_LEFT"
+			scale = 1.0
+		}
+		
+		textBoxType = { 
+			name = "int_spy_number"
+			position = { x = 988 y = 88 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 0 y = 4}
+			text = ""	
+			maxWidth = 60
+			maxHeight = 30	
+			format = left
+		}
+		
+		##Statistic button
+		guiButtonType = {
+			name = "topbarbutton_statistics"
+			quadTextureSprite ="GFX_topbarbutton_stats"
+			position = { x = 135 y = 64 }
+			buttonFont = "trebuchet"
+			shortcut = "F7"
+			clicksound = message
+		}
+		
+		guiButtonType = {
+			name = "topbar_menubutton"
+			quadTextureSprite ="GFX_topbar_menubutton"
+			position = { x = 159 y = 64 }
+			buttonFont = "trebuchet"
+		}
+		
+#		iconType = {
+#			name = "topbar_plansbutton_bg"
+#			position = { x = -30 y = 98 }
+#			spriteType ="GFX_oob_unit_tree_bg"
+#			Orientation = "UPPER_RIGHT"
+#		}
+		
+#		guiButtonType = {
+#			name = "topbar_plansbutton"
+#			position = { x = -30 y = 99 }
+#			quadTextureSprite ="GFX_bp_open_button"
+#			Orientation = "UPPER_RIGHT"
+#			clicksound = click
+#		}
+		
+		iconType = {
+			name = "topbar_outlinerbutton_bg"
+			position = { x = -30 y = 118 }
+			spriteType ="GFX_oob_unit_tree_bg"
+			Orientation = "UPPER_RIGHT"
+		}
+		
+		guiButtonType = {
+			name = "topbar_outlinerbutton"
+			quadTextureSprite ="GFX_oob_unit_tree"
+			position = { x = -30 y = 119 }
+			Orientation = "UPPER_RIGHT"
+		}
+		
+				
+		
+	#	textBoxType = { 
+	#		name = "CountryName"
+	#		position = { x = 106 y = 41 }
+	#		textureFile = ""
+	#		font = "arial_18"
+	#		borderSize = {x = 0 y = 4}
+	#		text = ""	
+	#		maxWidth = 300
+	#		maxHeight = 32	
+	#		format = left
+	#	}
+
+		#### 2 frames,   1=paused   2=pause
+		guiButtonType = {
+			name = "pause_bg"
+			quadTextureSprite ="GFX_button_pause"
+			position = { x= 242 y =53 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "button_speedup"
+			quadTextureSprite ="GFX_button_speedup"
+			position = { x = 221 y = 53 }
+		}
+
+		guiButtonType = {
+			name = "button_speeddown"
+			quadTextureSprite ="GFX_button_speeddown"
+			position = { x = 221 y = 75 }
+		}
+
+		instantTextBoxType = { 
+			name = "DateText"
+			position = { x = 278 y = 68 }
+			font = "Arial14"
+			borderSize = {x = 0 y = 4}
+			maxWidth = 190
+			maxHeight = 32	
+			format = left
+		}
+
+		#iconType =
+		#{
+		#	name ="speed_indicator"
+		#	spriteType = "GFX_speed_indicator"
+		#	position = { x= 265 y = 19 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+
+		guiButtonType = {
+			name = "speed_indicator"
+			quadTextureSprite = "GFX_speed_indicator"
+			position = { x= 246 y = 65 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		#guiButtonType = {
+			#name = "button_pause"
+			#quadTextureSprite ="GFX_button_pause"
+			#tooltip = ""
+			#tooltipText =""
+			#delayedTooltipText = ""
+			#position = { x = 240 y = 65 }
+		#}
+
+		######DEFCON
+		
+		
+		iconType =
+		{
+			name ="defcon"
+			spriteType = "GFX_defcon"
+			position = { x= 187 y = 57 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="doomsday_clock_overlay"
+			spriteType = "GFX_doomsday_clock_overlay"
+			position = { x= 40 y = 30 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+	 	
+		##Flag
+		iconType = {
+			name ="player_flag"
+			spriteType = "GFX_topbarflag"
+			position = { x=37 y = 49 }
+			Orientation = "UPPER_LEFT"
+			rotation = 0 #-1.571 < pi/2 dvs 90 degrees
+		}
+		
+		##RANKING
+		iconType = {
+			name ="prestige_bg"
+			spriteType = "GFX_topbar_prestige_bg"
+			position = { x= 5 y = 60 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = { 
+			name = "prestige"
+			position = { x= 10 y = 85 }
+			font = "Jockey_18_yellow"
+			text = "xyz"
+			maxWidth = 40
+			maxHeight = 20	
+			format = centre
+		}
+	}
+
+	windowType = {
+		name = "diplo_waricon"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x = 24 y = 16 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType = {
+			name = "flag_icon"
+			spriteType = "GFX_topbar_small_shield"
+			position = { x= 0 y = -1 }
+			Orientation = "UPPER_LEFT"
+		
+		}		
+	}
+
+}

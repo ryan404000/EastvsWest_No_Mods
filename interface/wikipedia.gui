@@ -1,0 +1,99 @@
+guiTypes = {
+
+
+eu3dialogtype = {
+		name = "WikiDialog"
+		backGround="Background"
+		position = { x=300 y=100 }	
+		size = { x=630 y=600 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="diplo_dialog"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		iconType =
+		{
+			name ="diplo_popup_banner"
+			spriteType = "GFX_diplo_popup_banner"
+			position = { x= 74 y = 41 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		textBoxType = {
+				name = "Title"
+				position = { x = 0 y = 53 }
+				textureFile = ""
+				font = "Arial_17"
+				borderSize = {x = 4 y = 6}
+				text = ""	
+				maxWidth = 620
+				maxHeight = 32
+
+				format = centre
+		}
+	
+
+		listboxType = {
+			name = "wikilistbox"
+			position = { x = 20 y = 120 }
+			backGround=""
+			size = { x=580  y = 380}
+			Orientation = "UPPER_LEFT"
+		#	horisontal = 0
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_standard"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		
+		guiButtonType = {
+			name = "AgreeButton"
+			position = { x=240 y =520}
+			quadTextureSprite ="GFX_button_212wide"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "OK"
+			buttonFont = "Arial12_bold_black"
+		}
+	
+		
+	}
+
+	windowType = {
+		name = "wiki_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=560 y= 14 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+
+		instantTextBoxType={
+			position = {x = 0 y = 0 }
+			name = "wikitext"
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 560
+			maxHeight = 14
+			text = ""	
+			orientation = "UPPER_LEFT"
+			format = left
+			allwaystransparent = yes
+		}
+
+	}
+}

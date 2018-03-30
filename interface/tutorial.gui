@@ -1,0 +1,120 @@
+guiTypes = {
+		
+	iconType =
+	{
+		name = "TutorialPagePictureItem"
+		position { x = 0 y = 0 }
+		spriteType = "GFX_tutorial_exclamation"
+	}	
+		
+	instantTextBoxType =
+	{
+		name = "tutorial_objectives_title"
+		position = { x = 9 y = 192}
+		font = "Jockey_24"
+		text = "TUT_OBJECTIVES"
+		maxWidth = 344
+		maxHeight = 18	
+		format = centre
+	}
+	
+	listboxType =
+	{
+		name = "tutorial_objectives_text"
+		position = { x = 11 y = 224}
+		font = "Jockey_14_cyan"	
+		#text = "§Yobjective text here objective text here one objective text here objective text here objective text here objective text here objective text here objective text here objective text here objective text here here§!"
+		size = { x = 326 y = 92 }
+		scrollbartype = "scrollbar_vertical_standard"
+	}
+	
+	
+	#NEW, the buttons should probably be placed here
+	#guiButtonType =
+	#{
+	#	name = "exit_tutorial"
+	#	#quadTextureSprite ="largefloaterbutton"
+	#	quadTextureSprite= "GFX_button_straight_96_32"
+	#	buttonFont = "Arial12_bold_black"
+	#	buttonText = "Exit"
+	#	position = { x= -200 y = -200 }
+	#	orientation = "BOTTOM_RIGHT"
+	#}
+	#	
+	#guiButtonType =
+	#{
+	#	name = "next_tutorial"
+	#	#quadTextureSprite ="largefloaterbutton"
+	#	quadTextureSprite= "GFX_button_straight_96_32"
+	#	buttonFont = "Arial12_bold_black"
+	#	buttonText = "Next"
+	#	position = { x= -100 y = -200 }
+	#	orientation = "BOTTOM_RIGHT"
+	#}
+	
+	guiButtonType =
+	{ #needed. breaks otherwise
+		name = "TutorialPageButtonOption"
+		quadTextureSprite= "GFX_tutorial_select_chapter"
+		buttonFont = "Jockey_16_glow_blue"
+		#position = { x= 510 y = 100 }
+	}
+	
+	guiButtonType =
+	{ #needed. breaks otherwise
+		name = "TutorialPageButtonBackOption"
+		quadTextureSprite= "GFX_tutorial_back_button"
+		buttonFont = "Jockey_16_glow_red"
+		#position = { x= 510 y = 100 }
+	}
+	
+	guiButtonType =
+	{ #needed. breaks otherwise
+		name = "TutorialMinimizedButton"
+		quadTextureSprite ="GFX_taskicon"
+		orientation = "LOWER_RIGHT"
+		position = {
+			x = -80
+			y = -400
+			}
+		#scope = "tutorial"
+	}
+	
+
+	
+	windowType =
+	{
+		name = "dummy-ul"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "UPPER_LEFT"
+	}
+	windowType =
+	{
+		name = "dummy-ur"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "UPPER_RIGHT"
+	}
+	windowType =
+	{
+		name = "dummy-br"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "LOWER_RIGHT"
+	}
+	windowType =
+	{
+		name = "dummy-bl"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "LOWER_LEFT"
+	}	
+	windowType =
+	{
+		name = "dummy-cen"
+		moveable = 0
+		position = { x = 0 y = 0 }
+		orientation = "CENTER"
+	}
+}

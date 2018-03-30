@@ -1,0 +1,145 @@
+
+
+
+
+
+/////////////DONE/////////////////
+propulsion_diesel lv 6
+propulsion_steam lv 6 
+ballistic_missile_submarine 9-10 req. 
+battlegroup_strikeoperations req 2
+battlegroup_systemcoordination req 2
+nuclear_guided_submarine tech 8 req.
+attack_submarine 11 req.
+supercarrier 6 req.
+unit_carrier lv 7
+unit_missilecruiser  lv 10
+unit_cruiser lv 4
+missile Frigates lv 10
+missile_boat lv 10
+unit_nuclearmissilecruiser lv 9
+mr_aa_complex lv 9
+antisub_missile lv 9
+Close In Weapon System (ciws_complex) 10 req.
+ship_heli_complex 
+
+unit_nuclearsubmarine_attack lv 10
+unit_submarine_missile lv 8
+unit_nuclearsubmarine_missile lv 9
+missile cruiser lv 11
+---------------------------------------
+industry_heavy_mechanical_engineering 
+Row 3 in Industrial Technology.txt
+#industry_heavy_mechanical_engineering		( 5 levels)=	#industry_heavy_mechanical_engineering		( 10 levels)
+
+Row 55 in Industrial Technology.txt
+level = 5  replaced with level = 10
+Added 5 new level req. (nothing) 
+Added 5 new levels for heavy mechanical engineering	
+-----------------------------------------------
+unit_ballistic_missile_submarine in file Naval Technology.txt
+Added 2 more levels
+-----------------------------------------------------------
+battlegroup_missilebattlegroup  in file Naval Doctrines.txt
+Row 64-65 Adds 1 row with 	battlegroup_strikeoperations = 2
+----------------------------------------------------------------------
+battlegroup_systemcoordination under missileboatcoastalfleet in file Naval Doctrines.txt
+Row 424/425 adds battlegroup_systemcoordination = 2
+-------------------------------------------------------------
+Version 1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+unit_nuclearsubmarine_missile in Naval Technology.txt
+Row 915 changes levels from 7 to 8.
+Row 937 under adds level 8. Adds level 8 in level effect (Row 950)
+--------------------------------------------------------------------
+unit_submarine_attack in Naval Technology.txt
+Row 709 changes levels from 7 to 11.
+Row 726 and under adds 8 to 11
+Row 726  level_effect  adds lv 8-11
+-------------------------------------------------------------------
+unit_supercarrier in Naval Technology.txt
+Row 117 changes levels from 5 to 6.
+Row 135 adds lv 6
+Row 141 level_effect = adds lv 6 (to row 180)
+----------------------------------------------------------------
+Version 2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+unit_carrier in Naval Technology.txt
+Row 70 changes levels from 6 to 7.
+Row 88 adds lv 7
+-------------------------------------------------
+unit_missilecruiser in Naval Technology.txt 
+Row 290 changes levels from 6 to 10.
+Row 345 Under Adds level_effect 7 to 10.
+----------------------------------------------
+unit_cruiser in Naval Technology.txt 
+Row 254 changes levels from 2 to 4.
+Adds level 3 and 4 betweeen row 255 and 299.
+-------------------------------------------------
+Version 3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+unit_missileboat in Naval Technology.txt 
+Row 652 changes levels from 5 to 10.
+Adds lv 6-10 under allow_level row 654
+Adds lv 6-10 under level_effect row 693
+--------------------------------------------------
+unit_missilefrigate in Naval Technology.txt 
+Row 533 changes levels from 9 to 10.
+Adds row for nr 10 at no.553
+Changes level_effect row 560
+------------------------------------------------
+unit_nuclearmissilecruiser in Naval Technology.txt 
+Row 421 changes levels from 4 to 9.	 
+Adds under allowed levels from 4 to 9 and adds level_effect:s.
+--------------------------------------------------------------------
+Version 4
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+closedefense in Armament.txt
+Row 736 Changed from 9 to 10.
+Adds lv 10 under allow_level 
+Adds lv 10 under level_effect Row 778
+---------------------------------------------
+ship_heli_complex in Naval Doctrines.txt
+Row 346 to 350 removes #
+---------------------------------------------	
+unit_cruiser in Naval Technology.txt 
+Adds a row below 273 (activate_unit = battleship)
+Row 274 activate_unit = heavy_gun_complex
+----------------------------------------------
+antisub_missile in Armament.txt
+Row 2421 Chaged from 8 to 9.
+Adds lv 9 under allow_level 
+Adds lv 9 under level_effect 
+Adds missing lv 7 in level_effect (Row 2467)
+----------------------------------------------------
+antiairmissile_mediumrange  in Armament.txt
+Row 3651 Changes lv from lv 8 to lv 9.
+Adds lv 9 under allow_level and under level_effect 
+----------------------------------------------------
+Version 5
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+unit_missilecruiser  in file Naval Technology.txt
+Row 296 changed level from 10 to 11.
+Added lv 11 under allow_level 
+Added lv 11 under level_effect
+------------------------------------------------------
+unit_nuclearsubmarine_missile  in file Naval Technology.txt
+Row 1137 changed from 8 to 9.
+Adds lv 9 under allow_level
+Adds lv 9 under level_effect 
+-------------------------------------------------------
+unit_submarine_missile in file Naval Technology.txt
+Row 1082 changed from 3 to 8.
+Adds lv 4-8 under allow_level 
+Adds in lv 4-8 propulsion_diesel_submarine = 4-8 as req.
+Adds lv 4-8 under level_effect 
+-----------------------------------------
+unit_nuclearsubmarine_attack in file Naval Technology.txt
+Row 1006 changed lv from 6 to 10.
+Adds lv 6-10 under allow_level 
+Adds propulsion_nuclear_submarine = 4 under  allow_level '
+Adds lv 6-10 under level_effect 
+-------------------------------------------------------
+Version 6
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Deleted all empty slots from files in units\slots.

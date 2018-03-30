@@ -1,0 +1,365 @@
+spriteTypes = {	
+	
+	PieChartType = {
+		name = "GFX_political_popularity_chart_espionage"
+		size = 54
+	}
+	
+	
+	spriteType = {
+		name = "GFX_bg_intelligence_shadow_1"
+		texturefile = "gfx\\interface\\intelligence\\intel_bg_general_naked_shadow.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_big_listbutton_2"
+		texturefile = "gfx\\interface\\big_listbutton_1.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	tileSpriteType = {
+		name = "GFX_topcolor_espionage"
+		texturefile = "gfx\\interface\\topcolor_intelligence.dds"
+		
+		norefcount = yes
+		size = {x = 2048 y = 512}
+	}
+
+	spriteType = {
+		name = "GFX_espionage_topitem"
+		texturefile = "gfx\\interface\\production_topitem.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bg_intelligence_general"
+		texturefile = "gfx\\interface\\intelligence\\intel_bg_general_naked.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_bg_intelligence_politics"
+		texturefile = "gfx\\interface\\intelligence\\intel_bg_politics_naked.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_autosend_priorities_small"
+		texturefile = "gfx\\interface\\autosend_priorities_small.tga"
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_autosend_priorities_big"
+		texturefile = "gfx\\interface\\autosend_priorities_big.tga"
+		noOfFrames = 4
+	}
+	
+	#textSpriteType = {
+	#	name = "GFX_autosend_priorities_big"
+	#	texturefile = "gfx\\interface\\autosend_priorities_big.tga"
+	#	
+	#	noOfFrames = 4
+	#	norefcount = yes
+	#}
+	
+	textSpriteType = {
+		name = "GFX_intel_faction_button"
+		texturefile = "gfx\\interface\\intel_faction_button.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_checkbox_square"
+		texturefile = "gfx\\interface\\checkbox_square.tga"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_unit_browse_button"
+		texturefile = "gfx\\interface\\unit_browse_button.tga"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_spy_bar"
+		texturefile = "gfx\\interface\\spy_bar.tga"
+		noOfFrames = 11
+	}
+	
+	spriteType = {
+		name = "GFX_spy_view_naval"
+		texturefile = "gfx\\interface\\spy_view_naval.tga"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_spy_view_air"
+		texturefile = "gfx\\interface\\spy_view_air.tga"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_spy_view_army"
+		texturefile = "gfx\\interface\\spy_view_army.tga"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_banner2"
+		texturefile = "gfx\\interface\\unit_banner2.tga"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_base_banner"
+		texturefile = "gfx\\interface\\base_banner.tga"
+		noOfFrames = 1
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_unit_plate_air"
+		texturefile = "gfx\\interface\\intelligence\\intel_unit_plate_air.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_unit_plate_land"
+		texturefile = "gfx\\interface\\intelligence\\intel_unit_plate_land.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_unit_plate_naval"
+		texturefile = "gfx\\interface\\intelligence\\intel_unit_plate_naval.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_unit_plate_stationary"
+		texturefile = "gfx\\interface\\intelligence\\intel_unit_plate_stationary.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	PieChartType = {
+		name = "GFX_political_popularity_chart_small"
+		size = 60
+	}
+
+	spriteType = {
+		name = "GFX_countrylistbutton_intel"
+		texturefile = "gfx\\interface\\intelligence\\bg_intel_countrylist.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_spy_activity_button_intel"
+		texturefile = "gfx\\interface\\intelligence\\intel_spy_plate.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	spriteType = {
+		name = "GFX_spylistbutton_intel"
+		texturefile = "gfx\\interface\\bg_spy_activity.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_espylist_entry"
+		texturefile = "gfx\\interface\\bg_intel_espy.dds"
+		
+		norefcount = yes
+	}
+
+	textSpriteType = {
+		name = "GFX_sort_intel_name"
+		texturefile = "gfx\\interface\\intelligence\\intel_sorting_btn_name.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_sort_intel_other"
+		texturefile = "gfx\\interface\\intelligence\\intel_sorting_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	spriteType = {
+		name = "GFX_intel_switchview"
+		texturefile = "gfx\\interface\\intelligence\\intel_btn_switch.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_button_filter_country"
+		texturefile = "gfx\\interface\\intelligence\\intel_tab_neighbours.dds"
+		noOfFrames = 2
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_button_filter_all"
+		texturefile = "gfx\\interface\\intelligence\\intel_tab_all.dds"
+		noOfFrames = 2
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	textSpriteType = {
+		name = "GFX_button_filter_continent"
+		texturefile = "gfx\\interface\\intelligence\\intel_tab_cont.dds"
+		noOfFrames = 2
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+#	textSpriteType = {
+#		name = "GFX_button_filter_cont2"
+#		texturefile = "gfx\\interface\\intel_cont2.dds"
+#		
+#		norefcount = yes
+#		clicksound = click
+#	}
+	
+	textSpriteType = {
+		name = "GFX_button_filter_faction_nato"
+		texturefile = "gfx\\interface\\intelligence\\intel_tab_nato.dds"
+		
+		noOfFrames = 2
+		norefcount = yes
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_filter_faction_other"
+		texturefile = "gfx\\interface\\intelligence\\intel_tab_wp_nonaligned.dds"
+		
+		noOfFrames = 2
+		norefcount = yes
+		clicksound = click
+	}
+	
+	progressbartype = {
+		name = "intel_faction_progress"
+		textureFile1 = "gfx\\interface\\intelligence\\intel_bar_faction_blue.dds"
+		textureFile2 = "gfx\\interface\\intelligence\\intel_bar_faction_red.dds"
+		size = { x = 63 y = 6 }
+		effectFile = "gfx\\FX\\progress.fx"
+		allwaystransparent = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_big_blue_one"
+		texturefile = "gfx\\interface\\intelligence\\intel_tab_general.dds"
+		
+		noOfFrames = 2
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_big_blue_two"
+		texturefile = "gfx\\interface\\intelligence\\intel_tab_politics.dds"
+		
+		noOfFrames = 2
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_intel_unit_sort_1"
+		texturefile = "gfx\\interface\\intelligence\\intel_unit_btn_type.dds"
+		
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_intel_unit_sort_2"
+		texturefile = "gfx\\interface\\intelligence\\intel_unit_btn_2.dds"
+		
+		clicksound = click
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_intel_unit_sort_3"
+		texturefile = "gfx\\interface\\intelligence\\intel_unit_btn_3.dds"
+		
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_spy"
+		texturefile = "gfx\\interface\\intelligence\\icon_spy_big.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_gun"
+		texturefile = "gfx\\interface\\intelligence\\icon_ak47.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_folder"
+		texturefile = "gfx\\interface\\intelligence\\icon_folder_big.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_nuke"
+		texturefile = "gfx\\interface\\intelligence\\icon_nuke_big.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_espionage_satellite"
+		texturefile = "gfx\\interface\\intelligence\\icon_satellite_big.dds"
+		noOfFrames = 2
+		norefcount = yes
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_intel_chart_overlay"
+		texturefile = "gfx\\interface\\intelligence\\chart_overlay.dds"
+		
+		norefcount = yes
+	}
+}

@@ -1,0 +1,18 @@
+navy = {
+	
+	name = "Test Fleet SOV"
+	
+	leader = 10524
+	base = 782
+	
+	location = 10508
+	ship = { type = missile_cruiser name = "Vladivostok" historical_model = 1 organisation = 30 }
+
+}
+
+air = {
+	name = "I. Recon"
+	base = 782
+	location = 782
+	wing = { type = recon_plane name = "1. Recon squad" historical_model = 1 organisation = 10 }
+}

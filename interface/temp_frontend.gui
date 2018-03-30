@@ -1,0 +1,879 @@
+guiTypes = {
+
+	textBoxType = {
+		name = "select_nation_label"
+		position = { x = 50 y = 50 }
+		textureFile = ""
+		font = "Jockey_14"
+		borderSize = {x = 4 y = 4}
+		text = "FE_NATION_TO_PLAY"	
+		maxWidth = 280
+		maxHeight = 160	
+		format = left
+	}
+	## TUTORIAL ENTRY
+	windowType = {
+		name = "tutorial_category_entry"	
+		size = { x=228 y= 100 }
+		moveable = 0
+		fullScreen = no
+	
+		checkboxType = {
+			name = "category_button"
+			quadTextureSprite ="GFX_tutorial_select_tab"	
+			position = { x = 0 y = -7 }
+		}		
+		iconType = {
+			name ="category_pic"
+			spriteType = "GFX_tutorial_pic"
+			position = { x= 20 y = 14 }
+		}
+		iconType = {
+			name ="overlay"
+			spriteType = "GFX_tutorial_pic_overlay"
+			position = { x= 1 y = 40 }
+		}
+		instantTextBoxType = {
+			name ="title"
+			position = { x = 81 y = 22 }
+			font = "Jockey_16_paper"
+			text = "TUT_PART_BAS_TITLE"	
+			format = centre
+			maxWidth = 130
+			maxHeight = 20
+			fixedsize = yes
+		}
+	}
+	windowType = {
+		name = "tutorial_chapter_entry"	
+		position = { x = 0 y = 0 }
+		size = { x=139 y= 37 }
+		moveable = 0
+		fullScreen = no
+	
+		checkboxType = {
+			name = "chapter_button"
+			quadTextureSprite ="GFX_tutorial_select_chapter"
+			buttonfont = "Jockey_14_glow_blue"
+			position = { x = 0 y = -3 }
+		}
+		
+		#instantTextBoxType = {
+		#	name ="chapter_title"
+		#	position = { x = 23 y = 3 }
+		#	font = "Jockey_14_glow_blue"
+		#	format = centre
+		#	maxWidth = 92
+		#	maxHeight = 20
+		#	fixedsize = yes
+		#}
+	}
+
+	windowType = {
+		name ="country_selection_panel"
+		position = { x=0 y =0}	
+		size = { x=1024 y = 768}
+		moveable = 0
+		fullscreen=yes
+
+		iconType = {
+			name ="frontend_backdrop"
+			spriteType = "GFX_frontend_main_bg"
+			position = { x= -960 y = -540 }
+			orientation = "CENTER"
+		}
+
+		instantTextBoxType = {
+			name ="version_label"
+			position = { x = 5 y = -25 }
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			orientation = "LOWER_LEFT"
+			format = left
+			maxWidth = 400
+			maxHeight = 50	
+		}
+		#### MULTIPLAYER MENU
+		windowType = {
+			name ="multiplayer_menu"
+			backGround=""
+			position = { x=-71 y =-202}	
+			size = { x=420 y =500}
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			upsound = ""
+			downsound = ""
+			fullscreen=no
+			orientation = "CENTER"
+			
+			iconType = {
+				name ="bg_multiplayer_menu"
+				spriteType = "GFX_bg_multiplayer_menu"
+				position = { x= 129 y = 79 }
+			}
+			
+			listboxType = {
+				name ="games"
+				position = { x=130 y =122}
+				backGround=""
+				size = { x=280 y =89 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 20 y = 20}
+			}
+
+			guiButtonType = {
+				name = "host"
+				position = { x = 123 y = 251 }
+				quadTextureSprite ="GFX_frontend_button"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "FE_HOST"
+				buttonFont = "Arial_20"
+			}
+			
+			guiButtonType = {
+				name = "join"
+				position = { x = 123 y = 294 }
+				quadTextureSprite ="GFX_frontend_button"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "FE_JOIN_LAN_GAME"
+				buttonFont = "Arial_20"
+			}
+			
+			guiButtonType = {
+				name = "join_direct"
+				position = { x = 123 y = 337 }
+				quadTextureSprite ="GFX_frontend_button"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "FE_JOIN_INTERNET_GAME"
+				buttonFont = "Arial_20"
+			}
+			
+			guiButtonType = {
+				name = "scan"
+				position = { x = 260 y = 207 }
+				quadTextureSprite ="GFX_frontend_button5"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "FE_SCAN"
+				buttonFont = "frangoth_bold"
+			}
+			
+			guiButtonType = {
+				name = "metaserver"
+				position = { x = 123 y = 380 }
+				quadTextureSprite ="GFX_frontend_button"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "FE_METASERVER"
+				buttonFont = "Arial_20"
+			}
+			
+			guiButtonType = {
+				name = "Back"
+				position = { x = 123 y = 431 }
+				quadTextureSprite ="GFX_frontend_button2"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "FE_BACK"
+				buttonFont = "Arial_20"
+			}
+			
+			editBoxType = {
+				position = { x = 210 y = 80 }
+				name = "playername"
+				textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+				font = "Arial12_headline"
+				borderSize = {x = 8 y = 4}	
+				size = { x=213 y=32 }
+				text = "FE_PLAYER"
+			}
+
+			instantTextBoxType = {
+				name ="name_label"
+				position = { x = 137 y = 88 }
+				textureFile = ""
+				font = "Arial12_bold"
+				borderSize = {x = 4 y = 4}
+				text = "FE_PLAYER_NAME"
+				format = left
+				maxWidth = 200
+				maxHeight = 100	
+			}
+		}
+		### MULTIPLAYER CONNECT MENU
+		windowType = {
+			name ="multiplayer_connect_menu"
+			backGround=""
+			position = { x=-210 y =-250}	
+			size = { x=420 y =500}
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			upsound = ""
+			downsound = ""
+			fullscreen=no
+			orientation = "CENTER"
+			
+			iconType = {
+				name ="frontend_connectlog_bg"
+				spriteType = "GFX_frontend_connectlog_bg"
+				position = { x= 102 y = 85 }
+			}
+
+			listboxType = {
+				name ="info_list"
+				position = { x=116 y =96 }
+				backGround=""
+				size = { x=220 y =260}
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = {x = 4 y = 4}
+			}
+				
+			guiButtonType = {
+				name = "back"
+				position = { x = 146 y = 386 }
+				quadTextureSprite ="GFX_frontend_button4"	
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "FE_BACK"
+				buttonFont = "frangoth_bold"
+			}
+		}
+		############################# 
+		#### NORMAL   MAIN  MENU ####
+		#############################  
+		windowType = {
+			name ="mainmenu_panel"
+			position = { x=-512 y =-360}	
+			size = { x=1024 y = 768}
+			moveable = 0
+			fullscreen=no
+			orientation = "CENTER"
+
+			iconType = {
+				name ="frontend_mainmenu_background"
+				spriteType = "GFX_frontend_mainmenu_bg"
+				position = { x= -185 y = -321 }
+				orientation = "CENTER"
+			}
+
+			#guiButtonType = {
+			#	name = "temp_single_player_button"
+			#	position = { x = 100 y = 0 }
+			#	quadTextureSprite ="GFX_frontend_button_big"	
+			#	tooltip = ""
+			#	tooltipText =""
+			#	delayedTooltipText = ""
+			#	buttonText = "Single player (Temporary)"
+			#	buttonFont = "Main_14_black"
+			#}
+			
+			guiButtonType = {
+				name = "single_player_button"
+				position = { x = -133 y = -183 }
+				quadTextureSprite ="GFX_frontend_button_big"	
+				buttonText = ""
+				buttonFont = "Jockey_24_glow_blue"
+				orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+
+				name = "single_player_label"
+				position = { x = 400 y = 250 }
+				textureFile = ""
+				font = "Jockey_24_glow_blue"
+				borderSize = {x = 9 y = -21}
+				text = "FE_SINGLE_PLAYER"
+				format = centre
+				maxWidth = 200
+				maxHeight = 200	
+			}
+			
+			guiButtonType = {
+				name = "multi_player_button"
+				position = { x = -133 y = -102 }
+				quadTextureSprite ="GFX_frontend_button_big"	
+				buttonText = ""
+				buttonFont = "Jockey_24_glow_blue"
+				orientation = "CENTER"
+			}
+			
+			instantTextBoxType = {
+
+				name = "multi_player_label"
+				position = { x = 400 y = 331 }
+				textureFile = ""
+				font = "Jockey_24_glow_blue"
+				borderSize = {x = 9 y = -21}
+				text = "FE_MULTI_PLAYER"
+				format = centre
+				maxWidth = 200
+				maxHeight = 50
+			}
+			
+			guiButtonType = {
+				name = "settings_button"
+				position = { x = -133 y = -26 }
+				quadTextureSprite ="GFX_frontend_button_small"	
+				buttonText = ""
+				buttonFont = "Jockey_20_glow_blue"
+				orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+
+				name = "settings_label"
+				position = { x = 450 y = 395 }
+				textureFile = ""
+				font = "Jockey_20_glow_blue"
+				borderSize = {x = 9 y = -21}
+				text = "FE_OPTIONS"
+				format = centre
+				maxWidth = 100
+				maxHeight = 50
+			}
+			
+			guiButtonType = {
+				name = "tutorial_button"
+				position = { x = -133 y = 16 }
+				quadTextureSprite ="GFX_frontend_button_small"	
+				buttonText = ""
+				buttonFont = "Jockey_20_glow_blue"
+				orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+
+				name = "tutorial_label"
+				position = { x = 450 y = 437 }
+				textureFile = ""
+				font = "Jockey_20_glow_blue"
+				borderSize = {x = 9 y = -21}
+				text = "FE_TUTORIAL"
+				format = centre
+				maxWidth = 100
+				maxHeight = 50
+			}
+
+			guiButtonType = {
+				name = "credits_button"
+				position = { x = -133 y = 58 }
+				quadTextureSprite ="GFX_frontend_button_small"	
+				buttonText = ""
+				buttonFont = "Jockey_20_glow_blue"
+				orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+
+				name = "credits_label"
+				position = { x = 450 y = 479 }
+				textureFile = ""
+				font = "Jockey_20_glow_blue"
+				borderSize = {x = 9 y = -21}
+				text = "FE_CREDITS"
+				format = centre
+				maxWidth = 100
+				maxHeight = 50
+			}
+
+#			guiButtonType = {
+#				name = "gg_micro_button"
+#				position = { x = -133 y = 100 }
+#				quadTextureSprite ="GFX_frontend_button_small"	
+#				buttonText = "FE_MICRO"
+#				buttonFont = "Jockey_20_glow_blue"
+#				orientation = "CENTER"
+#			}
+			
+			guiButtonType = {
+				name = "exit_button"
+				position = { x = -133 y = 157 }
+				quadTextureSprite ="GFX_frontend_button_exit"	
+				buttonText = ""
+				buttonFont = "Jockey_24_glow_red"
+				orientation = "CENTER"
+			}
+
+			instantTextBoxType = {
+
+				name = "exit_label"
+				position = { x = 400 y = 590 }
+				textureFile = ""
+				font = "Jockey_24_glow_red"
+				borderSize = {x = 9 y = -21}
+				text = "FE_EXIT"
+				format = centre
+				maxWidth = 200
+				maxHeight = 200	
+			}
+			
+			guiButtonType = {
+				name = "nudge_button"
+				position = { x = 210 y = 75 }
+				quadTextureSprite ="GFX_frontend_button_big"
+				buttonText = "Nudge"
+				buttonFont = "Jockey_24_glow_blue"
+				orientation = "CENTER"
+			}
+		}
+		####################
+		####   TUTORIAL ####
+		####################
+		windowType = {
+			name ="tutorial_panel"
+			position = { x=-394 y =-270}	
+			size = { x=788 y =540}
+			moveable = 0
+			fullscreen=no
+			orientation = "CENTER"
+			
+			iconType = {
+				name ="tutorial_list_bg"
+				spriteType = "GFX_tutorial_list_bg"
+			}
+			
+			instantTextBoxType = {
+				name ="tutorial_label"
+				position = { x = 0 y = 62 }
+				font = "Jockey_24"
+				text = "FE_TUTORIAL"	
+				format = centre
+				maxWidth = 788
+				maxHeight = 21	
+			}
+						
+			listboxType = {
+				name = "category_list"
+				position = { x = 45 y = 97 }
+				size = { x=231 y = 300}
+				scrollbartype = "scrollbar_vertical_standard"
+			}
+			
+			instantTextBoxType = {
+				name ="tutorial_title"
+				position = { x = 385 y = 111 }
+				font = "Jockey_18_cyan"
+				text = "FE_TUTORIAL"	
+				format = centre
+				maxWidth = 303
+				maxHeight = 21	
+			}
+			
+			instantTextBoxType = {
+				name ="tutorial_desc"
+				position = { x = 290 y = 145 }
+				font = "Jockey_14"
+				maxWidth = 450
+				maxHeight = 80
+				format = centre
+			}
+			
+			instantTextBoxType = {
+				name ="tutorial_part_desc"
+				position = { x = 490 y = 250 }
+				font = "Jockey_14"
+				maxWidth = 250
+				maxHeight = 140
+			}
+			
+			listboxType = {
+				name ="tutorial_list"
+				position = { x = 315 y = 250 }
+				size = { x=137 y = 150}
+				scrollbartype = "scrollbar_vertical_standard"
+			}
+			
+			guiButtonType = {
+				name = "back_button"
+				position = { x = 92 y = 436 }
+				quadTextureSprite ="GFX_frontend_gen_button"	
+				buttonText = ""
+				buttonFont = "Jockey_14_dark"
+			}
+			
+			instantTextBoxType = {
+				name ="back_label"
+				position = { x = 40 y = 445 }
+				font = "Jockey_16_dark"
+				text="FE_BACK"
+				maxWidth = 250
+				maxHeight = 140
+				format = centre
+			}
+			guiButtonType = {
+				name = "play_button"
+				position = { x = 599 y = 420 }
+				quadTextureSprite ="GFX_button_build_division"	
+				buttonText = ""
+				buttonFont = "Jockey_24_glow_blue"
+			}
+
+			instantTextBoxType = {
+				name ="play_label"
+				position = { x = 535 y = 441 }
+				font = "Jockey_24_glow_blue"
+				text="PLAY"
+				maxWidth = 250
+				maxHeight = 140
+				format = centre
+			}
+		}
+	}
+	#entry for player in multiplayer list...
+	windowType = {
+		name = "multiplayer_entry_server"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=264 y= 32 }
+		moveable = 0
+		fullScreen = no	
+
+		iconType = {
+			name ="frontend_player_entry"
+			position = { x = -2 y = -2 }
+			spriteType = "GFX_frontend_player_entry"
+			
+		}		
+		
+		guiButtonType = {
+			position = { x= 7 y = 1 }
+			name = "player_shield"	
+			quadTextureSprite ="GFX_minishield"
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 46 y =7 }
+			format = left
+			font = "Arial_14_bold_glow"
+			maxWidth = 210
+			maxHeight = 32
+			fixedsize = yes
+		}
+
+		guiButtonType = {
+			name = "button_kick"	
+			quadTextureSprite = "GFX_button_kick_small"
+			position = { x=210 y =4}
+		}
+		
+		guiButtonType = {
+			name = "button_ban"	
+			quadTextureSprite = "GFX_button_ban_small"
+			position = { x=232 y =4}
+		}
+		
+		instantTextBoxType = {
+			name = "save_progress"
+			position = { x = 46 y =7 }
+			format = left
+			font = "Arial12"
+			maxWidth = 210
+			maxHeight = 32	
+			
+		}
+	}
+	#####################
+	## LOBBY CHAT TEXT ##
+	#####################	
+	windowType = {
+		name = "lobby_chat_text"
+		backGround=""
+		position = { x=383 y=-18 }	
+		size = { x=730 y= 18 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation = "CENTER_DOWN"
+		
+		instantTextBoxType = {
+			name = "messagelogtext"
+			position = { x = 16 y = 0 }
+			font = "Jockey_14"
+			borderSize = {x = 1 y = 1}
+			maxWidth = 730
+			maxHeight = 18	
+		}
+	}
+	### BOOKMARK ENTRY
+	windowType = {
+		name = "bookmark_entry"
+		backGround=""
+		position = { x=-4 y=0 }	
+		size = { x=320 y= 65 }
+		moveable = 0
+		fullScreen = no
+
+		guiButtonType = {
+			name = "bookmark"	
+			quadTextureSprite = "GFX_frontend_scenario_entry"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=-4 y =-1}
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 9 y = 10 }
+			textureFile = ""
+			font = "impact_small"
+			borderSize = {x = 1 y = 1}
+			text = "FE_BOOKMARK_TITLE"	
+			maxWidth = 320
+			maxHeight = 18
+		}
+
+		instantTextBoxType = {
+			name = "date"
+			position = { x = 7 y = 27 }
+			textureFile = ""
+			font = "frangoth_bold"
+			borderSize = {x = 1 y = 1}
+			text = "FE_BOOKMARK_DATE"	
+			maxWidth = 320
+			maxHeight = 18	
+		}
+	}
+	#### SAVED GAME ENTRY
+	windowType = {
+		name = "savegameentry"
+		position = { x=0 y=0 }	
+		size = { x=264 y= 54 }
+		moveable = 0
+		fullScreen = no
+			
+		checkboxType = {
+			name = "save_game"	
+			quadTextureSprite = "GFX_frontend_savegame_entry"
+			position = { x=-3 y =-3}
+		}
+		
+		guiButtonType = {
+			name ="shield"
+			position = { x = 9 y = 11 }
+			quadTextureSprite = "GFX_minishield"
+		}
+		
+		textBoxType = {
+			name = "title"
+			position = { x = 75 y = 5 }
+			font = "Arial12_bold"
+			borderSize = {x = 1 y = 1}
+			maxWidth = 180
+			maxHeight = 18	
+			format = right
+			fixedsize = yes
+		}
+		
+		textBoxType = {
+			name = "date"
+			position = { x = 75 y = 27 }
+			font = "Arial12"
+			borderSize = {x = 1 y = 1}
+			maxWidth = 180
+			maxHeight = 18	
+			fixedsize = yes
+			format = right
+		}			
+	}
+	# LOCAL GAME ENTRY
+	windowType = {
+		name = "local_game_entry"
+		backGround=""
+		position = { x=50 y=0 }	
+		size = { x=128 y= 21 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		checkboxType = {
+			name = "game"
+			position = { x=3 y =-17 }
+			quadTextureSprite ="GFX_frontend_localgame_listbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "..."
+			buttonFont = "Arial12_bold"
+		}
+	}
+	## LOCAL GAME TEXT
+	windowType = {
+		name = "local_game_text"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=128 y= 18 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		instantTextBoxType = {
+			name = "text"
+			position = { x = 0 y = 0 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 1 y = 1}
+			text = "FE_LOCAL_GAMES"	
+			maxWidth = 720
+			maxHeight = 18
+		}
+	}
+	### NAMING WINDOW
+	windowType = {
+		name = "naming_window" #used for both player and game name
+		backGround="Background"
+		position = { x=-45 y=-100 }	
+		size = { x=500 y=280 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation = "CENTER"
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="opaque_blue"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 36 }
+			textureFile = ""
+			font = "Arial_17"
+			borderSize = {x = 4 y = 4}
+			text = ""	
+			maxWidth = 500
+			maxHeight = 320
+			format = centre
+		}
+		
+		editBoxType = {
+			position = { x = 100 y = 100 }
+			name = "edit"
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "Arial12_bold"
+			borderSize = {x = 8 y = 4}	
+			size = { x=300 y=32 }
+			text = "FE_MY_GAME"
+		}
+		
+		guiButtonType = {
+			name = "ok_host_button"
+			position = { x=264 y =200}
+			quadTextureSprite ="GFX_frontend_button4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "FE_HOST"
+			buttonFont = "frangoth_bold"
+		}
+		
+		guiButtonType = {
+			name = "back_button"
+			position = { x=60 y =200}
+			quadTextureSprite ="GFX_frontend_button4"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "FE_CANCEL"
+			buttonFont = "frangoth_bold"
+		}
+	}
+	#### CONNECTION LOG TEXT
+	windowType = {
+		name = "connection_log_text"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=200 y= 18 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		instantTextBoxType = {
+			name = "text"
+			position = { x = 0 y = 0 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 1 y = 1}
+			text = ""	
+			maxWidth = 200
+			maxHeight = 18
+		}
+	}
+	
+	scrollbarType = {
+		name = "mastervolume_slider"	
+		slider = "landslider_SliderButton"
+		track= "landslider_TrackButton"
+		leftbutton = "landslider_upButton"
+		rightbutton = "landslider_downButton"
+		size = {x =172 y =16 }
+		position = {x= 30 y =30}
+		priority = 100			
+		borderSize = {x =16 y = 16}	
+		maxValue = 100
+		minValue = 0
+		stepSize =1
+		startValue = 20
+		horizontal = yes
+			
+		guiButtonType = {
+			name = "landslider_SliderButton"	
+			quadTextureSprite = "yearslider_slider"
+			position = { x=0 y =0}
+		}
+		
+		guiButtonType = {
+			name = "landslider_TrackButton"
+			quadTextureSprite = "techslider_background"
+			position = { x=0 y =20}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+		}
+		
+		guiButtonType = {
+			# parent = "landslider_SliderButton"
+			name = "landslider_upButton"
+			quadTextureSprite = "techslider_leftbutton"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			# parent = "landslider_SliderButton"
+			name = "landslider_downButton"
+			quadTextureSprite = "techslider_rightbutton"
+			position = { x=0 y =120}	
+		}	
+	}
+}

@@ -1,0 +1,22 @@
+name = "1948 Arab-Israeli War"
+1948.5.14 = {
+	add_attacker = PAL
+	add_defender = ISR
+}
+1948.5.15 = {
+	add_attacker = EGY
+	add_attacker = JOR
+	add_attacker = IRQ
+	add_attacker = SYR
+	#add_attacker = LEB		#LEB never actively participated in the war
+}
+
+1949.3.10 = {
+	rem_attacker = EGY
+	rem_attacker = JOR
+	rem_attacker = IRQ
+	rem_attacker = PAL
+	rem_attacker = SYR
+	#rem_attacker = LEB		#LEB never actively participated in the war
+	rem_defender = ISR
+}

@@ -1,0 +1,11 @@
+name = "First Indochina War"
+
+1946.12.19 = {
+	add_attacker = IDC
+	add_defender = DRV
+}
+
+1954.8.1 = {
+	rem_attacker = IDC
+	rem_defender = DRV
+}

@@ -1,0 +1,50 @@
+# ----------------------- FRIGATES -----------------------------------
+# Model 1955
+missile_frigate.0 = {
+	slotdata = { id = gun_complex level = 3 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 3 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 3 x = 481 y = 675}
+}
+# Model 1960
+missile_frigate.1 = {
+	slotdata = { id = gun_complex level = 4 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 4 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 4 x = 481 y = 675}
+}
+# Model 1965
+missile_frigate.2 = {
+	slotdata = { id = gun_complex level = 5 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 5 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 5 x = 481 y = 675}
+}
+# Wielingen-class
+missile_frigate.3 = {
+	slotdata = { id = gun_complex level = 3 x = 493 y = 675}
+	slotdata = { id = sr_aa_complex level = 3 x = 360 y = 665}
+	slotdata = { id = mr_as_complex level = 5 x = 240 y = 657 ammo_store = 4}
+	slotdata = { id = torpedo_complex level = 6 x = 312 y = 678 ammo_store = 5}
+}
+# Model 1975
+missile_frigate.4 = {
+	slotdata = { id = gun_complex level = 7 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 7 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 7 x = 481 y = 675}
+}
+# Model 1980
+missile_frigate.5 = {
+	slotdata = { id = gun_complex level = 8 x = 521 y = 673}
+	slotdata = { id = ciws_complex level = 8 x = 248 y = 656}
+	slotdata = { id = sr_aa_complex level = 8 x = 481 y = 675}
+}
+# Model 1985
+missile_frigate.6 = {
+	slotdata = { id = gun_complex level = 9 x = 521 y = 675}
+	slotdata = { id = ciws_complex level = 9 x = 241 y = 658}
+	slotdata = { id = sr_aa_complex level = 9 x = 483 y = 675}	
+}
+# Model 1990
+missile_frigate.7 = {
+	slotdata = { id = gun_complex level = 10 x = 521 y = 675}
+	slotdata = { id = ciws_complex level = 10 x = 241 y = 658}
+	slotdata = { id = sr_aa_complex level = 10 x = 483 y = 675}
+}

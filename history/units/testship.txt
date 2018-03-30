@@ -1,0 +1,8 @@
+	navy = {
+		name = "Test Fleet"
+		#pool = yes
+		base = 4843
+		location = 16868
+		#ship = { type = supercarrier name = "Test Nimitz" historical_model = 3 builder = USA}
+		ship = { type = nuclear_battlecruiser name = "Test Kirov" historical_model = 0 builder = SOV}		
+	}

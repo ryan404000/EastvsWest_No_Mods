@@ -1,0 +1,131 @@
+theatre =
+{
+	name = " Theatre"
+	location = 5164
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 5164
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 5164
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 4 strength = 39 experience = 4 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 4 strength = 25 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 4 strength = 39 experience = 4 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 4 strength = 25 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 5164
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 4 strength = 39 experience = 4 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 4 strength = 25 experience = 5 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 4 strength = 39 experience = 4 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 5778
+		location = 5778
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 5 strength = 30 builder = USA }
+	}
+	navy = {
+		
+		name = "1st Fleet"
+		base = 5164 # Amsterdam
+		location = 5164
+		ship = { type = missile_frigate name = "HrMs Tromp" historical_model = 4 }
+		ship = { type = missile_frigate name = "HrMs De Ruyter" historical_model = 4 }
+		ship = { type = missile_frigate name = "HrMs Kortenaer" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Callenburgh" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Van Kinsbergen" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Banckert" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Piet Hein" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Abraham Crijnssen" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Philips van Almonde" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Bloys van Treslong" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Jan van Brakel" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Pieter Florisz" historical_model = 5 }
+		ship = { type = missile_frigate name = "HrMs Jacob van Heemskerck" historical_model = 6 }
+		ship = { type = missile_frigate name = "HrMs Witte de With" historical_model = 6 }
+		ship = { type = transport_ship name = "1e Transportsmaldeel" historical_model = 0 }
+		ship = { type = transport_ship name = "2e Transportsmaldeel" historical_model = 0 }
+	}
+	navy = {
+		
+		name = "2nd Fleet"
+		base = 5164 # Amsterdam
+		location = 5164
+		ship = { type = attack_submarine name = "HrMs Zeehond" historical_model = 2 }
+		ship = { type = attack_submarine name = "HrMs Potvis" historical_model = 2 }
+		ship = { type = attack_submarine name = "HrMs Tonjin" historical_model = 2 }
+		ship = { type = attack_submarine name = "HrMs Zwaardvis" historical_model = 4 }
+		ship = { type = attack_submarine name = "HrMs Tijgerhaai" historical_model = 4 }
+		ship = { type = attack_submarine name = "HrMs Zeeleeuw" historical_model = 8 }
+	}
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 5112
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 4 strength = 36 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 4 strength = 38 experience = 5 }
+	regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 3 strength = 36 experience = 5 }
+	regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 3 strength = 36 experience = 5 }
+}
+
+
+military_construction = {
+	country = HOL
+	name = "HrMs  Dolfijn"
+	attack_submarine = {
+		name = "HrMs  Dolfijn"
+		historical_model = 8
+		}
+	#cost = xxx
+	progress = 10
+	#duration = xxx
+}
+
+military_construction = {
+	country = HOL
+	name = "HrMs Karel Doorman"
+	missile_frigate = {
+		name = "HrMs Karel Doorman"
+		historical_model = 7 
+		}
+	#cost = xxx
+	progress = 85
+	#duration = xxx
+}
+
+military_construction = {
+	country = HOL
+	name = "HrMs Willem van der Zaan"
+	missile_frigate = {
+		name = "HrMs Willem van der Zaan"
+		historical_model = 7
+		}
+	#cost = xxx
+	progress = 65
+	#duration = xxx
+}
+
+military_construction = {
+	country = HOL
+	name = "HrMs Tjerk Hiddes"
+	missile_frigate = {
+		name = "HrMs Tjerk Hiddes"
+		historical_model = 7
+		}
+	#cost = xxx
+	progress = 35
+	#duration = xxx
+}

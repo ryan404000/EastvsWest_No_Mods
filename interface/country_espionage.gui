@@ -1,0 +1,2389 @@
+guiTypes = {
+
+	windowType = {
+		name = "topcolor_espionage"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		fullScreen = no
+		orientation="UPPER_LEFT"
+		
+#		iconType = {				#Removed gradient from the gui
+#			name = "topcolor_icon"
+#			spriteType = "GFX_topcolor_espionage"
+#			position = { x= 0 y = -1 }
+#			Orientation = "UPPER_LEFT"
+#		}
+	}
+	
+	windowType = {
+		name = "country_espionage"
+		position = { x=-555 y=-340 }
+		size = { x=1120 y=798 }
+		moveable = 0
+		fullScreen = no
+		orientation="CENTER"
+		
+		iconType = {
+			name ="bg_countryskin"
+			spriteType = "GFX_country_bg"
+			position = { x= 10044 y = 54 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="intel_shadow"
+			spriteType = "GFX_bg_intelligence_shadow_1"
+			position = { x=-22 y=-5 }
+		}
+
+		iconType = {
+			name = "bg_intelligence_politics"
+			spriteType = "GFX_bg_intelligence_politics"
+			position = { x=-22 y=-5 }
+		}
+		
+		
+	
+		iconType = {
+			name ="bg_intelligence_general"
+			spriteType = "GFX_bg_intelligence_general"
+			position = { x=-22 y=-5 }
+		}
+		
+		guiButtonType = {
+			name = "close_button"
+			position = { x=1035 y=29}
+			quadTextureSprite = "GFX_close_btn"	
+			shortcut = "ESCAPE"
+			clicksound = click
+		}
+		
+		instanttextBoxType = { 
+			name = "headline"
+			position = { x=45 y=30 }
+			font = "Jockey_30_glow_green"
+			text = "headline_espionage"	
+			maxHeight = 28
+		}
+		
+		guiButtonType = {
+			name = "general_button"
+			position = { x=55 y=70}
+			quadTextureSprite = "GFX_button_big_blue_one"	
+			buttonFont = "Jockey_16_dark"
+			clicksound = click
+		}
+		
+		instanttextBoxType = { 
+			name = "general_label"
+			position = { x=100 y=79 }
+			font = "Jockey_16_dark"
+			text = "ESP_GENERAL"	
+			maxHeight = 28
+		}
+		
+		guiButtonType = {
+			name = "politics_button"
+			position = { x=210 y=70}
+			quadTextureSprite = "GFX_button_big_blue_two"	
+			buttonFont = "Jockey_16_dark"
+			clicksound = click
+		}
+			
+		instanttextBoxType = { 
+			name = "politics_label"
+			position = { x=255 y=79 }
+			font = "Jockey_16_dark"
+			text = "ESP_POLITICS"	
+			maxHeight = 28
+		}
+
+		####### spy activity list
+		
+		instanttextboxtype = {
+			name = "spy_activity_label"
+			position = { x=60 y=109 }
+			format = centre
+			font = "Jockey_24"
+			borderSize = { x=4 y=0 }
+			text = "SPY_ACTIVITY"
+			maxWidth = 290
+			maxHeight = 32	
+		}	
+		
+		guiButtonType = {
+			name = "sortby_act_name_button"
+			position = { x=58 y = 131}
+			quadTextureSprite ="GFX_sort_intel_other"	
+			buttonText = "DIP_NAME_TITLE"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "sortby_act_sender_button"
+			position = { x=134 y =131}
+			quadTextureSprite ="GFX_sort_intel_other"	
+			buttonText = "SPY_SENDER"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}		
+		
+		guiButtonType = {
+			name = "sortby_act_mission_button"
+			position = { x=210 y =131}
+			quadTextureSprite ="GFX_sort_intel_other"	
+			buttonText = "SPY_MISSION"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "sortby_act_progress_button"
+			position = { x=286 y =131}
+			quadTextureSprite ="GFX_sort_intel_other"	
+			buttonText = "SPY_PROGRESS"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		
+		listboxType = {
+			name = "spy_activity_list"
+			position = { x = 55 y = 164 }
+			size = { x= 286 y = 166 }
+			scrollbartype = "scrollbar_vertical_standard"
+		}
+				
+		# country filters ################
+		guiButtonType = {
+			name = "nato_button"
+			position = { x=59 y=345}
+			quadTextureSprite ="GFX_button_filter_faction_nato"
+			buttonFont = "Jockey_16_dark"
+			clicksound = click
+		}
+
+		instanttextBoxType = { 
+			name = "NATO_label"
+			position = { x=77 y=354 }
+			font = "Jockey_16_dark"
+			text = "DIP_NATO"	
+			maxHeight = 28
+		}
+			
+		
+		guiButtonType = {
+			name = "WP_button"
+			position = { x=142 y=345 }
+			quadTextureSprite ="GFX_button_filter_faction_other"
+			buttonText = ""
+			buttonFont = "Jockey_16_dark"
+			clicksound = click
+		}
+
+		instanttextBoxType = { 
+			name = "WP_label"
+			position = { x=152 y=354 }
+			font = "Jockey_16_dark"
+			text = "DIP_WP"	
+			maxHeight = 28
+		}
+			
+		guiButtonType = {
+			name = "nonaligned_button"
+			position = { x=252 y=345}
+			quadTextureSprite ="GFX_button_filter_faction_other"
+			buttonText = ""
+			buttonFont = "Jockey_16_dark"
+			clicksound = click
+		}
+		
+		instanttextBoxType = { 
+			name = "NONALIGNED_label"
+			position = { x=264 y=354 }
+			font = "Jockey_16_dark"
+			text = "DIP_NONALIGNED"	
+			maxHeight = 28
+		}
+		
+		
+		guiButtonType = {
+			name = "majors_button"
+			position = { x=60 y =380}
+			quadTextureSprite ="GFX_button_filter_country"
+			buttonText = "DIP_MAJORS"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "neighbours_button"
+			position = { x=135 y =380}
+			quadTextureSprite ="GFX_button_filter_country"
+			buttonText = "DIP_NEIGHBOURS"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+			
+		guiButtonType = {
+			name = "self_button"
+			position = { x=209 y =380}
+			quadTextureSprite ="GFX_button_filter_country"
+			buttonText = "DIP_SELF"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "unaligned_button"
+			position = { x=284 y =380}
+			quadTextureSprite ="GFX_button_filter_country"
+			buttonText = "DIP_UNALIGNED"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "all_button"
+			position = { x=59 y =404}
+			quadTextureSprite ="GFX_button_filter_all"
+			buttonText = "DIP_ALL"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+	
+		guiButtonType = {
+			name = "cont_europe"
+			position = { x=91 y =404}
+			quadTextureSprite ="GFX_button_filter_continent"
+			buttonText = "DIP_EUROPE"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+	
+		guiButtonType = {
+			name = "cont_asia"
+			position = { x=180 y =404}
+			quadTextureSprite ="GFX_button_filter_continent"
+			buttonText = "DIP_ASIA"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "cont_africa"
+			position = { x=269 y =404}
+			quadTextureSprite ="GFX_button_filter_continent"
+			buttonText = "DIP_AFRICA"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "cont_NA"
+			position = { x=91 y =424}
+			quadTextureSprite ="GFX_button_filter_continent"
+			buttonText = "DIP_NA"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "cont_SA"
+			position = { x=180 y =424}
+			quadTextureSprite ="GFX_button_filter_continent"
+			buttonText = "DIP_SA"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "cont_oceania"
+			position = { x=269 y =424}
+			quadTextureSprite ="GFX_button_filter_continent"
+			buttonText = "DIP_OCEANIA"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		# country list #############
+		######################
+		
+		listboxType = 
+		{
+			name ="country_listbox"
+			position = { x = 74 y = 486 }
+			size = { x=267 y =224 }
+			Orientation = "UPPER_LEFT"
+			horizontal = yes
+			spacing = 10
+			scrollbartype = "scrollbar_vertical_intel"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		guiButtonType = {
+			name = "sortby_name_button"
+			position = { x=59 y = 447}
+			quadTextureSprite ="GFX_sort_intel_name"	
+			buttonText = "DIP_NAME_TITLE"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "sortby_spy_duration_button"
+			position = { x=134 y =447}
+			quadTextureSprite ="GFX_sort_intel_other"	
+			buttonText = "SPY_TIME"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}		
+		
+		guiButtonType = {
+			name = "sortby_relation_button"
+			position = { x=210 y =447}
+			quadTextureSprite ="GFX_sort_intel_other"	
+			buttonText = "DOMESTIC_RELATION"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name = "sortby_spy_priority_button"
+			position = { x=286 y =447}
+			quadTextureSprite ="GFX_sort_intel_other"	
+			buttonText = "SPY_PRIORITY"
+			buttonFont = "Arial_11_bold_black"
+			clicksound = click
+		}
+		
+		windowType = {
+			name = "country_politics"
+			position = { x=170 y=76 }	
+			size = { x=500 y=320 }
+			moveable = 0
+			fullScreen = no
+			
+			# Head of State
+			listboxType = {
+				name = "minister_list1"
+				position = { x=224 y=-4 } #-76
+				size = { x=220 y=80}
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			# Head of Government
+			listboxType = {
+				name = "minister_list2"
+				position = { x=561 y=-4 }
+				size = { x=220 y=80}
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			################
+			### POLICIES ###
+			################
+			# Policies left side
+			listboxType = {
+				name = "policies_list1"
+				position = { x=215 y=84 }
+				backGround=""
+				size = { x=220 y=400 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			# Policies right side
+			listboxType = {
+				name = "policies_list2"
+				position = { x=554 y=84 }
+				backGround=""
+				size = { x=220 y=400 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=0 y=0 }
+			}
+			
+			instantTextBoxType = {
+				name = "laws_label"
+				position = { x=230 y=480 }
+				format = centre
+				textureFile = ""
+				font = "Jockey_16_paper"
+				borderSize = { x=0 y=0 }
+				text = "LAWS"
+				maxWidth = 280
+				maxHeight = 32	
+			}
+			
+			iconType = {
+			name ="tape1"
+			spriteType = "GFX_politics_tape_left"
+			position = { x=191 y=52 }
+			}
+		
+			iconType = {
+			name ="tape2"
+			spriteType = "GFX_politics_tape_right"
+			position = { x=541 y=70 }
+			}
+			
+			listboxType = {
+				name ="laws_listbox"
+				position = { x=230 y=503 }
+				backGround=""
+				size = { x=432 y=250 }
+				spacing = 1
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=10 y=10 }
+			}
+
+				
+			instantTextBoxType = {
+				name = "ideas_label"
+				position = { x=570 y=546}
+				format = centre
+				font = "Jockey_16_paper"
+				borderSize = { x=4 y=0 }
+				text = "NATIDEAS"
+				maxWidth = 280
+				maxHeight = 32	
+			}
+			
+			listboxType = {
+				name ="ideas_listbox"
+				position = { x=570 y=568 }
+				size = { x=252 y=160 }
+				spacing = 1
+				scrollbartype = "scrollbar_vertical_standard"
+				borderSize = { x=10 y=10 }
+			}
+		}
+		
+		#### COUNTRY INFO#####
+		###################
+		
+		windowType = {
+			name = "country_info"
+			position = { x=170 y=76 }	
+			size = { x=500 y=320 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType =
+			{
+				name ="country_flag"
+				spriteType = "GFX_polflag"
+				position = { x= 205 y = -10 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="faction_symbol_icon"
+				spriteType = "GFX_icon_factions"
+				position = { x= 495 y = -5}
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = {
+				name = "label_nation"
+				position = { x = 310 y = 0 }
+				font = "Jockey_18_black"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 190
+				maxHeight = 46
+			}
+
+			
+			textBoxType = {
+				name = "label_government"
+				position = { x = 315 y = 18 }
+				font = "Arial12_black"
+				borderSize = { x = 4 y = 4 }
+				maxWidth = 190
+				maxHeight = 24
+			}
+			
+			textboxtype = {
+				name = "label_election"
+				position = { x = 341 y = 41 }
+				font = "Jockey_14"
+				borderSize = { x = 4 y = 4 }
+				maxWidth = 175
+				maxHeight = 24
+				format = centre	
+			}
+			
+			instantTextBoxType = {
+				name = "counter_intel_value"
+				position = { x = 767 y = 43 }
+				font = "Jockey_18_yellow"
+				maxWidth = 52
+				maxHeight = 50
+				format = centre	
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "counter_intel_rank"
+				position = { x = 772 y = 61 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 52
+				maxHeight = 18
+				format = centre
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_money_value"
+				position = { x = 750 y = 147}
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_money_rank"
+				position = { x = 810 y = 148 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_tank_value"
+				position = { x = 750 y = 175 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_tank_rank"
+				position = { x = 810 y = 176 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_mail_value"
+				position = { x = 750 y = 203 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_mail_rank"
+				position = { x = 810 y = 204 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_pop_value"
+				position = { x = 750 y = 238 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_pop_rank"
+				position = { x = 810 y = 239 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_donno_value"
+				position = { x = 750 y = 266 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_donno_rank"
+				position = { x = 810 y = 267 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_bigtank_value"
+				position = { x = 750 y = 294 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_bigtank_rank"
+				position = { x = 810 y = 295 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_plane_value"
+				position = { x = 750 y = 322 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_plane_rank"
+				position = { x = 810 y = 323 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_sub_value"
+				position = { x = 750 y = 350 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_sub_rank"
+				position = { x = 810 y = 351 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_nuke_value"
+				position = { x = 750 y = 378 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_nuke_rank"
+				position = { x = 810 y = 379 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_folder_value"
+				position = { x = 750 y = 406 }
+				font = "Jockey_14_yellow"
+				text = "232,122,342,535"
+				maxWidth = 92
+				maxHeight = 20
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "intel_folder_rank"
+				position = { x = 810 y = 407 }
+				font = "Arial12"
+				text = "# 4344"
+				maxWidth = 70
+				maxHeight = 18
+				format = right
+				fixedsize = yes
+			}
+
+#			iconType = {
+#				name ="spy_bar"
+#				spriteType = "GFX_spy_bar"
+#				position = { x= 747 y = 434 }
+#				Orientation = "UPPER_LEFT"
+#			}
+
+
+#			guiButtonType = {
+#				name = "target_priority"
+#				quadTextureSprite = "GFX_autosend_priorities_big"
+#				position = { x = 870 y = 605}
+#				Orientation = "UPPER_LEFT"
+#				buttonText = "SEND_SPY_PRIORITY"
+#			    buttonFont = "Arial12_bold_black"
+#				clicksound = click
+#			}
+
+
+#			instantTextBoxType= {
+#				name = "target_priority_label"
+#				position = { x=911 y =615 }
+#				font = "Arial12_bold_black"
+#				borderSize = {x = 0 y = 0}	
+#				maxWidth = 128
+#				maxHeight = 20
+#				text = "SEND_SPY_PRIORITY"	
+#				orientation = "UPPER_LEFT"
+#				format = left
+#			}
+
+
+			#listboxType = {														
+			#	name ="spy_missions"
+			#	position = { x = -10 y = 315 }
+			#	backGround=""
+			#	size = { x= 210 y = 533}
+			#	Orientation = "UPPER_LEFT"
+			#	spacing = 2
+			#	scrollbartype = "scrollbar_vertical_standard"
+			#	borderSize = {x = 0 y = 0}
+			#}
+			
+			# resource intel ######################
+		
+			iconType = {
+				name ="icon_population"
+				spriteType = "GFX_icon_population_small"
+				position = { x= 220 y = 76 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = { 
+				name = "population_number"
+				position = { x = 255 y = 78 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 90
+				maxHeight = 30	
+			}
+			
+			iconType = {
+				name ="icon_manpower"
+				spriteType = "GFX_icon_manpower_small"
+				position = { x = 335 y = 75 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = { 
+				name = "manpower_number"
+				position = { x = 380 y = 78 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 50
+				maxHeight = 30	
+			}
+				
+			iconType = {
+				name ="icon_gdp"
+				spriteType = "GFX_icon_gdp_small"
+				position = { x= 435 y = 75 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = { 
+				name = "gdp_number"
+				position = { x = 480 y = 78 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 50
+				maxHeight = 30	
+			}
+			
+			
+			####SUPPLIES ETC
+			
+			iconType = {
+				name ="icon_money_small"
+				spriteType = "GFX_icon_money_small"
+				position = { x= 220 y = 105 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = { 
+				name = "money_number"
+				position = { x = 255 y = 110 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 2}
+				maxWidth = 50
+				maxHeight = 42	
+			}
+			
+			iconType =	{
+				name ="icon_supplies_small"
+				spriteType = "GFX_icon_supplies_small"
+				position = { x= 300 y = 105 }
+				Orientation = "UPPER_LEFT"
+			}
+		
+			textBoxType = { 
+				name = "supplies_number"
+				position = { x = 335 y = 110 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 2}
+				maxWidth = 50
+				maxHeight = 42	
+			}
+			
+			iconType = {
+				name ="icon_fuel_small"
+				spriteType = "GFX_icon_fuel_small"
+				position = { x= 380 y = 105 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = { 
+				name = "fuel_number"
+				position = { x =415 y = 110 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 2}
+				maxWidth = 50
+				maxHeight = 42	
+			}	
+			
+			iconType = {
+				name ="icon_nuke_small"
+				spriteType = "GFX_espionage_nuke"
+				position = { x= 465 y = 103 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			textBoxType = { 
+				name = "nuke_number"
+				position = { x =505 y = 110 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 2}
+				maxWidth = 50
+				maxHeight = 42	
+			}	
+			
+			iconType = {
+				name ="icon_spy"
+				spriteType = "GFX_espionage_spy"
+				position = { x= 220 y = 136 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			textBoxType = { 
+				name = "spy_number"
+				position = { x = 251 y = 138 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 50
+				maxHeight = 42	
+			}
+			
+			iconType = {
+				name ="icon_satellites"
+				spriteType = "GFX_espionage_satellite"
+				position = { x= 278 y = 136 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			textBoxType = { 
+				name = "sat_number"
+				position = { x = 307 y = 138 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 50
+				maxHeight = 42	
+			}
+			
+			iconType = {
+				name ="icon_folder"
+				spriteType = "GFX_espionage_folder"
+				position = { x= 337 y = 135 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			textBoxType = { 
+				name = "folder_number"
+				position = { x = 369 y = 138 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 50
+				maxHeight = 42	
+			}
+			
+			iconType = {
+				name ="icon_dissent"
+				spriteType = "GFX_icon_dissent_small"
+				position = { x= 410 y = 135 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			textBoxType = { 
+				name = "dissent_number"
+				position = { x = 440 y = 138 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 50
+				maxHeight = 42	
+			}
+			
+			iconType = {
+				name ="icon_national_unity"
+				spriteType = "GFX_icon_unity_small"
+				position = { x= 478 y = 135 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			textBoxType = { 
+				name = "national_unity_number"
+				position = { x = 505 y = 138 }
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 50
+				maxHeight = 42	
+			}
+
+			instantTextBoxType = {
+				name = "units_label"
+				position = { x=220 y=174 }
+				format = center
+				font = "Jockey_24"
+				borderSize = { x=4 y=0 }
+				text = "ENEMY UNITS"
+				maxWidth = 310
+				maxHeight = 32	
+			}
+						
+			guiButtonType = {                                    
+				name = "unit_sortby_type"
+				quadTextureSprite ="GFX_button_intel_unit_sort_1"
+				position = { x = 221 y = 195 }
+				clicksound = click
+				buttonText = "ESP_TYPE"
+				buttonFont = "Arial_11_bold_black"
+			}
+				
+			guiButtonType = {                                    
+				name = "unit_sortby_mobilized"
+				quadTextureSprite ="GFX_button_intel_unit_sort_2"
+				position = { x = 280 y = 195 }
+				clicksound = click
+				buttonText = "ESP_MOBILIZED"
+				buttonFont = "Arial_11_bold_black"
+			}
+			
+			guiButtonType = {                                    
+				name = "unit_sortby_reserved"
+				quadTextureSprite ="GFX_button_intel_unit_sort_2"
+				position = { x = 358 y = 195 }
+				clicksound = click
+				buttonText = "ESP_RESERVE"
+				buttonFont = "Arial_11_bold_black"
+			}
+			
+			guiButtonType = {                                    
+				name = "unit_sortby_total"
+				quadTextureSprite ="GFX_button_intel_unit_sort_3"
+				position = { x = 436 y = 195 }
+				clicksound = click
+				buttonText = "ESP_TOTAL"
+				buttonFont = "Arial_11_bold_black"
+			}
+			
+			listboxType = {
+				name = "units_list"
+				position = { x = 220 y = 227 }
+				size = { x= 291 y = 196 }
+				Orientation = "UPPER_LEFT"
+				scrollbartype = "scrollbar_vertical_standard"
+			}
+			
+			textBoxType = { 
+				name = "units_type_label"
+				position = { x = 220 y = 434 }
+				font = "Jockey_18_black"
+				borderSize = {x = 0 y = 4}
+				text = "ESPIONAGE_UNITS_TOTAL"	
+				maxWidth = 55
+				maxHeight = 32	
+				format = centre
+			}
+			
+			textBoxType = { 
+				name = "total_units_mobilized"
+				position = { x = 280 y = 434 }
+				font = "Jockey_18_black"
+				borderSize = {x = 0 y = 4}
+				text = "ESPIONAGE_UNITS_MOBILIZED"	
+				maxWidth = 70
+				maxHeight = 32	
+				format = centre
+			}
+			
+			textBoxType = { 
+				name = "total_units_reserved"
+				position = { x = 361 y = 434 }
+				font = "Jockey_18_black"
+				borderSize = {x = 0 y = 4}
+				text = "ESPIONAGE_UNITS_RESERVE"	
+				maxWidth = 70
+				maxHeight = 32	
+				format = centre
+			}
+			
+			textBoxType = { 
+				name = "total_units"
+				position = { x = 440 y = 434 }
+				font = "Jockey_18_black"
+				borderSize = {x = 0 y = 4}
+				text = "ESPIONAGE_UNITS_TOTAL"	
+				maxWidth = 60
+				maxHeight = 32	
+				format = centre
+			}
+			
+			listboxType = {
+				name = "research_espionage"
+				position = { x = 546 y = 414 }
+				size = { x= 125 y = 214 }
+				Orientation = "UPPER_LEFT"
+				spacing = 0
+				scrollbartype = "scrollbar_vertical_short"
+			}
+			
+			instantTextBoxType = {
+				name = "sw_label"
+				position = { x=230 y=525 }
+				format = centre
+				font = "Jockey_24"
+				borderSize = { x=4 y=0 }
+				text = "POL_SW_LABEL"
+				maxWidth = 285
+				maxHeight = 32	
+			}
+			
+			iconType = {
+				name ="partisans_icon"
+				spriteType = "GFX_partisan_digi"
+				position = { x=225 y=555 }
+			}			
+			
+			instantTextBoxType = {
+				name = "partisans_val"
+				position = { x=265 y=564 }
+				font = "Jockey_18"
+				borderSize = { x=4 y=0 }
+				maxWidth = 64
+				maxHeight = 32
+			}	
+			
+			iconType = {
+				name ="allies_icon"
+				spriteType = "GFX_icon_sw_allies"
+				position = { x=335 y=555 }
+			}			
+			
+			instantTextBoxType = {
+				name = "allies_val"
+				position = { x=355 y=564 }
+				format = centre
+				font = "Jockey_18"
+				borderSize = { x=4 y=0 }
+				maxWidth = 64
+				maxHeight = 32
+			}	
+			
+			iconType = {
+				name ="nuke_icon"
+				spriteType = "GFX_nuke_digi"
+				position = { x=435 y=555 }
+			}		
+			
+			instantTextBoxType = {
+				name = "nuke_val"
+				position = { x=455 y=564 }
+				format = centre
+				font = "Jockey_18"
+				borderSize = { x=4 y=0 }
+				maxWidth = 64
+				maxHeight = 32
+			}							
+
+#			listboxType = {
+#				name = "enemy_spy_list"
+#				position = { x = 50 y = 50 }
+#				size = { x= 158 y = 168 }
+#				Orientation = "UPPER_LEFT"
+#				spacing = 2
+#				scrollbartype = "scrollbar_vertical_standard"
+#				borderSize = {x = 0 y = 0}
+#			}
+			
+#			listboxType = {														#########
+#				name ="spy_modifiers_list"
+#				position = { x = 870 y = 470 }
+#				size = { x= 170 y = 100}
+#				Orientation = "UPPER_LEFT"
+#				spacing = 2
+#				scrollbartype = "scrollbar_vertical_standard"
+#				borderSize = {x = 0 y = 0}
+#			}
+
+#			textBoxType = { 
+#				name = "spyname_label"
+#				position = { x = 514 y = 163 }
+#				textureFile = ""
+#				font = "Arial12_bold_black"
+#				borderSize = {x = 0 y = 4}
+#				text = "intel_spy_name"	
+#				maxWidth = 94
+#				maxHeight = 32	
+#				format = centre
+#			}
+
+#			textBoxType = { 
+#				name = "spy_skill"
+#				position = { x = 614 y = 163 }
+#				textureFile = ""
+#				font = "Arial12_bold_black"
+#				borderSize = {x = 0 y = 4}
+#				text = "intel_spy_skill"	
+#				maxWidth = 62
+#				maxHeight = 32	
+#				format = centre
+#			}
+
+
+
+			
+			######### BOTTOM LISTS LABELS ##########
+			
+			textBoxType = { 
+				name = "research_esp"
+				position = { x = 540 y = 388 }
+				font = "Jockey_16_paper"
+				borderSize = {x = 0 y = 4}
+				text = "ESPIONAGE_RESEARCH"	
+				maxWidth = 137
+				maxHeight = 26
+				format = centre
+				fixedsize = yes
+			}
+			
+			
+			#textBoxType = { 
+			#	name = "enemy_buildings"
+			#	position = { x = 390 y = 371 }
+			#	textureFile = ""
+			#	font = "Arial12_alpha"
+			#	borderSize = {x = 0 y = 4}
+			#	text = "ESPIONAGE_BUILDINGS"	
+			#	maxWidth = 128
+			#	maxHeight = 32	
+			#	format = left
+			#}
+			
+			
+			#textBoxType = { 
+			#	name = "economy"
+			#	position = { x = 900 y = 250 }
+			#	textureFile = ""
+			#	font = "Arial12_alpha"
+			#	borderSize = {x = 0 y = 4}
+			#	text = "ESPIONAGE_ECONOMY"	
+			#	maxWidth = 128
+			#	maxHeight = 32	
+			#	format = left
+			#}
+			
+			#listboxType = {
+			#	name = "economy_list"
+			#	position = { x = 900 y = 260 }
+			#	size = { x= 137 y = 240 }
+			#	Orientation = "UPPER_LEFT"
+			#	spacing = 1
+			#	scrollbartype = "scrollbar_vertical_standard"
+			#	borderSize = {x = 0 y = 0}
+			#}
+			
+			#listboxType = {
+			#	name = "buildings_list"
+			#	position = { x = 367 y = 393 }
+			#	backGround=""
+			#	size = { x= 137 y = 240 }
+			#	Orientation = "UPPER_LEFT"
+			#	spacing = 1
+			#	scrollbartype = "scrollbar_vertical_standard"
+			#	borderSize = {x = 0 y = 0}
+			#}
+			
+			
+			
+			#textBoxType = { 
+			#	name = "base_chance_label"
+			#	position = { x = 700 y = 470 }
+			#	textureFile = ""
+			#	font = "Arial12_alpha"
+			#	borderSize = {x = 0 y = 4}
+			#	text = "BASE_CHANCE"	
+			#	maxWidth = 128
+			#	maxHeight = 32	
+			#	format = left
+			#}
+		
+			#textBoxType = { 
+			#	name = "base_chance_value"
+			#	position = { x = 830 y = 470 }
+			#	textureFile = ""
+			#	font = "Arial12_alpha"
+			#	borderSize = {x = 0 y = 4}
+			#	text = ""	
+			#	maxWidth = 128
+			#	maxHeight = 32	
+			#	format = left
+			#}
+
+			#textBoxType = {
+			#	name = "label_priority"
+			#	position = { x = 850 y = 305 }
+			#	textureFile = ""
+			#	font = "Arial_17"
+			#	borderSize = {x = 4 y = 4}
+			#	text = "SPY_PRIORITY2"	
+			#	maxWidth = 184
+			#	maxHeight = 32	
+			#	Orientation = "UPPER_LEFT"
+			#	format = centre
+			#}
+			
+			#textBoxType = { 
+			#	name = "current_chance_label"
+			#	position = { x = 850 y = 580 }
+			#	textureFile = ""
+			#	font = "Arial12_alpha"
+			#	borderSize = {x = 0 y = 4}
+			#	text = "CURRENT_SPY_CHANCE"	
+			#	maxWidth = 128
+			#	maxHeight = 32	
+			#	format = left
+			#}
+		
+			#textBoxType = { 
+			#	name = "current_chance_value"
+			#	position = { x = 1000 y = 580 }
+			#	font = "Arial12_alpha"
+			#	borderSize = {x = 0 y = 4}
+			#	maxWidth = 128
+			#	maxHeight = 32	
+			#	format = left
+			#}
+		
+			#textBoxType = { 
+			#	name = "current_spy_chance_value"
+			#	position = { x = 974 y = 373 }
+			#	font = "Arial_20"
+			#	borderSize = {x = 0 y = 4}
+			#	maxWidth = 128
+			#	maxHeight = 32	
+			#	format = left
+			#}
+			# Units ##################
+			
+			#guiButtonType = {                                     #########
+			#	name = "button_viewarmy"
+			#	quadTextureSprite ="GFX_spy_view_army"
+			#	tooltip = ""
+			#	tooltipText =""
+			#	delayedTooltipText = ""
+			#	position = { x = 195 y = 383 }
+			#	clicksound = click
+			#}
+			
+			#guiButtonType = {										########
+			#	name = "button_viewair"
+			#	quadTextureSprite ="GFX_spy_view_air"
+			#	tooltip = ""
+			#	tooltipText =""
+			#	delayedTooltipText = ""
+			#	position = { x = 195 y = 470 }
+			#	clicksound = click
+			#}
+			
+			#guiButtonType = {										#######
+			#	name = "button_viewnaval"
+			#	quadTextureSprite ="GFX_spy_view_naval"
+			#	tooltip = ""
+			#	tooltipText =""
+			#	delayedTooltipText = ""
+			#	position = { x = 195 y = 557 }
+			#	clicksound = click
+			#}
+			
+			#instantTextBoxType = {										########
+			#	name = "units_label"
+			#	position = { x = 320 y = 385 }
+			#	textureFile = ""
+			#	font = "Arial12_alpha"
+			#	borderSize = {x = 4 y = 4}
+			#	text = "SPY_UNITS_LABEL"	
+			#	maxWidth = 256
+			#	maxHeight = 32	
+			#	Orientation = "UPPER_LEFT"
+			#	format = centre
+			#	}
+			
+			#listboxType = {											#####
+			#	name = "unit_queue"
+			#	position = { x = 270 y = 413 }
+			#	backGround=""
+			#	size = { x=375 y = 227 }
+			#	Orientation = "UPPER_LEFT"
+			#	horisontal = 0
+			#	spacing = 2
+			#	scrollbartype = "scrollbar_vertical_standard"
+			#	borderSize = {x = 0 y = 0}
+			#}
+			
+			#######POPULARITY CHART########
+		
+			iconType = {
+				name = "political_popularity_chart"
+				spriteType = "GFX_political_popularity_chart_espionage"
+				position = { x= 618 y = 25 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType = {
+			name = "chart_overlay"
+			spriteType = "GFX_intel_chart_overlay"
+			position = { x=33 y=-7 }
+			Orientation = "UPPER_RIGHT"
+			}
+		
+			listboxType = {
+				name = "political_legend"
+				position = { x=536 y=159 }
+				size = { x=220 y=250 }
+				spacing = 2
+				scrollbartype = "scrollbar_vertical_standard"
+			}
+
+			guiButtonType = {
+				name = "external_switch_button"
+				quadTextureSprite = "GFX_intel_switchview"
+				position = { x = 871 y = 455}
+				Orientation = "UPPER_LEFT"
+				clicksound = click
+			}
+			
+			listboxType = {														
+				name ="external_diplo"
+				position = { x=715 y= 475 }
+				size = { x= 152 y = 162}
+				scrollbartype = "scrollbar_vertical_standard"
+				font = "Arial12"
+			}
+
+			windowType = {
+				name = "external_relation"
+				position = { x=710 y=455 }	
+				size = { x=186 y=164 }
+				Orientation = "UPPER_LEFT"
+
+				guiButtonType = {
+					name = "ext_sortby_name_button"
+					position = { x=0 y = -5}
+					quadTextureSprite ="GFX_sort_intel_name"	
+					buttonText = "DIP_NAME_TITLE"
+					buttonFont = "Arial_11_bold_black"
+					clicksound = click
+					Orientation = "UPPER_LEFT"
+				}
+
+				guiButtonType = {
+					name = "ext_sortby_relation_button"
+					position = { x=80 y = -5}
+					quadTextureSprite ="GFX_sort_intel_name"	
+					buttonText = "DOMESTIC_RELATION"
+					buttonFont = "Arial_11_bold_black"
+					clicksound = click
+					Orientation = "UPPER_LEFT"
+				}
+				
+				listboxType = {
+					name ="external_relation_list"
+					position = { x = 2 y = 17 }
+					size = { x= 160 y = 165}
+					Orientation = "UPPER_LEFT"
+					spacing = 2
+					scrollbartype = "scrollbar_vertical_standard"
+					borderSize = {x = 0 y = 0}
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	# Entry for COUNTRYLIST ############################
+	windowType = {
+		name = "espionage_country_entry"
+		position = { x=0 y=0 }	
+		size = { x=256 y= 32 }
+		moveable = 0
+		fullScreen = no	
+
+		guiButtonType = {
+			name = "country_button"
+			position = { x=-5  y = 0}
+			quadTextureSprite ="GFX_countrylistbutton_intel"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name ="country_icon"
+			quadTextureSprite = "GFX_minishield"
+			position = { x= -20 y = 2}
+			Orientation = "UPPER_LEFT"
+			clicksound = click
+		}
+		
+		instantTextBoxType= {
+			position = { x=12 y =10 }
+			name = "name"
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 70
+			maxHeight = 20
+			orientation = "UPPER_LEFT"
+			format = left
+			fixedSize = yes
+		}
+		
+		instantTextBoxType= {
+			name = "spy_duration"
+			position = { x=89 y =10 }
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 35
+			maxHeight = 20
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+		
+		instantTextBoxType= {
+			name = "relation"
+			position = { x=135 y =10 }
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 35
+			maxHeight = 20
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+		
+		iconType = {
+			name = "faction_progress"
+			spriteType = "intel_faction_progress"
+			position = { x= 188 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		
+#		guiButtonType = {
+#			name ="priority"
+#			quadTextureSprite = "GFX_autosend_priorities_small"
+#			position = { x= 230 y = 5}
+#			Orientation = "UPPER_LEFT"
+#			clicksound = click
+#		}
+	}
+	
+	##### SPY MISSION ENTRY 
+	
+	windowType = {
+		name = "spy_mission_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=200 y=26 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"	
+
+		checkboxType = {
+			name = "checkbox"
+			position = { x= 12 y = 0 }
+			quadTextureSprite ="GFX_checkbox_square"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 40 y =10 }
+			format = left
+
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 4 y = 0}
+			text = ""	
+			maxWidth = 145
+			maxHeight = 32	
+		}
+	}
+
+	
+	#######
+	
+	
+	windowType = {
+		name = "espionage_research_entry"
+		position = { x=0 y=0 }	
+		size = { x=128 y=30 }
+		Orientation = "UPPER_LEFT"	
+		
+		instantTextBoxType = {
+			name = "label"
+			position = { x = 0 y =0 }
+			format = left
+			font = "Arial12"
+			maxWidth = 128
+			maxHeight = 32	
+		}
+	}
+		
+	positionType = {
+		name = "espionage_continent_offset"
+		position = { x = 57 y = 412 }
+		
+	}
+	
+	positionType = {
+		name = "espionage_continent_start"
+		position = { x = 100 y = 0 }
+		}
+	
+	positionType = {
+		name = "espionage_continent_end"
+		position = { x = 300 y = 20 }
+	}	
+	
+	
+	###FACTION BOX### these are not visible but can be used for modding if adding custom factions
+	
+	windowType = {
+		
+		name = "espionage_faction_box_window"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x = 32 y = 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		orientation = "UPPER_LEFT"
+		
+		guiButtonType = {
+			name = "faction_symbol_button"
+			quadTextureSprite = "GFX_intel_button"
+			position = { x = 0 y = 0}
+			Orientation = "UPPER_LEFT"
+			buttonText = "AXIS"
+			buttonFont = "Arial12_bold_black"
+			clicksound = click
+		}
+			
+	}
+	
+	
+	
+## UNIT INTEL BROWSER #################
+	
+	
+	
+	#################################################################################
+	# Unit Browser
+	#################################################################################	
+	windowType = {
+		name = "spy_unitbrowse_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=500 y= 28 }
+		moveable = 0
+		fullScreen = no	
+
+		guiButtonType = {
+			name = "expand"
+			position = { x=10 y =0}
+			quadTextureSprite ="GFX_unit_browse_button"
+			buttonText = ">"
+			buttonFont = "Arial12"
+			clicksound = click
+		}	
+		
+		
+		guiButtonType = {
+			name = "select_frame"
+			position = { x=30 y = -4 }
+			quadTextureSprite ="GFX_unit_banner2"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial12"
+			clicksound = click
+		}		
+		
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x= 28 y = -10 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="counter_size"
+			spriteType = "GFX_counter_size"
+			position = { x= 28 y = -8 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 80 y =-1 }
+			textureFile = ""
+			font = "Arial12_bold_black"
+			borderSize = {x = 4 y = 0}
+			text = "xx"	
+			maxWidth = 500
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "location"
+			position = { x = 80 y =12 }
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = {x = 4 y = 0}
+			text = "xx"	
+			maxWidth = 500
+			maxHeight = 32
+			Orientation = "UPPER_LEFT"
+		}
+		
+				
+	}	
+
+#########BASE###########
+
+	windowType = {
+		name = "spy_basebrowse_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=500 y= 28 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name ="base_bg"
+			spriteType = "GFX_base_banner"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}		
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 15 y =5 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 0}
+			text = "xx"	
+			maxWidth = 500
+			maxHeight = 32	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "size"
+			position = { x = 238 y =5 }
+			textureFile = ""
+			font = "Arial12_bold"
+			borderSize = {x = 4 y = 0}
+			text = "xx"	
+			maxWidth = 100
+			maxHeight = 32
+			format = right
+			Orientation = "UPPER_LEFT"
+		}
+		
+				
+	}	
+
+	positionType = {
+		name = "spy_browser_offset"
+		position = { x = 10 y = 0 }
+	}	
+	
+	########## ENEMY BUILDINGS LIST ##############
+	#windowType = {
+	#	name = "enemy_building_entry"
+	#	position = { x=0 y=0 }	
+	#	size = { x=128 y=30 }
+	#	Orientation = "UPPER_LEFT"	
+		
+	#	instantTextBoxType = {
+	#		name = "building_type"
+	#		position = { x = 10 y =10 }
+	#		format = left
+	#		font = "Arial12"
+	#		maxWidth = 128
+	#		maxHeight = 32	
+	#	}
+		
+		#	instantTextBoxType = {
+		#	name = "number_of_buildings"
+		#	position = { x = 125 y = 10}
+		#	format = left
+		#	font = "Arial12"
+		#	maxWidth = 128
+		#	maxHeight = 32	
+		#}
+		
+	#	instantTextBoxType = {
+	#		name = "estimate_value"
+	#		position = { x = 115 y = 10}
+	#		format = left
+	#		font = "Arial12"
+	#		maxWidth = 128
+	#		maxHeight = 32	
+	#	}
+		
+	#}
+	########## RESEARCH ESPIONAGE ##############
+	windowType = {
+		name = "research_esp_entry"
+		position = { x=0 y=0 }	
+		size = { x=128 y=21 }
+		Orientation = "UPPER_LEFT"	
+		
+		instantTextBoxType = {
+			name = "tab"
+			position = { x = 3 y =6 }
+			format = left
+			font = "Arial12_black"
+			maxWidth = 128
+			maxHeight = 16	
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "researched_number"
+			position = { x = 104 y = 6}
+			format = right
+			font = "Arial12_black"
+			maxWidth = 30
+			maxHeight = 16	
+			fixedsize = yes
+		}
+		
+		instantTextBoxType = {
+			name = "all_number"
+			position = { x = 104 y = 6}
+			format = left
+			font = "Arial12_black"
+			maxWidth = 30
+			maxHeight = 16	
+			fixedsize = yes
+		}
+	}
+	
+	########## SPY PRIORITY LIST ##############
+	windowType = {
+		name = "spy_modifier_entry"
+		position = { x=0 y=0 }	
+		size = { x=200 y=20 }
+		Orientation = "UPPER_LEFT"	
+		
+		instantTextBoxType = {
+			name = "spy_modifier_name"
+			position = { x = 10 y =10 }
+			format = left
+			font = "Arial12"
+			maxWidth = 170
+			maxHeight = 32	
+		}
+		
+			instantTextBoxType = {
+			name = "spy_modifier_value"
+			position = { x = 130 y =10 }
+			format = left
+			font = "Arial12"
+			maxWidth = 170
+			maxHeight = 32	
+		}
+	}
+	
+	########## UNITS LIST ##############
+	windowType = {
+		name = "unit_entry"
+		size = { x=190 y=28 }
+		Orientation = "UPPER_LEFT"
+		
+		
+		
+		iconType = {
+			name = "unit_plate"
+			spriteType = "GFX_espionage_unit_plate_stationary"
+			position = { x= -2 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="counter_type"
+			spriteType = "GFX_temp_unit_icon"
+			position = { x=-13 y=-9 }
+		}
+		
+		instantTextBoxType = {
+			name = "mobilized"
+			position = { x = 65 y =9 }
+			format = centre
+			font = "Jockey_14"
+			maxWidth = 65
+			maxHeight = 32	
+		}
+		
+		instantTextBoxType = {
+			name = "reserve"
+			position = { x = 145 y =9 }
+			format = centre
+			font = "Jockey_14"
+			maxWidth = 65
+			maxHeight = 32	
+		}
+		
+		instantTextBoxType = {
+			name = "total"
+			position = { x = 220 y =9 }
+			format = centre
+			font = "Jockey_14"
+			maxWidth = 60
+			maxHeight = 32	
+		}
+		
+		#instantTextBoxType = {
+		#	name = "estimate_mobilized"
+		#	position = { x = 310 y =9 }
+		#	format = left
+		#	font = "Arial12"
+		#	maxWidth = 128
+		#	maxHeight = 32	
+		#}
+		
+	}
+	################### SPY ACTIVITY LIST ####################
+	
+	windowType = {
+		name = "spy_activity_entry"
+		position = { x=0 y=0 }	
+		size = { x=284 y=58 }
+		Orientation = "UPPER_LEFT"	
+		
+		guiButtonType = {
+			name = "spy_activity_button"
+			position = { x=0  y = 0}
+			quadTextureSprite ="GFX_spy_activity_button_intel"
+			buttonFont = "Arial12"
+			clicksound = click
+		}
+		
+		guiButtonType = {
+			name ="country_icon"
+			quadTextureSprite = "GFX_minishield"
+			position = { x= 0 y = 2}
+			Orientation = "UPPER_LEFT"
+			clicksound = click
+		}
+		
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = -75 y =10 }
+			format = left
+			font = "Jockey_14_cyan"
+			maxWidth = 170
+			maxHeight = 32	
+		}
+		
+		instantTextBoxType = {
+			name = "spy_name"
+			position = { x = 95 y =10 }
+			format = left
+			font = "Arial12"
+			maxWidth = 170
+			maxHeight = 32	
+		}
+	}
+	
+	
+	
+	
+	windowType = {
+		name = "spy_onmission_entry"
+		position = { x=0 y=0 }	
+		size = { x=284 y= 54 }
+		moveable = 0
+		fullScreen = no
+
+		guiButtonType = {
+			name = "bg_spylist"
+			position = { x= 0  y = -2}
+			quadTextureSprite ="GFX_spy_activity_button_intel"
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name ="country_icon"
+			quadTextureSprite = "GFX_minishield"
+			position = { x= 12 y = 12}
+			clicksound = click
+		}
+		
+		instantTextBoxType = {
+			name = "spy_mission"
+			position = { x = 55 y = 26 }
+			font = "Arial12_bold"
+			text = "xx"	
+			maxWidth = 120
+			maxHeight = 16	
+		}
+		
+		instantTextBoxType = {
+			name = "spy_name"
+			position = { x = 53 y = 7 }
+			font = "Jockey_14_cyan"
+			maxWidth = 215
+			maxHeight = 16	
+			format = right
+		}
+		
+		instantTextBoxType = {
+			name = "spy_target"
+			position = { x = 169 y = 26 }
+			font = "Arial12"
+			maxWidth = 100
+			maxHeight = 16
+			format = right
+			fixedsize = yes
+		}
+
+	}
+
+	########## FOREIGN SPY LIST ##############
+	#windowType = {
+	#	name = "enemy_spies"
+	#	position = { x=0 y=0 }	
+	#	size = { x=166 y=32 }
+	#	Orientation = "UPPER_LEFT"
+
+	#	iconType = {
+	#		name ="bg_espylist"
+	#		spriteType = "GFX_espylist_entry"
+	#		position = { x= 0 y = 1 }
+	#		Orientation = "UPPER_LEFT"
+	#	}
+
+	#	instantTextBoxType = {
+	#		name = "espy_codename"
+	#		position = { x = 6 y = 6 }
+	#		format = left
+	#		font = "Arial12"
+	#		maxWidth = 128
+	#		maxHeight = 32	
+	#	}
+		
+	#	instantTextBoxType = {
+	#		name = "espy_skill"
+	#		position = { x = 24 y =6 }
+	#		format = right
+	#		font = "Arial12"
+	#		maxWidth = 128
+	#		maxHeight = 32	
+	#	}	
+	#}
+	
+	#windowType = {
+	#	name = "external_diplo_entry"
+	#	position = { x=10 y=0 }	
+	#	size = { x= 160 y = 14}
+	#	Orientation = "UPPER_LEFT"
+	#
+	#		instantTextBoxType = {
+	#			name = "diplotext"
+	#			position = { x = 5 y = 0 }
+	#			format = left
+	#			font = "Jockey_14"
+	#			maxWidth = 158
+	#			maxHeight = 14
+	#			fixedsize = yes
+	#		}
+	#	
+	#}
+
+	windowType = {
+		name = "external_relation_entry"
+		position = { x=10 y=0 }	
+		size = { x= 160 y = 32}
+		Orientation = "UPPER_LEFT"
+
+#		iconType = {
+#			name ="bg_espylist"
+#			spriteType = "GFX_espylist_entry"
+#			position = { x= 0 y = 1 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
+		guiButtonType = {
+			name ="country_icon"
+			quadTextureSprite = "GFX_minishield"
+			position = { x= -4 y =  3}
+			Orientation = "UPPER_LEFT"
+			clicksound = click
+		}
+
+		
+		instantTextBoxType = {
+			name = "ext_country"
+			position = { x = 29 y = 10 }
+			format = left
+			font = "Arial12"
+			maxWidth = 128
+			maxHeight = 32	
+		}
+		
+		instantTextBoxType = {
+			name = "ext_relation"
+			position = { x = 28 y = 10 }
+			format = right
+			font = "Arial12"
+			maxWidth = 128
+			maxHeight = 32	
+		}
+		
+		
+		
+	}	
+	
+	windowType = {
+		name = "espionage_political_legend_item"
+		position = { x=0 y=0 }	
+		size = { x=180 y=24 }
+		moveable = 0
+		fullScreen = no
+		
+		iconType = {
+			name = "ideology_circle_bg"
+			spriteType = "GFX_ideology_circle_bg"
+			position = { x=0 y=-4 }
+		}
+
+		# color icon inserted here
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_legend_icon"
+			position = { x=0 y=-4 }
+		}
+
+		iconType = {
+			name = "ideology_circle_overlay"
+			spriteType = "GFX_ideology_circle_overlay"
+			position = { x=0 y=-4 }
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x=22 y=6 }
+			format = right
+			font = "Arial12_cyan"
+			borderSize = { x=0 y=0 }
+			maxWidth = 130
+			maxHeight = 12
+			fixedsize = yes
+		}
+	}
+
+	windowType = {
+		name = "foreign_minister_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=200 y=80 }
+		moveable = 0
+		fullScreen = no
+		
+		iconType = {
+			name = "replace_minister"
+			position = { x=-9 y=0 }
+			spriteType ="GFX_empty_position_minister"
+		}
+
+		iconType = {
+			name = "legend_color"
+			spriteType = "GFX_politics_ideology_light"
+			position = { x=71 y=2 }
+		}
+		
+		iconType = {
+			name = "legend_color_overlay"
+			spriteType = "GFX_politics_ideology_light_overlay"
+			position = { x=71 y=2 }
+		}
+		
+		instantTextBoxType = {
+			name = "name"
+			position = { x=65 y=6 }
+			format = right
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = { x=4 y=0 }
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "personality"
+			position = { x=89 y=28 }
+			format = left
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = { x=4 y=0 }
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "ability"
+			position = { x=89 y=42 }
+			format = left
+			textureFile = ""
+			font = "Arial12_black"
+			borderSize = { x=4 y=0 }
+			text = ""	
+			maxWidth = 218
+			maxHeight = 32
+		}
+
+		guiButtonType = {
+			name = "info_minister"
+			position = { x=295 y=-4 }
+			quadTextureSprite ="GFX_politics_info"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+
+		iconType = {
+				name = "photo_head_of_state_overlay"
+				spriteType = "GFX_tv_photo_overlay"
+				position = { x=-7 y=2 }
+			}
+	}
+
+	windowType = {
+		name = "esp_current_gov_policy_entry"
+		position = { x=0 y=0 }	
+		size = { x=150 y=79 }
+		moveable = 0
+		fullScreen = no				
+
+		instantTextBoxType= {
+			position = { x=80 y=-1 }
+			name = "category"
+			font = "Jockey_16_paper"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 240
+			maxHeight = 20
+			format = centre
+		}
+
+		iconType = {
+			name = "select_button"
+			position = { x=85 y=19 }
+			spriteType = "GFX_gov_policy_button"
+		}
+
+		iconType = {
+			name = "govphoto"
+			spriteType = "GFX_empty_position_policy"
+			position = { x=5 y=6 }
+		}
+
+#		iconType = {
+#			name = "tooltip_image"
+#			spriteType = "GFX_empty_position_policy"
+#			position = { x=5 y=6 }
+#		}
+
+		
+
+		instantTextBoxType= {
+			position = { x=90 y=21 }
+			name = "which"
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = centre
+		}
+		
+		instantTextBoxType= {
+			position = { x=88 y=36 }
+			name = "info"
+			font = "Arial12_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 40
+			text = ""
+			format = left
+		}	
+
+		guiButtonType = {
+			name = "info_policy_button"
+			position = { x=304 y=13}
+			quadTextureSprite ="GFX_policy_info"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+	}
+	
+	
+
+	windowType = {
+		name = "esp_current_law_entry"
+		position = { x=0 y=0 }	
+		size = { x=300 y= 16 }
+		fullScreen = no
+
+		instantTextBoxType= {
+			position = { x=-9 y =-9}
+			name = "category"
+			font = "Arial12"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		#iconType = {
+		#	name = "select_button"
+		#	position = { x=132 y=-12 }
+		#	spriteType = "GFX_law_button"
+		#}
+		
+		instantTextBoxType= {
+			position = { x=50 y=-10 }
+			name = "which"
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			format = right
+		}		
+	}
+		
+	windowType = {
+		name = "esp_current_idea_entry"
+		position = { x=0 y=0 }	
+		size = { x=300 y= 16 }
+		moveable = 0
+		fullScreen = no
+
+		instantTextBoxType= {
+			position = { x=-10 y=-9 }
+			name = "category"
+			font = "Arial12"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = left
+		}
+
+		#iconType = {
+		#	name = "select_button"
+		#	position = { x=134 y=-11 }
+		#	spriteType = "GFX_law_button"
+		#}
+
+		instantTextBoxType= {
+			position = { x=52 y=-9 }
+			name = "which"
+			font = "Arial12_bold_black"
+			borderSize = { x=0 y=0 }	
+			maxWidth = 230
+			maxHeight = 20
+			text = ""
+			format = right
+		}		
+	}
+}
+
+

@@ -1,0 +1,200 @@
+########################
+# DDR missile Boats
+########################
+# Model 1955
+missile_boat.0 = {
+	unit_missileboat = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 2
+	conventionalnavalgun = 3
+	closedefense = 3
+	antishipmissile_shortrange = 1
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 3
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 18
+}
+
+# Model 1960
+missile_boat.1 = {
+	unit_missileboat = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 2
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 16
+}
+
+# Model 1965
+missile_boat.2 = {
+	unit_missileboat = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 5
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 13
+}
+
+# Model 1970
+missile_boat.3 = {
+	unit_missileboat = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 4
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 6
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 23
+}
+
+# Model 1975
+missile_boat.4 = {
+	unit_missileboat = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 3
+	propulsion_diesel_surface_40s = 0
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 7
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 21
+}
+
+# Model 1980
+missile_boat.5 = {
+	unit_missileboat = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 0
+	propulsion_gas = 3	
+	propulsion_diesel_surface_40s = 0
+	conventionalnavalgun = 8
+	closedefense = 8
+	antishipmissile_shortrange = 6
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 8
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 18
+}
+# Parchim I-class
+missile_boat.6 = {
+	unit_missileboat = 7
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 5
+	sonarsystem = 4
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 4
+	closedefense = 3
+	antishipmissile_shortrange = 4
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 6	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 6
+	wikipage = /wiki/Parchim_class_corvette
+}
+# Parchim II-class
+missile_boat.7 = {
+	unit_missileboat = 8
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 5
+	sonarsystem = 4
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 5
+	closedefense = 6
+	antishipmissile_shortrange = 4
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 8
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 11
+	wikipage = /wiki/Parchim_class_corvette
+}
+# Sassnitz-class
+missile_boat.8 = {
+	unit_missileboat = 9
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 5
+	closedefense = 6
+	antishipmissile_shortrange = 8
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 4
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 8
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 8
+	wikipage = /wiki/Orkan_class
+}

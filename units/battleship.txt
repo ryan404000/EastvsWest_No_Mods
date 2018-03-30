@@ -1,0 +1,56 @@
+battleship = {
+	type = naval
+	sprite = Battleship
+	capital = yes
+	can_be_pride = yes
+	goods_usage = 
+	{
+		heavy_industry = 0.05
+		naval_yards = 0.03
+	}
+	
+	hull = 3.5
+	active = no
+	modelsize = 2
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 15	#30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost = 48.00
+	build_cost_manpower = 2.50
+	build_time = 700
+
+	#Misc Abilities
+	maximum_speed = 18.00
+	transport_capability = 0.00
+	supply_consumption = 0.70
+	fuel_consumption = 1.15
+	range = 2500.00
+	
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 1.00
+	sub_detection = 1.00
+	visibility = 90.00
+	air_radar_range = 160
+	surface_radar_range = 30
+	sonar_range = 0
+
+	#Defensive Abilities
+	sea_defence = 15.00
+	air_defence = 4.00
+
+	#Offensive Abilities
+	convoy_attack = 12.00
+	sea_attack = 16.00
+	sub_attack = 0.00
+	air_attack = 4.00
+	shore_bombardment = 4.00	#6
+
+	priority = 9
+}

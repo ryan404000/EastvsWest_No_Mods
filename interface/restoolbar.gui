@@ -1,0 +1,165 @@
+guiTypes = {
+
+	eu3dialogtype = {
+		name = "restoolbar"
+		backGround="Background"
+		position = { x=300 y=300 }	
+		size = { x=600 y=68 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite = "GFX_bg_restoolbar"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		textBoxType = {
+				name = "rbar_title"
+				position = { x = 20 y = 54 }
+				textureFile = ""
+				font = "Arial12_bold"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 470
+				maxHeight = 50
+				format = left
+			}
+
+		guiButtonType = {
+			name = "btn_abort"
+			position = { x=602 y=8 }
+			quadTextureSprite ="GFX_bar_btn_abort"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+#		instantTextBoxType = { 
+#			name = "resource_qty"
+#			position = { x = 282 y = 54 }
+#			textureFile = ""
+#			font = "Arial14"
+#			borderSize = {x = 0 y = 0}
+#			text = ""	
+#			maxWidth = 22
+#			maxHeight = 40
+#			format = centre
+#		}
+
+		editBoxType = {
+			position = { x = 298 y = 44  }
+			name = "resource_qty"
+#			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+#			font = "FPS_Font"
+			font = "Arial12"
+			borderSize = {x = 4 y = 4}	
+			size = { x=50 y=40}
+			text = " "	
+			orientation = "UPPER_LEFT"
+		}
+
+		
+
+		guiButtonType = {
+			name = "qty_dec"
+			position = { x=274 y=54 }
+			quadTextureSprite = "slider_leftbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+		guiButtonType = {
+			name = "qty_inc"
+			position = { x=340 y=54 }
+			quadTextureSprite ="slider_rightbutton"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+		instantTextBoxType = { 
+			name = "total_qty"
+			position = { x = 360 y = 54 }
+			textureFile = ""
+			font = "Arial14"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 300
+			maxHeight = 40
+			format = left
+		}
+
+		guiButtonType = {
+			name = "statview"
+			quadTextureSprite ="GFX_topbarbutton_stats"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x = 600 y = 54 }
+			buttonText = "Statistics"
+			buttonFont = "trebuchet"
+			clicksound = message
+		}
+
+
+		OverlappingElementsBoxType = {
+			   name = "resources_box"
+			   position = { x = 10 y = 12 }
+			   size = { x= 620 y= 44 }
+			   Orientation = "UPPER_LEFT"
+			   format = left
+			   spacing = 1.0
+		}
+
+
+
+
+	}
+
+	windowType = {
+		name = "resourcebar_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x = 40 y = 45 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		Orientation = "UPPER_LEFT" 
+
+		guiButtonType = {
+			name = "resource_button"
+			position = { x=0 y=0 }
+			quadTextureSprite ="GFX_resources_icon"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "Arial14"
+		}
+
+
+	}
+
+
+
+}
+
+
+
+

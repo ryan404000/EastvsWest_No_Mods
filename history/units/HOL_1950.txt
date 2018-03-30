@@ -1,0 +1,80 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 5164
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 5164
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 5164
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 1 strength = 21 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 1 strength = 35 experience = 4 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 5164
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 1 strength = 21 experience = 5 }
+			regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 1 strength = 35 experience = 4 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 5778
+		location = 5778
+		wing = { type = multi_role name = "1st Fighter Wing" historical_model = 0 strength = 20 builder = USA }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 5164 # Amsterdam
+		location = 5164
+		ship = { type = escort_carrier name = "HrMs Karel Doorman" historical_model = 0 builder = ENG}			
+		ship = { type = cruiser name = "HrMs Tromp" historical_model = 0 }
+		ship = { type = cruiser name = "HrMs Jacob van Heemskerck" historical_model = 0 }
+		ship = { type = destroyer name = "1e Torpedobootjager Smaldeel" historical_model = 0 builder = ENG}				
+		ship = { type = transport_ship name = "1e Transportsmaldeel" historical_model = 0 }
+		ship = { type = transport_ship name = "2e Transportsmaldeel" historical_model = 0 }
+	}
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 5112
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 36 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 1 strength = 38 experience = 5 }
+	regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 36 experience = 5 }
+	regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 0 strength = 36 experience = 5 }
+}
+military_construction = {
+	country = HOL
+	name = "HrMs De Ruyter"
+	cruiser = {
+		name = "HrMs De Ruyter"
+		historical_model = 1
+		}
+	#cost = xxx
+	progress = 70
+	#duration = xxx
+}
+military_construction = {
+	country = HOL
+	name = "HrMs De Ruyter"
+	cruiser = {
+		name = "HrMs De Zeven Provinciën"
+		historical_model = 1
+		}
+	#cost = xxx
+	progress = 0
+	#duration = xxx
+}

@@ -1,0 +1,603 @@
+###########################
+# YUG  attack subs
+###########################
+# Model 1950
+attack_submarine.0 = {
+	unit_submarine_attack = 1
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 2
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 8
+}
+
+# Model 1955
+attack_submarine.1 = {
+	unit_submarine_attack = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 2
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 3
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 8	
+}
+# Sutjeska-class
+attack_submarine.2 = {
+	unit_submarine_attack = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 1
+	launcher_torpedotubes_533_650 = 4
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 4	
+	wikipage = /wiki/Sutjeska_class_submarine
+}
+# Model 1965
+attack_submarine.3 = {
+	unit_submarine_attack = 4
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 3
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 5
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 6	
+}
+# Heroj-class
+attack_submarine.4 = {
+	unit_submarine_attack = 5
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 1
+	launcher_torpedotubes_533_650 = 5
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 2		
+	wikipage = /wiki/Heroj_class_submarine
+}
+# Model 1975
+attack_submarine.5 = {
+	unit_submarine_attack = 6
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 4
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 7
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 4	
+}
+# Sava-class
+attack_submarine.6 = {
+	unit_submarine_attack = 7
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_diesel_submarine = 1
+	launcher_torpedotubes_533_650 = 5
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 2	
+	wikipage = /wiki/Sava_class_submarine
+}
+# Model 1985
+attack_submarine.7 = {
+	unit_submarine_attack = 8
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_diesel_submarine = 5
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 9
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 4	
+}
+
+# Model 1990
+attack_submarine.8 = {
+	unit_submarine_attack = 9
+	sonarsystem = 6
+	towed_sonarsystem = 2
+	propulsion_diesel_submarine = 6
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 10
+	hksubs_strikeoperations = 0
+	allsubs_autonomousoperations = 0
+	hksubs_submarineescorting = 0
+	hksubs_surfacevesselescorting = 0
+	hksubs_planning_dynamiccombattempotraining = 0
+	hksubs-surfacesubs_sensoryandweaponscommand = 0
+	hksubs-surfacesubs_satellitecommequipment = 0
+	allsubs_silentoperations = 0	
+	hullmaxslots = 0
+	hullmaxsize = 4	
+}
+########################
+# YUG missile Boats
+########################
+# Model 1955
+missile_boat.0 = {
+	unit_missileboat = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 2
+	conventionalnavalgun = 3
+	closedefense = 3
+	antishipmissile_shortrange = 1
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 3
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 18
+}
+
+# Model 1960
+missile_boat.1 = {
+	unit_missileboat = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 2
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 16
+}
+
+# Model 1965
+missile_boat.2 = {
+	unit_missileboat = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 5
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 13
+}
+
+# Model 1970
+missile_boat.3 = {
+	unit_missileboat = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 4
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 6
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 23
+}
+
+# Model 1975
+missile_boat.4 = {
+	unit_missileboat = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 3
+	propulsion_diesel_surface_40s = 0
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 7
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 21
+}
+# Koncar-class
+missile_boat.5 = {
+	unit_missileboat = 6
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 1	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 5
+	closedefense = 6
+	antishipmissile_shortrange = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 8
+	wikipage = /wiki/Koncar_class_fast_attack_craft
+}
+# Model 1985
+missile_boat.6 = {
+	unit_missileboat = 7
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 0
+	propulsion_gas = 4
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 7
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 9
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 29
+}
+# Kralj-class
+missile_boat.7 = {
+	unit_missileboat = 8
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 5
+	closedefense = 6
+	antishipmissile_shortrange = 7
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 8	
+	wikipage = /wiki/Kralj_class_fast_attack_craft
+}
+
+########################
+# YUG missile Frigattes
+########################
+# Model 1955
+missile_frigate.0 = {
+	unit_missilefrigate = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0	
+	propulsion_steam = 2	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 3
+	closedefense = 3
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 3
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 3
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 19
+}
+
+# Model 1960
+missile_frigate.1 = {
+	unit_missilefrigate = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 4
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 4
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 17
+}
+
+# Model 1965
+missile_frigate.2 = {
+	unit_missilefrigate = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 5
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 5
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 24
+}
+
+# Model 1970
+missile_frigate.3 = {
+	unit_missilefrigate = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_steam = 0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 6
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 6
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 24
+}
+
+# Model 1975
+missile_frigate.4 = {
+	unit_missilefrigate = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_steam =0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 7
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 7
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 32
+}
+
+# Model 1980
+missile_frigate.5 = {
+	unit_missilefrigate = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_steam =0	
+	propulsion_gas = 3
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 8
+	closedefense = 8
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 8
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 8
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 31
+}
+# Kotor-class
+missile_frigate.6 = {
+	unit_missilefrigate = 7
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 3
+	towed_sonarsystem = 0	
+	propulsion_steam = 0	
+	propulsion_gas = 2	
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 5
+	closedefense = 6
+	antishipmissile_shortrange = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 5
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 4
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 12	
+	wikipage = /wiki/Kotor_class_frigate
+}
+# Model 1990
+missile_frigate.7 = {
+	unit_missilefrigate = 8
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 6
+	towed_sonarsystem = 2
+	propulsion_steam =0	
+	propulsion_gas = 5
+	propulsion_diesel_surface_40s = 6
+	conventionalnavalgun = 10
+	closedefense = 10
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 10
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 10
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 38
+}

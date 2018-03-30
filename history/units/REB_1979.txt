@@ -1,0 +1,38 @@
+army = 
+{
+		name = "1st Army"
+		location = 9837
+	
+	rebel_faction =
+	{
+		type="nationalist_rebels"
+		name="Taliban"
+		country="AFG"
+		target="SOV"
+		target="AFG"
+		government="theocracy_gov"
+		province=9837
+		provinces=
+		{
+			9837 9784
+		}
+	}
+		
+		division =
+		{
+			name = "1st Taliban Group"
+			location = 9837
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 34 experience = 4 }
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 35 experience = 5 }
+		}
+		
+		division =
+		{
+			name = "2nd Taliban Forces"
+			location = 9784
+			regiment = { type = militia_brigade name = "2nd Militia Brigade" historical_model = 0 strength = 35 experience = 5 }
+			regiment = { type = militia_brigade name = "3rd Militia Brigade" historical_model = 0 strength = 36 experience = 5 }
+		}
+
+}
+

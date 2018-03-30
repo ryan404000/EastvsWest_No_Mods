@@ -1,0 +1,134 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 2174
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "Ontario Army"
+		location = 2174
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 2174
+			regiment = { type = light_mechanized_brigade name = "1st L. Mech Brigade" historical_model = 4 strength = 35 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 4 strength = 25 experience = 6 }
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 3 strength = 24 experience = 6 }
+		}
+	}
+	army =
+	{
+		name = "Quebec Army"
+		location = 2857
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "3rd Division"
+			location = 2857
+			regiment = { type = light_mechanized_brigade name = "5th L. Mech Brigade" historical_model = 3 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 4 strength = 39 experience = 5 }
+		}
+	}
+	army =
+	{
+		name = "Western Army"
+		location = 683
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "5th Division"
+			location = 683
+			regiment = { type = light_mechanized_brigade name = "8th L. Mech Brigade" historical_model = 4 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 4 strength = 40 experience = 4 }
+			regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 4 strength = 25 experience = 4 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 2174
+		location = 2174
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 5 strength = 100 }
+	}
+	air = {
+		name = "2nd Air Force"
+		base = 2174
+		location = 2174
+		wing = { type = helo_maritime name = "1st Helicopter Wing" historical_model = 1 strength = 100 }
+		wing = { type = helo_maritime name = "2nd Helicopter Wing" historical_model = 1 strength = 100 }
+	}
+	navy = 
+		name = "1st Fleet"
+		base = 3013 # East Coast (Halifax)
+		location = 3013
+		ship = { type = missile_frigate name = "HMCS Skeena" historical_model = 7 }
+		ship = { type = missile_frigate name = "HMCS Ottawa" historical_model = 7 }
+		ship = { type = missile_frigate name = "HMCS Margaree" historical_model = 7 }
+		ship = { type = missile_frigate name = "HMCS Fraser" historical_model = 7 }
+		ship = { type = missile_frigate name = "HMCS Restigouche" historical_model = 6 }
+		ship = { type = missile_frigate name = "HMCS Gatineau" historical_model = 6 }
+		ship = { type = missile_frigate name = "HMCS Kootenay" historical_model = 6 }
+		ship = { type = missile_frigate name = "HMCS Terra Nova" historical_model = 6 }	
+		ship = { type = missile_frigate name = "HMCS Mackenzie" historical_model = 8 }
+		ship = { type = missile_frigate name = "HMCS Saskatchewan" historical_model = 8 }
+		ship = { type = missile_frigate name = "HMCS Yukon" historical_model = 8 }
+		ship = { type = missile_frigate name = "HMCS Qu'Appelle" historical_model = 8 }		
+		ship = { type = missile_frigate name = "HMCS Annapolis" historical_model = 9 }
+		ship = { type = missile_frigate name = "HMCS Nipigon" historical_model = 9 }
+		ship = { type = missile_destroyer name = "HMCS Iroquois" historical_model = 2 }
+		ship = { type = missile_destroyer name = "HMCS Huron" historical_model = 2 }
+		ship = { type = missile_destroyer name = "HMCS Athabaskan" historical_model = 2 }
+		ship = { type = missile_destroyer name = "HMCS Algonquin" historical_model = 2 }		
+		ship = { type = transport_ship name = "1st Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "2nd Transport Flotilla" historical_model = 0 }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 3013 # East Coast (Halifax)
+		location = 3013
+		ship = { type = attack_submarine name = "HMCS Ojibwa" historical_model = 2 builder = ENG }
+		ship = { type = attack_submarine name = "HMCS Okanagan" historical_model = 2 builder = ENG }
+		ship = { type = attack_submarine name = "HMCS Onondaga" historical_model = 2 builder = ENG }
+	}
+}
+division =
+{
+	name = "6th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = light_mechanized_brigade name = "10th L. Mech Brigade" historical_model = 4 strength = 35 experience = 5 }
+	regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 4 strength = 39 experience = 4 }
+	regiment = { type = artillery_brigade name = "5th Artillery Regiment" historical_model = 4 strength = 24 experience = 5 }
+	regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 4 strength = 39 experience = 5 }
+}
+
+division =
+{
+	name = "7th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 4 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 4 strength = 40 experience = 5 }
+}
+division =
+{
+	name = "2nd Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 3 strength = 24 experience = 10 }
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+}
+division =
+{
+	name = "4th Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 3 strength = 40 experience = 4 }
+	regiment = { type = infantry_brigade name = "17th Infantry Brigade"  historical_model = 4 strength = 20 experience = 5 }
+}

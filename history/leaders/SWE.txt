@@ -1,0 +1,1920 @@
+1439005 = {
+	name = "Sebastian Sjöberg"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = winter_specialist
+	add_trait = trickster
+	add_trait = commando	
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 2 }
+		1955.1.1 = { rank = 3 }
+		1960.3.1 = { rank = 0 }
+	}
+}
+1439017 = {
+	name = "Kasper Nyman"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1439016 = {
+	name = "Rolf Lund"
+	type = land
+	country = SWE
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1439012 = {
+	name = "Kevin Jansson"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1439009 = {
+	name = "Emil Åström"
+	type = land
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1439000 = {
+	name = "Thorbjörn Larsson"
+	type = land
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.8.1 = { rank = 0 }
+	}
+}
+1439004 = {
+	name = "Jöran Dahl"
+	type = land
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1439006 = {
+	name = "Alfred Pettersson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1439015 = {
+	name = "Mattias Bengtsson"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.7.1 = { rank = 3 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1439002 = {
+	name = "Gunnar Holmberg"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.6.1 = { rank = 0 }
+	}
+}
+1439001 = {
+	name = "Staffan Lundgren"
+	type = land
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.9.1 = { rank = 0 }
+	}
+}
+1439026 = {
+	name = "Rune Fransson"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1954.10.1 = { rank = 0 }
+	}
+}
+1439023 = {
+	name = "Sture Åberg"
+	type = land
+	country = SWE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.3.1 = { rank = 1 }
+		1955.2.1 = { rank = 0 }
+	}
+}
+1439022 = {
+	name = "Adolf Nordström"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1439031 = {
+	name = "Valter Dahl"
+	type = land
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.2.1 = { rank = 1 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1439030 = {
+	name = "Rafael Andreasson"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1954.10.1 = { rank = 1 }
+		1957.5.1 = { rank = 0 }
+	}
+}
+1439024 = {
+	name = "Pål Lindgren"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	add_trait = ranger
+	history = {
+		1950.8.1 = { rank = 1 }
+		1957.12.1 = { rank = 0 }
+	}
+}
+1439008 = {
+	name = "Ralf Johnsson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 2 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1439035 = {
+	name = "Curt Åkesson"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.12.1 = { rank = 1 }
+		1959.9.1 = { rank = 0 }
+	}
+}
+1439034 = {
+	name = "Bert Nyström"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.5.1 = { rank = 1 }
+		1960.6.1 = { rank = 0 }
+	}
+}
+1439037 = {
+	name = "Willy Johansson"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.9.1 = { rank = 1 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1439013 = {
+	name = "Joakim Ek"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1962.6.1 = { rank = 0 }
+	}
+}
+1439011 = {
+	name = "Agne Gunnarsson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.4.1 = { rank = 2 }
+		1963.11.1 = { rank = 0 }
+	}
+}
+1439028 = {
+	name = "Pär Bergqvist"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.6.1 = { rank = 1 }
+		1958.11.1 = { rank = 2 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1439033 = {
+	name = "Moses Lindholm"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1957.8.1 = { rank = 1 }
+		1965.9.1 = { rank = 0 }
+	}
+}
+1439038 = {
+	name = "Nicklas Mårtensson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.6.1 = { rank = 1 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1439021 = {
+	name = "Gösta Jönsson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.4.1 = { rank = 1 }
+		1966.4.1 = { rank = 0 }
+	}
+}
+1439010 = {
+	name = "Jöns Berg"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1439039 = {
+	name = "Hektor Björklund"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1961.7.1 = { rank = 1 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1439014 = {
+	name = "Ola Öberg"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.2.1 = { rank = 3 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1439019 = {
+	name = "Ragnar Olofsson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1969.3.1 = { rank = 0 }
+	}
+}
+1439007 = {
+	name = "Jacob Berg"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.2.1 = { rank = 0 }
+	}
+}
+1439045 = {
+	name = "Albert Lindgren"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1966.4.1 = { rank = 1 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1439036 = {
+	name = "Daniel Gustavsson"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1963.11.1 = { rank = 2 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1439043 = {
+	name = "Uno Lindberg"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1965.9.1 = { rank = 1 }
+		1968.9.1 = { rank = 2 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1439032 = {
+	name = "Rikard Nordström"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1956.3.1 = { rank = 1 }
+		1962.6.1 = { rank = 2 }
+		1971.3.1 = { rank = 0 }
+	}
+}
+1439051 = {
+	name = "Gert Danielsson"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1970.9.1 = { rank = 1 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1439025 = {
+	name = "Jesper Johansson"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1950.1.1 = { rank = 1 }
+		1952.2.1 = { rank = 2 }
+		1973.5.1 = { rank = 0 }
+	}
+}
+1439056 = {
+	name = "Gert Jönsson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.5.1 = { rank = 1 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1439047 = {
+	name = "Alexander Åkesson"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1968.12.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1439054 = {
+	name = "Svantepolk Dahlberg"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1971.3.1 = { rank = 1 }
+		1976.10.1 = { rank = 0 }
+	}
+}
+1439049 = {
+	name = "Petter Berg"
+	type = land
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.3.1 = { rank = 1 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1439042 = {
+	name = "Wilhelm Lindberg"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.3.1 = { rank = 1 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1439020 = {
+	name = "Robin Gunnarsson"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1949.7.1 = { rank = 1 }
+		1964.3.1 = { rank = 2 }
+		1968.9.1 = { rank = 3 }
+		1978.9.1 = { rank = 0 }
+	}
+}
+1439061 = {
+	name = "Charles Lind"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.6.1 = { rank = 1 }
+		1978.4.1 = { rank = 0 }
+	}
+}
+1439041 = {
+	name = "Arnold Sandberg"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.11.1 = { rank = 1 }
+		1973.5.1 = { rank = 2 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1439018 = {
+	name = "Elia Eliasson"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1439058 = {
+	name = "Arnold Johansson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1439063 = {
+	name = "Karl Gustafsson"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.4.1 = { rank = 1 }
+		1980.5.1 = { rank = 0 }
+	}
+}
+1439027 = {
+	name = "Fabian Lundström"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.2.1 = { rank = 1 }
+		1970.11.1 = { rank = 2 }
+		1980.8.1 = { rank = 0 }
+	}
+}
+1439048 = {
+	name = "Oscar Ek"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1970.10.1 = { rank = 2 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1439059 = {
+	name = "Nicklas Ström"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.10.1 = { rank = 1 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1439050 = {
+	name = "Matts Lundström"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.2.1 = { rank = 1 }
+		1971.3.1 = { rank = 2 }
+		1978.9.1 = { rank = 3 }
+		1979.11.1 = { rank = 4 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1439044 = {
+	name = "Harald Nilsson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1965.2.1 = { rank = 1 }
+		1983.10.1 = { rank = 0 }
+	}
+}
+1439040 = {
+	name = "Petter Blom"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.6.1 = { rank = 1 }
+		1984.4.1 = { rank = 0 }
+	}
+}
+1439065 = {
+	name = "Kevin Jonsson"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.11.1 = { rank = 1 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1439073 = {
+	name = "Anton Arvidsson"
+	type = land
+	country = SWE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.4.1 = { rank = 1 }
+		1986.6.1 = { rank = 0 }
+	}
+}
+1439067 = {
+	name = "Gandalf Åberg"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.5.1 = { rank = 1 }
+		1981.9.1 = { rank = 2 }
+		1987.8.1 = { rank = 0 }
+	}
+}
+1439066 = {
+	name = "Tobias Engström"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.3.1 = { rank = 1 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1439074 = {
+	name = "Herman Göransson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1985.8.1 = { rank = 1 }
+		1989.10.1 = { rank = 0 }
+	}
+}
+1439072 = {
+	name = "Fredrik Öberg"
+	type = land
+	country = SWE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.10.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1439003 = {
+	name = "Olov Martinsson"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1978.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439029 = {
+	name = "Benjamin Wallin"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439046 = {
+	name = "Ivar Lundberg"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.4.1 = { rank = 1 }
+		1979.3.1 = { rank = 2 }
+		1979.11.1 = { rank = 3 }
+		1982.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439052 = {
+	name = "Viking Larsson"
+	type = land
+	country = SWE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.10.1 = { rank = 1 }
+		1979.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439053 = {
+	name = "Harry Björk"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1970.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439055 = {
+	name = "Evald Karlsson"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1972.7.1 = { rank = 1 }
+		1980.8.1 = { rank = 2 }
+		1982.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439057 = {
+	name = "Kaj Holmgren"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = ranger
+	history = {
+		1974.8.1 = { rank = 1 }
+		1987.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439060 = {
+	name = "Holger Ivarsson"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1977.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439062 = {
+	name = "Ingemar Petersson"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439064 = {
+	name = "Alex Nyberg"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1979.3.1 = { rank = 1 }
+		1982.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439068 = {
+	name = "Kenneth Sjögren"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439069 = {
+	name = "Gerhard Holmgren"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439070 = {
+	name = "Hektor Larsson"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439071 = {
+	name = "Enar Eriksson"
+	type = land
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439075 = {
+	name = "Josef Lindholm"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439076 = {
+	name = "Mickael Engström"
+	type = land
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439077 = {
+	name = "Kim Månsson"
+	type = land
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439078 = {
+	name = "Set Mattsson"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439079 = {
+	name = "Matteus Berggren"
+	type = land
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439081 = {
+	name = "Torsten Lindström"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.1.1 = { rank = 0 }
+	}
+}
+1439083 = {
+	name = "Arne Strömberg"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.6.1 = { rank = 0 }
+	}
+}
+1439080 = {
+	name = "Dag Söderström"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1439086 = {
+	name = "Gabriel Björk"
+	type = sea
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1439089 = {
+	name = "Bernt Persson"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.6.1 = { rank = 1 }
+		1953.7.1 = { rank = 0 }
+	}
+}
+1439082 = {
+	name = "Elia Nyström"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 2 }
+		1955.7.1 = { rank = 0 }
+	}
+}
+1439090 = {
+	name = "Kent Engström"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.12.1 = { rank = 1 }
+		1957.4.1 = { rank = 0 }
+	}
+}
+1439092 = {
+	name = "Jarl Axelsson"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.7.1 = { rank = 1 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1439095 = {
+	name = "Frank Nilsson"
+	type = sea
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.12.1 = { rank = 1 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1439091 = {
+	name = "Set Lindgren"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.1.1 = { rank = 1 }
+		1967.1.1 = { rank = 0 }
+	}
+}
+1439084 = {
+	name = "Kenneth Sandberg"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.7.1 = { rank = 2 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1439085 = {
+	name = "Carl Jönsson"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.1.1 = { rank = 3 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1439093 = {
+	name = "Örn Lundberg"
+	type = sea
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1955.7.1 = { rank = 1 }
+		1968.2.1 = { rank = 2 }
+		1969.8.1 = { rank = 3 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1439096 = {
+	name = "Pär Lundin"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1970.7.1 = { rank = 0 }
+	}
+}
+1439087 = {
+	name = "Kenth Lindholm"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1439099 = {
+	name = "Julius Lund"
+	type = sea
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.8.1 = { rank = 1 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1439100 = {
+	name = "Melker Bergqvist"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1439098 = {
+	name = "Elmer Nordström"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1969.8.1 = { rank = 2 }
+		1970.4.1 = { rank = 3 }
+		1970.10.1 = { rank = 4 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1439103 = {
+	name = "Pål Söderberg"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1970.5.1 = { rank = 1 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1439097 = {
+	name = "Adolf Mårtensson"
+	type = sea
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.1.1 = { rank = 1 }
+		1977.6.1 = { rank = 2 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1439088 = {
+	name = "Alex Sundström"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.1.1 = { rank = 1 }
+		1970.10.1 = { rank = 2 }
+		1977.6.1 = { rank = 3 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1439107 = {
+	name = "Bertil Hedlund"
+	type = sea
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1979.10.1 = { rank = 1 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1439094 = {
+	name = "Ulrik Jonasson"
+	type = sea
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.4.1 = { rank = 1 }
+		1970.4.1 = { rank = 2 }
+		1970.10.1 = { rank = 3 }
+		1977.6.1 = { rank = 4 }
+		1981.9.1 = { rank = 0 }
+	}
+}
+1439102 = {
+	name = "Gandalf Fredriksson"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.10.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1439108 = {
+	name = "Tore Åkesson"
+	type = sea
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.2.1 = { rank = 1 }
+		1987.4.1 = { rank = 0 }
+	}
+}
+1439101 = {
+	name = "Rasmus Abrahamsson"
+	type = sea
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439104 = {
+	name = "Victor Berglund"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.12.1 = { rank = 1 }
+		1979.10.1 = { rank = 2 }
+		1979.10.1 = { rank = 3 }
+		1981.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439105 = {
+	name = "Sören Blom"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1977.6.1 = { rank = 1 }
+		1979.2.1 = { rank = 2 }
+		1981.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439106 = {
+	name = "Dick Fransson"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.4.1 = { rank = 1 }
+		1981.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439109 = {
+	name = "Jöran Karlsson"
+	type = sea
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439110 = {
+	name = "Pär Pettersson"
+	type = sea
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439111 = {
+	name = "Seth Carlsson"
+	type = sea
+	country = SWE
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439112 = {
+	name = "Reine Persson"
+	type = sea
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439118 = {
+	name = "Christian Andreasson"
+	type = air
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.11.1 = { rank = 0 }
+	}
+}
+1439119 = {
+	name = "Christer Arvidsson"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1439114 = {
+	name = "Torvald Jönsson"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.1.1 = { rank = 0 }
+	}
+}
+1439120 = {
+	name = "Frans Isaksson"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1957.3.1 = { rank = 0 }
+	}
+}
+1439125 = {
+	name = "Albert Bengtsson"
+	type = air
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.3.1 = { rank = 1 }
+		1960.2.1 = { rank = 0 }
+	}
+}
+1439122 = {
+	name = "Torsten Magnusson"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.11.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1439126 = {
+	name = "Kristoffer Åberg"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.2.1 = { rank = 1 }
+		1964.12.1 = { rank = 0 }
+	}
+}
+1439116 = {
+	name = "Mattias Söderström"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = carpet_bomber
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1439115 = {
+	name = "Waldemar Hedlund"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 2 }
+		1957.3.1 = { rank = 3 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1439121 = {
+	name = "Tore Nordström"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1439128 = {
+	name = "Love Nyman"
+	type = air
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.12.1 = { rank = 1 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1439117 = {
+	name = "Martin Sjöberg"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.3.1 = { rank = 2 }
+		1968.12.1 = { rank = 3 }
+		1969.7.1 = { rank = 0 }
+	}
+}
+1439124 = {
+	name = "Kenny Lindholm"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.1.1 = { rank = 1 }
+		1968.7.1 = { rank = 2 }
+		1969.7.1 = { rank = 3 }
+		1970.9.1 = { rank = 0 }
+	}
+}
+1439113 = {
+	name = "Roy Samuelsson"
+	type = air
+	country = SWE
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.11.1 = { rank = 2 }
+		1968.7.1 = { rank = 3 }
+		1968.12.1 = { rank = 4 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1439123 = {
+	name = "Engelbrekt Jönsson"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = superior_air_tactician
+	history = {
+		1951.9.1 = { rank = 1 }
+		1968.12.1 = { rank = 2 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1439134 = {
+	name = "Bror Larsson"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1970.9.1 = { rank = 1 }
+		1970.9.1 = { rank = 2 }
+		1973.10.1 = { rank = 0 }
+	}
+}
+1439136 = {
+	name = "Olaus Holmberg"
+	type = air
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1439133 = {
+	name = "Morgan Månsson"
+	type = air
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.7.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1439127 = {
+	name = "Torbjörn Nyström"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.8.1 = { rank = 1 }
+		1976.6.1 = { rank = 0 }
+	}
+}
+1439137 = {
+	name = "Kristofer Nordin"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1973.10.1 = { rank = 1 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1439131 = {
+	name = "Eric Karlsson"
+	type = air
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1968.12.1 = { rank = 1 }
+		1970.9.1 = { rank = 2 }
+		1970.9.1 = { rank = 3 }
+		1978.11.1 = { rank = 0 }
+	}
+}
+1439141 = {
+	name = "Mathias Hedlund"
+	type = air
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1976.2.1 = { rank = 1 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1439142 = {
+	name = "Oliver Nyman"
+	type = air
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.11.1 = { rank = 1 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1439138 = {
+	name = "August Wallin"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1973.3.1 = { rank = 1 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1439144 = {
+	name = "Curt Jonasson"
+	type = air
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.1.1 = { rank = 1 }
+		1989.5.1 = { rank = 0 }
+	}
+}
+1439129 = {
+	name = "Wilhelm Karlsson"
+	type = air
+	country = SWE
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1967.4.1 = { rank = 1 }
+		1969.7.1 = { rank = 2 }
+		1970.9.1 = { rank = 3 }
+		1970.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439130 = {
+	name = "Hans Lindholm"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = night_flyer
+	history = {
+		1968.7.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1978.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439132 = {
+	name = "Konrad Ivarsson"
+	type = air
+	country = SWE
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.7.1 = { rank = 1 }
+		1973.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439135 = {
+	name = "Paul Bergqvist"
+	type = air
+	country = SWE
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439139 = {
+	name = "Roger Svensson"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1978.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439140 = {
+	name = "Öste Jonasson"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439143 = {
+	name = "Thomas Sandberg"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1979.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439145 = {
+	name = "Hektor Bergqvist"
+	type = air
+	country = SWE
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1439146 = {
+	name = "Set Sundström"
+	type = air
+	country = SWE
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

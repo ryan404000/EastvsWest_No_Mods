@@ -1,0 +1,25 @@
+#FRENCH EXPEDITIONARY FORCES IN INDOCHINA
+	army = 
+	{
+		name = "CEFEO Army Hanoi"
+		location = 12289
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+	
+		division = 
+		{
+			name = "11th Colonial Brigade"
+			location = 12289
+			regiment = { type = infantry_brigade name = "11th Colonial Brigade" historical_model = 0 strength = 33 experience = 29 }
+		}
+		
+		division = 
+		{
+			name = "2nd Armored Division 'Leclerc'"
+			location = 12289
+			regiment = { type = armor_brigade name = "2nd Arm. Division 'Leclerc'" historical_model = 0 strength = 22 experience = 35 }
+		}
+		
+
+	}
+
+

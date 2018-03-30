@@ -1,0 +1,118 @@
+spriteTypes = {	
+
+	
+	spriteType = {
+		name = "GFX_sidebar_view_provinces"
+		texturefile = "gfx\\interface\\sidebar_view_provinces.tga"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_sidebar_view_army"
+		texturefile = "gfx\\interface\\sidebar_view_army.tga"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_sidebar_view_naval"
+		texturefile = "gfx\\interface\\sidebar_view_naval.tga"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_sidebar_view_air"
+		texturefile = "gfx\\interface\\sidebar_view_air.tga"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_sidebar_view_combat"
+		texturefile = "gfx\\interface\\sidebar_view_combat.tga"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_sidebar_view_deploy"
+		texturefile = "gfx\\interface\\deployment\bg_deployment.dds"
+		noOfFrames = 1
+		norefcount = yes
+		transparencecheck = yes
+	}
+	textSpriteType = {
+		name = "GFX_sidebar_view_deploy_cancel"
+		texturefile = "gfx\\interface\\deployment\\deployment_btn_red.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	textSpriteType = {
+		name = "GFX_sidebar_view_deploy_deploy"
+		texturefile = "gfx\\interface\\common\\btn_blue.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_close_frame"
+		texturefile = "gfx\\interface\\button_close_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_select_deployment"
+		texturefile = "gfx\\interface\\select_deployment.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_select_deployment_target"
+		texturefile = "gfx\\interface\\select_deployment_target.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_close"
+		texturefile = "gfx\\interface\\button_close.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "deployment_plate_land_2"
+		texturefile = "gfx\\interface\\deployment\\prod_deployment_land_2.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "deployment_plate_air_2"
+		texturefile = "gfx\\interface\\deployment\\prod_deployment_air_2.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "deployment_plate_building_2"
+		texturefile = "gfx\\interface\\deployment\\prod_deployment_building_2.dds"
+		norefcount = yes
+	}
+	spriteType = {
+		name = "deployment_plate_naval_2"
+		texturefile = "gfx\\interface\\deployment\\prod_deployment_naval_2.dds"
+		norefcount = yes
+	}
+
+}

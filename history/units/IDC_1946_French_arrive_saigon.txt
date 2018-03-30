@@ -1,0 +1,42 @@
+#FRENCH EXPEDITIONARY FORCES IN INDOCHINA
+	army = 
+	{
+		name = "CEFEO Army"
+		location = 12296
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division = 
+		{   
+			name = "5th Colonial Brigade"
+			location = 12296
+			regiment = { type = infantry_brigade name = "5th Colonial Brigade" historical_model = 0 strength = 35 experience = 25 }
+		}
+			
+		division = 
+		{
+			name = "9th Colonial Brigade"
+			location = 12352
+			regiment = { type = infantry_brigade name = "9th Colonial Brigade" historical_model = 0 strength = 38 experience = 31 }
+		}
+		
+		division = 
+		{
+			name = "Far East Brigade"
+			location = 12353
+			regiment = { type = infantry_brigade name = "Far East Brigade" historical_model = 0 strength = 32 experience = 22 }
+		}
+	}
+	
+	army =
+	{
+		name = "Légion étrangère"
+		location = 12296 
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division = 
+		{
+			name = "3rd Foreign Brigade 'de la Selva'"
+			location = 12296
+			regiment = { type = infantry_brigade name = "3rd Foreign Brigade" historical_model = 0 strength = 35 experience = 55 }
+		}
+	}

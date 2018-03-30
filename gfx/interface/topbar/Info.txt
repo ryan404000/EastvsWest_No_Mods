@@ -1,0 +1,19 @@
+Layers from the bottom to the top:
+
+- naked_topbar.dds
+- flagtiles_topbar.dds #File with all of the worlds flags
+- flag_overlay.dds #Appropriate shadows for the flag
+- steel_part.dds
+- doomsday clock (clock_0 ... clock_15)
+
+#For these file the layer position is not important, just make sure they are all above the doomsday clock. 
+- icons
+- stats_topbar.dds
+- plus_speed.dds
+- minus_speed.dds
+- play_pause.dds
+- defcon_buttons.dds
+- tab_military (for now it can be used as a placeholder for the rest of tabs) 
+
+
+Grega Trobec

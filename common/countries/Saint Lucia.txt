@@ -1,0 +1,322 @@
+color = { 239  149  204 }
+graphical_culture = Generic
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	ENG_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={} 
+ministers = {
+
+	# 1319000 - 1319999
+	
+	# English Monarchy ----------------------------------
+	1319001 = {
+		name = "George VI"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = ENG_George
+		head_of_state = parental_type
+		start_date = 1936.9.11
+		death_date = 1952.2.6	
+		base = 1181001
+	}
+	1319002 = {
+		name = "Elizabeth II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = ENG_Elizabeth
+		head_of_state = traditionalist_type
+		start_date = 1952.2.6
+		death_date = 2300.5.12
+		base = 1181002
+	}
+	
+	#English Succession
+	1319300 = {
+		name = "George VII"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.99
+		picture = ENG_M_George_VII
+		head_of_state = parental_type
+		start_date = 1966.11.14 
+		death_date = 2300.1.1
+		base = 1181196
+	}
+	1319301 = {
+		name = "Andrew I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.98
+		picture = ENG_M_Andrew_I
+		head_of_state = fortunate_type
+		start_date = 1978.2.19
+		death_date = 2300.1.1
+		base = 1181197
+	}
+	1319302 = {
+		name = "Edward IX"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.97
+		picture = ENG_M_Edward_IX
+		head_of_state = courteous_figure
+		start_date = 1982.3.10
+		death_date = 2300.1.1
+		base = 1181198
+	}
+	1319304 = {
+		name = "Anne II"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.96
+		picture = ENG_M_Anne_II
+		head_of_state = courteous_figure
+		start_date = 1968.8.15
+		death_date = 2300.1.1
+		base = 1181209
+	}
+	1319305 = {
+		name = "Margaret I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.95
+		picture = ENG_M_Margaret_I
+		head_of_state = controversial_figure
+		start_date = 1952.3.1
+		death_date = 2002.2.9
+		base = 1181210
+	}
+	1319306 = {
+		name = "David III"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.94
+		picture = ENG_M_David_III
+		head_of_state = courteous_figure
+		start_date = 1979.11.3
+		death_date = 2300.1.1
+		base = 1181211
+	}
+	1319307 = {
+		name = "Sarah I"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.93
+		picture = ENG_M_Sarah_I
+		head_of_state = courteous_figure
+		start_date = 1982.5.1
+		death_date = 2300.1.1
+		base = 1181212
+	}
+	1319308 = {
+		name = "Henry IX"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.92
+		picture = ENG_M_Henry_IX
+		head_of_state = courteous_figure
+		start_date = 1946.1.1
+		death_date = 1974.6.10
+		base = 1181213
+	}
+	1319309 = {
+		name = "William V"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.91
+		picture = ENG_M_William_V
+		head_of_state = courteous_figure
+		start_date = 1959.12.18
+		death_date = 1972.8.28
+		base = 1181214
+	}
+	1319310 = {
+		name = "Richard IV"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.90
+		picture = ENG_M_Richard_IV
+		head_of_state = courteous_figure
+		start_date = 1962.8.26
+		death_date = 2300.1.1
+		base = 1181215
+	}
+	
+	
+	#Distant English Succession
+	1319311 = {
+		name = "Robert I von Bayern"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.40
+		picture = ENG_M_Robert_I_Bayern
+		head_of_state = traditionalist_type
+		start_date = 1919.2.3
+		death_date = 1955.8.2
+		base = 1181199
+	}
+	1319312 = {
+		name = "Albert I von Bayern"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.40
+		picture = ENG_M_Albert_I_Bayern
+		head_of_state = fortunate_type
+		start_date = 1955.8.2
+		death_date = 1996.7.8
+		base = 1181200
+	}
+
+	# HoG ----------------------------------
+	1319003 = {
+		name = "George Charles"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = SLC_M_Charles_George
+		head_of_government = ambitious_type
+		start_date = 1960.01.01
+		death_date = 1964.04.01
+	}
+	1319004 = {
+		name = "John Compton"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = SLC_M_Compton_John
+		head_of_government = visionary_type
+		start_date = 1964.04.01
+		death_date = 1996.04.02
+	}
+	1319005 = {
+		name = "Allan Louisy"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = SLC_M_Louisy_Allan
+		head_of_government = democrat_type
+		start_date = 1979.07.02
+		death_date = 1981.05.04
+	}
+	1319006 = {
+		name = "Winston Cenac"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = SLC_M_Cenac_Winston
+		head_of_government = ambitious_type
+		start_date = 1981.05.04
+		death_date = 1982.01.17
+	}
+	1319007 = {
+		name = "Michael Pilgrim"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = SLC_M_Pilgrim_Michael
+		head_of_government = administrator_type
+		start_date = 1982.01.17
+		death_date = 1982.05.03
+	}
+	
+	# Governor Generals ----------------------------------
+	1319008 = {
+		name = "Sir Allen Montgomery Lewis"
+		ideology = market_liberal_idolg
+		loyalty = 0.80
+		picture = SLC_M_Lewis_Allen_M
+		head_of_state = honest_type
+		start_date = 1979.02.22
+		death_date = 1987.04.30
+	}
+	1319009 = {
+		name = "Boswell Williams"
+		ideology = market_liberal_idolg
+		loyalty = 0.90
+		picture = SLC_M_Williams_Boswell
+		head_of_state = administrator_type
+		start_date = 1980.06.19
+		death_date = 1982.12.13
+	}
+	1319010 = {
+		name = "Vincent Floissac"
+		ideology = market_liberal_idolg
+		loyalty = 0.90
+		picture = SLC_M_Floissac_Vincent
+		head_of_state = reputable_type
+		start_date = 1987.04.30
+		death_date = 1988.10.10
+	}
+	1319011 = {
+		name = "Sir Stanislaus A. James"
+		ideology = market_liberal_idolg
+		loyalty = 0.90
+		picture = SLC_M_James_Stanislaus_A
+		head_of_state = bureaucrat_type
+		start_date = 1988.10.10
+		death_date = 1996.06.01
+	}
+	
+	
+}

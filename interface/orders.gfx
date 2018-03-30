@@ -1,0 +1,133 @@
+spriteTypes = {
+	###########################
+	# COMMON
+	###########################
+	textSpriteType = {
+		name = "GFX_mission_btn_red"
+		texturefile = "gfx\\interface\\mission\\mission_btn_red.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	textSpriteType = {
+		name = "GFX_mission_btn_blue"
+		texturefile = "gfx\\interface\\mission\\mission_btn_blue.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	###########################
+	# AIR MISSIONS
+	###########################
+	spriteType = {
+		name = "GFX_order_air_bg"
+		texturefile = "gfx\\interface\\mission\\air\\air_mission_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_order_air_chkbox_bg"
+		texturefile = "gfx\\interface\\mission\\air\\mission_checkbox.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_order_air_button_circle"
+		texturefile = "gfx\\interface\\mission\\air\\air_mission_btn_radius.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_order_air_button_cone"
+		texturefile = "gfx\\interface\\mission\\air\\air_mission_btn_direction.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_order_air_button_region"
+		texturefile = "gfx\\interface\\mission\\air\\air_mission_btn_region.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_order_air_button_province"
+		texturefile = "gfx\\interface\\mission\\air\\air_mission_btn_province.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		noOfFrames = 2
+	}
+	
+	###########################
+	# LAND MISSIONS
+	###########################
+	spriteType = {
+		name = "GFX_order_land_bg"
+		texturefile = "gfx\\interface\\mission\\land\\land_mission_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_order_land_chkbox_bg"
+		texturefile = "gfx\\interface\\mission\\land\\mission_checkbox.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_order_land_overlay"
+		texturefile = "gfx\\interface\\mission\\land\\land_mission_overlay.dds"
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	###########################
+	# NAVAL MISSIONS
+	###########################
+	spriteType = {
+		name = "GFX_order_naval_bg"
+		texturefile = "gfx\\interface\\mission\\naval\\naval_mission_bg.dds"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_order_naval_chkbox_bg"
+		texturefile = "gfx\\interface\\mission\\naval\\mission_checkbox.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		transparencecheck = yes
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_order_naval_btn_left"
+		texturefile = "gfx\\interface\\mission\\naval\\mission_btn_left.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_order_naval_btn_right"
+		texturefile = "gfx\\interface\\mission\\naval\\mission_btn_right.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+
+}

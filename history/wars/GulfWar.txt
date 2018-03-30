@@ -1,0 +1,26 @@
+name = "1991 Gulf War"
+
+1991.1.16 = {
+	add_attacker = IRQ
+	add_defender = USA
+	add_defender = ENG
+	add_defender = SAU
+	add_defender = FRA
+	add_defender = CAN
+	add_defender = EGY
+	add_defender = SYR
+	add_defender = QTR
+	add_defender = UAE
+}
+1991.2.28 = {
+	rem_attacker = IRQ
+	rem_defender = USA
+	rem_defender = ENG
+	rem_defender = SAU
+	rem_defender = FRA
+	rem_defender = CAN
+	rem_defender = EGY
+	rem_defender = SYR
+	rem_defender = QTR
+	rem_defender = UAE
+}

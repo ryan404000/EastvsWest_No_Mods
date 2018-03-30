@@ -1,0 +1,907 @@
+########################
+# SPA Submarines
+########################
+# General Sanjuro-class
+submarine.0 = {
+	sonarsystem = 1
+	propulsion_diesel_submarine = 0
+	launcher_torpedotubes_533_650 = 0
+	closedefense = 0
+	allsubs_autonomousoperations = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 8		
+	wikipage = /wiki/Archimede_class_submarine
+}
+# D-class
+submarine.1 = {
+	sonarsystem = 1
+	propulsion_diesel_submarine = 0
+	launcher_torpedotubes_533_650 = 2
+	closedefense = 0
+	allsubs_autonomousoperations = 0
+	allsubs_silentoperations = 0
+	hullmaxslots = 0
+	hullmaxsize = 6		
+}
+
+########################
+# SPA Missile Boats
+########################
+# Atrevida-class
+missile_boat.0 = {
+	unit_missileboat = 1
+	radarsystem_airsearch = 1
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 1
+	conventionalnavalgun = 2
+	closedefense = 1
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 1
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 4
+}
+# Model 1960
+missile_boat.1 = {
+	unit_missileboat = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 2
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 16
+}
+
+# Model 1965
+missile_boat.2 = {
+	unit_missileboat = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 0
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 3
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 3
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 5
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 13
+}
+# Joao Coutinho-class
+missile_boat.3 = {
+	unit_missileboat = 4
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 2
+	closedefense = 4
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 5
+	wikipage = /wiki/Joao_Coutinho_class_corvette
+}
+# Model 1975
+missile_boat.4 = {
+	unit_missileboat = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 0
+	propulsion_gas = 3
+	propulsion_diesel_surface_40s = 0
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 7
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 21
+}
+# Descubierta-class
+missile_boat.5 = {
+	unit_missileboat = 6
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 5
+	closedefense = 6
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 7
+	antisub_torpedorocket = 4
+	launcher_torpedotubes_533_650 = 6	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 8
+	wikipage = /wiki/Descubierta_class_corvette
+}
+# Model 1985
+missile_boat.6 = {
+	unit_missileboat = 7
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 0
+	propulsion_gas = 4
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 7
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 9
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 29
+}
+
+# Model 1990
+missile_boat.7 = {
+	unit_missileboat = 8
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 0
+	propulsion_gas = 5
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 10
+	closedefense = 10
+	antishipmissile_shortrange = 8
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antisub_torpedorocket = 10
+	launcher_torpedotubes_533_650 = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 28
+}
+########################
+# SPA missile Frigattes
+########################
+# Model 1955
+missile_frigate.0 = {
+	unit_missilefrigate = 1
+	radarsystem_airsearch = 2
+	radarsystem_surfacesearch = 2
+	sonarsystem = 2
+	towed_sonarsystem = 0	
+	propulsion_steam = 2	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 3
+	closedefense = 3
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 3
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 3
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 19
+}
+
+# Model 1960
+missile_frigate.1 = {
+	unit_missilefrigate = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 4
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 4
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 17
+}
+
+# Model 1965
+missile_frigate.2 = {
+	unit_missilefrigate = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 5
+	closedefense = 5
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 5
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 5
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 24
+}
+
+# Model 1970
+missile_frigate.3 = {
+	unit_missilefrigate = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	propulsion_steam = 0	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s = 4
+	conventionalnavalgun = 6
+	closedefense = 6
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 6
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 6
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 24
+}
+# Baleares-class
+missile_frigate.4 = {
+	unit_missilefrigate = 5
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0	
+	propulsion_steam = 1	
+	propulsion_gas = 0	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 5
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 4
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 0
+	antisub_missile = 4
+	launcher_torpedotubes_533_650 = 6	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 14
+	wikipage = /wiki/Baleares_class_frigate
+}
+# Model 1980
+missile_frigate.5 = {
+	unit_missilefrigate = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	propulsion_steam =0	
+	propulsion_gas = 3
+	propulsion_diesel_surface_40s = 5
+	conventionalnavalgun = 8
+	closedefense = 8
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 8
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 8
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 31
+}
+# Santa Maria-class
+missile_frigate.6 = {
+	unit_missilefrigate = 7
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 0	
+	propulsion_steam = 0	
+	propulsion_gas = 4	
+	propulsion_diesel_surface_40s =0
+	conventionalnavalgun = 5
+	closedefense = 7
+	antishipmissile_shortrange = 5
+	antiairmissile_mediumrange = 6
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 0
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 6	
+	helicopterplatform = 4	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 30
+	wikipage = /wiki/Santa_Maria_class_frigate
+}
+# Model 1990
+missile_frigate.7 = {
+	unit_missilefrigate = 8
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 6
+	towed_sonarsystem = 2
+	propulsion_steam =0	
+	propulsion_gas = 5
+	propulsion_diesel_surface_40s = 6
+	conventionalnavalgun = 10
+	closedefense = 10
+	antishipmissile_shortrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 10
+	antishipmissile_shortrange_supersonic = 0	
+	antisub_torpedorocket = 10
+	antisub_missile = 0
+	launcher_torpedotubes_533_650 = 0	
+	helicopterplatform = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0	
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 38
+}
+########################
+# SPA missile Destroyers
+########################
+# Churruca-class
+destroyer.0 = {
+	unit_destroyer = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0
+	propulsion_steam = 0
+	conventionalnavalgun = 0
+	closedefense = 0
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 25		
+	wikipage = /wiki/Churruca_class_destroyer
+}
+# Audaz-class
+destroyer.1 = {
+	unit_destroyer = 2
+	radarsystem_airsearch = 1
+	radarsystem_surfacesearch = 1
+	sonarsystem = 1	
+	propulsion_steam = 0
+	conventionalnavalgun = 0
+	closedefense = 1
+	antisub_torpedorocket = 0
+	launcher_torpedotubes_533_650 = 2	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0
+	hullmaxslots = 0
+	hullmaxsize = 17		
+}
+# Model 1960
+missile_destroyer.0 = {
+	unit_missiledestroyer = 1
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 4
+	closedefense = 4
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 4
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 4
+	antisub_missile = 2
+	launcher_torpedotubes_533_650 = 4	
+	helicopterplatform = 1
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 34
+}
+# Oquendo-class
+missile_destroyer.1 = {
+	unit_missiledestroyer = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 1
+	sonarsystem = 2
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0
+	naval_combat_system = 0	
+	propulsion_steam = 1
+	propulsion_gas = 0	
+	conventionalnavalgun = 0
+	closedefense = 3
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0	
+	antisub_torpedorocket = 4
+	antisub_missile = 0	
+	launcher_torpedotubes_533_650 = 4	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 11		
+}
+# Roger de Lauria-class
+missile_destroyer.2 = {
+	unit_missiledestroyer = 3
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 2
+	sonarsystem = 3
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 0	
+	naval_combat_system = 0
+	propulsion_steam = 1
+	propulsion_gas = 0	
+	conventionalnavalgun = 1
+	closedefense = 0
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0	
+	antisub_torpedorocket = 4
+	antisub_missile = 0	
+	launcher_torpedotubes_533_650 = 4	
+	helicopterplatform = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0	
+	hullmaxslots = 0
+	hullmaxsize = 28	
+}
+# Model 1975
+missile_destroyer.3 = {
+	unit_missiledestroyer = 4
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	towed_sonarsystem = 0
+	radarsystem_3dsearch = 1
+	naval_combat_system = 0
+	propulsion_steam = 4	
+	propulsion_gas = 0	
+	conventionalnavalgun = 7
+	closedefense = 7
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 5
+	antiairmissile_shortrange = 7
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 7
+	antisub_missile = 5
+	launcher_torpedotubes_533_650 = 7	
+	helicopterplatform = 3	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 35
+}
+
+# Model 1980
+missile_destroyer.4 = {
+	unit_missiledestroyer = 5
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 2
+	naval_combat_system = 0
+	propulsion_steam = 5	
+	propulsion_gas = 0	
+	conventionalnavalgun = 8
+	closedefense = 8
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 6
+	antiairmissile_shortrange = 8
+	antishipmissile_shortrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 8
+	antisub_missile = 6
+	launcher_torpedotubes_533_650 = 8	
+	helicopterplatform = 3	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 34
+}
+
+# Model 1985
+missile_destroyer.5 = {
+	unit_missiledestroyer = 6
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	towed_sonarsystem = 1
+	radarsystem_3dsearch = 2
+	naval_combat_system = 0
+	propulsion_steam = 5	
+	propulsion_gas = 0
+	conventionalnavalgun = 9
+	closedefense = 9
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 7
+	antiairmissile_shortrange = 9
+	antishipmissile_shortrange_supersonic = 0
+	landattackmissile = 0
+	antisub_torpedorocket = 9
+	antisub_missile = 7
+	launcher_torpedotubes_533_650 = 9	
+	helicopterplatform = 4		
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 43
+}
+
+# Model 1990
+missile_destroyer.6 = {
+	unit_missiledestroyer = 7
+	radarsystem_airsearch = 6
+	radarsystem_surfacesearch = 6
+	sonarsystem = 6
+	towed_sonarsystem = 2
+	radarsystem_3dsearch = 3
+	naval_combat_system = 1
+	propulsion_steam = 6	
+	propulsion_gas = 0	
+	conventionalnavalgun = 10
+	closedefense = 10
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 8
+	antiairmissile_shortrange = 10
+	antishipmissile_shortrange_supersonic = 0	
+	landattackmissile = 0
+	antisub_torpedorocket = 10
+	antisub_missile = 8
+	launcher_torpedotubes_533_650 = 10	
+	helicopterplatform = 5	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	naval_combat_system = 0
+	battlegroup_optimalcoveragepositioning = 0
+	carriergroup_extendedfleetsupply = 0
+	escort_submarinehunting = 0
+	escort_swiftpatrolswarm = 0
+	escort_responsereadygroup = 0		
+	hullmaxslots = 0
+	hullmaxsize = 42
+}
+########################
+# SPA Cruisers
+########################
+# Canarias-class
+cruiser.0 = {
+	unit_cruiser = 1
+	radarsystem_airsearch = 0
+	radarsystem_surfacesearch = 0
+	sonarsystem = 0
+	propulsion_steam = 0	
+	conventionalnavalgun = 0
+	closedefense = 0
+	launcher_torpedotubes_533_650 = 0	
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	joint_warliketraining = 0
+	escort-battlegroup_surfaceengagementpositioning = 0
+	escort-battlegroup_denyenemyfreedomofaction = 0
+	escort-battlegroup_acceptablerisk = 0	
+	helicopterplatform = 0	
+	hullmaxslots = 0
+	hullmaxsize = 26	
+	wikipage = /wiki/Canarias_class_cruiser	
+}
+
+########################
+# SPA Carriers
+########################
+# Model 1960
+helicopter_carrier.0 = {
+	unit_helicoptercarrier = 1
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	radarsystem_3dsearch = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 0
+	closedefense = 4
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 4
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 4
+	helicopterplatform = 1
+	carriergroup_constantairbornesurveillance = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	hullmaxslots = 0
+	hullmaxsize = 34
+	carrier_size = 1
+}
+
+# Model 1965
+helicopter_carrier.1 = {
+	unit_helicoptercarrier = 2
+	radarsystem_airsearch = 3
+	radarsystem_surfacesearch = 3
+	sonarsystem = 3
+	radarsystem_3dsearch = 0
+	propulsion_steam = 3	
+	propulsion_gas = 0	
+	conventionalnavalgun = 0
+	closedefense = 5
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 5
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 5
+	helicopterplatform = 1	
+	carriergroup_constantairbornesurveillance = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	hullmaxslots = 0
+	hullmaxsize = 33
+	carrier_size = 1
+}
+
+# Model 1975
+helicopter_carrier.2 = {
+	unit_helicoptercarrier = 3
+	radarsystem_airsearch = 4
+	radarsystem_surfacesearch = 4
+	sonarsystem = 4
+	radarsystem_3dsearch = 0
+	propulsion_steam = 4	
+	propulsion_gas = 0	
+	conventionalnavalgun = 0
+	closedefense = 7
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 7
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 7
+	helicopterplatform = 3	
+	carriergroup_constantairbornesurveillance = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	hullmaxslots = 0
+	hullmaxsize = 47
+	carrier_size = 1
+}
+
+# Model 1985
+helicopter_carrier.3 = {
+	unit_helicoptercarrier = 4
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 5
+	radarsystem_3dsearch = 1
+	propulsion_steam = 5	
+	conventionalnavalgun = 0
+	closedefense = 9
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0	
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 9
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 9
+	helicopterplatform = 4	
+	carriergroup_constantairbornesurveillance = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	hullmaxslots = 0
+	hullmaxsize = 60
+	carrier_size = 1
+}
+# Principe de Asturias-class
+helicopter_carrier.4 = {
+	unit_helicoptercarrier = 5
+	radarsystem_airsearch = 5
+	radarsystem_surfacesearch = 5
+	sonarsystem = 3
+	radarsystem_3dsearch = 2
+	propulsion_steam = 0	
+	propulsion_gas = 3	
+	conventionalnavalgun = 0
+	closedefense = 7
+	antishipmissile_shortrange = 0
+	antishipmissile_longrange = 0
+	antiairmissile_mediumrange = 0
+	antiairmissile_shortrange = 0
+	antishipmissile_shortrange_supersonic = 0	
+	antishipmissile_longrange_supersonic = 0	
+	antisub_torpedorocket = 0
+	helicopterplatform = 4
+	carriergroup_constantairbornesurveillance = 0
+	joint_fleetsupply = 0
+	joint_selfsustainability = 0
+	hullmaxslots = 0
+	hullmaxsize = 18
+	carrier_size = 2	
+	wikipage = /wiki/Spanish_aircraft_carrier_Principe_de_Asturias
+}

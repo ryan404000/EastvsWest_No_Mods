@@ -1,0 +1,2303 @@
+1428006 = {
+	name = "Robert Frei"
+	type = land
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1428010 = {
+	name = "Utto Freytag"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1428018 = {
+	name = "Winfried Egger"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.5.1 = { rank = 0 }
+	}
+}
+1428008 = {
+	name = "Rudolph Neustadt"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.5.1 = { rank = 0 }
+	}
+}
+1428009 = {
+	name = "Robin Hartmann"
+	type = land
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.7.1 = { rank = 0 }
+	}
+}
+1428021 = {
+	name = "Gunther Foerster"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.3.1 = { rank = 0 }
+	}
+}
+1428000 = {
+	name = "Frederick Meyer"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.11.1 = { rank = 0 }
+	}
+}
+1428023 = {
+	name = "Lothar Eberhardt"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.6.1 = { rank = 1 }
+		1948.6.1 = { rank = 2 }
+		1950.9.1 = { rank = 0 }
+	}
+}
+1428002 = {
+	name = "Wernher Moench"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1428015 = {
+	name = "Gottschalk Köhler"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.12.1 = { rank = 0 }
+	}
+}
+1428007 = {
+	name = "Nicolas Lehrer"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1428004 = {
+	name = "Gunther Unger"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.2.1 = { rank = 0 }
+	}
+}
+1428030 = {
+	name = "Botho Baier"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.9.1 = { rank = 1 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1428029 = {
+	name = "Joachim-Friedrich Moench"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.11.1 = { rank = 1 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1428017 = {
+	name = "Gerald Eisenhower"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.3.1 = { rank = 3 }
+		1953.4.1 = { rank = 0 }
+	}
+}
+1428001 = {
+	name = "Mario Mahler"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.9.1 = { rank = 2 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1428013 = {
+	name = "Klaus Theiss"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1428039 = {
+	name = "Tobias Wexler"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.11.1 = { rank = 1 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1428014 = {
+	name = "Fritz Hartmann"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1428025 = {
+	name = "Medard Vogler"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1948.5.1 = { rank = 1 }
+		1956.12.1 = { rank = 0 }
+	}
+}
+1428035 = {
+	name = "Erhard Lemann"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.10.1 = { rank = 1 }
+		1956.6.1 = { rank = 0 }
+	}
+}
+1428043 = {
+	name = "Vollrath Thalberg"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1956.6.1 = { rank = 1 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1428034 = {
+	name = "Wilhelm Blau"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.2.1 = { rank = 1 }
+		1958.4.1 = { rank = 0 }
+	}
+}
+1428019 = {
+	name = "Günther Maier"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1428011 = {
+	name = "Adolf Schwartz"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.3.1 = { rank = 2 }
+		1953.4.1 = { rank = 3 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1428016 = {
+	name = "Marius Herz"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1428022 = {
+	name = "Matthias Neumann"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1428020 = {
+	name = "Werner Gottlieb"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1428040 = {
+	name = "Reinhold Fleischer"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1954.1.1 = { rank = 1 }
+		1958.11.1 = { rank = 2 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1428042 = {
+	name = "Ulf Lehrer"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1956.12.1 = { rank = 1 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1428032 = {
+	name = "Fritz Cole"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.12.1 = { rank = 1 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1428048 = {
+	name = "Maximilian Schiffer"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1959.1.1 = { rank = 1 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1428036 = {
+	name = "Ekkehard Vogel"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = panzer_leader
+	history = {
+		1953.8.1 = { rank = 1 }
+		1963.5.1 = { rank = 0 }
+	}
+}
+1428054 = {
+	name = "Sigmund Mayer"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1962.1.1 = { rank = 1 }
+		1964.6.1 = { rank = 0 }
+	}
+}
+1428038 = {
+	name = "Philipp Nagel"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.10.1 = { rank = 1 }
+		1960.5.1 = { rank = 2 }
+		1964.11.1 = { rank = 0 }
+	}
+}
+1428031 = {
+	name = "Dustin Gaertner"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 2 }
+		1959.6.1 = { rank = 3 }
+		1960.5.1 = { rank = 4 }
+		1965.2.1 = { rank = 0 }
+	}
+}
+1428012 = {
+	name = "Klaus Cole"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.12.1 = { rank = 2 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1428005 = {
+	name = "William Kastner"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.6.1 = { rank = 2 }
+		1960.5.1 = { rank = 3 }
+		1965.2.1 = { rank = 4 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1428052 = {
+	name = "Wojciech Baader"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.7.1 = { rank = 1 }
+		1967.2.1 = { rank = 0 }
+	}
+}
+1428046 = {
+	name = "Marius Kortig"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.11.1 = { rank = 1 }
+		1967.8.1 = { rank = 0 }
+	}
+}
+1428059 = {
+	name = "Friedrich Schiffer"
+	type = land
+	country = DDR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1966.3.1 = { rank = 1 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1428055 = {
+	name = "Richard Bumgarner"
+	type = land
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.5.1 = { rank = 1 }
+		1968.5.1 = { rank = 0 }
+	}
+}
+1428033 = {
+	name = "Germar Bader"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = ranger
+	history = {
+		1951.10.1 = { rank = 1 }
+		1967.12.1 = { rank = 2 }
+		1968.3.1 = { rank = 0 }
+	}
+}
+1428061 = {
+	name = "Klaus Nagel"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1967.2.1 = { rank = 1 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1428037 = {
+	name = "Meinrad Barth"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.4.1 = { rank = 1 }
+		1964.11.1 = { rank = 2 }
+		1969.3.1 = { rank = 0 }
+	}
+}
+1428058 = {
+	name = "Wojciech Mauer"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.2.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1428053 = {
+	name = "Moritz Mahler"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.1.1 = { rank = 1 }
+		1969.3.1 = { rank = 2 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1428066 = {
+	name = "Frederick Kortig"
+	type = land
+	country = DDR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.12.1 = { rank = 1 }
+		1971.8.1 = { rank = 0 }
+	}
+}
+1428026 = {
+	name = "Axel Dresdner"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.5.1 = { rank = 1 }
+		1971.1.1 = { rank = 0 }
+	}
+}
+1428063 = {
+	name = "Ulf Bauer"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1967.12.1 = { rank = 1 }
+		1972.10.1 = { rank = 0 }
+	}
+}
+1428067 = {
+	name = "Gerhardt Becker"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.3.1 = { rank = 1 }
+		1972.5.1 = { rank = 0 }
+	}
+}
+1428065 = {
+	name = "Gerhardt Kunze"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.3.1 = { rank = 1 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1428047 = {
+	name = "William Unger"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1965.2.1 = { rank = 2 }
+		1967.12.1 = { rank = 3 }
+		1973.3.1 = { rank = 0 }
+	}
+}
+1428044 = {
+	name = "Lothar Rothschild"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1959.1.1 = { rank = 2 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1428060 = {
+	name = "Ekkehard Krause"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1967.12.1 = { rank = 1 }
+		1968.3.1 = { rank = 2 }
+		1973.4.1 = { rank = 0 }
+	}
+}
+1428074 = {
+	name = "Otto Nacht"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.4.1 = { rank = 1 }
+		1973.4.1 = { rank = 2 }
+		1974.5.1 = { rank = 0 }
+	}
+}
+1428051 = {
+	name = "William Eisenberg"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.12.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1428003 = {
+	name = "Ferdinand Schuhmacher"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1966.3.1 = { rank = 2 }
+		1973.3.1 = { rank = 3 }
+		1976.7.1 = { rank = 0 }
+	}
+}
+1428056 = {
+	name = "Wolfgan Ebersbach"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1964.6.1 = { rank = 1 }
+		1977.6.1 = { rank = 0 }
+	}
+}
+1428072 = {
+	name = "Heino Mahler"
+	type = land
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.10.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1428078 = {
+	name = "Sigmund Baumgaertner"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1974.5.1 = { rank = 1 }
+		1978.11.1 = { rank = 0 }
+	}
+}
+1428073 = {
+	name = "Heinrich Wirtz"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1972.5.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1428057 = {
+	name = "Robert Probst"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1964.11.1 = { rank = 1 }
+		1980.2.1 = { rank = 0 }
+	}
+}
+1428081 = {
+	name = "Benedikt Baer"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.6.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1428075 = {
+	name = "Arndt Mahler"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.3.1 = { rank = 1 }
+		1974.5.1 = { rank = 2 }
+		1982.12.1 = { rank = 0 }
+	}
+}
+1428077 = {
+	name = "Henry Schiffer"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1973.4.1 = { rank = 1 }
+		1982.9.1 = { rank = 0 }
+	}
+}
+1428083 = {
+	name = "Heinrich Freitag"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.11.1 = { rank = 1 }
+		1983.7.1 = { rank = 0 }
+	}
+}
+1428070 = {
+	name = "Utto Schäfer"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.8.1 = { rank = 1 }
+		1983.11.1 = { rank = 0 }
+	}
+}
+1428069 = {
+	name = "Medard Ebersbacher"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.10.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1428076 = {
+	name = "Moritz Egger"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = panzer_leader
+	history = {
+		1973.2.1 = { rank = 1 }
+		1976.7.1 = { rank = 2 }
+		1983.5.1 = { rank = 0 }
+	}
+}
+1428088 = {
+	name = "Gottschalk Pabst"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.9.1 = { rank = 1 }
+		1983.5.1 = { rank = 2 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1428068 = {
+	name = "Jörg Schmitt"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.11.1 = { rank = 1 }
+		1985.5.1 = { rank = 0 }
+	}
+}
+1428080 = {
+	name = "Benedikt Beich"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1976.7.1 = { rank = 1 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1428079 = {
+	name = "Axel Fuhrmann"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1986.8.1 = { rank = 0 }
+	}
+}
+1428085 = {
+	name = "Tobias Walter"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1980.2.1 = { rank = 1 }
+		1987.12.1 = { rank = 0 }
+	}
+}
+1428091 = {
+	name = "Rudolph Freud"
+	type = land
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1983.3.1 = { rank = 1 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1428084 = {
+	name = "Arndt Bauer"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1989.8.1 = { rank = 0 }
+	}
+}
+1428028 = {
+	name = "Jürgen Freitag"
+	type = land
+	country = DDR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1949.3.1 = { rank = 1 }
+		1973.2.1 = { rank = 2 }
+		1990.1.1 = { rank = 0 }
+	}
+}
+1428024 = {
+	name = "Germar Herman"
+	type = land
+	country = DDR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1948.6.1 = { rank = 1 }
+		1953.4.1 = { rank = 2 }
+		1976.7.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428027 = {
+	name = "Philipp Himmel"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428041 = {
+	name = "Dieter Koertig"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1955.9.1 = { rank = 1 }
+		1982.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428045 = {
+	name = "Bernd Ackerman"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.4.1 = { rank = 1 }
+		1961.4.1 = { rank = 2 }
+		1965.2.1 = { rank = 3 }
+		1967.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428049 = {
+	name = "Heiner Moeller"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428050 = {
+	name = "Heino Schultheiss"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1961.4.1 = { rank = 1 }
+		1970.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428062 = {
+	name = "Gerald Pabst"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428064 = {
+	name = "Werner Walter"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1968.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428071 = {
+	name = "Werner Theiss"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.1.1 = { rank = 1 }
+		1973.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428082 = {
+	name = "Lothar Möller"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1978.8.1 = { rank = 1 }
+		1990.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428086 = {
+	name = "Kurt Wexler"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = ranger
+	history = {
+		1981.10.1 = { rank = 1 }
+		1984.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428087 = {
+	name = "Tobias Busch"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1982.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428089 = {
+	name = "Marius Schreiner"
+	type = land
+	country = DDR
+	skill = 6
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428090 = {
+	name = "Ekkehard Lang"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428092 = {
+	name = "Aurick Boehm"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1983.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428093 = {
+	name = "Sigmund Schroder"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428094 = {
+	name = "Hermann Muench"
+	type = land
+	country = DDR
+	skill = 8
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428095 = {
+	name = "Bernard Nussbaum"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1986.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428096 = {
+	name = "Ekkehard Kastner"
+	type = land
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428097 = {
+	name = "Wojciech Baer"
+	type = land
+	country = DDR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428098 = {
+	name = "Anton Baecker"
+	type = land
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428099 = {
+	name = "Wilhelm Eichmann"
+	type = land
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428100 = {
+	name = "Jürgen Reinhard"
+	type = land
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428103 = {
+	name = "Henry Baum"
+	type = sea
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1428102 = {
+	name = "Gerhardt Eisenhauer"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.7.1 = { rank = 0 }
+	}
+}
+1428101 = {
+	name = "Gerhardt Meier"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.12.1 = { rank = 0 }
+	}
+}
+1428105 = {
+	name = "Johann Fiedler"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1428112 = {
+	name = "Bernd Mayer"
+	type = sea
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.1.1 = { rank = 1 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1428109 = {
+	name = "Nicolas Beyer"
+	type = sea
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1958.7.1 = { rank = 0 }
+	}
+}
+1428111 = {
+	name = "Emmerich Dietrich"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.12.1 = { rank = 1 }
+		1961.8.1 = { rank = 0 }
+	}
+}
+1428108 = {
+	name = "Michel Hofmann"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1961.9.1 = { rank = 0 }
+	}
+}
+1428113 = {
+	name = "Maximilian Gottschalk"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = spotter
+	history = {
+		1954.8.1 = { rank = 1 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1428116 = {
+	name = "Erhard Ackerman"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1961.9.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1428107 = {
+	name = "Fritz Schroeder"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1961.9.1 = { rank = 4 }
+		1968.8.1 = { rank = 0 }
+	}
+}
+1428118 = {
+	name = "Heino Bachmeier"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.7.1 = { rank = 1 }
+		1968.8.1 = { rank = 2 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1428114 = {
+	name = "Bastian Lange"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1958.7.1 = { rank = 1 }
+		1976.10.1 = { rank = 0 }
+	}
+}
+1428104 = {
+	name = "Robert Dietrich"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1976.7.1 = { rank = 0 }
+	}
+}
+1428121 = {
+	name = "Friedemann Neumann"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.10.1 = { rank = 1 }
+		1978.1.1 = { rank = 0 }
+	}
+}
+1428120 = {
+	name = "Lütold Baer"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.9.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1428115 = {
+	name = "Ewald Schweitzer"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = superior_tactician
+	history = {
+		1961.8.1 = { rank = 1 }
+		1980.2.1 = { rank = 0 }
+	}
+}
+1428124 = {
+	name = "Arndt Kortig"
+	type = sea
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1979.7.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1428117 = {
+	name = "Günther Kunze"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.1.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1428125 = {
+	name = "Otto Kluge"
+	type = sea
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1980.2.1 = { rank = 1 }
+		1984.3.1 = { rank = 0 }
+	}
+}
+1428122 = {
+	name = "Botho Wexler"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1976.7.1 = { rank = 1 }
+		1986.5.1 = { rank = 0 }
+	}
+}
+1428110 = {
+	name = "Gunther Sanger"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.7.1 = { rank = 1 }
+		1961.9.1 = { rank = 2 }
+		1968.8.1 = { rank = 3 }
+		1987.2.1 = { rank = 0 }
+	}
+}
+1428130 = {
+	name = "Severin Friedmann"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1987.2.1 = { rank = 1 }
+		1988.4.1 = { rank = 0 }
+	}
+}
+1428119 = {
+	name = "Benedikt Cole"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.8.1 = { rank = 1 }
+		1987.2.1 = { rank = 2 }
+		1988.9.1 = { rank = 0 }
+	}
+}
+1428106 = {
+	name = "Ludwig Krüger"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1961.9.1 = { rank = 3 }
+		1968.8.1 = { rank = 4 }
+		1990.6.1 = { rank = 0 }
+	}
+}
+1428131 = {
+	name = "Valter Fuerst"
+	type = sea
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	add_trait = spotter
+	add_trait = blockade_runner
+	history = {
+		1988.4.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1428123 = {
+	name = "Mario Fisher"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.1.1 = { rank = 1 }
+		1982.1.1 = { rank = 2 }
+		1987.2.1 = { rank = 3 }
+		1990.6.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428126 = {
+	name = "Horst Nagel"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.10.1 = { rank = 1 }
+		1990.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428127 = {
+	name = "Meinrad Zweig"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1988.9.1 = { rank = 2 }
+		1990.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428128 = {
+	name = "Reinhold Eichelberger"
+	type = sea
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428129 = {
+	name = "Gerald Hueber"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428132 = {
+	name = "Vollrath Frey"
+	type = sea
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428133 = {
+	name = "Ansgar Zimmermann"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428134 = {
+	name = "Maximilian Schultz"
+	type = sea
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428142 = {
+	name = "Axel Holtzmann"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1428136 = {
+	name = "Heiner Bohm"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.5.1 = { rank = 0 }
+	}
+}
+1428139 = {
+	name = "Winfried Baecker"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.9.1 = { rank = 0 }
+	}
+}
+1428138 = {
+	name = "Otto Baum"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 2 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1428145 = {
+	name = "Otto Herzog"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.5.1 = { rank = 1 }
+		1950.6.1 = { rank = 2 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1428141 = {
+	name = "Lothar Lang"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.7.1 = { rank = 0 }
+	}
+}
+1428135 = {
+	name = "Friedrich Wexler"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.7.1 = { rank = 2 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1428144 = {
+	name = "Ferdinand Richter"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1954.9.1 = { rank = 2 }
+		1956.11.1 = { rank = 0 }
+	}
+}
+1428140 = {
+	name = "Gerald Hoffmann"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.3.1 = { rank = 3 }
+		1957.1.1 = { rank = 0 }
+	}
+}
+1428146 = {
+	name = "Sander Feierabend"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.9.1 = { rank = 1 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1428152 = {
+	name = "Benedikt Moeller"
+	type = air
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.1.1 = { rank = 1 }
+		1963.2.1 = { rank = 0 }
+	}
+}
+1428143 = {
+	name = "Bernd Werner"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1963.9.1 = { rank = 0 }
+	}
+}
+1428151 = {
+	name = "Michel Finkel"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.11.1 = { rank = 1 }
+		1965.11.1 = { rank = 0 }
+	}
+}
+1428154 = {
+	name = "Otto Hoch"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1963.2.1 = { rank = 1 }
+		1963.9.1 = { rank = 2 }
+		1966.5.1 = { rank = 0 }
+	}
+}
+1428153 = {
+	name = "Ewald Theissen"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.1.1 = { rank = 1 }
+		1967.10.1 = { rank = 0 }
+	}
+}
+1428156 = {
+	name = "Botho Schreiner"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.11.1 = { rank = 1 }
+		1969.3.1 = { rank = 0 }
+	}
+}
+1428159 = {
+	name = "Heiner Wechsler"
+	type = air
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1969.3.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1428147 = {
+	name = "Ferdinand Waechter"
+	type = air
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.6.1 = { rank = 1 }
+		1971.9.1 = { rank = 0 }
+	}
+}
+1428148 = {
+	name = "Heiner Ebersbacher"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1428155 = {
+	name = "Medard Zimmerman"
+	type = air
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1963.9.1 = { rank = 1 }
+		1966.5.1 = { rank = 2 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1428137 = {
+	name = "Helmut Nacht"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 2 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1428157 = {
+	name = "Lothar Schröder"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.5.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1428150 = {
+	name = "Robin Konig"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1954.9.1 = { rank = 1 }
+		1956.11.1 = { rank = 2 }
+		1957.1.1 = { rank = 3 }
+		1963.9.1 = { rank = 4 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1428162 = {
+	name = "Otto Schuster"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1979.8.1 = { rank = 0 }
+	}
+}
+1428166 = {
+	name = "Rudolph Probst"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1428165 = {
+	name = "Wolfgan Holtzmann"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1980.11.1 = { rank = 0 }
+	}
+}
+1428149 = {
+	name = "Wenzel Koertig"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1952.7.1 = { rank = 1 }
+		1957.1.1 = { rank = 2 }
+		1963.9.1 = { rank = 3 }
+		1977.2.1 = { rank = 4 }
+		1980.1.1 = { rank = 0 }
+	}
+}
+1428158 = {
+	name = "Bernard Schultheiss"
+	type = air
+	country = DDR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.10.1 = { rank = 1 }
+		1974.12.1 = { rank = 2 }
+		1977.2.1 = { rank = 3 }
+		1980.1.1 = { rank = 4 }
+		1982.7.1 = { rank = 0 }
+	}
+}
+1428168 = {
+	name = "Bastian Gloeckner"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1979.5.1 = { rank = 1 }
+		1980.1.1 = { rank = 2 }
+		1982.7.1 = { rank = 3 }
+		1985.10.1 = { rank = 0 }
+	}
+}
+1428169 = {
+	name = "Kurt Weber"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1980.11.1 = { rank = 1 }
+		1985.10.1 = { rank = 2 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1428173 = {
+	name = "Paul Vogt"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.3.1 = { rank = 1 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1428170 = {
+	name = "Florian Eichelberger"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.1.1 = { rank = 1 }
+		1990.11.1 = { rank = 0 }
+	}
+}
+1428160 = {
+	name = "Heinz Eisenhower"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1980.1.1 = { rank = 3 }
+		1982.7.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428161 = {
+	name = "Ralph Bauer"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1971.9.1 = { rank = 1 }
+		1977.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428163 = {
+	name = "Germar Klug"
+	type = air
+	country = DDR
+	skill = 7
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428164 = {
+	name = "Ansgar Traugott"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428167 = {
+	name = "Aurick Faust"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.8.1 = { rank = 1 }
+		1982.7.1 = { rank = 2 }
+		1985.10.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428171 = {
+	name = "Mario Gloeckner"
+	type = air
+	country = DDR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1982.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428172 = {
+	name = "Arndt Eisenberg"
+	type = air
+	country = DDR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1985.10.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428174 = {
+	name = "Gunther Krause"
+	type = air
+	country = DDR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1428175 = {
+	name = "Ewald Mayer"
+	type = air
+	country = DDR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

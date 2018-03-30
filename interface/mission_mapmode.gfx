@@ -1,0 +1,22 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_mission_mapmode_bg"
+		texturefile = "gfx\\interface\\missionmap\\bg_mission_mapmode.dds"
+	}	
+	
+	textSpriteType = {
+		name = "GFX_missionmap_button"
+		texturefile = "gfx\\interface\\missionmap\\bg_mapmode_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_missionmap_checkbox"
+		texturefile = "gfx\\interface\\missionmap\\mapmode_plate.dds"
+	}
+	
+	
+}

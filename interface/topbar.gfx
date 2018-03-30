@@ -1,0 +1,460 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_topbar_bg"
+		texturefile = "gfx\\interface\\topbar\\naked_topbar.dds"
+		transparencecheck = yes
+		norefcount = yes
+	}
+	##DONE
+
+	spriteType = {
+		name = "GFX_steel_part"
+		texturefile = "gfx\\interface\\topbar\\steel_part.dds"
+		transparencecheck = yes
+		norefcount = yes
+	}
+	##Added
+		
+	spriteType = {
+		name = "GFX_topbarbutton_economy"
+		texturefile = "gfx\\interface\\topbar\\Tabs\\tab_economy.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}
+	##Added	
+		
+	spriteType = {
+		name = "GFX_topbarbutton_diplo"
+		texturefile = "gfx\\interface\\topbar\\Tabs\\tab_diplomacy.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}
+	##DONE
+	
+	spriteType = {
+		name = "GFX_topbarbutton_prod"
+		texturefile = "gfx\\interface\\topbar\\Tabs\\tab_military_sov.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}
+	##DONE
+	
+	spriteType = {
+		name = "GFX_topbarbutton_tech"
+		texturefile = "gfx\\interface\\topbar\\Tabs\\tab_tech.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}
+	##DONE
+	
+	spriteType = {
+		name = "GFX_topbarbutton_politics"
+		texturefile = "gfx\\interface\\topbar\\Tabs\\Tab_politics.dds"
+		noOfFrames = 2
+		#effectFile = "gfx\\FX\\buttonstate.fx"
+		#norefcount = yes
+		#clicksound = click
+	}
+	##DONE
+	
+	spriteType = {
+		name = "GFX_topbarbutton_intel"
+		texturefile = "gfx\\interface\\topbar\\Tabs\\tab_intel.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}
+	##DONE
+	
+	textSpriteType = {
+		name = "GFX_topbarbutton_stats"
+		texturefile = "gfx\\interface\\topbar\\stats_topbar.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}
+	##Done
+	
+	textSpriteType = {
+		name = "GFX_topbar_menubutton"
+		texturefile = "gfx\\interface\\topbar\\menu_topbar.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+		clicksound = click
+	}	
+	##Done
+
+
+	spriteType = {
+		name = "GFX_endgame"
+		texturefile = "gfx\\interface\\endgame.tga"
+	}
+
+	spriteType = {
+		name = "GFX_defcon"
+		texturefile = "gfx\\interface\\topbar\\defcon_buttons.dds"
+		transparencecheck = yes
+		noOfFrames = 6
+	}
+	##Done
+	
+	spriteType = {
+		name = "GFX_doomsday_clock"
+		texturefile = "gfx\\interface\\topbar\\Doomsdayclock\\doomsdayclock.dds"
+		transparencecheck = yes
+		noOfFrames = 18
+	}
+	
+	spriteType = {
+		name = "GFX_doomsday_clock_overlay"
+		texturefile = "gfx\\interface\\topbar\\Doomsdayclock\\doomsdayclock_overlay.dds"
+		transparencecheck = yes
+	}
+	
+	
+	# TopBar Information
+	
+	spriteType = {
+		name = "GFX_icon_population_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_manpower_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_manpower_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_manpower_army_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_gdp_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_gdp_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_prestige_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_prestige_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_money_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_money_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_supplies_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_supplies_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+		
+	spriteType = {
+		name = "GFX_icon_fuel_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_fuel_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_icon_leadership_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_leadership_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_uranium_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_uranium_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_dissent_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_dissent_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_icon_unity_small"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_unity_small.dds"
+		norefcount = yes
+		noOfFrames = 3
+	}
+	
+	#...
+	
+	spriteType = {
+		name = "GFX_icon_spies_small"
+		noOfFrames = 3
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_spy.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_satellites_small"
+		noOfFrames = 3
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_satellite.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_raremat_small"
+		texturefile = "gfx\\interface\\icon_raremat_small.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oil_small"
+		texturefile = "gfx\\interface\\icon_oil_small.tga"
+		norefcount = yes
+	}
+	
+	
+	spriteType = {
+		name = "GFX_icon_metal_small"
+		texturefile = "gfx\\interface\\icon_metal_small.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_energy_small"
+		texturefile = "gfx\\interface\\icon_energy_small.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_ic_small"
+		texturefile = "gfx\\interface\\icon_ic_small.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_money_mini"
+		texturefile = "gfx\\interface\\icon_money_mini.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_supplies_mini"
+		texturefile = "gfx\\interface\\icon_supplies_mini.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oil_mini"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_oil.dds"
+		norefcount = yes
+	}
+	##Done
+	
+	spriteType = {
+		name = "GFX_icon_fuel_mini"
+		texturefile = "gfx\\interface\\icon_fuel_mini.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_raremat_mini"
+		texturefile = "gfx\\interface\\icon_raremat_mini.tga"
+			norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_metal_mini"
+		texturefile = "gfx\\interface\\icon_metal_mini.tga"
+			norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_energy_mini"
+		texturefile = "gfx\\interface\\icon_energy_mini.tga"
+			norefcount = yes
+	}
+	
+	##Done
+	
+	spriteType = {
+		name = "GFX_icon_research"
+		texturefile = "gfx\\interface\\icon_research.tga"
+			norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_espionage"
+		texturefile = "gfx\\interface\\icon_espionage.tga"
+			norefcount = yes
+	}
+	
+	##Done
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy"
+		texturefile = "gfx\\interface\\icon_diplomacy.tga"
+			norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_leadership"
+		texturefile = "gfx\\interface\\topbar\\Icons\\icon_leadership.dds"
+			norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_speed_indicator"
+		texturefile = "gfx\\interface\\speed_indicator.dds"
+		noOfFrames = 6
+		transparencecheck = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_button_pause"
+		texturefile = "gfx\\interface\\topbar\\play_pause.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	##Done
+	
+	spriteType = {
+		name = "GFX_button_speedup"
+		texturefile = "gfx\\interface\\topbar\\plus_speed.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		transparencecheck = yes
+	}
+	##Done
+	
+	spriteType = {
+		name = "GFX_bg_viewbuttons"
+		texturefile = "gfx\\interface\\bg_viewbuttons.tga"
+		noOfFrames = 1
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_viewair"
+		texturefile = "gfx\\interface\\button_viewair.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_viewarmy"
+		texturefile = "gfx\\interface\\button_viewarmy.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_viewcombat"
+		texturefile = "gfx\\interface\\button_viewcombat.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_viewdeploy"
+		texturefile = "gfx\\interface\\button_viewdeploy.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_viewnaval"
+		texturefile = "gfx\\interface\\button_viewnaval.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_viewprovinces"
+		texturefile = "gfx\\interface\\button_viewprovinces.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_button_speeddown"
+		texturefile = "gfx\\interface\\topbar\\minus_speed.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_topbar_prestige_bg"
+		texturefile = "gfx\\interface\\topbar\\topbar_prestige.dds"
+		transparencecheck = yes
+		norefcount = yes
+	}
+		
+	##Done
+	
+	
+	maskedShieldType = {
+		name = "GFX_topbarflag"
+		textureFile1 = "gfx\\interface\\flag_overlay.dds" 
+		textureFile2 = "gfx\\interface\\flag_alpha2.dds"
+		effectFile = "gfx\\FX\\maskedflag.fx"
+	}
+##Done
+	
+	maskedShieldType = {
+		name = "GFX_topbar_small_shield"
+		textureFile1 = "gfx\\interface\\topbar\\small_shield_overlay.tga"
+		textureFile2 = "gfx\\interface\\topbar\\small_shield_mask.tga"
+		effectFile = "gfx\\FX\\maskedflag.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_topbar_folder"
+		texturefile = "gfx\\interface\\topbar\\Icons\\topbar_icon_folder_2.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_topbar_progress_overlay"
+		texturefile = "gfx\\interface\\topbar\\Icons\\progress_overlay.dds"
+		transparencecheck = yes
+		norefcount = yes
+	}
+	
+	progressbartype = {
+		name = "GFX_topbar_progress"
+		color = { 0.0 0.5 0.0 }
+		textureFile1 = "gfx\\interface\\topbar\\Icons\\topbar_progress_bar.dds"
+		size = { x = 81 y = 13 }
+		effectFile = "gfx\\FX\\progress.fx"
+		allwaystransparent = yes
+	}
+
+
+}
+
+

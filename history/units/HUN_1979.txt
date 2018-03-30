@@ -1,0 +1,64 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 6181
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 6181
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 6181
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 36 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 1 strength = 37 experience = 4 }
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 1 strength = 34 experience = 5 }
+		}
+		division =
+		{
+			name = "6th Division"
+			location = 6091
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 1 strength = 35 experience = 4 }
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 2 strength = 34 experience = 4 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 6092
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 2 strength = 35 experience = 4 }
+			regiment = { type = infantry_brigade name = "8th Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 1 strength = 25 experience = 4 }
+			regiment = { type = motorized_brigade name = "1st Motorized Brigade" historical_model = 2 strength = 40 experience = 0 }
+		}
+		division =
+		{
+			name = "4th Division"
+			location = 6181
+			regiment = { type = motorized_brigade name = "8th Motorized Brigade" historical_model = 1 strength = 40 experience = 2 }
+			regiment = { type = motorized_brigade name = "15th Motorized Brigade" historical_model = 1 strength = 40 experience = 2 }
+			regiment = { type = tank_destroyer_brigade name = "1st Tank Destroyer Regiment" historical_model = 1 strength = 19 experience = 2 }
+			regiment = { type = armor_brigade name = "33rd Armor Brigade" historical_model = 1 strength = 25 experience = 2 }
+		}
+		division =
+		{
+			name = "5th Division"
+			location = 6272
+			regiment = { type = armor_brigade name = "26th Armor Brigade" historical_model = 1 strength = 25 experience = 2 }
+			regiment = { type = armor_brigade name = "44th Armor Brigade" historical_model = 1 strength = 25 experience = 2 }
+		}
+	}
+}
+
+division =
+{
+	name = "3rd Division"
+	location = 6091
+	pool = yes
+	regiment = { type = infantry_brigade name = "9th Infantry Brigade" historical_model = 1 strength = 35 experience = 4 }
+	regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 1 strength = 36 experience = 4 }
+}

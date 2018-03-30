@@ -1,0 +1,340 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_may_retreat"	
+		texturefile = "gfx\\interface\\icon_noretreat.tga"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "VicOrWalhalla"
+		texturefile = "gfx\\interface\\valhalla.dds"
+		
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_interbranch"
+		texturefile = "gfx\\interface\\interbranch_icon.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "ScorchedEarth"
+		texturefile = "gfx\\interface\\torch.dds"
+		
+		noOfFrames = 2
+	}
+	
+	progressbartype = {
+		name = "combat_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\combat_green_bar.dds"
+		size = { x=401 y=13 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "strength_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_strength1.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_strength2.dds"
+		size = { x = 24 y = 8 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "manpower_strength_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\naval_blue_bar.dds"
+		size = { x=48 y=4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "equipment_strength_progress"
+		color = { 0.0 0.0 1.0 }
+		colortwo = { 0.0 0.5 0.5 }
+		textureFile1 = "gfx\\interface\\combat\\naval_yellow_bar.dds"
+		size = { x=48 y=4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "org_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\naval_green_bar.dds"
+		size = { x=48 y=4 }
+		effectFile = "gfx\\FX\\progress.fx"
+		allwaystransparent = yes
+	}
+	
+	progressbartype = {
+		name = "progress_naval_eq"
+		color = { 0.0 0.5 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\naval_yellow_bar.dds"
+		size = { x = 48 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+		allwaystransparent = yes
+	}
+	
+	progressbartype = {
+		name = "progress_naval_mp"
+		color = { 0.0 0.5 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\naval_blue_bar.dds"
+		size = { x = 48 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	progressbartype = {
+		name = "progress_land_org"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\combat_green_bar.dds"
+		size = { x = 52 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	progressbartype = {
+		name = "progress_land_eq"
+		color = { 0.0 0.5 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\naval_yellow_bar.dds"
+		size = { x = 24 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+		allwaystransparent = yes
+	}
+	
+	progressbartype = {
+		name = "progress_land_mp"
+		color = { 0.0 0.5 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\naval_blue_bar.dds"
+		size = { x = 24 y = 4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	progressbartype = {
+		name = "progress_naval_org"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\naval_green_bar.dds"
+		size = { x=48 y=4 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	progressbartype = {
+		name = "org_progress_red"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_org3.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_org2.dds"
+		size = { x = 24 y = 8 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_bg"	
+		texturefile = "gfx\\interface\\combat\\combat_land_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_combat_green_bar_overlay"	
+		texturefile = "gfx\\interface\\combat\\combat_green_bar_overlay.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_combat_naval_bg"	
+		texturefile = "gfx\\interface\\combat\\combat_naval_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_ship_combat_icon"
+		texturefile = "gfx\\interface\\combat\\ship_icon.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_combat_air_bg"
+		texturefile = "gfx\\interface\\combat\\combat_air_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_combat_unit_bg"	
+		texturefile = "gfx\\interface\\combat\\combat_unit_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_combat_air_unit_bg"	
+		texturefile = "gfx\\interface\\combat\\combat_air_unit_bg.tga"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_resources_pool"
+		texturefile = "gfx\\interface\\resources_pool.tga"
+		noOfFrames = 7
+	}
+	
+	spriteType = {
+		name = "GFX_resources_produced"
+		texturefile = "gfx\\interface\\resources_produced.tga"
+		noOfFrames = 7
+	}
+	
+	spriteType = {
+		name = "GFX_combat_close"
+		texturefile = "gfx\\interface\\combat_close.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_combat_retreat"
+		texturefile = "gfx\\interface\\combat\\btn_retreat.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_aircombat_close"
+		texturefile = "gfx\\interface\\combat\\btn_combat_close.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_fort_icon"	
+		texturefile = "gfx\\interface\\fort_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_navalcombat_unit_bg"	
+		texturefile = "gfx\\interface\\combat\\navalcombat_unit_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_navalcombat_hull_bg"	
+		texturefile = "gfx\\interface\\combat\\navalcombat_hull_bg.dds"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_navalcombat_surface"	
+		texturefile = "gfx\\interface\\combat\\surface_combat.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_surface_overlay"	
+		texturefile = "gfx\\interface\\combat\\surface_combat_overlay.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_surface_overlay_air"	
+		texturefile = "gfx\\interface\\combat\\surface_combat_overlay_air.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_surface_overlay_naval"	
+		texturefile = "gfx\\interface\\combat\\surface_combat_overlay_naval.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_combat_modifier_leader"	
+		texturefile = "gfx\\interface\\combat_modifier_leader.tga"
+	}
+	
+	spriteType = {
+		name = "gfx_battlemodifiers"
+		texturefile = "gfx\\interface\\battle_modifiers.tga"
+		noOfFrames = 5
+	}
+
+	progressbartype = {
+		name = "moralebar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		size = { x = 130 y = 12 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+
+	spriteType = {
+		name = "GFX_combatdivider"	
+		texturefile = "gfx\\interface\\combat_divider.tga"
+	}
+
+	spriteType = {
+		name = "GFX_attritionicon"	
+		texturefile = "gfx\\interface\\attrition_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_icon_battle_mp"	
+		texturefile = "gfx\\interface\\combat\\icon_battle_mp.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_combat_icon_battle_reserve"	
+		texturefile = "gfx\\interface\\combat\\icon_battle_reserve.dds"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_combat_icon_battle_length"	
+		texturefile = "gfx\\interface\\combat\\icon_battle_length.dds"
+		transparencecheck = yes
+	}
+	
+	progressbartype = {
+		name = "combat_org_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\combat_small_bar_green.dds"
+		size = { x = 27 y = 4 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "combat_mp_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\combat_small_bar_blue.dds"
+		size = { x = 27 y = 4 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "combat_eqp_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\combat\\combat_small_bar_yellow.dds"
+		size = { x = 27 y = 4 }
+		horizontal = yes
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+}

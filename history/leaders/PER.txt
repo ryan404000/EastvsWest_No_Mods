@@ -1,0 +1,6082 @@
+1391083 = {
+	name = "Gorgin: Gurjadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1391004 = {
+	name = "Iraj Khorasani"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1391011 = {
+	name = "Kamruz Mushwani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.6.1 = { rank = 0 }
+	}
+}
+1391001 = {
+	name = "Shadmahr Isfahani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.10.1 = { rank = 0 }
+	}
+}
+1391034 = {
+	name = "Kamran Jalalipoor"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1391030 = {
+	name = "Maahir Kardar"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1391075 = {
+	name = "Kaveh Zain"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1391066 = {
+	name = " Alamdar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1391048 = {
+	name = "Radin Mir"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.8.1 = { rank = 0 }
+	}
+}
+1391056 = {
+	name = "Vareshna Khanum"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.9.1 = { rank = 0 }
+	}
+}
+1391031 = {
+	name = "Shahab Mushwani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1391010 = {
+	name = "Sahand Rizvi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.2.1 = { rank = 0 }
+	}
+}
+1391044 = {
+	name = "Zamyaad Jalali"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1391068 = {
+	name = "Hamun: Jafari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1391017 = {
+	name = "Mahrdad Reza"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.1.1 = { rank = 0 }
+	}
+}
+1391076 = {
+	name = "Irman Jamshedipur"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.2.1 = { rank = 0 }
+	}
+}
+1391021 = {
+	name = "Rád Jadgal"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.1.1 = { rank = 2 }
+		1950.6.1 = { rank = 0 }
+	}
+}
+1391035 = {
+	name = "Shahsam Qizilbash"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.5.1 = { rank = 0 }
+	}
+}
+1391097 = {
+	name = "Saba Sabzvari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1948.10.1 = { rank = 1 }
+		1950.4.1 = { rank = 0 }
+	}
+}
+1391106 = {
+	name = "Mahran Muker"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1950.5.1 = { rank = 0 }
+	}
+}
+1391081 = {
+	name = "Mirza Jafari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1391012 = {
+	name = "Kambiz Zand"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1391053 = {
+	name = "Gudarz Gardezi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1391091 = {
+	name = "Irman Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.12.1 = { rank = 0 }
+	}
+}
+1391003 = {
+	name = "Rostam Jalali"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.4.1 = { rank = 0 }
+	}
+}
+1391049 = {
+	name = "Hootan:(Well bodied; An ally of King Dariush) Khawaja"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 0 }
+	}
+}
+1391062 = {
+	name = "Nakisa Siddiqui"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.6.1 = { rank = 0 }
+	}
+}
+1391112 = {
+	name = "Sarvin Zahedi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1950.4.1 = { rank = 1 }
+		1951.5.1 = { rank = 0 }
+	}
+}
+1391029 = {
+	name = " Jadgal"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1391107 = {
+	name = "Umid Hosseini"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1391046 = {
+	name = "Esfandiyar: Ahmadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.6.1 = { rank = 2 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1391074 = {
+	name = "Hushyar: Ahmadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1391084 = {
+	name = "Shahsam Kardar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1391078 = {
+	name = "Shadmahr Ahmadi"
+	type = land
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.7.1 = { rank = 0 }
+	}
+}
+1391071 = {
+	name = "Shahruz Khemlani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1391088 = {
+	name = "Milad Zain"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1391027 = {
+	name = "Sohrab Alamdar"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.2.1 = { rank = 0 }
+	}
+}
+1391102 = {
+	name = "Kayumars, Kiomaars Ahmadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.8.1 = { rank = 1 }
+		1952.7.1 = { rank = 0 }
+	}
+}
+1391000 = {
+	name = "Nakisa Mir"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.5.1 = { rank = 0 }
+	}
+}
+1391013 = {
+	name = "Tahmaseb Jamshedipur"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1391051 = {
+	name = "Aydin Binwani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.2.1 = { rank = 2 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1391111 = {
+	name = "Rouzbeh Sabzvari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.5.1 = { rank = 1 }
+		1953.9.1 = { rank = 0 }
+	}
+}
+1391089 = {
+	name = "Mahyar Zain"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1391116 = {
+	name = "Pashang Jafari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1953.2.1 = { rank = 0 }
+	}
+}
+1391009 = {
+	name = "Niyaz Arjomandi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.9.1 = { rank = 2 }
+		1953.4.1 = { rank = 0 }
+	}
+}
+1391041 = {
+	name = "Mirza Ahmadi"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1391093 = {
+	name = "Kaikhosru Mir"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1391117 = {
+	name = "Maziyar Jalalikhah"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.12.1 = { rank = 1 }
+		1954.3.1 = { rank = 0 }
+	}
+}
+1391039 = {
+	name = "Parsa Sabzvari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.3.1 = { rank = 0 }
+	}
+}
+1391113 = {
+	name = "Esfandiyar: Zand"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.5.1 = { rank = 1 }
+		1952.9.1 = { rank = 2 }
+		1952.12.1 = { rank = 3 }
+		1954.3.1 = { rank = 0 }
+	}
+}
+1391123 = {
+	name = "Zand Gurjadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.2.1 = { rank = 1 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1391105 = {
+	name = "Milad Gardezi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.2.1 = { rank = 1 }
+		1954.5.1 = { rank = 0 }
+	}
+}
+1391135 = {
+	name = "Kambiz Mirza"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.9.1 = { rank = 1 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1391086 = {
+	name = "Rambod Alizadeh"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1954.5.1 = { rank = 0 }
+	}
+}
+1391067 = {
+	name = "Sepehr Chishti"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1391026 = {
+	name = "Mahrdad Gakhar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 2 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1391032 = {
+	name = "Pooyan Mohammadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.11.1 = { rank = 0 }
+	}
+}
+1391047 = {
+	name = "Kamran Saadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.3.1 = { rank = 0 }
+	}
+}
+1391028 = {
+	name = "Surena Jafari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.5.1 = { rank = 0 }
+	}
+}
+1391149 = {
+	name = "Sohrab Jalali"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.1.1 = { rank = 1 }
+		1955.7.1 = { rank = 0 }
+	}
+}
+1391109 = {
+	name = "Tooraj Jalali"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.2.1 = { rank = 1 }
+		1955.7.1 = { rank = 0 }
+	}
+}
+1391002 = {
+	name = "Tirdad Kiani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1955.1.1 = { rank = 0 }
+	}
+}
+1391130 = {
+	name = "Erfan: Reza"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.2.1 = { rank = 1 }
+		1953.4.1 = { rank = 2 }
+		1955.6.1 = { rank = 0 }
+	}
+}
+1391144 = {
+	name = "Saba Khawaja"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.1.1 = { rank = 1 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1391090 = {
+	name = "Pooyan Khanum"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1954.4.1 = { rank = 4 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1391042 = {
+	name = "Kia Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.3.1 = { rank = 0 }
+	}
+}
+1391154 = {
+	name = "Sarvin Zahedi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.7.1 = { rank = 1 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1391070 = {
+	name = "Suhail Jalalipoor"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1391153 = {
+	name = "Rostam Rizvi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.7.1 = { rank = 1 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1391043 = {
+	name = "Iraj Abbasi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.9.1 = { rank = 0 }
+	}
+}
+1391122 = {
+	name = "Mahyar Gakhar"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.4.1 = { rank = 1 }
+		1957.4.1 = { rank = 0 }
+	}
+}
+1391108 = {
+	name = "Sohrab Gardezi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1950.1.1 = { rank = 1 }
+		1954.4.1 = { rank = 2 }
+		1957.8.1 = { rank = 0 }
+	}
+}
+1391157 = {
+	name = "Peyman Ahmadi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1391164 = {
+	name = "Ram Gakhar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.4.1 = { rank = 1 }
+		1958.9.1 = { rank = 0 }
+	}
+}
+1391007 = {
+	name = "Keivan Gardezi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.5.1 = { rank = 0 }
+	}
+}
+1391160 = {
+	name = "Pedram Chishti"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1391137 = {
+	name = "Zain Shirazi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1953.2.1 = { rank = 1 }
+		1958.1.1 = { rank = 0 }
+	}
+}
+1391169 = {
+	name = "Sarvin Hosseini"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1958.2.1 = { rank = 1 }
+		1959.10.1 = { rank = 0 }
+	}
+}
+1391159 = {
+	name = "Kamruz Gurjadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.3.1 = { rank = 1 }
+		1959.5.1 = { rank = 0 }
+	}
+}
+1391147 = {
+	name = "Ramtin Ahmadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1954.5.1 = { rank = 1 }
+		1959.12.1 = { rank = 0 }
+	}
+}
+1391104 = {
+	name = "Gorgin: Jalali"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1391134 = {
+	name = "Khosro Kazemi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1953.11.1 = { rank = 1 }
+		1956.4.1 = { rank = 2 }
+		1959.1.1 = { rank = 0 }
+	}
+}
+1391015 = {
+	name = "Sina Gardezi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.12.1 = { rank = 2 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1391167 = {
+	name = "Siamak Abbasi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.9.1 = { rank = 1 }
+		1960.12.1 = { rank = 0 }
+	}
+}
+1391146 = {
+	name = "Puriya Ghazali"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.9.1 = { rank = 1 }
+		1960.4.1 = { rank = 0 }
+	}
+}
+1391138 = {
+	name = "Hamid: Khorasani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1953.4.1 = { rank = 1 }
+		1960.1.1 = { rank = 0 }
+	}
+}
+1391124 = {
+	name = "Mahrshad Jamshedipur"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.9.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1391040 = {
+	name = "Shahriar Kazemi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1960.5.1 = { rank = 0 }
+	}
+}
+1391052 = {
+	name = "Zain Kiani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.5.1 = { rank = 0 }
+	}
+}
+1391006 = {
+	name = "Puriya Ansari"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.4.1 = { rank = 0 }
+	}
+}
+1391018 = {
+	name = "Ramtin Zand"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 2 }
+		1961.12.1 = { rank = 0 }
+	}
+}
+1391054 = {
+	name = "Sasan Khemlani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.11.1 = { rank = 0 }
+	}
+}
+1391061 = {
+	name = "Rád Montazeri"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1391016 = {
+	name = "Yaraan Saadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1391092 = {
+	name = "Kamran Jamshedipur"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1962.7.1 = { rank = 0 }
+	}
+}
+1391022 = {
+	name = "Hutan: Ghazali"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1391037 = {
+	name = "Parham Binwani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.9.1 = { rank = 0 }
+	}
+}
+1391142 = {
+	name = "Saiyd Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1954.3.1 = { rank = 1 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1391148 = {
+	name = "Zand Khemlani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.9.1 = { rank = 1 }
+		1962.7.1 = { rank = 0 }
+	}
+}
+1391155 = {
+	name = "Homayun: Arjomandi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1955.1.1 = { rank = 1 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1391182 = {
+	name = "Gorzam: Zahedi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.5.1 = { rank = 1 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1391145 = {
+	name = "Parviz Haqu"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = defensive_doctrine
+	history = {
+		1954.5.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1391101 = {
+	name = "Gudarz Jalalikhah"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1963.8.1 = { rank = 0 }
+	}
+}
+1391095 = {
+	name = "Siavash Gardezi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1391165 = {
+	name = "Shayaan Nishapuri"
+	type = land
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.8.1 = { rank = 1 }
+		1963.7.1 = { rank = 0 }
+	}
+}
+1391033 = {
+	name = "Hutan: Arjomandi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 2 }
+		1963.5.1 = { rank = 0 }
+	}
+}
+1391181 = {
+	name = "Kamraan Khemlani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.5.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1391118 = {
+	name = "Shayaan Jalalikhah"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1951.4.1 = { rank = 1 }
+		1963.10.1 = { rank = 0 }
+	}
+}
+1391024 = {
+	name = "Parsa Mirza"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1964.4.1 = { rank = 0 }
+	}
+}
+1391119 = {
+	name = "Hamun: Isfahani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.9.1 = { rank = 1 }
+		1964.3.1 = { rank = 0 }
+	}
+}
+1391194 = {
+	name = "Arvin Chishti"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1962.8.1 = { rank = 1 }
+		1964.4.1 = { rank = 0 }
+	}
+}
+1391177 = {
+	name = "Rostam Rizvi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.12.1 = { rank = 1 }
+		1964.6.1 = { rank = 0 }
+	}
+}
+1391170 = {
+	name = "Rouzbeh Kazemi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.1.1 = { rank = 1 }
+		1960.11.1 = { rank = 2 }
+		1964.7.1 = { rank = 0 }
+	}
+}
+1391161 = {
+	name = "Pashang Noorani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.4.1 = { rank = 1 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1391201 = {
+	name = "Rouzbeh Isfahani"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1963.10.1 = { rank = 1 }
+		1964.1.1 = { rank = 0 }
+	}
+}
+1391127 = {
+	name = "Shahruz Gardezi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.7.1 = { rank = 1 }
+		1965.5.1 = { rank = 0 }
+	}
+}
+1391196 = {
+	name = "Parsa Sistani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.8.1 = { rank = 1 }
+		1965.4.1 = { rank = 0 }
+	}
+}
+1391178 = {
+	name = "Surena Haqu"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1960.4.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1391125 = {
+	name = "Shahsam Reza"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.12.1 = { rank = 1 }
+		1954.5.1 = { rank = 2 }
+		1965.3.1 = { rank = 0 }
+	}
+}
+1391152 = {
+	name = "Parham Khawaja"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.5.1 = { rank = 1 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1391073 = {
+	name = "Shaahin Alamdar"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.5.1 = { rank = 3 }
+		1965.4.1 = { rank = 0 }
+	}
+}
+1391188 = {
+	name = "Sahand Yazdani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.7.1 = { rank = 1 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1391038 = {
+	name = "Maahir Jamshedipur"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1391114 = {
+	name = "Turandot Khorasani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1951.9.1 = { rank = 1 }
+		1952.5.1 = { rank = 2 }
+		1966.2.1 = { rank = 0 }
+	}
+}
+1391192 = {
+	name = "Sahand Abbasi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.7.1 = { rank = 1 }
+		1966.6.1 = { rank = 0 }
+	}
+}
+1391080 = {
+	name = "Mahran Kermani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1966.2.1 = { rank = 0 }
+	}
+}
+1391126 = {
+	name = "Ushtra Sistani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1952.5.1 = { rank = 1 }
+		1966.7.1 = { rank = 0 }
+	}
+}
+1391179 = {
+	name = "Hushang: Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.1.1 = { rank = 1 }
+		1966.12.1 = { rank = 0 }
+	}
+}
+1391079 = {
+	name = "Shahriar Kazemi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1966.11.1 = { rank = 0 }
+	}
+}
+1391064 = {
+	name = "Sasan Ansari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1967.10.1 = { rank = 0 }
+	}
+}
+1391221 = {
+	name = "Saiyd Muker"
+	type = land
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.12.1 = { rank = 1 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1391216 = {
+	name = "Payam Alamdar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1965.10.1 = { rank = 1 }
+		1967.1.1 = { rank = 0 }
+	}
+}
+1391014 = {
+	name = "Sina Mohammadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.3.1 = { rank = 2 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1391103 = {
+	name = "Mani Mushwani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.9.1 = { rank = 1 }
+		1960.1.1 = { rank = 2 }
+		1967.12.1 = { rank = 0 }
+	}
+}
+1391020 = {
+	name = "Peyman Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.12.1 = { rank = 2 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1391175 = {
+	name = "Surena Ahmadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1959.1.1 = { rank = 1 }
+		1968.2.1 = { rank = 0 }
+	}
+}
+1391072 = {
+	name = "Sasan Fareedi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1968.6.1 = { rank = 0 }
+	}
+}
+1391131 = {
+	name = "Shahkam Kardar"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.7.1 = { rank = 1 }
+		1957.8.1 = { rank = 2 }
+		1968.10.1 = { rank = 0 }
+	}
+}
+1391225 = {
+	name = "Arvin Gardezi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.1.1 = { rank = 1 }
+		1967.12.1 = { rank = 2 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1391205 = {
+	name = "Sirus Alizadeh"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.6.1 = { rank = 1 }
+		1965.4.1 = { rank = 2 }
+		1968.6.1 = { rank = 0 }
+	}
+}
+1391139 = {
+	name = "Mahrdad Alamdar"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.10.1 = { rank = 1 }
+		1965.3.1 = { rank = 2 }
+		1968.10.1 = { rank = 0 }
+	}
+}
+1391212 = {
+	name = "Shahriar Jamshidi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1965.3.1 = { rank = 1 }
+		1969.12.1 = { rank = 0 }
+	}
+}
+1391173 = {
+	name = "Zahir Firdausi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.12.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1391025 = {
+	name = "Sina Muker"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1969.11.1 = { rank = 0 }
+	}
+}
+1391217 = {
+	name = "Mahyar Jalalipoor"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.2.1 = { rank = 1 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1391190 = {
+	name = "Kaikhosru Jalali"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.9.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1391055 = {
+	name = "Siavash Jalali"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1391163 = {
+	name = "Mahyar Mir"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.9.1 = { rank = 1 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1391184 = {
+	name = "Piruz Hamadani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1961.12.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1391085 = {
+	name = "Sina Abbasi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1970.5.1 = { rank = 0 }
+	}
+}
+1391209 = {
+	name = "Iraj Arjomandi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1965.5.1 = { rank = 1 }
+		1970.11.1 = { rank = 0 }
+	}
+}
+1391231 = {
+	name = " Kazemi"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1968.10.1 = { rank = 1 }
+		1970.10.1 = { rank = 0 }
+	}
+}
+1391077 = {
+	name = "Suhail Gardezi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1954.4.1 = { rank = 3 }
+		1970.1.1 = { rank = 0 }
+	}
+}
+1391115 = {
+	name = "Pezhman: Sad/Broken hearted. Desire/Wish. Great. Razavi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.8.1 = { rank = 1 }
+		1954.9.1 = { rank = 2 }
+		1965.4.1 = { rank = 3 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1391215 = {
+	name = "Sepehr Alamdar"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1965.6.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1391141 = {
+	name = "Erfan: Jamshedipur"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.3.1 = { rank = 1 }
+		1966.11.1 = { rank = 2 }
+		1971.10.1 = { rank = 0 }
+	}
+}
+1391193 = {
+	name = "Mani Jalalikhah"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1971.8.1 = { rank = 0 }
+	}
+}
+1391204 = {
+	name = "Shayaan Isfahani"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.4.1 = { rank = 1 }
+		1968.9.1 = { rank = 2 }
+		1971.4.1 = { rank = 0 }
+	}
+}
+1391140 = {
+	name = "Ram Gardezi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.4.1 = { rank = 1 }
+		1971.10.1 = { rank = 0 }
+	}
+}
+1391180 = {
+	name = "Shahruz Ansari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1960.11.1 = { rank = 1 }
+		1967.12.1 = { rank = 2 }
+		1970.6.1 = { rank = 3 }
+		1971.8.1 = { rank = 0 }
+	}
+}
+1391249 = {
+	name = "Siamak Khorasani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1971.10.1 = { rank = 1 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1391129 = {
+	name = "Puriya Kiani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1952.12.1 = { rank = 1 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1391208 = {
+	name = "Shahab Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.1.1 = { rank = 1 }
+		1966.2.1 = { rank = 2 }
+		1971.8.1 = { rank = 3 }
+		1972.9.1 = { rank = 0 }
+	}
+}
+1391172 = {
+	name = "Tahamtan Abbasi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.5.1 = { rank = 1 }
+		1967.10.1 = { rank = 2 }
+		1972.8.1 = { rank = 0 }
+	}
+}
+1391143 = {
+	name = "Tahmaseb Isfahani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.3.1 = { rank = 1 }
+		1972.11.1 = { rank = 0 }
+	}
+}
+1391094 = {
+	name = "Hardar: Isfahani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1963.5.1 = { rank = 2 }
+		1973.10.1 = { rank = 0 }
+	}
+}
+1391023 = {
+	name = "Shaahin Jalalikhah"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 2 }
+		1954.5.1 = { rank = 3 }
+		1973.11.1 = { rank = 0 }
+	}
+}
+1391227 = {
+	name = "Sina Rizvi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.12.1 = { rank = 1 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1391229 = {
+	name = "Homayun: Saadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.2.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1391218 = {
+	name = "Payam Razavi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.6.1 = { rank = 1 }
+		1973.10.1 = { rank = 0 }
+	}
+}
+1391252 = {
+	name = "Milad Mir"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.10.1 = { rank = 1 }
+		1973.2.1 = { rank = 0 }
+	}
+}
+1391166 = {
+	name = "Zand Khawaja"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.10.1 = { rank = 1 }
+		1968.10.1 = { rank = 2 }
+		1970.5.1 = { rank = 3 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1391057 = {
+	name = "Saba Jamshidi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.12.1 = { rank = 2 }
+		1953.5.1 = { rank = 3 }
+		1956.5.1 = { rank = 4 }
+		1973.1.1 = { rank = 0 }
+	}
+}
+1391128 = {
+	name = "Hormoz: Reza"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.4.1 = { rank = 1 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1391132 = {
+	name = "Sirus Kazemi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.5.1 = { rank = 1 }
+		1954.1.1 = { rank = 2 }
+		1974.9.1 = { rank = 0 }
+	}
+}
+1391251 = {
+	name = "Tirdad Jamshedipur"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.4.1 = { rank = 1 }
+		1973.11.1 = { rank = 2 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1391087 = {
+	name = "Ramtin Mushwani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1974.8.1 = { rank = 0 }
+	}
+}
+1391151 = {
+	name = "Suhail Kashani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.3.1 = { rank = 1 }
+		1955.6.1 = { rank = 2 }
+		1974.9.1 = { rank = 0 }
+	}
+}
+1391045 = {
+	name = "Rád Sabzvari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1391242 = {
+	name = "Rostam Jamshedipur"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1974.10.1 = { rank = 0 }
+	}
+}
+1391195 = {
+	name = "Umid Ansari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.12.1 = { rank = 1 }
+		1968.6.1 = { rank = 2 }
+		1974.5.1 = { rank = 0 }
+	}
+}
+1391258 = {
+	name = "Shapur Zahedi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.11.1 = { rank = 1 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1391120 = {
+	name = "Qobad Noorani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.6.1 = { rank = 1 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1391237 = {
+	name = "Porang Khorasani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.11.1 = { rank = 1 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1391198 = {
+	name = "Sarvin Jamshedipur"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.7.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1391183 = {
+	name = "Zal Mir"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.4.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1391264 = {
+	name = "Peyman Qizilbash"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.2.1 = { rank = 1 }
+		1975.7.1 = { rank = 0 }
+	}
+}
+1391277 = {
+	name = "Kasra Zahedi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.11.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1391245 = {
+	name = "Shahab Zain"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1970.10.1 = { rank = 1 }
+		1975.12.1 = { rank = 0 }
+	}
+}
+1391266 = {
+	name = "Homayun: Kazemi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1973.1.1 = { rank = 1 }
+		1975.9.1 = { rank = 0 }
+	}
+}
+1391263 = {
+	name = "Rouzbeh Jamshedipur"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.10.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1391191 = {
+	name = "Shahnam Qizilbash"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.1.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1391202 = {
+	name = "Siavash Mirza"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1964.4.1 = { rank = 1 }
+		1975.10.1 = { rank = 0 }
+	}
+}
+1391233 = {
+	name = "Siavash Arjomandi"
+	type = land
+	country = PER
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.6.1 = { rank = 1 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1391019 = {
+	name = "Kamruz Gardezi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.7.1 = { rank = 2 }
+		1954.3.1 = { rank = 3 }
+		1962.7.1 = { rank = 4 }
+		1976.4.1 = { rank = 0 }
+	}
+}
+1391098 = {
+	name = "Kayhan Ahmadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1948.4.1 = { rank = 1 }
+		1976.1.1 = { rank = 0 }
+	}
+}
+1391254 = {
+	name = "Maysam Zain"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.7.1 = { rank = 1 }
+		1976.3.1 = { rank = 0 }
+	}
+}
+1391158 = {
+	name = "Payam Alamdar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1976.9.1 = { rank = 0 }
+	}
+}
+1391219 = {
+	name = "Esfandiyar: Ahmadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.2.1 = { rank = 1 }
+		1972.8.1 = { rank = 2 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1391288 = {
+	name = "Sarvin Kermani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.4.1 = { rank = 1 }
+		1977.11.1 = { rank = 0 }
+	}
+}
+1391289 = {
+	name = "Erfan: Sistani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.1.1 = { rank = 1 }
+		1977.9.1 = { rank = 0 }
+	}
+}
+1391186 = {
+	name = "Sina Kardar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.7.1 = { rank = 1 }
+		1966.2.1 = { rank = 2 }
+		1977.3.1 = { rank = 0 }
+	}
+}
+1391174 = {
+	name = "Keivan Akbari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.1.1 = { rank = 1 }
+		1971.4.1 = { rank = 2 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1391060 = {
+	name = "Pahlavan Noorani"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1391176 = {
+	name = "Arvin Montazeri"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1960.1.1 = { rank = 1 }
+		1977.7.1 = { rank = 0 }
+	}
+}
+1391284 = {
+	name = "Ehsan (From Arabic): Arjomandi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1975.6.1 = { rank = 1 }
+		1977.9.1 = { rank = 0 }
+	}
+}
+1391261 = {
+	name = "Shadmahr Jafari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.12.1 = { rank = 1 }
+		1977.1.1 = { rank = 0 }
+	}
+}
+1391065 = {
+	name = "Vareshna Khawaja"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1970.1.1 = { rank = 3 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1391224 = {
+	name = "Shahram Kermani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1967.9.1 = { rank = 1 }
+		1977.3.1 = { rank = 2 }
+		1978.2.1 = { rank = 0 }
+	}
+}
+1391234 = {
+	name = "Pooyan Gurjadi"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.10.1 = { rank = 1 }
+		1978.11.1 = { rank = 0 }
+	}
+}
+1391207 = {
+	name = "Kami Siddiqui"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.2.1 = { rank = 1 }
+		1968.12.1 = { rank = 2 }
+		1978.5.1 = { rank = 0 }
+	}
+}
+1391270 = {
+	name = "Maysam Ahmadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.8.1 = { rank = 1 }
+		1978.12.1 = { rank = 0 }
+	}
+}
+1391265 = {
+	name = "Hushyar: Qizilbash"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.12.1 = { rank = 1 }
+		1978.4.1 = { rank = 0 }
+	}
+}
+1391199 = {
+	name = "Kia Montazeri"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.5.1 = { rank = 1 }
+		1978.6.1 = { rank = 0 }
+	}
+}
+1391267 = {
+	name = "Kian, Kiyan Isfahani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1973.12.1 = { rank = 1 }
+		1976.4.1 = { rank = 2 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1391302 = {
+	name = "Shadmahr Muker"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.2.1 = { rank = 1 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1391008 = {
+	name = "Kurosh, Korosh Jadgal"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1973.10.1 = { rank = 2 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1391059 = {
+	name = "Kami Kardar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1391197 = {
+	name = "Aydin Khawaja"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.7.1 = { rank = 1 }
+		1979.2.1 = { rank = 0 }
+	}
+}
+1391271 = {
+	name = "Riza Mushwani"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.9.1 = { rank = 1 }
+		1979.6.1 = { rank = 0 }
+	}
+}
+1391291 = {
+	name = "Hushang: Montazeri"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.9.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1391247 = {
+	name = "Gorzam: Firdausi"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1974.9.1 = { rank = 2 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1391133 = {
+	name = "Maysam Ansari"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.1.1 = { rank = 1 }
+		1970.5.1 = { rank = 2 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1391262 = {
+	name = "Milad Montazeri"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.2.1 = { rank = 1 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1391058 = {
+	name = "Gudarz Mohammadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1962.7.1 = { rank = 2 }
+		1979.11.1 = { rank = 0 }
+	}
+}
+1391274 = {
+	name = "Kian, Kiyan Kazemi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.5.1 = { rank = 1 }
+		1979.8.1 = { rank = 0 }
+	}
+}
+1391239 = {
+	name = "Pahlavan Mushwani"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1391223 = {
+	name = "Irman Jalalikhah"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.10.1 = { rank = 1 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1391286 = {
+	name = "Ushtra Noorani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1975.10.1 = { rank = 1 }
+		1978.5.1 = { rank = 2 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1391210 = {
+	name = "Yaraan Akbari"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1965.4.1 = { rank = 1 }
+		1974.5.1 = { rank = 2 }
+		1980.12.1 = { rank = 0 }
+	}
+}
+1391275 = {
+	name = "Hardar: Zain"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1974.2.1 = { rank = 1 }
+		1980.9.1 = { rank = 0 }
+	}
+}
+1391306 = {
+	name = "Kian, Kiyan Chishti"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.4.1 = { rank = 1 }
+		1979.1.1 = { rank = 2 }
+		1980.6.1 = { rank = 0 }
+	}
+}
+1391313 = {
+	name = "Hardar: Ansari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.6.1 = { rank = 1 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1391278 = {
+	name = "Mirza Firdausi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.12.1 = { rank = 1 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1391185 = {
+	name = "Sirus Ahmadi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.11.1 = { rank = 1 }
+		1980.4.1 = { rank = 0 }
+	}
+}
+1391326 = {
+	name = "Esfandiyar: Shirazi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1980.7.1 = { rank = 1 }
+		1981.5.1 = { rank = 0 }
+	}
+}
+1391310 = {
+	name = "Ehsan (From Arabic): Gardezi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1979.9.1 = { rank = 1 }
+		1979.11.1 = { rank = 2 }
+		1981.6.1 = { rank = 0 }
+	}
+}
+1391250 = {
+	name = "Kia Gurjadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1971.8.1 = { rank = 1 }
+		1981.6.1 = { rank = 0 }
+	}
+}
+1391222 = {
+	name = "Shahruz Abbasi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.11.1 = { rank = 1 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1391298 = {
+	name = "Umid Alizadeh"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.7.1 = { rank = 1 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1391206 = {
+	name = "Pashang Jalali"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.7.1 = { rank = 1 }
+		1970.1.1 = { rank = 2 }
+		1982.5.1 = { rank = 0 }
+	}
+}
+1391257 = {
+	name = "Shahram Khawaja"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.8.1 = { rank = 1 }
+		1974.8.1 = { rank = 2 }
+		1982.3.1 = { rank = 0 }
+	}
+}
+1391063 = {
+	name = "Kamraan Noorani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1973.1.1 = { rank = 2 }
+		1974.8.1 = { rank = 3 }
+		1976.4.1 = { rank = 4 }
+		1982.3.1 = { rank = 0 }
+	}
+}
+1391253 = {
+	name = "Parsa Siddiqui"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1971.8.1 = { rank = 1 }
+		1982.3.1 = { rank = 2 }
+		1983.9.1 = { rank = 0 }
+	}
+}
+1391287 = {
+	name = "Poya Kazemi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1975.6.1 = { rank = 1 }
+		1979.9.1 = { rank = 2 }
+		1983.6.1 = { rank = 0 }
+	}
+}
+1391301 = {
+	name = "Riza Rizvi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.4.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1391241 = {
+	name = "Hushang: Mir"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.11.1 = { rank = 1 }
+		1973.12.1 = { rank = 2 }
+		1983.6.1 = { rank = 0 }
+	}
+}
+1391256 = {
+	name = "Rambod Mushwani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = offensive_doctrine
+	history = {
+		1972.9.1 = { rank = 1 }
+		1979.1.1 = { rank = 2 }
+		1984.9.1 = { rank = 0 }
+	}
+}
+1391337 = {
+	name = "Mahrshad Montazeri"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	add_trait = commando
+	history = {
+		1983.9.1 = { rank = 1 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1391305 = {
+	name = "Tooraj Abbasi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1978.12.1 = { rank = 1 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1391273 = {
+	name = "Ramtin Shirazi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.10.1 = { rank = 1 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1391082 = {
+	name = "Maziyar Kazemi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.12.1 = { rank = 3 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1391323 = {
+	name = "Rustin Shirazi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.12.1 = { rank = 1 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1391226 = {
+	name = "Sahand Gurjadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1967.12.1 = { rank = 1 }
+		1984.10.1 = { rank = 0 }
+	}
+}
+1391296 = {
+	name = "Kia Mohammadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.4.1 = { rank = 1 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1391304 = {
+	name = "Hushang: Nishapuri"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.5.1 = { rank = 1 }
+		1985.10.1 = { rank = 0 }
+	}
+}
+1391330 = {
+	name = "Vareshna Mohammadi"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.6.1 = { rank = 1 }
+		1985.3.1 = { rank = 0 }
+	}
+}
+1391343 = {
+	name = "Maahir Kashani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.12.1 = { rank = 1 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1391340 = {
+	name = "Sahand Jalalikhah"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1983.6.1 = { rank = 1 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1391283 = {
+	name = "Saba Akbari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1391220 = {
+	name = "Kamyar, Kamiar Kashani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.7.1 = { rank = 1 }
+		1968.10.1 = { rank = 2 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1391203 = {
+	name = "Rád Ghazali"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1964.3.1 = { rank = 1 }
+		1976.8.1 = { rank = 2 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1391189 = {
+	name = "Esfandiyar: Hosseini"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1962.2.1 = { rank = 1 }
+		1985.3.1 = { rank = 0 }
+	}
+}
+1391162 = {
+	name = "Rustin Firdausi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.8.1 = { rank = 1 }
+		1971.10.1 = { rank = 2 }
+		1973.12.1 = { rank = 3 }
+		1973.12.1 = { rank = 4 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1391338 = {
+	name = "Tabal Kardar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.6.1 = { rank = 1 }
+		1985.1.1 = { rank = 0 }
+	}
+}
+1391282 = {
+	name = "Manoochehr Jalalikhah"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.12.1 = { rank = 1 }
+		1985.10.1 = { rank = 0 }
+	}
+}
+1391214 = {
+	name = "Umid Shirazi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.4.1 = { rank = 1 }
+		1968.6.1 = { rank = 2 }
+		1977.4.1 = { rank = 3 }
+		1985.6.1 = { rank = 0 }
+	}
+}
+1391328 = {
+	name = "Sina Kardar"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.4.1 = { rank = 1 }
+		1985.1.1 = { rank = 0 }
+	}
+}
+1391171 = {
+	name = "Iraj Ansari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1959.10.1 = { rank = 1 }
+		1964.7.1 = { rank = 2 }
+		1973.1.1 = { rank = 3 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1391276 = {
+	name = "Gorzam: Mohammadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.2.1 = { rank = 1 }
+		1980.12.1 = { rank = 2 }
+		1986.8.1 = { rank = 0 }
+	}
+}
+1391321 = {
+	name = "Homayun: Montazeri"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.3.1 = { rank = 1 }
+		1986.2.1 = { rank = 0 }
+	}
+}
+1391272 = {
+	name = "Ramak Rizvi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.11.1 = { rank = 1 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1391230 = {
+	name = "Kamraan Khorasani"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.6.1 = { rank = 1 }
+		1986.1.1 = { rank = 0 }
+	}
+}
+1391355 = {
+	name = "Shahnam Jalali"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.11.1 = { rank = 1 }
+		1986.12.1 = { rank = 0 }
+	}
+}
+1391290 = {
+	name = "Ram Nishapuri"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1976.3.1 = { rank = 1 }
+		1977.4.1 = { rank = 2 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1391332 = {
+	name = "Siavash Ghazali"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1987.4.1 = { rank = 0 }
+	}
+}
+1391281 = {
+	name = "Kambiz Kardar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.12.1 = { rank = 1 }
+		1987.9.1 = { rank = 0 }
+	}
+}
+1391350 = {
+	name = "Piruz Chishti"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.3.1 = { rank = 1 }
+		1985.9.1 = { rank = 2 }
+		1985.9.1 = { rank = 3 }
+		1987.6.1 = { rank = 0 }
+	}
+}
+1391232 = {
+	name = "Hardar: Jafari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1987.12.1 = { rank = 0 }
+	}
+}
+1391285 = {
+	name = "Parham Chishti"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1982.5.1 = { rank = 2 }
+		1987.4.1 = { rank = 0 }
+	}
+}
+1391280 = {
+	name = "Siavash Rizvi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.7.1 = { rank = 1 }
+		1979.12.1 = { rank = 2 }
+		1987.2.1 = { rank = 0 }
+	}
+}
+1391213 = {
+	name = "Hushmand: Ansari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1965.10.1 = { rank = 1 }
+		1985.12.1 = { rank = 2 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1391036 = {
+	name = "Maysam Zand"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.12.1 = { rank = 2 }
+		1962.7.1 = { rank = 3 }
+		1987.8.1 = { rank = 0 }
+	}
+}
+1391268 = {
+	name = "Kami Sistani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.9.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1391100 = {
+	name = "Tabal Fareedi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.1.1 = { rank = 1 }
+		1987.2.1 = { rank = 0 }
+	}
+}
+1391327 = {
+	name = "Tirdad Alizadeh"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1980.3.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1391317 = {
+	name = "Pedram Chishti"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.3.1 = { rank = 1 }
+		1987.1.1 = { rank = 0 }
+	}
+}
+1391309 = {
+	name = "Kaikhosru Nishapuri"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.3.1 = { rank = 1 }
+		1986.8.1 = { rank = 2 }
+		1987.6.1 = { rank = 3 }
+		1988.10.1 = { rank = 0 }
+	}
+}
+1391269 = {
+	name = "Vareshna Nishapuri"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.2.1 = { rank = 1 }
+		1978.2.1 = { rank = 2 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1391377 = {
+	name = "Shahkam Sistani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1988.8.1 = { rank = 0 }
+	}
+}
+1391325 = {
+	name = "Manoochehr Isfahani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.6.1 = { rank = 1 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1391331 = {
+	name = "Rustin Qizilbash"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.6.1 = { rank = 1 }
+		1982.3.1 = { rank = 2 }
+		1988.5.1 = { rank = 0 }
+	}
+}
+1391314 = {
+	name = "Hamid: Khawaja"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.7.1 = { rank = 1 }
+		1988.2.1 = { rank = 0 }
+	}
+}
+1391300 = {
+	name = "Surena Khanum"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.1.1 = { rank = 1 }
+		1988.12.1 = { rank = 0 }
+	}
+}
+1391366 = {
+	name = "Tahamtan Hamadani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.1.1 = { rank = 1 }
+		1988.4.1 = { rank = 0 }
+	}
+}
+1391362 = {
+	name = "Irman Yazdani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1985.12.1 = { rank = 1 }
+		1989.1.1 = { rank = 0 }
+	}
+}
+1391341 = {
+	name = "Shapur Muker"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1984.9.1 = { rank = 1 }
+		1989.6.1 = { rank = 0 }
+	}
+}
+1391351 = {
+	name = "Shaahin Shirazi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.6.1 = { rank = 1 }
+		1989.7.1 = { rank = 0 }
+	}
+}
+1391308 = {
+	name = "Ramtin Razavi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.1.1 = { rank = 1 }
+		1989.1.1 = { rank = 0 }
+	}
+}
+1391385 = {
+	name = "Kamyar, Kamiar Binwani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1988.5.1 = { rank = 1 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1391297 = {
+	name = "Qobad Sabzvari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1977.2.1 = { rank = 1 }
+		1989.10.1 = { rank = 0 }
+	}
+}
+1391360 = {
+	name = "Shahkam Razavi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.6.1 = { rank = 1 }
+		1989.4.1 = { rank = 0 }
+	}
+}
+1391367 = {
+	name = "Shahkam Kazemi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.12.1 = { rank = 1 }
+		1990.5.1 = { rank = 0 }
+	}
+}
+1391228 = {
+	name = "Gorgin: Akbari"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.12.1 = { rank = 1 }
+		1985.6.1 = { rank = 2 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1391363 = {
+	name = "Qobad Jafari"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.8.1 = { rank = 1 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1391353 = {
+	name = "Milad Ghazali"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.8.1 = { rank = 1 }
+		1990.8.1 = { rank = 0 }
+	}
+}
+1391392 = {
+	name = "Siavash Alizadeh"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.1.1 = { rank = 1 }
+		1990.5.1 = { rank = 0 }
+	}
+}
+1391372 = {
+	name = "Shahruz Shirazi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1987.12.1 = { rank = 1 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1391365 = {
+	name = "Turandot Jalalikhah"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1986.11.1 = { rank = 1 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1391336 = {
+	name = "Yaraan Jamshidi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.3.1 = { rank = 1 }
+		1990.1.1 = { rank = 0 }
+	}
+}
+1391344 = {
+	name = "Suhail Muker"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.5.1 = { rank = 1 }
+		1990.12.1 = { rank = 0 }
+	}
+}
+1391391 = {
+	name = "Zal Kashani"
+	type = land
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.7.1 = { rank = 1 }
+		1990.10.1 = { rank = 0 }
+	}
+}
+1391294 = {
+	name = "Mahdi Ansari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1977.9.1 = { rank = 1 }
+		1990.4.1 = { rank = 0 }
+	}
+}
+1391279 = {
+	name = "Pashang Zand"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.9.1 = { rank = 1 }
+		1985.6.1 = { rank = 2 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1391005 = {
+	name = "Shahsam Chishti"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.4.1 = { rank = 2 }
+		1984.5.1 = { rank = 3 }
+		1985.9.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391050 = {
+	name = "Riza Kazemi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1971.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391069 = {
+	name = "Maysam Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391096 = {
+	name = "Rád Mirza"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391099 = {
+	name = "Sohrab Rizvi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.4.1 = { rank = 1 }
+		1959.1.1 = { rank = 2 }
+		1972.9.1 = { rank = 3 }
+		1982.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391110 = {
+	name = "Tahamtan Alamdar"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.6.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1976.4.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391121 = {
+	name = "Kamraan Jalalipoor"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.5.1 = { rank = 1 }
+		1953.11.1 = { rank = 2 }
+		1988.10.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391136 = {
+	name = "Tirdad Nishapuri"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391150 = {
+	name = "Maziyar Jafari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391156 = {
+	name = "Hushmand: Saadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1955.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391168 = {
+	name = "Kamruz Montazeri"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1958.5.1 = { rank = 1 }
+		1974.2.1 = { rank = 2 }
+		1985.12.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391187 = {
+	name = " Khanum"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1962.11.1 = { rank = 1 }
+		1983.6.1 = { rank = 2 }
+		1985.9.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391200 = {
+	name = "Shadmahr Sabzvari"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.12.1 = { rank = 1 }
+		1984.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391211 = {
+	name = "Rambod Ansari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.1.1 = { rank = 1 }
+		1977.4.1 = { rank = 2 }
+		1982.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391235 = {
+	name = "Saiyd Siddiqui"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391236 = {
+	name = "Tooraj Chishti"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1969.11.1 = { rank = 1 }
+		1987.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391238 = {
+	name = "Sirus Rizvi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391240 = {
+	name = "Kaveh Mohammadi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1983.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391243 = {
+	name = "Tabal Kazemi"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.5.1 = { rank = 1 }
+		1972.9.1 = { rank = 2 }
+		1973.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391244 = {
+	name = "Saba Yazdani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.11.1 = { rank = 1 }
+		1974.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391246 = {
+	name = "Erfan: Rizvi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391248 = {
+	name = "Mirza Yazdani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1980.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391255 = {
+	name = "Kayumars, Kiomaars Arjomandi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391259 = {
+	name = "Ehsan (From Arabic): Kashani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.10.1 = { rank = 1 }
+		1988.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391260 = {
+	name = "Kayhan Muker"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391292 = {
+	name = "Homayun: Mirza"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.8.1 = { rank = 1 }
+		1983.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391293 = {
+	name = "Nakisa Siddiqui"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391295 = {
+	name = "Hamun: Binwani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391299 = {
+	name = "Tahmaseb Zand"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391303 = {
+	name = "Siavash Kazemi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.11.1 = { rank = 1 }
+		1980.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391307 = {
+	name = "Kamyar, Kamiar Jalalipoor"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391311 = {
+	name = "Mazdak Hosseini"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1979.9.1 = { rank = 1 }
+		1981.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391312 = {
+	name = "Rád Mirza"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.2.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391315 = {
+	name = "Pezhman: Sad/Broken hearted. Desire/Wish. Great. Abbasi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391316 = {
+	name = "Ushtra Ansari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.12.1 = { rank = 1 }
+		1987.4.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391318 = {
+	name = "Riza Khawaja"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1979.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391319 = {
+	name = "Rád Khawaja"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1979.8.1 = { rank = 1 }
+		1985.11.1 = { rank = 2 }
+		1987.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391320 = {
+	name = "Piruz Khanum"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391322 = {
+	name = "Shahnam Mohammadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391324 = {
+	name = "Hushmand: Fareedi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1980.9.1 = { rank = 1 }
+		1988.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391329 = {
+	name = "Hardar: Fareedi"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391333 = {
+	name = "Hormoz: Jafari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1982.4.1 = { rank = 1 }
+		1987.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391334 = {
+	name = "Yusuf Mohammadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391335 = {
+	name = "Mahrdad Saadi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.3.1 = { rank = 1 }
+		1984.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391339 = {
+	name = "Shaahin Rizvi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.3.1 = { rank = 1 }
+		1987.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391342 = {
+	name = "Saiyd Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391345 = {
+	name = "Manoochehr Jalalipoor"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391346 = {
+	name = "Siavash Khawaja"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391347 = {
+	name = "Kambiz Ansari"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391348 = {
+	name = "Kayan Gurjadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = commando
+	history = {
+		1985.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391349 = {
+	name = "Ram Gardezi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391352 = {
+	name = "Ehsan (From Arabic): Gardezi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1985.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391354 = {
+	name = "Maysam Jalalipoor"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391356 = {
+	name = "Zain Kiani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.3.1 = { rank = 1 }
+		1987.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391357 = {
+	name = "Sina Mushwani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391358 = {
+	name = "Hamid: Sistani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391359 = {
+	name = "Kamruz Mohammadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391361 = {
+	name = "Kasra Mir"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.1.1 = { rank = 1 }
+		1990.12.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391364 = {
+	name = "Shahram Razavi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391368 = {
+	name = "Hamid: Nishapuri"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1990.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391369 = {
+	name = "Kia Zain"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1987.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391370 = {
+	name = "Rostam Alizadeh"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391371 = {
+	name = "Ramtin Kazemi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.6.1 = { rank = 1 }
+		1988.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391373 = {
+	name = "Tabal Jafari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391374 = {
+	name = "Hamun: Sistani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391375 = {
+	name = "Irman Zahedi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = defensive_doctrine
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391376 = {
+	name = "Manoochehr Razavi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391378 = {
+	name = "Gudarz Chishti"
+	type = land
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1987.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391379 = {
+	name = "Gorzam: Qizilbash"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391380 = {
+	name = "Pooyan Kermani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391381 = {
+	name = "Parviz Jadgal"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391382 = {
+	name = "Sina Khemlani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1988.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391383 = {
+	name = "Yaraan Haqu"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391384 = {
+	name = "Gudarz Jamshidi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1988.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391386 = {
+	name = "Kamyar, Kamiar Shirazi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	add_trait = panzer_leader
+	history = {
+		1988.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391387 = {
+	name = "Mani Isfahani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1988.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391388 = {
+	name = "Mahyar Mirza"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391389 = {
+	name = "Shahsam Ahmadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391390 = {
+	name = "Hardar: Zand"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391393 = {
+	name = "Hormoz: Gurjadi"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391394 = {
+	name = "Nakisa Gardezi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391395 = {
+	name = "Maysam Reza"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1989.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391396 = {
+	name = "Parham Khawaja"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391397 = {
+	name = "Nakisa Akbari"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391398 = {
+	name = "Rambod Jafari"
+	type = land
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391399 = {
+	name = "Riza Zand"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391400 = {
+	name = "Siamak Gurjadi"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391401 = {
+	name = "Mahran Jafari"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = logistics_wizard
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391402 = {
+	name = "Shahab Hamadani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391403 = {
+	name = "Kaveh Zain"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391404 = {
+	name = "Shahab Mushwani"
+	type = land
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391405 = {
+	name = "Vareshna Noorani"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391406 = {
+	name = "Saiyd Khawaja"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391407 = {
+	name = "Kaveh Gurjadi"
+	type = land
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391410 = {
+	name = "Kia Khemlani"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.7.1 = { rank = 0 }
+	}
+}
+1391409 = {
+	name = "Kia Saadi"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.5.1 = { rank = 0 }
+	}
+}
+1391412 = {
+	name = "Ushtra Jafari"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.6.1 = { rank = 0 }
+	}
+}
+1391413 = {
+	name = "Kamran Shirazi"
+	type = sea
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.7.1 = { rank = 0 }
+	}
+}
+1391414 = {
+	name = "Shahnam Mir"
+	type = sea
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1950.2.1 = { rank = 0 }
+	}
+}
+1391418 = {
+	name = "Niyaz Ghazali"
+	type = sea
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.6.1 = { rank = 1 }
+		1950.7.1 = { rank = 2 }
+		1950.7.1 = { rank = 3 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1391421 = {
+	name = "Mani Isfahani"
+	type = sea
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.8.1 = { rank = 1 }
+		1954.9.1 = { rank = 0 }
+	}
+}
+1391408 = {
+	name = "Mani Noorani"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.8.1 = { rank = 2 }
+		1954.5.1 = { rank = 0 }
+	}
+}
+1391419 = {
+	name = "Porang Ansari"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.7.1 = { rank = 1 }
+		1954.5.1 = { rank = 2 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1391415 = {
+	name = "Umid Zand"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1391423 = {
+	name = "Riza Kiani"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.5.1 = { rank = 1 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1391422 = {
+	name = "Porang Razavi"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.9.1 = { rank = 1 }
+		1956.8.1 = { rank = 2 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1391424 = {
+	name = "Aydin Gakhar"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1962.2.1 = { rank = 2 }
+		1963.6.1 = { rank = 0 }
+	}
+}
+1391428 = {
+	name = "Payam Jamshidi"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1963.6.1 = { rank = 1 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1391425 = {
+	name = "Nakisa Isfahani"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.8.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1391416 = {
+	name = "Kayan Jalalipoor"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.7.1 = { rank = 1 }
+		1965.1.1 = { rank = 0 }
+	}
+}
+1391420 = {
+	name = "Sepehr Akbari"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1950.2.1 = { rank = 1 }
+		1968.12.1 = { rank = 0 }
+	}
+}
+1391431 = {
+	name = "Aydin Gardezi"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1965.1.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1391427 = {
+	name = "Kian, Kiyan Binwani"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1962.2.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1391433 = {
+	name = "Esfandiyar: Firdausi"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.5.1 = { rank = 1 }
+		1971.5.1 = { rank = 0 }
+	}
+}
+1391430 = {
+	name = "Shayaan Mirza"
+	type = sea
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.1.1 = { rank = 1 }
+		1971.7.1 = { rank = 0 }
+	}
+}
+1391436 = {
+	name = "Kayhan Zain"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.7.1 = { rank = 1 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1391435 = {
+	name = "Manoochehr Mirza"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.5.1 = { rank = 1 }
+		1974.12.1 = { rank = 0 }
+	}
+}
+1391426 = {
+	name = "Zahir Kazemi"
+	type = sea
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1959.6.1 = { rank = 1 }
+		1963.6.1 = { rank = 2 }
+		1974.2.1 = { rank = 0 }
+	}
+}
+1391429 = {
+	name = "Ushtra Qizilbash"
+	type = sea
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.2.1 = { rank = 1 }
+		1974.5.1 = { rank = 0 }
+	}
+}
+1391417 = {
+	name = "Shayaan Sabzvari"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.5.1 = { rank = 1 }
+		1950.2.1 = { rank = 2 }
+		1953.8.1 = { rank = 3 }
+		1956.8.1 = { rank = 4 }
+		1978.10.1 = { rank = 0 }
+	}
+}
+1391439 = {
+	name = "Kami Jamshidi"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.2.1 = { rank = 1 }
+		1989.9.1 = { rank = 0 }
+	}
+}
+1391432 = {
+	name = "Porang Khorasani"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.12.1 = { rank = 1 }
+		1990.7.1 = { rank = 0 }
+	}
+}
+1391411 = {
+	name = "Kamruz Saadi"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1956.8.1 = { rank = 3 }
+		1978.10.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391434 = {
+	name = "Kamran Akbari"
+	type = sea
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1978.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391437 = {
+	name = "Tabal Jafari"
+	type = sea
+	country = PER
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1972.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391438 = {
+	name = "Puriya Reza"
+	type = sea
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.12.1 = { rank = 1 }
+		1974.12.1 = { rank = 2 }
+		1978.10.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391440 = {
+	name = "Wafa Qizilbash"
+	type = sea
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391441 = {
+	name = "Kamran Ahmadi"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1978.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391442 = {
+	name = "Rambod Reza"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1989.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391443 = {
+	name = "Pooyan Kardar"
+	type = sea
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1990.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391450 = {
+	name = "Manoochehr Ghazali"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.5.1 = { rank = 0 }
+	}
+}
+1391453 = {
+	name = "Hamid: Gardezi"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1950.5.1 = { rank = 1 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1391451 = {
+	name = "Ramak Mohammadi"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.8.1 = { rank = 0 }
+	}
+}
+1391452 = {
+	name = "Payam Sabzvari"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1955.9.1 = { rank = 0 }
+	}
+}
+1391448 = {
+	name = "Kianoush Siddiqui"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.8.1 = { rank = 2 }
+		1955.9.1 = { rank = 3 }
+		1958.6.1 = { rank = 0 }
+	}
+}
+1391446 = {
+	name = "Pezhman: Sad/Broken hearted. Desire/Wish. Great. Kashani"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.6.1 = { rank = 2 }
+		1961.3.1 = { rank = 0 }
+	}
+}
+1391449 = {
+	name = "Shahruz Khemlani"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.8.1 = { rank = 3 }
+		1955.9.1 = { rank = 4 }
+		1961.2.1 = { rank = 0 }
+	}
+}
+1391458 = {
+	name = "Peyman Chishti"
+	type = air
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.3.1 = { rank = 1 }
+		1962.10.1 = { rank = 0 }
+	}
+}
+1391454 = {
+	name = "Kurosh, Korosh Siddiqui"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.9.1 = { rank = 1 }
+		1966.1.1 = { rank = 0 }
+	}
+}
+1391457 = {
+	name = "Shahab Haqu"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.6.1 = { rank = 1 }
+		1961.2.1 = { rank = 2 }
+		1967.5.1 = { rank = 0 }
+	}
+}
+1391462 = {
+	name = "Nakisa Yazdani"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1967.5.1 = { rank = 1 }
+		1969.8.1 = { rank = 0 }
+	}
+}
+1391447 = {
+	name = "Parviz Kazemi"
+	type = air
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.5.1 = { rank = 2 }
+		1975.6.1 = { rank = 0 }
+	}
+}
+1391461 = {
+	name = "Sina Kiani"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1966.1.1 = { rank = 1 }
+		1975.6.1 = { rank = 2 }
+		1976.11.1 = { rank = 0 }
+	}
+}
+1391463 = {
+	name = "Shahkam Noorani"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1969.8.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1391466 = {
+	name = "Vareshna Isfahani"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1976.8.1 = { rank = 1 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1391456 = {
+	name = "Porang Mirza"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.9.1 = { rank = 1 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1391467 = {
+	name = "Shaahin Gakhar"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1977.2.1 = { rank = 1 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1391464 = {
+	name = "Sohrab Shirazi"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.6.1 = { rank = 1 }
+		1981.11.1 = { rank = 0 }
+	}
+}
+1391469 = {
+	name = "Shahkam Akbari"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.12.1 = { rank = 1 }
+		1983.4.1 = { rank = 0 }
+	}
+}
+1391444 = {
+	name = "Zamyaad Siddiqui"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1990.3.1 = { rank = 0 }
+	}
+}
+1391445 = {
+	name = "Saba Gardezi"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.3.1 = { rank = 2 }
+		1961.3.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391455 = {
+	name = "Arvin Kazemi"
+	type = air
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1953.8.1 = { rank = 1 }
+		1955.9.1 = { rank = 2 }
+		1958.6.1 = { rank = 3 }
+		1961.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391459 = {
+	name = "Parviz Hamadani"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.2.1 = { rank = 1 }
+		1976.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391460 = {
+	name = "Ramak Kermani"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1962.10.1 = { rank = 1 }
+		1967.5.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391465 = {
+	name = "Kamraan Ansari"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	add_trait = superior_air_tactician
+	history = {
+		1976.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391468 = {
+	name = "Shahriar Alizadeh"
+	type = air
+	country = PER
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391470 = {
+	name = "Shapur Jadgal"
+	type = air
+	country = PER
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391471 = {
+	name = "Nakisa Kashani"
+	type = air
+	country = PER
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1391472 = {
+	name = "Yusuf Khorasani"
+	type = air
+	country = PER
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	add_trait = fleet_destroyer
+	history = {
+		1990.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

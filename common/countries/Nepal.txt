@@ -1,0 +1,285 @@
+color = { 187  178  196 }
+graphical_culture = Generic
+
+default_templates = {
+	ENG_air_cavalry_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	ENG_armoured_division = {
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade	
+		sp_artillery_brigade
+	}
+	ENG_cavalry_division = {
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade
+	  cavalry_brigade	  
+	  sp_artillery_brigade
+	}
+	ENG_heavy_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade		
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade
+	}
+	ENG_light_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_motorized_division = {
+		motorized_brigade
+		motorized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	ENG_infantry_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade		
+		artillery_brigade
+	}
+	ENG_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	NEP_gorkha_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	ENG_national_guard_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade	
+		artillery_brigade		
+	}
+} 
+unit_names ={} 
+ministers = {
+#HOS - King of Nepal
+	1269000 = {
+		name = "Tribhuvan"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.80
+		picture = NEP_M_Tribhuvan
+		head_of_state = liberal_type
+		head_of_government = liberal_type
+		start_date = 1911.12.11
+		death_date = 1955.3.13
+	}
+	1269001 = {
+		name = "Gayendra"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.90
+		picture = NEP_M_Gayendra #no PD pic
+		head_of_state = parental_type
+		start_date = 1950.11.7
+		death_date = 1951.1.7
+	}
+	1269002 = {
+		name = "Mahendra"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.80 
+		picture = NEP_M_Mahendra
+		head_of_state = hardliner_type
+		start_date = 1955.3.14
+		death_date = 1972.1.31
+	}
+	1269003 = {
+		name = "Birendra"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 1.00
+		picture = NEP_M_Birendra
+		head_of_state = democrat_type
+		start_date = 1972.1.31
+		death_date = 2001.7.1
+	}
+	1269021 = {
+		name = "Dipendra"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.99
+		picture = NEP_M_Dipendra
+		head_of_state = courteous_figure
+		start_date = 1989.6.27
+		death_date = 2001.6.1
+	}
+	1269022 = {
+		name = "Gyanendra"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.98
+		picture = NEP_M_Gyanendra
+		head_of_state = controversial_figure
+		start_date = 1965.7.7
+		death_date = 2300.1.1
+	}
+	1269023 = {
+		name = "Dhirendra"
+		ideology = social_cons_idolg
+		moral_leader = yes
+		loyalty = 0.97
+		picture = NEP_M_Dhirendra
+		head_of_state = courteous_figure
+		start_date = 1968.1.4
+		death_date = 2001.6.1
+	}
+	
+	
+	
+#HOG - Prime Minister - many ministers are "nonpartisan"; ideologies assigned based on policies
+1269004 = {
+		name = "Padma Rana"
+		ideology = paternal_auto_idolg 
+		loyalty = 1.00
+		picture = NEP_M_Rana_Padma #no pic
+		head_of_government = bureaucrat_type
+		start_date = 1945.11.29
+		death_date = 1948.4.30
+	}
+1269005 = {
+		name = "Mohan Rana"
+		ideology = paternal_auto_idolg
+		loyalty = 1.00
+		picture = NEP_M_Rana_Mohan
+		head_of_government = dictator_type
+		start_date = 1948.4.30
+		death_date = 1951.11.21
+	}
+1269006 = {
+		name = "Matrika Koirala"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = NEP_M_Koirala_Matrika #no PD picture
+		head_of_government = democrat_type
+		start_date = 1951.11.16
+		death_date = 1955.4.14
+	}
+1269007 = {
+		name = "Tanka Acharya"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = NEP_M_Acharya_Tanka #no pic
+		head_of_government = courageous_type
+		start_date = 1956.1.27
+		death_date = 1957.7.26
+	}
+1269008 = {
+		name = "Kunwar Singh"
+		ideology = left_wing_radical_idolg
+		loyalty = 1.00
+		picture = NEP_M_Singh_Kunwar #no pic
+		head_of_government = reformer_type
+		start_date = 1957.7.26
+		death_date = 1958.5.15
+	}
+1269009 = {
+		name = "Subarna Rana"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = NEP_M_Rana_Subarna #no pic
+		head_of_government = democrat_type
+		start_date = 1958.5.15
+		death_date = 1959.5.27
+	}
+1269010 = {
+		name = "Bishweshwar Koirala"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = NEP_M_Koirala_Bishweshwar
+		head_of_government = ambitious_type
+		start_date = 1959.5.27
+		death_date = 1960.12.26
+	}
+1269011 = {
+		name = "Tulsi Giri"
+		ideology = social_cons_idolg 
+		loyalty = 0.90 
+		picture = NEP_M_Giri_Tulsi #no pic
+		head_of_government = religious_type
+		start_date = 1960.12.26
+		death_date = 1977.9.12
+	}
+1269012 = {
+		name = "Surya Thapa"
+		ideology = social_liberal_idolg #no party
+		loyalty = 1.00
+		picture = NEP_M_Thapa_Surya
+		head_of_government = democrat_type
+		start_date = 1963.12.23
+		death_date = 2004.6.3
+	}
+1269013 = {
+		name = "Kirti Bista"
+		ideology = social_cons_idolg
+		loyalty = 1.00 
+		picture = NEP_M_Bista_Kirti
+		head_of_government = bureaucrat_type
+		start_date = 1969.4.7
+		death_date = 1979.5.30
+	}
+1269014 = {
+		name = "Nagendra Rijal"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = NEP_M_Rijal_Negendra
+		head_of_government = religious_type
+		start_date = 1973.7.16
+		death_date = 1986.6.15
+	}
+1269015 = {
+		name = "Lokendra Chand"
+		ideology = social_cons_idolg
+		loyalty = 0.90
+		picture = NEP_M_Chand_Lokendra
+		head_of_government = traditionalist_type
+		start_date = 1983.7.12
+		death_date = 2013.8.1
+	}
+1269016 = {
+		name = "Marich Shrestha"
+		ideology = social_cons_idolg
+		loyalty = 1.00
+		picture = NEP_M_Shrestha_Marich #no pic
+		head_of_government = administrator_type
+		start_date = 1986.6.15
+		death_date = 1990.4.6
+	}
+1269017 = {
+		name = "Krishna Bhattari"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = NEP_M_Bhattari_Krishna #no pic
+		head_of_government = visionary_type
+		start_date = 1990.4.19
+		death_date = 1991.5.26
+	}
+1269018 = {
+		name = "Girija Koirala"
+		ideology = social_democrat_idolg
+		loyalty = 1.00
+		picture = NEP_M_Koirala_Girija
+		head_of_government = reformer_type
+		start_date = 1991.5.26
+		death_date = 2010.2.20
+	}	
+	
+	#Last num used 1269023
+}

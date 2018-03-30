@@ -1,0 +1,34 @@
+theatre = {
+	name = "Home Theatre"
+	location = 3544
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+	army =	{
+		name = "1st Army"
+		location = 3544
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =	{
+			name = "1st Division"
+			location = 3544
+			regiment = { type = light_mechanized_brigade name = "1st L. Mech. Brigade" historical_model = 3 strength = 37 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 4 strength = 39 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 4 strength = 24 experience = 4 }
+		}
+	}
+	navy = {
+		name = "Home Fleet"
+		base = 3544 # Montevideo (3)
+		location = 3544
+		ship = { type = missile_frigate name = "ROU 18 De Julio" historical_model = 0 builder = USA }		
+		ship = { type = missile_frigate name = "ROU General Artigas" historical_model = 1 builder = FRA }
+		ship = { type = missile_frigate name = "ROU Uruguay" historical_model = 1 builder = FRA }
+		ship = { type = missile_frigate name = "ROU Montevideo" historical_model = 1 builder = FRA }
+	}
+}
+division =
+{
+	name = "2nd Division"
+	location = 9999
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 4 strength = 39 experience = 5 }
+	regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 3 strength = 39 experience = 5 }
+}

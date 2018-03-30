@@ -1,0 +1,2191 @@
+# List of all Land Technology techs
+	#amphibious_capability					( 4 levels)
+	#desert_capability						( 4 levels)
+	#jungle_capability						( 4 levels)
+	#mountain_capability					( 4 levels)
+	#arctic_equipment						( 4 levels)
+	#night_vision							( 3 levels)
+	#engineering_equipment					( 3 levels)
+	#battlefield_medicine					( 4 levels)
+	#light_engine							( 4 levels)
+	#medium_engine							( 4 levels)
+	#heavy_engine							( 4 levels)
+	#light_armor							( 4 levels)
+	#medium_armor							( 4 levels)
+	#heavy_armor							( 4 levels)
+	#body_armor								( 3 levels)
+	#battle_tank							( 4 levels)
+	#comb_technicals						( 1 level )
+	#comb_improved_vehic_armor				( 1 level )
+	
+
+### Capability
+amphibious_capability = { # AENG, ARM, ATV, HMEC, LMEC, MAR, TD# 
+    time = 100
+    cost = 200
+	folder = land_tech1_folder
+	level = 4
+	
+	allow_level = {
+		1 = { 
+			specialist_tactics = 1 
+			small_arms = 1 
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}		
+	traits = {
+		front_theory
+		arsenal_theory		
+	}
+	level_effect = {
+		1 = {
+
+			armored_engineer_brigade = { 
+				river = { movement = 0.004 }
+			}
+			armor_brigade = {
+				river = { movement = 0.01 attack = 0.009 }
+			}
+			all_terrain_vehicles = { 
+				river = { movement = 0.007 attack = 0.009 }
+			}
+			heavy_mechanized_brigade = { 
+				river = { movement = 0.008 attack = 0.009 }
+			}
+			light_mechanized_brigade = { 
+				river = { movement = 0.007 attack = 0.009 }
+			}				
+			marine_brigade = { 
+				river = { movement = 0.004 attack = 0.009 }
+			}	
+			tank_destroyer_brigade = { 
+				river = { movement = 0.01 attack = 0.009 }
+			}				
+		}
+		2 = { 
+			armored_engineer_brigade = { 
+				river = { movement = 0.008 }
+			}
+			armor_brigade = {
+				river = { movement = 0.024 attack = 0.024 }
+			}
+			all_terrain_vehicles = { 
+				river = { movement = 0.017 attack = 0.024 }
+			}
+			heavy_mechanized_brigade = { 
+				river = { movement = 0.021 attack = 0.024 }
+			}
+			light_mechanized_brigade = { 
+				river = { movement = 0.017 attack = 0.024 }
+			}				
+			marine_brigade = { 
+				river = { movement = 0.008 attack = 0.027 }
+			}	
+			tank_destroyer_brigade = { 
+				river = { movement = 0.024 attack = 0.024 }
+			}					
+		}
+		3 = {
+			armored_engineer_brigade = { 
+				river = { movement = 0.015 } 
+			}
+			armor_brigade = {
+				river = { movement = 0.065 attack = 0.065 }
+			}
+			all_terrain_vehicles = { 
+				river = { movement = 0.041 attack = 0.065 }
+			}
+			heavy_mechanized_brigade = { 
+				river = { movement = 0.053 attack = 0.065 }
+			}
+			light_mechanized_brigade = { 
+				river = { movement = 0.041 attack = 0.065 }
+			}				
+			marine_brigade = { 
+				river = { movement = 0.015 attack = 0.077 }
+			}	
+			tank_destroyer_brigade = { 
+				river = { movement = 0.065 attack = 0.065 }
+			}			
+		}
+		4 = {
+			armored_engineer_brigade = { 
+				river = { movement = 0.023 } 
+			}
+			armor_brigade = {
+				river = { movement = 0.151 attack = 0.152 } #Mov. 25% -40% Att. 25% -45%#
+			}
+			all_terrain_vehicles = { 
+				river = { movement = 0.085 attack = 0.152 } #Mov. 15% -0% Att. 25% -0%#
+			}
+			heavy_mechanized_brigade = { 
+				river = { movement = 0.118 attack = 0.152 } #Mov. 20% -25% Att. 25% -45%#
+			}
+			light_mechanized_brigade = { 
+				river = { movement = 0.085 attack = 0.152 } #Mov. 15% -25% Att. 25% -22%#
+			}				
+			marine_brigade = { 
+				river = { movement = 0.023 attack = 0.187 } #Mov. 5% -0% Att. 30% +30%#
+			}	
+			tank_destroyer_brigade = { 
+				river = { movement = 0.151 attack = 0.0152 } #Mov. 25% -40% Att. 25% -40%#
+			}				
+		}
+	}
+}
+
+desert_capability = {  
+    time = 100
+    cost = 200
+	folder = land_tech1_folder
+	level = 4 
+	
+	allow_level = {
+		1 = { 
+			maneuver_warfare = 1 
+			specialist_tactics = 1 
+			small_arms = 1
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}		
+	traits = {
+		front_theory		
+		arsenal_theory		
+	}	
+	level_effect = {
+		1 = {
+			anti_air_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}				
+			air_cav_brigade = {
+				desert  = { attack = 0.004 attrition = -1}
+			}
+			armored_engineer_brigade = { 
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}
+			armor_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}
+			artillery_brigade = {
+				desert  = { movement = 0.004 attrition = -1}
+			}		
+			anti_tank_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}						
+			all_terrain_vehicles = { 
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}
+			cavalry_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}		
+			engineer_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}				
+			heavy_mechanized_brigade = { 
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}
+			hq_brigade = { 
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}				
+			infantry_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}				
+			light_mechanized_brigade = { 
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}	
+			long_range_anti_air_brigade = { 
+				desert  = {movement = 0.004 attrition = -1}
+			}				
+			marine_brigade = { 
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}
+			militia_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}
+			partisan_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1} 
+			}	
+			motorized_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}		
+			police_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}	
+			rocket_artillery_brigade = {
+				desert  = {movement = 0.004 attrition = -1}
+			}				
+			sp_anti_air_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}	
+			sp_artillery_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}	
+			sp_rct_artillery_brigade = {
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}					
+			tank_destroyer_brigade = { 
+				desert  = { attack = 0.004 movement = 0.004 attrition = -1}
+			}
+		}
+		2 = { 
+			anti_air_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}				
+			air_cav_brigade = {
+				desert  = { attack = 0.008 attrition = -1}
+			}
+			armored_engineer_brigade = { 
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}
+			armor_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}
+			artillery_brigade = {
+				desert  = { movement = 0.008 attrition = -1}
+			}		
+			anti_tank_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}						
+			all_terrain_vehicles = { 
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}
+			cavalry_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}		
+			engineer_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}				
+			heavy_mechanized_brigade = { 
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}
+			hq_brigade = { 
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}				
+			infantry_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}				
+			light_mechanized_brigade = { 
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}	
+			long_range_anti_air_brigade = { 
+				desert  = {movement = 0.008 attrition = -1}
+			}				
+			marine_brigade = { 
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}
+			militia_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}
+			partisan_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}	
+			motorized_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}		
+			police_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}	
+			rocket_artillery_brigade = {
+				desert  = {movement = 0.008 attrition = -1}
+			}				
+			sp_anti_air_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}	
+			sp_artillery_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}	
+			sp_rct_artillery_brigade = {
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}					
+			tank_destroyer_brigade = { 
+				desert  = { attack = 0.008 movement = 0.008 attrition = -1}
+			}								
+		}
+		3 = {
+			anti_air_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}				
+			air_cav_brigade = {
+				desert  = { attack = 0.015 attrition = -1}
+			}
+			armored_engineer_brigade = { 
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}
+			armor_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}
+			artillery_brigade = {
+				desert  = { movement = 0.015 attrition = -1}
+			}		
+			anti_tank_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}						
+			all_terrain_vehicles = { 
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}
+			cavalry_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}		
+			engineer_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}				
+			heavy_mechanized_brigade = { 
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}
+			hq_brigade = { 
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}				
+			infantry_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}				
+			light_mechanized_brigade = { 
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}	
+			long_range_anti_air_brigade = { 
+				desert  = {movement = 0.015 attrition = -1}
+			}				
+			marine_brigade = { 
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}
+			militia_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}
+			partisan_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}	
+			motorized_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}		
+			police_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}	
+			rocket_artillery_brigade = {
+				desert  = {movement = 0.015 attrition = -1}
+			}				
+			sp_anti_air_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}	
+			sp_artillery_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}	
+			sp_rct_artillery_brigade = {
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}					
+			tank_destroyer_brigade = { 
+				desert  = { attack = 0.015 movement = 0.015 attrition = -1}
+			}						
+		}
+		4 = {
+			anti_air_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}				
+			air_cav_brigade = {
+				desert  = { attack = 0.023 attrition = -1}
+			}
+			armored_engineer_brigade = { 
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}
+			armor_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1} 
+			}
+			artillery_brigade = {
+				desert  = { movement = 0.023 attrition = -1}
+			}		
+			anti_tank_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}						
+			all_terrain_vehicles = { 
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}
+			cavalry_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}		
+			engineer_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}				
+			heavy_mechanized_brigade = { 
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}
+			hq_brigade = { 
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}				
+			infantry_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}				
+			light_mechanized_brigade = { 
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}	
+			long_range_anti_air_brigade = { 
+				desert  = {movement = 0.023 attrition = -1}
+			}				
+			marine_brigade = { 
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}
+			militia_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}
+			partisan_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}	
+			motorized_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}		
+			police_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}	
+			rocket_artillery_brigade = {
+				desert  = {movement = 0.023 attrition = -1}
+			}				
+			sp_anti_air_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}	
+			sp_artillery_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}	
+			sp_rct_artillery_brigade = {
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}					
+			tank_destroyer_brigade = { 
+				desert  = { attack = 0.023 movement = 0.023 attrition = -1}
+			}			
+		}
+	}		
+}
+
+jungle_capability = { 
+    time = 100
+    cost = 200
+	folder = land_tech1_folder
+	level = 4 
+	
+	allow_level = {
+		1 = { 
+			specialist_tactics = 1 
+			small_arms = 1 
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}		
+	traits = {
+		front_theory
+		arsenal_theory		
+	}	
+	level_effect = {
+		1 = {
+			air_cav_brigade = {
+				jungle  = { attack = 0.008 attrition = -1}
+			}	
+			all_terrain_vehicles = { 
+				jungle  = { attack = 0.008 movement = 0.007 attrition = -1}
+			}	
+			engineer_brigade = {
+				jungle  = { attack = 0.008 movement = 0.007 attrition = -1}
+			}				
+			marine_brigade = { 
+				jungle  = { attack = 0.008 movement = 0.007 attrition = -1}
+			}			
+		}
+		2 = {
+			air_cav_brigade = {
+				jungle  = { attack = 0.021 attrition = -1}
+			}	
+			all_terrain_vehicles = { 
+				jungle  = { attack = 0.021 movement = 0.017 attrition = -1}
+			}	
+			engineer_brigade = {
+				jungle  = { attack = 0.021 movement = 0.017 attrition = -1}
+			}				
+			marine_brigade = { 
+				jungle  = { attack = 0.021 movement = 0.017 attrition = -1}
+			}			
+		}
+		3 = {
+			air_cav_brigade = {
+				jungle  = { attack = 0.053 attrition = -1}
+			}	
+			all_terrain_vehicles = { 
+				jungle  = { attack = 0.053 movement = 0.041 attrition = -1}
+			}	
+			engineer_brigade = {
+				jungle  = { attack = 0.053 movement = 0.041 attrition = -1}
+			}				
+			marine_brigade = { 
+				jungle  = { attack = 0.053 movement = 0.041 attrition = -1}
+			}						
+		}
+		4 = {
+			air_cav_brigade = {
+				jungle  = { attack = 0.12 attrition = -1}
+			}	
+			all_terrain_vehicles = { 
+				jungle  = { attack = 0.12 movement = 0.085 attrition = -1}
+			}	
+			engineer_brigade = {
+				jungle  = { attack = 0.12 movement = 0.085 attrition = -1}
+			}				
+			marine_brigade = { 
+				jungle  = { attack = 0.12 movement = 0.085 attrition = -1}
+			}							
+		}
+	}		
+	
+}
+
+mountain_capability = { 
+    time = 100
+    cost = 200
+	folder = land_tech1_folder
+	level = 4
+	
+	allow_level = {
+		1 = {
+			specialist_tactics = 1 
+			small_arms = 1 
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}		
+	traits = {
+		front_theory
+		arsenal_theory			
+	}
+	level_effect = {
+		1 = {
+			all_terrain_vehicles = { 
+				high_mountain = { attack = 0.007 movement = 0.008 attrition = -1}
+			}
+			militia_brigade = {
+				high_mountain = { attack = 0.004 movement = 0.008 attrition = -1}					
+			}	
+			bergsjaeger_brigade = {
+				high_mountain = { attack = 0.007 movement = 0.008 attrition = -1}					
+			}					
+		}
+		2 = { 
+			all_terrain_vehicles = { 
+				high_mountain = { attack = 0.017 movement = 0.021 attrition = -1}
+			}
+			militia_brigade = {
+				high_mountain = { attack = 0.008 movement = 0.021 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				high_mountain = { attack = 0.017 movement = 0.021 attrition = -1}
+			}											
+		}
+		3 = {
+			all_terrain_vehicles = { 
+				high_mountain = { attack = 0.041 movement = 0.053 attrition = -1}
+			}
+			militia_brigade = {
+				high_mountain = { attack = 0.015 movement = 0.053 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				high_mountain = { attack = 0.041 movement = 0.053 attrition = -1}
+			}									
+		}
+		4 = {
+			all_terrain_vehicles = { 
+				high_mountain = { attack = 0.085 movement = 0.118 attrition = -1}
+			}
+			militia_brigade = {
+				high_mountain = { attack = 0.023 movement = 0.118 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				high_mountain = { attack = 0.085 movement = 0.118 attrition = -1}
+			}					
+		}
+	}	
+}
+
+arctic_equipment = { #All units
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 3
+	
+	allow_level = {
+		1 = {
+			specialist_tactics = 1 
+			small_arms = 1 
+		}
+		2 = {}
+		3 = {}
+	}
+	traits = {
+		front_theory
+		arsenal_theory			
+	}
+	level_effect = {
+		1 = {
+			anti_air_brigade = {
+				arctic = { 
+					movement = 0.009 
+					attrition = -1 
+				}
+			}				
+			air_cav_brigade = {
+				arctic = { 
+					movement = 0.006
+					attrition = -1 
+				}
+			}
+			armored_engineer_brigade = { 
+				arctic = { 
+					movement = 0.009
+					attrition = -1 
+				}
+			}
+			armor_brigade = {
+				arctic = {
+				movement = 0.016 
+					attack = 0.016 
+					attrition = -1 
+				}
+			}
+			artillery_brigade = {
+				arctic = { 
+					movement = 0.009 
+					attrition = -1 
+				}
+			}		
+			anti_tank_brigade = {
+				arctic = { 
+					movement = 0.009 
+					attrition = -1 
+				}
+			}				
+			attack_helo_brigade = {
+				arctic = { 
+					movement = 0.006 
+					attrition = -1 
+				}
+			}				
+			cavalry_brigade = {
+				arctic = { 
+					movement = 0.006 
+					attack = 0.012 
+					attrition = -1 
+				}
+			}		
+			engineer_brigade = {
+				arctic = { 
+					movement = 0.009 
+					attrition = -1 
+				}
+			}				
+			heavy_mechanized_brigade = { 
+				arctic = { 
+					movement = 0.016 
+					attack = 0.016 
+					attrition = -1
+				}
+			}
+			hq_brigade = { 
+				arctic = { 
+					movement = 0.009 
+					attrition = -1
+				}
+			}				
+			infantry_brigade = {
+				arctic = { 
+					movement = 0.009
+					attrition = -1
+				}
+			}				
+			light_mechanized_brigade = { 
+				arctic = { 
+					movement = 0.008
+					attrition = -1
+				}
+			}	
+			long_range_anti_air_brigade = { 
+				arctic = {
+					movement = 0.008 
+					attrition = -1 
+				}
+			}				
+			marine_brigade = { 
+				arctic = { 
+					movement = 0.009
+					attrition = -1 
+				}
+			}
+			militia_brigade = {
+				arctic = {
+					movement = 0.009
+					attrition = -1 
+				}
+			}
+			partisan_brigade = {
+				arctic = {
+					movement = 0.009 
+					attrition = -1
+				}
+			}	
+			motorized_brigade = {
+				arctic = {
+					movement = 0.008 
+					attrition = -1 
+				}
+			}	
+			bergsjaeger_brigade = {
+				arctic = { 
+					movement = 0.006 
+					attrition = -1 
+				}
+			}		
+			police_brigade = {
+				arctic = { 
+					movement = 0.009 
+					attrition = -1 
+				}
+			}	
+			rocket_artillery_brigade = {
+				arctic = { 
+					movement = 0.009 
+					attrition = -1 
+				}
+			}				
+			sp_anti_air_brigade = {
+				arctic = { 
+					movement = 0.008 
+					attack = 0.012 
+					attrition = -1 
+				}
+			}	
+			sp_artillery_brigade = {
+				arctic = { 
+					movement = 0.008 
+					attrition = -1 
+				}
+			}	
+			sp_rct_artillery_brigade = {
+				arctic = { 
+					movement = 0.008 
+					attrition = -1 
+				}
+			}					
+			tank_destroyer_brigade = { 
+				arctic = { 
+					movement = 0.016 
+					attack = 0.016 
+					attrition = -1 
+				}
+			}			
+		}
+		2 = {
+			anti_air_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}				
+			air_cav_brigade = {
+				arctic = { movement = 0.014 attrition = -1}
+			}
+			armored_engineer_brigade = { 
+				arctic = { movement = 0.024 attrition = -1}
+			}
+			armor_brigade = {
+				arctic = { movement = 0.065 attack = 0.065 attrition = -1}
+			}
+			artillery_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}		
+			anti_tank_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}				
+			attack_helo_brigade = {
+				arctic = { movement = 0.014 attrition = -1}
+			}				
+			all_terrain_vehicles = { 
+				arctic = { attack = 0.024 attrition = -1}
+			}
+			cavalry_brigade = {
+				arctic = { movement = 0.014 attack = 0.042 attrition = -1}
+			}		
+			engineer_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}				
+			heavy_mechanized_brigade = { 
+				arctic = { movement = 0.065 attack = 0.065 attrition = -1}
+			}
+			hq_brigade = { 
+				arctic = { movement = 0.024 attrition = -1}
+			}				
+			infantry_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}				
+			light_mechanized_brigade = { 
+				arctic = { movement = 0.019 attrition = -1}
+			}	
+			long_range_anti_air_brigade = { 
+				arctic = { movement = 0.019 attrition = -1}
+			}				
+			marine_brigade = { 
+				arctic = { movement = 0.024 attrition = -1}
+			}
+			militia_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}
+			partisan_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}	
+			motorized_brigade = {
+				arctic = { movement = 0.019 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				arctic = { movement = 0.014 attrition = -1}
+			}		
+			police_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}	
+			rocket_artillery_brigade = {
+				arctic = { movement = 0.024 attrition = -1}
+			}				
+			sp_anti_air_brigade = {
+				arctic = { movement = 0.019 attack = 0.042 attrition = -1}
+			}	
+			sp_artillery_brigade = {
+				arctic = { movement = 0.019 attrition = -1}
+			}	
+			sp_rct_artillery_brigade = {
+				arctic = { movement = 0.019 attrition = -1}
+			}					
+			tank_destroyer_brigade = { 
+				arctic = { movement = 0.065 attack = 0.065 attrition = -1}
+			}							
+		}
+		3 = {
+			anti_air_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}				
+			air_cav_brigade = {
+				arctic = { movement = 0.03 attrition = -1}
+			}
+			armored_engineer_brigade = { 
+				arctic = { movement = 0.067 attrition = -1}
+			}
+			armor_brigade = {
+				arctic = { movement = 0.269 attack = 0.269 attrition = -1}
+			}
+			artillery_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}		
+			anti_tank_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}				
+			attack_helo_brigade = {
+				arctic = { movement = 0.03 attrition = -1}
+			}				
+			all_terrain_vehicles = { 
+				arctic = { attack = 0.067 attrition = -1}
+			}
+			cavalry_brigade = {
+				arctic = { movement = 0.03 attack = 0.146 attrition = -1}
+			}		
+			engineer_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}				
+			heavy_mechanized_brigade = { 
+				arctic = { movement = 0.269 attack = 0.269 attrition = -1}
+			}
+			hq_brigade = { 
+				arctic = { movement = 0.067 attrition = -1}
+			}				
+			infantry_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}				
+			light_mechanized_brigade = { 
+				arctic = { movement = 0.048 attrition = -1}
+			}	
+			long_range_anti_air_brigade = { 
+				arctic = { movement = 0.048 attrition = -1}
+			}				
+			marine_brigade = { 
+				arctic = { movement = 0.067 attrition = -1}
+			}
+			militia_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}
+			partisan_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}	
+			motorized_brigade = {
+				arctic = { movement = 0.048 attrition = -1}
+			}	
+			bergsjaeger_brigade = {
+				arctic = { movement = 0.03 attrition = -1}
+			}		
+			police_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}	
+			rocket_artillery_brigade = {
+				arctic = { movement = 0.067 attrition = -1}
+			}				
+			sp_anti_air_brigade = {
+				arctic = { movement = 0.048 attack = 0.146 attrition = -1}
+			}	
+			sp_artillery_brigade = {
+				arctic = { movement = 0.048 attrition = -1}
+			}	
+			sp_rct_artillery_brigade = {
+				arctic = { movement = 0.048 attrition = -1}
+			}					
+			tank_destroyer_brigade = { 
+				arctic = { movement = 0.269 attack = 0.269 attrition = -1}
+			}			
+		}
+	}
+}
+
+night_vision = { # INF, LARM, MOT, MTN, MECH, ARM, IFV, AT ART, MOT AT ART,
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 3 
+	
+	allow_level = { # + industry tech electronics
+		1 = { industry_electronics = 4 }
+		2 = { 
+			industry_electronics = 7 
+			industry_hightech_integratedcircuits = 1 
+		}
+		3 = { 
+			industry_electronics = 9 
+			industry_hightech_integratedcircuits = 4 
+		}
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {
+			anti_air_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			air_cav_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}
+			armored_engineer_brigade = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}
+			armor_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}
+			artillery_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}		
+			anti_tank_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			attack_helo_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			all_terrain_vehicles = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}
+			cavalry_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}		
+			engineer_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			heavy_mechanized_brigade = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}
+			hq_brigade = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			infantry_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			light_mechanized_brigade = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}	
+			long_range_anti_air_brigade = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			marine_brigade = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}
+			militia_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}
+			partisan_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}	
+			motorized_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}	
+			bergsjaeger_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}		
+			police_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}	
+			rocket_artillery_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+			sp_anti_air_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}	
+			sp_artillery_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}	
+			sp_rct_artillery_brigade = {
+				night  = { attack = 0.009 defence = 0.011 }
+			}					
+			tank_destroyer_brigade = { 
+				night  = { attack = 0.009 defence = 0.011 }
+			}				
+		}
+		2 = {
+			anti_air_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			air_cav_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}
+			armored_engineer_brigade = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}
+			armor_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}
+			artillery_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}		
+			anti_tank_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			attack_helo_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			all_terrain_vehicles = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}
+			cavalry_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}		
+			engineer_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			heavy_mechanized_brigade = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}
+			hq_brigade = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			infantry_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			light_mechanized_brigade = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}	
+			long_range_anti_air_brigade = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			marine_brigade = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}
+			militia_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}
+			partisan_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}	
+			motorized_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}	
+			bergsjaeger_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}		
+			police_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}	
+			rocket_artillery_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+			sp_anti_air_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}	
+			sp_artillery_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}	
+			sp_rct_artillery_brigade = {
+				night  = { attack = 0.024 defence = 0.034 }
+			}					
+			tank_destroyer_brigade = { 
+				night  = { attack = 0.024 defence = 0.034 }
+			}				
+		}
+		3 = {
+			anti_air_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			air_cav_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}
+			armored_engineer_brigade = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}
+			armor_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}
+			artillery_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}		
+			anti_tank_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			attack_helo_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			all_terrain_vehicles = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}
+			cavalry_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}		
+			engineer_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			heavy_mechanized_brigade = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}
+			hq_brigade = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			infantry_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			light_mechanized_brigade = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}	
+			long_range_anti_air_brigade = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			marine_brigade = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}
+			militia_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}
+			partisan_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}	
+			motorized_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}	
+			bergsjaeger_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}		
+			police_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}	
+			rocket_artillery_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}				
+			sp_anti_air_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}	
+			sp_artillery_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}	
+			sp_rct_artillery_brigade = {
+				night  = { attack = 0.067 defence = 0.105 }
+			}					
+			tank_destroyer_brigade = { 
+				night  = { attack = 0.067 defence = 0.105 }
+			}							
+		}
+	}
+}
+
+engineering_equipment = { # AENG, ENG, INF, MAR, MIL, MTN, Partisan
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 3
+	
+	allow_level = {
+		1 = {
+			attrition_warfare = 1
+			small_arms = 1
+		}
+		2 = {}
+		3 = {}
+	}
+	traits = {
+		front_theory
+		arsenal_theory		
+	}
+	level_effect = {
+		1 = {
+			armored_engineer_brigade = { 
+				river = { movement = 0.006}
+				marsh = { movement = 0.009 attack =0.006 }
+			}
+			engineer_brigade = {
+				river = { movement = 0.006}
+				marsh = { movement = 0.009 attack =0.006}
+			}						
+			infantry_brigade = {
+				river = { movement = 0.006}
+				marsh = { movement = 0.009 attack =0.006}
+			}							
+			marine_brigade = { 
+				river = { movement = 0.006}
+				marsh = { movement = 0.009 attack =0.006}
+			}
+			militia_brigade = {
+				river = { movement = 0.006}
+				marsh = { movement = 0.009 attack =0.006}
+			}
+			partisan_brigade = {
+				river = { movement = 0.006}
+				marsh = { movement = 0.009 attack =0.006}
+			}	
+			bergsjaeger_brigade = {
+				river = { movement = 0.006}
+				marsh = { movement = 0.009 attack =0.006}
+			}		
+		}
+		2 = {
+			armored_engineer_brigade = { 
+				river = { movement = 0.014}
+				marsh = { movement = 0.024 attack =0.014 }
+			}
+			engineer_brigade = {
+				river = { movement = 0.014}
+				marsh = { movement = 0.024 attack =0.014}
+			}						
+			infantry_brigade = {
+				river = { movement = 0.014}
+				marsh = { movement = 0.024 attack =0.014}
+			}							
+			marine_brigade = { 
+				river = { movement = 0.014}
+				marsh = { movement = 0.024 attack =0.014}
+			}
+			militia_brigade = {
+				river = { movement = 0.014}
+				marsh = { movement = 0.024 attack =0.014}
+			}
+			partisan_brigade = {
+				river = { movement = 0.014}
+				marsh = { movement = 0.024 attack =0.014}
+			}	
+			bergsjaeger_brigade = {
+				river = { movement = 0.014}
+				marsh = { movement = 0.024 attack =0.014}
+			}			
+		}
+		3 = {
+			armored_engineer_brigade = { 
+				river = { movement = 0.030}
+				marsh = { movement = 0.067 attack =0.030 }
+			}
+			engineer_brigade = {
+				river = { movement = 0.030}
+				marsh = { movement = 0.067 attack =0.030}
+			}						
+			infantry_brigade = {
+				river = { movement = 0.030}
+				marsh = { movement = 0.067 attack =0.030}
+			}							
+			marine_brigade = { 
+				river = { movement = 0.030}
+				marsh = { movement = 0.067 attack =0.030}
+			}
+			militia_brigade = {
+				river = { movement = 0.030}
+				marsh = { movement = 0.067 attack =0.030}
+			}
+			partisan_brigade = {
+				river = { movement = 0.030}
+				marsh = { movement = 0.067 attack =0.030}
+			}	
+			bergsjaeger_brigade = {
+				river = { movement = 0.030}
+				marsh = { movement = 0.067 attack =0.030}
+			}				
+		}
+	}
+}
+
+battlefield_medicine = { # naval, land, air + morale for HQ
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #5
+	
+	allow_level = { # industry tech? Requires attack helicopters from level 3, gives bonuses to land, air and naval
+		1 = { industry_medicine = 1 }
+		2 = { industry_medicine = 2 }
+		3 = { industry_medicine = 4 }
+		4 = { industry_medicine = 8 }
+	}
+	traits = {
+		science_theory		
+	}
+	level_effect = { #5% trickleback and HQ
+		1 = {casualty_trickleback = 0.004
+			hq_brigade = {default_morale = 0.08 supply_consumption = 0.04}			
+		}
+		2 = {casualty_trickleback = 0.008
+			hq_brigade = {default_morale = 0.12 supply_consumption = 0.07}			
+		}
+		3 = {casualty_trickleback = 0.015
+			hq_brigade = {default_morale = 0.20 supply_consumption = 0.11}			
+		}
+		4 = {casualty_trickleback = 0.023
+			hq_brigade = {default_morale = 0.03 supply_consumption = 0.17}			
+		}
+	}
+}
+
+
+light_engine = { # AA, ART, AT, ATV, ENG, HQ, INF, LRAA, MOT, MTN, POL, RART,  
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #7
+	
+	allow_level = {
+		1 = {
+			industry_heavy_mechanical_engineering = 1
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		industry_theory		
+	}
+	level_effect = { # 1948-1955 ATV, ENG, MOT, POL Fuel to CAV
+		1 = {
+			all_terrain_vehicles = { 
+				maximum_speed = 3.20
+				fuel_consumption = 0.46
+			}			
+			engineer_brigade = {
+				maximum_speed = 4.80
+				fuel_consumption = 0.15
+			}				
+			motorized_brigade = {
+				maximum_speed = 5.60
+				fuel_consumption = 0.40
+			}	
+			police_brigade = {
+				maximum_speed = 4.00
+				fuel_consumption = 0.02
+			}	
+		}
+		2 = { # 1955- Motorization - Fuel to AA, ART, AT, ENG, HQ, INF, MTN, RART 
+			anti_air_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 1.00
+			}				
+			artillery_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 1.00
+			}		
+			anti_tank_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 1.00
+			}				
+			all_terrain_vehicles = { 
+				maximum_speed = 4.80
+				fuel_consumption = 0.69
+			}	
+			engineer_brigade = {
+				maximum_speed = 7.20
+				fuel_consumption = 0.23
+			}				
+			hq_brigade = { 
+				maximum_speed = 8.00
+				fuel_consumption = 2.00
+			}				
+			infantry_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 2.00
+			}				
+			motorized_brigade = {
+				maximum_speed = 8.40
+				fuel_consumption = 0.60
+			}	
+			bergsjaeger_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 1.34
+			}		
+			police_brigade = {
+				maximum_speed = 6.00
+				fuel_consumption = 0.03
+			}	
+			rocket_artillery_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 1.00
+			}				
+		}
+		3 = {
+			anti_air_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 0.50
+			}				
+			artillery_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 0.50
+			}		
+			anti_tank_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 0.50
+			}				
+			all_terrain_vehicles = { 
+				maximum_speed = 8.00
+				fuel_consumption = 1.15
+			}		
+			engineer_brigade = {
+				maximum_speed = 12.00
+				fuel_consumption = 0.38
+			}				
+			hq_brigade = { 
+				maximum_speed = 8.00
+				fuel_consumption = 1.00
+			}				
+			infantry_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 1.00
+			}				
+			motorized_brigade = {
+				maximum_speed = 14.00
+				fuel_consumption = 1.00
+			}	
+			bergsjaeger_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 0.67
+			}		
+			police_brigade = {
+				maximum_speed = 10.00
+				fuel_consumption = 0.05
+			}	
+			rocket_artillery_brigade = {
+				maximum_speed = 8.00
+				fuel_consumption = 0.50
+			}			
+		}
+		4 = {
+			anti_air_brigade = {
+				maximum_speed = 12.00
+				fuel_consumption = 0.75
+			}				
+			artillery_brigade = {
+				maximum_speed = 12.00
+				fuel_consumption = 0.75
+			}		
+			anti_tank_brigade = {
+				maximum_speed = 12.00
+				fuel_consumption = 0.75
+			}				
+			all_terrain_vehicles = { 
+				maximum_speed = 12.00
+				fuel_consumption = 1.73
+			}		
+			engineer_brigade = {
+				maximum_speed = 18.00
+				fuel_consumption = 0.57
+			}				
+			hq_brigade = { 
+				maximum_speed = 12.00
+				fuel_consumption = 1.50
+			}				
+			infantry_brigade = {
+				maximum_speed = 12.00
+				fuel_consumption = 1.50
+			}
+			long_range_anti_air_brigade= {
+				maximum_speed = 8.40
+				fuel_consumption = 1.01
+			}
+			motorized_brigade = {
+				maximum_speed = 21.00
+				fuel_consumption = 1.50
+			}	
+			bergsjaeger_brigade = {
+				maximum_speed = 12.00
+				fuel_consumption = 1.01
+			}		
+			police_brigade = {
+				maximum_speed = 15.00
+				fuel_consumption = 0.08
+			}	
+			rocket_artillery_brigade = {
+				maximum_speed = 12.00
+				fuel_consumption = 0.75
+			}			
+		}
+	}
+}
+medium_engine = { # ACAV, CAV, LMEC, MAR, SPAA, SPRART 
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #6
+	
+	allow_level = {
+		1 = {
+			light_engine = 1
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		army_theory		
+	}		
+	level_effect = { # Fuel added to CAV
+		1 = {
+			air_cav_brigade = {
+				maximum_speed = 12.80
+				fuel_consumption = 1.33
+			}
+			cavalry_brigade = {
+				maximum_speed = 5.60
+				fuel_consumption = 0.40
+			}				
+			light_mechanized_brigade = { 
+				maximum_speed = 6.40
+				fuel_consumption = 0.92
+			}	
+			sp_anti_air_brigade = {
+				maximum_speed = 5.60
+				fuel_consumption = 0.27
+			}	
+			sp_rct_artillery_brigade = {
+				maximum_speed = 6.40
+				fuel_consumption = 0.32
+			}						
+		}
+		2 = { # 1955- Motorization - Fuel added to MAR 
+			air_cav_brigade = {
+				maximum_speed = 19.20
+				fuel_consumption = 2.00
+			}
+			cavalry_brigade = {
+				maximum_speed = 8.40
+				fuel_consumption = 0.60
+			}				
+			light_mechanized_brigade = { 
+				maximum_speed = 9.60
+				fuel_consumption = 1.38
+			}	
+			marine_brigade = { 
+				maximum_speed = 8.00
+				fuel_consumption = 4.90
+			}
+			sp_anti_air_brigade = {
+				maximum_speed = 8.40
+				fuel_consumption = 0.40
+			}			
+			sp_rct_artillery_brigade = {
+				maximum_speed = 9.60
+				fuel_consumption = 0.48
+			}									
+		}
+		3 = {
+			air_cav_brigade = {
+				maximum_speed = 32.00
+				fuel_consumption = 3.33
+			}
+			cavalry_brigade = {
+				maximum_speed = 14.00
+				fuel_consumption = 1.00
+			}				
+			light_mechanized_brigade = { 
+				maximum_speed = 16.00
+				fuel_consumption = 2.30
+			}	
+			marine_brigade = { 
+				maximum_speed = 8.00
+				fuel_consumption = 2.45
+			}
+			sp_anti_air_brigade = {
+				maximum_speed = 14.00
+				fuel_consumption = 0.67
+			}	
+			sp_rct_artillery_brigade = {
+				maximum_speed = 16.00
+				fuel_consumption = 0.80
+			}								
+		}
+		4 = {
+			air_cav_brigade = {
+				maximum_speed = 48.00
+				fuel_consumption = 5.00
+			}
+			cavalry_brigade = {
+				maximum_speed = 21.00
+				fuel_consumption = 1.50
+			}				
+			light_mechanized_brigade = { 
+				maximum_speed = 24.00
+				fuel_consumption = 3.45
+			}	
+			marine_brigade = { 
+				maximum_speed = 12.00
+				fuel_consumption = 3.68
+			}
+			sp_anti_air_brigade = {
+				maximum_speed = 21.00
+				fuel_consumption = 1.01
+			}	
+			sp_rct_artillery_brigade = {
+				maximum_speed = 24.00
+				fuel_consumption = 1.20
+			}									
+		}
+	}
+}
+heavy_engine = { # AENG, ARM, ATKHEL, HMEC, SPART, TD
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #5
+	
+	allow_level = {
+		1 = { medium_engine = 1 }
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		army_theory		
+	}		
+	level_effect = {
+		1 = {
+			armored_engineer_brigade = { 
+				maximum_speed = 7.20
+				fuel_consumption = 1.20
+			}
+			armor_brigade = {
+				maximum_speed = 5.60
+				fuel_consumption = 1.36
+			}
+			attack_helo_brigade = {
+				maximum_speed = 12.80
+				fuel_consumption = 1.33
+			}				
+			heavy_mechanized_brigade = { 
+				maximum_speed = 6.40
+				fuel_consumption = 0.98
+			}
+			sp_artillery_brigade = {
+				maximum_speed = 5.60
+				fuel_consumption = 0.46
+			}							
+			tank_destroyer_brigade = { 
+				maximum_speed = 5.60
+				fuel_consumption = 1.16
+			}					
+		}
+		2 = {
+			armored_engineer_brigade = { 
+				maximum_speed = 10.80
+				fuel_consumption = 1.80
+			}
+			armor_brigade = {
+				maximum_speed = 8.40
+				fuel_consumption = 2.04
+			}
+			attack_helo_brigade = {
+				maximum_speed = 19.20
+				fuel_consumption = 2.00
+			}				
+			heavy_mechanized_brigade = { 
+				maximum_speed = 9.60
+				fuel_consumption = 1.47
+			}
+			sp_artillery_brigade = {
+				maximum_speed = 8.40
+				fuel_consumption = 0.69
+			}					
+			tank_destroyer_brigade = { 
+				maximum_speed = 8.40
+				fuel_consumption = 1.74
+			}			
+		}
+		3 = {
+			armored_engineer_brigade = { 
+				maximum_speed = 18.00
+				fuel_consumption = 3.00
+			}
+			armor_brigade = {
+				maximum_speed = 14.00
+				fuel_consumption = 3.40
+			}
+			attack_helo_brigade = {
+				maximum_speed = 32.00
+				fuel_consumption = 3.33
+			}				
+			heavy_mechanized_brigade = { 
+				maximum_speed = 16.00
+				fuel_consumption = 2.45
+			}
+			sp_artillery_brigade = {
+				maximum_speed = 14.00
+				fuel_consumption = 1.15
+			}			
+			tank_destroyer_brigade = { 
+				maximum_speed = 14.00
+				fuel_consumption = 2.90
+			}			
+		}
+		4 = {
+			armored_engineer_brigade = { 
+				maximum_speed = 27.00
+				fuel_consumption = 4.50
+			}
+			armor_brigade = {
+				maximum_speed = 21.00
+				fuel_consumption = 5.10
+			}
+			attack_helo_brigade = {
+				maximum_speed = 48.00
+				fuel_consumption = 5.00
+			}				
+			heavy_mechanized_brigade = { 
+				maximum_speed = 24.00
+				fuel_consumption = 3.68
+			}
+			sp_artillery_brigade = {
+				maximum_speed = 21.00
+				fuel_consumption = 1.73
+			}			
+			tank_destroyer_brigade = { 
+				maximum_speed = 21.00
+				fuel_consumption = 4.35
+			}			
+		}
+	}
+}
+
+light_armor = { # CAV, LMEC, MAR, SPAA, SPRART - CAV, LMEC, MAR TGH counted according to EQ
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #7
+	
+	allow_level = {
+		1 = { medium_engine = 1 }
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		army_theory		
+	}
+	level_effect = {
+		1 = {
+			cavalry_brigade = {
+				toughness = 0.03 defensiveness = 0.40
+			}
+			light_mechanized_brigade = { 
+				toughness = 0.35 defensiveness = 0.85
+			}	
+			marine_brigade = { 
+				toughness = 0.07 defensiveness = 0.70
+			}	
+			sp_anti_air_brigade = {
+				toughness = 0.26 defensiveness = 0.90
+			}
+			sp_rct_artillery_brigade = {
+				toughness = 1.60 defensiveness = 0.60
+			}					
+		}
+		2 = {
+			cavalry_brigade = {
+				toughness = 0.04 defensiveness = 0.60
+			}
+			light_mechanized_brigade = { 
+				toughness = 0.53 defensiveness = 1.27
+			}	
+			marine_brigade = { 
+				toughness = 0.11 defensiveness = 1.05
+			}	
+			sp_anti_air_brigade = {
+				toughness = 0.39 defensiveness = 1.35
+			}
+			sp_rct_artillery_brigade = {
+				toughness = 2.40 defensiveness = 0.90
+			}				
+		}
+		3 = {
+			cavalry_brigade = {
+				toughness = 0.07 defensiveness = 1.00
+			}
+			light_mechanized_brigade = { 
+				toughness = 0.88 defensiveness = 2.12
+			}	
+			marine_brigade = { 
+				toughness = 0.18 defensiveness = 1.75
+			}	
+			sp_anti_air_brigade = {
+				toughness = 0.65 defensiveness = 2.25
+			}
+			sp_rct_artillery_brigade = {
+				toughness = 4.00 defensiveness = 1.50
+			}				
+		}
+		4 = {
+			cavalry_brigade = {
+				toughness = 0.10 defensiveness = 1.50
+			}
+			light_mechanized_brigade = { 
+				toughness = 1.32 defensiveness = 3.17
+			}	
+			marine_brigade = { 
+				toughness = 0.28 defensiveness = 2.63
+			}	
+			sp_anti_air_brigade = {
+				toughness = 0.98 defensiveness = 3.38
+			}
+			sp_rct_artillery_brigade = {
+				toughness = 6.00 defensiveness = 2.25
+			}				
+		}
+	}
+}
+medium_armor = { #ATKHEL, HMEC, SPART, TD
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #6
+	
+	allow_level = {
+		1 = { 
+			light_armor = 1 
+			heavy_engine = 1 
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		army_theory		
+	}
+	level_effect = {
+		1 = {
+			heavy_mechanized_brigade = { 
+				toughness = 0.76 defensiveness = 0.40
+			}
+			sp_artillery_brigade = {
+				toughness = 0.60 defensiveness = 0.68
+			}	
+			tank_destroyer_brigade = { 
+				toughness = 0.34 defensiveness = 0.60
+			}				
+		}
+		2 = {
+			heavy_mechanized_brigade = { 
+				toughness = 1.14 defensiveness = 0.60
+			}
+			sp_artillery_brigade = {
+				toughness = 0.90 defensiveness = 1.02
+			}	
+			tank_destroyer_brigade = { 
+				toughness = 0.51 defensiveness = 0.90
+			}			
+		}				
+		3 = { #ATKHEL
+			attack_helo_brigade = {
+				toughness = 4.20 defensiveness = 4.66
+			}	
+			heavy_mechanized_brigade = { 
+				toughness = 1.90 defensiveness = 1.00
+			}
+			sp_artillery_brigade = {
+				toughness = 1.50 defensiveness = 1.70
+			}	
+			tank_destroyer_brigade = { 
+				toughness = 0.85 defensiveness = 1.50
+			}				
+		}
+		4 = {
+			attack_helo_brigade = {
+				toughness = 3.15 defensiveness = 3.50
+			}	
+			heavy_mechanized_brigade = { 
+				toughness = 2.85 defensiveness = 1.50
+			}
+			sp_artillery_brigade = {
+				toughness = 2.25 defensiveness = 2.55
+			}	
+			tank_destroyer_brigade = { 
+				toughness = 1.28 defensiveness = 2.25
+			}
+		}
+	}
+}
+heavy_armor = { #AENG, ARM
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #5
+	
+	allow_level = {
+		1 = { 
+			mechanized_warfare = 1 
+			medium_armor = 1 
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		front_theory
+		army_theory		
+	}
+	level_effect = {
+		1 = {
+			armored_engineer_brigade = { 
+				toughness = 2.80 defensiveness = 2.20
+			}	
+			armor_brigade = {
+				toughness = 0.80 defensiveness = 0.70
+			}				
+		}
+		2 = {
+			armored_engineer_brigade = { 
+				toughness = 4.20 defensiveness = 3.30
+			}	
+			armor_brigade = {
+				toughness = 1.20 defensiveness = 1.05
+			}							
+		}
+		3 = {
+			armored_engineer_brigade = { 
+				toughness = 7.00 defensiveness = 5.50
+			}	
+			armor_brigade = {
+				toughness = 2.00 defensiveness = 1.75
+			}							
+		}
+		4 = {
+			armored_engineer_brigade = { 
+				toughness = 10.50 defensiveness = 8.25
+			}	
+			armor_brigade = {
+				toughness = 3.00 defensiveness = 2.63
+			}							
+		}
+	}
+}
+
+
+body_armor = { #AA, ACAV, ART, AT, ATV, CAV, ENG, HQ, INF, LMEC, LRAA, MAR, MOT, MTN, POL, RART - CAV, LMEC, MAR TGH counted according to EQ
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 3 
+	
+	allow_level = {
+		1 = { industry_physics = 3 } # industry tech?
+		2 = {}
+		3 = { } #industry_plastics = 4}
+	}
+	traits = {
+		science_theory	
+		industry_theory		
+	}
+	level_effect = {
+		1 = {
+			anti_air_brigade = { toughness = 0.33 }				
+			air_cav_brigade = { toughness = 2.10 }
+			artillery_brigade = { toughness = 0.30 }		
+			anti_tank_brigade = { toughness = 0.33 }				
+			all_terrain_vehicles = { toughness = 0.20 }
+			cavalry_brigade = { toughness = 1.27 }		
+			engineer_brigade = { toughness = 7.00 }				
+			hq_brigade = { toughness = 0.80 }				
+			infantry_brigade = { toughness = 1.50 }				
+			light_mechanized_brigade = { toughness = 0.72 }	
+			long_range_anti_air_brigade = { toughness = 0.65 }				
+			marine_brigade = { toughness = 1.66 }
+			motorized_brigade = { toughness = 1.50 }	
+			bergsjaeger_brigade = { toughness = 2.12 }		
+			police_brigade = { toughness = 2.00 }	
+			rocket_artillery_brigade = { toughness = 0.84 }			
+		}
+		2 = {
+			anti_air_brigade = { toughness = 0.34 }				
+			air_cav_brigade = { toughness = 2.10 }
+			artillery_brigade = { toughness = 0.30 }		
+			anti_tank_brigade = { toughness = 0.34 }				
+			all_terrain_vehicles = { toughness = 0.20 }
+			cavalry_brigade = { toughness = 1.27 }		
+			engineer_brigade = { toughness = 7.00 }				
+			hq_brigade = { toughness = 0.80 }				
+			infantry_brigade = { toughness = 1.50 }				
+			light_mechanized_brigade = { toughness = 0.72 }	
+			long_range_anti_air_brigade = { toughness = 0.65 }				
+			marine_brigade = { toughness = 1.66 }
+			motorized_brigade = { toughness = 1.50 }	
+			bergsjaeger_brigade = { toughness = 2.12 }		
+			police_brigade = { toughness = 2.00 }	
+			rocket_artillery_brigade = { toughness = 0.84 }			
+		}
+		3 = {
+			anti_air_brigade = { toughness = 0.50 }				
+			air_cav_brigade = { toughness = 3.15 }
+			artillery_brigade = { toughness = 0.345 }		
+			anti_tank_brigade = { toughness = 0.50 }				
+			all_terrain_vehicles = { toughness = 0.30 }
+			cavalry_brigade = { toughness = 1.90 }		
+			engineer_brigade = { toughness = 10.50 }				
+			hq_brigade = { toughness = 1.20 }				
+			infantry_brigade = { toughness = 2.25 }				
+			light_mechanized_brigade = { toughness = 1.08 }	
+			long_range_anti_air_brigade = { toughness = 0.98 }				
+			marine_brigade = { toughness = 2.47 }
+			motorized_brigade = { toughness = 2.25 }	
+			bergsjaeger_brigade = { toughness = 2.12 }		
+			police_brigade = { toughness = 3.17 }	
+			rocket_artillery_brigade = { toughness = 1.25 }			
+		}
+	}
+}
+
+battle_tank = {
+    time = 100
+    cost = 200
+    folder = land_tech1_folder
+    level = 4 #6
+	
+	allow_level = {
+		1 = { 
+			maneuver_warfare = 1
+			heavy_engine = 1 
+			heavy_armor = 1 
+			crew_served_weapons = 1 				
+		}
+		2 = {}
+		3 = {}
+		4 = {}
+	}
+	traits = {
+		front_theory
+		army_theory
+		arsenal_theory		
+	}
+	level_effect = {
+		1 = {
+			armor_brigade = { 
+				soft_attack = 1
+				hard_attack = 0.5
+				toughness = 0.3
+				supply_consumption = 0.22	
+			}			
+		}
+		2 = {
+			armor_brigade = {  
+				soft_attack = 1.3
+				hard_attack = 0.66
+				toughness = 0.5
+				supply_consumption = 0.33	
+			}			
+		}
+		3 = {
+			armor_brigade = {  
+				soft_attack = 1.75
+				hard_attack = 1
+				toughness = 0.66
+				supply_consumption = 0.55	
+			}			
+		}
+		4 = {
+			armor_brigade = {  
+				soft_attack = 3
+				hard_attack = 1.5
+				toughness = 1
+				supply_consumption = 0.83	
+			}			
+		}
+	}
+}
+
+
+comb_technicals = {
+	doctrine = yes
+	
+	allow = { 
+		guerrilla_war_warfare = 1 
+		light_engine = 1 
+	}
+	traits = {
+		asymmetric_theory
+		army_theory		
+	}	
+	militia_brigade = {
+		soft_attack = 0.15 
+		defensiveness = 0.12 
+		toughness = 0.12
+		supply_consumption = 0.10
+		maximum_speed = 2.00
+		fuel_consumption = 0.15
+		unit_money_cost = 0.15
+	}
+
+    folder = land_tech1_folder
+	time = 100
+	cost = 100
+}
+
+comb_improved_vehic_armor = {
+	doctrine = yes
+	
+	allow = { 
+		guerrilla_war_warfare = 1 
+		medium_engine = 1
+	}
+	traits = {
+		asymmetric_theory
+		army_theory			
+	}
+	armor_brigade = {
+		toughness = 0.25
+	}
+	heavy_mechanized_brigade = { 
+		toughness = 0.25
+	}
+	armored_engineer_brigade = { 
+		toughness = 0.25
+	}
+	tank_destroyer_brigade = { 
+		toughness = 0.25
+	}
+	motorized_brigade = {
+		toughness = 0.25
+	}
+	
+    folder = land_tech1_folder
+	time = 100
+	cost = 100
+}
+

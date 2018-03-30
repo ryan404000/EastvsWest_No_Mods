@@ -1,0 +1,1960 @@
+guiTypes = {
+
+	windowType = {
+		name = "topcolor_economy"
+		backGround =""
+		position = { x=0 y=0 }	
+		size = { x=1120 y=768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		orientation="UPPER_LEFT"
+	}
+
+
+	windowType = {
+		name = "country_economy"
+		backGround =""
+		position = { x=-555 y=-340 }
+		size =  { x=1120 y=768 }
+		moveable = 0
+		fullScreen = no
+		orientation="CENTER"
+		
+		iconType = {
+			name ="bg_mainshadow"
+			spriteType = "GFX_economy_bg_shadow"
+			position = { x=-22 y=-6 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+#		iconType = {
+#			name ="bg_countryskin"
+#			spriteType = "GFX_country_bg"
+#			position = { x= 72 y = 66 }
+#			Orientation = "UPPER_LEFT"
+#		}
+		
+		iconType = {
+			name ="bg_economy_trade"
+			spriteType = "GFX_bg_economy_trade"
+			position = { x=-22 y=-5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="economy_paper"
+			spriteType = "GFX_bg_economy_paper"
+			position = { x=38 y=554 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		checkboxType = {
+			name = "automate_checkbox"
+			position = { x = 61 y = 75 }
+			quadTextureSprite ="GFX_eco_automate"	
+			buttonFont = "Arial12"
+		}
+
+		guiButtonType = {
+			name = "close_button"
+			position = { x=1035 y=29 }
+			quadTextureSprite = "GFX_close_btn"
+			buttonFont = "Arial12_bold_black"
+			shortcut = "ESCAPE"
+		}		
+		instantTextBoxType = {
+			name = "headline"
+			font = "Jockey_30_glow_green"
+			position = { x=45 y=30 }
+			text = "headline_eco"	
+			maxHeight = 64
+		}
+
+		checkboxType = {
+			name = "slider_checkbox"
+			position = { x= 809 y = 70 }
+			quadTextureSprite ="GFX_slider_trade_checkbox"
+			buttonText = "ECONOMY"
+			buttonFont = "Arial_11_bold_black"
+		}
+		
+		instantTextBoxType = { 
+			name = "slider_checkbox_label"
+			position = { x = 803 y = 75}
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "ECONOMY"	
+			maxWidth = 90
+			maxHeight = 28	
+			format = centre
+		}
+		
+		checkboxType = {
+			name = "ai_checkbox"
+			position = { x= 900 y = 70 }
+			quadTextureSprite ="GFX_eco_ai_checkbox"
+			buttonText = "FOCUS"
+			buttonFont = "Arial_11_bold_black"
+		}
+		
+		instantTextBoxType = { 
+			name = "ai_checkbox_label"
+			position = { x = 893 y = 75 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "FOCUS"	
+			maxWidth = 80
+			maxHeight = 28	
+			format = centre
+		}
+		
+		checkboxType = {
+			name = "resource_checkbox"
+			position = { x= 978 y = 70 }
+			quadTextureSprite ="GFX_eco_ai_checkbox"
+			buttonText = "RESOURCES"
+			buttonFont = "Arial_11_bold_black"
+		}
+
+		instantTextBoxType = { 
+			name = "resource_checkbox_label"
+			position = { x = 971 y = 75 }
+			textureFile = ""
+			font = "Jockey_16_dark"
+			borderSize = {x = 0 y = 4}
+			text = "TRADE"	
+			maxWidth = 80
+			maxHeight = 28	
+			format = centre
+		}
+
+
+		
+		guiButtonType = {
+			name = "name_button"
+			position = { x=135 y=93  }
+			quadTextureSprite = "GFX_filter_all"
+			Orientation = "UPPER_LEFT"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		guiButtonType = {
+			name = "DI_button"
+			position = { x=505 y=78 }
+			quadTextureSprite = "GFX_economy_icon_di"
+			Orientation = "UPPER_LEFT"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		guiButtonType = {
+			name = "population_button"
+			position = { x=575 y=78  }
+			quadTextureSprite = "GFX_economy_icon_pop"
+			Orientation = "UPPER_LEFT"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		guiButtonType = {
+			name = "workers_button"
+			position = { x=662 y=78  }
+			quadTextureSprite = "GFX_economy_icon_workforce"
+			Orientation = "UPPER_LEFT"
+			buttonText = ""
+			buttonFont = "Arial12_bold_black"
+		}
+		
+		checkboxType = {
+			name = "empty_region_checkbox"
+			position = { x = 751 y = 75 }
+			quadTextureSprite = "GFX_region_checkbox"
+			buttonFont = "Arial12"
+		}
+		
+		###LISTBOXES###
+			
+		listboxType = {
+			name = "regions_listbox"
+			position = { x = -210 y = 108 }
+			backGround=""
+			size = { x = 980 y = 450 }
+			Orientation = "UPPER_LEFT"
+		#	horisontal = 0
+			spacing = 0
+			scrollbartype = "scrollbar_vertical_prod"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		### RESOURCE VIEW
+		
+		windowType = {
+			name = "resource_view"
+			backGround =""
+			position = { x= 784 y = 64 }	
+			size = { x=300 y=400 }
+			moveable = 0
+			fullScreen = no
+
+			
+				
+			#iconType = {
+			#	name = "linechart_bg"
+			#	spriteType = "GFX_linechart_bg"
+			#	position = { x = 35 y = 0 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			
+			iconType = {
+				name ="bg_trade"
+				spriteType = "GFX_trade_bg"
+				position = {x = 15 y = 43 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+			name = "decisions_label"
+			position = { x=-15 y=254 }
+			format = centre
+			textureFile = ""
+			font = "Jockey_24"
+			borderSize = { x=4 y=0 }
+			text = "TRADE_MARKET"
+			maxWidth = 320
+			maxHeight = 32
+		}
+
+			iconType = {
+				name = "resources_linechart"
+				spriteType = "GFX_resources_linechart"
+				position = { x = 26 y = 40 }
+				Orientation = "UPPER_LEFT"
+			}		
+			
+			guiButtonType = {
+				name = "groups_button"
+				position = { x = 25 y =281 }
+				quadTextureSprite = "GFX_eco_groups_button"
+				Orientation = "UPPER_LEFT"
+				buttonText = "GROUPS"
+				buttonFont = "Arial12_bold_black"
+			}
+		
+			guiButtonType = {
+				name = "price_button"
+				position = { x = 107 y = 281 }
+				quadTextureSprite = "GFX_eco_price_button"
+				Orientation = "UPPER_LEFT"
+				buttonText = "PRICE"
+				buttonFont = "Arial12_bold_black"
+			}
+		
+			guiButtonType = {
+				name = "export_button"
+				position = { x = 189 y = 281 }
+				quadTextureSprite = "GFX_eco_groups_button"
+				Orientation = "UPPER_LEFT"
+				buttonText = "EXPORT"
+				buttonFont = "Arial12_bold_black"
+			}
+		
+			listboxType = {
+				name = "resources_listbox"
+				position = { x = -14 y = 312 }
+				backGround=""
+				size = { x=262 y = 336 }
+				Orientation = "UPPER_LEFT"
+				#horisontal = 0
+				spacing = 3
+				scrollbartype = "scrollbar_vertical_prod"
+				borderSize = {x = 0 y = 0}
+			}
+		}
+		
+		
+		instantTextBoxType = { 
+				name = "resource_name"
+				position = { x = 811 y = 105 }
+				font = "Jockey_16_cyan"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 150
+				maxHeight = 28	
+				format = left
+		}
+		
+		instantTextBoxType = { 
+				name = "resource_price"
+				position = { x = 830 y = 105 }
+				font = "Jockey_16_cyan"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 200
+				maxHeight = 28	
+				format = right
+		}
+		
+		################################################
+		# SLIDER folder
+		################################################
+		
+		windowType = {
+			name = "slider_view"
+			backGround =""
+			position = { x = 786 y = 64 }	
+			size = { x =302 y =400 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			
+			iconType =	{
+				name ="bg_slider"
+				spriteType = "GFX_bg_economy_slider"
+				position = {x = 13 y = 43 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			# BUDGET LABELS
+			instantTextBoxType = { 
+				name = "monthly_income"
+				position = { x = 25 y = 42 }
+				font = "Jockey_16_cyan"
+				borderSize = { x = 2 y = 3}
+				text = "DAILY_INCOME"	
+				maxWidth = 150
+				maxHeight = 28	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "total_income"
+				position = { x = 167 y = 41 }
+				textureFile = ""
+				font = "Jockey_16"
+				borderSize = {x = 0 y = 4}
+				text = "0"	
+				maxWidth = 82
+				maxHeight = 64	
+				format = right
+			}
+			
+			instantTextBoxType = { 
+				name = "fixed_expenses"
+				position = { x = 25 y = 146 }
+				font = "Jockey_16_cyan"
+				borderSize = {x = 2 y = 3}
+				text = "FIXED_EXPENSES"	
+				maxWidth = 150
+				maxHeight = 28	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "total_expense"
+				position = { x = 167 y = 145 }
+				font = "Jockey_16"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 82
+				maxHeight = 64	
+				format = right
+			}
+			
+			checkboxType = {
+				name = "enable_extra_money"
+				position = { x = 25 y = 300 }
+				quadTextureSprite ="GFX_eco_extra_income"	
+			}
+			
+			instantTextBoxType = { 
+				name = "budget"
+				position = { x = 45 y = 299 }
+				font = "Jockey_16_cyan"
+				borderSize = {x = 2 y = 3}
+				text = "BUDGET"	
+				maxWidth = 150
+				maxHeight = 28	
+				format = left
+			}
+
+			instantTextBoxType = { 
+				name = "total_budget"
+				position = { x = 167 y = 298 }
+				font = "Jockey_16"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 82
+				maxHeight = 64	
+				format = right
+			}
+			
+			instantTextBoxType = { 
+				name = "balance"
+				position = { x = 25 y = 623 }
+				font = "Jockey_16_cyan"
+				borderSize = {x = 2 y = 3}
+				text = "BALANCE"	
+				maxWidth = 150
+				maxHeight = 28	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "budget_balance"
+				position = { x = 167 y = 622 }
+				font = "Jockey_16"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 82
+				maxHeight = 64	
+				format = right
+			}
+			
+			# INCOMES
+			
+			instantTextBoxType = { 
+				name = "production_income"
+				position = { x = 28 y = 67 }
+				textureFile = ""
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 4}
+				text = "PRODUCTION_INCOME"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "services_income"
+				position = { x = 28 y = 91 }
+				textureFile = ""
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 4}
+				text = "SERVICE_INCOME"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "consumption_income"
+				position = { x = 28 y = 115 }
+				textureFile = ""
+				font = "Jockey_14_dark"
+				borderSize = {x = 0 y = 4}
+				text = "PRODUCTION_INCOME"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "production_income_value"
+				position = { x = 190 y = 71 }
+				textureFile = ""
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				text = ""	
+				maxWidth = 54
+				maxHeight = 64	
+				format = right
+			}
+			
+			instantTextBoxType = { 
+				name = "services_income_value"
+				position = { x = 190 y = 95 }
+				textureFile = ""
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				text = ""	
+				maxWidth = 54
+				maxHeight = 64	
+				format = right
+			}
+
+			instantTextBoxType = { 
+				name = "consumption_income_value"
+				position = { x = 190 y = 119 }
+				textureFile = ""
+				font = "Jockey_14"
+				borderSize = {x = 0 y = 4}
+				text = ""	
+				maxWidth = 54
+				maxHeight = 64	
+				format = right
+			}
+
+			# EXPENSES
+			
+			instantTextBoxType = { 
+				name = "natstockpile"
+				position = { x = 28 y = 175 }
+				font = "Jockey_14_dark"
+				text = "NAT_STOCKPILE_LABEL"	
+				maxWidth = 145
+				maxHeight = 24
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "natstockpile_value"
+				position = { x = 190 y = 179 }
+				font = "Jockey_14"
+				text = "0"	
+				maxWidth = 56
+				maxHeight = 24
+				format = right
+			}
+
+			instantTextBoxType = { 
+				name = "military_upkeep"
+				position = { x = 28 y = 248 }
+				font = "Jockey_14_dark"
+				text = "MILITARY_UPKEEP"	
+				maxWidth = 145
+				maxHeight = 24
+				format = left
+			}
+
+			instantTextBoxType = { 
+				name = "military_upkeep_value"
+				position = { x = 190 y = 252 }
+				font = "Jockey_14"
+				text = "0"	
+				maxWidth = 56
+				maxHeight = 24
+				format = right
+			}
+					
+			instantTextBoxType = { 
+				name = "research"
+				position = { x = 28 y = 272 }
+				font = "Jockey_14_dark"
+				text = "RESEARCH"	
+				maxWidth = 145
+				maxHeight = 24
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "research_value"
+				position = { x = 190 y = 276 }
+				font = "Jockey_14"
+				text = "0"	
+				maxWidth = 56
+				maxHeight = 24
+				format = right
+			}
+
+			iconType = {
+				name = "enable_nuke_icon"
+				spriteType = "GFX_eco_nuke_icon"
+				position = { x = 38 y = 591 }
+			}
+			
+			iconType = {
+				name = "enable_sat_icon"
+				spriteType = "GFX_eco_sat_icon"
+				position = { x = 168 y = 590 }
+			}
+
+
+			checkboxType = {
+				name = "enable_nuke_buy"
+				position = { x = 92 y = 585 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+			
+			checkboxType = {
+				name = "enable_sat_buy"
+				position = { x = 212 y = 585 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+
+			# SLIDERS
+			
+			
+			iconType = {
+				name ="supplies_icon"
+				spriteType = "GFX_eco_supply_icon"
+				position = { x= 152 y = 200}
+			}
+		
+			instantTextBoxType = {
+				name = "supplies_value"
+				position = { x = 164 y = 203 }
+				font = "Jockey_14"
+				text = "xx"	
+				maxWidth = 62
+				maxHeight = 20
+				format = right
+			}	
+			
+			scrollbarType = {
+				name = "supplies_scrollbar"
+				parent = "standard_horizontal_slider"
+				size = {x = 113 y =16 }
+				position = {x= 33 y = 196}
+				priority = 100
+				maxValue = 100
+				minValue = 0
+				stepSize =0.001
+				startValue = 0
+			}
+			
+			iconType = {
+				name ="fuel_icon"
+				spriteType = "GFX_eco_fuel_icon"
+				position = { x= 153 y = 224 }
+			}
+		
+			instantTextBoxType = {
+				name = "fuel_value"
+				position = { x = 164 y = 227 }
+				font = "Jockey_14"
+				text = "xx"	
+				maxWidth = 62
+				maxHeight = 20
+				format = right
+			}	
+			
+			scrollbarType = {
+				name = "fuel_scrollbar"
+				parent = "standard_horizontal_slider"
+				size = {x =113 y =16 }
+				position = {x= 33 y = 220}
+				priority = 100			
+				maxValue = 100
+				minValue = 0
+				stepSize =0.001
+				startValue = 0
+			}
+
+
+			instantTextBoxType = { 
+				name = "slider_automation_setting"
+				position = { x = 55 y = 327 }
+				font = "Jockey_14_yellow"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 168
+				maxHeight = 26	
+				format = centre
+			}
+		
+			guiButtonType = {
+				name ="slider_arrow_left"
+				quadTextureSprite = "GFX_serial_decrease"
+				position = { x= 41 y = 326}
+			}
+
+			guiButtonType = {
+				name ="slider_arrow_right"
+				quadTextureSprite = "GFX_serial_increase"
+				position = { x= 235 y = 326}
+			}
+			
+			checkboxType = {
+				name = "stock_ai"
+				position = { x = 243 y = 198 }
+				quadTextureSprite ="GFX_AI_long"	
+			}
+
+			listboxType = {
+				name = "sliders_listbox"
+				position = { x = 57 y = 360 }
+				size = { x = 130 y = 600 }
+				spacing = 0
+				scrollbartype = "scrollbar_vertical_standard"
+			}
+		}
+		
+		################################################
+		# AI folder
+		################################################
+		
+		windowType = {
+			name = "ai_view"
+			position = { x= 784 y = 64 }	
+			size = { x=300 y=400 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType =	{
+				name ="bg_ai"
+				spriteType = "GFX_bg_economy_ai"
+				position =  {x = 15 y = 43 }
+			}
+			
+			instantTextBoxType = { 
+				name = "infra_options"
+				position = { x = 32 y = 45 }
+				font = "Jockey_16_cyan"
+				text = "INVESTMENTS_LABEL"	
+				maxWidth = 150
+				maxHeight = 28	
+				format = left
+			}
+
+			instantTextBoxType = { 
+				name = "production_options"
+				position = { x = 32 y = 195 }
+				font = "Jockey_16_cyan"
+				text = "PRODUCTION"	
+				maxWidth = 150
+				maxHeight = 28	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "factories_option"
+				position = { x = 38 y = 75 }
+				font = "Jockey_14_dark"
+				text = "AI_FACTORIES"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+
+			instantTextBoxType = { 
+				name = "special_option"
+				position = { x = 38 y = 104 }
+				font = "Jockey_14_dark"
+				text = "AI_SPECIALBUILDINGS"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "nuclear_option"
+				position = { x = 38 y = 133 }
+				font = "Jockey_14_dark"
+				text = "AI_NUCLEAR"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+
+			instantTextBoxType = { 
+				name = "upgrade_option"
+				position = { x = 38 y = 162 }
+				font = "Jockey_14_dark"
+				text = "AI_UPGRADE"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "unit_option"
+				position = { x = 38 y = 225 }
+				font = "Jockey_14_dark"
+				text = "AI_UNITS"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+
+			instantTextBoxType = { 
+				name = "installation_option"
+				position = { x = 38 y = 254 }
+				font = "Jockey_14_dark"
+				text = "AI_INSTALLATIONS"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+			
+			checkboxType = {
+				name = "factories_option_check"
+				position = { x = 209 y = 66 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+			
+			checkboxType = {
+				name = "special_option_check"
+				position = { x = 209 y = 95 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+			
+			checkboxType = {
+				name = "nuclear_option_check"
+				position = { x = 209 y = 124 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+			
+			checkboxType = {
+				name = "upgrade_option_check"
+				position = { x = 209 y = 153 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+			
+			checkboxType = {
+				name = "unit_option_check"
+				position = { x = 209 y = 216 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+			
+			checkboxType = {
+				name = "installation_option_check"
+				position = { x = 209 y = 245 }
+				quadTextureSprite ="GFX_checkbox_knob"	
+			}
+			
+			instantTextBoxType = { 
+				name = "money_pool_label"
+				position = { x = 32 y = 287 }
+				font = "Jockey_16_cyan"
+				text = "AI_AIPOOL"	
+				maxWidth = 300
+				maxHeight = 64	
+				format = left
+			}
+
+			instantTextBoxType = { 
+				name = "ai_moneypool"
+				position = { x = -40 y = 287 }
+				font = "Jockey_16"
+				maxWidth = 300
+				maxHeight = 64	
+				format = right
+			}
+
+			listboxType = {
+				name = "ai_buildings"
+				position = { x = 32 y = 330 }
+				size = { x= 150 y = 130 }
+				spacing = 15
+			}
+
+			
+		}
+
+		
+		### FACTORY INFO
+		
+		windowType = {
+			name = "factory_info"
+			position = { x= 177 y = 370 }	
+			size = { x=500 y=130 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType =	{
+				name ="factory_image"
+				spriteType = "GFX_light_industry_image"
+				position = { x = -111 y = 208 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = { 
+				name = "factory_name"
+				position = { x = 380 y = 198 }
+				font = "Jockey_16_paper"
+				borderSize = {x = 0 y = 4}
+				text = "FACTORY_NAME"	
+				maxWidth = 210
+				maxHeight = 28	
+				format = centre
+			}
+			
+			instantTextBoxType = { 
+				name = "region_name"
+				position = { x = 410 y = 218 }
+				font = "Jockey_16_paper"
+				borderSize = { x = 0 y = 4}
+				text = "REGION_NAME"	
+				maxWidth = 150
+				maxHeight = 28	
+				format = centre
+			}
+			
+			instantTextBoxType = { 
+				name = "workforce"
+				position = { x = 950 y = 265 }
+				font = "Arial12"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 120
+				maxHeight = 28	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "input"
+				position = { x = 205 y = 198 }
+				font = "Jockey_16_paper"
+				borderSize = {x = 0 y = 4}
+				text = "INPUT"	
+				maxWidth = 90
+				maxHeight = 28	
+				format = centre
+			}
+			
+			instantTextBoxType = { 
+				name = "output"
+				position = { x = 205 y = 274 }
+				font = "Jockey_16_paper"
+				borderSize = {x = 0 y = 4}
+				text = "OUTPUT"	
+				maxWidth = 90
+				maxHeight = 28	
+				format = centre
+			}
+			
+			listboxType = {
+				name = "factory_res_input_listbox"
+				position = { x = 100 y = 228 }
+				size = { x= 260 y = 100 }
+				spacing = 15
+				borderSize = {x = 0 y = 0}
+			}
+			
+			listboxType = {
+				name = "factory_res_output_listbox"
+				position = { x = 100 y = 299 }
+				size = { x= 260 y = 70 }
+				spacing = 15
+			}
+			
+			iconType =	{
+				name ="efficiency_icon"
+				spriteType = "GFX_efficiency_icon"
+				position = { x = 380 y = 247 }
+			}
+			
+			instantTextBoxType = { 
+				name = "efficiency_number"
+				position = { x = 360 y = 252  }
+				font = "Danger_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 120
+				maxHeight = 28	
+				format = right
+			}
+			
+			iconType =	{
+				name ="productivity_icon"
+				spriteType = "GFX_economy_prod_icon"
+				position = { x = 380 y = 279 }
+			}
+		
+			instantTextBoxType = { 
+				name = "productivity_number"
+				position = { x = 360 y = 283  }
+				font = "Danger_14"
+				borderSize = {x = 0 y = 4}
+				maxWidth = 120
+				maxHeight = 28	
+				format = right
+			}
+		
+			iconType =	{
+				name ="workforce_icon"
+				spriteType = "GFX_workforce_icon"
+				position = { x = 375 y = 313 }
+			}
+			
+			listboxType = {
+				name = "factory_wrkfrc_lvl_listbox"
+				position = { x = 360 y = 320 }
+				size = { x=118 y = 18 }
+			}
+			
+			guiButtonType = {
+				name = "expand_button"
+				position = { x = 497 y = 247 }
+				quadTextureSprite = "GFX_eco_suspend_demolish_button"
+				buttonText = "EXPAND"
+				buttonFont = "Arial_11_bold_black"
+			}
+		
+			guiButtonType = {
+				name = "suspend_button"
+				position = { x = 497 y = 271 }
+				quadTextureSprite = "GFX_eco_suspend_demolish_button"
+				buttonText = "SUSPEND"
+				buttonFont = "Arial_11_bold_black"
+			}
+			
+			guiButtonType = {
+				name = "demolish_button"
+				position = { x = 497 y = 319 }
+				quadTextureSprite = "GFX_eco_subsidize_demolish_button"
+				buttonText = "DEMOLISH"
+				buttonFont = "Arial_11_bold_black"
+			}
+
+			iconType =	{
+				name ="paper_clip_icon"
+				spriteType = "GFX_tech_folder_paper_clip"
+				position = { x = -136 y = 305 }
+			}
+		}	
+		
+		##### NEW FACTORY BUILDING SCREEN #####
+		
+		windowType = {
+			name = "factory_build"
+			position = { x= -10 y = 00 }	
+			size = { x=746 y=540 }
+			moveable = 0
+			fullScreen = no
+			
+			iconType =	{
+				name ="factory_build_bg"
+				spriteType = "GFX_eco_factory_build_bg"
+				position = { x = 31 y = 85 }
+			}
+			
+			instantTextBoxType = {
+			name = "new_factory_building_title"
+			position = { x=260 y=87 }
+			format = centre
+			font = "Jockey_24"
+			borderSize = { x=4 y=0 }
+			maxWidth = 320
+			maxHeight = 80
+		}
+
+			guiButtonType = {
+				name = "name_button"
+				position = { x = 70 y = 110 }
+				quadTextureSprite = "GFX_eco_sort_1"
+				buttonText = "NAME"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+			guiButtonType = {
+				name = "input_button"
+				position = { x = 138 y = 110 }
+				quadTextureSprite = "GFX_eco_factory_build_input"
+				buttonText = "INPUT"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+			guiButtonType = {
+				name = "output_button"
+				position = { x = 302 y = 110 }
+				quadTextureSprite = "GFX_eco_sort_3"
+				Orientation = "UPPER_LEFT"
+				buttonText = "OUTPUT"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+			guiButtonType = {
+				name = "workforce_button"
+				position = { x = 470 y = 110 }
+				quadTextureSprite = "GFX_eco_factory_build_workforce"
+				Orientation = "UPPER_LEFT"
+				buttonText = "WORKFORCE_BUTTON"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+			guiButtonType = {
+				name = "cost_button"
+				position = { x = 552 y = 110 }
+				quadTextureSprite = "GFX_eco_sort_5"
+				Orientation = "UPPER_LEFT"
+				buttonText = "CONSTRUCTION_COST"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+			guiButtonType = {
+				name = "time_button"
+				position = { x = 649 y = 110 }
+				quadTextureSprite = "GFX_eco_factory_build_time"
+				Orientation = "UPPER_LEFT"
+				buttonText = "CONSTRUCTION_TIME"
+				buttonFont = "Arial12_bold_black"
+			}
+			
+			listboxType = {
+				name = "new_factory_listbox"
+				position = { x = 28 y = 148 }
+				backGround=""
+				size = { x=749 y = 372 }
+				Orientation = "UPPER_LEFT"
+			#	horisontal = 0
+				spacing = 0
+				scrollbartype = "scrollbar_vertical_prod"
+				borderSize = {x = 0 y = 0}
+			}
+			
+			guiButtonType = {
+				name = "cancel"
+				position = { x = 113 y = 523 }
+				quadTextureSprite = "GFX_eco_factory_build_cancel"
+				Orientation = "UPPER_LEFT"
+				buttonText = ""
+				buttonFont = "Jockey_16_dark"
+			}
+
+			instantTextBoxType = { 
+				name = "cancel_label"
+				position = { x = 140 y = 531 }
+				font = "Jockey_16_dark"
+				borderSize = {x = 0 y = 4}
+				text = "CANCEL"
+				maxWidth = 90
+				maxHeight = 28	
+				format = centre
+			}
+		}
+	}		
+	############################################################################
+	#### REGION ENTRY ##########
+		
+	windowType = {
+		name = "region_entry_title"
+		backGround =""
+		position = { x = 0 y = 100 }	
+		size = { x= 720 y=42 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType =	{
+			name ="region_bg_small"
+			spriteType = "GFX_region_bg_small"
+			position = { x = 260 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = { 
+			name = "region_name"
+			position = { x = 270 y = 12 }
+			font = "Jockey_16_cyan"
+			text = "REGIONNAME"	
+			maxWidth = 180
+			maxHeight = 22	
+			format = left
+		}
+			
+		instantTextBoxType = { 
+			name = "DI_number"
+			position = { x = 696 y = 12 }
+			font = "Jockey_16_cyan"
+			maxWidth = 60
+			maxHeight = 22	
+			format = centre
+		}
+			
+		instantTextBoxType = { 
+			name = "population_number"
+			position = { x = 770 y = 12 }
+			font = "Jockey_16_cyan"
+			maxWidth = 60
+			maxHeight = 22	
+			format = centre
+		}
+			
+		instantTextBoxType = { 
+			name = "workers_number"
+			position = { x = 839 y = 12 }
+			font = "Jockey_16_cyan"
+			maxWidth = 95
+			maxHeight = 22
+			format = centre
+		}		
+		
+		guiButtonType = {
+			name = "show_button"
+			position = { x = 943 y = 7 }
+			quadTextureSprite = "GFX_region_minus"
+			Orientation = "UPPER_LEFT"
+			buttonFont = "Arial12_bold_black"
+		}	
+	}
+			
+	windowType = {
+		name = "region_entry_factories"
+		backGround =""
+		position = { x = 0 y = 137 }	
+		size = { x= 20 y=108 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+					
+		OverlappingElementsBoxType = {
+			name = "factory_box"
+			position = { x = 228 y = -5 }
+			size = { x= 830 y= 108 }
+			Orientation = "UPPER_LEFT"
+			format = left
+			spacing = 1.0
+		}		
+	}
+	
+	#######   FACTORY ENTRY   ########	
+	
+	windowType = {
+		name = "factory_entry"
+		position = { x= 29 y = 150 }	
+		size = { x=118 y=124 }
+		moveable = 0
+		fullScreen = no
+			
+			checkboxType = {
+				name = "factory_checkbox"
+				position = { x = 33 y = -3 }
+				quadTextureSprite = "GFX_factory_bg"
+				buttonFont = "Arial12"
+			}
+			
+			iconType =	{
+				name ="factory_colorbar"
+				spriteType = "GFX_factory_colorbar_blue"
+				position = { x = 43 y = 66 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType =	{
+				name ="suspended_icon"
+				spriteType = "GFX_eco_suspended_icon"
+				position = { x = 73 y = 15 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = { 
+				name = "income_number"
+				position = { x = 80 y = 71 }
+				textureFile = ""
+				font = "Jockey_14_cyan"
+				borderSize = {x = 0 y = 4}
+				text = "000"	
+				maxWidth = 120
+				maxHeight = 30	
+				format = left
+			}
+			
+			iconType =	{
+				name ="construction_progress"
+				spriteType = "GFX_building_construction_progress"
+				position = { x = 48 y = 76 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType =	{
+				name ="construction_progress_overlay"
+				spriteType = "GFX_eco_build_progress_overlay"
+				position = { x = 130 y = 75 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType =	{
+				name ="income_val_icon"
+				spriteType = "GFX_eco_arrow_multiframe"
+				position = { x = 130 y = 75 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = { 
+				name = "build_progress_text"
+				position = { x = 40 y = 72 }
+				textureFile = ""
+				font = "Arial12_bold"
+				borderSize = {x = 0 y = 4}
+				text = ""	
+				maxWidth = 120
+				maxHeight = 30	
+				format = centre
+			}
+
+			
+#			instantTextBoxType = { 
+#				name = "build_text"
+#				position = { x = 30 y = 60 }
+#				textureFile = ""
+#				font = "Arial12_bold"
+#				borderSize = {x = 0 y = 4}
+#				text = "BUILD"	
+#				maxWidth = 120
+#				maxHeight = 30	
+#				format = centre
+#			}
+			
+			#iconType =	{
+			#	name ="factory_income"
+			#	spriteType = "GFX_factory_income"
+			#	position = { x = 33 y = -3 }
+			#	Orientation = "UPPER_LEFT"
+			#}
+			
+		
+			listboxType = {
+				name = "factory_lvl_listbox"
+				position = { x = 31 y = 94 }
+				backGround=""
+				size = { x=108 y = 18 }
+				Orientation = "UPPER_LEFT"
+				#horisontal = 0
+				spacing = 0
+				borderSize = {x = 0 y = 0}
+			}
+			
+	}
+	######### RESOURCE ENTRY ##########
+	
+	windowType = {
+		name = "resource_entry"
+		backGround =""
+		size = { x=231 y=48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+			
+			checkboxType =	{
+				name ="resource_bg"
+				quadTextureSprite = "GFX_resource_bg"
+				position = { x = 37 y = -3 }
+				buttonFont = "Arial12"
+			}
+			
+			iconType = {
+				name ="background_color"
+				spriteType = "GFX_resource_colors_io"
+				position = { x= 43 y = 3 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			checkboxType =	{
+				name ="resource_icon"
+				quadTextureSprite = "GFX_resources_icon"
+				position = { x = 46 y = 9 }
+				tooltip = ""
+				tooltipText = ""
+				delayedTooltipText = ""
+				buttonText = ""
+				buttonFont = "Arial12"
+			}
+			
+			instantTextBoxType = { 
+				name = "supply_number" 
+				position = { x = 85 y = 3 }
+				textureFile = ""
+				font = "Arial12"
+				borderSize = {x = 0 y = 4}
+				text = "000"	
+				maxWidth = 90
+				maxHeight = 28	
+				format = right
+			}
+			
+			instantTextBoxType = { 
+				name = "demand_number"
+				position = { x = 85 y = 23 }
+				font = "Arial12"
+				borderSize = {x = 0 y = 4}
+				text = "000"	
+				maxWidth = 90
+				maxHeight = 28	
+				format = right
+			}
+			
+			instantTextBoxType = { 
+				name = "base_price"
+				position = { x = 188 y = 6 }
+				font = "Jockey_14_cyan"
+				text = "000"	
+				maxWidth = 58
+				maxHeight = 28	
+				format = left
+			}
+			
+			instantTextBoxType = { 
+				name = "current_price"
+				position = { x = 188 y = 6 } 
+				font = "Jockey_14_cyan"
+				text = "000"	
+				maxWidth = 58
+				maxHeight = 28	
+				format = right
+			}
+			
+			instantTextBoxType = { 
+				name = "available_number"
+				position = { x = 188 y = 27 }
+				font = "Arial12"
+				text = "000"	
+				maxWidth = 63
+				maxHeight = 28	
+				format = right
+			}
+					
+	}
+	
+	windowType = {
+		name = "resource_title_entry"
+		backGround =""
+		position = { x= 34 y = 589 }	
+		size = { x=229 y= 48 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		
+		iconType =	{
+				name ="resource_title_bg"
+				spriteType = "GFX_resource_title"
+				position = { x = 38 y = -2 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+		instantTextBoxType = { 
+				name = "resource_title_text"
+				position = { x = 44 y = 2 }
+				textureFile = ""
+				font = "Jockey_16_cyan"
+				borderSize = {x = 0 y = 4}
+				text = "GROUP_TITLE"	
+				maxWidth = 200
+				maxHeight = 28	
+				format = right
+			}
+	}
+	
+	####### NEW FACTORY ENTRY ###########
+	
+	windowType = {
+		name = "new_factory_entry"
+		backGround =""
+		position = { x= 59 y = 639 }	
+		size = { x=719 y=62 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+				
+		checkboxType = {
+			name = "new_factory_bg"
+			position = { x = 33 y = -3 }
+			quadTextureSprite = "GFX_eco_new_factory_bg"
+			buttonFont = "Arial12"
+		}
+		
+		instantTextBoxType = { 
+			name = "workforce_number"
+			position = { x = 446 y = 5  }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 4}
+			text = "000"	
+			maxWidth = 60
+			maxHeight = 28	
+			format = centre
+		}
+		
+		#iconType =	{
+		#	name ="cost_icon"
+		#	spriteType = "GFX_cost_icon_big"
+		#	position = { x = 480 y = 1 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+		
+		instantTextBoxType = { 
+			name = "cost_number"
+			position = { x = 545 y = 5  }
+			textureFile = ""
+			font = "Jockey_14_green"
+			borderSize = {x = 0 y = 4}
+			text = "000"	
+			maxWidth = 40
+			maxHeight = 28	
+			format = centre
+		}
+		
+		#iconType =	{
+		#	name ="date_icon"
+		#	spriteType = "GFX_date_icon_big"
+		#	position = { x = 590 y = 1 }
+		#	Orientation = "UPPER_LEFT"
+		#}
+		
+		instantTextBoxType = { 
+			name = "date_number"
+			position = { x = 622 y = 5  }
+			textureFile = ""
+			font = "Jockey_14_cyan"
+			borderSize = {x = 0 y = 4}
+			text = "000"	
+			maxWidth = 90
+			maxHeight = 28	
+			format = centre
+		}
+
+		
+		listboxType = {
+			name = "new_factory_res_input_listbox"
+			position = { x = 108 y = 14 }
+			backGround=""
+			size = { x= 129 y = 68 }
+			Orientation = "UPPER_LEFT"
+			#horisontal = 0
+			spacing = 0
+			borderSize = {x = 0 y = 0}
+		}
+		
+		listboxType = {
+			name = "new_factory_res_output_listbox"
+			position = { x = 276 y = 14  }
+			backGround=""
+			size = { x= 129 y = 68 }
+			Orientation = "UPPER_LEFT"
+			#horisontal = 0
+			spacing = 0
+			borderSize = {x = 0 y = 0}
+		}
+		
+		listboxType = {
+			name = "factory_cost_listbox"
+			position = { x = 426 y = 2 }
+			backGround=""
+			size = { x= 129 y = 33 }
+			Orientation = "UPPER_LEFT"
+			spacing = 0
+			borderSize = {x = 0 y = 0}
+		}
+		
+	}
+		
+	######## FACTORY WORKFORCE LVL MEMBER #######
+	
+	windowType = {
+		name = "factory_lvl_member"
+		position = { x=0 y=0 }	
+		size = { x= 17 y= 14 }
+		moveable = 0
+		fullScreen = no	
+			
+		iconType = {
+			name ="plupp_0"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 42 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_1"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 47 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_2"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 52 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_3"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 57 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_4"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 62 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_5"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x=67 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_6"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 72 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_7"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 77 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_8"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 82 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_9"
+			spriteType = "GFX_eco_factory_lev_plupp"
+			position = { x= 87 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}		
+	}
+	
+	windowType = {
+		name = "factory_workforce_member"
+		position = { x=0 y=0 }	
+		size = { x= 16 y= 14 }
+		moveable = 0
+		fullScreen = no	
+			
+		iconType = {
+			name ="plupp_0"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 45 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_1"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 53 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_2"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 61 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_3"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 69 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_4"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 77 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_5"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x=85 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_6"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 93 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_7"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 101 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_8"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 109 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="plupp_9"
+			spriteType = "GFX_factory_workforce_plupp"
+			position = { x= 117 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}		
+	}
+	
+	windowType = {
+		name = "factory_res_member"
+		position = { x=0 y=0 }	
+		size = { x= 65 y= 52 }
+		moveable = 0
+		fullScreen = no	
+		
+		iconType = {
+			name ="back_0"
+			spriteType = "GFX_resource_colors_metal"
+			position = { x= 44 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_0"
+			spriteType = "GFX_resources_icon"
+			position = { x= 50 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="back_1"
+			spriteType = "GFX_resource_colors_metal"
+			position = { x= 88 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_1"
+			spriteType = "GFX_resources_icon"
+			position = { x= 94 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="back_2"
+			spriteType = "GFX_resource_colors_metal"
+			position = { x= 132 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType = {
+			name ="plupp_2"
+			spriteType = "GFX_resources_icon"
+			position = { x= 138 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType = {
+			name ="back_3"
+			spriteType = "GFX_resource_colors_metal"
+			position = { x= 176 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}			
+		iconType = {
+			name ="plupp_3"
+			spriteType = "GFX_resources_icon"
+			position = { x= 182 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType = {
+			name ="back_4"
+			spriteType = "GFX_resource_colors_metal"
+			position = { x= 220 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_4"
+			spriteType = "GFX_resources_icon"
+			position = { x= 226 y = 10 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+	}
+	
+	windowType = {
+		name = "new_factory_res_member"
+		position = { x=0 y=0 }	
+		size = { x= 43 y= 33 }
+		moveable = 0
+		fullScreen = no	
+		
+		iconType = {
+			name ="back_0"
+			spriteType = "GFX_resource_colors"
+			position = { x= 0 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="plupp_0"
+			spriteType = "GFX_resources_icon"
+			position = { x= 0 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="back_1"
+			spriteType = "GFX_resource_colors"
+			position = { x= 32 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="plupp_1"
+			spriteType = "GFX_resources_icon"
+			position = { x= 32 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="back_2"
+			spriteType = "GFX_resource_colors"
+			position = { x= 64 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType = {
+			name ="plupp_2"
+			spriteType = "GFX_resources_icon"
+			position = { x= 64 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType = {
+			name ="back_3"
+			spriteType = "GFX_resource_colors"
+			position = { x= 96 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType = {
+			name ="plupp_3"
+			spriteType = "GFX_resources_icon"
+			position = { x= 96 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		iconType = {
+			name ="back_4"
+			spriteType = "GFX_resource_colors"
+			position = { x= 128 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="plupp_4"
+			spriteType = "GFX_resources_icon"
+			position = { x= 128 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+			
+	}
+	
+	windowType = {
+		name = "new_factory_cost_member"
+		position = { x=0 y=0 }	
+		size = { x= 43 y= 33 }
+		moveable = 0
+		fullScreen = no	
+			
+		iconType = {
+			name ="plupp_0"
+			spriteType = "GFX_eco_factory_res_plupp"
+			position = { x= 47 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_1"
+			spriteType = "GFX_eco_factory_res_plupp"
+			position = { x= 80 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name ="plupp_2"
+			spriteType = "GFX_eco_factory_res_plupp"
+			position = { x= 113 y = 2 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+	}
+	
+	windowType = {
+		name = "ai_building_entry"
+		size = { x=150 y=22 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		instantTextBoxType = {
+			name = "building_name"
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			maxWidth = 140
+			maxHeight = 32	
+		}
+		
+		instantTextBoxType = {
+			name = "building_prov"
+			position = { x = 80 y = 2 }
+			format = right
+			font = "Jockey_14"
+			borderSize = {x = 4 y = 2}
+			maxWidth = 140
+			maxHeight = 32	
+		}
+
+
+	}
+	
+	
+	#################################################################################
+	# ECONOMY/SLIDERS PART
+	#################################################################################
+	# Economical Sliders
+	#################################################################################	
+	
+	windowType = {
+		name = "domesticpanel_slider"
+		size = { x= 175 y= 48 }
+		moveable = 0
+		horizontalBorder = "0"
+		
+		guiButtonType = {
+			name ="slider_icon_button"
+			quadTextureSprite = "GFX_slider_icon_infra"
+			position = { x= -25 y = -4 }
+		}		
+
+		instantTextBoxType = {
+			name = "value"
+			position = { x = 142 y = -6 }
+			format = right
+			font = "Jockey_14"
+			maxWidth = 50
+			maxHeight = 32	
+		}
+
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 10 y =-6 }
+			font = "Jockey_14"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+		}
+		
+		iconType =
+		{
+			name ="need_progress"
+			spriteType = "slider_need_progress"
+			position = { x= 11 y = 28 }
+		}
+
+		scrollbarType = {
+			name = "actual_slider"
+			parent = "standard_horizontal_slider"
+			rangelimitmaxicon = "ds_slider_max_cap"
+			rangelimitminicon = "ds_slider_min_cap"
+			recommendedicon = "ds_slider_recommended"
+			size = {x =201 y =16 }
+			position = {x= 8 y = 4}
+			priority = 100			
+			borderSize = {x =0 y = 0}	
+			maxValue = 100
+			minValue = 0
+			stepSize =0.001
+			startValue = 0
+			
+			iconType = {
+				name ="ds_slider_min_cap"
+				spriteType = "GFX_slider_min_cap"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="ds_slider_max_cap"
+				spriteType = "GFX_slider_max_cap"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="ds_slider_recommended"
+				spriteType = "GFX_slider_recommended"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+		}
+
+	}
+
+			
+}

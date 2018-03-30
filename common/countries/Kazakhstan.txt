@@ -1,0 +1,171 @@
+color = { 052  181  208 }
+graphical_culture = Soviet
+
+default_templates = {
+	SOV_guards_airborne_division = {
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+		air_cav_brigade
+	}	
+	SOV_tank_division = {
+		armor_brigade
+		armor_brigade
+		armor_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade		
+	}
+	SOV_cavalry_division = {
+		cavalry_brigade
+		cavalry_brigade
+		cavalry_brigade
+		cavalry_brigade		
+		sp_artillery_brigade
+	}
+	SOV_guards_mechanized_division = {
+		heavy_mechanized_brigade
+		heavy_mechanized_brigade
+		light_mechanized_brigade
+		armor_brigade		
+		sp_artillery_brigade		
+	}
+	SOV_mechanized_division = {
+		light_mechanized_brigade
+		light_mechanized_brigade		
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	SOV_motor_rifle_division = {
+		motorized_brigade
+		light_mechanized_brigade
+		heavy_mechanized_brigade
+		sp_artillery_brigade
+	}
+	SOV_guards_rifle_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade			
+		artillery_brigade
+	}
+	SOV_marine_division = {
+		marine_brigade
+		marine_brigade
+		marine_brigade
+		marine_brigade
+	}
+	SOV_mountain_division = {
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+		bergsjaeger_brigade
+	}
+	SOV_rifle_division = {
+		infantry_brigade
+		infantry_brigade
+		infantry_brigade			
+		artillery_brigade
+	}	
+	SOV_volunteer_division = {
+		militia_brigade
+		militia_brigade
+		militia_brigade
+		militia_brigade
+	}
+} 
+unit_names = {} 
+ministers = {
+#First Secretaries of Communist Party of Kazakhstan
+1228000 = {
+		name = "Zhumabay Shayakhmetov"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = KAZ_M_Shayakhmetov_Zhumabay #no PD picture
+		head_of_state = ambitious_type
+		head_of_government = ambitious_type
+		start_date = 1945.9.14
+		death_date = 1954.3.6
+	}
+1228001 = {
+		name = "Panteleimon Ponomarenko"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = BLR_M_Ponomarenko_Panteleimon
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1954.3.6
+		death_date = 1955.5.8
+		base = 1391123
+	}
+1228002 = {
+		name = "Leonid I. Brezhnev"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = SOV_M_Brezhnev_Leonid_I
+		head_of_state = hardliner_type
+		head_of_government = hardliner_type
+		start_date = 1955.5.8
+		death_date = 1956.3.8
+		base = 1300006
+	}
+1228003 = {
+		name = "Ivan Yakovlev"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = KAZ_M_Yakovlev_Ivan #no picture
+		head_of_state = bureaucrat_type
+		head_of_government = bureaucrat_type
+		start_date = 1956.3.6
+		death_date = 1957.12.26
+	}
+1228004 = {
+		name = "Nikolai Belyaev"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = KAZ_M_Belyaev_Nikolai #no picture
+		head_of_state = extremist_type
+		head_of_government = extremist_type
+		start_date = 1957.12.26
+		death_date = 1960.1.19
+	}
+1228005 = {
+		name = "Dinmukhamed Kunaeyev"
+		ideology = communist_idolg
+		loyalty = 0.90
+		picture = KAZ_M_Kunaeyev_Dinmukhamed
+		head_of_state = loyal_type
+		head_of_government = loyal_type
+		start_date = 1960.1.19
+		death_date = 1986.12.16
+	}
+1228006 = {
+		name = "Ismail Yusupov"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = KAZ_M_Yusupov_Ismail #no picture
+		head_of_state = lethargic_type
+		head_of_government = lethargic_type
+		start_date = 1962.12.26
+		death_date = 1964.12.7
+	}
+1228007 = {
+		name = "Gennady Kolbin"
+		ideology = communist_idolg
+		loyalty = 1.00
+		picture = KAZ_M_Kolbin_Gennady
+		head_of_state = controversial_figure
+		head_of_government = controversial_figure
+		start_date = 1986.12.16
+		death_date = 1989.6.22
+	}
+1228008 = {
+		name = "Nursultan Nazarbayev"
+		ideology = communist_idolg #runs as independent post collapse
+		loyalty = 1.00
+		picture = KAZ_M_Nazarbayev_Nursultan
+		head_of_state = traditionalist_type
+		head_of_government = traditionalist_type
+		start_date = 1989.6.22
+		death_date = 2013.8.1
+	}
+}

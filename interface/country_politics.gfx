@@ -1,0 +1,440 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_info_politics_decision"
+		texturefile = "gfx\\interface\\politics\\politics_decision_question.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_button_politics_decision"
+		texturefile = "gfx\\interface\\politics\\politics_policy_selection_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+
+	spriteType = {
+		name = "GFX_button_national_decision_btn" #added 29-03-2013
+		texturefile = "gfx\\interface\\politics\\politics_national_decision_btn.dds"
+		
+		norefcount = yes
+		clicksound = click
+	}
+	
+	spriteType = {
+		name = "GFX_country_bg"
+		texturefile = "gfx\\interface\\skins\\country_bg_generic.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_create_puppet_entry"
+		texturefile = "gfx\\interface\\politics\\create_puppet_entry.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_politics"
+		texturefile = "gfx\\interface\\politics\\bg_politics.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sw_bombing"
+		texturefile = "gfx\\interface\\politics\\icon_sw_bombing.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sw_convoy"
+		texturefile = "gfx\\interface\\politics\\icon_sw_convoy.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_sw_allies"
+		texturefile = "gfx\\interface\\politics\\icon_sw_allies.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_selectnewminister"
+		texturefile = "gfx\\interface\\politics\\bg_selectminister.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_politics_backbtn" #added 8-3-2013
+		texturefile = "gfx\\interface\\politics\\politics_back_btn.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_replace_minister"
+		texturefile = "gfx\\interface\\politics\\bg_replace_minister_plate.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_replace_statesman"
+		texturefile = "gfx\\interface\\politics\\statesman_replace_button.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_law"
+		texturefile = "gfx\\interface\\politics\\bg_law.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_selected_law"
+		texturefile = "gfx\\interface\\politics\\bg_selected_law.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_policy"
+		texturefile = "gfx\\interface\\politics\\bg_policy.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_selected_policy"
+		texturefile = "gfx\\interface\\politics\\bg_selected_policy.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_politics_hos_button"
+		texturefile = "gfx\\interface\\politics\\politics_hos_button.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_puppet_select"
+		texturefile = "gfx\\interface\\politics\\bg_puppet_select.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_politics_main"	#added 8-3-2013
+		texturefile = "gfx\\interface\\politics\\bg_politics_main.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_politics_paper_clip" #added 8-3-2013
+		texturefile = "gfx\\interface\\politics\\politics_paper_clip.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_newselection" #added 8-3-2013
+		texturefile = "gfx\\interface\\politics\\bg_politics_selection.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_law_button"
+		texturefile = "gfx\\interface\\politics\\law_button.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_gov_policy_button"
+		texturefile = "gfx\\interface\\politics\\politics_policies_btn.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_policy_button"
+		texturefile = "gfx\\interface\\politics\\policy_button.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_elected_crown"
+		texturefile = "gfx\\interface\\politics\\elected_icon2.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_popular_star"
+		texturefile = "gfx\\interface\\politics\\popular_icon.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_circle_bg"
+		texturefile = "gfx\\interface\\politics\\ideology_circle_bg.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_legend_icon"
+		texturefile = "gfx\\interface\\politics\\ideology_circle.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_ideology_circle_overlay"
+		texturefile = "gfx\\interface\\politics\\ideology_circle_overlay.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_politics_ideology_light"
+		texturefile = "gfx\\interface\\politics\\ideology_light.dds"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_politics_ideology_light_overlay"
+		texturefile = "gfx\\interface\\politics\\ideology_light_overlay.dds"
+		norefcount = yes
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_decision_entry"
+		texturefile = "gfx\\interface\\politics\\diplo_decision_bar.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_decision_entry_internal"
+		texturefile = "gfx\\interface\\politics\\bg_decision_entry.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_empty_position"
+		texturefile = "gfx\\interface\\politics\\empty_position.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_empty_position_minister"
+		texturefile = "gfx\\interface\\politics\\empty_position_minister.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+		spriteType = {
+		name = "GFX_empty_position_policy"
+		texturefile = "gfx\\interface\\politics\\empty_position_policy.dds"
+		norefcount = yes
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+	# OBSOLETE; use GFX_close_btn in core.gfx
+	spriteType = {
+		name = "GFX_close_button"
+		texturefile = "gfx\\interface\\politics\\close_button.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_small_button"
+		texturefile = "gfx\\interface\\politics\\small_button.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_mobilize"
+		texturefile = "gfx\\interface\\politics\\button_mobilize.dds"
+		
+		norefcount = yes
+	}
+	
+	textSpriteType = {
+		name = "GFX_button_demobilize"
+		texturefile = "gfx\\interface\\politics\\button_demobilize.dds"
+		
+		norefcount = yes
+	}
+	
+	PieChartType = {
+		name = "GFX_political_popularity_chart"
+		size = 52
+	}
+	
+	progressbartype = {
+		name = "org_bar"
+		color = { 0.0 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 0.0 }
+		size = { x = 20 y = 100 }
+		horizontal = no
+		effectFile = "gfx\\FX\\progress.fx"
+		
+	}	
+
+	spriteType = {
+		name = "GFX_statesman_entry"
+		texturefile = "gfx\\interface\\politics\\bg_statesman.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_gov_policy_entry"
+		texturefile = "gfx\\interface\\politics\\bg_gov_policy.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_politics_info"
+		texturefile = "gfx\\interface\\politics\\politics_info_button.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_policy_info"
+		texturefile = "gfx\\interface\\politics\\politics_info_small_btn.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_party_plus"
+		texturefile = "gfx\\interface\\politics\\icon_party_plus_btn.dds"
+		
+		norefcount = yes
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_party_ban"
+		texturefile = "gfx\\interface\\politics\\icon_party_ban_btn.dds"
+		
+		norefcount = yes
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_stamp_national_ideas"
+		texturefile = "gfx\\interface\\politics\\stamp_national_ideas.dds"
+		
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_stamp_laws"
+		texturefile = "gfx\\interface\\politics\\stamp_laws.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_select_statesman"
+		texturefile = "gfx\\interface\\politics\\politics_hos_btn.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_politics_tape_left"
+		texturefile = "gfx\\interface\\politics\\politics_tape_left.dds"
+		
+		norefcount = yes
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_politics_tape_right"
+		texturefile = "gfx\\interface\\politics\\politics_tape_right.dds"
+		
+		norefcount = yes
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_chart_overlay"
+		texturefile = "gfx\\interface\\politics\\politics_chart.dds"
+		
+		norefcount = yes
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_partisan_digi"
+		texturefile = "gfx\\interface\\politics\\icon_partisan_digi.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_nuke_digi"
+		texturefile = "gfx\\interface\\politics\\icon_nuke_digi.dds"
+		
+		norefcount = yes
+	}
+
+	textSpriteType = {
+		name = "GFX_pol_big_btn"
+		texturefile = "gfx\\interface\\politics\\politics_big_btn.dds"
+		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_selection_policy_overlay"
+		texturefile = "gfx\\interface\\politics\\selection_policy_overlay.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_minister_plate_new"
+		texturefile = "gfx\\interface\\politics\\plate_minister_selection_new.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_minister_btn_new"
+		texturefile = "gfx\\interface\\politics\\politics_button_selection_minister.dds"
+		
+		norefcount = yes
+	}
+
+}

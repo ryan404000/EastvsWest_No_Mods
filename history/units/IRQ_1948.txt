@@ -1,0 +1,39 @@
+theatre =
+{
+	name = "Central Command"
+	location = 8545
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 8545
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 8804
+			regiment = { type = infantry_brigade name = "1st Brigade" historical_model = 0 strength = 36 experience = 3 }
+			regiment = { type = infantry_brigade name = "2nd Brigade" historical_model = 0 strength = 37 experience = 6 }
+			regiment = { type = infantry_brigade name = "8th Brigade" historical_model = 0 strength = 37 experience = 6 }
+		}
+		division =
+		{
+			name = "3rd Division"
+			location = 8387
+			regiment = { type = infantry_brigade name = "5th Brigade" historical_model = 0 strength = 34 experience = 4 }
+			regiment = { type = infantry_brigade name = "7th Brigade" historical_model = 0 strength = 35 experience = 3 }
+			regiment = { type = infantry_brigade name = "6th Brigade" historical_model = 0 strength = 35 experience = 3 }
+		}
+	}
+}
+
+division =
+{
+	name = "2nd Division"
+	location = 8387
+	pool = yes
+	regiment = { type = infantry_brigade name = "3rd Brigade" historical_model = 0 strength = 34 experience = 4 }
+	regiment = { type = infantry_brigade name = "4th Brigade" historical_model = 0 strength = 35 experience = 3 }
+}

@@ -1,0 +1,296 @@
+spriteTypes = {	
+
+
+
+
+	spriteType = {
+		name = "GFX_circle"
+		texturefile = "gfx\\interface\\circle.tga"
+		
+	}
+
+
+
+	spriteType = {
+		name = "GFX_tech_circle"
+		texturefile = "gfx\\interface\\tech_level_circle.tga"
+		
+	}
+
+	spriteType = {
+		name = "GFX_military_overview_banner"
+		texturefile = "gfx\\interface\\military_info_banner.tga"
+		
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_leader_banner"
+		texturefile = "gfx\\interface\\leader_band.tga"
+		
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_leader_banner2"
+		texturefile = "gfx\\interface\\leader_banner.tga"
+		
+	}
+	
+
+	
+
+	spriteType = {
+		name = "GFX_leader_types"
+		texturefile = "gfx\\interface\\leader_types.tga"
+		noOfFrames = 4
+		
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_modifier_icons"
+		texturefile = "gfx\\interface\\modifiers.tga"
+		noOfFrames = 14
+		
+	}
+
+	
+	
+	spriteType = {
+		name = "GFX_scrollbar_limiter"
+		texturefile = "gfx\\interface\\scrollbar_limiter.tga"
+		noOfFrames = 2
+		
+	}
+
+	spriteType = {
+		name = "techslider_leftbutton"
+		texturefile = "gfx\\interface\\scrollbar_leftbutton_type_2.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+
+
+	spriteType = {
+		name = "techslider_rightbutton"
+		texturefile = "gfx\\interface\\scrollbar_rightbutton_type_2.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+
+	spriteType = {
+		name = "prodslider_rightbutton"
+		texturefile = "gfx\\interface\\scrollbar_rightbutton_type_2.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "prodslider_leftbutton"
+		texturefile = "gfx\\interface\\scrollbar_leftbutton_type_2.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "religionslider_leftbutton"
+		texturefile = "gfx\\interface\\scrollbar_leftbutton.tga"
+		noOfFrames = 4
+		
+	}
+
+	spriteType = {
+		name = "religionslider_rightbutton"
+		texturefile = "gfx\\interface\\scrollbar_rightbutton.tga"
+		noOfFrames = 4
+		
+	}
+
+	spriteType = {
+		name = "religionslider_slider"
+		texturefile = "gfx\\interface\\scrollbar_slider.tga"
+		noOfFrames = 4
+		
+	}
+
+
+	corneredTileSpriteType = {
+		name = "slider_background"
+		size= {x =24 y = 24 }
+		texturefile = "gfx\\interface\\scrollbar_sliderbackground_2.tga"
+		borderSize = { x=8 y=8 }
+#		
+	}
+	
+	corneredTileSpriteType = {
+		name = "eco_slider_background"
+		size= {x =24 y = 24 }
+		texturefile = "gfx\\interface\\scroller_line.dds"
+		borderSize = { x=8 y=8 }
+#		
+	}
+
+	corneredTileSpriteType = {
+		name = "slider_nobackground"
+		size= {x =24 y = 24 }
+		texturefile = "gfx\\interface\\transparency.tga"
+		borderSize = { x=8 y=8 }
+#		
+	}
+
+	spriteType = {
+		name = "slider_noslider"
+		texturefile = "gfx\\interface\\transparency.tga"
+		noOfFrames = 4
+#		
+	}
+
+
+
+	spriteType = {
+		name = "slider_slider"
+		texturefile = "gfx\\interface\\scrollbar_slider_2.tga"
+		noOfFrames = 4
+#		
+	}
+	
+	
+
+
+	spriteType = {
+		name = "slider_upbutton"
+		texturefile = "gfx\\interface\\scrollbar_upbutton.tga"
+		noOfFrames = 4
+#		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "slider_downbutton"
+		texturefile = "gfx\\interface\\scrollbar_downbutton.tga"
+		noOfFrames = 4
+#		
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_vertical_divider"
+		texturefile = "gfx\\interface\\divider_vertical.tga"
+		noOfFrames = 1
+		
+	}
+	
+	spriteType = {
+		name = "eco_slider_button"
+		texturefile = "gfx\\interface\\eco_slider_btn1.dds"
+		noOfFrames = 4
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_unittype_icons"
+		texturefile = "gfx\\interface\\unit_types.tga"
+		noOfFrames = 1
+		
+	}
+
+	spriteType = {
+		name = "GFX_greendots"
+		texturefile = "gfx\\interface\\dots_green.tga"
+		noOfFrames = 4
+		
+	}
+
+	spriteType = {
+		name = "GFX_reddots"
+		texturefile = "gfx\\interface\\dots_red.tga"
+		noOfFrames = 4
+		
+	}
+
+
+	spriteType = {
+		name = "GFX_divider"
+		texturefile = "gfx\\interface\\divider.tga"
+		noOfFrames = 1
+		
+	}
+
+	spriteType = {
+		name = "GFX_divider_type_2"
+		texturefile = "gfx\\interface\\divider_type_2.tga"
+		noOfFrames = 1
+		
+	}
+
+
+	progressbartype = {
+		name = "testbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		size = { x = 92 y = 3 }
+		effectFile = "gfx\\FX\\progress.fx"
+		
+	}
+
+	progressbartype = {
+		name = "traditionbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		size = { x = 100 y = 3 }
+		effectFile = "gfx\\FX\\progress.fx"
+		
+	}
+
+	corneredTileSpriteType = {
+		name = "investmentmentslider_background"
+		size= {x =320 y = 16 }
+		texturefile = "gfx\\interface\\scrollbar_sliderbackground.tga"
+		borderSize = { x=16 y=16 }
+		
+	}
+
+	spriteType = {
+		name = "investmentmentslider_leftbutton"
+		texturefile = "gfx\\interface\\scrollbar_leftbutton.tga"
+		noOfFrames = 4
+		
+	}
+
+	spriteType = {
+		name = "investmentmentslider_rightbutton"
+		texturefile = "gfx\\interface\\scrollbar_rightbutton.tga"
+		noOfFrames = 4
+		
+	}
+
+	spriteType = {
+		name = "investmentmentslider_slider"
+		texturefile = "gfx\\interface\\scrollbar_slider.tga"
+		noOfFrames = 4
+		
+	}
+
+	corneredTileSpriteType = {
+		name = "techslider_background"
+		size= { x = 12 y = 12 }
+		texturefile = "gfx\\interface\\scrollbars\\gen_slider_bg.dds"
+		borderSize = { x=0 y=0 }
+	}
+	
+	spriteType = {
+		name = "slider_slider_eco_reg"
+		texturefile = "gfx\\interface\\scrollbars\\gen_slider_standard.dds"
+		noOfFrames = 4
+	}
+
+	
+}

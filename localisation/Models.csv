@@ -1,0 +1,2847 @@
+MODEL_TAG;Model;Modèle;Model;;Modelo;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Unit Model Names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+# model 0 units from WW2;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#################################################;;;;;;;;;;;;;;x
+# Land units;;;;;;;;;;;;;;x
+#################################################;;;;;;;;;;;;;;x
+CHC_anti_air_brigade_0;ZPU-4 AA Gun;;;;;;;;;;;;;x
+CHC_anti_air_brigade_1;ZU-23-2;;;;;;;;;;;;;x
+CHC_anti_air_brigade_2;2K12 Kub;;;;;;;;;;;;;x
+CHC_anti_air_brigade_3;9K33 Osa;;;;;;;;;;;;;x
+CHC_anti_air_brigade_4;9K330 Tor;;;;;;;;;;;;;x
+CHC_air_cav_brigade_2;Harbin Z-5;;;;;;;;;;;;;x
+CHC_air_cav_brigade_3;Harbin Z-6;;;;;;;;;;;;;x
+CHC_air_cav_brigade_4;Changhe Z-8;;;;;;;;;;;;;x
+CHC_armored_engineer_brigade_0;T-34 Dozer;;;;;;;;;;;;;x
+CHC_armored_engineer_brigade_1;BAT-M Dozer;;;;;;;;;;;;;x
+CHC_armored_engineer_brigade_2;BAT-2 Dozer;;;;;;;;;;;;;x
+CHC_armored_engineer_brigade_3;IMR-2 CEV;;;;;;;;;;;;;x
+CHC_armor_brigade_0;Type 58;;;;;;;;;;;;;x
+CHC_armor_brigade_1;Type 59;;;;;;;;;;;;;x
+CHC_armor_brigade_2;Type 69;;;;;;;;;;;;;x
+CHC_armor_brigade_3;Type 88;;;;;;;;;;;;;x
+CHC_armor_brigade_4;Type 98;;;;;;;;;;;;;x
+CHC_artillery_brigade_0;M101A1 Howitzer;;;;;;;;;;;;;x
+CHC_artillery_brigade_1;Type 59 Howitzer;;;;;;;;;;;;;x
+CHC_artillery_brigade_2;Type 66 Howitzer;;;;;;;;;;;;;x
+CHC_artillery_brigade_3;2A18 Howitzer;;;;;;;;;;;;;x
+CHC_artillery_brigade_4;M198 Howitzer;;;;;;;;;;;;;x
+CHC_anti_tank_brigade_0;76 mm ZiS-3;;;;;;;;;;;;;x
+CHC_anti_tank_brigade_1;85mm D-44;;;;;;;;;;;;;x
+CHC_anti_tank_brigade_2;AT-3 Sagger;;;;;;;;;;;;;x
+CHC_anti_tank_brigade_3;AT-4 Spigot;;;;;;;;;;;;;x
+CHC_anti_tank_brigade_4;AT-7 Saxhorn;;;;;;;;;;;;;x
+CHC_cavalry_brigade_0;M5A1 Stuart;;;;;;;;;;;;;x
+CHC_cavalry_brigade_1;M24 Chaffee;;;;;;;;;;;;;x
+CHC_cavalry_brigade_2;PT-76;;;;;;;;;;;;;x
+CHC_cavalry_brigade_3;BMP-1 IFV;;;;;;;;;;;;;x
+CHC_cavalry_brigade_4;BMP-2 IFV;;;;;;;;;;;;;x
+CHC_heavy_mechanized_brigade_0;BTR-60 APC;;;;;;;;;;;;;x
+CHC_heavy_mechanized_brigade_1;BMP-1 IFV;;;;;;;;;;;;;x
+CHC_heavy_mechanized_brigade_2;BMP-2 IFV;;;;;;;;;;;;;x
+CHC_heavy_mechanized_brigade_3;BMP-3 IFV;;;;;;;;;;;;;x
+CHC_light_mechanized_brigade_0;BTR-40 APC;;;;;;;;;;;;;x
+CHC_light_mechanized_brigade_1;BTR-152 APC;;;;;;;;;;;;;x
+CHC_light_mechanized_brigade_2;Type 63 YW531C;;;;;;;;;;;;;x
+CHC_light_mechanized_brigade_3;Type 77;;;;;;;;;;;;;x
+CHC_light_mechanized_brigade_4;Type 85 AFV;;;;;;;;;;;;;x
+CHC_long_range_anti_air_brigade_0;Hongqi-1;;;;;;;;;;;;;x
+CHC_long_range_anti_air_brigade_1;Hongqi-2;;;;;;;;;;;;;x
+CHC_long_range_anti_air_brigade_3;Hongqi-10;;;;;;;;;;;;;x
+CHC_marine_brigade_0;BTR-50 APC;;;;;;;;;;;;;x
+CHC_marine_brigade_1;BTR-60 APC;;;;;;;;;;;;;x
+CHC_marine_brigade_2;Type 63;;;;;;;;;;;;;x
+CHC_marine_brigade_3;Type 77;;;;;;;;;;;;;x
+CHC_motorized_brigade_0;GAZ-51;;;;;;;;;;;;;x
+CHC_motorized_brigade_1;ZiS-151;;;;;;;;;;;;;x
+CHC_motorized_brigade_2;Jiefang CA-30;;;;;;;;;;;;;x
+CHC_motorized_brigade_3;GAZ-66;;;;;;;;;;;;;x
+CHC_motorized_brigade_4;BTR-80 ;;;;;;;;;;;;;x
+CHC_rocket_artillery_brigade_0;Type 63 130 mm;;;;;;;;;;;;;x
+CHC_rocket_artillery_brigade_4;ASTROS II MLRS;;;;;;;;;;;;;x
+CHC_sp_anti_air_brigade_0;ZSU-37;;;;;;;;;;;;;x
+CHC_sp_anti_air_brigade_1;Type 63;;;;;;;;;;;;;x
+CHC_sp_anti_air_brigade_2;ZSU-23-4 Shilka;;;;;;;;;;;;;x
+CHC_sp_anti_air_brigade_3;Type 95 SPAAA;;;;;;;;;;;;;x
+CHC_sp_artillery_brigade_0;SU-76;;;;;;;;;;;;;x
+CHC_sp_artillery_brigade_2;2S1 Gvozdika;;;;;;;;;;;;;x
+CHC_sp_artillery_brigade_3;Type 83;;;;;;;;;;;;;x
+CHC_sp_artillery_brigade_4;PLZ-05;;;;;;;;;;;;;x
+CHC_sp_rct_artillery_brigade_0;BM-13 Katyusha;;;;;;;;;;;;;x
+CHC_sp_rct_artillery_brigade_2;Type 81 PHZ81;;;;;;;;;;;;;x
+CHC_sp_rct_artillery_brigade_4;Type A100 PHL-03;;;;;;;;;;;;;x
+CHC_tank_destroyer_brigade_3;Type 89;;;;;;;;;;;;;x
+PRK_anti_air_brigade_0;ZPU-4 AA Gun;;;;;;;;;;;;;x
+PRK_anti_air_brigade_1;ZU-23-2;;;;;;;;;;;;;x
+PRK_armored_engineer_brigade_0;T-34 Dozer;;;;;;;;;;;;;x
+PRK_armored_engineer_brigade_1;BAT-M Dozer;;;;;;;;;;;;;x
+PRK_armor_brigade_0;T-34;;;;;;;;;;;;;x
+PRK_armor_brigade_1;T-54/55;;;;;;;;;;;;;x
+PRK_armor_brigade_2;T-62;;;;;;;;;;;;;x
+PRK_armor_brigade_3;Chonma-ho;;;;;;;;;;;;;x
+PRK_armor_brigade_4;Pokpung-ho;;;;;;;;;;;;;x
+PRK_artillery_brigade_0;ML-20 Howitzer;;;;;;;;;;;;;x
+PRK_artillery_brigade_1;M-46 Howitzer;;;;;;;;;;;;;x
+PRK_anti_tank_brigade_0;76 mm ZiS-3;;;;;;;;;;;;;x
+PRK_anti_tank_brigade_1;85mm D-44;;;;;;;;;;;;;x
+PRK_anti_tank_brigade_2;AT-3 Sagger;;;;;;;;;;;;;x
+PRK_anti_tank_brigade_3;AT-4 Spigot;;;;;;;;;;;;;x
+PRK_attack_helo_brigade_0;Mi-24 Hind;;;;;;;;;;;;;x
+PRK_cavalry_brigade_0;T-34;;;;;;;;;;;;;x
+PRK_cavalry_brigade_1;PT-76;;;;;;;;;;;;;x
+PRK_cavalry_brigade_3;BMP-1 IFV;;;;;;;;;;;;;x
+PRK_heavy_mechanized_brigade_0;BTR-60 APC;;;;;;;;;;;;;x
+PRK_heavy_mechanized_brigade_1;BMP-1 IFV;;;;;;;;;;;;;x
+PRK_light_mechanized_brigade_0;BTR-40 APC;;;;;;;;;;;;;x
+PRK_light_mechanized_brigade_1;BTR-152 APC;;;;;;;;;;;;;x
+PRK_light_mechanized_brigade_2;BTR-60 APC;;;;;;;;;;;;;x
+PRK_light_mechanized_brigade_4;BTR-80 APC;;;;;;;;;;;;;x
+PRK_marine_brigade_0;BTR-50 APC;;;;;;;;;;;;;x
+PRK_marine_brigade_1;BTR-60 APC;;;;;;;;;;;;;x
+PRK_marine_brigade_3;BTR-80 APC;;;;;;;;;;;;;x
+PRK_motorized_brigade_0;GAZ-51;;;;;;;;;;;;;x
+PRK_motorized_brigade_1;ZiS-151;;;;;;;;;;;;;x
+PRK_motorized_brigade_2;ZIL-157;;;;;;;;;;;;;x
+PRK_motorized_brigade_3;GAZ-66;;;;;;;;;;;;;x
+PRK_motorized_brigade_4;BTR-80 APC;;;;;;;;;;;;;x
+PRK_rocket_artillery_brigade_0;Type 63 130 mm;;;;;;;;;;;;;x
+PRK_sp_anti_air_brigade_0;ZSU-37;;;;;;;;;;;;;x
+PRK_sp_anti_air_brigade_1;ZSU-57-2 Ob'yekt 500;;;;;;;;;;;;;x
+PRK_sp_anti_air_brigade_2;ZSU-23-4 Shilka;;;;;;;;;;;;;x
+PRK_sp_artillery_brigade_0;SU-76;;;;;;;;;;;;;x
+PRK_sp_artillery_brigade_2;Chuch'e-Po;;;;;;;;;;;;;x
+PRK_sp_artillery_brigade_3;KOKSAN;;;;;;;;;;;;;x
+PRK_sp_rct_artillery_brigade_0;BM-13 Katyusha;;;;;;;;;;;;;x
+PRK_sp_rct_artillery_brigade_2;BM-21 Grad;;;;;;;;;;;;;x
+PRK_sp_rct_artillery_brigade_3;BM-27 Uragan;;;;;;;;;;;;;x
+PRK_tank_destroyer_brigade_0;SU-100;;;;;;;;;;;;;x
+SOV_anti_air_brigade_0;ZPU-4 AA Gun;;;;;;;;;;;;;x
+SOV_anti_air_brigade_1;ZU-23-2;;;;;;;;;;;;;x
+SOV_anti_air_brigade_2;2K12 Kub;;;;;;;;;;;;;x
+SOV_anti_air_brigade_3;9K33 Osa;;;;;;;;;;;;;x
+SOV_anti_air_brigade_4;9K330 Tor;;;;;;;;;;;;;x
+SOV_air_cav_brigade_2;Mil Mi-4;;;;;;;;;;;;;x
+SOV_air_cav_brigade_3;Mil Mi-8;;;;;;;;;;;;;x
+SOV_air_cav_brigade_4;Mil Mi-17;;;;;;;;;;;;;x
+SOV_armored_engineer_brigade_0;T-34 Dozer;;;;;;;;;;;;;x
+SOV_armored_engineer_brigade_1;BAT-M Dozer;;;;;;;;;;;;;x
+SOV_armored_engineer_brigade_2;BAT-2 Dozer;;;;;;;;;;;;;x
+SOV_armored_engineer_brigade_3;IMR-2 CEV;;;;;;;;;;;;;x
+SOV_armor_brigade_0;T-34;;;;;;;;;;;;;x
+SOV_armor_brigade_1;T-54/55;;;;;;;;;;;;;x
+SOV_armor_brigade_2;T-62;;;;;;;;;;;;;x
+SOV_armor_brigade_3;T-72;;;;;;;;;;;;;x
+SOV_armor_brigade_4;T-80;;;;;;;;;;;;;x
+SOV_artillery_brigade_0;ML-20 Howitzer;;;;;;;;;;;;;x
+SOV_artillery_brigade_1;M-46 Howitzer;;;;;;;;;;;;;x
+SOV_artillery_brigade_2;D-20 Howitzer;;;;;;;;;;;;;x
+SOV_artillery_brigade_3;2A18 Howitzer;;;;;;;;;;;;;x
+SOV_artillery_brigade_4;2A36 Giatsint-B;;;;;;;;;;;;;x
+SOV_anti_tank_brigade_0;76 mm ZiS-3;;;;;;;;;;;;;x
+SOV_anti_tank_brigade_1;85mm D-44;;;;;;;;;;;;;x
+SOV_anti_tank_brigade_2;AT-3 Sagger;;;;;;;;;;;;;x
+SOV_anti_tank_brigade_3;AT-4 Spigot;;;;;;;;;;;;;x
+SOV_anti_tank_brigade_4;AT-7 Saxhorn;;;;;;;;;;;;;x
+SOV_attack_helo_brigade_0;Mi-24 Hind;;;;;;;;;;;;;x
+SOV_attack_helo_brigade_1;Mi-28 Havoc;;;;;;;;;;;;;x
+SOV_attack_helo_brigade_2;Ka-50 Hokum A;;;;;;;;;;;;;x
+SOV_all_terrain_vehicles_4;Vityaz DT10;;;;;;;;;;;;;x
+SOV_cavalry_brigade_0;T-34;;;;;;;;;;;;;x
+SOV_cavalry_brigade_1;PT-76;;;;;;;;;;;;;x
+SOV_cavalry_brigade_3;BMP-1 IFV;;;;;;;;;;;;;x
+SOV_cavalry_brigade_4;BMP-2 IFV;;;;;;;;;;;;;x
+SOV_heavy_mechanized_brigade_0;BTR-60 APC;;;;;;;;;;;;;x
+SOV_heavy_mechanized_brigade_1;BMP-1 IFV;;;;;;;;;;;;;x
+SOV_heavy_mechanized_brigade_2;BMP-2 IFV;;;;;;;;;;;;;x
+SOV_heavy_mechanized_brigade_3;BMP-3 IFV;;;;;;;;;;;;;x
+SOV_light_mechanized_brigade_0;BTR-40 APC;;;;;;;;;;;;;x
+SOV_light_mechanized_brigade_1;BTR-152 APC;;;;;;;;;;;;;x
+SOV_light_mechanized_brigade_2;BTR-60 APC;;;;;;;;;;;;;x
+SOV_light_mechanized_brigade_3;BTR-70 APC;;;;;;;;;;;;;x
+SOV_light_mechanized_brigade_4;BTR-80 APC;;;;;;;;;;;;;x
+SOV_long_range_anti_air_brigade_0;S-75 Dvina;;;;;;;;;;;;;x
+SOV_long_range_anti_air_brigade_1;S-125 Neva/Pechora;;;;;;;;;;;;;x
+SOV_long_range_anti_air_brigade_2;S-200 Angara/Vega/Dubna;;;;;;;;;;;;;x
+SOV_long_range_anti_air_brigade_3;S-300;;;;;;;;;;;;;x
+SOV_marine_brigade_0;BTR-50 APC;;;;;;;;;;;;;x
+SOV_marine_brigade_1;BTR-60 APC;;;;;;;;;;;;;x
+SOV_marine_brigade_2;BTR-70 APC;;;;;;;;;;;;;x
+SOV_marine_brigade_3;BTR-80 APC;;;;;;;;;;;;;x
+SOV_motorized_brigade_0;GAZ-51;;;;;;;;;;;;;x
+SOV_motorized_brigade_1;ZiS-151;;;;;;;;;;;;;x
+SOV_motorized_brigade_2;ZIL-157;;;;;;;;;;;;;x
+SOV_motorized_brigade_3;GAZ-66;;;;;;;;;;;;;x
+SOV_motorized_brigade_4;BTR-80 APC;;;;;;;;;;;;;x
+SOV_rocket_artillery_brigade_0;BM-14;;;;;;;;;;;;;x
+SOV_sp_anti_air_brigade_0;ZSU-37;;;;;;;;;;;;;x
+SOV_sp_anti_air_brigade_1;ZSU-57-2 Ob'yekt 500;;;;;;;;;;;;;x
+SOV_sp_anti_air_brigade_2;ZSU-23-4 Shilka;;;;;;;;;;;;;x
+SOV_sp_anti_air_brigade_3;9K22 Tunguska;;;;;;;;;;;;;x
+SOV_sp_artillery_brigade_0;SU-76;;;;;;;;;;;;;x
+SOV_sp_artillery_brigade_2;2S1 Gvozdika;;;;;;;;;;;;;x
+SOV_sp_artillery_brigade_3;2S3 (SO-152) Akatsiya ;;;;;;;;;;;;;x
+SOV_sp_artillery_brigade_4;2S5 Giatsint-S;;;;;;;;;;;;;x
+SOV_sp_rct_artillery_brigade_0;BM-13 Katyusha;;;;;;;;;;;;;x
+SOV_sp_rct_artillery_brigade_2;BM-21 Grad;;;;;;;;;;;;;x
+SOV_sp_rct_artillery_brigade_3;BM-27 Uragan;;;;;;;;;;;;;x
+SOV_sp_rct_artillery_brigade_4;BM-30 Smerch;;;;;;;;;;;;;x
+SOV_tank_destroyer_brigade_0;SU-100;;;;;;;;;;;;;x
+USA_anti_air_brigade_0;Bofors 40 mm;;;;;;;;;;;;;x
+USA_anti_air_brigade_1;M51 Skysweeper;;;;;;;;;;;;;x
+USA_anti_air_brigade_2;MIM-46 Mauler;;;;;;;;;;;;;x
+USA_anti_air_brigade_3;MIM-72C Chaparral;;;;;;;;;;;;;x
+USA_anti_air_brigade_4;MIM-72G Chaparral;;;;;;;;;;;;;x
+USA_air_cav_brigade_2;UH-1 Huey;;;;;;;;;;;;;x
+USA_air_cav_brigade_3;CH-47 Chinook;;;;;;;;;;;;;x
+USA_air_cav_brigade_4;UH-60 Black Hawk;;;;;;;;;;;;;x
+USA_armored_engineer_brigade_0;M4 Sherman Dozer;;;;;;;;;;;;;x
+USA_armored_engineer_brigade_1;M6 Dozer;;;;;;;;;;;;;x
+USA_armored_engineer_brigade_2;M8A1DB;;;;;;;;;;;;;x
+USA_armored_engineer_brigade_3;M728 CEV;;;;;;;;;;;;;x
+USA_armored_engineer_brigade_4;M1 Grizzly;;;;;;;;;;;;;x
+USA_armor_brigade_0;M4 Sherman;;;;;;;;;;;;;x
+USA_armor_brigade_1;M47 Patton;;;;;;;;;;;;;x
+USA_armor_brigade_2;M48 Patton;;;;;;;;;;;;;x
+USA_armor_brigade_3;M60 Patton;;;;;;;;;;;;;x
+USA_armor_brigade_4;M1 Abrams;;;;;;;;;;;;;x
+USA_artillery_brigade_0;M101A1 Howitzer;;;;;;;;;;;;;x
+USA_artillery_brigade_1;M1 Howitzer;;;;;;;;;;;;;x
+USA_artillery_brigade_2;M114 Howtizer;;;;;;;;;;;;;x
+USA_artillery_brigade_3;M102 Howitzer;;;;;;;;;;;;;x
+USA_artillery_brigade_4;M198 Howitzer;;;;;;;;;;;;;x
+USA_anti_tank_brigade_0;M20 Recoilless Rifle;;;;;;;;;;;;;x
+USA_anti_tank_brigade_1;M40 Recoilless Rifle;;;;;;;;;;;;;x
+USA_anti_tank_brigade_2;M67 Recoilless Rifle;;;;;;;;;;;;;x
+USA_anti_tank_brigade_3;BGM-71 TOW;;;;;;;;;;;;;x
+USA_anti_tank_brigade_4;M47 Dragon;;;;;;;;;;;;;x
+USA_attack_helo_brigade_0;AH-1 Cobra;;;;;;;;;;;;;x
+USA_attack_helo_brigade_1;AH-1 SuperCobra;;;;;;;;;;;;;x
+USA_attack_helo_brigade_2;AH-64 Apache;;;;;;;;;;;;;x
+USA_all_terrain_vehicles_0;M29 Weasel;;;;;;;;;;;;;x
+USA_all_terrain_vehicles_2;Thiokol Model 601;;;;;;;;;;;;;x
+USA_all_terrain_vehicles_3;Bv 206;;;;;;;;;;;;;x
+USA_cavalry_brigade_0;M5A1 Stuart;;;;;;;;;;;;;x
+USA_cavalry_brigade_1;M24 Chaffee;;;;;;;;;;;;;x
+USA_cavalry_brigade_2;M41 Walker Bulldog;;;;;;;;;;;;;x
+USA_cavalry_brigade_3;M551 Sheridan;;;;;;;;;;;;;x
+USA_cavalry_brigade_4;M2 Bradley;;;;;;;;;;;;;x
+USA_heavy_mechanized_brigade_0;M3 Half-track;;;;;;;;;;;;;x
+USA_heavy_mechanized_brigade_1;M113 APC;;;;;;;;;;;;;x
+USA_heavy_mechanized_brigade_2;M2 Bradley IFV;;;;;;;;;;;;;x
+USA_heavy_mechanized_brigade_3;M2A2 Bradley TOW;;;;;;;;;;;;;x
+USA_light_mechanized_brigade_0;M75 APC;;;;;;;;;;;;;x
+USA_light_mechanized_brigade_1;M59 APC;;;;;;;;;;;;;x
+USA_light_mechanized_brigade_2;M113 APC;;;;;;;;;;;;;x
+USA_light_mechanized_brigade_3;M113A1 APC;;;;;;;;;;;;;x
+USA_light_mechanized_brigade_4;M2 Bradley IFV;;;;;;;;;;;;;x
+USA_long_range_anti_air_brigade_0;Nike Ajax MIM-3;;;;;;;;;;;;;x
+USA_long_range_anti_air_brigade_1;Nike Hercules MIM-14;;;;;;;;;;;;;x
+USA_long_range_anti_air_brigade_2;MIM-23 Hawk;;;;;;;;;;;;;x
+USA_long_range_anti_air_brigade_3;MIM-104 Patriot;;;;;;;;;;;;;x
+USA_marine_brigade_0;LVT-3C / LVT4;;;;;;;;;;;;;x
+USA_marine_brigade_1;LVTP-5;;;;;;;;;;;;;x
+USA_marine_brigade_2;LVTP-7;;;;;;;;;;;;;x
+USA_marine_brigade_3;AAV-7A1;;;;;;;;;;;;;x
+USA_motorized_brigade_0;GMC CCKW ;;;;;;;;;;;;;x
+USA_motorized_brigade_1;M35 2.5 ton Cargo Truck;;;;;;;;;;;;;x
+USA_motorized_brigade_2;M54 5 ton Truck;;;;;;;;;;;;;x
+USA_motorized_brigade_3;M809 Truck;;;;;;;;;;;;;x
+USA_motorized_brigade_4;HMMWV;;;;;;;;;;;;;x
+USA_rocket_artillery_brigade_0;T66 Honeycomb;;;;;;;;;;;;;x
+USA_rocket_artillery_brigade_2;XM70E2;;;;;;;;;;;;;x
+USA_sp_anti_air_brigade_0;M19 Gun Motor Carriage;;;;;;;;;;;;;x
+USA_sp_anti_air_brigade_1;M42 Duster;;;;;;;;;;;;;x
+USA_sp_anti_air_brigade_2;M163 VADS;;;;;;;;;;;;;x
+USA_sp_anti_air_brigade_3;M247 Sergeant York;;;;;;;;;;;;;x
+USA_sp_artillery_brigade_0;M7 Priest;;;;;;;;;;;;;x
+USA_sp_artillery_brigade_1;M55 Howitzer;;;;;;;;;;;;;x
+USA_sp_artillery_brigade_2;M108 Howitzer;;;;;;;;;;;;;x
+USA_sp_artillery_brigade_3;M109 Howitzer;;;;;;;;;;;;;x
+USA_sp_artillery_brigade_4;M109 Howitzer;;;;;;;;;;;;;x
+USA_sp_rct_artillery_brigade_0;T34 Calliope;;;;;;;;;;;;;x
+USA_sp_rct_artillery_brigade_1;MGR-1 Honest John;;;;;;;;;;;;;x
+USA_sp_rct_artillery_brigade_4;M270 MLRS;;;;;;;;;;;;;x
+USA_tank_destroyer_brigade_0;M36;;;;;;;;;;;;;x
+USA_tank_destroyer_brigade_2;M901 ITV;;;;;;;;;;;;;x
+#################################;;;;;;;;;;;;;;x
+# AIR FORCES;;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+CHC_fighter_0;Yakovlev Yak-9;;;;;;;;;;;;;x
+CHC_fighter_1;Mikoyan-Gurevich MiG-9;;;;;;;;;;;;;x
+CHC_fighter_2;Shenyang J-2;;;;;;;;;;;;;x
+CHC_fighter_3;Shenyang J-6;;;;;;;;;;;;;x
+CHC_fighter_4;Shenyang J-7;;;;;;;;;;;;;x
+CHC_fighter_5;Mikoyan-Gurevich MiG-25;;;;;;;;;;;;;x
+CHC_fighter_6;Shenyang J-8;;;;;;;;;;;;;x
+CHC_multi_role_0;Petlyakov Pe-2 Peshka;;;;;;;;;;;;;x
+CHC_multi_role_1;Mikoyan-Gurevich MiG-15;;;;;;;;;;;;;x
+CHC_multi_role_2;Sukhoi Su-7;;;;;;;;;;;;;x
+CHC_multi_role_3;Sukhoi Su-17;;;;;;;;;;;;;x
+CHC_multi_role_4;Mikoyan-Gurevich MiG-23;;;;;;;;;;;;;x
+CHC_multi_role_5;Mikoyan MiG-29;;;;;;;;;;;;;x
+CHC_cas_0;Ilyushin Il-2;;;;;;;;;;;;;x
+CHC_cas_1;Ilyushin Il-10;;;;;;;;;;;;;x
+CHC_cas_2;Ilyushin Il-40;;;;;;;;;;;;;x
+CHC_cas_3;Nanchang Q-5;;;;;;;;;;;;;x
+CHC_cas_4;Sukhoi Su-24;;;;;;;;;;;;;x
+CHC_cas_5;Sukhoi Su-25;;;;;;;;;;;;;x
+CHC_cas_6;Sukhoi Su-25K;;;;;;;;;;;;;x
+CHC_bomber_maritime_0;Qing-6;;;;;;;;;;;;;x
+CHC_bomber_maritime_1;Beriev Be-12 Chayka;;;;;;;;;;;;;x
+CHC_bomber_maritime_2;Harbin SH-5;;;;;;;;;;;;;x
+CHC_bomber_maritime_3;Tupolev Tu-22M;;;;;;;;;;;;;x
+CHC_bomber_antisub_0;Qing-6;;;;;;;;;;;;;x
+CHC_bomber_antisub_1;Harbin SH-5;;;;;;;;;;;;;x
+CHC_bomber_antisub_2;Tupolev Tu-142;;;;;;;;;;;;;x
+CHC_bomber_strike_0;Tupolev Tu-2;;;;;;;;;;;;;x
+CHC_bomber_strike_1;Harbin H-5;;;;;;;;;;;;;x
+CHC_bomber_strike_2;Tupolev Tu-22;;;;;;;;;;;;;x
+CHC_bomber_strike_3;Tupolev Tu-22M;;;;;;;;;;;;;x
+CHC_bomber_strike_4;Sukhoi Su-27;;;;;;;;;;;;;x
+CHC_bomber_strategic_0;Tupolev Tu-4;;;;;;;;;;;;;x
+CHC_bomber_strategic_1;Xian H-6;;;;;;;;;;;;;x
+CHC_bomber_strategic_2;Tupolev Tu-95;;;;;;;;;;;;;x
+CHC_bomber_strategic_3;Tupolev Tu-160;;;;;;;;;;;;;x
+CHC_transport_0;Ilyushin Il-12;;;;;;;;;;;;;x
+CHC_transport_1;Yunshuji Y-6;;;;;;;;;;;;;x
+CHC_transport_2;Shaanxi Y-8;;;;;;;;;;;;;x
+CHC_transport_3;Ilyushin Il-76;;;;;;;;;;;;;x
+CHC_recon_plane_0;Myasishchev M-55;;;;;;;;;;;;;x
+CHC_recon_plane_1;Tsybin RSR;;;;;;;;;;;;;x
+CHC_awacs_air_plane_0;Tupolev Tu-126;;;;;;;;;;;;;x
+CHC_awacs_air_plane_1;Tupolev Tu-142;;;;;;;;;;;;;x
+CHC_awacs_air_plane_2;Beriev A-50;;;;;;;;;;;;;x
+CHC_helo_gunship_0;Harbin Z-5;;;;;;;;;;;;;x
+CHC_helo_gunship_1;Harbin Z-6;;;;;;;;;;;;;x
+CHC_helo_gunship_2;Changhe Z-8;;;;;;;;;;;;;x
+CHC_helo_cas_0;Mil Mi-24;;;;;;;;;;;;;x
+CHC_helo_cas_1;Mil Mi-28;;;;;;;;;;;;;x
+CHC_helo_cas_2;Kamov Ka-50 Black Shark;;;;;;;;;;;;;x
+CHC_helo_maritime_0;Kamov Ka-25;;;;;;;;;;;;;x
+CHC_helo_maritime_1;Mil Mi-14;;;;;;;;;;;;;x
+CHC_helo_maritime_2;Kamov Ka-27;;;;;;;;;;;;;x
+SOV_fighter_0;Yakovlev Yak-9;;;;;;;;;;;;;x
+SOV_fighter_1;Mikoyan-Gurevich MiG-9;;;;;;;;;;;;;x
+SOV_fighter_2;Mikoyan-Gurevich MiG-15;;;;;;;;;;;;;x
+SOV_fighter_3;Mikoyan-Gurevich MiG-19;;;;;;;;;;;;;x
+SOV_fighter_4;Mikoyan-Gurevich MiG-21;;;;;;;;;;;;;x
+SOV_fighter_5;Mikoyan-Gurevich MiG-25;;;;;;;;;;;;;x
+SOV_fighter_6;Mikoyan MiG-31;;;;;;;;;;;;;x
+SOV_multi_role_0;Petlyakov Pe-2 Peshka;;;;;;;;;;;;;x
+SOV_multi_role_1;Mikoyan-Gurevich MiG-15;;;;;;;;;;;;;x
+SOV_multi_role_2;Sukhoi Su-7;;;;;;;;;;;;;x
+SOV_multi_role_3;Sukhoi Su-17;;;;;;;;;;;;;x
+SOV_multi_role_4;Mikoyan-Gurevich MiG-23;;;;;;;;;;;;;x
+SOV_multi_role_5;Mikoyan MiG-29;;;;;;;;;;;;;x
+SOV_cas_0;Ilyushin Il-2;;;;;;;;;;;;;x
+SOV_cas_1;Ilyushin Il-10;;;;;;;;;;;;;x
+SOV_cas_2;Ilyushin Il-40;;;;;;;;;;;;;x
+SOV_cas_3;Sukhoi Su-7;;;;;;;;;;;;;x
+SOV_cas_4;Sukhoi Su-24;;;;;;;;;;;;;x
+SOV_cas_5;Sukhoi Su-25;;;;;;;;;;;;;x
+SOV_cas_6;Sukhoi Su-25K;;;;;;;;;;;;;x
+SOV_bomber_maritime_0;Beriev Be-6;;;;;;;;;;;;;x
+SOV_bomber_maritime_1;Beriev Be-12 Chayka;;;;;;;;;;;;;x
+SOV_bomber_maritime_2;Ilyushin Il-38;;;;;;;;;;;;;x
+SOV_bomber_maritime_3;Tupolev Tu-22M;;;;;;;;;;;;;x
+SOV_bomber_antisub_0;Beriev Be-6;;;;;;;;;;;;;x
+SOV_bomber_antisub_1;Beriev Be-12 Chayka;;;;;;;;;;;;;x
+SOV_bomber_antisub_2;Tupolev Tu-142;;;;;;;;;;;;;x
+SOV_bomber_strike_0;Tupolev Tu-2;;;;;;;;;;;;;x
+SOV_bomber_strike_1;Ilyushin Il-28;;;;;;;;;;;;;x
+SOV_bomber_strike_2;Tupolev Tu-22;;;;;;;;;;;;;x
+SOV_bomber_strike_3;Tupolev Tu-22M;;;;;;;;;;;;;x
+SOV_bomber_strike_4;Sukhoi Su-27;;;;;;;;;;;;;x
+SOV_bomber_strategic_0;Tupolev Tu-4;;;;;;;;;;;;;x
+SOV_bomber_strategic_1;Tupolev Tu-16;;;;;;;;;;;;;x
+SOV_bomber_strategic_2;Tupolev Tu-95;;;;;;;;;;;;;x
+SOV_bomber_strategic_3;Tupolev Tu-160;;;;;;;;;;;;;x
+SOV_transport_0;Ilyushin Il-12;;;;;;;;;;;;;x
+SOV_transport_1;Ilyushin Il-14;;;;;;;;;;;;;x
+SOV_transport_2;Antonov An-12;;;;;;;;;;;;;x
+SOV_transport_3;Ilyushin Il-76;;;;;;;;;;;;;x
+SOV_recon_plane_0;Myasishchev M-55;;;;;;;;;;;;;x
+SOV_recon_plane_1;Tsybin RSR;;;;;;;;;;;;;x
+SOV_awacs_air_plane_0;Tupolev Tu-126;;;;;;;;;;;;;x
+SOV_awacs_air_plane_1;Tupolev Tu-142;;;;;;;;;;;;;x
+SOV_awacs_air_plane_2;Beriev A-50;;;;;;;;;;;;;x
+SOV_helo_gunship_0;Mil Mi-4;;;;;;;;;;;;;x
+SOV_helo_gunship_1;Mil Mi-8;;;;;;;;;;;;;x
+SOV_helo_gunship_2;Mil Mi-17;;;;;;;;;;;;;x
+SOV_helo_cas_0;Mil Mi-24;;;;;;;;;;;;;x
+SOV_helo_cas_1;Mil Mi-28;;;;;;;;;;;;;x
+SOV_helo_cas_2;Kamov Ka-50 Black Shark;;;;;;;;;;;;;x
+SOV_helo_maritime_0;Kamov Ka-25;;;;;;;;;;;;;x
+SOV_helo_maritime_1;Mil Mi-14;;;;;;;;;;;;;x
+SOV_helo_maritime_2;Kamov Ka-27;;;;;;;;;;;;;x
+USA_fighter_0;North American P-51H Mustang;;;;;;;;;;;;;x
+USA_fighter_1;Lockheed P-80 Shooting Star;;;;;;;;;;;;;x
+USA_fighter_2;Northrop F-89 Scorpion;;;;;;;;;;;;;x
+USA_fighter_3;Convair F-102 Delta Dagger;;;;;;;;;;;;;x
+USA_fighter_4;Convair F-106 Delta Dart;;;;;;;;;;;;;x
+USA_fighter_5;Northrop F-5E/F Tiger II;;;;;;;;;;;;;x
+USA_fighter_6;McDonnell Douglas F-15 Eagle;;;;;;;;;;;;;x
+USA_multi_role_0;Republic P-47 Thunderbolt;;;;;;;;;;;;;x
+USA_multi_role_1;Republic F-84 Thunderjet;;;;;;;;;;;;;x
+USA_multi_role_2;North American F-100 Super Sabre;;;;;;;;;;;;;x
+USA_multi_role_3;McDonnell Douglas F-101 Voodoo;;;;;;;;;;;;;x
+USA_multi_role_4;McDonnell Douglas F-4 Phantom II;;;;;;;;;;;;;x
+USA_multi_role_5;General Dynamics F-16 Fighting Falcon;;;;;;;;;;;;;x
+USA_cas_0;Douglas A-26 Invader;;;;;;;;;;;;;x
+USA_cas_1;Republic F-84 Thunderjet;;;;;;;;;;;;;x
+USA_cas_2;Republic F-84F Thunderstreak;;;;;;;;;;;;;x
+USA_cas_3;Republic F-105 Thunderchief ;;;;;;;;;;;;;x
+USA_cas_4;Vought A-7 Corsair II;;;;;;;;;;;;;x
+USA_cas_5;Republic A-10 Thunderbolt II;;;;;;;;;;;;;x
+USA_cas_6;Lockheed F-117 Nighthawk;;;;;;;;;;;;;x
+USA_bomber_maritime_0;Lockheed P-2 Neptune;;;;;;;;;;;;;x
+USA_bomber_maritime_1;Martin P5M Marlin;;;;;;;;;;;;;x
+USA_bomber_maritime_2;Lockheed P-3C Orion;;;;;;;;;;;;;x
+USA_bomber_maritime_3;Lockheed P-3C Orion;;;;;;;;;;;;;x
+USA_bomber_antisub_0;Consolidated PBY-6A Catalina;;;;;;;;;;;;;x
+USA_bomber_antisub_1;Grumman S-2 Tracker;;;;;;;;;;;;;x
+USA_bomber_antisub_2;Lockheed S-3 Viking;;;;;;;;;;;;;x
+USA_bomber_strike_0;North American B-25 Mitchell;;;;;;;;;;;;;x
+USA_bomber_strike_1;Boeing B-47 Stratojet;;;;;;;;;;;;;x
+USA_bomber_strike_2;Convair B-58 Hustler;;;;;;;;;;;;;x
+USA_bomber_strike_3;General Dynamics F-111 Aardvark;;;;;;;;;;;;;x
+USA_bomber_strike_4;McDonnell Douglas F-15E Strike Eagle;;;;;;;;;;;;;x
+USA_bomber_strategic_0;Boeing B-29 Superfortress;;;;;;;;;;;;;x
+USA_bomber_strategic_1;Convair B-36 Peacemaker;;;;;;;;;;;;;x
+USA_bomber_strategic_2;Boeing B-52 Stratofortress;;;;;;;;;;;;;x
+USA_bomber_strategic_3;Rockwell B-1B Lancer;;;;;;;;;;;;;x
+USA_transport_0;Douglas C-47 Skytrain;;;;;;;;;;;;;x
+USA_transport_1;Fairchild C-119 Flying Boxcar;;;;;;;;;;;;;x
+USA_transport_2;Lockheed C-130 Hercules;;;;;;;;;;;;;x
+USA_transport_3;Lockheed C-5 Galaxy;;;;;;;;;;;;;x
+USA_recon_plane_0;Lockheed U-2 Dragon Lady;;;;;;;;;;;;;x
+USA_recon_plane_1;Lockheed SR-71 Blackbird;;;;;;;;;;;;;x
+USA_awacs_air_plane_0;Lockheed EC-121 Warning Star;;;;;;;;;;;;;x
+USA_awacs_air_plane_1;Grumman E-2 Hawkeye;;;;;;;;;;;;;x
+USA_awacs_air_plane_2;Boeing E-3 Sentry;;;;;;;;;;;;;x
+USA_helo_gunship_0;Sikorsky H-34 Choctaw;;;;;;;;;;;;;x
+USA_helo_gunship_1;Bell UH-1 Iroquois;;;;;;;;;;;;;x
+USA_helo_gunship_2;Sikorsky UH-60 Black Hawk;;;;;;;;;;;;;x
+USA_helo_cas_0;Bell AH-1 Cobra;;;;;;;;;;;;;x
+USA_helo_cas_1;Bell AH-1 SuperCobra;;;;;;;;;;;;;x
+USA_helo_cas_2;Boeing AH-64 Apache;;;;;;;;;;;;;x
+USA_helo_maritime_0;Kaman SH-2 Seasprite;;;;;;;;;;;;;x
+USA_helo_maritime_1;Kaman SH-2D Seasprite;;;;;;;;;;;;;x
+USA_helo_maritime_2;Sikorsky SH-60 Seahawk;;;;;;;;;;;;;x
+#################################;;;;;;;;;;;;;;x
+# NAVAL FORCES;;;;;;;;;;;;;;x
+#################################;;;;;;;;;;;;;;x
+#################################;;;;;;;;;;;;;;x
+# WEAPON COMPLEXES FOR SHIPS;;;;;;;;;;;;;;x
+#################################;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+# Ship deck helicopter;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+ship_heli_complex_1;Model 1960;;;;;;;;;;;;;x
+ship_heli_complex_2;Model 1968;;;;;;;;;;;;;x
+ship_heli_complex_3;Model 1976;;;;;;;;;;;;;x
+ship_heli_complex_4;Model 1984;;;;;;;;;;;;;x
+ship_heli_complex_5;Model 1992;;;;;;;;;;;;;x
+ARG_ship_heli_complex_1;Aérospatiale SA 316 Alouette III;;;;;;;;;;;;;x
+ARG_ship_heli_complex_2;Aérospatiale SA 321G Super Frelon;;;;;;;;;;;;;x
+ARG_ship_heli_complex_3;Eurocopter AS 532 Cougar SC;;;;;;;;;;;;;x
+ARG_ship_heli_complex_4;Eurocopter AS 565 Panther MB;;;;;;;;;;;;;x
+ARG_ship_heli_complex_5;Eurocopter AS 565 Panther SB;;;;;;;;;;;;;x
+BRA_ship_heli_complex_1;Westland Wasp HAS.1;;;;;;;;;;;;;x
+BRA_ship_heli_complex_2;Westland Sea King HAS.1;;;;;;;;;;;;;x
+BRA_ship_heli_complex_3;Westland Lynx HAS.2;;;;;;;;;;;;;x
+BRA_ship_heli_complex_4;Westland Super Lynx HSA.8;;;;;;;;;;;;;x
+BRA_ship_heli_complex_5;Westland Super Lynx HMA.7;;;;;;;;;;;;;x
+CAN_ship_heli_complex_1;Kaman SH-2 Seasprite;;;;;;;;;;;;;x
+CAN_ship_heli_complex_2;Sikorsky CH-124 Sea King;;;;;;;;;;;;;x
+CAN_ship_heli_complex_3;Sikorsky CH-124A Sea King;;;;;;;;;;;;;x
+CAN_ship_heli_complex_4;Sikorsky CH-124B Sea King;;;;;;;;;;;;;x
+CAN_ship_heli_complex_5;Sikorsky CH-124B2 Sea King;;;;;;;;;;;;;x
+CHC_ship_heli_complex_1;Kamov Ka-15 Hen;;;;;;;;;;;;;x
+CHC_ship_heli_complex_2;Kamov Ka-20 Harp;;;;;;;;;;;;;x
+CHC_ship_heli_complex_3;Kamov Ka-25 Hormone;;;;;;;;;;;;;x
+CHC_ship_heli_complex_4;Kamov Ka-28 Helix;;;;;;;;;;;;;x
+CHC_ship_heli_complex_5;Harbin Z-9 Haitun;;;;;;;;;;;;;x
+DEN_ship_heli_complex_1;Westland Wasp HAS.1;;;;;;;;;;;;;x
+DEN_ship_heli_complex_2;Westland Wessex HAS.3;;;;;;;;;;;;;x
+DEN_ship_heli_complex_3;Westland Lynx HAS.2;;;;;;;;;;;;;x
+DEN_ship_heli_complex_4;Westland Lynx HAS.3;;;;;;;;;;;;;x
+DEN_ship_heli_complex_5;Westland Super Lynx HMA.7;;;;;;;;;;;;;x
+ENG_ship_heli_complex_1;Westland Wasp HAS.1;;;;;;;;;;;;;x
+ENG_ship_heli_complex_2;Westland Sea King HAS.1;;;;;;;;;;;;;x
+ENG_ship_heli_complex_3;Westland Lynx HAS.2;;;;;;;;;;;;;x
+ENG_ship_heli_complex_4;Westland Lynx HAS.3;;;;;;;;;;;;;x
+ENG_ship_heli_complex_5;Westland Super Lynx HMA.7;;;;;;;;;;;;;x
+FRA_ship_heli_complex_1;Aérospatiale SA 316 Alouette III;;;;;;;;;;;;;x
+FRA_ship_heli_complex_2;Aérospatiale SA 321G Super Frelon;;;;;;;;;;;;;x
+FRA_ship_heli_complex_3;Eurocopter AS 532 Cougar SC;;;;;;;;;;;;;x
+FRA_ship_heli_complex_4;Eurocopter AS 565 Panther MB;;;;;;;;;;;;;x
+FRA_ship_heli_complex_5;Eurocopter AS 565 Panther SB;;;;;;;;;;;;;x
+FRG_ship_heli_complex_1;Westland Wasp HAS.1;;;;;;;;;;;;;x
+FRG_ship_heli_complex_2;Messerschmitt-Bölkow-Blohm Bo 105;;;;;;;;;;;;;x
+FRG_ship_heli_complex_3;Westland Lynx HAS.2;;;;;;;;;;;;;x
+FRG_ship_heli_complex_4;Westland Lynx HAS.3;;;;;;;;;;;;;x
+FRG_ship_heli_complex_5;Westland Super Lynx HMA.7;;;;;;;;;;;;;x
+GER_ship_heli_complex_1;Westland Wasp HAS.1;;;;;;;;;;;;;x
+GER_ship_heli_complex_2;Messerschmitt-Bölkow-Blohm Bo 105;;;;;;;;;;;;;x
+GER_ship_heli_complex_3;Westland Lynx HAS.2;;;;;;;;;;;;;x
+GER_ship_heli_complex_4;Westland Lynx HAS.3;;;;;;;;;;;;;x
+GER_ship_heli_complex_5;Westland Super Lynx HMA.7;;;;;;;;;;;;;x
+HOL_ship_heli_complex_1;Westland Wasp HAS.1;;;;;;;;;;;;;x
+HOL_ship_heli_complex_2;Messerschmitt-Bölkow-Blohm Bo 105;;;;;;;;;;;;;x
+HOL_ship_heli_complex_3;Eurocopter AS 532 Cougar SC;;;;;;;;;;;;;x
+HOL_ship_heli_complex_4;Westland Lynx HAS.3;;;;;;;;;;;;;x
+HOL_ship_heli_complex_5;Westland Super Lynx HMA.7;;;;;;;;;;;;;x
+IND_ship_heli_complex_1;HAL Chetak;;;;;;;;;;;;;x
+IND_ship_heli_complex_2;Westland Sea King HAS.1;;;;;;;;;;;;;x
+IND_ship_heli_complex_3;Westland Sea King HAS.6;;;;;;;;;;;;;x
+IND_ship_heli_complex_4;Kamov Ka-28 Helix;;;;;;;;;;;;;x
+IND_ship_heli_complex_5;Kamov Ka-31 Helix;;;;;;;;;;;;;x
+ITA_ship_heli_complex_1;Agusta-Sikorsky AS-61D Sea King;;;;;;;;;;;;;x
+ITA_ship_heli_complex_2;Agusta-Bell AB 212ASW Twin Huey;;;;;;;;;;;;;x
+ITA_ship_heli_complex_3;Agusta-Sikorsky AS-61H Sea King;;;;;;;;;;;;;x
+ITA_ship_heli_complex_4;Eurocopter AS 565 Panther MB;;;;;;;;;;;;;x
+ITA_ship_heli_complex_5;Agusta-Westland AW101 Merlin;;;;;;;;;;;;;x
+JAP_ship_heli_complex_1;Kaman SH-2 Seasprite;;;;;;;;;;;;;x
+JAP_ship_heli_complex_2;Sikorsky SH-3A Sea King;;;;;;;;;;;;;x
+JAP_ship_heli_complex_3;Sikorsky SH-3H Sea King;;;;;;;;;;;;;x
+JAP_ship_heli_complex_4;Kawasaki BK 117;;;;;;;;;;;;;x
+JAP_ship_heli_complex_5;Mitsubishi SH-60J Seahawk;;;;;;;;;;;;;x
+ROM_ship_heli_complex_1;Kamov Ka-15 Hen;;;;;;;;;;;;;x
+ROM_ship_heli_complex_2;IAR 316;;;;;;;;;;;;;x
+ROM_ship_heli_complex_3;IAR 330 Puma;;;;;;;;;;;;;x
+ROM_ship_heli_complex_4;Kamov Ka-27 Helix;;;;;;;;;;;;;x
+ROM_ship_heli_complex_5;IAR-Kamov KA-126 Hoodlum;;;;;;;;;;;;;x
+SOV_ship_heli_complex_1;Kamov Ka-15 Hen;;;;;;;;;;;;;x
+SOV_ship_heli_complex_2;Kamov Ka-20 Harp;;;;;;;;;;;;;x
+SOV_ship_heli_complex_3;Kamov Ka-25 Hormone;;;;;;;;;;;;;x
+SOV_ship_heli_complex_4;Kamov Ka-27 Helix;;;;;;;;;;;;;x
+SOV_ship_heli_complex_5;Kamov Ka-31 Helix;;;;;;;;;;;;;x
+SPA_ship_heli_complex_1;Kaman SH-2 Seasprite;;;;;;;;;;;;;x
+SPA_ship_heli_complex_2;Sikorsky SH-3A Sea King;;;;;;;;;;;;;x
+SPA_ship_heli_complex_3;Sikorsky SH-3H Sea King;;;;;;;;;;;;;x
+SPA_ship_heli_complex_4;Sikorsky SH-60 Seahawk;;;;;;;;;;;;;x
+SPA_ship_heli_complex_5;Kaman SH-2G Super Seasprite;;;;;;;;;;;;;x
+SWE_ship_heli_complex_1;Westland Wasp HAS.1;;;;;;;;;;;;;x
+SWE_ship_heli_complex_2;Westland Wessex HAS.3;;;;;;;;;;;;;x
+SWE_ship_heli_complex_3;Westland Lynx HAS.2;;;;;;;;;;;;;x
+SWE_ship_heli_complex_4;Westland Lynx HAS.3;;;;;;;;;;;;;x
+SWE_ship_heli_complex_5;Westland Super Lynx HMA.7;;;;;;;;;;;;;x
+USA_ship_heli_complex_1;Kaman SH-2 Seasprite;;;;;;;;;;;;;x
+USA_ship_heli_complex_2;Sikorsky SH-3A Sea King;;;;;;;;;;;;;x
+USA_ship_heli_complex_3;Sikorsky SH-3H Sea King;;;;;;;;;;;;;x
+USA_ship_heli_complex_4;Sikorsky SH-60 Seahawk;;;;;;;;;;;;;x
+USA_ship_heli_complex_5;Kaman SH-2G Super Seasprite;;;;;;;;;;;;;x
+ship_heli_cas_0;Model 1960;;;;;;;;;;;;;x
+ship_heli_cas_1;Model 1970;;;;;;;;;;;;;x
+ship_heli_cas_2;Model 1980;;;;;;;;;;;;;x
+ship_heli_cas_3;Model 1990;;;;;;;;;;;;;x
+ARG_ship_heli_cas_0;Aérospatiale SA 316.4 Alouette III-Canon;;;;;;;;;;;;;x
+ARG_ship_heli_cas_1;Aérospatiale SA 341H Gazelle;;;;;;;;;;;;;x
+ARG_ship_heli_cas_2;Eurocopter AS 532 Cougar SC;;;;;;;;;;;;;x
+ARG_ship_heli_cas_3;Eurocopter AS 565 Panther AB;;;;;;;;;;;;;x
+AST_ship_heli_cas_0;Kaman AH-2 Tomahawk;;;;;;;;;;;;;x
+AST_ship_heli_cas_1;Bell AH-1J Sea Cobra;;;;;;;;;;;;;x
+AST_ship_heli_cas_2;Bell AH-1T Improved Sea Cobra;;;;;;;;;;;;;x
+AST_ship_heli_cas_3;Eurocopter EC 665 Tiger;;;;;;;;;;;;;x
+BRA_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+BRA_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+BRA_ship_heli_cas_2;Westland Lynx AH.1;;;;;;;;;;;;;x
+BRA_ship_heli_cas_3;Agusta-Westland AW101 Merlin;;;;;;;;;;;;;x
+CAN_ship_heli_cas_0;Kaman AH-2 Tomahawk;;;;;;;;;;;;;x
+CAN_ship_heli_cas_1;Bell AH-1J Sea Cobra;;;;;;;;;;;;;x
+CAN_ship_heli_cas_2;Bell AH-1T Improved Sea Cobra;;;;;;;;;;;;;x
+CAN_ship_heli_cas_3;Bell AH-1W Super Cobra;;;;;;;;;;;;;x
+CHC_ship_heli_cas_0;Harbin Z-5;;;;;;;;;;;;;x
+CHC_ship_heli_cas_1;Mil Mi-24 Hind-B;;;;;;;;;;;;;x
+CHC_ship_heli_cas_2;Mil Mi-24P Hind-F;;;;;;;;;;;;;x
+CHC_ship_heli_cas_3;Harbin Z-9W Haitun;;;;;;;;;;;;;x
+DEN_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+DEN_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+DEN_ship_heli_cas_2;Westland Lynx AH.1;;;;;;;;;;;;;x
+DEN_ship_heli_cas_3;Agusta-Westland AW101 Merlin;;;;;;;;;;;;;x
+ENG_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+ENG_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+ENG_ship_heli_cas_2;Westland Lynx AH.1;;;;;;;;;;;;;x
+ENG_ship_heli_cas_3;Agusta-Westland AW101 Merlin;;;;;;;;;;;;;x
+FRA_ship_heli_cas_0;Aérospatiale SA 316.4 Alouette III-Canon;;;;;;;;;;;;;x
+FRA_ship_heli_cas_1;Aérospatiale SA 341F Gazelle;;;;;;;;;;;;;x
+FRA_ship_heli_cas_2;Eurocopter AS 532 Cougar SC;;;;;;;;;;;;;x
+FRA_ship_heli_cas_3;Eurocopter EC 665 Tigre;;;;;;;;;;;;;x
+FRG_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+FRG_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+FRG_ship_heli_cas_2;Westland Lynx AH.1;;;;;;;;;;;;;x
+FRG_ship_heli_cas_3;Eurocopter EC 665 Tiger;;;;;;;;;;;;;x
+GER_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+GER_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+GER_ship_heli_cas_2;Westland Lynx AH.1;;;;;;;;;;;;;x
+GER_ship_heli_cas_3;Eurocopter EC 665 Tiger;;;;;;;;;;;;;x
+HOL_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+HOL_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+HOL_ship_heli_cas_2;Eurocopter AS 532 Cougar SC;;;;;;;;;;;;;x
+HOL_ship_heli_cas_3;Agusta-Westland AW101 Merlin;;;;;;;;;;;;;x
+IND_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+IND_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+IND_ship_heli_cas_2;Westland Lynx AH.1;;;;;;;;;;;;;x
+IND_ship_heli_cas_3;Agusta-Westland AW101 Merlin;;;;;;;;;;;;;x
+ITA_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+ITA_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+ITA_ship_heli_cas_2;Agusta A.109;;;;;;;;;;;;;x
+ITA_ship_heli_cas_3;Agusta A.129 Mangusta;;;;;;;;;;;;;x
+JAP_ship_heli_cas_0;Kaman AH-2 Tomahawk;;;;;;;;;;;;;x
+JAP_ship_heli_cas_1;Bell AH-1J Sea Cobra;;;;;;;;;;;;;x
+JAP_ship_heli_cas_2;Bell AH-1T Improved Sea Cobra;;;;;;;;;;;;;x
+JAP_ship_heli_cas_3;Bell AH-1W Super Cobra;;;;;;;;;;;;;x
+ROM_ship_heli_cas_0;Mil Mi-8T Hip-C;;;;;;;;;;;;;x
+ROM_ship_heli_cas_1;Mil Mi-24A Hind-B;;;;;;;;;;;;;x
+ROM_ship_heli_cas_2;Mil Mi-24P Hind-F;;;;;;;;;;;;;x
+ROM_ship_heli_cas_3;Kamov Ka-50 Hokum-A;;;;;;;;;;;;;x
+SOV_ship_heli_cas_0;Mil Mi-8T Hip-C;;;;;;;;;;;;;x
+SOV_ship_heli_cas_1;Mil Mi-24A Hind-B;;;;;;;;;;;;;x
+SOV_ship_heli_cas_2;Mil Mi-24P Hind-F;;;;;;;;;;;;;x
+SOV_ship_heli_cas_3;Kamov Ka-50 Hokum-A;;;;;;;;;;;;;x
+SPA_ship_heli_cas_0;Kaman AH-2 Tomahawk;;;;;;;;;;;;;x
+SPA_ship_heli_cas_1;Bell AH-1J Sea Cobra;;;;;;;;;;;;;x
+SPA_ship_heli_cas_2;Bell AH-1T Improved Sea Cobra;;;;;;;;;;;;;x
+SPA_ship_heli_cas_3;Eurocopter EC 665 Tigre;;;;;;;;;;;;;x
+SWE_ship_heli_cas_0;Westland Wessex HAS.1;;;;;;;;;;;;;x
+SWE_ship_heli_cas_1;Westland Wessex HAS.3;;;;;;;;;;;;;x
+SWE_ship_heli_cas_2;Westland Lynx AH.1;;;;;;;;;;;;;x
+SWE_ship_heli_cas_3;Agusta-Westland AW101 Merlin;;;;;;;;;;;;;x
+USA_ship_heli_cas_0;Kaman AH-2 Tomahawk;;;;;;;;;;;;;x
+USA_ship_heli_cas_1;Bell AH-1J Sea Cobra;;;;;;;;;;;;;x
+USA_ship_heli_cas_2;Bell AH-1T Improved Sea Cobra;;;;;;;;;;;;;x
+USA_ship_heli_cas_3;Bell AH-1W Super Cobra;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x
+# CAG;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x
+cag_fighter_0;Model 1941;;;;;;;;;;;;;x
+cag_fighter_1;Model 1946;;;;;;;;;;;;;x
+cag_fighter_2;Model 1950;;;;;;;;;;;;;x
+cag_fighter_3;Model 1960;;;;;;;;;;;;;x
+cag_fighter_4;Model 1970;;;;;;;;;;;;;x
+cag_fighter_5;Model 1980;;;;;;;;;;;;;x
+cag_fighter_6;Model 1990;;;;;;;;;;;;;x
+ENG_cag_fighter_0;Hawker Sea Fury F.10;;;;;;;;;;;;;x
+ENG_cag_fighter_1;de Havilland DH.100 Sea Vampire;;;;;;;;;;;;;x
+ENG_cag_fighter_2;Hawker Sea Hawk;;;;;;;;;;;;;x
+ENG_cag_fighter_3;de Havilland DH.110 Sea Vixen;;;;;;;;;;;;;x
+ENG_cag_fighter_4;Grumman F-14A Tomcat;;;;;;;;;;;;;x
+ENG_cag_fighter_5;McDonnell Douglas F/A-18A Hornet;;;;;;;;;;;;;x
+ENG_cag_fighter_6;Grumman F-14D Super Tomcat;;;;;;;;;;;;;x
+ENG_cag_fighter_7;Boeing F/A-18E Super Hornet;;;;;;;;;;;;;x
+FRA_cag_fighter_0;Hawker Sea Fury;;;;;;;;;;;;;x
+FRA_cag_fighter_1;de Havilland DH.100 Sea Vampire;;;;;;;;;;;;;x
+FRA_cag_fighter_2;Sud-Est SE.202 Aquilon;;;;;;;;;;;;;x
+FRA_cag_fighter_3;Vought F-8 Crusader;;;;;;;;;;;;;x
+FRA_cag_fighter_4;Dassault Mirage G;;;;;;;;;;;;;x
+FRA_cag_fighter_5;McDonnell Douglas F/A-18A Hornet;;;;;;;;;;;;;x
+FRA_cag_fighter_6;Dassault Mirage IIIM;;;;;;;;;;;;;x
+FRA_cag_fighter_7;Dassault Rafale;;;;;;;;;;;;;x
+SOV_cag_fighter_0;Yakovlev Yak-3;;;;;;;;;;;;;x
+SOV_cag_fighter_1;Mikoyan-Gurevich MiG-15 Fagot;;;;;;;;;;;;;x
+SOV_cag_fighter_2;Mikoyan-Gurevich MiG-17 Fresco;;;;;;;;;;;;;x
+SOV_cag_fighter_3;Mikoyan-Gurevich MiG-21 Fishbed;;;;;;;;;;;;;x
+SOV_cag_fighter_4;Sukhoi Su-15 Flagon;;;;;;;;;;;;;x
+SOV_cag_fighter_5;Sukhoi Su-27 Flanker-B;;;;;;;;;;;;;x
+SOV_cag_fighter_6;Sukhoi Su-30 Flanker-C;;;;;;;;;;;;;x
+SOV_cag_fighter_7;Sukhoi Su-33 Flanker-D;;;;;;;;;;;;;x
+USA_cag_fighter_0;Grumman F6F Hellcat;;;;;;;;;;;;;x
+USA_cag_fighter_1;McDonnell FH-1 Phantom;;;;;;;;;;;;;x
+USA_cag_fighter_2;North American FJ-2 Fury;;;;;;;;;;;;;x
+USA_cag_fighter_3;Vought F-8 Crusader;;;;;;;;;;;;;x
+USA_cag_fighter_4;Grumman F-14A Tomcat;;;;;;;;;;;;;x
+USA_cag_fighter_5;McDonnell Douglas F/A-18A Hornet;;;;;;;;;;;;;x
+USA_cag_fighter_6;Grumman F-14D Super Tomcat;;;;;;;;;;;;;x
+USA_cag_fighter_7;Boeing F/A-18E Super Hornet;;;;;;;;;;;;;x
+cag_mltr_0;Model 1941;;;;;;;;;;;;;x
+cag_mltr_1;Model 1946;;;;;;;;;;;;;x
+cag_mltr_2;Model 1950;;;;;;;;;;;;;x
+cag_mltr_3;Model 1960;;;;;;;;;;;;;x
+cag_mltr_4;Model 1970;;;;;;;;;;;;;x
+cag_mltr_5;Model 1980;;;;;;;;;;;;;x
+cag_mltr_6;Model 1990;;;;;;;;;;;;;x
+ENG_cag_mltr_0;Blackburn B-37 Firebrand;;;;;;;;;;;;;x
+ENG_cag_mltr_1;Hawker Sea Fury FB.11;;;;;;;;;;;;;x
+ENG_cag_mltr_2;de Havilland DH.112 Sea Venom;;;;;;;;;;;;;x
+ENG_cag_mltr_3;McDonnell Douglas F-4 Phantom II FG.1;;;;;;;;;;;;;x
+ENG_cag_mltr_4;Grumman F-14A Tomcat;;;;;;;;;;;;;x
+ENG_cag_mltr_5;McDonnell Douglas F/A-18B Hornet;;;;;;;;;;;;;x
+ENG_cag_mltr_6;Grumman F-14D Super Tomcat;;;;;;;;;;;;;x
+ENG_cag_mltr_7;Boeing F/A-18F Super Hornet;;;;;;;;;;;;;x
+FRA_cag_mltr_0;Blackburn B-37 Firebrand;;;;;;;;;;;;;x
+FRA_cag_mltr_1;Hawker Sea Fury FB.11;;;;;;;;;;;;;x
+FRA_cag_mltr_2;Dassault Étendard IVM;;;;;;;;;;;;;x
+FRA_cag_mltr_3;McDonnell Douglas F-4 Phantom II;;;;;;;;;;;;;x
+FRA_cag_mltr_4;Dassault Mirage G;;;;;;;;;;;;;x
+FRA_cag_mltr_5;McDonnell Douglas F/A-18B Hornet;;;;;;;;;;;;;x
+FRA_cag_mltr_6;Dassault Mirage IIIM;;;;;;;;;;;;;x
+FRA_cag_mltr_7;Dassault Rafale;;;;;;;;;;;;;x
+SOV_cag_mltr_0;Lavochkin La-7;;;;;;;;;;;;;x
+SOV_cag_mltr_1;Mikoyan-Gurevich MiG-15SB Fagot;;;;;;;;;;;;;x
+SOV_cag_mltr_2;Mikoyan-Gurevich MiG-17AS Fresco;;;;;;;;;;;;;x
+SOV_cag_mltr_3;Sukhoi Su-7 Fitter-A;;;;;;;;;;;;;x
+SOV_cag_mltr_4;Sukhoi Su-17 Fitter-B;;;;;;;;;;;;;x
+SOV_cag_mltr_5;Mikoyan-Gurevich MiG-29 Fulcrum-A;;;;;;;;;;;;;x
+SOV_cag_mltr_6;Mikoyan-Gurevich MiG-29K Fulcrum-D;;;;;;;;;;;;;x
+SOV_cag_mltr_7;Mikoyan-Gurevich MiG-29M Fulcrum-E;;;;;;;;;;;;;x
+USA_cag_mltr_0;Vought F4U Corsair;;;;;;;;;;;;;x
+USA_cag_mltr_1;McDonnell F2H Banshee;;;;;;;;;;;;;x
+USA_cag_mltr_2;Vought F7U Cutlass;;;;;;;;;;;;;x
+USA_cag_mltr_3;McDonnell Douglas F-4 Phantom II;;;;;;;;;;;;;x
+USA_cag_mltr_4;Grumman F-14A Tomcat;;;;;;;;;;;;;x
+USA_cag_mltr_5;McDonnell Douglas F/A-18B Hornet;;;;;;;;;;;;;x
+USA_cag_mltr_6;Grumman F-14D Super Tomcat;;;;;;;;;;;;;x
+USA_cag_mltr_7;Boeing F/A-18F Super Hornet;;;;;;;;;;;;;x
+cag_attack_0;Model 1941;;;;;;;;;;;;;x
+cag_attack_1;Model 1946;;;;;;;;;;;;;x
+cag_attack_2;Model 1950;;;;;;;;;;;;;x
+cag_attack_3;Model 1960;;;;;;;;;;;;;x
+cag_attack_4;Model 1970;;;;;;;;;;;;;x
+cag_attack_5;Model 1980;;;;;;;;;;;;;x
+cag_attack_6;Model 1990;;;;;;;;;;;;;x
+ENG_cag_attack_0;Fairey Barracuda;;;;;;;;;;;;;x
+ENG_cag_attack_1;Blackburn B-48 Firecrest;;;;;;;;;;;;;x
+ENG_cag_attack_2;Supermarine Scimitar;;;;;;;;;;;;;x
+ENG_cag_attack_3;Blackburn Buccaneer;;;;;;;;;;;;;x
+ENG_cag_attack_4;Hawker Siddeley Harrier GR.1;;;;;;;;;;;;;x
+ENG_cag_attack_5;British Aerospace Sea Harrier FRS.1;;;;;;;;;;;;;x
+ENG_cag_attack_6;British Aerospace Harrier II GR.5;;;;;;;;;;;;;x
+FRA_cag_attack_0;Grumman TBM Avenger;;;;;;;;;;;;;x
+FRA_cag_attack_1;SNCAC NC.1071;;;;;;;;;;;;;x
+FRA_cag_attack_2;Breguet Br.960 Vultur;;;;;;;;;;;;;x
+FRA_cag_attack_3;Breguet Br.1050 Alizé;;;;;;;;;;;;;x
+FRA_cag_attack_4;Vought A-7 Corsair II;;;;;;;;;;;;;x
+FRA_cag_attack_5;Dassault-Breguet Super Étendard;;;;;;;;;;;;;x
+SOV_cag_attack_0;Ilyushin Il-10 Beast;;;;;;;;;;;;;x
+SOV_cag_attack_1;Ilyushin Il-16;;;;;;;;;;;;;x
+SOV_cag_attack_2;Ilyushin Il-20;;;;;;;;;;;;;x
+SOV_cag_attack_3;Sukhoi Su-7B Fitter-A;;;;;;;;;;;;;x
+SOV_cag_attack_4;Sukhoi Su-24 Fencer;;;;;;;;;;;;;x
+SOV_cag_attack_5;Sukhoi Su-25 Frogfoot;;;;;;;;;;;;;x
+SOV_cag_attack_6;Sukhoi Su-25K Frogfoot;;;;;;;;;;;;;x
+SOV_cag_attack_7;Sukhoi Su-34 Fullback;;;;;;;;;;;;;x
+USA_cag_attack_0;Grumman TBF Avenger;;;;;;;;;;;;;x
+USA_cag_attack_1;North American A-2 Savage;;;;;;;;;;;;;x
+USA_cag_attack_2;Douglas A-4 Skyhawk;;;;;;;;;;;;;x
+USA_cag_attack_3;Grumman A-6 Intruder;;;;;;;;;;;;;x
+USA_cag_attack_4;Vought A-7 Corsair II;;;;;;;;;;;;;x
+USA_cag_attack_5;Grumman F-14B Bombcat;;;;;;;;;;;;;x
+USA_cag_attack_6;McDonnell Douglas AV-8B Harrier II Night Attack;;;;;;;;;;;;;x
+cag_vtol_0;Model 1965;;;;;;;;;;;;;x
+cag_vtol_1;Model 1970;;;;;;;;;;;;;x
+cag_vtol_2;Model 1975;;;;;;;;;;;;;x
+cag_vtol_3;Model 1980;;;;;;;;;;;;;x
+cag_vtol_4;Model 1985;;;;;;;;;;;;;x
+cag_vtol_5;Model 1990;;;;;;;;;;;;;x
+cag_vtol_6;Model 1995;;;;;;;;;;;;;x
+ENG_cag_vtol_1;Hawker Siddeley Harrier GR.1;;;;;;;;;;;;;x
+ENG_cag_vtol_2;Hawker Siddeley Harrier GR.3;;;;;;;;;;;;;x
+ENG_cag_vtol_3;British Aerospace Sea Harrier FRS.1;;;;;;;;;;;;;x
+ENG_cag_vtol_4;British Aerospace Sea Harrier FA.2;;;;;;;;;;;;;x
+ENG_cag_vtol_5;British Aerospace Harrier II GR.5;;;;;;;;;;;;;x
+ENG_cag_vtol_6;British Aerospace Harrier II GR.7;;;;;;;;;;;;;x
+FRA_cag_vtol_0;Dassault Balzac V;;;;;;;;;;;;;x
+FRA_cag_vtol_1;Dassault Mirage III-V;;;;;;;;;;;;;x
+ITA_cag_vtol_1;Hawker Siddeley Harrier GR.1;;;;;;;;;;;;;x
+ITA_cag_vtol_2;Hawker Siddeley Harrier GR.3;;;;;;;;;;;;;x
+ITA_cag_vtol_3;British Aerospace Sea Harrier FRS.1;;;;;;;;;;;;;x
+ITA_cag_vtol_4;McDonnell Douglas AV-8B Harrier II;;;;;;;;;;;;;x
+ITA_cag_vtol_5;McDonnell Douglas AV-8B Harrier II Night Attack;;;;;;;;;;;;;x
+ITA_cag_vtol_6;McDonnell Douglas AV-8B Harrier II Plus;;;;;;;;;;;;;x
+SOV_cag_vtol_1;Yakovlev Yak-36 Freehand;;;;;;;;;;;;;x
+SOV_cag_vtol_2;Yakovlev Yak-38 Forger-A;;;;;;;;;;;;;x
+SOV_cag_vtol_4;Yakovlev Yak-38M Forger-A;;;;;;;;;;;;;x
+SOV_cag_vtol_5;Yakovlev Yak-41 Freestyle;;;;;;;;;;;;;x
+SOV_cag_vtol_6;Yakovlev Yak-43;;;;;;;;;;;;;x
+SPA_cag_vtol_1;McDonnell Douglas VA-1 Matador A;;;;;;;;;;;;;x
+SPA_cag_vtol_2;McDonnell Douglas VA-1 Matador B;;;;;;;;;;;;;x
+SPA_cag_vtol_3;British Aerospace Sea Harrier FRS.1;;;;;;;;;;;;;x
+SPA_cag_vtol_4;McDonnell Douglas EAV-8B Matador II;;;;;;;;;;;;;x
+SPA_cag_vtol_5;McDonnell Douglas EAV-8B Matador II Night Attack;;;;;;;;;;;;;x
+SPA_cag_vtol_6;McDonnell Douglas EAV-8B Matador II Plus;;;;;;;;;;;;;x
+USA_cag_vtol_1;McDonnell Douglas AV-8A Harrier;;;;;;;;;;;;;x
+USA_cag_vtol_2;McDonnell Douglas AV-8C Harrier;;;;;;;;;;;;;x
+USA_cag_vtol_3;British Aerospace Sea Harrier FRS.1;;;;;;;;;;;;;x
+USA_cag_vtol_4;McDonnell Douglas AV-8B Harrier II;;;;;;;;;;;;;x
+USA_cag_vtol_5;McDonnell Douglas AV-8B Harrier II Night Attack;;;;;;;;;;;;;x
+USA_cag_vtol_6;McDonnell Douglas AV-8B Harrier II Plus;;;;;;;;;;;;;x
+awacs_complex_0;Model 1950;;;;;;;;;;;;;x
+awacs_complex_1;Model 1960;;;;;;;;;;;;;x
+awacs_complex_2;Model 1970;;;;;;;;;;;;;x
+awacs_complex_3;Model 1980;;;;;;;;;;;;;x
+awacs_complex_4;Model 1990;;;;;;;;;;;;;x
+awacs_complex_5;Model 1995;;;;;;;;;;;;;x
+ENG_awacs_complex_1;Fairey Gannet AEW.3;;;;;;;;;;;;;x
+ENG_awacs_complex_2;Fairey Gannet AEW.7;;;;;;;;;;;;;x
+ENG_awacs_complex_3;Hawker Siddeley P.139B;;;;;;;;;;;;;x
+ENG_awacs_complex_4;Grumman E-2C Hawkeye Group 2;;;;;;;;;;;;;x
+ENG_awacs_complex_5;Grumman E-2C Hawkeye Group 2 Plus;;;;;;;;;;;;;x
+FRA_awacs_complex_1;Grumman E-1 Tracer;;;;;;;;;;;;;x
+FRA_awacs_complex_2;Grumman E-2C Hawkeye Group 0;;;;;;;;;;;;;x
+FRA_awacs_complex_3;Grumman E-2C Hawkeye Group 1;;;;;;;;;;;;;x
+FRA_awacs_complex_4;Grumman E-2C Hawkeye Group 2;;;;;;;;;;;;;x
+FRA_awacs_complex_5;Grumman E-2C Hawkeye Group 2 Plus;;;;;;;;;;;;;x
+SOV_awacs_complex_5;Yakovlev Yak-44;;;;;;;;;;;;;x
+USA_awacs_complex_1;Grumman E-1 Tracer;;;;;;;;;;;;;x
+USA_awacs_complex_2;Grumman E-2C Hawkeye Group 0;;;;;;;;;;;;;x
+USA_awacs_complex_3;Grumman E-2C Hawkeye Group 1;;;;;;;;;;;;;x
+USA_awacs_complex_4;Grumman E-2C Hawkeye Group 2;;;;;;;;;;;;;x
+USA_awacs_complex_5;Grumman E-2C Hawkeye Group 2 Plus;;;;;;;;;;;;;x
+######################################;;;;;;;;;;;;;;x
+# NUCLEAR FORCES;;;;;;;;;;;;;;x
+######################################;;;;;;;;;;;;;;x
+icbm_complex_0;Model 1960;;;;;;;;;;;;;x
+icbm_complex_1;Model 1965;;;;;;;;;;;;;x
+icbm_complex_2;Model 1970;;;;;;;;;;;;;x
+icbm_complex_3;Model 1975;;;;;;;;;;;;;x
+icbm_complex_4;Model 1980;;;;;;;;;;;;;x
+icbm_complex_5;Model 1985;;;;;;;;;;;;;x
+icbm_complex_6;Model 1990;;;;;;;;;;;;;x
+CHC_icbm_complex_1;CSS-1;;;;;;;;;;;;;x # 1968
+CHC_icbm_complex_2;CSS-2;;;;;;;;;;;;;x # 1971
+CHC_icbm_complex_3;CSS-3;;;;;;;;;;;;;x # 1975
+CHC_icbm_complex_4;CSS-4;;;;;;;;;;;;;x # 1981
+CHC_icbm_complex_6;CSS-5;;;;;;;;;;;;;x # 1991
+ENG_icbm_complex_1;Blue Streak;;;;;;;;;;;;;x # 1965
+FRA_icbm_complex_2;S2;;;;;;;;;;;;;x # 1971
+FRA_icbm_complex_4;S3;;;;;;;;;;;;;x # 1980
+ISR_icbm_complex_2;Jericho I;;;;;;;;;;;;;x # 1969
+ISR_icbm_complex_6;Jericho II;;;;;;;;;;;;;x # 1989
+SOV_icbm_complex_0;SS-6 Sapwood;;;;;;;;;;;;;x # 1959
+SOV_icbm_complex_1;SS-8 Sasin;;;;;;;;;;;;;x # 1964
+SOV_icbm_complex_2;SS-13 Savage / SS-18 Satan;;;;;;;;;;;;;x # 1967 / 1969
+SOV_icbm_complex_3;SS-17 Spanker;;;;;;;;;;;;;x # 1975
+SOV_icbm_complex_4;SS-19 Stiletto;;;;;;;;;;;;;x # 1982
+SOV_icbm_complex_5;SS-24 Scalpel;;;;;;;;;;;;;x # 1987
+SOV_icbm_complex_6;SS-25 Sickle;;;;;;;;;;;;;x # 1988
+USA_icbm_complex_0;HGM-25A Titan I;;;;;;;;;;;;;x # 1961
+USA_icbm_complex_1;LGM-30F Minuteman II;;;;;;;;;;;;;x # 1965
+USA_icbm_complex_2;LGM-30G Minuteman III;;;;;;;;;;;;;x # 1970
+USA_icbm_complex_3;BGM-75;;;;;;;;;;;;;x # 1973
+USA_icbm_complex_5;LGM-118 Peacekeeper;;;;;;;;;;;;;x # 1986 
+USA_icbm_complex_6;MGM-134 Midgetman;;;;;;;;;;;;;x # 1991
+slbm_complex_1;Model 1960;;;;;;;;;;;;;x
+slbm_complex_2;Model 1965;;;;;;;;;;;;;x
+slbm_complex_3;Model 1970;;;;;;;;;;;;;x
+slbm_complex_4;Model 1975;;;;;;;;;;;;;x
+slbm_complex_5;Model 1980;;;;;;;;;;;;;x
+slbm_complex_6;Model 1985;;;;;;;;;;;;;x
+slbm_complex_7;Model 1990;;;;;;;;;;;;;x
+slbm_complex_8;Model 1995;;;;;;;;;;;;;x
+CHC_slbm_complex_5;CSS-N-3;;;;;;;;;;;;;x # 1982
+ENG_slbm_complex_1;UGM-27 Polaris A-1;;;;;;;;;;;;;x # 1960
+ENG_slbm_complex_2;UGM-27 Polaris A-3;;;;;;;;;;;;;x # 1965
+ENG_slbm_complex_5;UGM-96 Trident I;;;;;;;;;;;;;x # 1979
+ENG_slbm_complex_7;UGM-133 Trident II;;;;;;;;;;;;;x # 1990
+FRA_slbm_complex_3;M1;;;;;;;;;;;;;x # 1971
+FRA_slbm_complex_4;M2;;;;;;;;;;;;;x # 1973
+FRA_slbm_complex_5;M20;;;;;;;;;;;;;x # 1977
+FRA_slbm_complex_6;M4;;;;;;;;;;;;;x # 1985
+FRA_slbm_complex_8;M45;;;;;;;;;;;;;x # 1996
+SOV_slbm_complex_1;SS-N-4 Sark;;;;;;;;;;;;;x # 1961
+SOV_slbm_complex_2;SS-N-5 Sark;;;;;;;;;;;;;x # 1963
+SOV_slbm_complex_3;SS-N-6 Serb;;;;;;;;;;;;;x # 1968
+SOV_slbm_complex_4;SS-N-13 Serb;;;;;;;;;;;;;x # 1975?
+SOV_slbm_complex_5;SS-N-18 Stingray;;;;;;;;;;;;;x # 1979
+SOV_slbm_complex_6;SS-N-20 Sturgeon;;;;;;;;;;;;;x # 1983
+SOV_slbm_complex_8;SS-N-28 Bark;;;;;;;;;;;;;x # 1998
+USA_slbm_complex_1;UGM-27 Polaris A-1;;;;;;;;;;;;;x # 1960
+USA_slbm_complex_2;UGM-27 Polaris A-3;;;;;;;;;;;;;x # 1965
+USA_slbm_complex_3;UGM-73 Poseidon;;;;;;;;;;;;;x # 1971
+USA_slbm_complex_5;UGM-96 Trident I;;;;;;;;;;;;;x # 1979
+USA_slbm_complex_7;UGM-133 Trident II;;;;;;;;;;;;;x # 1990
+tlam_complex_1;Model 1980;;;;;;;;;;;;;x
+tlam_complex_2;Model 1985;;;;;;;;;;;;;x
+tlam_complex_3;Model 1990;;;;;;;;;;;;;x
+tlam_complex_4;Model 1995;;;;;;;;;;;;;x
+CHC_tlam_complex_3;Chang Feng 1;;;;;;;;;;;;;x # 1993
+CHC_tlam_complex_4;Chang Feng 2;;;;;;;;;;;;;x # 1998
+SOV_tlam_complex_4;SS-N-27b Sizzler;;;;;;;;;;;;;x # 1996
+USA_tlam_complex_1;BGM-109A Tomahawk;;;;;;;;;;;;;x # 1983
+USA_tlam_complex_2;BGM-110A;;;;;;;;;;;;;x # 1984 X
+USA_tlam_complex_4;BGM-109D Tomahawk;;;;;;;;;;;;;x # 1994
+############################################;;;;;;;;;;;;;;x
+# Supersonic Short/Medium Anti-Ship (Warsaw);;;;;;;;;;;;;;x
+############################################;;;;;;;;;;;;;;x
+ss_mr_as_complex_1;Model 1975;;;;;;;;;;;;;x
+ss_mr_as_complex_2;Model 1980;;;;;;;;;;;;;x
+ss_mr_as_complex_3;Model 1985;;;;;;;;;;;;;x
+ss_mr_as_complex_4;Model 1990;;;;;;;;;;;;;x
+ss_mr_as_complex_5;Model 1995;;;;;;;;;;;;;x
+CHC_ss_mr_as_complex_3;CSS-N-5 Sabbot;;;;;;;;;;;;;x # 1986
+CHC_ss_mr_as_complex_4;CSS-N-8 Saccade;;;;;;;;;;;;;x # 1989
+CHC_ss_mr_as_complex_5;SS-N-27a Sizzler;;;;;;;;;;;;;x # 1996
+SOV_ss_mr_as_complex_2;SS-N-22a Sunburn;;;;;;;;;;;;;x # 1979?
+SOV_ss_mr_as_complex_3;SS-N-22b Sunburn;;;;;;;;;;;;;x # 1984
+SOV_ss_mr_as_complex_4;SS-N-22c Sunburn;;;;;;;;;;;;;x # 1990?
+SOV_ss_mr_as_complex_5;SS-N-27a Sizzler;;;;;;;;;;;;;x # 1996
+############################################;;;;;;;;;;;;;;x
+# Supersonic Long Range Anti-Ship (Warsaw);;;;;;;;;;;;;;x
+############################################;;;;;;;;;;;;;;x
+ss_lr_as_complex_1;Model 1975;;;;;;;;;;;;;x
+ss_lr_as_complex_2;Model 1980;;;;;;;;;;;;;x
+ss_lr_as_complex_3;Model 1985;;;;;;;;;;;;;x
+ss_lr_as_complex_4;Model 1990;;;;;;;;;;;;;x
+ss_lr_as_complex_5;Model 1995;;;;;;;;;;;;;x
+SOV_ss_lr_as_complex_1;SS-N-12 Sandbox;;;;;;;;;;;;;x # 1975
+SOV_ss_lr_as_complex_2;SS-N-19 Shipwreck;;;;;;;;;;;;;x # 1980
+SOV_ss_lr_as_complex_4;SS-N-24 Scorpion;;;;;;;;;;;;;x # 1988
+SOV_ss_lr_as_complex_5;SS-N-26 Onyx;;;;;;;;;;;;;x # 1992 !1999!
+################################;;;;;;;;;;;;;;x
+# Medium/Short Range Anti-Ship;;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+mr_as_complex_1;Model 1955;;;;;;;;;;;;;x
+mr_as_complex_2;Model 1960;;;;;;;;;;;;;x
+mr_as_complex_3;Model 1965;;;;;;;;;;;;;x
+mr_as_complex_4;Model 1970;;;;;;;;;;;;;x
+mr_as_complex_5;Model 1975;;;;;;;;;;;;;x
+mr_as_complex_6;Model 1980;;;;;;;;;;;;;x
+mr_as_complex_7;Model 1985;;;;;;;;;;;;;x
+mr_as_complex_8;Model 1990;;;;;;;;;;;;;x
+mr_as_complex_9;Model 1995;;;;;;;;;;;;;x
+ARG_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+AST_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+BEL_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+BRA_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+BRU_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+CAN_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+CHC_mr_as_complex_1;CSS-N-2 Safflower;;;;;;;;;;;;;x # 1974 1958!
+CHC_mr_as_complex_2;CSS-N-1 Scrubbrush;;;;;;;;;;;;;x # 1980
+CHC_mr_as_complex_3;CSS-N-4 Sardine;;;;;;;;;;;;;x # 1987
+CHC_mr_as_complex_4;Fei Long 7;;;;;;;;;;;;;x # 1988
+CHC_mr_as_complex_5;CSS-N-5 Sabbot;;;;;;;;;;;;;x # 1991
+CHL_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+CRO_mr_as_complex_7;Saab RBS-15 Mark I;;;;;;;;;;;;;x # 1985
+DDR_mr_as_complex_8;SS-N-25 Switchblade;;;;;;;;;;;;;x # 1992 !2007!
+DEN_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+EGY_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+EGY_mr_as_complex_6;Otomat Mk 2;;;;;;;;;;;;;x # 1978
+ENG_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+ENG_mr_as_complex_6;Otomat Mk 2;;;;;;;;;;;;;x # 1978
+ENG_mr_as_complex_7;RGM-84D Harpoon;;;;;;;;;;;;;x # 1985?
+ENG_mr_as_complex_8;RGM-84F Harpoon;;;;;;;;;;;;;x # 1991?
+FIN_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+FIN_mr_as_complex_7;MTO 85;;;;;;;;;;;;;x # 1985
+FIN_mr_as_complex_9;Saab RBS-15 Mark II;;;;;;;;;;;;;x # 1994-98
+FRA_mr_as_complex_4;NORD SS.12M;;;;;;;;;;;;;x # 1960
+FRA_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+FRA_mr_as_complex_6;NORD MM.40 Exocet Block 1;;;;;;;;;;;;;x # 1980
+FRA_mr_as_complex_7;NORD MM.40 Exocet Block 2;;;;;;;;;;;;;x # 1985
+FRG_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+FRG_mr_as_complex_6;NORD MM.40 Exocet Block 1;;;;;;;;;;;;;x # 1980
+FRG_mr_as_complex_7;NORD MM.40 Exocet Block 2;;;;;;;;;;;;;x # 1985
+FRG_mr_as_complex_8;RGM-84F Harpoon;;;;;;;;;;;;;x # 1991?
+GER_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+GER_mr_as_complex_6;NORD MM.40 Exocet Block 1;;;;;;;;;;;;;x # 1980
+GER_mr_as_complex_7;NORD MM.40 Exocet Block 2;;;;;;;;;;;;;x # 1985
+GER_mr_as_complex_8;SS-N-25 Switchblade;;;;;;;;;;;;;x # 1992 !2007!
+GRE_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+HOL_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+HOL_mr_as_complex_7;RGM-84D Harpoon;;;;;;;;;;;;;x # 1985?
+IND_mr_as_complex_3;SS-N-2 Styx;;;;;;;;;;;;;x # 1960
+INO_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+ITA_mr_as_complex_5;Otomat Mk 1;;;;;;;;;;;;;x # 1976
+ITA_mr_as_complex_6;Otomat Mk 2;;;;;;;;;;;;;x # 1978
+ISR_mr_as_complex_2;Gabriel I;;;;;;;;;;;;;x # 1962
+ISR_mr_as_complex_5;Gabriel II;;;;;;;;;;;;;x # 1976
+ISR_mr_as_complex_6;Gabriel III;;;;;;;;;;;;;x # 1978
+JAP_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+JAP_mr_as_complex_7;RGM-84D Harpoon;;;;;;;;;;;;;x # 1985?
+JAP_mr_as_complex_8;Type 90 SSM-1B;;;;;;;;;;;;;x # 1991?
+KOR_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1973
+MLY_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+NOR_mr_as_complex_4;Penguin;;;;;;;;;;;;;x # 1972
+PER_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+PRK_mr_as_complex_2;CSS-N-1 Scrubbrush;;;;;;;;;;;;;x # 1980
+PRU_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+PRU_mr_as_complex_6;Otomat Mk 2;;;;;;;;;;;;;x # 1978
+ROM_mr_as_complex_1;SS-N-1 Scrubber;;;;;;;;;;;;;x # 1958
+ROM_mr_as_complex_2;SS-N-3a Shaddock;;;;;;;;;;;;;x # 1959
+ROM_mr_as_complex_3;SS-N-2 Styx;;;;;;;;;;;;;x # 1960
+ROM_mr_as_complex_4;SS-N-7 Starbright;;;;;;;;;;;;;x # 1968
+ROM_mr_as_complex_5;SS-N-14 Silex;;;;;;;;;;;;;x # 1969
+ROM_mr_as_complex_6;SS-N-9 Siren;;;;;;;;;;;;;x # 1972
+ROM_mr_as_complex_7;SS-N-15 Starfish;;;;;;;;;;;;;x # 1973
+ROM_mr_as_complex_8;SS-N-25 Switchblade;;;;;;;;;;;;;x # 1992 !2007!
+SAF_mr_as_complex_5;Skerpioen;;;;;;;;;;;;;x # 1976
+SIA_mr_as_complex_5;NORD MM.38 Exocet;;;;;;;;;;;;;x # 1973
+SOV_mr_as_complex_1;SS-N-1 Scrubber;;;;;;;;;;;;;x # 1958
+SOV_mr_as_complex_2;SS-N-3a Shaddock;;;;;;;;;;;;;x # 1959
+SOV_mr_as_complex_3;SS-N-2 Styx;;;;;;;;;;;;;x # 1960
+SOV_mr_as_complex_4;SS-N-7 Starbright;;;;;;;;;;;;;x # 1968
+SOV_mr_as_complex_5;SS-N-14 Silex;;;;;;;;;;;;;x # 1969
+SOV_mr_as_complex_6;SS-N-9 Siren;;;;;;;;;;;;;x # 1972
+SOV_mr_as_complex_7;SS-N-15 Starfish;;;;;;;;;;;;;x # 1973
+SOV_mr_as_complex_8;SS-N-25 Switchblade;;;;;;;;;;;;;x # 1992 !2007!
+SPA_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+SWE_mr_as_complex_2;Saab RB-08;;;;;;;;;;;;;x # 1959?
+SWE_mr_as_complex_7;Saab RBS-15 Mark I;;;;;;;;;;;;;x # 1985
+SWE_mr_as_complex_9;Saab RBS-15 Mark II;;;;;;;;;;;;;x # 1994-98
+TUR_mr_as_complex_4;Penguin;;;;;;;;;;;;;x # 1972
+TUR_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1973
+TWN_mr_as_complex_5;Hsiung Feng I;;;;;;;;;;;;;x # 1976
+USA_mr_as_complex_1;1;;;;;;;;;;;;;x # 1965 X
+USA_mr_as_complex_2;2;;;;;;;;;;;;;x # 1965 X
+USA_mr_as_complex_3;3;;;;;;;;;;;;;x # 1965 X
+USA_mr_as_complex_3;4;;;;;;;;;;;;;x # 1965 X
+USA_mr_as_complex_5;RGM-84A Harpoon;;;;;;;;;;;;;x # 1977
+USA_mr_as_complex_6;RGM-89 Perseus;;;;;;;;;;;;;x # 1980 X?
+USA_mr_as_complex_7;RGM-84D Harpoon;;;;;;;;;;;;;x # 1985?
+USA_mr_as_complex_8;RGM-84F Harpoon;;;;;;;;;;;;;x # 1991?
+USA_mr_as_complex_9;9;;;;;;;;;;;;;x # 1965 X
+YUG_mr_as_complex_3;SS-N-2 Styx;;;;;;;;;;;;;x # 1960
+YUG_mr_as_complex_7;Saab RBS-15 Mark I;;;;;;;;;;;;;x # 1985
+################################;;;;;;;;;;;;;;x
+# Long Range Anti-Ship;;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+lr_as_complex_1;Model 1955;;;;;;;;;;;;;x
+lr_as_complex_2;Model 1960;;;;;;;;;;;;;x
+lr_as_complex_3;Model 1965;;;;;;;;;;;;;x
+lr_as_complex_4;Model 1970;;;;;;;;;;;;;x
+lr_as_complex_5;Model 1975;;;;;;;;;;;;;x
+lr_as_complex_6;Model 1980;;;;;;;;;;;;;x
+lr_as_complex_7;Model 1985;;;;;;;;;;;;;x
+lr_as_complex_8;Model 1990;;;;;;;;;;;;;x
+lr_as_complex_9;Model 1995;;;;;;;;;;;;;x
+SOV_lr_as_complex_3;SS-N-3c Shaddock;;;;;;;;;;;;;x # 1965?
+SOV_lr_as_complex_7;SS-N-21 Sampson;;;;;;;;;;;;;x # 1984
+USA_lr_as_complex_1;RGM-6 Regulus;;;;;;;;;;;;;x # 1955
+USA_lr_as_complex_7;BGM-110B;;;;;;;;;;;;;x # 1984
+USA_lr_as_complex_8;RGM-109B Tomahawk;;;;;;;;;;;;;x # 1985-91???
+########################################;;;;;;;;;;;;;;x
+# Short Range Point Defense Air Defense;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+sr_aa_complex_1;Model 1946;;;;;;;;;;;;;x
+sr_aa_complex_2;Model 1950;;;;;;;;;;;;;x
+sr_aa_complex_3;Model 1955;;;;;;;;;;;;;x
+sr_aa_complex_4;Model 1960;;;;;;;;;;;;;x
+sr_aa_complex_5;Model 1965;;;;;;;;;;;;;x
+sr_aa_complex_6;Model 1970;;;;;;;;;;;;;x
+sr_aa_complex_7;Model 1975;;;;;;;;;;;;;x
+sr_aa_complex_8;Model 1980;;;;;;;;;;;;;x
+sr_aa_complex_9;Model 1985;;;;;;;;;;;;;x
+sr_aa_complex_10;Model 1990;;;;;;;;;;;;;x
+sr_aa_complex_11;Model 1995;;;;;;;;;;;;;x
+ARG_sr_aa_complex_4;GWS.20 Sea Cat;;;;;;;;;;;;;x
+ARG_sr_aa_complex_6;GWS.22 Sea Cat;;;;;;;;;;;;;x
+ARG_sr_aa_complex_7;GWS.24 Sea Cat;;;;;;;;;;;;;x
+AST_sr_aa_complex_4;GWS.20 Sea Cat;;;;;;;;;;;;;x
+AST_sr_aa_complex_6;GWS.22 Sea Cat;;;;;;;;;;;;;x
+AST_sr_aa_complex_7;GWS.24 Sea Cat;;;;;;;;;;;;;x
+BEL_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+BRA_sr_aa_complex_4;GWS.20 Sea Cat;;;;;;;;;;;;;x
+BRA_sr_aa_complex_6;GWS.22 Sea Cat;;;;;;;;;;;;;x
+BRA_sr_aa_complex_7;GWS.24 Sea Cat;;;;;;;;;;;;;x
+CAN_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+CAN_sr_aa_complex_4;RIM-101;;;;;;;;;;;;;x
+CAN_sr_aa_complex_5;RIM-113;;;;;;;;;;;;;x
+CAN_sr_aa_complex_6;RIM-116 Rolling Airframe Missile;;;;;;;;;;;;;x
+CAN_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+CAN_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+CAN_sr_aa_complex_9;RIM-7N Sea Sparrow;;;;;;;;;;;;;x
+CAN_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+CAN_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+CHC_sr_aa_complex_1;SA-N-1 Goa;;;;;;;;;;;;;x
+CHC_sr_aa_complex_2;SA-N-1B Goa;;;;;;;;;;;;;x
+CHC_sr_aa_complex_3;SA-N-3 Goblet;;;;;;;;;;;;;x
+CHC_sr_aa_complex_4;SA-N-5 Grail;;;;;;;;;;;;;x
+CHC_sr_aa_complex_5;SA-N-4 Gecko;;;;;;;;;;;;;x
+CHC_sr_aa_complex_6;SA-N-8 Gremlin;;;;;;;;;;;;;x
+CHC_sr_aa_complex_7;SA-N-9 Gauntlet;;;;;;;;;;;;;x
+CHC_sr_aa_complex_8;SA-N-10 Grouse;;;;;;;;;;;;;x
+CHC_sr_aa_complex_9;Hong Qi-7;;;;;;;;;;;;;x
+CHC_sr_aa_complex_10;SA-N-14 Grouse;;;;;;;;;;;;;x 
+CHL_sr_aa_complex_4;GWS.20 Sea Cat;;;;;;;;;;;;;x
+CHL_sr_aa_complex_5;GWS.2 Sea Slug;;;;;;;;;;;;;x
+CHL_sr_aa_complex_6;GWS.22 Sea Cat;;;;;;;;;;;;;x
+CHL_sr_aa_complex_7;GWS.24 Sea Cat;;;;;;;;;;;;;x
+DDR_sr_aa_complex_4;SA-N-5 Grail;;;;;;;;;;;;;x
+DEN_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+DEN_sr_aa_complex_4;GWS.20 Sea Cat;;;;;;;;;;;;;x
+DEN_sr_aa_complex_5;GWS.2 Sea Slug;;;;;;;;;;;;;x
+DEN_sr_aa_complex_6;GWS.22 Sea Cat;;;;;;;;;;;;;x
+DEN_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+DEN_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+DEN_sr_aa_complex_9;RIM-7N Sea Sparrow;;;;;;;;;;;;;x
+DEN_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+DEN_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+ENG_sr_aa_complex_4;GWS.20 Sea Cat;;;;;;;;;;;;;x
+ENG_sr_aa_complex_5;GWS.2 Sea Slug;;;;;;;;;;;;;x
+ENG_sr_aa_complex_6;GWS.22 Sea Cat;;;;;;;;;;;;;x
+ENG_sr_aa_complex_7;GWS.24 Sea Cat;;;;;;;;;;;;;x
+ENG_sr_aa_complex_8;GWS.25 Sea Wolf;;;;;;;;;;;;;x
+ENG_sr_aa_complex_9;GWS.26 Sea Wolf;;;;;;;;;;;;;x
+ENG_sr_aa_complex_10;GWS.27 Sea Wolf;;;;;;;;;;;;;x
+FIN_sr_aa_complex_9;Simbad Mistral;;;;;;;;;;;;;x
+FRA_sr_aa_complex_7;R440 Sea Crotale;;;;;;;;;;;;;x
+FRA_sr_aa_complex_9;Simbad Mistral;;;;;;;;;;;;;x
+FRA_sr_aa_complex_10;R480 Sea Crotale NG;;;;;;;;;;;;;x
+FRG_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+FRG_sr_aa_complex_6;RIM-116 Rolling Airframe Missile;;;;;;;;;;;;;x
+FRG_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+FRG_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+FRG_sr_aa_complex_9;Simbad Mistral;;;;;;;;;;;;;x
+FRG_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+FRG_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+GER_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+GER_sr_aa_complex_4;SA-N-5 Grail;;;;;;;;;;;;;x
+GER_sr_aa_complex_6;RIM-116 Rolling Airframe Missile;;;;;;;;;;;;;x
+GER_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+GER_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+GER_sr_aa_complex_9;Simbad Mistral;;;;;;;;;;;;;x
+GER_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+GER_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+HOL_sr_aa_complex_4;GWS.20 Sea Cat;;;;;;;;;;;;;x
+HOL_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+IND_sr_aa_complex_1;SA-N-1 Goa;;;;;;;;;;;;;x
+IND_sr_aa_complex_2;SA-N-1B Goa;;;;;;;;;;;;;x
+IND_sr_aa_complex_3;SA-N-3 Goblet;;;;;;;;;;;;;x
+IND_sr_aa_complex_4;SA-N-5 Grail;;;;;;;;;;;;;x
+IND_sr_aa_complex_5;SA-N-4 Gecko;;;;;;;;;;;;;x
+IND_sr_aa_complex_6;GWS.22 Sea Cat;;;;;;;;;;;;;x
+IND_sr_aa_complex_7;GWS.24 Sea Cat;;;;;;;;;;;;;x
+ITA_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+ITA_sr_aa_complex_6;RIM-116 Rolling Airframe Missile;;;;;;;;;;;;;x
+ITA_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+ITA_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+ITA_sr_aa_complex_9;RIM-7N Sea Sparrow;;;;;;;;;;;;;x
+ITA_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+ITA_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+JAP_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+JAP_sr_aa_complex_6;RIM-116 Rolling Airframe Missile;;;;;;;;;;;;;x
+JAP_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+JAP_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+JAP_sr_aa_complex_9;RIM-7N Sea Sparrow;;;;;;;;;;;;;x
+JAP_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+JAP_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+KOR_sr_aa_complex_9;Simbad Mistral;;;;;;;;;;;;;x
+NOR_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+NOR_sr_aa_complex_6;RIM-116 Rolling Airframe Missile;;;;;;;;;;;;;x
+NOR_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+NOR_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+NOR_sr_aa_complex_9;Simbad Mistral;;;;;;;;;;;;;x
+NOR_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+NOR_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+SOV_sr_aa_complex_1;SA-N-1 Goa;;;;;;;;;;;;;x
+SOV_sr_aa_complex_2;SA-N-1B Goa;;;;;;;;;;;;;x
+SOV_sr_aa_complex_3;SA-N-3 Goblet;;;;;;;;;;;;;x
+SOV_sr_aa_complex_4;SA-N-5 Grail;;;;;;;;;;;;;x
+SOV_sr_aa_complex_5;SA-N-4 Gecko;;;;;;;;;;;;;x
+SOV_sr_aa_complex_6;SA-N-8 Gremlin;;;;;;;;;;;;;x
+SOV_sr_aa_complex_7;SA-N-9 Gauntlet;;;;;;;;;;;;;x
+SOV_sr_aa_complex_8;SA-N-10 Grouse;;;;;;;;;;;;;x 
+SOV_sr_aa_complex_9;SA-N-11 Grison;;;;;;;;;;;;;x
+SOV_sr_aa_complex_10;SA-N-14 Grouse;;;;;;;;;;;;;x 
+SPA_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+SPA_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+SPA_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+SPA_sr_aa_complex_9;RIM-7N Sea Sparrow;;;;;;;;;;;;;x
+SPA_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+SPA_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+SWE_sr_aa_complex_4;RBS-07;;;;;;;;;;;;;x
+SWE_sr_aa_complex_7;RBS-70;;;;;;;;;;;;;x
+SWE_sr_aa_complex_11;RBS-23;;;;;;;;;;;;;x
+USA_sr_aa_complex_1;SAM-N-2 Lark;;;;;;;;;;;;;x
+USA_sr_aa_complex_2;SAM-N-4 Lark;;;;;;;;;;;;;x
+USA_sr_aa_complex_3;RIM-7A Sea Sparrow;;;;;;;;;;;;;x
+USA_sr_aa_complex_4;RIM-101;;;;;;;;;;;;;x
+USA_sr_aa_complex_5;RIM-113;;;;;;;;;;;;;x
+USA_sr_aa_complex_6;RIM-116 Rolling Airframe Missile;;;;;;;;;;;;;x
+USA_sr_aa_complex_7;RIM-7H Sea Sparrow;;;;;;;;;;;;;x
+USA_sr_aa_complex_8;RIM-7M Sea Sparrow;;;;;;;;;;;;;x
+USA_sr_aa_complex_9;RIM-7N Sea Sparrow;;;;;;;;;;;;;x
+USA_sr_aa_complex_10;RIM-7Q Sea Sparrow;;;;;;;;;;;;;x
+USA_sr_aa_complex_11;RIM-7R Sea Sparrow;;;;;;;;;;;;;x
+YUG_sr_aa_complex_1;SA-N-1 Goa;;;;;;;;;;;;;x
+YUG_sr_aa_complex_2;SA-N-1B Goa;;;;;;;;;;;;;x
+YUG_sr_aa_complex_3;SA-N-3 Goblet;;;;;;;;;;;;;x
+YUG_sr_aa_complex_4;SA-N-5 Grail;;;;;;;;;;;;;x
+YUG_sr_aa_complex_5;SA-N-4 Gecko;;;;;;;;;;;;;x
+YUG_sr_aa_complex_6;SA-N-8 Gremlin;;;;;;;;;;;;;x
+YUG_sr_aa_complex_7;SA-N-9 Gauntlet;;;;;;;;;;;;;x
+YUG_sr_aa_complex_8;SA-N-10 Grouse;;;;;;;;;;;;;x 
+YUG_sr_aa_complex_9;SA-N-11 Grison;;;;;;;;;;;;;x
+YUG_sr_aa_complex_10;SA-N-14 Grouse;;;;;;;;;;;;;x 
+########################################;;;;;;;;;;;;;;x
+# Medium Range Point Defense Air Defense;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+mr_aa_complex_1;Model 1955;;;;;;;;;;;;;x
+mr_aa_complex_2;Model 1960;;;;;;;;;;;;;x
+mr_aa_complex_3;Model 1965;;;;;;;;;;;;;x
+mr_aa_complex_4;Model 1970;;;;;;;;;;;;;x
+mr_aa_complex_5;Model 1975;;;;;;;;;;;;;x
+mr_aa_complex_6;Model 1980;;;;;;;;;;;;;x
+mr_aa_complex_7;Model 1985;;;;;;;;;;;;;x
+mr_aa_complex_8;Model 1990;;;;;;;;;;;;;x
+mr_aa_complex_9;Model 1995;;;;;;;;;;;;;x
+ARG_mr_aa_complex_4;GWS.30 Sea Dart Mod 0;;;;;;;;;;;;;x
+ARG_mr_aa_complex_7;GWS.30 Sea Dart Mod 1;;;;;;;;;;;;;x
+ARG_mr_aa_complex_8;GWS.30 Sea Dart Mod 2;;;;;;;;;;;;;x
+ARG_mr_aa_complex_9;GWS.30 Sea Dart Mod 3;;;;;;;;;;;;;x
+CAN_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+CAN_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+CAN_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+CAN_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+CAN_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+CAN_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+CAN_mr_aa_complex_7;RIM-66E Standard MR;;;;;;;;;;;;;x
+CAN_mr_aa_complex_8;RIM-67C Standard ER;;;;;;;;;;;;;x
+CAN_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+CAN_mr_aa_complex_10;RIM-162 Evolved Sea Sparrow;;;;;;;;;;;;;x
+CHC_mr_aa_complex_2;SA-N-2 Guideline;;;;;;;;;;;;;x
+CHC_mr_aa_complex_5;Hong Qi-61;;;;;;;;;;;;;x
+CHC_mr_aa_complex_6;SA-N-7 Gadfly;;;;;;;;;;;;;x
+CHC_mr_aa_complex_7;SA-N-6 Grumble;;;;;;;;;;;;;x
+CHC_mr_aa_complex_8;Hong Qi-61A;;;;;;;;;;;;;x
+CHC_mr_aa_complex_9;Hong Qi-9;;;;;;;;;;;;;x
+ENG_mr_aa_complex_4;GWS.30 Sea Dart Mod 0;;;;;;;;;;;;;x
+ENG_mr_aa_complex_7;GWS.30 Sea Dart Mod 1;;;;;;;;;;;;;x
+ENG_mr_aa_complex_8;GWS.30 Sea Dart Mod 2;;;;;;;;;;;;;x
+ENG_mr_aa_complex_9;GWS.30 Sea Dart Mod 3;;;;;;;;;;;;;x
+FRA_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+FRA_mr_aa_complex_4;Masurca Mark 2 Mod 2;;;;;;;;;;;;;x
+FRA_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+FRA_mr_aa_complex_7;Masurca Mark 2 Mod 3;;;;;;;;;;;;;x
+FRA_mr_aa_complex_9;Aster 15;;;;;;;;;;;;;x
+FRG_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+FRG_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+FRG_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+FRG_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+FRG_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+FRG_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+FRG_mr_aa_complex_7;Selenia Aspide Mk I;;;;;;;;;;;;;x
+FRG_mr_aa_complex_8;Selenia Aspide Mk II;;;;;;;;;;;;;x
+FRG_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+FRG_mr_aa_complex_10;Selenia Aspide 2000;;;;;;;;;;;;;x
+GER_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+GER_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+GER_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+GER_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+GER_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+GER_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+GER_mr_aa_complex_7;Selenia Aspide Mk I;;;;;;;;;;;;;x
+GER_mr_aa_complex_8;Selenia Aspide Mk II;;;;;;;;;;;;;x
+GER_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+GER_mr_aa_complex_10;Selenia Aspide 2000;;;;;;;;;;;;;x
+HOL_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+HOL_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+HOL_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+HOL_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+HOL_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+HOL_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+HOL_mr_aa_complex_7;RIM-66E Standard MR;;;;;;;;;;;;;x
+HOL_mr_aa_complex_8;RIM-67C Standard ER;;;;;;;;;;;;;x
+HOL_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+HOL_mr_aa_complex_10;RIM-162 Evolved Sea Sparrow;;;;;;;;;;;;;x
+ITA_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+ITA_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+ITA_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+ITA_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+ITA_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+ITA_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+ITA_mr_aa_complex_7;Selenia Aspide Mk I;;;;;;;;;;;;;x
+ITA_mr_aa_complex_8;Selenia Aspide Mk II;;;;;;;;;;;;;x
+ITA_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+ITA_mr_aa_complex_10;Selenia Aspide 2000;;;;;;;;;;;;;x
+JAP_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+JAP_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+JAP_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+JAP_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+JAP_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+JAP_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+JAP_mr_aa_complex_7;RIM-66E Standard MR;;;;;;;;;;;;;x
+JAP_mr_aa_complex_8;RIM-67C Standard ER;;;;;;;;;;;;;x
+JAP_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+JAP_mr_aa_complex_10;RIM-162 Evolved Sea Sparrow;;;;;;;;;;;;;x
+SOV_mr_aa_complex_2;SA-N-2 Guideline;;;;;;;;;;;;;x
+SOV_mr_aa_complex_6;SA-N-7 Gadfly;;;;;;;;;;;;;x
+SOV_mr_aa_complex_7;SA-N-6 Grumble;;;;;;;;;;;;;x
+SOV_mr_aa_complex_8;SA-N-12 Grizzly;;;;;;;;;;;;;x
+SOV_mr_aa_complex_9;SA-N-20 Gargoyle;;;;;;;;;;;;;x
+SPA_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+SPA_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+SPA_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+SPA_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+SPA_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+SPA_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+SPA_mr_aa_complex_7;RIM-66E Standard MR;;;;;;;;;;;;;x
+SPA_mr_aa_complex_8;RIM-67C Standard ER;;;;;;;;;;;;;x
+SPA_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+SPA_mr_aa_complex_10;RIM-162 Evolved Sea Sparrow;;;;;;;;;;;;;x
+USA_mr_aa_complex_1;RIM-2 Terrier;;;;;;;;;;;;;x
+USA_mr_aa_complex_2;RIM-8 Talos;;;;;;;;;;;;;x
+USA_mr_aa_complex_3;RIM-24 Tartar;;;;;;;;;;;;;x
+USA_mr_aa_complex_4;RIM-66A Standard MR;;;;;;;;;;;;;x 
+USA_mr_aa_complex_5;RIM-66B Standard MR;;;;;;;;;;;;;x
+USA_mr_aa_complex_6;RIM-66C Standard MR;;;;;;;;;;;;;x
+USA_mr_aa_complex_7;RIM-66E Standard MR;;;;;;;;;;;;;x
+USA_mr_aa_complex_8;RIM-67C Standard ER;;;;;;;;;;;;;x
+USA_mr_aa_complex_9;RIM-156 Standard ER;;;;;;;;;;;;;x
+USA_mr_aa_complex_10;RIM-162 Evolved Sea Sparrow;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+# Large Naval Gun;;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+heavy_gun_complex_0;12 inch Gun;;;;;;;;;;;;;x
+heavy_gun_complex_1;16 inch Gun;;;;;;;;;;;;;x
+heavy_gun_complex_2;18 inch Gun;;;;;;;;;;;;;x
+ARG_heavy_gun_complex_0;12 inch Bethlehem;;;;;;;;;;;;;x
+BRA_heavy_gun_complex_0;12 inch Elswick Pattern L;;;;;;;;;;;;;x
+BRA_heavy_gun_complex_1;15 inch Mark B;;;;;;;;;;;;;x
+CHL_heavy_gun_complex_0;14 inch Mark I;;;;;;;;;;;;;x
+DDR_heavy_gun_complex_0;28cm SK C/34;;;;;;;;;;;;;x
+DDR_heavy_gun_complex_1;38cm SK C/34;;;;;;;;;;;;;x
+ENG_heavy_gun_complex_0;14 inch Mark VII;;;;;;;;;;;;;x
+ENG_heavy_gun_complex_1;15 inch Mark I;;;;;;;;;;;;;x
+FRA_heavy_gun_complex_0;330mm Model 1931;;;;;;;;;;;;;x
+FRA_heavy_gun_complex_1;380mm Model 1935;;;;;;;;;;;;;x
+FRG_heavy_gun_complex_0;28cm SK C/34;;;;;;;;;;;;;x
+FRG_heavy_gun_complex_1;38cm SK C/34;;;;;;;;;;;;;x
+GER_heavy_gun_complex_0;28cm SK C/34;;;;;;;;;;;;;x
+GER_heavy_gun_complex_1;38cm SK C/34;;;;;;;;;;;;;x
+ITA_heavy_gun_complex_0;320mm Model 1934;;;;;;;;;;;;;x
+ITA_heavy_gun_complex_1;381mm Model 1934;;;;;;;;;;;;;x
+JAP_heavy_gun_complex_0;36cm 41st Year Type;;;;;;;;;;;;;x
+JAP_heavy_gun_complex_1;41cm 3rd Year Type;;;;;;;;;;;;;x
+JAP_heavy_gun_complex_2;46cm Type 94;;;;;;;;;;;;;x
+SOV_heavy_gun_complex_0;305mm Pattern 1907;;;;;;;;;;;;;x
+SOV_heavy_gun_complex_1;406mm Pattern 1937;;;;;;;;;;;;;x
+TUR_heavy_gun_complex_0;28cm SK L/50;;;;;;;;;;;;;x
+USA_heavy_gun_complex_0;12 inch Mark 8;;;;;;;;;;;;;x
+USA_heavy_gun_complex_1;16 inch Mark 7;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+# Naval Gun;;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+gun_complex_0;Model 1941;;;;;;;;;;;;;x
+gun_complex_1;Model 1946;;;;;;;;;;;;;x
+gun_complex_2;Model 1950;;;;;;;;;;;;;x
+gun_complex_3;Model 1955;;;;;;;;;;;;;x
+gun_complex_4;Model 1960;;;;;;;;;;;;;x
+gun_complex_5;Model 1965;;;;;;;;;;;;;x
+gun_complex_6;Model 1970;;;;;;;;;;;;;x
+gun_complex_7;Model 1975;;;;;;;;;;;;;x
+gun_complex_8;Model 1980;;;;;;;;;;;;;x
+gun_complex_9;Model 1985;;;;;;;;;;;;;x
+gun_complex_10;Model 1990;;;;;;;;;;;;;x
+gun_complex_11;Model 1995;;;;;;;;;;;;;x
+ARG_gun_complex_0;4.7 inch QF Mark IX;;;;;;;;;;;;;x
+ARG_gun_complex_4;100mm Modéle 1953;;;;;;;;;;;;;x
+ARG_gun_complex_5;76mm Model 1963 Compact;;;;;;;;;;;;;x
+ARG_gun_complex_6;4.5 inch Mark 8 Mod 0;;;;;;;;;;;;;x
+ARG_gun_complex_7;127mm Model 1965 Compact;;;;;;;;;;;;;x
+BEL_gun_complex_3;100mm Modéle 1953;;;;;;;;;;;;;x
+BRA_gun_complex_0;4 inch QF Mark IV;;;;;;;;;;;;;x
+BRA_gun_complex_1;5 inch Mark 12;;;;;;;;;;;;;x # 1934
+BRA_gun_complex_6;4.5 inch Mark 8 Mod 0;;;;;;;;;;;;;x
+CAN_gun_complex_0;4 inch QF Mark 16;;;;;;;;;;;;;x
+CAN_gun_complex_2;3 inch Mark 22;;;;;;;;;;;;;x
+CAN_gun_complex_4;3 inch QF Mark N1;;;;;;;;;;;;;x
+CAN_gun_complex_7;127mm OTO-Melara Compact;;;;;;;;;;;;;x
+CAN_gun_complex_9;76mm OTO-Melara Super Rapid;;;;;;;;;;;;;x
+CHC_gun_complex_0;100mm Type 76;;;;;;;;;;;;;x
+CHC_gun_complex_2;57mm SM-24-ZIF;;;;;;;;;;;;;x
+CHC_gun_complex_3;57mm Type 59;;;;;;;;;;;;;x
+CHC_gun_complex_4;57mm Type 66 / Type 76;;;;;;;;;;;;;x
+CHC_gun_complex_5;100mm Type 79;;;;;;;;;;;;;x
+CHC_gun_complex_6;130mm Type 76;;;;;;;;;;;;;x
+CHC_gun_complex_7;100mm Type 79A;;;;;;;;;;;;;x
+CHC_gun_complex_8;130mm AK-130;;;;;;;;;;;;;x
+CHL_gun_complex_0;4.7 inch QF Mark E;;;;;;;;;;;;;x
+DDR_gun_complex_4;57mm AK-725;;;;;;;;;;;;;x
+DDR_gun_complex_5;76.2mm AK-176;;;;;;;;;;;;;x
+DEN_gun_complex_1;127mm Mark 12;;;;;;;;;;;;;x # 1934
+DEN_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+DEN_gun_complex_9;76mm OTO-Melara Super Rapid;;;;;;;;;;;;;x
+ENG_gun_complex_0;5.25 inch QF Mark I;;;;;;;;;;;;;x
+ENG_gun_complex_1;4.5 inch QF Mark V;;;;;;;;;;;;;x
+ENG_gun_complex_2;4.5 inch QF Mark N6;;;;;;;;;;;;;x
+ENG_gun_complex_3;3 inch QF Mark N1;;;;;;;;;;;;;x
+ENG_gun_complex_4;4 inch Mark Q;;;;;;;;;;;;;x
+ENG_gun_complex_5;6 inch QF Mark N5;;;;;;;;;;;;;x
+ENG_gun_complex_6;4.5 inch Mark 8 Mod 0;;;;;;;;;;;;;x
+ENG_gun_complex_9;76mm OTO-Melara Super Rapid;;;;;;;;;;;;;x
+ENG_gun_complex_11;4.5 inch Mark 8 Mod 1;;;;;;;;;;;;;x
+FIN_gun_complex_5;57mm Model 1964;;;;;;;;;;;;;x
+FIN_gun_complex_6;120mm TAK 120;;;;;;;;;;;;;x
+FIN_gun_complex_9;57mm Model 1981;;;;;;;;;;;;;x
+FIN_gun_complex_11;57mm Model 1996;;;;;;;;;;;;;x
+FRA_gun_complex_0;138mm Modéle 1929;;;;;;;;;;;;;x
+FRA_gun_complex_1;100mm Modéle 1945;;;;;;;;;;;;;x
+FRA_gun_complex_2;127mm Modéle 1948;;;;;;;;;;;;;x
+FRA_gun_complex_3;57mm Modéle 1951;;;;;;;;;;;;;x
+FRA_gun_complex_4;100mm Modéle 1953;;;;;;;;;;;;;x
+FRA_gun_complex_5;100mm Modéle 1964;;;;;;;;;;;;;x
+FRA_gun_complex_6;100mm Modéle 1968;;;;;;;;;;;;;x
+FRA_gun_complex_8;100mm Modéle 1980 Compact;;;;;;;;;;;;;x
+FRA_gun_complex_9;100mm Modéle 1968 CADAM;;;;;;;;;;;;;x
+FRA_gun_complex_11;100mm Modéle 1968-II;;;;;;;;;;;;;x
+FRG_gun_complex_4;100mm METL 1953;;;;;;;;;;;;;x
+FRG_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+FRG_gun_complex_7;127mm Mark 18;;;;;;;;;;;;;x # 1971
+FRG_gun_complex_10;127mm Mark 19 Mod 2;;;;;;;;;;;;;x # 1988
+GER_gun_complex_4;100mm METL 1953;;;;;;;;;;;;;x
+GER_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+GER_gun_complex_7;127mm Mark 18;;;;;;;;;;;;;x # 1971
+GER_gun_complex_10;5 inch Mark 19 Mod 2;;;;;;;;;;;;;x # 1988
+HOL_gun_complex_0;105mm QF HA Mark XVI;;;;;;;;;;;;;x
+HOL_gun_complex_1;15cm Model 1942;;;;;;;;;;;;;x
+HOL_gun_complex_2;57mm Model 1950;;;;;;;;;;;;;x
+HOL_gun_complex_3;120mm Mark 10;;;;;;;;;;;;;x
+HOL_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+HOL_gun_complex_6;120mm TAK 120;;;;;;;;;;;;;x
+IND_gun_complex_2;4.5 inch QF Mark N6;;;;;;;;;;;;;x
+IND_gun_complex_4;57mm AK-725;;;;;;;;;;;;;x
+IND_gun_complex_5;76.2mm AK-176;;;;;;;;;;;;;x
+ISR_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+ITA_gun_complex_0;152mm Model 1936;;;;;;;;;;;;;x
+ITA_gun_complex_1;127mm Mark 12;;;;;;;;;;;;;x # 1934
+ITA_gun_complex_3;76mm OTO-Melara Sovrapposto;;;;;;;;;;;;;x
+ITA_gun_complex_4;76mm OTO-Melara Allargato;;;;;;;;;;;;;x
+ITA_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+ITA_gun_complex_6;100mm Model 1968;;;;;;;;;;;;;x
+ITA_gun_complex_7;127mm OTO-Melara Compact;;;;;;;;;;;;;x
+ITA_gun_complex_9;76mm OTO-Melara Super Rapid;;;;;;;;;;;;;x
+ITA_gun_complex_10;127mm OTO-Melara LW;;;;;;;;;;;;;x
+JAP_gun_complex_0;12.7cm Type 89;;;;;;;;;;;;;x # 1932
+JAP_gun_complex_1;12.7cm Mark 12;;;;;;;;;;;;;x # 1934
+JAP_gun_complex_2;76mm Mark 22;;;;;;;;;;;;;x # 1948
+JAP_gun_complex_3;12.7cm Type F;;;;;;;;;;;;;x # 1950's
+JAP_gun_complex_4;76mm Mark 26;;;;;;;;;;;;;x # 1958
+JAP_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+JAP_gun_complex_6;12.7cm Mark 18;;;;;;;;;;;;;x # 1954
+JAP_gun_complex_7;12.7cm OTO-Melara Compact;;;;;;;;;;;;;x # 1968
+JAP_gun_complex_8;12.7cm Mark 19 Mod 1;;;;;;;;;;;;;x # 1980
+JAP_gun_complex_9;57mm Mark 110;;;;;;;;;;;;;x # 1985
+JAP_gun_complex_10;12.7cm Mark 19 Mod 2;;;;;;;;;;;;;x # 1988
+JAP_gun_complex_11;12.7cm Mark 36;;;;;;;;;;;;;x # 1995 2000!
+KOR_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+NOR_gun_complex_2;76mm Mark 22;;;;;;;;;;;;;x # 1948
+NOR_gun_complex_4;76mm TAK 76;;;;;;;;;;;;;x
+NOR_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+POL_gun_complex_0;105mm QF HA Mark XVI;;;;;;;;;;;;;x
+POR_gun_complex_0;4.7 inch QF Mark G;;;;;;;;;;;;;x
+PRK_gun_complex_4;57mm Type 66;;;;;;;;;;;;;x
+PRK_gun_complex_5;100mm Type 79;;;;;;;;;;;;;x
+ROM_gun_complex_0;12cm Bofors Model 1924;;;;;;;;;;;;;x
+ROM_gun_complex_5;76.2mm AK-726;;;;;;;;;;;;;x
+SOV_gun_complex_0;130mm B-13 Pattern 1936;;;;;;;;;;;;;x
+SOV_gun_complex_1;152mm B-38 Pattern 1938;;;;;;;;;;;;;x
+SOV_gun_complex_2;100mm CM-5;;;;;;;;;;;;;x
+SOV_gun_complex_3;57mm ZIF-75;;;;;;;;;;;;;x
+SOV_gun_complex_4;57mm AK-725;;;;;;;;;;;;;x
+SOV_gun_complex_5;76.2mm AK-176 / AK-726;;;;;;;;;;;;;x
+SOV_gun_complex_6;130mm SM-2-1 Pattern 1957;;;;;;;;;;;;;x
+SOV_gun_complex_7;100mm AK-100;;;;;;;;;;;;;x
+SOV_gun_complex_8;130mm AK-130;;;;;;;;;;;;;x
+SPA_gun_complex_0;120mm Mark F;;;;;;;;;;;;;x
+SPA_gun_complex_1;5 inch Mark 12;;;;;;;;;;;;;x # 1934
+SPA_gun_complex_2;3 inch Mark 22;;;;;;;;;;;;;x # 1948
+SPA_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+SWE_gun_complex_0;12cm Model 1942;;;;;;;;;;;;;x
+SWE_gun_complex_1;15.2cm Model 1942;;;;;;;;;;;;;x
+SWE_gun_complex_2;57mm Model 1950;;;;;;;;;;;;;x
+SWE_gun_complex_3;12cm Model 1950;;;;;;;;;;;;;x
+SWE_gun_complex_4;76mm Model 1960;;;;;;;;;;;;;x
+SWE_gun_complex_5;57mm Model 1964;;;;;;;;;;;;;x
+SWE_gun_complex_6;12cm Model 1963;;;;;;;;;;;;;x
+SWE_gun_complex_9;57mm Model 1981;;;;;;;;;;;;;x
+SWE_gun_complex_11;57mm Model 1995;;;;;;;;;;;;;x
+TUR_gun_complex_0;4.7 inch QF Mark IX;;;;;;;;;;;;;x
+TUR_gun_complex_5;76mm OTO-Melara Compact;;;;;;;;;;;;;x
+USA_gun_complex_0;6 inch DP Mark 16;;;;;;;;;;;;;x # 1948
+USA_gun_complex_1;5 inch Mark 12;;;;;;;;;;;;;x # 1934
+USA_gun_complex_2;3 inch Mark 22;;;;;;;;;;;;;x # 1948
+USA_gun_complex_3;5 inch Type F;;;;;;;;;;;;;x # 1950's
+USA_gun_complex_4;3 inch Mark 26;;;;;;;;;;;;;x # 1958
+USA_gun_complex_5;5 inch Mark 18;;;;;;;;;;;;;x # 1954
+USA_gun_complex_6;76mm Mark 75;;;;;;;;;;;;;x # 1971
+USA_gun_complex_7;5 inch Mark 19 Mod 0;;;;;;;;;;;;;x # 1971
+USA_gun_complex_8;5 inch Mark 19 Mod 1;;;;;;;;;;;;;x # 1980
+USA_gun_complex_9;57mm Mark 110;;;;;;;;;;;;;x # 1985
+USA_gun_complex_10;5 inch Mark 19 Mod 2;;;;;;;;;;;;;x # 1988
+USA_gun_complex_11;5 inch Mark 36;;;;;;;;;;;;;x # 1995 2000!
+YUG_gun_complex_5;76.2mm AK-176;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+# CIWS;;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+ciws_complex_0;Model 1941;;;;;;;;;;;;;x
+ciws_complex_1;Model 1950;;;;;;;;;;;;;x
+ciws_complex_2;Model 1955;;;;;;;;;;;;;x
+ciws_complex_3;Model 1960;;;;;;;;;;;;;x
+ciws_complex_4;Model 1965;;;;;;;;;;;;;x
+ciws_complex_5;Model 1970;;;;;;;;;;;;;x
+ciws_complex_6;Model 1975;;;;;;;;;;;;;x
+ciws_complex_7;Model 1980;;;;;;;;;;;;;x
+ciws_complex_8;Model 1985;;;;;;;;;;;;;x
+ciws_complex_9;Model 1990;;;;;;;;;;;;;x
+ciws_complex_10;Model 1995;;;;;;;;;;;;;x
+ARG_ciws_complex_0;40mm Mark 2;;;;;;;;;;;;;x
+ARG_ciws_complex_3;40mm Mark M1;;;;;;;;;;;;;x
+ARG_ciws_complex_4;40mm Mark 10;;;;;;;;;;;;;x
+ARG_ciws_complex_6;40mm OTO-Melara Compact Type 564;;;;;;;;;;;;;x
+ARG_ciws_complex_7;20mm Phalanx Block 0;;;;;;;;;;;;;x
+ARG_ciws_complex_8;25mm Mark 38;;;;;;;;;;;;;x
+ARG_ciws_complex_9;20mm Phalanx Block 1A;;;;;;;;;;;;;x
+ARG_ciws_complex_10;20mm Phalanx Block 1B;;;;;;;;;;;;;x
+BRA_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+BRA_ciws_complex_6;40mm OTO-Melara Compact Type 564;;;;;;;;;;;;;x
+CAN_ciws_complex_0;40mm QF Mark V;;;;;;;;;;;;;x
+CAN_ciws_complex_1;40mm QF Mark VII;;;;;;;;;;;;;x
+CAN_ciws_complex_2;40mm QF Mark IX;;;;;;;;;;;;;x
+CAN_ciws_complex_3;40mm QF Mark X;;;;;;;;;;;;;x
+CAN_ciws_complex_4;40mm QF Mark XI;;;;;;;;;;;;;x
+CAN_ciws_complex_5;30mm Oerlikon GCM;;;;;;;;;;;;;x
+CAN_ciws_complex_6;40mm QF Mark NI;;;;;;;;;;;;;x
+CAN_ciws_complex_7;30mm GAU-8 Goalkeeper;;;;;;;;;;;;;x
+CAN_ciws_complex_8;30mm Oerlikon LSB-30;;;;;;;;;;;;;x
+CAN_ciws_complex_9;20mm Phalanx Block 1A;;;;;;;;;;;;;x
+CAN_ciws_complex_10;30mm Bushmaster II;;;;;;;;;;;;;x
+CHC_ciws_complex_0;37mm 70-K;;;;;;;;;;;;;x
+CHC_ciws_complex_1;37mm Type 67;;;;;;;;;;;;;x
+CHC_ciws_complex_2;30mm Type 69;;;;;;;;;;;;;x
+CHC_ciws_complex_3;30mm Type 69M;;;;;;;;;;;;;x
+CHC_ciws_complex_5;37mm Type 76;;;;;;;;;;;;;x
+CHC_ciws_complex_6;30mm AK-630;;;;;;;;;;;;;x
+CHC_ciws_complex_7;30mm AK-630M-1 'Roy';;;;;;;;;;;;;x
+CHC_ciws_complex_8;37mm Type 76A;;;;;;;;;;;;;x
+CHC_ciws_complex_10;30mm AK-630M-2 'Duet';;;;;;;;;;;;;x
+DDR_ciws_complex_3;30mm AK-230M;;;;;;;;;;;;;x
+DDR_ciws_complex_6;30mm AK-630;;;;;;;;;;;;;x
+DEN_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+DEN_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+DEN_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+DEN_ciws_complex_6;20mm MK 20 DM 5;;;;;;;;;;;;;x
+DEN_ciws_complex_11;40mm Sea Trinity;;;;;;;;;;;;;x
+ENG_ciws_complex_0;40mm QF Mark V;;;;;;;;;;;;;x
+ENG_ciws_complex_1;40mm QF Mark VII;;;;;;;;;;;;;x
+ENG_ciws_complex_2;40mm QF Mark IX;;;;;;;;;;;;;x
+ENG_ciws_complex_3;40mm QF Mark X;;;;;;;;;;;;;x
+ENG_ciws_complex_4;40mm QF Mark XI;;;;;;;;;;;;;x
+ENG_ciws_complex_5;30mm Oerlikon GCM;;;;;;;;;;;;;x
+ENG_ciws_complex_6;40mm QF Mark NI;;;;;;;;;;;;;x
+ENG_ciws_complex_7;30mm GAU-8 Goalkeeper;;;;;;;;;;;;;x
+ENG_ciws_complex_8;30mm Oerlikon LSB-30;;;;;;;;;;;;;x
+ENG_ciws_complex_9;20mm Phalanx Block 1A;;;;;;;;;;;;;x
+ENG_ciws_complex_10;30mm Bushmaster II;;;;;;;;;;;;;x
+FIN_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+FIN_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+FIN_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+FIN_ciws_complex_4;40mm Model 1962;;;;;;;;;;;;;x
+FIN_ciws_complex_5;40mm Model 1965;;;;;;;;;;;;;x
+FIN_ciws_complex_6;23mm SAKO M77;;;;;;;;;;;;;x
+FIN_ciws_complex_7;23mm SAKO M80;;;;;;;;;;;;;x
+FIN_ciws_complex_8;23mm SAKO M85;;;;;;;;;;;;;x
+FIN_ciws_complex_9;23mm SAKO M87;;;;;;;;;;;;;x
+FRA_ciws_complex_0;40mm Modéle 1936;;;;;;;;;;;;;x
+FRA_ciws_complex_1;40mm Modéle 1948;;;;;;;;;;;;;x
+FRA_ciws_complex_3;40mm Modéle 1958;;;;;;;;;;;;;x
+FRA_ciws_complex_4;40mm OTO-Melara Compact Fast Forty;;;;;;;;;;;;;x
+FRA_ciws_complex_5;35mm OTO-Melara KDC;;;;;;;;;;;;;x
+FRA_ciws_complex_6;40mm OTO-Melara Compact Type 564;;;;;;;;;;;;;x
+FRA_ciws_complex_7;20mm GIAT Modéle 20F2;;;;;;;;;;;;;x
+FRA_ciws_complex_9;20mm GIAT Modéle M621;;;;;;;;;;;;;x
+FRA_ciws_complex_11;40mm Sea Trinity;;;;;;;;;;;;;x
+FRG_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+FRG_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+FRG_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+FRG_ciws_complex_4;40mm OTO-Melara Compact Fast Forty;;;;;;;;;;;;;x
+FRG_ciws_complex_6;20mm MK 20 DM 5;;;;;;;;;;;;;x
+FRG_ciws_complex_7;20mm Phalanx Block 0;;;;;;;;;;;;;x
+FRG_ciws_complex_10;27mm MLG 27;;;;;;;;;;;;;x
+GER_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+GER_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+GER_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+GER_ciws_complex_4;40mm OTO-Melara Compact Fast Forty;;;;;;;;;;;;;x
+GER_ciws_complex_6;20mm MK 20 DM 5;;;;;;;;;;;;;x
+GER_ciws_complex_7;20mm Phalanx Block 0;;;;;;;;;;;;;x
+GER_ciws_complex_10;27mm MLG 27;;;;;;;;;;;;;x
+HOL_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+HOL_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+HOL_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+HOL_ciws_complex_7;30mm GAU-8 Goalkeeper;;;;;;;;;;;;;x
+IND_ciws_complex_6;30mm AK-630;;;;;;;;;;;;;x
+IND_ciws_complex_7;30mm AK-630M-1 'Roy';;;;;;;;;;;;;x
+IND_ciws_complex_10;30mm AK-630M-2 'Duet';;;;;;;;;;;;;x
+ISR_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+ISR_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+ISR_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+ISR_ciws_complex_4;20mm Mark VIIA;;;;;;;;;;;;;x
+ISR_ciws_complex_7;20mm Phalanx Block 0;;;;;;;;;;;;;x
+ITA_ciws_complex_0;37mm Model 1939;;;;;;;;;;;;;x
+ITA_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+ITA_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+ITA_ciws_complex_4;40mm OTO-Melara Compact Fast Forty;;;;;;;;;;;;;x
+ITA_ciws_complex_5;35mm OTO-Melara KDC;;;;;;;;;;;;;x
+ITA_ciws_complex_6;40mm OTO-Melara Compact Type 564;;;;;;;;;;;;;x
+ITA_ciws_complex_9;30mm OTO-Melara Compact;;;;;;;;;;;;;x
+ITA_ciws_complex_10;25mm OTO-Melara KBA;;;;;;;;;;;;;x
+ITA_ciws_complex_11;25mm OTO-Melara Myriad KBD;;;;;;;;;;;;;x
+JAP_ciws_complex_0;40mm Mark 2;;;;;;;;;;;;;x
+JAP_ciws_complex_3;40mm Mark M1;;;;;;;;;;;;;x
+JAP_ciws_complex_6;20mm Mark 16;;;;;;;;;;;;;x
+JAP_ciws_complex_7;20mm Phalanx Block 0;;;;;;;;;;;;;x
+JAP_ciws_complex_8;25mm Mark 38;;;;;;;;;;;;;x
+JAP_ciws_complex_9;20mm Phalanx Block 1A;;;;;;;;;;;;;x
+JAP_ciws_complex_10;20mm Phalanx Block 1B;;;;;;;;;;;;;x
+KOR_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+KOR_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+KOR_ciws_complex_3;40mm Mark M1;;;;;;;;;;;;;x
+KOR_ciws_complex_4;20mm Sea Vulcan;;;;;;;;;;;;;x
+KOR_ciws_complex_6;40mm OTO-Melara Compact Type 564;;;;;;;;;;;;;x
+NOR_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+NOR_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+NOR_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+NOR_ciws_complex_6;20mm MK 20 DM 5;;;;;;;;;;;;;x
+NOR_ciws_complex_11;40mm Sea Trinity;;;;;;;;;;;;;x
+POL_ciws_complex_0;40mm Bofors wz.36;;;;;;;;;;;;;x
+POL_ciws_complex_1;40mm Bofors wz.48;;;;;;;;;;;;;x
+POL_ciws_complex_3;40mm Bofors wz.58;;;;;;;;;;;;;x
+POR_ciws_complex_0;40mm QF Mark V;;;;;;;;;;;;;x
+POR_ciws_complex_1;40mm QF Mark VII;;;;;;;;;;;;;x
+POR_ciws_complex_2;40mm QF Mark IX;;;;;;;;;;;;;x
+POR_ciws_complex_3;40mm QF Mark X;;;;;;;;;;;;;x
+POR_ciws_complex_4;40mm QF Mark XI;;;;;;;;;;;;;x
+POR_ciws_complex_5;30mm Oerlikon GCM;;;;;;;;;;;;;x
+POR_ciws_complex_6;40mm QF Mark NI;;;;;;;;;;;;;x
+POR_ciws_complex_7;30mm GAU-8 Goalkeeper;;;;;;;;;;;;;x
+POR_ciws_complex_8;30mm Oerlikon LSB-30;;;;;;;;;;;;;x
+POR_ciws_complex_9;20mm Phalanx Block 1A;;;;;;;;;;;;;x
+POR_ciws_complex_10;30mm Bushmaster II;;;;;;;;;;;;;x
+PRK_ciws_complex_1;37mm Type 67;;;;;;;;;;;;;x
+PRK_ciws_complex_5;37mm Type 76;;;;;;;;;;;;;x
+ROM_ciws_complex_0;40mm Bofors Model 1936;;;;;;;;;;;;;x
+ROM_ciws_complex_1;45mm SM-21;;;;;;;;;;;;;x
+ROM_ciws_complex_2;30mm AK-230;;;;;;;;;;;;;x
+ROM_ciws_complex_3;30mm AK-230M;;;;;;;;;;;;;x
+ROM_ciws_complex_6;30mm AK-630;;;;;;;;;;;;;x
+ROM_ciws_complex_7;30mm AK-630M-1 'Roy';;;;;;;;;;;;;x
+ROM_ciws_complex_8;30mm Kashtan;;;;;;;;;;;;;x
+ROM_ciws_complex_10;30mm AK-630M-2 'Duet';;;;;;;;;;;;;x
+SOV_ciws_complex_0;37mm 70-K;;;;;;;;;;;;;x
+SOV_ciws_complex_1;45mm SM-21;;;;;;;;;;;;;x
+SOV_ciws_complex_2;30mm AK-230;;;;;;;;;;;;;x
+SOV_ciws_complex_3;30mm AK-230M;;;;;;;;;;;;;x
+SOV_ciws_complex_6;30mm AK-630;;;;;;;;;;;;;x
+SOV_ciws_complex_7;30mm AK-630M-1 'Roy';;;;;;;;;;;;;x
+SOV_ciws_complex_8;30mm Kashtan;;;;;;;;;;;;;x
+SOV_ciws_complex_10;30mm AK-630M-2 'Duet';;;;;;;;;;;;;x
+SPA_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+SPA_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+SPA_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+SPA_ciws_complex_4;40mm OTO-Melara Compact Fast Forty;;;;;;;;;;;;;x
+SPA_ciws_complex_5;35mm OTO-Melara KDC;;;;;;;;;;;;;x
+SPA_ciws_complex_6;40mm Bofors-Bazán;;;;;;;;;;;;;x
+SPA_ciws_complex_7;20mm Meroka;;;;;;;;;;;;;x
+SPA_ciws_complex_9;30mm OTO-Melara Compact;;;;;;;;;;;;;x
+SPA_ciws_complex_10;25mm OTO-Melara KBA;;;;;;;;;;;;;x
+SPA_ciws_complex_11;25mm OTO-Melara Myriad KBD;;;;;;;;;;;;;x
+SRL_ciws_complex_6;20mm MK 20 DM 5;;;;;;;;;;;;;x
+SWE_ciws_complex_0;40mm Model 1936;;;;;;;;;;;;;x
+SWE_ciws_complex_1;40mm Model 1948;;;;;;;;;;;;;x
+SWE_ciws_complex_2;40mm Model 1952;;;;;;;;;;;;;x
+SWE_ciws_complex_3;40mm Model 1958;;;;;;;;;;;;;x
+SWE_ciws_complex_4;40mm Model 1962;;;;;;;;;;;;;x
+SWE_ciws_complex_5;40mm Model 1965;;;;;;;;;;;;;x
+SWE_ciws_complex_6;40mm Model 1970;;;;;;;;;;;;;x
+SWE_ciws_complex_7;40mm Model 1975;;;;;;;;;;;;;x
+SWE_ciws_complex_8;40mm Model 1980;;;;;;;;;;;;;x
+SWE_ciws_complex_9;40mm Model 1985;;;;;;;;;;;;;x
+SWE_ciws_complex_10;40mm Model 1990;;;;;;;;;;;;;x
+SWE_ciws_complex_11;40mm Sea Trinity;;;;;;;;;;;;;x
+TUR_ciws_complex_0;40mm QF Mark V;;;;;;;;;;;;;x
+TUR_ciws_complex_5;35mm OTO-Melara KDC;;;;;;;;;;;;;x
+USA_ciws_complex_0;40mm Mark 2;;;;;;;;;;;;;x
+USA_ciws_complex_1;20mm Mark 4;;;;;;;;;;;;;x
+USA_ciws_complex_2;40mm Mark 4;;;;;;;;;;;;;x
+USA_ciws_complex_3;40mm Mark M1;;;;;;;;;;;;;x
+USA_ciws_complex_4;40mm Mark 10;;;;;;;;;;;;;x
+USA_ciws_complex_6;20mm Mark 16;;;;;;;;;;;;;x
+USA_ciws_complex_7;20mm Phalanx Block 0;;;;;;;;;;;;;x
+USA_ciws_complex_8;25mm Mark 38;;;;;;;;;;;;;x
+USA_ciws_complex_9;20mm Phalanx Block 1A;;;;;;;;;;;;;x
+USA_ciws_complex_10;20mm Phalanx Block 1B;;;;;;;;;;;;;x
+YUG_ciws_complex_0;37mm 70-K;;;;;;;;;;;;;x
+YUG_ciws_complex_1;45mm SM-21;;;;;;;;;;;;;x
+YUG_ciws_complex_2;30mm AK-230;;;;;;;;;;;;;x
+YUG_ciws_complex_3;30mm AK-230M;;;;;;;;;;;;;x
+YUG_ciws_complex_6;30mm AK-630;;;;;;;;;;;;;x
+YUG_ciws_complex_7;30mm AK-630M-1 'Roy';;;;;;;;;;;;;x
+YUG_ciws_complex_8;30mm Kashtan;;;;;;;;;;;;;x
+YUG_ciws_complex_10;30mm AK-630M-2 'Duet';;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+# Torpedoes;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+torpedo_complex_0;Model 1941;;;;;;;;;;;;;x
+torpedo_complex_1;Model 1946;;;;;;;;;;;;;x
+torpedo_complex_2;Model 1950;;;;;;;;;;;;;x
+torpedo_complex_3;Model 1955;;;;;;;;;;;;;x
+torpedo_complex_4;Model 1960;;;;;;;;;;;;;x
+torpedo_complex_5;Model 1965;;;;;;;;;;;;;x
+torpedo_complex_6;Model 1970;;;;;;;;;;;;;x
+torpedo_complex_7;Model 1975;;;;;;;;;;;;;x
+torpedo_complex_8;Model 1980;;;;;;;;;;;;;x
+torpedo_complex_9;Model 1985;;;;;;;;;;;;;x
+torpedo_complex_10;Model 1990;;;;;;;;;;;;;x
+torpedo_complex_11;Model 1995;;;;;;;;;;;;;x
+ARG_torpedo_complex_0;21 inch Mark 28;;;;;;;;;;;;;x # 1944
+ARG_torpedo_complex_1;21 inch Mark 35;;;;;;;;;;;;;x # 1946
+ARG_torpedo_complex_2;19 inch Mark 37;;;;;;;;;;;;;x # 1955
+ARG_torpedo_complex_3;21 inch Mark 39;;;;;;;;;;;;;x # 1955
+ARG_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+ARG_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+ARG_torpedo_complex_6;12.75 inch Mark 46 Mod 2;;;;;;;;;;;;;x # 1971
+ARG_torpedo_complex_7;21 inch Mark 48;;;;;;;;;;;;;x # 1972
+ARG_torpedo_complex_8;12.75 inch Mark 50 'Barracuda';;;;;;;;;;;;;x # 1978
+ARG_torpedo_complex_9;12.75 inch Mark 46 Mod 5;;;;;;;;;;;;;x # 1984
+ARG_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+ARG_torpedo_complex_11;2.75 inch Mark 54 MAKO;;;;;;;;;;;;;x # 2000
+BEL_torpedo_complex_0;55cm 24V Toulon;;;;;;;;;;;;;x
+BEL_torpedo_complex_1;55cm 44V Toulon;;;;;;;;;;;;;x
+BEL_torpedo_complex_2;55cm Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+BEL_torpedo_complex_3;55cm K2;;;;;;;;;;;;;x
+BEL_torpedo_complex_4;55cm E14;;;;;;;;;;;;;x
+BEL_torpedo_complex_5;55cm E18;;;;;;;;;;;;;x
+BEL_torpedo_complex_6;53.3cm L5 Mod 1;;;;;;;;;;;;;x
+BEL_torpedo_complex_7;55cm F17 Mod 1;;;;;;;;;;;;;x
+BEL_torpedo_complex_8;53.3cm L5 Mod 4;;;;;;;;;;;;;x
+BEL_torpedo_complex_9;55cm F17P Mod 2;;;;;;;;;;;;;x
+BEL_torpedo_complex_10;32.4cm NTL-90 'Murene';;;;;;;;;;;;;x
+BEL_torpedo_complex_11;55cm Mark 25 Spearfish;;;;;;;;;;;;;x # 1994
+BRA_torpedo_complex_0;21 inch Mark VIII Mod 2;;;;;;;;;;;;;x # 1941
+BRA_torpedo_complex_1;21 inch Mark XI;;;;;;;;;;;;;x # 1946
+BRA_torpedo_complex_2;21 inch Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+BRA_torpedo_complex_3;21 inch Mark 20 Bidder;;;;;;;;;;;;;x # 1955
+BRA_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+BRA_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+BRA_torpedo_complex_6;21 inch Mark 23 Grog;;;;;;;;;;;;;x # 1971
+BRA_torpedo_complex_7;21 inch Mark VIII Mod 4;;;;;;;;;;;;;x # 1975???
+BRA_torpedo_complex_8;21 inch Mark 24 Mod 0 Tigerfish;;;;;;;;;;;;;x # 1980
+BRA_torpedo_complex_9;21 inch Mark 24 Mod 2 Tigerfish;;;;;;;;;;;;;x # 1986
+BRA_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+BRA_torpedo_complex_11;21 inch Mark 25 Spearfish;;;;;;;;;;;;;x # 1994
+CAN_torpedo_complex_0;21 inch Mark 28;;;;;;;;;;;;;x # 1944
+CAN_torpedo_complex_1;21 inch Mark 35;;;;;;;;;;;;;x # 1946
+CAN_torpedo_complex_2;19 inch Mark 37;;;;;;;;;;;;;x # 1955
+CAN_torpedo_complex_3;21 inch Mark 39;;;;;;;;;;;;;x # 1955
+CAN_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+CAN_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+CAN_torpedo_complex_6;12.75 inch Mark 46 Mod 2;;;;;;;;;;;;;x # 1971
+CAN_torpedo_complex_7;21 inch Mark 48;;;;;;;;;;;;;x # 1972
+CAN_torpedo_complex_8;12.75 inch Mark 50 'Barracuda';;;;;;;;;;;;;x # 1978
+CAN_torpedo_complex_9;12.75 inch Mark 46 Mod 5;;;;;;;;;;;;;x # 1984
+CAN_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+CAN_torpedo_complex_11;12.75 inch Mark 54 'MAKO';;;;;;;;;;;;;x # 2000
+CHC_torpedo_complex_0;533mm ET-80;;;;;;;;;;;;;x # 1943
+CHC_torpedo_complex_1;533mm ET-46;;;;;;;;;;;;;x # 1946
+CHC_torpedo_complex_2;533mm Type 53-51;;;;;;;;;;;;;x # 1951
+CHC_torpedo_complex_3;533mm SAET-50M;;;;;;;;;;;;;x # 1955
+CHC_torpedo_complex_4;533mm SET-53;;;;;;;;;;;;;x # 1958
+CHC_torpedo_complex_5;533mm Type 53-65;;;;;;;;;;;;;x # 1965
+CHC_torpedo_complex_6;533mm Yu-1;;;;;;;;;;;;;x # 1971
+CHC_torpedo_complex_7;650mm Type 65-76 'Kit';;;;;;;;;;;;;x # 1976
+CHC_torpedo_complex_8;533mm USET-80;;;;;;;;;;;;;x # 1980
+CHC_torpedo_complex_9;533mm Yu-3;;;;;;;;;;;;;x # 1984
+CHC_torpedo_complex_10;533mm Yu-5;;;;;;;;;;;;;x # 1989
+CHC_torpedo_complex_11;324mm Yu-7;;;;;;;;;;;;;x # 1994
+CHL_torpedo_complex_0;533mm Si 270/533.4 'M';;;;;;;;;;;;;x # 1943
+DDR_torpedo_complex_6;400mm SET-40U;;;;;;;;;;;;;x # 1968
+DDR_torpedo_complex_8;533mm USET-80;;;;;;;;;;;;;x # 1980
+DEN_torpedo_complex_0;53.3cm Model 1942;;;;;;;;;;;;;x
+DEN_torpedo_complex_1;53.3cm Model 1946;;;;;;;;;;;;;x
+DEN_torpedo_complex_2;53.3cm Tp-21;;;;;;;;;;;;;x
+DEN_torpedo_complex_3;53.3cm Tp-31;;;;;;;;;;;;;x
+DEN_torpedo_complex_4;53.3cm Tp-41;;;;;;;;;;;;;x
+DEN_torpedo_complex_5;53.3cm Tp-412;;;;;;;;;;;;;x
+DEN_torpedo_complex_6;53.3cm Tp-61;;;;;;;;;;;;;x
+DEN_torpedo_complex_7;53.3cm Tp-612;;;;;;;;;;;;;x
+DEN_torpedo_complex_8;53.3cm Tp-613;;;;;;;;;;;;;x
+DEN_torpedo_complex_9;53.3cm Tp-617;;;;;;;;;;;;;x
+DEN_torpedo_complex_10;40cm Tp-43;;;;;;;;;;;;;x
+DEN_torpedo_complex_11;40cm Tp-431;;;;;;;;;;;;;x
+ENG_torpedo_complex_0;21 inch Mark VIII Mod 2;;;;;;;;;;;;;x # 1941
+ENG_torpedo_complex_1;21 inch Mark XI;;;;;;;;;;;;;x # 1946
+ENG_torpedo_complex_2;21 inch Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+ENG_torpedo_complex_3;21 inch Mark 20 Bidder;;;;;;;;;;;;;x # 1955
+ENG_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+ENG_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+ENG_torpedo_complex_6;21 inch Mark 23 Grog;;;;;;;;;;;;;x # 1971
+ENG_torpedo_complex_7;21 inch Mark VIII Mod 4;;;;;;;;;;;;;x # 1975???
+ENG_torpedo_complex_8;21 inch Mark 24 Mod 0 Tigerfish;;;;;;;;;;;;;x # 1980
+ENG_torpedo_complex_9;21 inch Mark 24 Mod 2 Tigerfish;;;;;;;;;;;;;x # 1986
+ENG_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+ENG_torpedo_complex_11;21 inch Mark 25 Spearfish;;;;;;;;;;;;;x # 1994
+FRA_torpedo_complex_0;55cm 24V Toulon;;;;;;;;;;;;;x
+FRA_torpedo_complex_1;55cm 44V Toulon;;;;;;;;;;;;;x
+FRA_torpedo_complex_2;55cm Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+FRA_torpedo_complex_3;55cm K2;;;;;;;;;;;;;x
+FRA_torpedo_complex_4;55cm E14;;;;;;;;;;;;;x
+FRA_torpedo_complex_5;55cm E18;;;;;;;;;;;;;x
+FRA_torpedo_complex_6;53.3cm L5 Mod 1;;;;;;;;;;;;;x
+FRA_torpedo_complex_7;55cm F17 Mod 1;;;;;;;;;;;;;x
+FRA_torpedo_complex_8;53.3cm L5 Mod 4;;;;;;;;;;;;;x
+FRA_torpedo_complex_9;55cm F17P Mod 2;;;;;;;;;;;;;x
+FRA_torpedo_complex_10;32.4cm NTL-90 'Murene';;;;;;;;;;;;;x
+FRA_torpedo_complex_11;55cm Mark 25 Spearfish;;;;;;;;;;;;;x # 1994
+FRG_torpedo_complex_0;53.3cm G7e T11;;;;;;;;;;;;;x
+FRG_torpedo_complex_1;53.3cm Mark 35;;;;;;;;;;;;;x # 1946
+FRG_torpedo_complex_2;53.3cm DM3;;;;;;;;;;;;;x
+FRG_torpedo_complex_3;53.3cm Mark 39;;;;;;;;;;;;;x # 1955
+FRG_torpedo_complex_4;32.4cm Mark 44;;;;;;;;;;;;;x # 1960
+FRG_torpedo_complex_5;32.4cm Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+FRG_torpedo_complex_6;53.3cm DM2A1 Seal;;;;;;;;;;;;;x
+FRG_torpedo_complex_7;53.3cm DM1 Seeschlangen;;;;;;;;;;;;;x
+FRG_torpedo_complex_8;32.4cm DM4A1;;;;;;;;;;;;;x
+FRG_torpedo_complex_9;53.3cm DM2A3 Seehecht;;;;;;;;;;;;;x
+FRG_torpedo_complex_10;53.3cm Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+FRG_torpedo_complex_11;53.3cm DM2A4 Seehecht;;;;;;;;;;;;;x
+GER_torpedo_complex_0;53.3cm G7e T11;;;;;;;;;;;;;x
+GER_torpedo_complex_1;21 inch Mark 35;;;;;;;;;;;;;x # 1946
+GER_torpedo_complex_2;53.3cm DM3;;;;;;;;;;;;;x
+GER_torpedo_complex_3;21 inch Mark 39;;;;;;;;;;;;;x # 1955
+GER_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+GER_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+GER_torpedo_complex_6;53.3cm DM2A1 Seal;;;;;;;;;;;;;x
+GER_torpedo_complex_7;53.3cm DM1 Seeschlangen;;;;;;;;;;;;;x
+GER_torpedo_complex_8;32.4cm DM4A1;;;;;;;;;;;;;x
+GER_torpedo_complex_9;53.3cm DM2A3 Seehecht;;;;;;;;;;;;;x
+GER_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+GER_torpedo_complex_11;53.3cm DM2A4 Seehecht;;;;;;;;;;;;;x
+HOL_torpedo_complex_0;533mm Model 1942;;;;;;;;;;;;;x
+HOL_torpedo_complex_1;533mm Model 1946;;;;;;;;;;;;;x
+HOL_torpedo_complex_2;533mm Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+HOL_torpedo_complex_3;533mm Mark 20 Bidder;;;;;;;;;;;;;x # 1955
+HOL_torpedo_complex_4;533mm Tp-41;;;;;;;;;;;;;x
+HOL_torpedo_complex_5;324mm Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+HOL_torpedo_complex_6;483mm NT 37;;;;;;;;;;;;;x # 1970
+HOL_torpedo_complex_7;533mm Mark 48;;;;;;;;;;;;;x # 1972
+HOL_torpedo_complex_8;483mm NT 37 C;;;;;;;;;;;;;x # 1980?
+HOL_torpedo_complex_9;324mm Mark 46 Mod 5;;;;;;;;;;;;;x # 1984
+HOL_torpedo_complex_10;533mm Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+HOL_torpedo_complex_11;400mm Tp-431;;;;;;;;;;;;;x
+IND_torpedo_complex_0;21 inch Mark VIII Mod 2;;;;;;;;;;;;;x # 1941
+IND_torpedo_complex_1;21 inch Mark XI;;;;;;;;;;;;;x # 1946
+IND_torpedo_complex_2;21 inch Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+IND_torpedo_complex_3;533mm SAET-50M;;;;;;;;;;;;;x # 1955
+IND_torpedo_complex_4;533mm SET-53;;;;;;;;;;;;;x # 1958
+IND_torpedo_complex_5;533mm SET-65 'Yenot-2';;;;;;;;;;;;;x # 1965
+IND_torpedo_complex_6;324mm A-244;;;;;;;;;;;;;x # 1971
+IND_torpedo_complex_7;650mm 65-76 'Kit';;;;;;;;;;;;;x # 1976
+IND_torpedo_complex_8;533mm USET-80;;;;;;;;;;;;;x # 1980
+IND_torpedo_complex_9;324mm A-244/S;;;;;;;;;;;;;x # 1984
+IND_torpedo_complex_10;324mm NST-58;;;;;;;;;;;;;x # 1988
+IND_torpedo_complex_11;533mm VA-111 'Shkval';;;;;;;;;;;;;x # 1998
+ISR_torpedo_complex_0;21 inch Mark 28;;;;;;;;;;;;;x # 1944
+ISR_torpedo_complex_1;21 inch Mark 35;;;;;;;;;;;;;x # 1946
+ISR_torpedo_complex_2;19 inch Mark 37;;;;;;;;;;;;;x # 1955
+ISR_torpedo_complex_3;21 inch Mark 39;;;;;;;;;;;;;x # 1955
+ISR_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+ISR_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+ISR_torpedo_complex_6;12.75 inch Mark 46 Mod 2;;;;;;;;;;;;;x # 1971
+ISR_torpedo_complex_7;21 inch Mark 48;;;;;;;;;;;;;x # 1972
+ISR_torpedo_complex_8;12.75 inch Mark 50 'Barracuda';;;;;;;;;;;;;x # 1978
+ISR_torpedo_complex_9;12.75 inch Mark 46 Mod 5;;;;;;;;;;;;;x # 1984
+ISR_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+ISR_torpedo_complex_11;12.75 inch Mark 54 'MAKO';;;;;;;;;;;;;x # 2000
+ITA_torpedo_complex_0;533mm Si 270/533.4 'M';;;;;;;;;;;;;x # 1943
+ITA_torpedo_complex_1;533mm Mark XI;;;;;;;;;;;;;x # 1946
+ITA_torpedo_complex_2;533mm Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+ITA_torpedo_complex_3;533mm Mark 39;;;;;;;;;;;;;x # 1955
+ITA_torpedo_complex_4;324mm Mark 44;;;;;;;;;;;;;x # 1960
+ITA_torpedo_complex_5;533mm Cangaro;;;;;;;;;;;;;x # 1965
+ITA_torpedo_complex_6;324mm A-244;;;;;;;;;;;;;x # 1971
+ITA_torpedo_complex_7;533mm A-184;;;;;;;;;;;;;x # 1974
+ITA_torpedo_complex_8;533mm Mark 24 Mod 0 Tigerfish;;;;;;;;;;;;;x # 1980
+ITA_torpedo_complex_9;324mm A-244/S;;;;;;;;;;;;;x # 1984
+ITA_torpedo_complex_10;324mm A-244/S Mod 1;;;;;;;;;;;;;x # 1987
+ITA_torpedo_complex_11;324mm A-290;;;;;;;;;;;;;x # 1987
+JAP_torpedo_complex_0;61cm Type 93 Model 3;;;;;;;;;;;;;x # 1944
+JAP_torpedo_complex_1;53.3cm Mark 35;;;;;;;;;;;;;x # 1946
+JAP_torpedo_complex_2;48cm Mark 37-0-N;;;;;;;;;;;;;x # 1955
+JAP_torpedo_complex_3;53.3cm Mark 39;;;;;;;;;;;;;x # 1955
+JAP_torpedo_complex_4;32cm Mark 44;;;;;;;;;;;;;x # 1960
+JAP_torpedo_complex_5;32cm Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+JAP_torpedo_complex_6;32cm Mark 46 Mod 2;;;;;;;;;;;;;x # 1971
+JAP_torpedo_complex_7;53.3cm Mark 48;;;;;;;;;;;;;x # 1972
+JAP_torpedo_complex_8;32cm Mark 50 'Barracuda';;;;;;;;;;;;;x # 1978
+JAP_torpedo_complex_9;48cm Type 80;;;;;;;;;;;;;x # 1984
+JAP_torpedo_complex_10;53.3cm Type 89;;;;;;;;;;;;;x # 1992
+JAP_torpedo_complex_11;32cm Mark 54 'MAKO';;;;;;;;;;;;;x # 2000
+KOR_torpedo_complex_0;21 inch Mark 28;;;;;;;;;;;;;x # 1944
+KOR_torpedo_complex_1;21 inch Mark 35;;;;;;;;;;;;;x # 1946
+KOR_torpedo_complex_2;19 inch Mark 37;;;;;;;;;;;;;x # 1955
+KOR_torpedo_complex_3;21 inch Mark 39;;;;;;;;;;;;;x # 1955
+KOR_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+KOR_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+KOR_torpedo_complex_6;12.75 inch Mark 46 Mod 2;;;;;;;;;;;;;x # 1971
+KOR_torpedo_complex_7;21 inch Mark 48;;;;;;;;;;;;;x # 1972
+KOR_torpedo_complex_8;12.75 inch Mark 50 'Barracuda';;;;;;;;;;;;;x # 1978
+KOR_torpedo_complex_9;12.75 inch Mark 46 Mod 5;;;;;;;;;;;;;x # 1984
+KOR_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+KOR_torpedo_complex_11;12.75 inch Mark 54 'MAKO';;;;;;;;;;;;;x # 2000
+NOR_torpedo_complex_0;53.3cm G7e T11;;;;;;;;;;;;;x
+NOR_torpedo_complex_1;53.3cm Model 1946;;;;;;;;;;;;;x
+NOR_torpedo_complex_2;53.3cm DM3;;;;;;;;;;;;;x
+NOR_torpedo_complex_3;53.3cm Tp-31;;;;;;;;;;;;;x
+NOR_torpedo_complex_4;32.4cm Mark 44;;;;;;;;;;;;;x # 1960
+NOR_torpedo_complex_5;53.3cm Tp-412;;;;;;;;;;;;;x
+NOR_torpedo_complex_6;53.3cm DM2A1 Seal;;;;;;;;;;;;;x
+NOR_torpedo_complex_7;53.3cm DM1 Seeschlangen;;;;;;;;;;;;;x
+NOR_torpedo_complex_8;53.3cm Tp-613;;;;;;;;;;;;;x
+NOR_torpedo_complex_9;53.3cm DM2A3 Seehecht;;;;;;;;;;;;;x
+NOR_torpedo_complex_10;40cm Tp-43;;;;;;;;;;;;;x
+NOR_torpedo_complex_11;53.3cm DM2A4 Seehecht;;;;;;;;;;;;;x
+POL_torpedo_complex_0;550mm wz.32M St.Tropez;;;;;;;;;;;;;x
+POR_torpedo_complex_0;21 inch Mark VIII Mod 2;;;;;;;;;;;;;x # 1941
+POR_torpedo_complex_1;21 inch Mark XI;;;;;;;;;;;;;x # 1946
+POR_torpedo_complex_2;21 inch Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+POR_torpedo_complex_3;21 inch Mark 20 Bidder;;;;;;;;;;;;;x # 1955
+POR_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+POR_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+POR_torpedo_complex_6;21 inch Mark 23 Grog;;;;;;;;;;;;;x # 1971
+POR_torpedo_complex_7;21 inch Mark VIII Mod 4;;;;;;;;;;;;;x # 1975???
+POR_torpedo_complex_8;21 inch Mark 24 Mod 0 Tigerfish;;;;;;;;;;;;;x # 1980
+POR_torpedo_complex_9;21 inch Mark 24 Mod 2 Tigerfish;;;;;;;;;;;;;x # 1986
+POR_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+POR_torpedo_complex_11;21 inch Mark 25 Spearfish;;;;;;;;;;;;;x # 1994
+PRK_torpedo_complex_0;533mm ET-80;;;;;;;;;;;;;x # 1943
+PRK_torpedo_complex_1;533mm ET-46;;;;;;;;;;;;;x # 1946
+PRK_torpedo_complex_2;533mm SAET-50;;;;;;;;;;;;;x # 1950
+PRK_torpedo_complex_3;533mm SAET-50M;;;;;;;;;;;;;x # 1955
+PRK_torpedo_complex_4;533mm SET-53;;;;;;;;;;;;;x # 1958
+PRK_torpedo_complex_5;533mm SET-65 'Yenot-2';;;;;;;;;;;;;x # 1965
+PRK_torpedo_complex_6;400mm SET-40U;;;;;;;;;;;;;x # 1968
+PRK_torpedo_complex_7;650mm 65-76 'Kit';;;;;;;;;;;;;x # 1976
+PRK_torpedo_complex_8;533mm USET-80;;;;;;;;;;;;;x # 1980
+PRK_torpedo_complex_9;450mm UMGT-1;;;;;;;;;;;;;x # 1984?
+PRK_torpedo_complex_10;533mm UGST;;;;;;;;;;;;;x # 1990
+PRK_torpedo_complex_11;533mm VA-111 'Shkval';;;;;;;;;;;;;x # 1998
+ROM_torpedo_complex_0;533mm ET-80;;;;;;;;;;;;;x # 1943
+ROM_torpedo_complex_1;533mm ET-46;;;;;;;;;;;;;x # 1946
+ROM_torpedo_complex_2;533mm SAET-50;;;;;;;;;;;;;x # 1950
+ROM_torpedo_complex_3;533mm SAET-50M;;;;;;;;;;;;;x # 1955
+ROM_torpedo_complex_4;533mm SET-53;;;;;;;;;;;;;x # 1958
+ROM_torpedo_complex_5;533mm SET-65 'Yenot-2';;;;;;;;;;;;;x # 1965
+ROM_torpedo_complex_6;400mm SET-40U;;;;;;;;;;;;;x # 1968
+ROM_torpedo_complex_7;650mm 65-76 'Kit';;;;;;;;;;;;;x # 1976
+ROM_torpedo_complex_8;533mm USET-80;;;;;;;;;;;;;x # 1980
+ROM_torpedo_complex_9;450mm UMGT-1;;;;;;;;;;;;;x # 1984?
+ROM_torpedo_complex_10;533mm UGST;;;;;;;;;;;;;x # 1990
+ROM_torpedo_complex_11;533mm VA-111 'Shkval';;;;;;;;;;;;;x # 1998
+SOV_torpedo_complex_0;533mm ET-80;;;;;;;;;;;;;x # 1943
+SOV_torpedo_complex_1;533mm ET-46;;;;;;;;;;;;;x # 1946
+SOV_torpedo_complex_2;533mm SAET-50;;;;;;;;;;;;;x # 1950
+SOV_torpedo_complex_3;533mm SAET-50M;;;;;;;;;;;;;x # 1955
+SOV_torpedo_complex_4;533mm SET-53;;;;;;;;;;;;;x # 1958
+SOV_torpedo_complex_5;533mm SET-65 'Yenot-2';;;;;;;;;;;;;x # 1965
+SOV_torpedo_complex_6;400mm SET-40U;;;;;;;;;;;;;x # 1968
+SOV_torpedo_complex_7;650mm 65-76 'Kit';;;;;;;;;;;;;x # 1976
+SOV_torpedo_complex_8;533mm USET-80;;;;;;;;;;;;;x # 1980
+SOV_torpedo_complex_9;450mm UMGT-1;;;;;;;;;;;;;x # 1984?
+SOV_torpedo_complex_10;533mm UGST;;;;;;;;;;;;;x # 1990
+SOV_torpedo_complex_11;533mm VA-111 'Shkval';;;;;;;;;;;;;x # 1998
+SPA_torpedo_complex_0;533mm Si 270/533.4 'M';;;;;;;;;;;;;x # 1943
+SPA_torpedo_complex_1;533mm Mark XI;;;;;;;;;;;;;x # 1946
+SPA_torpedo_complex_2;533mm Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+SPA_torpedo_complex_3;533mm Mark 39;;;;;;;;;;;;;x # 1955
+SPA_torpedo_complex_4;324mm Mark 44;;;;;;;;;;;;;x # 1960
+SPA_torpedo_complex_5;533mm Cangaro;;;;;;;;;;;;;x # 1965
+SPA_torpedo_complex_6;324mm A-244;;;;;;;;;;;;;x # 1971
+SPA_torpedo_complex_7;533mm A-184;;;;;;;;;;;;;x # 1974
+SPA_torpedo_complex_8;533mm Mark 24 Mod 0 Tigerfish;;;;;;;;;;;;;x # 1980
+SPA_torpedo_complex_9;324mm A-244/S;;;;;;;;;;;;;x # 1984
+SPA_torpedo_complex_10;324mm A-244/S Mod 1;;;;;;;;;;;;;x # 1987
+SPA_torpedo_complex_11;324mm A-290;;;;;;;;;;;;;x # 1987
+SWE_torpedo_complex_0;53.3cm Model 1942;;;;;;;;;;;;;x
+SWE_torpedo_complex_1;53.3cm Model 1946;;;;;;;;;;;;;x
+SWE_torpedo_complex_2;53.3cm Tp-21;;;;;;;;;;;;;x
+SWE_torpedo_complex_3;53.3cm Tp-31;;;;;;;;;;;;;x
+SWE_torpedo_complex_4;53.3cm Tp-41;;;;;;;;;;;;;x
+SWE_torpedo_complex_5;53.3cm Tp-412;;;;;;;;;;;;;x
+SWE_torpedo_complex_6;53.3cm Tp-61;;;;;;;;;;;;;x
+SWE_torpedo_complex_7;53.3cm Tp-612;;;;;;;;;;;;;x
+SWE_torpedo_complex_8;53.3cm Tp-613;;;;;;;;;;;;;x
+SWE_torpedo_complex_9;53.3cm Tp-617;;;;;;;;;;;;;x
+SWE_torpedo_complex_10;40cm Tp-43;;;;;;;;;;;;;x
+SWE_torpedo_complex_11;40cm Tp-431;;;;;;;;;;;;;x
+TUR_torpedo_complex_0;21 inch Mark VIII Mod 2;;;;;;;;;;;;;x # 1941
+TUR_torpedo_complex_1;21 inch Mark XI;;;;;;;;;;;;;x # 1946
+TUR_torpedo_complex_2;21 inch Mark VIII Mod 3;;;;;;;;;;;;;x # 1951???
+TUR_torpedo_complex_3;21 inch Mark 20 Bidder;;;;;;;;;;;;;x # 1955
+TUR_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+TUR_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+TUR_torpedo_complex_6;21 inch Mark 23 Grog;;;;;;;;;;;;;x # 1971
+TUR_torpedo_complex_7;21 inch Mark VIII Mod 4;;;;;;;;;;;;;x # 1975???
+TUR_torpedo_complex_8;21 inch Mark 24 Mod 0 Tigerfish;;;;;;;;;;;;;x # 1980
+TUR_torpedo_complex_9;21 inch Mark 24 Mod 2 Tigerfish;;;;;;;;;;;;;x # 1986
+TUR_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+TUR_torpedo_complex_11;21 inch Mark 25 Spearfish;;;;;;;;;;;;;x # 1994
+USA_torpedo_complex_0;21 inch Mark 28;;;;;;;;;;;;;x # 1944
+USA_torpedo_complex_1;21 inch Mark 35;;;;;;;;;;;;;x # 1946
+USA_torpedo_complex_2;19 inch Mark 37;;;;;;;;;;;;;x # 1955
+USA_torpedo_complex_3;21 inch Mark 39;;;;;;;;;;;;;x # 1955
+USA_torpedo_complex_4;12.75 inch Mark 44;;;;;;;;;;;;;x # 1960
+USA_torpedo_complex_5;12.75 inch Mark 46 Mod 0;;;;;;;;;;;;;x # 1966
+USA_torpedo_complex_6;12.75 inch Mark 46 Mod 2;;;;;;;;;;;;;x # 1971
+USA_torpedo_complex_7;21 inch Mark 48;;;;;;;;;;;;;x # 1972
+USA_torpedo_complex_8;12.75 inch Mark 50 'Barracuda';;;;;;;;;;;;;x # 1978
+USA_torpedo_complex_9;12.75 inch Mark 46 Mod 5;;;;;;;;;;;;;x # 1984
+USA_torpedo_complex_10;21 inch Mark 48 ADCAP;;;;;;;;;;;;;x # 1988
+USA_torpedo_complex_11;12.75 inch Mark 54 'MAKO';;;;;;;;;;;;;x # 2000
+YUG_torpedo_complex_0;533mm ET-80;;;;;;;;;;;;;x # 1943
+YUG_torpedo_complex_1;533mm ET-46;;;;;;;;;;;;;x # 1946
+YUG_torpedo_complex_2;533mm SAET-50;;;;;;;;;;;;;x # 1950
+YUG_torpedo_complex_3;533mm SAET-50M;;;;;;;;;;;;;x # 1955
+YUG_torpedo_complex_4;533mm SET-53;;;;;;;;;;;;;x # 1958
+YUG_torpedo_complex_5;533mm SET-65 'Yenot-2';;;;;;;;;;;;;x # 1965
+YUG_torpedo_complex_6;400mm SET-40U;;;;;;;;;;;;;x # 1968
+YUG_torpedo_complex_7;650mm 65-76 'Kit';;;;;;;;;;;;;x # 1976
+YUG_torpedo_complex_8;533mm USET-80;;;;;;;;;;;;;x # 1980
+YUG_torpedo_complex_9;450mm UMGT-1;;;;;;;;;;;;;x # 1984?
+YUG_torpedo_complex_10;533mm UGST;;;;;;;;;;;;;x # 1990
+YUG_torpedo_complex_11;533mm VA-111 'Shkval';;;;;;;;;;;;;x # 1998
+########################################;;;;;;;;;;;;;;x
+# ASROC missile;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+asroc_complex_1;Model 1955;;;;;;;;;;;;;x
+asroc_complex_2;Model 1960;;;;;;;;;;;;;x
+asroc_complex_3;Model 1965;;;;;;;;;;;;;x
+asroc_complex_4;Model 1970;;;;;;;;;;;;;x
+asroc_complex_5;Model 1975;;;;;;;;;;;;;x
+asroc_complex_6;Model 1980;;;;;;;;;;;;;x
+asroc_complex_7;Model 1985;;;;;;;;;;;;;x
+asroc_complex_8;Model 1990;;;;;;;;;;;;;x
+asroc_complex_9;Model 1995;;;;;;;;;;;;;x
+AST_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+AST_asroc_complex_2;Ikara;;;;;;;;;;;;;x # 1960
+AST_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+AST_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+AST_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+AST_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+AST_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+AST_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+BEL_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+BEL_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+BEL_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+BEL_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+BEL_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+BEL_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+BEL_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+BEL_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+CAN_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+CAN_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+CAN_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+CAN_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+CAN_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+CAN_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+CAN_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+CAN_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+CHC_asroc_complex_3;SUW-N-1;;;;;;;;;;;;;x # 1967
+CHC_asroc_complex_4;SS-N-14 Silex;;;;;;;;;;;;;x # 1969
+CHC_asroc_complex_5;SS-N-15 Starfish;;;;;;;;;;;;;x # 1975???
+CHC_asroc_complex_6;SS-N-16 Stallion;;;;;;;;;;;;;x # 1979
+CHC_asroc_complex_8;Chang Ying-1;;;;;;;;;;;;;x # 1989?
+CHC_asroc_complex_9;Chang Ying-2;;;;;;;;;;;;;x # 1994
+CHL_asroc_complex_2;Ikara;;;;;;;;;;;;;x # 1960
+DEN_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+DEN_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+DEN_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+DEN_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+DEN_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+DEN_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+DEN_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+DEN_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+ENG_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+ENG_asroc_complex_2;Ikara;;;;;;;;;;;;;x # 1960
+ENG_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+ENG_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+ENG_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+ENG_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+ENG_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+ENG_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+FIN_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+FIN_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+FIN_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+FIN_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+FIN_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+FIN_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+FIN_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+FIN_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+FRA_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+FRA_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+FRA_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+FRA_asroc_complex_4;Malafon;;;;;;;;;;;;;x # 1966
+FRA_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+FRA_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+FRA_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+FRA_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+FRG_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+FRG_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+FRG_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+FRG_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+FRG_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+FRG_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+FRG_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+FRG_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+GER_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+GER_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+GER_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+GER_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+GER_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+GER_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+GER_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+GER_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+HOL_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+HOL_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+HOL_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+HOL_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+HOL_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+HOL_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+HOL_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+HOL_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+IND_asroc_complex_3;SUW-N-1;;;;;;;;;;;;;x # 1967
+IND_asroc_complex_4;SS-N-14 Silex;;;;;;;;;;;;;x # 1969
+IND_asroc_complex_5;SS-N-15 Starfish;;;;;;;;;;;;;x # 1975???
+IND_asroc_complex_6;SS-N-16 Stallion;;;;;;;;;;;;;x # 1979
+IND_asroc_complex_9;SS-N-29;;;;;;;;;;;;;x # 2001???
+ITA_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+ITA_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+ITA_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+ITA_asroc_complex_4;Malafon;;;;;;;;;;;;;x # 1966
+ITA_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+ITA_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+ITA_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+ITA_asroc_complex_9;Milas;;;;;;;;;;;;;x
+JAP_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+JAP_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+JAP_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+JAP_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+JAP_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+JAP_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+JAP_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+JAP_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+ROM_asroc_complex_3;SUW-N-1;;;;;;;;;;;;;x # 1967
+ROM_asroc_complex_4;SS-N-14 Silex;;;;;;;;;;;;;x # 1969
+ROM_asroc_complex_5;SS-N-15 Starfish;;;;;;;;;;;;;x # 1975???
+ROM_asroc_complex_6;SS-N-16 Stallion;;;;;;;;;;;;;x # 1979
+ROM_asroc_complex_9;SS-N-29;;;;;;;;;;;;;x # 2001???
+SOV_asroc_complex_3;SUW-N-1;;;;;;;;;;;;;x # 1967
+SOV_asroc_complex_4;SS-N-14 Silex;;;;;;;;;;;;;x # 1969
+SOV_asroc_complex_5;SS-N-15 Starfish;;;;;;;;;;;;;x # 1975???
+SOV_asroc_complex_6;SS-N-16 Stallion;;;;;;;;;;;;;x # 1979
+SOV_asroc_complex_9;SS-N-29;;;;;;;;;;;;;x # 2001???
+SPA_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+SPA_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+SPA_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+SPA_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+SPA_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+SPA_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+SPA_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+SPA_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+SWE_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+SWE_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+SWE_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+SWE_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+SWE_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+SWE_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+SWE_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+SWE_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+USA_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+USA_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+USA_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+USA_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+USA_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+USA_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+USA_asroc_complex_8;RUM-125 Sea Lance;;;;;;;;;;;;;x # 1990
+USA_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+YUG_asroc_complex_1;RAT-A;;;;;;;;;;;;;x # 1955
+YUG_asroc_complex_2;RUR-5A ASROC;;;;;;;;;;;;;x # 1961
+YUG_asroc_complex_3;RUR-5B ASROC;;;;;;;;;;;;;x # 1965???
+YUG_asroc_complex_4;RUR-5C ASROC;;;;;;;;;;;;;x # 1970???
+YUG_asroc_complex_5;RUR-5D ASROC;;;;;;;;;;;;;x # 1975???
+YUG_asroc_complex_6;RUR-5E ASROC;;;;;;;;;;;;;x # 1980???
+YUG_asroc_complex_8;RUR-5F ASROC;;;;;;;;;;;;;x # 1990
+YUG_asroc_complex_9;RUM-139 VL-ASROC;;;;;;;;;;;;;x # 1993
+########################################;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+# SHIPS;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+########################################;;;;;;;;;;;;;;x
+submarine_0;Great War Submarine Squadron;;;;;;;;;;;;;x # 10 ship per flotilla
+submarine_1;Model 1950 Submarine Squadron;;;;;;;;;;;;;x # 10 ship per flotilla
+attack_submarine_0;Model 1950 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_1;Model 1955 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_2;Model 1960 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_3;Model 1965 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_4;Model 1970 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_5;Model 1975 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_6;Model 1980 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_7;Model 1985 Attack Submarine;;;;;;;;;;;;;x
+attack_submarine_8;Model 1990 Attack Submarine;;;;;;;;;;;;;x
+nuclear_submarine_0;Model 1960 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+nuclear_submarine_1;Model 1965 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+nuclear_submarine_2;Model 1970 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+nuclear_submarine_3;Model 1975 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+nuclear_submarine_4;Model 1980 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+nuclear_submarine_5;Model 1985 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+nuclear_submarine_6;Model 1990 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+guided_submarine_0;Model 1955 Cruise Missile Submarine;;;;;;;;;;;;;x
+guided_submarine_1;Model 1960 Cruise Missile Submarine;;;;;;;;;;;;;x
+guided_submarine_2;Model 1965 Cruise Missile Submarine;;;;;;;;;;;;;x
+guided_submarine_3;Model 1970 Cruise Missile Submarine;;;;;;;;;;;;;x
+guided_submarine_4;Model 1975 Cruise Missile Submarine;;;;;;;;;;;;;x
+guided_submarine_5;Model 1980 Cruise Missile Submarine;;;;;;;;;;;;;x
+guided_submarine_6;Model 1985 Cruise Missile Submarine;;;;;;;;;;;;;x
+guided_submarine_7;Model 1990 Cruise Missile Submarine;;;;;;;;;;;;;x
+nuclear_guided_submarine_0;Model 1960 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+nuclear_guided_submarine_1;Model 1965 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+nuclear_guided_submarine_2;Model 1970 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+nuclear_guided_submarine_3;Model 1975 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+nuclear_guided_submarine_4;Model 1980 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+nuclear_guided_submarine_5;Model 1985 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+nuclear_guided_submarine_6;Model 1990 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+ballistic_missile_submarine_0;Model 1960 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+ballistic_missile_submarine_1;Model 1965 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+ballistic_missile_submarine_2;Model 1970 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+ballistic_missile_submarine_3;Model 1975 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+ballistic_missile_submarine_4;Model 1980 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+ballistic_missile_submarine_5;Model 1985 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+ballistic_missile_submarine_6;Model 1990 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+missile_boat_0;Model 1955 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_boat_1;Model 1960 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_boat_2;Model 1965 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_boat_3;Model 1970 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_boat_4;Model 1975 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_boat_5;Model 1980 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_boat_6;Model 1985 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_boat_7;Model 1990 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+missile_frigate_0;Model 1955 Guided Missile Frigate;;;;;;;;;;;;;x
+missile_frigate_1;Model 1960 Guided Missile Frigate;;;;;;;;;;;;;x
+missile_frigate_2;Model 1965 Guided Missile Frigate;;;;;;;;;;;;;x
+missile_frigate_3;Model 1970 Guided Missile Frigate;;;;;;;;;;;;;x
+missile_frigate_4;Model 1975 Guided Missile Frigate;;;;;;;;;;;;;x
+missile_frigate_5;Model 1980 Guided Missile Frigate;;;;;;;;;;;;;x
+missile_frigate_6;Model 1985 Guided Missile Frigate;;;;;;;;;;;;;x
+missile_frigate_7;Model 1990 Guided Missile Frigate;;;;;;;;;;;;;x
+destroyer_0;Great War Destroyer Flotilla;;;;;;;;;;;;;x # 5 ship per flotilla
+destroyer_1;Model 1950 Destroyer Flotilla;;;;;;;;;;;;;x # 5 ship per flotilla
+missile_destroyer_0;Model 1960 Guided Missile Destroyer;;;;;;;;;;;;;x
+missile_destroyer_1;Model 1965 Guided Missile Destroyer;;;;;;;;;;;;;x
+missile_destroyer_2;Model 1970 Guided Missile Destroyer;;;;;;;;;;;;;x
+missile_destroyer_3;Model 1975 Guided Missile Destroyer;;;;;;;;;;;;;x
+missile_destroyer_4;Model 1980 Guided Missile Destroyer;;;;;;;;;;;;;x
+missile_destroyer_5;Model 1985 Guided Missile Destroyer;;;;;;;;;;;;;x
+missile_destroyer_6;Model 1990 Guided Missile Destroyer;;;;;;;;;;;;;x
+cruiser_0;Great War Cruiser;;;;;;;;;;;;;x
+cruiser_1;Model 1946 Cruiser;;;;;;;;;;;;;x
+cruiser_2;Model 1950 Cruiser;;;;;;;;;;;;;x
+cruiser_3;Model 1955 Cruiser;;;;;;;;;;;;;x
+missile_cruiser_0;Model 1955 Guided Missile Cruiser;;;;;;;;;;;;;x
+missile_cruiser_1;Model 1960 Guided Missile Cruiser;;;;;;;;;;;;;x
+missile_cruiser_2;Model 1965 Guided Missile Cruiser;;;;;;;;;;;;;x
+missile_cruiser_3;Model 1970 Guided Missile Cruiser;;;;;;;;;;;;;x
+missile_cruiser_4;Model 1975 Guided Missile Cruiser;;;;;;;;;;;;;x
+missile_cruiser_5;Model 1980 Guided Missile Cruiser;;;;;;;;;;;;;x
+missile_cruiser_6;Model 1985 Guided Missile Cruiser;;;;;;;;;;;;;x
+missile_cruiser_7;Model 1990 Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_missile_cruiser_0;Model 1960 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_missile_cruiser_1;Model 1965 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_missile_cruiser_2;Model 1970 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_missile_cruiser_3;Model 1975 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_missile_cruiser_4;Model 1980 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_missile_cruiser_5;Model 1985 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_missile_cruiser_6;Model 1990 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+nuclear_battlecruiser_0;Model 1980 Nuclear-Powered Guided Missile Battlecruiser;;;;;;;;;;;;;x
+nuclear_battlecruiser_1;Model 1985 Nuclear-Powered Guided Missile Battlecruiser;;;;;;;;;;;;;x
+nuclear_battlecruiser_2;Model 1990 Nuclear-Powered Guided Missile Battlecruiser;;;;;;;;;;;;;x
+battleship_0;Great War Battleship;;;;;;;;;;;;;x
+battleship_1;Modernized Great War Battleship;;;;;;;;;;;;;x
+escort_carrier_0;Great War Light Carrier;;;;;;;;;;;;;x
+escort_carrier_1;Model 1950 Light Carrier;;;;;;;;;;;;;x
+helicopter_carrier_0;Model 1960 Helicopter Carrier;;;;;;;;;;;;;x
+helicopter_carrier_1;Model 1965 Helicopter Carrier;;;;;;;;;;;;;x
+helicopter_carrier_2;Model 1975 Helicopter Carrier;;;;;;;;;;;;;x
+helicopter_carrier_3;Model 1985 Helicopter Carrier;;;;;;;;;;;;;x
+helicopter_carrier_4;Model 1990 Helicopter Carrier;;;;;;;;;;;;;x
+carrier_0;Great War Fleet Carrier;;;;;;;;;;;;;x
+carrier_1;Model 1950 Fleet Carrier;;;;;;;;;;;;;x
+carrier_2;Model 1955 Fleet Carrier;;;;;;;;;;;;;x
+carrier_3;Model 1960 Fleet Carrier;;;;;;;;;;;;;x
+carrier_4;Model 1970 Fleet Carrier;;;;;;;;;;;;;x
+carrier_5;Model 1980 Fleet Carrier;;;;;;;;;;;;;x
+carrier_6;Model 1990 Fleet Carrier;;;;;;;;;;;;;x
+supercarrier_0;Model 1955 Supercarrier;;;;;;;;;;;;;x
+supercarrier_1;Model 1960 Supercarrier;;;;;;;;;;;;;x
+supercarrier_2;Model 1970 Supercarrier;;;;;;;;;;;;;x
+supercarrier_3;Model 1980 Supercarrier;;;;;;;;;;;;;x
+supercarrier_4;Model 1990 Supercarrier;;;;;;;;;;;;;x
+transport_ship_0;Troop Transport;;;;;;;;;;;;;x
+ARG_submarine_0;Santa Fe-class;;;;;;;;;;;;;x
+ARG_missile_boat_6;Espora-class;;;;;;;;;;;;;x   # 1985
+ARG_missile_frigate_0;Azopardo-class;;;;;;;;;;;;;x   # 1955
+ARG_destroyer_0;Buenos Aires-class;;;;;;;;;;;;;x
+ARG_cruiser_0;Veinticinco de Mayo-class;;;;;;;;;;;;;x   # 1931
+ARG_battleship_0;Rivadavia-class;;;;;;;;;;;;;x   # 
+BEL_missile_frigate_3;Wielingen-class;;;;;;;;;;;;;x   # 1971
+BRA_missile_boat_7;Inhaúma-class;;;;;;;;;;;;;x   # 1989
+BRA_destroyer_0;Marcilio Dias-class;;;;;;;;;;;;;x
+BRA_destroyer_1;Amazonas-class;;;;;;;;;;;;;x # 1951
+BRA_battleship_0;Minas Geraes-class;;;;;;;;;;;;;x   # 
+CAN_destroyer_0;Tribal-class;;;;;;;;;;;;;x  # 1943
+CAN_missile_frigate_0;Prestonian-class;;;;;;;;;;;;;x   # 1953
+CAN_missile_frigate_1;St. Laurent-class;;;;;;;;;;;;;x   # 1955
+CAN_missile_frigate_2;Restigouche-class;;;;;;;;;;;;;x   # 1960
+CAN_missile_frigate_3;Mackenzie-class;;;;;;;;;;;;;x   # 1962
+CAN_missile_frigate_4;Annapolis-class;;;;;;;;;;;;;x   # 1964
+CAN_missile_frigate_5;Model 1970 Guided Missile Frigate;;;;;;;;;;;;;x
+CAN_missile_frigate_6;Restigouche-class DELEX Upg;;;;;;;;;;;;;x   # 1978
+CAN_missile_frigate_7;St. Laurent-class DELEX Upg;;;;;;;;;;;;;x   # 1979
+CAN_missile_frigate_8;Mackenzie-class DELEX Upg;;;;;;;;;;;;;x   # 1980
+CAN_missile_frigate_9;Annapolis-class DELEX Upg;;;;;;;;;;;;;x   # 1982
+CAN_missile_frigate_10;Halifax-class;;;;;;;;;;;;;x   # 1991/92
+CAN_missile_destroyer_0;Tribal Mod-class;;;;;;;;;;;;;x   # 1950
+CAN_missile_destroyer_2;Iroquois-class;;;;;;;;;;;;;x   # 1972
+CAN_missile_destroyer_6;Iroquois-class TRUMP Upg;;;;;;;;;;;;;x   # 1991
+CHC_attack_submarine_1;Type 03-class;;;;;;;;;;;;;x   # 1956 (Whiskey)
+CHC_attack_submarine_2;Wuhan-class;;;;;;;;;;;;;x   # 1958 (Romeo)
+CHC_attack_submarine_5;Ming-class;;;;;;;;;;;;;x   # 1975
+CHC_nuclear_submarine_3;Han-class;;;;;;;;;;;;;x   # 1974
+CHC_ballistic_missile_submarine_4;Xia-class;;;;;;;;;;;;;x   # 1981
+CHC_missile_boat_2;Heku-class;;;;;;;;;;;;;x   # 1965
+CHC_missile_boat_3;Huangfeng-class;;;;;;;;;;;;;x   # 1965
+CHC_missile_boat_7;Houxin-class;;;;;;;;;;;;;x   # 1991
+CHC_missile_frigate_1;Chengdu-class;;;;;;;;;;;;;x   # 1958
+CHC_missile_frigate_2;Jiangnan-class;;;;;;;;;;;;;x   # 1966
+CHC_missile_frigate_3;Chengdu Mod-class;;;;;;;;;;;;;x   # 1971
+CHC_missile_frigate_4;Jiangdong-class;;;;;;;;;;;;;x   # 1975
+CHC_missile_frigate_5;Jianghu I-class;;;;;;;;;;;;;x   # 1976
+CHC_missile_frigate_6;Jianghu II-class;;;;;;;;;;;;;x   # 1982
+CHC_missile_frigate_7;Jianghu III-class;;;;;;;;;;;;;x   # 1985
+CHC_missile_frigate_8;Jianghu IV-class;;;;;;;;;;;;;x   # 1985
+CHC_missile_frigate_9;Jiangwei I-class;;;;;;;;;;;;;x   # 1991
+CHC_missile_destroyer_2;Anshan-class;;;;;;;;;;;;;x  # 1971
+CHC_missile_destroyer_3;Luda I-class;;;;;;;;;;;;;x  # 1971
+CHC_missile_destroyer_4;Model 1975 Guided Missile Destroyer;;;;;;;;;;;;;x
+CHC_missile_destroyer_5;Model 1980 Guided Missile Destroyer;;;;;;;;;;;;;x
+CHC_missile_destroyer_6;Luda II-class;;;;;;;;;;;;;x  # 1987
+CHC_missile_destroyer_7;Model 1990 Guided Missile Destroyer;;;;;;;;;;;;;x
+CHL_submarine_0;Capitan O'Brien-class;;;;;;;;;;;;;x
+CHL_destroyer_0;Serrano-class;;;;;;;;;;;;;x
+CHL_battleship_0;Almirante Latorre-class;;;;;;;;;;;;;x   #
+DDR_missile_boat_6;Parchim I-class;;;;;;;;;;;;;x   # 1985
+DDR_missile_boat_7;Parchim II-class;;;;;;;;;;;;;x   # 1987
+DDR_missile_boat_8;Sassnitz-class;;;;;;;;;;;;;x   # 1992
+DEN_attack_submarine_1;Delfinen-class;;;;;;;;;;;;;x   # 1956
+DEN_missile_boat_4;Willemoes-class;;;;;;;;;;;;;x # 1978
+DEN_missile_boat_5;Niels Juel-class;;;;;;;;;;;;;x # 1980
+DEN_missile_frigate_2;Peder Skram-class;;;;;;;;;;;;;x # 1967
+DEN_missile_frigate_7;Thetis-class;;;;;;;;;;;;;x # 1991
+ENG_submarine_0;Amphion-class;;;;;;;;;;;;;x   # 1945
+ENG_attack_submarine_1;Porpoise-class;;;;;;;;;;;;;x   # 1958
+ENG_attack_submarine_2;Oberon-class;;;;;;;;;;;;;x   # 1961
+ENG_attack_submarine_8;Upholder-class;;;;;;;;;;;;;x   # 1990
+ENG_nuclear_submarine_0;Dreadnought-class;;;;;;;;;;;;;x   # 1963
+ENG_nuclear_submarine_1;Valiant-class;;;;;;;;;;;;;x   # 1966
+ENG_nuclear_submarine_2;Churchill-class;;;;;;;;;;;;;x   # 1970
+ENG_nuclear_submarine_3;Swiftsure-class;;;;;;;;;;;;;x   # 1973
+ENG_nuclear_submarine_5;Trafalgar-class;;;;;;;;;;;;;x   # 1983
+ENG_ballistic_missile_submarine_1;Resolution-class;;;;;;;;;;;;;x   # 1967
+ENG_ballistic_missile_submarine_6;Vanguard-class;;;;;;;;;;;;;x   # 1993
+ENG_missile_boat_5;Ramadan-class;;;;;;;;;;;;;x   # 1981 (Egyptian)
+ENG_missile_frigate_0;Whitby-class;;;;;;;;;;;;;x   # 1956
+ENG_missile_frigate_1;Leopard-class;;;;;;;;;;;;;x   # 1957
+ENG_missile_frigate_2;Rothesay-class;;;;;;;;;;;;;x   # 1960
+ENG_missile_frigate_3;Tribal-class;;;;;;;;;;;;;x   # 1961
+ENG_missile_frigate_4;Leander-class;;;;;;;;;;;;;x   # 1963
+ENG_missile_frigate_5;Alvand-class;;;;;;;;;;;;;x   # 1969 (Iranian)
+ENG_missile_frigate_6;Rothesay-class Refit;;;;;;;;;;;;;x   # 1972
+ENG_missile_frigate_7;Amazon-class;;;;;;;;;;;;;x   # 1974
+ENG_missile_frigate_8;Niterói-class;;;;;;;;;;;;;x   # 1974 (Brazilian)
+ENG_missile_frigate_9;Broadsword-class;;;;;;;;;;;;;x   # 1979
+ENG_missile_frigate_10;Model 1985 Guided Missile Frigate;;;;;;;;;;;;;x
+ENG_missile_frigate_11;Duke-class;;;;;;;;;;;;;x   # 1991
+ENG_destroyer_0;Battle-class;;;;;;;;;;;;;x  # 1945
+ENG_destroyer_1;Weapon-class;;;;;;;;;;;;;x  # 1947
+ENG_missile_destroyer_0;Daring-class;;;;;;;;;;;;;x  # 1951
+ENG_missile_destroyer_1;Almirante Williams-class;;;;;;;;;;;;;x   # 1960 (Chilean)
+ENG_missile_destroyer_2;County-class;;;;;;;;;;;;;x   # 1961
+ENG_missile_destroyer_3;Model 1965 Guided Missile Destroyer;;;;;;;;;;;;;x
+ENG_missile_destroyer_4;Model 1970 Guided Missile Destroyer;;;;;;;;;;;;;x
+ENG_missile_destroyer_5;Bristol-class;;;;;;;;;;;;;x   # 1975
+ENG_missile_destroyer_6;Sheffield-class;;;;;;;;;;;;;x   # 1975
+ENG_missile_destroyer_7;Model 1980 Guided Missile Destroyer;;;;;;;;;;;;;x
+ENG_missile_destroyer_8;Model 1985 Guided Missile Destroyer;;;;;;;;;;;;;x
+ENG_missile_destroyer_9;Model 1990 Guided Missile Destroyer;;;;;;;;;;;;;x
+ENG_cruiser_0;Minotaur-class;;;;;;;;;;;;;x   # 1944
+ENG_cruiser_1;Tiger-class;;;;;;;;;;;;;x   # 1959
+ENG_missile_cruiser_2;Tiger-class Mod;;;;;;;;;;;;;x #1965
+ENG_battleship_0;King George V-class;;;;;;;;;;;;;x   # 
+ENG_battleship_1;Vanguard-class;;;;;;;;;;;;;x   # 
+ENG_helicopter_carrier_2;Invincible-class;;;;;;;;;;;;;x   # 1980
+ENG_escort_carrier_0;Majestic-class;;;;;;;;;;;;;x # 1944-45
+ENG_escort_carrier_1;Centaur-class;;;;;;;;;;;;;x # 1953
+ENG_carrier_0;Implacable-class;;;;;;;;;;;;;x   # 1944
+ENG_carrier_1;Audacious-class;;;;;;;;;;;;;x   # 1951
+ENG_carrier_3;Audacious-class Refit;;;;;;;;;;;;;x   # 1964
+ENG_supercarrier_2;CVA-01-class;;;;;;;;;;;;;x   # 1966-69
+FIN_missile_boat_3;Turunmaa-class;;;;;;;;;;;;;x   # 1968
+FIN_missile_boat_5;Helsinki-class;;;;;;;;;;;;;x   # 1981
+FIN_missile_boat_7;Rauma-class;;;;;;;;;;;;;x   # 1990
+FRA_submarine_0;L'Aurore-class;;;;;;;;;;;;;x   # 1941 1946
+FRA_attack_submarine_1;Narval-class;;;;;;;;;;;;;x   # 1957
+FRA_attack_submarine_2;Arèthuse-class;;;;;;;;;;;;;x   # 1958
+FRA_attack_submarine_3;Daphnè-class;;;;;;;;;;;;;x   # 1964
+FRA_attack_submarine_5;Agosta-class;;;;;;;;;;;;;x   # 1977
+FRA_nuclear_submarine_5;Rubis-class;;;;;;;;;;;;;x   # 1983
+FRA_nuclear_submarine_6;Amèthyste-class;;;;;;;;;;;;;x   # 1992
+FRA_ballistic_missile_submarine_2;Redoutable-class;;;;;;;;;;;;;x   # 1971
+FRA_ballistic_missile_submarine_6;Triomphant-class;;;;;;;;;;;;;x   # 1997
+FRA_missile_boat_3;La Combattante II-class;;;;;;;;;;;;;x   # 1973 (Export)
+FRA_missile_boat_4;D'Estienne d'Orves-class;;;;;;;;;;;;;x   # 1976
+FRA_missile_boat_5;Drummond-class;;;;;;;;;;;;;x   # 1978 (Arngentinian)
+FRA_missile_boat_6;La Combattante III-class;;;;;;;;;;;;;x   # 1979
+FRA_missile_boat_7;Velarde-class;;;;;;;;;;;;;x   # 1980 (Peruvian)
+FRA_missile_boat_8;Model 1985 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+FRA_missile_boat_9;Model 1990 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+FRA_missile_frigate_0;Le Normand-class;;;;;;;;;;;;;x   # 1956
+FRA_missile_frigate_1;Commandant Rivière-class;;;;;;;;;;;;;x   # 1962
+FRA_missile_frigate_7;Florèal-class;;;;;;;;;;;;;x   # 1992
+FRA_destroyer_0;Fantasque-class;;;;;;;;;;;;;x  # 1935
+FRA_missile_destroyer_0;Surcouf-class;;;;;;;;;;;;;x   # 1955
+FRA_missile_destroyer_1;Duperrè-class;;;;;;;;;;;;;x   # 1957
+FRA_missile_destroyer_2;Surcouf-class Mod;;;;;;;;;;;;;x   # 1965
+FRA_missile_destroyer_3;Suffren-class;;;;;;;;;;;;;x   # 1967
+FRA_missile_destroyer_4;Aconit-class;;;;;;;;;;;;;x   # 1973
+FRA_missile_destroyer_5;Tourville-class;;;;;;;;;;;;;x   # 1974
+FRA_missile_destroyer_6;Georges Leygues-class;;;;;;;;;;;;;x   # 1979
+FRA_missile_destroyer_7;Model 1985 Guided Missile Destroyer;;;;;;;;;;;;;x
+FRA_missile_destroyer_8;Cassard-class;;;;;;;;;;;;;x   # 1990
+FRA_cruiser_0;La Galissonnière-class;;;;;;;;;;;;;x   # 1936
+FRA_cruiser_1;De Grasse-class;;;;;;;;;;;;;x   # 1956
+FRA_missile_cruiser_2;Jeanne d'Arc-class;;;;;;;;;;;;;x # 1964
+FRA_missile_cruiser_3;Colbert-class Refit;;;;;;;;;;;;;x # 1972
+FRA_battleship_0;Richelieu-class;;;;;;;;;;;;;x   # 1940
+FRA_carrier_0;Bèarn-class;;;;;;;;;;;;;x   # 1927
+FRA_carrier_3;Clemenceau-class;;;;;;;;;;;;;x   # 1961
+FRA_supercarrier_4;Charles de Gaulle-class;;;;;;;;;;;;;x # 2001
+FRG_attack_submarine_2;Type 201-class;;;;;;;;;;;;;x   # 1962
+FRG_attack_submarine_3;Type 207-class;;;;;;;;;;;;;x   # 1964 (Kobben class)
+FRG_attack_submarine_4;Type 205-class;;;;;;;;;;;;;x   # 1967
+FRG_attack_submarine_5;Type 206-class;;;;;;;;;;;;;x   # 1971
+FRG_attack_submarine_6;Type 209-class;;;;;;;;;;;;;x   # 1971
+FRG_attack_submarine_7;Model 1975 Attack Submarine;;;;;;;;;;;;;x
+FRG_attack_submarine_8;Model 1980 Attack Submarine;;;;;;;;;;;;;x
+FRG_attack_submarine_9;Santa Cruz-class;;;;;;;;;;;;;x   # 1984 (Argentinian)
+FRG_attack_submarine_10;Model 1990 Attack Submarine;;;;;;;;;;;;;x
+FRG_missile_boat_3;Tiger-class;;;;;;;;;;;;;x   # 1972
+FRG_missile_boat_4;Albatros-class;;;;;;;;;;;;;x   # 1976
+FRG_missile_boat_5;Gepard-class;;;;;;;;;;;;;x   # 1982
+FRG_missile_boat_6;MEKO 140-class;;;;;;;;;;;;;x   # 1985
+FRG_missile_frigate_1;Köln-class;;;;;;;;;;;;;x   # 1961
+FRG_missile_frigate_5;Bremen-class;;;;;;;;;;;;;x   # 1982
+FRG_missile_frigate_6;Almirante Padilla-class;;;;;;;;;;;;;x   # 1983 (Colombian)
+FRG_missile_frigate_7;MEKO 200-class;;;;;;;;;;;;;x   # 1987
+FRG_missile_frigate_8;Brandenburg-class;;;;;;;;;;;;;x   # 1992-94
+FRG_missile_destroyer_0;Hamburg-class;;;;;;;;;;;;;x   # 1959
+FRG_missile_destroyer_2;Lütjens-class;;;;;;;;;;;;;x   # 1969
+FRG_missile_destroyer_4;MEKO 360-class;;;;;;;;;;;;;x   # 1981
+GER_attack_submarine_2;Type 201-class;;;;;;;;;;;;;x   # 1962
+GER_attack_submarine_3;Type 207-class;;;;;;;;;;;;;x   # 1964 (Kobben class)
+GER_attack_submarine_4;Type 205-class;;;;;;;;;;;;;x   # 1967
+GER_attack_submarine_5;Type 206-class;;;;;;;;;;;;;x   # 1971
+GER_attack_submarine_6;Type 209-class;;;;;;;;;;;;;x   # 1971
+GER_attack_submarine_7;Model 1975 Attack Submarine;;;;;;;;;;;;;x
+GER_attack_submarine_8;Model 1980 Attack Submarine;;;;;;;;;;;;;x
+GER_attack_submarine_9;Santa Cruz-class;;;;;;;;;;;;;x   # 1984 (Argentinian)
+GER_attack_submarine_10;Model 1990 Attack Submarine;;;;;;;;;;;;;x
+GER_missile_boat_3;Tiger-class;;;;;;;;;;;;;x   # 1972
+GER_missile_boat_4;Albatros-class;;;;;;;;;;;;;x   # 1976
+GER_missile_boat_5;Gepard-class;;;;;;;;;;;;;x   # 1982
+GER_missile_boat_6;MEKO 140-class;;;;;;;;;;;;;x   # 1985
+GER_missile_boat_7;Parchim I-class;;;;;;;;;;;;;x   # 1985
+GER_missile_boat_8;Parchim II-class;;;;;;;;;;;;;x   # 1987
+GER_missile_boat_9;Sassnitz-class;;;;;;;;;;;;;x   # 1992
+GER_missile_frigate_1;Köln-class;;;;;;;;;;;;;x   # 1961
+GER_missile_frigate_5;Bremen-class;;;;;;;;;;;;;x   # 1982
+GER_missile_frigate_6;Almirante Padilla-class;;;;;;;;;;;;;x   # 1983 (Colombian)
+GER_missile_frigate_7;MEKO 200-class;;;;;;;;;;;;;x   # 1987
+GER_missile_frigate_8;Brandenburg-class;;;;;;;;;;;;;x   # 1992-94
+GER_missile_destroyer_0;Hamburg-class;;;;;;;;;;;;;x   # 1959
+GER_missile_destroyer_2;Lütjens-class;;;;;;;;;;;;;x   # 1969
+GER_missile_destroyer_4;MEKO 360-class;;;;;;;;;;;;;x   # 1981
+HOL_attack_submarine_2;Dolfijn-class;;;;;;;;;;;;;x   # 1960
+HOL_attack_submarine_4;Zwaardvis-class;;;;;;;;;;;;;x   # 1972
+HOL_attack_submarine_8;Walrus-class;;;;;;;;;;;;;x   # 1992
+HOL_missile_boat_5;Fatahillah-class;;;;;;;;;;;;;x   # 1979 (Indonesian)
+HOL_missile_frigate_2;Van Speijk-class;;;;;;;;;;;;;x   # 1967
+HOL_missile_frigate_4;Tromp-class;;;;;;;;;;;;;x   # 1974
+HOL_missile_frigate_5;Kortenaer-class;;;;;;;;;;;;;x   # 1978
+HOL_missile_frigate_6;Jacob van Heemskerck-class;;;;;;;;;;;;;x   # 1986
+HOL_missile_frigate_7;Karel Doorman-class;;;;;;;;;;;;;x   # 1991
+HOL_missile_destroyer_0;Holland-class;;;;;;;;;;;;;x   # 1954
+HOL_missile_destroyer_1;Friesland-class;;;;;;;;;;;;;x   # 1956
+HOL_missile_destroyer_2;Model 1960 Guided Missile Destroyer;;;;;;;;;;;;;x
+HOL_missile_destroyer_3;Model 1965 Guided Missile Destroyer;;;;;;;;;;;;;x
+HOL_missile_destroyer_4;Model 1970 Guided Missile Destroyer;;;;;;;;;;;;;x
+HOL_missile_destroyer_5;Model 1975 Guided Missile Destroyer;;;;;;;;;;;;;x
+HOL_missile_destroyer_6;Model 1980 Guided Missile Destroyer;;;;;;;;;;;;;x
+HOL_missile_destroyer_7;Model 1985 Guided Missile Destroyer;;;;;;;;;;;;;x
+HOL_missile_destroyer_8;Model 1990 Guided Missile Destroyer;;;;;;;;;;;;;x
+HOL_cruiser_0;Tromp-class;;;;;;;;;;;;;x   # 1939
+HOL_cruiser_1;De Zeven Provinciën-class;;;;;;;;;;;;;x   # 1953
+IND_missile_boat_7;Khukri-class;;;;;;;;;;;;;x   # 1990
+IND_missile_frigate_3;Nilgiri-class;;;;;;;;;;;;;x   # 1972
+IND_missile_frigate_6;Godavari-class;;;;;;;;;;;;;x   # 1983
+ISR_missile_boat_3;Sa'ar 2-class;;;;;;;;;;;;;x   # 1969
+ISR_missile_boat_4;Sa'ar 3-class;;;;;;;;;;;;;x   # 1970
+ISR_missile_boat_5;Sa'ar 4-class;;;;;;;;;;;;;x   # 1975
+ISR_missile_boat_6;Sa'ar 4.5-class;;;;;;;;;;;;;x   # 1980
+ISR_missile_boat_7;Model 1985 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+ISR_missile_boat_8;Dvora-class;;;;;;;;;;;;;x   # 1988
+ITA_submarine_0;Flutto-class;;;;;;;;;;;;;x   # 1942
+ITA_attack_submarine_3;Enrico Toti-class;;;;;;;;;;;;;x   # 1965
+ITA_attack_submarine_6;Nazario Sauro-class;;;;;;;;;;;;;x   # 1980
+ITA_attack_submarine_8;Salvatore Pelosi-class;;;;;;;;;;;;;x   # 1988
+ITA_missile_boat_0;Albatros-class;;;;;;;;;;;;;x   # 1955
+ITA_missile_boat_2;Pietro De Cristofaro-class;;;;;;;;;;;;;x   # 1965
+ITA_missile_boat_4;Sparviero-class;;;;;;;;;;;;;x   # 1973
+ITA_missile_boat_5;Assad-class;;;;;;;;;;;;;x   # 1981 (Iraqi)
+ITA_missile_boat_6;Minerva-class;;;;;;;;;;;;;x   # 1987
+ITA_missile_frigate_0;Centauro-class;;;;;;;;;;;;;x   # 1957
+ITA_missile_frigate_1;Carlo Bergamini-class;;;;;;;;;;;;;x   # 1961
+ITA_missile_frigate_3;Alpino-class;;;;;;;;;;;;;x   # 1968
+ITA_missile_frigate_4;Lupo-class;;;;;;;;;;;;;x   # 1977
+ITA_missile_frigate_5;Maestrale-class;;;;;;;;;;;;;x   # 1981
+ITA_missile_frigate_6;Artigliere-class;;;;;;;;;;;;;x   # 1987
+ITA_destroyer_0;Soldati-class;;;;;;;;;;;;;x   # 1939
+ITA_missile_destroyer_0;Impetuoso-class;;;;;;;;;;;;;x   # 1963
+ITA_missile_destroyer_1;Impavido-class;;;;;;;;;;;;;x   # 1963
+ITA_missile_destroyer_2;Audace-class;;;;;;;;;;;;;x   # 1971
+ITA_missile_destroyer_6;Durand de la Penne-class;;;;;;;;;;;;;x   # 1993
+ITA_cruiser_0;Duca degli Abruzzi-class;;;;;;;;;;;;;x   # 1937
+ITA_missile_cruiser_1;Giuseppe Garibaldi-class;;;;;;;;;;;;;x   # 1961
+ITA_missile_cruiser_2;Andrea Doria-class;;;;;;;;;;;;;x   # 1964
+ITA_missile_cruiser_3;Vittorio Veneto-class;;;;;;;;;;;;;x   # 1969
+ITA_battleship_0;Andrea Doria-class;;;;;;;;;;;;;x   # 1915/1940
+ITA_battleship_1;Littorio-class;;;;;;;;;;;;;x   # 1940
+ITA_helicopter_carrier_3;Giuseppe Garibaldi-class;;;;;;;;;;;;;x   # 1985
+JAP_attack_submarine_0;Model 1950 Attack Submarine;;;;;;;;;;;;;x
+JAP_attack_submarine_1;Model 1955 Attack Submarine;;;;;;;;;;;;;x
+JAP_attack_submarine_2;Oyashio-class;;;;;;;;;;;;;x   # 1960
+JAP_attack_submarine_3;Hayashio-class;;;;;;;;;;;;;x   # 1962
+JAP_attack_submarine_4;Natsushio-class;;;;;;;;;;;;;x   # 1963
+JAP_attack_submarine_5;Oshio-class;;;;;;;;;;;;;x   # 1965
+JAP_attack_submarine_6;Asashio-class;;;;;;;;;;;;;x   # 1966
+JAP_attack_submarine_7;Uzushio-class;;;;;;;;;;;;;x   # 1971
+JAP_attack_submarine_8;Model 1975 Attack Submarine;;;;;;;;;;;;;x
+JAP_attack_submarine_9;Yushio-class;;;;;;;;;;;;;x   # 1980
+JAP_attack_submarine_10;Model 1985 Attack Submarine;;;;;;;;;;;;;x
+JAP_attack_submarine_11;Harushio-class;;;;;;;;;;;;;x   # 1990
+JAP_missile_frigate_0;Model 1955 Guided Missile Frigate;;;;;;;;;;;;;x
+JAP_missile_frigate_1;Ayanami-class;;;;;;;;;;;;;x   # 1958
+JAP_missile_frigate_2;Isuzu-class;;;;;;;;;;;;;x   # 1961
+JAP_missile_frigate_3;Yamagumo-class;;;;;;;;;;;;;x   # 1966
+JAP_missile_frigate_4;Minegumo-class;;;;;;;;;;;;;x   # 1968
+JAP_missile_frigate_5;Chikugo-class;;;;;;;;;;;;;x   # 1971
+JAP_missile_frigate_6;Model 1975 Guided Missile Frigate;;;;;;;;;;;;;x
+JAP_missile_frigate_7;Ishikari-class;;;;;;;;;;;;;x   # 1981
+JAP_missile_frigate_8;Hatsuyuki-class;;;;;;;;;;;;;x   # 1982
+JAP_missile_frigate_9;Yubari-class;;;;;;;;;;;;;x   # 1983
+JAP_missile_frigate_10;Abukuma-class;;;;;;;;;;;;;x   # 1989
+JAP_missile_destroyer_0;Akizuki-class;;;;;;;;;;;;;x   # 1960
+JAP_missile_destroyer_1;Amatsukaze-class;;;;;;;;;;;;;x   # 1965
+JAP_missile_destroyer_2;Takatsuki-class;;;;;;;;;;;;;x   # 1967
+JAP_missile_destroyer_3;Haruna-class;;;;;;;;;;;;;x   # 1973
+JAP_missile_destroyer_4;Tachikaze-class;;;;;;;;;;;;;x   # 1976
+JAP_missile_destroyer_5;Shirane-class;;;;;;;;;;;;;x   # 1977
+JAP_missile_destroyer_6;Model 1980 Guided Missile Destroyer;;;;;;;;;;;;;x
+JAP_missile_destroyer_7;Hatakaze-class;;;;;;;;;;;;;x   # 1986
+JAP_missile_destroyer_8;Asagiri-class;;;;;;;;;;;;;x   # 1988
+JAP_missile_destroyer_9;Kongo-class;;;;;;;;;;;;;x   # 1993
+KOR_missile_boat_6;Donghae-class;;;;;;;;;;;;;x   # 1983
+KOR_missile_boat_7;Pohang-class;;;;;;;;;;;;;x   # 1984
+KOR_missile_boat_8;Model 1990 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+KOR_missile_frigate_5;Ulsan-class;;;;;;;;;;;;;x   # 1981
+NOR_attack_submarine_8;Ula-class;;;;;;;;;;;;;x   # 1989
+NOR_missile_boat_2;Storm-class;;;;;;;;;;;;;x   # 1963
+NOR_missile_boat_3;Sleipner-class;;;;;;;;;;;;;x   # 1965
+NOR_missile_boat_4;Snøgg-class;;;;;;;;;;;;;x   # 1970
+NOR_missile_boat_5;Hauk-class;;;;;;;;;;;;;x   # 1977
+NOR_missile_boat_6;Model 1980 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+NOR_missile_boat_7;Model 1985 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+NOR_missile_boat_8;Model 1990 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+NOR_missile_frigate_2;Oslo-class;;;;;;;;;;;;;x   # 1966
+POL_destroyer_0;Grom-class;;;;;;;;;;;;;x   # 1937
+POR_destroyer_0;Douro-class;;;;;;;;;;;;;x   # 1935
+PRK_attack_submarine_8;Sang-O-class;;;;;;;;;;;;;x   # 1991
+PRK_missile_boat_2;Sariwon-class;;;;;;;;;;;;;x   # 1960's
+PRK_missile_frigate_4;Najin-class;;;;;;;;;;;;;x   # 1973
+PRK_missile_frigate_6;Najin Mod-class;;;;;;;;;;;;;x   # 1985
+ROM_missile_boat_6;Tetal I-class;;;;;;;;;;;;;x   # 1983
+ROM_missile_boat_7;Tetal II-class;;;;;;;;;;;;;x   # 1989
+ROM_destroyer_0;Regele Ferdinand-class;;;;;;;;;;;;;x   # 1930
+ROM_missile_destroyer_6;Marasesti-class;;;;;;;;;;;;;x   # 1991
+SIA_submarine_0;Sinsamudar-class;;;;;;;;;;;;;x # 1938
+SOV_submarine_0;Series IX Srednyaya-class;;;;;;;;;;;;;x   # 1937
+SOV_attack_submarine_0;Zulu-class;;;;;;;;;;;;;x   # 1951
+SOV_attack_submarine_1;Whiskey-class;;;;;;;;;;;;;x   # 1952
+SOV_attack_submarine_2;Model 1955 Attack Submarine;;;;;;;;;;;;;x
+SOV_attack_submarine_3;Romeo-class;;;;;;;;;;;;;x   # 1959
+SOV_attack_submarine_4;Foxtrot-class;;;;;;;;;;;;;x   # 1959
+SOV_attack_submarine_5;Model 1965 Attack Submarine;;;;;;;;;;;;;x
+SOV_attack_submarine_6;Model 1970 Attack Submarine;;;;;;;;;;;;;x
+SOV_attack_submarine_7;Tango-class;;;;;;;;;;;;;x   # 1974
+SOV_attack_submarine_8;Kilo-class;;;;;;;;;;;;;x   # 1982
+SOV_attack_submarine_9;Model 1985 Attack Submarine;;;;;;;;;;;;;x
+SOV_attack_submarine_10;Model 1990 Attack Submarine;;;;;;;;;;;;;x
+SOV_guided_submarine_0;Whiskey SC-class;;;;;;;;;;;;;x   # 1957
+SOV_guided_submarine_1;Whiskey TC-class;;;;;;;;;;;;;x   # 1960
+SOV_guided_submarine_2;Whiskey LB-class;;;;;;;;;;;;;x   # 1962
+SOV_guided_submarine_3;Juliett-class;;;;;;;;;;;;;x   # 1963
+SOV_guided_submarine_4;Model 1970 Cruise Missile Submarine;;;;;;;;;;;;;x
+SOV_guided_submarine_5;Model 1975 Cruise Missile Submarine;;;;;;;;;;;;;x
+SOV_guided_submarine_6;Model 1980 Cruise Missile Submarine;;;;;;;;;;;;;x
+SOV_guided_submarine_7;Model 1985 Cruise Missile Submarine;;;;;;;;;;;;;x
+SOV_guided_submarine_8;Model 1990 Cruise Missile Submarine;;;;;;;;;;;;;x
+SOV_nuclear_submarine_0;November-class;;;;;;;;;;;;;x   # 1959
+SOV_nuclear_submarine_1;Victor I-class;;;;;;;;;;;;;x   # 1967
+SOV_nuclear_submarine_2;Victor II-class;;;;;;;;;;;;;x   # 1972
+SOV_nuclear_submarine_3;Victor III-class;;;;;;;;;;;;;x   # 1977
+SOV_nuclear_submarine_4;Alfa-class;;;;;;;;;;;;;x   # 1978
+SOV_nuclear_submarine_5;Akula-class;;;;;;;;;;;;;x   # 1984
+SOV_nuclear_submarine_6;Severodvinsk-class;;;;;;;;;;;;;x   # 20xx
+SOV_nuclear_guided_submarine_0;Echo I-class;;;;;;;;;;;;;x   # 1960
+SOV_nuclear_guided_submarine_1;Echo II-class;;;;;;;;;;;;;x   # 1962
+SOV_nuclear_guided_submarine_2;Charlie I-class;;;;;;;;;;;;;x   # 1968
+SOV_nuclear_guided_submarine_3;Papa-class;;;;;;;;;;;;;x   # 1969
+SOV_nuclear_guided_submarine_4;Charlie II-class;;;;;;;;;;;;;x   # 1975
+SOV_nuclear_guided_submarine_5;Echo II Mod-class;;;;;;;;;;;;;x   # 1982
+SOV_nuclear_guided_submarine_6;Oscar I-class;;;;;;;;;;;;;x   # 1980
+SOV_nuclear_guided_submarine_7;Oscar II-class;;;;;;;;;;;;;x   # 1986
+SOV_nuclear_guided_submarine_8;Model 1990 Nuclear-Powered Cruise Missile Submarine;;;;;;;;;;;;;x
+SOV_ballistic_missile_submarine_0;Hotel I-class;;;;;;;;;;;;;x   # 1960
+SOV_ballistic_missile_submarine_1;Hotel II-class;;;;;;;;;;;;;x   # 1965
+SOV_ballistic_missile_submarine_2;Yankee-class;;;;;;;;;;;;;x   # 1967
+SOV_ballistic_missile_submarine_3;Delta I-class;;;;;;;;;;;;;x   # 1972
+SOV_ballistic_missile_submarine_4;Delta II-class;;;;;;;;;;;;;x   # 1975
+SOV_ballistic_missile_submarine_5;Delta III-class;;;;;;;;;;;;;x   # 1976
+SOV_ballistic_missile_submarine_6;Model 1980 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+SOV_ballistic_missile_submarine_7;Delta IV-class;;;;;;;;;;;;;x   # 1985
+SOV_ballistic_missile_submarine_8;Typhoon-class;;;;;;;;;;;;;x   # 1983
+SOV_ballistic_missile_submarine_9;Borei-class;;;;;;;;;;;;;x   # 20xx
+SOV_missile_boat_0;Komar-class;;;;;;;;;;;;;x   # 1952
+SOV_missile_boat_1;Osa-class;;;;;;;;;;;;;x   # 1960
+SOV_missile_boat_2;Nanuchka I-class;;;;;;;;;;;;;x   # 1970
+SOV_missile_boat_3;Grisha I-class;;;;;;;;;;;;;x   # 1974
+SOV_missile_boat_4;Grisha II-class;;;;;;;;;;;;;x   # 1975
+SOV_missile_boat_5;Grisha III-class;;;;;;;;;;;;;x   # 1977
+SOV_missile_boat_6;Matka-class;;;;;;;;;;;;;x   # 1977
+SOV_missile_boat_7;Nanuchka II-class;;;;;;;;;;;;;x   # 1976
+SOV_missile_boat_8;Nanuchka III-class;;;;;;;;;;;;;x   # 1979
+SOV_missile_boat_9;Tarantul II-class;;;;;;;;;;;;;x   # 1979
+SOV_missile_boat_10;Tarantul III-class;;;;;;;;;;;;;x   # 1981
+SOV_missile_boat_11;Grisha V-class;;;;;;;;;;;;;x   # 1986
+SOV_missile_frigate_0;Kola-class;;;;;;;;;;;;;x   # 1951
+SOV_missile_frigate_1;Riga-class;;;;;;;;;;;;;x   # 1954
+SOV_missile_frigate_2;Petya I-class;;;;;;;;;;;;;x   # 1961
+SOV_missile_frigate_3;Mirka-class;;;;;;;;;;;;;x   # 1964
+SOV_missile_frigate_4;Petya II-class;;;;;;;;;;;;;x   # 1966
+SOV_missile_frigate_5;Krivak I-class;;;;;;;;;;;;;x   # 1970
+SOV_missile_frigate_6;Krivak II-class;;;;;;;;;;;;;x   # 1975
+SOV_missile_frigate_7;Koni-class;;;;;;;;;;;;;x   # 1978
+SOV_missile_frigate_8;Krivak III-class;;;;;;;;;;;;;x   # 1983
+SOV_missile_frigate_9;Krivak IV-class;;;;;;;;;;;;;x   # 1990
+SOV_missile_frigate_10;Neustrashimy-class;;;;;;;;;;;;;x   # 1988/93
+SOV_destroyer_0;Gnevny-class;;;;;;;;;;;;;x   # 1944
+SOV_destroyer_1;Skoriy-class;;;;;;;;;;;;;x   # 1949
+SOV_missile_destroyer_0;Kotlin-class;;;;;;;;;;;;;x   # 1956
+SOV_missile_destroyer_1;Kildin-class;;;;;;;;;;;;;x   # 1958
+SOV_missile_destroyer_2;Kildin Mod-class;;;;;;;;;;;;;x   # 1960
+SOV_missile_destroyer_3;Krupny-class;;;;;;;;;;;;;x   # 1960
+SOV_missile_destroyer_4;Kanin-class;;;;;;;;;;;;;x   # 1961
+SOV_missile_destroyer_5;Kashin-class;;;;;;;;;;;;;x   # 1964
+SOV_missile_destroyer_6;Model 1970 Guided Missile Destroyer;;;;;;;;;;;;;x
+SOV_missile_destroyer_7;Rajput-class;;;;;;;;;;;;;x   # 1979
+SOV_missile_destroyer_8;Sovremenny-class;;;;;;;;;;;;;x   # 1980
+SOV_missile_destroyer_9;Udaloy-class;;;;;;;;;;;;;x   # 1981
+SOV_missile_destroyer_10;Sovremenny Mod-class;;;;;;;;;;;;;x   # 1992
+SOV_missile_destroyer_11;Udaloy II-class;;;;;;;;;;;;;x   # 1999
+SOV_cruiser_0;Kirov-class;;;;;;;;;;;;;x   # 1938
+SOV_cruiser_1;Chapayev-class;;;;;;;;;;;;;x   # 1950
+SOV_cruiser_2;Sverdlov-class;;;;;;;;;;;;;x   # 1952
+SOV_missile_cruiser_1;Kynda-class;;;;;;;;;;;;;x   # 1962
+SOV_missile_cruiser_2;Kresta I-class;;;;;;;;;;;;;x   # 1967
+SOV_missile_cruiser_3;Kresta II-class;;;;;;;;;;;;;x   # 1968
+SOV_missile_cruiser_4;Kara-class;;;;;;;;;;;;;x   # 1969
+SOV_missile_cruiser_5;Model 1975 Guided Missile Cruiser;;;;;;;;;;;;;x
+SOV_missile_cruiser_6;Slava-class;;;;;;;;;;;;;x   # 1982
+SOV_missile_cruiser_7;Model 1985 Guided Missile Cruiser;;;;;;;;;;;;;x
+SOV_missile_cruiser_8;Model 1990 Guided Missile Cruiser;;;;;;;;;;;;;x
+SOV_nuclear_battlecruiser_0;Kirov-class;;;;;;;;;;;;;x   # 1981
+SOV_nuclear_battlecruiser_2;Kirov Mod-class;;;;;;;;;;;;;x   # 1988
+SOV_battleship_0;Gangut-class;;;;;;;;;;;;;x   # 
+SOV_helicopter_carrier_1;Moskva-class;;;;;;;;;;;;;x   # 1967
+SOV_helicopter_carrier_2;Kiev-class;;;;;;;;;;;;;x   # 1975
+SOV_helicopter_carrier_3;Kiev Mod-class;;;;;;;;;;;;;x   # 1988
+SOV_carrier_6;Kuznetsov-class;;;;;;;;;;;;;x   # 1990
+SOV_supercarrier_4;Ulyanovsk-class;;;;;;;;;;;;;x   # 1993
+SPA_submarine_0;General Sanjuro-class;;;;;;;;;;;;;x   # 1937
+SPA_submarine_1;D-class;;;;;;;;;;;;;x   # 1947
+SPA_missile_boat_0;Atrevida-class;;;;;;;;;;;;;x   # 1954
+SPA_missile_boat_3;João Coutinho-class;;;;;;;;;;;;;x   # 1970 (Portoguese)
+SPA_missile_boat_5;Descubierta-class;;;;;;;;;;;;;x   # 1978
+SPA_missile_frigate_4;Baleares-class;;;;;;;;;;;;;x   # 1974
+SPA_missile_frigate_6;Santa María-class;;;;;;;;;;;;;x   # 1986
+SPA_destroyer_0;Churruca-class;;;;;;;;;;;;;x   # 1927
+SPA_destroyer_1;Audaz-class;;;;;;;;;;;;;x   # 1953
+SPA_missile_destroyer_1;Oquendo-class;;;;;;;;;;;;;x   # 1963
+SPA_missile_destroyer_2;Roger de Lauria-class;;;;;;;;;;;;;x   # 1969
+SPA_cruiser_0;Canarias-class;;;;;;;;;;;;;x   # 1936
+SPA_helicopter_carrier_4;Principe de Asturias-class;;;;;;;;;;;;;x   # 1988
+SWE_submarine_0;Neptun-class;;;;;;;;;;;;;x   # 1943
+SWE_attack_submarine_1;Hajen-class;;;;;;;;;;;;;x   # 1957
+SWE_attack_submarine_2;Draken-class;;;;;;;;;;;;;x   # 1962
+SWE_attack_submarine_4;Sjöormen-class;;;;;;;;;;;;;x   # 1968
+SWE_attack_submarine_6;Näcken-class;;;;;;;;;;;;;x   # 1980
+SWE_attack_submarine_7;Västergötland-class;;;;;;;;;;;;;x   # 1987
+SWE_attack_submarine_8;Gotland-class;;;;;;;;;;;;;x   # 1996
+SWE_missile_boat_5;Norrköping-class;;;;;;;;;;;;;x   # 1981
+SWE_missile_boat_6;Stockholm-class;;;;;;;;;;;;;x   # 1986
+SWE_missile_boat_7;Göteborg-class;;;;;;;;;;;;;x   # 1990
+SWE_destroyer_0;Visby-class;;;;;;;;;;;;;x   # 1944
+SWE_destroyer_1;Öland-class;;;;;;;;;;;;;x   # 1947
+SWE_missile_destroyer_0;Halland-class;;;;;;;;;;;;;x   # 1955
+SWE_missile_destroyer_1;Östergötland-class;;;;;;;;;;;;;x   # 1958
+SWE_missile_destroyer_2;Model 1965 Guided Missile Destroyer;;;;;;;;;;;;;x
+SWE_missile_destroyer_3;Model 1970 Guided Missile Destroyer;;;;;;;;;;;;;x
+SWE_missile_destroyer_4;Model 1975 Guided Missile Destroyer;;;;;;;;;;;;;x
+SWE_missile_destroyer_5;Model 1980 Guided Missile Destroyer;;;;;;;;;;;;;x
+SWE_missile_destroyer_6;Model 1985 Guided Missile Destroyer;;;;;;;;;;;;;x
+SWE_missile_destroyer_7;Model 1990 Guided Missile Destroyer;;;;;;;;;;;;;x
+SWE_cruiser_0;Tre Kronor-class;;;;;;;;;;;;;x   # 1947
+TUR_submarine_0;Saldiray-class;;;;;;;;;;;;;x   # 1939
+TUR_missile_boat_4;Dogan-class;;;;;;;;;;;;;x   # 1977
+TUR_destroyer_0;Kocatepe-class;;;;;;;;;;;;;x   # 1931
+TUR_battleship_0;Yavuz Sultan Selim-class;;;;;;;;;;;;;x   # 1914
+USA_submarine_0;Balao-class;;;;;;;;;;;;;x   # 1943
+USA_attack_submarine_0;Barracuda-class;;;;;;;;;;;;;x   # 1951
+USA_attack_submarine_1;Tang-class;;;;;;;;;;;;;x   # 1951
+USA_attack_submarine_2;Sailfish-class;;;;;;;;;;;;;x   # 1951
+USA_attack_submarine_3;Model 1955 Attack Submarine;;;;;;;;;;;;;x
+USA_attack_submarine_4;Barbel-class;;;;;;;;;;;;;x   # 1959
+USA_attack_submarine_5;Model 1965 Attack Submarine;;;;;;;;;;;;;x
+USA_attack_submarine_6;Model 1970 Attack Submarine;;;;;;;;;;;;;x
+USA_attack_submarine_7;Model 1975 Attack Submarine;;;;;;;;;;;;;x
+USA_attack_submarine_8;Model 1980 Attack Submarine;;;;;;;;;;;;;x
+USA_attack_submarine_9;Model 1985 Attack Submarine;;;;;;;;;;;;;x
+USA_attack_submarine_10;Model 1990 Attack Submarine;;;;;;;;;;;;;x
+USA_guided_submarine_0;Grayback-class;;;;;;;;;;;;;x   # 1957
+USA_nuclear_submarine_0;Skate-class;;;;;;;;;;;;;x   # 1957
+USA_nuclear_submarine_1;Skipjack-class;;;;;;;;;;;;;x   # 1959
+USA_nuclear_submarine_2;Thresher-class;;;;;;;;;;;;;x   # 1961
+USA_nuclear_submarine_3;Sturgeon-class;;;;;;;;;;;;;x   # 1967
+USA_nuclear_submarine_4;Model 1970 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+USA_nuclear_submarine_5;Los Angeles-class;;;;;;;;;;;;;x   # 1976
+USA_nuclear_submarine_6;Model 1980 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+USA_nuclear_submarine_7;Model 1985 Nuclear-Powered Attack Submarine;;;;;;;;;;;;;x
+USA_nuclear_submarine_8;Los Angeles Mod-class;;;;;;;;;;;;;x   # 1988
+USA_nuclear_submarine_9;Seawolf-class;;;;;;;;;;;;;x   # 1997
+USA_ballistic_missile_submarine_0;George Washington-class;;;;;;;;;;;;;x   # 1959
+USA_ballistic_missile_submarine_1;Ethan Allen-class;;;;;;;;;;;;;x   # 1961
+USA_ballistic_missile_submarine_2;Lafayette-class;;;;;;;;;;;;;x   # 1963
+USA_ballistic_missile_submarine_3;James Madison-class;;;;;;;;;;;;;x   # 1964
+USA_ballistic_missile_submarine_4;Benjamin Franklin-class;;;;;;;;;;;;;x   # 1965
+USA_ballistic_missile_submarine_5;Model 1970 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+USA_ballistic_missile_submarine_6;Model 1975 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+USA_ballistic_missile_submarine_7;Ohio-class;;;;;;;;;;;;;x   # 1981
+USA_ballistic_missile_submarine_8;Model 1985 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+USA_ballistic_missile_submarine_9;Model 1990 Nuclear-Powered Ballistic Missile Submarine;;;;;;;;;;;;;x
+USA_missile_boat_0;Model 1955 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+USA_missile_boat_1;Model 1960 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+USA_missile_boat_2;Asheville-class;;;;;;;;;;;;;x   # 1966
+USA_missile_boat_3;Model 1970 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+USA_missile_boat_4;Model 1975 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+USA_missile_boat_5;Al Sadiq-class;;;;;;;;;;;;;x   # 1980 (Saudi Arabian)
+USA_missile_boat_6;Badr-class;;;;;;;;;;;;;x   # 1981 (Saudi Arabian)
+USA_missile_boat_7;Ratanakosin-class;;;;;;;;;;;;;x   # 1986 (Thai)
+USA_missile_boat_8;Model 1990 Missile Boat/Corvette Flotilla;;;;;;;;;;;;;x # 10 ship per flotilla, 5 if corvettes
+USA_missile_frigate_0;Dealey-class;;;;;;;;;;;;;x   # 1954
+USA_missile_frigate_1;Claud Jones-class;;;;;;;;;;;;;x   # 1958
+USA_missile_frigate_2;Bronstein-class;;;;;;;;;;;;;x   # 1963
+USA_missile_frigate_3;Garcia-class;;;;;;;;;;;;;x   # 1964
+USA_missile_frigate_4;Brooke-class;;;;;;;;;;;;;x   # 1966
+USA_missile_frigate_5;Knox-class;;;;;;;;;;;;;x   # 1969
+USA_missile_frigate_6;Oliver Hazard Perry-class;;;;;;;;;;;;;x   # 1977
+USA_missile_frigate_7;Model 1980 Guided Missile Frigate;;;;;;;;;;;;;x
+USA_missile_frigate_8;Model 1985 Guided Missile Frigate;;;;;;;;;;;;;x
+USA_missile_frigate_9;Model 1990 Guided Missile Frigate;;;;;;;;;;;;;x
+USA_destroyer_0;Gearing-class;;;;;;;;;;;;;x   # 1945
+USA_missile_destroyer_0;Mitscher-class;;;;;;;;;;;;;x   # 1953
+USA_missile_destroyer_1;Forrest Sherman-class;;;;;;;;;;;;;x   # 1955
+USA_missile_destroyer_2;Farragut-class;;;;;;;;;;;;;x   # 1960
+USA_missile_destroyer_3;Charles F. Adams-class;;;;;;;;;;;;;x   # 1960
+USA_missile_destroyer_4;Model 1965 Guided Missile Destroyer;;;;;;;;;;;;;x
+USA_missile_destroyer_5;Model 1970 Guided Missile Destroyer;;;;;;;;;;;;;x
+USA_missile_destroyer_6;Spruance-class;;;;;;;;;;;;;x   # 1975
+USA_missile_destroyer_7;Spruance Mod-class;;;;;;;;;;;;;x   # 1980
+USA_missile_destroyer_8;Kidd-class;;;;;;;;;;;;;x   # 1981
+USA_missile_destroyer_9;Model 1985 Guided Missile Destroyer;;;;;;;;;;;;;x
+USA_missile_destroyer_10;Arleigh Burke-class Flight I;;;;;;;;;;;;;x   # 1991
+USA_missile_destroyer_11;Arleigh Burke-class Flight II;;;;;;;;;;;;;x   # 1998
+USA_cruiser_0;Baltimore-class;;;;;;;;;;;;;x   # 1944
+USA_cruiser_1;Alaska-class;;;;;;;;;;;;;x   # 1944
+USA_cruiser_2;Fargo-class;;;;;;;;;;;;;x   # 1945
+USA_cruiser_3;Worcester-class;;;;;;;;;;;;;x   # 1948
+USA_missile_cruiser_0;Boston-class;;;;;;;;;;;;;x   # 1955
+USA_missile_cruiser_1;Galveston-class;;;;;;;;;;;;;x   # 1958
+USA_missile_cruiser_2;Providence-class;;;;;;;;;;;;;x   # 1959
+USA_missile_cruiser_3;Leahy-class;;;;;;;;;;;;;x   # 1962
+USA_missile_cruiser_4;Belknap-class;;;;;;;;;;;;;x   # 1964
+USA_missile_cruiser_5;Model 1970 Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_missile_cruiser_6;Model 1975 Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_missile_cruiser_7;Model 1980 Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_missile_cruiser_8;Ticonderoga-class;;;;;;;;;;;;;x   # 1983
+USA_missile_cruiser_9;Ticonderoga Mod-class;;;;;;;;;;;;;x   # 1986
+USA_missile_cruiser_10;Model 1990 Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_nuclear_missile_cruiser_0;Long Beach-class;;;;;;;;;;;;;x   # 1961
+USA_nuclear_missile_cruiser_1;Bainbridge-class;;;;;;;;;;;;;x   # 1962
+USA_nuclear_missile_cruiser_2;Truxtun-class;;;;;;;;;;;;;x   # 1967
+USA_nuclear_missile_cruiser_3;Model 1970 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_nuclear_missile_cruiser_4;California-class;;;;;;;;;;;;;x   # 1974
+USA_nuclear_missile_cruiser_5;Virginia-class;;;;;;;;;;;;;x   # 1976
+USA_nuclear_missile_cruiser_6;Model 1980 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_nuclear_missile_cruiser_7;Model 1985 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_nuclear_missile_cruiser_8;Model 1990 Nuclear-Powered Guided Missile Cruiser;;;;;;;;;;;;;x
+USA_battleship_0;Iowa-class;;;;;;;;;;;;;x   # 
+USA_battleship_1;Iowa-class Modernized;;;;;;;;;;;;;x   # 1984
+USA_helicopter_carrier_0;Boxer LPH-class;;;;;;;;;;;;;x   # 1955-59
+USA_helicopter_carrier_1;Iwo Jima LPH-class;;;;;;;;;;;;;x   # 1961
+USA_helicopter_carrier_2;Model 1965 Helicopter Carrier;;;;;;;;;;;;;x
+USA_helicopter_carrier_3;Tarawa LHA-class;;;;;;;;;;;;;x   # 1976
+USA_helicopter_carrier_4;Model 1985 Helicopter Carrier;;;;;;;;;;;;;x
+USA_helicopter_carrier_5;Wasp LHD-class;;;;;;;;;;;;;x   # 1989
+USA_escort_carrier_0;Independence-class;;;;;;;;;;;;;x   # 1943
+USA_carrier_0;Essex-class;;;;;;;;;;;;;x   # 1942
+USA_carrier_1;Midway-class;;;;;;;;;;;;;x   # 1945
+USA_carrier_2;Model 1950 Fleet Carrier;;;;;;;;;;;;;x
+USA_carrier_3;Essex-class Refit;;;;;;;;;;;;;x   # 1955
+USA_carrier_4;Model 1960 Fleet Carrier;;;;;;;;;;;;;x
+USA_carrier_5;Midway-class Refit;;;;;;;;;;;;;x   # 1970
+USA_carrier_6;Model 1980 Fleet Carrier;;;;;;;;;;;;;x
+USA_carrier_7;Model 1990 Fleet Carrier;;;;;;;;;;;;;x
+USA_supercarrier_0;Forrestal-class;;;;;;;;;;;;;x   # 1955
+USA_supercarrier_1;Kitty Hawk-class;;;;;;;;;;;;;x   # 1961
+USA_supercarrier_2;Enterprise-class;;;;;;;;;;;;;x   # 1961
+USA_supercarrier_3;Nimitz-class;;;;;;;;;;;;;x   # 1975
+USA_supercarrier_4;Model 1980 Supercarrier;;;;;;;;;;;;;x
+USA_supercarrier_5;Model 1990 Supercarrier;;;;;;;;;;;;;x
+YUG_attack_submarine_2;Sutjeska-class;;;;;;;;;;;;;x   # 1962
+YUG_attack_submarine_4;Heroj-class;;;;;;;;;;;;;x   # 1970
+YUG_attack_submarine_6;Sava-class;;;;;;;;;;;;;x   # 1980
+YUG_missile_boat_5;Koncar-class;;;;;;;;;;;;;x   # 1978
+YUG_missile_boat_7;Kralj-class;;;;;;;;;;;;;x   # 1992
+YUG_missile_frigate_6;Kotor-class;;;;;;;;;;;;;x   # 1986
+######################################;;;;;;;;;;;;;;x

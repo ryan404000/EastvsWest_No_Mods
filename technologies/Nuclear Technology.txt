@@ -1,0 +1,473 @@
+# List of all Nuclear Technology techs
+	#nuclear_freefall_bomb					( 8 levels)
+	#tech_icbm_missile						( 8 levels)
+	#tech_slbm_missile						( 9 levels)
+	#abm_site_tech							( 2 levels)
+	
+	#nuclearcommand_nuclear_strategy		( 1 level )
+	#nuclearcommand_mad						( 1 level )
+	#nuclearcommand_secondstrikecapability	( 1 level )
+	#nuclearcommand_countervailingstrategy	( 1 level )
+	#nuclearcommand_sdi						( 1 level )
+	#nuclearcommand_nuclearnonproliferation	( 1 level )
+	
+	#nuclear_atomic_theory					( 1 level )
+	#nuclear_enrichment_process				( 1 level )
+	#nuclear_nuclear_power					( 1 level )
+	#nuclear_delivery_systems				( 3 levels)
+	#nuclear_thermonuclear_design			( 1 level )
+	
+
+### Bombs (gravitational) (US sample models)
+
+nuclear_freefall_bomb = {	# for bomber_strategic planes
+	multilevel = yes
+	time = 365
+	cost = 200
+	folder = nuclear_tech1_folder
+	level = 8
+	
+	allow_level = {
+		1 = { 
+			nuclear_enrichment_process = 1
+			aircraft_strategicbomber = 1
+			nuclear_delivery_systems = 1
+		}
+		2 = {}
+		3 = {
+			industry_physics = 3
+			industry_mathematics = 2
+		}
+		4 = { 
+			nuclear_thermonuclear_design = 1 
+		}
+		5 = {
+			industry_physics = 4
+			industry_mathematics = 3
+		}
+		6 = {}
+		7 = {}
+		8 = {}
+	}
+	traits = {
+		science_theory	
+		nuclear_theory
+		aircraft_theory		
+	}	
+	level_effect = {
+		1 = { bomber_strategic = { nuclear_attack = 3 } }	# Mk-3, 50kt 1946
+		2 = { bomber_strategic = { nuclear_attack = 7 range = -100} }	# Mk-5, 120kt 1952
+		3 = { bomber_strategic = { nuclear_attack = 4 range = -10} } 	# Mk-6, 160kt 1953
+		4 = { bomber_strategic = { nuclear_attack = 36 range = -1000} }  # Mk-15 3.8Mt 1955
+		5 = { bomber_strategic = { nuclear_attack = 60 range = -1000} } 	# Mk-17 10Mt 1956
+		6 = { bomber_strategic = { nuclear_attack = 150 range= -1000} }	# Mk-41 25Mt 1960
+		7 = { bomber_strategic = { nuclear_attack = -160 range= 2000} }	# Mk-53 9Mt 1962
+		8 = { bomber_strategic = { nuclear_attack = -80 range= 1200} } 	# B-83 1Mt 1983
+	}
+}
+
+
+
+### Complex unit models for silos and submarines (SOV sample models)
+
+tech_icbm_missile = {	# for silos, default attack is 30, range is 8000, activation time 10 hours
+	multilevel = yes
+	time = 365
+	cost = 200
+	folder = nuclear_tech1_folder
+	level = 8
+	
+	allow_level = {
+		1 = {
+			nuclear_enrichment_process = 1
+			engine_rocket = 2
+			aerodynamics = 1
+			nuclear_delivery_systems = 2
+		}
+		2 = {}
+		3 = {}
+		4 = {
+			nuclear_thermonuclear_design = 1
+		}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+	}
+	traits = {
+		nuclear_theory		
+		aviation_theory		
+	}	
+	level_effect = {
+		1 = { icbm_complex = { range = 4000 } }	# SS-7, 3 Mt, 12000km
+		2 = { icbm_complex = { range = 2000 activation_time = -7} }	# SS-8a, 3Mt, 14000km
+		3 = { icbm_complex = { nuclear_attack = 70 range = 1000 activation_time = -1 } } # SS-9, 10Mt, 15000km
+		4 = { icbm_complex = { nuclear_attack = -90 range = 1000 air_defence=1 activation_time = -2 } } # SS-11, 1Mt, 15000km Palma
+		5 = { icbm_complex = { nuclear_attack = 170 range = 1000 air_defence=-1 } } # SS-18, 18Mt, 16000km
+		6 = { icbm_complex = { nuclear_attack = -130 range = -5000 air_defence=3 } } # SS-17, 4Mt, 10000km, 4 MIRV
+		7 = { icbm_complex = { nuclear_attack = 20 air_defence=2 } } # SS-19, 6Mt, 6 MIRV
+		8 = { icbm_complex = { nuclear_attack = -10 air_defence=2 } } # SS-24, 5Mt, 10 MIRV
+	}
+}
+
+tech_slbm_missile = {	# for submarines, default attack is 10, range is 600km, 1.0Mt
+	multilevel = yes
+	time = 365
+	cost = 200
+	folder = nuclear_tech1_folder
+	level = 9
+	
+	allow_level = {
+		1 = {
+			nuclear_enrichment_process = 1
+			unit_nuclearsubmarine_attack = 1
+			nuclear_delivery_systems = 3
+			aerodynamics = 1
+		}
+		2 = {}
+		3 = {}
+		4 = {
+			nuclear_thermonuclear_design = 1
+		}
+		5 = {}
+		6 = {}
+		7 = {}
+		8 = {}
+		9 = {}
+	}
+	traits = {
+		nuclear_theory	
+		vessels_theory		
+		aviation_theory			
+	}	
+	level_effect = {
+		1 = { 												# 700
+			slbm_complex = { 
+				nuclear_attack = 2 
+				range = 0
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}			
+		}		
+		2 = { 												# 1500km
+			slbm_complex = { 
+				nuclear_attack = 0 
+				range = 800 
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		}				
+		3 = { 												# 1Mt, 2400km
+			slbm_complex = { 
+				nuclear_attack = 0 
+				range = 900 
+			} 
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		}				
+		4 = { 												# 1Mt, 7800km
+			slbm_complex = { 
+				nuclear_attack = 0 
+				range = 5400 
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		}				
+		5 = { 												# 450kt, 8000km
+			slbm_complex = { 
+				nuclear_attack = -5 
+				range = 1200 
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		}	
+		6 = { 												# 700kt, 6500km
+			slbm_complex = { 
+				nuclear_attack = 3 
+				range = -1500 
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		}	
+		7 = { 												# MIRV 4*100kt, 8300km
+			slbm_complex = { 
+				nuclear_attack = -3 
+				range = 1800 
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		} 	
+		8 = { 												# MIRV 10*200kt, 8300km
+			slbm_complex = { 
+				nuclear_attack = 16
+				range = 0
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		}		
+		9 = { 												# MIRV 10*150kt, 10 000km
+			slbm_complex = { 
+				nuclear_attack = -5 
+				range = 1700 
+			}
+			ballistic_missile_submarine = {
+				maximum_speed = -0.1
+			}
+		}	
+	}
+ 	can_upgrade = no
+	change = yes	
+}
+	
+abm_site_tech = {	# for sdi_site buildings
+	time = 365
+	cost = 200
+	folder = nuclear_tech1_folder
+	level = 2
+	
+	allow_level = {
+		1 = {
+			nuclearcommand_sdi = 1
+			industry_construction_engineering = 2
+			tech_icbm_missile = 1
+		}
+		2 = {}
+	}
+	traits = {
+		industry_theory
+		nuclear_theory		
+	}	
+	level_effect = {
+		1 = { 
+			modifier = { sdi_missile_defense = 0.05  }
+		}
+		2 = { 
+			modifier = { sdi_missile_defense = 0.1 }
+		}
+	}
+}
+
+#########################################################################
+# Nuclear Command
+#########################################################################
+## 5 techs
+
+nuclearcommand_nuclear_strategy = {
+	# command type
+    doctrine = yes
+	
+	allow = {
+		nuclear_delivery_systems = 1
+	}
+	traits = {
+		nuclear_theory		
+	}	
+    folder = nuclear_tech1_folder
+	time = 365
+	cost = 100
+}
+
+nuclearcommand_mad = {
+	# command type
+    doctrine = yes
+	
+	allow = {
+		aircommand_massprinciple = 1
+		nuclearcommand_nuclear_strategy = 1
+	}
+	traits = {
+		airstrategy_theory		
+		nuclear_theory		
+	}	
+	modifier = {
+		max_nuke_storage = 1
+		dissent_increase = -0.01
+		dissent_decrease = 0.01
+		neutrality = -0.03
+	}
+	
+    folder = nuclear_tech1_folder
+	time = 365
+	cost = 100
+}
+
+nuclearcommand_secondstrikecapability = {
+	# command type
+    doctrine = yes
+	
+	allow = {
+		aircommand_objectiveprinciple = 1
+		nuclearcommand_nuclear_strategy = 1
+	}
+	traits = {
+		airstrategy_theory		
+		nuclear_theory			
+	}
+	icbm_complex = { }
+	
+    folder = nuclear_tech1_folder
+	time = 365
+	cost = 100
+}
+
+nuclearcommand_countervailingstrategy = { 
+	# command type
+    doctrine = yes
+	
+	allow = {
+		aircommand_massprinciple = 1
+		nuclearcommand_nuclear_strategy = 1
+	}
+	traits = {
+		airstrategy_theory		
+		nuclear_theory			
+	}
+	
+    folder = nuclear_tech1_folder
+	time = 365
+	cost = 100
+}
+
+nuclearcommand_sdi = {
+	# command type
+    doctrine = yes
+	
+	allow = {
+		aircommand_securityprinciple = 1
+		nuclearcommand_nuclear_strategy = 1
+	}
+	traits = {
+		airstrategy_theory		
+		nuclear_theory			
+	}
+	activate_building = sdi_site
+	
+    folder = nuclear_tech1_folder
+	time = 365
+	cost = 100
+}
+
+nuclearcommand_nuclearnonproliferation = {
+	# command type
+    doctrine = yes
+	
+	allow = {
+		nuclearcommand_nuclear_strategy = 1
+	}
+	traits = {	
+		nuclear_theory			
+	}
+	modifier = {
+		dissent_increase = -0.01
+		dissent_decrease = 0.01 
+	}
+	
+    folder = nuclear_tech1_folder
+	time = 365
+	cost = 100
+}
+
+nuclear_atomic_theory = {
+	# command type
+    doctrine = yes
+	
+	allow = {
+		industry_physics = 1 
+		industry_mathematics = 1
+	}
+	traits = {
+		science_theory			
+	}	
+    folder = nuclear_tech1_folder
+	time = 3650
+	cost = 100
+}
+
+nuclear_enrichment_process = {
+	# command type
+	
+	allow = {
+		nuclear_atomic_theory = 1
+	}
+	traits = {
+		nuclear_theory		
+	}	
+	activate_building = centrifuges 
+	
+    folder = nuclear_tech1_folder
+	time = 1500
+	cost = 100
+}
+
+nuclear_nuclear_power = {
+	# command type
+	
+	allow = {
+		nuclear_atomic_theory = 1
+	}
+	traits = {
+		nuclear_theory		
+	}	
+	activate_building = nuclear_plant
+	
+    folder = nuclear_tech1_folder
+	time = 1500
+	cost = 100
+}
+
+nuclear_delivery_systems = {
+	time = 365
+	cost = 200
+	folder = nuclear_tech1_folder
+	level = 3
+	
+	allow_level = {
+		1 = { 
+			nuclear_atomic_theory = 1 
+		}
+		2 = {
+			generalmissiledesign = 1
+			engine_rocket = 2
+			targetingsystems = 2
+		}
+		3 = {
+			engine_rocket = 3
+			targetingsystems = 4
+		}
+	}
+	traits = {
+		nuclear_theory
+		arsenal_theory		
+	}	
+	level_effect = {
+		1 = {} 
+		2 = {}
+		3 = {}
+	}
+}
+
+nuclear_thermonuclear_design = {
+	# command type
+	
+	allow = {
+		nuclear_enrichment_process = 1
+		industry_physics = 3
+		industry_mathematics = 3
+	}
+	traits = {
+		science_theory
+		nuclear_theory		
+	}
+	
+    folder = nuclear_tech1_folder
+	time = 1000
+	cost = 100
+}

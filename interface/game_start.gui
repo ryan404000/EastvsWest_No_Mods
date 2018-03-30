@@ -1,0 +1,313 @@
+guiTypes = {
+	# Southern-left side player entries
+	windowType = {
+		name = "multiplayer_entry"
+		position = { x=0 y=0 }	
+		size = { x=264 y=32 }
+		moveable = 0
+		fullScreen = no
+
+		iconType = {
+			name ="frontend_player_entry"
+			position = { x=0 y=-2 }
+			spriteType = "GFX_frontend_player_entry"
+		}		
+		guiButtonType = {
+			position = { x=1 y=0 }
+			name = "player_shield"	
+			quadTextureSprite ="GFX_minishield"
+		}
+		instantTextBoxType = {
+			name = "name"
+			position = { x=39 y=8 }
+			format = right
+			font = "Jockey_14"
+			maxWidth = 210
+			maxHeight = 32
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "save_progress"
+			position = { x=46 y=7 }
+			format = right
+			font = "Arial12"
+			maxWidth = 210
+			maxHeight = 32
+		}
+	}
+	# OPTIONS
+	windowType = {
+		name = "option_window"
+		backGround=""
+		position = { x= -290 y = 200 }
+		size = { x=500 y=260 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		orientation = "UPPER_RIGHT"
+		
+		iconType = {
+			name ="frontend_options_bg"
+			position = { x = 7 y = 9 }
+			spriteType = "GFX_frontend_options_bg"
+		}
+		instantTextBoxType = {
+			name = "optiontext"
+			position = { x = 16 y = 26 }
+			font = "Jockey_24"
+			borderSize = {x = 1 y = 1}
+			text = "FE_OPTIONS"	
+			maxWidth = 256
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		#DIFFICULTY
+		instantTextBoxType = {
+			name = "difficulty"
+			position = { x=22 y=67 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 1 y = 1}
+			text = "FE_DIFFICULTY"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "difficulty_box"
+			position = { x=16 y=81 } #12 height
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = {x = 1 y = 1}
+			text = "Ruler"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "difficulty_prev"
+			position = { x=38 y=65 }
+			quadTextureSprite ="option_prev"
+		}
+		guiButtonType = {
+			name = "difficulty_next"
+			position = { x=237 y=65 }
+			quadTextureSprite ="option_next"
+		}
+		## ARCADE
+		instantTextBoxType = {
+			name = "arcade"
+			position = { x=22 y=104 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = { x=1 y=1 }
+			text = "FE_ARCADE"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "arcade_box"
+			position = { x=16 y=118 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=1 y=1 }
+			text = "Ruler"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "arcade_prev"
+			position = { x = 38 y = 102 }
+			quadTextureSprite ="option_prev"
+		}
+		guiButtonType = {
+			name = "arcade_next"
+			position = { x = 237 y = 102 }
+			quadTextureSprite ="option_next"
+		}
+		## DIPLOMACY
+		instantTextBoxType = {
+			name = "diplomacy"
+			position = { x=22 y=148 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 1 y = 1}
+			text = "FE_SETTING_DIPLOMACY"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "diplomacy_box"
+			position = { x=16 y=162 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=1 y=1 }
+			text = "Ruler"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "diplomacy_prev"
+			position = { x = 38 y =147}
+			quadTextureSprite ="option_prev"
+		}
+		guiButtonType = {
+			name = "diplomacy_next"
+			position = { x = 237 y = 147 }
+			quadTextureSprite ="option_next"
+		}
+		## PRODUCTION
+		instantTextBoxType = {
+			name = "production"
+			position = { x=22 y=185 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = {x = 1 y = 1}
+			text = "FE_SETTING_PRODUCTION"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "production_box"
+			position = { x=16 y=199 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=1 y=1 }
+			text = "Ruler"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "production_prev"
+			position = { x = 38 y = 184}
+			quadTextureSprite ="option_prev"
+		}
+		guiButtonType = {
+			name = "production_next"
+			position = { x = 237 y = 184 }
+			quadTextureSprite ="option_next"
+		}
+		## TECHNOLOGY
+		instantTextBoxType = {
+			name = "technology"
+			position = { x=22 y=222 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = { x=1 y=1 }
+			text = "FE_SETTING_TECHNOLOGY"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "technology_box"
+			position = { x=16 y=236 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=1 y=1 }
+			text = "Ruler"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "technology_prev"
+			position = { x = 38 y = 221}
+			quadTextureSprite ="option_prev"
+		}
+		guiButtonType = {
+			name = "technology_next"
+			position = { x = 237 y = 221 }
+			quadTextureSprite ="option_next"
+		}
+		## POLITICS
+		instantTextBoxType = {
+			name = "politics"
+			position = { x=22 y=259 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = { x=1 y=1 }
+			text = "FE_SETTING_POLITICS"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "politics_box"
+			position = { x=16 y=273 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=1 y=1 }
+			text = "Ruler"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "politics_prev"
+			position = { x = 38 y = 258}
+			quadTextureSprite ="option_prev"
+		}
+		guiButtonType = {
+			name = "politics_next"
+			position = { x = 237 y = 258 }
+			quadTextureSprite ="option_next"
+		}
+		## INTEL
+		instantTextBoxType = {
+			name = "intel"
+			position = { x=22 y=296 }
+			textureFile = ""
+			font = "Arial_11_bold_black"
+			borderSize = { x=1 y=1 }
+			text = "FE_SETTING_INTEL"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "intel_box"
+			position = { x=16 y=310 }
+			textureFile = ""
+			font = "Jockey_14"
+			borderSize = { x=1 y=1 }
+			text = "Ruler"	
+			maxWidth = 250
+			maxHeight = 20
+			format = centre
+			fixedsize = yes
+		}
+		guiButtonType = {
+			name = "intel_prev"
+			position = { x = 38 y = 295 }
+			quadTextureSprite ="option_prev"
+		}
+		guiButtonType = {
+			name = "intel_next"
+			position = { x = 237 y = 295 }
+			quadTextureSprite ="option_next"
+		}
+	}
+}

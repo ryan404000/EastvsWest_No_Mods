@@ -1,0 +1,462 @@
+# List of all Submarine and Naval Joint Operation Doctrine techs
+	#joint_interserviceoperability							( 1 level )
+	#joint_fleetcommandsystem								( 1 level )
+	#joint_fleetsupply										( 1 level )
+	#joint_selfsustainability								( 1 level )
+	#joint_systemcompatibiliity								( 1 level )
+	#joint_warliketraining									( 1 level )
+	#joint_contingencyplanning								( 1 level )
+	#joint_criticalvulnerability							( 1 level )
+	
+	#hksubs_strikeoperations								( 1 level )
+	#allsubs_autonomousoperations							( 1 level )
+	#hksubs_submarineescorting								( 1 level )
+	#hksubs_surfacevesselescorting							( 1 level )
+	#hksubs_planning_dynamiccombattempotraining				( 1 level )
+	#hksubs-surfacesubs_sensoryandweaponscommand			( 1 level )
+	#hksubs-surfacesubs_satellitecommequipment				( 1 level )
+	#tacticalstrikesubs-surfacesubs_coordinatedoperations	( 1 level )
+	#allsubs_silentoperations								( 1 level )
+	#tacticalstrikesubs_firstsecondstrikecapable			( 1 level )
+
+
+#########################################################################
+# Joint
+#########################################################################
+## 11 techs
+joint_interserviceoperability = {
+    doctrine = yes
+	
+    allow = {}
+	traits = {}		
+	modifier = { NAVAL_ORGANISATION = 0.02 }
+
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+joint_fleetcommandsystem = {
+    doctrine = yes
+	
+    allow = {
+		joint_interserviceoperability = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	modifier = { NAVAL_ORGANISATION = 0.02 }
+
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+joint_fleetsupply = {
+    doctrine = yes
+	
+    allow = {
+		joint_interserviceoperability = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	carrier = { range = 200 } 
+	helicopter_carrier = { range = 200 } 	
+	escort_carrier = { range = 200 } 		
+	cruiser = { range = 200 } 
+	destroyer = { range = 200 } 
+	battleship = { range = 200 } 
+	missile_cruiser = { range = 200 } 
+	missile_destroyer = { range = 200 } 
+	missile_frigate = { range = 200 } 
+	nuclear_battlecruiser = { range = 200 } 
+	supercarrier = { range = 200 } 
+	nuclear_missile_cruiser = { range = 200 } 
+
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+joint_selfsustainability = {
+    doctrine = yes
+	
+    allow = {
+		joint_fleetsupply = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	carrier = { range = 500 } 
+	helicopter_carrier = { range = 500 } 	
+	escort_carrier = { range = 500 } 	
+	cruiser = { range = 500 } 
+	destroyer = { range = 500 } 
+	battleship = { range = 500 } 
+	missile_cruiser = { range = 500 } 
+	missile_destroyer = { range = 500 } 
+	missile_frigate = { range = 500 } 
+	nuclear_battlecruiser = { range = 500 } 
+	supercarrier = { range = 500 } 
+	nuclear_missile_cruiser = { range = 500 } 
+
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+joint_systemcompatibiliity = {
+    doctrine = yes
+	
+    allow = {
+		joint_fleetcommandsystem = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	modifier = { NAVAL_CAPACITY = 0.01 }
+
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+joint_warliketraining = {
+    doctrine = yes
+	
+    allow = {
+		joint_interserviceoperability = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	carrier = { default_morale = 0.05 } 
+	escort_carrier = { default_morale = 0.05 } 	
+	cruiser = { default_morale = 0.05 } 
+	destroyer = { default_morale = 0.05 } 
+	battleship = { default_morale = 0.05 } 
+	missile_cruiser = { default_morale = 0.05 } 
+	missile_destroyer = { default_morale = 0.05 } 
+	missile_frigate = { default_morale = 0.05 } 
+	nuclear_battlecruiser = { default_morale = 0.05 } 
+	supercarrier = { default_morale = 0.05 } 
+	nuclear_missile_cruiser = { default_morale = 0.05 } 
+
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+joint_contingencyplanning = {
+    doctrine = yes
+	
+    allow = {
+		joint_warliketraining = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	modifier = { NAVAL_ORGANISATION = 0.03 }
+
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+joint_criticalvulnerability = {
+    doctrine = yes
+	
+    allow = {}
+	traits = {}	
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+
+
+#########################################################################
+# Submarines
+#########################################################################
+## 11 techs
+hksubs_strikeoperations = {	# exclusive with hksubs_autonomousoperations
+	# warfare type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		joint_criticalvulnerability = 1	
+    }
+	traits = {
+		hqandsub_theory		
+	}		
+#	activate_unit = {
+#		attack_submarine
+#		submarine
+#		torpedo_complex
+#	}
+	attack_submarine = {
+		default_organisation = 5
+		default_morale = 0.05
+	}
+	nuclear_submarine = {
+		default_organisation = 5
+		default_morale = 0.05
+	}
+	
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+allsubs_autonomousoperations = {	# exclusive with hksubs_strikeoperations
+	# warfare type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		hksubs_strikeoperations = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	attack_submarine = {
+		range = 500
+	}
+	ballistic_missile_submarine = {
+				range = 500
+	}
+	guided_submarine = {
+			range = 500
+	}
+	nuclear_guided_submarine = {
+			range = 500
+	}
+	nuclear_submarine = {
+			range = 500
+	}
+	submarine = {
+			range = 500
+	}
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+hksubs_submarineescorting = {
+	# planning type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		allsubs_silentoperations = 1
+		hksubs-surfacesubs_sensoryandweaponscommand = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	attack_submarine = {
+		sub_detection = 1.00
+	}
+	nuclear_submarine = {
+		sub_detection = 1.00
+	}
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+hksubs_surfacevesselescorting = {
+	# planning type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		allsubs_silentoperations = 1
+		hksubs-surfacesubs_sensoryandweaponscommand = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	attack_submarine = {
+		surface_detection = 1.00
+	}
+	nuclear_submarine = {
+		surface_detection = 1.00
+	}
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+hksubs_planning_dynamiccombattempotraining = {
+	# planning type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		hksubs_surfacevesselescorting = 1
+		hksubs_submarineescorting = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	attack_submarine = {
+	}
+	nuclear_submarine = {
+	}
+	can_upgrade = yes
+	change = no 	
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+hksubs-surfacesubs_sensoryandweaponscommand = {
+	# command type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		allsubs_silentoperations = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	attack_submarine = {
+		surface_detection = 1.00
+		sub_detection = 1.00
+	}
+	nuclear_submarine = {
+		surface_detection = 1.00
+		sub_detection = 1.00
+	}
+	can_upgrade = yes
+	change = no 	
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+hksubs-surfacesubs_satellitecommequipment = {
+	# logistics type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		allsubs_silentoperations = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	attack_submarine = {
+		surface_detection = 1.00
+		air_detection = 1.00
+	}
+	nuclear_submarine = {
+		surface_detection = 1.00
+		air_detection = 1.00
+	}
+	can_upgrade = yes
+	change = no 	
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+tacticalstrikesubs-surfacesubs_coordinatedoperations = {	# exclusive with tacticalstrikesubs-surfacesubs_autonomousoperations
+	# warfare type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		joint_criticalvulnerability = 1
+		launcher_submarine_surfacefire = 1
+	}
+	traits = {
+		hqandsub_theory		
+	}	
+	activate_unit = {
+		guided_submarine
+		nuclear_guided_submarine
+	}
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+allsubs_silentoperations = {
+	# planning type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		tacticalstrikesubs-surfacesubs_coordinatedoperations = 1
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	attack_submarine = {
+		visibility = -2
+	}
+	ballistic_missile_submarine = {
+		visibility = -2
+	}
+	guided_submarine = {
+		visibility = -2
+	}
+	nuclear_guided_submarine = {
+		visibility = -2
+	}
+	nuclear_submarine = {
+		visibility = -2
+	}
+	submarine = {
+		visibility = -2
+	}
+	can_upgrade = yes
+	change = no 
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+
+tacticalstrikesubs_firstsecondstrikecapable = {
+	# planning type
+    change = no
+    doctrine = yes
+	
+    allow = {
+		allsubs_silentoperations = 1
+		allsubs_autonomousoperations = 1
+		nuclear_delivery_systems = 3
+    }
+	traits = {
+		hqandsub_theory		
+	}	
+	activate_unit = { 
+		ballistic_missile_submarine 
+	}
+
+    folder = naval_doctrine2_folder
+	time = 100
+	cost = 100
+}
+

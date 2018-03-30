@@ -1,0 +1,1767 @@
+1465004 = {
+	name = "Stracimir Markovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.3.1 = { rank = 0 }
+	}
+}
+1465002 = {
+	name = "Lakic Jovanovic"
+	type = land
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.10.1 = { rank = 0 }
+	}
+}
+1465000 = {
+	name = "Balsa Nikolic"
+	type = land
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = logistics_wizard
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.9.1 = { rank = 0 }
+	}
+}
+1465013 = {
+	name = "Puren Knezevic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.9.1 = { rank = 1 }
+		1951.10.1 = { rank = 0 }
+	}
+}
+1465006 = {
+	name = "Radan Knezevic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = commando
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.6.1 = { rank = 0 }
+	}
+}
+1465005 = {
+	name = "Mojaz Vukovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.10.1 = { rank = 0 }
+	}
+}
+1465001 = {
+	name = "Valtazar Pavlovic"
+	type = land
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.8.1 = { rank = 0 }
+	}
+}
+1465016 = {
+	name = "Andro Savic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1953.10.1 = { rank = 1 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1465015 = {
+	name = "Batric Pavlovic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1952.6.1 = { rank = 1 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1465007 = {
+	name = "Dobrislav Petrovic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1465019 = {
+	name = "Vukic Pavlovic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.4.1 = { rank = 1 }
+		1957.6.1 = { rank = 2 }
+		1958.2.1 = { rank = 0 }
+	}
+}
+1465017 = {
+	name = "Miketa Pavlovic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1954.8.1 = { rank = 1 }
+		1958.2.1 = { rank = 2 }
+		1959.4.1 = { rank = 0 }
+	}
+}
+1465021 = {
+	name = "Zaro Nikolic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1958.2.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1465018 = {
+	name = "Brajusko Stankovic"
+	type = land
+	country = MTN
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.10.1 = { rank = 1 }
+		1959.4.1 = { rank = 2 }
+		1961.3.1 = { rank = 0 }
+	}
+}
+1465010 = {
+	name = "Vujadin Nikolic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1962.1.1 = { rank = 0 }
+	}
+}
+1465023 = {
+	name = "Mojsija Milosevic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.11.1 = { rank = 1 }
+		1962.1.1 = { rank = 2 }
+		1963.8.1 = { rank = 0 }
+	}
+}
+1465012 = {
+	name = "Radisa Markovic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.10.1 = { rank = 1 }
+		1964.2.1 = { rank = 0 }
+	}
+}
+1465027 = {
+	name = "Mojaz Milosevic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1964.2.1 = { rank = 1 }
+		1965.5.1 = { rank = 0 }
+	}
+}
+1465014 = {
+	name = "Ðulja Knezevic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.10.1 = { rank = 1 }
+		1961.3.1 = { rank = 2 }
+		1966.12.1 = { rank = 0 }
+	}
+}
+1465022 = {
+	name = "Danilo Jovanovic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.4.1 = { rank = 1 }
+		1967.3.1 = { rank = 0 }
+	}
+}
+1465025 = {
+	name = "Stijepo Nikolic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.1.1 = { rank = 1 }
+		1963.8.1 = { rank = 2 }
+		1968.5.1 = { rank = 0 }
+	}
+}
+1465030 = {
+	name = "Mojaz Jovanovic"
+	type = land
+	country = MTN
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.3.1 = { rank = 1 }
+		1969.2.1 = { rank = 0 }
+	}
+}
+1465031 = {
+	name = "Njegoz Milosevic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.5.1 = { rank = 1 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1465032 = {
+	name = "Tomas Pavlovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1969.2.1 = { rank = 1 }
+		1971.9.1 = { rank = 0 }
+	}
+}
+1465020 = {
+	name = "Markic Pavlovic"
+	type = land
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1966.12.1 = { rank = 2 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1465008 = {
+	name = "Prelja Savic"
+	type = land
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1962.1.1 = { rank = 3 }
+		1973.5.1 = { rank = 0 }
+	}
+}
+1465029 = {
+	name = "Ziroje "
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.12.1 = { rank = 1 }
+		1974.7.1 = { rank = 0 }
+	}
+}
+1465035 = {
+	name = "Vojo Pavlovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.7.1 = { rank = 1 }
+		1975.1.1 = { rank = 0 }
+	}
+}
+1465036 = {
+	name = "Petrasin Maric"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1973.5.1 = { rank = 1 }
+		1976.8.1 = { rank = 0 }
+	}
+}
+1465003 = {
+	name = "Radava Pavlovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1977.4.1 = { rank = 0 }
+	}
+}
+1465040 = {
+	name = "Dojcilo Nikolic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	add_trait = logistics_wizard
+	history = {
+		1977.4.1 = { rank = 1 }
+		1978.8.1 = { rank = 0 }
+	}
+}
+1465011 = {
+	name = "Joko Stamenkovic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.3.1 = { rank = 1 }
+		1979.7.1 = { rank = 0 }
+	}
+}
+1465042 = {
+	name = "Brano Vukovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1979.7.1 = { rank = 1 }
+		1980.1.1 = { rank = 0 }
+	}
+}
+1465043 = {
+	name = "Rasko Stamenkovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.1.1 = { rank = 1 }
+		1981.10.1 = { rank = 0 }
+	}
+}
+1465033 = {
+	name = "Mihajilo Savic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1970.6.1 = { rank = 1 }
+		1972.7.1 = { rank = 2 }
+		1982.4.1 = { rank = 0 }
+	}
+}
+1465024 = {
+	name = "Blagota Petrovic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.3.1 = { rank = 1 }
+		1983.7.1 = { rank = 0 }
+	}
+}
+1465009 = {
+	name = "Joksim Stamenkovic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = trickster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1962.1.1 = { rank = 4 }
+		1984.5.1 = { rank = 0 }
+	}
+}
+1465026 = {
+	name = "Vujan Milosevic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1963.8.1 = { rank = 1 }
+		1968.5.1 = { rank = 2 }
+		1973.5.1 = { rank = 3 }
+		1984.5.1 = { rank = 4 }
+		1985.2.1 = { rank = 0 }
+	}
+}
+1465028 = {
+	name = "Vucina Nikolic"
+	type = land
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1965.5.1 = { rank = 1 }
+		1973.5.1 = { rank = 2 }
+		1984.5.1 = { rank = 3 }
+		1985.2.1 = { rank = 4 }
+		1986.9.1 = { rank = 0 }
+	}
+}
+1465039 = {
+	name = "Mirun Petrovic"
+	type = land
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.8.1 = { rank = 1 }
+		1982.4.1 = { rank = 2 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1465045 = {
+	name = "Panto Jovanovic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.4.1 = { rank = 1 }
+		1985.2.1 = { rank = 2 }
+		1986.9.1 = { rank = 3 }
+		1988.6.1 = { rank = 0 }
+	}
+}
+1465041 = {
+	name = "Milos Jovanovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1978.8.1 = { rank = 1 }
+		1989.12.1 = { rank = 0 }
+	}
+}
+1465044 = {
+	name = "Sakota Vukovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1981.10.1 = { rank = 1 }
+		1984.5.1 = { rank = 2 }
+		1985.2.1 = { rank = 3 }
+		1986.9.1 = { rank = 4 }
+		1990.2.1 = { rank = 0 }
+	}
+}
+1465034 = {
+	name = "Komlen Milosevic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = logistics_wizard
+	history = {
+		1971.9.1 = { rank = 1 }
+		1986.9.1 = { rank = 2 }
+		1990.2.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465037 = {
+	name = "Drasko Nikolic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465038 = {
+	name = "Gazo Stankovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = engineer
+	history = {
+		1975.1.1 = { rank = 1 }
+		1990.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465046 = {
+	name = "Masan "
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.7.1 = { rank = 1 }
+		1987.3.1 = { rank = 2 }
+		1988.6.1 = { rank = 3 }
+		1990.2.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465047 = {
+	name = "Vitomir Nikolic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1984.5.1 = { rank = 1 }
+		1988.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465048 = {
+	name = "Vicko Knezevic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1985.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465049 = {
+	name = "Balsa Vukovic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465050 = {
+	name = "Krsto Maric"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465051 = {
+	name = "Vujas Nikolic"
+	type = land
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1988.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465052 = {
+	name = "Kiro Stamenkovic"
+	type = land
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1989.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465053 = {
+	name = "Arsenije Nikolic"
+	type = land
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465059 = {
+	name = "Kicun Stankovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.11.1 = { rank = 0 }
+	}
+}
+1465061 = {
+	name = "Radan Maric"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1949.4.1 = { rank = 0 }
+	}
+}
+1465055 = {
+	name = "Matija Pavlovic"
+	type = sea
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.8.1 = { rank = 0 }
+	}
+}
+1465060 = {
+	name = "Vesko Todorovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.4.1 = { rank = 4 }
+		1952.6.1 = { rank = 0 }
+	}
+}
+1465065 = {
+	name = "Risto Vukovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.6.1 = { rank = 1 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1465054 = {
+	name = "Rogan "
+	type = sea
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.8.1 = { rank = 0 }
+	}
+}
+1465066 = {
+	name = "Joko Petrovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1956.4.1 = { rank = 1 }
+		1960.7.1 = { rank = 0 }
+	}
+}
+1465057 = {
+	name = "Tomo Savic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.11.1 = { rank = 2 }
+		1949.4.1 = { rank = 3 }
+		1952.6.1 = { rank = 4 }
+		1963.1.1 = { rank = 0 }
+	}
+}
+1465056 = {
+	name = "Gajo Markovic"
+	type = sea
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.6.1 = { rank = 2 }
+		1963.1.1 = { rank = 3 }
+		1966.3.1 = { rank = 0 }
+	}
+}
+1465062 = {
+	name = "Jablan Jovanovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1948.11.1 = { rank = 1 }
+		1966.3.1 = { rank = 2 }
+		1967.7.1 = { rank = 0 }
+	}
+}
+1465070 = {
+	name = "Baso Stamenkovic"
+	type = sea
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1966.3.1 = { rank = 1 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1465064 = {
+	name = "Predivoje Todorovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.8.1 = { rank = 1 }
+		1968.7.1 = { rank = 0 }
+	}
+}
+1465072 = {
+	name = "Zrno Pavlovic"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.9.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1465068 = {
+	name = "Vukasin Stankovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.7.1 = { rank = 1 }
+		1967.7.1 = { rank = 2 }
+		1970.6.1 = { rank = 0 }
+	}
+}
+1465071 = {
+	name = "Mikan "
+	type = sea
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1967.7.1 = { rank = 1 }
+		1975.1.1 = { rank = 0 }
+	}
+}
+1465063 = {
+	name = "Baco Todorovic"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	history = {
+		1949.4.1 = { rank = 1 }
+		1970.6.1 = { rank = 2 }
+		1975.3.1 = { rank = 0 }
+	}
+}
+1465076 = {
+	name = "Krsto Markovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.1.1 = { rank = 1 }
+		1977.11.1 = { rank = 0 }
+	}
+}
+1465073 = {
+	name = "Krsto Markovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1968.7.1 = { rank = 1 }
+		1977.12.1 = { rank = 0 }
+	}
+}
+1465058 = {
+	name = "Miladin Savic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.4.1 = { rank = 2 }
+		1952.6.1 = { rank = 3 }
+		1963.1.1 = { rank = 4 }
+		1977.10.1 = { rank = 0 }
+	}
+}
+1465077 = {
+	name = "Mikailo Maric"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.3.1 = { rank = 1 }
+		1977.8.1 = { rank = 0 }
+	}
+}
+1465067 = {
+	name = "Dobrislav Markovic"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = spotter
+	add_trait = seawolf
+	history = {
+		1956.8.1 = { rank = 1 }
+		1963.1.1 = { rank = 2 }
+		1966.3.1 = { rank = 3 }
+		1977.10.1 = { rank = 4 }
+		1979.3.1 = { rank = 0 }
+	}
+}
+1465069 = {
+	name = "Sakota Vukovic"
+	type = sea
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.1.1 = { rank = 1 }
+		1979.9.1 = { rank = 0 }
+	}
+}
+1465074 = {
+	name = "Ziroje "
+	type = sea
+	country = MTN
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1975.3.1 = { rank = 2 }
+		1977.10.1 = { rank = 3 }
+		1979.3.1 = { rank = 4 }
+		1980.3.1 = { rank = 0 }
+	}
+}
+1465079 = {
+	name = "Zeko Petrovic"
+	type = sea
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1977.12.1 = { rank = 1 }
+		1979.3.1 = { rank = 2 }
+		1980.3.1 = { rank = 3 }
+		1981.11.1 = { rank = 0 }
+	}
+}
+1465085 = {
+	name = "Soro Knezevic"
+	type = sea
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = spotter
+	history = {
+		1981.11.1 = { rank = 1 }
+		1982.1.1 = { rank = 0 }
+	}
+}
+1465081 = {
+	name = "Milos Vukovic"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1977.8.1 = { rank = 1 }
+		1981.11.1 = { rank = 2 }
+		1984.2.1 = { rank = 0 }
+	}
+}
+1465083 = {
+	name = "Tomas Maric"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.9.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1465086 = {
+	name = "Nikola Vukovic"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.1.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1465075 = {
+	name = "Tosan Stankovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.6.1 = { rank = 1 }
+		1986.1.1 = { rank = 0 }
+	}
+}
+1465078 = {
+	name = "Jaksa Nikolic"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1977.11.1 = { rank = 1 }
+		1977.11.1 = { rank = 2 }
+		1979.3.1 = { rank = 3 }
+		1980.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465080 = {
+	name = "Komlen "
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.10.1 = { rank = 1 }
+		1980.3.1 = { rank = 2 }
+		1981.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465082 = {
+	name = "Orle Vukovic"
+	type = sea
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = blockade_runner
+	history = {
+		1979.3.1 = { rank = 1 }
+		1984.2.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465084 = {
+	name = "Bako Markovic"
+	type = sea
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1980.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465087 = {
+	name = "Ðuran Vukovic"
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.2.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465088 = {
+	name = "Vukasin Nikolic"
+	type = sea
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465089 = {
+	name = "Dobrislav "
+	type = sea
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465090 = {
+	name = "Vukosav Petrovic"
+	type = sea
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465092 = {
+	name = "Laketa Stankovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.9.1 = { rank = 0 }
+	}
+}
+1465094 = {
+	name = "Dinjo Pavlovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.12.1 = { rank = 0 }
+	}
+}
+1465099 = {
+	name = "Mikosav Knezevic"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1953.5.1 = { rank = 0 }
+	}
+}
+1465096 = {
+	name = "Vujan Milosevic"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.5.1 = { rank = 3 }
+		1954.4.1 = { rank = 0 }
+	}
+}
+1465097 = {
+	name = "Vukasin Pavlovic"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1955.4.1 = { rank = 0 }
+	}
+}
+1465102 = {
+	name = "Miraz Vukovic"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1953.5.1 = { rank = 1 }
+		1955.4.1 = { rank = 2 }
+		1957.11.1 = { rank = 0 }
+	}
+}
+1465098 = {
+	name = "Mihajilo Savic"
+	type = air
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1953.5.1 = { rank = 4 }
+		1958.3.1 = { rank = 0 }
+	}
+}
+1465095 = {
+	name = "Vujadin Vukovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.12.1 = { rank = 0 }
+	}
+}
+1465100 = {
+	name = "Grgur Milosevic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.9.1 = { rank = 1 }
+		1954.4.1 = { rank = 2 }
+		1958.3.1 = { rank = 3 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1465104 = {
+	name = "Milutin Jovanovic"
+	type = air
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.4.1 = { rank = 1 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1465101 = {
+	name = "Vukola Jovanovic"
+	type = air
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1952.12.1 = { rank = 1 }
+		1957.11.1 = { rank = 2 }
+		1961.11.1 = { rank = 0 }
+	}
+}
+1465091 = {
+	name = "Davor Maric"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1961.11.1 = { rank = 2 }
+		1962.12.1 = { rank = 0 }
+	}
+}
+1465105 = {
+	name = "Danko Petrovic"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.11.1 = { rank = 1 }
+		1958.3.1 = { rank = 2 }
+		1959.6.1 = { rank = 3 }
+		1962.9.1 = { rank = 0 }
+	}
+}
+1465112 = {
+	name = "Baso Stankovic"
+	type = air
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1962.9.1 = { rank = 1 }
+		1965.7.1 = { rank = 0 }
+	}
+}
+1465108 = {
+	name = "Velizar Stankovic"
+	type = air
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.6.1 = { rank = 1 }
+		1962.9.1 = { rank = 2 }
+		1966.8.1 = { rank = 0 }
+	}
+}
+1465114 = {
+	name = "Rogan Jovanovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.8.1 = { rank = 1 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1465109 = {
+	name = "Isailo Markovic"
+	type = air
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1961.7.1 = { rank = 1 }
+		1967.5.1 = { rank = 0 }
+	}
+}
+1465111 = {
+	name = "Predivoje Maric"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = tank_buster
+	history = {
+		1962.12.1 = { rank = 1 }
+		1969.5.1 = { rank = 0 }
+	}
+}
+1465110 = {
+	name = "Maso Milosevic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1961.11.1 = { rank = 1 }
+		1966.8.1 = { rank = 2 }
+		1971.4.1 = { rank = 0 }
+	}
+}
+1465117 = {
+	name = "Radava Knezevic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1969.5.1 = { rank = 1 }
+		1972.8.1 = { rank = 0 }
+	}
+}
+1465118 = {
+	name = "Mirkota Todorovic"
+	type = air
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.4.1 = { rank = 1 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1465116 = {
+	name = "Gojko Stankovic"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.5.1 = { rank = 1 }
+		1971.4.1 = { rank = 2 }
+		1974.4.1 = { rank = 0 }
+	}
+}
+1465107 = {
+	name = "Blaso Savic"
+	type = air
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.12.1 = { rank = 1 }
+		1959.6.1 = { rank = 2 }
+		1962.9.1 = { rank = 3 }
+		1976.6.1 = { rank = 0 }
+	}
+}
+1465121 = {
+	name = "Dragoje Milosevic"
+	type = air
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1974.4.1 = { rank = 1 }
+		1977.2.1 = { rank = 0 }
+	}
+}
+1465106 = {
+	name = "Vujas Todorovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.3.1 = { rank = 1 }
+		1976.6.1 = { rank = 2 }
+		1979.4.1 = { rank = 0 }
+	}
+}
+1465122 = {
+	name = "Vuleta Savic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.6.1 = { rank = 1 }
+		1979.4.1 = { rank = 2 }
+		1980.6.1 = { rank = 0 }
+	}
+}
+1465125 = {
+	name = "Novak Jovanovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	add_trait = fleet_destroyer
+	history = {
+		1980.6.1 = { rank = 1 }
+		1984.12.1 = { rank = 0 }
+	}
+}
+1465093 = {
+	name = "Emilo Stamenkovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.5.1 = { rank = 2 }
+		1954.4.1 = { rank = 3 }
+		1958.3.1 = { rank = 4 }
+		1985.12.1 = { rank = 0 }
+	}
+}
+1465120 = {
+	name = "Panto Stankovic"
+	type = air
+	country = MTN
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	add_trait = night_flyer
+	history = {
+		1973.12.1 = { rank = 1 }
+		1985.3.1 = { rank = 0 }
+	}
+}
+1465119 = {
+	name = "Radule Nikolic"
+	type = air
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.8.1 = { rank = 1 }
+		1980.6.1 = { rank = 2 }
+		1986.10.1 = { rank = 0 }
+	}
+}
+1465128 = {
+	name = "Banjo Maric"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = tank_buster
+	history = {
+		1985.3.1 = { rank = 1 }
+		1987.3.1 = { rank = 0 }
+	}
+}
+1465103 = {
+	name = "Mijusko Todorovic"
+	type = air
+	country = MTN
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1954.4.1 = { rank = 1 }
+		1962.12.1 = { rank = 2 }
+		1976.6.1 = { rank = 3 }
+		1985.12.1 = { rank = 4 }
+		1990.8.1 = { rank = 0 }
+	}
+}
+1465113 = {
+	name = "Dinjo "
+	type = air
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1965.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465115 = {
+	name = "Vukoman Petrovic"
+	type = air
+	country = MTN
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.9.1 = { rank = 1 }
+		1974.4.1 = { rank = 2 }
+		1985.12.1 = { rank = 3 }
+		1990.8.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465123 = {
+	name = "Mrkonja "
+	type = air
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.2.1 = { rank = 1 }
+		1985.12.1 = { rank = 2 }
+		1990.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465124 = {
+	name = "Pejcin Milosevic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465126 = {
+	name = "Mile Stankovic"
+	type = air
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	add_trait = superior_air_tactician
+	history = {
+		1984.12.1 = { rank = 1 }
+		1986.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465127 = {
+	name = "Joko Savic"
+	type = air
+	country = MTN
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465129 = {
+	name = "Vasko Petrovic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.10.1 = { rank = 1 }
+		1990.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465130 = {
+	name = "Jolje Milosevic"
+	type = air
+	country = MTN
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = carpet_bomber
+	history = {
+		1987.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1465131 = {
+	name = "Krcun Jovanovic"
+	type = air
+	country = MTN
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1990.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}

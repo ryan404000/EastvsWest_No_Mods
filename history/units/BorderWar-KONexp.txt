@@ -1,0 +1,17 @@
+#KON Expeditionary force in Angola
+	army = 
+	{
+		name = "Zairean Expeditionary Army"
+		location = 5857
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		expeditionary_owner = KON
+
+		division = 
+		{   
+			name = "1st Infantry Division"
+			location = 5857
+			expeditionary_owner = KON
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 1 strength = 32 experience = 5 }
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 2 strength = 30 experience = 6 }
+		}
+	}

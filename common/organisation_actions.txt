@@ -1,0 +1,375 @@
+definition = {
+	name = EMBARGO_ACTION_UN
+	id = 1
+	organisation = 1
+	all = no
+	cost = 3
+	good = -5
+	allow = {
+		is_major = yes
+	}
+	trigger = {
+		NOT = { has_country_flag = "UN_EMBARGO" }
+	}
+	effect = {
+		neutrality = -5
+		national_unity = -10
+		set_country_flag = "UN_EMBARGO"
+		any_org_member = {
+			orgtag = XUN
+			trade_embargo = yes
+		}
+	}
+	description = EMBARGO_ACTION_UN_DESC
+}
+
+definition = {
+	name = CANCEL_EMBARGO_ACTION_UN
+	id = 2
+	organisation = 1
+	all = no
+	cost = 2
+	good = -5
+	allow = {
+		is_major = yes
+	}
+	trigger = {
+		has_country_flag = "UN_EMBARGO"
+	}
+	effect = {
+		neutrality = -5
+		#national_unity = -10
+		clr_country_flag = "UN_EMBARGO"
+		any_org_member = {
+			orgtag = XUN
+			trade_embargo_cancel = yes
+		}
+	}
+	description = CANCEL_EMBARGO_ACTION_UN_DESC
+}
+
+definition = {
+	name = WEAPON_EMBARGO_ACTION_UN
+	id = 3
+	organisation = 1
+	all = no
+	cost = 2
+	good = -5
+	allow = {
+		is_major = yes
+	}
+	trigger = {
+		NOT = { has_country_flag = "UN_ARMSEMBARGO" }
+	}
+	effect = {
+		national_unity = -2
+		dissent = 2
+		set_country_flag = "UN_ARMSEMBARGO"
+		any_org_member = {
+			orgtag = XUN
+			arms_embargo = yes
+		}
+	}
+	description = WEAPON_EMBARGO_ACTION_UN_DESC
+}
+
+definition = {
+	name = CANCEL_WEAPON_EMBARGO_ACTION_UN
+	id = 4
+	organisation = 1
+	all = no
+	cost = 1
+	good = -5
+	allow = {
+		is_major = yes
+	}
+	trigger = {
+		has_country_flag = "UN_ARMSEMBARGO"
+	}
+	effect = {
+		national_unity = -2
+		dissent = 2
+		clr_country_flag = "UN_ARMSEMBARGO"
+		any_org_member = {
+			orgtag = XUN
+			arms_embargo_cancel = yes
+		}
+	}
+	description = CANCEL_WEAPON_EMBARGO_ACTION_UN_DESC
+}
+
+definition = {
+	name = NUCLEAR_ACTION_UN
+	id = 5
+	organisation = 1
+	all = no
+	cost = 4
+	good = -2
+	allow = {
+		is_major = yes
+	}
+	trigger = {
+		NOT = { has_country_flag = "UN_NUCLEAREMBARGO" }
+	}
+	effect = {
+		neutrality = -5
+		national_unity = -10
+		set_country_flag = "UN_NUCLEAREMBARGO"
+		add_country_modifier = {
+			name = "Nuclear_Embargo"
+			duration = 360
+		}
+	}
+	description = NUCLEAR_ACTION_UN_DESC
+}
+
+definition = {
+	name = CANCEL_NUCLEAR_ACTION_UN
+	id = 6
+	organisation = 1
+	all = no
+	cost = 2
+	good = -2
+	allow = {
+		is_major = yes
+	}
+	trigger = {
+		has_country_flag = "UN_NUCLEAREMBARGO"
+	}
+	effect = {
+		neutrality = -5
+		national_unity = -10
+		clr_country_flag = "UN_NUCLEAREMBARGO"
+		remove_country_modifier = "Nuclear_Embargo"
+		}
+	}
+	description = CANCEL_NUCLEAR_ACTION_UN_DESC
+}
+
+definition = {
+	name = INTERVENTION_ACTION_UN
+	id = 7
+	organisation = 1
+	all = no
+	cost = 5
+	good = -3
+	allow = {
+		is_major = yes
+	}
+	trigger = {
+		war = yes
+	}
+	effect = {
+		neutrality = -50
+		national_unity = -20
+		set_country_flag = "UN_INTERVENTION"
+		any_org_member = {
+			orgtag = XUN
+			limited_war = yes
+		}
+	}
+	description = INTERVENTION_ACTION_UN_DESC
+}
+
+#definition = {
+#	name = TEST_ALL_UN_ACTION
+#	organisation = 1
+#	id = 8
+#	all = yes
+#	effect = {
+#		neutrality = -5
+#		national_unity = -10
+#	}
+#	description = TEST_ALL_UN_DESC
+#}
+
+definition = {
+	name = EMBARGO_ACTION_NATO
+	id = 9
+	organisation = 2
+	all = no
+	cost = 3
+	good = -5
+	effect = {
+		neutrality = -5
+		national_unity = -10
+		set_country_flag = "NATO_EMBARGO"
+		any_org_member = {
+			orgtag = XNA
+			trade_embargo = yes
+		}
+	}
+	description = EMBARGO_ACTION_NATO_DESC
+	embargo = yes
+}
+
+definition = {
+	name = EMBARGO_ACTION_WP
+	id = 10
+	organisation = 3
+	all = no
+	cost = 3
+	effect = {
+		neutrality = -5
+		national_unity = -10
+		any_org_member = {
+			orgtag = XWP
+			trade_embargo = yes
+		}
+	}
+	description = EMBARGO_ACTION_WP_DESC
+	embargo = yes
+}
+
+definition = {
+	name = EMBARGO_ACTION_COMMUNITY
+	id = 11
+	organisation = 4
+	all = yes
+	cost = 3
+	good = -5
+	effect = {
+		neutrality = -5
+		national_unity = 5
+	}
+	description = EMBARGO_ACTION_COMMUNITY_DESC
+	embargo = yes
+}
+
+definition = {
+	name = INVITE_ACTION_NATO
+	id = 12
+	organisation = 2
+	all = no
+	cost = 1
+	allow = {
+		is_faction_leader = allies
+	}
+	trigger = {
+		NOT = {
+			is_faction_member = allies
+			is_faction_member = comintern
+			war_with_faction = allies
+			neutrality = 25
+		}
+		alignment = {
+			faction = allies
+			value = 90
+		}
+		recognized = from
+	}
+	effect = {
+		invite_faction = allies
+	}
+	description = INVITE_ACTION_NATO_DESC
+	require_vote = no
+}
+
+definition = {
+	name = INVITE_ACTION_WP
+	id = 13
+	organisation = 3
+	all = no
+	cost = 1
+	allow = {
+		is_faction_leader = comintern
+	}
+	trigger = {
+		NOT = {
+			is_faction_member = allies
+			is_faction_member = comintern
+			war_with_faction = comintern
+			neutrality = 25
+		}
+		alignment = {
+			faction = comintern
+			value = 90
+		}
+		recognized = from
+	}
+	effect = {
+		invite_faction = comintern
+	}
+	description = INVITE_ACTION_WP_DESC
+	require_vote = no
+}
+
+definition = {
+	name = INFLUENCE_ACTION_NATO
+	id = 14
+	organisation = 2
+	all = no
+	cost = 3
+	allow = {
+		is_faction_leader = allies
+	}
+	trigger = {
+		NOT = {
+			has_faction_influence = allies
+			war_with_faction = allies
+		}
+	}
+	effect = {
+		influence = allies
+	}
+	description = INFLUENCE_ACTION_NATO_DESC
+	require_vote = no
+}
+
+definition = {
+	name = INFLUENCE_ACTION_WP
+	id = 15
+	organisation = 3
+	cost = 3
+	all = no
+	allow = {
+		is_faction_leader = comintern
+	}
+	trigger = {
+		NOT = {
+			has_faction_influence = comintern
+			war_with_faction = comintern
+		}
+	}
+	effect = {
+		influence = comintern
+	}
+	description = INFLUENCE_ACTION_WP_DESC
+	require_vote = no
+}
+
+definition = {
+	name = STOP_INFLUENCE_ACTION_NATO
+	id = 16
+	organisation = 2
+	all = no
+	allow = {
+		is_faction_leader = allies
+	}
+	trigger = {
+		has_faction_influence = allies
+	}
+	effect = {
+		stop_influence = allies
+	}
+	description = STOP_INFLUENCE_ACTION_NATO_DESC
+	require_vote = no
+}
+
+definition = {
+	name = STOP_INFLUENCE_ACTION_WP
+	id = 17
+	organisation = 3
+	all = no
+	allow = {
+		is_faction_leader = comintern
+	}
+	trigger = {
+		has_faction_influence = comintern
+	}
+	effect = {
+		stop_influence = comintern
+	}
+	description = STOP_INFLUENCE_ACTION_WP_DESC
+	require_vote = no
+}

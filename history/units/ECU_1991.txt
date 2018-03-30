@@ -1,0 +1,52 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 2148
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 2148
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "1st Division"
+			location = 2148
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 3 strength = 35 experience = 4 }
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 2 strength = 36 experience = 5 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 3 strength = 38 experience = 5 }
+		}
+		division =
+		{
+			name = "2nd Division"
+			location = 2105
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 2 strength = 35 experience = 5 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 4 strength = 36 experience = 5 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 2 strength = 23 experience = 4 }
+		}
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 2066 # Guayaquil (m)
+		location = 2066
+		ship = { type = missile_boat name = "1st Missile Boat Flotilla" strength = 70 historical_model = 2 builder = ITA }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 2066 # Guayaquil (m)
+		location = 2066
+		ship = { type = attack_submarine name = "BAE Shyri" historical_model = 6 builder = FRG }
+		ship = { type = attack_submarine name = "BAE Huancavilca" historical_model = 6 builder = FRG }
+	}
+}
+division =
+{
+	name = "3rd Division"
+	location = 2148
+	pool = yes
+	regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 2 strength = 34 experience = 5 }
+	regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 2 strength = 36 experience = 5 }
+	regiment = { type = artillery_brigade name = "2nd Artillery Brigade" historical_model = 2 strength = 23 experience = 5 }
+}

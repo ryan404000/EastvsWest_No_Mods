@@ -1,0 +1,7 @@
+military_construction = { #CAN EVENTID 144982
+	country = CAN
+		name = "Socialist Guard 'Hawthorne'"
+		motorized_brigade = { name = "1st Mot-Guard reg 'Hawthorne'" historical_model = current strength = 40 experience = 40 }
+		police_brigade = { name = "1st MP-Guard bat 'Hawthorne'" historical_model = current strength = 21 experience = 40 }
+	progress = 35
+}

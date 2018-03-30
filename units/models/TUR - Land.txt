@@ -1,0 +1,752 @@
+##Anti Air (AA)
+anti_air_brigade.0 = {
+	mass_firepower = 1
+	crew_served_weapons = 0
+	heavy_anti_air = 0
+	light_engine = 0
+}
+anti_air_brigade.1 = {
+	mass_firepower = 1
+	crew_served_weapons = 1
+	heavy_anti_air = 1
+	light_engine = 0
+}
+anti_air_brigade.2 = {
+	mass_firepower = 1
+	crew_served_weapons = 2	
+	heavy_anti_air = 2	
+	light_engine = 2
+}
+anti_air_brigade.3 = {
+	mass_firepower = 1	
+	crew_served_weapons = 3	
+	heavy_anti_air = 3	
+	light_engine = 3
+}
+anti_air_brigade.4 = {	
+	mass_firepower = 1
+	crew_served_weapons = 4	
+	heavy_anti_air = 4	
+	light_engine = 4
+}
+## Air Cavalry (AIRCAV)
+air_cav_brigade.0 = {
+	airborneops_aircavalry = 1
+	medium_engine = 0
+	small_arms = 0
+	crew_served_weapons	= 0	
+}
+air_cav_brigade.1 = {
+	airborneops_aircavalry = 1
+	medium_engine = 1
+	small_arms = 1	
+	crew_served_weapons	= 1
+}
+air_cav_brigade.2 = {
+	airborneops_aircavalry = 1
+	medium_engine = 2
+	small_arms = 2	
+	crew_served_weapons	= 2	
+}
+air_cav_brigade.3 = {
+	airborneops_aircavalry = 1
+	medium_engine = 3
+	small_arms = 3	
+	crew_served_weapons	= 3	
+}
+air_cav_brigade.4 = {
+	airborneops_aircavalry = 1
+	medium_engine = 4
+	small_arms = 4	
+	crew_served_weapons	= 4	
+}
+## Armored Engineer (AENG)
+armored_engineer_brigade.0 = {
+	hedgehog_defense = 1
+	engineering_equipment = 0
+	heavy_engine = 0
+	heavy_armor	= 0
+}
+armored_engineer_brigade.1 = {
+	hedgehog_defense = 1
+	engineering_equipment = 1
+	heavy_engine = 1
+	heavy_armor	= 1
+}
+armored_engineer_brigade.2 = {
+	hedgehog_defense = 1
+	engineering_equipment = 2
+	heavy_engine = 2	
+	heavy_armor	= 2	
+}
+armored_engineer_brigade.3 = {
+	hedgehog_defense = 1
+	engineering_equipment = 2
+	heavy_engine = 3
+	heavy_armor	= 3	
+}
+armored_engineer_brigade.4 = {
+	hedgehog_defense = 1
+	engineering_equipment = 3
+	heavy_engine = 4
+	heavy_armor	= 4	
+}
+## Armored (ARM)
+armor_brigade.0 = {
+	maneuver_warfare = 1
+	heavy_engine = 0
+	heavy_armor	= 0
+	crew_served_weapons	= 0
+	anti_tank = 0
+	battle_tank	= 0
+}
+armor_brigade.1 = {
+	maneuver_warfare = 1
+	heavy_engine = 1
+	heavy_armor	= 1
+	crew_served_weapons	= 1
+	anti_tank = 1
+	battle_tank	= 1
+}
+armor_brigade.2 = {
+	maneuver_warfare = 1
+	heavy_engine = 2
+	heavy_armor	= 2	
+	crew_served_weapons	= 2	
+	anti_tank = 2	
+	battle_tank	= 2		
+}
+armor_brigade.3 = {
+	maneuver_warfare = 1
+	heavy_engine = 3
+	heavy_armor	= 3	
+	crew_served_weapons	= 3	
+	anti_tank = 3	
+	battle_tank	= 3	
+}
+armor_brigade.4 = {
+	maneuver_warfare = 1
+	heavy_engine = 4
+	heavy_armor	= 4		
+	crew_served_weapons	= 4	
+	anti_tank = 4	
+	battle_tank	= 4	
+}
+## Artillery (ART)
+artillery_brigade.0 = {
+	mass_firepower = 1
+	light_engine = 0
+	light_artillery = 0
+	medium_artillery = 0
+	heavy_artillery = 0	
+}
+artillery_brigade.1 = {
+	mass_firepower = 1
+	light_engine = 0
+	light_artillery = 1
+	medium_artillery = 1
+	heavy_artillery = 1
+}
+artillery_brigade.2 = {
+	mass_firepower = 1
+	light_engine = 2	
+	light_artillery = 2	
+	medium_artillery = 2	
+	heavy_artillery = 2	
+}
+artillery_brigade.3 = {
+	mass_firepower = 1
+	light_engine = 3	
+	light_artillery = 3	
+	medium_artillery = 3	
+	heavy_artillery = 3	
+}
+artillery_brigade.4 = {
+	mass_firepower = 1
+	light_engine = 4	
+	light_artillery = 4	
+	medium_artillery = 4	
+	heavy_artillery = 4	
+}
+## Anti Tank (AT)
+anti_tank_brigade.0 = {
+	linear_fire_and_movement = 1
+	light_engine = 0	
+	crew_served_weapons = 0	
+	anti_tank = 0
+}
+anti_tank_brigade.1 = {
+	linear_fire_and_movement = 1
+	light_engine = 0
+	crew_served_weapons = 1
+	anti_tank = 1
+}
+anti_tank_brigade.2 = {
+	linear_fire_and_movement = 1
+	light_engine = 2	
+	crew_served_weapons = 2	
+	anti_tank = 2	
+}
+anti_tank_brigade.3 = {
+	linear_fire_and_movement = 1
+	light_engine = 3	
+	crew_served_weapons = 3	
+	anti_tank = 3	
+}
+anti_tank_brigade.4 = {
+	linear_fire_and_movement = 1
+	light_engine = 4	
+	crew_served_weapons = 4	
+	anti_tank = 4	
+}
+## Attack Helo (ATKHEL)
+attack_helo_brigade.0 = {
+	airborneops_airassaultplanning = 1
+	medium_armor = 0
+	heavy_engine = 1
+	crew_served_weapons = 1
+	anti_tank = 1
+}
+attack_helo_brigade.1 = {
+	airborneops_airassaultplanning = 1
+	medium_armor = 3
+	heavy_engine = 2
+	crew_served_weapons = 2	
+	anti_tank = 2		
+}
+attack_helo_brigade.2 = {
+	airborneops_airassaultplanning = 1
+	medium_armor = 4	
+	heavy_engine = 4	
+	crew_served_weapons = 4	
+	anti_tank = 4	
+}
+## All Terrain Vehicles
+all_terrain_vehicles.0 = {
+	specialist_tactics = 1
+	arctic_equipment = 0	
+	light_engine = 0
+	crew_served_weapons	= 0
+	light_artillery = 0
+}
+all_terrain_vehicles.1 = {
+	specialist_tactics = 1
+	arctic_equipment = 0	
+	light_engine = 1
+	crew_served_weapons	= 1
+	light_artillery = 1
+}
+all_terrain_vehicles.2 = {
+	specialist_tactics = 1
+	arctic_equipment = 2	
+	light_engine = 2	
+	crew_served_weapons	= 2	
+	light_artillery = 2	
+}
+all_terrain_vehicles.3 = {
+	specialist_tactics = 1
+	arctic_equipment = 2	
+	light_engine = 3	
+	crew_served_weapons	= 3	
+	light_artillery = 3	
+}
+all_terrain_vehicles.4 = {
+	specialist_tactics = 1
+	arctic_equipment = 3	
+	light_engine = 4	
+	crew_served_weapons	= 4	
+	light_artillery = 4	
+}
+## Cavalry (CAV)
+cavalry_brigade.0 = {
+	linear_fire_and_movement = 1
+	medium_engine = 0
+	light_armor = 0
+	small_arms = 0
+	light_artillery = 0	
+}
+cavalry_brigade.1 = {
+	linear_fire_and_movement = 1
+	medium_engine = 1
+	light_armor = 1
+	small_arms = 1
+	light_artillery = 1
+}
+cavalry_brigade.2 = {
+	linear_fire_and_movement = 1
+	medium_engine = 2	
+	light_armor = 2
+	small_arms = 2
+	light_artillery = 2
+}
+cavalry_brigade.3 = {
+	linear_fire_and_movement = 1
+	medium_engine = 3
+	light_armor = 3
+	small_arms = 3
+	light_artillery = 3
+}
+cavalry_brigade.4 = {
+	linear_fire_and_movement = 1
+	medium_engine = 4	
+	light_armor = 4
+	small_arms = 4
+	light_artillery = 4
+}
+## Engineer (ENG)
+engineer_brigade.0 = {
+	attrition_warfare = 1
+	engineering_equipment = 0
+	small_arms = 0
+}
+engineer_brigade.1 = {
+	attrition_warfare = 1
+	engineering_equipment = 1
+	small_arms = 1
+}
+engineer_brigade.2 = {
+	attrition_warfare = 1
+	engineering_equipment = 2
+	small_arms = 2
+}
+engineer_brigade.3 = {
+	attrition_warfare = 1
+	engineering_equipment = 2
+	small_arms = 3	
+}
+engineer_brigade.4 = {
+	attrition_warfare = 1
+	engineering_equipment = 3
+	small_arms = 4	
+}
+## Heavy Mechanized (HMEC)
+heavy_mechanized_brigade.0 = {
+	mechanized_warfare = 1
+	heavy_engine = 1
+	medium_armor = 1
+	crew_served_weapons = 1	
+	anti_tank = 1
+}
+heavy_mechanized_brigade.1 = {
+	mechanized_warfare = 1
+	heavy_engine = 2	
+	medium_armor = 2	
+	crew_served_weapons = 2
+	anti_tank = 2	
+}
+heavy_mechanized_brigade.2 = {
+	mechanized_warfare = 1
+	heavy_engine = 3
+	medium_armor = 3
+	crew_served_weapons = 3	
+	anti_tank = 3	
+}
+heavy_mechanized_brigade.3 = {
+	mechanized_warfare = 1
+	heavy_engine = 4	
+	medium_armor = 4
+	crew_served_weapons = 4	
+	anti_tank = 4	
+}
+## Headquarter (HQ)
+hq_brigade.0 = {
+	battlefield_medicine = 1
+	light_engine = 0
+	small_arms = 1
+}
+hq_brigade.1 = {
+	battlefield_medicine = 2
+	light_engine = 2
+	small_arms = 2
+}
+hq_brigade.2 = {
+	battlefield_medicine = 3
+	light_engine = 3
+	small_arms = 3
+}
+## Infantry (INF)
+infantry_brigade.0 = {
+	light_engine = 0	
+	small_arms = 0
+	crew_served_weapons = 0
+	light_artillery = 0
+}
+infantry_brigade.1 = {
+	light_engine = 0	
+	small_arms = 1
+	crew_served_weapons = 1
+	light_artillery = 1
+}
+infantry_brigade.2 = {
+	light_engine = 2
+	small_arms = 2
+	crew_served_weapons = 2
+	light_artillery = 2
+}
+infantry_brigade.3 = {
+	light_engine = 3
+	small_arms = 3
+	crew_served_weapons = 3	
+	light_artillery = 3		
+}
+infantry_brigade.4 = {
+	light_engine = 4
+	small_arms = 4
+	crew_served_weapons = 4	
+	light_artillery = 4	
+}
+## Light Mechanized (LMEC)
+light_mechanized_brigade.0 = {
+	maneuver_warfare = 1
+	medium_engine = 0	
+	light_armor = 0
+	small_arms = 0
+	crew_served_weapons = 0
+}
+light_mechanized_brigade.1 = {
+	maneuver_warfare = 1
+	medium_engine = 1
+	light_armor = 1
+	small_arms = 1
+	crew_served_weapons = 1
+}
+light_mechanized_brigade.2 = {
+	maneuver_warfare = 1
+	medium_engine = 2	
+	light_armor = 2	
+	small_arms = 2	
+	crew_served_weapons = 2		
+}
+light_mechanized_brigade.3 = {
+	maneuver_warfare = 1
+	medium_engine = 3	
+	light_armor = 3	
+	small_arms = 3	
+	crew_served_weapons = 3		
+}
+light_mechanized_brigade.4 = {
+	maneuver_warfare = 1
+	medium_engine = 4	
+	light_armor = 4	
+	small_arms = 4	
+	crew_served_weapons = 4	
+}
+## Long Range AA (LRAA)
+long_range_anti_air_brigade.0 = {
+	indirect_artillery_fire = 1
+	heavy_anti_air = 1
+	light_engine = 0
+}
+long_range_anti_air_brigade.1 = {
+	indirect_artillery_fire = 1
+	heavy_anti_air = 2
+	light_engine = 0
+}
+long_range_anti_air_brigade.2 = {
+	indirect_artillery_fire = 1
+	heavy_anti_air = 3
+	light_engine = 0	
+}
+long_range_anti_air_brigade.3 = {
+	indirect_artillery_fire = 1
+	heavy_anti_air = 4
+	light_engine = 4
+}
+## Marine (MAR)
+marine_brigade.0 = {
+	specialist_tactics = 1
+	amphibious_capability = 1
+	medium_engine = 0
+	light_armor = 1
+	small_arms = 1
+	crew_served_weapons = 1	
+}
+marine_brigade.1 = {
+	specialist_tactics = 1
+	amphibious_capability = 2	
+	medium_engine = 2	
+	light_armor = 2	
+	small_arms = 2	
+	crew_served_weapons = 2
+}
+marine_brigade.2 = {
+	specialist_tactics = 1
+	amphibious_capability = 3	
+	medium_engine = 3	
+	light_armor = 3	
+	small_arms = 3	
+	crew_served_weapons = 3		
+}
+marine_brigade.3 = {
+	specialist_tactics = 1
+	amphibious_capability = 4	
+	medium_engine = 4	
+	light_armor = 4	
+	small_arms = 4	
+	crew_served_weapons = 4	
+}
+## Militia (MIL)
+militia_brigade.0 = {
+	comb_paramilitary_recruitment = 0
+	guerrilla_war_warfare = 0
+	small_arms = 0
+	crew_served_weapons = 0
+}
+militia_brigade.1 = {
+	comb_paramilitary_recruitment = 0
+	guerrilla_war_warfare = 0
+	small_arms = 1
+	crew_served_weapons = 1	
+}
+militia_brigade.2 = {
+	comb_paramilitary_recruitment = 0
+	guerrilla_war_warfare = 1
+	small_arms = 2	
+	crew_served_weapons = 2	
+}
+militia_brigade.3 = {
+	comb_paramilitary_recruitment = 0
+	guerrilla_war_warfare = 1
+	small_arms = 3	
+	crew_served_weapons = 3	
+}
+militia_brigade.4 = {
+	comb_paramilitary_recruitment = 0
+	guerrilla_war_warfare = 1
+	small_arms = 4
+	crew_served_weapons = 4
+}
+## Motorized (MOT)
+motorized_brigade.0 = {
+	light_engine = 0
+	small_arms = 0
+	crew_served_weapons = 0
+}
+motorized_brigade.1 = {
+	light_engine = 1
+	small_arms = 1
+	crew_served_weapons = 1
+}
+motorized_brigade.2 = {
+	light_engine = 2
+	small_arms = 2	
+	crew_served_weapons = 2	
+}
+motorized_brigade.3 = {
+	light_engine = 3
+	small_arms = 3	
+	crew_served_weapons = 3		
+}
+motorized_brigade.4 = {
+	light_engine = 4
+	small_arms = 4	
+	crew_served_weapons = 4	
+}
+## 
+bergsjaeger_brigade.0 = {
+	specialist_tactics = 1
+	light_engine = 0
+	mountain_capability = 1	
+	small_arms = 1
+	crew_served_weapons = 1
+}
+bergsjaeger_brigade.1 = {
+	specialist_tactics = 1
+	mountain_capability = 2	
+	light_engine = 2	
+	small_arms = 2	
+	crew_served_weapons = 2	
+}
+bergsjaeger_brigade.2 = {
+	specialist_tactics = 1
+	mountain_capability = 3	
+	light_engine = 3	
+	small_arms = 3	
+	crew_served_weapons = 3	
+}
+bergsjaeger_brigade.3 = {
+	specialist_tactics = 1
+	mountain_capability = 4	
+	light_engine = 4	
+	small_arms = 4	
+	crew_served_weapons = 4	
+}
+## Military Police (POL)
+police_brigade.0 = {
+	comb_paramilitary_recruitment = 0
+	light_engine = 1
+	small_arms = 1
+}
+police_brigade.1 = {
+	comb_paramilitary_recruitment = 0
+	light_engine = 2
+	small_arms = 2	
+}
+police_brigade.2 = {
+	comb_paramilitary_recruitment = 0
+	light_engine = 3
+	small_arms = 3	
+}
+## Partisan 
+partisan_brigade.0 = {
+	small_arms = 0
+}
+partisan_brigade.1 = {
+	small_arms = 1	
+}
+partisan_brigade.2 = {
+	small_arms = 2		
+}
+partisan_brigade.3 = {
+	small_arms = 3		
+}
+partisan_brigade.4 = {
+	small_arms = 4
+}
+## Rocket Artillery (RART)
+rocket_artillery_brigade.0 = {
+	indirect_artillery_fire = 1
+	light_engine = 0
+	rocket_artillery = 0	
+}
+rocket_artillery_brigade.1 = {
+	indirect_artillery_fire = 1
+	light_engine = 1
+	rocket_artillery = 1	
+}
+rocket_artillery_brigade.2 = {
+	indirect_artillery_fire = 1
+	light_engine = 2	
+	rocket_artillery = 1	
+}
+rocket_artillery_brigade.3 = {
+	indirect_artillery_fire = 1
+	light_engine = 3	
+	rocket_artillery = 1	
+}
+rocket_artillery_brigade.4 = {
+	indirect_artillery_fire = 1
+	light_engine = 4	
+	rocket_artillery = 1	
+}
+## Self Propelled AA (SPAA)
+sp_anti_air_brigade.0 = {
+	elastic_defense = 1
+	medium_engine = 0	
+	light_armor = 0
+	heavy_anti_air = 0
+}
+sp_anti_air_brigade.1 = {
+	elastic_defense = 1
+	medium_engine = 1
+	light_armor = 1
+	heavy_anti_air = 1
+}
+sp_anti_air_brigade.2 = {
+	elastic_defense = 1
+	medium_engine = 2	
+	light_armor = 2	
+	heavy_anti_air = 2	
+}
+sp_anti_air_brigade.3 = {
+	elastic_defense = 1
+	medium_engine = 3	
+	light_armor = 3	
+	heavy_anti_air = 3	
+}
+## Self Propelled Art. (SPART)
+sp_artillery_brigade.0 = {
+	elastic_defense = 1
+	heavy_engine = 0
+	medium_armor = 0	
+	medium_artillery = 0
+	heavy_artillery = 0
+}
+sp_artillery_brigade.1 = {
+	elastic_defense = 1
+	heavy_engine = 1
+	medium_armor = 1
+	medium_artillery = 1
+	heavy_artillery = 1
+}
+sp_artillery_brigade.2 = {
+	elastic_defense = 1
+	heavy_engine = 2
+	medium_armor = 2	
+	medium_artillery = 2	
+	heavy_artillery = 2	
+}
+sp_artillery_brigade.3 = {
+	elastic_defense = 1
+	heavy_engine = 3
+	medium_armor = 3
+	medium_artillery = 3	
+	heavy_artillery = 3	
+}
+sp_artillery_brigade.4 = {
+	elastic_defense = 1
+	heavy_engine = 4
+	medium_armor = 4	
+	medium_artillery = 4	
+	heavy_artillery = 4	
+}
+## Self Propelled Rocket Art. (SPRART)
+sp_rct_artillery_brigade.0 = {
+	elastic_defense = 1
+	medium_engine = 0	
+	light_armor = 0
+	rocket_artillery = 0
+}
+sp_rct_artillery_brigade.1 = {
+	elastic_defense = 1
+	medium_engine = 1	
+	light_armor = 1
+	rocket_artillery = 1
+}
+sp_rct_artillery_brigade.2 = {
+	elastic_defense = 1
+	medium_engine = 2	
+	light_armor = 2	
+	rocket_artillery = 2	
+}
+sp_rct_artillery_brigade.3 = {
+	elastic_defense = 1
+	medium_engine = 3	
+	light_armor = 3	
+	rocket_artillery = 3	
+}
+sp_rct_artillery_brigade.4 = {
+	elastic_defense = 1
+	medium_engine = 4	
+	light_armor = 4	
+	rocket_artillery = 4	
+}
+## Tank Destroyer (TD)
+tank_destroyer_brigade.0 = {
+	hedgehog_defense = 1
+	heavy_engine = 1
+	medium_armor = 1
+	crew_served_weapons = 1
+	anti_tank = 1
+}
+tank_destroyer_brigade.1 = {
+	hedgehog_defense = 1
+	heavy_engine = 2
+	medium_armor = 2	
+	crew_served_weapons = 2	
+	anti_tank = 2	
+}
+tank_destroyer_brigade.2 = {
+	hedgehog_defense = 1
+	heavy_engine = 3
+	medium_armor = 3
+	crew_served_weapons = 3	
+	anti_tank = 3	
+}
+tank_destroyer_brigade.3 = {
+	hedgehog_defense = 1
+	heavy_engine = 4	
+	medium_armor = 4	
+	crew_served_weapons = 4	
+	anti_tank = 4	
+}

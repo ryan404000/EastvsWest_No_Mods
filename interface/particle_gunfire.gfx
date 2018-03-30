@@ -1,0 +1,53 @@
+objectTypes = {
+	emitterType = {
+		name = gunfire_emitter
+		
+		gunfire_flash = 
+		{
+			time = 0.0
+			duration = 0.25
+			emitType = sphere
+			emitSpeed = 40
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 3
+			particleFinalSize = 0	
+			particleInitialSpeed = 0.33
+			particleSpeedDecrease = 0.33
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0
+			}
+			particleLife = 0.5
+			renderTechnique = "flame"
+		}
+		
+		gunfire_bombing_smoke = 
+		{
+			time = 0.0
+			duration = 0.25
+			emitType = fan
+			emitSpeed = 90
+			emitPitch = 10
+			emitFanAngle = 40
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 1.5
+			particleFinalSize = 0.5	
+			particleInitialSpeed = 1.5
+			particleSpeedDecrease = 1
+			particleGravity = 0.7
+			particleSpeedDecrease = 0.33
+			particleInitialColor = {
+				a = 1
+			}
+			particleFinalColor = {
+				a = 0.3
+			}
+			particleLife = 0.8
+			renderTechnique = "smoke"
+		}
+	}
+}

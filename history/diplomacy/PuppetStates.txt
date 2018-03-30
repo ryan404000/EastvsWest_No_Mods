@@ -1,0 +1,145 @@
+# note: remember to add alliances for these as well, most likely you want both
+
+# Indochina IDC- France FRA
+vassal = {
+ first = FRA
+ second = IDC
+ start_date = 1946.1.1
+ end_date = 1991.12.31
+}
+
+# French Sudan FSU - France FRA
+vassal = {
+ first = FRA
+ second = FSU
+ start_date = 1946.1.1
+ end_date = 1991.12.31
+}
+
+# Eritrea ERI - United Kingdom ENG
+vassal = {
+ first = ENG
+ second = ERI
+ start_date = 1946.1.1
+ end_date = 1951.1.1
+}
+
+# Eritrea ERI - Ethiopia ETH
+vassal = {
+ first = ETH
+ second = ERI
+ start_date = 1951.1.2
+ end_date = 1952.9.15
+}
+
+# Vietnam VIE - Cambodia CMB
+vassal = {
+ first = VIE
+ second = CMB
+ start_date = 1979.1.8
+ end_date = 1989.9.1
+}
+
+# United Kingdom ENG - Rhodesia RHO
+vassal = {
+ first = ENG
+ second = RHO
+ start_date = 1953.8.1
+ end_date = 1965.11.11
+}
+
+# United Kingdom ENG - Malawi MLW
+vassal = {
+ first = ENG
+ second = MLW
+ start_date = 1963.12.31
+ end_date = 1964.7.6
+}
+
+# Rhodesia RHO - Malawi MLW
+vassal = {
+ first = RHO
+ second = MLW
+ start_date = 1963.2.1
+ end_date = 1963.12.31
+}
+
+# Rhodesia RHO - Zambia ZMB
+vassal = {
+ first = RHO
+ second = ZMB
+ start_date = 1963.2.1
+ end_date = 1964.10.24
+}
+
+# United Kingdom ENG - Hong Kong HNK
+vassal = {
+ first = ENG
+ second = HNK
+ start_date = 1946.1.1
+ end_date = 1991.12.31
+}
+
+# United Kingdom ENG - British Virgin Islands BVI
+vassal = {
+ first = ENG
+ second = BVI
+ start_date = 1960.1.1
+ end_date = 1991.12.31
+}
+
+# United Kingdom ENG - Cayman Islands CAY
+vassal = {
+ first = ENG
+ second = CAY
+ start_date = 1962.1.1
+ end_date = 1991.12.31
+}
+
+# Denmark DEN - Faroe Islands FAR
+vassal = {
+ first = DEN
+ second = FAR
+ start_date = 1948.4.1
+ end_date = 1991.12.31
+}
+
+# Denmark DEN - Greenland GRL
+vassal = {
+ first = DEN
+ second = GRL
+ start_date = 1979.5.1
+ end_date = 1991.12.31
+}
+
+# United States USA - West Berlin WBR
+vassal = {
+ first = USA
+ second = WBR
+ start_date = 1946.1.1
+ end_date = 1990.10.3
+}
+
+# United States USA - Philippines PHI
+vassal = {
+ first = USA
+ second = PHI
+ start_date = 1946.1.1
+ end_date = 1946.7.4
+}
+
+# United States USA - Japan JAP
+vassal = {
+ first = USA
+ second = JAP
+ start_date = 1946.1.1
+ end_date = 1952.4.28
+}
+
+# Soviet Union SOV - Czechoslovakia CZE
+vassal = {
+ first = SOV
+ second = CZE
+ start_date = 1968.8.20
+ end_date = 1991.6.27
+}

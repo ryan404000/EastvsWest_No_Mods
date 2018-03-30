@@ -1,0 +1,109 @@
+spriteTypes = {
+
+	#Country Selection
+	spriteType = {
+		name = "GFX_frontend_tabs_bg"
+		texturefile = "gfx\\interface\\frontend\\frontend_tab_bg.dds"
+		loadType = "FRONTEND"
+	}
+	
+	textSpriteType = {
+		name = "GFX_frontend_play_button"
+		texturefile = "gfx\\interface\\frontend\\frontend_play_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_bottom_bg"	#GFX_frontend_chat_bg
+		texturefile = "gfx\\interface\\frontend\\frontend_bottom_bg.dds"
+		loadType = "FRONTEND"
+	}
+	
+
+	TextSpriteType = {
+		name = "GFX_frontend_tab_button"
+		texturefile = "gfx\\interface\\frontend\\frontend_tab_button.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_options_bg"
+		texturefile = "gfx\\interface\\frontend\\frontend_options_bg.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_selected_scenario_bg"
+		texturefile = "gfx\\interface\\frontend\\frontend_selected_scenario_bg.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_doomsday_clock"
+		texturefile = "gfx\\interface\\frontend\\frontend_doomsdayclock.dds"
+		transparencecheck = yes
+		noOfFrames = 18
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_player_entry"
+		texturefile = "gfx\\interface\\frontend\\frontend_player_entry.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_players_bg"
+		texturefile = "gfx\\interface\\frontend\\frontend_players_bg.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "GFX_frontend_selected_bg"
+		texturefile = "gfx\\interface\\frontend\\frontend_selected_bg.dds"
+		loadType = "FRONTEND"
+	}
+	
+	# TODO: OLD
+	spriteType = {
+		name = "GFX_frontend_scenario_entry"
+		texturefile = "gfx\\interface\\frontend_scenario_entry.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	# OPTIONS
+	spriteType = {
+		name = "option_next"
+		texturefile = "gfx\\interface\\frontend\\frontend_button_arrow_right.dds"
+		loadType = "FRONTEND"
+	}
+	
+	spriteType = {
+		name = "option_prev"
+		texturefile = "gfx\\interface\\frontend\\frontend_button_arrow_left.dds"
+		loadType = "FRONTEND"
+	}
+	
+	# LOBBY
+	TextSpriteType = {
+		name = "GFX_frontend_gen_button"
+		texturefile = "gfx\\interface\\frontend\\frontend_gen_button.dds"
+		loadType = "FRONTEND"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_tv_photo_overlay"
+		texturefile = "gfx\\interface\\frontend\\tv_overlay.dds"
+		loadType = "FRONTEND"
+	}
+
+	}

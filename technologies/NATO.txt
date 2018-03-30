@@ -1,0 +1,455 @@
+# List of all NATO techs
+	#nato_integrated_mil_structure			( 1 level )
+	#nato_political_pluralism				( 1 level )
+	#nato_joint_nonpoliticalcontrol			( 1 level )
+	#nato_rational_choice_theory			( 1 level )
+	#nato_efficient_markethypothesis		( 1 level )
+	#nato_planned_obsolescence				( 1 level )
+	#nato_consumerism						( 1 level )
+	#nato_keynesian_economics				( 1 level )
+	#nato_greatsociety						( 1 level )
+	#nato_supplyside_economics				( 1 level )
+	#nato_containment_doctrine				( 1 level )
+	#nato_radio_liberty						( 1 level )
+	#nato_loyalty_program					( 1 level )
+	#nato_peacethroughpartnership			( 1 level )
+	#nato_rollback_doctrine					( 1 level )
+	#nato_duckandcover						( 1 level )
+	#supercarrier_doctrine					( 1 level )
+	#nuclearmissilecruiser_doctrine			( 1 level )
+	#naval_combat_system					( 1 level )
+
+	
+nato_integrated_mil_structure ={
+	doctrine = yes
+	
+	allow = {
+		faction = allies
+		aircommand_unityofcommandprinciple = 1
+		centralized_command_and_control = 1
+		joint_interserviceoperability = 1
+	}
+	traits = {
+		front_theory
+		hqandsub_theory				
+		airstrategy_theory
+	}
+	unit_cooperation = 0.003
+	modifier = { 
+		unit_start_experience = 0.5 
+		org_regain = 0.05  
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_political_pluralism ={
+	doctrine = yes
+
+	allow = {
+		faction = allies
+		industry_poliec = 1	
+	}
+	traits = {
+		science_theory		
+	}
+	modifier = {
+		dissent_decrease = 0.075
+		national_unity = -0.1 
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_joint_nonpoliticalcontrol = {	# Can be for all services, not just Naval as originally intended
+	# planning type
+    doctrine = yes
+
+    allow = {
+		faction = allies
+		aircommand_unityofcommandprinciple = 1
+		centralized_command_and_control = 1
+		joint_interserviceoperability = 1	
+	}
+	traits = {
+		front_theory
+		hqandsub_theory				
+		airstrategy_theory	
+	}
+	modifier = { 
+		land_organisation = 0.05
+		naval_organisation = 0.1
+		air_organisation = 0.1 
+		org_regain = 0.05
+	}
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_rational_choice_theory ={
+	doctrine = yes
+	
+	allow = {
+		OR = { 
+			ideology = social_cons_idolg  
+			ideology = market_liberal_idolg
+			ideology = social_liberal_idolg
+			ideology = social_democrat_idolg
+		}
+		industry_poliec = 3
+	}
+	traits = {
+		science_theory		
+	}
+	#unlocks a policy
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_efficient_markethypothesis ={
+	doctrine = yes
+	
+	allow = {
+		OR = { 	
+			ideology = social_cons_idolg  
+			ideology = market_liberal_idolg
+			ideology = social_liberal_idolg
+			ideology = social_democrat_idolg	
+		}
+		nato_rational_choice_theory = 1
+	}
+	traits = {
+		nato_theory	
+	}
+	#unlocks a policy
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_planned_obsolescence ={
+	doctrine = yes
+	
+	allow = {
+		OR = { 
+			ideology = social_cons_idolg  
+			ideology = market_liberal_idolg
+			ideology = social_liberal_idolg
+			ideology = social_democrat_idolg
+		}
+		industry_poliec = 1
+	}
+	traits = {
+		science_theory	
+	}
+	modifier = {
+		production_tax = -0.05
+		consumption_tax = -0.05
+		dissent_decrease = 0.025
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_consumerism ={
+	doctrine = yes
+	
+	allow = {
+		OR = { 	
+			ideology = social_cons_idolg  
+			ideology = market_liberal_idolg
+			ideology = social_liberal_idolg
+			ideology = social_democrat_idolg	
+		}
+		industry_poliec = 1
+	}
+	traits = {
+		science_theory	
+	}
+	modifier = {
+		production_tax = -0.15
+		consumption_tax = -0.15
+		dissent_decrease = 0.4
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_keynesian_economics ={
+	doctrine = yes
+	
+	allow = {
+		OR = {  		
+			ideology = social_liberal_idolg
+			ideology = social_democrat_idolg
+			ideology = left_wing_radical_idolg 
+		}
+		industry_poliec = 1
+	}
+	traits = {
+		science_theory	
+	}	
+	#unlocks a policy
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_greatsociety ={
+	doctrine = yes
+	
+	allow = {
+		OR = {  		
+			ideology = social_liberal_idolg
+			ideology = social_democrat_idolg
+			ideology = left_wing_radical_idolg	
+		}
+		nato_keynesian_economics = 1
+		industry_poliec = 2
+	}
+	traits = {
+		nato_theory
+		science_theory	
+	}
+	modifier = {
+		war_exhaustion = -0.05
+		production_tax = -0.05
+		consumption_tax = -0.05
+		services_tax = -0.05
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_supplyside_economics ={
+	doctrine = yes
+	
+	allow = {
+		OR = { 
+			ideology = social_cons_idolg  
+			ideology = market_liberal_idolg
+		}
+		industry_poliec = 3
+	}
+	traits = {
+		science_theory		
+	}	
+	#unlocks a policy
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_containment_doctrine ={
+	doctrine = yes
+	
+	allow = {
+		faction = allies	
+	}
+	traits = {
+	
+	}	
+	modifier = {
+	neutrality = -0.01
+	}
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_radio_liberty ={
+	doctrine = yes
+	
+	allow = {
+		faction = allies	
+		industry_psychology = 1
+	}
+	traits = {
+		science_theory		
+	}	
+	modifier = { 
+		prestige = 0.05 
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_loyalty_program ={
+	doctrine = yes
+	
+	allow = {
+		faction = allies	
+		industry_psychology = 1
+	}
+	traits = {
+		science_theory		
+	}
+	modifier = {
+		RULING_PARTY_SUPPORT = 0.01
+	}
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_peacethroughpartnership ={
+	doctrine = yes
+	
+	allow = {
+		faction = allies
+		industry_poliec = 3	
+		nuclear_delivery_systems = 1
+	}
+	traits = {
+		science_theory	
+		nuclear_theory		
+	}
+	modifier = {
+		suseptibility = -0.01
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_rollback_doctrine ={
+	doctrine = yes
+	
+	allow = {
+		faction = allies	
+		nato_containment_doctrine = 1
+		industry_poliec = 4
+	}
+	traits = {
+		nato_theory	
+		science_theory			
+	}	
+	modifier = {
+		threat_impact = 0.01
+	}
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+nato_duckandcover ={
+	doctrine = yes
+	
+	allow = {
+		faction = allies	
+		nato_containment_doctrine = 1
+		industry_psychology = 2
+	}
+	traits = {
+		nato_theory	
+		science_theory	
+	}
+	modifier = {
+		national_unity = 0.05
+	}
+
+    folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}
+
+# Heavy aviation cruiser removed - included as helicopter carrier
+# Changed to doctrine. See unit_supercarrier in naval techs.
+
+supercarrier_doctrine = { 
+   
+	allow = { 
+		carriergroup_carrierstrikegroup = 1 
+		unit_carrier = 3
+		faction = allies 
+	}
+	traits = {
+		surface_theory
+		vessels_theory		
+	}
+	activate_unit = { 
+		supercarrier 
+	} 
+  
+	folder = nato_doctrine1_folder 
+	time = 100 
+	cost = 100 
+} 
+ 
+# US Missile Cruisers with nuclear propulsion 
+# Changed to doctrine. For unit see unit_nuclearmissilecruiser in naval techs.
+
+nuclearmissilecruiser_doctrine = { 
+	allow = {
+		unit_missilecruiser = 3
+		propulsion_nuclear = 1
+		faction = allies 
+	} 
+	traits = {
+		vessels_theory
+		systems_theory	
+	}	  
+	activate_unit = { 
+		nuclear_missile_cruiser 
+	} 
+	 
+	folder = nato_doctrine1_folder 
+	time = 100 
+	cost = 100 
+}
+
+# AEGIS combat systems
+# boost air defense (org) and detection
+naval_combat_system = {
+
+	allow = {
+		radarsystem_3dsearch = 1
+		industry_hightech_computers = 1
+		faction = allies
+	}
+	traits = {
+		science_theory
+		systems_theory		
+	}	
+	missile_destroyer = {
+		default_organisation = 8
+		air_detection = 2
+		surface_detection = 1
+	}
+
+	missile_cruiser = {
+		default_organisation = 10
+		air_detection = 2
+		surface_detection = 1
+	}
+
+	nuclear_missile_cruiser = {
+		default_organisation = 10
+		air_detection = 2
+		surface_detection = 1
+	}	
+	
+	escort_efficiency = 0.1
+	targeting_chance = 0.1
+
+	can_upgrade = yes
+	change = no 	
+	folder = nato_doctrine1_folder
+	time = 100
+	cost = 100
+}

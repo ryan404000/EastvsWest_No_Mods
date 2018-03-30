@@ -1,0 +1,608 @@
+guiTypes = {
+	
+	# Battle plans window
+	windowType = {
+		name = "battleplans_window"
+		backGround="bg"
+		position = { x = -500 y = -550 }
+		size = { x=300 y=300 }	
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "LOWER_RIGHT"
+
+		# Background
+		guiButtonType = {
+			name = "bg"	
+			quadTextureSprite ="GFX_bp_background"
+		}
+		
+		instantTextBoxType = { 
+			name = "battleplan_title"
+			position = { x = 21 y = 17 }
+			font = "Jockey_18_cyan"
+			text = "BP_TITLE"	
+			maxWidth = 326
+			maxHeight = 18
+			format = center
+			fixedsize = yes
+			allwaystransparent = yes
+		}
+		
+		# Close button
+		guiButtonType = {
+			name = "close_button"
+			position = { x= 339 y = 11 }
+			quadTextureSprite = "GFX_painter_close"
+			Orientation = "UPPER_LEFT"
+			Shortcut = esc
+		}
+		
+		# TAB - Current
+		guiButtonType = {
+			name = "tab_current"
+			position = { x = 19 y = 47 }
+			quadTextureSprite ="GFX_bp_tab_current_historical"
+			buttontext = "BP_TAB_CURRENT"	
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		#instantTextBoxType = { 
+		#	name = "tab_current_title"
+		#	position = { x = 14 y = 17 }
+		#	textureFile = ""
+		#	font = "Arial12_bold"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "BP_TAB_CURRENT"	
+		#	maxWidth = 115
+		#	maxHeight = 18
+		#	format = center
+		#	fixedsize = yes
+		#	allwaystransparent = yes
+		#}
+		
+		# TAB - Historical
+		guiButtonType = {
+			name = "tab_historical"
+			position = { x = 134 y = 47 }
+			quadTextureSprite ="GFX_bp_tab_current_historical"
+			buttontext = "BP_TAB_HISTORICAL"	
+			buttonfont = "Arial12_bold_black"
+		}
+		#instantTextBoxType = { 
+		#	name = "tab_historical_title"
+		#	position = { x = 141 y = 17 }
+		#	textureFile = ""
+		#	font = "Arial12_bold"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "BP_TAB_HISTORICAL"	
+		#	maxWidth = 115
+		#	maxHeight = 18
+		#	format = center
+		#	fixedsize = yes
+		#	allwaystransparent = yes
+		#}
+		
+		# TAB - Saved
+		guiButtonType = {
+			name = "tab_saved"
+			position = { x = 249 y = 47 }
+			quadTextureSprite ="GFX_bp_tab_current_historical"
+			buttontext = "BP_TAB_SAVED"	
+			buttonfont = "Arial12_bold_black"
+		}
+		
+		# Listbox for plans
+		listboxType = {
+			name ="listbox_plans"
+			position = { x = 14 y = 76 }
+			size = { x=327 y =226 }
+			Orientation = "UPPER_LEFT"
+			spacing = 2
+			scrollbartype = "scrollbar_vertical_diplo"
+			borderSize = {x = 0 y = 0}
+		}
+		
+		#iconType = {
+		#	name = "bottom_buttons"
+		#	position = { x = 0 y = 300 }
+		#	spriteType = "GFX_bp_bottom"
+		#}
+		
+		# Available Actions list - CURRENT TAB
+		windowType = {
+			name = "actions_list_current"
+			backGround=""
+			position = { x=18 y=308 }	
+			size = { x=278 y= 25 }
+			moveable = 0
+			fullScreen = no	
+			
+			iconType = {
+				name = "bottom_tools_bg"
+				position = { x = -2 y = -2 }
+				spriteType = "GFX_bp_bottom_tools_4_bg"
+			}
+			
+			# Create new plan
+			guiButtonType = {
+				name = "new_plan"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_bp_button_add"
+			}
+			
+			# Remove selected plan
+			guiButtonType = {
+				name = "remove_plan"
+				position = { x = 26 y = 0 }
+				quadTextureSprite ="GFX_bp_button_remove"
+			}
+						
+			# Save current plan
+			guiButtonType = {
+				name = "save_plan"
+				position = { x = 53 y = 0 }
+				quadTextureSprite ="GFX_bp_button_save"
+			}
+			
+			# Rename current plan
+			guiButtonType = {
+				name = "rename_plan"
+				position = { x = 79 y = 0 }
+				quadTextureSprite ="GFX_bp_button_rename"
+			}
+		}
+		
+		# Available Actions list - HISTORICAL TAB
+		windowType = {
+			name = "actions_list_historical"
+			backGround=""
+			position = { x=18 y=308 }	
+			size = { x=278 y= 21 }
+			moveable = 0
+			fullScreen = no	
+			
+			iconType = {
+				name = "bottom_tools_bg"
+				position = { x = -2 y = -2 }
+				spriteType = "GFX_bp_bottom_tools_1_bg"
+			}
+			
+			# Add plan to current (Load)
+			guiButtonType = {
+				name = "load_plan"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_bp_button_load"
+			}
+		}
+		
+		# Available Actions list - SAVED TAB
+		windowType = {
+			name = "actions_list_saved"
+			backGround=""
+			position = { x=18 y=308 }	
+			size = { x=278 y= 21 }
+			moveable = 0
+			fullScreen = no	
+			
+			iconType = {
+				name = "bottom_tools_bg"
+				position = { x = -2 y = -2 }
+				spriteType = "GFX_bp_bottom_tools_2_bg"
+			}
+			
+			# Add plan to current (Load)
+			guiButtonType = {
+				name = "load_plan"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_bp_button_load"
+			}
+			
+			# Delete plan (physically from disc)
+			guiButtonType = {
+				name = "delete_plan"
+				position = { x = 26 y = 0 }
+				quadTextureSprite ="GFX_bp_button_remove"
+			}
+		}
+		
+		
+		# Tools window
+		windowType = {
+			name = "tools"
+			backGround=""
+			position = { x=-31 y=7 }	
+			size = { x=32 y=198 }
+			moveable = 0
+			fullScreen = no	
+			
+			iconType = {
+				name = "select_bg"
+				position = { x = -4 y =-5 }
+				spriteType = "GFX_bp_tool_bg"
+			}
+			
+			# Tool - Selection
+			guiButtonType = {
+				name = "select"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_bp_tool_select"
+			}
+			
+			iconType = {
+				name = "arrows_bg"
+				position = { x = -4 y =28 }
+				spriteType = "GFX_bp_tool_bg"
+			}
+			
+			# Tool - Arrows
+			guiButtonType = {
+				name = "arrows"
+				position = { x = 0 y = 33 }
+				quadTextureSprite ="GFX_bp_tool_arrows"
+			}
+			
+			iconType = {
+				name = "borders_bg"
+				position = { x = -4 y =61 }
+				spriteType = "GFX_bp_tool_bg"
+			}
+
+			# Tool - Borders
+			guiButtonType = {
+				name = "borders"
+				position = { x = 0 y = 66 }
+				quadTextureSprite ="GFX_bp_tool_borders"
+			}
+			
+			iconType = {
+				name = "icons_bg"
+				position = { x = -4 y =94 }
+				spriteType = "GFX_bp_tool_bg"
+			}
+			
+			# Tool - Icons
+			guiButtonType = {
+				name = "icons"
+				position = { x = 0 y = 99 }
+				quadTextureSprite ="GFX_bp_tool_icons"
+			}
+			
+			iconType = {
+				name = "colors_bg"
+				position = { x = -4 y =127 }
+				spriteType = "GFX_bp_tool_bg"
+			}
+			
+			# Tool - Colors
+			guiButtonType = {
+				name = "colors"
+				position = { x = 0 y = 132 }
+				quadTextureSprite ="GFX_bp_tool_colors"
+			}
+			
+			iconType = {
+				name = "text_bg"
+				position = { x = -4 y =160 }
+				spriteType = "GFX_bp_tool_bg"
+			}
+			
+			# Tool - Text
+			guiButtonType = {
+				name = "text"
+				position = { x = 0 y = 165 }
+				quadTextureSprite ="GFX_bp_tool_text"
+			}
+			
+			iconType = {
+				name = "erase_bg"
+				position = { x = -4 y =193 }
+				spriteType = "GFX_bp_tool_bg"
+			}
+			
+			# Tool - Erase
+			guiButtonType = {
+				name = "erase"
+				position = { x = 0 y = 198 }
+				quadTextureSprite ="GFX_bp_tool_erase"
+				shortcut = "DEL"
+			}
+			
+			# Marker displayed on current tool.
+			# Is always on top, and position set to mach the entry
+			#iconType = {
+			#	name ="marker"
+			#	spriteType = "GFX_bp_tool_marker"
+			#	position = { x = 0 y = 0 }
+			#}
+			
+			# Invisible sub-window for options.
+			# The content is generated in code.
+			windowType = {
+				name = "options_window"
+				backGround=""
+				position = { x=-330 y=0 }	
+				size = { x=330 y=198 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				fullScreen = no
+				
+				# Marker displayed on current tool option.
+				# Is always on top, and position set to mach the entry
+				#iconType = {
+				#	name ="marker"
+				#	spriteType = "GFX_bp_tool_marker"
+				#	position = { x = 0 y = 0 }
+				#}
+				
+				# ... Buttons are inserted here in game code.
+				# see "battleplan_tool_option_entry"
+				# Icons are defined in battleplans/bp_settings.txt
+			}
+		}
+		
+		
+		# Subwindow for text entry prompt
+		windowType = {
+			name = "text_prompt_window"
+			position = { x=-236 y=170 }	
+			size = { x=64 y=200 }
+			moveable = 0
+			fullScreen = no	
+			
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_bp_textedit_bg"
+				position = { x = 0 y = 0 }
+			}
+			editBoxType = {
+				name = "text_editbox"
+				position = { x = 0 y = 5 }
+				font = "Arial12_bold"
+				borderSize = { x = 8 y = 4  }	
+				size = { x=190 y=32 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name = "apply"
+				position = { x = 9 y = 35 }
+				quadTextureSprite ="GFX_bp_textapply"
+				buttonText = ""
+				buttonFont = "Jockey_16_glow_blue"
+			}
+
+			
+		}
+		
+		# Subwindow for create new battleplan
+		windowType = {
+			name = "save_prompt_window"
+			backGround=""
+			position = { x = 1 y = 305 }	
+			size = { x=382 y=83 }
+			moveable = 0
+			fullScreen = no	
+			
+			iconType = {
+				name = "save_bg"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_bp_save_botton"
+			}
+			
+			# Saving "confirm/cancel" buttons
+			guiButtonType = {
+				name = "save_confirm"
+				position = { x = 11 y = 44 }
+				quadTextureSprite ="GFX_bp_plan_btn"
+				buttonText = "BP_SAVE_PLAN_CONFIRM"
+				buttonFont = "Jockey_16_glow_blue"
+			}
+
+			instantTextBoxType = { 
+			name = "confirm_label"
+			position = { x =-10 y = 48 }
+			font = "Jockey_16_glow_blue"
+			text = "BP_SAVE_PLAN_CONFIRM"
+			borderSize = {x = 0 y = 6}
+			maxWidth = 280
+			maxHeight = 19
+			format = centre
+
+			}
+			
+			guiButtonType = {
+				name = "save_cancel"
+				position = { x = 190 y = 44 }
+				quadTextureSprite ="GFX_bp_plan_btn_red"
+				buttonText = ""
+				buttonFont = "Jockey_16_glow_red"
+			}
+
+			instantTextBoxType = { 
+			name = "cancel_label"
+			position = { x =132 y = 48 }
+			font = "Jockey_16_glow_red"
+			text = "BP_SAVE_PLAN_CANCEL"
+			borderSize = {x = 0 y = 6}
+			maxWidth = 280
+			maxHeight = 19
+			format = centre
+
+			}
+
+			
+			# Saving to file edit box
+			editBoxType = {
+				name = "save_editbox"
+				position = { x = 5 y = -1 }
+				font = "Jockey_14"
+				borderSize = { x = 4 y = 5  }	
+				size = { x=380 y=32  }
+				orientation = "UPPER_LEFT"
+			}
+		}
+	}
+	
+	# Dummy button type needed by code to generate list of
+	# tool options (in grid layout).
+	# Texture and frame will be override.
+	# Position here is used as an offset pattern.
+	guiButtonType = {
+		name = "battleplan_tool_option_entry"
+		position = { x = -33 y = 33 }
+		quadTextureSprite ="GFX_bp_tool_color_option_icon"
+	}
+	
+	iconType = {
+		name = "battleplan_tool_option_bg"
+		position = { x = 0 y = 0 }
+		spriteType = "GFX_bp_tool_bg"
+	}
+	
+	positionType = {
+		name = "button_bg_difference"
+		position = { x = -4 y =-5 }
+	}
+	
+	# Battle plan entry
+	windowType = {
+		name = "battleplan_entry"
+		position = { x=0 y=0 }	
+		size = { x=329 y= 32 }
+		moveable = 0
+
+		# Clickable background
+		checkboxType = {
+			name = "background_button"
+			position = { x = 5  y = -1}
+			quadTextureSprite ="GFX_bp_entry_bg"
+		}
+		# Country flag
+		iconType = {
+			name ="flag"
+			spriteType = "GFX_minishield"
+			position = { x = 4 y = 1 }
+		}
+		
+		# Plan Title
+		instantTextBoxType = { 
+			name = "title"
+			position = { x = 58 y = 4 }
+			font = "Arial12_bold_cyan"
+			borderSize = {x = 0 y = 6}
+			maxWidth = 245
+			maxHeight = 19
+			format = right
+			fixedsize = yes
+			allwaystransparent = yes
+		}
+		
+		#iconType = {
+		#	name ="bp_entry_bg_2"
+		#	spriteType = "GFX_bp_entry_bg_2"
+		#	position = { x = 270 y = 4 }
+		#}
+
+		# Toggle visibility icon
+		guiButtonType = {
+			name = "visibility"
+			position = { x = 268 y = 4 }
+			quadTextureSprite ="GFX_bp_visibility_icon"
+		}
+		# Toggle share with allies
+		guiButtonType = {
+			name = "share_with_allies"
+			position = { x = 292 y = 4 }
+			quadTextureSprite ="GFX_bp_share_with_allies"
+		}
+		
+		#instantTextBoxType = { 
+		#	name = "countries"
+		#	position = { x = 99187 y = 10 }
+		#	textureFile = ""
+		#	font = "Arial12_bold_black"
+		#	borderSize = {x = 0 y = 6}
+		#	text = "BP_SHARED_WITH"	
+		#	maxWidth = 450
+		#	maxHeight = 19
+		#	format = left
+		#}
+	}
+	
+	windowType = {
+		name = "battleplan_saved_entry"
+		position = { x=0 y=0 }	
+		size = { x=340 y= 56 }
+		moveable = 0
+		fullScreen = no	
+
+		# Clickable background
+		checkboxType = {
+			name = "background_button"
+			position = { x=-1  y = -1}
+			quadTextureSprite ="GFX_bp_entry_save_bg"
+		}
+		
+		# Country flag
+		iconType = {
+			name ="flag"
+			spriteType = "GFX_minishield"
+			position = { x = 10 y = 13 }
+		}
+		
+		# Plan Title
+		instantTextBoxType = { 
+			name = "title"
+			position = { x = 20 y = 2 }
+			font = "Arial12_bold_cyan"
+			borderSize = {x = 0 y = 6}
+			maxWidth = 280
+			maxHeight = 19
+			format = right
+			fixedsize = yes
+			allwaystransparent = yes
+		}
+		
+		# Plan File path (for saved only)
+		instantTextBoxType = { 
+			name = "file_path"
+			position = { x = 20 y = 25 }
+			font = "Arial12"
+			borderSize = {x = 0 y = 6}
+			maxWidth = 280
+			maxHeight = 19
+			format = right
+			fixedsize = yes
+			allwaystransparent = yes
+		}
+		
+		# Toggle visibility icon
+		guiButtonType = {
+			name = "visibility"
+			position = { x = 6 y = 3 }
+			quadTextureSprite ="GFX_bp_visibility_icon"
+		}
+		# Toggle share with allies
+		guiButtonType = {
+			name = "share_with_allies"
+			position = { x = 263 y = 7 }
+			quadTextureSprite ="GFX_bp_share_with_allies"
+		}
+		
+		#instantTextBoxType = { 
+		#	name = "countries"
+		#	position = { x = 99187 y = 10 }
+		#	textureFile = ""
+		#	font = "Arial12_bold_black"
+		#	borderSize = {x = 0 y = 6}
+		#	text = "BP_SHARED_WITH"	
+		#	maxWidth = 450
+		#	maxHeight = 19
+		#	format = left
+		#}
+	}
+}

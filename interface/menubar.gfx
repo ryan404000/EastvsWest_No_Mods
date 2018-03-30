@@ -1,0 +1,572 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_minimap_bg"
+		texturefile = "gfx\\interface\\minimap\\minimap_bg.dds"
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_minimap"
+		texturefile = "gfx\\interface\\minimap\\minimap.dds"
+		
+	}
+
+	spriteType = {
+		name = "GFX_menubar_panel_bg"
+		texturefile = "gfx\\interface\\minimap\\menubar_panel_bg.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_menubar_panel_bg_allies"
+		texturefile = "gfx\\interface\\minimap\\menubar_panel_bg_nato.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_menubar_panel_bg_comintern"
+		texturefile = "gfx\\interface\\minimap\\menubar_panel_bg_wp.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_map_zoom_in"
+		texturefile = "gfx\\interface\\minimap\\map_zoom_in.dds"
+		transparencecheck = yes
+		
+	}
+	
+	spriteType = {
+		name = "GFX_map_zoom_out"
+		texturefile = "gfx\\interface\\minimap\\map_zoom_out.dds"
+		transparencecheck = yes
+		
+	}
+
+	spriteType = {
+		name = "GFX_btn_spy_cards"
+		texturefile = "gfx\\interface\\minimap\\minimap_spy_btn.dds"
+		transparencecheck = yes
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_btn_nuke"
+		texturefile = "gfx\\interface\\minimap\\minimap_nuke_btn.dds"
+		transparencecheck = yes
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_btn_mission"
+		texturefile = "gfx\\interface\\minimap\\minimap_mission_btn.dds"
+		transparencecheck = yes
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_menubar_goals_button"
+		texturefile = "gfx\\interface\\minimap\\minimap_victory_btn.dds"
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_menubar_modifiers_button"
+		texturefile = "gfx\\interface\\minimap\\minimap_strategic_btn.dds"
+		noOfFrames = 2
+		
+	}
+	
+	spriteType = {
+		name = "GFX_button_goto"
+		texturefile = "gfx\\interface\\minimap\\minimap_find_prov_btn.dds"
+		noOfFrames = 2
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		transparencecheck = yes
+		
+	}
+	
+	###################################################33
+
+
+	spriteType = {
+		name = "GFX_bg_main_menus"
+		texturefile = "gfx\\interface\\background_map.dds"
+		
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_ingame_chat"
+		texturefile = "gfx\\interface\\bg_ingame_chat.tga"
+	}
+	spriteType = {
+		name = "GFX_close_ingame_chat"
+		texturefile = "gfx\\interface\\close_ingame_chat.tga"
+	}
+
+	spriteType = {
+		name = "GFX_menu_ingame"
+		texturefile = "gfx\\interface\\mainmenu_ig\\menu_background.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_savegame_ingame"
+		texturefile = "gfx\\interface\\mainmenu_ig\\savegame_background.dds"
+		
+	}
+	
+	SpriteType = {
+		name = "GFX_menu_ingame_button"
+		texturefile = "gfx\\interface\\mainmenu_ig\\menu_button.dds"
+		
+	}
+	
+	SpriteType = {
+		name = "GFX_menu_ingame_button_quit"
+		texturefile = "gfx\\interface\\mainmenu_ig\\menu_button_quit.dds"
+		
+	}
+	
+	SpriteType = {
+		name = "GFX_menu_ingame_button_cancel"
+		texturefile = "gfx\\interface\\mainmenu_ig\\menu_button_cancel.dds"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_menu_ingame_button_cancel_2"
+		texturefile = "gfx\\interface\\mainmenu_ig\\settings_cancel_btn.dds"
+		loadtype = "INGAME"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_savegame_ingame_button"
+		texturefile = "gfx\\interface\\mainmenu_ig\\savegame_button.dds"
+		
+	}
+
+	SpriteType = {
+		name = "GFX_savegame_plate"
+		texturefile = "gfx\\interface\\mainmenu_ig\\savegame_plate.dds"
+		loadtype = "INGAME"
+	}
+	
+	textSpriteType = {
+		name = "GFX_prov_goto_button"
+		texturefile = "gfx\\interface\\prov_goto\\province_finder_plate.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+		norefcount = yes
+	}
+	
+	scrollingSprite = {
+		name = "day_night_scroll"
+		textureFile1 = "gfx\\interface\\daynight_overlay.tga"
+		size = { x = 320 y = 123 }
+		effectFile = "gfx\\FX\\progress.fx"
+		step = 24
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_menubar_bg"
+		texturefile = "gfx\\interface\\menubar.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_minimap_bg_shadow"
+		texturefile = "gfx\\interface\\minimap_bg_shadow.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_minimap_closed"
+		texturefile = "gfx\\interface\\minimap_closed.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_bg_spy_mission_mapmode"
+		texturefile = "gfx\\interface\\bg_mission_mapmode1.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_bg_find_province"
+		texturefile = "gfx\\interface\\prov_goto\\province_finder_background.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_minishield_strikeout"
+		texturefile = "gfx\\interface\\minishield_strikeout.tga"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_chat_bg"
+		texturefile = "gfx\\interface\\chat_bg.tga"
+	}
+
+
+	spriteType = {
+		name = "GFX_messageicon_bg"
+		texturefile = "gfx\\interface\\bg_diplo_message.tga"
+	}
+	spriteType = {
+		name = "GFX_messageicon_bg_overlay"
+		texturefile = "gfx\\interface\\bg_diplo_message_overlay.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_msgsettings_bg"
+		texturefile = "gfx\\interface\\msgsettings\\message_naked_bgl.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_message_cat_tab_small"
+		texturefile = "gfx\\interface\\msgsettings\\message_tab_small.dds"
+		noOfFrames = 2
+		
+	}
+	spriteType = {
+		name = "GFX_message_cat_tab_big"
+		texturefile = "gfx\\interface\\msgsettings\\message_tab_big.dds"
+		noOfFrames = 2
+		
+	}
+
+	spriteType = {
+		name = "GFX_messageicon_log"
+		texturefile = "gfx\\interface\\messageicon_log.tga"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_messagecat_combat"
+		texturefile = "gfx\\interface\\messagecat_combat.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_messagecat_diplo"
+		texturefile = "gfx\\interface\\messagecat_diplo.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_messagecat_units"
+		texturefile = "gfx\\interface\\messagecat_units.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_messagecat_provinces"
+		texturefile = "gfx\\interface\\messagecat_provinces.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_messagecat_events"
+		texturefile = "gfx\\interface\\messagecat_events.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_messagecat_other"
+		texturefile = "gfx\\interface\\messagecat_other.tga"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_messageicon_pause"
+		texturefile = "gfx\\interface\\messageicon_pause.tga"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_messageicons"
+		texturefile = "gfx\\interface\\messageicons.tga"
+		noOfFrames = 13
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_diplo_message_icons"
+		texturefile = "gfx\\interface\\diplo_message_icons.tga"
+		noOfFrames = 11
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_button_home"
+		texturefile = "gfx\\interface\\button_home.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_button_war_overview"
+		texturefile = "gfx\\interface\\napoleon_interface\\war_overview_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_messageicon_dialog"
+		texturefile = "gfx\\interface\\messageicon_dialog.tga"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_messageicon_map"
+		texturefile = "gfx\\interface\\messageicon_map.tga"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_messagesettings_listbutton"
+		texturefile = "gfx\\interface\\msgsettings\\message_listbox_plate.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		
+	}
+
+	spriteType = {
+		name = "GFX_mapmode_button"
+		texturefile = "gfx\\interface\\mapmode_button.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_zoom_in"
+		texturefile = "gfx\\interface\\zoom_in.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_zoom_out"
+		texturefile = "gfx\\interface\\zoom_out.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_mission"
+		texturefile = "gfx\\interface\\minimap\\mapmode_mission.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_mapmode_nuclear"
+		texturefile = "gfx\\interface\\minimap\\mapmode_nuke.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_mapmode_terrain"
+		texturefile = "gfx\\interface\\minimap\\mapmode_terrain.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_terrain2"
+		texturefile = "gfx\\interface\\minimap\\mapmode_terrain_2.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_mapmode_political"
+		texturefile = "gfx\\interface\\minimap\\mapmode_political.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_weather"
+		texturefile = "gfx\\interface\\minimap\\mapmode_weather.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_intel"
+		texturefile = "gfx\\interface\\minimap\\mapmode_intel.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_revolt"
+		texturefile = "gfx\\interface\\minimap\\mapmode_revolt.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_diplomatic"
+		texturefile = "gfx\\interface\\minimap\\mapmode_diplomatic.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_region"
+		texturefile = "gfx\\interface\\minimap\\mapmode_region.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_supply"
+		texturefile = "gfx\\interface\\minimap\\mapmode_supply.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_infra"
+		texturefile = "gfx\\interface\\minimap\\mapmode_infra.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_economical"
+		texturefile = "gfx\\interface\\minimap\\mapmode_economical.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_theatre"
+		texturefile = "gfx\\interface\\minimap\\mapmode_theatre.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_strength"
+		texturefile = "gfx\\interface\\minimap\\mapmode_strength.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_resources"
+		texturefile = "gfx\\interface\\minimap\\mapmode_resources.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_aircombat"
+		texturefile = "gfx\\interface\\minimap\\mapmode_air.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_mapmode_navalcombat"
+		texturefile = "gfx\\interface\\minimap\\mapmode_naval.dds"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	###########################################################
+
+	spriteType = {
+		name = "GFX_log_bg"
+		texturefile = "gfx\\interface\\log_bg.tga"
+		transparencecheck = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_closelog_button"
+		texturefile = "gfx\\interface\\log_min.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		clicksound = click
+	}
+
+	spriteType = {
+		name = "GFX_openlog_button"
+		texturefile = "gfx\\interface\\log_max.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		clicksound = click
+	}
+
+
+
+	spriteType = {
+		name = "GFX_menu_button"
+		texturefile = "gfx\\interface\\button_menu.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		clicksound = click
+	}
+
+
+	spriteType = {
+		name = "GFX_ledger_button"
+		texturefile = "gfx\\interface\\button_ledger.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		clicksound = click
+	}
+
+	spriteType = {
+		name = "GFX_panel_button"
+		texturefile = "gfx\\interface\\panel_button.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+		clicksound = click
+	}	
+
+	spriteType = {
+		name = "GFX_settings_tab"
+		texturefile = "gfx\\interface\\tab_settings.tga"
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+
+	spriteType = {
+		name = "GFX_goto_box"
+		texturefile = "gfx\\interface\\goto_prov_dialog_bg.tga"
+	}
+		
+	TextSpriteType = {
+		name = "GFX_msg_settings_confirm"
+		texturefile = "gfx\\interface\\msgsettings\\message_btn_ok.dds"
+		
+	}
+		
+	TextSpriteType = {
+		name = "GFX_msg_settings_cancel"
+		texturefile = "gfx\\interface\\msgsettings\\message_btn_cancel.dds"
+		
+	}
+
+	
+		
+	
+}

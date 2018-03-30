@@ -1,0 +1,92 @@
+theatre = {
+	name = "Home Theatre"
+	location = 9945
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 9945
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division = 
+		{   
+			name = "8th Infantry Division"
+			location = 9998
+			regiment = { type = infantry_brigade name = "1st Infantry Brigade" historical_model = 0 strength = 38 experience = 17 }
+			regiment = { type = infantry_brigade name = "2nd Infantry Brigade" historical_model = 0 strength = 35 experience = 17 }
+			regiment = { type = artillery_brigade name = "1st Artillery Brigade" historical_model = 0 strength = 22 experience = 19 }
+		}
+		
+		division = 
+		{   
+			name = "9th Infantry Division"
+			location = 10001
+			regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 0 strength = 35 experience = 12 }
+			regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 0 strength = 33 experience = 11 }
+		}
+		
+		division = 
+		{   
+			name = "1st Infantry Division"
+			location = 10161
+			regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 0 strength = 36 experience = 12 }
+		}
+	}
+	
+	army =
+	{
+		name = "2nd Army"
+		location = 10158
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		
+		division = 
+		{   
+			name = "3rd Infantry Division"
+			location = 10158
+			regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 0 strength = 34 experience = 11 }
+		}
+		
+		division = 
+		{   
+			name = "4th Infantry Division"
+			location = 9896
+			regiment = { type = infantry_brigade name = "7th Infantry Brigade" historical_model = 0 strength = 34 experience = 12 }
+		}
+		
+		division = 
+		{   
+			name = "1st Mountain Division"
+			location = 10218
+			regiment = { type = bergsjaeger_brigade name = "1st Mountain Brigade" historical_model = 0 strength = 37 experience = 12 }
+		}
+		
+		division = 
+		{   
+			name = "1st Militia Division"
+			location = 9997
+			regiment = { type = militia_brigade name = "1st Militia Brigade" historical_model = 0 strength = 35 experience = 2 }
+		}
+		
+	}
+}
+	
+theatre = {
+	name = "East Pakistan Theatre"
+	location = 11374
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 11374
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division = 
+		{   
+			name = "2nd Militia Division"
+			location = 11374
+			regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 0 strength = 38 experience = 3 }
+		}
+	}
+}
+		

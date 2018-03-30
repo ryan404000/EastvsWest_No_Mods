@@ -1,0 +1,50 @@
+recon_plane = {
+	goods_usage = 
+	{
+		aviation_industry = 0.04
+	}
+	type = air
+	active = no
+	sprite = Bomber
+	
+	is_bomber = yes
+
+	intel_level = 8
+
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 0
+
+	#Building Costs
+	unit_money_cost= 100.00
+	build_cost_manpower = 2.00
+	build_time = 330
+
+	#Misc Abilities
+	maximum_speed = 805.00
+	transport_capability = 0.00
+	supply_consumption = 2.00
+	fuel_consumption = 2.00
+	range = 10300.00
+	
+	
+	#Detection Abilities
+	surface_detection = 10.00
+	air_detection = 2.00
+
+	#Defensive Abilities
+	surface_defence = 10.00
+	air_defence = 6.00
+
+	#Offensive Abilities
+	soft_attack = 0.00
+	hard_attack = 0.00
+	sea_attack = 0.00
+	air_attack = 0.00
+	strategic_attack = 0.00
+	sub_attack = 0.00
+
+	priority = 4
+}

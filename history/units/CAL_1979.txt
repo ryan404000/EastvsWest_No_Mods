@@ -1,0 +1,1870 @@
+theatre =
+{
+	name = "Home Theatre"
+	location = 2336
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "1st Army"
+		location = 2336
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "9th Infantry Division 'Old Reliables'"
+			location = 427
+			regiment = { type = infantry_brigade name = "71st Infantry Brigade" historical_model = 4 strength = 39 experience = 9 }
+			regiment = { type = engineer_brigade name = "7th Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = artillery_brigade name = "6th Artillery Regiment" historical_model = 4 strength = 25 experience = 10 }
+			regiment = { type = infantry_brigade name = "72nd Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = light_mechanized_brigade name = "2nd Light Mech. Brigade" historical_model = 4 strength = 37 experience = 9 }
+		}
+		division =
+		{
+			name = "1st Marine Division 'Blue Diamond'"
+			location = 1808
+			regiment = { type = marine_brigade name = "1st Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "2nd Marine Brigade" historical_model = 3 strength = 40 experience = 15 }
+			regiment = { type = marine_brigade name = "3rd Marine Brigade" historical_model = 3 strength = 40 experience = 15 }
+			regiment = { type = marine_brigade name = "4th Marine Brigade" historical_model = 3 strength = 40 experience = 14 }
+			regiment = { type = engineer_brigade name = "8th Engineer Regiment" historical_model = 4 strength = 25 experience = 14 }
+		}
+		division =
+		{
+			name = "24th Infantry Division 'Victory'"
+			location = 1990
+			regiment = { type = armor_brigade name = "10th Armor Brigade" historical_model = 4 strength = 25 experience = 10 }
+			regiment = { type = heavy_mechanized_brigade name = "8th Heavy Mech. Brigade" historical_model = 2 strength = 30 experience = 9 }
+			regiment = { type = heavy_mechanized_brigade name = "7th Heavy Mech. Brigade" historical_model = 2 strength = 30 experience = 9 }
+			regiment = { type = heavy_mechanized_brigade name = "6th Heavy Mech. Brigade" historical_model = 2 strength = 30 experience = 9 }
+			regiment = { type = heavy_mechanized_brigade name = "5th Heavy Mech. Brigade" historical_model = 2 strength = 30 experience = 9 }
+		}
+		division =
+		{
+			name = "2nd Marine Division 'The Silent Second'"
+			location = 2183
+			regiment = { type = marine_brigade name = "5th Marine Brigade" historical_model = 3 strength = 40 experience = 14 }
+			regiment = { type = marine_brigade name = "6th Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "7th Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "8th Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = engineer_brigade name = "10th Engineer Regiment" historical_model = 4 strength = 24 experience = 15 }
+		}
+		division =
+		{
+			name = "101st Airborne Division 'Screaming Eagles'"
+			location = 1842
+			regiment = { type = air_cav_brigade name = "2nd Air Cavalry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = air_cav_brigade name = "3rd Air Cavalry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = air_cav_brigade name = "4th Air Cavalry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = air_cav_brigade name = "5th Air Cavalry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = attack_helo_brigade name = "1st Attack Helicopter Brigade" historical_model = 1 strength = 17 experience = 15 }
+		}
+	}
+	army =
+	{
+		name = "7th Army"
+		location = 2230
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "28th Infantry Division 'Keystone'"
+			location = 2133
+			regiment = { type = infantry_brigade name = "15th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = engineer_brigade name = "6th Engineer Regiment" historical_model = 4 strength = 25 experience = 10 }
+			regiment = { type = infantry_brigade name = "16th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "17th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		}
+		division =
+		{
+			name = "98th Infantry Division 'Iroquois'"
+			location = 2176
+			regiment = { type = infantry_brigade name = "349th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = infantry_brigade name = "350th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = artillery_brigade name = "8th Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+		}
+		division =
+		{
+			name = "106th Infantry Division 'Golden Lion'"
+			location = 2867
+			regiment = { type = infantry_brigade name = "356th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "357th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = engineer_brigade name = "4th Engineer Regiment" historical_model = 4 strength = 25 experience = 9 }
+		}
+		division =
+		{
+			name = "4th Marine Division 'Fighting Fourth'"
+			location = 600
+			regiment = { type = marine_brigade name = "4th Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "5th Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "6th Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "7th Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = engineer_brigade name = "5th Engineer Regiment" historical_model = 4 strength = 24 experience = 15 }
+		}
+	}
+	army =
+	{
+		name = "13th Army"
+		location = 1992
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "5th Infantry Division 'Red Diamond'"
+			location = 1982
+			regiment = { type = artillery_brigade name = "7th Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+			regiment = { type = light_mechanized_brigade name = "5th Light Mech. Brigade" historical_model = 4 strength = 36 experience = 10 }
+			regiment = { type = infantry_brigade name = "22nd Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = infantry_brigade name = "23rd Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = engineer_brigade name = "7th Engineer Regiment" historical_model = 4 strength = 25 experience = 9 }
+		}
+		division =
+		{
+			name = "108th Infantry Division 'Golden Griffins'"
+			location = 1880
+			regiment = { type = infantry_brigade name = "24th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = artillery_brigade name = "8th Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = infantry_brigade name = "25th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = infantry_brigade name = "26th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		}
+		division =
+		{
+			name = "26th Infantry Division 'Yankee'"
+			location = 2464
+			regiment = { type = infantry_brigade name = "243rd Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = engineer_brigade name = "1st Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = infantry_brigade name = "244th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "245th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		}
+	}
+	army =
+	{
+		name = "19th Army"
+		location = 887
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "96th Infantry Division 'Deadeye'"
+			location = 887
+			regiment = { type = light_mechanized_brigade name = "1st L. Mech Brigade" historical_model = 4 strength = 37 experience = 9 }
+			regiment = { type = heavy_mechanized_brigade name = "1st H. Mech Brigade" historical_model = 2 strength = 30 experience = 9 }
+			regiment = { type = air_cav_brigade name = "1st Air Cavalry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "57th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		}
+		division =
+		{
+			name = "91st Infantry Division 'Wild West'"
+			location = 438
+			regiment = { type = infantry_brigade name = "57th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = infantry_brigade name = "58th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = infantry_brigade name = "1st Infantry Regiment" historical_model = 4 strength = 19 experience = 10 }
+			regiment = { type = engineer_brigade name = "4th Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+		}
+		division =
+		{
+			name = "104th Infantry Division 'Timberwolf'"
+			location = 2182
+			regiment = { type = infantry_brigade name = "59th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = infantry_brigade name = "60th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "61st Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = engineer_brigade name = "5th Engineer Regiment" historical_model = 4 strength = 25 experience = 10 }
+		}
+		division =
+		{
+			name = "42nd Infantry Division 'Rainbow'"
+			location = 2336
+			regiment = { type = infantry_brigade name = "275th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = infantry_brigade name = "276th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = artillery_brigade name = "5th Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+		}
+	}
+	army =
+	{
+		name = "25th Army"
+		location = 1368
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "2nd Armored Division 'Hell on Wheels'"
+			location = 1368
+			regiment = { type = armor_brigade name = "3rd Armor Brigade" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = armor_brigade name = "4th Armor Brigade" historical_model = 4 strength = 25 experience = 10 }
+			regiment = { type = armor_brigade name = "5th Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+		}
+		division =
+		{
+			name = "95th Infantry Division 'Iron Men of Metz'"
+			location = 1499
+			regiment = { type = infantry_brigade name = "344th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "345th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = infantry_brigade name = "346th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = artillery_brigade name = "7th Artillery Regiment" historical_model = 4 strength = 25 experience = 10 }
+		}
+	}
+	army =
+	{
+		name = "27th Army"
+		location = 2465
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "47th Infantry Division 'Viking'"
+			location = 1812
+			regiment = { type = infantry_brigade name = "284th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "285th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = infantry_brigade name = "286th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = artillery_brigade name = "9th Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+		}
+		division =
+		{
+			name = "76th Infantry 'Onaway'"
+			location = 2022
+			regiment = { type = air_cav_brigade name = "5th Air Cavalry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = air_cav_brigade name = "6th Air Cavalry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = light_mechanized_brigade name = "6th L. Mech. Brigade" historical_model = 4 strength = 37 experience = 10 }
+		}
+		division =
+		{
+			name = "78th Infantry Division 'Lightning'"
+			location = 2337
+			regiment = { type = infantry_brigade name = "301st Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "302nd Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = infantry_brigade name = "303rd Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = artillery_brigade name = "15th Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = engineer_brigade name = "2nd Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+		}
+		division =
+		{
+			name = "85th Infantry Division 'Custer'"
+			location = 1768
+			regiment = { type = infantry_brigade name = "330th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = infantry_brigade name = "331st Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+		}
+	}
+	air = {
+		name = "1st Air Force"
+		base = 1122
+		location = 1122
+		wing = { type = fighter name = "1st Fighter Wing" historical_model = 3 strength = 100 }
+		wing = { type = fighter name = "2nd Fighter Wing" historical_model = 3 strength = 100 }
+		wing = { type = fighter name = "3rd Fighter Wing" historical_model = 3 strength = 100 }
+		wing = { type = fighter name = "4th Fighter Wing" historical_model = 3 strength = 100 }
+		wing = { type = fighter name = "5th Fighter Wing" historical_model = 3 strength = 100 }
+		wing = { type = transport_plane name = "1st Transport Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "4th Air Force"
+		base = 2464
+		location = 2464
+		wing = { type = fighter name = "16th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "17th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "18th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "19th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "20th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "21st Fighter Wing" historical_model = 5 strength = 100 }
+	}
+	air = {
+		name = "5th Air Force"
+		base = 2464
+		location = 2464
+		wing = { type = fighter name = "22nd Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "23rd Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "24th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "25th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "26th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = transport_plane name = "2nd Transport Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "6th Air Force"
+		base = 2139
+		location = 2139
+		wing = { type = fighter name = "27th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "28th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = fighter name = "29th Fighter Wing" historical_model = 6 strength = 100 }
+		wing = { type = fighter name = "30th Fighter Wing" historical_model = 6 strength = 100 }
+	}
+	air = {
+		name = "7th Air Force"
+		base = 2059
+		location = 2059
+		wing = { type = multi_role name = "31st Fighter Wing" historical_model = 2 strength = 100 }
+		wing = { type = multi_role name = "32nd Fighter Wing" historical_model = 2 strength = 100 }
+		wing = { type = multi_role name = "33rd Fighter Wing" historical_model = 2 strength = 100 }
+		wing = { type = multi_role name = "34th Fighter Wing" historical_model = 3 strength = 100 }
+		wing = { type = transport_plane name = "3rd Transport Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "8th Air Force"
+		base = 2059
+		location = 2059
+		wing = { type = multi_role name = "35th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "36th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "37th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "38th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "39th Fighter Wing" historical_model = 4 strength = 100 }
+	}
+	air = {
+		name = "9th Air Force"
+		base = 2059
+		location = 2059
+		wing = { type = multi_role name = "40th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "41st Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "42nd Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "43rd Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = multi_role name = "44th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = transport_plane name = "4th Transport Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "10th Air Force"
+		base = 2332
+		location = 2332
+		wing = { type = multi_role name = "45th Fighter Wing" historical_model = 5 strength = 100 }
+		wing = { type = multi_role name = "46th Fighter Wing" historical_model = 5 strength = 50 }
+		wing = { type = transport_plane name = "4th Transport Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "11th Air Force"
+		base = 2332
+		location = 2332
+		wing = { type = cas name = "1st CAS Wing" historical_model = 3 strength = 100 }
+		wing = { type = cas name = "2nd CAS Wing" historical_model = 3 strength = 100 }
+		wing = { type = cas name = "3rd CAS Wing" historical_model = 3 strength = 100 }
+		wing = { type = cas name = "4th CAS Wing" historical_model = 3 strength = 100 }
+	}
+	air = {
+		name = "12th Air Force"
+		base = 1874
+		location = 1874
+		wing = { type = cas name = "5th CAS Wing" historical_model = 4 strength = 100 }
+		wing = { type = cas name = "6th CAS Wing" historical_model = 4 strength = 100 }
+		wing = { type = cas name = "7th CAS Wing" historical_model = 4 strength = 100 }
+		wing = { type = cas name = "8th CAS Wing" historical_model = 4 strength = 100 }
+		wing = { type = cas name = "9th CAS Wing" historical_model = 4 strength = 100 }
+	}
+	air = {
+		name = "13th Air Force"
+		base = 1874
+		location = 1874
+		wing = { type = cas name = "10th CAS Wing" historical_model = 4 strength = 100 }
+		wing = { type = cas name = "11th CAS Wing" historical_model = 4 strength = 100 }
+		wing = { type = cas name = "12th CAS Wing" historical_model = 5 strength = 100 }
+		wing = { type = cas name = "13th CAS Wing" historical_model = 5 strength = 100 }
+		wing = { type = cas name = "14th CAS Wing" historical_model = 5 strength = 100 }
+	}
+	air = {
+		name = "14th Air Force"
+		base = 1906
+		location = 1906
+		wing = { type = bomber_strategic name = "1st Strategic Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_strategic name = "2nd Strategic Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_strategic name = "3rd Strategic Bomber Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "15th Air Force"
+		base = 1906
+		location = 1906
+		wing = { type = bomber_strike name = "1st Strike Bomber Wing" historical_model = 3 strength = 100 }
+		wing = { type = bomber_strike name = "2nd Strike Bomber Wing" historical_model = 3 strength = 100 }
+		wing = { type = bomber_strike name = "3rd Strike Bomber Wing" historical_model = 3 strength = 100 }
+		wing = { type = bomber_strike name = "4th Strike Bomber Wing" historical_model = 3 strength = 100 }
+		wing = { type = bomber_strike name = "5th Strike Bomber Wing" historical_model = 3 strength = 100 }
+		wing = { type = bomber_strike name = "6th Strike Bomber Wing" historical_model = 3 strength = 67 }
+	}
+	air = {
+		name = "16th Air Force"
+		base = 1906
+		location = 1906
+		wing = { type = bomber_antisub name = "1st Anti-Submarine Bomber Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "17th Air Force"
+		base = 778
+		location = 778
+		wing = { type = bomber_maritime name = "1st Maritime Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_maritime name = "2nd Maritime Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_maritime name = "3rd Maritime Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_maritime name = "4th Maritime Bomber Wing" historical_model = 2 strength = 100 }
+	}
+	air = {
+		name = "18th Air Force"
+		base = 778
+		location = 778
+		wing = { type = bomber_maritime name = "5th Maritime Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_maritime name = "6th Maritime Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_maritime name = "7th Maritime Bomber Wing" historical_model = 2 strength = 100 }
+		wing = { type = bomber_maritime name = "8th Maritime Bomber Wing" historical_model = 2 strength = 50 }
+	}
+	air = {
+		name = "19th Air Force"
+		base = 778
+		location = 778
+		wing = { type = recon_plane name = "1st Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "2nd Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "3rd Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "4th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "5th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "6th Recon Wing" historical_model = 1 strength = 100 }
+	}
+	
+	air = {
+		name = "20th Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "7th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "8th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "9th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "10th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "11th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "12th Recon Wing" historical_model = 1 strength = 100 }
+	}
+	
+	air = {
+		name = "21st Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "13th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "14th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "15th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "16th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "17th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "18th Recon Wing" historical_model = 1 strength = 100 }
+	}
+	
+	air = {
+		name = "22nd Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "19th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "20th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "21st Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "22nd Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "23rd Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "24th Recon Wing" historical_model = 1 strength = 100 }
+	}
+	
+	air = {
+		name = "23rd Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "25th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "26th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "27th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "28th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "29th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "30th Recon Wing" historical_model = 1 strength = 100 }
+	}
+	
+	air = {
+		name = "24th Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "31st Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "32nd Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "33rd Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "34th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "35th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "36th Recon Wing" historical_model = 1 strength = 100 }
+	}
+	
+	air = {
+		name = "25th Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "37th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "38th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "39th Recon Wing" historical_model = 1 strength = 100 }
+		wing = { type = recon_plane name = "40th Recon Wing" historical_model = 1 strength = 100 }
+	}
+	
+	air = {
+		name = "26th Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "41st Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "42nd Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "43rd Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "44th Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "45th Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "46th Recon Wing" historical_model = 2 strength = 100 }
+	}
+	
+	air = {
+		name = "27th Air Force"
+		base = 2182
+		location = 2182
+		wing = { type = recon_plane name = "47th Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "48th Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "49th Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "50th Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "51st Recon Wing" historical_model = 2 strength = 100 }
+		wing = { type = recon_plane name = "52nd Recon Wing" historical_model = 2 strength = 100 }
+	}
+	navy = {
+		name = "1st Fleet"
+		base = 2184 # Norfolk VA (East Coast)
+		location = 2184
+		ship = { type = missile_frigate name = "USS O' Callahan" historical_model = 3 }
+		ship = { type = missile_frigate name = "USS Koelsch" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Dolphin" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Arthur W. Radford" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Comte de Grase" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS O' Brien" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Conolly" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Peterson" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Spruance" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS John King" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Claude V. Ricketts" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Barney" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Hoel" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Robison" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS John Paul Jones" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS William V. Pratt" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Forrest Sherman" historical_model = 1 }	
+		ship = { type = missile_destroyer name = "USS John Paul Jones" historical_model = 1 }			
+		ship = { type = supercarrier name = "USS Dwight D. Eisenhower" historical_model = 3 }
+		ship = { type = supercarrier name = "USS Enterprise" historical_model = 2 }
+		ship = { type = supercarrier name = "USS John F. Kennedy" historical_model = 1 }
+		ship = { type = supercarrier name = "USS Independence" historical_model = 0 }
+		ship = { type = carrier name = "USS Midway" historical_model = 5 }
+		ship = { type = helicopter_carrier name = "USS Nassau" historical_model = 3 }
+		ship = { type = helicopter_carrier name = "USS Guam" historical_model = 1 }
+		ship = { type = helicopter_carrier name = "USS Guadalcanal" historical_model = 1 }
+		ship = { type = missile_cruiser name = "USS Belknap" historical_model = 4 }
+		ship = { type = missile_cruiser name = "USS Josephus Daniels" historical_model = 4 }
+		ship = { type = missile_cruiser name = "USS Biddle" historical_model = 4 }
+		ship = { type = nuclear_missile_cruiser name = "USS California" historical_model = 3 }
+		ship = { type = nuclear_missile_cruiser name = "USS Mississippi" historical_model = 4 }
+		ship = { type = nuclear_missile_cruiser name = "USS Texas" historical_model = 4 }
+		ship = { type = transport_ship name = "1st Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "2nd Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "3rd Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "4th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "5th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "6th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "7th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "8th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "9th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "10th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "11th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "12th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "13th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "14th Transport Flotilla" historical_model = 0 }
+	}
+	navy = {
+		name = "21st Fleet"
+		base = 2184 # Norfolk VA (East Coast)
+		location = 2184
+		ship = { type = ballistic_missile_submarine name = "USS Simon Bolivar" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS James Madison" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS John C. Calhoun" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS Von Steuben" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS Sam Rayburn" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS John Adams" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Baton Rouge" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Memphis" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Birmingham" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Cincinnati" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Sunfish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Ray" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Silversides" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Lapon" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Hammerhead" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Sea Devil" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Bergall" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Spadefish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Finback" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS L. Mendel Rivers" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Richard B. Russel" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Parche" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Tullibee" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Shark" historical_model = 1 }
+	}
+
+	navy = {
+		name = "3rd Fleet"
+		base = 600 # San Diego (West Coast)
+		location = 600
+		ship = { type = missile_destroyer name = "USS Paul F. Foster" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Harry W. Hill" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Leftwich" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Elliot" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Cushing" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Henry B. Wilson" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Lynde McCormick" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS King" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Barry" historical_model = 1 }	
+		ship = { type = missile_destroyer name = "USS Decatur" historical_model = 1 }		
+		ship = { type = supercarrier name = "USS Kitty Hawk" historical_model = 1 }
+		ship = { type = nuclear_missile_cruiser name = "USS Long Beach" historical_model = 0 }
+		ship = { type = missile_cruiser name = "USS Leahy" historical_model = 3 }
+		ship = { type = missile_cruiser name = "USS Halsey" historical_model = 3 }
+		ship = { type = missile_cruiser name = "USS Jouett" historical_model = 4 }
+		ship = { type = missile_cruiser name = "USS Sterett" historical_model = 4 }
+		ship = { type = missile_cruiser name = "USS William H. Standley" historical_model = 4 }
+		ship = { type = nuclear_missile_cruiser name = "USS Truxtun" historical_model = 2 }
+		ship = { type = transport_ship name = "15th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "16th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "17th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "18th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "19th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "20th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "21st Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "22nd Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "23rd Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "24th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "25th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "26th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "27th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "28th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "29th Transport Flotilla" historical_model = 0 }
+		ship = { type = transport_ship name = "30th Transport Flotilla" historical_model = 0 }
+	}
+	navy = {
+		name = "22nd Fleet"
+		base = 600 # San Diego (West Coast)
+		location = 600
+		ship = { type = nuclear_submarine name = "USS William H. Bates" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Haddock" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Halibut" historical_model = 1 }
+		ship = { type = nuclear_submarine name = "USS Sculpin" historical_model = 1 }
+		ship = { type = attack_submarine name = "USS Bonefish" historical_model = 4 }
+		ship = { type = attack_submarine name = "USS Blueback" historical_model = 4 }
+	}
+
+	navy = {
+		
+		name = "3rd Fleet"
+		base = 534 # San Pedro, Los Angeles (West Coast)
+		location = 534
+		ship = { type = missile_destroyer name = "USS Davis" historical_model = 1 }
+		ship = { type = missile_destroyer name = "USS Jonas Ingram" historical_model = 1 }			
+		ship = { type = missile_frigate name = "USS Hepburn" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Meyerkord" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Lang" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Francis Hammond" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Badger" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Harold E. Holt" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Fanning" historical_model = 5 }
+		ship = { type = helicopter_carrier name = "USS New Orleans" historical_model = 1 }
+		ship = { type = missile_cruiser name = "USS Fox" historical_model = 4 }
+	}
+
+	navy = {
+		name = "2nd Fleet"
+		base = 534 # Long Beach, Los Angeles (West Coast)
+		location = 534
+		ship = { type = missile_destroyer name = "USS Oldendorf" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Towers" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Parsons" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Manley" historical_model = 1 }	
+		ship = { type = missile_destroyer name = "USS Du Pont" historical_model = 1 }			
+		ship = { type = helicopter_carrier name = "USS Belleau Wood" historical_model = 3 }
+	}
+
+	navy = {
+		name = "2nd Fleet"
+		base = 1702 # New Orleans (East Coast)
+		location = 1702
+		ship = { type = missile_frigate name = "USS Connole" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS W. S. Sims" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Patterson" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Vreeland" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Bagley" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Blakely" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Trippe" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Joseph Hewes" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Bowen" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Paul" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Aylwin" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Elmer Montgomery" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS McCandless" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Donald B. Beary" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Brewton" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Kirk" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Barbey" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Jesse L. Brown" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Ainsworth" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Miller" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Thomas C. Hart" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Capodanno" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Pharris" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Truett" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Valdez" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Moinester" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Ouellet" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Bronstein" historical_model = 3 }
+		ship = { type = missile_frigate name = "USS McCloy" historical_model = 3 }
+		ship = { type = missile_frigate name = "USS Edward McDonnell" historical_model = 3 }
+		ship = { type = missile_frigate name = "USS Brumby" historical_model = 3 }
+		ship = { type = missile_frigate name = "USS Davidson" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS John Hancock" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Semmes" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Tattnall" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Bigelow" historical_model = 1 }	
+		ship = { type = missile_destroyer name = "USS Blandy" historical_model = 1 }		
+	}
+	navy = {
+		
+		name = "23rd Fleet"
+		base = 1702 # New Orleans (East Coast)
+		location = 1702
+		ship = { type = nuclear_submarine name = "USS Pogy" historical_model = 3 }
+	}
+
+	navy = {
+		name = "3rd Fleet"
+		base = 438 # San Francisco (West Coast)
+		location = 438
+		ship = { type = missile_frigate name = "USS Bradley" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Somers" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Mullinnix" historical_model = 1 }
+		ship = { type = missile_destroyer name = "USS Hull" historical_model = 1 }		
+		ship = { type = helicopter_carrier name = "USS Saipan" historical_model = 3 }
+		ship = { type = helicopter_carrier name = "USS Tripoli" historical_model = 1 }
+		ship = { type = helicopter_carrier name = "USS Okinawa" historical_model = 1 }
+		ship = { type = helicopter_carrier name = "USS Iwo Jima" historical_model = 1 }
+		ship = { type = missile_cruiser name = "USS Horne" historical_model = 4 }
+	}
+	navy = {
+		name = "24th Fleet"
+		base = 438 # San Francisco (West Coast)
+		location = 438
+		ship = { type = ballistic_missile_submarine name = "USS Mariano G. Vallejo" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS Daniel Boone" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS Stonewall Jackson" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS Andrew Jackson" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Gurnard" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Guitarro" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Hawkbill" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Pintado" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Drum" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Barb" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Pollack" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Haddo" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Flasher" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Scamp" historical_model = 1 }
+		ship = { type = nuclear_submarine name = "USS Seawolf" historical_model = 1 }
+		ship = { type = attack_submarine name = "USS Barbel" historical_model = 4 }
+	}
+
+	navy = {
+		name = "4th Fleet"
+		base = 2336 # New York (East Coast)
+		location = 2336
+		ship = { type = missile_destroyer name = "USS Joseph Strauss" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Berkeley" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Edson" historical_model = 1 }	
+		ship = { type = missile_destroyer name = "USS Somers" historical_model = 1 }			
+		ship = { type = missile_cruiser name = "USS Dale" historical_model = 3 }
+	}
+	navy = {
+		name = "25th Fleet"
+		base = 2336 # New York (East Coast)
+		location = 2336
+		ship = { type = ballistic_missile_submarine name = "USS Kamehameha" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS Lewis and Clark" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS George C. Marshall" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS Benjamin Franklin" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS George Bancroft" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS James K. Polk" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS Henry L. Stimson" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS George Washington Carver" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS Francis Scott Key" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS Tecumseh" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS Casimir Pulaski" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS Daniel Webster" historical_model = 2 }
+		ship = { type = ballistic_missile_submarine name = "USS Ethan Allen" historical_model = 1 }
+		ship = { type = nuclear_submarine name = "USS Omaha" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Groton" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS New York City" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Grayling" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Archerfish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Pargo" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Seahorse" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Flying Fish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Trepang" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Bluefish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Billfish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Batfish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Cavalla" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Narwhal" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Greenling" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Gato" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Guardfish" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Skipjack" historical_model = 1 }
+	}
+
+	navy = {
+		
+		name = "10th Fleet"
+		base = 1992 # Mayport, Jacksonville (East Coast)
+		location = 1992
+		ship = { type = missile_destroyer name = "USS Luce" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Morton" historical_model = 1 }	
+		ship = { type = missile_destroyer name = "USS Parsons" historical_model = 1 }		
+		ship = { type = missile_frigate name = "USS Oliver Hazard Perry" historical_model = 6 }
+		ship = { type = missile_boat name = "1st Gunboat Flotilla" historical_model = 2 strength = 90}		
+	}
+
+	navy = {
+		
+		name = "4th Fleet"
+		base = 2059 # Charleston (East Coast)
+		location = 2059
+		ship = { type = missile_frigate name = "USS Cook" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Garcia" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Moosbrugger" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Briscoe" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS John Rodgers" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Merrill" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Caron" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS John Young" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Nicholson" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Kinkaid" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS O' Bannon" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Mahan" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS MacDonough" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Richard S. Edwards" historical_model = 1 }
+		ship = { type = missile_destroyer name = "USS Turner Joy" historical_model = 1 }		
+		ship = { type = helicopter_carrier name = "USS Inchon" historical_model = 1 }
+		ship = { type = missile_cruiser name = "USS Wainwright" historical_model = 4 }
+	}
+	navy = {
+		
+		name = "26th Fleet"
+		base = 2059 # Charleston (East Coast)
+		location = 2059
+		ship = { type = ballistic_missile_submarine name = "USS Alexander Hamilton" historical_model = 2 }
+		ship = { type = ballistic_missile_submarine name = "USS Nathan Hale" historical_model = 2 }
+		ship = { type = ballistic_missile_submarine name = "USS Woodrow Wilson" historical_model = 2 }
+		ship = { type = ballistic_missile_submarine name = "USS Henry Clay" historical_model = 2 }
+		ship = { type = ballistic_missile_submarine name = "USS Sam Houston" historical_model = 1 }
+		ship = { type = ballistic_missile_submarine name = "USS Robert E. Lee" historical_model = 0 }
+		ship = { type = nuclear_submarine name = "USS Sand Lance" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Dace" historical_model = 2 }
+	}
+
+	navy = {
+		name = "3rd Fleet"
+		base = 2464 # Boston, Massachusetts (East Coast)
+		location = 2464
+		ship = { type = missile_frigate name = "USS Glover" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Talbot" historical_model = 4 }
+		ship = { type = missile_frigate name = "USS Richard L. Page" historical_model = 4 }
+		ship = { type = missile_frigate name = "USS Julius A. Furer" historical_model = 4 }
+		ship = { type = missile_frigate name = "USS Voge" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Sampson" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Sellers" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Decatur" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Farragut" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Dewey" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Preble" historical_model = 2 }
+		ship = { type = missile_cruiser name = "USS Albany" historical_model = 2 }
+	}
+
+	navy = {
+		name = "7th Fleet"
+		base = 399 # Bremerton
+		location = 399
+		ship = { type = missile_frigate name = "USS Knox" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Gray" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Rathburne" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Whipple" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Reasoner" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Lockwood" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Stein" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Marvin Shields" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Downes" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Robert E. Peary" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Roark" historical_model = 5 }
+		ship = { type = missile_frigate name = "USS Brooke" historical_model = 4 }
+		ship = { type = missile_frigate name = "USS Ramsey" historical_model = 4 }
+		ship = { type = missile_frigate name = "USS Schofield" historical_model = 4 }
+		ship = { type = missile_frigate name = "USS Albert David" historical_model = 3 }
+		ship = { type = missile_frigate name = "USS Sample" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Cochrane" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Richard E. Byrd" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Waddell" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Goldsborough" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Buchanan" historical_model = 3 }
+		ship = { type = missile_destroyer name = "USS Dahlgren" historical_model = 2 }
+		ship = { type = missile_destroyer name = "USS Coontz" historical_model = 2 }
+		ship = { type = supercarrier name = "USS America" historical_model = 1 }
+		ship = { type = missile_cruiser name = "USS England" historical_model = 3 }
+	}
+	navy = {
+		name = "27th Fleet"
+		base = 399 # Bremerton
+		location = 399
+		ship = { type = ballistic_missile_submarine name = "USS Thomas Jefferson" historical_model = 1 }
+		ship = { type = ballistic_missile_submarine name = "USS Abraham Lincoln" historical_model = 0 }
+		ship = { type = nuclear_submarine name = "USS Puffer" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Plunger" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Jack" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Permit" historical_model = 2 }
+		ship = { type = nuclear_submarine name = "USS Snook" historical_model = 1 }
+	}
+
+	navy = {
+		name = "5th Fleet"
+		base = 2061 # Colon, Panama
+		location = 2061
+		ship = { type = missile_cruiser name = "USS Richmond K. Turner" historical_model = 3 }
+	}
+}
+theatre =
+{
+	name = "European Command"
+	location = 5420
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "29th Army"
+		location = 5420
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "8th Infantry Division 'Pathfinder'"
+			location = 5495
+			regiment = { type = infantry_brigade name = "68th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = engineer_brigade name = "6th Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = infantry_brigade name = "69th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+			regiment = { type = artillery_brigade name = "5th Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = infantry_brigade name = "70th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		}
+		division =
+		{
+			name = "1st Armored Division 'Old Ironsides'"
+			location = 5640
+			regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+			regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 4 strength = 24 experience = 9 }
+			regiment = { type = armored_engineer_brigade name = "1st Arm. Engineer Regiment" historical_model = 4 strength = 20 experience = 10 }
+			regiment = { type = armor_brigade name = "3rd Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+			regiment = { type = sp_artillery_brigade name = "1st Self-propelled Art. Regiment" historical_model = 4 strength = 22 experience = 10 }
+		}
+		division =
+		{
+			name = "3rd Armored Division 'Spearhead'"
+			location = 5568
+			regiment = { type = armor_brigade name = "6th Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+			regiment = { type = armor_brigade name = "7th Armor Brigade" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = armored_engineer_brigade name = "2nd Arm. Engineer Regiment" historical_model = 4 strength = 19 experience = 10 }
+			regiment = { type = heavy_mechanized_brigade name = "3rd H. Mech. Brigade" historical_model = 2 strength = 30 experience = 10 }
+		}
+		division =
+		{
+			name = "3rd Infantry Division"
+			location = 5495
+			regiment = { type = infantry_brigade name = "220th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+			regiment = { type = engineer_brigade name = "1st Engineer Regiment" historical_model = 4 strength = 25 experience = 10 }
+			regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 4 strength = 36 experience = 10 }
+			regiment = { type = artillery_brigade name = "1st Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+			regiment = { type = heavy_mechanized_brigade name = "2nd H. Mech. Brigade" historical_model = 2 strength = 29 experience = 10 }
+		}
+		division =
+		{
+			name = "Berlin Infantry Brigade"
+			location = 14867
+			regiment = { type = infantry_brigade name = "97th Infantry Brigade" historical_model = 4 strength = 40 experience = 18 }
+		}
+	}
+	air = {
+		name = "2nd Air Force"
+		base = 5644
+		location = 5644
+		wing = { type = fighter name = "6th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "7th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "8th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "9th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "10th Fighter Wing" historical_model = 4 strength = 100 }
+	}
+	air = {
+		name = "3rd Air Force"
+		base = 5356
+		location = 5356
+		wing = { type = fighter name = "11th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "12th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "13th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "14th Fighter Wing" historical_model = 4 strength = 100 }
+		wing = { type = fighter name = "15th Fighter Wing" historical_model = 4 strength = 100 }
+	}
+	navy = {
+		name = "8th Fleet"
+		base = 5730 # Palermo
+		location = 5730
+		ship = { type = missile_destroyer name = "USS Stump" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS Conyngham" historical_model = 3 }
+		ship = { type = supercarrier name = "USS Nimitz" historical_model = 3 }
+		ship = { type = supercarrier name = "USS Saratoga" historical_model = 0 }
+		ship = { type = supercarrier name = "USS Forrestal" historical_model = 0 }
+		ship = { type = carrier name = "USS Coral Sea" historical_model = 3 }
+		ship = { type = nuclear_missile_cruiser name = "USS South Carolina" historical_model = 3 }
+		ship = { type = nuclear_missile_cruiser name = "USS Virginia" historical_model = 4 }
+	}
+	navy = {
+		name = "28th Fleet"
+		base = 5730 # Palermo
+		location = 5730
+		ship = { type = nuclear_submarine name = "USS Philadelphia" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Sturgeon" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Whale" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Glenand P. Lipscomb" historical_model = 3 }
+	}
+
+	navy = {
+		
+		name = "8th Fleet"
+		base = 5431 # Cagliari
+		location = 5431
+		ship = { type = nuclear_submarine name = "USS Tinosa" historical_model = 2 }
+	}
+
+	navy = {
+		
+		name = "3rd Fleet"
+		base = 4672 # Holy Loch, Glasgow
+		location = 4672
+		ship = { type = ballistic_missile_submarine name = "USS Will Rogers" historical_model = 4 }
+		ship = { type = ballistic_missile_submarine name = "USS Lafayette" historical_model = 2 }
+		ship = { type = ballistic_missile_submarine name = "USS James Monroe" historical_model = 2 }
+		ship = { type = ballistic_missile_submarine name = "USS Ulysses S. Grant" historical_model = 3 }
+		ship = { type = ballistic_missile_submarine name = "USS Nathanael Greene" historical_model = 3 }
+	}
+
+}
+theatre =
+{
+	name = "Pacific Theatre"
+	location = 14240
+	regiment = { type = hq_brigade name = "Theatre HQ" historical_model = 0 }
+
+	army =
+	{
+		name = "35th Army"
+		location = 13665
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+		division =
+		{
+			name = "2nd Infantry Division 'Indianhead'"
+			location = 13665
+			regiment = { type = infantry_brigade name = "14th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+			regiment = { type = engineer_brigade name = "5th Engineer Regiment" historical_model = 4 strength = 25 experience = 10 }
+			regiment = { type = light_mechanized_brigade name = "4th Light Mech. Brigade" historical_model = 4 strength = 37 experience = 9 }
+			regiment = { type = heavy_mechanized_brigade name = "1st H. Mech. Brigade" historical_model = 2 strength = 30 experience = 9 }
+			regiment = { type = artillery_brigade name = "5th Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+		}
+	}
+	army =
+	{
+		name = "37th Army"
+		location = 13608
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+
+	}
+	army =
+	{
+		name = "41st Army"
+		location = 13822
+		regiment = { type = hq_brigade name = "Army HQ" historical_model = 0 }
+		division =
+		{
+			name = "3rd Marine Division 'Fighting Third'"
+			location = 13666
+			regiment = { type = marine_brigade name = "1st Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "2nd Marine Brigade" historical_model = 3 strength = 39 experience = 15 }
+			regiment = { type = marine_brigade name = "3rd Marine Brigade" historical_model = 3 strength = 40 experience = 15 }
+			regiment = { type = artillery_brigade name = "12th Artillery Regiment" historical_model = 4 strength = 25 experience = 14 }
+			regiment = { type = police_brigade name = "1st Police Regiment" historical_model = 2 strength = 20 experience = 15 }
+		}
+	}
+	
+	navy = {
+		name = "6th Fleet"
+		base = 14192 # Yokosuka, Tokyo
+		location = 14192
+		ship = { type = missile_destroyer name = "USS Benjamin Stoddert" historical_model = 3 }
+		ship = { type = supercarrier name = "USS Constellation" historical_model = 1 }
+		ship = { type = supercarrier name = "USS Ranger" historical_model = 0 }
+		ship = { type = missile_cruiser name = "USS Worden" historical_model = 3 }
+		ship = { type = missile_cruiser name = "USS Gridley" historical_model = 3 }
+		ship = { type = nuclear_missile_cruiser name = "USS Bainbridge" historical_model = 1 }
+	}
+
+
+	navy = {
+		name = "3rd Fleet"
+		base = 13714 # Sasebo, Nagasaki
+		location = 13714
+		ship = { type = attack_submarine name = "USS Darter" historical_model = 4 }
+	}
+	navy = {
+		name = "8th Fleet"
+		base = 95 # Honolulu, Pearl Harbor
+		location = 95
+		ship = { type = missile_destroyer name = "USS Hewitt" historical_model = 6 }
+		ship = { type = missile_destroyer name = "USS David R. Ray" historical_model = 6 }
+		ship = { type = helicopter_carrier name = "USS Tarawa" historical_model = 3 }
+		ship = { type = missile_cruiser name = "USS Reeves" historical_model = 3 }
+		ship = { type = missile_cruiser name = "USS Chicago" historical_model = 2 }
+	}
+	navy = {
+		name = "29th Fleet"
+		base = 95 # Honolulu, Pearl Harbor
+		location = 95
+		ship = { type = ballistic_missile_submarine name = "USS John Marshall" historical_model = 1 }
+		ship = { type = ballistic_missile_submarine name = "USS George Washington" historical_model = 0 }
+		ship = { type = ballistic_missile_submarine name = "USS Patrick Henry" historical_model = 0 }
+		ship = { type = nuclear_submarine name = "USS Los Angeles" historical_model = 5 }
+		ship = { type = nuclear_submarine name = "USS Tautog" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Aspro" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Queenfish" historical_model = 3 }
+		ship = { type = nuclear_submarine name = "USS Swordfish" historical_model = 0 }
+		ship = { type = nuclear_submarine name = "USS Sargo" historical_model = 0 }
+		ship = { type = nuclear_submarine name = "USS Seadragon" historical_model = 0 }
+		ship = { type = nuclear_submarine name = "USS Skate" historical_model = 0 }
+	}
+
+	navy = {
+		name = "3rd Fleet"
+		base = 14429 # Guam
+		location = 14429
+		ship = { type = ballistic_missile_submarine name = "USS Thomas A. Edison" historical_model = 1 }
+		ship = { type = ballistic_missile_submarine name = "USS Theodore Roosevelt" historical_model = 0 }
+		ship = { type = nuclear_submarine name = "USS Tunny" historical_model = 3 }
+	}
+
+	navy = {
+		name = "6th Fleet"
+		base = 8960 # Dammam (Persian Gulf)
+		location = 8960
+		ship = { type = missile_destroyer name = "USS Lawrence" historical_model = 3 }
+		ship = { type = missile_frigate name = "USS Bronstein" historical_model = 2 }	
+		ship = { type = missile_frigate name = "USS McCloy" historical_model = 2 }			
+	}
+
+}
+
+	division =
+	{
+		name = "84th Division 'The Railsplitters'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "96th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		regiment = { type = infantry_brigade name = "97th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		regiment = { type = light_mechanized_brigade name = "9th Light Mech. Brigade" historical_model = 4 strength = 37 experience = 10 }
+		regiment = { type = engineer_brigade name = "13th Engineer Regiment" historical_model = 4 strength = 25 experience = 10 }
+	}
+	division =
+	{
+		name = "108th Division"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "98th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		regiment = { type = infantry_brigade name = "99th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		regiment = { type = infantry_brigade name = "100th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+	}
+	division =
+	{
+		name = "4th Armored Division 'Name Enough'"
+		location = 9999
+		pool = yes
+		regiment = { type = armor_brigade name = "8th Armor Brigade" historical_model = 4 strength = 24 experience = 10 }
+		regiment = { type = armor_brigade name = "9th Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+		regiment = { type = armor_brigade name = "10th Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+	}
+	division =
+	{
+		name = "50th Armored Division"
+		location = 9999
+		pool = yes
+		regiment = { type = armor_brigade name = "1st Armor Brigade" historical_model = 4 strength = 25 experience = 10 }
+		regiment = { type = heavy_mechanized_brigade name = "1st H. Mech. Brigade" historical_model = 2 strength = 29 experience = 10 }
+		regiment = { type = armored_engineer_brigade name = "1st Arm. Engineer Regiment" historical_model = 4 strength = 20 experience = 9 }
+		regiment = { type = armor_brigade name = "2nd Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+	}
+	division =
+	{
+		name = "10th Infantry Division"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "55th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		regiment = { type = infantry_brigade name = "56th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = engineer_brigade name = "3rd Engineer Regiment" historical_model = 4 strength = 25 experience = 10 }
+		regiment = { type = infantry_brigade name = "57th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+	}
+
+	division =
+	{
+		name = "34th Infantry Division 'Red Bull'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "254th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = infantry_brigade name = "255th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = infantry_brigade name = "256th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+	}
+	division =
+	{
+		name = "38th Infantry Division 'Cyclone'"
+		location = 9999
+		pool = yes
+		regiment = { type = attack_helo_brigade name = "3rd Attack Helicopter Brigade" historical_model = 1 strength = 17 experience = 10 }
+		regiment = { type = infantry_brigade name = "273rd Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = air_cav_brigade name = "4th Air Cavalry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = light_mechanized_brigade name = "5th L. Mech. Brigade" historical_model = 4 strength = 37 experience = 10 }
+		regiment = { type = light_mechanized_brigade name = "6th L. Mech. Brigade" historical_model = 4 strength = 37 experience = 10 }
+	}
+	division =
+	{
+		name = "94th Infantry Division 'Pilgrim'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "341st Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = armor_brigade name = "22nd Armor Brigade" historical_model = 4 strength = 25 experience = 9 }
+		regiment = { type = light_mechanized_brigade name = "7th L. Mech. Brigade" historical_model = 4 strength = 37 experience = 10 }
+		regiment = { type = engineer_brigade name = "3rd Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+	}
+	division =
+	{
+		name = "5th Marine Division 'The Spearhead'"
+		location = 9999
+		pool = yes
+		regiment = { type = marine_brigade name = "8th Marine Brigade" historical_model = 3 strength = 39 experience = 14 }
+		regiment = { type = marine_brigade name = "9th Marine Brigade" historical_model = 3 strength = 40 experience = 14 }
+		regiment = { type = marine_brigade name = "10th Marine Brigade" historical_model = 3 strength = 39 experience = 14 }
+		regiment = { type = police_brigade name = "2nd Police Regiment" historical_model = 2 strength = 21 experience = 15 }
+		regiment = { type = police_brigade name = "3rd Police Regiment" historical_model = 2 strength = 21 experience = 15 }
+	}
+	division =
+	{
+		name = "82nd Airborne Division"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "3rd Infantry Brigade" historical_model = 4 strength = 39 experience = 9 }
+		regiment = { type = engineer_brigade name = "1st Engineer Regiment" historical_model = 4 strength = 25 experience = 9 }
+		regiment = { type = infantry_brigade name = "4th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+	}
+
+	division =
+	{
+		name = "80th Division 'Blue Ridge'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "5th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = infantry_brigade name = "6th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = artillery_brigade name = "2nd Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+		regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 4 strength = 37 experience = 9 }
+	}
+	division =
+	{
+		name = "29th Infantry Division 'Blue and Gray'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "10th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = engineer_brigade name = "3rd Engineer Regiment" historical_model = 4 strength = 25 experience = 9 }
+		regiment = { type = infantry_brigade name = "11th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = infantry_brigade name = "12th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+	}
+	division =
+	{
+		name = "4th Infantry Division 'Ivy'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "13th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = engineer_brigade name = "4th Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+		regiment = { type = light_mechanized_brigade name = "2nd Light Mech. Brigade" historical_model = 4 strength = 36 experience = 10 }
+		regiment = { type = light_mechanized_brigade name = "3rd Light Mech. Brigade" historical_model = 4 strength = 36 experience = 10 }
+	}
+	division =
+	{
+		name = "1st Infantry Division 'The Big Red One'"
+		location = 9999
+		pool = yes
+		regiment = { type = light_mechanized_brigade name = "1st Light Mech. Brigade" historical_model = 4 strength = 37 experience = 10 }
+		regiment = { type = heavy_mechanized_brigade name = "2nd H. Mech. Brigade" historical_model = 2 strength = 30 experience = 9 }
+		regiment = { type = infantry_brigade name = "67th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = artillery_brigade name = "4th Artillery Regiment" historical_model = 4 strength = 24 experience = 10 }
+	}
+	division =
+	{
+		name = "6th Infantry Division 'Red Star'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "78th Infantry Brigade" historical_model = 4 strength = 40 experience = 11 }
+		regiment = { type = artillery_brigade name = "10th Artillery Regiment" historical_model = 4 strength = 24 experience = 12 }
+		regiment = { type = light_mechanized_brigade name = "4th Light Mech. Brigade" historical_model = 4 strength = 36 experience = 12 }
+		regiment = { type = infantry_brigade name = "79th Infantry Brigade" historical_model = 4 strength = 39 experience = 12 }
+	}
+
+	division =
+	{
+		name = "11th Airborne Division 'Angels'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "82nd Infantry Brigade" historical_model = 4 strength = 39 experience = 12 }
+		regiment = { type = infantry_brigade name = "83rd Infantry Brigade" historical_model = 4 strength = 39 experience = 12 }
+		regiment = { type = artillery_brigade name = "12th Artillery Regiment" historical_model = 4 strength = 24 experience = 12 }
+		regiment = { type = light_mechanized_brigade name = "6th Light Mech. Brigade" historical_model = 4 strength = 36 experience = 12 }
+		regiment = { type = infantry_brigade name = "84th Infantry Brigade" historical_model = 4 strength = 40 experience = 11 }
+	}
+	division =
+	{
+		name = "25th Infantry Division 'Tropic Lightning'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "85th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = light_mechanized_brigade name = "7th Light Mech. Brigade" historical_model = 4 strength = 36 experience = 10 }
+		regiment = { type = engineer_brigade name = "11th Engineer Regiment" historical_model = 4 strength = 25 experience = 10 }
+		regiment = { type = artillery_brigade name = "13th Artillery Regiment" historical_model = 4 strength = 25 experience = 10 }
+		regiment = { type = infantry_brigade name = "86th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+	}
+	division =
+	{
+		name = "1st Cavalry Division"
+		location = 9999
+		pool = yes
+		regiment = { type = armor_brigade name = "11th Armor Brigade" historical_model = 4 strength = 25 experience = 15 }
+		regiment = { type = armor_brigade name = "12th Armor Brigade" historical_model = 4 strength = 25 experience = 15 }
+		regiment = { type = armor_brigade name = "13th Armor Brigade" historical_model = 4 strength = 25 experience = 15 }
+		regiment = { type = heavy_mechanized_brigade name = "5th H. Mech. Brigade" historical_model = 2 strength = 30 experience = 15 }
+	}
+	division =
+	{
+		name = "7th Infantry Division 'Hourglass'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "89th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		regiment = { type = artillery_brigade name = "15th Artillery Regiment" historical_model = 4 strength = 25 experience = 10 }
+		regiment = { type = infantry_brigade name = "90th Infantry Brigade" historical_model = 4 strength = 40 experience = 10 }
+		regiment = { type = infantry_brigade name = "91st Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = light_mechanized_brigade name = "8th Light Mech. Brigade" historical_model = 4 strength = 37 experience = 9 }
+	}
+	division =
+	{
+		name = "100th Infantry Division 'Century'"
+		location = 9999
+		pool = yes
+		regiment = { type = armor_brigade name = "15th Armor Brigade" historical_model = 4 strength = 24 experience = 10 }
+		regiment = { type = artillery_brigade name = "12th Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+		regiment = { type = infantry_brigade name = "79th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = infantry_brigade name = "80th Infantry Brigade" historical_model = 4 strength = 40 experience = 9 }
+		regiment = { type = engineer_brigade name = "5th Engineer Regiment" historical_model = 4 strength = 24 experience = 10 }
+	}
+
+	division =
+	{
+		name = "77th Infantry Division 'Statue of Liberty'"
+		location = 9999
+		pool = yes
+		regiment = { type = infantry_brigade name = "368th Infantry Brigade" historical_model = 4 strength = 39 experience = 10 }
+		regiment = { type = artillery_brigade name = "27th Artillery Regiment" historical_model = 4 strength = 25 experience = 9 }
+		regiment = { type = light_mechanized_brigade name = "8th Light Mech. Brigade" historical_model = 4 strength = 36 experience = 12 }
+	}
+
+
+
+
+air = {
+	name = "28th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = recon_plane name = "53rd Recon Wing" historical_model = 2 strength = 100 }
+	wing = { type = recon_plane name = "54th Recon Wing" historical_model = 2 strength = 100 }
+	wing = { type = recon_plane name = "55th Recon Wing" historical_model = 2 strength = 100 }
+	wing = { type = recon_plane name = "56th Recon Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "29th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "1st AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "2nd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "3rd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "4th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "5th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "6th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "30th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "7th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "8th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "9th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "10th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "11th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "12th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "31st Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "13th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "14th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "15th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "16th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "17th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "18th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "32nd Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "19th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "20th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "21st AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "22nd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "23rd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "24th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "33rd Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "25th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "26th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "27th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "28th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "29th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "30th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "34th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "31st AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "32nd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "33rd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "34th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "35th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "36th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "35th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "37th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "38th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "39th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "40th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "41st AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "42nd AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "36th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "43rd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "44th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "45th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "46th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "47th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "48th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "37th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "49th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "50th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "51st AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "52nd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "53rd AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "54th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "38th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "55th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "56th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "57th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "58th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "59th AWACS Wing" historical_model = 1 strength = 100 }
+	wing = { type = awacs_air_plane name = "60th AWACS Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "39th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "61st AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "62nd AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "63rd AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "64th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "65th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "66th AWACS Wing" historical_model = 3 strength = 100 }
+}
+
+air = {
+	name = "40th Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "67th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "68th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "69th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "70th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "71st AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "72nd AWACS Wing" historical_model = 3 strength = 100 }
+}
+
+air = {
+	name = "41st Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "73rd AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "74th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "75th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "76th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "77th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "78th AWACS Wing" historical_model = 3 strength = 100 }
+}
+air = {
+	name = "43rd Air Force"
+	base = 1906
+	location = 1906
+	pool = yes
+	wing = { type = helo_gunship name = "1st Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "2nd Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "3rd Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "4th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "5th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "6th Helicopter Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "44th Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_gunship name = "7th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "8th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "9th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "10th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "11th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "12th Helicopter Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "45th Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_gunship name = "13th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "14th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "15th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "16th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "17th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "18th Helicopter Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "46th Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_gunship name = "19th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "20th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "21st Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "22nd Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "23rd Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "24th Helicopter Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "47th Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_gunship name = "25th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "26th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "27th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "28th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "29th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "30th Helicopter Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "48th Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_gunship name = "31st Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "32nd Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "33rd Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "34th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "35th Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_gunship name = "36th Helicopter Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "49th Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_gunship name = "37th Helicopter Wing" historical_model = 3 strength = 100 }
+}
+air = {
+	name = "50th Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_cas name = "38th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_cas name = "39th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_cas name = "40th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_cas name = "41st Helicopter Wing" historical_model = 2 strength = 100 }
+	wing = { type = helo_cas name = "42nd Helicopter Wing" historical_model = 2 strength = 100 }
+}
+air = {
+	name = "51st Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_maritime name = "43rd Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "44th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "45th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "46th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "47th Helicopter Wing" historical_model = 1 strength = 100 }
+}
+air = {
+	name = "52nd Air Force"
+	base = 1874
+	location = 1874
+	pool = yes
+	wing = { type = helo_maritime name = "48th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "49th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "50th Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "51st Helicopter Wing" historical_model = 1 strength = 100 }
+	wing = { type = helo_maritime name = "52nd Helicopter Wing" historical_model = 1 strength = 100 }
+}
+
+air = {
+	name = "42nd Air Force"
+	base = 2182
+	location = 2182
+	pool = yes
+	wing = { type = awacs_air_plane name = "79th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "80th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "81st AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "82nd AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "83rd AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "84th AWACS Wing" historical_model = 3 strength = 100 }
+	wing = { type = awacs_air_plane name = "85th AWACS Wing" historical_model = 3 strength = 100 }
+}
+
+navy = {
+	name = "Mothball Fleet"
+	base = 600 #
+	location = 600
+	pool = yes
+	ship = { type = nuclear_submarine name = "USS Triton" historical_model = 0 }
+	ship = { type = nuclear_submarine name = "USS Nautilus" historical_model = 0 }
+	ship = { type = attack_submarine name = "USS Salmon" historical_model = 2 }
+	ship = { type = attack_submarine name = "USS Sailfish" historical_model = 2 }
+	ship = { type = attack_submarine name = "USS Tang" historical_model = 1 }
+	ship = { type = missile_destroyer name = "USS Charles F. Adams" historical_model = 3 }
+	ship = { type = carrier name = "USS Bon Homme Richard" historical_model = 3}
+	ship = { type = helicopter_carrier name = "USS Intrepid" historical_model = 0 }
+	ship = { type = carrier name = "USS Yorktown" historical_model = 3 }
+	ship = { type = helicopter_carrier name = "USS Hornet" historical_model = 0 }
+	ship = { type = helicopter_carrier name = "USS Bennington" historical_model = 0 }
+	ship = { type = missile_cruiser name = "USS Harry E. Yarnell" historical_model = 3 }
+	ship = { type = missile_cruiser name = "USS Oklahoma City" historical_model = 1 }
+	ship = { type = cruiser name = "USS Des Moines" historical_model = 0 }
+	ship = { type = battleship name = "USS Wisconsin" historical_model = 0 }
+	ship = { type = battleship name = "USS Missouri" historical_model = 0 }
+	ship = { type = battleship name = "USS New Jersey" historical_model = 0 }
+	ship = { type = battleship name = "USS Iowa" historical_model = 0 }
+	ship = { type = carrier name = "USS Oriskany" historical_model = 3 }
+}
+
+military_construction = {
+	country = USA
+	name = "USS Arkansas"
+	nuclear_missile_cruiser = {
+		name = "USS Arkansas"
+		historical_model = 4
+		}
+	progress = 80
+	location = 2336
+}
+
+military_construction = {
+	country = USA
+	name = "USS Peleliu"
+	helicopter_carrier = {
+		name = "USS Peleliu"
+		historical_model = 3
+		}
+	progress = 80
+	location = 8960
+}
+
+military_construction = {
+	country = USA
+	name = "USS Fletcher"
+	missile_destroyer = {
+		name = "USS Fletcher"
+		historical_model = 6
+		}
+	progress = 60
+	location = 399
+}
+
+military_construction = {
+	country = USA
+	name = "USS Fife"
+	missile_destroyer = {
+		name = "USS Fife"
+		historical_model = 6
+		}
+	progress = 68
+	location = 8960
+}
+
+military_construction = {
+	country = USA
+	name = "USS Ingersoll"
+	missile_destroyer = {
+		name = "USS Ingersoll"
+		historical_model = 6
+		}
+	progress = 75
+	location = 426
+}
+
+military_construction = {
+	country = USA
+	name = "USS Deyo"
+	missile_destroyer = {
+		name = "USS Deyo"
+		historical_model = 6
+		}
+	progress = 80
+	location = 1702
+}
+
+military_construction = {
+	country = USA
+	name = "USS Thorn"
+	missile_destroyer = {
+		name = "USS Thorn"
+		historical_model = 6
+		}
+	progress = 85
+	location = 600
+}
+
+military_construction = {
+	country = USA
+	name = "USS Indianapolis"
+	nuclear_submarine = {
+		name = "USS Indianapolis"
+		historical_model = 5
+		}
+	progress = 95
+	location = 2336
+}
+
+military_construction = {
+	country = USA
+	name = "USS Jacksonville"
+	nuclear_submarine = {
+		name = "USS Jacksonville"
+		historical_model = 5
+		}
+	progress = 40
+	location = 2336
+}
+
+military_construction = {
+	country = USA
+	name = "USS Dallas"
+	nuclear_submarine = {
+		name = "USS Dallas"
+		historical_model = 5
+		}
+	progress = 40
+	location = 2336
+}
+
+military_construction = {
+	country = USA
+	name = "USS Bremerton"
+	nuclear_submarine = {
+		name = "USS Bremerton"
+		historical_model = 5
+		}
+	progress = 50
+	location = 95
+}
+
+military_construction = {
+	country = USA
+	name = "USS Ohio"
+	ballistic_missile_submarine = {
+		name = "USS Ohio"
+		historical_model = 7
+		}
+	progress = 30
+	location = 399
+}
+
+military_construction = {
+	country = USA
+	name = "USS Duncan"
+	missile_frigate = {
+		name = "USS Duncan"
+		historical_model = 6
+		}
+	progress = 60
+	location = 399
+}
+
+military_construction = {
+	country = USA
+	name = "USS McInerney"
+	missile_frigate = {
+		name = "USS McInerney"
+		historical_model = 6
+		}
+	progress = 80
+	location = 8960
+}
+
+military_construction = {
+	country = USA
+	name = "USS Clark"
+	missile_frigate = {
+		name = "USS Clark"
+		historical_model = 6
+		}
+	progress = 20
+	location = 2184
+}

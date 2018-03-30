@@ -1,0 +1,139 @@
+objectTypes = {
+	emitterType = {
+		name = nuclear_particle
+		Pillar = 
+		{
+			time = 0
+			duration = 2.5
+			emitType = fan
+			emitSpeed = 75
+			emitPitch = -90								# Emitter Vertical Angle   [ XoY ]
+			emitFanAngle = 30
+			emitOffset = {
+				y = 3.5
+			}
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 6						# Size Multiplier
+			particleMiddleSize = 3						# Size Multiplier
+			particleFinalSize = 2	
+			particleInitialSpeed = 3.0
+			particleSpeedDecrease = 1.0
+			particleMinSpeed = 0.5
+			particleGravity = 0
+			particleInitialColor = {
+				r = 1.0
+				g = 1.0
+				b = 1.0
+				a = 1
+			}
+			particleFinalColor = {
+				r = 1.0
+				g = 1.0
+				b = 1.0
+				a = 0
+			}
+			particleLife = 3							# Particle Time to Live ( Seconds )
+			renderTechnique = "blast"
+			onParticleDeath = Smoke2
+		}
+		Blast = 
+		{
+			time = 0.0
+			duration = 2.5
+			emitType = half_Sphere
+			emitSpeed = 350
+			emitPitch = 90								# Emitter Vertical Angle   [ XoY ]
+			emitOffset = {
+				y = 3.0
+			}
+			particleType = "gfx\\FX\\textures\\fire.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 8						# Size Multiplier
+			particleMiddleSize = 3						# Size Multiplier
+			particleFinalSize = 2	
+			particleInitialSpeed = 1.3
+			particleSpeedDecrease = 0.33
+			particleGravity = -0.1
+			particleInitialColor = {
+				r = 1.0
+				g = 1.0
+				b = 1.0
+				a = 1
+			}
+			particleFinalColor = {
+				r = 1.0
+				g = 1.0
+				b = 1.0
+				a = 0
+			}
+			particleLife = 3							# Particle Time to Live ( Seconds )
+			renderTechnique = "blast"
+		}
+		Smoke = 
+		{
+			time = 0.0
+			duration = 0.25
+			emitType = circle
+			emitSpeed = 200
+			emitOffset = {
+				y = 3.25
+			}
+			particleStartDistance = 2
+			particleType = "gfx\\FX\\textures\\smoke_16.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 9					# Size Multiplier
+			particleMiddleSize = 1						# Size Multiplier
+			particleFinalSize = 0.1	
+			particleInitialSpeed = 3.0
+			particleSpeedDecrease = 0.5
+			particleGravity = -0.1
+			particleInitialColor = {
+				r = 0.60
+				g = 0.65
+				b = 0.45
+				a = 0.35
+			}
+			particleFinalColor = {
+				r = 0.0
+				g = 0.0
+				b = 0.0
+				a = 0
+			}
+			particleLife = 7							# Particle Time to Live ( Seconds )
+			renderTechnique = "smoke"
+		}
+		Smoke2 = 
+		{
+			time = -0.75
+			duration = 0.25
+			emitType = circle
+			emitSpeed = 8
+			emitOffset = {
+				y = 0.0
+			}
+			particleType = "gfx\\FX\\textures\\smoke_14.dds"
+			particleRotationVariance = 90
+			particleInitialSize = 4					# Size Multiplier
+			particleMiddleSize = 1						# Size Multiplier
+			particleFinalSize = 0.1	
+			particleInitialSpeed = 2.0
+			particleSpeedDecrease = 1.0
+			particleGravity = -1
+			particleInitialColor = {
+				r = 0.3
+				g = 0.3
+				b = 0.3
+				a = 0.2
+			}
+			particleFinalColor = {
+				r = 0.0
+				g = 0.0
+				b = 0.0
+				a = 0
+			}
+			particleLife = 1							# Particle Time to Live ( Seconds )
+			renderTechnique = "smoke"
+		}
+	}
+}

@@ -1,0 +1,114 @@
+hq_brigade = {
+  goods_usage = 
+  {
+	light_industry = 0.01	
+  }
+  is_buildable = no
+  type = land
+  sprite = Motor
+  max_strength = 5
+  default_organisation = 7.5
+  combat_width = 0.01
+  priority = 11
+  default_morale = 0.2
+  build_cost_manpower = 0.5
+  unit_money_cost = 0.50
+  build_time = 0
+  maximum_speed = 8
+  transport_weight = 5
+  supply_consumption = 0.33
+  fuel_consumption = 0
+  
+  defensiveness = 3.25
+  toughness = 0.8
+  softness = 1
+  air_defence = 2
+  suppression = 2
+  soft_attack = 0.835
+  hard_attack = 0.165
+  air_attack = 0.5
+  plains = {
+    attack = -0.3
+    defence = 0
+    movement = -0.2
+    attrition = 0
+  }
+  river = {
+    attack = -0.4
+    defence = 0.05
+    movement = -0.4
+    attrition = 0
+  }
+  arctic = {
+    attack = -0.13
+    defence = 0.07
+    movement = -0.35
+    attrition = 3
+  }
+  desert = {
+    attack = -0.3
+    defence = 0.05
+    movement = -0.3
+    attrition = 3
+  }
+  woods = {
+    attack = -0.1
+    defence = 0.1
+    movement = -0.3
+    attrition = 0
+  }
+  forest = {
+    attack = -0.25
+    defence = 0.2
+    movement = -0.4
+    attrition = 2
+  }
+  jungle = {
+    attack = -0.3
+    defence = 0.2
+    movement = -0.5
+    attrition = 4
+  }
+  hills = {
+    attack = -0.2
+    defence = 0.1
+    movement = -0.4
+    attrition = 1
+  }
+  mountain = {
+    attack = -0.3
+    defence = 0.2
+    movement = -0.5
+    attrition = 3
+  }
+  high_mountain = {
+    attack = -0.5
+    defence = 0
+    movement = -0.6
+    attrition = 5
+  }
+#  urban = {
+#    attack = -0.28
+#    defence = 0.4
+#    movement = 0
+#    attrition = 2
+#  }
+  marsh = {
+    attack = -0.42
+    defence = 0.2
+    movement = -0.55
+    attrition = 4
+  }
+  amphibious = {
+    attack = 0
+    defence = 0.2
+    movement = 0
+    attrition = 0
+  }
+  fort = {
+    attack = 0
+    defence = 0.05
+    movement = 0
+    attrition = 0
+  }
+}

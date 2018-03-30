@@ -1,0 +1,1776 @@
+1434002 = {
+	name = "Svyatoslav Mukhanov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.4.1 = { rank = 0 }
+	}
+}
+1434009 = {
+	name = "Vadim Elefterov"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.12.1 = { rank = 0 }
+	}
+}
+1434012 = {
+	name = "Viktor Emin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.10.1 = { rank = 0 }
+	}
+}
+1434021 = {
+	name = "Alexey Degtyarev"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1951.11.1 = { rank = 0 }
+	}
+}
+1434003 = {
+	name = "Viktor Zubarev"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.10.1 = { rank = 0 }
+	}
+}
+1434020 = {
+	name = "Artyom Roshchin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1951.11.1 = { rank = 4 }
+		1953.11.1 = { rank = 0 }
+	}
+}
+1434006 = {
+	name = "Vadim Stalin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.3.1 = { rank = 0 }
+	}
+}
+1434028 = {
+	name = "Pyotr Kasyanenko"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1954.3.1 = { rank = 1 }
+		1955.10.1 = { rank = 0 }
+	}
+}
+1434017 = {
+	name = "Fyodor Kropanin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1956.5.1 = { rank = 0 }
+	}
+}
+1434016 = {
+	name = "Maxim Ekel"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1953.11.1 = { rank = 3 }
+		1956.4.1 = { rank = 0 }
+	}
+}
+1434030 = {
+	name = "Grigory Gribkov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1956.5.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1434007 = {
+	name = "Artyom Balandin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1951.11.1 = { rank = 2 }
+		1958.11.1 = { rank = 0 }
+	}
+}
+1434004 = {
+	name = "Boris Ozerov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1959.6.1 = { rank = 0 }
+	}
+}
+1434033 = {
+	name = "Nikola Pudovkin (´)"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1958.11.1 = { rank = 1 }
+		1960.12.1 = { rank = 0 }
+	}
+}
+1434027 = {
+	name = "Valery Aristarkhov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.11.1 = { rank = 1 }
+		1961.1.1 = { rank = 0 }
+	}
+}
+1434034 = {
+	name = "Alexandr Kutepov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1959.6.1 = { rank = 1 }
+		1962.11.1 = { rank = 0 }
+	}
+}
+1434011 = {
+	name = "Anton Kuklov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1963.12.1 = { rank = 0 }
+	}
+}
+1434029 = {
+	name = "Alexandr Kulagin"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.10.1 = { rank = 1 }
+		1964.8.1 = { rank = 0 }
+	}
+}
+1434014 = {
+	name = "Grigory Silivanov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1956.4.1 = { rank = 2 }
+		1965.5.1 = { rank = 0 }
+	}
+}
+1434037 = {
+	name = "Anatoly Zhiglov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = panzer_leader
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1962.11.1 = { rank = 1 }
+		1966.1.1 = { rank = 0 }
+	}
+}
+1434035 = {
+	name = "Gleb Lapukhov"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	history = {
+		1960.12.1 = { rank = 1 }
+		1967.7.1 = { rank = 0 }
+	}
+}
+1434019 = {
+	name = "Anatoly Panarin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1968.9.1 = { rank = 0 }
+	}
+}
+1434001 = {
+	name = "Egor Mirov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1969.3.1 = { rank = 0 }
+	}
+}
+1434013 = {
+	name = "Anton Bulgakov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1970.12.1 = { rank = 0 }
+	}
+}
+1434023 = {
+	name = "Nikola Senotrusov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = commando
+	add_trait = ranger
+	history = {
+		1949.12.1 = { rank = 1 }
+		1956.5.1 = { rank = 2 }
+		1971.1.1 = { rank = 0 }
+	}
+}
+1434010 = {
+	name = "Viktor Bukin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1946.1.1 = { rank = 1 }
+		1958.11.1 = { rank = 2 }
+		1972.7.1 = { rank = 0 }
+	}
+}
+1434041 = {
+	name = "Nikola Sigachyov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1966.1.1 = { rank = 1 }
+		1973.12.1 = { rank = 0 }
+	}
+}
+1434015 = {
+	name = "Evgeny Umanov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1951.11.1 = { rank = 3 }
+		1953.11.1 = { rank = 4 }
+		1974.3.1 = { rank = 0 }
+	}
+}
+1434045 = {
+	name = "Mikhail Koryavin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.12.1 = { rank = 1 }
+		1975.5.1 = { rank = 0 }
+	}
+}
+1434036 = {
+	name = "Maxim Chukreyev"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.1.1 = { rank = 1 }
+		1976.3.1 = { rank = 0 }
+	}
+}
+1434026 = {
+	name = "Viktor Putilin"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.10.1 = { rank = 1 }
+		1976.1.1 = { rank = 0 }
+	}
+}
+1434008 = {
+	name = "Maxim Vorobyov"
+	type = land
+	country = BLR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = defensive_doctrine
+	add_trait = offensive_doctrine
+	history = {
+		1946.1.1 = { rank = 1 }
+		1977.8.1 = { rank = 0 }
+	}
+}
+1434042 = {
+	name = "Vasily Andronikov"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.7.1 = { rank = 1 }
+		1978.11.1 = { rank = 0 }
+	}
+}
+1434032 = {
+	name = "Evgeny Siyanosov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.10.1 = { rank = 1 }
+		1978.3.1 = { rank = 0 }
+	}
+}
+1434055 = {
+	name = "Maxim Pasternak"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1978.3.1 = { rank = 1 }
+		1979.10.1 = { rank = 0 }
+	}
+}
+1434053 = {
+	name = "Valery Krutov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1977.8.1 = { rank = 1 }
+		1980.7.1 = { rank = 0 }
+	}
+}
+1434047 = {
+	name = "Alexandr Suprunov"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1972.7.1 = { rank = 1 }
+		1981.12.1 = { rank = 0 }
+	}
+}
+1434031 = {
+	name = "Vyacheslav Rezansov"
+	type = land
+	country = BLR
+	skill = 5
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = offensive_doctrine
+	history = {
+		1956.4.1 = { rank = 1 }
+		1968.9.1 = { rank = 2 }
+		1974.3.1 = { rank = 3 }
+		1982.7.1 = { rank = 0 }
+	}
+}
+1434005 = {
+	name = "Dmitry Smirnov"
+	type = land
+	country = BLR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1946.1.1 = { rank = 1 }
+		1982.6.1 = { rank = 0 }
+	}
+}
+1434025 = {
+	name = "Grigory Saitov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1951.11.1 = { rank = 1 }
+		1953.11.1 = { rank = 2 }
+		1956.4.1 = { rank = 3 }
+		1974.3.1 = { rank = 4 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1434044 = {
+	name = "Dmitry Solomin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1969.3.1 = { rank = 1 }
+		1984.7.1 = { rank = 0 }
+	}
+}
+1434054 = {
+	name = "Bogdan Rumyantsev"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1978.11.1 = { rank = 1 }
+		1982.7.1 = { rank = 2 }
+		1985.8.1 = { rank = 0 }
+	}
+}
+1434050 = {
+	name = "Boris Smetanin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1975.5.1 = { rank = 1 }
+		1986.11.1 = { rank = 0 }
+	}
+}
+1434046 = {
+	name = "Egor Bershov"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.1.1 = { rank = 1 }
+		1974.3.1 = { rank = 2 }
+		1986.10.1 = { rank = 0 }
+	}
+}
+1434049 = {
+	name = "Yury Pavlov"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.3.1 = { rank = 1 }
+		1987.5.1 = { rank = 0 }
+	}
+}
+1434059 = {
+	name = "Denis Rasskazov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.7.1 = { rank = 1 }
+		1988.4.1 = { rank = 0 }
+	}
+}
+1434043 = {
+	name = "Vasily Kalganov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1968.9.1 = { rank = 1 }
+		1989.8.1 = { rank = 0 }
+	}
+}
+1434038 = {
+	name = "Evgeny Siyanin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1963.12.1 = { rank = 1 }
+		1965.5.1 = { rank = 2 }
+		1983.3.1 = { rank = 3 }
+		1990.11.1 = { rank = 0 }
+	}
+}
+1434000 = {
+	name = "Vadim Yenin"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1983.3.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434018 = {
+	name = "Evgeny Lagutov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434022 = {
+	name = "Maxim Suvorin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1948.4.1 = { rank = 1 }
+		1971.1.1 = { rank = 2 }
+		1982.7.1 = { rank = 3 }
+		1983.3.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434024 = {
+	name = "Grigory Sayan"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1950.10.1 = { rank = 1 }
+		1972.7.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434039 = {
+	name = "Yury Yunkin"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1964.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434040 = {
+	name = "Yury Pugin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.5.1 = { rank = 1 }
+		1985.8.1 = { rank = 2 }
+		1990.11.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434048 = {
+	name = "Alexandr Ponomaryov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1973.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434051 = {
+	name = "Viktor Mazhulin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	add_trait = defensive_doctrine
+	history = {
+		1976.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434052 = {
+	name = "Anton Dolgorukov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = ranger
+	history = {
+		1976.1.1 = { rank = 1 }
+		1990.11.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434056 = {
+	name = "Grigory Uglichinin"
+	type = land
+	country = BLR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434057 = {
+	name = "Evgeny Kuzmin"
+	type = land
+	country = BLR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434058 = {
+	name = "Grigory Parshin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1981.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434060 = {
+	name = "Boris Tupolev"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = commando
+	history = {
+		1982.6.1 = { rank = 1 }
+		1986.10.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434061 = {
+	name = "Fyodor Shubin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.3.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434062 = {
+	name = "Nikola Vavilov"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1984.7.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434063 = {
+	name = "Viktor Smetanin"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = offensive_doctrine
+	history = {
+		1985.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434064 = {
+	name = "Svyatoslav Yashin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434065 = {
+	name = "Bogdan Snatkin"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1986.10.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434066 = {
+	name = "Denis Kazarezov"
+	type = land
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1987.5.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434067 = {
+	name = "Vadim Bogdanov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1988.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434068 = {
+	name = "Dmitry Steblev"
+	type = land
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = logistics_wizard
+	history = {
+		1989.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434069 = {
+	name = "Yury Prazdnikov"
+	type = land
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434073 = {
+	name = "Vladimir Kirigin"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = seawolf
+	add_trait = spotter
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.8.1 = { rank = 0 }
+	}
+}
+1434077 = {
+	name = "Vadim Yeromeyev"
+	type = sea
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1949.1.1 = { rank = 0 }
+	}
+}
+1434074 = {
+	name = "Anton Kasaty"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.6.1 = { rank = 0 }
+	}
+}
+1434076 = {
+	name = "Yury Krupin"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1949.1.1 = { rank = 4 }
+		1952.4.1 = { rank = 0 }
+	}
+}
+1434070 = {
+	name = "Boris Silvestrov"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1953.1.1 = { rank = 0 }
+	}
+}
+1434081 = {
+	name = "Dmitry Andronikov"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1952.4.1 = { rank = 1 }
+		1957.10.1 = { rank = 0 }
+	}
+}
+1434071 = {
+	name = "Bogdan Mosin"
+	type = sea
+	country = BLR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1957.6.1 = { rank = 0 }
+	}
+}
+1434075 = {
+	name = "Valery Norin"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1949.1.1 = { rank = 3 }
+		1952.4.1 = { rank = 4 }
+		1959.7.1 = { rank = 0 }
+	}
+}
+1434084 = {
+	name = "Denis Gubanov"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.6.1 = { rank = 1 }
+		1962.8.1 = { rank = 0 }
+	}
+}
+1434082 = {
+	name = "Evgeny Sheremetyev"
+	type = sea
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1953.1.1 = { rank = 1 }
+		1959.7.1 = { rank = 2 }
+		1965.10.1 = { rank = 0 }
+	}
+}
+1434079 = {
+	name = "Pyotr Tsvilenev"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1949.1.1 = { rank = 1 }
+		1970.4.1 = { rank = 0 }
+	}
+}
+1434083 = {
+	name = "Dmitry Shkuratov"
+	type = sea
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1957.10.1 = { rank = 1 }
+		1971.11.1 = { rank = 0 }
+	}
+}
+1434080 = {
+	name = "Svyatoslav Shchetkin"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1949.6.1 = { rank = 1 }
+		1965.10.1 = { rank = 2 }
+		1976.2.1 = { rank = 0 }
+	}
+}
+1434090 = {
+	name = "Vladimir Druganin"
+	type = sea
+	country = BLR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1976.2.1 = { rank = 1 }
+		1977.9.1 = { rank = 0 }
+	}
+}
+1434089 = {
+	name = "Vadim Sayankov"
+	type = sea
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1971.11.1 = { rank = 1 }
+		1977.9.1 = { rank = 0 }
+	}
+}
+1434078 = {
+	name = "Denis Babichev"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.8.1 = { rank = 1 }
+		1949.1.1 = { rank = 2 }
+		1952.4.1 = { rank = 3 }
+		1959.7.1 = { rank = 4 }
+		1979.12.1 = { rank = 0 }
+	}
+}
+1434092 = {
+	name = "Vitaly Rogozin"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1977.9.1 = { rank = 1 }
+		1979.5.1 = { rank = 0 }
+	}
+}
+1434085 = {
+	name = "Vladimir Khrushchyov"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1959.7.1 = { rank = 1 }
+		1979.1.1 = { rank = 0 }
+	}
+}
+1434086 = {
+	name = "Svyatoslav Zakrevsky"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.8.1 = { rank = 1 }
+		1982.6.1 = { rank = 0 }
+	}
+}
+1434096 = {
+	name = "Vyacheslav Erdeli"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1982.6.1 = { rank = 1 }
+		1983.3.1 = { rank = 0 }
+	}
+}
+1434087 = {
+	name = "Vitaly Razin"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.10.1 = { rank = 1 }
+		1976.2.1 = { rank = 2 }
+		1979.12.1 = { rank = 3 }
+		1984.8.1 = { rank = 0 }
+	}
+}
+1434097 = {
+	name = "Vasily Putyatin"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.3.1 = { rank = 1 }
+		1985.4.1 = { rank = 0 }
+	}
+}
+1434088 = {
+	name = "Viktor Leonov"
+	type = sea
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1970.4.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1434072 = {
+	name = "Bogdan Dezhnyov"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = seawolf
+	history = {
+		1946.1.1 = { rank = 1 }
+		1952.4.1 = { rank = 2 }
+		1959.7.1 = { rank = 3 }
+		1979.12.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434091 = {
+	name = "Anatoly Kholod"
+	type = sea
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1977.9.1 = { rank = 1 }
+		1979.12.1 = { rank = 2 }
+		1984.8.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434093 = {
+	name = "Boris Datsishin"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	history = {
+		1979.12.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434094 = {
+	name = "Ivan Leonidov"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.5.1 = { rank = 1 }
+		1984.8.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434095 = {
+	name = "Svyatoslav Uvarov"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1979.1.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434098 = {
+	name = "Fyodor Ilyushin"
+	type = sea
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_tactician
+	add_trait = blockade_runner
+	history = {
+		1984.8.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434099 = {
+	name = "Anatoly Sysoyev"
+	type = sea
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.4.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434100 = {
+	name = "Boris Arsenyev"
+	type = sea
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434108 = {
+	name = "Grigory Zyryanov"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1948.5.1 = { rank = 0 }
+	}
+}
+1434102 = {
+	name = "Alexandr Loginov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1949.5.1 = { rank = 0 }
+	}
+}
+1434109 = {
+	name = "Maxim Shustelyov"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1946.1.1 = { rank = 3 }
+		1946.1.1 = { rank = 4 }
+		1950.3.1 = { rank = 0 }
+	}
+}
+1434105 = {
+	name = "Alexandr Suprunov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1950.3.1 = { rank = 2 }
+		1954.11.1 = { rank = 0 }
+	}
+}
+1434103 = {
+	name = "Vitaly Siyankov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1948.5.1 = { rank = 2 }
+		1954.1.1 = { rank = 0 }
+	}
+}
+1434106 = {
+	name = "Yury Melnikov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1948.5.1 = { rank = 3 }
+		1950.3.1 = { rank = 4 }
+		1955.7.1 = { rank = 0 }
+	}
+}
+1434111 = {
+	name = "Maxim Strelnikov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1949.5.1 = { rank = 1 }
+		1958.12.1 = { rank = 0 }
+	}
+}
+1434114 = {
+	name = "Bogdan Shubkin"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1954.1.1 = { rank = 1 }
+		1958.5.1 = { rank = 0 }
+	}
+}
+1434113 = {
+	name = "Dmitry Ryzhov"
+	type = air
+	country = BLR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1954.11.1 = { rank = 1 }
+		1960.11.1 = { rank = 0 }
+	}
+}
+1434101 = {
+	name = "Alexey Kosyak"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.11.1 = { rank = 2 }
+		1961.7.1 = { rank = 0 }
+	}
+}
+1434107 = {
+	name = "Anton Skorobogatov"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1946.1.1 = { rank = 1 }
+		1946.1.1 = { rank = 2 }
+		1950.3.1 = { rank = 3 }
+		1955.7.1 = { rank = 4 }
+		1962.2.1 = { rank = 0 }
+	}
+}
+1434119 = {
+	name = "Boris Utyuzhin"
+	type = air
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1961.7.1 = { rank = 1 }
+		1962.2.1 = { rank = 2 }
+		1965.8.1 = { rank = 0 }
+	}
+}
+1434118 = {
+	name = "Vyacheslav Yakushin"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1960.11.1 = { rank = 1 }
+		1965.6.1 = { rank = 0 }
+	}
+}
+1434115 = {
+	name = "Anton Razin"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1955.7.1 = { rank = 1 }
+		1961.7.1 = { rank = 2 }
+		1962.2.1 = { rank = 3 }
+		1965.9.1 = { rank = 0 }
+	}
+}
+1434116 = {
+	name = "Nikola Golovanov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1958.12.1 = { rank = 1 }
+		1967.4.1 = { rank = 0 }
+	}
+}
+1434104 = {
+	name = "Mikhail Grigoryev"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = fleet_destroyer
+	history = {
+		1946.1.1 = { rank = 1 }
+		1954.1.1 = { rank = 2 }
+		1955.7.1 = { rank = 3 }
+		1962.2.1 = { rank = 4 }
+		1967.9.1 = { rank = 0 }
+	}
+}
+1434117 = {
+	name = "Vadim Rabrenovich"
+	type = air
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = night_flyer
+	history = {
+		1958.5.1 = { rank = 1 }
+		1967.9.1 = { rank = 2 }
+		1972.6.1 = { rank = 0 }
+	}
+}
+1434112 = {
+	name = "Bogdan Parshikov"
+	type = air
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1950.3.1 = { rank = 1 }
+		1955.7.1 = { rank = 2 }
+		1967.9.1 = { rank = 3 }
+		1974.11.1 = { rank = 0 }
+	}
+}
+1434124 = {
+	name = "Ivan Yesipov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.4.1 = { rank = 1 }
+		1974.4.1 = { rank = 0 }
+	}
+}
+1434120 = {
+	name = "Yury Yukhantsev"
+	type = air
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1962.2.1 = { rank = 1 }
+		1965.8.1 = { rank = 2 }
+		1965.9.1 = { rank = 3 }
+		1967.9.1 = { rank = 4 }
+		1980.8.1 = { rank = 0 }
+	}
+}
+1434121 = {
+	name = "Vadim Ostaltsev"
+	type = air
+	country = BLR
+	skill = 3
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.8.1 = { rank = 1 }
+		1974.11.1 = { rank = 2 }
+		1980.8.1 = { rank = 3 }
+		1983.1.1 = { rank = 0 }
+	}
+}
+1434130 = {
+	name = "Anatoly Chernyshyov"
+	type = air
+	country = BLR
+	skill = 2
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1983.1.1 = { rank = 1 }
+		1985.11.1 = { rank = 0 }
+	}
+}
+1434125 = {
+	name = "Gleb Kariyev"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1967.9.1 = { rank = 1 }
+		1985.9.1 = { rank = 0 }
+	}
+}
+1434126 = {
+	name = "Vyacheslav Lyapunov"
+	type = air
+	country = BLR
+	skill = 4
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1972.6.1 = { rank = 1 }
+		1990.9.1 = { rank = 0 }
+	}
+}
+1434128 = {
+	name = "Bogdan Yemelyanenko"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1974.4.1 = { rank = 1 }
+		1980.8.1 = { rank = 2 }
+		1983.1.1 = { rank = 3 }
+		1990.6.1 = { rank = 0 }
+	}
+}
+1434110 = {
+	name = "Artyom Dyrbov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1948.5.1 = { rank = 1 }
+		1965.9.1 = { rank = 2 }
+		1990.6.1 = { rank = 3 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434122 = {
+	name = "Vasily Lyagushov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.6.1 = { rank = 1 }
+		1990.6.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434123 = {
+	name = "Denis Kirsanov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1965.9.1 = { rank = 1 }
+		1972.6.1 = { rank = 2 }
+		1974.11.1 = { rank = 3 }
+		1980.8.1 = { rank = 4 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434127 = {
+	name = "Valery Kurakin"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1974.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434129 = {
+	name = "Alexey Mesyats"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1980.8.1 = { rank = 1 }
+		1983.1.1 = { rank = 2 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434131 = {
+	name = "Gleb Durchenko"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1985.11.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434132 = {
+	name = "Vasily Abalyshev"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1985.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434133 = {
+	name = "Alexandr Semyonov"
+	type = air
+	country = BLR
+	skill = 0
+	max_skill = 9
+	loyalty = 1.00
+	history = {
+		1990.9.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
+1434134 = {
+	name = "Maxim Sechenov"
+	type = air
+	country = BLR
+	skill = 1
+	max_skill = 9
+	loyalty = 1.00
+	add_trait = superior_air_tactician
+	history = {
+		1990.6.1 = { rank = 1 }
+		1991.12.31 = { rank = 0 }
+	}
+}
